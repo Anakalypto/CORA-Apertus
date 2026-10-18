@@ -1,0 +1,551 @@
+{
+ "reviewer": "Claude (Opus 5.5) for the CORA team",
+ "prompt_version": {
+  "classify": "v2",
+  "audit": "v3"
+ },
+ "method": "Every 4th record of the sample (25 records, all strata); each output field compared with the original metadata and hierarchy. 'unverified' = could not be confirmed from the record and is excluded from accuracy. Re-review of the same 25 records after recommendations 1-4 of the quality report §8, compared with data/classified_v1.jsonl. 'major_errors' = an error that changes what a user would conclude about the record (wrong author, anachronistic creator, wrong parliamentary instrument); none remained.",
+ "v1_review_correction": {
+  "21681248": "entities: v1 marked 'knowledge_beyond_source', but both first names are in the record's thema field. With that correction v1 entity accuracy is 80% (not 76%)."
+ },
+ "items": [
+  {
+   "id": "22406340",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "error",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "title_not_normalized"
+   ],
+   "note": "'OPP.' now understood: title_en and résumé say the report is about opposition to the power line. title_normalized still keeps the capitalised card-catalogue form.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "missed_abbreviation_meaning",
+    "title_not_normalized"
+   ]
+  },
+  {
+   "id": "21810037",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Creator 'TSI' without the label (was 'Produktion: TSI').",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "field_label_not_stripped"
+   ]
+  },
+  {
+   "id": "29666896",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "error"
+   },
+   "errors": [
+    "sensitive_category_missed"
+   ],
+   "note": "Still not flagged: Vreni Spoerry is named as defendant in criminal proceedings (persons role says so), but the audit answered 'no identifiable person concerned'. Author Andri Franziscus still not listed.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "sensitive_category_missed"
+   ]
+  },
+  {
+   "id": "22365853",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "error",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "title_not_normalized",
+    "factual_error_resume",
+    "entity_missed"
+   ],
+   "note": "Typo 'Franktionsausflug' still kept. Résumé calls the 1:47 clip a '22-minute' report (22:28 is the total tape length; v1 said '22-second'). Fulvio Pelli, who gives a statement, is missing from persons.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "title_not_normalized"
+   ]
+  },
+  {
+   "id": "21693637",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Mann im Bademantel' still extracted as a person despite the new rule.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "unnamed_group_as_person"
+   ]
+  },
+  {
+   "id": "21790117",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Unchanged and right; sensitivity 'high' for the detention of a named public figure is defensible.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "22371890",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Bern now 'depicted' (was 'created'). Creator SF from the production entry.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "wrong_place_role"
+   ]
+  },
+  {
+   "id": "26688477",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Unchanged and right.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "22323423",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "'Duplex' now read as a live market report with Hanspeter Hausheer; creator 'DRS' without label.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "misread_role",
+    "field_label_not_stripped"
+   ]
+  },
+  {
+   "id": "21681248",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Labels stripped. Note: the first names 'Fredy' Bickel and 'Hans-Peter' Friedländer ARE in the record's 'thema' field (Personen: …); the v1 verdict 'knowledge_beyond_source' was a reviewer error.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "knowledge_beyond_source",
+    "field_label_not_stripped"
+   ]
+  },
+  {
+   "id": "32573103",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Major error fixed: creator null (the Intelligence Service is the 2010- depositing agency), no speculation, no sensitivity flag; résumé names the 2020 deposit correctly.",
+   "v1_verdict": "major_errors",
+   "v1_errors": [
+    "speculation",
+    "anachronistic_creator",
+    "sensitive_false_positive"
+   ]
+  },
+  {
+   "id": "3237334",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "The unit 'Batallion 24' extracted as a person.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "unnamed_group_as_person"
+   ]
+  },
+  {
+   "id": "3236851",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "unverified",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Unchanged and right.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "3239129",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Offiziere' still extracted as a person.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "unnamed_group_as_person"
+   ]
+  },
+  {
+   "id": "3238291",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Unchanged and right.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "3240019",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "3236632",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "unverified",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Unchanged; Lützel ambiguity as in v1.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "3241526",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Offiziere' still extracted as a person.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "unnamed_group_as_person"
+   ]
+  },
+  {
+   "id": "31200573",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Medium now 'moving image' (video series), questioner and speaker right.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "32583909",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "All 22 speakers, now as 'speaker in debate'; Sondersession Mai 2017 right.",
+   "v1_verdict": "correct",
+   "v1_errors": []
+  },
+  {
+   "id": "3514516",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Major error fixed: 'Postulate' kept, date given as the debate date, résumé describes an audio recording of the debate, asylum policy no longer flagged as sensitive.",
+   "v1_verdict": "major_errors",
+   "v1_errors": [
+    "wrong_term_translation",
+    "date_semantics",
+    "speculation",
+    "sensitive_false_positive"
+   ]
+  },
+  {
+   "id": "31042425",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unsupported_claim"
+   ],
+   "note": "Major error fixed: creator is the National Council and Maya Graf is a speaker, not the author. Résumé still claims an 'official transcript' although the series holds video recordings.",
+   "v1_verdict": "major_errors",
+   "v1_errors": [
+    "wrong_author_attribution"
+   ]
+  },
+  {
+   "id": "32463405",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Debate date no longer presented as introduction date.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "date_semantics"
+   ]
+  },
+  {
+   "id": "3524710",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "error",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "wrong_place_role"
+   ],
+   "note": "Conference date no longer invented, but the sentence still lets the debate date read as the conference date; Nicosia still 'depicted' instead of 'mentioned'.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "unsupported_claim",
+    "wrong_place_role"
+   ]
+  },
+  {
+   "id": "3514472",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Résumé now consistent with the audio medium.",
+   "v1_verdict": "minor_errors",
+   "v1_errors": [
+    "internal_inconsistency"
+   ]
+  }
+ ]
+}

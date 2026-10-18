@@ -28,3 +28,15 @@ build/
 
 # Challenge material (slides, specs), not ours to redistribute
 material/
+
+# Pipeline run logs (regenerated on every run)
+data/log_*.txt
+# Re-downloadable source dump (opendata.swiss)
+data/stapfer/*.sql.zip
+data/stapfer/cases.json
+
+# Jupyter / local tooling
+.ipynb_checkpoints/
+.claude/
+Thumbs.db
+desktop.ini

@@ -10,6 +10,8 @@
 
 All figures are reproducible with `python src/run.py qc` and are shown live on the *Quality check* page of the demo.
 
+**Versions.** Sections 2–7 describe the first prompt version (v1). Section 9 re-measures everything after the fixes recommended in §8 (prompt v2): **0 major errors instead of 3, résumés correct 68 % → 92 %, creator/publisher 80 % → 100 %**. The demo and the dataset use v2. (The 70B-vs-8B comparison in §2 was not rerun and still refers to v1.)
+
 ## 1. Sample
 
 | Stratum (by original `form` field) | Population | Drawn |
@@ -149,3 +151,85 @@ With 6 parallel requests, 100 records take about 6.5 min (pass 1) plus 2.5 min (
 4. **Anonymization: distinguish topic from person.** Ask "is an *identifiable person* concerned by …" instead of "does the record concern …".
 5. **Keep rules for mechanical facts** (encoding, dates, accession year) and keep Apertus for interpretation. That split is where each is strong.
 6. **Scale-up check**: repeat the manual review on a fresh sample after applying 1–4. The measurement code is in place.
+
+## 9. v1 → v2: applying recommendations 1–4
+
+Prompt versions: classify v1 → **v2**, audit v2 → **v3** (`PROMPT_VERSION` in `src/cora/export.py`). The v1 output is kept as `data/classified_v1.jsonl` (with `qc_report_v1.json`, `enriched_v1.jsonl`, `dataset_v1/`). The v2 output is the one the dataset and the demo now use. Same 100 records, same model (Apertus v1.5 70B), same temperature.
+
+**What changed**
+
+1. **Role labels parsed by rule** (`parse_roles`, `parse_speakers` in `src/cora/classify.py`). Apertus no longer sees `"AutorIn: Strub, Edi (AUT)\nProduktionsgesellschaft: SF"`. It gets `[{"name": "Edi Strub", "role": "author"}, {"name": "SF", "role": "production company"}]`. The parliamentary field `"Autor: Sprecher/Sprecherinnen: Graf, Maya;"`, which misleadingly starts with *Autor*, becomes `"speakers_in_debate": ["Maya Graf"]`. The rule detectors and the QC still read the original record.
+2. **Archival conventions in the pass-1 prompt**:
+   - *Sprecher* ≠ author; the author of a Motion/Postulat/Interpellation is the member named in the title; the Council is the creator of the recording.
+   - The instruments are distinct terms.
+   - A parliamentary date is the debate date.
+   - The depositing agency or fonds is not the creator when it postdates the record.
+   - TSR abbreviations: OPP., INT., DUPLEX.
+   - Unnamed groups are not persons.
+3. **No name completion**: names are copied exactly as written, never completed from world knowledge.
+4. **Person-centred sensitivity** in the audit: "is an *identifiable person* concerned by …". A debate *about* asylum or health is explicitly a "no".
+
+A first v2 run went backwards on one point. Once "Produktion" became a neutral `role: production`, Apertus put the *publisher* (SRG SSR) as creator in 14 of 44 records (creator agreement 30/44). One more sentence fixed it ("when the record has an author field, the creator comes from it … the publisher field gives the publisher, never the creator"). The figures below are from the second run. **Removing a label also removes the hint that the label carried. A structured input needs an explicit mapping rule.**
+
+**Manual review: the same 25 records** (`data/manual_review_v2.json`)
+
+| Verdict | v1 | v2 |
+|---|---:|---:|
+| Correct | 8 | **16** |
+| Minor errors only | 14 | 9 |
+| Major errors | 3 | **0** |
+
+| Field | v1 | v2 |
+|---|---:|---:|
+| Document type | 100 % | 100 % |
+| Source level | 100 % | 100 % |
+| Dates | 96 % | **100 %** |
+| Places | 91 % | **96 %** |
+| Title (normalized / translated) | 88 % | **92 %** |
+| Personal-data assessment | 88 % | **96 %** |
+| Creator / publisher | 80 % | **100 %** |
+| Entities | 76 % ¹ | **80 %** |
+| **Résumé** | 68 % | **92 %** |
+
+¹ Correction to the v1 review: the first names "Fredy" Bickel and "Hans-Peter" Friedländer (21681248) *are* in the record's `thema` field (`Personen: …`). The v1 verdict "knowledge beyond the source" was a reviewer error. Corrected, v1 entities would be 80 %, so on entities v2 shows **no measurable gain**. The published v1 file is left unchanged and the correction is recorded in `manual_review_v2.json`.
+
+**All three major errors are fixed**:
+- The Youth Session petition is no longer attributed to the speaker Maya Graf.
+- The 2010 Intelligence Service is no longer the creator of a 1939–45 slide (creator now null, no sensitivity flag, no "likely").
+- *Postulat* is kept as "postulate", the date is the debate date, and asylum policy is no longer flagged as sensitive.
+
+Also fixed: the creator labels ("Produktion: TSI"), OPP. and Duplex, a place role (Bern), the speculative and over-claiming résumés, and the transcript/sound inconsistency.
+
+**What did not improve**
+
+| Remaining error (v2) | n | Comment |
+|---|---:|---|
+| Unnamed group as person | 4 | "Offiziere" ×2, "Mann im Bademantel", "Batallion 24". The prompt rule had **no effect**, so it needs a rule-based filter (no capitalised proper name → not a person). |
+| Title not normalized | 2 | Capitalised TSR title and the typo "Franktionsausflug" are still kept, although title_en is right. |
+| Sensitive category missed | 1 | Swissair trial: Apertus lists Vreni Spoerry as "defendant" in `persons` yet answers "no identifiable person concerned". |
+| Résumé factual / unsupported | 2 | "22-minute" clip (1:47 clip on a 22:28 tape); "official transcript" for a video series. |
+| Entity missed | 1 | Fulvio Pelli (gives a statement) dropped. |
+| Wrong place role | 1 | Nicosia "depicted" instead of "mentioned". |
+
+**Automatic checks, all 100 records**
+
+| Metric | v1 | v2 |
+|---|---:|---:|
+| Processed correctly / structural errors | 99 % / 1 % | 99 % / 1 % |
+| Creator or publisher still carrying a field label | 20 | **0** |
+| Creator agrees with record "author" (label-insensitive check) | 40 / 44 | **44 / 44** |
+| Named entities literally in the source | 92.0 % (377) | **96.1 %** (357) |
+| Speculative résumés ("likely" …) | 1 | **0** |
+| Records flagged for anonymization verification | 12 % | **3 %** |
+| Sensitive category (identifiable person) | 11 % | 3 % |
+| Private individual named | 1 % | **0 %** ⚠️ |
+| Prompt tokens, pass 1 | 188,430 | 245,751 (+30 %, longer system prompt) |
+| Mean latency per record, pass 1 | 22.7 s | 24.4 s |
+
+**Anonymization: precision up, recall not.** Of the 12 v1 flags, 9 were topic-level false positives (asylum, health insurance, victim-assistance debates, the Intelligence Service, a cancer-research news item). v2 keeps 3 flags: the anti-racism-law conviction (29668237), the newborn kidnapping (21811418) and Indira Gandhi's detention (a public figure, defensible). The 1852 police record of a private individual (30314032, "Zürcher, Joseph — 18 Jahre alt, Beruf: Korber") **is now missed**: the private-individual check dropped from 1 % to 0 %. The Swissair trial is still missed. On the four real cases found by hand, recall is v1 3/4 → v2 2/4. The person-centred wording made Apertus more conservative across the board, not just on topics.
+
+**Next steps**
+- Filter unnamed groups out of `persons` by rule.
+- Add a rule check: a person whose own role in `persons` names a proceeding ("defendant", "accused", "victim") should get sensitive_categories = true.
+- Restore the private-individual question as a separate, unchanged check. Its v1 wording was not the source of the false positives.
+- Repeat the review on a fresh sample (recommendation 6). These 25 records also guided the prompt changes, so the v2 numbers are optimistic.

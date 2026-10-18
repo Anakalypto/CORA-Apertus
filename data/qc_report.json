@@ -18,7 +18,11 @@
     76
    ],
    [
-    "resume_speculative",
+    "source_level_secondary_mismatch",
+    1
+   ],
+   [
+    "ungrounded_entities",
     1
    ],
    [
@@ -27,32 +31,32 @@
    ]
   ],
   "resume_max_3_sentences_pct": 100.0,
-  "entity_grounding_pct": 100.0,
-  "entity_grounding_strict_pct": 92.0,
-  "entities": 377,
-  "ungrounded_entities": 0,
+  "entity_grounding_pct": 99.7,
+  "entity_grounding_strict_pct": 96.1,
+  "entities": 357,
+  "ungrounded_entities": 1,
   "date_created_in_range_pct": 100.0,
   "date_archived_correct_pct": 24.0,
-  "creator_agreement": "40/44",
+  "creator_agreement": "44/44",
   "publisher_agreement": "28/28",
-  "source_level_rule_agreement": "99/99",
-  "places": 99,
-  "places_resolved_pct": 82.8,
-  "model_coords_given": 51,
-  "model_coord_error_km_median": 1.8,
-  "model_coord_within_25km_pct": 94.1,
+  "source_level_rule_agreement": "98/99",
+  "places": 101,
+  "places_resolved_pct": 79.2,
+  "model_coords_given": 33,
+  "model_coord_error_km_median": 1.0,
+  "model_coord_within_25km_pct": 97.0,
   "preprocessing_flag_rates_pct": {
-   "transcription_normalization": 42.0,
-   "structure_extraction": 43.0,
-   "schema_harmonization": 69.0,
+   "transcription_normalization": 56.0,
+   "structure_extraction": 41.0,
+   "schema_harmonization": 64.0,
    "linked_data_entity_linking": 100.0,
-   "date_geolocation_parsing": 99.0,
-   "anonymization_verification": 12.0
+   "date_geolocation_parsing": 100.0,
+   "anonymization_verification": 3.0
   },
   "preprocessing_v1_rates_pct": {
-   "transcription_normalization": 99.0,
-   "structure_extraction": 100.0,
-   "schema_harmonization": 100.0,
+   "transcription_normalization": 91.0,
+   "structure_extraction": 99.0,
+   "schema_harmonization": 99.0,
    "linked_data_entity_linking": 100.0,
    "date_geolocation_parsing": 100.0,
    "anonymization_verification": 0.0
@@ -60,39 +64,39 @@
   "preprocessing_flag_vs_evidence": {
    "encoding_damage": {
     "rule_positive": 38,
-    "apertus_positive": 0,
-    "recall": 0.0,
-    "precision": null
+    "apertus_positive": 32,
+    "recall": 0.842,
+    "precision": 1.0
    },
    "uppercase_or_abbreviated_title": {
     "rule_positive": 3,
-    "apertus_positive": 9,
+    "apertus_positive": 21,
     "recall": 0.667,
-    "precision": 0.222
+    "precision": 0.095
    },
    "labelled_subfields": {
     "rule_positive": 41,
-    "apertus_positive": 41,
+    "apertus_positive": 39,
     "recall": 0.951,
-    "precision": 0.951
+    "precision": 1.0
    },
    "packed_role_fields": {
     "rule_positive": 39,
-    "apertus_positive": 14,
-    "recall": 0.128,
-    "precision": 0.357
+    "apertus_positive": 6,
+    "recall": 0.154,
+    "precision": 1.0
    },
    "nonstandard_dates": {
     "rule_positive": 96,
-    "apertus_positive": 95,
-    "recall": 0.979,
-    "precision": 0.989
+    "apertus_positive": 98,
+    "recall": 1.0,
+    "precision": 0.98
    }
   },
   "personal_data": {
-   "names_persons_pct": 65.0,
-   "private_individuals_pct": 1.0,
-   "sensitive_pct": 11.0,
+   "names_persons_pct": 64.0,
+   "private_individuals_pct": 0.0,
+   "sensitive_pct": 3.0,
    "v1_flagged_pct": 0.0
   },
   "distribution": {
@@ -103,22 +107,22 @@
     ],
     [
      "photograph",
-     29
+     30
     ],
     [
      "parliamentary record",
-     23
+     24
     ],
     [
      "newsreel",
-     8
+     6
+    ],
+    [
+     "administrative file",
+     2
     ],
     [
      "radio broadcast",
-     1
-    ],
-    [
-     "report",
      1
     ],
     [
@@ -126,49 +130,104 @@
      1
     ],
     [
-     "administrative file",
-     1
-    ],
-    [
-     "minutes / protocol",
+     "press article",
      1
     ]
    ],
    "source_level": [
     [
      "primary",
-     100
+     99
+    ],
+    [
+     "secondary",
+     1
     ]
    ]
   },
   "cost": {
-   "prompt_tokens": 188430,
-   "completion_tokens": 87235,
-   "mean_seconds_per_record": 22.7,
+   "prompt_tokens": 245751,
+   "completion_tokens": 86275,
+   "mean_seconds_per_record": 24.4,
    "retries": 0
   },
   "consistency_70b_vs_8b": {
    "document_type": {
     "n": 100,
-    "agreement": 0.8,
-    "kappa": 0.741
+    "agreement": 0.78,
+    "kappa": 0.715
    },
    "medium": {
     "n": 100,
-    "agreement": 0.78,
-    "kappa": 0.672
+    "agreement": 0.86,
+    "kappa": 0.781
    },
    "source_level": {
     "n": 100,
-    "agreement": 1.0,
-    "kappa": 1.0
+    "agreement": 0.99,
+    "kappa": 0.0
    },
    "date_created_year": {
     "n": 100,
-    "agreement": 0.85
+    "agreement": 0.86
    }
   },
   "manual_review": {
+   "reviewed": 25,
+   "verdicts": [
+    [
+     "correct",
+     16
+    ],
+    [
+     "minor_errors",
+     9
+    ]
+   ],
+   "field_accuracy": {
+    "creator_publisher": 100.0,
+    "dates": 100.0,
+    "document_type": 100.0,
+    "entities": 80.0,
+    "personal_data": 96.0,
+    "places": 95.7,
+    "resume": 92.0,
+    "source_level": 100.0,
+    "title": 92.0
+   },
+   "error_types": [
+    [
+     "unnamed_group_as_person",
+     4
+    ],
+    [
+     "title_not_normalized",
+     2
+    ],
+    [
+     "sensitive_category_missed",
+     1
+    ],
+    [
+     "factual_error_resume",
+     1
+    ],
+    [
+     "entity_missed",
+     1
+    ],
+    [
+     "unsupported_claim",
+     1
+    ],
+    [
+     "wrong_place_role",
+     1
+    ]
+   ],
+   "prompt_version": "v2"
+  },
+  "manual_review_v1": {
    "reviewed": 25,
    "verdicts": [
     [
@@ -261,6 +320,18 @@
      1
     ]
    ]
+  },
+  "automatic_v1": {
+   "processed_ok_pct": 99.0,
+   "structural_error_pct": 1.0,
+   "entity_grounding_strict_pct": 92.0,
+   "entity_grounding_pct": 100.0,
+   "entities": 377,
+   "creator_agreement": "40/44",
+   "publisher_agreement": "28/28",
+   "sensitive_pct": 11.0,
+   "anonymization_flag_pct": 12.0,
+   "resume_speculative": 1
   }
  },
  "records": [
@@ -277,8 +348,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
-   "resume_sentences": 3,
+   "n_entities": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -297,7 +368,7 @@
     "transcription_normalization": true,
     "anonymization_verification": false
    },
-   "places_total": 3,
+   "places_total": 2,
    "places_resolved": 2,
    "model_error_km": [],
    "ok": true
@@ -315,8 +386,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 3,
-   "resume_sentences": 3,
+   "n_entities": 4,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -396,7 +467,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 4,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -418,7 +489,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    0.3
+    0.4
    ],
    "ok": true
   },
@@ -436,7 +507,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 4,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -458,10 +529,7 @@
    },
    "places_total": 2,
    "places_resolved": 2,
-   "model_error_km": [
-    0.3,
-    21.8
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -477,8 +545,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
-   "resume_sentences": 2,
+   "n_entities": 3,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -501,7 +569,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    0.9
+    1.0
    ],
    "ok": true
   },
@@ -564,7 +632,7 @@
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
-    "creator": false,
+    "creator": true,
     "publisher": true
    },
    "expected_source_level": "primary",
@@ -598,8 +666,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
-   "resume_sentences": 2,
+   "n_entities": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -621,7 +689,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    3.5
+    12.6
    ],
    "ok": true
   },
@@ -638,7 +706,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 10,
+   "n_entities": 9,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -661,12 +729,7 @@
    },
    "places_total": 4,
    "places_resolved": 4,
-   "model_error_km": [
-    0.4,
-    0.4,
-    0.7,
-    1.8
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -683,7 +746,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 2,
-   "resume_sentences": 3,
+   "resume_sentences": 1,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -720,7 +783,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 3,
+   "n_entities": 2,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -760,7 +823,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 8,
+   "n_entities": 3,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -782,9 +845,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    5.3
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -800,12 +861,12 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 5,
+   "n_entities": 4,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
-    "creator": false,
+    "creator": true,
     "publisher": true
    },
    "expected_source_level": "primary",
@@ -815,35 +876,36 @@
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": true,
     "anonymization_verification": true
    },
    "places_total": 2,
-   "places_resolved": 0,
-   "model_error_km": [],
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
    "ok": true
   },
   {
    "id": "22383857",
    "stratum": "audiovisual",
    "document_type": "TV news report",
-   "source_level": "primary",
+   "source_level": "secondary",
    "structural_errors": [],
    "critical": [],
    "warnings": [
-    "date_archived_mismatch"
+    "date_archived_mismatch",
+    "source_level_secondary_expected_primary"
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "place:Germany"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 9,
    "resume_sentences": 2,
-   "created_in_range": true,
+   "created_in_range": null,
    "archived_ok": false,
    "agreement": {
     "creator": true
@@ -880,7 +942,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 5,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -959,7 +1021,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 5,
+   "n_entities": 4,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -1079,7 +1141,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1120,7 +1182,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 5,
-   "resume_sentences": 1,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1143,7 +1205,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    8.3
+    7.7
    ],
    "ok": true
   },
@@ -1155,14 +1217,17 @@
    "structural_errors": [],
    "critical": [],
    "warnings": [
+    "ungrounded_entities",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
-   "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Nea Dimokratia"
+   "ungrounded": [
+    "organization:Nea-Demokratia"
    ],
-   "n_entities": 17,
+   "ungrounded_strict": [
+    "organization:Nea-Demokratia"
+   ],
+   "n_entities": 20,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -1182,13 +1247,9 @@
     "transcription_normalization": true,
     "anonymization_verification": true
    },
-   "places_total": 5,
+   "places_total": 6,
    "places_resolved": 4,
-   "model_error_km": [
-    1.1,
-    0.4,
-    33.0
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -1204,8 +1265,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 2,
-   "resume_sentences": 3,
+   "n_entities": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1227,9 +1288,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    0.4
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -1246,11 +1305,11 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 7,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
-    "creator": false
+    "creator": true
    },
    "expected_source_level": "primary",
    "flags": {
@@ -1286,7 +1345,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 6,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1310,9 +1369,9 @@
    "places_resolved": 4,
    "model_error_km": [
     0.4,
-    14.4,
-    12.1,
-    5.9
+    11.4,
+    13.3,
+    9.9
    ],
    "ok": true
   },
@@ -1328,8 +1387,11 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [],
-   "n_entities": 5,
+   "ungrounded_strict": [
+    "place:Switzerland",
+    "place:France"
+   ],
+   "n_entities": 6,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -1349,7 +1411,7 @@
     "transcription_normalization": true,
     "anonymization_verification": true
    },
-   "places_total": 1,
+   "places_total": 3,
    "places_resolved": 1,
    "model_error_km": [
     0.4
@@ -1370,7 +1432,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 5,
-   "resume_sentences": 1,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1416,7 +1478,7 @@
    "flags": {
     "transcription_normalization": false,
     "structure_extraction": true,
-    "schema_harmonization": true,
+    "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
     "anonymization_verification": false
@@ -1428,7 +1490,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    10.2
+    13.7
    ],
    "ok": true
   },
@@ -1445,8 +1507,8 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
-   "resume_sentences": 3,
+   "n_entities": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1483,12 +1545,12 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
+   "n_entities": 6,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
-    "creator": false,
+    "creator": true,
     "publisher": true
    },
    "expected_source_level": "primary",
@@ -1504,11 +1566,12 @@
     "transcription_normalization": true,
     "anonymization_verification": true
    },
-   "places_total": 2,
-   "places_resolved": 2,
+   "places_total": 3,
+   "places_resolved": 3,
    "model_error_km": [
     0.5,
-    0.3
+    0.3,
+    0.4
    ],
    "ok": true
   },
@@ -1525,7 +1588,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 3,
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -1567,7 +1630,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 5,
-   "resume_sentences": 1,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1621,7 +1684,7 @@
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": true,
@@ -1646,10 +1709,8 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Kantonspolizei"
-   ],
-   "n_entities": 4,
+   "ungrounded_strict": [],
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -1731,7 +1792,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 7,
+   "n_entities": 8,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -1772,7 +1833,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 3,
+   "n_entities": 2,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -1794,9 +1855,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    16.9
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -1812,7 +1871,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
+   "n_entities": 3,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
@@ -1852,7 +1911,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 3,
+   "resume_sentences": 1,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {
@@ -1885,13 +1944,12 @@
    "structural_errors": [],
    "critical": [],
    "warnings": [
-    "resume_speculative",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 1,
+   "n_entities": 0,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -1902,8 +1960,8 @@
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
-    "date_geolocation_parsing": false,
-    "anonymization_verification": true
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -1925,7 +1983,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Swiss Army"
+    "organization:Armeeestab (Swiss Army General Staff)"
    ],
    "n_entities": 2,
    "resume_sentences": 3,
@@ -1947,9 +2005,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    16.5
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -1962,9 +2018,11 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [],
-   "n_entities": 4,
-   "resume_sentences": 2,
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2030,10 +2088,8 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Army"
-   ],
-   "n_entities": 3,
+   "ungrounded_strict": [],
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
@@ -2068,7 +2124,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 3,
+   "resume_sentences": 1,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2105,14 +2161,14 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 2,
-   "resume_sentences": 3,
+   "n_entities": 1,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
@@ -2123,8 +2179,8 @@
     "transcription_normalization": false,
     "anonymization_verification": false
    },
-   "places_total": 1,
-   "places_resolved": 1,
+   "places_total": 0,
+   "places_resolved": 0,
    "model_error_km": [],
    "ok": true
   },
@@ -2138,11 +2194,9 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Army"
-   ],
-   "n_entities": 4,
-   "resume_sentences": 1,
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2161,11 +2215,9 @@
     "transcription_normalization": false,
     "anonymization_verification": false
    },
-   "places_total": 2,
-   "places_resolved": 2,
-   "model_error_km": [
-    13.7
-   ],
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -2180,7 +2232,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 2,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2215,12 +2267,12 @@
     "geo_conflict_over_50km"
    ],
    "geo_conflicts": [
-    "Erstfeld (148.8 km)"
+    "Erstfeld (154.2 km)"
    ],
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 2,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2240,7 +2292,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    148.8
+    154.2
    ],
    "ok": true
   },
@@ -2255,10 +2307,10 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Swiss Army"
+    "organization:Swiss Army (Armeestab)"
    ],
    "n_entities": 2,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2292,7 +2344,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 2,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2348,7 +2400,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    15.4
+    14.1
    ],
    "ok": true
   },
@@ -2374,7 +2426,7 @@
    "flags": {
     "transcription_normalization": false,
     "structure_extraction": false,
-    "schema_harmonization": true,
+    "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
     "anonymization_verification": false
@@ -2438,7 +2490,7 @@
     "organization:Swiss Army"
    ],
    "n_entities": 3,
-   "resume_sentences": 1,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2458,7 +2510,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    8.6
+    5.0
    ],
    "ok": true
   },
@@ -2474,7 +2526,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 3,
+   "resume_sentences": 1,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2496,7 +2548,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    17.1
+    17.4
    ],
    "ok": true
   },
@@ -2514,7 +2566,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -2522,7 +2574,7 @@
    "flags": {
     "transcription_normalization": false,
     "structure_extraction": false,
-    "schema_harmonization": true,
+    "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
     "anonymization_verification": false
@@ -2550,7 +2602,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {
@@ -2558,12 +2610,12 @@
    },
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": true,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -2588,18 +2640,18 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 1,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -2628,9 +2680,9 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
-    "schema_harmonization": true,
+    "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
     "anonymization_verification": false
@@ -2655,7 +2707,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Swiss Army (Armeestab)"
+    "place:Switzerland"
    ],
    "n_entities": 3,
    "resume_sentences": 2,
@@ -2664,7 +2716,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
@@ -2676,10 +2728,8 @@
     "anonymization_verification": false
    },
    "places_total": 1,
-   "places_resolved": 1,
-   "model_error_km": [
-    0.4
-   ],
+   "places_resolved": 0,
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -2692,10 +2742,8 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Army"
-   ],
-   "n_entities": 2,
+   "ungrounded_strict": [],
+   "n_entities": 3,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
@@ -2729,14 +2777,14 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 2,
+   "n_entities": 3,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
@@ -2749,9 +2797,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    9.3
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -2764,10 +2810,8 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Army"
-   ],
-   "n_entities": 3,
+   "ungrounded_strict": [],
+   "n_entities": 2,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": true,
@@ -2803,7 +2847,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Swiss Army"
+    "organization:Swiss Army Staff (Armeestab)"
    ],
    "n_entities": 2,
    "resume_sentences": 3,
@@ -2826,7 +2870,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    10.3
+    10.2
    ],
    "ok": true
   },
@@ -2869,7 +2913,7 @@
   {
    "id": "5859153",
    "stratum": "still_image",
-   "document_type": "newsreel",
+   "document_type": "photograph",
    "source_level": "primary",
    "structural_errors": [],
    "critical": [],
@@ -2879,7 +2923,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 4,
+   "n_entities": 3,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -2888,7 +2932,7 @@
    "flags": {
     "transcription_normalization": false,
     "structure_extraction": false,
-    "schema_harmonization": true,
+    "schema_harmonization": false,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
     "anonymization_verification": false
@@ -2899,9 +2943,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    0.4
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -2918,7 +2960,7 @@
     "organization:Swiss Army"
    ],
    "n_entities": 3,
-   "resume_sentences": 1,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2937,9 +2979,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    8.8
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -2952,11 +2992,9 @@
    "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Army"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -2976,7 +3014,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [
-    11.5
+    5.4
    ],
    "ok": true
   },
@@ -2992,10 +3030,8 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "place:Switzerland"
-   ],
-   "n_entities": 4,
+   "ungrounded_strict": [],
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -3013,7 +3049,7 @@
     "transcription_normalization": false,
     "anonymization_verification": true
    },
-   "places_total": 1,
+   "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
    "ok": true
@@ -3038,12 +3074,12 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -3066,11 +3102,9 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -3095,7 +3129,7 @@
   {
    "id": "30704186",
    "stratum": "other",
-   "document_type": "report",
+   "document_type": "administrative file",
    "source_level": "primary",
    "structural_errors": [],
    "critical": [],
@@ -3106,11 +3140,11 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 2,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
-   "expected_source_level": null,
+   "expected_source_level": "primary",
    "flags": {
     "transcription_normalization": true,
     "structure_extraction": false,
@@ -3176,11 +3210,9 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 5,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -3199,9 +3231,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    27.1
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -3216,10 +3246,8 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
-   "n_entities": 23,
+   "ungrounded_strict": [],
+   "n_entities": 22,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -3227,7 +3255,7 @@
    "expected_source_level": "primary",
    "flags": {
     "transcription_normalization": false,
-    "structure_extraction": true,
+    "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
@@ -3262,7 +3290,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": false,
     "linked_data_entity_linking": true,
@@ -3290,11 +3318,9 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Federal Assembly"
-   ],
-   "n_entities": 2,
-   "resume_sentences": 2,
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -3305,7 +3331,7 @@
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -3364,9 +3390,7 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
@@ -3379,7 +3403,7 @@
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
@@ -3402,9 +3426,7 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 3,
    "resume_sentences": 3,
    "created_in_range": true,
@@ -3448,7 +3470,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
@@ -3476,9 +3498,7 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
@@ -3486,7 +3506,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
@@ -3515,7 +3535,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 1,
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -3551,14 +3571,14 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 3,
+   "n_entities": 2,
    "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
@@ -3586,9 +3606,11 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [],
-   "n_entities": 1,
-   "resume_sentences": 2,
+   "ungrounded_strict": [
+    "place:Switzerland"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -3605,7 +3627,7 @@
     "transcription_normalization": false,
     "anonymization_verification": true
    },
-   "places_total": 0,
+   "places_total": 2,
    "places_resolved": 0,
    "model_error_km": [],
    "ok": true
@@ -3630,7 +3652,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
@@ -3659,7 +3681,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Swiss National Council"
+    "organization:National Council (Swiss Parliament)"
    ],
    "n_entities": 3,
    "resume_sentences": 3,
@@ -3734,7 +3756,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -3759,7 +3781,7 @@
   {
    "id": "31060099",
    "stratum": "other",
-   "document_type": "newsreel",
+   "document_type": "press article",
    "source_level": "primary",
    "structural_errors": [],
    "critical": [],
@@ -3774,7 +3796,7 @@
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
-   "expected_source_level": "primary",
+   "expected_source_level": null,
    "flags": {
     "transcription_normalization": true,
     "structure_extraction": false,
@@ -3804,9 +3826,7 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Federal Assembly (National Council)"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 4,
    "resume_sentences": 3,
    "created_in_range": true,
@@ -3827,9 +3847,7 @@
    },
    "places_total": 1,
    "places_resolved": 1,
-   "model_error_km": [
-    1.2
-   ],
+   "model_error_km": [],
    "ok": true
   },
   {
@@ -3844,18 +3862,16 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Ständerat (Council of States)"
-   ],
-   "n_entities": 13,
-   "resume_sentences": 3,
+   "ungrounded_strict": [],
+   "n_entities": 12,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
     "transcription_normalization": false,
-    "structure_extraction": true,
+    "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
@@ -3883,10 +3899,9 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
-    "organization:Parlamentsdienste (Swiss Parliamentary Services)",
-    "organization:Ständerat (Swiss Council of States)"
+    "organization:Council of States (Ständerat)"
    ],
-   "n_entities": 4,
+   "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -3921,9 +3936,7 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss Federal Assembly (Nationalrat)"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 2,
    "resume_sentences": 3,
    "created_in_range": true,
@@ -3931,7 +3944,7 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
@@ -3960,7 +3973,7 @@
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
-   "n_entities": 2,
+   "n_entities": 1,
    "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": false,
@@ -4022,7 +4035,7 @@
   {
    "id": "3526205",
    "stratum": "other",
-   "document_type": "minutes / protocol",
+   "document_type": "parliamentary record",
    "source_level": "primary",
    "structural_errors": [],
    "critical": [],
@@ -4031,11 +4044,9 @@
    ],
    "geo_conflicts": [],
    "ungrounded": [],
-   "ungrounded_strict": [
-    "organization:Swiss National Council"
-   ],
+   "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 3,
+   "resume_sentences": 2,
    "created_in_range": true,
    "archived_ok": false,
    "agreement": {},
@@ -4077,12 +4088,12 @@
    "agreement": {},
    "expected_source_level": "primary",
    "flags": {
-    "transcription_normalization": false,
+    "transcription_normalization": true,
     "structure_extraction": false,
     "schema_harmonization": true,
     "linked_data_entity_linking": true,
     "date_geolocation_parsing": true,
-    "anonymization_verification": true
+    "anonymization_verification": false
    },
    "evidence": {
     "transcription_normalization": false,
