@@ -121,6 +121,11 @@ def stage_qc(cfg):
     qc.run(cfg)
 
 
+def stage_stapfer(cfg):
+    from cora import stapfer
+    stapfer.run(cfg)
+
+
 def stage_export(cfg):
     from cora import export
     export.run(cfg)
@@ -137,10 +142,13 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer"])
     ap.add_argument("--config", type=Path, default=None)
     args = ap.parse_args()
     cfg = config.load(args.config)
+    if args.stage == "stapfer":
+        stage_stapfer(cfg)
+        sys.exit()
     if args.stage == "serve":
         stage_serve(cfg)
         sys.exit()
