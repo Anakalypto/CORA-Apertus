@@ -248,3 +248,14 @@ Person links are now also checked against life dates. Birth and death years (P56
 | Joseph Zürcher (1853 police record, private individual) | association football player, Q26972533 | born 1925, after the document |
 
 The second case matters for privacy as well as accuracy: a private 19th-century individual had been linked to a 20th-century person. Rejected links are kept out of the dataset and recorded in `edit_log.jsonl` (actor `rule`).
+
+## 12. Trust card and organization linking
+
+Each record page now opens on a **trust card** with three bands:
+- **Evidence:** the untouched archive fields, numbered E1…, with the portal link.
+- **Context:** Wikidata, Wikipedia and HLS links for the linked persons and organizations, plus gazetteer places, numbered C…, each with its tier.
+- **Imagination:** a 3–5 sentence Apertus narrative in which every sentence must footnote E or C items.
+
+On the 100 records, the cards hold 108 narrative sentences, 36 HLS links and 131 Wikipedia links (`data/dataset/trust_cards.jsonl`). Apertus footnoted every sentence (0 "inferred"). That is a claim by the model, so an automatic support check measures how many of a sentence's words occur in the items it cites. **27 of 108 sentences are weakly supported** (under 20 %); these are mostly interpretive phrases ("politically significant"), and partly English sentences citing German evidence, where word overlap undercounts.
+
+The card exposed bad organization links. "Bundesrat" was linked to the German Bundesrat, "Grüne Partei" to a generic concept, and the acronym "SRG" to an X-ray observatory. Organization linking now prefers Swiss items, rejects generic "type of …" items and items about another state, and accepts acronyms of four letters or fewer only when the item is described as Swiss. 36 of 81 organizations are linked. One known weakness remains: "Nationalrat" and "Bundesrat" resolve to the *position* items ("member of …") rather than the chambers.

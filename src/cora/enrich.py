@@ -81,6 +81,39 @@ def wikidata(name: str, cache: Cache, cfg) -> dict | None:
     return res
 
 
+SWISS = re.compile(r"\b(swiss|switzerland|schweiz\w*|suisse|svizzera|helvetic|federal assembly|confederation)\b", re.I)
+OTHER_STATE = re.compile(r"\b(german states|germany|austria|austrian|bundestag|united states)\b", re.I)
+
+
+def wikidata_org(name: str, cache: Cache, cfg) -> dict | None:
+    """Organisation linking: exact label/alias match, preferring Swiss items; never a generic concept
+    ('type of …') or an item explicitly about another state (German Bundesrat for the Swiss one)."""
+    key = "wdorg|" + name
+    if key in cache.data:
+        return cache.data[key]
+    time.sleep(0.3)
+    try:
+        hits = _get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(
+            {"action": "wbsearchentities", "search": name, "language": "de", "uselang": "en", "limit": 7,
+             "format": "json", "type": "item"}), cfg["enrich"]["user_agent"]).get("search", [])
+    except Exception:
+        return None
+    norm = lambda x: re.sub(r"\W+", " ", (x or "").lower()).strip()
+    exact = [h for h in hits if norm(h.get("label")) == norm(name) or norm(h.get("match", {}).get("text")) == norm(name)]
+    ok = [h for h in exact if not (h.get("description") or "").lower().startswith(("type of", "class of", "wikimedia"))
+          and not OTHER_STATE.search(h.get("description") or "")]
+    ok.sort(key=lambda h: not SWISS.search(h.get("description") or ""))
+    if len(name.strip()) <= 4:  # bare acronyms (SRG, IPU, DRS) are too ambiguous unless the item is Swiss
+        ok = [h for h in ok if SWISS.search(h.get("description") or "")]
+    res = None
+    if ok:
+        h = ok[0]
+        res = {"qid": h["id"], "label": h.get("label"), "description": h.get("description"),
+               "url": f'https://www.wikidata.org/wiki/{h["id"]}'}
+    cache.data[key] = res
+    return res
+
+
 def life_dates(qid: str, cache: Cache, cfg) -> dict:
     """Birth/death years (P569/P570) of a Wikidata item, cached."""
     key = "life|" + qid
@@ -226,7 +259,7 @@ def run(cfg):
                                 wikidata=None if wd and wd.get("rejected") else wd,
                                 wikidata_rejected=wd if wd and wd.get("rejected") else None,
                                 life_date_check=check))
-        orgs = [dict(o, wikidata=wikidata(o["name"], cache, cfg) if cfg["enrich"]["wikidata"] else None)
+        orgs = [dict(o, wikidata=wikidata_org(o["name"], cache, cfg) if cfg["enrich"]["wikidata"] else None)
                 for o in a["organizations"]]
         row["enriched"] = {"places": places, "persons": persons, "organizations": orgs,
                            "story": build_story(row, recs[row["id"]], places) if cfg["classify"]["story_map"] else []}

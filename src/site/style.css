@@ -201,3 +201,20 @@ table.t th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; 
 .notice > *, .layout > *, .hero > *, .two > * { min-width: 0; }
 h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .notice h1 { font-size: 24px; }
+
+/* Trust card: three visually distinct bands */
+.band { border: 1px solid var(--line); border-left-width: 6px; padding: 12px 16px; margin: 14px 0; }
+.band h3 { margin: 0 0 8px; }
+.band h3 small { font: 500 12px var(--sans); color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; margin-left: 8px; }
+.band-evidence { border-left-color: var(--p-record); background: #fbfbfa; }
+.band-context { border-left-color: var(--p-wikidata); background: #f4f9fb; }
+.band-imagination { border-left-color: var(--p-apertus); background: #faf5f9; border-style: dashed; border-left-style: solid; }
+.fn { display: inline-block; min-width: 26px; font: 700 11px ui-monospace, Consolas, monospace; color: var(--ink-3); }
+.fnref { font: 700 10px ui-monospace, Consolas, monospace; vertical-align: super; margin-left: 2px; color: var(--p-apertus); }
+.ctx { list-style: none; padding: 0; margin: 0; }
+.ctx li { padding: 5px 0; border-bottom: 1px solid #e6eef2; font-size: 14px; }
+.tier { font-size: 11px; color: var(--p-wikidata); border: 1px solid #bcd6e2; border-radius: 2px; padding: 0 5px; margin-left: 6px; }
+.narr { font: 16px/1.6 var(--serif); margin: 0 0 8px; }
+.narr .inferred { background: #fdecee; }
+.narr .weak { text-decoration: underline dotted #a05a00; }
+.trust-badges { margin-top: 4px; }

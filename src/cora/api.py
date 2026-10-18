@@ -44,6 +44,26 @@ def _load():
 
 
 RECORDS = _load()
+
+
+def _attach_trust():
+    cards = DATASET / "trust_cards.jsonl"
+    if cards.exists():
+        for l in cards.read_text(encoding="utf-8").splitlines():
+            if l.strip():
+                c = json.loads(l)
+                if c["id"] in RECORDS:
+                    RECORDS[c["id"]]["trust_card"] = c
+    log = DATASET / "edit_log.jsonl"
+    if log.exists():
+        for l in log.read_text(encoding="utf-8").splitlines():
+            if l.strip():
+                e = json.loads(l)
+                if e["record_id"] in RECORDS:
+                    RECORDS[e["record_id"]].setdefault("edits", []).append(e)
+
+
+_attach_trust()
 QC = json.loads((DATA / "qc_report.json").read_text(encoding="utf-8")) if (DATA / "qc_report.json").exists() else {}
 
 app = FastAPI(title="CORA — Apertus classifier for the Swiss Federal Archives",
