@@ -36,6 +36,13 @@ python src/run.py all                             # rebuild everything from scra
 | Quality check of the Apertus output | `docs/quality_report.md`, `data/qc_report.json` |
 | Ethical impact assessment | `docs/ethics_impact_assessment.md` |
 | Demonstration notebook | `notebooks/demo.ipynb` |
+| Verification against the Bern Stapfer-Enquête datafication | `docs/stapfer_verification.md`, `python src/run.py stapfer` |
+| Ask the archive (cited Q&A) and read-only MCP server | `/api/ask`, `src/mcp_server.py`, `docs/api.md` |
+| Trust card (Evidence / Context / Imagination) | record pages, `python src/run.py narrative` |
+| Map time slider on swisstopo historical maps | *Map* page |
+| Federal consultations 1960–1991 with procedure chains | *Consultations* page, `python src/run.py consultations` |
+| Parliament since 1848 and the 1959/1971 referendum estimate | *Parliament* and *1959 vs 1971* pages |
+| 1,000-record scale run (Apertus 8B, timed) | `src/scale_run.sh`, `data/scale1000/` |
 
 Submissions must use the v1.5 Apertus model family.
 The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions).
