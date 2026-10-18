@@ -30,7 +30,7 @@ build/
 material/
 
 # Pipeline run logs (regenerated on every run)
-data/log_*.txt
+data/**/log_*.txt
 # Re-downloadable source dump (opendata.swiss)
 data/stapfer/*.sql.zip
 data/stapfer/cases.json
