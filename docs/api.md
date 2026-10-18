@@ -36,3 +36,36 @@ checks, preprocessing, personal = classify.audit_to_flags(ap.chat_json(classify.
 ```
 
 `[classify] resume = false` in `src/config.toml` turns off the résumé. `preprocessing` and `story_map` can be turned off the same way.
+
+## Ask the archive
+
+`GET /api/ask?q=…` retrieves the most relevant records with BM25. It searches titles, English titles, résumés, subjects, entities and original fields, so questions in English, German or French all work. Apertus then answers **only from those records**. Each sentence lists the record IDs it relies on:
+- citations to records that weren't retrieved are removed and reported in `dropped_sources`;
+- sentences left without a valid citation are flagged `uncited`;
+- if no record scores above the threshold, the model isn't called and `answered` is `false`.
+
+The answer is generated text (`generated: true`); the citations link to the record page and to the archive portal.
+
+## MCP server (read-only)
+
+`src/mcp_server.py` wraps the REST API for MCP clients such as Claude Desktop and Claude Code. Its three tools can only read:
+
+| Tool | Calls | Purpose |
+|---|---|---|
+| `search_records(query, document_type, source_level, decade, page)` | `GET /api/records` | Search with filters |
+| `get_record(record_id)` | `GET /api/records/{id}` | The full AI-ready record |
+| `ask_archive(question)` | `GET /api/ask` | Cited answer, or a refusal |
+
+```bash
+python src/run.py serve                 # the API must be running
+python src/mcp_server.py                # stdio transport; CORA_API_URL overrides http://127.0.0.1:8000
+```
+
+Client configuration (e.g. `claude_desktop_config.json` or `.mcp.json`):
+
+```json
+{ "mcpServers": { "cora-archive": {
+    "command": "C:/path/to/CORA-Apertus/.venv/Scripts/python.exe",
+    "args": ["C:/path/to/CORA-Apertus/src/mcp_server.py"],
+    "env": { "CORA_API_URL": "http://127.0.0.1:8000" } } } }
+```
