@@ -121,6 +121,11 @@ def stage_qc(cfg):
     qc.run(cfg)
 
 
+def stage_referendum(cfg):
+    from cora import referendum
+    referendum.run(cfg)
+
+
 def stage_parliament(cfg):
     from cora import parliament
     parliament.run(cfg)
@@ -157,10 +162,13 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum"])
     ap.add_argument("--config", type=Path, default=None)
     args = ap.parse_args()
     cfg = config.load(args.config)
+    if args.stage == "referendum":
+        stage_referendum(cfg)
+        sys.exit()
     if args.stage == "parliament":
         stage_parliament(cfg)
         sys.exit()

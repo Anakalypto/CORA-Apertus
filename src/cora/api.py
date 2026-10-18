@@ -276,6 +276,14 @@ def parliament_links(people: list[dict]):
     return res
 
 
+@app.get("/api/referendum", summary="Party-cue referendum model, backtest and the women's-suffrage 1959/1971 estimate")
+def referendum():
+    path = DATA / "referendum" / "suffrage.json"
+    if not path.exists():
+        raise HTTPException(404, "run `python src/run.py referendum` first")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 @app.get("/", include_in_schema=False)
 def index():
     return FileResponse(SITE / "index.html")

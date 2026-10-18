@@ -259,3 +259,14 @@ Each record page now opens on a **trust card** with three bands:
 On the 100 records, the cards hold 108 narrative sentences, 36 HLS links and 131 Wikipedia links (`data/dataset/trust_cards.jsonl`). Apertus footnoted every sentence (0 "inferred"). That is a claim by the model, so an automatic support check measures how many of a sentence's words occur in the items it cites. **27 of 108 sentences are weakly supported** (under 20 %); these are mostly interpretive phrases ("politically significant"), and partly English sentences citing German evidence, where word overlap undercounts.
 
 The card exposed bad organization links. "Bundesrat" was linked to the German Bundesrat, "Grüne Partei" to a generic concept, and the acronym "SRG" to an X-ray observatory. Organization linking now prefers Swiss items, rejects generic "type of …" items and items about another state, and accepts acronyms of four letters or fewer only when the item is described as Swiss. 36 of 81 organizations are linked. One known weakness remains: "Nationalrat" and "Bundesrat" resolve to the *position* items ("member of …") rather than the chambers.
+
+
+## 13. Linking quality in the consultations and the referendum case
+
+**Consultation → vote matching.** Title overlap within 0–15 years produced candidates for 170 of the 569 consultations, and Apertus confirmed 74 of them. A manual check of 12 confirmations showed:
+- all 5 at confidence 1.0 were correct;
+- 6 of 7 between 0.8 and 0.95 were wrong. For example, the 1971 water-management article was linked to the 1971 environmental article, but it was voted on separately in 1975.
+
+Only confirmations at ≥ 0.99 are now used: **26 procedures are linked**. The other 48 are shown as "possible, unconfirmed" and are not entered into the chain. Topic and entity tagging covered 555 of 569 procedures.
+
+**Referendum model.** On 630 federal votes the party-cue model has a leave-one-out MAE of 9.7 points, between 9.4 and 11.1 depending on the era. It misses the 1959 women's-suffrage vote by 18 points, nearly twice its usual error, which shows the issue-specific gap. Apertus' counterfactual 1959 positions are checked against the recorded recommendations; in one run its reasoning claimed a 1959 "yes" for a party whose recommendation was a free vote. Such claims are flagged on the page.

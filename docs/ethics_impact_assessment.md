@@ -23,6 +23,10 @@
 - Federal consultations 1960–1991 (opendata.swiss, open use) and Swissvotes (Année politique suisse, CC BY 4.0, attribution on the page).
 - swisstopo "Journey through time" tiles (© swisstopo, attribution on the map).
 
+## Counterfactuals and parliament data
+- The 1959/1971 estimate is a model output with a stated error (±9.7 points), not a historical fact. Apertus' counterfactual party positions are labelled as imagination and checked against the record. The page notes that both votes were cast by men only.
+- Council members are public office holders; their names and terms come from parlament.ch open data. Wikipedia links require a Swiss-politician description and a plausible birth year.
+
 ## Bias
 - **Collection bias.** 82 % of the item-level records are TV news clips (Schweizer Fernsehen and TSR). A uniform sample would reproduce that, so we stratify by medium and document the strata. Fonds coverage follows what was itemized, not what is historically important.
 - **Language bias.** Cataloguing is mostly German, with French and Italian minorities. Apertus is multilingual, but the outputs are written in English (configurable). Translations can lose meaning: *Postulat* became "motion".

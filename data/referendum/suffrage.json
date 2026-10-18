@@ -1,0 +1,5237 @@
+{
+ "source": "Swissvotes dataset (Année politique suisse, University of Bern), CC BY 4.0",
+ "method": "yes% = a + b·cue; cue = voter-share-weighted mean of party recommendations (yes 1, no 0, free 0.5)",
+ "fit": {
+  "a": 22.35,
+  "b": 45.95,
+  "n_votes": 630,
+  "loo_mae": 9.66,
+  "loo_mae_by_era": {
+   "1894-1945": 9.98,
+   "1946-1970": 11.08,
+   "1971-1999": 9.38,
+   "2000-": 9.35
+  }
+ },
+ "backtest": [
+  {
+   "anr": "66",
+   "date": "03.11.1907",
+   "title": "Militärorganisation der schweizerischen Eidgenossenschaft",
+   "cue": 0.8201,
+   "yes": 55.22,
+   "predicted_loo": 60.04
+  },
+  {
+   "anr": "68",
+   "date": "05.07.1908",
+   "title": "Initiative «für ein Absinthverbot»",
+   "cue": 0.4561,
+   "yes": 63.48,
+   "predicted_loo": 43.27
+  },
+  {
+   "anr": "71",
+   "date": "04.02.1912",
+   "title": "Kranken- und Unfallversicherungsgesetz",
+   "cue": 1.0,
+   "yes": 54.36,
+   "predicted_loo": 68.37
+  },
+  {
+   "anr": "72",
+   "date": "04.05.1913",
+   "title": "Bekämpfung menschlicher und tierischer Krankheiten",
+   "cue": 1.0,
+   "yes": 60.32,
+   "predicted_loo": 68.34
+  },
+  {
+   "anr": "73",
+   "date": "25.10.1914",
+   "title": "Schaffung eines Verwaltungsgerichts",
+   "cue": 1.0,
+   "yes": 62.35,
+   "predicted_loo": 68.33
+  },
+  {
+   "anr": "74",
+   "date": "06.06.1915",
+   "title": "Verfassungsgrundlage für eine einmalige Kriegssteuer",
+   "cue": 1.0,
+   "yes": 94.27,
+   "predicted_loo": 68.17
+  },
+  {
+   "anr": "75",
+   "date": "13.05.1917",
+   "title": "Stempelabgaben",
+   "cue": 1.0,
+   "yes": 53.16,
+   "predicted_loo": 68.37
+  },
+  {
+   "anr": "77",
+   "date": "13.10.1918",
+   "title": "Initiative «für die Proporzwahl des Nationalrates»",
+   "cue": 0.5837,
+   "yes": 66.78,
+   "predicted_loo": 49.14
+  },
+  {
+   "anr": "79",
+   "date": "04.05.1919",
+   "title": "Verfassungsgrundlage für eine ausserordentliche Kriegssteuer",
+   "cue": 1.0,
+   "yes": 65.07,
+   "predicted_loo": 68.31
+  },
+  {
+   "anr": "81",
+   "date": "21.03.1920",
+   "title": "Gesetz zur Ordnung des Arbeitsverhältnisses",
+   "cue": 0.7087,
+   "yes": 49.81,
+   "predicted_loo": 54.92
+  },
+  {
+   "anr": "82.1",
+   "date": "21.03.1920",
+   "title": "Initiative für ein Verbot der Spielbanken",
+   "cue": 0.6324,
+   "yes": 55.3,
+   "predicted_loo": 51.4
+  },
+  {
+   "anr": "82.2",
+   "date": "21.03.1920",
+   "title": "Gegenentwurf zur Initiative für ein Verbot der Spielbanken",
+   "cue": 0.3676,
+   "yes": 24.49,
+   "predicted_loo": 39.28
+  },
+  {
+   "anr": "83",
+   "date": "16.05.1920",
+   "title": "Beitritt zum Völkerbund",
+   "cue": 0.7352,
+   "yes": 56.29,
+   "predicted_loo": 56.13
+  },
+  {
+   "anr": "84",
+   "date": "31.10.1920",
+   "title": "Gesetz zur Arbeitszeit bei den Eisenbahnen",
+   "cue": 0.827,
+   "yes": 57.12,
+   "predicted_loo": 60.36
+  },
+  {
+   "anr": "85",
+   "date": "30.01.1921",
+   "title": "Initiative für ein Staatsvertragsreferendum",
+   "cue": 0.8372,
+   "yes": 71.36,
+   "predicted_loo": 60.79
+  },
+  {
+   "anr": "86",
+   "date": "30.01.1921",
+   "title": "Initiative «für die Aufhebung der Militärjustiz»",
+   "cue": 0.2648,
+   "yes": 33.57,
+   "predicted_loo": 34.52
+  },
+  {
+   "anr": "87",
+   "date": "22.05.1921",
+   "title": "Artikel über den Automobil- und Fahrradverkehr",
+   "cue": 0.8391,
+   "yes": 59.77,
+   "predicted_loo": 60.91
+  },
+  {
+   "anr": "88",
+   "date": "22.05.1921",
+   "title": "Artikel über die Luftschiffahrt",
+   "cue": 0.8391,
+   "yes": 62.19,
+   "predicted_loo": 60.9
+  },
+  {
+   "anr": "89",
+   "date": "11.06.1922",
+   "title": "Initiative «betreffend die Erlangung des Schweizerbürgerrechts»",
+   "cue": 0.2811,
+   "yes": 15.91,
+   "predicted_loo": 35.33
+  },
+  {
+   "anr": "90",
+   "date": "11.06.1922",
+   "title": "Initiative «betreffend die Ausweisung von Ausländern»",
+   "cue": 0.4541,
+   "yes": 38.08,
+   "predicted_loo": 43.23
+  },
+  {
+   "anr": "91",
+   "date": "11.06.1922",
+   "title": "Initiative «betreffend die Wählbarkeit der Bundesbeamten in den Nationalrat»",
+   "cue": 0.5459,
+   "yes": 38.35,
+   "predicted_loo": 47.45
+  },
+  {
+   "anr": "92",
+   "date": "24.09.1922",
+   "title": "Strafrechtsrevision (innere Sicherheit und bedingter Strafvollzug)",
+   "cue": 0.7352,
+   "yes": 44.63,
+   "predicted_loo": 56.15
+  },
+  {
+   "anr": "93",
+   "date": "03.12.1922",
+   "title": "Initiative für eine einmalige Vermögensabgabe",
+   "cue": 0.2625,
+   "yes": 12.96,
+   "predicted_loo": 34.49
+  },
+  {
+   "anr": "94",
+   "date": "18.02.1923",
+   "title": "Schutzhaft-Initiative",
+   "cue": 0.0,
+   "yes": 11.01,
+   "predicted_loo": 22.45
+  },
+  {
+   "anr": "95",
+   "date": "18.02.1923",
+   "title": "Abkommen mit Frankreich betreffend Hochsavoyen",
+   "cue": 0.4596,
+   "yes": 18.48,
+   "predicted_loo": 43.52
+  },
+  {
+   "anr": "96",
+   "date": "15.04.1923",
+   "title": "Zollinitiative",
+   "cue": 0.2625,
+   "yes": 26.77,
+   "predicted_loo": 34.44
+  },
+  {
+   "anr": "97",
+   "date": "03.06.1923",
+   "title": "Bundesbeschluss zum Alkoholwesen",
+   "cue": 1.0,
+   "yes": 42.16,
+   "predicted_loo": 68.42
+  },
+  {
+   "anr": "98",
+   "date": "17.02.1924",
+   "title": "Fabrikgesetz",
+   "cue": 0.7375,
+   "yes": 42.37,
+   "predicted_loo": 56.26
+  },
+  {
+   "anr": "99",
+   "date": "24.05.1925",
+   "title": "Initiative für eine AHV/IV",
+   "cue": 0.2696,
+   "yes": 42.0,
+   "predicted_loo": 34.71
+  },
+  {
+   "anr": "100",
+   "date": "25.10.1925",
+   "title": "Beschluss betreffend Aufenthalt und Niederlassung der Ausländer",
+   "cue": 0.7121,
+   "yes": 62.21,
+   "predicted_loo": 55.06
+  },
+  {
+   "anr": "101",
+   "date": "06.12.1925",
+   "title": "Bundesbeschluss betreffend eine AHV/IV",
+   "cue": 0.9784,
+   "yes": 65.39,
+   "predicted_loo": 67.31
+  },
+  {
+   "anr": "102",
+   "date": "05.12.1926",
+   "title": "Artikel zur Getreideversorgung",
+   "cue": 0.8836,
+   "yes": 49.62,
+   "predicted_loo": 62.99
+  },
+  {
+   "anr": "103",
+   "date": "15.05.1927",
+   "title": "Entschädigung an Kantone für Alpenstrassen",
+   "cue": 1.0,
+   "yes": 62.64,
+   "predicted_loo": 68.33
+  },
+  {
+   "anr": "104",
+   "date": "15.05.1927",
+   "title": "Gesetz über den Automobil- und Fahrradverkehr",
+   "cue": 0.8561,
+   "yes": 40.14,
+   "predicted_loo": 61.75
+  },
+  {
+   "anr": "105",
+   "date": "20.05.1928",
+   "title": "Massnahmen gegen die Überfremdung",
+   "cue": 1.0,
+   "yes": 70.68,
+   "predicted_loo": 68.29
+  },
+  {
+   "anr": "106",
+   "date": "02.12.1928",
+   "title": "Initiative für die Erhaltung der Kursäle",
+   "cue": 0.6222,
+   "yes": 51.92,
+   "predicted_loo": 50.94
+  },
+  {
+   "anr": "107.1",
+   "date": "03.03.1929",
+   "title": "Initiative zur Getreideversorgung",
+   "cue": 0.1716,
+   "yes": 2.68,
+   "predicted_loo": 30.38
+  },
+  {
+   "anr": "108",
+   "date": "03.03.1929",
+   "title": "Zolltarifgesetz",
+   "cue": 0.7024,
+   "yes": 66.42,
+   "predicted_loo": 54.6
+  },
+  {
+   "anr": "109",
+   "date": "12.05.1929",
+   "title": "Initiative «betreffend die Gesetzgebung über den Strassenverkehr»",
+   "cue": 0.0,
+   "yes": 37.15,
+   "predicted_loo": 22.22
+  },
+  {
+   "anr": "110",
+   "date": "12.05.1929",
+   "title": "Initiative «für ein Branntweinverbot»",
+   "cue": 0.2976,
+   "yes": 32.65,
+   "predicted_loo": 36.04
+  },
+  {
+   "anr": "111",
+   "date": "06.04.1930",
+   "title": "Neuregelung des Alkoholwesens",
+   "cue": 1.0,
+   "yes": 60.58,
+   "predicted_loo": 68.34
+  },
+  {
+   "anr": "112",
+   "date": "08.02.1931",
+   "title": "Ordensverbot",
+   "cue": 0.7024,
+   "yes": 70.19,
+   "predicted_loo": 54.6
+  },
+  {
+   "anr": "113",
+   "date": "15.03.1931",
+   "title": "Beschluss über die Mitgliederzahl des Nationalrates",
+   "cue": 0.5536,
+   "yes": 53.88,
+   "predicted_loo": 47.78
+  },
+  {
+   "anr": "114",
+   "date": "15.03.1931",
+   "title": "Amtsdauer des Nationalrats, des Bundesrats und des Bundeskanzlers",
+   "cue": 0.5536,
+   "yes": 53.7,
+   "predicted_loo": 47.78
+  },
+  {
+   "anr": "115",
+   "date": "06.12.1931",
+   "title": "Gesetz über die AHV",
+   "cue": 0.603,
+   "yes": 39.7,
+   "predicted_loo": 50.07
+  },
+  {
+   "anr": "116",
+   "date": "06.12.1931",
+   "title": "Gesetz über die Besteuerung des Tabaks",
+   "cue": 0.9842,
+   "yes": 49.89,
+   "predicted_loo": 67.65
+  },
+  {
+   "anr": "117",
+   "date": "28.05.1933",
+   "title": "Gesetz zur Herabsetzung der Löhne des Bundespersonals",
+   "cue": 0.6889,
+   "yes": 44.89,
+   "predicted_loo": 54.02
+  },
+  {
+   "anr": "118",
+   "date": "11.03.1934",
+   "title": "Gesetz über den Schutz der öffentlichen Ordnung",
+   "cue": 0.6875,
+   "yes": 46.19,
+   "predicted_loo": 53.95
+  },
+  {
+   "anr": "119",
+   "date": "24.02.1935",
+   "title": "Neuordnung der militärischen Ausbildung",
+   "cue": 0.678,
+   "yes": 54.16,
+   "predicted_loo": 53.5
+  },
+  {
+   "anr": "120",
+   "date": "05.05.1935",
+   "title": "Verkehrsteilungsgesetz",
+   "cue": 0.2918,
+   "yes": 32.35,
+   "predicted_loo": 35.77
+  },
+  {
+   "anr": "121",
+   "date": "02.06.1935",
+   "title": "Initiative «zur Bekämpfung der Wirtschaftskrise»",
+   "cue": 0.322,
+   "yes": 42.84,
+   "predicted_loo": 37.13
+  },
+  {
+   "anr": "122",
+   "date": "08.09.1935",
+   "title": "Initiative für eine Totalrevision der Bundesverfassung",
+   "cue": 0.2507,
+   "yes": 27.71,
+   "predicted_loo": 33.89
+  },
+  {
+   "anr": "123",
+   "date": "28.11.1937",
+   "title": "Initiative «für ein Verbot der Freimaurerei»",
+   "cue": 0.1638,
+   "yes": 31.32,
+   "predicted_loo": 29.87
+  },
+  {
+   "anr": "124",
+   "date": "20.02.1938",
+   "title": "Anerkennung des Rätoromanischen als Nationalsprache",
+   "cue": 1.0,
+   "yes": 91.59,
+   "predicted_loo": 68.19
+  },
+  {
+   "anr": "125",
+   "date": "20.02.1938",
+   "title": "Initiative zur Beschränkung der Dringlichkeitsklausel",
+   "cue": 0.0,
+   "yes": 15.22,
+   "predicted_loo": 22.41
+  },
+  {
+   "anr": "126.1",
+   "date": "20.02.1938",
+   "title": "Initiative «Private Rüstungsindustrie»",
+   "cue": 0.0,
+   "yes": 11.52,
+   "predicted_loo": 22.44
+  },
+  {
+   "anr": "126.2",
+   "date": "20.02.1938",
+   "title": "Gegenentwurf zur Initiative «Private Rüstungsindustrie»",
+   "cue": 1.0,
+   "yes": 68.82,
+   "predicted_loo": 68.3
+  },
+  {
+   "anr": "127",
+   "date": "03.07.1938",
+   "title": "Schweizerisches Strafgesetzbuch",
+   "cue": 0.7674,
+   "yes": 53.46,
+   "predicted_loo": 57.62
+  },
+  {
+   "anr": "128",
+   "date": "27.11.1938",
+   "title": "Übergangsordnung des Finanzhaushalts",
+   "cue": 1.0,
+   "yes": 72.26,
+   "predicted_loo": 68.28
+  },
+  {
+   "anr": "129",
+   "date": "22.01.1939",
+   "title": "Initiative für eine Erweiterung der Verfassungsgerichtsbarkeit",
+   "cue": 0.0475,
+   "yes": 28.92,
+   "predicted_loo": 24.5
+  },
+  {
+   "anr": "130",
+   "date": "22.01.1939",
+   "title": "Beschluss betreffend eine Einschränkung der Dringlichkeitsklausel",
+   "cue": 1.0,
+   "yes": 69.06,
+   "predicted_loo": 68.29
+  },
+  {
+   "anr": "131",
+   "date": "04.06.1939",
+   "title": "Bundesbeschluss zum Ausbau der Landesverteidigung und zur Bekämpfung der Arbeitslosigkeit",
+   "cue": 1.0,
+   "yes": 69.07,
+   "predicted_loo": 68.29
+  },
+  {
+   "anr": "132",
+   "date": "03.12.1939",
+   "title": "Dienstverhältnis und Versicherung des Bundespersonals",
+   "cue": 1.0,
+   "yes": 37.63,
+   "predicted_loo": 68.45
+  },
+  {
+   "anr": "133",
+   "date": "01.12.1940",
+   "title": "Einführung des obligatorischen militärischen Vorunterrichts",
+   "cue": 1.0,
+   "yes": 44.27,
+   "predicted_loo": 68.41
+  },
+  {
+   "anr": "134",
+   "date": "09.03.1941",
+   "title": "Initiative «zur Neuordnung des Alkoholwesens»",
+   "cue": 0.0,
+   "yes": 40.23,
+   "predicted_loo": 22.2
+  },
+  {
+   "anr": "135",
+   "date": "25.01.1942",
+   "title": "Initiative für die Wahl des Bundesrates durch das Volk",
+   "cue": 0.3035,
+   "yes": 32.43,
+   "predicted_loo": 36.31
+  },
+  {
+   "anr": "136",
+   "date": "03.05.1942",
+   "title": "Initiative «für die Reorganisation des Nationalrates»",
+   "cue": 0.078,
+   "yes": 34.95,
+   "predicted_loo": 25.87
+  },
+  {
+   "anr": "137",
+   "date": "29.10.1944",
+   "title": "Gesetz über den unlauteren Wettbewerb",
+   "cue": 0.919,
+   "yes": 52.92,
+   "predicted_loo": 64.62
+  },
+  {
+   "anr": "138",
+   "date": "21.01.1945",
+   "title": "Gesetz über die Bundesbahnen",
+   "cue": 1.0,
+   "yes": 56.71,
+   "predicted_loo": 68.35
+  },
+  {
+   "anr": "139",
+   "date": "25.11.1945",
+   "title": "Gegenentwurf zur Volksinitiative «Für die Familie»",
+   "cue": 0.969,
+   "yes": 76.31,
+   "predicted_loo": 66.83
+  },
+  {
+   "anr": "140",
+   "date": "10.02.1946",
+   "title": "Bundesbeschluss für eine Gütertransportordnung",
+   "cue": 0.8728,
+   "yes": 33.65,
+   "predicted_loo": 62.54
+  },
+  {
+   "anr": "141",
+   "date": "08.12.1946",
+   "title": "Initiative «Recht auf Arbeit»",
+   "cue": 0.062,
+   "yes": 19.19,
+   "predicted_loo": 25.24
+  },
+  {
+   "anr": "142",
+   "date": "18.05.1947",
+   "title": "Initiative «Wirtschaftsreform und Rechte der Arbeit»",
+   "cue": 0.3524,
+   "yes": 31.19,
+   "predicted_loo": 38.56
+  },
+  {
+   "anr": "143",
+   "date": "06.07.1947",
+   "title": "Revision der Wirtschaftsartikel",
+   "cue": 0.9404,
+   "yes": 52.97,
+   "predicted_loo": 65.61
+  },
+  {
+   "anr": "144",
+   "date": "06.07.1947",
+   "title": "Gesetz über die AHV",
+   "cue": 0.965,
+   "yes": 80.0,
+   "predicted_loo": 66.63
+  },
+  {
+   "anr": "145",
+   "date": "14.03.1948",
+   "title": "Ordnung der Zuckerwirtschaft",
+   "cue": 0.666,
+   "yes": 36.16,
+   "predicted_loo": 52.98
+  },
+  {
+   "anr": "146",
+   "date": "22.05.1949",
+   "title": "Nationalbank-Artikel",
+   "cue": 0.9491,
+   "yes": 38.51,
+   "predicted_loo": 66.07
+  },
+  {
+   "anr": "147",
+   "date": "22.05.1949",
+   "title": "Gesetz zur Bekämpfung der Tuberkulose",
+   "cue": 0.6254,
+   "yes": 24.85,
+   "predicted_loo": 51.13
+  },
+  {
+   "anr": "148",
+   "date": "11.09.1949",
+   "title": "Initiative «für die Rückkehr zur direkten Demokratie»",
+   "cue": 0.0481,
+   "yes": 50.74,
+   "predicted_loo": 24.36
+  },
+  {
+   "anr": "149",
+   "date": "11.12.1949",
+   "title": "Gesetz über das Dienstverhältnis der Bundesbeamten",
+   "cue": 1.0,
+   "yes": 55.28,
+   "predicted_loo": 68.36
+  },
+  {
+   "anr": "150",
+   "date": "29.01.1950",
+   "title": "Massnahmen zur Förderung der Wohnbautätigkeit",
+   "cue": 0.7101,
+   "yes": 46.29,
+   "predicted_loo": 54.99
+  },
+  {
+   "anr": "151",
+   "date": "04.06.1950",
+   "title": "Neuordnung des Finanzhaushalts",
+   "cue": 0.6111,
+   "yes": 35.51,
+   "predicted_loo": 50.45
+  },
+  {
+   "anr": "152",
+   "date": "01.10.1950",
+   "title": "Initiative zur «Verhinderung der Spekulation»",
+   "cue": 0.3262,
+   "yes": 27.01,
+   "predicted_loo": 37.37
+  },
+  {
+   "anr": "153",
+   "date": "03.12.1950",
+   "title": "Beschluss über die Mitgliederzahl des Nationalrates",
+   "cue": 1.0,
+   "yes": 67.33,
+   "predicted_loo": 68.3
+  },
+  {
+   "anr": "154",
+   "date": "03.12.1950",
+   "title": "Finanzordnung 1951 bis 1954",
+   "cue": 0.8971,
+   "yes": 69.46,
+   "predicted_loo": 63.55
+  },
+  {
+   "anr": "155",
+   "date": "25.02.1951",
+   "title": "Autotransportordnung",
+   "cue": 0.9496,
+   "yes": 44.32,
+   "predicted_loo": 66.07
+  },
+  {
+   "anr": "156.1",
+   "date": "15.04.1951",
+   "title": "Freigeld-Initiative",
+   "cue": 0.0255,
+   "yes": 12.45,
+   "predicted_loo": 23.61
+  },
+  {
+   "anr": "157",
+   "date": "08.07.1951",
+   "title": "Initiative für einen Beitrag der öffentlichen Unternehmungen an die Kosten der Landesverteidigung",
+   "cue": 0.0696,
+   "yes": 32.65,
+   "predicted_loo": 25.5
+  },
+  {
+   "anr": "158",
+   "date": "02.03.1952",
+   "title": "Verlängerung der Bewilligungspflicht für Gasthöfe",
+   "cue": 0.7993,
+   "yes": 46.08,
+   "predicted_loo": 59.11
+  },
+  {
+   "anr": "159",
+   "date": "30.03.1952",
+   "title": "Landwirtschaftsgesetz",
+   "cue": 0.9433,
+   "yes": 54.05,
+   "predicted_loo": 65.74
+  },
+  {
+   "anr": "160",
+   "date": "20.04.1952",
+   "title": "Warenumsatzsteuer-Initiative",
+   "cue": 0.0277,
+   "yes": 18.97,
+   "predicted_loo": 23.66
+  },
+  {
+   "anr": "161",
+   "date": "18.05.1952",
+   "title": "Initiative «zur Rüstungsfinanzierung und zum Schutze der sozialen Errungenschaften»",
+   "cue": 0.3448,
+   "yes": 43.74,
+   "predicted_loo": 38.18
+  },
+  {
+   "anr": "162",
+   "date": "06.07.1952",
+   "title": "Bundesbeschluss über die Deckung der Rüstungsausgaben",
+   "cue": 0.9712,
+   "yes": 42.02,
+   "predicted_loo": 67.08
+  },
+  {
+   "anr": "163",
+   "date": "05.10.1952",
+   "title": "Tabakzölle und Tabakkontingentierung",
+   "cue": 0.7856,
+   "yes": 67.99,
+   "predicted_loo": 58.42
+  },
+  {
+   "anr": "164",
+   "date": "05.10.1952",
+   "title": "Bundesbeschluss über den Einbau von Luftschutzräumen",
+   "cue": 0.7118,
+   "yes": 15.49,
+   "predicted_loo": 55.13
+  },
+  {
+   "anr": "165",
+   "date": "23.11.1952",
+   "title": "Befristete Weiterführung der Preiskontrolle",
+   "cue": 0.8232,
+   "yes": 62.81,
+   "predicted_loo": 60.17
+  },
+  {
+   "anr": "166",
+   "date": "23.11.1952",
+   "title": "Beschluss zur Brotgetreideversorgung des Landes",
+   "cue": 0.9449,
+   "yes": 75.63,
+   "predicted_loo": 65.73
+  },
+  {
+   "anr": "167",
+   "date": "19.04.1953",
+   "title": "Postverkehrsgesetz",
+   "cue": 0.7993,
+   "yes": 36.46,
+   "predicted_loo": 59.13
+  },
+  {
+   "anr": "168",
+   "date": "06.12.1953",
+   "title": "Neuordnung des Finanzhaushalts",
+   "cue": 0.9716,
+   "yes": 42.04,
+   "predicted_loo": 67.1
+  },
+  {
+   "anr": "169",
+   "date": "06.12.1953",
+   "title": "Verfassungsartikel über den Schutz der Gewässer ",
+   "cue": 1.0,
+   "yes": 81.32,
+   "predicted_loo": 68.24
+  },
+  {
+   "anr": "170",
+   "date": "20.06.1954",
+   "title": "Bundesbeschluss über Fähigkeitsausweise",
+   "cue": 0.7963,
+   "yes": 33.05,
+   "predicted_loo": 59.0
+  },
+  {
+   "anr": "171",
+   "date": "20.06.1954",
+   "title": "Hilfe an kriegsgeschädigte Auslandschweizer",
+   "cue": 0.9433,
+   "yes": 44.05,
+   "predicted_loo": 65.78
+  },
+  {
+   "anr": "172",
+   "date": "24.10.1954",
+   "title": "Finanzordnung 1955 bis 1958",
+   "cue": 1.0,
+   "yes": 69.99,
+   "predicted_loo": 68.29
+  },
+  {
+   "anr": "173",
+   "date": "05.12.1954",
+   "title": "Initiative zum Schutz der Stromlandschaft Rheinau",
+   "cue": 0.1962,
+   "yes": 31.24,
+   "predicted_loo": 31.37
+  },
+  {
+   "anr": "174.1",
+   "date": "13.03.1955",
+   "title": "Mieter- und Konsumentenschutzinitiative",
+   "cue": 0.2772,
+   "yes": 50.24,
+   "predicted_loo": 35.03
+  },
+  {
+   "anr": "174.2",
+   "date": "13.03.1955",
+   "title": "Gegenentwurf zur Mieter- und Konsumentenschutzinitiative",
+   "cue": 1.0,
+   "yes": 40.68,
+   "predicted_loo": 68.43
+  },
+  {
+   "anr": "175",
+   "date": "04.03.1956",
+   "title": "Befristete Weiterführung einer beschränkten Preiskontrolle",
+   "cue": 1.0,
+   "yes": 77.54,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "176",
+   "date": "13.05.1956",
+   "title": "Initiative zur Erweiterung der Volksrechte bei Wasserrechtskonzessionen",
+   "cue": 0.1881,
+   "yes": 36.92,
+   "predicted_loo": 30.96
+  },
+  {
+   "anr": "177",
+   "date": "13.05.1956",
+   "title": "Gewährung einer Hilfe an die Holzverzuckerungs-AG Graubünden",
+   "cue": 0.7981,
+   "yes": 42.46,
+   "predicted_loo": 59.06
+  },
+  {
+   "anr": "178",
+   "date": "30.09.1956",
+   "title": "Revision der Brotgetreideordnung ",
+   "cue": 0.6515,
+   "yes": 38.75,
+   "predicted_loo": 52.31
+  },
+  {
+   "anr": "179",
+   "date": "30.09.1956",
+   "title": "Beschluss betreffend Ausgabenbeschlüsse der Bundesversammlung",
+   "cue": 0.6455,
+   "yes": 45.52,
+   "predicted_loo": 52.02
+  },
+  {
+   "anr": "180",
+   "date": "03.03.1957",
+   "title": "Zivilschutzartikel",
+   "cue": 0.9587,
+   "yes": 48.09,
+   "predicted_loo": 66.48
+  },
+  {
+   "anr": "181",
+   "date": "03.03.1957",
+   "title": "Verfassungsartikel betreffend Rundspruch und Fernsehen",
+   "cue": 0.7383,
+   "yes": 42.76,
+   "predicted_loo": 56.3
+  },
+  {
+   "anr": "182",
+   "date": "24.11.1957",
+   "title": "Verfassungsartikel zu Atomenergie und Strahlenschutz",
+   "cue": 1.0,
+   "yes": 77.33,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "183",
+   "date": "24.11.1957",
+   "title": "Beschluss zur Brotgetreideversorgung des Landes",
+   "cue": 0.9419,
+   "yes": 62.67,
+   "predicted_loo": 65.64
+  },
+  {
+   "anr": "184",
+   "date": "26.01.1958",
+   "title": "Initiative «gegen den Missbrauch wirtschaftlicher Macht»",
+   "cue": 0.2303,
+   "yes": 25.89,
+   "predicted_loo": 32.96
+  },
+  {
+   "anr": "185",
+   "date": "11.05.1958",
+   "title": "Neuordnung des Finanzhaushalts",
+   "cue": 0.7032,
+   "yes": 54.58,
+   "predicted_loo": 54.66
+  },
+  {
+   "anr": "186",
+   "date": "06.07.1958",
+   "title": "Verfassungsartikel zum Filmwesen",
+   "cue": 0.9169,
+   "yes": 61.26,
+   "predicted_loo": 64.49
+  },
+  {
+   "anr": "187",
+   "date": "06.07.1958",
+   "title": "Bundesbeschluss über die Verbesserung des Strassennetzes",
+   "cue": 1.0,
+   "yes": 84.96,
+   "predicted_loo": 68.22
+  },
+  {
+   "anr": "188",
+   "date": "26.10.1958",
+   "title": "Initiative «zur Einführung der 44-Stunden-Woche»",
+   "cue": 0.2303,
+   "yes": 34.99,
+   "predicted_loo": 32.92
+  },
+  {
+   "anr": "189",
+   "date": "07.12.1958",
+   "title": "Erhöhung des Höchsteinsatzes bei Kursaalspielen",
+   "cue": 0.9288,
+   "yes": 59.89,
+   "predicted_loo": 65.05
+  },
+  {
+   "anr": "190",
+   "date": "07.12.1958",
+   "title": "Abkommen mit Italien zur Wasserkraft des Spöl",
+   "cue": 0.9405,
+   "yes": 75.18,
+   "predicted_loo": 65.53
+  },
+  {
+   "anr": "191",
+   "date": "01.02.1959",
+   "title": "Einführung des Frauenstimmrechts",
+   "cue": 0.6271,
+   "yes": 33.08,
+   "predicted_loo": 51.19
+  },
+  {
+   "anr": "192",
+   "date": "24.05.1959",
+   "title": "Zivilschutzartikel",
+   "cue": 1.0,
+   "yes": 62.26,
+   "predicted_loo": 68.33
+  },
+  {
+   "anr": "193",
+   "date": "29.05.1960",
+   "title": "Weiterführung befristeter Preiskontrollmassnahmen",
+   "cue": 1.0,
+   "yes": 77.54,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "194",
+   "date": "04.12.1960",
+   "title": "Massnahmen für die Milchwirtschaft",
+   "cue": 0.9401,
+   "yes": 56.34,
+   "predicted_loo": 65.58
+  },
+  {
+   "anr": "195",
+   "date": "05.03.1961",
+   "title": "Artikel betreffend Leitungsanlagen für Treibstoffe",
+   "cue": 1.0,
+   "yes": 71.43,
+   "predicted_loo": 68.28
+  },
+  {
+   "anr": "196",
+   "date": "05.03.1961",
+   "title": "Treibstoffzoll zur Finanzierung der Nationalstrassen",
+   "cue": 0.9392,
+   "yes": 46.55,
+   "predicted_loo": 65.58
+  },
+  {
+   "anr": "197",
+   "date": "22.10.1961",
+   "title": "Volksinitiative zur Einführung der Gesetzesinitiative",
+   "cue": 0.3525,
+   "yes": 29.44,
+   "predicted_loo": 38.57
+  },
+  {
+   "anr": "198",
+   "date": "03.12.1961",
+   "title": "Uhrenstatut",
+   "cue": 0.9392,
+   "yes": 66.7,
+   "predicted_loo": 65.5
+  },
+  {
+   "anr": "199",
+   "date": "01.04.1962",
+   "title": "Initiative «für ein Verbot der Atomwaffen»",
+   "cue": 0.0277,
+   "yes": 34.82,
+   "predicted_loo": 23.53
+  },
+  {
+   "anr": "200",
+   "date": "27.05.1962",
+   "title": "Natur- und Heimatschutz-Artikel",
+   "cue": 1.0,
+   "yes": 79.11,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "201",
+   "date": "27.05.1962",
+   "title": "Gesetz über die Taggelder des Nationalrates",
+   "cue": 0.7935,
+   "yes": 31.68,
+   "predicted_loo": 58.87
+  },
+  {
+   "anr": "202",
+   "date": "04.11.1962",
+   "title": "Festsetzung der Mitgliederzahl des Nationalrates",
+   "cue": 0.8711,
+   "yes": 63.69,
+   "predicted_loo": 62.37
+  },
+  {
+   "anr": "203",
+   "date": "26.05.1963",
+   "title": "Initiative für ein Referendum gegen Atomwaffen",
+   "cue": 0.3074,
+   "yes": 37.79,
+   "predicted_loo": 36.47
+  },
+  {
+   "anr": "204",
+   "date": "08.12.1963",
+   "title": "Weiterführung der Finanzordnung ",
+   "cue": 0.9222,
+   "yes": 77.61,
+   "predicted_loo": 64.68
+  },
+  {
+   "anr": "205",
+   "date": "08.12.1963",
+   "title": "Artikel über Stipendien und Ausbildungsbeihilfen",
+   "cue": 1.0,
+   "yes": 78.48,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "206",
+   "date": "02.02.1964",
+   "title": "Erlass einer allgemeinen Steueramnestie",
+   "cue": 0.5337,
+   "yes": 41.97,
+   "predicted_loo": 46.88
+  },
+  {
+   "anr": "207",
+   "date": "24.05.1964",
+   "title": "Berufsbildungsgesetz",
+   "cue": 0.9459,
+   "yes": 68.61,
+   "predicted_loo": 65.8
+  },
+  {
+   "anr": "208",
+   "date": "06.12.1964",
+   "title": "Weiterführung befristeter Preiskontrollmassnahmen",
+   "cue": 1.0,
+   "yes": 79.47,
+   "predicted_loo": 68.24
+  },
+  {
+   "anr": "209",
+   "date": "28.02.1965",
+   "title": "Bekämpfung der Teuerung durch Massnahmen im Kreditwesen",
+   "cue": 0.9235,
+   "yes": 57.72,
+   "predicted_loo": 64.81
+  },
+  {
+   "anr": "210",
+   "date": "28.02.1965",
+   "title": "Bekämpfung der Teuerung durch Massnahmen in der Bauwirtschaft",
+   "cue": 0.9235,
+   "yes": 55.54,
+   "predicted_loo": 64.82
+  },
+  {
+   "anr": "211",
+   "date": "16.05.1965",
+   "title": "Milchbeschluss",
+   "cue": 0.9445,
+   "yes": 61.99,
+   "predicted_loo": 65.76
+  },
+  {
+   "anr": "212",
+   "date": "16.10.1966",
+   "title": "Auslandschweizer-Artikel",
+   "cue": 0.9723,
+   "yes": 68.06,
+   "predicted_loo": 67.02
+  },
+  {
+   "anr": "213",
+   "date": "16.10.1966",
+   "title": "Initiative «zur Bekämpfung des Alkoholismus»",
+   "cue": 0.2118,
+   "yes": 23.37,
+   "predicted_loo": 32.12
+  },
+  {
+   "anr": "214",
+   "date": "02.07.1967",
+   "title": "Initiative «gegen die Bodenspekulation»",
+   "cue": 0.3385,
+   "yes": 32.69,
+   "predicted_loo": 37.92
+  },
+  {
+   "anr": "215",
+   "date": "18.02.1968",
+   "title": "Erlass einer allgemeinen Steueramnestie",
+   "cue": 0.7945,
+   "yes": 61.85,
+   "predicted_loo": 58.85
+  },
+  {
+   "anr": "216",
+   "date": "19.05.1968",
+   "title": "Gesetz über die Tabakbesteuerung",
+   "cue": 0.7658,
+   "yes": 48.25,
+   "predicted_loo": 57.56
+  },
+  {
+   "anr": "217",
+   "date": "01.06.1969",
+   "title": "Gesetz über die Eidgenössischen Technischen Hochschulen",
+   "cue": 0.2953,
+   "yes": 34.48,
+   "predicted_loo": 35.92
+  },
+  {
+   "anr": "218",
+   "date": "14.09.1969",
+   "title": "Verfassungsrechtliche Ordnung des Bodenrechts",
+   "cue": 0.8752,
+   "yes": 55.93,
+   "predicted_loo": 62.58
+  },
+  {
+   "anr": "219",
+   "date": "01.02.1970",
+   "title": "Bundesbeschluss über die inländische Zuckerwirtschaft",
+   "cue": 0.6595,
+   "yes": 54.24,
+   "predicted_loo": 52.65
+  },
+  {
+   "anr": "220",
+   "date": "07.06.1970",
+   "title": "Initiative «Gegen die Überfremdung»",
+   "cue": 0.0065,
+   "yes": 45.99,
+   "predicted_loo": 22.45
+  },
+  {
+   "anr": "221",
+   "date": "27.09.1970",
+   "title": "Verfassungsartikel zur Förderung von Turnen und Sport",
+   "cue": 1.0,
+   "yes": 74.63,
+   "predicted_loo": 68.27
+  },
+  {
+   "anr": "222",
+   "date": "27.09.1970",
+   "title": "Initiative «Recht auf Wohnung und Ausbau des Familienschutzes»",
+   "cue": 0.6012,
+   "yes": 48.92,
+   "predicted_loo": 49.98
+  },
+  {
+   "anr": "223",
+   "date": "15.11.1970",
+   "title": "Änderung der Finanzordnung",
+   "cue": 0.9453,
+   "yes": 55.38,
+   "predicted_loo": 65.83
+  },
+  {
+   "anr": "224",
+   "date": "07.02.1971",
+   "title": "Einführung des Frauenstimmrechts",
+   "cue": 1.0,
+   "yes": 65.73,
+   "predicted_loo": 68.31
+  },
+  {
+   "anr": "225",
+   "date": "06.06.1971",
+   "title": "Umweltschutzartikel",
+   "cue": 1.0,
+   "yes": 92.7,
+   "predicted_loo": 68.18
+  },
+  {
+   "anr": "226",
+   "date": "06.06.1971",
+   "title": "Weiterführung der Finanzordnung",
+   "cue": 0.8596,
+   "yes": 72.75,
+   "predicted_loo": 61.81
+  },
+  {
+   "anr": "227.1",
+   "date": "05.03.1972",
+   "title": "Initiative «zur Förderung des Wohnungsbaues»",
+   "cue": 0.0326,
+   "yes": 28.95,
+   "predicted_loo": 23.81
+  },
+  {
+   "anr": "227.2",
+   "date": "05.03.1972",
+   "title": "Gegenentwurf zur Wohnungsbau-Initiative",
+   "cue": 0.9361,
+   "yes": 58.47,
+   "predicted_loo": 65.39
+  },
+  {
+   "anr": "228",
+   "date": "05.03.1972",
+   "title": "Verfassungsartikel über den Mieterschutz und die Allgemeinverbindlicherklärung von Mietverträgen",
+   "cue": 1.0,
+   "yes": 85.4,
+   "predicted_loo": 68.22
+  },
+  {
+   "anr": "229",
+   "date": "04.06.1972",
+   "title": "Massnahmen zur Stabilisierung des Baumarktes",
+   "cue": 0.9222,
+   "yes": 83.35,
+   "predicted_loo": 64.65
+  },
+  {
+   "anr": "230",
+   "date": "04.06.1972",
+   "title": "Bundesbeschluss über den Schutz der Währung",
+   "cue": 0.924,
+   "yes": 87.73,
+   "predicted_loo": 64.72
+  },
+  {
+   "anr": "231",
+   "date": "24.09.1972",
+   "title": "Initiative für ein Waffenausfuhrverbot",
+   "cue": 0.3539,
+   "yes": 49.67,
+   "predicted_loo": 38.58
+  },
+  {
+   "anr": "232.1",
+   "date": "03.12.1972",
+   "title": "Initiative zur Einführung einer Volkspension",
+   "cue": 0.0426,
+   "yes": 15.63,
+   "predicted_loo": 24.37
+  },
+  {
+   "anr": "232.2",
+   "date": "03.12.1972",
+   "title": "Gegenentwurf zur Initiative zur Einführung einer Volkspension",
+   "cue": 0.9454,
+   "yes": 73.95,
+   "predicted_loo": 65.76
+  },
+  {
+   "anr": "233",
+   "date": "03.12.1972",
+   "title": "Abkommen mit der EWG",
+   "cue": 0.8977,
+   "yes": 72.53,
+   "predicted_loo": 63.57
+  },
+  {
+   "anr": "234",
+   "date": "04.03.1973",
+   "title": "Bildungsartikel",
+   "cue": 0.9176,
+   "yes": 52.75,
+   "predicted_loo": 64.55
+  },
+  {
+   "anr": "235",
+   "date": "04.03.1973",
+   "title": "Verfassungsartikel zur wissenschaftlichen Forschung",
+   "cue": 0.9837,
+   "yes": 64.51,
+   "predicted_loo": 67.56
+  },
+  {
+   "anr": "236",
+   "date": "20.05.1973",
+   "title": "Aufhebung des Jesuiten- und des Klosterartikels",
+   "cue": 0.9511,
+   "yes": 54.94,
+   "predicted_loo": 66.1
+  },
+  {
+   "anr": "237",
+   "date": "02.12.1973",
+   "title": "Massnahmen zur Preisüberwachung",
+   "cue": 0.7402,
+   "yes": 59.76,
+   "predicted_loo": 56.35
+  },
+  {
+   "anr": "238",
+   "date": "02.12.1973",
+   "title": "Massnahmen auf dem Gebiet des Kreditwesens",
+   "cue": 0.9737,
+   "yes": 65.12,
+   "predicted_loo": 67.1
+  },
+  {
+   "anr": "239",
+   "date": "02.12.1973",
+   "title": "Massnahmen zur Stabilisierung des Baumarktes",
+   "cue": 1.0,
+   "yes": 70.39,
+   "predicted_loo": 68.29
+  },
+  {
+   "anr": "240",
+   "date": "02.12.1973",
+   "title": "Einschränkung der steuerwirksamen Abschreibungen",
+   "cue": 1.0,
+   "yes": 68.05,
+   "predicted_loo": 68.3
+  },
+  {
+   "anr": "241",
+   "date": "02.12.1973",
+   "title": "Tierschutzartikel ",
+   "cue": 1.0,
+   "yes": 83.95,
+   "predicted_loo": 68.22
+  },
+  {
+   "anr": "242",
+   "date": "20.10.1974",
+   "title": "Initiative «Gegen die Überfremdung»",
+   "cue": 0.0326,
+   "yes": 34.19,
+   "predicted_loo": 23.77
+  },
+  {
+   "anr": "243",
+   "date": "08.12.1974",
+   "title": "Verbesserung des Bundeshaushalts",
+   "cue": 0.8192,
+   "yes": 44.39,
+   "predicted_loo": 60.03
+  },
+  {
+   "anr": "244",
+   "date": "08.12.1974",
+   "title": "Erschwerung von Ausgabenbeschlüssen",
+   "cue": 0.6573,
+   "yes": 67.01,
+   "predicted_loo": 52.53
+  },
+  {
+   "anr": "245.1",
+   "date": "08.12.1974",
+   "title": "Initiative «für eine soziale Krankenversicherung»",
+   "cue": 0.2714,
+   "yes": 26.71,
+   "predicted_loo": 34.85
+  },
+  {
+   "anr": "246",
+   "date": "02.03.1975",
+   "title": "Konjunkturartikel",
+   "cue": 0.8909,
+   "yes": 52.77,
+   "predicted_loo": 63.32
+  },
+  {
+   "anr": "247",
+   "date": "08.06.1975",
+   "title": "Bundesbeschluss über den Schutz der Währung",
+   "cue": 0.9991,
+   "yes": 85.52,
+   "predicted_loo": 68.17
+  },
+  {
+   "anr": "248",
+   "date": "08.06.1975",
+   "title": "Bundesbeschluss über die Finanzierung der Nationalstrassen",
+   "cue": 0.8199,
+   "yes": 53.46,
+   "predicted_loo": 60.04
+  },
+  {
+   "anr": "249",
+   "date": "08.06.1975",
+   "title": "Änderung des Generalzolltarifs",
+   "cue": 0.5864,
+   "yes": 48.23,
+   "predicted_loo": 49.3
+  },
+  {
+   "anr": "250",
+   "date": "08.06.1975",
+   "title": "Bundesbeschluss zur Erhöhung der Steuereinnahmen",
+   "cue": 0.8199,
+   "yes": 55.96,
+   "predicted_loo": 60.03
+  },
+  {
+   "anr": "251",
+   "date": "08.06.1975",
+   "title": "Erschwerung von Ausgabenbeschlüssen",
+   "cue": 0.7402,
+   "yes": 75.94,
+   "predicted_loo": 56.32
+  },
+  {
+   "anr": "252",
+   "date": "07.12.1975",
+   "title": "Reform der Niederlassungsfreiheit und Unterstützungsregelung",
+   "cue": 1.0,
+   "yes": 75.62,
+   "predicted_loo": 68.26
+  },
+  {
+   "anr": "253",
+   "date": "07.12.1975",
+   "title": "Verfassungsbestimmungen zur Wasserwirtschaft",
+   "cue": 1.0,
+   "yes": 77.52,
+   "predicted_loo": 68.25
+  },
+  {
+   "anr": "254",
+   "date": "07.12.1975",
+   "title": "Gesetz über die Ein- und Ausfuhr von Landwirtschaftserzeugnissen",
+   "cue": 0.8032,
+   "yes": 52.02,
+   "predicted_loo": 59.27
+  },
+  {
+   "anr": "255.1",
+   "date": "21.03.1976",
+   "title": "Initiative «für die Mitbestimmung der Arbeitnehmer»",
+   "cue": 0.3724,
+   "yes": 32.38,
+   "predicted_loo": 39.48
+  },
+  {
+   "anr": "255.2",
+   "date": "21.03.1976",
+   "title": "Gegenentwurf zur Mitbestimmungsinitiative",
+   "cue": 0.3258,
+   "yes": 29.61,
+   "predicted_loo": 37.34
+  },
+  {
+   "anr": "256",
+   "date": "21.03.1976",
+   "title": "Initiative «für eine Reform des Steuerwesens»",
+   "cue": 0.2199,
+   "yes": 42.22,
+   "predicted_loo": 32.41
+  },
+  {
+   "anr": "257",
+   "date": "13.06.1976",
+   "title": "Raumplanungsgesetz",
+   "cue": 0.9394,
+   "yes": 48.9,
+   "predicted_loo": 65.58
+  },
+  {
+   "anr": "258",
+   "date": "13.06.1976",
+   "title": "Darlehen an die Internationale Entwicklungsorganisation",
+   "cue": 0.9341,
+   "yes": 43.55,
+   "predicted_loo": 65.35
+  },
+  {
+   "anr": "259",
+   "date": "13.06.1976",
+   "title": "Neukonzeption der Arbeitslosenversicherung",
+   "cue": 0.9848,
+   "yes": 68.27,
+   "predicted_loo": 67.6
+  },
+  {
+   "anr": "260",
+   "date": "26.09.1976",
+   "title": "Radio- und Fernsehartikel",
+   "cue": 0.679,
+   "yes": 43.29,
+   "predicted_loo": 53.57
+  },
+  {
+   "anr": "261",
+   "date": "26.09.1976",
+   "title": "Initiative für eine Haftpflichtversicherung für Motorfahrzeuge und Fahrräder",
+   "cue": 0.2899,
+   "yes": 24.3,
+   "predicted_loo": 35.71
+  },
+  {
+   "anr": "262",
+   "date": "05.12.1976",
+   "title": "Bundesbeschluss über die Geld- und Kreditpolitik",
+   "cue": 0.9898,
+   "yes": 70.35,
+   "predicted_loo": 67.82
+  },
+  {
+   "anr": "263",
+   "date": "05.12.1976",
+   "title": "Bundesbeschluss über die Preisüberwachung",
+   "cue": 0.957,
+   "yes": 82.02,
+   "predicted_loo": 66.26
+  },
+  {
+   "anr": "264",
+   "date": "05.12.1976",
+   "title": "Initiative «für die Einführung der 40-Stunden-Woche»",
+   "cue": 0.2899,
+   "yes": 21.96,
+   "predicted_loo": 35.72
+  },
+  {
+   "anr": "265",
+   "date": "13.03.1977",
+   "title": "Vierte «Überfremdungsinitiative»",
+   "cue": 0.0558,
+   "yes": 29.54,
+   "predicted_loo": 24.88
+  },
+  {
+   "anr": "266",
+   "date": "13.03.1977",
+   "title": "Initiative «für eine Beschränkung der Einbürgerungen»",
+   "cue": 0.0558,
+   "yes": 33.76,
+   "predicted_loo": 24.85
+  },
+  {
+   "anr": "267.1",
+   "date": "13.03.1977",
+   "title": "Initiative zur Neuordnung des Staatsvertragsreferendums",
+   "cue": 0.0558,
+   "yes": 21.88,
+   "predicted_loo": 24.94
+  },
+  {
+   "anr": "268",
+   "date": "12.06.1977",
+   "title": "Neuordnung der Umsatzsteuer und der direkten Bundessteuer",
+   "cue": 0.8444,
+   "yes": 40.52,
+   "predicted_loo": 61.21
+  },
+  {
+   "anr": "269",
+   "date": "12.06.1977",
+   "title": "Bundesbeschluss über die Steuerharmonisierung",
+   "cue": 0.9355,
+   "yes": 61.32,
+   "predicted_loo": 65.35
+  },
+  {
+   "anr": "270.1",
+   "date": "25.09.1977",
+   "title": "Mieterschutzinitiative",
+   "cue": 0.3464,
+   "yes": 42.24,
+   "predicted_loo": 38.26
+  },
+  {
+   "anr": "271",
+   "date": "25.09.1977",
+   "title": "Initiative «gegen die Luftverschmutzung durch Motorfahrzeuge»",
+   "cue": 0.4282,
+   "yes": 39.03,
+   "predicted_loo": 42.03
+  },
+  {
+   "anr": "272",
+   "date": "25.09.1977",
+   "title": "Erhöhung der Unterschriftenzahl für das Referendum",
+   "cue": 0.5669,
+   "yes": 57.85,
+   "predicted_loo": 48.38
+  },
+  {
+   "anr": "273",
+   "date": "25.09.1977",
+   "title": "Erhöhung der Unterschriftenzahl für die Verfassungsinitiative",
+   "cue": 0.5669,
+   "yes": 56.71,
+   "predicted_loo": 48.38
+  },
+  {
+   "anr": "274",
+   "date": "25.09.1977",
+   "title": "Initiative «für die Fristenlösung»",
+   "cue": 0.6691,
+   "yes": 48.3,
+   "predicted_loo": 53.1
+  },
+  {
+   "anr": "275",
+   "date": "04.12.1977",
+   "title": "«Reichtumssteuer-Initiative»",
+   "cue": 0.3311,
+   "yes": 44.36,
+   "predicted_loo": 37.54
+  },
+  {
+   "anr": "276",
+   "date": "04.12.1977",
+   "title": "Bundesgesetz über die politischen Rechte",
+   "cue": 0.6126,
+   "yes": 59.43,
+   "predicted_loo": 50.48
+  },
+  {
+   "anr": "277",
+   "date": "04.12.1977",
+   "title": "Einführung eines zivilen Ersatzdienstes",
+   "cue": 0.439,
+   "yes": 37.6,
+   "predicted_loo": 42.53
+  },
+  {
+   "anr": "278",
+   "date": "04.12.1977",
+   "title": "Massnahmen zum Ausgleich des Bundeshaushaltes",
+   "cue": 0.7101,
+   "yes": 62.43,
+   "predicted_loo": 54.96
+  },
+  {
+   "anr": "279",
+   "date": "26.02.1978",
+   "title": "Initiative für mehr Mitbestimmung im Nationalstrassenbau",
+   "cue": 0.1526,
+   "yes": 38.68,
+   "predicted_loo": 29.31
+  },
+  {
+   "anr": "280",
+   "date": "26.02.1978",
+   "title": "9. AHV-Revision",
+   "cue": 0.9445,
+   "yes": 65.58,
+   "predicted_loo": 65.75
+  },
+  {
+   "anr": "281",
+   "date": "26.02.1978",
+   "title": "Initiative zur Herabsetzung des AHV-Alters",
+   "cue": 0.0345,
+   "yes": 20.62,
+   "predicted_loo": 23.96
+  },
+  {
+   "anr": "282",
+   "date": "26.02.1978",
+   "title": "Konjunkturartikel",
+   "cue": 0.9754,
+   "yes": 68.36,
+   "predicted_loo": 67.16
+  },
+  {
+   "anr": "283",
+   "date": "28.05.1978",
+   "title": "Zeitgesetz (Sommerzeit)",
+   "cue": 0.6892,
+   "yes": 47.91,
+   "predicted_loo": 54.03
+  },
+  {
+   "anr": "284",
+   "date": "28.05.1978",
+   "title": "Zolltarifgesetz (Brotpreis)",
+   "cue": 0.6478,
+   "yes": 54.81,
+   "predicted_loo": 52.11
+  },
+  {
+   "anr": "285",
+   "date": "28.05.1978",
+   "title": "Gesetz über den Schwangerschaftsabbruch",
+   "cue": 0.3005,
+   "yes": 31.2,
+   "predicted_loo": 36.17
+  },
+  {
+   "anr": "286",
+   "date": "28.05.1978",
+   "title": "Gesetz über die Hochschulförderung",
+   "cue": 0.9442,
+   "yes": 43.32,
+   "predicted_loo": 65.82
+  },
+  {
+   "anr": "287",
+   "date": "28.05.1978",
+   "title": "Initiative für 12 autofreie Sonntage pro Jahr",
+   "cue": 0.2458,
+   "yes": 36.28,
+   "predicted_loo": 33.63
+  },
+  {
+   "anr": "288",
+   "date": "24.09.1978",
+   "title": "Bundesbeschluss über die Gründung des Kantons Jura",
+   "cue": 0.9594,
+   "yes": 82.29,
+   "predicted_loo": 66.37
+  },
+  {
+   "anr": "289",
+   "date": "03.12.1978",
+   "title": "Milchwirtschaftsbeschluss",
+   "cue": 0.6351,
+   "yes": 68.5,
+   "predicted_loo": 51.5
+  },
+  {
+   "anr": "290",
+   "date": "03.12.1978",
+   "title": "Tierschutzgesetz ",
+   "cue": 0.9898,
+   "yes": 81.7,
+   "predicted_loo": 67.76
+  },
+  {
+   "anr": "291",
+   "date": "03.12.1978",
+   "title": "Sicherheitspolizeigesetz",
+   "cue": 0.6478,
+   "yes": 44.02,
+   "predicted_loo": 52.13
+  },
+  {
+   "anr": "292",
+   "date": "03.12.1978",
+   "title": "Berufsbildungsgesetz",
+   "cue": 0.7101,
+   "yes": 56.04,
+   "predicted_loo": 54.98
+  },
+  {
+   "anr": "293",
+   "date": "18.02.1979",
+   "title": "Stimm- und Wahlrecht für 18-Jährige",
+   "cue": 0.9317,
+   "yes": 49.19,
+   "predicted_loo": 65.22
+  },
+  {
+   "anr": "294",
+   "date": "18.02.1979",
+   "title": "Bundesbeschluss über die Fuss- und Wanderwege",
+   "cue": 0.9748,
+   "yes": 77.58,
+   "predicted_loo": 67.09
+  },
+  {
+   "anr": "295",
+   "date": "18.02.1979",
+   "title": "Initiative «gegen Suchtmittelreklame»",
+   "cue": 0.3978,
+   "yes": 40.96,
+   "predicted_loo": 40.63
+  },
+  {
+   "anr": "296",
+   "date": "18.02.1979",
+   "title": "Atominitiative",
+   "cue": 0.3978,
+   "yes": 48.8,
+   "predicted_loo": 40.61
+  },
+  {
+   "anr": "297",
+   "date": "20.05.1979",
+   "title": "Neuordnung der Umsatzsteuer und der direkten Bundessteuer",
+   "cue": 0.5718,
+   "yes": 34.59,
+   "predicted_loo": 48.65
+  },
+  {
+   "anr": "298",
+   "date": "20.05.1979",
+   "title": "Atomgesetz",
+   "cue": 0.9898,
+   "yes": 68.86,
+   "predicted_loo": 67.82
+  },
+  {
+   "anr": "299",
+   "date": "02.03.1980",
+   "title": "Initiative zur «vollständigen Trennung von Kirche und Staat»",
+   "cue": 0.1744,
+   "yes": 21.1,
+   "predicted_loo": 30.41
+  },
+  {
+   "anr": "300",
+   "date": "02.03.1980",
+   "title": "Neuordnung der Landesversorgung",
+   "cue": 0.9912,
+   "yes": 86.05,
+   "predicted_loo": 67.81
+  },
+  {
+   "anr": "301",
+   "date": "30.11.1980",
+   "title": "Gurten- und Schutzhelmobligatorium",
+   "cue": 0.9643,
+   "yes": 51.55,
+   "predicted_loo": 66.72
+  },
+  {
+   "anr": "302",
+   "date": "30.11.1980",
+   "title": "Aufhebung des Kantonsanteils an den Stempelabgaben",
+   "cue": 0.9607,
+   "yes": 67.3,
+   "predicted_loo": 66.49
+  },
+  {
+   "anr": "303",
+   "date": "30.11.1980",
+   "title": "Abbau des Kantonsanteils an den Alkoholeinnahmen ",
+   "cue": 0.9607,
+   "yes": 71.04,
+   "predicted_loo": 66.47
+  },
+  {
+   "anr": "304",
+   "date": "30.11.1980",
+   "title": "Revision der Brotgetreideordnung",
+   "cue": 0.8336,
+   "yes": 63.54,
+   "predicted_loo": 60.64
+  },
+  {
+   "anr": "305",
+   "date": "05.04.1981",
+   "title": "Initiative «für eine neue Ausländerpolitik»",
+   "cue": 0.3358,
+   "yes": 16.22,
+   "predicted_loo": 37.84
+  },
+  {
+   "anr": "306",
+   "date": "14.06.1981",
+   "title": "Artikel zur Gleichstellung von Mann und Frau",
+   "cue": 0.9797,
+   "yes": 60.27,
+   "predicted_loo": 67.4
+  },
+  {
+   "anr": "307",
+   "date": "14.06.1981",
+   "title": "Konsumentenschutz-Artikel",
+   "cue": 0.7146,
+   "yes": 65.55,
+   "predicted_loo": 55.17
+  },
+  {
+   "anr": "308",
+   "date": "29.11.1981",
+   "title": "Weiterführung der Finanzordnung",
+   "cue": 0.905,
+   "yes": 68.95,
+   "predicted_loo": 63.92
+  },
+  {
+   "anr": "309",
+   "date": "06.06.1982",
+   "title": "Revision des Strafgesetzes (Gewaltverbrechen)",
+   "cue": 0.7073,
+   "yes": 63.71,
+   "predicted_loo": 54.83
+  },
+  {
+   "anr": "310",
+   "date": "06.06.1982",
+   "title": "Ausländergesetz",
+   "cue": 0.9772,
+   "yes": 49.64,
+   "predicted_loo": 67.33
+  },
+  {
+   "anr": "311.1",
+   "date": "28.11.1982",
+   "title": "Preisüberwachungs-Initiative",
+   "cue": 0.4821,
+   "yes": 56.13,
+   "predicted_loo": 44.48
+  },
+  {
+   "anr": "311.2",
+   "date": "28.11.1982",
+   "title": "Gegenentwurf zur Preisüberwachungs-Initiative",
+   "cue": 0.4981,
+   "yes": 21.59,
+   "predicted_loo": 45.28
+  },
+  {
+   "anr": "312",
+   "date": "27.02.1983",
+   "title": "Neuregelung der Treibstoffzölle",
+   "cue": 0.7479,
+   "yes": 52.69,
+   "predicted_loo": 56.72
+  },
+  {
+   "anr": "313",
+   "date": "27.02.1983",
+   "title": "Energieartikel",
+   "cue": 0.7955,
+   "yes": 50.92,
+   "predicted_loo": 58.92
+  },
+  {
+   "anr": "314",
+   "date": "04.12.1983",
+   "title": "Reform der Bürgerrechtsregelung in der Bundesverfassung",
+   "cue": 0.9643,
+   "yes": 60.81,
+   "predicted_loo": 66.68
+  },
+  {
+   "anr": "315",
+   "date": "04.12.1983",
+   "title": "Bundesbeschluss über die Erleichterung gewisser Einbürgerungen",
+   "cue": 0.9587,
+   "yes": 44.83,
+   "predicted_loo": 66.49
+  },
+  {
+   "anr": "316",
+   "date": "26.02.1984",
+   "title": "Einführung einer Schwerverkehrsabgabe",
+   "cue": 0.9702,
+   "yes": 58.7,
+   "predicted_loo": 66.96
+  },
+  {
+   "anr": "317",
+   "date": "26.02.1984",
+   "title": "Einführung der Autobahnvignette",
+   "cue": 0.6682,
+   "yes": 52.98,
+   "predicted_loo": 53.05
+  },
+  {
+   "anr": "318",
+   "date": "26.02.1984",
+   "title": "Zivildienst-Initiative",
+   "cue": 0.3582,
+   "yes": 36.17,
+   "predicted_loo": 38.82
+  },
+  {
+   "anr": "319",
+   "date": "20.05.1984",
+   "title": "Initiative «gegen den Missbrauch des Bankgeheimnisses und der Bankenmacht»",
+   "cue": 0.3234,
+   "yes": 26.96,
+   "predicted_loo": 37.24
+  },
+  {
+   "anr": "320",
+   "date": "20.05.1984",
+   "title": "Initiative «Gegen den Ausverkauf der Heimat»",
+   "cue": 0.3639,
+   "yes": 48.92,
+   "predicted_loo": 39.04
+  },
+  {
+   "anr": "321",
+   "date": "23.09.1984",
+   "title": "Initiative «für eine Zukunft ohne weitere Atomkraftwerke»",
+   "cue": 0.3668,
+   "yes": 45.03,
+   "predicted_loo": 39.19
+  },
+  {
+   "anr": "322",
+   "date": "23.09.1984",
+   "title": "Initiative «für eine umweltgerechte Energieversorgung»",
+   "cue": 0.3887,
+   "yes": 45.77,
+   "predicted_loo": 40.2
+  },
+  {
+   "anr": "323",
+   "date": "02.12.1984",
+   "title": "Initiative «für einen wirksamen Schutz der Mutterschaft»",
+   "cue": 0.2726,
+   "yes": 15.78,
+   "predicted_loo": 34.94
+  },
+  {
+   "anr": "324",
+   "date": "02.12.1984",
+   "title": "Radio- und Fernsehartikel",
+   "cue": 1.0,
+   "yes": 68.74,
+   "predicted_loo": 68.3
+  },
+  {
+   "anr": "325",
+   "date": "02.12.1984",
+   "title": "Bundesbeschluss über die Entschädigung der Opfer von Gewaltverbrechen",
+   "cue": 1.0,
+   "yes": 82.09,
+   "predicted_loo": 68.23
+  },
+  {
+   "anr": "326",
+   "date": "10.03.1985",
+   "title": "Aufhebung der Bundesbeiträge für den Primarschulunterricht",
+   "cue": 0.9666,
+   "yes": 58.47,
+   "predicted_loo": 66.8
+  },
+  {
+   "anr": "327",
+   "date": "10.03.1985",
+   "title": "Aufhebung der Beitragspflicht des Bundes im Gesundheitswesen",
+   "cue": 0.9666,
+   "yes": 52.99,
+   "predicted_loo": 66.82
+  },
+  {
+   "anr": "328",
+   "date": "10.03.1985",
+   "title": "Bundesbeschluss über die Ausbildungsbeiträge",
+   "cue": 0.6253,
+   "yes": 47.63,
+   "predicted_loo": 51.09
+  },
+  {
+   "anr": "329",
+   "date": "10.03.1985",
+   "title": "Ferien-Initiative",
+   "cue": 0.2995,
+   "yes": 34.78,
+   "predicted_loo": 36.12
+  },
+  {
+   "anr": "330",
+   "date": "09.06.1985",
+   "title": "Initiative «Recht auf Leben»",
+   "cue": 0.2802,
+   "yes": 30.96,
+   "predicted_loo": 35.24
+  },
+  {
+   "anr": "331",
+   "date": "09.06.1985",
+   "title": "Aufhebung des Kantonsanteils an den Stempelabgaben",
+   "cue": 0.9517,
+   "yes": 66.52,
+   "predicted_loo": 66.08
+  },
+  {
+   "anr": "332",
+   "date": "09.06.1985",
+   "title": "Neuverteilung der Erträge aus der Alkoholabgabe",
+   "cue": 0.9517,
+   "yes": 72.31,
+   "predicted_loo": 66.05
+  },
+  {
+   "anr": "333",
+   "date": "09.06.1985",
+   "title": "Aufhebung der Unterstützung für die Selbstversorgung mit Brotgetreide",
+   "cue": 0.7938,
+   "yes": 57.04,
+   "predicted_loo": 58.83
+  },
+  {
+   "anr": "334",
+   "date": "22.09.1985",
+   "title": "Bundesbeschluss zur Koordination des Schuljahresbeginns",
+   "cue": 0.8234,
+   "yes": 58.85,
+   "predicted_loo": 60.19
+  },
+  {
+   "anr": "335",
+   "date": "22.09.1985",
+   "title": "Bundesbeschluss über die Innovationsrisikogarantie",
+   "cue": 0.5233,
+   "yes": 43.11,
+   "predicted_loo": 46.4
+  },
+  {
+   "anr": "336",
+   "date": "22.09.1985",
+   "title": "Neues Ehe- und Erbrecht",
+   "cue": 0.93,
+   "yes": 54.72,
+   "predicted_loo": 65.12
+  },
+  {
+   "anr": "337",
+   "date": "01.12.1985",
+   "title": "Initiative «für die Abschaffung der Vivisektion»",
+   "cue": 0.1262,
+   "yes": 29.47,
+   "predicted_loo": 28.14
+  },
+  {
+   "anr": "338",
+   "date": "16.03.1986",
+   "title": "UNO-Beitritt",
+   "cue": 0.7917,
+   "yes": 24.33,
+   "predicted_loo": 58.81
+  },
+  {
+   "anr": "339.1",
+   "date": "28.09.1986",
+   "title": "Kulturinitiative",
+   "cue": 0.3344,
+   "yes": 16.66,
+   "predicted_loo": 37.78
+  },
+  {
+   "anr": "339.2",
+   "date": "28.09.1986",
+   "title": "Gegenentwurf zur Kulturinitiative",
+   "cue": 0.7482,
+   "yes": 39.3,
+   "predicted_loo": 56.76
+  },
+  {
+   "anr": "340",
+   "date": "28.09.1986",
+   "title": "Initiative zur Berufsbildung und Umschulung",
+   "cue": 0.2726,
+   "yes": 18.38,
+   "predicted_loo": 34.94
+  },
+  {
+   "anr": "341",
+   "date": "28.09.1986",
+   "title": "Bundesbeschluss über die Zuckerwirtschaft",
+   "cue": 0.78,
+   "yes": 38.16,
+   "predicted_loo": 58.23
+  },
+  {
+   "anr": "342",
+   "date": "07.12.1986",
+   "title": "Bundesbeschluss zum Mieterschutz",
+   "cue": 0.9649,
+   "yes": 64.37,
+   "predicted_loo": 66.7
+  },
+  {
+   "anr": "343",
+   "date": "07.12.1986",
+   "title": "Initiative für eine Schwerverkehrsabgabe",
+   "cue": 0.3871,
+   "yes": 33.87,
+   "predicted_loo": 40.15
+  },
+  {
+   "anr": "344",
+   "date": "05.04.1987",
+   "title": "Asylgesetz",
+   "cue": 0.6438,
+   "yes": 67.34,
+   "predicted_loo": 51.91
+  },
+  {
+   "anr": "345",
+   "date": "05.04.1987",
+   "title": "Ausländergesetz",
+   "cue": 0.6656,
+   "yes": 65.71,
+   "predicted_loo": 52.91
+  },
+  {
+   "anr": "346",
+   "date": "05.04.1987",
+   "title": "Initiative für die Einführung eines Rüstungsreferendums",
+   "cue": 0.3134,
+   "yes": 40.56,
+   "predicted_loo": 36.74
+  },
+  {
+   "anr": "347",
+   "date": "05.04.1987",
+   "title": "Abstimmungsverfahren bei Volksinitiativen mit Gegenentwurf",
+   "cue": 0.6049,
+   "yes": 63.27,
+   "predicted_loo": 50.12
+  },
+  {
+   "anr": "348",
+   "date": "06.12.1987",
+   "title": "Bahn 2000",
+   "cue": 0.9354,
+   "yes": 56.99,
+   "predicted_loo": 65.36
+  },
+  {
+   "anr": "349",
+   "date": "06.12.1987",
+   "title": "Krankenversicherungsgesetz",
+   "cue": 0.9199,
+   "yes": 28.72,
+   "predicted_loo": 64.75
+  },
+  {
+   "anr": "350",
+   "date": "06.12.1987",
+   "title": "Initiative «zum Schutz der Moore - Rothenthurm-Initiative»",
+   "cue": 0.3149,
+   "yes": 57.76,
+   "predicted_loo": 36.75
+  },
+  {
+   "anr": "351",
+   "date": "12.06.1988",
+   "title": "Verfassungsgrundlagen für eine koordinierte Verkehrspolitik",
+   "cue": 0.5763,
+   "yes": 45.51,
+   "predicted_loo": 48.84
+  },
+  {
+   "anr": "352",
+   "date": "12.06.1988",
+   "title": "Initiative zur Herabsetzung des AHV-Rentenalters",
+   "cue": 0.2184,
+   "yes": 35.12,
+   "predicted_loo": 32.37
+  },
+  {
+   "anr": "353",
+   "date": "04.12.1988",
+   "title": "«Stadt-Land-Initiative gegen die Bodenspekulation»",
+   "cue": 0.3285,
+   "yes": 30.78,
+   "predicted_loo": 37.46
+  },
+  {
+   "anr": "354",
+   "date": "04.12.1988",
+   "title": "Initiative «zur Herabsetzung der Arbeitszeit»",
+   "cue": 0.3062,
+   "yes": 34.27,
+   "predicted_loo": 36.43
+  },
+  {
+   "anr": "355",
+   "date": "04.12.1988",
+   "title": "Initiative «für die Begrenzung der Einwanderung»",
+   "cue": 0.0369,
+   "yes": 32.7,
+   "predicted_loo": 23.98
+  },
+  {
+   "anr": "356",
+   "date": "04.06.1989",
+   "title": "Kleinbauern-Initiative",
+   "cue": 0.3437,
+   "yes": 48.95,
+   "predicted_loo": 38.11
+  },
+  {
+   "anr": "357",
+   "date": "26.11.1989",
+   "title": "Initiative für eine Schweiz ohne Armee",
+   "cue": 0.1477,
+   "yes": 35.59,
+   "predicted_loo": 29.1
+  },
+  {
+   "anr": "358",
+   "date": "26.11.1989",
+   "title": "Initiative «pro Tempo 130/100»",
+   "cue": 0.0567,
+   "yes": 38.02,
+   "predicted_loo": 24.86
+  },
+  {
+   "anr": "359",
+   "date": "01.04.1990",
+   "title": "Initiative «für eine Begrenzung des Strassenbaus»",
+   "cue": 0.3377,
+   "yes": 28.51,
+   "predicted_loo": 37.89
+  },
+  {
+   "anr": "360",
+   "date": "01.04.1990",
+   "title": "Initiative «für eine autobahnfreie Landschaft zwischen Murten und Yverdon»",
+   "cue": 0.3626,
+   "yes": 32.72,
+   "predicted_loo": 39.03
+  },
+  {
+   "anr": "361",
+   "date": "01.04.1990",
+   "title": "Initiative «für ein autobahnfreies Knonauer Amt»",
+   "cue": 0.3626,
+   "yes": 31.37,
+   "predicted_loo": 39.03
+  },
+  {
+   "anr": "362",
+   "date": "01.04.1990",
+   "title": "Initiative für eine freie Aarelandschaft zwischen Biel und Solothurn",
+   "cue": 0.3626,
+   "yes": 34.04,
+   "predicted_loo": 39.02
+  },
+  {
+   "anr": "363",
+   "date": "01.04.1990",
+   "title": "Rebbaubeschluss",
+   "cue": 0.4991,
+   "yes": 46.66,
+   "predicted_loo": 45.28
+  },
+  {
+   "anr": "364",
+   "date": "01.04.1990",
+   "title": "Gesetz über die Organisation der Bundesrechtspflege",
+   "cue": 0.6379,
+   "yes": 47.36,
+   "predicted_loo": 51.67
+  },
+  {
+   "anr": "365",
+   "date": "23.09.1990",
+   "title": "Initiative für einen Ausstieg aus der Atomenergie",
+   "cue": 0.3626,
+   "yes": 47.13,
+   "predicted_loo": 38.99
+  },
+  {
+   "anr": "366",
+   "date": "23.09.1990",
+   "title": "Initiative «Stopp dem Atomkraftwerkbau (Moratorium)»",
+   "cue": 0.3626,
+   "yes": 54.52,
+   "predicted_loo": 38.97
+  },
+  {
+   "anr": "367",
+   "date": "23.09.1990",
+   "title": "Energieartikel",
+   "cue": 0.8845,
+   "yes": 71.1,
+   "predicted_loo": 62.96
+  },
+  {
+   "anr": "368",
+   "date": "23.09.1990",
+   "title": "Strassenverkehrsgesetz",
+   "cue": 0.6374,
+   "yes": 52.8,
+   "predicted_loo": 51.64
+  },
+  {
+   "anr": "369",
+   "date": "03.03.1991",
+   "title": "Herabsetzung des Stimmrechtsalters auf 18 Jahre",
+   "cue": 0.9901,
+   "yes": 72.75,
+   "predicted_loo": 67.82
+  },
+  {
+   "anr": "370",
+   "date": "03.03.1991",
+   "title": "Initiative «zur Förderung des öffentlichen Verkehrs»",
+   "cue": 0.3539,
+   "yes": 37.14,
+   "predicted_loo": 38.62
+  },
+  {
+   "anr": "371",
+   "date": "02.06.1991",
+   "title": "Neuordnung der Bundesfinanzen (Einführung Mehrwertsteuer)",
+   "cue": 0.8536,
+   "yes": 45.65,
+   "predicted_loo": 61.62
+  },
+  {
+   "anr": "372",
+   "date": "02.06.1991",
+   "title": "Militärstrafgesetz",
+   "cue": 0.6388,
+   "yes": 55.68,
+   "predicted_loo": 51.7
+  },
+  {
+   "anr": "373",
+   "date": "16.02.1992",
+   "title": "«Krankenkassen-Initiative»",
+   "cue": 0.2032,
+   "yes": 39.27,
+   "predicted_loo": 31.65
+  },
+  {
+   "anr": "374",
+   "date": "16.02.1992",
+   "title": "Initiative «Weg vom Tierversuch!»",
+   "cue": 0.36,
+   "yes": 43.63,
+   "predicted_loo": 38.88
+  },
+  {
+   "anr": "375",
+   "date": "17.05.1992",
+   "title": "Beitritt zu den Institutionen von Bretton Woods",
+   "cue": 0.716,
+   "yes": 55.84,
+   "predicted_loo": 55.25
+  },
+  {
+   "anr": "376",
+   "date": "17.05.1992",
+   "title": "Gesetz über die Mitwirkung an den Institutionen von Bretton Woods",
+   "cue": 0.716,
+   "yes": 56.42,
+   "predicted_loo": 55.25
+  },
+  {
+   "anr": "377",
+   "date": "17.05.1992",
+   "title": "Gewässerschutzgesetz",
+   "cue": 0.6786,
+   "yes": 66.08,
+   "predicted_loo": 53.51
+  },
+  {
+   "anr": "378",
+   "date": "17.05.1992",
+   "title": "Gewässerschutz-Initiative",
+   "cue": 0.3527,
+   "yes": 37.06,
+   "predicted_loo": 38.56
+  },
+  {
+   "anr": "379",
+   "date": "17.05.1992",
+   "title": "Regelung der Fortpflanzungs- und Gentechnologie",
+   "cue": 0.8609,
+   "yes": 73.83,
+   "predicted_loo": 61.87
+  },
+  {
+   "anr": "380",
+   "date": "17.05.1992",
+   "title": "Einführung eines Zivildiensts",
+   "cue": 0.8682,
+   "yes": 82.52,
+   "predicted_loo": 62.18
+  },
+  {
+   "anr": "381",
+   "date": "17.05.1992",
+   "title": "Reform des Sexualstrafrechts",
+   "cue": 0.9002,
+   "yes": 73.11,
+   "predicted_loo": 63.68
+  },
+  {
+   "anr": "382",
+   "date": "27.09.1992",
+   "title": "Alpentransit-Beschluss (NEAT)",
+   "cue": 0.8395,
+   "yes": 63.61,
+   "predicted_loo": 60.92
+  },
+  {
+   "anr": "383",
+   "date": "27.09.1992",
+   "title": "Geschäftsverkehrsgesetz",
+   "cue": 0.8138,
+   "yes": 58.01,
+   "predicted_loo": 59.75
+  },
+  {
+   "anr": "384",
+   "date": "27.09.1992",
+   "title": "Entschädigungsgesetz",
+   "cue": 0.8138,
+   "yes": 27.58,
+   "predicted_loo": 59.82
+  },
+  {
+   "anr": "385",
+   "date": "27.09.1992",
+   "title": "Infrastrukturgesetz",
+   "cue": 0.8138,
+   "yes": 30.59,
+   "predicted_loo": 59.82
+  },
+  {
+   "anr": "386",
+   "date": "27.09.1992",
+   "title": "Gesetz über die Stempelabgaben",
+   "cue": 0.7044,
+   "yes": 61.47,
+   "predicted_loo": 54.7
+  },
+  {
+   "anr": "387",
+   "date": "27.09.1992",
+   "title": "Gesetz über das bäuerliche Bodenrecht",
+   "cue": 0.6414,
+   "yes": 53.57,
+   "predicted_loo": 51.82
+  },
+  {
+   "anr": "388",
+   "date": "06.12.1992",
+   "title": "EWR-Beitritt",
+   "cue": 0.6962,
+   "yes": 49.66,
+   "predicted_loo": 54.35
+  },
+  {
+   "anr": "389",
+   "date": "07.03.1993",
+   "title": "Erhöhung des Treibstoffzolls",
+   "cue": 0.888,
+   "yes": 54.51,
+   "predicted_loo": 63.18
+  },
+  {
+   "anr": "390",
+   "date": "07.03.1993",
+   "title": "Aufhebung des Spielbankenverbots",
+   "cue": 0.8002,
+   "yes": 72.46,
+   "predicted_loo": 59.09
+  },
+  {
+   "anr": "391",
+   "date": "07.03.1993",
+   "title": "Initiative «zur Abschaffung der Tierversuche»",
+   "cue": 0.1082,
+   "yes": 27.77,
+   "predicted_loo": 27.32
+  },
+  {
+   "anr": "392",
+   "date": "06.06.1993",
+   "title": "Initiative «40 Waffenplätze sind genug»",
+   "cue": 0.3043,
+   "yes": 44.71,
+   "predicted_loo": 36.3
+  },
+  {
+   "anr": "393",
+   "date": "06.06.1993",
+   "title": "Initiative «für eine Schweiz ohne neue Kampfflugzeuge»",
+   "cue": 0.3116,
+   "yes": 42.81,
+   "predicted_loo": 36.65
+  },
+  {
+   "anr": "394",
+   "date": "26.09.1993",
+   "title": "Bundesbeschluss gegen den Waffenmissbrauch",
+   "cue": 0.932,
+   "yes": 86.27,
+   "predicted_loo": 65.09
+  },
+  {
+   "anr": "395",
+   "date": "26.09.1993",
+   "title": "Kantonswechsel des Laufentals zu Basel-Landschaft",
+   "cue": 0.9002,
+   "yes": 75.16,
+   "predicted_loo": 63.67
+  },
+  {
+   "anr": "396",
+   "date": "26.09.1993",
+   "title": "1.-August-Initiative",
+   "cue": 0.9359,
+   "yes": 83.77,
+   "predicted_loo": 65.28
+  },
+  {
+   "anr": "397",
+   "date": "26.09.1993",
+   "title": "Befristete Massnahmen in der Krankenversicherung",
+   "cue": 0.9772,
+   "yes": 80.55,
+   "predicted_loo": 67.19
+  },
+  {
+   "anr": "398",
+   "date": "26.09.1993",
+   "title": "Massnahmen in der Arbeitslosenversicherung",
+   "cue": 0.7822,
+   "yes": 70.4,
+   "predicted_loo": 58.26
+  },
+  {
+   "anr": "399",
+   "date": "28.11.1993",
+   "title": "Einführung der Mehrwertsteuer",
+   "cue": 0.856,
+   "yes": 66.66,
+   "predicted_loo": 61.67
+  },
+  {
+   "anr": "400",
+   "date": "28.11.1993",
+   "title": "Mehrwertsteuer-Satz 6,5%",
+   "cue": 0.8454,
+   "yes": 57.72,
+   "predicted_loo": 61.2
+  },
+  {
+   "anr": "401",
+   "date": "28.11.1993",
+   "title": "Mehrwertsteuerprozent für die AHV",
+   "cue": 0.8454,
+   "yes": 62.59,
+   "predicted_loo": 61.19
+  },
+  {
+   "anr": "402",
+   "date": "28.11.1993",
+   "title": "Bundesbeschluss über besondere Verbrauchssteuern",
+   "cue": 0.888,
+   "yes": 60.65,
+   "predicted_loo": 63.16
+  },
+  {
+   "anr": "403",
+   "date": "28.11.1993",
+   "title": "Initiative «zur Verminderung der Alkoholprobleme»",
+   "cue": 0.3633,
+   "yes": 25.26,
+   "predicted_loo": 39.08
+  },
+  {
+   "anr": "404",
+   "date": "28.11.1993",
+   "title": "Initiative «zur Verminderung der Tabakprobleme»",
+   "cue": 0.3633,
+   "yes": 25.52,
+   "predicted_loo": 39.08
+  },
+  {
+   "anr": "405",
+   "date": "20.02.1994",
+   "title": "Weiterführung Autobahnvignette",
+   "cue": 0.916,
+   "yes": 68.48,
+   "predicted_loo": 64.42
+  },
+  {
+   "anr": "406",
+   "date": "20.02.1994",
+   "title": "Weiterführung der Schwerverkehrsabgabe",
+   "cue": 0.8894,
+   "yes": 72.23,
+   "predicted_loo": 63.19
+  },
+  {
+   "anr": "407",
+   "date": "20.02.1994",
+   "title": "Einführung einer leistungsabhängigen Schwerverkehrsabgabe",
+   "cue": 0.7744,
+   "yes": 67.14,
+   "predicted_loo": 57.91
+  },
+  {
+   "anr": "408",
+   "date": "20.02.1994",
+   "title": "Alpen-Initiative",
+   "cue": 0.3527,
+   "yes": 51.91,
+   "predicted_loo": 38.52
+  },
+  {
+   "anr": "409",
+   "date": "20.02.1994",
+   "title": "Luftfahrtgesetz",
+   "cue": 0.6367,
+   "yes": 61.07,
+   "predicted_loo": 51.59
+  },
+  {
+   "anr": "410",
+   "date": "12.06.1994",
+   "title": "Kulturförderungsartikel",
+   "cue": 0.7281,
+   "yes": 50.98,
+   "predicted_loo": 55.81
+  },
+  {
+   "anr": "411",
+   "date": "12.06.1994",
+   "title": "Erleichterte Einbürgerung für junge Ausländer",
+   "cue": 0.8962,
+   "yes": 52.84,
+   "predicted_loo": 63.56
+  },
+  {
+   "anr": "412",
+   "date": "12.06.1994",
+   "title": "UNO-Blauhelme",
+   "cue": 0.752,
+   "yes": 42.77,
+   "predicted_loo": 56.93
+  },
+  {
+   "anr": "413",
+   "date": "25.09.1994",
+   "title": "Aufhebung der Brotgetreideverbilligung",
+   "cue": 0.9189,
+   "yes": 64.59,
+   "predicted_loo": 64.57
+  },
+  {
+   "anr": "414",
+   "date": "25.09.1994",
+   "title": "Verbot der Rassendiskriminierung",
+   "cue": 0.891,
+   "yes": 54.65,
+   "predicted_loo": 63.32
+  },
+  {
+   "anr": "415",
+   "date": "04.12.1994",
+   "title": "Krankenversicherungsgesetz",
+   "cue": 0.752,
+   "yes": 51.8,
+   "predicted_loo": 56.91
+  },
+  {
+   "anr": "416",
+   "date": "04.12.1994",
+   "title": "Initiative «für eine gesunde Krankenversicherung»",
+   "cue": 0.2425,
+   "yes": 23.45,
+   "predicted_loo": 33.53
+  },
+  {
+   "anr": "417",
+   "date": "04.12.1994",
+   "title": "Zwangsmassnahmen im Ausländerrecht",
+   "cue": 0.7328,
+   "yes": 72.91,
+   "predicted_loo": 55.99
+  },
+  {
+   "anr": "418",
+   "date": "12.03.1995",
+   "title": "Landwirtschaftsartikel",
+   "cue": 0.6884,
+   "yes": 49.12,
+   "predicted_loo": 53.99
+  },
+  {
+   "anr": "419",
+   "date": "12.03.1995",
+   "title": "Milchwirtschaftsbeschluss",
+   "cue": 0.6327,
+   "yes": 36.53,
+   "predicted_loo": 51.45
+  },
+  {
+   "anr": "420",
+   "date": "12.03.1995",
+   "title": "Landwirtschaftsgesetz",
+   "cue": 0.606,
+   "yes": 33.59,
+   "predicted_loo": 50.22
+  },
+  {
+   "anr": "421",
+   "date": "12.03.1995",
+   "title": "Ausgabenbremse",
+   "cue": 0.823,
+   "yes": 83.38,
+   "predicted_loo": 60.1
+  },
+  {
+   "anr": "422",
+   "date": "25.06.1995",
+   "title": "10. AHV-Revision",
+   "cue": 0.977,
+   "yes": 60.71,
+   "predicted_loo": 67.27
+  },
+  {
+   "anr": "423",
+   "date": "25.06.1995",
+   "title": "Initiative «zum Ausbau von AHV und IV»",
+   "cue": 0.2745,
+   "yes": 27.64,
+   "predicted_loo": 34.99
+  },
+  {
+   "anr": "424",
+   "date": "25.06.1995",
+   "title": "Gesetz über den Erwerb von Grundstücken durch Personen im Ausland",
+   "cue": 0.9274,
+   "yes": 46.44,
+   "predicted_loo": 65.03
+  },
+  {
+   "anr": "425",
+   "date": "10.03.1996",
+   "title": "Sprachenartikel",
+   "cue": 0.9208,
+   "yes": 76.17,
+   "predicted_loo": 64.62
+  },
+  {
+   "anr": "426",
+   "date": "10.03.1996",
+   "title": "Übertritt Vellerat zum Kanton Jura",
+   "cue": 0.9787,
+   "yes": 91.64,
+   "predicted_loo": 67.21
+  },
+  {
+   "anr": "427",
+   "date": "10.03.1996",
+   "title": "Zuständigkeit im Bereich der persönlichen militärischen Ausrüstung",
+   "cue": 0.6907,
+   "yes": 43.7,
+   "predicted_loo": 54.1
+  },
+  {
+   "anr": "428",
+   "date": "10.03.1996",
+   "title": "Aufhebung der Pflicht zur Übernahme von Brennapparaten und Branntwein",
+   "cue": 0.9951,
+   "yes": 80.8,
+   "predicted_loo": 68.01
+  },
+  {
+   "anr": "429",
+   "date": "10.03.1996",
+   "title": "Aufhebung der Beiträge an Bahnhofparkplätze",
+   "cue": 0.8685,
+   "yes": 53.95,
+   "predicted_loo": 62.28
+  },
+  {
+   "anr": "430",
+   "date": "09.06.1996",
+   "title": "Verfassungsartikel zur Landwirtschaft",
+   "cue": 0.9535,
+   "yes": 77.59,
+   "predicted_loo": 66.11
+  },
+  {
+   "anr": "431",
+   "date": "09.06.1996",
+   "title": "Regierungs- und Verwaltungsorganisationsgesetz",
+   "cue": 0.6945,
+   "yes": 39.39,
+   "predicted_loo": 54.29
+  },
+  {
+   "anr": "432",
+   "date": "01.12.1996",
+   "title": "Initiative «gegen die illegale Einwanderung»",
+   "cue": 0.2537,
+   "yes": 46.34,
+   "predicted_loo": 33.96
+  },
+  {
+   "anr": "433",
+   "date": "01.12.1996",
+   "title": "Arbeitsgesetz",
+   "cue": 0.4418,
+   "yes": 32.97,
+   "predicted_loo": 42.67
+  },
+  {
+   "anr": "434",
+   "date": "08.06.1997",
+   "title": "Initiative «EU-Beitrittsverhandlungen vors Volk!»",
+   "cue": 0.0977,
+   "yes": 25.95,
+   "predicted_loo": 26.84
+  },
+  {
+   "anr": "435",
+   "date": "08.06.1997",
+   "title": "Initiative «für ein Verbot der Kriegsmaterialausfuhr»",
+   "cue": 0.2934,
+   "yes": 22.5,
+   "predicted_loo": 35.88
+  },
+  {
+   "anr": "436",
+   "date": "08.06.1997",
+   "title": "Aufhebung des Pulverregals",
+   "cue": 0.9874,
+   "yes": 82.18,
+   "predicted_loo": 67.65
+  },
+  {
+   "anr": "437",
+   "date": "28.09.1997",
+   "title": "Finanzierung der Arbeitslosenversicherung",
+   "cue": 0.6449,
+   "yes": 49.18,
+   "predicted_loo": 51.99
+  },
+  {
+   "anr": "438",
+   "date": "28.09.1997",
+   "title": "Initiative «Jugend ohne Drogen»",
+   "cue": 0.2769,
+   "yes": 29.34,
+   "predicted_loo": 35.09
+  },
+  {
+   "anr": "439",
+   "date": "07.06.1998",
+   "title": "Haushaltsziel 2001",
+   "cue": 0.7475,
+   "yes": 70.7,
+   "predicted_loo": 56.67
+  },
+  {
+   "anr": "440",
+   "date": "07.06.1998",
+   "title": "«Gen-Schutz-Initiative»",
+   "cue": 0.3158,
+   "yes": 33.29,
+   "predicted_loo": 36.87
+  },
+  {
+   "anr": "441",
+   "date": "07.06.1998",
+   "title": "Initiative «S.o.S. - Schweiz ohne Schnüffelpolizei»",
+   "cue": 0.2579,
+   "yes": 24.59,
+   "predicted_loo": 34.24
+  },
+  {
+   "anr": "442",
+   "date": "27.09.1998",
+   "title": "Leistungsabhängige Schwerverkehrsabgabe (LSVA)",
+   "cue": 0.6248,
+   "yes": 57.2,
+   "predicted_loo": 51.05
+  },
+  {
+   "anr": "443",
+   "date": "27.09.1998",
+   "title": "Kleinbauern-Initiative",
+   "cue": 0.1834,
+   "yes": 22.99,
+   "predicted_loo": 30.82
+  },
+  {
+   "anr": "444",
+   "date": "27.09.1998",
+   "title": "Initiative «für die 10. AHV-Revision ohne Erhöhung des Rentenalters»",
+   "cue": 0.2901,
+   "yes": 41.48,
+   "predicted_loo": 35.66
+  },
+  {
+   "anr": "445",
+   "date": "29.11.1998",
+   "title": "Finanzierung des öffentlichen Verkehrs (FinöV)",
+   "cue": 0.6505,
+   "yes": 63.5,
+   "predicted_loo": 52.22
+  },
+  {
+   "anr": "446",
+   "date": "29.11.1998",
+   "title": "Getreideartikel",
+   "cue": 0.8185,
+   "yes": 79.43,
+   "predicted_loo": 59.91
+  },
+  {
+   "anr": "447",
+   "date": "29.11.1998",
+   "title": "Initiative «für eine vernünftige Drogenpolitik»",
+   "cue": 0.2537,
+   "yes": 26.01,
+   "predicted_loo": 34.04
+  },
+  {
+   "anr": "448",
+   "date": "29.11.1998",
+   "title": "Arbeitsgesetz",
+   "cue": 0.7854,
+   "yes": 63.38,
+   "predicted_loo": 58.43
+  },
+  {
+   "anr": "449",
+   "date": "07.02.1999",
+   "title": "Bundesbeschluss über die Wählbarkeit in den Bundesrat",
+   "cue": 0.8422,
+   "yes": 74.67,
+   "predicted_loo": 61.01
+  },
+  {
+   "anr": "450",
+   "date": "07.02.1999",
+   "title": "Verfassungsbestimmung über die Transplantationsmedizin",
+   "cue": 0.9551,
+   "yes": 87.77,
+   "predicted_loo": 66.15
+  },
+  {
+   "anr": "451",
+   "date": "07.02.1999",
+   "title": "Wohneigentums-Initiative",
+   "cue": 0.3776,
+   "yes": 41.32,
+   "predicted_loo": 39.7
+  },
+  {
+   "anr": "452",
+   "date": "07.02.1999",
+   "title": "Raumplanungsgesetz",
+   "cue": 0.6904,
+   "yes": 55.94,
+   "predicted_loo": 54.07
+  },
+  {
+   "anr": "453",
+   "date": "18.04.1999",
+   "title": "Neue Bundesverfassung",
+   "cue": 0.7767,
+   "yes": 59.16,
+   "predicted_loo": 58.04
+  },
+  {
+   "anr": "454",
+   "date": "13.06.1999",
+   "title": "Asylgesetz",
+   "cue": 0.7066,
+   "yes": 70.59,
+   "predicted_loo": 54.79
+  },
+  {
+   "anr": "455",
+   "date": "13.06.1999",
+   "title": "Massnahmen im Asyl- und Ausländerbereich",
+   "cue": 0.6879,
+   "yes": 70.84,
+   "predicted_loo": 53.93
+  },
+  {
+   "anr": "456",
+   "date": "13.06.1999",
+   "title": "Bundesbeschluss über die ärztliche Verschreibung von Heroin",
+   "cue": 0.728,
+   "yes": 54.42,
+   "predicted_loo": 55.8
+  },
+  {
+   "anr": "457",
+   "date": "13.06.1999",
+   "title": "Gesetz über die Invalidenversicherung",
+   "cue": 0.3031,
+   "yes": 30.29,
+   "predicted_loo": 36.3
+  },
+  {
+   "anr": "458",
+   "date": "13.06.1999",
+   "title": "Gesetz über die Mutterschaftsversicherung",
+   "cue": 0.545,
+   "yes": 38.99,
+   "predicted_loo": 47.41
+  },
+  {
+   "anr": "459",
+   "date": "12.03.2000",
+   "title": "Justizreform",
+   "cue": 1.0,
+   "yes": 86.36,
+   "predicted_loo": 68.21
+  },
+  {
+   "anr": "460",
+   "date": "12.03.2000",
+   "title": "Initiative «für die Beschleunigung der direkten Demokratie»",
+   "cue": 0.2732,
+   "yes": 30.0,
+   "predicted_loo": 34.92
+  },
+  {
+   "anr": "461",
+   "date": "12.03.2000",
+   "title": "Initiative «für eine gerechte Vertretung der Frauen in den Bundesbehörden»",
+   "cue": 0.2969,
+   "yes": 17.97,
+   "predicted_loo": 36.05
+  },
+  {
+   "anr": "462",
+   "date": "12.03.2000",
+   "title": "Initiative «für menschenwürdige Fortpflanzung»",
+   "cue": 0.0629,
+   "yes": 28.24,
+   "predicted_loo": 25.22
+  },
+  {
+   "anr": "463",
+   "date": "12.03.2000",
+   "title": "«Verkehrshalbierungs-Initiative»",
+   "cue": 0.3111,
+   "yes": 21.33,
+   "predicted_loo": 36.69
+  },
+  {
+   "anr": "464",
+   "date": "21.05.2000",
+   "title": "Bilaterale Abkommen mit der EU",
+   "cue": 0.8144,
+   "yes": 67.19,
+   "predicted_loo": 59.75
+  },
+  {
+   "anr": "465.1",
+   "date": "24.09.2000",
+   "title": "Solarinitiative",
+   "cue": 0.3353,
+   "yes": 31.82,
+   "predicted_loo": 37.77
+  },
+  {
+   "anr": "465.2",
+   "date": "24.09.2000",
+   "title": "Förderabgabe für erneuerbare Energien",
+   "cue": 0.501,
+   "yes": 46.63,
+   "predicted_loo": 45.37
+  },
+  {
+   "anr": "466",
+   "date": "24.09.2000",
+   "title": "Energielenkungsabgabe für die Umwelt",
+   "cue": 0.4818,
+   "yes": 44.51,
+   "predicted_loo": 44.49
+  },
+  {
+   "anr": "467",
+   "date": "24.09.2000",
+   "title": "Initiative «für eine Regelung der Zuwanderung»",
+   "cue": 0.2863,
+   "yes": 36.2,
+   "predicted_loo": 35.5
+  },
+  {
+   "anr": "468",
+   "date": "24.09.2000",
+   "title": "Initiative für ein konstruktives Referendum",
+   "cue": 0.3253,
+   "yes": 34.1,
+   "predicted_loo": 37.31
+  },
+  {
+   "anr": "469",
+   "date": "26.11.2000",
+   "title": "Initiative «für eine Flexibilisierung der AHV - gegen die Erhöhung des Rentenalters für Frauen»",
+   "cue": 0.279,
+   "yes": 39.47,
+   "predicted_loo": 35.15
+  },
+  {
+   "anr": "470",
+   "date": "26.11.2000",
+   "title": "Initiative «für ein flexibles Rentenalter ab 62 für Frau und Mann»",
+   "cue": 0.279,
+   "yes": 46.02,
+   "predicted_loo": 35.13
+  },
+  {
+   "anr": "471",
+   "date": "26.11.2000",
+   "title": "«Umverteilungsinitiative»",
+   "cue": 0.2711,
+   "yes": 37.62,
+   "predicted_loo": 34.8
+  },
+  {
+   "anr": "472",
+   "date": "26.11.2000",
+   "title": "Initiative «für tiefere Spitalkosten»",
+   "cue": 0.0079,
+   "yes": 17.89,
+   "predicted_loo": 22.75
+  },
+  {
+   "anr": "473",
+   "date": "26.11.2000",
+   "title": "Bundespersonalgesetz",
+   "cue": 0.7288,
+   "yes": 66.83,
+   "predicted_loo": 55.82
+  },
+  {
+   "anr": "474",
+   "date": "04.03.2001",
+   "title": "Initiative «Ja zu Europa!»",
+   "cue": 0.4863,
+   "yes": 23.15,
+   "predicted_loo": 44.73
+  },
+  {
+   "anr": "475",
+   "date": "04.03.2001",
+   "title": "Initiative «für tiefere Arzneimittelpreise»",
+   "cue": 0.1267,
+   "yes": 30.85,
+   "predicted_loo": 28.16
+  },
+  {
+   "anr": "476",
+   "date": "04.03.2001",
+   "title": "Initiative «Strassen für alle» (Tempo 30)",
+   "cue": 0.3161,
+   "yes": 20.3,
+   "predicted_loo": 36.93
+  },
+  {
+   "anr": "477",
+   "date": "10.06.2001",
+   "title": "Militärgesetz: Bewaffnung",
+   "cue": 0.6517,
+   "yes": 50.99,
+   "predicted_loo": 52.3
+  },
+  {
+   "anr": "478",
+   "date": "10.06.2001",
+   "title": "Militärgesetz: Ausbildungszusammenarbeit",
+   "cue": 0.6517,
+   "yes": 51.14,
+   "predicted_loo": 52.3
+  },
+  {
+   "anr": "479",
+   "date": "10.06.2001",
+   "title": "Aufhebung des Bistumsartikels",
+   "cue": 0.9673,
+   "yes": 64.2,
+   "predicted_loo": 66.81
+  },
+  {
+   "anr": "480",
+   "date": "02.12.2001",
+   "title": "Schuldenbremse",
+   "cue": 0.6939,
+   "yes": 84.74,
+   "predicted_loo": 54.18
+  },
+  {
+   "anr": "481",
+   "date": "02.12.2001",
+   "title": "Initiative «Energie statt Arbeit besteuern»",
+   "cue": 0.306,
+   "yes": 22.86,
+   "predicted_loo": 36.45
+  },
+  {
+   "anr": "482",
+   "date": "02.12.2001",
+   "title": "Initiative für eine Schweiz ohne Armee",
+   "cue": 0.1795,
+   "yes": 21.9,
+   "predicted_loo": 30.64
+  },
+  {
+   "anr": "483",
+   "date": "02.12.2001",
+   "title": "Initiative «Für einen freiwilligen zivilen Friedensdienst»",
+   "cue": 0.2969,
+   "yes": 23.21,
+   "predicted_loo": 36.03
+  },
+  {
+   "anr": "484",
+   "date": "02.12.2001",
+   "title": "Initiative «für eine Kapitalgewinnsteuer»",
+   "cue": 0.3161,
+   "yes": 34.11,
+   "predicted_loo": 36.88
+  },
+  {
+   "anr": "485",
+   "date": "03.03.2002",
+   "title": "Initiative für den UNO-Beitritt",
+   "cue": 0.6123,
+   "yes": 54.61,
+   "predicted_loo": 50.48
+  },
+  {
+   "anr": "486",
+   "date": "03.03.2002",
+   "title": "Initiative «für eine kürzere Arbeitszeit»",
+   "cue": 0.2915,
+   "yes": 25.37,
+   "predicted_loo": 35.78
+  },
+  {
+   "anr": "487",
+   "date": "02.06.2002",
+   "title": "Fristenregelung (Schwangerschaftsabbruch)",
+   "cue": 0.4659,
+   "yes": 72.15,
+   "predicted_loo": 43.7
+  },
+  {
+   "anr": "488",
+   "date": "02.06.2002",
+   "title": "Initiative «Für Mutter und Kind»",
+   "cue": 0.1816,
+   "yes": 18.25,
+   "predicted_loo": 30.76
+  },
+  {
+   "anr": "489.1",
+   "date": "22.09.2002",
+   "title": "«Goldinitiative»",
+   "cue": 0.2732,
+   "yes": 47.56,
+   "predicted_loo": 34.86
+  },
+  {
+   "anr": "489.2",
+   "date": "22.09.2002",
+   "title": "Gegenentwurf «Gold für AHV, Kantone und Stiftung»",
+   "cue": 0.7032,
+   "yes": 48.22,
+   "predicted_loo": 54.67
+  },
+  {
+   "anr": "490",
+   "date": "22.09.2002",
+   "title": "Elektrizitätsmarktgesetz",
+   "cue": 0.6746,
+   "yes": 47.42,
+   "predicted_loo": 53.36
+  },
+  {
+   "anr": "491",
+   "date": "24.11.2002",
+   "title": "Initiative «gegen Asylrechtsmissbrauch»",
+   "cue": 0.3877,
+   "yes": 49.91,
+   "predicted_loo": 40.14
+  },
+  {
+   "anr": "492",
+   "date": "24.11.2002",
+   "title": "Arbeitslosenversicherungsgesetz",
+   "cue": 0.5705,
+   "yes": 56.1,
+   "predicted_loo": 48.55
+  },
+  {
+   "anr": "493",
+   "date": "09.02.2003",
+   "title": "Bundesbeschluss über die Änderung der Volksrechte",
+   "cue": 0.4204,
+   "yes": 70.35,
+   "predicted_loo": 41.6
+  },
+  {
+   "anr": "494",
+   "date": "09.02.2003",
+   "title": "Gesetz über die kantonalen Beiträge an Spitalbehandlungen",
+   "cue": 0.9728,
+   "yes": 77.36,
+   "predicted_loo": 67.0
+  },
+  {
+   "anr": "495",
+   "date": "18.05.2003",
+   "title": "Armee XXI",
+   "cue": 0.8005,
+   "yes": 76.04,
+   "predicted_loo": 59.09
+  },
+  {
+   "anr": "496",
+   "date": "18.05.2003",
+   "title": "Gesetz über den Zivilschutz",
+   "cue": 0.9666,
+   "yes": 80.56,
+   "predicted_loo": 66.7
+  },
+  {
+   "anr": "497",
+   "date": "18.05.2003",
+   "title": "Initiative «Ja zu fairen Mieten»",
+   "cue": 0.3066,
+   "yes": 32.73,
+   "predicted_loo": 36.45
+  },
+  {
+   "anr": "498",
+   "date": "18.05.2003",
+   "title": "Initiative «Für einen autofreien Sonntag pro Jahreszeit»",
+   "cue": 0.3484,
+   "yes": 37.65,
+   "predicted_loo": 38.36
+  },
+  {
+   "anr": "499",
+   "date": "18.05.2003",
+   "title": "«Gesundheitsinitiative»",
+   "cue": 0.3207,
+   "yes": 27.09,
+   "predicted_loo": 37.12
+  },
+  {
+   "anr": "500",
+   "date": "18.05.2003",
+   "title": "Initiative «Gleiche Rechte für Behinderte»",
+   "cue": 0.3207,
+   "yes": 37.67,
+   "predicted_loo": 37.08
+  },
+  {
+   "anr": "501",
+   "date": "18.05.2003",
+   "title": "Initiative «Strom ohne Atom»",
+   "cue": 0.3353,
+   "yes": 33.71,
+   "predicted_loo": 37.77
+  },
+  {
+   "anr": "502",
+   "date": "18.05.2003",
+   "title": "Initiative «MoratoriumPlus»",
+   "cue": 0.3353,
+   "yes": 41.6,
+   "predicted_loo": 37.75
+  },
+  {
+   "anr": "503",
+   "date": "18.05.2003",
+   "title": "«Lehrstellen-Initiative»",
+   "cue": 0.2969,
+   "yes": 31.61,
+   "predicted_loo": 36.01
+  },
+  {
+   "anr": "504",
+   "date": "08.02.2004",
+   "title": "Gegenentwurf zur Avanti-Initiative",
+   "cue": 0.4814,
+   "yes": 37.2,
+   "predicted_loo": 44.48
+  },
+  {
+   "anr": "505",
+   "date": "08.02.2004",
+   "title": "Änderung des Mietrechts",
+   "cue": 0.6296,
+   "yes": 35.93,
+   "predicted_loo": 51.3
+  },
+  {
+   "anr": "506",
+   "date": "08.02.2004",
+   "title": "Initiative für eine lebenslange Verwahrung für gefährliche Straftäter",
+   "cue": 0.3031,
+   "yes": 56.19,
+   "predicted_loo": 36.21
+  },
+  {
+   "anr": "507",
+   "date": "16.05.2004",
+   "title": "11. AHV-Revision",
+   "cue": 0.6389,
+   "yes": 32.1,
+   "predicted_loo": 51.74
+  },
+  {
+   "anr": "508",
+   "date": "16.05.2004",
+   "title": "Anhebung der Mehrwertsteuer zu Gunsten von AHV und IV",
+   "cue": 0.4885,
+   "yes": 31.42,
+   "predicted_loo": 44.82
+  },
+  {
+   "anr": "509",
+   "date": "16.05.2004",
+   "title": "Steuerpaket",
+   "cue": 0.6425,
+   "yes": 34.12,
+   "predicted_loo": 51.9
+  },
+  {
+   "anr": "510",
+   "date": "26.09.2004",
+   "title": "Erleichterte Einbürgerung von Jugendlichen der zweiten Generation",
+   "cue": 0.6969,
+   "yes": 43.24,
+   "predicted_loo": 54.39
+  },
+  {
+   "anr": "511",
+   "date": "26.09.2004",
+   "title": "Bürgerrechtserwerb für die dritte Generation",
+   "cue": 0.6969,
+   "yes": 48.37,
+   "predicted_loo": 54.38
+  },
+  {
+   "anr": "512",
+   "date": "26.09.2004",
+   "title": "Initiative «Postdienst für alle»",
+   "cue": 0.3611,
+   "yes": 49.77,
+   "predicted_loo": 38.91
+  },
+  {
+   "anr": "513",
+   "date": "26.09.2004",
+   "title": "Erwerbsersatz für Dienstleistende und bei Mutterschaft",
+   "cue": 0.7099,
+   "yes": 55.45,
+   "predicted_loo": 54.97
+  },
+  {
+   "anr": "514",
+   "date": "28.11.2004",
+   "title": "Neugestaltung Finanzausgleich",
+   "cue": 0.6709,
+   "yes": 64.37,
+   "predicted_loo": 53.16
+  },
+  {
+   "anr": "515",
+   "date": "28.11.2004",
+   "title": "Neue Finanzordnung",
+   "cue": 0.9928,
+   "yes": 73.81,
+   "predicted_loo": 67.94
+  },
+  {
+   "anr": "516",
+   "date": "28.11.2004",
+   "title": "Stammzellenforschungsgesetz",
+   "cue": 0.8735,
+   "yes": 66.39,
+   "predicted_loo": 62.47
+  },
+  {
+   "anr": "517",
+   "date": "05.06.2005",
+   "title": "Abkommen zu Schengen und Dublin",
+   "cue": 0.6897,
+   "yes": 54.63,
+   "predicted_loo": 54.04
+  },
+  {
+   "anr": "518",
+   "date": "05.06.2005",
+   "title": "Gesetz über die eingetragene Partnerschaft gleichgeschlechtlicher Paare",
+   "cue": 0.6753,
+   "yes": 58.04,
+   "predicted_loo": 53.37
+  },
+  {
+   "anr": "519",
+   "date": "25.09.2005",
+   "title": "Ausdehnung der Personenfreizügigkeit auf die neuen EU-Staaten",
+   "cue": 0.6969,
+   "yes": 55.98,
+   "predicted_loo": 54.37
+  },
+  {
+   "anr": "520",
+   "date": "27.11.2005",
+   "title": "Initiative «für Lebensmittel aus gentechnikfreier Landwirtschaft»",
+   "cue": 0.3704,
+   "yes": 55.67,
+   "predicted_loo": 39.33
+  },
+  {
+   "anr": "521",
+   "date": "27.11.2005",
+   "title": "Arbeitsgesetz (Sonntagsarbeit)",
+   "cue": 0.6296,
+   "yes": 50.56,
+   "predicted_loo": 51.28
+  },
+  {
+   "anr": "522",
+   "date": "21.05.2006",
+   "title": "Neuordnung der Verfassungsbestimmungen zur Bildung",
+   "cue": 0.8573,
+   "yes": 85.58,
+   "predicted_loo": 61.67
+  },
+  {
+   "anr": "523",
+   "date": "24.09.2006",
+   "title": "Initiative «Nationalbankgewinne für die AHV»",
+   "cue": 0.3145,
+   "yes": 41.74,
+   "predicted_loo": 36.79
+  },
+  {
+   "anr": "524",
+   "date": "24.09.2006",
+   "title": "Ausländergesetz",
+   "cue": 0.6973,
+   "yes": 67.97,
+   "predicted_loo": 54.37
+  },
+  {
+   "anr": "525",
+   "date": "24.09.2006",
+   "title": "Asylgesetz",
+   "cue": 0.6328,
+   "yes": 67.76,
+   "predicted_loo": 51.4
+  },
+  {
+   "anr": "526",
+   "date": "26.11.2006",
+   "title": "Gesetz über die Zusammenarbeit mit den Staaten Osteuropas",
+   "cue": 0.6969,
+   "yes": 53.42,
+   "predicted_loo": 54.37
+  },
+  {
+   "anr": "527",
+   "date": "26.11.2006",
+   "title": "Gesetz über die Familienzulagen",
+   "cue": 0.5222,
+   "yes": 67.98,
+   "predicted_loo": 46.31
+  },
+  {
+   "anr": "528",
+   "date": "11.03.2007",
+   "title": "Initiative für eine Einheitskrankenkasse",
+   "cue": 0.3278,
+   "yes": 28.76,
+   "predicted_loo": 37.44
+  },
+  {
+   "anr": "529",
+   "date": "17.06.2007",
+   "title": "5. IV-Revision",
+   "cue": 0.6659,
+   "yes": 59.09,
+   "predicted_loo": 52.94
+  },
+  {
+   "anr": "530",
+   "date": "24.02.2008",
+   "title": "Initiative «Gegen Kampfjetlärm in Tourismusgebieten»",
+   "cue": 0.269,
+   "yes": 31.92,
+   "predicted_loo": 34.72
+  },
+  {
+   "anr": "531",
+   "date": "24.02.2008",
+   "title": "Unternehmenssteuerreform II",
+   "cue": 0.5774,
+   "yes": 50.53,
+   "predicted_loo": 48.88
+  },
+  {
+   "anr": "532",
+   "date": "01.06.2008",
+   "title": "Initiative «Für demokratische Einbürgerungen»",
+   "cue": 0.4109,
+   "yes": 36.25,
+   "predicted_loo": 41.24
+  },
+  {
+   "anr": "533",
+   "date": "01.06.2008",
+   "title": "Initiative «gegen Behördenprogaganda»",
+   "cue": 0.4109,
+   "yes": 24.8,
+   "predicted_loo": 41.27
+  },
+  {
+   "anr": "534",
+   "date": "01.06.2008",
+   "title": "Verfassungsartikel zur Krankenversicherung",
+   "cue": 0.4118,
+   "yes": 30.52,
+   "predicted_loo": 41.3
+  },
+  {
+   "anr": "535",
+   "date": "30.11.2008",
+   "title": "Initiative für die Unverjährbarkeit pornografischer Straftaten an Kindern",
+   "cue": 0.2802,
+   "yes": 51.87,
+   "predicted_loo": 35.17
+  },
+  {
+   "anr": "536",
+   "date": "30.11.2008",
+   "title": "Initiative «für ein flexibles AHV-Alter»",
+   "cue": 0.4279,
+   "yes": 41.38,
+   "predicted_loo": 42.01
+  },
+  {
+   "anr": "537",
+   "date": "30.11.2008",
+   "title": "Verbandsbeschwerderechts-Initiative",
+   "cue": 0.4351,
+   "yes": 34.0,
+   "predicted_loo": 42.36
+  },
+  {
+   "anr": "538",
+   "date": "30.11.2008",
+   "title": "Initiative «für eine vernünftige Hanf-Politik»",
+   "cue": 0.4235,
+   "yes": 36.75,
+   "predicted_loo": 41.82
+  },
+  {
+   "anr": "539",
+   "date": "30.11.2008",
+   "title": "Betäubungsmittelgesetz",
+   "cue": 0.5748,
+   "yes": 68.08,
+   "predicted_loo": 48.73
+  },
+  {
+   "anr": "540",
+   "date": "08.02.2009",
+   "title": "Weiterführung der Personenfreizügigkeit Schweiz–EU und Ausdehnung auf Bulgarien und Rumänien",
+   "cue": 0.6698,
+   "yes": 59.61,
+   "predicted_loo": 53.12
+  },
+  {
+   "anr": "541",
+   "date": "17.05.2009",
+   "title": "Verfassungsartikel zur Komplementärmedizin",
+   "cue": 0.592,
+   "yes": 67.03,
+   "predicted_loo": 49.52
+  },
+  {
+   "anr": "542",
+   "date": "17.05.2009",
+   "title": "Einführung des biometrischen Passes",
+   "cue": 0.3042,
+   "yes": 50.15,
+   "predicted_loo": 36.28
+  },
+  {
+   "anr": "543",
+   "date": "27.09.2009",
+   "title": "Zusatzfinanzierung der Invalidenversicherung",
+   "cue": 0.5788,
+   "yes": 54.56,
+   "predicted_loo": 48.94
+  },
+  {
+   "anr": "544",
+   "date": "27.09.2009",
+   "title": "Verzicht auf die Einführung der allgemeinen Volksinitiative",
+   "cue": 0.8561,
+   "yes": 67.88,
+   "predicted_loo": 61.67
+  },
+  {
+   "anr": "545",
+   "date": "29.11.2009",
+   "title": "Spezialfinanzierung für Aufgaben im Luftverkehr",
+   "cue": 0.6603,
+   "yes": 64.99,
+   "predicted_loo": 52.67
+  },
+  {
+   "anr": "546",
+   "date": "29.11.2009",
+   "title": "Initiative «Für ein Verbot von Kriegsmaterial-Exporten»",
+   "cue": 0.2887,
+   "yes": 31.77,
+   "predicted_loo": 35.63
+  },
+  {
+   "anr": "547",
+   "date": "29.11.2009",
+   "title": "Initiative «Gegen den Bau von Minaretten»",
+   "cue": 0.286,
+   "yes": 57.5,
+   "predicted_loo": 35.41
+  },
+  {
+   "anr": "548",
+   "date": "07.03.2010",
+   "title": "Verfassungsartikel über die Forschung am Menschen",
+   "cue": 0.5438,
+   "yes": 77.21,
+   "predicted_loo": 47.29
+  },
+  {
+   "anr": "549",
+   "date": "07.03.2010",
+   "title": "Tierschutzanwalt-Initiative",
+   "cue": 0.3088,
+   "yes": 29.5,
+   "predicted_loo": 36.56
+  },
+  {
+   "anr": "550",
+   "date": "07.03.2010",
+   "title": "Berufliche Vorsorge: Anpassung des Mindestumwandlungssatzes",
+   "cue": 0.5856,
+   "yes": 27.27,
+   "predicted_loo": 49.29
+  },
+  {
+   "anr": "551",
+   "date": "26.09.2010",
+   "title": "Revision des Arbeitslosenversicherungsgesetzes",
+   "cue": 0.5678,
+   "yes": 53.42,
+   "predicted_loo": 48.43
+  },
+  {
+   "anr": "552.1",
+   "date": "28.11.2010",
+   "title": "Ausschaffungsinitiative",
+   "cue": 0.286,
+   "yes": 52.91,
+   "predicted_loo": 35.43
+  },
+  {
+   "anr": "552.2",
+   "date": "28.11.2010",
+   "title": "Gegenentwurf zur Ausschaffungsinitiative",
+   "cue": 0.4426,
+   "yes": 45.79,
+   "predicted_loo": 42.68
+  },
+  {
+   "anr": "553",
+   "date": "28.11.2010",
+   "title": "«Steuergerechtigkeits-Initiative»",
+   "cue": 0.4299,
+   "yes": 41.54,
+   "predicted_loo": 42.1
+  },
+  {
+   "anr": "554",
+   "date": "13.02.2011",
+   "title": "Initiative «Für den Schutz vor Waffengewalt»",
+   "cue": 0.306,
+   "yes": 43.7,
+   "predicted_loo": 36.39
+  },
+  {
+   "anr": "555",
+   "date": "11.03.2012",
+   "title": "Zweitwohnungsinitiative",
+   "cue": 0.2781,
+   "yes": 50.63,
+   "predicted_loo": 35.07
+  },
+  {
+   "anr": "556",
+   "date": "11.03.2012",
+   "title": "Initiative «Für ein steuerlich begünstigtes Bausparen»",
+   "cue": 0.6722,
+   "yes": 44.19,
+   "predicted_loo": 53.25
+  },
+  {
+   "anr": "557",
+   "date": "11.03.2012",
+   "title": "Initiative «6 Wochen Ferien für alle»",
+   "cue": 0.3729,
+   "yes": 33.5,
+   "predicted_loo": 39.5
+  },
+  {
+   "anr": "558",
+   "date": "11.03.2012",
+   "title": "Regelung der Geldspiele zugunsten gemeinnütziger Zwecke",
+   "cue": 0.8683,
+   "yes": 87.09,
+   "predicted_loo": 62.17
+  },
+  {
+   "anr": "559",
+   "date": "11.03.2012",
+   "title": "Gesetz über die Buchpreisbindung",
+   "cue": 0.4033,
+   "yes": 43.92,
+   "predicted_loo": 40.87
+  },
+  {
+   "anr": "560",
+   "date": "17.06.2012",
+   "title": "Initiative «Eigene vier Wände dank Bausparen»",
+   "cue": 0.5341,
+   "yes": 31.09,
+   "predicted_loo": 46.92
+  },
+  {
+   "anr": "561",
+   "date": "17.06.2012",
+   "title": "Initiative «Staatsverträge vors Volk!»",
+   "cue": 0.3803,
+   "yes": 24.72,
+   "predicted_loo": 39.86
+  },
+  {
+   "anr": "562",
+   "date": "17.06.2012",
+   "title": "Gesetz über die Krankenversicherung (Managed Care)",
+   "cue": 0.3591,
+   "yes": 23.95,
+   "predicted_loo": 38.89
+  },
+  {
+   "anr": "563",
+   "date": "23.09.2012",
+   "title": "Bundesbeschluss über die Jugendmusikförderung",
+   "cue": 0.5028,
+   "yes": 72.69,
+   "predicted_loo": 45.4
+  },
+  {
+   "anr": "564",
+   "date": "23.09.2012",
+   "title": "Initiative «Sicheres Wohnen im Alter»",
+   "cue": 0.3702,
+   "yes": 47.39,
+   "predicted_loo": 39.34
+  },
+  {
+   "anr": "565",
+   "date": "23.09.2012",
+   "title": "Initiative «Schutz vor Passivrauchen»",
+   "cue": 0.3992,
+   "yes": 34.01,
+   "predicted_loo": 40.71
+  },
+  {
+   "anr": "566",
+   "date": "25.11.2012",
+   "title": "Tierseuchengesetz",
+   "cue": 0.7069,
+   "yes": 68.28,
+   "predicted_loo": 54.81
+  },
+  {
+   "anr": "567",
+   "date": "03.03.2013",
+   "title": "Bundesbeschluss über die Familienpolitik",
+   "cue": 0.4856,
+   "yes": 54.35,
+   "predicted_loo": 44.64
+  },
+  {
+   "anr": "568",
+   "date": "03.03.2013",
+   "title": "Initiative «gegen die Abzockerei»",
+   "cue": 0.4033,
+   "yes": 67.96,
+   "predicted_loo": 40.82
+  },
+  {
+   "anr": "569",
+   "date": "03.03.2013",
+   "title": "Raumplanungsgesetz",
+   "cue": 0.4865,
+   "yes": 62.89,
+   "predicted_loo": 44.67
+  },
+  {
+   "anr": "570",
+   "date": "09.06.2013",
+   "title": "Initiative «Volkswahl des Bundesrates»",
+   "cue": 0.3725,
+   "yes": 23.66,
+   "predicted_loo": 39.51
+  },
+  {
+   "anr": "571",
+   "date": "09.06.2013",
+   "title": "Asylgesetz",
+   "cue": 0.7431,
+   "yes": 78.45,
+   "predicted_loo": 56.45
+  },
+  {
+   "anr": "572",
+   "date": "22.09.2013",
+   "title": "Initiative zur Aufhebung der Wehrpflicht",
+   "cue": 0.2468,
+   "yes": 26.79,
+   "predicted_loo": 33.72
+  },
+  {
+   "anr": "573",
+   "date": "22.09.2013",
+   "title": "Epidemiengesetz",
+   "cue": 0.6281,
+   "yes": 60.0,
+   "predicted_loo": 51.2
+  },
+  {
+   "anr": "574",
+   "date": "22.09.2013",
+   "title": "Arbeitsgesetz (Öffnungszeiten von Tankstellenshops)",
+   "cue": 0.6011,
+   "yes": 55.79,
+   "predicted_loo": 49.96
+  },
+  {
+   "anr": "575",
+   "date": "24.11.2013",
+   "title": "Initiative «1:12 – Für gerechte Löhne»",
+   "cue": 0.3716,
+   "yes": 34.7,
+   "predicted_loo": 39.44
+  },
+  {
+   "anr": "576",
+   "date": "24.11.2013",
+   "title": "«Familieninitiative»",
+   "cue": 0.3971,
+   "yes": 41.53,
+   "predicted_loo": 40.59
+  },
+  {
+   "anr": "577",
+   "date": "24.11.2013",
+   "title": "Änderung des Nationalstrassenabgabegesetzes (Autobahnvignette)",
+   "cue": 0.4092,
+   "yes": 39.54,
+   "predicted_loo": 41.16
+  },
+  {
+   "anr": "578",
+   "date": "09.02.2014",
+   "title": "Finanzierung und Ausbau der Eisenbahninfrastruktur (FABI)",
+   "cue": 0.6298,
+   "yes": 62.02,
+   "predicted_loo": 51.27
+  },
+  {
+   "anr": "579",
+   "date": "09.02.2014",
+   "title": "Initiative «Abtreibungsfinanzierung ist Privatsache»",
+   "cue": 0.3895,
+   "yes": 30.18,
+   "predicted_loo": 40.27
+  },
+  {
+   "anr": "580",
+   "date": "09.02.2014",
+   "title": "Initiative «Gegen Masseneinwanderung»",
+   "cue": 0.2615,
+   "yes": 50.33,
+   "predicted_loo": 34.31
+  },
+  {
+   "anr": "581",
+   "date": "18.05.2014",
+   "title": "Bundesbeschluss über die medizinische Grundversorgung",
+   "cue": 0.6457,
+   "yes": 88.07,
+   "predicted_loo": 51.96
+  },
+  {
+   "anr": "582",
+   "date": "18.05.2014",
+   "title": "Initiative «Pädophile sollen nicht mehr mit Kindern arbeiten dürfen»",
+   "cue": 0.4281,
+   "yes": 63.53,
+   "predicted_loo": 41.97
+  },
+  {
+   "anr": "583",
+   "date": "18.05.2014",
+   "title": "«Mindestlohn-Initiative»",
+   "cue": 0.3689,
+   "yes": 23.73,
+   "predicted_loo": 39.34
+  },
+  {
+   "anr": "584",
+   "date": "18.05.2014",
+   "title": "Fonds zur Beschaffung des Kampfflugzeugs Gripen",
+   "cue": 0.6867,
+   "yes": 46.59,
+   "predicted_loo": 53.92
+  },
+  {
+   "anr": "585",
+   "date": "28.09.2014",
+   "title": "Initiative «Schluss mit der MwSt-Diskriminierung des Gastgewerbes!»",
+   "cue": 0.3311,
+   "yes": 28.48,
+   "predicted_loo": 37.59
+  },
+  {
+   "anr": "586",
+   "date": "28.09.2014",
+   "title": "Initiative «Für eine öffentliche Krankenkasse»",
+   "cue": 0.2851,
+   "yes": 38.16,
+   "predicted_loo": 35.44
+  },
+  {
+   "anr": "587",
+   "date": "30.11.2014",
+   "title": "Initiative zur Abschaffung der Pauschalbesteuerung",
+   "cue": 0.3871,
+   "yes": 40.8,
+   "predicted_loo": 40.13
+  },
+  {
+   "anr": "588",
+   "date": "30.11.2014",
+   "title": "Initiative «Stopp der Überbevölkerung – zur Sicherung der natürlichen Lebensgrundlagen»",
+   "cue": 0.0055,
+   "yes": 25.9,
+   "predicted_loo": 22.57
+  },
+  {
+   "anr": "589",
+   "date": "30.11.2014",
+   "title": "Gold-Initiative",
+   "cue": 0.0806,
+   "yes": 22.72,
+   "predicted_loo": 26.08
+  },
+  {
+   "anr": "590",
+   "date": "08.03.2015",
+   "title": "Initiative für steuerfreie Kinderzulagen",
+   "cue": 0.444,
+   "yes": 24.58,
+   "predicted_loo": 42.79
+  },
+  {
+   "anr": "591",
+   "date": "08.03.2015",
+   "title": "Initiative «Energie- statt Mehrwertsteuer»",
+   "cue": 0.1257,
+   "yes": 8.03,
+   "predicted_loo": 28.24
+  },
+  {
+   "anr": "592",
+   "date": "14.06.2015",
+   "title": "Verfassungsbestimmung zur Fortpflanzungsmedizin und Gentechnologie im Humanbereich",
+   "cue": 0.5168,
+   "yes": 61.93,
+   "predicted_loo": 46.07
+  },
+  {
+   "anr": "593",
+   "date": "14.06.2015",
+   "title": "Stipendieninitiative",
+   "cue": 0.3138,
+   "yes": 27.46,
+   "predicted_loo": 36.8
+  },
+  {
+   "anr": "594",
+   "date": "14.06.2015",
+   "title": "Initiative «Millionen-Erbschaften besteuern für unsere AHV»",
+   "cue": 0.3087,
+   "yes": 28.96,
+   "predicted_loo": 36.56
+  },
+  {
+   "anr": "595",
+   "date": "14.06.2015",
+   "title": "Radio- und Fernsehgesetz (Radio- und Fernsehabgabe)",
+   "cue": 0.4892,
+   "yes": 50.08,
+   "predicted_loo": 44.82
+  },
+  {
+   "anr": "596",
+   "date": "28.02.2016",
+   "title": "Initiative «gegen die Heiratsstrafe»",
+   "cue": 0.462,
+   "yes": 49.16,
+   "predicted_loo": 43.57
+  },
+  {
+   "anr": "597",
+   "date": "28.02.2016",
+   "title": "«Durchsetzungsinitiative»",
+   "cue": 0.3285,
+   "yes": 41.15,
+   "predicted_loo": 37.43
+  },
+  {
+   "anr": "598",
+   "date": "28.02.2016",
+   "title": "Initiative «Keine Spekulation mit Nahrungsmitteln!»",
+   "cue": 0.2957,
+   "yes": 40.07,
+   "predicted_loo": 35.92
+  },
+  {
+   "anr": "599",
+   "date": "28.02.2016",
+   "title": "Sanierung Gotthard-Strassentunnel",
+   "cue": 0.6571,
+   "yes": 57.01,
+   "predicted_loo": 52.54
+  },
+  {
+   "anr": "600",
+   "date": "05.06.2016",
+   "title": "Initiative «Pro Service public»",
+   "cue": 0.127,
+   "yes": 32.38,
+   "predicted_loo": 28.16
+  },
+  {
+   "anr": "601",
+   "date": "05.06.2016",
+   "title": "Initiative «Für ein bedingungsloses Grundeinkommen»",
+   "cue": 0.0695,
+   "yes": 23.06,
+   "predicted_loo": 25.56
+  },
+  {
+   "anr": "602",
+   "date": "05.06.2016",
+   "title": "Initiative «Für eine faire Verkehrsfinanzierung»",
+   "cue": 0.2907,
+   "yes": 29.22,
+   "predicted_loo": 35.73
+  },
+  {
+   "anr": "603",
+   "date": "05.06.2016",
+   "title": "Fortpflanzungsmedizingesetz",
+   "cue": 0.4614,
+   "yes": 62.42,
+   "predicted_loo": 43.51
+  },
+  {
+   "anr": "604",
+   "date": "05.06.2016",
+   "title": "Asylgesetz",
+   "cue": 0.7194,
+   "yes": 66.78,
+   "predicted_loo": 55.38
+  },
+  {
+   "anr": "605",
+   "date": "25.09.2016",
+   "title": "Initiative «Grüne Wirtschaft»",
+   "cue": 0.4178,
+   "yes": 36.43,
+   "predicted_loo": 41.56
+  },
+  {
+   "anr": "606",
+   "date": "25.09.2016",
+   "title": "Initiative «AHVplus: für eine starke AHV»",
+   "cue": 0.2498,
+   "yes": 40.6,
+   "predicted_loo": 33.8
+  },
+  {
+   "anr": "607",
+   "date": "25.09.2016",
+   "title": "Nachrichtendienstgesetz",
+   "cue": 0.7289,
+   "yes": 65.51,
+   "predicted_loo": 55.82
+  },
+  {
+   "anr": "608",
+   "date": "27.11.2016",
+   "title": "Atomausstiegsinitiative",
+   "cue": 0.4128,
+   "yes": 45.8,
+   "predicted_loo": 41.31
+  },
+  {
+   "anr": "609",
+   "date": "12.02.2017",
+   "title": "Erleichterte Einbürgerung der dritten Ausländergeneration",
+   "cue": 0.6,
+   "yes": 60.41,
+   "predicted_loo": 49.9
+  },
+  {
+   "anr": "610",
+   "date": "12.02.2017",
+   "title": "Fonds für die Nationalstrassen und den Agglomerationsverkehr (NAF)",
+   "cue": 0.6266,
+   "yes": 61.95,
+   "predicted_loo": 51.12
+  },
+  {
+   "anr": "611",
+   "date": "12.02.2017",
+   "title": "Unternehmenssteuerreform III",
+   "cue": 0.6303,
+   "yes": 40.92,
+   "predicted_loo": 51.33
+  },
+  {
+   "anr": "612",
+   "date": "21.05.2017",
+   "title": "Energiegesetz",
+   "cue": 0.7073,
+   "yes": 58.22,
+   "predicted_loo": 54.84
+  },
+  {
+   "anr": "613",
+   "date": "24.09.2017",
+   "title": "Bundesbeschluss über die Ernährungssicherheit",
+   "cue": 0.8743,
+   "yes": 78.73,
+   "predicted_loo": 62.47
+  },
+  {
+   "anr": "614",
+   "date": "24.09.2017",
+   "title": "Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+   "cue": 0.4615,
+   "yes": 49.95,
+   "predicted_loo": 43.54
+  },
+  {
+   "anr": "615",
+   "date": "24.09.2017",
+   "title": "Reform der Altersvorsorge 2020",
+   "cue": 0.4505,
+   "yes": 47.31,
+   "predicted_loo": 43.04
+  },
+  {
+   "anr": "616",
+   "date": "04.03.2018",
+   "title": "Neue Finanzordnung 2021",
+   "cue": 0.8926,
+   "yes": 84.11,
+   "predicted_loo": 63.29
+  },
+  {
+   "anr": "617",
+   "date": "04.03.2018",
+   "title": "Initiative «Abschaffung der Billag-Gebühren»",
+   "cue": 0.2913,
+   "yes": 28.44,
+   "predicted_loo": 35.76
+  },
+  {
+   "anr": "618",
+   "date": "10.06.2018",
+   "title": "Vollgeld-Initiative",
+   "cue": 0.15,
+   "yes": 24.28,
+   "predicted_loo": 29.27
+  },
+  {
+   "anr": "619",
+   "date": "10.06.2018",
+   "title": "Geldspielgesetz",
+   "cue": 0.5534,
+   "yes": 72.94,
+   "predicted_loo": 47.74
+  },
+  {
+   "anr": "620",
+   "date": "23.09.2018",
+   "title": "Bundesbeschluss über die Velowege sowie die Fuss- und Wanderwege",
+   "cue": 0.7266,
+   "yes": 73.59,
+   "predicted_loo": 55.7
+  },
+  {
+   "anr": "621",
+   "date": "23.09.2018",
+   "title": "Fair-Food-Initiative",
+   "cue": 0.3965,
+   "yes": 38.7,
+   "predicted_loo": 40.57
+  },
+  {
+   "anr": "622",
+   "date": "23.09.2018",
+   "title": "Initiative «Für Ernährungssouveränität»",
+   "cue": 0.3575,
+   "yes": 31.62,
+   "predicted_loo": 38.8
+  },
+  {
+   "anr": "623",
+   "date": "25.11.2018",
+   "title": "Hornkuh-Initiative",
+   "cue": 0.4178,
+   "yes": 45.27,
+   "predicted_loo": 41.54
+  },
+  {
+   "anr": "624",
+   "date": "25.11.2018",
+   "title": "Selbstbestimmungsinitiative",
+   "cue": 0.2851,
+   "yes": 33.73,
+   "predicted_loo": 35.46
+  },
+  {
+   "anr": "625",
+   "date": "25.11.2018",
+   "title": "Gesetzliche Grundlage für die Überwachung von Versicherten",
+   "cue": 0.591,
+   "yes": 64.72,
+   "predicted_loo": 49.48
+  },
+  {
+   "anr": "626",
+   "date": "10.02.2019",
+   "title": "Zersiedelungsinitiative",
+   "cue": 0.2674,
+   "yes": 36.34,
+   "predicted_loo": 34.63
+  },
+  {
+   "anr": "627",
+   "date": "19.05.2019",
+   "title": "Steuerreform und AHV-Finanzierung (STAF)",
+   "cue": 0.6433,
+   "yes": 66.38,
+   "predicted_loo": 51.88
+  },
+  {
+   "anr": "628",
+   "date": "19.05.2019",
+   "title": "Umsetzung der EU-Waffenrichtlinie",
+   "cue": 0.7125,
+   "yes": 63.74,
+   "predicted_loo": 55.07
+  },
+  {
+   "anr": "629",
+   "date": "09.02.2020",
+   "title": "Initiative «Mehr bezahlbare Wohnungen»",
+   "cue": 0.395,
+   "yes": 42.95,
+   "predicted_loo": 40.49
+  },
+  {
+   "anr": "630",
+   "date": "09.02.2020",
+   "title": "Verbot der Diskriminierung aufgrund der sexuellen Orientierung",
+   "cue": 0.6378,
+   "yes": 63.09,
+   "predicted_loo": 51.64
+  },
+  {
+   "anr": "631",
+   "date": "27.09.2020",
+   "title": "Begrenzungsinitiative",
+   "cue": 0.2475,
+   "yes": 38.29,
+   "predicted_loo": 33.7
+  },
+  {
+   "anr": "632",
+   "date": "27.09.2020",
+   "title": "Jagdgesetz",
+   "cue": 0.5144,
+   "yes": 48.07,
+   "predicted_loo": 45.98
+  },
+  {
+   "anr": "633",
+   "date": "27.09.2020",
+   "title": "Erhöhung der steuerlichen Kinderabzüge",
+   "cue": 0.5774,
+   "yes": 36.76,
+   "predicted_loo": 48.9
+  },
+  {
+   "anr": "634",
+   "date": "27.09.2020",
+   "title": "Vaterschaftsurlaub",
+   "cue": 0.6135,
+   "yes": 60.34,
+   "predicted_loo": 50.52
+  },
+  {
+   "anr": "635",
+   "date": "27.09.2020",
+   "title": "Beschaffung neuer Kampfflugzeuge",
+   "cue": 0.607,
+   "yes": 50.13,
+   "predicted_loo": 50.24
+  },
+  {
+   "anr": "636",
+   "date": "29.11.2020",
+   "title": "Konzernverantwortungsinitiative",
+   "cue": 0.518,
+   "yes": 50.73,
+   "predicted_loo": 46.14
+  },
+  {
+   "anr": "637",
+   "date": "29.11.2020",
+   "title": "«Kriegsgeschäfte-Initiative»",
+   "cue": 0.4117,
+   "yes": 42.55,
+   "predicted_loo": 41.26
+  },
+  {
+   "anr": "638",
+   "date": "07.03.2021",
+   "title": "Initiative für ein Verhüllungsverbot",
+   "cue": 0.2934,
+   "yes": 51.19,
+   "predicted_loo": 35.78
+  },
+  {
+   "anr": "639",
+   "date": "07.03.2021",
+   "title": "Gesetz über elektronische Identifizierungsdienste",
+   "cue": 0.5865,
+   "yes": 35.64,
+   "predicted_loo": 49.32
+  },
+  {
+   "anr": "640",
+   "date": "07.03.2021",
+   "title": "Freihandelsabkommen mit Indonesien",
+   "cue": 0.656,
+   "yes": 51.65,
+   "predicted_loo": 52.49
+  },
+  {
+   "anr": "641",
+   "date": "13.06.2021",
+   "title": "Trinkwasserinitiative",
+   "cue": 0.4103,
+   "yes": 39.31,
+   "predicted_loo": 41.21
+  },
+  {
+   "anr": "642",
+   "date": "13.06.2021",
+   "title": "Pestizidinitiative",
+   "cue": 0.3805,
+   "yes": 39.44,
+   "predicted_loo": 39.83
+  },
+  {
+   "anr": "643",
+   "date": "13.06.2021",
+   "title": "Covid-19-Gesetz",
+   "cue": 0.8565,
+   "yes": 60.2,
+   "predicted_loo": 61.71
+  },
+  {
+   "anr": "644",
+   "date": "13.06.2021",
+   "title": "CO2-Gesetz",
+   "cue": 0.7081,
+   "yes": 48.41,
+   "predicted_loo": 54.9
+  },
+  {
+   "anr": "645",
+   "date": "13.06.2021",
+   "title": "Gesetz über polizeiliche Massnahmen gegen Terrorismus",
+   "cue": 0.5917,
+   "yes": 56.58,
+   "predicted_loo": 49.53
+  },
+  {
+   "anr": "646",
+   "date": "26.09.2021",
+   "title": "«99%-Initiative»",
+   "cue": 0.3402,
+   "yes": 35.12,
+   "predicted_loo": 37.99
+  },
+  {
+   "anr": "647",
+   "date": "26.09.2021",
+   "title": "Ehe für alle",
+   "cue": 0.7016,
+   "yes": 64.1,
+   "predicted_loo": 54.57
+  },
+  {
+   "anr": "648",
+   "date": "28.11.2021",
+   "title": "Pflegeinitiative",
+   "cue": 0.4964,
+   "yes": 60.98,
+   "predicted_loo": 45.13
+  },
+  {
+   "anr": "649",
+   "date": "28.11.2021",
+   "title": "Justizinitiative",
+   "cue": 0.0,
+   "yes": 31.92,
+   "predicted_loo": 22.27
+  },
+  {
+   "anr": "650",
+   "date": "28.11.2021",
+   "title": "Änderung des Covid-19-Gesetzes (2. Revision)",
+   "cue": 0.7238,
+   "yes": 62.02,
+   "predicted_loo": 55.59
+  },
+  {
+   "anr": "651",
+   "date": "13.02.2022",
+   "title": "Initiative für ein Verbot von Tier- und Menschenversuchen",
+   "cue": 0.001,
+   "yes": 20.86,
+   "predicted_loo": 22.41
+  },
+  {
+   "anr": "652",
+   "date": "13.02.2022",
+   "title": "Initiative «Kinder und Jugendliche ohne Tabakwerbung»",
+   "cue": 0.4352,
+   "yes": 56.65,
+   "predicted_loo": 42.32
+  },
+  {
+   "anr": "653",
+   "date": "13.02.2022",
+   "title": "Gesetz über die Stempelabgaben",
+   "cue": 0.6456,
+   "yes": 37.37,
+   "predicted_loo": 52.04
+  },
+  {
+   "anr": "654",
+   "date": "13.02.2022",
+   "title": "Medienpaket",
+   "cue": 0.5627,
+   "yes": 45.42,
+   "predicted_loo": 48.21
+  },
+  {
+   "anr": "655",
+   "date": "15.05.2022",
+   "title": "Änderung des Filmgesetzes",
+   "cue": 0.5668,
+   "yes": 58.42,
+   "predicted_loo": 48.38
+  },
+  {
+   "anr": "656",
+   "date": "15.05.2022",
+   "title": "Widerspruchsregelung bei der Organspende",
+   "cue": 0.7016,
+   "yes": 60.2,
+   "predicted_loo": 54.58
+  },
+  {
+   "anr": "657",
+   "date": "15.05.2022",
+   "title": "Beteiligung an der europäischen Grenz- und Küstenwache Frontex",
+   "cue": 0.6701,
+   "yes": 71.48,
+   "predicted_loo": 53.11
+  },
+  {
+   "anr": "658",
+   "date": "25.09.2022",
+   "title": "Massentierhaltungsinitiative",
+   "cue": 0.4088,
+   "yes": 37.13,
+   "predicted_loo": 41.14
+  },
+  {
+   "anr": "659",
+   "date": "25.09.2022",
+   "title": "Erhöhung der Mehrwertsteuer zugunsten der AHV",
+   "cue": 0.6777,
+   "yes": 55.07,
+   "predicted_loo": 53.49
+  },
+  {
+   "anr": "660",
+   "date": "25.09.2022",
+   "title": "AHV-Gesetz (AHV 21)",
+   "cue": 0.6777,
+   "yes": 50.55,
+   "predicted_loo": 53.49
+  },
+  {
+   "anr": "661",
+   "date": "25.09.2022",
+   "title": "Verrechnungssteuergesetz",
+   "cue": 0.656,
+   "yes": 47.99,
+   "predicted_loo": 52.5
+  },
+  {
+   "anr": "662",
+   "date": "18.06.2023",
+   "title": "OECD-Mindeststeuer für Unternehmen",
+   "cue": 0.7533,
+   "yes": 78.45,
+   "predicted_loo": 56.92
+  },
+  {
+   "anr": "663",
+   "date": "18.06.2023",
+   "title": "Klimagesetz",
+   "cue": 0.7179,
+   "yes": 59.07,
+   "predicted_loo": 55.33
+  },
+  {
+   "anr": "664",
+   "date": "18.06.2023",
+   "title": "Änderung des Covid-19-Gesetzes (5. Revision)",
+   "cue": 0.7174,
+   "yes": 61.94,
+   "predicted_loo": 55.3
+  },
+  {
+   "anr": "665",
+   "date": "03.03.2024",
+   "title": "Initiative für eine 13. AHV-Rente",
+   "cue": 0.3087,
+   "yes": 58.25,
+   "predicted_loo": 36.46
+  },
+  {
+   "anr": "666",
+   "date": "03.03.2024",
+   "title": "Renteninitiative",
+   "cue": 0.4481,
+   "yes": 25.25,
+   "predicted_loo": 42.97
+  },
+  {
+   "anr": "667",
+   "date": "09.06.2024",
+   "title": "Prämien-Entlastungs-Initiative",
+   "cue": 0.3048,
+   "yes": 44.53,
+   "predicted_loo": 36.33
+  },
+  {
+   "anr": "668",
+   "date": "09.06.2024",
+   "title": "Initiative für eine Kostenbremse im Gesundheitswesen",
+   "cue": 0.179,
+   "yes": 37.23,
+   "predicted_loo": 30.54
+  },
+  {
+   "anr": "669",
+   "date": "09.06.2024",
+   "title": "Initiative «Für Freiheit und körperliche Unversehrtheit»",
+   "cue": 0.3035,
+   "yes": 26.27,
+   "predicted_loo": 36.33
+  },
+  {
+   "anr": "670",
+   "date": "09.06.2024",
+   "title": "Stromgesetz (Mantelerlass Energie)",
+   "cue": 0.7033,
+   "yes": 68.72,
+   "predicted_loo": 54.64
+  },
+  {
+   "anr": "671",
+   "date": "22.09.2024",
+   "title": "Biodiversitäts-Initiative",
+   "cue": 0.3959,
+   "yes": 36.96,
+   "predicted_loo": 40.55
+  },
+  {
+   "anr": "672",
+   "date": "22.09.2024",
+   "title": "Reform der beruflichen Vorsorge",
+   "cue": 0.6969,
+   "yes": 32.87,
+   "predicted_loo": 54.41
+  },
+  {
+   "anr": "673",
+   "date": "24.11.2024",
+   "title": "Ausbau des Autobahnnetzes",
+   "cue": 0.6043,
+   "yes": 47.3,
+   "predicted_loo": 50.12
+  },
+  {
+   "anr": "674",
+   "date": "24.11.2024",
+   "title": "Bedingungen für Untermiete",
+   "cue": 0.6043,
+   "yes": 48.42,
+   "predicted_loo": 50.12
+  },
+  {
+   "anr": "675",
+   "date": "24.11.2024",
+   "title": "Kündigung wegen Eigenbedarfs (Mietrecht)",
+   "cue": 0.694,
+   "yes": 46.17,
+   "predicted_loo": 54.25
+  },
+  {
+   "anr": "676",
+   "date": "24.11.2024",
+   "title": "Einheitliche Finanzierung ambulanter und stationärer Leistungen (EFAS)",
+   "cue": 0.7556,
+   "yes": 53.31,
+   "predicted_loo": 57.08
+  },
+  {
+   "anr": "677",
+   "date": "09.02.2025",
+   "title": "«Umweltverantwortungsinitiative»",
+   "cue": 0.3192,
+   "yes": 30.16,
+   "predicted_loo": 37.04
+  },
+  {
+   "anr": "678",
+   "date": "28.09.2025",
+   "title": "Kantonale Besteuerung von Zweitliegenschaften",
+   "cue": 0.658,
+   "yes": 57.73,
+   "predicted_loo": 52.58
+  },
+  {
+   "anr": "679",
+   "date": "28.09.2025",
+   "title": "E-ID-Gesetz",
+   "cue": 0.689,
+   "yes": 50.39,
+   "predicted_loo": 54.01
+  },
+  {
+   "anr": "680",
+   "date": "30.11.2025",
+   "title": "«Service-Citoyen-Initiative»",
+   "cue": 0.0981,
+   "yes": 15.85,
+   "predicted_loo": 26.93
+  },
+  {
+   "anr": "681",
+   "date": "30.11.2025",
+   "title": "«Initiative für eine Zukunft»",
+   "cue": 0.297,
+   "yes": 21.72,
+   "predicted_loo": 36.04
+  },
+  {
+   "anr": "682.1",
+   "date": "08.03.2026",
+   "title": "Bargeld-Initiative",
+   "cue": 0.3163,
+   "yes": 45.61,
+   "predicted_loo": 36.86
+  },
+  {
+   "anr": "682.2",
+   "date": "08.03.2026",
+   "title": "Bundesbeschluss über Währung und Bargeldversorgung",
+   "cue": 0.9216,
+   "yes": 73.39,
+   "predicted_loo": 64.66
+  },
+  {
+   "anr": "683",
+   "date": "08.03.2026",
+   "title": "SRG-Initiative «200 Franken sind genug!»",
+   "cue": 0.3088,
+   "yes": 38.05,
+   "predicted_loo": 36.53
+  },
+  {
+   "anr": "684",
+   "date": "08.03.2026",
+   "title": "Klimafonds-Initiative",
+   "cue": 0.3189,
+   "yes": 29.29,
+   "predicted_loo": 37.03
+  },
+  {
+   "anr": "685",
+   "date": "08.03.2026",
+   "title": "Gesetz über die Individualbesteuerung",
+   "cue": 0.525,
+   "yes": 54.26,
+   "predicted_loo": 46.46
+  },
+  {
+   "anr": "686",
+   "date": "14.06.2026",
+   "title": "«Nachhaltigkeitsinitiative»",
+   "cue": 0.3088,
+   "yes": 45.21,
+   "predicted_loo": 36.51
+  },
+  {
+   "anr": "687",
+   "date": "14.06.2026",
+   "title": "Zivildienstgesetz",
+   "cue": 0.6027,
+   "yes": 52.46,
+   "predicted_loo": 50.04
+  },
+  {
+   "anr": "688",
+   "date": "27.09.2026",
+   "title": "Neutralitätsinitiative",
+   "cue": 0.3202,
+   "yes": 29.85,
+   "predicted_loo": 37.08
+  },
+  {
+   "anr": "689",
+   "date": "27.09.2026",
+   "title": "Ernährungsinitiative",
+   "cue": 0.0583,
+   "yes": 27.48,
+   "predicted_loo": 25.01
+  }
+ ],
+ "suffrage": {
+  "note": "Both the 1959 and the 1971 federal votes were cast by men only; women first voted federally after the 1971 decision.",
+  "actual_1959": 33.08,
+  "actual_1971": 65.73,
+  "model_1959": {
+   "cue": 0.627,
+   "estimate": 51.2,
+   "parties": {
+    "fdp": {
+     "rec": "5",
+     "share": 23.3
+    },
+    "sps": {
+     "rec": "1",
+     "share": 27.02
+    },
+    "svp": {
+     "rec": "2",
+     "share": 12.08
+    },
+    "cvp": {
+     "rec": "5",
+     "share": 23.17
+    },
+    "evp": {
+     "rec": "1",
+     "share": 1.08
+    },
+    "pda": {
+     "rec": "1",
+     "share": 2.57
+    },
+    "ldu": {
+     "rec": "1",
+     "share": 5.48
+    }
+   }
+  },
+  "model_1971": {
+   "cue": 1.0,
+   "estimate": 68.3,
+   "parties": {
+    "fdp": {
+     "rec": "1",
+     "share": 23.2
+    },
+    "sps": {
+     "rec": "1",
+     "share": 23.53
+    },
+    "svp": {
+     "rec": "1",
+     "share": 11.03
+    },
+    "cvp": {
+     "rec": "1",
+     "share": 22.05
+    },
+    "evp": {
+     "rec": "1",
+     "share": 1.58
+    },
+    "pda": {
+     "rec": "1",
+     "share": 2.89
+    },
+    "lps": {
+     "rec": "1",
+     "share": 2.34
+    },
+    "ldu": {
+     "rec": "1",
+     "share": 9.05
+    }
+   }
+  },
+  "counterfactual_1971_positions_1959_strengths": {
+   "cue": 1.0,
+   "estimate": 68.3,
+   "parties": {
+    "fdp": {
+     "rec": "1",
+     "share": 23.3
+    },
+    "sps": {
+     "rec": "1",
+     "share": 27.02
+    },
+    "svp": {
+     "rec": "1",
+     "share": 12.08
+    },
+    "cvp": {
+     "rec": "1",
+     "share": 23.17
+    },
+    "evp": {
+     "rec": "1",
+     "share": 1.08
+    },
+    "pda": {
+     "rec": "1",
+     "share": 2.57
+    },
+    "lps": {
+     "rec": "1",
+     "share": 2.22
+    },
+    "ldu": {
+     "rec": "1",
+     "share": 5.48
+    }
+   },
+   "interval": [
+    58.6,
+    78.0
+   ]
+  },
+  "imagination_apertus_positions_1959": {
+   "generated": true,
+   "parties": {
+    "fdp": {
+     "rec": "1",
+     "reason": "The FDP, which had recommended a free vote in 1959, likely would have shifted to support women's suffrage by 1971 as liberal parties increasingly embraced progressive social reforms.",
+     "real_1959_rec": "5",
+     "misstates_evidence": false
+    },
+    "sps": {
+     "rec": "1",
+     "reason": "The SPS, which had recommended a 'yes' vote in 1959, would plausibly have maintained its support for women's suffrage, as socialist parties generally championed gender equality and expanded democratic participation.",
+     "real_1959_rec": "1",
+     "misstates_evidence": false
+    },
+    "svp": {
+     "rec": "2",
+     "reason": "The SVP, which had recommended a 'no' vote in 1959, would likely have continued opposing women's suffrage in 1971, reflecting its traditionalist stance and skepticism toward rapid social change.",
+     "real_1959_rec": "2",
+     "misstates_evidence": false
+    },
+    "cvp": {
+     "rec": "1",
+     "reason": "The CVP, which had recommended a free vote in 1959, would plausibly have moved toward supporting women's suffrage by 1971 as the Catholic Church and conservative parties gradually adapted to evolving social norms.",
+     "real_1959_rec": "5",
+     "misstates_evidence": false
+    },
+    "evp": {
+     "rec": "1",
+     "reason": "The EVP, which had recommended a 'yes' vote in 1959, would likely have continued advocating for women's suffrage, consistent with its Christian democratic emphasis on social justice and human dignity.",
+     "real_1959_rec": "1",
+     "misstates_evidence": false
+    },
+    "pda": {
+     "rec": "1",
+     "reason": "The Pda, which had recommended a 'yes' vote in 1959, would plausibly have maintained its support for women's suffrage, as its progressive platform prioritized equal rights and democratic inclusion.",
+     "real_1959_rec": "1",
+     "misstates_evidence": false
+    },
+    "lps": {
+     "rec": "1",
+     "reason": "The LPS, which had recommended a 'yes' vote in 1959, would likely have continued advocating for women's suffrage, aligning with its left-wing, egalitarian principles.",
+     "real_1959_rec": ".",
+     "misstates_evidence": true
+    },
+    "ldu": {
+     "rec": "1",
+     "reason": "The LdU, which had recommended a 'yes' vote in 1959, would plausibly have maintained its support for women's suffrage, consistent with its liberal-democratic commitment to expanding civil rights.",
+     "real_1959_rec": "1",
+     "misstates_evidence": false
+    }
+   },
+   "cue": 0.875,
+   "estimate": 62.6
+  },
+  "corrected_counterfactual": {
+   "method": "counterfactual estimate shifted by the model's 1959 residual (issue-specific gap of the 1959 male electorate)",
+   "residual_1959": -18.1,
+   "estimate": 50.2
+  }
+ }
+}

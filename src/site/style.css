@@ -261,3 +261,7 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .btn { display: inline-grid; place-items: center; width: 30px; height: 30px; background: var(--ink); color: #fff; }
 .btn:hover { text-decoration: none; }
 @media (max-width: 860px) { .parl { grid-template-columns: 1fr; } }
+
+/* Referendum scatter */
+.scatter { width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+.scatter .ax { font: 11px var(--sans); fill: var(--ink-3); }
