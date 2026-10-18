@@ -148,6 +148,30 @@ def stage_level(cfg):
     _write(path, rows)
 
 
+def stage_repair(cfg):
+    """Apply the rule-based repairs (ISO dates, control characters, optional keys) to existing output."""
+    for name in ("classified.jsonl", "enriched.jsonl"):
+        path = cfg["paths"]["data_dir"] / name
+        if path.exists():
+            _repair_file(path)
+
+
+def _repair_file(path):
+    rows = _read(path)
+    n = 0
+    for row in rows:
+        a = row.get("apertus")
+        if not a:
+            continue
+        rep = classify.repair(a)
+        a["repairs"] = sorted(set(a.get("repairs", [])) | set(rep))
+        row["schema_issues"] = [i for i in row.get("schema_issues", [])
+                                if not (i.startswith("missing:") and i.split(":", 1)[1] in classify.OPTIONAL_KEYS)]
+        n += bool(rep)
+    print(f"  repaired {n} of {len(rows)} records")
+    _write(path, rows)
+
+
 def stage_enrich(cfg):
     from cora import enrich
     enrich.run(cfg)
@@ -199,7 +223,7 @@ def stage_serve(cfg):
 
 
 STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classify,
-          "audit": stage_audit, "level": stage_level, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export}
+          "audit": stage_audit, "repair": stage_repair, "level": stage_level, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export}
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")

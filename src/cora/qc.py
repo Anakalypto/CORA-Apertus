@@ -102,7 +102,11 @@ def check_record(row: dict, rec: dict) -> dict:
     src = _source_text(rec)
     structural, critical, warnings = [], [], []
 
-    structural += [i for i in row.get("schema_issues", []) if not i.startswith("missing:preprocessing")]
+    optional = {"date_updated", "date_published", "commissioner", "creator", "publisher"}
+    structural += [i for i in row.get("schema_issues", []) if not i.startswith("missing:preprocessing")
+                   and not (i.startswith("missing:") and i.split(":", 1)[1] in optional)]
+    if a.get("repairs"):
+        warnings.append("repaired:" + ",".join(sorted({r.split(":")[0] for r in a["repairs"]})))
     for f in ("date_created", "date_published", "date_updated", "date_archived"):
         if a.get(f) and not ISO.match(str(a[f]).strip()):
             structural.append(f"non_iso:{f}")

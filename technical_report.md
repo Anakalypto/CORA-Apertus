@@ -104,7 +104,7 @@ Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfe
 
 ### Scale run
 
-1,000 records ran through the whole pipeline in **48 minutes** with Apertus 8B, against a target of 2 hours: 15 minutes of model calls and 32 minutes of throttled geocoding. Real structural errors were 6.0 %, slightly above the < 5 % target, mostly non-ISO dates. See `docs/quality_report.md` §14 and `data/scale1000/`.
+1,000 records ran through the whole pipeline in **48 minutes** with Apertus 8B, against a target of 2 hours: 15 minutes of model calls and 32 minutes of throttled geocoding. Real structural errors were 6.0 % from the model and 0.4 % after rule-based repair of dates and control characters (target < 5 %). See `docs/quality_report.md` §14 and `data/scale1000/`.
 
 ## 5. Limitations
 

@@ -1,4 +1,4 @@
-"""Add 200 secondary and tertiary sources to the demo set (original archive fields only).
+"""Add 200 secondary and tertiary sources (v2, strict selection) to the demo set (original archive fields only).
 
 The expected source level comes from archival evidence (form, title conventions), NOT from Apertus, so
 these records test the source-level classification that the first 100 (all primary) could not test.
@@ -13,23 +13,32 @@ from . import lindas
 DOSSIER = "<https://culture.ld.admin.ch/ais/vocabularies/recordSetTypes/10008>"
 OLD = '?s rico:isAssociatedWithDate ?d . ?d rico:beginningDate ?b . OPTIONAL { ?d rico:endDate ?e } FILTER(STR(COALESCE(?e, ?b)) < "1940")'
 NEW = '?s rico:isAssociatedWithDate ?d . ?d rico:beginningDate ?b FILTER(STR(?b) >= "1940")'
-PRESS = 'FILTER(REGEX(?t, "Zeitungsartikel|Zeitungsausschnitt|Presseartikel|Pressestimmen|Zeitungsberichte|Presseberichte|Pressekommentare|articles de (presse|journaux)|coupures de presse", "i"))'
-STUDY = 'FILTER(REGEX(?t, "(Studie[n ]|Abhandlung|Denkschrift|Geschichte des |Geschichte der |Darstellung de|Monographie|Dissertation|étude sur|mémoire sur)", "i"))'
-REGISTER = 'FILTER(REGEX(?t, "^(Register|Verzeichnis|Index|Inventar|Katalog|Repertorium|Generalregister|Sachregister|Namensregister|Répertoire|Inventaire|Table des)", "i"))'
+# v2 (strict): the title must BE the thing, not mention it. The first, keyword-based draw is kept in
+# data/extra_v1/: there "Verzeichnis/Inventar/Studie" mostly turned out to be primary administrative records.
+PRESS = 'FILTER(REGEX(?t, "^(Zeitungsausschnitte|Zeitungsartikel|Presseartikel|Presseausschnitte|Pressestimmen|Pressekommentare|Pressebericht|Zeitungsberichte|Coupures de presse|Articles de (presse|journaux)|Ritagli)", "i"))'
+OBIT = 'FILTER(REGEX(?t, "(Nachruf|Nachrufe|Nekrolog|n[ée]crolog|Gedenkrede|Gedenkschrift)", "i"))'
+HIST = 'FILTER(REGEX(?t, "(^Geschichte (des|der)|Festschrift|Jubil[äa]umsschrift|Chronik (des|der)|R[üu]ckblick auf|histoire (de|du|des) |Historique)", "i"))'
+BOOK = '?s a rico:Record ; sld:form "Buch" ; rico:title ?t FILTER(!REGEX(?t, "^(Band|Jahr|Register|Repertorium)", "i"))'
+INDEX = 'FILTER(REGEX(?t, "^(Register zu|Register über|Register der (Akten|Gesch[äa]fte|Beschl[üu]sse|Protokolle|Verf[üu]gungen|Bundesratsbeschl[üu]sse|Vertr[äa]ge|Kreisschreiben|Eing[äa]nge)|Generalregister|Sachregister|Namenregister|Namensregister|Personenregister|Ortsregister|Index zu|Repertorium|Findmittel|Aktenverzeichnis|Inhaltsverzeichnis|Registraturplan|Ablieferungsverzeichnis|Verzeichnis der (Akten|Dossiers|Gesch[äa]fte|Protokolle|Beschl[üu]sse|Kreisschreiben|Eing[äa]nge)|Table des mati[èe]res|R[ée]pertoire|Inventaire des (archives|dossiers|actes|pi[èe]ces))", "i"))'
 
 POOLS = {
     # name: (expected level, where-clause body using ?s/?t, n_old, n_new)
-    "secondary_press": ("secondary", f'{{ ?s sld:form ?f FILTER(REGEX(?f, "Zeitung", "i")) ?s rico:title ?t }} UNION {{ ?s rico:hasRecordSetType {DOSSIER} ; rico:title ?t {PRESS} }}', 51, 9),
-    "secondary_study": ("secondary", f'?s rico:title ?t {STUDY} FILTER NOT EXISTS {{ ?s rico:hasRecordSetType <https://culture.ld.admin.ch/ais/vocabularies/recordSetTypes/10017> }}', 34, 6),
-    "tertiary_register": ("tertiary", f'{{ ?s rico:title ?t {REGISTER} ?s rico:hasRecordSetType {DOSSIER} }} UNION {{ ?s a rico:Record ; sld:form "Buch" ; rico:title ?t FILTER(REGEX(?t, "Repertorium|Register", "i")) }}', 85, 15),
+    "secondary_press": ("secondary", f'?s rico:title ?t {PRESS}', 43, 7),
+    "secondary_obituary": ("secondary", f'?s rico:title ?t {OBIT}', 17, 3),
+    "secondary_history": ("secondary", f'{{ ?s rico:title ?t {HIST} }} UNION {{ {BOOK} }}', 25, 5),
+    "tertiary_index": ("tertiary", f'{{ ?s rico:title ?t {INDEX} }} UNION {{ ?s a rico:Record ; sld:form "Buch" ; rico:title ?t FILTER(REGEX(?t, "^(Register|Repertorium)", "i")) }}', 85, 15),
 }
 
 
 def run(cfg, seed: int = 2026) -> None:
     data_dir = cfg["paths"]["data_dir"]
     raw_path = data_dir / "records_raw.json"
-    existing = json.loads(raw_path.read_text(encoding="utf-8"))
+    # replace any earlier added sources: keep only the original stratified sample
+    existing = [r for r in json.loads(raw_path.read_text(encoding="utf-8")) if not r.get("expected_source_level")]
     have = {r["id"] for r in existing}
+    v1 = data_dir / "extra_v1" / "sample_extra.json"
+    if v1.exists():  # never re-draw a unit of the first draw
+        have |= {p["id"] for p in json.loads(v1.read_text(encoding="utf-8"))["sample"]}
     rng = random.Random(seed)
     picked, stats = [], {}
     for name, (level, body, n_old, n_new) in POOLS.items():

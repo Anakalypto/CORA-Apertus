@@ -23,6 +23,7 @@ resume = true            # 3-sentence résumé on/off
 output_language = "en"   # language of résumé and normalised fields
 preprocessing = true     # preprocessing-needs assessment on/off
 story_map = true         # provenance trail ("retracé") on/off
+press_convention = "secondary"   # source level of press articles/clippings: "secondary" (reported accounts) or "primary"
 
 [enrich]
 geocoder = "nominatim"             # public bulk-friendly, cached, 1 req/s

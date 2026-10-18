@@ -85,9 +85,36 @@ SWISS = re.compile(r"\b(swiss|switzerland|schweiz\w*|suisse|svizzera|helvetic|fe
 OTHER_STATE = re.compile(r"\b(german states|germany|austria|austrian|bundestag|united states)\b", re.I)
 
 
+# Swiss federal bodies resolve to the body, not to the "member of …" position item that a label search returns first.
+SWISS_BODIES = {
+    "Q676078": ("National Council of Switzerland", "lower house of the Swiss Federal Assembly",
+                ["nationalrat", "national council", "swiss national council", "conseil national", "consiglio nazionale"]),
+    "Q609037": ("Council of States of Switzerland", "upper house of the Swiss Federal Assembly",
+                ["standerat", "council of states", "swiss council of states", "conseil des etats", "consiglio degli stati"]),
+    "Q30917": ("Swiss Federal Council", "executive council and head of state in Switzerland",
+               ["bundesrat", "federal council", "swiss federal council", "conseil federal", "consiglio federale"]),
+    "Q684719": ("Federal Assembly of Switzerland", "legislative body of the Swiss Confederation",
+                ["bundesversammlung", "federal assembly", "swiss federal assembly", "vereinigte bundesversammlung", "assemblee federale"]),
+}
+
+
+def _swiss_body(name: str) -> dict | None:
+    import unicodedata
+    n = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    n = re.sub(r"\(.*?\)", "", n)
+    n = re.sub(r"[^a-z ]+", " ", n).strip()
+    for qid, (label, desc, names) in SWISS_BODIES.items():
+        if n in names:
+            return {"qid": qid, "label": label, "description": desc, "url": f"https://www.wikidata.org/wiki/{qid}"}
+    return None
+
+
 def wikidata_org(name: str, cache: Cache, cfg) -> dict | None:
     """Organisation linking: exact label/alias match, preferring Swiss items; never a generic concept
     ('type of …') or an item explicitly about another state (German Bundesrat for the Swiss one)."""
+    body = _swiss_body(name)
+    if body:
+        return body
     key = "wdorg|" + name
     if key in cache.data:
         return cache.data[key]

@@ -281,6 +281,8 @@ def normalize(raw: dict, rec: dict, cfg: dict) -> tuple[dict, list[str]]:
                 story.append({"event": ev, "date": e.get("date"), "place": e.get("place"),
                               "description": e.get("description")})
         out["story"] = story
+    issues = [i for i in issues if not (i.startswith("missing:") and i.split(":", 1)[1] in OPTIONAL_KEYS)]
+    out["repairs"] = repair(out)
     try:
         out["confidence"] = max(0.0, min(1.0, float(raw.get("confidence"))))
     except (TypeError, ValueError):
@@ -395,3 +397,112 @@ def audit_to_flags(raw: dict, rec: dict | None = None) -> tuple[dict, dict, dict
                 "sensitive_categories": checks["sensitive_categories"]["answer"],
                 "note": raw.get("note") if isinstance(raw.get("note"), str) else None}
     return checks, pre, personal
+
+
+# --- Pass 3: source level with explicit archival definitions -----------------------------------
+# Pass 1 decided the level inside a long prompt and defaulted to "primary"; on 200 added sources a manual
+# adjudication showed keyword labels were worse, but Apertus still missed true indexes and published
+# treatises. Pass 3 asks concrete questions and derives the level by rule (convention in config.toml).
+
+LEVEL_SYSTEM = """You are an archivist deciding the SOURCE LEVEL of one unit of the Swiss Federal Archives.
+Answer each question from the metadata only (title, scope, hierarchy, dates) and quote short evidence. Definitions:
+- points_to_other_records: the unit is a finding aid, index, register OF FILES/DOCUMENTS/DECISIONS, repertory, catalogue
+  or bibliography whose purpose is to describe or locate OTHER records or publications. A list or register of persons,
+  goods, firms, places, buildings, accounts or cases is NOT this (it is administrative data).
+- retrospective_or_analytic: the unit is an analysis, synthesis or narrative written AFTER the events or by authors who
+  did not take part: historical studies, published books and treatises, retrospectives, histories of an institution,
+  obituaries and biographical accounts, encyclopaedic texts. A contemporary planning or technical study made by the
+  acting administration is NOT this.
+- press_material: the unit mainly consists of newspaper/press articles or clippings written by journalists
+  (not the administration's own press releases).
+- mixed_administrative_file: an ordinary administrative dossier (correspondence, minutes, reports, drafts) that only
+  contains some clippings or printed matter.
+Return one JSON object."""
+
+LEVEL_KEYS = ["points_to_other_records", "retrospective_or_analytic", "press_material", "mixed_administrative_file"]
+
+
+def build_level_messages(rec: dict) -> list[dict]:
+    schema = {k: {"answer": "<true|false>", "evidence": "<short quote or null>"} for k in LEVEL_KEYS}
+    schema["note"] = "<one sentence>"
+    return [{"role": "system", "content": LEVEL_SYSTEM},
+            {"role": "user", "content": "Record metadata:\n" + json.dumps(compact_record(rec), ensure_ascii=False, indent=1)
+             + "\n\nReturn:\n" + json.dumps(schema, ensure_ascii=False)}]
+
+
+def level_from_answers(raw: dict, press_convention: str = "secondary") -> dict:
+    a = {k: _truthy(raw.get(k)) for k in LEVEL_KEYS}
+    ev = {k: (raw.get(k) or {}).get("evidence") if isinstance(raw.get(k), dict) else None for k in LEVEL_KEYS}
+    if a["points_to_other_records"]:
+        level, rule = "tertiary", "points to other records"
+    elif a["retrospective_or_analytic"]:
+        level, rule = "secondary", "retrospective or analytic"
+    elif a["press_material"] and not a["mixed_administrative_file"]:
+        level, rule = press_convention, f"press material (convention: {press_convention})"
+    else:
+        level, rule = "primary", "created in the course of the activity it documents"
+    return {"level": level, "rule": rule, "answers": a, "evidence": ev,
+            "note": raw.get("note") if isinstance(raw.get("note"), str) else None}
+
+
+# --- Rule-based repair of model output (mainly Apertus 8B) -------------------------------------
+OPTIONAL_KEYS = {"date_updated", "date_published", "commissioner", "creator", "publisher"}
+DATE_KEYS = ("date_created", "date_published", "date_updated", "date_archived")
+_CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+_ISO = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?(/\d{4}(-\d{2}(-\d{2})?)?)?$")
+
+
+def _one_date(t: str) -> str | None:
+    t = t.strip().strip(".").replace("ca.", "").replace("(ca.)", "").strip()
+    m = re.fullmatch(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", t)
+    if m:
+        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+    m = re.fullmatch(r"(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})", t)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    m = re.fullmatch(r"(\d{4})[.\-/](\d{1,2})", t)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
+    m = re.fullmatch(r"(\d{4})", t)
+    return m.group(1) if m else None
+
+
+def iso_date(v):
+    """Return (ISO 8601 date or interval, repaired?) or (v, False) when it cannot be repaired."""
+    if not isinstance(v, str) or not v.strip() or _ISO.match(v.strip()):
+        return v, False
+    v = re.sub(r"\(?\bca\.\)?", "", v).strip()  # approximation markers; kept as a separate flag by repair()
+    if _ISO.match(v):
+        return v, True
+    parts = re.split(r"\s*(?:/|–|—|\bto\b|\bbis\b|(?<=\d)\s*-\s*(?=\d{1,2}\.\d|\d{4}))\s*", v.strip())
+    out = [_one_date(x) for x in parts if x.strip()]
+    if out and all(out) and len(out) <= 2:
+        return "/".join(out), True
+    return v, False
+
+
+def repair(result: dict) -> list[str]:
+    """Repair a normalized result in place; return the list of repairs made."""
+    done = []
+
+    def clean(o):
+        if isinstance(o, str):
+            c = _CTRL.sub("", o)
+            if c != o:
+                done.append("control_chars")
+            return c
+        if isinstance(o, list):
+            return [clean(x) for x in o]
+        if isinstance(o, dict):
+            return {k: clean(v) for k, v in o.items()}
+        return o
+    for k in list(result):
+        result[k] = clean(result[k])
+    for k in DATE_KEYS:
+        if isinstance(result.get(k), str) and "ca." in result[k]:
+            result[f"{k}_approximate"] = True
+        new, ok = iso_date(result.get(k))
+        if ok:
+            result[k] = new
+            done.append(f"iso:{k}")
+    return sorted(set(done))

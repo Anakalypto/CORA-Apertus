@@ -301,6 +301,13 @@ The same pipeline ran on 1,000 new records (stratified 400 audiovisual / 300 sti
 | Places located by the gazetteer; Apertus' own coordinates, median error | 75.7 %; 2.2 km |
 | Outputs with control characters in place of accented letters ("Z\x1frich") | 22 records (2.2 %), 8B only |
 
+**After the rule-based repairs** (`python src/run.py repair`, also built into classification):
+- dates are converted to ISO 8601, with the archive's "(ca.)" markers kept as a `<field>_approximate` flag;
+- control characters are stripped and flagged;
+- omitted optional keys are no longer counted as errors.
+
+Re-scored, the 1,000 records have **0.4 % structural errors**: 3 calls without output and 1 four-sentence résumé. That is **well under the < 5 % target**, and 99.3 % of records are processed correctly. The repair touched 78 records (56 dates, 22 control-character cases). Where a control character replaced an accented letter, the letter can't be recovered ("Zrich"); those records stay flagged `repaired:control_chars`.
+
 **Reading.** 8B is 3× faster than 70B and close to it on grounding and agreement with record fields. It is sloppier on format: it omits optional keys, writes more non-ISO dates and garbles some accented letters. Its source levels were 995 primary and 2 tertiary, which is plausible for this mostly audiovisual sample. The strict schema rate, 49.9 % of records free of every issue, is misleading; excluding the harmless `date_updated` omission it is 94 %. For production: use 8B for bulk runs with a stricter schema repair (ISO dates, control characters), keep 70B for the published sample, and self-host the gazetteer.
 
 ## 15. 200 added secondary and tertiary sources: can Apertus tell the source level?
