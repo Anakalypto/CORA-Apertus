@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import classify, config, enrich, lindas
+from . import classify, config, enrich, lindas, qa
 from .apertus import Apertus
 
 CFG = config.load()
@@ -194,6 +194,19 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True):
     story = enrich.build_story(row, rec, places) if story_map else []
     return {"record": rec, "classification": result, "derived": row["derived"], "places": places, "story": story,
             "schema_issues": issues, "seconds": round(meta["seconds"] + ameta["seconds"], 1)}
+
+
+QA_INDEX = qa.Index(RECORDS)
+
+
+def _llm():
+    l = CFG["llm"]
+    return Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 1500, l["retries"])
+
+
+@app.get("/api/ask", summary="Ask the archive: cited answer from the dataset (BM25 + Apertus); refuses when nothing relevant is found")
+def ask(q: str = Query(..., min_length=3), k: int = 6):
+    return qa.ask(QA_INDEX, _llm(), q, k)
 
 
 @app.get("/", include_in_schema=False)
