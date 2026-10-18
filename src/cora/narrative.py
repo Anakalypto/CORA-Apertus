@@ -127,8 +127,13 @@ def run(cfg) -> None:
             im = {"error": repr(e), "sentences": [], "generated": True}
         return {"id": r["id"], "evidence": ev, "context": ctx, "imagination": im}
 
+    path = data / "dataset" / "trust_cards.jsonl"
+    old = {}
+    if path.exists():  # incremental: keep the cards already generated
+        old = {c["id"]: c for c in map(json.loads, filter(None, path.read_text(encoding="utf-8").splitlines()))}
     with ThreadPoolExecutor(l["workers"]) as pool:
-        cards = list(pool.map(one, recs))
+        new = {c["id"]: c for c in pool.map(one, [r for r in recs if r["id"] not in old])}
+    cards = [old.get(r["id"]) or new[r["id"]] for r in recs]
     (data / "dataset" / "trust_cards.jsonl").write_text("".join(json.dumps(c, ensure_ascii=False) + "\n" for c in cards), encoding="utf-8")
     sents = [s for c in cards for s in c["imagination"]["sentences"]]
     print(f"  {len(cards)} trust cards, {len(sents)} narrative sentences, "

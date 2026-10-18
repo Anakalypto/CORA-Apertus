@@ -1,0 +1,41 @@
+{
+ "n": 200,
+ "agreement_pct": 39.5,
+ "confusion": {
+  "secondary->primary": 67,
+  "secondary->secondary": 27,
+  "secondary->tertiary": 6,
+  "tertiary->primary": 47,
+  "tertiary->secondary": 1,
+  "tertiary->tertiary": 52
+ },
+ "by_stratum": {
+  "secondary_press": {
+   "n": 60,
+   "agreement_pct": 35.0,
+   "predicted": {
+    "primary": 36,
+    "secondary": 21,
+    "tertiary": 3
+   }
+  },
+  "secondary_study": {
+   "n": 40,
+   "agreement_pct": 15.0,
+   "predicted": {
+    "primary": 31,
+    "secondary": 6,
+    "tertiary": 3
+   }
+  },
+  "tertiary_register": {
+   "n": 100,
+   "agreement_pct": 52.0,
+   "predicted": {
+    "tertiary": 52,
+    "primary": 47,
+    "secondary": 1
+   }
+  }
+ }
+}

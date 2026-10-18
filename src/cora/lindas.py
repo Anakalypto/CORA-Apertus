@@ -118,7 +118,7 @@ def fetch_records(ids: list[str]) -> list[dict]:
         for r in rows:
             anc.setdefault(r["s"], set()).add(r["a"])
     anc_props = _props(sorted(set().union(*anc.values())) if anc else [])
-    type_uris = sorted({t for p in anc_props.values() for t in p.get("rico:hasRecordSetType", [])})
+    type_uris = sorted({t for p in list(anc_props.values()) + list(base.values()) for t in p.get("rico:hasRecordSetType", [])})
     type_names = {u: _name(p) for u, p in _props(type_uris).items()}
 
     records = []
@@ -175,5 +175,6 @@ def fetch_records(ids: list[str]) -> list[dict]:
             },
             "accessions": accessions,
             "hierarchy": chain,
+            "level": type_names.get((p.get("rico:hasRecordSetType") or [""])[0]) or "Document",
         })
     return records

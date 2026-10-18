@@ -51,6 +51,7 @@ def build_record(row: dict, rec: dict, qc: dict, now: str) -> tuple[dict, list[d
         "id": row["id"],
         "source": {
             "uri": rec["uri"], "portal_url": rec["portal_url"], "reference_code": rec["reference_code"],
+            "level": rec.get("level") or "Document",
             "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
             "original": {k: rec[k] for k in ("title", "reference_number", "old_reference_code", "alternate_reference",
                                              "scope_and_content", "author", "publisher", "involved", "coverage",
@@ -96,6 +97,7 @@ def build_record(row: dict, rec: dict, qc: dict, now: str) -> tuple[dict, list[d
                                  + sum(u.get("total_tokens", 0) for u in row.get("audit_meta", {}).get("usage", [])),
                        "processed_at": now},
         "stratum": rec.get("stratum"),
+        "evidence_source_level": rec.get("expected_source_level"),
     }
     return out, edits
 
@@ -120,7 +122,7 @@ def flatten(r: dict) -> dict:
         "personal_data": (r["personal_data"] or {}).get("contains_personal_data"),
         "sensitivity": (r["personal_data"] or {}).get("sensitivity"),
         "qc_ok": r["qc"]["ok"], "qc_warnings": join(r["qc"]["warnings"] or []),
-        "stratum": r["stratum"],
+        "stratum": r["stratum"], "level": r["source"]["level"], "evidence_source_level": r.get("evidence_source_level"),
     }
 
 

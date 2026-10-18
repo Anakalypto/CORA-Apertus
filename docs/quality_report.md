@@ -302,3 +302,39 @@ The same pipeline ran on 1,000 new records (stratified 400 audiovisual / 300 sti
 | Outputs with control characters in place of accented letters ("Z\x1frich") | 22 records (2.2 %), 8B only |
 
 **Reading.** 8B is 3× faster than 70B and close to it on grounding and agreement with record fields. It is sloppier on format: it omits optional keys, writes more non-ISO dates and garbles some accented letters. Its source levels were 995 primary and 2 tertiary, which is plausible for this mostly audiovisual sample. The strict schema rate, 49.9 % of records free of every issue, is misleading; excluding the harmless `date_updated` omission it is 94 %. For production: use 8B for bulk runs with a stricter schema repair (ISO dates, control characters), keep 70B for the published sample, and self-host the gazetteer.
+
+## 15. 200 added secondary and tertiary sources: can Apertus tell the source level?
+
+All 100 sampled records were primary, so the source-level classification had never been tested against anything else. We added 200 textual units from the same database. 170 of them end before 1940, and all are dossiers, because item-level documents before 1940 are almost all photographs. They were chosen by **archival evidence**:
+- **60 press units:** newspaper-article and clipping dossiers, expected secondary.
+- **40 studies:** studies, treatises, histories, expected secondary.
+- **100 registers:** registers, indexes, inventories, repertories, expected tertiary.
+
+(`src/cora/extra.py`, `data/sample_extra.json`)
+
+| Group | n | Apertus = evidence label | Apertus said |
+|---|---:|---:|---|
+| Press (expected secondary) | 60 | 35 % | primary 36, secondary 21, tertiary 3 |
+| Studies (expected secondary) | 40 | 15 % | primary 31, secondary 6, tertiary 3 |
+| Registers (expected tertiary) | 100 | 52 % | primary 47, tertiary 52, secondary 1 |
+| **All** | **200** | **39.5 %** | |
+
+**This first reading is misleading.** A manual adjudication of 30 random disagreements (`data/extra_v1/source_level_adjudication.json`) found:
+
+| Verdict | Press | Studies | Registers | Total |
+|---|---:|---:|---:|---:|
+| Apertus right | 4 | 6 | 9 | **19** |
+| Evidence label right | 2 | 1 | 1 | **4** |
+| Both defensible | 3 | 3 | 0 | 6 |
+| Neither | 1 | 0 | 0 | 1 |
+
+**Findings**
+1. **Title keywords are a poor ground truth for source level.** In an administrative archive a "Verzeichnis", "Inventar" or "Register" is mostly a *primary* list of things (firms, material, seals, firing ranges, military objectors), not a finding aid that points to other documents. Only true indexes ("Register zu den Verträgen", "Repertorium") are tertiary. A "Studie" is often a contemporary technical or planning study, also primary.
+2. **Apertus is mostly right when it says primary.** It was right in 19 of the 30 disagreements; the evidence label was right in 4.
+3. **Apertus' real errors:**
+   - it misses true indexes (it typed 66 registers as "register / index" yet called only 52 of them tertiary);
+   - it calls a published 1881 strategy treatise primary ("authored at the time of the events");
+   - it sometimes calls mixed administrative dossiers tertiary.
+4. **Newspaper clippings are genuinely ambiguous.** They are secondary as second-hand accounts, but most historians use them as primary sources for public discourse. A field definition is needed. We keep Apertus' level and expose the ambiguity rather than forcing one convention.
+
+**Implication.** Primary/secondary/tertiary needs an explicit archival definition in the prompt. For example, "tertiary = a finding aid, index or register that *points to other records*; a list of persons, goods or places is primary", plus a separate flag for press material. That is the next prompt change; it has not been measured yet.

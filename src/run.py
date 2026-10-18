@@ -15,6 +15,9 @@ from cora import classify, config, lindas  # noqa: E402
 from cora.apertus import Apertus  # noqa: E402
 
 
+FORCE = False  # set by --force: redo records that were already processed
+
+
 def _read(path: Path):
     if path.suffix == ".jsonl":
         return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -52,6 +55,10 @@ def _client(cfg):
 
 def _classify_all(cfg, model: str, out_name: str):
     recs = _read(cfg["paths"]["data_dir"] / "records_raw.json")
+    out_path = cfg["paths"]["data_dir"] / out_name
+    done = {r["id"]: r for r in _read(out_path)} if out_path.exists() and not FORCE else {}
+    todo = [r for r in recs if r["id"] not in done or not done[r["id"]].get("apertus")]
+    print(f"  {len(done)} already classified, {len(todo)} to do")
     ap = _client(cfg)
 
     def one(rec):
@@ -68,9 +75,10 @@ def _classify_all(cfg, model: str, out_name: str):
 
     t0 = time.time()
     with ThreadPoolExecutor(cfg["llm"]["workers"]) as pool:
-        rows = list(pool.map(one, recs))
-    print(f"  {len(rows)} records in {time.time() - t0:.0f}s")
-    _write(cfg["paths"]["data_dir"] / out_name, rows)
+        new = {r["id"]: r for r in pool.map(one, todo)}
+    print(f"  {len(new)} records in {time.time() - t0:.0f}s")
+    rows = [new.get(r["id"]) or done[r["id"]] for r in recs if r["id"] in new or r["id"] in done]
+    _write(out_path, rows)
 
 
 def stage_classify(cfg):
@@ -89,8 +97,8 @@ def stage_audit(cfg):
     ap = _client(cfg)
 
     def one(row):
-        if not row.get("apertus"):
-            return row
+        if not row.get("apertus") or (row["apertus"].get("audit_checks") and not FORCE):
+            return row  # already audited (incremental); use --force to redo
         try:
             raw, meta = ap.chat_json(classify.build_audit_messages(recs[row["id"]]))
         except Exception as e:
@@ -111,6 +119,35 @@ def stage_audit(cfg):
     _write(path, rows)
 
 
+def stage_level(cfg):
+    """Pass 3: source level from explicit archival definitions; pass-1 level kept as source_level_v1."""
+    path = cfg["paths"]["data_dir"] / "classified.jsonl"
+    rows = _read(path)
+    recs = {r["id"]: r for r in _read(cfg["paths"]["data_dir"] / "records_raw.json")}
+    ap = _client(cfg)
+    conv = cfg["classify"].get("press_convention", "secondary")
+
+    def one(row):
+        a = row.get("apertus")
+        if not a or (a.get("source_level_pass3") and not FORCE):
+            return row
+        try:
+            raw, meta = ap.chat_json(classify.build_level_messages(recs[row["id"]]))
+        except Exception as e:
+            row["level_error"] = repr(e)
+            return row
+        res = classify.level_from_answers(raw, conv)
+        a.setdefault("source_level_v1", a["source_level"])
+        a["source_level"], a["source_level_pass3"] = res["level"], res
+        a["source_level_rationale"] = f'{res["rule"]}: {res["note"] or ""}'.strip(": ")
+        print(f"  {row['id']:>9} level {a['source_level_v1']:>9} -> {res['level']:<9} ({res['rule']})")
+        return row
+
+    with ThreadPoolExecutor(cfg["llm"]["workers"]) as pool:
+        rows = list(pool.map(one, rows))
+    _write(path, rows)
+
+
 def stage_enrich(cfg):
     from cora import enrich
     enrich.run(cfg)
@@ -119,6 +156,11 @@ def stage_enrich(cfg):
 def stage_qc(cfg):
     from cora import qc
     qc.run(cfg)
+
+
+def stage_add_sources(cfg):
+    from cora import extra
+    extra.run(cfg)
 
 
 def stage_referendum(cfg):
@@ -157,15 +199,20 @@ def stage_serve(cfg):
 
 
 STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classify,
-          "audit": stage_audit, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export}
+          "audit": stage_audit, "level": stage_level, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export}
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources"])
     ap.add_argument("--config", type=Path, default=None)
+    ap.add_argument("--force", action="store_true", help="reprocess records that were already classified/audited")
     args = ap.parse_args()
     cfg = config.load(args.config)
+    FORCE = args.force
+    if args.stage == "add_sources":
+        stage_add_sources(cfg)
+        sys.exit()
     if args.stage == "referendum":
         stage_referendum(cfg)
         sys.exit()
