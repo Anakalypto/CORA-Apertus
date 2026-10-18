@@ -42,6 +42,9 @@ def build_record(row: dict, rec: dict, qc: dict, now: str) -> tuple[dict, list[d
             log(f"place:{p['name']}:coordinates", [p.get("lat"), p.get("lon")], [p["geo"]["lat"], p["geo"]["lon"]],
                 "gazetteer", "coordinates from OpenStreetMap Nominatim (override Apertus)")
     for p in e.get("persons", []):
+        if p.get("wikidata_rejected"):
+            log(f"person:{p['name']}:wikidata", p["wikidata_rejected"]["qid"], None, "rule",
+                "Wikidata link rejected by the life-date check: " + (p.get("life_date_check") or {}).get("reason", ""))
         log(f"person:{p['name']}:display_name", p["name"], p.get("display_name"), "rule", "authority form 'Last, First' -> natural order")
 
     out = {
@@ -68,7 +71,7 @@ def build_record(row: dict, rec: dict, qc: dict, now: str) -> tuple[dict, list[d
         },
         "archival_location": d["archival_location"] | {"accession_numbers": d["accession_numbers"]},
         "entities": {
-            "persons": [{k: p.get(k) for k in ("name", "display_name", "role", "wikidata")} for p in e.get("persons", [])],
+            "persons": [{k: p.get(k) for k in ("name", "display_name", "role", "wikidata", "life_date_check")} for p in e.get("persons", [])],
             "organizations": [{k: o.get(k) for k in ("name", "role", "wikidata")} for o in e.get("organizations", [])],
             "places": [{"name": p["name"], "as_written": p.get("as_written"), "role": p["role"], "country": p.get("country"),
                         "lat": p["geo"]["lat"] if p.get("geo") else None, "lon": p["geo"]["lon"] if p.get("geo") else None,

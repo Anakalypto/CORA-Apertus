@@ -237,3 +237,14 @@ Also fixed: the creator labels ("Produktion: TSI"), OPP. and Duplex, a place rol
 ## 10. Verification against the Bern case study (Stapfer-Enquête)
 
 Apertus 70B read only the transcribed answers of 40 random Stapfer response sheets (1799) and extracted the 12 fields that the University of Bern team coded by hand. Given the Bern codebook, it reaches **90–98 % agreement on 8 of the 12 fields**: teacher's age 98 %, school type 95 %, marital status 95 %, winter pupils 94 %, teacher's name 93 %, years of service 91 %, confession 90 %. It identifies the right school place in 95 % of sheets, but only 58 % in modern spelling. Without the codebook, school type was 0 % and confession 26 %. Error classes: historical spelling kept, coded categories not stated in the text, unit conversion, role given instead of a name, and values Bern left empty. Details: [stapfer_verification.md](stapfer_verification.md).
+
+## 11. Wikidata life-date check
+
+Person links are now also checked against life dates. Birth and death years (P569/P570) are compared with the record's own date range: a link is **rejected** if the person was born after the document, and **flagged** if they died more than 50 years before it. On the 100 records, 102 links pass, 71 persons stay unlinked, and **2 links are rejected**. Both are errors found in review:
+
+| Person in the record | Wrong Wikidata match | Reason |
+|---|---|---|
+| Bickel (1951 newsreel, Spain v Switzerland) | Fredy Bickel, Swiss journalist, Q1453340 | born 1965, after the document |
+| Joseph Zürcher (1853 police record, private individual) | association football player, Q26972533 | born 1925, after the document |
+
+The second case matters for privacy as well as accuracy: a private 19th-century individual had been linked to a 20th-century person. Rejected links are kept out of the dataset and recorded in `edit_log.jsonl` (actor `rule`).

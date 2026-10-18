@@ -81,6 +81,43 @@ def wikidata(name: str, cache: Cache, cfg) -> dict | None:
     return res
 
 
+def life_dates(qid: str, cache: Cache, cfg) -> dict:
+    """Birth/death years (P569/P570) of a Wikidata item, cached."""
+    key = "life|" + qid
+    if key in cache.data:
+        return cache.data[key]
+    time.sleep(0.3)
+    try:
+        ent = _get("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(
+            {"action": "wbgetentities", "ids": qid, "props": "claims", "format": "json"}),
+            cfg["enrich"]["user_agent"])["entities"][qid]["claims"]
+    except Exception:
+        return {"born": None, "died": None}
+
+    def year(prop):
+        for c in ent.get(prop, []):
+            t = (c.get("mainsnak", {}).get("datavalue") or {}).get("value", {}).get("time")
+            m = re.match(r"([+-]\d+)-", t or "")
+            if m:
+                return int(m.group(1))
+        return None
+    res = {"born": year("P569"), "died": year("P570")}
+    cache.data[key] = res
+    return res
+
+
+def check_life_dates(life: dict, doc_from: int | None, doc_to: int | None) -> tuple[str, str | None]:
+    """'ok' | 'reject' (born after the document) | 'flag' (dead > 50 years before it) | 'unknown'."""
+    if not doc_from or not (life.get("born") or life.get("died")):
+        return "unknown", None
+    doc_to = doc_to or doc_from
+    if life.get("born") and life["born"] > doc_to:
+        return "reject", f"born {life['born']}, after the document ({doc_to})"
+    if life.get("died") and life["died"] < doc_from - 50:
+        return "flag", f"died {life['died']}, more than 50 years before the document ({doc_from})"
+    return "ok", None
+
+
 def person_display_name(name: str) -> str:
     """'Guhl, Bernhard: AUT' -> 'Bernhard Guhl' (archive authority form -> natural order)."""
     name = re.sub(r":\s*[A-Z]{2,4}$", "", name.strip())
@@ -177,7 +214,18 @@ def run(cfg):
                                     r"industrialist|businessman|activist|leader|soldier|military|monarch|king|queen|human)\b",
                                     (wd.get("description") or "").lower()):
                 wd = None  # label matched but the item is not a person
-            persons.append(dict(p, display_name=display, wikidata=wd))
+            check = None
+            if wd:  # life-date plausibility against the record's own date range
+                life = life_dates(wd["qid"], cache, cfg)
+                rd = recs[row["id"]]["date"]
+                verdict, why = check_life_dates(life, _year(rd.get("from")), _year(rd.get("to")))
+                check = {"born": life.get("born"), "died": life.get("died"), "verdict": verdict, "reason": why}
+                if verdict == "reject":
+                    wd = dict(wd, rejected=True)
+            persons.append(dict(p, display_name=display,
+                                wikidata=None if wd and wd.get("rejected") else wd,
+                                wikidata_rejected=wd if wd and wd.get("rejected") else None,
+                                life_date_check=check))
         orgs = [dict(o, wikidata=wikidata(o["name"], cache, cfg) if cfg["enrich"]["wikidata"] else None)
                 for o in a["organizations"]]
         row["enriched"] = {"places": places, "persons": persons, "organizations": orgs,
