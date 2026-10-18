@@ -1,0 +1,474 @@
+{
+ "reviewer": "Claude (Opus 5.5) for the CORA team",
+ "method": "Every 4th record of the sample (25 records, all strata); each output field compared with the original metadata and hierarchy. 'unverified' = could not be confirmed from the record and is excluded from accuracy.",
+ "items": [
+  {
+   "id": "22406340",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "error",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "missed_abbreviation_meaning",
+    "title_not_normalized"
+   ],
+   "note": "'OPP.' (opposition) not understood: résumé/title miss that the report is about opposition to the power line; capitalised title left as is. Loeche-les-Bains correctly located at Leukerbad."
+  },
+  {
+   "id": "21810037",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "error",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "field_label_not_stripped"
+   ],
+   "note": "Creator copied as 'Produktion: TSI' including the field label."
+  },
+  {
+   "id": "29666896",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "error"
+   },
+   "errors": [
+    "sensitive_category_missed"
+   ],
+   "note": "Named person in criminal proceedings (Swissair trial) not flagged as a sensitive category; author Andri Franziscus not listed."
+  },
+  {
+   "id": "22365853",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "error",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "title_not_normalized"
+   ],
+   "note": "Typo 'Franktionsausflug' kept in normalized title (translation is right)."
+  },
+  {
+   "id": "21693637",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Mann im Bademantel' extracted as a person."
+  },
+  {
+   "id": "21790117",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Indira Gandhi arrest; producer UPITN and broadcaster right."
+  },
+  {
+   "id": "22371890",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "error",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "wrong_place_role"
+   ],
+   "note": "Bern given role 'created' instead of 'depicted'."
+  },
+  {
+   "id": "26688477",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "1948 radio report; 'Echo der Zeit' correctly taken from the hierarchy."
+  },
+  {
+   "id": "22323423",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "error",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "misread_role",
+    "field_label_not_stripped"
+   ],
+   "note": "'Duplex Hanspeter Hausheer' is a live link with the reporter, read as a report about him; creator keeps 'Produktion:' label."
+  },
+  {
+   "id": "21681248",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "error",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "knowledge_beyond_source",
+    "field_label_not_stripped"
+   ],
+   "note": "First names 'Fredy' Bickel and 'Hans-Peter' Friedländer added from world knowledge (plausible but not in the record); labels kept in creator/publisher."
+  },
+  {
+   "id": "32573103",
+   "verdict": "major_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "error",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "error"
+   },
+   "errors": [
+    "speculation",
+    "anachronistic_creator",
+    "sensitive_false_positive"
+   ],
+   "note": "Creator = Nachrichtendienst des Bundes (2010-) for a 1939-45 slide (it is the depositing agency); résumé speculates ('likely'); flagged high sensitivity although no person is involved."
+  },
+  {
+   "id": "3237334",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Soldaten des Bataillons 24' extracted as a person."
+  },
+  {
+   "id": "3236851",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "unverified",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Photographer P. Bonzon right."
+  },
+  {
+   "id": "3239129",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Offiziere' extracted as a person."
+  },
+  {
+   "id": "3238291",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Delsberg normalised to Delémont and located correctly."
+  },
+  {
+   "id": "3240019",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": ""
+  },
+  {
+   "id": "3236632",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "unverified",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Lützel geocoded to Kleinlützel SO; plausible but ambiguous (Lucelle/Lützel on the JU-France border)."
+  },
+  {
+   "id": "3241526",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unnamed_group_as_person"
+   ],
+   "note": "'Offiziere' extracted as a person."
+  },
+  {
+   "id": "31200573",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "Question time item; questioner and respondent right."
+  },
+  {
+   "id": "32583909",
+   "verdict": "correct",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "ok",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [],
+   "note": "All 22 speakers extracted."
+  },
+  {
+   "id": "3514516",
+   "verdict": "major_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "error",
+    "creator_publisher": "ok",
+    "dates": "error",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "error"
+   },
+   "errors": [
+    "wrong_term_translation",
+    "date_semantics",
+    "speculation",
+    "sensitive_false_positive"
+   ],
+   "note": "'Postulat' translated as 'Motion'; debate date given as submission date; résumé claims the record contains the text and debate; asylum *policy* flagged as sensitive personal data."
+  },
+  {
+   "id": "31042425",
+   "verdict": "major_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "error",
+    "dates": "ok",
+    "entities": "error",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "wrong_author_attribution"
+   ],
+   "note": "Petition of the Youth Session attributed to Maya Graf, who is only listed as speaker."
+  },
+  {
+   "id": "32463405",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "date_semantics"
+   ],
+   "note": "Says the motion was 'introduced' on the debate day."
+  },
+  {
+   "id": "3524710",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "error",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "unsupported_claim",
+    "wrong_place_role"
+   ],
+   "note": "States the IPU conference was held 'in December 1990' (only the debate date is known); Nicosia given role 'depicted' instead of 'mentioned'."
+  },
+  {
+   "id": "3514472",
+   "verdict": "minor_errors",
+   "fields": {
+    "document_type": "ok",
+    "source_level": "ok",
+    "resume": "error",
+    "title": "ok",
+    "creator_publisher": "ok",
+    "dates": "ok",
+    "entities": "ok",
+    "places": "ok",
+    "personal_data": "ok"
+   },
+   "errors": [
+    "internal_inconsistency"
+   ],
+   "note": "Medium 'sound' but résumé calls it a transcript."
+  }
+ ]
+}

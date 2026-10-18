@@ -1,0 +1,4097 @@
+{
+ "summary": {
+  "records": 100,
+  "model": "apertus-v1-5-70b",
+  "processed_ok_pct": 99.0,
+  "structural_error_pct": 1.0,
+  "critical_error_pct": 0.0,
+  "structural_error_types": [
+   [
+    "non_iso",
+    1
+   ]
+  ],
+  "critical_types": [],
+  "warning_types": [
+   [
+    "date_archived_mismatch",
+    76
+   ],
+   [
+    "resume_speculative",
+    1
+   ],
+   [
+    "geo_conflict_over_50km",
+    1
+   ]
+  ],
+  "resume_max_3_sentences_pct": 100.0,
+  "entity_grounding_pct": 100.0,
+  "entity_grounding_strict_pct": 92.0,
+  "entities": 377,
+  "ungrounded_entities": 0,
+  "date_created_in_range_pct": 100.0,
+  "date_archived_correct_pct": 24.0,
+  "creator_agreement": "40/44",
+  "publisher_agreement": "28/28",
+  "source_level_rule_agreement": "99/99",
+  "places": 99,
+  "places_resolved_pct": 82.8,
+  "model_coords_given": 51,
+  "model_coord_error_km_median": 1.8,
+  "model_coord_within_25km_pct": 94.1,
+  "preprocessing_flag_rates_pct": {
+   "transcription_normalization": 42.0,
+   "structure_extraction": 43.0,
+   "schema_harmonization": 69.0,
+   "linked_data_entity_linking": 100.0,
+   "date_geolocation_parsing": 99.0,
+   "anonymization_verification": 12.0
+  },
+  "preprocessing_v1_rates_pct": {
+   "transcription_normalization": 99.0,
+   "structure_extraction": 100.0,
+   "schema_harmonization": 100.0,
+   "linked_data_entity_linking": 100.0,
+   "date_geolocation_parsing": 100.0,
+   "anonymization_verification": 0.0
+  },
+  "preprocessing_flag_vs_evidence": {
+   "encoding_damage": {
+    "rule_positive": 38,
+    "apertus_positive": 0,
+    "recall": 0.0,
+    "precision": null
+   },
+   "uppercase_or_abbreviated_title": {
+    "rule_positive": 3,
+    "apertus_positive": 9,
+    "recall": 0.667,
+    "precision": 0.222
+   },
+   "labelled_subfields": {
+    "rule_positive": 41,
+    "apertus_positive": 41,
+    "recall": 0.951,
+    "precision": 0.951
+   },
+   "packed_role_fields": {
+    "rule_positive": 39,
+    "apertus_positive": 14,
+    "recall": 0.128,
+    "precision": 0.357
+   },
+   "nonstandard_dates": {
+    "rule_positive": 96,
+    "apertus_positive": 95,
+    "recall": 0.979,
+    "precision": 0.989
+   }
+  },
+  "personal_data": {
+   "names_persons_pct": 65.0,
+   "private_individuals_pct": 1.0,
+   "sensitive_pct": 11.0,
+   "v1_flagged_pct": 0.0
+  },
+  "distribution": {
+   "document_type": [
+    [
+     "TV news report",
+     35
+    ],
+    [
+     "photograph",
+     29
+    ],
+    [
+     "parliamentary record",
+     23
+    ],
+    [
+     "newsreel",
+     8
+    ],
+    [
+     "radio broadcast",
+     1
+    ],
+    [
+     "report",
+     1
+    ],
+    [
+     "correspondence",
+     1
+    ],
+    [
+     "administrative file",
+     1
+    ],
+    [
+     "minutes / protocol",
+     1
+    ]
+   ],
+   "source_level": [
+    [
+     "primary",
+     100
+    ]
+   ]
+  },
+  "cost": {
+   "prompt_tokens": 188430,
+   "completion_tokens": 87235,
+   "mean_seconds_per_record": 22.7,
+   "retries": 0
+  },
+  "consistency_70b_vs_8b": {
+   "document_type": {
+    "n": 100,
+    "agreement": 0.8,
+    "kappa": 0.741
+   },
+   "medium": {
+    "n": 100,
+    "agreement": 0.78,
+    "kappa": 0.672
+   },
+   "source_level": {
+    "n": 100,
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "date_created_year": {
+    "n": 100,
+    "agreement": 0.85
+   }
+  },
+  "manual_review": {
+   "reviewed": 25,
+   "verdicts": [
+    [
+     "minor_errors",
+     14
+    ],
+    [
+     "correct",
+     8
+    ],
+    [
+     "major_errors",
+     3
+    ]
+   ],
+   "field_accuracy": {
+    "creator_publisher": 80.0,
+    "dates": 96.0,
+    "document_type": 100.0,
+    "entities": 76.0,
+    "personal_data": 88.0,
+    "places": 91.3,
+    "resume": 68.0,
+    "source_level": 100.0,
+    "title": 88.0
+   },
+   "error_types": [
+    [
+     "unnamed_group_as_person",
+     4
+    ],
+    [
+     "field_label_not_stripped",
+     3
+    ],
+    [
+     "title_not_normalized",
+     2
+    ],
+    [
+     "wrong_place_role",
+     2
+    ],
+    [
+     "speculation",
+     2
+    ],
+    [
+     "sensitive_false_positive",
+     2
+    ],
+    [
+     "date_semantics",
+     2
+    ],
+    [
+     "missed_abbreviation_meaning",
+     1
+    ],
+    [
+     "sensitive_category_missed",
+     1
+    ],
+    [
+     "misread_role",
+     1
+    ],
+    [
+     "knowledge_beyond_source",
+     1
+    ],
+    [
+     "anachronistic_creator",
+     1
+    ],
+    [
+     "wrong_term_translation",
+     1
+    ],
+    [
+     "wrong_author_attribution",
+     1
+    ],
+    [
+     "unsupported_claim",
+     1
+    ],
+    [
+     "internal_inconsistency",
+     1
+    ]
+   ]
+  }
+ },
+ "records": [
+  {
+   "id": "22406340",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 3,
+   "places_resolved": 2,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21730247",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "21690234",
+   "stratum": "audiovisual",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 7,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "29668237",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "21810037",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [
+    0.3,
+    21.8
+   ],
+   "ok": true
+  },
+  {
+   "id": "21795934",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.9
+   ],
+   "ok": true
+  },
+  {
+   "id": "21785789",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "21743659",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": false,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "29666896",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    3.5
+   ],
+   "ok": true
+  },
+  {
+   "id": "21726160",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 10,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 4,
+   "places_resolved": 4,
+   "model_error_km": [
+    0.4,
+    0.4,
+    0.7,
+    1.8
+   ],
+   "ok": true
+  },
+  {
+   "id": "22424850",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "29668004",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "22365853",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 8,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    5.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "21719050",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": false,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "22383857",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "place:Germany"
+   ],
+   "n_entities": 9,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 5,
+   "places_resolved": 4,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21903912",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21693637",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    16.0
+   ],
+   "ok": true
+  },
+  {
+   "id": "21692765",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 3,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21722169",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21783631",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "21790117",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    11.9
+   ],
+   "ok": true
+  },
+  {
+   "id": "22349044",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    8.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "22388266",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Nea Dimokratia"
+   ],
+   "n_entities": 17,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 5,
+   "places_resolved": 4,
+   "model_error_km": [
+    1.1,
+    0.4,
+    33.0
+   ],
+   "ok": true
+  },
+  {
+   "id": "21691262",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "22371890",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 7,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": false
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "21774336",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 6,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 4,
+   "places_resolved": 4,
+   "model_error_km": [
+    0.4,
+    14.4,
+    12.1,
+    5.9
+   ],
+   "ok": true
+  },
+  {
+   "id": "29661478",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "22411105",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 4,
+   "places_resolved": 3,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "26688477",
+   "stratum": "audiovisual",
+   "document_type": "radio broadcast",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    10.2
+   ],
+   "ok": true
+  },
+  {
+   "id": "22365692",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21901313",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": false,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [
+    0.5,
+    0.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "21784523",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "22323423",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "22383404",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.2
+   ],
+   "ok": true
+  },
+  {
+   "id": "21811418",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Kantonspolizei"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    20.5
+   ],
+   "ok": true
+  },
+  {
+   "id": "30695400",
+   "stratum": "audiovisual",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    2.7
+   ],
+   "ok": true
+  },
+  {
+   "id": "21681248",
+   "stratum": "audiovisual",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 7,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.0
+   ],
+   "ok": true
+  },
+  {
+   "id": "29672818",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    16.9
+   ],
+   "ok": true
+  },
+  {
+   "id": "30694453",
+   "stratum": "audiovisual",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "21754286",
+   "stratum": "audiovisual",
+   "document_type": "TV news report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {
+    "creator": true,
+    "publisher": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "32573103",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "resume_speculative",
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": false,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3239704",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    16.5
+   ],
+   "ok": true
+  },
+  {
+   "id": "3238964",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3238406",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3237334",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3237867",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "32573651",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3238931",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [
+    13.7
+   ],
+   "ok": true
+  },
+  {
+   "id": "3236851",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3236761",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "geo_conflict_over_50km"
+   ],
+   "geo_conflicts": [
+    "Erstfeld (148.8 km)"
+   ],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    148.8
+   ],
+   "ok": true
+  },
+  {
+   "id": "3239317",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3236801",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3239129",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    15.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "5859484",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3238996",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3241313",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    8.6
+   ],
+   "ok": true
+  },
+  {
+   "id": "3238291",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    17.1
+   ],
+   "ok": true
+  },
+  {
+   "id": "5858707",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30314032",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [
+    "non_iso:date_created"
+   ],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": false
+  },
+  {
+   "id": "32573367",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3240019",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3240730",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army (Armeestab)"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "3237057",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3239303",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    9.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "3236632",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3240864",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    10.3
+   ],
+   "ok": true
+  },
+  {
+   "id": "3238543",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {
+    "creator": true
+   },
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "5859153",
+   "stratum": "still_image",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    0.4
+   ],
+   "ok": true
+  },
+  {
+   "id": "3241526",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 1,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    8.8
+   ],
+   "ok": true
+  },
+  {
+   "id": "3241441",
+   "stratum": "still_image",
+   "document_type": "photograph",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Army"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": true,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    11.5
+   ],
+   "ok": true
+  },
+  {
+   "id": "3513305",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "place:Switzerland"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "4046151",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 9,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31200573",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30704186",
+   "stratum": "other",
+   "document_type": "report",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": null,
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30702600",
+   "stratum": "other",
+   "document_type": "correspondence",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31659328",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 5,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    27.1
+   ],
+   "ok": true
+  },
+  {
+   "id": "32583909",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 23,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30789827",
+   "stratum": "other",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31659653",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Federal Assembly"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30791247",
+   "stratum": "other",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3514516",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "32487293",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3519319",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3513514",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31042425",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3513865",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3512888",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 2,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31264790",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 7,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "32463405",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "30704308",
+   "stratum": "other",
+   "document_type": "administrative file",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": false,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": true,
+    "anonymization_verification": true
+   },
+   "places_total": 2,
+   "places_resolved": 2,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "5097377",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 3,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31060099",
+   "stratum": "other",
+   "document_type": "newsreel",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": true,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3524710",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Federal Assembly (National Council)"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 1,
+   "places_resolved": 1,
+   "model_error_km": [
+    1.2
+   ],
+   "ok": true
+  },
+  {
+   "id": "31862793",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Ständerat (Council of States)"
+   ],
+   "n_entities": 13,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": true,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31042931",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Parlamentsdienste (Swiss Parliamentary Services)",
+    "organization:Ständerat (Swiss Council of States)"
+   ],
+   "n_entities": 4,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3519998",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss Federal Assembly (Nationalrat)"
+   ],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3514472",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 2,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "32463607",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "3526205",
+   "stratum": "other",
+   "document_type": "minutes / protocol",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [
+    "organization:Swiss National Council"
+   ],
+   "n_entities": 1,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": false
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": false
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  },
+  {
+   "id": "31597262",
+   "stratum": "other",
+   "document_type": "parliamentary record",
+   "source_level": "primary",
+   "structural_errors": [],
+   "critical": [],
+   "warnings": [
+    "date_archived_mismatch"
+   ],
+   "geo_conflicts": [],
+   "ungrounded": [],
+   "ungrounded_strict": [],
+   "n_entities": 5,
+   "resume_sentences": 3,
+   "created_in_range": true,
+   "archived_ok": false,
+   "agreement": {},
+   "expected_source_level": "primary",
+   "flags": {
+    "transcription_normalization": false,
+    "structure_extraction": false,
+    "schema_harmonization": true,
+    "linked_data_entity_linking": true,
+    "date_geolocation_parsing": true,
+    "anonymization_verification": true
+   },
+   "evidence": {
+    "transcription_normalization": false,
+    "anonymization_verification": true
+   },
+   "places_total": 0,
+   "places_resolved": 0,
+   "model_error_km": [],
+   "ok": true
+  }
+ ]
+}

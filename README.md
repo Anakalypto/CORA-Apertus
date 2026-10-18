@@ -1,4 +1,4 @@
-# Hack Apertus Liebefeld — `challenge name`, `team name`
+# Hack Apertus Liebefeld — Deciphering Archives with Apertus, `team name`
 
 Template repository for [Hack Apertus](https://hackapertus.ch/) submissions.
 Every project keeps the same layout, so organizers and judges find the same
@@ -9,14 +9,40 @@ There are 3 challenges to pick from:
 2. OpenParlData: Topic classification for Swiss parliaments with Apertus
 3. University of Bern: Deciphering Archives with Apertus
 
-`One paragraph describing the challenge.`
+**CORA** turns records of the Swiss Federal Archives into AI-ready, provenance-tracked metadata with Apertus v1.5.
+For each document Apertus writes a résumé of at most 3 sentences (can be turned off) and decides whether it is a primary, secondary or tertiary source and of which type.
+It also completes Gallica-style metadata (creator, publisher, commissioner, dates of creation, publication, update and archiving, place in the archive),
+assesses the preprocessing the record needs (transcription normalization, structure extraction, schema harmonization,
+entity linking, date/geo parsing, anonymization verification) and traces the document's story on a map. Rules, a gazetteer
+and Wikidata check and complete what the model says, and every field records where it came from. The demo covers 100 random documents and is browsable
+in a Gallica-inspired interface, together with a published quality check of the Apertus output.
+
+### Quick start
+
+```bash
+python -m venv .venv && .venv/Scripts/activate   # Windows; or: source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env                              # set LLM_API_KEY
+python src/run.py serve                           # demo on http://127.0.0.1:8000 (prebuilt data in data/)
+python src/run.py all                             # rebuild everything from scratch (~15 min)
+```
+
+| What | Where |
+|---|---|
+| Pipeline code (Python) | `src/cora/`, CLI `src/run.py`, settings `src/config.toml` |
+| REST API (FastAPI, OpenAPI docs at `/docs`) | `src/cora/api.py` |
+| Gallica-style front end (JS + Leaflet) | `src/site/` |
+| AI-ready dataset (JSONL / CSV / TSV), schema, edit log | `data/dataset/` |
+| Quality check of the Apertus output | `docs/quality_report.md`, `data/qc_report.json` |
+| Ethical impact assessment | `docs/ethics_impact_assessment.md` |
+| Demonstration notebook | `notebooks/demo.ipynb` |
 
 Submissions must use the v1.5 Apertus model family.
 The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions).
 
 ## 🎯 The Challenge
 
-`Fill in the title of the challenge you picked and link the Notion challenge page (URL)`
+University of Bern: **Deciphering Archives with Apertus** — [challenge page](https://app.notion.com/p/hackapertus/University-of-Bern-0a7b4fec112a820a9a1181bc0b5d4d52)
 
 ## 🔧 Resources & Tools
 

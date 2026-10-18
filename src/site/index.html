@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CORA · Swiss Federal Archives</title>
+<link rel="icon" href="assets/icons/bar_admin_ch.png">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark">C</span>
+      <span class="brand-text"><b>CORA</b><small>Swiss Federal Archives · classified by Apertus</small></span>
+    </a>
+    <nav class="mainnav">
+      <a href="#/search" data-nav="search">Browse</a>
+      <a href="#/map" data-nav="map">Map</a>
+      <a href="#/quality" data-nav="quality">Quality check</a>
+      <a href="#/live" data-nav="live">Live classify</a>
+      <a href="/docs" target="_blank" rel="noopener">API</a>
+    </nav>
+  </div>
+  <div class="searchband">
+    <form class="wrap searchform" id="searchform">
+      <input id="q" name="q" type="search" placeholder="Search titles, résumés, people, places, reference codes…" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="footer">
+  <div class="wrap">
+    Metadata: Archive database of the Swiss Federal Archives (opendata.swiss, open use; original fields only).
+    Classification: Apertus v1.5 (Swiss AI) via CSCS. Gazetteer © OpenStreetMap contributors. Entity links: Wikidata (CC0).
+    Institution icons are the trademarks of their owners and are used for identification only.
+  </div>
+</footer>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

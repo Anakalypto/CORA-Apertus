@@ -1,0 +1,6 @@
+# Runtime: pipeline + API server
+pandas>=2.2
+fastapi>=0.115
+uvicorn>=0.30
+# Demo notebook
+jupyter>=1.0

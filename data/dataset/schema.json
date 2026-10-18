@@ -1,0 +1,168 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/Anakalypto/CORA-Apertus/data/dataset/schema.json",
+ "title": "CORA AI-ready archival record",
+ "type": "object",
+ "required": [
+  "id",
+  "source",
+  "classification",
+  "metadata",
+  "archival_location",
+  "entities",
+  "provenance",
+  "processing"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "description": "VRZNG_ENHT_ID of the unit of description"
+  },
+  "source": {
+   "type": "object",
+   "description": "Original record, untouched (reference code, URIs, original fields)"
+  },
+  "classification": {
+   "type": "object",
+   "properties": {
+    "document_type": {
+     "type": "string"
+    },
+    "medium": {
+     "type": "string"
+    },
+    "source_level": {
+     "enum": [
+      "primary",
+      "secondary",
+      "tertiary"
+     ]
+    },
+    "source_level_rationale": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "resume": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "At most 3 sentences; null when disabled"
+    }
+   }
+  },
+  "metadata": {
+   "type": "object",
+   "description": "Dublin-Core-like descriptive metadata (Gallica-style)",
+   "properties": {
+    "title": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "title_normalized": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "title_en": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "creator": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "publisher": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "commissioner": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date_created": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date_published": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date_updated": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date_archived": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "content_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "archival_location": {
+   "type": "object",
+   "description": "Holder, fonds, path in the archive plan, reference code"
+  },
+  "entities": {
+   "type": "object",
+   "properties": {
+    "persons": {
+     "type": "array"
+    },
+    "organizations": {
+     "type": "array"
+    },
+    "places": {
+     "type": "array"
+    }
+   }
+  },
+  "preprocessing": {
+   "type": "object",
+   "description": "Six preprocessing needs, each {needed, priority, reason, based_on}"
+  },
+  "personal_data": {
+   "type": "object"
+  },
+  "story": {
+   "type": "array",
+   "description": "Chronological provenance trail with coordinates"
+  },
+  "provenance": {
+   "type": "object",
+   "description": "Which component produced each field"
+  },
+  "qc": {
+   "type": "object"
+  },
+  "processing": {
+   "type": "object"
+  }
+ }
+}
