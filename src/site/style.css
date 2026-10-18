@@ -218,3 +218,10 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .narr .inferred { background: #fdecee; }
 .narr .weak { text-decoration: underline dotted #a05a00; }
 .trust-badges { margin-top: 4px; }
+
+/* Map time slider */
+.slider-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 10px 0 4px; }
+.slider-bar input[type=range] { flex: 1; min-width: 200px; accent-color: var(--accent); }
+.slider-bar b { font: 600 22px var(--serif); min-width: 3.2em; font-variant-numeric: tabular-nums; }
+.slider-bar button { background: var(--ink); color: #fff; border: 0; width: 36px; height: 30px; cursor: pointer; }
+.basemap-lab { color: var(--ink-2); margin-bottom: 4px; }

@@ -154,7 +154,9 @@ def map_points():
     for r in RECORDS.values():
         for e in r.get("story", []):
             if e.get("lat") is not None and e["event"] not in ("accession", "holding"):
+                y = re.match(r"(\d{4})", r["metadata"].get("content_date") or r["metadata"].get("date_created") or "")
                 pts.append({"id": r["id"], "title": r["metadata"].get("title_normalized") or r["metadata"]["title"],
+                            "year": int(y.group(1)) if y else None,
                             "document_type": r["classification"]["document_type"], **e})
     return {"points": pts, "archive": classify.BAR_HOLDER}
 

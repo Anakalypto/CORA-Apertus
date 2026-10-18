@@ -333,28 +333,78 @@ async function recordPage(id, tab) {
   show(tab);
 }
 
-/* ---------------- Overview map ---------------- */
+/* ---------------- Overview map with time slider ---------------- */
 async function mapPage() {
   setNav("map");
-  const { points, archive } = await api("/api/map");
+  const [{ points, archive }, zr] = await Promise.all([api("/api/map"), fetch("assets/zeitreihen_years.json").then((r) => r.json())]);
+  const years = points.map((p) => p.year).filter(Boolean);
+  const minY = Math.min(...years), maxY = Math.max(...years);
   app.innerHTML = `<h1>Where the documents come from</h1>
     <p class="muted">Every place Apertus identified as where a document was made, depicted or published, located with the OpenStreetMap gazetteer.
-    All roads lead to the Swiss Federal Archives in Bern. Click a point to open the document.</p>
+    Move the slider: documents appear by date, and inside Switzerland the base map becomes the swisstopo national map of that time.</p>
+    <div class="slider-bar">
+      <button id="play" title="Play">▶</button>
+      <input type="range" id="year" min="${minY}" max="${maxY}" value="${maxY}" step="1">
+      <b id="yearlab">${maxY}</b>
+      <label class="small"><input type="checkbox" id="cumul" checked> show all documents up to this year</label>
+    </div>
+    <div class="small basemap-lab" id="baselab"></div>
     <div class="legend">${["creation", "depicted", "publication", "holding"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}</div>
     <div id="bigmap" class="map big"></div>
-    <p class="small muted">${points.length} located events across ${new Set(points.map((p) => p.id)).size} documents.</p>`;
-  const map = baseMap($("#bigmap"));
+    <p class="small muted" id="countlab"></p>`;
+  const map = L.map($("#bigmap"), { scrollWheelZoom: false });
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© OpenStreetMap contributors", opacity: 0.55 }).addTo(map);
+  let hist = null;
+  const histTile = (y) => L.tileLayer(`https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/${y}1231/3857/{z}/{x}/{y2}.png`.replace("{y2}", "{y}"),
+    { maxZoom: 16, attribution: `© swisstopo, Journey through time ${y}`, bounds: [[45.7, 5.8], [47.9, 10.6]] });
+  const nearest = (y) => {
+    const before = zr.years.filter((v) => v <= y);
+    return before.length ? before[before.length - 1] : zr.years[0];
+  };
   const bar = [archive.lat, archive.lon];
   L.marker(bar, { icon: eventIcon({ event: "holding" }, {}, 0), zIndexOffset: 1000 }).addTo(map).bindPopup(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`);
-  const bounds = [bar];
-  points.forEach((p) => {
+  const layer = L.layerGroup().addTo(map);
+  const all = points.map((p) => {
     const ll = [p.lat, p.lon];
-    bounds.push(ll);
-    L.polyline([ll, bar], { color: "#b5121b", weight: 1, opacity: 0.25 }).addTo(map);
-    L.circleMarker(ll, { radius: 6, weight: 2, color: "#fff", fillOpacity: 0.9, fillColor: { creation: "#8a1c7c", depicted: "#1d5fa6", publication: "#a05a00" }[p.event] || "#444" })
-      .addTo(map).bindPopup(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date)}`);
+    const g = L.layerGroup([
+      L.polyline([ll, bar], { color: "#b5121b", weight: 1, opacity: 0.3 }),
+      L.circleMarker(ll, { radius: 6, weight: 2, color: "#fff", fillOpacity: 0.9, fillColor: { creation: "#8a1c7c", depicted: "#1d5fa6", publication: "#a05a00" }[p.event] || "#444" })
+        .bindPopup(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date)}`),
+    ]);
+    return { p, g };
   });
-  map.fitBounds(L.latLngBounds(bounds).pad(0.1));
+  map.setView([46.8, 8.2], 8);  // Switzerland, where the historical base maps exist; zoom out for the rest of the world
+  let shownBase = null;
+  const update = () => {
+    const y = +$("#year").value, cum = $("#cumul").checked;
+    $("#yearlab").textContent = y;
+    layer.clearLayers();
+    const vis = all.filter(({ p }) => p.year && (cum ? p.year <= y : Math.abs(p.year - y) <= 5));
+    vis.forEach(({ g }) => layer.addLayer(g));
+    const n = nearest(y);
+    if (n !== shownBase) {
+      if (hist) map.removeLayer(hist);
+      hist = histTile(n).addTo(map);
+      shownBase = n;
+    }
+    const note = y < zr.years[0] ? `earliest available (${zr.years[0]}); no national map exists for ${y}` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
+    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: today's OpenStreetMap.`;
+    $("#countlab").textContent = `${vis.length} located events from ${new Set(vis.map(({ p }) => p.id)).size} documents ${cum ? `dated up to ${y}` : `dated ${y - 5}–${y + 5}`} (${points.filter((p) => !p.year).length} undated not shown).`;
+  };
+  $("#year").oninput = update;
+  $("#cumul").onchange = update;
+  let timer = null;
+  $("#play").onclick = () => {
+    if (timer) { clearInterval(timer); timer = null; $("#play").textContent = "▶"; return; }
+    if (+$("#year").value >= maxY) $("#year").value = minY;
+    $("#play").textContent = "❚❚";
+    timer = setInterval(() => {
+      const v = +$("#year").value + 2;
+      if (v > maxY) { clearInterval(timer); timer = null; $("#play").textContent = "▶"; return; }
+      $("#year").value = v; update();
+    }, 350);
+  };
+  update();
 }
 
 /* ---------------- Quality ---------------- */
