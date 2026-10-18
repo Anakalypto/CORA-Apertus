@@ -95,13 +95,14 @@ async function home() {
   app.innerHTML = `
     <section class="hero">
       <div>
-        <h1>100 documents of the Swiss Federal Archives, read by Apertus</h1>
+        <h1>${s.records} sources of the Swiss Federal Archives, read by Apertus</h1>
         <p>Every record was drawn at random from the item-level documents of the <em>Archive database of the Swiss Federal Archives</em>
         (opendata.swiss). Apertus v1.5, Switzerland's open language model, wrote a résumé of each, typed it as a primary,
         secondary or tertiary source, completed its metadata, assessed the preprocessing it needs and traced its story on a map.
         Each value shows where it came from: <span class="pv pv-record">record</span><span class="pv pv-derived">derived</span><span class="pv pv-apertus">apertus</span><span class="pv pv-gazetteer">gazetteer</span><span class="pv pv-wikidata">wikidata</span></p>
-        <p class="small muted">Stratified random sample (seed 42) from ${(pop.all_records || 263123).toLocaleString("en")} documents:
-        40 audiovisual · 30 still images · 30 other records.</p>
+        <p class="small muted">A stratified random sample (seed 42) of 100 item-level documents from ${(pop.all_records || 263123).toLocaleString("en")}
+        (40 audiovisual · 30 still images · 30 other), plus 200 textual dossiers chosen as secondary (60 press, 40 studies) and tertiary (100 registers, indexes) sources,
+        85 % of them from before 1940.</p>
       </div>
       <div class="stats">
         <div class="stat"><b>${s.records}</b><span>documents classified</span></div>
@@ -119,7 +120,7 @@ async function home() {
 }
 
 /* ---------------- Search ---------------- */
-const FACET_TITLES = { document_type: "Document type", source_level: "Source level", medium: "Medium", decade: "Period", fonds: "Fonds", language: "Language", preprocessing: "Preprocessing needed", qc: "Quality check" };
+const FACET_TITLES = { document_type: "Document type", source_level: "Source level", medium: "Medium", decade: "Period", fonds: "Fonds", language: "Language", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group" };
 
 async function search(params) {
   setNav("search");
@@ -308,7 +309,8 @@ async function recordPage(id, tab) {
         <div class="badges"><span class="badge">${esc(r.classification.document_type)}</span><span class="badge lvl-${r.classification.source_level}">${esc(r.classification.source_level)} source</span><span class="badge">${esc(r.classification.medium)}</span>${r.qc.ok ? "" : `<span class="badge qc-bad">QC issue</span>`}</div>
         <h1>${esc(r.metadata.title_normalized || r.metadata.title)}</h1>
         <div class="muted">${esc(r.metadata.title_en || "")}</div>
-        ${r.classification.resume ? `<div class="resume-box">${esc(r.classification.resume)} ${pv("apertus")}</div>` : `<p class="muted small">Résumé disabled in config.</p>`}
+        ${r.classification.resume ? `<div class="resume-box">${esc(r.classification.resume)} ${pv("apertus")}
+          <div><button class="more-btn" id="morebtn">See more ▾</button></div><div id="more"></div></div>` : `<p class="muted small">Résumé disabled in config.</p>`}
         <div class="tabs">${Object.entries(tabs).map(([k, v]) => `<button data-tab="${k}" class="${k === tab ? "on" : ""}">${v}</button>`).join("")}</div>
         <div class="tabpane" id="pane"></div>
       </section>
@@ -330,6 +332,28 @@ async function recordPage(id, tab) {
     history.replaceState(null, "", `#/record/${id}/${k}`);
   };
   document.querySelectorAll(".tabs button").forEach((b) => (b.onclick = () => show(b.dataset.tab)));
+  const mb = $("#morebtn");
+  if (mb) mb.onclick = async () => {
+    const box = $("#more");
+    if (box.dataset.loaded) { box.hidden = !box.hidden; mb.textContent = box.hidden ? "See more ▾" : "See less ▴"; return; }
+    mb.disabled = true;
+    box.innerHTML = `<p class="small muted"><span class="spinner"></span> Apertus is reading the record, related records, Wikipedia and Wikidata…</p>`;
+    try {
+      const m = await api(`/api/records/${id}/more`);
+      const num = {}; m.sources.forEach((s, i) => (num[s.ref] = i + 1));
+      const cite = (refs) => refs.length ? `<sup class="fns">[${[...new Set(refs)].sort((x, y) => num[x] - num[y]).map((f) => `<a href="#more-src-${f}" title="${esc(f)}" onclick="document.getElementById('more-src-${f}')?.scrollIntoView({behavior:'smooth',block:'center'});return false;">${num[f]}</a>`).join(",")}]</sup>` : "";
+      box.innerHTML = `<div class="more">${m.paragraphs.map((p) => `<p>${p.map((s) => `<span class="${s.inferred ? "inferred" : ""}">${esc(s.text)}${cite(s.sources)}${s.inferred ? ` <span class="badge qc-bad">inferred</span>` : ""}</span>`).join(" ")}</p>`).join("")}
+        <ol class="more-src small">${m.sources.map((s) => `<li id="more-src-${s.ref}"><b>${{ E: "This record", R: "Archive record", W: "Wikipedia", D: "Wikidata / gazetteer" }[s.kind]}</b> · ${esc(s.label)}
+          ${s.url ? ` · <a href="${s.url}" ${s.url.startsWith("#") ? "" : 'target="_blank" rel="noopener"'}>${s.url.startsWith("#") ? "open" : "source ↗"}</a>` : ""}${s.portal_url ? ` · <a href="${s.portal_url}" target="_blank" rel="noopener">archive portal ↗</a>` : ""}
+          <span class="tier">${esc(s.tier)}</span></li>`).join("")}</ol>
+        <p class="small muted">Generated by Apertus (${esc(m.model || "")}) from ${m.offered.E} record fields, ${m.offered.R} related records, ${m.offered.W} Wikipedia summaries and ${m.offered.D} Wikidata/gazetteer facts.
+        ${m.inferred_sentences ? `${m.inferred_sentences} sentence(s) cite no source and are marked inferred.` : "Every sentence cites a source."} Wikipedia text: CC BY-SA.</p></div>`;
+      box.dataset.loaded = "1";
+      mb.textContent = "See less ▴";
+    } catch (err) {
+      box.innerHTML = `<p class="small">Could not generate: ${esc(err.message)}</p>`;
+    } finally { mb.disabled = false; }
+  };
   show(tab);
 }
 
@@ -457,6 +481,11 @@ async function qualityPage() {
         <h3>Source level</h3>${bars(s.distribution?.source_level || [], s.records)}
       </div>
     </div>
+    ${s.source_level_vs_evidence ? `<h2>Source level: Apertus vs archival evidence (${s.source_level_vs_evidence.n} added sources)</h2>
+      <p class="small muted">The 200 added sources were chosen by archival evidence as secondary (press, studies) or tertiary (registers, indexes). Agreement of Apertus with that label: <b>${s.source_level_vs_evidence.agreement_pct} %</b>.</p>
+      <table class="t"><tr><th>Group</th><th>n</th><th>Agreement</th><th>Apertus said</th></tr>
+      ${Object.entries(s.source_level_vs_evidence.by_stratum).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${v.n}</td><td>${v.agreement_pct} %</td><td>${esc(Object.entries(v.predicted).map(([a, b]) => `${a} ${b}`).join(", "))}</td></tr>`).join("")}</table>
+      ${s.source_level_adjudication ? `<p class="small">Manual adjudication of ${s.source_level_adjudication.reviewed} disagreements: Apertus right ${s.source_level_adjudication.apertus_right}, evidence label right ${s.source_level_adjudication.label_right}, both defensible ${s.source_level_adjudication.both_defensible}.</p>` : ""}` : ""}
     <h2>Preprocessing flags: pass 1 vs evidence-based pass 2</h2>
     <div class="callout">Pass 1 asked Apertus directly whether each preprocessing step was needed: it said “yes” for nearly every record, which carries no information.
     Pass 2 asks concrete yes/no checks with a quoted piece of evidence and derives the flags by rule.</div>

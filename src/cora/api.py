@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import classify, config, enrich, lindas, qa
+from . import classify, config, enrich, lindas, more, qa
 from .apertus import Apertus
 
 CFG = config.load()
@@ -80,6 +80,7 @@ FACETS = {
     "language": lambda r: (r["metadata"].get("languages") or ["unknown"])[0],
     "preprocessing": lambda r: [k for k, v in (r.get("preprocessing") or {}).items() if v["needed"]],
     "qc": lambda r: "passed" if r["qc"].get("ok") else "issues",
+    "sample": lambda r: r.get("stratum") or "unknown",
 }
 
 
@@ -109,10 +110,10 @@ def _matches(r: dict, filters: dict) -> bool:
 
 @app.get("/api/records", summary="Search records (full text + facets)")
 def search(q: str = "", document_type: str = "", source_level: str = "", medium: str = "", decade: str = "",
-           fonds: str = "", language: str = "", preprocessing: str = "", qc: str = "",
+           fonds: str = "", language: str = "", preprocessing: str = "", qc: str = "", sample: str = "",
            sort: str = Query("relevance", enum=["relevance", "date", "title"]), page: int = 1, size: int = 20):
     filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade,
-                   fonds=fonds, language=language, preprocessing=preprocessing, qc=qc)
+                   fonds=fonds, language=language, preprocessing=preprocessing, qc=qc, sample=sample)
     terms = _fold(q).split()
     hits = []
     for r in RECORDS.values():
@@ -282,6 +283,14 @@ def referendum():
     if not path.exists():
         raise HTTPException(404, "run `python src/run.py referendum` first")
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+@app.get("/api/records/{record_id}/more", summary="See more: Apertus explains the record from the record, related records, Wikipedia and Wikidata (cited, cached)")
+def record_more(record_id: str):
+    r = RECORDS.get(record_id)
+    if not r:
+        raise HTTPException(404, "unknown record")
+    return more.explain(r, QA_INDEX, CFG, _llm())
 
 
 @app.get("/", include_in_schema=False)
