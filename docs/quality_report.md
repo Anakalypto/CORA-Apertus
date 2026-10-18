@@ -270,3 +270,35 @@ The card exposed bad organization links. "Bundesrat" was linked to the German Bu
 Only confirmations at ≥ 0.99 are now used: **26 procedures are linked**. The other 48 are shown as "possible, unconfirmed" and are not entered into the chain. Topic and entity tagging covered 555 of 569 procedures.
 
 **Referendum model.** On 630 federal votes the party-cue model has a leave-one-out MAE of 9.7 points, between 9.4 and 11.1 depending on the era. It misses the 1959 women's-suffrage vote by 18 points, nearly twice its usual error, which shows the issue-specific gap. Apertus' counterfactual 1959 positions are checked against the recorded recommendations; in one run its reasoning claimed a 1959 "yes" for a party whose recommendation was a free vote. Such claims are flagged on the page.
+
+## 14. Scale run: 1,000 records against the 2-hour target
+
+The same pipeline ran on 1,000 new records (stratified 400 audiovisual / 300 still images / 300 other, seed 1000), using **Apertus v1.5 8B** with 12 parallel requests. Command: `bash src/scale_run.sh`; timings in `data/scale1000/timing.tsv`.
+
+| Stage | Wall-clock |
+|---|---:|
+| Sample (SPARQL over 263k records) | 45 s |
+| Fetch 1,000 records | 9 s |
+| Classify (Apertus 8B) | 654 s (10.9 min) |
+| Audit (Apertus 8B) | 261 s (4.4 min) |
+| Enrich (gazetteer at 1 req/s, Wikidata) | 1,904 s (31.7 min) |
+| QC + export | 3 s |
+| **Total** | **2,876 s = 48 min** |
+
+**Target met: 1,000 records in 48 minutes, under the 2-hour target.** The model stages take 15 minutes. Two-thirds of the time is geocoding, which is throttled by the OpenStreetMap usage policy (1 request per second); a self-hosted Nominatim would remove that bottleneck.
+
+**Error rates (8B, automatic checks):**
+
+| Measure | Value |
+|---|---:|
+| Calls without output | 3 / 1,000 (0.3 %) |
+| Records with a strict schema issue | 50.1 %, of which 441 are only the optional key `date_updated` being left out (the pipeline fills it with null, so nothing is lost) |
+| **Real structural errors** (non-ISO date 56, no output 3, 4-sentence résumé 1) | **6.0 %**, slightly above the < 5 % target |
+| Critical errors (created after archived, no output) | 0.6 % |
+| Résumés within 3 sentences | 99.6 % |
+| Entities literally in the source / counting translations | 93.8 % / 99.4 % |
+| Creator / publisher agreement with record fields | 394/426, 332/332 |
+| Places located by the gazetteer; Apertus' own coordinates, median error | 75.7 %; 2.2 km |
+| Outputs with control characters in place of accented letters ("Z\x1frich") | 22 records (2.2 %), 8B only |
+
+**Reading.** 8B is 3× faster than 70B and close to it on grounding and agreement with record fields. It is sloppier on format: it omits optional keys, writes more non-ISO dates and garbles some accented letters. Its source levels were 995 primary and 2 tertiary, which is plausible for this mostly audiovisual sample. The strict schema rate, 49.9 % of records free of every issue, is misleading; excluding the harmless `date_updated` omission it is 94 %. For production: use 8B for bulk runs with a stricter schema repair (ISO dates, control characters), keep 70B for the published sample, and self-host the gazetteer.

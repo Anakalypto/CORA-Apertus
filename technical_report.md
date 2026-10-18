@@ -102,6 +102,10 @@ CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It
 
 Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfer-Enquête response sheets (opendata.swiss SQL dump) and was compared with the University of Bern structured records. With the Bern codebook in the prompt, agreement is 90–98 % on 8 of 12 fields, and the school place is right in 95 % of sheets (58 % in modern spelling). See [docs/stapfer_verification.md](docs/stapfer_verification.md) for the per-field table and the error taxonomy.
 
+### Scale run
+
+1,000 records ran through the whole pipeline in **48 minutes** with Apertus 8B, against a target of 2 hours: 15 minutes of model calls and 32 minutes of throttled geocoding. Real structural errors were 6.0 %, slightly above the < 5 % target, mostly non-ISO dates. See `docs/quality_report.md` §14 and `data/scale1000/`.
+
 ## 5. Limitations
 
 - **Content accuracy:**

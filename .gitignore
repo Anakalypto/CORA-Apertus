@@ -42,3 +42,10 @@ Thumbs.db
 desktop.ini
 # Re-downloadable source files (fetched by the pipeline)
 data/consultations/swissvotes_dataset.csv
+# Scale-run intermediates (regenerable with src/scale_run.sh)
+data/scale1000/records_raw.json
+data/scale1000/classified.jsonl
+data/scale1000/enriched.jsonl
+data/scale1000/enrich_cache.json
+# On-demand "See more" cache
+data/more_cache/

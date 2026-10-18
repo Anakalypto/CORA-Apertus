@@ -1,0 +1,4012 @@
+{
+ "seed": 1000,
+ "strategy": "stratified",
+ "population": {
+  "audiovisual": 215956,
+  "still_image": 6949,
+  "other": 40218,
+  "all_records": 263123
+ },
+ "sample": [
+  {
+   "id": "30686953",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21907134",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22421603",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29673235",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21724677",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21862047",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21843420",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21707883",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22332258",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21757359",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22361501",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21991318",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21738611",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21785146",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22422282",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21793970",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21848051",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22426072",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22341431",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21776267",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22426994",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22419814",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21848966",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21787842",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30692449",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22327750",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21766594",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21697706",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22425708",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29670261",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22340855",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21745236",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22329478",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29660238",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29659200",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21899490",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22433928",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21775311",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21689296",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674464",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22361942",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22332520",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29661641",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30695937",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29676069",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21783400",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22365532",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21763082",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "26548957",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657327",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21728961",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21799397",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21754593",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21814899",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21721782",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21678117",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21827066",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30696643",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21686157",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22404758",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21801754",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21817113",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22354777",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30687664",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29675749",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22366915",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21733668",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21772138",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21817537",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21855774",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21829463",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22415812",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21788039",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21789582",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21845183",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22397030",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22340148",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21733939",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21818286",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21853410",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22327819",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21848919",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22339810",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22385996",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21812422",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22333673",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21833444",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21683931",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21704090",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21745311",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22323710",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22412102",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29659770",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21713366",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21787989",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21817560",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30697478",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30691184",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21690331",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21850691",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21736823",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21777364",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21741771",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22403154",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29670202",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22348273",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21834219",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21841130",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21836823",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21817695",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29672714",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674573",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "26547813",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22337096",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22430239",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21775561",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21864572",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29671852",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21712793",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21786714",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21794449",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21821584",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21820876",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674721",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21898981",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30693238",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21831284",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21681083",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22371917",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22383986",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657971",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21757272",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21724670",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22340322",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21868876",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22395947",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22332386",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21853173",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21863461",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22355135",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21689848",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21820186",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21700912",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21699112",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21775633",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21775334",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21726548",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21839553",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21774851",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21744293",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21724353",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21713111",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21739934",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22367204",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21806729",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21779313",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22370326",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21838305",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21726075",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29664280",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21779794",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22402780",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21702921",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21753862",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21751892",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674791",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29669572",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21848786",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22384075",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21758816",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21718208",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22341365",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21812006",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29662092",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21786509",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21782473",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21808374",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22393048",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21685967",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22397454",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21687677",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21792442",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29670902",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21745821",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29673975",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29676396",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22392286",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22359913",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22356402",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21991854",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21790039",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22336858",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21758373",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30688730",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21805246",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22354704",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21868030",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657166",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30686119",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21679306",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22412771",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21693583",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22327687",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29669860",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22389932",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21707513",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22424668",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21859322",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21710475",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "26549467",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22339201",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21811473",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29661988",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22405756",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21783622",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21689672",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21903987",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21727386",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30691480",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21817362",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21781498",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21833811",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30698346",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21789037",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21837417",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21785535",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21682434",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21785826",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674350",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22380807",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30689130",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29668346",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22389508",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21743669",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21696570",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22365770",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22346743",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22334706",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21748904",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22410519",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22397533",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21750433",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29663901",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29658658",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22433991",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21854519",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674204",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21905086",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21772978",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22388281",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22388578",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21791694",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21839304",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21728626",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21800705",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21826524",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21866070",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21830293",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29675467",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22339969",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21988398",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22395612",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21781727",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21765654",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21744699",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21816781",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29666956",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22409194",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21904634",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21814491",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21736083",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29674474",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21804039",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21738156",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22323831",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22400355",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21867538",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21759525",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22336461",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21787123",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21804949",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21803445",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22360319",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21713727",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21840486",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29667206",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22364258",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30694273",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22356767",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21721316",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29671824",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21761763",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21746378",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29668982",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22337208",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21991916",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "26549239",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22350050",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22432793",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657257",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22364357",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22431705",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21750704",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657778",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21771999",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30693930",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21736397",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30686088",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21904402",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21905076",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21683041",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21826272",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29657448",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22426642",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21714065",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21719648",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21867980",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22418109",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30692885",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22353450",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22363546",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21781485",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22328394",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21852237",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21857330",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30687440",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22367966",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22419745",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22355568",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21896793",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22329265",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "26548239",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21679130",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29668133",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22400502",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22322417",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30698713",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21814017",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22322786",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21814944",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21769538",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21796263",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29670688",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21708230",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29659787",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22379197",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30693522",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22408839",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "30697250",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21694173",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21706397",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21805326",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29673242",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21738172",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21692824",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21693620",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29671039",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21790701",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22328586",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22411657",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22347040",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21783816",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22345381",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21818640",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "29662098",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21826217",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21794382",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21713794",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22405199",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22343609",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22404702",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21990806",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22399660",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21846174",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21797788",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21736561",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22405046",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21702621",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21778525",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21775874",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21905285",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22326452",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21899446",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21699100",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21827605",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22415243",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21809694",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21784807",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21769571",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21842013",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21735179",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22364141",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21743632",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21989116",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22350060",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21677895",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22342337",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21750474",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "21848287",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "22403363",
+   "stratum": "audiovisual"
+  },
+  {
+   "id": "3236986",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239540",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240017",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237690",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241773",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237491",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256126",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238213",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236745",
+   "stratum": "still_image"
+  },
+  {
+   "id": "2057100",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239898",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238909",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240259",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573442",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313922",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239070",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240260",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236416",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859473",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237368",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241859",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239349",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239654",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237912",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237609",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240499",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240754",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573248",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241873",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237111",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236999",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573266",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256134",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241645",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239212",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239211",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241615",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573657",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236782",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241056",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256171",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239246",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238921",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238014",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30314028",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573630",
+   "stratum": "still_image"
+  },
+  {
+   "id": "383684",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240874",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858834",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239812",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240940",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573511",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239985",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240044",
+   "stratum": "still_image"
+  },
+  {
+   "id": "557152",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240386",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241261",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239003",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240962",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573334",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573323",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313975",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239281",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237147",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236361",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241492",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237101",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238720",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240368",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237305",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313952",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241060",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239087",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239335",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239122",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237861",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241736",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573288",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241017",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238165",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241662",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241560",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241516",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239046",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237450",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240173",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240518",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236431",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238946",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237565",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237438",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237929",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238525",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573386",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237545",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238431",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859443",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573312",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573676",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858418",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858787",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237987",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239789",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237952",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240928",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237920",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241357",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238434",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239121",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238322",
+   "stratum": "still_image"
+  },
+  {
+   "id": "558790",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241204",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237759",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241443",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239279",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236632",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573194",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239150",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858710",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241496",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858456",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573438",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239231",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237241",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573433",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573199",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241086",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238820",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239206",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241241",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240520",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858511",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237689",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241474",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240581",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241760",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859056",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238682",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241186",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237505",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858982",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241031",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241274",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238742",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239593",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238684",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859393",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573367",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240478",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236901",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573547",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241367",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858433",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573333",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236809",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241576",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238937",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859241",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237694",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241048",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238984",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858445",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237972",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573680",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240324",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237513",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240228",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240472",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241081",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238898",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237671",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238551",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240902",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858599",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240492",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858823",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241487",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237688",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238588",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573629",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858843",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237720",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236786",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238961",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236963",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5859228",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858479",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573284",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858863",
+   "stratum": "still_image"
+  },
+  {
+   "id": "383676",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237645",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237306",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256110",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240823",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236846",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256224",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239502",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241493",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238601",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313853",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313995",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239718",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240031",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240723",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256146",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236727",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237086",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237879",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30677903",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241521",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239723",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237420",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236764",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239522",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573387",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236920",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240082",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237937",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239726",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240383",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239027",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240358",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237999",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238893",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240856",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573233",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238943",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30314011",
+   "stratum": "still_image"
+  },
+  {
+   "id": "30313895",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240060",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240464",
+   "stratum": "still_image"
+  },
+  {
+   "id": "2057051",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239412",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238900",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240294",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238557",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240150",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573381",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237389",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239951",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237722",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256184",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237612",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236369",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237228",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240727",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241583",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237836",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241528",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236768",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573308",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241608",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240275",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237446",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236454",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573092",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573555",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239689",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239811",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237660",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858964",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573370",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239508",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256207",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238443",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238361",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573390",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237506",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237452",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241021",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237798",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573273",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241673",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236561",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237960",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237110",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239541",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240409",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238457",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3256125",
+   "stratum": "still_image"
+  },
+  {
+   "id": "5858882",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238695",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237117",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238123",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240974",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238328",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573293",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3236552",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241895",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240025",
+   "stratum": "still_image"
+  },
+  {
+   "id": "2057104",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241755",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3240279",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241541",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573432",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3238835",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32573588",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3239864",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3241855",
+   "stratum": "still_image"
+  },
+  {
+   "id": "3237380",
+   "stratum": "still_image"
+  },
+  {
+   "id": "32657026",
+   "stratum": "other"
+  },
+  {
+   "id": "3518218",
+   "stratum": "other"
+  },
+  {
+   "id": "3520009",
+   "stratum": "other"
+  },
+  {
+   "id": "30931127",
+   "stratum": "other"
+  },
+  {
+   "id": "3520679",
+   "stratum": "other"
+  },
+  {
+   "id": "30702493",
+   "stratum": "other"
+  },
+  {
+   "id": "30790773",
+   "stratum": "other"
+  },
+  {
+   "id": "30676655",
+   "stratum": "other"
+  },
+  {
+   "id": "30702726",
+   "stratum": "other"
+  },
+  {
+   "id": "3525869",
+   "stratum": "other"
+  },
+  {
+   "id": "30789952",
+   "stratum": "other"
+  },
+  {
+   "id": "30790922",
+   "stratum": "other"
+  },
+  {
+   "id": "30929097",
+   "stratum": "other"
+  },
+  {
+   "id": "33011648",
+   "stratum": "other"
+  },
+  {
+   "id": "3513462",
+   "stratum": "other"
+  },
+  {
+   "id": "31216011",
+   "stratum": "other"
+  },
+  {
+   "id": "30790004",
+   "stratum": "other"
+  },
+  {
+   "id": "3519902",
+   "stratum": "other"
+  },
+  {
+   "id": "30956222",
+   "stratum": "other"
+  },
+  {
+   "id": "26298829",
+   "stratum": "other"
+  },
+  {
+   "id": "3512561",
+   "stratum": "other"
+  },
+  {
+   "id": "31489960",
+   "stratum": "other"
+  },
+  {
+   "id": "31063825",
+   "stratum": "other"
+  },
+  {
+   "id": "3521632",
+   "stratum": "other"
+  },
+  {
+   "id": "3517541",
+   "stratum": "other"
+  },
+  {
+   "id": "32501724",
+   "stratum": "other"
+  },
+  {
+   "id": "3525907",
+   "stratum": "other"
+  },
+  {
+   "id": "30956755",
+   "stratum": "other"
+  },
+  {
+   "id": "30789902",
+   "stratum": "other"
+  },
+  {
+   "id": "32464503",
+   "stratum": "other"
+  },
+  {
+   "id": "28106106",
+   "stratum": "other"
+  },
+  {
+   "id": "3513344",
+   "stratum": "other"
+  },
+  {
+   "id": "3511836",
+   "stratum": "other"
+  },
+  {
+   "id": "3518906",
+   "stratum": "other"
+  },
+  {
+   "id": "3512138",
+   "stratum": "other"
+  },
+  {
+   "id": "26585515",
+   "stratum": "other"
+  },
+  {
+   "id": "4035546",
+   "stratum": "other"
+  },
+  {
+   "id": "32490675",
+   "stratum": "other"
+  },
+  {
+   "id": "3523216",
+   "stratum": "other"
+  },
+  {
+   "id": "32487120",
+   "stratum": "other"
+  },
+  {
+   "id": "30702808",
+   "stratum": "other"
+  },
+  {
+   "id": "3517436",
+   "stratum": "other"
+  },
+  {
+   "id": "30998758",
+   "stratum": "other"
+  },
+  {
+   "id": "32297369",
+   "stratum": "other"
+  },
+  {
+   "id": "32502438",
+   "stratum": "other"
+  },
+  {
+   "id": "31862730",
+   "stratum": "other"
+  },
+  {
+   "id": "3515314",
+   "stratum": "other"
+  },
+  {
+   "id": "30962403",
+   "stratum": "other"
+  },
+  {
+   "id": "3524276",
+   "stratum": "other"
+  },
+  {
+   "id": "30840095",
+   "stratum": "other"
+  },
+  {
+   "id": "31659580",
+   "stratum": "other"
+  },
+  {
+   "id": "31042956",
+   "stratum": "other"
+  },
+  {
+   "id": "3516412",
+   "stratum": "other"
+  },
+  {
+   "id": "3510493",
+   "stratum": "other"
+  },
+  {
+   "id": "32716401",
+   "stratum": "other"
+  },
+  {
+   "id": "29341766",
+   "stratum": "other"
+  },
+  {
+   "id": "30791314",
+   "stratum": "other"
+  },
+  {
+   "id": "3519623",
+   "stratum": "other"
+  },
+  {
+   "id": "30945789",
+   "stratum": "other"
+  },
+  {
+   "id": "3515788",
+   "stratum": "other"
+  },
+  {
+   "id": "3524758",
+   "stratum": "other"
+  },
+  {
+   "id": "3511733",
+   "stratum": "other"
+  },
+  {
+   "id": "25724628",
+   "stratum": "other"
+  },
+  {
+   "id": "28244558",
+   "stratum": "other"
+  },
+  {
+   "id": "3516829",
+   "stratum": "other"
+  },
+  {
+   "id": "3521655",
+   "stratum": "other"
+  },
+  {
+   "id": "3523542",
+   "stratum": "other"
+  },
+  {
+   "id": "3521153",
+   "stratum": "other"
+  },
+  {
+   "id": "3513875",
+   "stratum": "other"
+  },
+  {
+   "id": "3525216",
+   "stratum": "other"
+  },
+  {
+   "id": "3510395",
+   "stratum": "other"
+  },
+  {
+   "id": "31215591",
+   "stratum": "other"
+  },
+  {
+   "id": "3510472",
+   "stratum": "other"
+  },
+  {
+   "id": "30941550",
+   "stratum": "other"
+  },
+  {
+   "id": "29525926",
+   "stratum": "other"
+  },
+  {
+   "id": "31655805",
+   "stratum": "other"
+  },
+  {
+   "id": "3522939",
+   "stratum": "other"
+  },
+  {
+   "id": "3525681",
+   "stratum": "other"
+  },
+  {
+   "id": "30961536",
+   "stratum": "other"
+  },
+  {
+   "id": "3519275",
+   "stratum": "other"
+  },
+  {
+   "id": "3523487",
+   "stratum": "other"
+  },
+  {
+   "id": "4032593",
+   "stratum": "other"
+  },
+  {
+   "id": "3515701",
+   "stratum": "other"
+  },
+  {
+   "id": "3518580",
+   "stratum": "other"
+  },
+  {
+   "id": "4782077",
+   "stratum": "other"
+  },
+  {
+   "id": "29303316",
+   "stratum": "other"
+  },
+  {
+   "id": "28399929",
+   "stratum": "other"
+  },
+  {
+   "id": "30928211",
+   "stratum": "other"
+  },
+  {
+   "id": "3511401",
+   "stratum": "other"
+  },
+  {
+   "id": "30703497",
+   "stratum": "other"
+  },
+  {
+   "id": "31659423",
+   "stratum": "other"
+  },
+  {
+   "id": "31067223",
+   "stratum": "other"
+  },
+  {
+   "id": "3523089",
+   "stratum": "other"
+  },
+  {
+   "id": "3510863",
+   "stratum": "other"
+  },
+  {
+   "id": "31659584",
+   "stratum": "other"
+  },
+  {
+   "id": "3526332",
+   "stratum": "other"
+  },
+  {
+   "id": "3526644",
+   "stratum": "other"
+  },
+  {
+   "id": "30676649",
+   "stratum": "other"
+  },
+  {
+   "id": "28000309",
+   "stratum": "other"
+  },
+  {
+   "id": "3524393",
+   "stratum": "other"
+  },
+  {
+   "id": "3525900",
+   "stratum": "other"
+  },
+  {
+   "id": "3522887",
+   "stratum": "other"
+  },
+  {
+   "id": "3524428",
+   "stratum": "other"
+  },
+  {
+   "id": "4046218",
+   "stratum": "other"
+  },
+  {
+   "id": "3525776",
+   "stratum": "other"
+  },
+  {
+   "id": "31659225",
+   "stratum": "other"
+  },
+  {
+   "id": "4033022",
+   "stratum": "other"
+  },
+  {
+   "id": "31921804",
+   "stratum": "other"
+  },
+  {
+   "id": "30790669",
+   "stratum": "other"
+  },
+  {
+   "id": "3518988",
+   "stratum": "other"
+  },
+  {
+   "id": "3521239",
+   "stratum": "other"
+  },
+  {
+   "id": "29525910",
+   "stratum": "other"
+  },
+  {
+   "id": "33011364",
+   "stratum": "other"
+  },
+  {
+   "id": "3522369",
+   "stratum": "other"
+  },
+  {
+   "id": "30676785",
+   "stratum": "other"
+  },
+  {
+   "id": "3520630",
+   "stratum": "other"
+  },
+  {
+   "id": "32242338",
+   "stratum": "other"
+  },
+  {
+   "id": "30928294",
+   "stratum": "other"
+  },
+  {
+   "id": "31659300",
+   "stratum": "other"
+  },
+  {
+   "id": "3512572",
+   "stratum": "other"
+  },
+  {
+   "id": "31060864",
+   "stratum": "other"
+  },
+  {
+   "id": "31597269",
+   "stratum": "other"
+  },
+  {
+   "id": "30704802",
+   "stratum": "other"
+  },
+  {
+   "id": "31899337",
+   "stratum": "other"
+  },
+  {
+   "id": "3520507",
+   "stratum": "other"
+  },
+  {
+   "id": "3512234",
+   "stratum": "other"
+  },
+  {
+   "id": "3511154",
+   "stratum": "other"
+  },
+  {
+   "id": "4781515",
+   "stratum": "other"
+  },
+  {
+   "id": "32483483",
+   "stratum": "other"
+  },
+  {
+   "id": "4591510",
+   "stratum": "other"
+  },
+  {
+   "id": "4035575",
+   "stratum": "other"
+  },
+  {
+   "id": "3523301",
+   "stratum": "other"
+  },
+  {
+   "id": "3510751",
+   "stratum": "other"
+  },
+  {
+   "id": "30790361",
+   "stratum": "other"
+  },
+  {
+   "id": "25724455",
+   "stratum": "other"
+  },
+  {
+   "id": "3512517",
+   "stratum": "other"
+  },
+  {
+   "id": "4591685",
+   "stratum": "other"
+  },
+  {
+   "id": "3513345",
+   "stratum": "other"
+  },
+  {
+   "id": "3510935",
+   "stratum": "other"
+  },
+  {
+   "id": "3511082",
+   "stratum": "other"
+  },
+  {
+   "id": "33011561",
+   "stratum": "other"
+  },
+  {
+   "id": "31060942",
+   "stratum": "other"
+  },
+  {
+   "id": "3521791",
+   "stratum": "other"
+  },
+  {
+   "id": "3517748",
+   "stratum": "other"
+  },
+  {
+   "id": "3519370",
+   "stratum": "other"
+  },
+  {
+   "id": "28000289",
+   "stratum": "other"
+  },
+  {
+   "id": "31901311",
+   "stratum": "other"
+  },
+  {
+   "id": "3517819",
+   "stratum": "other"
+  },
+  {
+   "id": "3520591",
+   "stratum": "other"
+  },
+  {
+   "id": "30676598",
+   "stratum": "other"
+  },
+  {
+   "id": "3517351",
+   "stratum": "other"
+  },
+  {
+   "id": "33011400",
+   "stratum": "other"
+  },
+  {
+   "id": "4591956",
+   "stratum": "other"
+  },
+  {
+   "id": "3526591",
+   "stratum": "other"
+  },
+  {
+   "id": "27712750",
+   "stratum": "other"
+  },
+  {
+   "id": "31067250",
+   "stratum": "other"
+  },
+  {
+   "id": "28244555",
+   "stratum": "other"
+  },
+  {
+   "id": "33011228",
+   "stratum": "other"
+  },
+  {
+   "id": "31659259",
+   "stratum": "other"
+  },
+  {
+   "id": "31059831",
+   "stratum": "other"
+  },
+  {
+   "id": "32490625",
+   "stratum": "other"
+  },
+  {
+   "id": "32493017",
+   "stratum": "other"
+  },
+  {
+   "id": "3524337",
+   "stratum": "other"
+  },
+  {
+   "id": "30676822",
+   "stratum": "other"
+  },
+  {
+   "id": "3513404",
+   "stratum": "other"
+  },
+  {
+   "id": "3522189",
+   "stratum": "other"
+  },
+  {
+   "id": "31901194",
+   "stratum": "other"
+  },
+  {
+   "id": "31215561",
+   "stratum": "other"
+  },
+  {
+   "id": "30956693",
+   "stratum": "other"
+  },
+  {
+   "id": "30949078",
+   "stratum": "other"
+  },
+  {
+   "id": "31659051",
+   "stratum": "other"
+  },
+  {
+   "id": "3511725",
+   "stratum": "other"
+  },
+  {
+   "id": "31061078",
+   "stratum": "other"
+  },
+  {
+   "id": "4033138",
+   "stratum": "other"
+  },
+  {
+   "id": "3512015",
+   "stratum": "other"
+  },
+  {
+   "id": "31807705",
+   "stratum": "other"
+  },
+  {
+   "id": "3524041",
+   "stratum": "other"
+  },
+  {
+   "id": "30791084",
+   "stratum": "other"
+  },
+  {
+   "id": "3518900",
+   "stratum": "other"
+  },
+  {
+   "id": "32487166",
+   "stratum": "other"
+  },
+  {
+   "id": "3517201",
+   "stratum": "other"
+  },
+  {
+   "id": "3517278",
+   "stratum": "other"
+  },
+  {
+   "id": "3526331",
+   "stratum": "other"
+  },
+  {
+   "id": "33011432",
+   "stratum": "other"
+  },
+  {
+   "id": "28106357",
+   "stratum": "other"
+  },
+  {
+   "id": "32487334",
+   "stratum": "other"
+  },
+  {
+   "id": "3525154",
+   "stratum": "other"
+  },
+  {
+   "id": "3513922",
+   "stratum": "other"
+  },
+  {
+   "id": "3511792",
+   "stratum": "other"
+  },
+  {
+   "id": "32583914",
+   "stratum": "other"
+  },
+  {
+   "id": "32297499",
+   "stratum": "other"
+  },
+  {
+   "id": "31677831",
+   "stratum": "other"
+  },
+  {
+   "id": "3517653",
+   "stratum": "other"
+  },
+  {
+   "id": "3526325",
+   "stratum": "other"
+  },
+  {
+   "id": "31490353",
+   "stratum": "other"
+  },
+  {
+   "id": "3525582",
+   "stratum": "other"
+  },
+  {
+   "id": "3522176",
+   "stratum": "other"
+  },
+  {
+   "id": "3514069",
+   "stratum": "other"
+  },
+  {
+   "id": "33010858",
+   "stratum": "other"
+  },
+  {
+   "id": "29525987",
+   "stratum": "other"
+  },
+  {
+   "id": "3517547",
+   "stratum": "other"
+  },
+  {
+   "id": "3521210",
+   "stratum": "other"
+  },
+  {
+   "id": "31067193",
+   "stratum": "other"
+  },
+  {
+   "id": "3510338",
+   "stratum": "other"
+  },
+  {
+   "id": "3519227",
+   "stratum": "other"
+  },
+  {
+   "id": "3519346",
+   "stratum": "other"
+  },
+  {
+   "id": "3524972",
+   "stratum": "other"
+  },
+  {
+   "id": "31042977",
+   "stratum": "other"
+  },
+  {
+   "id": "3524342",
+   "stratum": "other"
+  },
+  {
+   "id": "31490325",
+   "stratum": "other"
+  },
+  {
+   "id": "31215698",
+   "stratum": "other"
+  },
+  {
+   "id": "31899467",
+   "stratum": "other"
+  },
+  {
+   "id": "30790787",
+   "stratum": "other"
+  },
+  {
+   "id": "30702404",
+   "stratum": "other"
+  },
+  {
+   "id": "31060704",
+   "stratum": "other"
+  },
+  {
+   "id": "3514622",
+   "stratum": "other"
+  },
+  {
+   "id": "3521525",
+   "stratum": "other"
+  },
+  {
+   "id": "3522546",
+   "stratum": "other"
+  },
+  {
+   "id": "3524877",
+   "stratum": "other"
+  },
+  {
+   "id": "31901181",
+   "stratum": "other"
+  },
+  {
+   "id": "3516577",
+   "stratum": "other"
+  },
+  {
+   "id": "3515072",
+   "stratum": "other"
+  },
+  {
+   "id": "25724534",
+   "stratum": "other"
+  },
+  {
+   "id": "5097398",
+   "stratum": "other"
+  },
+  {
+   "id": "30704608",
+   "stratum": "other"
+  },
+  {
+   "id": "31215738",
+   "stratum": "other"
+  },
+  {
+   "id": "31659627",
+   "stratum": "other"
+  },
+  {
+   "id": "28244438",
+   "stratum": "other"
+  },
+  {
+   "id": "3523208",
+   "stratum": "other"
+  },
+  {
+   "id": "3523611",
+   "stratum": "other"
+  },
+  {
+   "id": "3524818",
+   "stratum": "other"
+  },
+  {
+   "id": "31063812",
+   "stratum": "other"
+  },
+  {
+   "id": "30703401",
+   "stratum": "other"
+  },
+  {
+   "id": "3524857",
+   "stratum": "other"
+  },
+  {
+   "id": "3520701",
+   "stratum": "other"
+  },
+  {
+   "id": "3515797",
+   "stratum": "other"
+  },
+  {
+   "id": "4781916",
+   "stratum": "other"
+  },
+  {
+   "id": "3518465",
+   "stratum": "other"
+  },
+  {
+   "id": "3520149",
+   "stratum": "other"
+  },
+  {
+   "id": "3522924",
+   "stratum": "other"
+  },
+  {
+   "id": "30945827",
+   "stratum": "other"
+  },
+  {
+   "id": "3512611",
+   "stratum": "other"
+  },
+  {
+   "id": "3515848",
+   "stratum": "other"
+  },
+  {
+   "id": "31865097",
+   "stratum": "other"
+  },
+  {
+   "id": "30932814",
+   "stratum": "other"
+  },
+  {
+   "id": "31659185",
+   "stratum": "other"
+  },
+  {
+   "id": "3518905",
+   "stratum": "other"
+  },
+  {
+   "id": "30703712",
+   "stratum": "other"
+  },
+  {
+   "id": "3513341",
+   "stratum": "other"
+  },
+  {
+   "id": "32657100",
+   "stratum": "other"
+  },
+  {
+   "id": "30932867",
+   "stratum": "other"
+  },
+  {
+   "id": "28106321",
+   "stratum": "other"
+  },
+  {
+   "id": "3521546",
+   "stratum": "other"
+  },
+  {
+   "id": "30790241",
+   "stratum": "other"
+  },
+  {
+   "id": "5097302",
+   "stratum": "other"
+  },
+  {
+   "id": "31216071",
+   "stratum": "other"
+  },
+  {
+   "id": "3522468",
+   "stratum": "other"
+  },
+  {
+   "id": "30790566",
+   "stratum": "other"
+  },
+  {
+   "id": "30931215",
+   "stratum": "other"
+  },
+  {
+   "id": "3524457",
+   "stratum": "other"
+  },
+  {
+   "id": "30703634",
+   "stratum": "other"
+  },
+  {
+   "id": "3511468",
+   "stratum": "other"
+  },
+  {
+   "id": "30932925",
+   "stratum": "other"
+  },
+  {
+   "id": "32483419",
+   "stratum": "other"
+  },
+  {
+   "id": "4781193",
+   "stratum": "other"
+  },
+  {
+   "id": "3521434",
+   "stratum": "other"
+  },
+  {
+   "id": "31042262",
+   "stratum": "other"
+  },
+  {
+   "id": "4781282",
+   "stratum": "other"
+  },
+  {
+   "id": "31659664",
+   "stratum": "other"
+  },
+  {
+   "id": "3523315",
+   "stratum": "other"
+  },
+  {
+   "id": "28106180",
+   "stratum": "other"
+  },
+  {
+   "id": "4032905",
+   "stratum": "other"
+  },
+  {
+   "id": "28106183",
+   "stratum": "other"
+  },
+  {
+   "id": "31659201",
+   "stratum": "other"
+  },
+  {
+   "id": "3518625",
+   "stratum": "other"
+  },
+  {
+   "id": "3512216",
+   "stratum": "other"
+  },
+  {
+   "id": "3523700",
+   "stratum": "other"
+  },
+  {
+   "id": "32716441",
+   "stratum": "other"
+  },
+  {
+   "id": "3510342",
+   "stratum": "other"
+  },
+  {
+   "id": "26585517",
+   "stratum": "other"
+  },
+  {
+   "id": "33010799",
+   "stratum": "other"
+  },
+  {
+   "id": "4778773",
+   "stratum": "other"
+  },
+  {
+   "id": "3518521",
+   "stratum": "other"
+  },
+  {
+   "id": "3516984",
+   "stratum": "other"
+  },
+  {
+   "id": "28244575",
+   "stratum": "other"
+  },
+  {
+   "id": "4592046",
+   "stratum": "other"
+  },
+  {
+   "id": "3520982",
+   "stratum": "other"
+  },
+  {
+   "id": "31677965",
+   "stratum": "other"
+  },
+  {
+   "id": "31862693",
+   "stratum": "other"
+  },
+  {
+   "id": "31597274",
+   "stratum": "other"
+  },
+  {
+   "id": "3526342",
+   "stratum": "other"
+  },
+  {
+   "id": "31042320",
+   "stratum": "other"
+  },
+  {
+   "id": "30945851",
+   "stratum": "other"
+  },
+  {
+   "id": "30949167",
+   "stratum": "other"
+  },
+  {
+   "id": "3512793",
+   "stratum": "other"
+  },
+  {
+   "id": "3522561",
+   "stratum": "other"
+  },
+  {
+   "id": "3520808",
+   "stratum": "other"
+  },
+  {
+   "id": "30704008",
+   "stratum": "other"
+  },
+  {
+   "id": "4035411",
+   "stratum": "other"
+  },
+  {
+   "id": "3521454",
+   "stratum": "other"
+  }
+ ]
+}

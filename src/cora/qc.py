@@ -165,6 +165,7 @@ def check_record(row: dict, rec: dict) -> dict:
     geo = [p for p in row.get("enriched", {}).get("places", [])]
     return {
         "id": row["id"], "stratum": rec["stratum"], "document_type": a["document_type"],
+        "evidence_source_level": rec.get("expected_source_level"), "pre_1940": rec.get("pre_1940"),
         "source_level": a["source_level"], "structural_errors": structural, "critical": critical,
         "warnings": warnings, "geo_conflicts": geo_conflicts, "ungrounded": ungrounded, "ungrounded_strict": ungrounded_strict, "n_entities": len(ent),
         "resume_sentences": n_sent, "created_in_range": created_in_range, "archived_ok": archived_ok,
@@ -248,7 +249,7 @@ def run(cfg):
         "entity_grounding_pct": round(100 * (ents - ungr) / ents, 1) if ents else None,
         "entity_grounding_strict_pct": round(100 * (ents - ungr_strict) / ents, 1) if ents else None,
         "entities": ents, "ungrounded_entities": ungr,
-        "date_created_in_range_pct": round(100 * sum(c["created_in_range"] is True for c in checks)
+        "date_created_in_range_pct": round(100 * sum(c.get("created_in_range") is True for c in checks)
                                            / max(1, sum(c.get("created_in_range") is not None for c in checks)), 1),
         "date_archived_correct_pct": pct(sum(c.get("archived_ok", False) for c in checks)),
         "creator_agreement": f'{agree["creator_ok"]}/{agree["creator_n"]}',
@@ -291,6 +292,20 @@ def run(cfg):
         }
 
     # manual_review.json reviews prompt v1; manual_review_v2.json the same 25 records after the §8 fixes.
+    # Source level vs the label set from archival evidence (only the 200 added secondary/tertiary sources have one)
+    lab = [c for c in checks if c.get("evidence_source_level")]
+    if lab:
+        conf = Counter((c["evidence_source_level"], c["source_level"]) for c in lab)
+        summary["source_level_vs_evidence"] = {
+            "n": len(lab), "agreement_pct": round(100 * sum(c["evidence_source_level"] == c["source_level"] for c in lab) / len(lab), 1),
+            "confusion": {f"{e}->{p}": n for (e, p), n in sorted(conf.items())},
+            "by_stratum": {st: {"n": len(g), "agreement_pct": round(100 * sum(c["evidence_source_level"] == c["source_level"] for c in g) / len(g), 1),
+                                "predicted": dict(Counter(c["source_level"] for c in g))}
+                           for st in sorted({c["stratum"] for c in lab}) for g in [[c for c in lab if c["stratum"] == st]]},
+        }
+    adj = data_dir / "source_level_adjudication.json"
+    if adj.exists():
+        summary["source_level_adjudication"] = json.loads(adj.read_text(encoding="utf-8"))["summary"]
     v1, v2 = data_dir / "manual_review.json", data_dir / "manual_review_v2.json"
     if v2.exists():
         summary["manual_review"] = review_summary(v2)
