@@ -233,3 +233,7 @@ Also fixed: the creator labels ("Produktion: TSI"), OPP. and Duplex, a place rol
 - Add a rule check: a person whose own role in `persons` names a proceeding ("defendant", "accused", "victim") should get sensitive_categories = true.
 - Restore the private-individual question as a separate, unchanged check. Its v1 wording was not the source of the false positives.
 - Repeat the review on a fresh sample (recommendation 6). These 25 records also guided the prompt changes, so the v2 numbers are optimistic.
+
+## 10. Verification against the Bern case study (Stapfer-Enquête)
+
+Apertus 70B read only the transcribed answers of 40 random Stapfer response sheets (1799) and extracted the 12 fields that the University of Bern team coded by hand. Given the Bern codebook, it reaches **90–98 % agreement on 8 of the 12 fields**: teacher's age 98 %, school type 95 %, marital status 95 %, winter pupils 94 %, teacher's name 93 %, years of service 91 %, confession 90 %. It identifies the right school place in 95 % of sheets, but only 58 % in modern spelling. Without the codebook, school type was 0 % and confession 26 %. Error classes: historical spelling kept, coded categories not stated in the text, unit conversion, role given instead of a name, and values Bern left empty. Details: [stapfer_verification.md](stapfer_verification.md).

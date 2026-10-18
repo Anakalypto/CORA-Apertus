@@ -84,6 +84,10 @@ CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It
 - **Personal data:** names of persons appear in the source metadata, mostly public figures. Nothing personal was added beyond Wikidata links to public figures. See [docs/ethics_impact_assessment.md](docs/ethics_impact_assessment.md).
 - Gazetteer: © OpenStreetMap contributors (ODbL). Wikidata: CC0.
 
+### Verification against the Bern case study
+
+Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfer-Enquête response sheets (opendata.swiss SQL dump) and was compared with the University of Bern structured records. With the Bern codebook in the prompt, agreement is 90–98 % on 8 of 12 fields, and the school place is right in 95 % of sheets (58 % in modern spelling). See [docs/stapfer_verification.md](docs/stapfer_verification.md) for the per-field table and the error taxonomy.
+
 ## 5. Limitations
 
 - **Content accuracy:**
