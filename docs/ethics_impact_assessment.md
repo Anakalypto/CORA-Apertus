@@ -12,6 +12,17 @@
 - The pipeline **does not anonymize or redact** anything automatically, and it does not create new personal data. Wikidata links are added only for exact matches with a person-type description. The QC documents a mis-link caused by a name the model completed from world knowledge.
 - The API key is read from `.env`, which is git-ignored.
 
+## Generated content
+- Everything Apertus writes is labelled as generated: résumés, Q&A answers, trust-card narratives and consultation tags. The trust card keeps the generated **Imagination** band visually separate from **Evidence** (the record) and **Context** (reference works).
+- Q&A and narratives must cite record IDs or evidence items sentence by sentence. Uncited or weakly supported sentences are marked, not hidden.
+- Wikidata person links are checked against life dates. A link to someone born after the document is rejected; this caught the link of a private 1853 individual to a 20th-century footballer. Organization links reject other-state homonyms and ambiguous acronyms.
+- Nothing about living private persons is inferred or linked: links require an exact match to a public-figure description and pass the life-date check, and the anonymization flag is person-centred.
+
+## Additional sources
+- Stapfer-Enquête (opendata.swiss, open use). Its subjects are 1799 teachers and pupils, all long dead. Only the transcribed answers are sent to the model.
+- Federal consultations 1960–1991 (opendata.swiss, open use) and Swissvotes (Année politique suisse, CC BY 4.0, attribution on the page).
+- swisstopo "Journey through time" tiles (© swisstopo, attribution on the map).
+
 ## Bias
 - **Collection bias.** 82 % of the item-level records are TV news clips (Schweizer Fernsehen and TSR). A uniform sample would reproduce that, so we stratify by medium and document the strata. Fonds coverage follows what was itemized, not what is historically important.
 - **Language bias.** Cataloguing is mostly German, with French and Italian minorities. Apertus is multilingual, but the outputs are written in English (configurable). Translations can lose meaning: *Postulat* became "motion".

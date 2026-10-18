@@ -231,6 +231,51 @@ def ask(q: str = Query(..., min_length=3), k: int = 6):
     return qa.ask(QA_INDEX, _llm(), q, k)
 
 
+@app.get("/api/consultations", summary="Federal consultations 1960-1991 with Apertus topics/entities and procedure chains")
+def consultations():
+    path = DATA / "consultations" / "consultations_tagged.json"
+    if not path.exists():
+        raise HTTPException(404, "run `python src/run.py consultations` first")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+PARL_PATH = DATA / "parliament" / "parliament.json"
+
+
+@app.get("/api/parliament", summary="Members of the National Council, Council of States and Federal Council since 1848, party lineages, BFS vote shares")
+def parliament():
+    if not PARL_PATH.exists():
+        raise HTTPException(404, "run `python src/run.py parliament` first")
+    return json.loads(PARL_PATH.read_text(encoding="utf-8"))
+
+
+@app.post("/api/parliament/links", summary="Wikidata/Wikipedia links for council members (exact name match, Swiss politician, born before the term)")
+def parliament_links(people: list[dict]):
+    from concurrent.futures import ThreadPoolExecutor
+    from . import narrative
+    cache = enrich.Cache(DATA / "enrich_cache.json")
+    members = {m["pn"]: m for m in json.loads(PARL_PATH.read_text(encoding="utf-8"))["members"]}
+
+    def one(p):
+        name = p["name"]
+        wd = enrich.wikidata(name, cache, CFG)
+        if not wd or not re.search(r"swiss|switzerland|schweiz", (wd.get("description") or ""), re.I) \
+                or not re.search(r"politician|federal council|councillor|statesman|lawyer|jurist", wd.get("description") or "", re.I):
+            return p["pn"], None
+        life = enrich.life_dates(wd["qid"], cache, CFG)
+        join = (members.get(p["pn"]) or {}).get("join") or ""
+        if life.get("born") and join[:4].isdigit() and life["born"] > int(join[:4]) - 18:
+            return p["pn"], None  # implausible: not of age when entering office
+        narrative.fetch_context([wd["qid"]], cache, CFG)
+        ctx = cache.data.get("ctx|" + wd["qid"], {})
+        return p["pn"], {"wikidata": wd["url"], "wikipedia": (ctx.get("wikipedia") or {}).get("url"), "hls": ctx.get("hls")}
+
+    with ThreadPoolExecutor(6) as pool:
+        res = dict(pool.map(one, people[:150]))
+    cache.save()
+    return res
+
+
 @app.get("/", include_in_schema=False)
 def index():
     return FileResponse(SITE / "index.html")

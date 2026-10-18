@@ -566,6 +566,131 @@ async function askPage(params) {
   }
 }
 
+/* ---------------- Federal consultations 1960-1991 ---------------- */
+async function consultationsPage(params) {
+  setNav("consultations");
+  const rows = await api("/api/consultations");
+  const types = [...new Set(rows.map((r) => r.type).filter(Boolean))]
+    .sort((a, b) => rows.filter((r) => r.type === b).length - rows.filter((r) => r.type === a).length);
+  const years = Array.from({ length: 32 }, (_, i) => 1960 + i);
+  const count = (t, y) => rows.filter((r) => r.type === t && r.year === y).length;
+  const max = Math.max(...types.flatMap((t) => years.map((y) => count(t, y))));
+  const selT = params.get("type"), selY = params.get("year") ? +params.get("year") : null, topic = params.get("topic");
+  const topics = [...new Set(rows.flatMap((r) => r.topics))].sort();
+  const list = rows.filter((r) => (!selT || r.type === selT) && (!selY || r.year === selY) && (!topic || r.topics.includes(topic)));
+  const href = (o) => {
+    const p = new URLSearchParams(params);
+    Object.entries(o).forEach(([k, v]) => (v == null ? p.delete(k) : p.set(k, v)));
+    return "#/consultations?" + p;
+  };
+  const matched = rows.filter((r) => r.match).length;
+  const stepName = { consultation: "Consultation", message: "Message", parliament: "Parliament", vote: "Popular vote" };
+  const step = (c) => `<div class="step ${c.date ? "on" : "off"}"><b>${stepName[c.step]}</b>
+     <span>${c.date ? esc(c.date) : "not found"}</span>${c.detail ? `<small>${esc(c.detail)}</small>` : ""}${c.link ? `<a href="${c.link}" target="_blank" rel="noopener">source ↗</a>` : ""}</div>`;
+  const cell = (t, y) => {
+    const n = count(t, y);
+    const on = selT === t && selY === y;
+    return `<td><a href="${on ? href({ type: null, year: null }) : href({ type: t, year: y })}" title="${esc(t)} ${y}: ${n}" class="cell ${on ? "sel" : ""}"
+      style="background:${n ? `rgba(181,18,27,${(0.15 + (0.85 * n) / max).toFixed(2)})` : "transparent"}"></a></td>`;
+  };
+  app.innerHTML = `<h1>Federal consultations 1960–1991</h1>
+    <p class="muted">${rows.length} consultation procedures from the Swiss Federal Archives' metadata database (opendata.swiss).
+    Topics and entities are tagged by Apertus ${pv("apertus")}. ${matched} procedures are linked to the popular vote they led to, using Swissvotes (CC BY 4.0) as the source:
+    a title-overlap candidate is accepted only when Apertus confirms it with confidence ≥ 0.99 (a manual check found weaker confirmations mostly wrong). Steps that could not be matched say “not found”.</p>
+    <h3>Timeline: year × type of act <small class="muted">(click a cell or a row)</small></h3>
+    <div class="strip"><table><tr><th></th>${years.map((y) => `<th class="yr">${y % 5 === 0 ? y : ""}</th>`).join("")}</tr>
+      ${types.map((t) => `<tr><th class="ty"><a href="${href({ type: selT === t ? null : t, year: null })}">${esc(t)}</a></th>${years.map((y) => cell(t, y)).join("")}</tr>`).join("")}</table></div>
+    <div class="chips">${topics.map((t) => `<a class="chip x ${topic === t ? "on" : ""}" href="${href({ topic: topic === t ? null : t })}">${esc(t)} (${rows.filter((r) => r.topics.includes(t)).length})</a>`).join("")}</div>
+    <div class="resbar" style="margin-top:14px"><div><b>${list.length}</b> procedures${selT ? ` · ${esc(selT)}` : ""}${selY ? ` · ${selY}` : ""}${topic ? ` · ${esc(topic)}` : ""}</div>
+      ${selT || selY || topic ? `<a href="#/consultations">clear</a>` : ""}</div>
+    ${list.slice(0, 60).map((r) => `<article class="result cons"><div>
+        <h3>${esc(r.title)}</h3>
+        <div class="muted small">${esc(r.title_en || "")} ${r.tag_generated ? pv("apertus") : ""}</div>
+        <div class="badges"><span class="badge">${esc(r.type)}</span><span class="badge">${r.year}</span><span class="badge">${esc(r.dept_abbr)}</span>
+          ${r.topics.map((t) => `<span class="badge lvl-secondary">${esc(t)}</span>`).join("")}${r.tag_confidence != null ? `<span class="badge">confidence ${r.tag_confidence}</span>` : ""}</div>
+        ${r.entities.length ? `<div class="small">Entities: ${r.entities.map((e) => esc(e.name)).join(" · ")}</div>` : ""}
+        ${r.archive_records ? `<div class="small muted">Archive records: ${esc(r.archive_records.slice(0, 240))}</div>` : ""}
+        <div class="chain">${r.chain.map(step).join('<span class="arrow">→</span>')}</div>
+        ${r.possible_vote ? `<div class="small muted">Possible (unconfirmed) vote: ${esc(r.possible_vote.title)}, ${esc(r.possible_vote.date)}, Apertus confidence ${r.possible_vote.confidence} (below the 0.99 bar)</div>` : ""}
+        ${r.match ? `<div class="small muted">Vote match: title overlap ${r.match.title_similarity}, Apertus confidence ${r.match.confidence} — ${esc(r.match.reason || "")}</div>` : ""}
+      </div></article>`).join("")}
+    ${list.length > 60 ? `<p class="muted small">Showing 60 of ${list.length}; narrow with the timeline or a topic.</p>` : ""}`;
+}
+
+/* ---------------- Parliament: three bodies on a legislature timeline ---------------- */
+const LINEAGE_ORDER = ["left", "sp", "gps", "glp", "ldu", "evp", "csp", "dem", "mitte", "lps", "fdp", "svp", "right", "other"];
+let PARL = null;
+
+function hemicycle(seats, lineages, onClick, small) {
+  const n = seats.length;
+  if (!n) return `<p class="muted small">No members recorded.</p>`;
+  const W = small ? 260 : 420, H = W / 2 + 14, cx = W / 2, cy = H - 6, R = W / 2 - 8;
+  const rows = Math.max(1, Math.round(Math.sqrt(n / 2.2)));
+  const r0 = R * (rows > 1 ? 0.38 : 0.6);
+  const radii = Array.from({ length: rows }, (_, i) => r0 + ((R - r0) * i) / Math.max(1, rows - 1));
+  const tot = radii.reduce((a, b) => a + b, 0);
+  let counts = radii.map((r) => Math.max(1, Math.round((n * r) / tot)));
+  let diff = n - counts.reduce((a, b) => a + b, 0);
+  for (let i = counts.length - 1; diff !== 0; i = (i - 1 + counts.length) % counts.length) { counts[i] += Math.sign(diff); diff -= Math.sign(diff); }
+  const pos = [];
+  radii.forEach((r, i) => { const k = counts[i]; for (let j = 0; j < k; j++) { const a = Math.PI - (Math.PI * (j + 0.5)) / k; pos.push({ a, x: cx + r * Math.cos(a), y: cy - r * Math.sin(a) }); } });
+  pos.sort((p, q) => q.a - p.a);
+  const dot = Math.min(10, (R - r0) / Math.max(1, rows) * 0.42 + (small ? 3 : 2), (Math.PI * r0) / Math.max(...counts) * 0.45);
+  return `<svg viewBox="0 0 ${W} ${H}" class="hemi" role="img">${pos.map((p, i) => {
+    const s = seats[i];
+    return `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${Math.max(2.2, dot).toFixed(1)}" fill="${lineages[s.lineage].color}" data-l="${s.lineage}"><title>${esc(`${s.first} ${s.last} (${s.party || "?"}, ${s.canton || ""})`)}</title></circle>`;
+  }).join("")}<text x="${cx}" y="${cy - 4}" text-anchor="middle" class="hemi-n">${n}</text></svg>`;
+}
+
+async function parliamentPage(params) {
+  setNav("parliament");
+  PARL ||= await api("/api/parliament");
+  const legs = PARL.legislatures;
+  let y = +(params.get("year") || 1971);
+  if (!legs.includes(y)) y = legs.reduce((a, b) => (Math.abs(b - y) < Math.abs(a - y) ? b : a));
+  const sel = params.get("lineage");
+  const d = y === 1848 ? "1848-11-20" : `${y}-12-15`;
+  const dFC = `${y + 1}-01-15`;  // the Federal Council is elected in December and takes office on 1 January
+  const active = (c) => [...new Map(PARL.members.filter((m) => { const t = c === 99 ? dFC : d; return m.council === c && m.join && m.join <= t && (!m.leave || m.leave >= t); })
+      .map((m) => [m.pn, m])).values()]  // one seat per person (the source has repeated rows)
+    .sort((a, b) => LINEAGE_ORDER.indexOf(a.lineage) - LINEAGE_ORDER.indexOf(b.lineage) || (a.party || "").localeCompare(b.party || ""));
+  const bodies = [["National Council", 1], ["Council of States", 2], ["Federal Council", 99]].map(([name, c]) => ({ name, seats: active(c) }));
+  const idx = legs.indexOf(y);
+  const shares = PARL.vote_shares[String(y)];
+  const legend = (seats) => {
+    const c = {}; seats.forEach((s) => (c[s.lineage] = (c[s.lineage] || 0) + 1));
+    return LINEAGE_ORDER.filter((l) => c[l]).map((l) => `<a class="lg ${sel === l ? "on" : ""}" href="#/parliament?year=${y}&lineage=${l}"><i style="background:${PARL.lineages[l].color}"></i>${esc(PARL.lineages[l].label)} <b>${c[l]}</b></a>`).join("");
+  };
+  app.innerHTML = `<h1>Parliament and government, ${y}${idx + 1 < legs.length ? `–${legs[idx + 1]}` : "–"}</h1>
+    <p class="muted">Members in office on ${d} (Federal Council: ${dFC}), from the parlament.ch open-data service (all members since 1848).
+    Legislatures snap to election years: 3-year terms until 1931, 4-year terms after. Party lineages keep one colour across renamings and mergers
+    (BGB → SVP, KK → KVP → CVP → Die Mitte, LPS → FDP in 2009).</p>
+    <div class="slider-bar">
+      <a class="btn" href="#/parliament?year=${legs[Math.max(0, idx - 1)]}">‹</a>
+      <input type="range" id="leg" min="0" max="${legs.length - 1}" value="${idx}" step="1">
+      <a class="btn" href="#/parliament?year=${legs[Math.min(legs.length - 1, idx + 1)]}">›</a>
+      <b>${y}</b><span class="small muted">${idx < 28 ? "3-year term" : "4-year term"}</span>
+    </div>
+    <div class="parl">${bodies.map((b) => `<section class="body"><h3>${b.name} <small>${b.seats.length} seats</small></h3>${hemicycle(b.seats, PARL.lineages, null, b.name === "Federal Council")}
+      <div class="legend2">${legend(b.seats)}</div></section>`).join("")}</div>
+    <h3>National vote shares (BFS), ${y}</h3>
+    ${shares ? `<div class="shares">${Object.entries(shares).filter(([, v]) => v.share >= 0.5).sort((a, b) => b[1].share - a[1].share).map(([p, v]) => `<div class="sh"><span>${esc(p)}</span><div class="bar"><i style="width:${(v.share * 2.5).toFixed(1)}%;background:${(PARL.lineages[v.lineage] || PARL.lineages.other).color}"></i></div><b>${v.share.toFixed(1)} %</b></div>`).join("")}</div>
+      <p class="small muted">Vote shares, not seats. Source: BFS px-x-1702020000_104.</p>`
+      : `<p class="muted small">No national vote shares for ${y} in the BFS series used here (it starts in 1971). Seats above come from parlament.ch.</p>`}
+    <div id="members"></div>`;
+  $("#leg").oninput = (e) => (location.hash = `#/parliament?year=${legs[+e.target.value]}`);
+  if (sel) {
+    const ms = bodies.flatMap((b) => b.seats.filter((s) => s.lineage === sel).map((s) => ({ ...s, body: b.name })));
+    $("#members").innerHTML = `<h3>${esc(PARL.lineages[sel].label)}: ${ms.length} members in ${y}</h3><p class="small muted"><span class="spinner"></span> Looking up Wikipedia articles via Wikidata…</p>`;
+    const links = await api("/api/parliament/links", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(ms.map((m) => ({ pn: m.pn, name: `${m.first} ${m.last}` }))) }).catch(() => ({}));
+    $("#members").innerHTML = `<h3>${esc(PARL.lineages[sel].label)}: ${ms.length} members in ${y}</h3>
+      <table class="t"><tr><th>Name</th><th>Body</th><th>Party</th><th>Canton</th><th>In office</th><th>Wikipedia</th></tr>
+      ${ms.map((m) => { const l = links[m.pn]; return `<tr><td>${esc(m.first)} ${esc(m.last)}</td><td>${m.body}</td><td>${esc(m.party || "")}</td><td>${esc(m.canton || "")}</td><td>${esc(m.join || "")} – ${esc(m.leave || "")}</td>
+        <td>${l?.wikipedia ? `<a href="${l.wikipedia}" target="_blank" rel="noopener">article ↗</a>` : l?.wikidata ? `<a href="${l.wikidata}" target="_blank" rel="noopener">Wikidata</a>` : `<span class="muted">–</span>`}</td></tr>`; }).join("")}</table>
+      <p class="small muted">Links: Wikidata exact name match whose description names a Swiss politician, with birth before the term (${pv("wikidata")}).</p>`;
+  }
+}
+
 /* ---------------- Router ---------------- */
 async function route() {
   const h = location.hash.slice(1) || "/";
@@ -580,6 +705,8 @@ async function route() {
     else if (parts[0] === "quality") await qualityPage();
     else if (parts[0] === "live") await livePage();
     else if (parts[0] === "ask") await askPage(new URLSearchParams(query || ""));
+    else if (parts[0] === "consultations") await consultationsPage(new URLSearchParams(query || ""));
+    else if (parts[0] === "parliament") await parliamentPage(new URLSearchParams(query || ""));
     else app.innerHTML = "<p>Not found.</p>";
   } catch (e) {
     app.innerHTML = `<p>Could not load: ${esc(e.message)}</p>`;

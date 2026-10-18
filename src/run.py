@@ -121,6 +121,16 @@ def stage_qc(cfg):
     qc.run(cfg)
 
 
+def stage_parliament(cfg):
+    from cora import parliament
+    parliament.run(cfg)
+
+
+def stage_consultations(cfg):
+    from cora import consultations
+    consultations.run(cfg)
+
+
 def stage_narrative(cfg):
     from cora import narrative
     narrative.run(cfg)
@@ -147,10 +157,16 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament"])
     ap.add_argument("--config", type=Path, default=None)
     args = ap.parse_args()
     cfg = config.load(args.config)
+    if args.stage == "parliament":
+        stage_parliament(cfg)
+        sys.exit()
+    if args.stage == "consultations":
+        stage_consultations(cfg)
+        sys.exit()
     if args.stage == "narrative":
         stage_narrative(cfg)
         sys.exit()

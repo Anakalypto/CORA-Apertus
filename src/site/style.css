@@ -225,3 +225,39 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .slider-bar b { font: 600 22px var(--serif); min-width: 3.2em; font-variant-numeric: tabular-nums; }
 .slider-bar button { background: var(--ink); color: #fff; border: 0; width: 36px; height: 30px; cursor: pointer; }
 .basemap-lab { color: var(--ink-2); margin-bottom: 4px; }
+
+/* Consultations timeline strip and procedure chain */
+.strip { overflow-x: auto; border: 1px solid var(--line); padding: 8px; }
+.strip table { border-collapse: separate; border-spacing: 2px; }
+.strip th.ty { text-align: right; font-weight: 500; font-size: 12.5px; padding-right: 6px; white-space: nowrap; }
+.strip th.ty a { color: var(--ink); }
+.strip th.yr { font: 11px var(--sans); color: var(--ink-3); text-align: left; height: 14px; }
+.strip td { padding: 0; }
+.strip .cell { display: block; width: 18px; height: 18px; border: 1px solid #eee; }
+.strip .cell.sel { outline: 2px solid var(--ink); }
+.chip.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.result.cons { grid-template-columns: 1fr; }
+.chain { display: flex; align-items: stretch; gap: 6px; flex-wrap: wrap; margin: 8px 0 4px; }
+.step { border: 1px solid var(--line); padding: 6px 10px; min-width: 150px; max-width: 260px; font-size: 13px; display: flex; flex-direction: column; gap: 2px; }
+.step.on { border-color: #c6e2d3; background: #f3faf6; }
+.step.off { color: var(--ink-3); background: #fafafa; border-style: dashed; }
+.step small { color: var(--ink-2); }
+.arrow { align-self: center; color: var(--ink-3); }
+
+/* Parliament */
+.parl { display: grid; grid-template-columns: 1.4fr 1fr 0.8fr; gap: 18px; align-items: start; }
+.parl .body h3 small { color: var(--ink-3); font: 500 12px var(--sans); }
+.hemi { width: 100%; height: auto; display: block; }
+.hemi circle { stroke: #fff; stroke-width: .6; }
+.hemi-n { font: 600 18px var(--serif); fill: var(--ink-2); }
+.legend2 { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12.5px; margin-top: 6px; }
+.legend2 .lg { color: var(--ink); padding: 1px 4px; border-radius: 2px; }
+.legend2 .lg.on { background: var(--accent-soft); }
+.legend2 i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.shares { display: grid; gap: 4px; max-width: 640px; }
+.sh { display: grid; grid-template-columns: 70px 1fr 60px; gap: 8px; align-items: center; font-size: 13px; }
+.sh .bar { height: 12px; background: var(--paper-2); position: relative; }
+.sh .bar i { position: absolute; inset: 0 auto 0 0; }
+.btn { display: inline-grid; place-items: center; width: 30px; height: 30px; background: var(--ink); color: #fff; }
+.btn:hover { text-decoration: none; }
+@media (max-width: 860px) { .parl { grid-template-columns: 1fr; } }

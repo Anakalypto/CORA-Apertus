@@ -40,3 +40,5 @@ data/stapfer/cases.json
 .claude/
 Thumbs.db
 desktop.ini
+# Re-downloadable source files (fetched by the pipeline)
+data/consultations/swissvotes_dataset.csv

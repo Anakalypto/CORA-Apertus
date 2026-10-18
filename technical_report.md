@@ -50,6 +50,17 @@ Each field carries its **provenance**: `record`, `derived`, `apertus`, `gazettee
 - The accession year comes from the accession number, not from Apertus.
 - Coordinates come from the gazetteer, not from Apertus.
 
+### Applications on top of the dataset
+
+| Feature | Where | How |
+|---|---|---|
+| **Ask the archive** (cited Q&A) | `src/cora/qa.py`, `GET /api/ask`, page *Ask the archive* | Pure-Python BM25 over titles, English titles, résumés, subjects, entities and original fields; Apertus answers only from the retrieved records. Every sentence cites record IDs, which link to the record page and the archive portal. Citations to unretrieved records are dropped, uncited sentences flagged, and nothing is answered when nothing relevant is retrieved. |
+| **MCP server** | `src/mcp_server.py` | Read-only wrapper around the API: `search_records`, `get_record`, `ask_archive` (stdio). |
+| **Trust card** | `src/cora/narrative.py`, record page | Three bands. **Evidence**: the original fields, numbered E#. **Context**: Wikidata/Wikipedia/HLS for linked entities, numbered C#, with tier secondary/tertiary. **Imagination**: an Apertus narrative where every sentence must footnote E/C items, and sentences without one are marked inferred. An automatic support check flags weakly supported sentences. Badges show source level, confidence and the edit log. |
+| **Map time slider** | overview map | Records appear by date. Inside Switzerland the base map is swisstopo "Journey through time" (`ch.swisstopo.zeitreihen`, 1844–2021) for the nearest earlier year, and the page states which map applies. |
+| **Federal consultations 1960–1991** | `src/cora/consultations.py`, page *Consultations* | 569 procedures. Apertus assigns topics and entities with a confidence. A year × type-of-act timeline strip. A procedure chain per row (consultation → message → parliament → vote) from Swissvotes (CC BY 4.0): a title-overlap candidate is accepted only when Apertus confirms it. |
+| **Bern verification** | `src/cora/stapfer.py` | See §4 and `docs/stapfer_verification.md`. |
+
 ### Target architecture (mandatory)
 
 CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It can be made **air-gapped (b)** with the changes listed below.
@@ -70,6 +81,7 @@ CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It
 - **Settings:** temperature 0.1, `response_format: json_object`, max 2,500 tokens, 6 parallel requests, up to 3 retries with the parse error fed back (none were needed).
 - **Pass 1 prompt (classification):** archivist persona; strict grounding rules ("never invent names, dates or places"); a definition of primary/secondary/tertiary; the accession-number convention; and a JSON schema with the controlled vocabularies (20 document types, 5 media, 6 story-event types).
 - **Pass 2 prompt (audit):** eleven yes/no checks, each requiring a quoted piece of evidence. The six preprocessing flags are derived from the answers by rule and combined with deterministic detectors for the mechanical checks. Pass 2 replaced asking for the flags directly, which returned "yes" for about 100 % of records.
+- **Other uses:** cited Q&A (temperature 0), trust-card narratives (temperature 0.3, footnotes required), consultation tagging in batches of 10, vote-match confirmation, and Stapfer field extraction (temperature 0).
 - **Cost for 100 records:** about 325k prompt and 124k completion tokens on 70B, and about 9 minutes wall-clock.
 
 ## 4. Data
