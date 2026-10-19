@@ -1,0 +1,1246 @@
+{
+ "feature": "qa",
+ "note": "16 questions whose answer is in a known record and 8 the sample cannot answer (related records exist). Retrieval (BM25) is identical for both models; 'cites right record' counts only questions where retrieval offered that record. A refusal of an unanswerable question is either the retrieval gate or the model.",
+ "metrics": {
+  "apertus-v1-5-70b": {
+   "n": 24,
+   "errors": 0,
+   "mean_seconds": 2.4,
+   "answerable_answered_pct": 87.5,
+   "answerable_cites_right_record_pct": 100.0,
+   "answerable_retrieval_found_record": "16/16",
+   "unanswerable_refused_pct": 100.0,
+   "unanswerable_refused_by_model_pct": 100.0,
+   "unanswerable_reaching_model": 7,
+   "uncited_sentences_pct": 0.0,
+   "invalid_citations_dropped": 0
+  },
+  "apertus-v1-5-8b": {
+   "n": 24,
+   "errors": 0,
+   "mean_seconds": 0.8,
+   "answerable_answered_pct": 100.0,
+   "answerable_cites_right_record_pct": 100.0,
+   "answerable_retrieval_found_record": "16/16",
+   "unanswerable_refused_pct": 87.5,
+   "unanswerable_refused_by_model_pct": 85.7,
+   "unanswerable_reaching_model": 7,
+   "uncited_sentences_pct": 0.0,
+   "invalid_citations_dropped": 0
+  }
+ },
+ "outputs": {
+  "apertus-v1-5-70b": [
+   {
+    "id": "a0",
+    "error": null,
+    "seconds": 3.9,
+    "question": "What happened with milk prices in 2007?",
+    "expect": "22365692",
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "22365692"
+    ],
+    "retrieved": [
+     "22365692",
+     "30704186",
+     "29666896",
+     "22365853",
+     "29661478",
+     "4046151"
+    ],
+    "sentences": [
+     "The provided sources do not contain information about milk prices in 2007. Source [22365692] mentions a 2007 Swiss TV news report about milk producers from Germany, Austria, and Switzerland discussing hopes for higher milk prices due to rising demand for dairy products in Asia, but it does not provide actual price data or outcomes. The other sources discuss topics unrelated to milk prices, such as Swiss tax practices, Swissair trial, FDP excursion, AlpTransit project, and a parliamentary debate on victims' assistance law."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a1",
+    "error": null,
+    "seconds": 1.7,
+    "question": "When was the Flims bypass opened?",
+    "expect": "29672818",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29672818"
+    ],
+    "retrieved": [
+     "29672818",
+     "7762257",
+     "7767943"
+    ],
+    "sentences": [
+     "The Flims bypass was opened on 28 October 2007."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a2",
+    "error": null,
+    "seconds": 2.5,
+    "question": "How did the Green Party assess the outgoing legislature in 2007?",
+    "expect": "22371890",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "22371890"
+    ],
+    "retrieved": [
+     "22371890",
+     "22365853",
+     "31862786",
+     "30704186",
+     "5712992",
+     "929886"
+    ],
+    "sentences": [
+     "In the 2007 TV news report titled \"Bilanz Grüne Partei\" (source [22371890]), Green Party National Council members Therese Frösch and Ueli Leuenberger provided statements assessing the outgoing legislative period."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a3",
+    "error": null,
+    "seconds": 2.5,
+    "question": "How was the new hall of the Basel fair built?",
+    "expect": "30695400",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "30695400"
+    ],
+    "retrieved": [
+     "30695400",
+     "21901313",
+     "7767943",
+     "7765779",
+     "3238964",
+     "5691138"
+    ],
+    "sentences": [
+     "The new hall of the Basel fair was built using prefabricated concrete elements, a method that halved the effort and labor compared to traditional construction, and was completed quickly after funding was approved by popular vote in December 1963."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a4",
+    "error": null,
+    "seconds": 3.3,
+    "question": "What do the records show about the Saffa exhibition in 1989?",
+    "expect": "21901313",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "21901313"
+    ],
+    "retrieved": [
+     "21901313",
+     "29668004",
+     "31200573",
+     "5751717",
+     "6691177",
+     "3348104"
+    ],
+    "sentences": [
+     "The record 21901313 shows that on 10 April 1989, Swiss television DRS broadcast a 6-minute and 17-second color news report about the Saffa exhibition in Basel, which also included archival footage of earlier Saffa exhibitions in Zurich (from 1928) and Bern (from 1958), as well as an interview with architect Beate Schnitter."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a5",
+    "error": null,
+    "seconds": 4.7,
+    "question": "How did Ticino take part in the 1939 National Exhibition?",
+    "expect": "5751758",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "5751758",
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739"
+    ],
+    "retrieved": [
+     "5751758",
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444"
+    ],
+    "sentences": [
+     "Ticino participated in the 1939 Swiss National Exhibition (Landi) through media coverage documented in Italian-language newspaper clippings published between October 1938 and June 1939 (source: 5751758), with additional press reports from May, June, July, and August 1939 covering the exhibition in Zurich (sources: 5751730, 5751735, 5751739, 5751740)."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a6",
+    "error": null,
+    "seconds": 1.8,
+    "question": "What do the First World War photographs show about telegraph pioneers?",
+    "expect": "3240019",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "3240019"
+    ],
+    "retrieved": [
+     "3240019",
+     "3238964",
+     "29668004",
+     "3239129",
+     "3236761",
+     "3237334"
+    ],
+    "sentences": [
+     "The First World War photograph with record ID 3240019 shows telegraph pioneer wagons belonging to the Swiss Army Telegraph Pioneer Company 2, indicating that these pioneers were equipped with specialized wagons for their operations during the war."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a7",
+    "error": null,
+    "seconds": 1.9,
+    "question": "Is there a finding aid about the neutrality of Savoy and the free zones?",
+    "expect": "32685311",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "32685311"
+    ],
+    "retrieved": [
+     "32685311",
+     "5712992",
+     "32685009",
+     "931173",
+     "4239392",
+     "32683450"
+    ],
+    "sentences": [
+     "Yes, there is a finding aid about the neutrality of Savoy and the free zones of High Savoy and Gex, identified as record [32685311]."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a8",
+    "error": null,
+    "seconds": 2.2,
+    "question": "What did the states bordering Lake Constance discuss?",
+    "expect": "32684760",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "32684760"
+    ],
+    "retrieved": [
+     "32684760",
+     "1620165",
+     "31264790",
+     "5751776",
+     "904967",
+     "31862786"
+    ],
+    "sentences": [
+     "The states bordering Lake Constance discussed lake regulation, as documented in the finding aid E9500.213 which indexes archival material from 1960 on informal discussions among the riparian states concerning Lake Constance regulation."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a9",
+    "error": null,
+    "seconds": 1.8,
+    "question": "What did the AlpTransit directors' committee discuss in December 2007?",
+    "expect": "30704186",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "30704186"
+    ],
+    "retrieved": [
+     "30704186",
+     "30704308",
+     "30702600",
+     "29385201",
+     "5443297",
+     "1106754"
+    ],
+    "sentences": [
+     "The AlpTransit directors' committee discussed 'reversing on LBL' during their meeting on 5 December 2007."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a10",
+    "error": null,
+    "seconds": 2.4,
+    "question": "Which record is about the history of the Lerber family?",
+    "expect": "6627612",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "6627612"
+    ],
+    "retrieved": [
+     "6627612",
+     "5574685",
+     "6608526",
+     "2103970",
+     "31659653",
+     "4962413"
+    ],
+    "sentences": [
+     "The record about the history of the Lerber family is source 6627612, titled 'Geschichte der Familie Lerber' (History of the Lerber Family), a personal family history document from 1926."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a11",
+    "error": null,
+    "seconds": 5.4,
+    "question": "What did the Swiss press write about Argentina in 1998?",
+    "expect": "4541508",
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "4541508",
+     "1106754",
+     "1438637",
+     "930494",
+     "3460600",
+     "32683295"
+    ],
+    "retrieved": [
+     "4541508",
+     "1106754",
+     "1438637",
+     "930494",
+     "3460600",
+     "32683295"
+    ],
+    "sentences": [
+     "The provided sources do not contain the actual content of Swiss press articles about Argentina in 1998. Source [4541508] is an index of Swiss press articles from 1998 covering Argentina as the state of residence, but it does not include the articles themselves. The other sources cover topics such as Expo.02 (1106754), the Société Suisse de Surveillance économique (1438637), the Social Democratic Women's Movement (930494), Federal Councillor Numa Droz (3460600), and a finding aid for Swiss representation in Los Angeles (32683295), none of which pertain to Argentina in 1998."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a12",
+    "error": null,
+    "seconds": 1.7,
+    "question": "Which newspaper clippings did the Federal Office of Civil Aviation collect in the late 1920s?",
+    "expect": "5471797",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "5471797"
+    ],
+    "retrieved": [
+     "5471797",
+     "3513865",
+     "3761390",
+     "7485800",
+     "30704308",
+     "3233815"
+    ],
+    "sentences": [
+     "The Federal Office of Civil Aviation collected newspaper clippings between 1927 and 1929, as documented in record 5471797."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a13",
+    "error": null,
+    "seconds": 2.2,
+    "question": "Who was Dr. med. Felix Schenk?",
+    "expect": "29383476",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29383476"
+    ],
+    "retrieved": [
+     "29383476",
+     "5740842",
+     "5855990",
+     "22365853",
+     "4962413"
+    ],
+    "sentences": [
+     "Dr. med. Felix Schenk was a medical doctor commemorated in an obituary (Nachruf) held in the Swiss Federal Archives as part of the Schenk family estate, with the tribute document itself created in 1972."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a14",
+    "error": null,
+    "seconds": 2.5,
+    "question": "Welche Fotos zeigen Soldaten des Bataillons 24 in der Ruhe?",
+    "expect": "3237334",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "3237334"
+    ],
+    "retrieved": [
+     "3237334",
+     "3122104",
+     "3238543",
+     "26688477",
+     "21722169",
+     "29672818"
+    ],
+    "sentences": [
+     "Die Fotos, die Soldaten des Bataillons 24 in der Ruhe zeigen, sind diejenigen mit der ID 3237334, die als \"Soldaten bei der Rast\" (Soldiers at rest) betitelt sind und aus der Zeit 1914-1918 stammen."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a15",
+    "error": null,
+    "seconds": 2.6,
+    "question": "Quelles archives concernent la condamnation de Dogu Perincek à Lausanne?",
+    "expect": "29668237",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29668237"
+    ],
+    "retrieved": [
+     "29668237",
+     "5858707",
+     "5859153",
+     "31494895",
+     "5691138"
+    ],
+    "sentences": [
+     "L'archive concernant la condamnation de Dogu Perincek à Lausanne est le reportage télévisé \"Urteil gegen Perincek\" (ID: 29668237), qui couvre le jugement du 9 mars 2007 du tribunal de police de Lausanne l'ayant condamné pour négation du génocide arménien."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u0",
+    "error": null,
+    "seconds": 2.5,
+    "question": "What was the price of a litre of milk in Switzerland in 1985?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "22365692",
+     "22406340",
+     "21811418",
+     "22424850",
+     "21810037",
+     "32684792"
+    ],
+    "retrieved": [
+     "22365692",
+     "22406340",
+     "21811418",
+     "22424850",
+     "21810037",
+     "32684792"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the price of a litre of milk in Switzerland in 1985."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u1",
+    "error": null,
+    "seconds": 2.4,
+    "question": "Who won the 1966 football World Cup?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "4627944",
+     "21681248",
+     "930404",
+     "32573367",
+     "3237334",
+     "3240730"
+    ],
+    "retrieved": [
+     "4627944",
+     "21681248",
+     "930404",
+     "32573367",
+     "3237334",
+     "3240730"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the winner of the 1966 football World Cup."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u2",
+    "error": null,
+    "seconds": 2.3,
+    "question": "Which party won the 2011 Swiss federal election?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "1170760",
+     "22371890",
+     "5712992",
+     "930404",
+     "21903912",
+     "929886"
+    ],
+    "retrieved": [
+     "1170760",
+     "22371890",
+     "5712992",
+     "930404",
+     "21903912",
+     "929886"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the results of the 2011 Swiss federal election."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u3",
+    "error": null,
+    "seconds": 2.3,
+    "question": "How many visitors did the 1939 National Exhibition have in total?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444",
+     "5751717"
+    ],
+    "retrieved": [
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444",
+     "5751717"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the total number of visitors to the 1939 National Exhibition."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u4",
+    "error": null,
+    "seconds": 2.3,
+    "question": "What did the Federal Council decide about the Gotthard base tunnel opening in 2016?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "30704308",
+     "30702600",
+     "32487293",
+     "31597262",
+     "3513305",
+     "3460600"
+    ],
+    "retrieved": [
+     "30704308",
+     "30702600",
+     "32487293",
+     "31597262",
+     "3513305",
+     "3460600"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the Federal Council's decision regarding the Gotthard base tunnel opening in 2016."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u5",
+    "error": null,
+    "seconds": 1.6,
+    "question": "How much did the Flims bypass cost in Swiss francs?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "29672818",
+     "31597262",
+     "31445428",
+     "31445426"
+    ],
+    "retrieved": [
+     "29672818",
+     "31597262",
+     "31445428",
+     "31445426"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the cost of the Flims bypass in Swiss francs."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u6",
+    "error": null,
+    "seconds": 1.9,
+    "question": "Who was the director of the Swiss Federal Archives in 1990?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "3524710",
+     "22365692",
+     "1218893",
+     "5691138",
+     "31494627",
+     "32684792"
+    ],
+    "retrieved": [
+     "3524710",
+     "22365692",
+     "1218893",
+     "5691138",
+     "31494627",
+     "32684792"
+    ],
+    "sentences": [
+     "None of the provided sources contain information about the director of the Swiss Federal Archives in 1990."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u7",
+    "error": null,
+    "seconds": 0.0,
+    "question": "What is the population of Leukerbad today?",
+    "expect": null,
+    "answered": false,
+    "gated": true,
+    "cited": [],
+    "retrieved": [],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "a0",
+    "error": null,
+    "seconds": 1.0,
+    "question": "What happened with milk prices in 2007?",
+    "expect": "22365692",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "22365692"
+    ],
+    "retrieved": [
+     "22365692",
+     "30704186",
+     "29666896",
+     "22365853",
+     "29661478",
+     "4046151"
+    ],
+    "sentences": [
+     "The TV news report [22365692] from June 11, 2007, covers a meeting of milk producers from Germany, Austria, and Switzerland discussing hopes for higher milk prices driven by rising demand for cheese, ice cream, and yogurt in Asia."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a1",
+    "error": null,
+    "seconds": 0.8,
+    "question": "When was the Flims bypass opened?",
+    "expect": "29672818",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29672818"
+    ],
+    "retrieved": [
+     "29672818",
+     "7762257",
+     "7767943"
+    ],
+    "sentences": [
+     "The Flims bypass was opened on 2007-10-28, as documented in the TV news report [29672818]."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a2",
+    "error": null,
+    "seconds": 1.0,
+    "question": "How did the Green Party assess the outgoing legislature in 2007?",
+    "expect": "22371890",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "22371890"
+    ],
+    "retrieved": [
+     "22371890",
+     "22365853",
+     "31862786",
+     "30704186",
+     "5712992",
+     "929886"
+    ],
+    "sentences": [
+     "The Green Party's assessment of the outgoing legislature in 2007 is documented in the TV news report titled \"Bilanz Grüne Partei\" (record ID 22371890), which includes statements by Green Party National Council members Therese Frösch and Ueli Leuenberger."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a3",
+    "error": null,
+    "seconds": 0.8,
+    "question": "How was the new hall of the Basel fair built?",
+    "expect": "30695400",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "30695400"
+    ],
+    "retrieved": [
+     "30695400",
+     "21901313",
+     "7767943",
+     "7765779",
+     "3238964",
+     "5691138"
+    ],
+    "sentences": [
+     "The new Basel Fair hall was built using prefabricated concrete elements, which reduced effort and labor by half and allowed for rapid construction after funding was approved by popular vote in December 1963."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a4",
+    "error": null,
+    "seconds": 1.0,
+    "question": "What do the records show about the Saffa exhibition in 1989?",
+    "expect": "21901313",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "21901313"
+    ],
+    "retrieved": [
+     "21901313",
+     "29668004",
+     "31200573",
+     "5751717",
+     "6691177",
+     "3348104"
+    ],
+    "sentences": [
+     "The records show that a TV news report from 10 April 1989 (record 21901313) covered the Saffa exhibition in Basel and included archival footage of earlier Saffa exhibitions in Zurich and Bern, as well as an interview with architect Beate Schnitter."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a5",
+    "error": null,
+    "seconds": 1.4,
+    "question": "How did Ticino take part in the 1939 National Exhibition?",
+    "expect": "5751758",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "5751758",
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444"
+    ],
+    "retrieved": [
+     "5751758",
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444"
+    ],
+    "sentences": [
+     "The Swiss Federal Archives hold newspaper clippings from various dates in 1939 documenting Ticino's participation in the Swiss National Exhibition (Landi) in Zurich, including reports from May, June, July, and August 1939, as well as an administrative registry plan for financial and accounting matters related to the exhibition."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a6",
+    "error": null,
+    "seconds": 0.8,
+    "question": "What do the First World War photographs show about telegraph pioneers?",
+    "expect": "3240019",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "3240019"
+    ],
+    "retrieved": [
+     "3240019",
+     "3238964",
+     "29668004",
+     "3239129",
+     "3236761",
+     "3237334"
+    ],
+    "sentences": [
+     "The photograph titled \"Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement\" shows equipment and units of the Swiss Army Telegraph Pioneer Company 2 during the First World War, indicating their role in military communications."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a7",
+    "error": null,
+    "seconds": 0.9,
+    "question": "Is there a finding aid about the neutrality of Savoy and the free zones?",
+    "expect": "32685311",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "32685311"
+    ],
+    "retrieved": [
+     "32685311",
+     "5712992",
+     "32685009",
+     "931173",
+     "4239392",
+     "32683450"
+    ],
+    "sentences": [
+     "Yes, there is a finding aid titled \"Neutralität von Savoyen\", \"Freizonen von Hochsavoyen und Gex\" (record ID 32685311) that indexes archival materials concerning the neutrality of Savoy and the free zones of High Savoy and Gex."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a8",
+    "error": null,
+    "seconds": 0.7,
+    "question": "What did the states bordering Lake Constance discuss?",
+    "expect": "32684760",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "32684760"
+    ],
+    "retrieved": [
+     "32684760",
+     "1620165",
+     "31264790",
+     "5751776",
+     "904967",
+     "31862786"
+    ],
+    "sentences": [
+     "The states bordering Lake Constance discussed lake regulation, as evidenced by the finding aid E9500.213 documenting informational discussions among riparian states concerning regulation of the lake."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a9",
+    "error": null,
+    "seconds": 0.7,
+    "question": "What did the AlpTransit directors' committee discuss in December 2007?",
+    "expect": "30704186",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "30704186"
+    ],
+    "retrieved": [
+     "30704186",
+     "30704308",
+     "30702600",
+     "29385201",
+     "5443297",
+     "1106754"
+    ],
+    "sentences": [
+     "The directors' committee meeting on 5 December 2007 discussed the topic of 'reversing on LBL' as documented in the administrative file 30704186."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a10",
+    "error": null,
+    "seconds": 0.7,
+    "question": "Which record is about the history of the Lerber family?",
+    "expect": "6627612",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "6627612"
+    ],
+    "retrieved": [
+     "6627612",
+     "5574685",
+     "6608526",
+     "2103970",
+     "31659653",
+     "4962413"
+    ],
+    "sentences": [
+     "The record about the history of the Lerber family is titled \"Geschichte der Familie Lerber\" with reference code E3120A#1969/80#1356*"
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a11",
+    "error": null,
+    "seconds": 0.8,
+    "question": "What did the Swiss press write about Argentina in 1998?",
+    "expect": "4541508",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "4541508"
+    ],
+    "retrieved": [
+     "4541508",
+     "1106754",
+     "1438637",
+     "930494",
+     "3460600",
+     "32683295"
+    ],
+    "sentences": [
+     "The Swiss press articles published on the state of residence in 1998 cover Argentina as the state of residence, as documented in record 4541508."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a12",
+    "error": null,
+    "seconds": 0.8,
+    "question": "Which newspaper clippings did the Federal Office of Civil Aviation collect in the late 1920s?",
+    "expect": "5471797",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "5471797"
+    ],
+    "retrieved": [
+     "5471797",
+     "3513865",
+     "3761390",
+     "7485800",
+     "30704308",
+     "3233815"
+    ],
+    "sentences": [
+     "The Federal Office of Civil Aviation collected newspaper clippings titled \"Zeitungsausschnitte\" between 1927 and 1929, as documented in record 5471797."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a13",
+    "error": null,
+    "seconds": 1.2,
+    "question": "Who was Dr. med. Felix Schenk?",
+    "expect": "29383476",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29383476"
+    ],
+    "retrieved": [
+     "29383476",
+     "5740842",
+     "5855990",
+     "22365853",
+     "4962413"
+    ],
+    "sentences": [
+     "Dr. med. Felix Schenk is commemorated in an obituary (Nachruf) titled \"Nachruf für Dr. med. Felix Schenk\" with reference code J1.19#1972/89#27*, though the document's creation date is noted as 1972 despite the obituary's implied earlier timeframe."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a14",
+    "error": null,
+    "seconds": 0.7,
+    "question": "Welche Fotos zeigen Soldaten des Bataillons 24 in der Ruhe?",
+    "expect": "3237334",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "3237334"
+    ],
+    "retrieved": [
+     "3237334",
+     "3122104",
+     "3238543",
+     "26688477",
+     "21722169",
+     "29672818"
+    ],
+    "sentences": [
+     "The photograph titled \"Soldaten bei der Rast\" (Soldiers at rest) shows soldiers of Battalion 24 resting during the First World War, as documented in record 3237334."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "a15",
+    "error": null,
+    "seconds": 1.1,
+    "question": "Quelles archives concernent la condamnation de Dogu Perincek à Lausanne?",
+    "expect": "29668237",
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "29668237"
+    ],
+    "retrieved": [
+     "29668237",
+     "5858707",
+     "5859153",
+     "31494895",
+     "5691138"
+    ],
+    "sentences": [
+     "The record concerning the condemnation of Dogu Perincek in Lausanne is found in source [29668237] titled \"Urteil gegen Perincek\" (Judgment against Perincek), which documents the 2007 court ruling that convicted him for denying the Armenian genocide under anti-racism law."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u0",
+    "error": null,
+    "seconds": 1.1,
+    "question": "What was the price of a litre of milk in Switzerland in 1985?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "22365692",
+     "22406340",
+     "21811418",
+     "22424850",
+     "21810037",
+     "32684792"
+    ],
+    "retrieved": [
+     "22365692",
+     "22406340",
+     "21811418",
+     "22424850",
+     "21810037",
+     "32684792"
+    ],
+    "sentences": [
+     "The provided sources do not contain information about the price of a litre of milk in Switzerland in 1985."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u1",
+    "error": null,
+    "seconds": 1.1,
+    "question": "Who won the 1966 football World Cup?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [],
+    "retrieved": [
+     "4627944",
+     "21681248",
+     "930404",
+     "32573367",
+     "3237334",
+     "3240730"
+    ],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u2",
+    "error": null,
+    "seconds": 0.7,
+    "question": "Which party won the 2011 Swiss federal election?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [],
+    "retrieved": [
+     "1170760",
+     "22371890",
+     "5712992",
+     "930404",
+     "21903912",
+     "929886"
+    ],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u3",
+    "error": null,
+    "seconds": 0.9,
+    "question": "How many visitors did the 1939 National Exhibition have in total?",
+    "expect": null,
+    "answered": true,
+    "gated": false,
+    "cited": [
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444",
+     "5751717"
+    ],
+    "retrieved": [
+     "5751730",
+     "5751735",
+     "5751740",
+     "5751739",
+     "3397444",
+     "5751717"
+    ],
+    "sentences": [
+     "The provided sources do not contain information about the total number of visitors to the 1939 National Exhibition."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u4",
+    "error": null,
+    "seconds": 0.7,
+    "question": "What did the Federal Council decide about the Gotthard base tunnel opening in 2016?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [],
+    "retrieved": [
+     "30704308",
+     "30702600",
+     "32487293",
+     "31597262",
+     "3513305",
+     "3460600"
+    ],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u5",
+    "error": null,
+    "seconds": 0.8,
+    "question": "How much did the Flims bypass cost in Swiss francs?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [
+     "29672818",
+     "31597262",
+     "31445428",
+     "31445426"
+    ],
+    "retrieved": [
+     "29672818",
+     "31597262",
+     "31445428",
+     "31445426"
+    ],
+    "sentences": [
+     "The provided sources do not contain any information about the cost of the Flims bypass in Swiss francs."
+    ],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u6",
+    "error": null,
+    "seconds": 0.7,
+    "question": "Who was the director of the Swiss Federal Archives in 1990?",
+    "expect": null,
+    "answered": false,
+    "gated": false,
+    "cited": [],
+    "retrieved": [
+     "3524710",
+     "22365692",
+     "1218893",
+     "5691138",
+     "31494627",
+     "32684792"
+    ],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   },
+   {
+    "id": "u7",
+    "error": null,
+    "seconds": 0.0,
+    "question": "What is the population of Leukerbad today?",
+    "expect": null,
+    "answered": false,
+    "gated": true,
+    "cited": [],
+    "retrieved": [],
+    "sentences": [],
+    "uncited": 0,
+    "dropped": 0
+   }
+  ]
+ }
+}

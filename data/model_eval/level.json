@@ -1,0 +1,3258 @@
+{
+ "feature": "level",
+ "note": "Pass 3 (source level). Reference: 30 records adjudicated by hand (data/extra_v1/source_level_adjudication.json; 'both defensible' accepts either level, 'neither' excluded). Keyword labels come from how the 200 extra sources were drawn and were often wrong in that adjudication, so they are a weak signal only.",
+ "metrics": {
+  "apertus-v1-5-70b": {
+   "n": 230,
+   "errors": 0,
+   "mean_seconds": 3.3,
+   "adjudicated_accuracy_pct": 62.1,
+   "adjudicated_n": 29,
+   "keyword_label_agreement_pct": 81.3,
+   "keyword_labels_n": 230,
+   "by_keyword_label": {
+    "secondary": 70.0,
+    "tertiary": 93.6
+   }
+  },
+  "apertus-v1-5-8b": {
+   "n": 230,
+   "errors": 0,
+   "mean_seconds": 0.9,
+   "adjudicated_accuracy_pct": 55.2,
+   "adjudicated_n": 29,
+   "keyword_label_agreement_pct": 51.3,
+   "keyword_labels_n": 230,
+   "by_keyword_label": {
+    "secondary": 27.5,
+    "tertiary": 77.3
+   }
+  }
+ },
+ "outputs": {
+  "apertus-v1-5-70b": [
+   {
+    "id": "1915605",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "32338325",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5712992",
+    "error": null,
+    "seconds": 3.5,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751717",
+    "error": null,
+    "seconds": 2.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6291478",
+    "error": null,
+    "seconds": 4.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1620165",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "29383119",
+    "error": null,
+    "seconds": 2.3,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751765",
+    "error": null,
+    "seconds": 2.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751776",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751739",
+    "error": null,
+    "seconds": 2.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3397246",
+    "error": null,
+    "seconds": 3.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751749",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751735",
+    "error": null,
+    "seconds": 2.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5471797",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751758",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3460600",
+    "error": null,
+    "seconds": 2.3,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "29420406",
+    "error": null,
+    "seconds": 2.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "10797403",
+    "error": null,
+    "seconds": 2.4,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751772",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1424161",
+    "error": null,
+    "seconds": 3.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1680730",
+    "error": null,
+    "seconds": 3.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3092606",
+    "error": null,
+    "seconds": 2.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1446567",
+    "error": null,
+    "seconds": 4.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3472252",
+    "error": null,
+    "seconds": 3.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1170760",
+    "error": null,
+    "seconds": 3.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "904967",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "903461",
+    "error": null,
+    "seconds": 4.3,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3233815",
+    "error": null,
+    "seconds": 2.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "2727647",
+    "error": null,
+    "seconds": 2.3,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3297508",
+    "error": null,
+    "seconds": 3.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "29745096",
+    "error": null,
+    "seconds": 3.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3276865",
+    "error": null,
+    "seconds": 3.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3278828",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3287644",
+    "error": null,
+    "seconds": 2.5,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5994249",
+    "error": null,
+    "seconds": 2.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1422448",
+    "error": null,
+    "seconds": 2.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "930494",
+    "error": null,
+    "seconds": 3.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3250878",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1438637",
+    "error": null,
+    "seconds": 2.4,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751740",
+    "error": null,
+    "seconds": 2.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751730",
+    "error": null,
+    "seconds": 2.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3122104",
+    "error": null,
+    "seconds": 4.5,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3761390",
+    "error": null,
+    "seconds": 3.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "2014767",
+    "error": null,
+    "seconds": 3.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "930404",
+    "error": null,
+    "seconds": 3.5,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3468589",
+    "error": null,
+    "seconds": 2.4,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1106754",
+    "error": null,
+    "seconds": 3.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "4627944",
+    "error": null,
+    "seconds": 3.4,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "4541508",
+    "error": null,
+    "seconds": 3.4,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6691177",
+    "error": null,
+    "seconds": 4.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5855990",
+    "error": null,
+    "seconds": 2.7,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "2101177",
+    "error": null,
+    "seconds": 2.9,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "5757615",
+    "error": null,
+    "seconds": 4.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931173",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931156",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "929886",
+    "error": null,
+    "seconds": 3.7,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "2102455",
+    "error": null,
+    "seconds": 3.3,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "931194",
+    "error": null,
+    "seconds": 4.4,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931142",
+    "error": null,
+    "seconds": 4.3,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931162",
+    "error": null,
+    "seconds": 4.2,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931188",
+    "error": null,
+    "seconds": 4.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6785332",
+    "error": null,
+    "seconds": 3.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31545753",
+    "error": null,
+    "seconds": 4.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2103970",
+    "error": null,
+    "seconds": 4.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "931147",
+    "error": null,
+    "seconds": 4.3,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "29383476",
+    "error": null,
+    "seconds": 2.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3509724",
+    "error": null,
+    "seconds": 3.1,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "9222587",
+    "error": null,
+    "seconds": 4.3,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "31069888",
+    "error": null,
+    "seconds": 3.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31862786",
+    "error": null,
+    "seconds": 4.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3472254",
+    "error": null,
+    "seconds": 2.4,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "10147493",
+    "error": null,
+    "seconds": 4.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "5574685",
+    "error": null,
+    "seconds": 2.4,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "22642283",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1668792",
+    "error": null,
+    "seconds": 4.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1218893",
+    "error": null,
+    "seconds": 4.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "861530",
+    "error": null,
+    "seconds": 4.2,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3472257",
+    "error": null,
+    "seconds": 2.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7419868",
+    "error": null,
+    "seconds": 4.1,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "1647887",
+    "error": null,
+    "seconds": 2.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6608526",
+    "error": null,
+    "seconds": 3.7,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "32243223",
+    "error": null,
+    "seconds": 4.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3288810",
+    "error": null,
+    "seconds": 4.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1674257",
+    "error": null,
+    "seconds": 2.5,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3289716",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "22642828",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1663610",
+    "error": null,
+    "seconds": 2.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6627612",
+    "error": null,
+    "seconds": 2.8,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3288558",
+    "error": null,
+    "seconds": 3.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "859725",
+    "error": null,
+    "seconds": 5.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "4021886",
+    "error": null,
+    "seconds": 3.6,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "22722079",
+    "error": null,
+    "seconds": 4.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4962413",
+    "error": null,
+    "seconds": 5.3,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31489427",
+    "error": null,
+    "seconds": 5.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "29491752",
+    "error": null,
+    "seconds": 3.6,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "6734403",
+    "error": null,
+    "seconds": 2.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5740842",
+    "error": null,
+    "seconds": 3.0,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "5443297",
+    "error": null,
+    "seconds": 2.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "4082157",
+    "error": null,
+    "seconds": 3.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "456231",
+    "error": null,
+    "seconds": 2.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "4999588",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992822",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992809",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10149448",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1392311",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3471613",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689813",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992999",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688082",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6833395",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992860",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999587",
+    "error": null,
+    "seconds": 3.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992805",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6735202",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5994027",
+    "error": null,
+    "seconds": 2.6,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7485800",
+    "error": null,
+    "seconds": 2.5,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6884064",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992986",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688143",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1432847",
+    "error": null,
+    "seconds": 4.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992820",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992836",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31494627",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992988",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7597779",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992804",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992996",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999578",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992979",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6450266",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "29385201",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992808",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6884093",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992865",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31445428",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999584",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992970",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3471611",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992995",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1223548",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31445426",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10146297",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688933",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688100",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3121390",
+    "error": null,
+    "seconds": 4.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7765779",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999586",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5920780",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32333504",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7767943",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1627708",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992858",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3642708",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10149446",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992834",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689260",
+    "error": null,
+    "seconds": 2.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7688793",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6883981",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3460127",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5691138",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6323151",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689335",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3397444",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7762257",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7290303",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3130086",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992974",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3838035",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689334",
+    "error": null,
+    "seconds": 3.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992829",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7421918",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992958",
+    "error": null,
+    "seconds": 4.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688081",
+    "error": null,
+    "seconds": 4.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999585",
+    "error": null,
+    "seconds": 4.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992868",
+    "error": null,
+    "seconds": 4.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31494895",
+    "error": null,
+    "seconds": 4.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "29585795",
+    "error": null,
+    "seconds": 4.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "2524627",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992852",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992856",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "13246979",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6422267",
+    "error": null,
+    "seconds": 4.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992841",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992827",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992840",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683075",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684919",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684792",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685222",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4239392",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683295",
+    "error": null,
+    "seconds": 3.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683217",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685311",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685009",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683450",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684657",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4419709",
+    "error": null,
+    "seconds": 2.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "32684259",
+    "error": null,
+    "seconds": 2.4,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684760",
+    "error": null,
+    "seconds": 2.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3348104",
+    "error": null,
+    "seconds": 2.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3092631",
+    "error": null,
+    "seconds": 4.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6436034",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751746",
+    "error": null,
+    "seconds": 2.3,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "907283",
+    "error": null,
+    "seconds": 3.3,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "2707787",
+    "error": null,
+    "seconds": 4.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5078900",
+    "error": null,
+    "seconds": 2.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6690825",
+    "error": null,
+    "seconds": 4.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "32048295",
+    "error": null,
+    "seconds": 4.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6437607",
+    "error": null,
+    "seconds": 2.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3287727",
+    "error": null,
+    "seconds": 2.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1435952",
+    "error": null,
+    "seconds": 3.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3297405",
+    "error": null,
+    "seconds": 3.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "29585582",
+    "error": null,
+    "seconds": 4.5,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "663648",
+    "error": null,
+    "seconds": 3.4,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "4660490",
+    "error": null,
+    "seconds": 3.5,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1292465",
+    "error": null,
+    "seconds": 2.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1423168",
+    "error": null,
+    "seconds": 3.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31440442",
+    "error": null,
+    "seconds": 2.5,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "3281670",
+    "error": null,
+    "seconds": 4.3,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1186351",
+    "error": null,
+    "seconds": 4.3,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6314718",
+    "error": null,
+    "seconds": 3.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3061613",
+    "error": null,
+    "seconds": 4.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7906809",
+    "error": null,
+    "seconds": 3.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7689550",
+    "error": null,
+    "seconds": 3.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6999561",
+    "error": null,
+    "seconds": 2.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "483876",
+    "error": null,
+    "seconds": 3.5,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31888729",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "2999337",
+    "error": null,
+    "seconds": 2.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5586359",
+    "error": null,
+    "seconds": 4.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6901007",
+    "error": null,
+    "seconds": 2.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "1915605",
+    "error": null,
+    "seconds": 0.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "32338325",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5712992",
+    "error": null,
+    "seconds": 1.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751717",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6291478",
+    "error": null,
+    "seconds": 0.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1620165",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "29383119",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751765",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751776",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751739",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3397246",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5751749",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5751735",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5471797",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751758",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3460600",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "29420406",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10797403",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751772",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1424161",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1680730",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3092606",
+    "error": null,
+    "seconds": 1.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "1446567",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3472252",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1170760",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "904967",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "903461",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3233815",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "2727647",
+    "error": null,
+    "seconds": 1.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3297508",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "29745096",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3276865",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3278828",
+    "error": null,
+    "seconds": 0.6,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3287644",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5994249",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1422448",
+    "error": null,
+    "seconds": 1.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "930494",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3250878",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1438637",
+    "error": null,
+    "seconds": 0.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751740",
+    "error": null,
+    "seconds": 1.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5751730",
+    "error": null,
+    "seconds": 1.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3122104",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3761390",
+    "error": null,
+    "seconds": 0.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "2014767",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "930404",
+    "error": null,
+    "seconds": 0.7,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "3468589",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1106754",
+    "error": null,
+    "seconds": 1.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4627944",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4541508",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6691177",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5855990",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2101177",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5757615",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "931173",
+    "error": null,
+    "seconds": 0.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "931156",
+    "error": null,
+    "seconds": 1.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "929886",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2102455",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "931194",
+    "error": null,
+    "seconds": 0.8,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "931142",
+    "error": null,
+    "seconds": 1.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "931162",
+    "error": null,
+    "seconds": 0.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "931188",
+    "error": null,
+    "seconds": 0.9,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "6785332",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31545753",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2103970",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "931147",
+    "error": null,
+    "seconds": 1.1,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "29383476",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3509724",
+    "error": null,
+    "seconds": 1.0,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "9222587",
+    "error": null,
+    "seconds": 1.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31069888",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31862786",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3472254",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "10147493",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5574685",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "22642283",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1668792",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1218893",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "861530",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3472257",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7419868",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1647887",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6608526",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "32243223",
+    "error": null,
+    "seconds": 1.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3288810",
+    "error": null,
+    "seconds": 1.6,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1674257",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3289716",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "22642828",
+    "error": null,
+    "seconds": 1.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1663610",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6627612",
+    "error": null,
+    "seconds": 1.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3288558",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "859725",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4021886",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "22722079",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4962413",
+    "error": null,
+    "seconds": 1.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31489427",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "29491752",
+    "error": null,
+    "seconds": 1.2,
+    "level": "secondary",
+    "rule": "retrospective or analytic"
+   },
+   {
+    "id": "6734403",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5740842",
+    "error": null,
+    "seconds": 1.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5443297",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4082157",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "456231",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "4999588",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992822",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992809",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10149448",
+    "error": null,
+    "seconds": 1.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1392311",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3471613",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689813",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992999",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688082",
+    "error": null,
+    "seconds": 0.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6833395",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992860",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999587",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992805",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6735202",
+    "error": null,
+    "seconds": 0.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5994027",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7485800",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6884064",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992986",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688143",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1432847",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992820",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992836",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31494627",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5992988",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7597779",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992804",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992996",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999578",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992979",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6450266",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "29385201",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992808",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6884093",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992865",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31445428",
+    "error": null,
+    "seconds": 3.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999584",
+    "error": null,
+    "seconds": 0.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992970",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3471611",
+    "error": null,
+    "seconds": 1.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992995",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1223548",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31445426",
+    "error": null,
+    "seconds": 3.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10146297",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7688933",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7688100",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3121390",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7765779",
+    "error": null,
+    "seconds": 1.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999586",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5920780",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "32333504",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7767943",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1627708",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992858",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3642708",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "10149446",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992834",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689260",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7688793",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6883981",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3460127",
+    "error": null,
+    "seconds": 1.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5691138",
+    "error": null,
+    "seconds": 1.3,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6323151",
+    "error": null,
+    "seconds": 1.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7689335",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3397444",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7762257",
+    "error": null,
+    "seconds": 1.2,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7290303",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3130086",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5992974",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3838035",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7689334",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992829",
+    "error": null,
+    "seconds": 0.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7421918",
+    "error": null,
+    "seconds": 1.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992958",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7688081",
+    "error": null,
+    "seconds": 0.7,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4999585",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992868",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31494895",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "29585795",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2524627",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5992852",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992856",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "13246979",
+    "error": null,
+    "seconds": 1.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6422267",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5992841",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992827",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5992840",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683075",
+    "error": null,
+    "seconds": 1.1,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684919",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684792",
+    "error": null,
+    "seconds": 1.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685222",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4239392",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683295",
+    "error": null,
+    "seconds": 2.5,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683217",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685311",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32685009",
+    "error": null,
+    "seconds": 1.3,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32683450",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684657",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "4419709",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684259",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "32684760",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3348104",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3092631",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6436034",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "5751746",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "907283",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "2707787",
+    "error": null,
+    "seconds": 1.2,
+    "level": "secondary",
+    "rule": "press material (convention: secondary)"
+   },
+   {
+    "id": "5078900",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6690825",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "32048295",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "6437607",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3287727",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "1435952",
+    "error": null,
+    "seconds": 0.9,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3297405",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "29585582",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "663648",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "4660490",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1292465",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1423168",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "31440442",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "3281670",
+    "error": null,
+    "seconds": 0.7,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "1186351",
+    "error": null,
+    "seconds": 1.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6314718",
+    "error": null,
+    "seconds": 0.8,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "3061613",
+    "error": null,
+    "seconds": 0.9,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "7906809",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "7689550",
+    "error": null,
+    "seconds": 1.1,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6999561",
+    "error": null,
+    "seconds": 1.0,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "483876",
+    "error": null,
+    "seconds": 1.0,
+    "level": "tertiary",
+    "rule": "points to other records"
+   },
+   {
+    "id": "31888729",
+    "error": null,
+    "seconds": 0.8,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "2999337",
+    "error": null,
+    "seconds": 1.2,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "5586359",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   },
+   {
+    "id": "6901007",
+    "error": null,
+    "seconds": 0.6,
+    "level": "primary",
+    "rule": "created in the course of the activity it documents"
+   }
+  ]
+ }
+}

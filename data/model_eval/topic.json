@@ -1,0 +1,584 @@
+{
+ "feature": "topic",
+ "note": "Subject panel for 20 secondary/tertiary records (plan + vet passes, live Wikipedia and archive search). No reference exists; the models are compared with each other. Examples are in the outputs for a human look.",
+ "metrics": {
+  "apertus-v1-5-70b": {
+   "n": 20,
+   "errors": 0,
+   "mean_seconds": 26.8,
+   "identifiable_pct": 100.0,
+   "wikipedia_found_pct": 45.0
+  },
+  "apertus-v1-5-8b": {
+   "n": 20,
+   "errors": 0,
+   "mean_seconds": 21.8,
+   "identifiable_pct": 95.0,
+   "wikipedia_found_pct": 50.0
+  },
+  "agreement": {
+   "same_wikipedia_article_pct": 14.3,
+   "primary_dossier_overlap_pct": 32.5
+  }
+ },
+ "outputs": {
+  "apertus-v1-5-70b": [
+   {
+    "id": "1620165",
+    "error": null,
+    "seconds": 39.9,
+    "subject": "Swiss sovereignty rights on Lake Constance",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "5691182",
+     "3297616",
+     "3280373",
+     "5691159"
+    ]
+   },
+   {
+    "id": "5992970",
+    "error": null,
+    "seconds": 5.4,
+    "subject": "Swiss Federal Finance Department administrative records (1891)",
+    "identifiable": true,
+    "wikipedia": "Federal Department of Finance",
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728",
+     "5691202",
+     "3276286"
+    ]
+   },
+   {
+    "id": "32684760",
+    "error": null,
+    "seconds": 5.2,
+    "subject": "Lake Constance water management and international cooperation",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3280386",
+     "3280415",
+     "3280084",
+     "3281357",
+     "3281674",
+     "3282127",
+     "3980869"
+    ]
+   },
+   {
+    "id": "32684792",
+    "error": null,
+    "seconds": 40.6,
+    "subject": "Carnegie Foundation for Lifesavers (Switzerland)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "4739",
+     "3472416",
+     "3669386",
+     "3669388",
+     "1731834",
+     "1743187",
+     "32504603",
+     "32504604"
+    ]
+   },
+   {
+    "id": "22388266",
+    "error": null,
+    "seconds": 29.2,
+    "subject": "Greek parliamentary elections of 1974",
+    "identifiable": true,
+    "wikipedia": "1974 Greek parliamentary election",
+    "primary": []
+   },
+   {
+    "id": "1438637",
+    "error": null,
+    "seconds": 37.4,
+    "subject": "Swiss Society for Economic Surveillance (SSS)",
+    "identifiable": true,
+    "wikipedia": "Surveillance",
+    "primary": []
+   },
+   {
+    "id": "32338325",
+    "error": null,
+    "seconds": 15.5,
+    "subject": "Swiss diplomacy in the 1870s",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3459882"
+    ]
+   },
+   {
+    "id": "5992986",
+    "error": null,
+    "seconds": 9.5,
+    "subject": "Swiss Federal Finance Department administrative records management",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728"
+    ]
+   },
+   {
+    "id": "32684919",
+    "error": null,
+    "seconds": 14.7,
+    "subject": "Archival fonds of Ernst Alfred (1904–1973)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "1785329",
+     "1229595",
+     "2202224",
+     "3577396",
+     "3180470",
+     "2185791",
+     "2131087",
+     "2147162"
+    ]
+   },
+   {
+    "id": "3471613",
+    "error": null,
+    "seconds": 40.8,
+    "subject": "Swiss Federal Archives' 1859–1860 diary register",
+    "identifiable": true,
+    "wikipedia": "Swiss Federal Archives",
+    "primary": [
+     "3471608",
+     "3471609",
+     "3471610",
+     "3471611",
+     "3471612",
+     "3471614",
+     "3471593",
+     "3471595"
+    ]
+   },
+   {
+    "id": "5992860",
+    "error": null,
+    "seconds": 3.7,
+    "subject": "Swiss Federal Finance Department business protocols (1907)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728",
+     "5992729",
+     "5992730"
+    ]
+   },
+   {
+    "id": "3460127",
+    "error": null,
+    "seconds": 40.3,
+    "subject": "Swiss-Austrian border disputes in the Münstertal and Taufers region",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3460120",
+     "1450628",
+     "31588087",
+     "1632521",
+     "1620559"
+    ]
+   },
+   {
+    "id": "6608526",
+    "error": null,
+    "seconds": 13.6,
+    "subject": "Toledo Swiss Association",
+    "identifiable": true,
+    "wikipedia": "Swiss Americans",
+    "primary": [
+     "3460449",
+     "3460456",
+     "3460496",
+     "3460500",
+     "3460501",
+     "3460503",
+     "3460522",
+     "3460447"
+    ]
+   },
+   {
+    "id": "32685009",
+    "error": null,
+    "seconds": 36.7,
+    "subject": "Robert Hottinger's archival deposit",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3247177",
+     "3250173",
+     "3250021"
+    ]
+   },
+   {
+    "id": "904967",
+    "error": null,
+    "seconds": 40.1,
+    "subject": "Swiss Federal Council's stance during World War I",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": []
+   },
+   {
+    "id": "21681248",
+    "error": null,
+    "seconds": 39.7,
+    "subject": "Spain vs. Switzerland football match (1951)",
+    "identifiable": true,
+    "wikipedia": "Switzerland national football team",
+    "primary": [
+     "2159276"
+    ]
+   },
+   {
+    "id": "5994027",
+    "error": null,
+    "seconds": 4.2,
+    "subject": "Swiss federal administration financial transactions (1848–1873)",
+    "identifiable": true,
+    "wikipedia": "Federal Department of Finance",
+    "primary": [
+     "5992221",
+     "3276285",
+     "5993769"
+    ]
+   },
+   {
+    "id": "21726160",
+    "error": null,
+    "seconds": 39.6,
+    "subject": "Commemoration of the 20th anniversary of Germany's surrender in World War II",
+    "identifiable": true,
+    "wikipedia": "End of World War II in Europe",
+    "primary": []
+   },
+   {
+    "id": "3288810",
+    "error": null,
+    "seconds": 39.5,
+    "subject": "Swiss historical publications (1907–1922)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3288809"
+    ]
+   },
+   {
+    "id": "4999588",
+    "error": null,
+    "seconds": 40.0,
+    "subject": "Swiss diplomatic relations with the United Kingdom in 1939",
+    "identifiable": true,
+    "wikipedia": "Switzerland–United Kingdom relations",
+    "primary": [
+     "3669519",
+     "1731864",
+     "1317767"
+    ]
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "1620165",
+    "error": null,
+    "seconds": 34.7,
+    "subject": "Sovereignty rights on Lake Constance",
+    "identifiable": true,
+    "wikipedia": "Lake Constance",
+    "primary": [
+     "5691182"
+    ]
+   },
+   {
+    "id": "5992970",
+    "error": null,
+    "seconds": 2.1,
+    "subject": "Swiss Federal Finance Department administrative records index",
+    "identifiable": true,
+    "wikipedia": "Federal administration of Switzerland",
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728"
+    ]
+   },
+   {
+    "id": "32684760",
+    "error": null,
+    "seconds": 9.4,
+    "subject": "Lake Constance regulation",
+    "identifiable": true,
+    "wikipedia": "Lake Constance",
+    "primary": [
+     "3282046",
+     "3566404",
+     "1288937",
+     "861520",
+     "1732395",
+     "1751689",
+     "5747294",
+     "4865326"
+    ]
+   },
+   {
+    "id": "32684792",
+    "error": null,
+    "seconds": 37.5,
+    "subject": "Carnegie Foundation for Lifesavers",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "4739",
+     "3472416",
+     "3669386",
+     "3669388",
+     "1731834",
+     "1743187",
+     "32504603"
+    ]
+   },
+   {
+    "id": "22388266",
+    "error": null,
+    "seconds": 32.0,
+    "subject": "1974 Greek parliamentary election",
+    "identifiable": true,
+    "wikipedia": "1974 Greek parliamentary election",
+    "primary": []
+   },
+   {
+    "id": "1438637",
+    "error": null,
+    "seconds": 35.2,
+    "subject": "Swiss Society for Economic Surveillance (SSS)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": []
+   },
+   {
+    "id": "32338325",
+    "error": null,
+    "seconds": 13.5,
+    "subject": "Swiss diplomacy in Paris during the 1870s",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "7688457",
+     "7688458",
+     "7688151",
+     "7689718",
+     "29492040",
+     "29492041",
+     "29492042",
+     "29492043"
+    ]
+   },
+   {
+    "id": "5992986",
+    "error": null,
+    "seconds": 1.9,
+    "subject": "Swiss Federal Finance Department records management",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728"
+    ]
+   },
+   {
+    "id": "32684919",
+    "error": null,
+    "seconds": 12.5,
+    "subject": "Ernst Alfred (1904-1973)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3180470",
+     "2185791",
+     "2131087",
+     "2147162"
+    ]
+   },
+   {
+    "id": "3471613",
+    "error": null,
+    "seconds": 30.8,
+    "subject": "Diaries (1859-1860)",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "3471593",
+     "3471595",
+     "3471597",
+     "3471598",
+     "3471599",
+     "3471600",
+     "3471601",
+     "3501912"
+    ]
+   },
+   {
+    "id": "5992860",
+    "error": null,
+    "seconds": 2.0,
+    "subject": "Swiss Federal Finance Department business protocols",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": [
+     "5992723",
+     "5992724",
+     "5992725",
+     "5992726",
+     "5992727",
+     "5992728",
+     "5992729",
+     "5992730"
+    ]
+   },
+   {
+    "id": "3460127",
+    "error": null,
+    "seconds": 3.1,
+    "subject": "Swiss-Austrian border disputes",
+    "identifiable": true,
+    "wikipedia": "Austria–Switzerland border",
+    "primary": [
+     "3460124",
+     "3460131",
+     "3460132",
+     "3460114",
+     "3460121"
+    ]
+   },
+   {
+    "id": "6608526",
+    "error": null,
+    "seconds": 36.0,
+    "subject": "Toledo Swiss Association",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": []
+   },
+   {
+    "id": "32685009",
+    "error": null,
+    "seconds": 0.6,
+    "subject": "Robert Hottinger archival materials",
+    "identifiable": false,
+    "wikipedia": null,
+    "primary": []
+   },
+   {
+    "id": "904967",
+    "error": null,
+    "seconds": 31.6,
+    "subject": "Swiss-US relations during World War I",
+    "identifiable": true,
+    "wikipedia": "World War I",
+    "primary": [
+     "1640294"
+    ]
+   },
+   {
+    "id": "21681248",
+    "error": null,
+    "seconds": 36.7,
+    "subject": "Spain vs Switzerland football match",
+    "identifiable": true,
+    "wikipedia": "Spain national football team",
+    "primary": [
+     "2159276"
+    ]
+   },
+   {
+    "id": "5994027",
+    "error": null,
+    "seconds": 38.1,
+    "subject": "Swiss federal administration financial records",
+    "identifiable": true,
+    "wikipedia": "Federal Finance Administration",
+    "primary": [
+     "4026446",
+     "4026467",
+     "1642829",
+     "1643636",
+     "32536132",
+     "32536133",
+     "32268875",
+     "32254304"
+    ]
+   },
+   {
+    "id": "21726160",
+    "error": null,
+    "seconds": 3.8,
+    "subject": "20th Anniversary of Germany's Surrender in World War II",
+    "identifiable": true,
+    "wikipedia": null,
+    "primary": []
+   },
+   {
+    "id": "3288810",
+    "error": null,
+    "seconds": 37.8,
+    "subject": "Swiss historical publications and cultural heritage works",
+    "identifiable": true,
+    "wikipedia": "History of Switzerland",
+    "primary": [
+     "3287640",
+     "7688670",
+     "7688671",
+     "7688672",
+     "7688675",
+     "7688683",
+     "7618395",
+     "7618421"
+    ]
+   },
+   {
+    "id": "4999588",
+    "error": null,
+    "seconds": 37.5,
+    "subject": "Swiss diplomatic relations with the United Kingdom in 1939",
+    "identifiable": true,
+    "wikipedia": "Switzerland–United Kingdom relations",
+    "primary": [
+     "30512386",
+     "30512388"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1871 @@
+{
+ "feature": "consultations",
+ "note": "Topic tagging of the first 100 consultation procedures (batches of 10, as in the pipeline). No reference exists; topics outside the fixed list count as invalid.",
+ "metrics": {
+  "apertus-v1-5-70b": {
+   "n": 10,
+   "errors": 0,
+   "mean_seconds": 12.2,
+   "procedures_tagged_pct": 99.0,
+   "invalid_topic_labels": 3
+  },
+  "apertus-v1-5-8b": {
+   "n": 10,
+   "errors": 0,
+   "mean_seconds": 4.7,
+   "procedures_tagged_pct": 94.0,
+   "invalid_topic_labels": 18
+  },
+  "agreement": {
+   "same_first_topic_pct": 74.2,
+   "topic_set_overlap_pct": 69.9,
+   "n": 93
+  }
+ },
+ "outputs": {
+  "apertus-v1-5-70b": [
+   {
+    "id": "b0",
+    "error": null,
+    "seconds": 11.2,
+    "tags": {
+     "1": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Film Act"
+     },
+     "2": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Railway Act"
+     },
+     "3": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act on Hunting and Bird Protection"
+     },
+     "4": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of Civil Code Provisions on Building Law"
+     },
+     "5": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Cartel Act"
+     },
+     "6": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Poison Act"
+     },
+     "7": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Act on Contributions to Cantonal Scholarship Expenses"
+     },
+     "8": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Nature and Homeland Protection"
+     },
+     "9": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Investment Risk Guarantee"
+     },
+     "10": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Counterproposal to Popular Initiative on Land Speculation: Draft New Art. 22Ter of the Federal Constitution"
+     }
+    },
+    "asked": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   {
+    "id": "b1",
+    "error": null,
+    "seconds": 9.9,
+    "tags": {
+     "11": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Act on Ordinance Fines for Road Traffic Offences"
+     },
+     "12": {
+      "topics": [
+       "economy",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft and Report for Revision of National Bank Act"
+     },
+     "13": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision Project of the Epidemics Act"
+     },
+     "14": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Exports in the Forest Economy Sector"
+     },
+     "15": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Act on Higher Education Funding"
+     },
+     "16": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Reform of Foreign Workers' Regulations"
+     },
+     "17": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Turnen und Sport: Constitutional Basis for Promotion"
+     },
+     "18": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Foreign Workers"
+     },
+     "19": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Radio and Television: Constitutional Article"
+     },
+     "20": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Reform of Foreign Workers' Regulations"
+     }
+    },
+    "asked": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20"
+    ]
+   },
+   {
+    "id": "b2",
+    "error": null,
+    "seconds": 10.3,
+    "tags": {
+     "21": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft message, federal law and ordinance on performance organization and the Council for Total Defense"
+     },
+     "22": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Proposal for constitutional article on promotion of gymnastics and sport"
+     },
+     "23": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of Art. 51 and 52 of the Federal Constitution regarding monastery and Jesuit prohibition (Kägi opinion)"
+     },
+     "24": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on the Protection of Waters against Pollution"
+     },
+     "25": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Amendment of Art. 9 of the Road Traffic Act"
+     },
+     "26": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft and report for revision of the Banking Act"
+     },
+     "27": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Creation of a Jura electoral district (Motion Wilhelm) (Revision Art. 73 of the Federal Constitution)"
+     },
+     "28": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Political legal status of women in cantons and municipalities"
+     },
+     "29": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Working Time Act"
+     },
+     "30": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial revision of Ordinance I to the Labour Act"
+     }
+    },
+    "asked": [
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29",
+     "30"
+    ]
+   },
+   {
+    "id": "b3",
+    "error": null,
+    "seconds": 12.5,
+    "tags": {
+     "31": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Swiss Shipping Matters (Federal Council Report)"
+     },
+     "32": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Questionnaire on New Foreign Workers Regulation"
+     },
+     "33": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Watchmaking Legislation Post-1971 (Federal Law on Official Quality Control in Swiss Watch Industry)"
+     },
+     "34": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on the Organization of the Embroidery Trust Cooperative"
+     },
+     "35": {
+      "topics": [
+       "migration"
+      ],
+      "invalid_topics": [],
+      "title_en": "Free Naturalization of Young Foreigners Born and Raised in Switzerland. Amendment to the Citizenship Act (BüG)"
+     },
+     "36": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Standard Employment Contracts for Assistant Physicians and Nursing Staff"
+     },
+     "37": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Postulate Lang: Music as a Maturity Subject (Revision of Maturity Recognition Ordinance)"
+     },
+     "38": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Dairy Industry Decree 1971 and Milk Decree"
+     },
+     "39": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act of March 23, 1962 on Investment Credits and Operating Assistance in Agriculture"
+     },
+     "40": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Soil Improvement Ordinance"
+     }
+    },
+    "asked": [
+     "31",
+     "32",
+     "33",
+     "34",
+     "35",
+     "36",
+     "37",
+     "38",
+     "39",
+     "40"
+    ]
+   },
+   {
+    "id": "b4",
+    "error": null,
+    "seconds": 14.8,
+    "tags": {
+     "41": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "National Road Ancillary Facilities Act"
+     },
+     "42": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on the Tendering and Award of Works and Supplies for Federal Construction Projects (Submission Ordinance)"
+     },
+     "43": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance I and II for the Housing Promotion Act"
+     },
+     "44": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Ordinance Fines in Road Traffic / Fine List"
+     },
+     "45": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Federal Contributions to Costs of Animal Disease Control and Meat Hygiene"
+     },
+     "46": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Fee Schedule for Enforcement of Debt and Livestock Pledge Ordinance"
+     },
+     "47": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Message and Draft Act on Amendment of Rural Civil Law"
+     },
+     "48": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Agricultural Education and Research"
+     },
+     "49": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance for the Act on Improving Housing Conditions in Mountainous Regions"
+     },
+     "50": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Questionnaire for the New ETH Act"
+     }
+    },
+    "asked": [
+     "41",
+     "42",
+     "43",
+     "44",
+     "45",
+     "46",
+     "47",
+     "48",
+     "49",
+     "50"
+    ]
+   },
+   {
+    "id": "b5",
+    "error": null,
+    "seconds": 12.5,
+    "tags": {
+     "51": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Constitutional Article on Housing Construction"
+     },
+     "52": {
+      "topics": [
+       "migration"
+      ],
+      "invalid_topics": [],
+      "title_en": "Agreement on the Status of Stateless Persons"
+     },
+     "53": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [
+       "sports"
+      ],
+      "title_en": "Federal Act on Promotion of Gymnastics and Sports"
+     },
+     "54": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Swiss-German Double Taxation Agreement"
+     },
+     "55": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of Ordinance II on the Labour Act"
+     },
+     "56": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Decree on Rhine Ports under Article 27 of the Labour Act"
+     },
+     "57": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "Question of Creating Federal Legislation on Explosives"
+     },
+     "58": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Ski Lifts and Cableways for Passenger Transport without Federal Concession"
+     },
+     "59": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Spatial Planning"
+     },
+     "60": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Fees for Physicians and Dentists (Federal Council Report)"
+     }
+    },
+    "asked": [
+     "51",
+     "52",
+     "53",
+     "54",
+     "55",
+     "56",
+     "57",
+     "58",
+     "59",
+     "60"
+    ]
+   },
+   {
+    "id": "b6",
+    "error": null,
+    "seconds": 13.0,
+    "tags": {
+     "61": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Fisheries"
+     },
+     "62": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on the Export of Meat and Meat Products"
+     },
+     "63": {
+      "topics": [
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Decree on Economic Measures against Foreign Countries"
+     },
+     "64": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Recognition of Political Parties in the Federal Constitution"
+     },
+     "65": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Constitution on AHV and IV"
+     },
+     "66": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Council Decree on Amendment of the Road Signage Ordinance (SSV)"
+     },
+     "67": {
+      "topics": [],
+      "invalid_topics": [],
+      "title_en": "Ordinance on the Collection of Calibration Fees"
+     },
+     "68": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance Implementing the Poison Act"
+     },
+     "69": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "New Constitution of Articles 27 and 27bis of the Federal Constitution (Education and Research Articles)"
+     },
+     "70": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Increase in Federal Contributions for Vocational Education Buildings"
+     }
+    },
+    "asked": [
+     "61",
+     "62",
+     "63",
+     "64",
+     "65",
+     "66",
+     "67",
+     "68",
+     "69",
+     "70"
+    ]
+   },
+   {
+    "id": "b7",
+    "error": null,
+    "seconds": 10.7,
+    "tags": {
+     "71": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Long-term National Highway Construction Program"
+     },
+     "72": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Constitution: Tobacco Taxation Authority"
+     },
+     "73": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Financing the New Building for Changins"
+     },
+     "74": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Constitution: Water Management"
+     },
+     "75": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance to the Banking Act"
+     },
+     "76": {
+      "topics": [
+       "energy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Financial Support for Preliminary Energy Research"
+     },
+     "77": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Swiss-American Mutual Legal Assistance Treaty in Criminal Matters"
+     },
+     "78": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Copyright"
+     },
+     "79": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance to the Customs Act"
+     },
+     "80": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Inland Navigation Act"
+     }
+    },
+    "asked": [
+     "71",
+     "72",
+     "73",
+     "74",
+     "75",
+     "76",
+     "77",
+     "78",
+     "79",
+     "80"
+    ]
+   },
+   {
+    "id": "b8",
+    "error": null,
+    "seconds": 13.8,
+    "tags": {
+     "81": {
+      "topics": [
+       "economy",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Installment and Advance Payment Contracts (Deonna Initiative)"
+     },
+     "82": {
+      "topics": [
+       "foreign policy",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Report on Tax Relations between Switzerland and Developing Countries"
+     },
+     "83": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Constitution: Article 51quinquies on Economic Stabilization"
+     },
+     "84": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Road Traffic Act"
+     },
+     "85": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Emergency Measures for Construction Planning"
+     },
+     "86": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Measures for Financing High-Sea Tonnage for National Supply Security"
+     },
+     "87": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Biodegradability of Detergents"
+     },
+     "88": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on Stamp Duties"
+     },
+     "89": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [
+       "sports"
+      ],
+      "title_en": "Draft Ordinance on Federal Grants for Sports Training Facilities"
+     },
+     "90": {
+      "topics": [
+       "foreign policy"
+      ],
+      "invalid_topics": [
+       "development"
+      ],
+      "title_en": "Draft Federal Act on International Development Cooperation and Humanitarian Aid"
+     }
+    },
+    "asked": [
+     "81",
+     "82",
+     "83",
+     "84",
+     "85",
+     "86",
+     "87",
+     "88",
+     "89",
+     "90"
+    ]
+   },
+   {
+    "id": "b9",
+    "error": null,
+    "seconds": 13.8,
+    "tags": {
+     "91": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Principles for a Federal Act on Occupational Old-Age, Survivors', and Invalidity Provision"
+     },
+     "92": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Act on the Protection of Manufacturers of Sound Recordings"
+     },
+     "93": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act on Narcotics"
+     },
+     "94": {
+      "topics": [
+       "labour",
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act on Unemployment Insurance"
+     },
+     "95": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on the Supervision of Private Insurance Companies"
+     },
+     "96": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Popular Initiative on Employee Co-determination"
+     },
+     "97": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "New Regulation of Military Service Tax for Swiss Abroad"
+     },
+     "98": {
+      "topics": [
+       "migration"
+      ],
+      "invalid_topics": [],
+      "title_en": "Amendments to Articles 45 and 48 of the Federal Constitution"
+     },
+     "99": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Welfare Benefits for Swiss Abroad"
+     },
+     "100": {
+      "topics": [
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Council of Europe: Draft European Agreement on Calculation of Periods & Draft European Agreement on Place of Payment for Money Debts"
+     }
+    },
+    "asked": [
+     "91",
+     "92",
+     "93",
+     "94",
+     "95",
+     "96",
+     "97",
+     "98",
+     "99",
+     "100"
+    ]
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "b0",
+    "error": null,
+    "seconds": 4.1,
+    "tags": {
+     "1": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Law on Film Affairs"
+     },
+     "2": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Railway Act"
+     },
+     "3": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act on Hunting and Bird Protection"
+     },
+     "4": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of Civil Code Provisions on Building Law"
+     },
+     "5": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Cartel Act"
+     },
+     "6": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Poisons Act"
+     },
+     "7": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Law on Grants for Cantonal Stipend Expenditures"
+     },
+     "8": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Nature and Homeland Protection"
+     },
+     "9": {
+      "topics": [
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Investment Risk Guarantee"
+     },
+     "10": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Swiss Federal Constitution: Land Speculation"
+     }
+    },
+    "asked": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   {
+    "id": "b1",
+    "error": null,
+    "seconds": 4.6,
+    "tags": {
+     "11": {
+      "topics": [
+       "transport",
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Law on Traffic Violations and Ordinary Fines"
+     },
+     "12": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [
+       "finance"
+      ],
+      "title_en": "Draft and Report for Revision of the National Bank Act"
+     },
+     "13": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Epidemics Act Revision Project"
+     },
+     "14": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Export Regulations in the Forestry Sector"
+     },
+     "15": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Law on Higher Education Funding"
+     },
+     "16": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Restructuring of Foreign Worker Regulations"
+     },
+     "17": {
+      "topics": [
+       "education & research",
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Turnen and Sport: Legal Basis for Promotion"
+     },
+     "18": {
+      "topics": [
+       "migration"
+      ],
+      "invalid_topics": [],
+      "title_en": "Foreign Workers"
+     },
+     "19": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Radio and Television: Constitutional Articles"
+     },
+     "20": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Restructuring of Foreign Worker Regulations"
+     }
+    },
+    "asked": [
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20"
+    ]
+   },
+   {
+    "id": "b2",
+    "error": null,
+    "seconds": 4.5,
+    "tags": {
+     "21": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Messages, Federal Laws, and Ordinances on Defense Organization and the Council for Total Defense"
+     },
+     "22": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Legal Basis for the Promotion of Gymnastics and Sports. Proposal for Constitutional Articles"
+     },
+     "23": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Monastery and Jesuit Ban: Revision of Articles 51 and 52 of the Federal Constitution (Kägi Report)"
+     },
+     "24": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on the Protection of Waters Against Pollution"
+     },
+     "25": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Road Traffic Act. Amendment of Article 9 of the SVG"
+     },
+     "26": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft and Report on the Revision of the Banking Act"
+     },
+     "27": {
+      "topics": [
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Creation of a Jurassian Electoral District (Wilhelm Motion) (Revision of Article 73 of the Federal Constitution)"
+     },
+     "28": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Political Status of Women in Cantons and Municipalities"
+     },
+     "29": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on Working Hours"
+     },
+     "30": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of Ordinance I to the Federal Act on Working Hours"
+     }
+    },
+    "asked": [
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29",
+     "30"
+    ]
+   },
+   {
+    "id": "b3",
+    "error": null,
+    "seconds": 5.4,
+    "tags": {
+     "31": {
+      "topics": [
+       "transport",
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Swiss Shipping Matters (Federal Council Report)"
+     },
+     "32": {
+      "topics": [
+       "migration",
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Questionnaire on New Foreign Worker Regulations"
+     },
+     "33": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [
+       "industry"
+      ],
+      "title_en": "Watchmaking Quality Control Legislation (1971)"
+     },
+     "34": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [
+       "industry"
+      ],
+      "title_en": "Cooperative Trust Association Organization Act"
+     },
+     "35": {
+      "topics": [
+       "social policy & insurance",
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Free Naturalization for Young Swiss-Born and Raised Foreigners (Citizenship Law Amendment)"
+     },
+     "36": {
+      "topics": [
+       "labour",
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Standard Employment Contracts for Assistant Physicians and Nursing Staff"
+     },
+     "37": {
+      "topics": [
+       "education & research",
+       "culture, media & language"
+      ],
+      "invalid_topics": [],
+      "title_en": "Postulate Lang: Music as a Maturity Subject (Revision of the Maturity Recognition Ordinance)"
+     },
+     "38": {
+      "topics": [
+       "agriculture",
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Dairy Industry Resolution 1971 and Milk Resolution"
+     },
+     "39": {
+      "topics": [
+       "agriculture",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Investment Credit and Agricultural Business Support Act (1962)"
+     },
+     "40": {
+      "topics": [
+       "agriculture",
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Soil Improvement Ordinance"
+     }
+    },
+    "asked": [
+     "31",
+     "32",
+     "33",
+     "34",
+     "35",
+     "36",
+     "37",
+     "38",
+     "39",
+     "40"
+    ]
+   },
+   {
+    "id": "b4",
+    "error": null,
+    "seconds": 5.3,
+    "tags": {
+     "41": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Auxiliary Facilities on National Roads"
+     },
+     "42": {
+      "topics": [
+       "economy",
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Submissions Ordinance for Federal Construction Works"
+     },
+     "43": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance I and II to the Federal Act on Measures to Promote Housing Construction"
+     },
+     "44": {
+      "topics": [
+       "justice & police",
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Traffic Violations and Fine List"
+     },
+     "45": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Federal Contracts for Animal Disease Control and Meat Hygiene Costs"
+     },
+     "46": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Fees Tariff of the Swiss Code of Civil Procedure and Livestock Pledge Ordinance"
+     },
+     "47": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Message and Draft Federal Act on Amendment of Rural Civil Law"
+     },
+     "48": {
+      "topics": [
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Ordinance on Agricultural Education and Research"
+     },
+     "49": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Implementation Ordinance to the Federal Act on Improving Living Conditions in Mountainous Areas"
+     },
+     "50": {
+      "topics": [
+       "education & research"
+      ],
+      "invalid_topics": [],
+      "title_en": "Questionnaire for the New ETH Act"
+     }
+    },
+    "asked": [
+     "41",
+     "42",
+     "43",
+     "44",
+     "45",
+     "46",
+     "47",
+     "48",
+     "49",
+     "50"
+    ]
+   },
+   {
+    "id": "b5",
+    "error": null,
+    "seconds": 4.5,
+    "tags": {
+     "51": {
+      "topics": [
+       "housing"
+      ],
+      "invalid_topics": [],
+      "title_en": "Constitutional Amendment: Housing Construction"
+     },
+     "52": {
+      "topics": [
+       "migration"
+      ],
+      "invalid_topics": [],
+      "title_en": "Agreement on the Status of Stateless Persons"
+     },
+     "53": {
+      "topics": [],
+      "invalid_topics": [
+       "sport"
+      ],
+      "title_en": "Federal Act on the Promotion of Gymnastics and Sports"
+     },
+     "54": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Swiss-German Double Taxation Agreement"
+     },
+     "55": {
+      "topics": [],
+      "invalid_topics": [
+       "labor"
+      ],
+      "title_en": "Revision of Ordinance II to the Labor Act"
+     },
+     "56": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Decree on the Rhine Ports under Article 27 of the Labor Act"
+     },
+     "57": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "Question of Creating Federal Legislation on Explosives"
+     },
+     "58": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Regulation on Ski Lifts and Aerial Cableways without Federal Licence"
+     },
+     "59": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Spatial Planning Act"
+     },
+     "60": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Honorary Fees of Doctors and Dentists (Federal Council Report)"
+     }
+    },
+    "asked": [
+     "51",
+     "52",
+     "53",
+     "54",
+     "55",
+     "56",
+     "57",
+     "58",
+     "59",
+     "60"
+    ]
+   },
+   {
+    "id": "b6",
+    "error": null,
+    "seconds": 5.4,
+    "tags": {
+     "61": {
+      "topics": [
+       "agriculture",
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Law on Fisheries"
+     },
+     "62": {
+      "topics": [
+       "agriculture",
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Regulation on the Export of Meat and Meat Products"
+     },
+     "63": {
+      "topics": [
+       "foreign policy",
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act on Economic Measures Against Foreign Countries"
+     },
+     "64": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [
+       "political institutions"
+      ],
+      "title_en": "Recognition of Political Parties in the Federal Constitution"
+     },
+     "65": {
+      "topics": [
+       "social policy & insurance",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Constitution in the Field of AHV and IV"
+     },
+     "66": {
+      "topics": [
+       "transport",
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Council Decree on Amendment of the Ordinance on Road Signalling (SSV)"
+     },
+     "67": {
+      "topics": [
+       "public finance & tax",
+       "agriculture"
+      ],
+      "invalid_topics": [],
+      "title_en": "Enforcement Ordinance on the Collection of Weighing Fees"
+     },
+     "68": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [
+       "public health"
+      ],
+      "title_en": "Enforcement Ordinance to the Toxic Substances Act"
+     },
+     "69": {
+      "topics": [
+       "education & research",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "New Constitution of Articles 27 and 27bis (Education and Research Articles)"
+     },
+     "70": {
+      "topics": [
+       "education & research",
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Increase in Federal Contributions for Vocational Education Buildings (Amendment of the Federal Act on Vocational Education (September 1, 1971))"
+     }
+    },
+    "asked": [
+     "61",
+     "62",
+     "63",
+     "64",
+     "65",
+     "66",
+     "67",
+     "68",
+     "69",
+     "70"
+    ]
+   },
+   {
+    "id": "b7",
+    "error": null,
+    "seconds": 3.9,
+    "tags": {
+     "71": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "National Roads Construction: Long-term Construction Program"
+     },
+     "72": {
+      "topics": [],
+      "invalid_topics": [
+       "tax",
+       "law"
+      ],
+      "title_en": "Partial Revision of the Federal Constitution: Amendment to Article 41bis regarding Federal Competence in Tobacco Taxation"
+     },
+     "73": {
+      "topics": [],
+      "invalid_topics": [
+       "education",
+       "public finance"
+      ],
+      "title_en": "Financing of Changins New Building"
+     },
+     "74": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [
+       "law"
+      ],
+      "title_en": "Constitutional Articles on Water Management"
+     },
+     "75": {
+      "topics": [],
+      "invalid_topics": [
+       "finance",
+       "law"
+      ],
+      "title_en": "Executive Ordinance to the Banking Act"
+     },
+     "76": {
+      "topics": [
+       "energy"
+      ],
+      "invalid_topics": [
+       "research"
+      ],
+      "title_en": "Financial Support for Preliminary Research in Energy Economy"
+     },
+     "77": {
+      "topics": [
+       "foreign policy",
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Swiss-American Mutual Legal Assistance Agreement in Criminal Matters"
+     },
+     "78": {
+      "topics": [
+       "culture, media & language"
+      ],
+      "invalid_topics": [
+       "law"
+      ],
+      "title_en": "Copyright Act"
+     },
+     "79": {
+      "topics": [],
+      "invalid_topics": [
+       "trade",
+       "law"
+      ],
+      "title_en": "Executive Ordinance to the Customs Act"
+     },
+     "80": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Inland Water Transport Act"
+     }
+    },
+    "asked": [
+     "71",
+     "72",
+     "73",
+     "74",
+     "75",
+     "76",
+     "77",
+     "78",
+     "79",
+     "80"
+    ]
+   },
+   {
+    "id": "b8",
+    "error": null,
+    "seconds": 4.4,
+    "tags": {
+     "81": {
+      "topics": [
+       "public finance & tax",
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Deonna Initiative on Payment and Advance Contracts"
+     },
+     "82": {
+      "topics": [
+       "public finance & tax",
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Report on Tax Relations with Developing Countries"
+     },
+     "83": {
+      "topics": [
+       "economy",
+       "state & institutions"
+      ],
+      "invalid_topics": [],
+      "title_en": "Constitutional Amendment Article 51quinquies for Economic Stabilization"
+     },
+     "84": {
+      "topics": [
+       "transport"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Road Traffic Act"
+     },
+     "85": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Urgent Measures for Construction Planning"
+     },
+     "86": {
+      "topics": [
+       "energy",
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Measures for Financing Essential Sea Tonsage"
+     },
+     "87": {
+      "topics": [
+       "environment & spatial planning"
+      ],
+      "invalid_topics": [],
+      "title_en": "Regulation on Biodegradability of Cleaning Products"
+     },
+     "88": {
+      "topics": [
+       "public finance & tax"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Stamp Duty Act"
+     },
+     "89": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Ordinance on Federal Contributions for Sports Facilities"
+     },
+     "90": {
+      "topics": [
+       "foreign policy",
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Law on International Development Cooperation and Humanitarian Aid"
+     }
+    },
+    "asked": [
+     "81",
+     "82",
+     "83",
+     "84",
+     "85",
+     "86",
+     "87",
+     "88",
+     "89",
+     "90"
+    ]
+   },
+   {
+    "id": "b9",
+    "error": null,
+    "seconds": 4.8,
+    "tags": {
+     "91": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Principles for a Federal Act on Professional Old-Age, Survivors', and Disability Insurance"
+     },
+     "92": {
+      "topics": [
+       "economy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Draft Federal Act on the Protection of Recorded Sound Carriers"
+     },
+     "93": {
+      "topics": [
+       "health"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act of October 3, 1951 on Narcotic Drugs"
+     },
+     "94": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Partial Revision of the Federal Act on Unemployment Insurance"
+     },
+     "95": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Revision of the Federal Act of June 25, 1885 Concerning the Supervision of Private Undertakings in the Field of Insurance"
+     },
+     "96": {
+      "topics": [
+       "labour"
+      ],
+      "invalid_topics": [],
+      "title_en": "Popular Initiative on Worker Participation"
+     },
+     "97": {
+      "topics": [
+       "security & army"
+      ],
+      "invalid_topics": [],
+      "title_en": "Regulation of Military Service Tax for Swiss Abroad"
+     },
+     "98": {
+      "topics": [
+       "justice & police"
+      ],
+      "invalid_topics": [],
+      "title_en": "Amendments to Articles 45 (Abolition of Residence Restrictions) and 48 (Restructuring of Support Responsibility) of the Swiss Federal Constitution"
+     },
+     "99": {
+      "topics": [
+       "social policy & insurance"
+      ],
+      "invalid_topics": [],
+      "title_en": "Federal Act on Welfare Benefits for Swiss Abroad"
+     },
+     "100": {
+      "topics": [
+       "foreign policy"
+      ],
+      "invalid_topics": [],
+      "title_en": "Council of Europe: Draft European Agreement on Time Calculation and Draft European Agreement on Place of Payment for Monetary Obligations"
+     }
+    },
+    "asked": [
+     "91",
+     "92",
+     "93",
+     "94",
+     "95",
+     "96",
+     "97",
+     "98",
+     "99",
+     "100"
+    ]
+   }
+  ]
+ }
+}

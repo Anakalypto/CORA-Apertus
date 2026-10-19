@@ -1,0 +1,4726 @@
+{
+ "feature": "imagination",
+ "note": "Trust-card Imagination band, generated fresh by both models from the same evidence/context items. Checks are model-independent (narrative.imagine): unsourced = no valid footnote; support = share of the sentence's content words found in the cited items; weakly supported = cited but support < 0.2.",
+ "metrics": {
+  "apertus-v1-5-70b": {
+   "n": 100,
+   "errors": 0,
+   "mean_seconds": 1.8,
+   "sentences_per_text": 1.1,
+   "unsourced_sentences_pct": 0.0,
+   "weakly_supported_pct": 22.1,
+   "mean_support_pct": 31.3
+  },
+  "apertus-v1-5-8b": {
+   "n": 100,
+   "errors": 0,
+   "mean_seconds": 0.9,
+   "sentences_per_text": 1.8,
+   "unsourced_sentences_pct": 0.0,
+   "weakly_supported_pct": 23.9,
+   "mean_support_pct": 30.2
+  }
+ },
+ "outputs": {
+  "apertus-v1-5-70b": [
+   {
+    "id": "22406340",
+    "error": null,
+    "seconds": 2.3,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives preserves a 1985 television news segment from Télévision Suisse Romande titled \"LOECHE / OPP.LIGNE HAUTE TENSION\" which features footage of high-voltage pylons in the Valais region near Loeche-les-Bains.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.32,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21730247",
+    "error": null,
+    "seconds": 2.9,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 30-second black-and-white news clip from the Tagesschau broadcast on November 23, 1965, featuring Abdel Moniem el-Banna, the Secretary-General of the Council for the Arab Economic Unity, discussing the Arab common market.",
+      "refs": [
+       "E1",
+       "E2",
+       "E5",
+       "E6",
+       "E7",
+       "E8",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21690234",
+    "error": null,
+    "seconds": 2.8,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1974 film report titled 'Die Geschlagenen' (The Defeated), which documents the Tour de Suisse from the perspective of cyclists who abandon the race, highlighting the commercialization of the event and the stark contrast between celebrated winners and overlooked dropouts.",
+      "refs": [
+       "E1",
+       "E10",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.13,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "29668237",
+    "error": null,
+    "seconds": 2.5,
+    "sentences": [
+     {
+      "text": "On March 9, 2007, the Swiss Federal Archives preserved a video documenting the landmark ruling in Lausanne where Dogu Perincek was convicted by the police court for violating the Anti-Racism Act, marking the world's first judgment for denying the Armenian Genocide.",
+      "refs": [
+       "E1",
+       "E2",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.13,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21810037",
+    "error": null,
+    "seconds": 2.3,
+    "sentences": [
+     {
+      "text": "The Swiss news broadcast \"Tagesschau\" from February 4, 1985, covered the debate over the construction of the A4 highway in the Knonauer Amt region of Zurich, featuring landscape impressions and protests by farmers.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.19,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21795934",
+    "error": null,
+    "seconds": 2.7,
+    "sentences": [
+     {
+      "text": "On August 5, 1980, Swiss television broadcast footage from Hiroshima marking the 35th anniversary of the atomic bombing, featuring British Nobel Peace Prize winner Philip Noel-Baker alongside Japanese politician Takeshi Araki among demonstrators in the Peace Park.",
+      "refs": [
+       "E1",
+       "E10",
+       "E8",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.46,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21785789",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse produced a segment for the Tagesschau news program on August 31, 1977, filmed in Zürich, focusing on dental hygiene education.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21743659",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse preserved a 1967 news broadcast from its \"Tagesschau\" program featuring a speech by U.S. Senator Stuart Symington, who called for an end to all U.S. attacks in Vietnam.",
+      "refs": [
+       "E1",
+       "E2",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.56,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29666896",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "This archival video record documents Vreni Spoerry, a Swiss politician and former Swissair board member, during the Swissair legal proceedings in Bülach, Zurich, on February 28, 2007.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21726160",
+    "error": null,
+    "seconds": 5.2,
+    "sentences": [
+     {
+      "text": "On May 8, 1965, Swiss television broadcast a news report covering commemorative events marking the 20th anniversary of Germany's surrender in World War II across multiple European capitals.",
+      "refs": [
+       "E1",
+       "E10",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "Leaders including West German President Heinrich Lübke and Chancellor Ludwig Erhard participated in a wreath-laying ceremony in Bonn, while East German leader Walter Ulbricht stood before a war memorial in Berlin.",
+      "refs": [
+       "E2",
+       "C1",
+       "C2",
+       "C6"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     },
+     {
+      "text": "The Soviet statesman Alexej Kossygin and Polish Prime Minister Jozef Cyrankiewicz also appeared at the Berlin memorial, and the report included scenes of celebrations in Paris and Prague.",
+      "refs": [
+       "E2",
+       "C3",
+       "C4",
+       "C5",
+       "C7"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     },
+     {
+      "text": "This black-and-white 1 minute 46 second newsreel was produced by agencies for Swiss public broadcasting and preserved as part of the Swiss Federal Archives collection.",
+      "refs": [
+       "E3",
+       "E4",
+       "E6",
+       "E7",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.13,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "22424850",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "A 1985 news segment from the Swiss French-language television station (TSR) features a short video clip (00:01.03) about greenhouse command systems in the Rhône plain, covering topics like landscape, greenhouses, thermostats, and antennas.",
+      "refs": [
+       "E1",
+       "E2",
+       "E5",
+       "E6",
+       "E7",
+       "E4",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29668004",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "On March 8, 2007, Swiss Federal President Micheline Calmy-Rey attended the opening of the Geneva Auto Show, where she delivered remarks expressing her personal enjoyment of driving and visiting the auto exhibition.",
+      "refs": [
+       "E2",
+       "E8",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.24,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22365853",
+    "error": null,
+    "seconds": 3.3,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a video titled 'Franktionsausflug FDP' documenting a field trip by the FDP parliamentary group to Heiden in the canton of Appenzell Ausserrhoden on June 13, 2007.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "During the excursion, discussions arose concerning the rejection of the BVG pension revision in the Council of States.",
+      "refs": [
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "The video features appearances by FDP figures including party leader Felix Gutzwiller and Pascal Couchepin, alongside visits to a local dish factory.",
+      "refs": [
+       "E2",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21719050",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss television news broadcast from January 11, 1964, covered developments in cancer research including a U.S. Department of Health report on lung cancer and the approval of a leukemia serum developed by French scientist Gaston Naessens in Paris.",
+      "refs": [
+       "E1",
+       "E2",
+       "E8",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22383857",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "This Swiss Federal Archives video record, titled 'Franz Josef Strauss', presents a montage of the prominent German CSU politician across various settings including hunting, political meetings, and official ceremonies, notably featuring interactions with figures like French leader Charles de Gaulle [E1][C2].",
+      "refs": [
+       "E1",
+       "E2",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21903912",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse produced a segment for the Tagesschau news program on January 28, 2003, featuring Antonio Antoniazzi discussing the conclusion of the 33rd World Economic Forum in Davos.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.28,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21693637",
+    "error": null,
+    "seconds": 3.5,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse captured a segment for the 1958 newsreel Téléjournal featuring the pleasant winter weather in Lugano, Ticino.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage shows a promenade along Lake Lugano with strolling pedestrians, a busy street café, and a man in a bathrobe who unexpectedly jumps into the cold water to swim.",
+      "refs": [
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     },
+     {
+      "text": "This black-and-white 1.45-minute video was produced in January 1958 and preserved as part of the Swiss Federal Archives collection.",
+      "refs": [
+       "E6",
+       "E7",
+       "E10",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.09,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21692765",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1957 black-and-white newsreel titled 'Téléjournal (Tagesschau TS)' documenting a nonstop flight of a B66 military aircraft from the United States to Manila, Philippines.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21722169",
+    "error": null,
+    "seconds": 2.1,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1964 black-and-white newsreel from SRG SSR idée suisse titled \"Tagesschau\" documenting a successful search for abducted children in Marnay, France, showing soldiers marching and searching terrain.",
+      "refs": [
+       "E1",
+       "E2",
+       "E5",
+       "E6",
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21783631",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1977 newsreel from SRG SSR idée suisse's Tagesschau, documenting flooding in Paris along the Seine river with views of the Eiffel Tower and submerged streets.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21790117",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives preserves a 1 minute 48 second color video from the Swiss public broadcaster SRG SSR idée suisse, dated December 19, 1978, documenting events in Delhi, India.",
+      "refs": [
+       "E1",
+       "E6",
+       "E7",
+       "E10",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22349044",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "On July 15, 2006, Swiss public broadcaster SRG SSR idée suisse featured a brief segment in the Tagesschau news program about the Hernergut bathhouse in Horgen, Canton Zürich, which had been awarded by the European heritage organization Europa Nostra for its outstanding renovation.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22388266",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1974 DRS television report titled \"Greece - Restoration or Renewal?\" that captures the political climate surrounding Greek parliamentary elections, featuring key figures like Alexandros Panagoulis.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.24,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21691262",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1957 news segment from Téléjournal (Tagesschau TS) produced by SRG SSR idée suisse, featuring mechanical toys in Paris, France.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22371890",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives hold a video titled \"Bilanz Grüne Partei\" documenting the Green Party's assessment of the outgoing legislative session in Bern, featuring statements from politicians Therese Frösch and Ueli Leuenberger.",
+      "refs": [
+       "E1",
+       "C2",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.48,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21774336",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "The archival record documents a 1974 television news segment from Swiss public broadcaster SRG SSR idée suisse, covering a petition in Bern concerning the political status of the Bernese districts of Courtelary, Moutier, and La Neuveville during the Jura conflict.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "29661478",
+    "error": null,
+    "seconds": 2.2,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 2007 video clip from the Tagesschau news program featuring Swiss politicians Hans-Jürg Fehr and Reto Nause discussing French socialist Arnaud Montebourg's criticism of Switzerland's tax system.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6",
+       "E7",
+       "E8",
+       "E9",
+       "E10",
+       "C1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.53,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22411105",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "This short video segment from Téléjournal on December 25, 1986, features snowy mountains, skiers, and the Chandolin–St-Luc cable car construction in Valais, Switzerland.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "26688477",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1948 radio broadcast recording titled \"Internationales Segelflugmeeting in Samedan\" produced by Radiostudio Zürich for the program \"Echo der Zeit\".",
+      "refs": [
+       "E1",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22365692",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "A 2007 Swiss television news segment titled \"Milchpreis\" features Albert Rösti, director of the Swiss milk producers' association, discussing dairy industry issues.",
+      "refs": [
+       "E1",
+       "E7",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21901313",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse produced a regional magazine segment on April 10, 1989, titled \"Saffa-Ausstellung\" that covered an exhibition about women's contributions to architecture in Basel.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21784523",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "This archival video from the Swiss Federal Archives documents diplomatic talks between Vietnam and the United States taking place in Paris on May 3, 1977, as part of the Tagesschau news program.",
+      "refs": [
+       "E1",
+       "E2",
+       "E10",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22323423",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "On March 31, 2004, Swiss public broadcaster SRG SSR idée suisse aired a segment of Tagesschau am Mittag featuring a financial duplex with UBS, moderated by journalist Stefan Tabacznik.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.62,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22383404",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1972 video report titled 'Ausweisung 60000 Asiaten aus Uganda' documenting the expulsion of tens of thousands of Asians from Uganda, featuring scenes from Kampala.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21811418",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "On July 6, 1985, the Swiss television news program Tagesschau reported on a kidnapping of a newborn boy from the maternity ward of the cantonal hospital in Frauenfeld, Thurgau.",
+      "refs": [
+       "E1",
+       "E2",
+       "E10",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "30695400",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss newsreel \"Cinéjournal\" featured the construction of Basel's new fair hall in March 1964, highlighting that prefabricated concrete elements allowed the project to be completed in record time despite public funding only being approved in December of the previous year.",
+      "refs": [
+       "E1",
+       "E10",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.32,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21681248",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1951 film newsreel segment titled \"Fussball: Spanien-Schweiz\" documenting a football match between Spain and Switzerland, which Spain won 6:3 in Madrid before an audience of 80,000 spectators.",
+      "refs": [
+       "E1",
+       "E2",
+       "E10",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29672818",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a short video titled 'Umfahrung Flims' documenting the opening of a bypass road in Flims, Graubünden, which largely passes through road tunnels.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30694453",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "The Swiss newsreel 'Con la Swissair in America Latina' from April 20, 1962, documents a flight operated by Swissair using the Convair 990 Coronado, which connected Switzerland to Rio de Janeiro and Buenos Aires via Lisbon and Dakar.",
+      "refs": [
+       "E1",
+       "E10",
+       "E5",
+       "E6",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21754286",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1969 black-and-white video clip from the Swiss public broadcaster SRG SSR idée suisse, documenting the aftermath of a military coup in Khartoum, Sudan, led by Colonel Gafar Mohammed el-Nimairi.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E5",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32573103",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "A framed single slide titled '22. Chemische Zeitzünder' (Chemical Time Fuses) from circa 1939 to 1945 is preserved as part of the Swiss Federal Archives' collection of instructional photographs.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239704",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "This glass plate negative from the Swiss Federal Archives captures a mule column passing through a village near Visp, Switzerland, during the period of the 1914-1918 Active Service.",
+      "refs": [
+       "E1",
+       "E3",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.12,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3238964",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "This glass plate negative from the Swiss Federal Archives depicts two automobiles on the newly constructed Scheltenstrasse in the village of Schelten, captured by the Genie Kompanie 4 between 1914 and 1918.",
+      "refs": [
+       "E1",
+       "E3",
+       "E2",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.35,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238406",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled 'Oberstdivisionär Schmid, Kdt der Division 4' depicting a high-ranking officer of the Swiss Army's 4th Division during the period of 1914 to 1918.",
+      "refs": [
+       "E1",
+       "E2",
+       "E5",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3237334",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives preserves a silver bromide glass plate photograph titled 'Soldaten bei der Rast' (Soldiers at Rest) from the period of the 1914–1918 Active Service.",
+      "refs": [
+       "E1",
+       "E4",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.19,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3237867",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "A glass plate silver bromide photograph by Buchter captures heavy howitzers in position during the Swiss Army's maneuvers between 1914 and 1918, documenting artillery deployment for the Landesverteidigung archive.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32573651",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "A framed single slide titled 'Bild Zeichnung Keller' from 1946 documents a house fire in Ticino on February 15, 1946, and is preserved as part of the Swiss Federal Archives' collection of photographs for training purposes.",
+      "refs": [
+       "E1",
+       "E5",
+       "E3",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238931",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "A Swiss military photographer named Aug. Gysi captured a photograph of sentries on high watch during the period of 1914 to 1918, showing Battalion 36 stationed in the Simplon region with the Monte Rosa mountain range in the background.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E7",
+       "E8",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.11,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3236851",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "A silver bromide glass plate photograph titled 'Strohtransport zur Grenzwachthütte' (Straw transport to the border guard hut) documents a logistical operation by the 1st Army Corps during the Swiss Army's Active Service from 1914 to 1918.",
+      "refs": [
+       "E1",
+       "E2",
+       "E7",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3236761",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "A glass plate negative from Switzerland's Federal Archives captures an iron replacement bridge test conducted by the Transport Service of the Engineer Corps between 1914 and 1918, documenting military engineering efforts in Erstfeld during the First World War.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3239317",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled \"Saumkolonne sammelt sich zur Pause\" (Mule column gathers for a break) documenting the Train Detachement Hauenstein in the region of Hauenstein during the period of the 1914-1918 Active Service.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3236801",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives preserves a photograph titled \"Sappeure beim Strassenbau\" (Sappers during road construction) taken by photographer Ch. Messaz between 1914 and 1918 in Bovernay.",
+      "refs": [
+       "E1",
+       "E4",
+       "E3",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239129",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "This glass-plate silver bromide photograph, measuring 13x18 cm, captures officers during a maneuver critique within the Swiss Army Staff in Hägendorf between 1914 and 1918.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.12,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "5859484",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photographic portrait of French actress and animal rights activist Brigitte Bardot, taken on March 5, 1977, by Photopress in Zürich.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.35,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238996",
+    "error": null,
+    "seconds": 2.5,
+    "sentences": [
+     {
+      "text": "A 1914–1918 photograph titled 'Der Beobachtungsposten mit Fernrohr' documents a Swiss Army observation post equipped with a telescope, part of Battalion 32's operations on the Obere Felsplatte.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     },
+     {
+      "text": "The image is a 13x18 cm silver bromide glass plate negative, preserved as part of Switzerland's federal military archives documenting the wartime period.",
+      "refs": [
+       "E5",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3241313",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a 1914–1918 photograph titled 'Die Landwehr Mitrailleure durchqueren ein kleines Schneefeld' showing the Mitrailleure Companies 39 and 40 crossing a small snowfield at Kleine Scheidegg.",
+      "refs": [
+       "E1",
+       "E3",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238291",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "This archival photograph, taken by P. Bonzon between 1914 and 1918, shows the Gebirgsbrigade 3 loading mountain wagons onto railway cars in Delsberg (Delémont), documenting military logistics during the Swiss Army's Active Service.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E5",
+       "E6",
+       "E7",
+       "E8",
+       "E9",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "5858707",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "In December 1965, a photograph captured Dominik Auf der Maur and Ludwig von Moos riding in an open carriage through the streets of Schwyz, Switzerland.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30314032",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a salted paper photograph titled 'Zürcher, Joseph', created by photographer Carl Durheim between 1852 and 1853. The image depicts a 18-year-old basket weaver, documenting an individual categorized under the archive's collection of photos of stateless persons.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.26,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32573367",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "A framed single slide titled '22. Mikrophon in Kravatte' (Microphone in Tie) from circa 1939 to 1945, preserved as part of Switzerland's federal intelligence service archives, documents a covert listening device disguised within a necktie.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "C1",
+       "E4",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3240019",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled 'Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement' (Wagons of Telegraph Pioneers and a Searchlight Detachment), documenting the Telegraph Pioneer Company 2 during the period of 1914 to 1918.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3240730",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "This glass plate negative, measuring 13x18 cm and created using the silver bromide process, is a photographic caricature of Colonel de Montmollin produced between 1914 and 1918.",
+      "refs": [
+       "E1",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.19,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3237057",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled 'Lastwagen auf der Ofenbergstrasse' documenting military activity during the 1914-1918 period, specifically showing a truck on the Ofenberg road associated with Gebirgsbrigade 18.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.32,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239303",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "This glass plate silver bromide photograph from the Swiss Federal Archives depicts horses belonging to the cavalry division's messengers stationed outside the headquarters of a cavalry division staff in Nenzlingen.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.19,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3236632",
+    "error": null,
+    "seconds": 4.0,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled 'Wachthütte an der Grenze' (Watch Hut at the Border) taken by photographer P. Bonzon between 1914 and 1918.",
+      "refs": [
+       "E1",
+       "E7",
+       "E3",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image documents the Gebirgsbatallion 88 during the Swiss Army's Active Service period and was taken in Lützel.",
+      "refs": [
+       "E2",
+       "E4",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "The photograph is a 9 x 12 cm silver bromide glass plate negative, accessioned under reference E27#1000/721#14093#1434* within the archive's collection on the 1914-1918 Active Service.",
+      "refs": [
+       "E6",
+       "E8",
+       "E9",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3240864",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "A glass plate negative from 1914 to 1918 captures a view of the village of Grindelwald, Switzerland, documenting the landscape during the period of the Swiss Army's Active Service.",
+      "refs": [
+       "E1",
+       "E3",
+       "E4",
+       "E5",
+       "E6",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3238543",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a photograph titled 'Soldaten helfen beim Pflügen' (Soldiers helping with plowing), taken by photographer Kuratle between 1914 and 1918 during the Swiss Army's Active Service.",
+      "refs": [
+       "E1",
+       "E7",
+       "E3",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "5859153",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "On September 13, 1965, a photograph was taken at the Comptoir Suisse depicting Pierre Schumacher, the State Council President of the Canton of Geneva, in conversation with the Belgian Ambassador Rothschild.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3241526",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "This 1918 photograph, titled \"Offiziere nach der Uebungsbesprechung\" and held by the Swiss Federal Archives, shows infantry officers at Mariastein following a training review during the First World War.",
+      "refs": [
+       "E1",
+       "E3",
+       "E6",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3241441",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "A photograph from the Swiss Federal Archives shows a convalescing soldier recovering through painting at a garden pavilion in Sigriswil between 1914 and 1918.",
+      "refs": [
+       "E1",
+       "E3",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.07,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3513305",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The archival record titled '2001.9002: Mitteilungen der Präsidentin / Communications de la présidente' documents the proceedings of the Swiss National Council during the Winter Session of 2001, specifically the third session day.",
+      "refs": [
+       "E1",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.44,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "4046151",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "This archival record documents a 2007 session of the Swiss Council of States discussing the total revision of the Victim Assistance Act, featuring speeches from prominent Swiss politicians including Christoph Blocher.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31200573",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "During the 2015 Swiss National Council spring session, National Council member Bernhard Guhl raised a question to Federal Councilor Eveline Widmer-Schlumpf concerning whether federal authorities support the political engagement of their employees, highlighting concerns about the viability of Switzerland's militia system.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30704186",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "On December 5, 2007, the Swiss Federal Railways held a Directorate Committee meeting concerning a 'reversing on LBL' project, producing a working paper or foundational document as part of the broader AlpTransit project organization.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30702600",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "In October 1997, the Bern-Lötschberg-Simplonbahn AlpTransit AG issued a letter updating the safety concept for the Lötschberg Base Tunnel's north and south sections as part of the AlpTransit infrastructure project.",
+      "refs": [
+       "E1",
+       "E4",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31659328",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "During the Spring Session of the Swiss National Council in 2018, Philipp Hadorn posed a question to Federal Councilor Johann N. Schneider-Ammann regarding the future of the Federal Housing Office in Grenchen, questioning whether a demonstrated need justified its continued existence.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32583909",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "This digital record documents a 2017 debate in the Swiss National Council regarding modifications to financial aid for out-of-family childcare, featuring contributions from multiple Swiss politicians including Matthias Aebischer and Jacqueline Badran.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30789827",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "On November 14, 1941, the Swiss Film Week released a newsreel titled 'Communiqués und Kommentare Schweizer Filmwochenschau', which is preserved in the Swiss Federal Archives under the reference code J2.143#1975/35#2#46* within the collection of the Swiss Film Week foundation.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31659653",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "In March 2018, National Councillor Lisa Mazzone submitted an interpellation to the Swiss Federal Council concerning the use of DNA for familial searches in criminal investigations, asking whether the government would abandon this practice.",
+      "refs": [
+       "E1",
+       "E4",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30791247",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a record titled 'Communiqués und Kommentare Schweizer Filmwochenschau vom 14.05.1971', which is a commentary from the Swiss Newsreel dated May 14, 1971.",
+      "refs": [
+       "E1",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3514516",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "On March 23, 2001, during the 13th session day of the Swiss National Council's Spring Session (1999–2003), a postulat titled \"Les femmes et l'asile\" (Women and asylum) submitted by Anne-Catherine Ménétrey-Savary was recorded as part of the official parliamentary proceedings.",
+      "refs": [
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.04,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "32487293",
+    "error": null,
+    "seconds": 3.2,
+    "sentences": [
+     {
+      "text": "On September 26, 2016, during the 9th session day of the Swiss National Council's Autumn Session, National Councillor Jean-Luc Addor posed a question to Federal Councillor Simonetta Sommaruga regarding the revision of the EU Weapons Directive.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     },
+     {
+      "text": "The parliamentary question focused on opposing any further tightening of Swiss firearms legislation in response to the proposed European directive.",
+      "refs": [
+       "E1"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     },
+     {
+      "text": "This exchange was recorded as a digital video and is preserved in the Swiss Federal Archives under accession number 2022/124.",
+      "refs": [
+       "E3",
+       "E5",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.18,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3519319",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "On June 19, 2006, Swiss politicians Christophe Darbellay, Jean-Claude Rennwald, Ulrich Schlüer, and Josef Zisyadis participated in a National Council session discussing the parliamentary initiative for an obligatory referendum on the General Agreement on Trade in Services (GATS).",
+      "refs": [
+       "E1",
+       "E3",
+       "E2",
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.57,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3513514",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "On December 14, 2001, Swiss National Councillor Alex Heim submitted a postulate (2001.3486) demanding transparency regarding the overall concept for rail freight transport, with the document archived among the National Council's session recordings from the winter session of 2001.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.32,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31042425",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "In the Herbstsession 2013 of the Swiss National Council, Maya Graf presented a petition from the Jugendsession 2012 advocating for the inclusion of media literacy in the formal education mandate.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.57,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3513865",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "On September 23, 2002, during the 5th session day of the 1999–2003 Wintersession to Autumnsession period, National Councillor J. Alexander Baumann posed a question regarding the federal supervision of the Federal Office of Civil Aviation (OFAP) to Ruth Metzler.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3512888",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "On June 22, 2001, during the 13th session day of the Swiss National Council's 2001 Summer Session, Peter Hess addressed the chamber regarding a petition concerning the hunger strike of political prisoners in Turkey.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.28,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31264790",
+    "error": null,
+    "seconds": 1.9,
+    "sentences": [
+     {
+      "text": "On June 4, 2015, Swiss politicians including Brigitte Häberli-Koller, Claude Hêche, Karin Keller-Sutter, Doris Leuthard, and Paul Rechsteiner participated in a Ständerat session focused on the Regio-Express service between St. Gallen and Konstanz.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2",
+       "C3",
+       "C4",
+       "C5",
+       "C6",
+       "C7"
+      ],
+      "inferred": false,
+      "support": 0.71,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32463405",
+    "error": null,
+    "seconds": 2.2,
+    "sentences": [
+     {
+      "text": "In the Swiss National Council during the Spring Session of 2017, politician Olivier Feller submitted a motion to relax the eligibility criteria for short-time work compensation within the service sector.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.26,
+      "weakly_supported": false
+     },
+     {
+      "text": "The motion was addressed to Johann N. Schneider-Ammann, a former member of the Swiss Federal Council who served from 2010 to 2018.",
+      "refs": [
+       "E2",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.64,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30704308",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "On June 27, 2007, the Federal Office of Transport (Bundesamt für Verkehr) documented a project change request for the Gotthard Base Tunnel's multifunctional stations in Sedrun and Faido, proposing an expansion of the cross-caverns to include escape routes.",
+      "refs": [
+       "E1",
+       "E4",
+       "C1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "5097377",
+    "error": null,
+    "seconds": 2.0,
+    "sentences": [
+     {
+      "text": "On December 15, 2008, during the 9th session of the 2007–2008 Winter Session of the Swiss National Council, Marlies Bänziger posed a question regarding the Ilisu Dam and the Swiss Export Risk Guarantee, with Doris Leuthard and Chiara Simoneschi-Cortesi participating in the discussion.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5",
+       "C1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.6,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31060099",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "This poster, titled 'Plakat deutsch - Schweizer Filmwochenschau Nº 616', is a 350x500mm promotional item from the Swiss Film Week series dated March 26, 1954.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3524710",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "This archival record documents a 1990 Swiss National Council interpellation concerning Switzerland's position at the 83rd Inter-Parliamentary Union Conference held in Nicosia.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31862793",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The Swiss parliamentary initiative by Ruedi Lustenberger proposed that apprenticeship training be considered a selection criterion in public procurement, as documented in the Ständerat session records from June 3, 2014.",
+      "refs": [
+       "E1",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31042931",
+    "error": null,
+    "seconds": 2.0,
+    "sentences": [
+     {
+      "text": "In the Swiss Council of States during the autumn session of 2013, politician Filippo Lombardi raised a motion concerning noise pollution from freight trains, as documented in the Federal Archives' digital record E1401#2017/316#4#4* from the winter session 2011 to autumn session 2015 period.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E4",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.26,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3519998",
+    "error": null,
+    "seconds": 1.8,
+    "sentences": [
+     {
+      "text": "On October 8, 1982, during the 13th session day of the 1982 autumn session of the Swiss National Council, a motion titled \"Postulat Ziegler-Solothurn. Gesamtarbeitsverträge, Allgemeinverbindlicherklärung / Conventions collectives de travail. Extension\" was recorded in the official proceedings.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3514472",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "On March 20, 2001, Swiss National Council member Erwin Jutzet introduced a postulate concerning the application of the new divorce law during the 10th session day of the 2001 spring session of the Swiss Federal Assembly.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.32,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32463607",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives holds a digital petition from the 2013 Youth Session, submitted by Jürg Stahl, a Swiss politician, advocating for equal treatment between military and civil service.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3526205",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "On October 9, 1992, during the 13th session day of the Herbstsession 1992, the Swiss National Council debated the amendment to the Federal Law on Supplementary Benefits to Old-Age, Survivors' and Invalidity Insurance as part of the Eurolex adaptation of Swiss law to the European Economic Area.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.35,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31597262",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "During the Wintersession of the Swiss National Council in 2016, politicians including Marina Carobbio Guscetti, Raymond Clottu, Barbara Gysi, and Regine Sauter participated in debates on healthcare policy, specifically addressing motions concerning the adjustment of health insurance deductibles and greater entrepreneurial freedom in the health sector.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "22406340",
+    "error": null,
+    "seconds": 1.1,
+    "sentences": [
+     {
+      "text": "On October 22, 1985, a video segment titled \"LOECHE / OPP.LIGNE HAUTE TENSION\" was broadcast by the Télévision suisse romande (TSR) as part of the Téléjournal program.",
+      "refs": [
+       "E1",
+       "E3",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.57,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage shows high-voltage pylons near Loeche-les-Bains in the Valais region of Switzerland, accompanied by an interview about electrical energy.",
+      "refs": [
+       "E2",
+       "E7",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21730247",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "On November 23, 1965, the Swiss public broadcaster SRG produced a news segment titled Tagesschau that covered Geneva.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.3,
+      "weakly_supported": false
+     },
+     {
+      "text": "The segment featured Abdel Moniem el-Banna, the Secretary-General of the Council for the Arab Economic Unity, discussing the concept of an Arab common market.",
+      "refs": [
+       "E2",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     },
+     {
+      "text": "This black-and-white video recording, lasting 30 seconds, was filmed on 16 mm V-U tape and archived under the reference code J2.225#1996/68#35491* in the Swiss Federal Archives.",
+      "refs": [
+       "E5",
+       "E7",
+       "E9",
+       "E10",
+       "E12",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21690234",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives preserve a 1974 Filmwochenschau titled \"Die Geschlagenen\" documenting the Tour de Suisse, where commercialization and the spectacle of cycling are highlighted.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "29668237",
+    "error": null,
+    "seconds": 1.1,
+    "sentences": [
+     {
+      "text": "On March 9, 2007, Dogu Perincek was convicted by the Lausanne police court in Switzerland for violating the anti-racism law by denying the Armenian genocide.",
+      "refs": [
+       "E1",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     },
+     {
+      "text": "The footage captures Perincek leaving the courthouse surrounded by supporters who applauded his decision.",
+      "refs": [
+       "E2",
+       "E11"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     },
+     {
+      "text": "Eric Cottier and Sarkis Shahinian, representing the Switzerland-Armenia Society, provided statements to the media following the verdict.",
+      "refs": [
+       "E6",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21810037",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The Tagesschau broadcast from February 4, 1985, covered a content summary of the Zurich Cantonal Council regarding the TCS people's initiative for the construction of the A4 in the Knonauer Amt.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21795934",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "On August 5, 1980, a television news report documented a solemn ceremony in Hiroshima commemorating the 35th anniversary of the atomic bombing during World War II.",
+      "refs": [
+       "E1",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "Philip Noel-Baker, a Nobel Peace Prize winner and prominent peace advocate, was present among other anti-nuclear activists seated during the event.",
+      "refs": [
+       "E2",
+       "E8",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     },
+     {
+      "text": "Takeshi Araki, the then-mayor of Hiroshima, delivered a speech at the Peace Park before laying a wreath at the Cenotaph, symbolizing the city's ongoing commitment to peace.",
+      "refs": [
+       "E2",
+       "E8",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21785789",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcaster SRG SSR idée suisse produced a television segment on dental hygiene for the Tagesschau program on 31 August 1977.",
+      "refs": [
+       "E3",
+       "E4",
+       "E10",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     },
+     {
+      "text": "The segment featured Thomas Marthaler, the director of the Dental Institute at the University of Zurich, discussing the importance of proper tooth care.",
+      "refs": [
+       "E8",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.46,
+      "weakly_supported": false
+     },
+     {
+      "text": "Visuals included dental hygienists demonstrating flossing techniques, graphics illustrating childhood and adult tooth decay, and images of healthy foods like fruits, cheese, and milk.",
+      "refs": [
+       "E2",
+       "E6",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.06,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21743659",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Tagesschau broadcast on 4 October 1967 covered a speech by Senator Stuart Symington, who demanded an immediate halt to all US attacks in Vietnam.",
+      "refs": [
+       "E1",
+       "E2",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     },
+     {
+      "text": "Produced by news agencies and published by SRG SSR idée suisse, this black-and-white video report was part of the Swiss television news program Tagesschau, covering North America without Hawaii during the specified timeframe.",
+      "refs": [
+       "E1",
+       "E3",
+       "E4",
+       "E5",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.3,
+      "weakly_supported": false
+     },
+     {
+      "text": "The archival record is cataloged under the sign J2.225#1996/68#3424#6 and accession number 1996/68, reflecting its inclusion in the Swiss Federal Archives collection of television broadcasts from 1957 to 1989.",
+      "refs": [
+       "E9",
+       "E10",
+       "E11",
+       "E12",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29666896",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The Swissair trial defense of Vreni Spoerry, a former Swissair board member, was documented in a video produced by the Swiss Federal Television (SF) on February 28, 2007, in Bülach, ZH.",
+      "refs": [
+       "E1",
+       "E3",
+       "E8",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21726160",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "On May 8, 1965, the Tagesschau broadcast documented commemorative events across Europe marking the 20th anniversary of Germany's surrender in World War II.",
+      "refs": [
+       "E1",
+       "E2",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     },
+     {
+      "text": "In Bonn, West Germany, Chancellor Heinrich Lübke and Chancellor Ludwig Erhard participated in a wreath-laying ceremony at a memorial site.",
+      "refs": [
+       "E2",
+       "E8",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.42,
+      "weakly_supported": false
+     },
+     {
+      "text": "In East Berlin, Walter Ulbricht, leader of the German Democratic Republic, observed a wreath-laying ceremony at a memorial site alongside Soviet officials Alexej Kossygin and Jozef Cyrankiewicz.",
+      "refs": [
+       "E2",
+       "E8",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.53,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22424850",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The video titled \"U2. CENTRALE DE COMMANDE POUR LES SERRES\" was produced by Télévision suisse romande (TSR) for broadcast on the Journal Romand on September 3, 1985, covering the Rhône plain landscape and focusing on greenhouse management.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29668004",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On March 8, 2007, Swiss President Micheline Calmy-Rey opened the Geneva Auto Salon, where she delivered a speech expressing her personal enthusiasm for driving and visiting the event.",
+      "refs": [
+       "E8",
+       "E2",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22365853",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "The FDP parliamentary group organized a field trip to Heiden, AR, where they engaged in discussions about the rejection of the BVG pension revision in the Council of States.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21719050",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "On January 11, 1964, the Tagesschau broadcast covered a U.S. Department of Health report on lung cancer and the departure of French scientist Gaston Naessens from Paris.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22383857",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "The archival record documents a video portrait of Franz Josef Strauss, the leader of the Christian Social Union (CSU), capturing his public and private moments during the early 1970s political landscape in Germany.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21903912",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "The Tagesschau Hauptausgabe broadcast on January 28, 2003, covered the difficult choice facing Israeli Arabs, as reported by DRS in Davos during the 33rd World Economic Forum.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21693637",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcasting group SRG produced a black-and-white video segment titled \"Téléjournal (Tagesschau TS)\" on January 17, 1958, featuring scenes from Lugano in the Ticino region.",
+      "refs": [
+       "E1",
+       "E3",
+       "E4",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.44,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage captures a promenade along the Luganersee lake, pedestrians strolling, patrons at a street café, and a man in a bathrobe walking into the cold water to swim.",
+      "refs": [
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     },
+     {
+      "text": "This archival record, cataloged under the reference code J2.225#1996/68#286#9*, documents a moment of winter leisure in Switzerland during the 1958 television news broadcast.",
+      "refs": [
+       "E11",
+       "E12",
+       "E13",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21692765",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "On November 18, 1957, the Swiss public broadcaster SRG SSR idée suisse aired a Tagesschau report covering a nonstop flight of a U.S. B-66 military aircraft from the United States to Manila in the Philippines.",
+      "refs": [
+       "E1",
+       "E4",
+       "E10",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21722169",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "On September 25, 1964, the Swiss public broadcaster SRG SSR idée suisse aired a Tagesschau news segment covering France's successful search for kidnapped children in Marnay.",
+      "refs": [
+       "E1",
+       "E4",
+       "C1",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage, captured in black and white on 16 mm film, shows marching soldiers and military trucks conducting a thorough search of the terrain.",
+      "refs": [
+       "E2",
+       "E6",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     },
+     {
+      "text": "This archival record, cataloged under the sign J2.225#1996/68#30864*, preserves a moment of international concern for child safety during the mid-1960s.",
+      "refs": [
+       "E9",
+       "E10",
+       "E13",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21783631",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "On February 21, 1977, the Tagesschau news program broadcast a report on the Seine River in Paris, France, where shipping had been suspended due to high water levels.",
+      "refs": [
+       "E1",
+       "E2",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage captured the Eiffel Tower alongside the swollen Seine, with flooded streets and bridges visible in the sequence.",
+      "refs": [
+       "E2",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival video, preserved by the Swiss Federal Archives under the reference J2.225#1996/68#6833#1*, documents the flooding event for historical and geographical record.",
+      "refs": [
+       "E13",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21790117",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "On December 19, 1978, the Swiss public broadcaster SRG SSR idée suisse aired a news report titled Tagesschau documenting the arrest of former Indian Prime Minister Indira Gandhi in Delhi.",
+      "refs": [
+       "E1",
+       "E4",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.28,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage shows Gandhi speaking with supporters while a police cordon prevents demonstrators from approaching, with reporters crowding around her as she waves.",
+      "refs": [
+       "E2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record, cataloged under the reference code J2.225#1996/68#70529*, preserves a moment of political turmoil in India during the late 1970s.",
+      "refs": [
+       "E9",
+       "E10",
+       "E12"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22349044",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "On July 15, 2006, the Swiss public broadcaster SRG SSR idée suisse aired a Tagesschau Hauptausgabe segment reporting on the Badenhaus Hernergut in Horgen, ZH, which received an Europa Nostra award for its outstanding renovation.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22388266",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The video captures the political atmosphere in Greece during the 1974 parliamentary elections, showing scenes of campaigning and public gatherings in Athens, Patras, and other locations.",
+      "refs": [
+       "E1",
+       "C7",
+       "C8",
+       "C9"
+      ],
+      "inferred": false,
+      "support": 0.18,
+      "weakly_supported": true
+     },
+     {
+      "text": "Prominent figures such as Konstantinos Karamanlis, Alexandros Panagoulis, Georgios Mavros, Georgios Mangakis, and Stylianos Pattakos are featured in the footage, reflecting the diverse political landscape of the time.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2",
+       "C3",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.61,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21691262",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss public broadcasting group SRG SSR idée suisse produced a television news segment titled Téléjournal (Tagesschau TS) on February 16, 1957, covering a topic related to mechanical puppets in Paris, France.",
+      "refs": [
+       "E1",
+       "E4",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.42,
+      "weakly_supported": false
+     },
+     {
+      "text": "This black-and-white video recording, captured on 16 mm film and later digitized on Betacam, lasted 3 minutes and 7 seconds, beginning at the 10 minute and 34.51 second mark of the broadcast.",
+      "refs": [
+       "E6",
+       "E7",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "The segment was part of the broader coverage of Western Europe during the week of February 9 to 23, 1957, and is archived under the reference code J2.225#1996/68#54#7* in the Swiss Federal Archives.",
+      "refs": [
+       "E5",
+       "E11",
+       "E12",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22371890",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The video titled \"Bilanz Grüne Partei\" was produced by the Swiss Federal Television (SF) for the Green Party's assessment of the ongoing legislative period.",
+      "refs": [
+       "E1",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     },
+     {
+      "text": "During the broadcast, Swiss politicians Therese Frösch and Ueli Leuenberger delivered statements, while Christoph Blocher, a member of the Swiss Federal Council, was shown walking through the session.",
+      "refs": [
+       "E2",
+       "E7",
+       "C1",
+       "C6"
+      ],
+      "inferred": false,
+      "support": 0.6,
+      "weakly_supported": false
+     },
+     {
+      "text": "The program was moderated by Franz Fischlin and featured a segment with Green Party members in the National Council chamber, discussing political issues.",
+      "refs": [
+       "E4",
+       "E5",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.53,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21774336",
+    "error": null,
+    "seconds": 1.0,
+    "sentences": [
+     {
+      "text": "On September 5, 1974, the Swiss public broadcaster SRG SSR idée suisse aired a Tagesschau late news segment covering the Jura conflict, specifically focusing on a petition to keep the districts of Courtelary, Moutier, and La Neuveville within the canton of Bern.",
+      "refs": [
+       "E1",
+       "C2",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.05,
+      "weakly_supported": true
+     },
+     {
+      "text": "The program documented the delivery of signature packages to the Federal Chancellery in Bern, illustrating the public's stance on the canton's political boundaries.",
+      "refs": [
+       "E2",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "29661478",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives hold a video titled \"Schweizerische Steuerpraktiken\" that critiques the Swiss tax system from a French socialist perspective",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22411105",
+    "error": null,
+    "seconds": 1.0,
+    "sentences": [
+     {
+      "text": "The video titled \"TELESIEGE CHANDOLIN - ST-LUC\" was produced by Télévision suisse romande (TSR) on December 25, 1986, covering the construction of a ski lift between Chandolin and St-Luc in the Valais region of Switzerland.",
+      "refs": [
+       "E1",
+       "C2",
+       "E3",
+       "E4",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.56,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage shows snow-covered mountains and skiers, featuring an interview related to the ski lift project.",
+      "refs": [
+       "E2",
+       "E5",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.11,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "26688477",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives hold a sound recording of the Internationales Segelflugmeeting in Samedan, captured on July 24, 1948, by the Radiostudio Zürich.",
+      "refs": [
+       "E1",
+       "E6",
+       "E8",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     },
+     {
+      "text": "The archival item, cataloged as J2.245#2005/40*, includes multiple segments such as the introduction by Douglas, interviews, pilot reports in French, English, and German, and meteorological commentary.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E5",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     },
+     {
+      "text": "This historical document provides insight into the gliding event and the technical aspects of the competition, preserved as part of the Swiss Radio DRS collection under the reference code J2.245#2005/40#89#1*.",
+      "refs": [
+       "E1",
+       "E3",
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.13,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "22365692",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The archival record documents a 2007 television segment titled \"Milchpreis\" that features Albert Rösti, the director of the Milk Producers' Association, discussing the rising demand for Swiss dairy products such as cheese, glacé, and yogurt in the Asian market.",
+      "refs": [
+       "E1",
+       "E7",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21901313",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On April 10, 1989, a television program titled Saffa-Ausstellung aired on DRS-aktuell, featuring an exhibition about Saffa women at the Architecture Museum in Basel.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21784523",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "The archival record documents a television news report from May 3, 1977, covering diplomatic talks in Paris between Vietnam and the United States.",
+      "refs": [
+       "E1",
+       "E10",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     },
+     {
+      "text": "The footage, produced by visnews and broadcast by SRG SSR idée suisse, features U.S. Assistant Secretary Richard Holbrooke delivering a statement during the negotiations.",
+      "refs": [
+       "E3",
+       "E4",
+       "E8",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     },
+     {
+      "text": "This video segment, preserved in the Swiss Federal Archives under the reference J2.225#1996/68#6904#4*, captures a moment of international diplomacy during the Cold War era.",
+      "refs": [
+       "E9",
+       "E11",
+       "E12",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.15,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "22323423",
+    "error": null,
+    "seconds": 1.6,
+    "sentences": [
+     {
+      "text": "The Tagesschau am Mittag broadcast on 31 March 2004 featured a segment at the Börsenduplex UBS in Zurich, produced by DRS for SRG SSR idée suisse.",
+      "refs": [
+       "E1",
+       "E4",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     },
+     {
+      "text": "Moderated by Stefan Tabacznik, the program covered financial topics related to Zurich's business district, with Hanspeter Hausheer also appearing as a guest.",
+      "refs": [
+       "E5",
+       "E9",
+       "C1",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     },
+     {
+      "text": "The video recording, lasting 1 minute and 23 seconds, was archived by the Swiss Federal Archives under the reference code J2.225#2004/221#1195* and is part of the Tagesschau SFDRS 2004 collection.",
+      "refs": [
+       "E11",
+       "E12",
+       "E13",
+       "E14"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "22383404",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "The video titled \"Ausweisung 60000 Asiaten aus Uganda\" documents the impact of Idi Amin's decision to expel Asians, Indians, Pakistanis, and people from Bangladesh from Uganda in Kampala.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21811418",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On July 6, 1985, the Tagesschau broadcast reported on the abduction of a newborn boy from the Säuglingsstation at the Kantonsspital in Frauenfeld, Switzerland.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30695400",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The new hall of the Basel Fair was constructed using prefabricated concrete elements, a method that reduced effort and labor by half.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.1,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "21681248",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The film captures the 1951 match between Spain and Switzerland in Madrid, where Spain won 6-3 before a crowd of 80,000 spectators.",
+      "refs": [
+       "E1",
+       "E2",
+       "E10"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "Spanish players such as Zarra and Gainza scored multiple goals, while Swiss player Fredy Bickel netted the first goal for his team.",
+      "refs": [
+       "E2",
+       "E7",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     },
+     {
+      "text": "General Francisco Franco attended the match, highlighting the event's significance as a state occasion.",
+      "refs": [
+       "E2",
+       "E3",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "29672818",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives hold a video record titled \"Umfahrung Flims\" documenting the opening of a new bypass road in Flims, Graubünden, which is predominantly constructed through tunnels.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.24,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage, produced by Schweizer Fernsehen (SF), features a speech by Heinz Dicht, the head of the Graubünden Department of Civil Engineering, and captures an old‑timer parade on the newly opened route.",
+      "refs": [
+       "E2",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.28,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival item, recorded on 28 October 2007 and lasting forty‑five seconds, is catalogued under the reference code J2.225#2008/121#33* and is part of the Tagesschau collection from 2007.",
+      "refs": [
+       "E7",
+       "E8",
+       "E9",
+       "E10",
+       "E11"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30694453",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "The Swissair introduced the Convair 990 Coronado on routes to South America, including flights from Kloten and Cointrin to Rio de Janeiro and Buenos Aires via Lisbon and Dakar.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "21754286",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "On May 27, 1969, the Swiss public broadcaster SRG SSR idée suisse aired a Tagesschau report documenting the aftermath of a military coup in Khartoum led by Colonel Gafar Mohammed el Nimairi.",
+      "refs": [
+       "E1",
+       "E2",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.6,
+      "weakly_supported": false
+     },
+     {
+      "text": "The footage, captured in black and white on 16 mm film, shows crowds gathered in the streets of Khartoum and Colonel Nimairi delivering a speech to soldiers.",
+      "refs": [
+       "E2",
+       "E6",
+       "E7",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     },
+     {
+      "text": "This archival record, catalogued under the identifier J2.225#1996/68#4025#4*, preserves a moment of political transition in Sudan during the late 1960s.",
+      "refs": [
+       "E9",
+       "E10",
+       "E11",
+       "E12",
+       "E13"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "32573103",
+    "error": null,
+    "seconds": 0.9,
+    "sentences": [
+     {
+      "text": "This archival record documents the development of chemical time fuses during the period from 1939 to 1945.",
+      "refs": [
+       "E1",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.12,
+      "weakly_supported": true
+     },
+     {
+      "text": "The item is preserved as a framed single slide within the Swiss Federal Archives.",
+      "refs": [
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "It is catalogued under the reference code E5565-05#2020/38#1#22* and located in the collection of photographs for training purposes.",
+      "refs": [
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239704",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Durchmarsch der Maultierkolonne durch ein Walliser Dorf\" documents a mule convoy passing through Visp in the Swiss canton of Valais during World War I.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238964",
+    "error": null,
+    "seconds": 0.4,
+    "sentences": [
+     {
+      "text": "A photograph from the Swiss Federal Archives shows two automobiles on the newly constructed Schelten road.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.11,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3238406",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The photograph documents Oberstdivisionär Schmid, commander of the 4th Division, captured during the period of active service from 1914 to 1918.",
+      "refs": [
+       "E1",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     },
+     {
+      "text": "The image is a glass plate negative measuring 13x18cm, part of the photographic collection documenting army activities during World War I.",
+      "refs": [
+       "E3",
+       "E4",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     },
+     {
+      "text": "This archival record is catalogued under the reference code E27#1000/721#14095#2072*, preserving the visual history of Swiss military leadership during the conflict.",
+      "refs": [
+       "E6",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3237334",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Soldaten bei der Rast\" documents soldiers resting during their service with Batallion 24.",
+      "refs": [
+       "E1",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.3,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image was captured between January 1, 1914 and December 31, 1918, during the period of the First World War.",
+      "refs": [
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "The photograph is a silver bromide negative on a glass plate measuring 13x18cm, preserved in the Swiss Federal Archives.",
+      "refs": [
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     },
+     {
+      "text": "Rossemaison, the location depicted, is a place documented by OpenStreetMap, providing geographical context to the scene.",
+      "refs": [
+       "E3",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.6,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3237867",
+    "error": null,
+    "seconds": 1.5,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Stellung von schweren Haubitzen während des Manövers\" documents the positioning of heavy howitzers during military exercises involving Division 1 and Division 2 artillery units.",
+      "refs": [
+       "E1",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     },
+     {
+      "text": "Taken by photographer Buchter, the image is a silver bromide negative on a glass plate measuring 13x18cm, capturing a moment from the period between 1914 and 1918.",
+      "refs": [
+       "E3",
+       "E4",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record is cataloged under the reference code E27#1000/721#14095#1260* and is part of the photographic collection documenting the Swiss Army's activities during World War I.",
+      "refs": [
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32573651",
+    "error": null,
+    "seconds": 0.9,
+    "sentences": [
+     {
+      "text": "In 1946, a framed single slide titled \"Bild Zeichnung Keller\" was created as part of the Swiss Federal Archives' collection documenting training purposes.",
+      "refs": [
+       "E1",
+       "E3",
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     },
+     {
+      "text": "The photograph was accessioned under the reference code 2020/38 and is cataloged within the Zentralstelle Historisches Armeematerial's internal collection focusing on historical army material.",
+      "refs": [
+       "E4",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238931",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "A photograph captures a watchpost stationed high on a lookout with the majestic Monte Rosa visible in the background.",
+      "refs": [
+       "E1"
+      ],
+      "inferred": false,
+      "support": 0.11,
+      "weakly_supported": true
+     },
+     {
+      "text": "This image was taken by photographer Aug. Gysi during the period of 1914 to 1918.",
+      "refs": [
+       "E3",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "The geographical coverage of the photograph is the Simplon region, documenting the military presence in that area.",
+      "refs": [
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3236851",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Strohtransport zur Grenzwachthütte\" documents the transport of straw to a border guard hut in Welschmatt during the period of 1914 to 1918.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3236761",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Archives hold a photographic record documenting the testing of an iron replacement bridge for railway use in Erstfeld during World War I.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3239317",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Saumkolonne sammelt sich zur Pause\" documents a mule train taking a break at Hauenstein during the period of the First World War.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3236801",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Sappeure beim Strassenbau\" documents sappers engaged in road construction work in Bovernay during the period of 1914 to 1918.",
+      "refs": [
+       "E1",
+       "E4",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image, captured by photographer Ch. Messaz, was recorded on a glass plate negative measuring 10x15cm using the silver bromide process.",
+      "refs": [
+       "E3",
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     },
+     {
+      "text": "The archival record is cataloged under the reference code E27#1000/721#14094#205* and is part of the Swiss Federal Archives' collection of photographs documenting military activities during World War I.",
+      "refs": [
+       "E8",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239129",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Offiziere bei der Manöverkritik\" documents officers engaged in a military exercise review at Hägendorf, a location identifiable through OpenStreetMap data.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "5859484",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "Brigitte Bardot, a renowned French actress and singer, is also recognized for her dedication to animal and environmental protection.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.55,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238996",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Der Beobachtungsposten mit Fernrohr\" documents a military observation post equipped with a telescope, captured by the Swiss Army during World War I.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image was taken between January 1, 1914 and December 31, 1918, covering the period of the Swiss Army's active service during the war.",
+      "refs": [
+       "E6",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.09,
+      "weakly_supported": true
+     },
+     {
+      "text": "The negative is a glass plate measuring 13x18cm, made of silver bromide, and is part of the photographic collection documenting the army's activities on the Obere Felsplatte region.",
+      "refs": [
+       "E4",
+       "E5",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3241313",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "A photograph from the Swiss Federal Archives shows the Landwehr Mitrailleure Kompanie 39 and 40 traversing a small snowfield near Kleine Scheidegg.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238291",
+    "error": null,
+    "seconds": 1.1,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Verladen von Gebirgswagen auf Eisenbahnwagen\" documents the loading of mountain vehicles onto railway cars by the Gebirgsbrigade 3.",
+      "refs": [
+       "E1",
+       "E2",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.45,
+      "weakly_supported": false
+     },
+     {
+      "text": "The image was taken by photographer P. Bonzon in Delsberg, a location confirmed by OpenStreetMap data.",
+      "refs": [
+       "E3",
+       "E4",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record, accessioned under 1000/721, is part of the Swiss Federal Archives' collection of wartime photographs from 1914 to 1918.",
+      "refs": [
+       "E7",
+       "E8",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "5858707",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On December 3, 1965, Dominik Auf der Maur and Ludwig von Moos traveled through the streets of Schwyz in an open car.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30314032",
+    "error": null,
+    "seconds": 1.4,
+    "sentences": [
+     {
+      "text": "Joseph Zürcher, a 18-year-old basket maker, was photographed by Carl Durheim in 1852-1853.",
+      "refs": [
+       "E1",
+       "E3",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     },
+     {
+      "text": "The photograph, created using the salted paper process, measures 13.5 x 18 cm and is part of the Swiss Federal Archives collection.",
+      "refs": [
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     },
+     {
+      "text": "This archival record is cataloged under the reference code E21#1000/131#20507#223* and is located in the section for Heimatlose (homeless individuals) within the police records of the Swiss Confederation.",
+      "refs": [
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32573367",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "A framed single slide titled \"22. Mikrophon in Kravatte\" documents a covert surveillance method from the late 1930s to the mid-1940s.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3240019",
+    "error": null,
+    "seconds": 1.1,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement\" documents the equipment of the Telegraphen Pionier Kompanie 2 during the period from 1 January 1914 to 31 December 1918.",
+      "refs": [
+       "E1",
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.56,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival image, captured on a glass plate negative measuring 13x18cm in silver bromide, was taken in the region of Les Genevez as indicated by the geographical coverage noted in the record.",
+      "refs": [
+       "E4",
+       "E3",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.17,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3240730",
+    "error": null,
+    "seconds": 1.7,
+    "sentences": [
+     {
+      "text": "The photograph titled \"Karrikatur von Oberst de Montmollin\" depicts a caricature of a high-ranking military officer from the Swiss Army during World War I.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image was created as part of the Armeestab's visual documentation of the military's activities and personnel during the period of 1914 to 1918.",
+      "refs": [
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.1,
+      "weakly_supported": true
+     },
+     {
+      "text": "The physical format of the photograph is a glass plate negative measuring 13x18cm, made using the silver bromide process, which was common for archival photography at the time.",
+      "refs": [
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     },
+     {
+      "text": "The record is cataloged under the reference code E27#1000/721#14095#4720* and is located within the Landesverteidigung section of the Swiss Federal Archives, specifically in the collection of photographs documenting the army's activities during World War I.",
+      "refs": [
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.21,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3237057",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Lastwagen auf der Ofenbergstrasse\" documents a military truck on the Ofenberg road during World War I.",
+      "refs": [
+       "E1",
+       "E3"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     },
+     {
+      "text": "This image was captured between 1914 and 1918 as part of the Gebirgsbrigade 18's activities in the Ofenberg region.",
+      "refs": [
+       "E2",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.14,
+      "weakly_supported": true
+     },
+     {
+      "text": "The photograph is a silver bromide negative on a glass plate, measuring 10x15cm, and is cataloged under reference code E27#1000/721#14094#3059*",
+      "refs": [
+       "E4",
+       "E5",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3239303",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Pferde der Meldeläufer vor dem Haus eines Stabes der Kavallerie Division\" documents cavalry horses stationed in front of a divisional headquarters building.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.5,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3236632",
+    "error": null,
+    "seconds": 0.4,
+    "sentences": [
+     {
+      "text": "The photograph titled Wachthütte an der Grenze documents a watchtower positioned along the border near Lützel.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3240864",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The photograph titled Blick auf das Dorf Grindelwald captures a view of the village of Grindelwald, a location documented by OpenStreetMap.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.6,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3238543",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Soldaten helfen beim Pflügen\" captures soldiers assisting with plowing in Courrouse during World War I.",
+      "refs": [
+       "E1",
+       "E4",
+       "E7"
+      ],
+      "inferred": false,
+      "support": 0.42,
+      "weakly_supported": false
+     },
+     {
+      "text": "The image is a glass plate negative measuring 13x18cm, part of the Swiss Federal Archives collection documenting the army's activities between 1914 and 1918.",
+      "refs": [
+       "E5",
+       "E6",
+       "E7",
+       "E8",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record, accessioned under 1000/721, preserves a visual memory of wartime agricultural support efforts in the region.",
+      "refs": [
+       "E8",
+       "E9"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "5859153",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On September 13, 1965, Pierre Schumacher, President of the Council of State of the Canton of Geneva, engaged in a conversation with the Belgian Ambassador Rothschild at the Comptoir Suisse, as documented by Actualités Suisses Lausanne.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.37,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3241526",
+    "error": null,
+    "seconds": 1.2,
+    "sentences": [
+     {
+      "text": "A photograph titled \"Offiziere nach der Uebungsbesprechung\" documents Swiss infantry officers at Mariastein on January 1, 1918.",
+      "refs": [
+       "E1",
+       "E3",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.4,
+      "weakly_supported": false
+     },
+     {
+      "text": "The image is a glass plate negative measuring 13x18cm, part of the Swiss Army's archival collection of wartime photographs.",
+      "refs": [
+       "E4",
+       "E5",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     },
+     {
+      "text": "This record is cataloged under the reference code E27#1000/721#14095#5521*, within the section covering the army's activities during World War I.",
+      "refs": [
+       "E7",
+       "E8"
+      ],
+      "inferred": false,
+      "support": 0.18,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3241441",
+    "error": null,
+    "seconds": 0.4,
+    "sentences": [
+     {
+      "text": "A photograph from the Swiss Federal Archives shows a soldier recovering at a convalescent center near Sigriswil, where he is painting at a garden pavilion.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.08,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3513305",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On November 28, 2001, during the third session of the National Council's winter session, Liliane Maury Pasquier delivered official communications as recorded in the Swiss Federal Archives.",
+      "refs": [
+       "E3",
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.28,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "4046151",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "The Swiss Federal Council discussed the total revision of the Victim Assistance Act during a session of the Council of States on March 14, 2007.",
+      "refs": [
+       "E1",
+       "E3",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.54,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31200573",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "During the National Council session on March 9, 2015, Bernhard Guhl questioned Eveline Widmer-Schlumpf about the federal authorities' support for the political engagement of their employees within the context of the milizsystem.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30704186",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "On December 5, 2007, the Swiss Federal Railways prepared a working paper titled \"Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien\" for an internal meeting.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.38,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30702600",
+    "error": null,
+    "seconds": 1.0,
+    "sentences": [
+     {
+      "text": "On October 1, 1997, the AlpTransit AG prepared a brief regarding the safety concept for the Lötschberg Base Tunnel North and South projects, sent by F. Kilchenmann and N. Brunner.",
+      "refs": [
+       "E1",
+       "E3",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     },
+     {
+      "text": "This document was part of the broader AlpTransit project management and safety reporting process, archived under the reference code E8100F#2016/63#5#10*",
+      "refs": [
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.42,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31659328",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "During the National Council session on March 12, 2018, Philipp Hadorn questioned Johann N. Schneider-Ammann about the future of the Swiss Federal Housing Office in Grenchen.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.39,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32583909",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "The document titled \"2016.0055: Finanzhilfen für familienergänzende Kinderbetreuung\" outlines changes to financial aid for childcare services, authored by a diverse group of Swiss politicians including Matthias Aebischer and Jacqueline Badran.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.55,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30789827",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "On November 14, 1941, the Swiss Filmweekly released a communiqué documenting the week's cinematic highlights.",
+      "refs": [
+       "E1",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record, accessioned as 1975/35, is preserved within the Swiss Filmweekly collection spanning 1940 to 1975.",
+      "refs": [
+       "E3",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31659653",
+    "error": null,
+    "seconds": 1.0,
+    "sentences": [
+     {
+      "text": "On March 16, 2018, National Councilor Lisa Mazzone submitted an interpellation to the Swiss Federal Council regarding the use of DNA for family research in criminal investigations, asking whether the Council intended to abandon this practice.",
+      "refs": [
+       "E1",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.2,
+      "weakly_supported": false
+     },
+     {
+      "text": "This digital record, cataloged under reference code E1301#2019/248#13#178*, documents the proceedings of the National Council during the spring session of 2018.",
+      "refs": [
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.23,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30791247",
+    "error": null,
+    "seconds": 0.8,
+    "sentences": [
+     {
+      "text": "On May 14, 1971, the Swiss Filmweekly published a communiqué documenting current cinematic events in Switzerland.",
+      "refs": [
+       "E1",
+       "E2"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record, accessioned under 1975/35, is part of the Swiss Filmweekly collection spanning 1940 to 1975.",
+      "refs": [
+       "E3",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3514516",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "On March 23, 2001, during the spring session of the National Council, Anne-Catherine Ménétrey-Savary submitted a postulate concerning the position of women in asylum policy.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.31,
+      "weakly_supported": false
+     },
+     {
+      "text": "The archival record E1301#2003/451#13#31* documents this legislative initiative within the broader context of the National Council's deliberations from 1848 to 2003.",
+      "refs": [
+       "E3",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     },
+     {
+      "text": "This record reflects the ongoing efforts to address gender-related issues within Switzerland's asylum and migration policies during the early 2000s.",
+      "refs": [
+       "E1",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.0,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "32487293",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "During the National Council session on September 26, 2016, Jean-Luc Addor and Simonetta Sommaruga addressed concerns regarding the European Union's weapons directive proposal, arguing against any further tightening of Swiss arms legislation.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3519319",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "On 19 June 2006, Swiss politicians Christophe Darbellay, Jean-Claude Rennwald, Ulrich Schlüer, and Josef Zisyadis presented a parliamentary initiative concerning the mandatory referendum for the AGCS.",
+      "refs": [
+       "E3",
+       "E2",
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.62,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3513514",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On December 14, 2001, Alex Heim submitted a postulate to the Swiss National Council regarding the transparency of the overall concept for freight transport on rail, exploring possible scenarios for route-rail traffic transfer.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4"
+      ],
+      "inferred": false,
+      "support": 0.44,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31042425",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "In 2013, Maya Graf submitted a petition to the Swiss National Council advocating for the inclusion of media competence education within the national education mandate.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3513865",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "On September 23, 2002, during the fifth session of the National Council's autumn session, J. Alexander Baumann posed a question to the Federal Office for Professional Education regarding its supervision of vocational training programs.",
+      "refs": [
+       "E1",
+       "E3",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.19,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3512888",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "On June 22, 2001, during the National Council session, Peter Hess spoke in support of the Turkish political prisoners' hunger strike, as documented in the petition titled \"Solidarität mit den politischen Gefangenen in der Türkei\"",
+      "refs": [
+       "E1",
+       "E2",
+       "E3",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.53,
+      "weakly_supported": false
+     },
+     {
+      "text": "This speech was recorded during the 13th meeting of the National Council's summer session of 2001, under the reference code E1301#2001/209#13#4*",
+      "refs": [
+       "E4",
+       "E5"
+      ],
+      "inferred": false,
+      "support": 0.27,
+      "weakly_supported": false
+     },
+     {
+      "text": "The petition and Hess's address highlighted the international concern regarding the detention conditions and human rights violations in Turkey at that time",
+      "refs": [
+       "E1"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31264790",
+    "error": null,
+    "seconds": 0.7,
+    "sentences": [
+     {
+      "text": "On June 4, 2015, Swiss politicians Brigitte Häberli-Koller, Claude Hêche, Karin Keller-Sutter, Doris Leuthard, and Paul Rechsteiner posed an interpellation regarding the Regio-Express St. Gallen-Konstanz service.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2",
+       "C3",
+       "C4",
+       "C5"
+      ],
+      "inferred": false,
+      "support": 0.86,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32463405",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "The motion Feller Olivier, introduced on March 7, 2017, aimed to ease the conditions for short-time compensation benefits for service sector companies during reduced working hours.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.29,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "30704308",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On June 27, 2007, the Swiss Federal Office of Transport prepared a protocol regarding the AlpTransit Gotthard Base Tunnel project, specifically addressing the expansion of transverse caverns with escape routes at Sedrun and Faido.",
+      "refs": [
+       "E1",
+       "C2",
+       "C3"
+      ],
+      "inferred": false,
+      "support": 0.25,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "5097377",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "During the Wintersession 2008 of the Swiss National Council, Marlies Bänziger posed a question regarding the Ilisu Dam and export risk guarantees.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.54,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31060099",
+    "error": null,
+    "seconds": 1.3,
+    "sentences": [
+     {
+      "text": "The Swiss Filmweekly produced a poster for its 616th edition on March 26, 1954, measuring 350x500mm in physical format.",
+      "refs": [
+       "E1",
+       "E2",
+       "E4",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     },
+     {
+      "text": "This archival record is cataloged under the reference code J2.143#1996/386#616-4#1* and stored in the Swiss Filmweekly collection spanning 1940-1975.",
+      "refs": [
+       "E5",
+       "E6"
+      ],
+      "inferred": false,
+      "support": 0.3,
+      "weakly_supported": false
+     },
+     {
+      "text": "The poster serves as a visual artifact documenting the weekly film newsreel series that was a significant part of Swiss cinematic culture during the mid-20th century.",
+      "refs": [
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.07,
+      "weakly_supported": true
+     }
+    ]
+   },
+   {
+    "id": "3524710",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "On December 14, 1990, the Swiss National Council addressed the interpellation Spielmann regarding the country's position at the 83rd Inter-Parliamentary Union Conference held in Nicosia.",
+      "refs": [
+       "E1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.47,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31862793",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "In 2014, a parliamentary initiative was proposed by Ruedi Lustenberger concerning public procurement, specifically suggesting that the training of apprentices should be considered a selection criterion for contracts.",
+      "refs": [
+       "E1",
+       "C1",
+       "C2"
+      ],
+      "inferred": false,
+      "support": 0.41,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31042931",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "In September 2013, Filippo Lombardi presented a motion to the Swiss Council of States addressing the nuisances caused by freight train traffic.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.36,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3519998",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "On October 8, 1982, the Swiss National Council addressed a postulate concerning collective labor agreements and their general binding declaration, as documented in the archival record E1301#1982/207#13#25*",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.22,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3514472",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "On March 20, 2001, Erwin Jutzet submitted a postulate to the Swiss National Council regarding the application of the new divorce law.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.55,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "32463607",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "In 2013, Jürg Stahl submitted a petition to the Swiss National Council advocating for equal treatment between military and civil service obligations.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.43,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "3526205",
+    "error": null,
+    "seconds": 0.5,
+    "sentences": [
+     {
+      "text": "On 9 October 1992, the Swiss Federal Council adapted federal law to harmonize with European regulations regarding supplementary benefits for the elderly, survivors, and disabled.",
+      "refs": [
+       "E1",
+       "C1"
+      ],
+      "inferred": false,
+      "support": 0.33,
+      "weakly_supported": false
+     }
+    ]
+   },
+   {
+    "id": "31597262",
+    "error": null,
+    "seconds": 0.6,
+    "sentences": [
+     {
+      "text": "In the Wintersession 2016, Swiss politicians including Marina Carobbio Guscetti, Raymond Clottu, Barbara Gysi, and Regine Sauter debated motions concerning healthcare policy.",
+      "refs": [
+       "E2",
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "inferred": false,
+      "support": 0.59,
+      "weakly_supported": false
+     }
+    ]
+   }
+  ]
+ }
+}
