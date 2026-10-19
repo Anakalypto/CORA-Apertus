@@ -312,6 +312,7 @@ async function recordPage(id, tab) {
         ${r.classification.resume ? `<div class="resume-box">${esc(r.classification.resume)} ${pv("apertus")}
           <div><button class="more-btn" id="morebtn">See more ▾</button></div><div id="more"></div></div>` : `<p class="muted small">Résumé disabled in config.</p>`}
         ${r.classification.source_level !== "primary" ? `<div id="topic"></div>` : ""}
+        <div id="inquiry"></div>
         <div class="tabs">${Object.entries(tabs).map(([k, v]) => `<button data-tab="${k}" class="${k === tab ? "on" : ""}">${v}</button>`).join("")}</div>
         <div class="tabpane" id="pane"></div>
       </section>
@@ -356,6 +357,7 @@ async function recordPage(id, tab) {
     } finally { mb.disabled = false; }
   };
   show(tab);
+  recordInquiry(r);
   if ($("#topic")) topicPanel(r);
 }
 
@@ -604,31 +606,120 @@ async function livePage() {
 }
 
 /* ---------------- Ask the archive ---------------- */
+const EXHIBIT = (i) => String.fromCharCode(65 + (i % 26)) + (i >= 26 ? Math.floor(i / 26) : "");
+const caseNo = (q) => { let h = 7; for (const c of q) h = (h * 31 + c.charCodeAt(0)) >>> 0; return `CORA-${new Date().getFullYear()}-${String(h % 10000).padStart(4, "0")}`; };
+const today = () => new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
+const CASELOG_KEY = "cora.caselog";
+const caseLog = () => { try { return JSON.parse(localStorage.getItem(CASELOG_KEY) || "[]"); } catch { return []; } };
+const logCase = (q, verdict) => {
+  try { localStorage.setItem(CASELOG_KEY, JSON.stringify([{ q, verdict, at: Date.now() }, ...caseLog().filter((c) => c.q !== q)].slice(0, 8))); } catch { /* private mode: no case log */ }
+};
+
+/* Report + exhibits for one answer of /api/ask. `mini` is the compact form used on record pages. */
+function caseReport(r, { mini = false, focus = null } = {}) {
+  const ex = {}; (r.citations || []).forEach((c, i) => (ex[c.id] = EXHIBIT(i)));
+  const verdict = !r.sentences.length ? "closed" : r.insufficient || !r.answered ? "partial" : "supported";
+  const stamp = { supported: "Supported by the files", partial: "Partly answered", closed: "Case closed · no matching file" }[verdict];
+  const findings = r.sentences.length
+    ? r.sentences.map((s) => `<span class="inq-claim${s.uncited ? " unv" : ""}">${esc(s.text)}${s.sources.map((id) =>
+        `<a class="exh-ref" href="#/record/${id}" title="${id === focus ? "This record" : "Exhibit " + ex[id]}">${id === focus && mini ? "★" : ex[id]}</a>`).join("")}${s.uncited ? `<span class="inq-unv" title="No pulled file supports this sentence">unverified</span>` : ""}</span>`).join(" ")
+    : `<p>${esc(r.message || "The files pulled from the stacks do not answer this question.")}</p>`;
+  const exhibits = (r.citations || []).map((c, i) => `<a class="inq-exhibit" href="#/record/${c.id}">
+      <span class="inq-tag">${c.id === focus ? "This record" : "Exhibit " + EXHIBIT(i)}</span>
+      <span class="inq-ex-type">${TYPE_ICON[c.document_type] || "📄"} ${esc(c.document_type || "")}${c.source_level ? ` · ${esc(c.source_level)}` : ""}</span>
+      <b>${esc(c.title)}</b>
+      <span class="inq-ex-meta">${fmtDate(c.date)} · <code>${esc(c.reference_code)}</code></span></a>`).join("");
+  if (mini) return `<div class="inq-mini-report">${findings}
+      <div class="inq-mini-foot"><span class="inq-stamp sm ${verdict}">${stamp}</span>
+      ${(r.citations || []).filter((c) => c.id !== focus).map((c) => `<a href="#/record/${c.id}" class="small">Exhibit ${ex[c.id]}: ${esc(c.title)}</a>`).join(" · ")}</div></div>`;
+  return `<article class="inq-report">
+      <div class="inq-report-head"><span>Investigation report</span><span>Case Nº ${caseNo(r.question)}</span><span>${today()}</span></div>
+      <p class="inq-q"><span>Inquiry</span>“${esc(r.question)}”</p>
+      <div class="inq-findings">${findings}</div>
+      <span class="inq-stamp ${verdict}">${stamp}</span>
+      <p class="inq-report-foot">${r.sentences.length ? `Drafted by Apertus${r.model ? ` (${esc(r.model)})` : ""}${r.seconds ? ` in ${r.seconds} s` : ""} from ${(r.retrieved || []).length} files pulled from the stacks.
+        Every claim points to an exhibit; a claim without one is marked unverified.` : `The archivist searched the catalogue and found no file relevant enough, so no report was drafted. No file, no claim.`}</p>
+    </article>
+    ${exhibits ? `<h2 class="inq-h">Exhibits <small>${(r.citations || []).length} file${(r.citations || []).length > 1 ? "s" : ""} cited</small></h2><div class="inq-exhibits">${exhibits}</div>` : ""}
+    ${(r.retrieved || []).length ? `<details class="inq-drawer"><summary>Files pulled but not cited (${(r.retrieved || []).filter((h) => !ex[h.id]).length})</summary><ul>${(r.retrieved || []).filter((h) => !ex[h.id]).map((h) =>
+      `<li><a href="#/record/${h.id}">${esc(h.id)}</a> <span class="muted">catalogue score ${h.score ?? "–"}${h.matched_terms?.length ? ` · matched ${esc(h.matched_terms.join(", "))}` : ""}</span></li>`).join("") || "<li class='muted'>None: every file pulled was cited.</li>"}</ul></details>` : ""}`;
+}
+
 async function askPage(params) {
   setNav("ask");
   const q = params.get("q") || "";
-  app.innerHTML = `<h1>Ask the archive</h1>
-    <p class="muted">Questions are answered only from the 100 classified records. Every sentence cites the records it relies on;
-    when nothing relevant is found, CORA says so instead of answering. Answers are generated by Apertus ${pv("apertus")}.</p>
-    <form class="live-form" id="askform"><input type="text" id="askq" style="width:min(560px,100%)" value="${esc(q)}" placeholder="e.g. What do the records show about Swiss football abroad?">
-    <button id="askbtn">Ask</button><span id="askstatus" class="small muted"></span></form>
-    <div class="chips">${["Which records concern the Swissair trial?", "What do the photographs of the 1914-1918 active service show?", "Welche Vorstösse gab es zur Kinderbetreuung?", "Who won the 1966 World Cup?"].map((x) => `<a class="chip x" href="#/ask?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join("")}</div>
-    <div id="askout"></div>`;
-  $("#askform").onsubmit = (e) => { e.preventDefault(); location.hash = "#/ask?q=" + encodeURIComponent($("#askq").value.trim()); };
+  const focus = params.get("record") || "";
+  const leads = ["Which records concern the Swissair trial?", "What do the photographs of the 1914-1918 active service show?",
+    "Welche Vorstösse gab es zur Kinderbetreuung?", "What did Swiss television report about Uganda?", "Who won the 1966 World Cup?"];
+  const log = caseLog();
+  app.innerHTML = `<div class="inq">
+    <header class="inq-head">
+      <div class="inq-kicker">Swiss Federal Archives · Investigation desk</div>
+      <h1>Ask the archive</h1>
+      <p>You are the investigator. Write down a line of inquiry: the archivist pulls the matching files from the stacks,
+      Apertus drafts a report, and every claim in it points to an exhibit you can open. No file, no claim. ${pv("apertus")}</p>
+    </header>
+    <div class="inq-desk">
+      <form class="inq-folder" id="askform">
+        <div class="inq-tab">Case file Nº ${q ? caseNo(q) : "— new —"}</div>
+        ${focus ? `<p class="inq-focus">Case concerns record <a href="#/record/${esc(focus)}">${esc(focus)}</a> · <a href="#/ask${q ? "?q=" + encodeURIComponent(q) : ""}">search the whole archive instead</a></p>` : ""}
+        <label for="askq">Line of inquiry</label>
+        <textarea id="askq" rows="2" placeholder="e.g. What do the records show about Swiss football abroad?">${esc(q)}</textarea>
+        <div class="inq-folder-foot">
+          <span>Opened ${today()} · Investigator: you · Holdings: the classified records of CORA</span>
+          <button id="askbtn">Open the case</button>
+        </div>
+      </form>
+      <aside class="inq-board">
+        <h3>Open leads</h3>
+        <div class="inq-leads">${leads.map((x, i) => `<a class="inq-lead" href="#/ask?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join("")}</div>
+        ${log.length ? `<h3>Your case log</h3><ol class="inq-log">${log.map((c) => `<li><a href="#/ask?q=${encodeURIComponent(c.q)}">${esc(c.q)}</a> <span class="inq-v ${c.verdict}">${{ supported: "supported", partial: "partial", closed: "closed" }[c.verdict] || ""}</span></li>`).join("")}</ol>
+          <p class="small muted">Kept in this browser only.</p>` : ""}
+      </aside>
+    </div>
+    <div id="askout"></div></div>`;
+  const ta = $("#askq");
+  ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#askform").requestSubmit(); } };
+  $("#askform").onsubmit = (e) => { e.preventDefault(); const v = ta.value.trim(); if (v.length >= 3) location.hash = `#/ask?${focus ? `record=${encodeURIComponent(focus)}&` : ""}q=` + encodeURIComponent(v); };
   if (!q) return;
-  $("#askstatus").innerHTML = `<span class="spinner"></span> Searching and asking Apertus…`;
+  const out = $("#askout");
+  const steps = ["Searching the catalogue", "Pulling the files from the stacks", "Apertus is drafting the report"];
+  out.innerHTML = `<ol class="inq-progress">${steps.map((s, i) => `<li data-i="${i}">${s}</li>`).join("")}</ol>`;
+  let i = 0; const tick = setInterval(() => { out.querySelectorAll(".inq-progress li").forEach((li) => li.classList.toggle("on", +li.dataset.i <= i)); i = Math.min(i + 1, steps.length - 1); }, 700);
   try {
-    const r = await api("/api/ask?q=" + encodeURIComponent(q));
-    $("#askstatus").textContent = r.seconds ? `Answered in ${r.seconds}s.` : "";
-    const n = {}; (r.citations || []).forEach((c, i) => (n[c.id] = i + 1));
-    $("#askout").innerHTML = !r.sentences.length
-      ? `<div class="callout">${esc(r.message || "The retrieved records do not answer this question.")}</div>`
-      : `<div class="resume-box">${r.insufficient ? `<p class="small"><b>The sources only partly answer this.</b></p>` : ""}${r.sentences.map((s) => `${esc(s.text)}${s.sources.map((id) => ` <a href="#/record/${id}" title="${esc(id)}"><sup>[${n[id]}]</sup></a>`).join("")}${s.uncited ? ` <span class="badge qc-bad" title="No retrieved record supports this sentence">uncited</span>` : ""}`).join(" ")} ${pv("apertus")}</div>
-        <h3>Sources</h3><ol>${(r.citations || []).map((c) => `<li><a href="#/record/${c.id}">${esc(c.title)}</a> · <code>${esc(c.reference_code)}</code> · <a href="${c.portal_url}" target="_blank" rel="noopener">archive portal ↗</a></li>`).join("")}</ol>`;
-    $("#askout").innerHTML += `<details class="small muted"><summary>Retrieved records (BM25)</summary><ul>${(r.retrieved || []).map((h) => `<li><a href="#/record/${h.id}">${h.id}</a> score ${h.score} — ${esc(h.matched_terms.join(", "))}</li>`).join("")}</ul></details>`;
+    const r = await api(`/api/ask?${focus ? `record=${encodeURIComponent(focus)}&` : ""}q=` + encodeURIComponent(q));
+    clearInterval(tick);
+    if (!$("#askout")) return;
+    out.innerHTML = caseReport(r, { focus: focus || null });
+    logCase(q, !r.sentences.length ? "closed" : r.insufficient || !r.answered ? "partial" : "supported");
   } catch (err) {
-    $("#askstatus").textContent = "Error: " + err.message;
+    clearInterval(tick);
+    out.innerHTML = `<div class="callout">The archivist could not complete the search: ${esc(err.message)}</div>`;
   }
+}
+
+/* "Investigate this record": the same desk, focused on the record in view. */
+function recordInquiry(r) {
+  const box = $("#inquiry");
+  if (!box) return;
+  const qs = ["Who appears in this record?", "Where and when was it made?", "How does it relate to other records of the archive?"];
+  box.innerHTML = `<section class="inq-mini">
+    <div class="inq-mini-head"><span class="inq-kicker">Investigate this record</span><span class="small muted">answers cite this record (★) and related files · Apertus ${pv("apertus")}</span></div>
+    <form id="recask" class="inq-mini-form"><input id="recq" type="text" placeholder="Ask a question about this record…" autocomplete="off"><button>Ask</button></form>
+    <div class="inq-mini-leads">${qs.map((x) => `<button type="button" class="inq-lead sm">${esc(x)}</button>`).join("")}</div>
+    <div id="recaskout"></div></section>`;
+  const run = async (q) => {
+    const out = $("#recaskout");
+    out.innerHTML = `<p class="small muted"><span class="spinner"></span> Pulling this file and related ones, Apertus is drafting…</p>`;
+    try {
+      const res = await api(`/api/ask?record=${encodeURIComponent(r.id)}&q=${encodeURIComponent(q)}`);
+      if (!$("#recaskout")) return;
+      out.innerHTML = `<p class="inq-mini-q">“${esc(q)}”</p>${caseReport(res, { mini: true, focus: r.id })}
+        <a class="small" href="#/ask?record=${encodeURIComponent(r.id)}&q=${encodeURIComponent(q)}">Open a full case on the investigation desk →</a>`;
+    } catch (err) { out.innerHTML = `<p class="small">Could not answer: ${esc(err.message)}</p>`; }
+  };
+  $("#recask").onsubmit = (e) => { e.preventDefault(); const q = $("#recq").value.trim(); if (q.length >= 3) run(q); };
+  box.querySelectorAll(".inq-mini-leads button").forEach((b) => (b.onclick = () => { $("#recq").value = b.textContent; run(b.textContent); }));
 }
 
 /* ---------------- Federal consultations 1960-1991 ---------------- */

@@ -122,6 +122,12 @@ def news(query: str, ua: str, n: int = 10) -> list[dict]:
         return []
 
 
+def _for_reader(out: dict) -> dict:
+    """Result as served: internal candidate refs (P8, W2…) removed from the note, search links added."""
+    note = re.sub(r"\s*\(?\[?\b[WPAN]\d+\]?\)?", "", str(out.get("note") or "")).strip() or None
+    return out | {"note": note, "search_links": search_links(out)}
+
+
 def search_links(out: dict) -> dict:
     """Ready-made searches for the reader to go further (Federal Archives portal, Dodis)."""
     if not out.get("identifiable"):
@@ -148,8 +154,7 @@ def build(r: dict, index, cfg, ap) -> dict:
     cache_dir.mkdir(exist_ok=True)
     path = cache_dir / f"{r['id']}.json"
     if path.exists():
-        out = json.loads(path.read_text(encoding="utf-8"))
-        return out | {"search_links": search_links(out)}
+        return _for_reader(json.loads(path.read_text(encoding="utf-8")))
     ua = cfg["enrich"]["user_agent"]
     t0 = time.time()
     plan, _ = ap.chat_json([{"role": "system", "content": PLAN}, {"role": "user", "content": _record_text(r)}])
@@ -186,8 +191,8 @@ def build(r: dict, index, cfg, ap) -> dict:
         out["primary"] = _picked(vet.get("primary"), "P", dossiers, 8)
         out["primary_in_dataset"] = _picked(vet.get("primary"), "A", own, 5)
         out["news"] = _picked(vet.get("news"), "N", items, 6)
-        out["note"] = re.sub(r"\s*\(?\[?\b[WPAN]\d+\]?\)?", "", str(vet.get("note") or "")).strip() or None  # internal refs mean nothing to readers
+        out["note"] = vet.get("note")
         out["offered"] = {"wikipedia": len(wps), "primary": len(dossiers), "primary_in_dataset": len(own), "news": len(items)}
     out["seconds"] = round(time.time() - t0, 1)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    return out | {"search_links": search_links(out)}
+    return _for_reader(out)

@@ -228,8 +228,10 @@ def _llm():
 
 
 @app.get("/api/ask", summary="Ask the archive: cited answer from the dataset (BM25 + Apertus); refuses when nothing relevant is found")
-def ask(q: str = Query(..., min_length=3), k: int = 6):
-    return qa.ask(QA_INDEX, _llm(), q, k)
+def ask(q: str = Query(..., min_length=3), k: int = 6, record: str = Query("", description="ask about this record (it is always a source)")):
+    if record and record not in RECORDS:
+        raise HTTPException(404, "unknown record")
+    return qa.ask(QA_INDEX, _llm(), q, k, focus=record or None)
 
 
 @app.get("/api/consultations", summary="Federal consultations 1960-1991 with Apertus topics/entities and procedure chains")

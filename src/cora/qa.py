@@ -62,10 +62,33 @@ Every sentence must cite the record IDs it relies on. If the sources do not answ
 and say what the sources do contain instead. Never use outside knowledge. Answer in the language of the question.
 Return one JSON object."""
 
+FOCUS = """
+The reader is looking at record [{id}] and asks about it. Answer first from that record; use the other sources only to
+connect it to the rest of the archive, and say so when you do."""
 
-def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5) -> dict:
-    hits = index.search(question, k)
-    relevant = [h for h in hits if h[1] >= min_score]
+
+def _strip_ids(text: str, focus: str | None) -> str:
+    """Record ids belong in the footnotes, not in the prose."""
+    if focus:
+        text = re.sub(rf"(?i)\b(?:the )?record \[{focus}\]", "this record", text)
+    text = re.sub(r"\s*\[\d+(?:\s*[,;]\s*\d+)*\]", "", text)
+    text = re.sub(r"\s*[,;]+\s*([),;.])", r"\1", text)
+    text = re.sub(r"\(\s*\)", "", text)
+    text = re.sub(r"\s{2,}", " ", text).strip()
+    return text[:1].upper() + text[1:]
+
+
+def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5, focus: str | None = None) -> dict:
+    """Cited answer from the retrieved records. With `focus`, that record is always the first source and the
+    archive is searched with the question plus the record's title (to connect it to related records)."""
+    if focus:
+        f = index.records[focus]["metadata"]
+        about = " ".join(filter(None, [f.get("title_en") or f["title"], " ".join(f.get("subjects") or [])]))
+        hits = [h for h in index.search(about, k + 1) if h[0] != focus][:k - 2]
+        relevant = [(focus, None, [])] + [h for h in hits if h[1] >= min_score]
+    else:
+        hits = index.search(question, k)
+        relevant = [h for h in hits if h[1] >= min_score]
     if not relevant:
         return {"question": question, "answered": False,
                 "message": "Nothing in the archive sample matches this question, so CORA does not answer it.",
@@ -78,10 +101,16 @@ def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5) -> 
                         "date": m.get("content_date") or m.get("date_created"), "type": c["document_type"],
                         "resume": c.get("resume"), "content": (o.get("scope_and_content") or "")[:600],
                         "reference_code": r["source"]["reference_code"]})
+        if rid == focus:  # the record in view: all its original fields, not only the summary
+            from .narrative import evidence
+            sources[-1]["original_fields"] = {e["label"]: str(e["value"])[:500] for e in evidence(r)}
+            sources[-1]["persons"] = [p.get("display_name") or p["name"] for p in r["entities"]["persons"]][:12]
+            sources[-1]["places"] = [p["name"] for p in r["entities"]["places"]][:12]
     schema = {"insufficient": False, "sentences": [{"text": "<one sentence>", "sources": ["<record id>"]}]}
     user = ("Question: " + question + "\n\nSources:\n" + "\n".join(
         f"[{s['id']}] {json.dumps(s, ensure_ascii=False)}" for s in sources) + "\n\nReturn:\n" + json.dumps(schema))
-    raw, meta = ap.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}])
+    system = SYSTEM + (FOCUS.format(id=focus) if focus else "")
+    raw, meta = ap.chat_json([{"role": "system", "content": system}, {"role": "user", "content": user}])
     allowed = {s["id"] for s in sources}
     sentences = []
     for sent in raw.get("sentences") or []:
@@ -89,7 +118,8 @@ def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5) -> 
             continue
         cited = [str(x).strip("[] ") for x in (sent.get("sources") or [])]
         valid = [x for x in cited if x in allowed]
-        sentences.append({"text": sent["text"].strip(), "sources": valid,
+        text = _strip_ids(sent["text"], focus)
+        sentences.append({"text": text, "sources": valid,
                           "dropped_sources": [x for x in cited if x not in allowed], "uncited": not valid})
     cites = {x for s in sentences for x in s["sources"]}
     return {
@@ -97,8 +127,11 @@ def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5) -> 
         "insufficient": bool(raw.get("insufficient")), "sentences": sentences,
         "citations": [{"id": rid, "title": index.records[rid]["metadata"].get("title_normalized") or index.records[rid]["metadata"]["title"],
                        "record_url": f"#/record/{rid}", "portal_url": index.records[rid]["source"]["portal_url"],
-                       "reference_code": index.records[rid]["source"]["reference_code"]}
+                       "reference_code": index.records[rid]["source"]["reference_code"],
+                       "date": index.records[rid]["metadata"].get("content_date") or index.records[rid]["metadata"].get("date_created"),
+                       "document_type": index.records[rid]["classification"]["document_type"],
+                       "source_level": index.records[rid]["classification"]["source_level"]}
                       for rid in [s["id"] for s in sources] if rid in cites],
-        "retrieved": [{"id": h[0], "score": h[1], "matched_terms": h[2]} for h in relevant],
+        "retrieved": [{"id": h[0], "score": h[1], "matched_terms": h[2]} for h in relevant], "focus": focus,
         "model": meta.get("model"), "seconds": round(meta["seconds"], 1), "generated": True,
     }
