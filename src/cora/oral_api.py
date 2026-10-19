@@ -1,7 +1,9 @@
 """API routes of the year context drawer and the Oral tradition page (included by api.py)."""
+import re
+
 from fastapi import APIRouter, Body, HTTPException, Query
 
-from . import ancestry, i18n, years
+from . import ancestry, i18n, origin, years
 
 router = APIRouter()
 
@@ -31,7 +33,18 @@ def year_detail(year: int):
     return years.year_context(year, a.RECORDS, a.DATA)
 
 
-@router.get("/api/oral/places", summary="Places of origin known to the Stapfer-Enquête 1799 (autocomplete)")
+def _place_id(v):
+    """A 1799 Stapfer place (a number) or a current municipality ("m" + BFS number)."""
+    v = str(v or "").strip()
+    if re.fullmatch(r"m\d{1,5}", v):
+        return v
+    if re.fullmatch(r"\d{1,6}", v):
+        return int(v)
+    raise ValueError(v)
+
+
+@router.get("/api/oral/places", summary="Places of origin (autocomplete): the places of the Stapfer-Enquête 1799 first, "
+                                        "then every current Swiss municipality (swisstopo)")
 def oral_places(q: str = Query("", min_length=0)):
     return ancestry.suggest(_app().DATA, q)
 
@@ -44,10 +57,10 @@ def oral_story(body: dict = Body(...), lang: str = Query("en")):
     if not 2 <= len(surname) <= 60:
         raise HTTPException(400, "give a family name")
     try:
-        place_id = int(body.get("place_id"))
+        place_id = _place_id(body.get("place_id"))
         year = int(body.get("year") or 1799)
     except (TypeError, ValueError):
-        raise HTTPException(400, "place_id and year must be numbers")
+        raise HTTPException(400, "choose a place from the list, and a year")
     if not 1700 <= year <= 1950:
         raise HTTPException(400, "choose a year between 1700 and 1950")
     oral = [str(o)[:600] for o in (body.get("oral") or []) if str(o).strip()][:12]
@@ -55,6 +68,22 @@ def oral_story(body: dict = Body(...), lang: str = Query("en")):
     try:
         return ancestry.story(a.DATA, a.CFG, _llm(0.4, 3000), surname, place_id, year,
                               (str(body.get("first_name") or "").strip() or None), oral, lang=i18n.code(lang))
+    except KeyError:
+        raise HTTPException(404, "unknown place")
+
+
+@router.get("/api/oral/status", summary="Apertus, from Wikipedia, Wikidata and the cantons' history: did the place exist in that "
+                                        "year, and was it part of the Swiss Confederation then? (cached per place, year and language)")
+def oral_status(place_id: str, year: int, lang: str = Query("en")):
+    try:
+        pid = _place_id(place_id)
+    except ValueError:
+        raise HTTPException(400, "unknown place")
+    if not 1000 <= year <= 2100:
+        raise HTTPException(400, "year out of range")
+    a = _app()
+    try:
+        return origin.status(a.DATA, a.CFG, _llm(0.1, 900), pid, year, lang=i18n.code(lang))
     except KeyError:
         raise HTTPException(404, "unknown place")
 

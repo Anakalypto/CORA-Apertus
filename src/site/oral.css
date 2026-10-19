@@ -28,13 +28,53 @@ button.chip .i { width: 13px; height: 13px; vertical-align: -2px; }
 .yearform { display: flex; gap: 8px; align-items: end; margin: 12px 0 8px; flex-wrap: wrap; }
 .yearform input { width: 110px; padding: 6px 8px; font: inherit; }
 .yearform button { padding: 7px 14px; background: var(--accent); color: #fff; border: 0; border-radius: 2px; cursor: pointer; }
-.tl-century { font-family: var(--sans); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin: 22px 0 6px; }
-.tl { list-style: none; margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--line); }
-.tl li { margin: 0; }
-.tl-item { all: unset; cursor: pointer; display: block; padding: 5px 8px; border-radius: 2px; position: relative; }
-.tl-item::before { content: ""; position: absolute; left: -21px; top: 12px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid #fff; }
-.tl-item:hover { background: var(--paper-2); }
-.tl-item b { display: inline-block; min-width: 92px; color: var(--accent); font-variant-numeric: tabular-nums; }
+.fr-controls { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 16px 0 10px; }
+.fr-controls .yearform { margin: 0 0 0 auto; }
+.fr-play { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: var(--accent); color: #fff; border: 0; border-radius: 2px; cursor: pointer; font: 600 14px var(--sans); }
+.fr-play .i { width: 15px; height: 15px; }
+.fr-year { font: 700 34px/1 var(--serif, Georgia, serif); font-variant-numeric: tabular-nums; min-width: 92px; color: var(--ink); }
+#fr-slider { flex: 1; min-width: 160px; accent-color: var(--accent); }
+.frise { position: relative; overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); background: var(--paper-2); cursor: grab;
+  scrollbar-width: thin; outline: none; user-select: none; }
+.frise:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+.frise.dragging { cursor: grabbing; }
+.fr-track { position: relative; }
+.fr-inner { position: absolute; top: 0; bottom: 0; }
+.fr-era { position: absolute; top: 0; bottom: 0; border-right: 1px dashed #c9c4bb; }
+.fr-era.era-0 { background: rgba(0,0,0,.025); }
+.fr-era span { position: sticky; left: 8px; display: inline-block; margin: 8px; font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; vertical-align: top; }
+.fr-axis { position: absolute; left: 0; right: 0; height: 3px; background: #c9c4bb; }
+.fr-progress { position: absolute; left: 0; height: 3px; background: var(--accent); }
+.fr-tick { position: absolute; width: 1px; height: 6px; background: #b5afa5; margin-top: 3px; }
+.fr-tick.major { height: 10px; background: var(--ink-3); }
+.fr-tick span { position: absolute; top: 12px; left: 0; transform: translateX(-50%); font: 600 11px var(--sans); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.fr-ev { position: absolute; display: flex; align-items: center; gap: 5px; height: 26px; padding: 0 8px 0 4px; max-width: 240px; white-space: nowrap;
+  background: #fff; border: 1px solid var(--line); border-radius: 13px; font: 12px var(--sans); color: var(--ink); cursor: pointer;
+  transform: translateX(-9px); transition: opacity .35s, filter .35s, box-shadow .2s, border-color .2s; z-index: 1; }
+.fr-ev span { overflow: hidden; text-overflow: ellipsis; }
+.fr-ev b { color: var(--accent); font-variant-numeric: tabular-nums; }
+.fr-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex: none; }
+.fr-span { position: absolute; left: 9px; top: 50%; height: 4px; margin-top: -2px; background: var(--accent-soft); border-radius: 2px; z-index: -1; }
+.fr-ev:hover { border-color: var(--accent); z-index: 3; max-width: none; }
+.fr-ev.future { opacity: .32; filter: grayscale(1); }
+.fr-ev.current { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); z-index: 2; }
+.fr-stem { position: absolute; width: 1px; background: #c9c4bb; transition: opacity .35s; }
+.fr-stem.future { opacity: .3; }
+.fr-stem.current, .fr-stem.past { background: var(--accent); opacity: .5; }
+.frise-wrap { position: relative; }
+.fr-line { position: absolute; left: 50%; top: 0; bottom: 8px; width: 2px; margin-left: -1px; background: var(--accent); pointer-events: none; z-index: 4; }
+.fr-line::before { content: ""; position: absolute; top: 0; left: -5px; border: 6px solid transparent; border-top-color: var(--accent); }
+.fr-now { display: flex; gap: 18px; align-items: flex-start; margin: 14px 0 6px; padding: 14px 16px; border-left: 4px solid var(--accent); background: #fff; min-height: 88px; }
+.fr-now-period { font: 700 22px var(--sans); color: var(--accent); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.fr-now h3 { margin: 0 0 4px; font-size: 19px; }
+.fr-now p { margin: 4px 0; }
+.linklike { all: unset; color: var(--accent); cursor: pointer; font-weight: 600; }
+.linklike:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .fr-controls .yearform { margin: 0; }
+  .fr-year { font-size: 26px; min-width: 70px; }
+  .fr-now { flex-direction: column; gap: 4px; }
+}
 
 /* Oral tradition: form */
 .oral-form { display: grid; grid-template-columns: 1fr 1fr 1.4fr 120px auto; gap: 10px; align-items: end; margin: 14px 0 6px; }
@@ -89,3 +129,16 @@ button.chip .i { width: 13px; height: 13px; vertical-align: -2px; }
   .oral-map { height: 340px; }
   .tl-item b { min-width: 76px; }
 }
+
+/* Oral tradition: place of origin in the chosen year */
+.o-src { float: right; font: 600 10px var(--sans); text-transform: uppercase; letter-spacing: .04em; padding: 1px 5px; border-radius: 2px; margin-left: 8px; }
+.o-src.s1799 { background: var(--accent-soft); color: var(--accent); }
+.o-src.today { background: #e8eef6; color: #2b5797; }
+.o-status { margin: 4px 0 8px; }
+.o-status-card { border: 1px solid var(--line); border-left: 4px solid var(--accent); background: #fff; padding: 10px 14px; }
+.o-status-card p { margin: 6px 0; }
+.o-status-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.o-flag { font: 600 12px var(--sans); padding: 2px 8px; border-radius: 10px; }
+.o-flag.ok { background: #e3f2e6; color: #1e6b33; }
+.o-flag.no { background: #fbe4e4; color: #a3201d; }
+.o-flag.unsure { background: #fff3d6; color: #8a5a00; }

@@ -128,15 +128,14 @@ async function loadCatalog(attempt = 0) {
 function languageSwitch() {
   const host = document.querySelector(".topbar-inner");
   if (!host || host.querySelector(".lang-switch")) return;
-  const box = document.createElement("div");
+  // one drop-down for every language: each name is written in its own language, so it is never translated
+  const box = document.createElement("label");
   box.className = "lang-switch";
-  box.setAttribute("role", "group");
-  box.innerHTML = Object.entries(LANGS).map(([k, v]) =>
-    `<button type="button" data-lang="${k}" class="${k === LANG ? "on" : ""}" title="${LANG_NAMES[k]}" lang="${k}" aria-pressed="${k === LANG}">${v}</button>`).join("");
-  box.onclick = (e) => {
-    const b = e.target.closest("button[data-lang]");
-    if (!b || b.dataset.lang === LANG) return;
-    try { localStorage.setItem("cora.lang", b.dataset.lang); } catch { /* not remembered */ }
+  box.innerHTML = `<span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Language">${Object.entries(LANGS).map(([k, v]) =>
+    `<option value="${k}" lang="${k}"${k === LANG ? " selected" : ""}>${v} · ${LANG_NAMES[k]}</option>`).join("")}</select>`;
+  box.querySelector("select").onchange = (e) => {
+    if (e.target.value === LANG) return;
+    try { localStorage.setItem("cora.lang", e.target.value); } catch { /* not remembered */ }
     location.reload();
   };
   host.appendChild(box);

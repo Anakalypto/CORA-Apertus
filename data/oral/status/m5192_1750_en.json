@@ -1,0 +1,37 @@
+{
+ "place": "Lugano",
+ "year": 1750,
+ "existed": "yes",
+ "founded": "first mentioned in 804 AD as Luanasco",
+ "existence_note": "The toponym Lugano is first recorded in 804 AD, indicating the settlement existed at that time.",
+ "municipality_note": "The present municipality of Lugano was formed through multiple mergers; it did not exist in its current form in 1750.",
+ "confederation": "subject territory",
+ "confederation_note": "In 1750 the area of today's canton Tessin was subject territories (ennetbirgische Vogteien) of Uri and of the Confederates.",
+ "sources": [
+  {
+   "ref": "W1",
+   "text": "Lugano ( loo-GAH-noh, UK also  luu-GAN-oh, Italian: [luˈɡaːno]; Ticinese: Lugan [lyˈɡãː]) is a city and municipality within the Lugano District in the canton of Ticino, Switzerland. It is the largest city in both Ticino and the Italian-speaking region of southern Switzerland. Lugano is the ninth largest Swiss city proper, with a population of 63,691 as of 2025, and an urban agglomeration of over 150,000.\nThe city lies on Lake Lugano, at its largest width, and, together with the adjacent town of Paradiso, occupies the entire bay of Lugano. The territory of the municipality encompasses a much larger region on both sides of the lake, with numerous isolated villages. The region of Lugano is surrounded by the Lugano Prealps, the latter extending on most of the Sottoceneri region, the southernmost part of Ticino and Switzerland. Both western and eastern parts of the municipality share an inter\nDescribed as a market town since 984, Lugano was the object of continuous disputes between the sovereigns of Como and Milan until it became part of the Old Swiss Confederation in 1513. The toponym is first recorded in 804 AD, in the form Luanasco, in 874 as Luano, and from 1189 as Lugano. However, as with the other cantons of the Helvetic Republic, the autonomy of Lugano was very limited, the republic having been founded by Napoleon in order further to centralise power in Switzerland. The canton of Lugano merged with Bellinzona creating the canton of Ticino, which endures to the present day. Around 1830 new civic and government buildings began to emerge in Lugano. In the last three decades of the 20th century, the population fell slightly, despite the merger in 1972, of the municipalities of Castagnola and Brè-Aldesago. However, in 2004 the municipalities of Breganzona, Cureggia, Davesco-Soragno, Gandria, Pambio-Noranco, Pazzallo, Pregassona and Viganello were incorporated into the municipality and followed by Barbengo, Carabbia and Villa Luganese in 2008. In 2013 the municipalities of Bogno, Cadro, Carona, Certara, Cimadera, Sonvico and Val Colla were incorporated into the municipality.\nThe shores of Lake Lugano have been inhabited since the Stone Age. Within the modern city limits (Breganzona, Castagnola, Davesco and Gandria) several ground stones or quern-stones have been found. In the area surrounding Lugano, items from the Copper Age and the Iron Age have been found. There are Etruscan monuments at Davesco-Soragno (5th to 2nd century BC), Pregassona (3rd to 2nd century BC), and Viganello (3rd to 2nd century BC). Graves with jewellery and household items have been found in Aldesago, Davesco, Pazzallo and Pregassona along with Celtic money in Viganello.\nThe region around Lake Lugano was settled by the Romans by the 1st century BC. There was an important Roman town north of Lugano at Bioggio. There are fewer traces of the Romans in Lugano, but several inscriptions, graves and coins indicate that some Romans lived in what would become Lugano.\nThe first written mention of a settlement at Lugano can be found in documents, which are of disputed authenticity, with which the Longobard king Liutprand ceded various assets located in Lugano to the Church of Saint Ca",
+   "label": "Wikipedia · Lugano",
+   "url": "https://en.wikipedia.org/wiki/Lugano"
+  },
+  {
+   "ref": "D1",
+   "text": "replaces 20 earlier municipality item(s) (a merger)",
+   "label": "Wikidata · Lugano",
+   "url": null
+  },
+  {
+   "ref": "K1",
+   "text": "In 1750 the area of today's canton Tessin was subject territories (ennetbirgische Vogteien) of Uri and of the Confederates (status: subject territory).",
+   "label": "Historical Dictionary of Switzerland · cantons",
+   "url": "https://hls-dhs-dss.ch/"
+  }
+ ],
+ "cited": [
+  "K1",
+  "W1"
+ ],
+ "model": "apertus-v1-5-70b",
+ "seconds": 2.6,
+ "corrected": "confederation status taken from the cantons' history [K1]"
+}

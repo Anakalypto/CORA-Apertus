@@ -17,7 +17,7 @@ import unicodedata
 import zipfile
 from pathlib import Path
 
-from . import enrich, period, photos, stapfer, topic, years
+from . import enrich, origin, period, photos, stapfer, topic, years
 
 
 def fold(s) -> str:
@@ -142,11 +142,21 @@ def suggest(data_dir: Path, q: str, n: int = 8) -> list[dict]:
         s = 0 if f in names else 1 if any(x.startswith(f) for x in names) else 2 if any(f in x for x in names) else None
         if s is not None:
             scored.append((s, -len(p["schools"]), p["name"], p))
-    return [{"id": p["id"], "name": p["name"], "municipality": p["municipality"], "canton": p["canton"],
-             "schools": len(p["schools"])} for *_, p in sorted(scored, key=lambda x: x[:3])[:n]]
+    out = [{"id": p["id"], "name": p["name"], "municipality": p["municipality"], "canton": p["canton"],
+            "schools": len(p["schools"]), "source": "stapfer"} for *_, p in sorted(scored, key=lambda x: x[:3])[:n]]
+    # every current municipality too (swisstopo), unless a 1799 place of the same name and canton is already listed
+    seen = {(fold(x["name"]), x["canton"]) for x in out} | {(fold(x["municipality"]), x["canton"]) for x in out}
+    for m in origin.search(data_dir, q, n):
+        if (fold(m["name"]), m["canton"]) not in seen:
+            out.append({"id": m["id"], "name": m["name"], "municipality": m["name"], "canton": m["canton"], "schools": 0,
+                        "source": "municipality"})
+    exact = lambda x: 0 if fold(x["name"]) == f else 1 if fold(x["name"]).startswith(f) else 2
+    return sorted(out, key=lambda x: (exact(x), x["source"] != "stapfer"))[:n + 4]
 
 
-def _place(data_dir: Path, pid: int) -> dict:
+def _place(data_dir: Path, pid) -> dict:
+    if isinstance(pid, str) and pid.startswith("m"):  # a current municipality (origin.py), not a 1799 place
+        return origin.place(data_dir, pid)
     for p in stapfer_index(data_dir)["places"]:
         if p["id"] == pid:
             return p
@@ -235,11 +245,16 @@ def sources(data_dir: Path, cfg: dict, surname: str, place_id: int, year: int) -
         places.setdefault(p["name"], {"name": p["name"], "lat": p["lat"], "lon": p["lon"], "role": role, "km": round(d, 1)})
 
     keep_place(home, "home")
-    add("S", f'{home["name"]} in 1799: {home.get("category") or "place"} in the canton of {home.get("canton_1799") or "?"} '
-             f'(district {home.get("district_1799") or "?"}), today {home.get("municipality") or home["name"]} ({home.get("canton") or "?"}); '
-             f'confession {home.get("confession") or "not recorded"}' + ("; a market town" if home.get("market") else "")
-             + (f'; {home["population_1799"]} inhabitants in 1799' if home.get("population_1799") else ""),
-        label=f'Stapfer-Enquête 1799 · {home["name"]}', url="https://stapferenquete.ch/")
+    if home.get("today_only"):  # a current municipality that the 1799 survey does not list
+        nearest = ", ".join(f'{p["name"]} ({round(d)} km)' for d, p in near[:3])
+        add("S", f'{home["name"]} ({home.get("canton") or "?"}) is not among the places of the 1799 survey; the nearest surveyed places '
+                 f'are {nearest}.', label="Stapfer-Enquête 1799", url="https://stapferenquete.ch/")
+    else:
+        add("S", f'{home["name"]} in 1799: {home.get("category") or "place"} in the canton of {home.get("canton_1799") or "?"} '
+                 f'(district {home.get("district_1799") or "?"}), today {home.get("municipality") or home["name"]} ({home.get("canton") or "?"}); '
+                 f'confession {home.get("confession") or "not recorded"}' + ("; a market town" if home.get("market") else "")
+                 + (f'; {home["population_1799"]} inhabitants in 1799' if home.get("population_1799") else ""),
+            label=f'Stapfer-Enquête 1799 · {home["name"]}', url="https://stapferenquete.ch/")
     # The 1799 school survey describes the time of the story only until about 1830; later it is background.
     school_places = [(0.0, home)] if home["schools"] else [(d, p) for d, p in near if p["schools"]][:1]
     for d, p in school_places if year <= 1830 else []:

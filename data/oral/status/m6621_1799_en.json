@@ -1,0 +1,30 @@
+{
+ "place": "Genève",
+ "year": 1799,
+ "existed": "yes",
+ "founded": null,
+ "existence_note": "Geneva is an ancient settlement with a long history dating back to Roman times; the sources do not provide a specific founding date but describe it as an established city in the 15th century.",
+ "municipality_note": "The present municipality of Genève exists as a unified entity since at least the modern era; prior to 2011, it was already the city of Geneva, but the current political boundaries include former communes merged into it.",
+ "confederation": "outside",
+ "confederation_note": "In 1799, the area of today's canton of Geneva was annexed by France as the département du Léman, placing it outside the Swiss Confederation.",
+ "sources": [
+  {
+   "ref": "W1",
+   "text": "Geneva (  jin-EE-və; French: Genève [ʒ(ə)nɛv] ) is the second-most populous city in Switzerland and the most populous in French-speaking Romandy. Situated in the southwest of the country, where the Rhône leaves Lake Geneva, it is the capital of the Republic and Canton of Geneva. Geneva is a global city, an international financial centre, and a worldwide centre for diplomacy, which has led to it being called the \"Peace Capital\".\nIt hosts the highest number of international organisations in the world, including the headquarters of many agencies of the United Nations and the International Committee of the Red Cross and International Federation of Red Cross and Red Crescent Societies of the Red Cross. It was where the Geneva Conventions on humanitarian treatment in war were signed, and, in the aftermath of World War I, it hosted the League of Nations. It shares a unique distinction with muni\nIn the 15th century, an oligarchic republican government emerged with the creation of the Grand Council. In 1798, Revolutionary France under the Directory annexed Geneva. The altitude of Geneva is 373.6 m (1,225.7 ft) and corresponds to the altitude of the largest of the Pierres du Niton, two large rocks emerging from the lake which date from the last ice age. In 1802, during its annexation to France under Napoleon I, the Diocese of Geneva was united with the Diocese of Chambéry, but the 1814 Congress of Vienna and the 1816 Treaty of Turin stipulated that in the territories transferred to a now considerably extended Geneva, the Catholic religion was to be protected and that no changes were to be made in existing conditions without an agreement with the Holy See. Religious buildings: Cathédrale St-Pierre et Chapelle des Macchabées, Notre-Dame Church, Russian church, St-Germain Church, Temple de la Fusterie, Temple de l'Auditoire\nCivic buildings: Former Arsenal and Archives of the City of Genève, Former Crédit Lyonnais, Former Hôtel Buisson, Former Hôtel du Résident de France et Bibliothèque de la Société de lecture de Genève, Former école des arts industriels, Archives d'État de Genève (Annexe), Bâtiment des forces motrices, Bibliothèque de Genève, Library juive de Genève «Gérard Nordmann», Cabinet des estampes, Centre d'Iconographie genevoise, Collège Calvin, École Geisendorf, University Hospital of Geneva (HUG), Hôtel de Ville et tour Baudet, Immeuble Clarté at Rue Saint-Laurent 2 and 4, Immeubles House Rotonde at Rue Charles-Giron 11–19, Immeubles at Rue Beauregard 2, 4, 6, 8, Immeubles at Rue de la Corraterie 10–26, Immeubles at Rue des Granges 2–6, Immeuble at Rue des Granges 8, Immeubles at Rue des Granges 10 and 12, Immeuble at Rue des Granges 14, Immeuble and Former Armory at Rue des Granges 16, Immeubles at Rue Pierre Fatio 7 and 9, House de Saussure at Rue de la Cité 24, House Des arts du Grütli at Rue du Général-Dufour 16, House Royale et les deux immeubles à côté at Quai Gustave Ador 44–50, Tavel House at Rue du Puits-St-Pierre 6, Turrettini House at Rue de l'Hôtel-de-Ville 8 and 10, Brunswick Monument, Palais de Justice, Palais de l'Athénée, Palais des Nations with library and archives of the SDN and ONU, Palais Eynard et Archives de la ville de G",
+   "label": "Wikipedia · Geneva",
+   "url": "https://en.wikipedia.org/wiki/Geneva"
+  },
+  {
+   "ref": "K1",
+   "text": "In 1799 the area of today's canton Genf was annexed by France (département du Léman) (status: outside).",
+   "label": "Historical Dictionary of Switzerland · cantons",
+   "url": "https://hls-dhs-dss.ch/"
+  }
+ ],
+ "cited": [
+  "K1",
+  "W1"
+ ],
+ "model": "apertus-v1-5-70b",
+ "seconds": 3.0
+}

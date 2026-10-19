@@ -38,6 +38,16 @@ a:hover { text-decoration: underline; }
 .mainnav { display: flex; gap: 4px; flex-wrap: wrap; }
 .mainnav a { color: #e6e6e6; padding: 6px 12px; border-radius: 2px; font-size: 14px; }
 .mainnav a:hover, .mainnav a.active { background: #2b2b2b; color: #fff; text-decoration: none; }
+.navmenu { display: flex; flex: none; }
+.navmenu-btn { background: none; border: 0; color: #e6e6e6; padding: 6px 12px; border-radius: 2px; font: inherit; font-size: 14px; cursor: pointer; white-space: nowrap; }
+.navmenu-btn:hover, .navmenu.active .navmenu-btn, .navmenu.open .navmenu-btn { background: #2b2b2b; color: #fff; }
+.navmenu-btn .caret { font-size: 10px; margin-left: 2px; display: inline-block; transition: transform .15s; }
+.navmenu.open .caret { transform: rotate(180deg); }
+.navmenu-list { position: fixed; z-index: 1500; min-width: 220px; background: #1d1d1d; border: 1px solid #333; border-radius: 3px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35); padding: 4px; display: flex; flex-direction: column;
+  visibility: hidden; opacity: 0; transform: translateY(-6px); transition: opacity .15s, transform .15s, visibility .15s; }
+.navmenu.open .navmenu-list { visibility: visible; opacity: 1; transform: none; }
+.mainnav .navmenu-list a { display: block; padding: 8px 12px; white-space: nowrap; }
 .searchband { background: #222; padding: 12px 0; border-top: 1px solid #333; }
 .searchform { display: flex; gap: 0; }
 .searchform input { flex: 1; min-width: 0; padding: 11px 14px; border: 0; font-size: 16px; border-radius: 2px 0 0 2px; }
@@ -726,7 +736,9 @@ body.fit-page .inq-board { position: static; align-self: stretch; min-height: 0;
 }
 
 /* Language switch (i18n.js) */
-.lang-switch { display: flex; gap: 2px; margin-left: auto; }
-.lang-switch button { background: none; border: 1px solid #444; color: #ddd; font: 600 12px var(--sans); padding: 4px 8px; cursor: pointer; border-radius: 2px; }
-.lang-switch button:hover { border-color: #888; color: #fff; }
-.lang-switch button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.lang-switch { display: flex; align-items: center; gap: 6px; margin-left: auto; position: relative; }
+.lang-globe { position: absolute; left: 9px; font-size: 13px; pointer-events: none; }
+.lang-switch select { appearance: none; -webkit-appearance: none; background: #1d1d1d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23ddd'/%3E%3C/svg%3E") no-repeat right 9px center;
+  border: 1px solid #444; color: #eee; font: 600 12px var(--sans); padding: 6px 28px 6px 30px; border-radius: 3px; cursor: pointer; }
+.lang-switch select:hover, .lang-switch select:focus { border-color: #888; outline: none; }
+.lang-switch option { background: #1d1d1d; color: #eee; }

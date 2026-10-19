@@ -61,19 +61,156 @@ document.addEventListener("click", (e) => {
   openYear(t.dataset.year);
 });
 
-/* ---------------- History timeline ---------------- */
+/* ---------------- History timeline (frise chronologique) ----------------
+   A horizontal timeline whose reading line stays in the middle of the view: scrolling, dragging, the slider,
+   the arrow keys or "Play" move history under it. Events behind the line are lit, the event under it is shown
+   in the card below, events ahead are faded, so the frise fills up as time goes by. */
+const ERAS = [
+  { from: 1291, to: 1798, name: "Old Swiss Confederacy" }, { from: 1798, to: 1803, name: "Helvetic Republic" },
+  { from: 1803, to: 1813, name: "Mediation" }, { from: 1813, to: 1848, name: "Restoration and Regeneration" },
+  { from: 1848, to: 2100, name: "Federal state" },
+];
+let FRISE_STOP = null;  // stops the animation of the previous page visit
+
 async function historyPage(params) {
   setNav("history");
-  const evs = await api("/api/years");
-  const byCentury = {};
-  evs.forEach((e) => (byCentury[Math.floor(e.year / 100) * 100] ||= []).push(e));
+  FRISE_STOP?.();
+  const evs = (await api("/api/years")).sort((a, b) => a.year - b.year || a.end - b.end);
+  const now = new Date().getFullYear();
+  const start = Math.floor(Math.min(...evs.map((e) => e.year)) / 10) * 10 - 10, end = now;
+  // two speeds: centuries before 1800 have few events, so they take less room
+  const BEND = 1800, SLOW = 1.6, FAST = 11;
+  const x = (y) => (Math.min(y, BEND) - start) * SLOW + Math.max(0, y - BEND) * FAST;
+  const yearAt = (px) => (px <= x(BEND) ? start + px / SLOW : BEND + (px - x(BEND)) / FAST);
+  const W = x(end);
+  const period = (e) => (e.end !== e.year ? `${e.year}–${e.end}` : `${e.year}`);
+
+  // lay the event labels out in lanes so none overlaps
+  const lanes = [];
+  const placed = evs.map((e) => {
+    const x0 = x(e.year), x1 = Math.max(x(e.end), x0), w = Math.min(230, 54 + e.title.length * 6.4);
+    let lane = lanes.findIndex((last) => last < x0 - 8);
+    if (lane < 0) { lane = lanes.length; lanes.push(0); }
+    lanes[lane] = Math.max(x0 + w, x1);
+    return { ...e, x0, x1, lane };
+  });
+  const LANE_H = 34, top = 44, axisY = top + lanes.length * LANE_H + 14;
+  const ticks = [];
+  for (let y = Math.ceil(start / 50) * 50; y <= end; y += y < BEND ? 50 : 10)
+    ticks.push(`<div class="fr-tick${y % 50 === 0 ? " major" : ""}" style="left:${x(y)}px;top:${axisY}px">${y % 50 === 0 ? `<span>${y}</span>` : ""}</div>`);
+
   app.innerHTML = `<h1>A year in context</h1>
-    <p class="muted">Key events of Swiss history, and everything in the Federal Archives whose title references them. Click an event, or any year chip on the site, to open its year.</p>
-    <form class="yearform" id="yearform"><label>Go to year <input type="number" id="yearinput" min="1000" max="2100" placeholder="1847"></label><button>Open</button></form>
-    ${Object.entries(byCentury).map(([c, list]) => `<h3 class="tl-century">${c}s</h3><ul class="tl">${list.map((e) =>
-      `<li><button class="tl-item" data-year="${e.year}"><b>${e.end !== e.year ? `${e.year}–${e.end}` : e.year}</b> ${esc(e.title)}</button></li>`).join("")}</ul>`).join("")}`;
-  $("#yearform").onsubmit = (e) => { e.preventDefault(); openYear($("#yearinput").value); };
-  if (params.get("y")) openYear(params.get("y"));
+    <p class="muted">Key events of Swiss history on a frise chronologique. Scroll, drag or press Play: the line in the middle travels through time,
+      the events it passes light up and the card below follows it. Click an event, or any year chip on the site, to open that year with
+      everything in the Federal Archives whose title references it.</p>
+    <div class="fr-controls">
+      <button type="button" class="fr-play" id="fr-play" aria-pressed="false">${icon("play")}<span>Play</span></button>
+      <div class="fr-year" id="fr-year" aria-live="off">${start}</div>
+      <input type="range" id="fr-slider" min="${start}" max="${end}" value="${start}" aria-label="Year on the timeline">
+      <form class="yearform" id="yearform"><label>Go to year <input type="number" id="yearinput" min="1000" max="2100" placeholder="1847"></label><button>Open</button></form>
+    </div>
+    <div class="frise-wrap"><div class="frise" id="frise" tabindex="0" aria-label="Timeline of Swiss history; use the arrow keys to move through time">
+      <div class="fr-track" id="fr-track" style="width:${W}px;height:${axisY + 40}px"><div class="fr-inner" id="fr-inner" style="width:${W}px">
+        ${ERAS.filter((r) => r.to > start && r.from < end).map((r, i) => { const w = x(Math.min(r.to, end)) - x(Math.max(r.from, start));
+          return `<div class="fr-era era-${i % 2}" style="left:${x(Math.max(r.from, start))}px;width:${w}px" title="${esc(r.name)} ${r.from}–${r.to > now ? "" : r.to}"><span style="max-width:${Math.max(0, w - 16)}px">${esc(r.name)}</span></div>`; }).join("")}
+        <div class="fr-axis" style="top:${axisY}px"></div>
+        <div class="fr-progress" id="fr-progress" style="top:${axisY}px"></div>
+        ${ticks.join("")}
+        ${placed.map((e, i) => `<button type="button" class="fr-ev future" data-i="${i}" data-year="${e.year}" style="left:${e.x0}px;top:${top + e.lane * LANE_H}px"
+            title="${esc(period(e))} · ${esc(e.title)}">
+            ${e.x1 > e.x0 + 2 ? `<i class="fr-span" style="width:${e.x1 - e.x0}px"></i>` : ""}<i class="fr-dot"></i>
+            <b>${esc(period(e))}</b> <span>${esc(e.title)}</span></button>
+          <i class="fr-stem future" data-i="${i}" style="left:${e.x0}px;top:${top + e.lane * LANE_H + 26}px;height:${axisY - top - e.lane * LANE_H - 26}px"></i>`).join("")}
+      </div>
+    </div></div><div class="fr-line" aria-hidden="true"></div></div>
+    <div class="fr-now" id="fr-now"></div>`;
+
+  const fr = $("#frise"), track = $("#fr-track"), slider = $("#fr-slider"), yearBox = $("#fr-year"), card = $("#fr-now");
+  const evEls = [...track.querySelectorAll(".fr-ev")], stemEls = [...track.querySelectorAll(".fr-stem")];
+  // the reading line is the middle of the view: pad the track by half a view on both sides
+  const pad = () => { const p = Math.round(fr.clientWidth / 2); track.style.width = `${W + 2 * p}px`; $("#fr-inner").style.left = `${p}px`; };
+  pad();
+  let shown = -2;
+  const render = () => {
+    const y = Math.max(start, Math.min(end, yearAt(fr.scrollLeft)));
+    const yr = Math.round(y);
+    yearBox.textContent = yr;
+    if (document.activeElement !== slider) slider.value = yr;
+    $("#fr-progress").style.width = `${fr.scrollLeft}px`;
+    let cur = -1;
+    placed.forEach((e, i) => {
+      const state = e.year > y ? "future" : (e.end >= Math.floor(y) ? "current" : "past");
+      if (state !== "future") cur = state === "current" || cur < 0 || placed[cur].year <= e.year ? i : cur;
+      evEls[i].className = `fr-ev ${state}`;
+      stemEls[i].className = `fr-stem ${state}`;
+    });
+    const era = ERAS.find((r) => r.from <= y && y < r.to);
+    if (cur === shown) { card.querySelector(".fr-era-name") && (card.querySelector(".fr-era-name").textContent = era ? era.name : ""); return; }
+    shown = cur;
+    const e = placed[cur];
+    card.innerHTML = e ? `<div class="fr-now-period">${esc(period(e))}</div>
+        <div class="fr-now-body"><h3>${esc(e.title)}</h3>${e.summary ? `<p>${esc(e.summary)}</p>` : ""}
+        <p class="small"><span class="muted">Era: <span class="fr-era-name">${esc(era ? era.name : "")}</span> ·</span>
+          <button type="button" class="linklike" data-year="${e.year}">Open ${e.year} in context →</button></p></div>`
+      : `<p class="muted">Press Play or scroll to travel through time.</p>`;
+  };
+  const goTo = (y, smooth) => fr.scrollTo({ left: x(Math.max(start, Math.min(end, y))), behavior: smooth ? "smooth" : "auto" });
+  fr.addEventListener("scroll", () => requestAnimationFrame(render), { passive: true });
+  slider.oninput = () => { stop(); goTo(+slider.value); };
+  fr.onkeydown = (e) => {
+    const step = { ArrowRight: 1, ArrowLeft: -1, PageDown: 10, PageUp: -10 }[e.key];
+    if (!step) return;
+    e.preventDefault(); stop();
+    goTo(Math.round(yearAt(fr.scrollLeft)) + step * (e.shiftKey ? 10 : 1));
+  };
+  // vertical wheel scrolls through time; drag with the mouse to move the frise
+  fr.addEventListener("wheel", (e) => {
+    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+    e.preventDefault(); stop();
+    fr.scrollLeft += e.deltaY;
+  }, { passive: false });
+  let drag = null;
+  fr.addEventListener("pointerdown", (e) => { if (e.pointerType === "mouse") { drag = { x: e.clientX, left: fr.scrollLeft, moved: false }; stop(); } });
+  addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    if (Math.abs(e.clientX - drag.x) > 4) { drag.moved = true; fr.classList.add("dragging"); }
+    if (drag.moved) fr.scrollLeft = drag.left - (e.clientX - drag.x);
+  });
+  addEventListener("pointerup", () => { if (drag) { fr.classList.remove("dragging"); setTimeout(() => (drag = null), 0); } });
+  fr.addEventListener("click", (e) => { if (drag?.moved) { e.stopPropagation(); e.preventDefault(); } }, true);  // a drag is not a click
+
+  // Play: years per second, faster through the sparse early centuries
+  let raf = null, last = 0, pos = start;
+  const playBtn = $("#fr-play");
+  function stop() {
+    if (!raf) return;
+    cancelAnimationFrame(raf); raf = null;
+    playBtn.setAttribute("aria-pressed", "false"); playBtn.innerHTML = `${icon("play")}<span>Play</span>`;
+  }
+  const step = (t) => {
+    if (!document.body.contains(fr)) { raf = null; return; }
+    pos += ((t - last) / 1000) * (pos < BEND ? 60 : 9);
+    last = t;
+    if (pos >= end) { goTo(end); stop(); return; }
+    fr.scrollLeft = x(pos);
+    raf = requestAnimationFrame(step);
+  };
+  playBtn.onclick = () => {
+    if (raf) { stop(); return; }
+    pos = yearAt(fr.scrollLeft);
+    if (pos >= end - 1) { pos = start; }
+    last = performance.now();
+    playBtn.setAttribute("aria-pressed", "true"); playBtn.innerHTML = `${icon("pause")}<span>Pause</span>`;
+    raf = requestAnimationFrame(step);
+  };
+  FRISE_STOP = stop;
+  addEventListener("resize", () => { if (document.body.contains(fr)) { const y = yearAt(fr.scrollLeft); pad(); goTo(y); } });
+
+  $("#yearform").onsubmit = (e) => { e.preventDefault(); stop(); goTo(+$("#yearinput").value, true); openYear($("#yearinput").value); };
+  const y0 = +params.get("y");
+  goTo(y0 || 1848);
+  render();
+  if (y0) openYear(y0);
 }
 
 /* ---------------- Oral tradition ---------------- */
@@ -103,7 +240,9 @@ async function oralPage() {
       <label>Around the year <input id="o-year" type="number" min="1700" max="1950" value="${st.year || 1799}"></label>
       <button type="submit" class="o-go">Imagine their life</button>
     </form>
-    <p class="small muted">Places come from the Stapfer survey of 1799 (2,142 places with swisstopo coordinates). Choose any year from 1700 to 1950:
+    <div id="o-status" class="o-status" aria-live="polite"></div>
+    <p class="small muted">Places: the 2,142 places of the Stapfer survey of 1799, and every current Swiss municipality (swisstopo). For the place and year you choose,
+      Apertus checks whether the place already existed and whether it belonged to the Confederation then. Choose any year from 1700 to 1950:
       around 1799 the school survey speaks; from 1850 the censuses, the Federal Gazette and photographs closer in time take over, and the map is the swisstopo map of that year.</p>
     <div id="oralout"></div>`;
   let placeId = st.placeId || null, timer = null;
@@ -112,28 +251,62 @@ async function oralPage() {
     placeId = null; clearTimeout(timer);
     timer = setTimeout(async () => {
       const xs = await api(`/api/oral/places?q=${encodeURIComponent(inp.value)}`).catch(() => []);
-      sug.innerHTML = xs.map((x) => `<li><button type="button" data-id="${x.id}" data-name="${esc(x.name)}">${esc(x.name)} <span class="muted small">${esc([x.municipality !== x.name ? x.municipality : "", x.canton].filter(Boolean).join(", "))}${x.schools ? ` · ${x.schools} school${x.schools > 1 ? "s" : ""} in 1799` : ""}</span></button></li>`).join("")
-        || `<li class="muted small">No 1799 place of that name.</li>`;
+      sug.innerHTML = xs.map((x) => `<li><button type="button" data-id="${x.id}" data-name="${esc(x.name)}">${esc(x.name)} <span class="muted small">${esc([x.municipality !== x.name ? x.municipality : "", x.canton].filter(Boolean).join(", "))}${x.schools ? ` · ${x.schools} school${x.schools > 1 ? "s" : ""} in 1799` : ""}</span>
+          <span class="o-src ${x.source === "stapfer" ? "s1799" : "today"}">${x.source === "stapfer" ? "1799 survey" : "municipality today"}</span></button></li>`).join("")
+        || `<li class="muted small">No Swiss place of that name.</li>`;
       sug.hidden = !inp.value.trim();
     }, 200);
   };
   sug.onclick = (e) => {
     const b = e.target.closest("button[data-id]");
     if (!b) return;
-    placeId = +b.dataset.id; inp.value = b.dataset.name; sug.hidden = true;
+    placeId = asPlaceId(b.dataset.id); inp.value = b.dataset.name; sug.hidden = true;
+    checkPlace();
   };
+  // What the place was in the chosen year (Apertus, cited): did it exist, was it part of the Confederation?
+  let ytimer = null, asked = "";
+  async function checkPlace() {
+    const year = +$("#o-year").value, box = $("#o-status");
+    if (!placeId || !(year >= 1000 && year <= 2100)) { box.innerHTML = ""; asked = ""; return; }
+    const key = `${placeId}|${year}`;
+    if (key === asked) return;
+    asked = key;
+    box.innerHTML = `<p class="small muted"><span class="spinner"></span> Apertus is checking what ${esc(inp.value)} was in ${year}…</p>`;
+    let r;
+    try { r = await api(`/api/oral/status?place_id=${encodeURIComponent(placeId)}&year=${year}`); }
+    catch (err) { if (asked === key) box.innerHTML = `<p class="small muted">Could not check the place: ${esc(err.message)}</p>`; return; }
+    if (asked === key) box.innerHTML = statusHtml(r);
+  }
+  $("#o-year").addEventListener("input", () => { clearTimeout(ytimer); ytimer = setTimeout(checkPlace, 500); });
+  if (placeId) checkPlace();
   $("#oralform").onsubmit = async (e) => {
     e.preventDefault();
     if (!placeId) {
       const xs = await api(`/api/oral/places?q=${encodeURIComponent(inp.value)}`).catch(() => []);
       if (!xs.length) { inp.setCustomValidity("Pick a place from the list"); inp.reportValidity(); inp.setCustomValidity(""); return; }
-      placeId = xs[0].id; inp.value = xs[0].name;
+      placeId = asPlaceId(xs[0].id); inp.value = xs[0].name;
+      checkPlace();
     }
     Object.assign(st, { surname: $("#o-surname").value.trim(), first: $("#o-first").value.trim(), placeId, placeName: inp.value, year: +$("#o-year").value || 1799 });
     saveOral(st);
     runOral(st);
   };
   if (st.last && st.last.surname === st.surname && st.last.home?.id === st.placeId) renderOral(st, st.last, st.lastPhotos);
+}
+
+const asPlaceId = (v) => (/^\d+$/.test(String(v)) ? +v : String(v));  // a 1799 place (number) or a municipality ("m" + BFS number)
+const EXISTED = { yes: ["ok", "Existed"], no: ["no", "Not founded yet"], uncertain: ["unsure", "Existence uncertain"] };
+const CONFED = { member: ["ok", "Part of the Confederation"], associate: ["unsure", "Associate of the Confederation"],
+  "subject territory": ["unsure", "Subject territory of the Confederates"], "helvetic republic": ["unsure", "Helvetic Republic"],
+  outside: ["no", "Outside the Confederation"], uncertain: ["unsure", "Membership uncertain"] };
+function statusHtml(r) {
+  const [ec, el] = EXISTED[r.existed] || EXISTED.uncertain, [cc, cl] = CONFED[r.confederation] || CONFED.uncertain;
+  return `<div class="o-status-card"><div class="o-status-head"><b>${esc(r.place)} in ${r.year}</b>
+      <span class="o-flag ${ec}">${el}${r.existed === "yes" && r.founded ? ` · ${esc(String(r.founded))}` : ""}</span><span class="o-flag ${cc}">${cl}</span>
+      <span class="muted small">checked by Apertus${r.seconds ? ` in ${r.seconds} s` : ""}</span></div>
+    <p>${esc(r.existence_note || "")} ${esc(r.municipality_note || "")}</p><p>${esc(r.confederation_note || "")}</p>
+    <p class="small muted">Sources: ${r.sources.map((x) => (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>` : esc(x.label))).join(" · ")}</p>
+    ${r.existed === "no" ? `<p class="small">${icon("alert")} The place did not exist yet in ${r.year}: the story will describe the area around it.</p>` : ""}</div>`;
 }
 
 async function runOral(st) {

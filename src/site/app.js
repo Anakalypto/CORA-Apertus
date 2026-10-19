@@ -218,22 +218,23 @@ function baseMap(el, onStyle, opts = {}) {
 
 const lineGeo = (lls) => ({ type: "Feature", geometry: { type: "LineString", coordinates: lls.map(([la, lo]) => [lo, la]) } });
 
-const COVER_KIND = { person: "person in this record", place: "place in this record", organization: "organization in this record" };
+const COVER_KIND = { place: "place in this record", subject: "subject of this record" };
 
-/* Covers: a Wikimedia Commons illustration of a person, place or organization of the record when
-   covers.py found one (labelled as an illustration, with credit), else a typed facsimile cover. */
+/* Covers: a period photograph of the record's place or subject, taken in the record's year or up to 20 years
+   later, never before (covers.py; labelled as an illustration, with credit), else a typed facsimile cover. */
 function cover(r, big) {
   const medium = r.medium || r.classification?.medium;
   const type = r.document_type || r.classification?.document_type;
   const title = r.title_normalized || r.title || r.metadata?.title_normalized || r.metadata?.title;
   const ref = r.reference_code || r.source?.reference_code;
   const c = r.cover;
-  const img = c ? `<img class="ill" src="${esc(c.thumb)}" alt="Illustration: ${esc(c.label)}" loading="lazy"
+  const img = c ? `<img class="ill" src="${esc(c.thumb)}" alt="Photo: ${esc(c.label)}, ${c.year}" loading="lazy"
       onerror="this.parentElement.classList.remove('has-img');this.nextElementSibling?.remove();this.remove()">
-    <div class="cap">Illustration · ${esc(c.label)}</div>` : "";
-  const credit = c && big ? `<p class="credit small muted">Illustration, not the document: ${esc(c.label)} (${COVER_KIND[c.kind] || c.kind}).
-      Image: <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.author || "Wikimedia Commons")}</a>${c.license ? `, ${esc(c.license)}` : ""},
-      via Wikimedia Commons / <a href="https://www.wikidata.org/wiki/${esc(c.qid)}" target="_blank" rel="noopener">Wikidata</a>.</p>` : "";
+    <div class="cap">${esc(c.label)} · ${c.year}</div>` : "";
+  const credit = c && big ? `<p class="credit small muted">Illustration, not the document: a photograph of ${esc(c.label)} (${COVER_KIND[c.kind] || c.kind})
+      taken in ${c.year}${c.year > c.record_year ? `, ${c.year - c.record_year} years after the record` : ", the record's year"}${c.distance_km != null ? `, ${c.distance_km} km away` : ""}.
+      Photo: <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.author || c.credit || "Wikimedia Commons")}</a>${c.license ? `, ${esc(c.license)}` : ""},
+      ${c.credit && c.author ? `${esc(c.credit)}, ` : ""}via Wikimedia Commons.</p>` : "";
   return `<div class="cover m-${(medium || "mixed").replace(/\s+/g, "-")}${c ? " has-img" : ""}">${img}
     <div class="ic" aria-hidden="true">${icon(TYPE_ICON[type] || MEDIUM_ICON[medium] || "file")}</div>
     <div class="ct">${esc(title)}</div>
@@ -245,7 +246,31 @@ const fmtDate = (d) => (d ? esc(String(d).replace("/..", " –").replace("../", 
 
 function setNav(name) {
   document.querySelectorAll(".mainnav a").forEach((a) => a.classList.toggle("active", a.dataset.nav === name));
+  document.querySelectorAll(".navmenu").forEach((m) => m.classList.toggle("active", !!m.querySelector("a.active")));
+  closeNavMenus();
 }
+
+/* Drop-down menus of the main navigation (Swiss Tales). The list is positioned under its button with fixed
+   coordinates, so the phone layout's horizontally scrolling nav bar does not clip it. */
+function closeNavMenus() {
+  document.querySelectorAll(".navmenu.open").forEach((m) => { m.classList.remove("open"); m.querySelector(".navmenu-btn").setAttribute("aria-expanded", "false"); });
+}
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".navmenu-btn");
+  if (!btn) { if (!e.target.closest(".navmenu-list") || e.target.closest("a")) closeNavMenus(); return; }
+  const m = btn.parentElement, open = !m.classList.contains("open");
+  closeNavMenus();
+  if (!open) return;
+  const b = btn.getBoundingClientRect(), list = m.querySelector(".navmenu-list");
+  list.style.top = `${b.bottom + 4}px`;
+  list.style.left = `${Math.max(8, Math.min(b.left, innerWidth - 228))}px`;
+  m.classList.add("open");
+  btn.setAttribute("aria-expanded", "true");
+  list.querySelector("a")?.focus({ preventScroll: true });
+});
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeNavMenus(); });
+addEventListener("scroll", closeNavMenus, { passive: true });
+addEventListener("resize", closeNavMenus);
 
 /* ---------------- Home ---------------- */
 async function home() {

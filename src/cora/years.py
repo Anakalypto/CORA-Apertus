@@ -102,4 +102,5 @@ def year_context(y: int, records: dict, data_dir: Path) -> dict:
 
 
 def timeline(data_dir: Path) -> list[dict]:
-    return [{"id": e["id"], "year": e["year"], "end": e["end"], "title": e["title"]} for e in load_events(data_dir)]
+    return [{"id": e["id"], "year": e["year"], "end": e["end"], "title": e["title"], "summary": e.get("summary")}
+            for e in load_events(data_dir)]
