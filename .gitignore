@@ -59,3 +59,6 @@ data/**/.*.tmp
 
 # 10,000-record verification batch: not published, regenerable with src/batch_run.sh (docs/batch10k_verification.md)
 data/batch10k/
+# Consultation outcomes: Fedlex download (python src/run.py outcomes refetches it) and on-demand context
+data/consultations/fedlex_acts.json
+data/consultations/context_cache/

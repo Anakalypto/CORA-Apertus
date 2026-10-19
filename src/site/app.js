@@ -1094,13 +1094,15 @@ async function askPage(params) {
         <div id="thread" aria-live="polite"></div>
         <form id="caseform" class="case-composer">
           <label for="caseq" id="caselabel">Line of inquiry</label>
-          <textarea id="caseq" rows="2" placeholder="e.g. What do the records show about Swiss football abroad?"></textarea>
-          <div class="inq-folder-foot"><span id="casefoot"></span><button id="casebtn">Ask</button></div>
+          <div class="case-row"><textarea id="caseq" rows="1" placeholder="e.g. What do the records show about Swiss football abroad?"></textarea><button id="casebtn">Ask</button></div>
+          <div class="inq-folder-foot"><span id="casefoot"></span></div>
         </form>
       </section>
       <aside class="inq-board" id="board"></aside>
     </div></div>`;
   const thread = $("#thread"), ta = $("#caseq");
+  ta.addEventListener("input", () => { ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight + 2, 120) + "px";
+    ta.style.overflowY = ta.scrollHeight > 120 ? "auto" : "hidden"; });  // one line, grows while typing
   let tick = null;
   // the thread scrolls on its own, not the page: open on the latest inquiry (its question, then the answer below it)
   const toLatest = (smooth) => { const t = thread.querySelectorAll(".case-turn")[c.turns.length - 1];
@@ -1148,7 +1150,7 @@ async function askPage(params) {
   render();
   toLatest(false);
   ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#caseform").requestSubmit(); } };
-  $("#caseform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; send(q); };
+  $("#caseform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; ta.style.height = ""; send(q); };
   $("#newcase").onclick = () => { c = newCase(c.record); saveChat(c); history.replaceState(null, "", "#/ask"); render(); ta.focus(); };
   const unf = $("#unfocus"); if (unf) unf.onclick = () => { try { sessionStorage.removeItem(CHAT_KEY); } catch { /* ignore */ } };
   const q0 = params.get("q");  // links of the form #/ask?q=… (home page, record pages) start or continue the case with that question
@@ -1181,54 +1183,138 @@ function recordInquiry(r) {
 }
 
 /* ---------------- Federal consultations 1960-1991 ---------------- */
+// Outcome of a consultation (outcomes.py): only a rejected popular vote counts as "did not succeed";
+// "no adopted act found" says what was searched and is never read as failure.
+const OUTCOME = {
+  rejected_by_vote: { label: "Did not succeed", cls: "fail", ico: "✕" },
+  accepted_by_vote: { label: "Accepted by the people", cls: "ok", ico: "✓" },
+  adopted: { label: "Adopted", cls: "ok", ico: "✓" },
+  not_found: { label: "No adopted act found", cls: "unk", ico: "?" },
+  no_act_expected: { label: "Report or survey", cls: "na", ico: "–" },
+};
+const CTX_KIND = { C: "This consultation", O: "Outcome", A: "Federal Archives", Y: "Event of the period", W: "Wikipedia" };
+let CONS = null;
+
 async function consultationsPage(params) {
   setNav("consultations");
-  const rows = await api("/api/consultations");
+  const rows = CONS = CONS || await api("/api/consultations");
+  const status = (r) => (r.outcome || {}).status || "not_found";
   const types = [...new Set(rows.map((r) => r.type).filter(Boolean))]
     .sort((a, b) => rows.filter((r) => r.type === b).length - rows.filter((r) => r.type === a).length);
   const years = Array.from({ length: 32 }, (_, i) => 1960 + i);
-  const count = (t, y) => rows.filter((r) => r.type === t && r.year === y).length;
-  const max = Math.max(...types.flatMap((t) => years.map((y) => count(t, y))));
+  const inCell = (t, y) => rows.filter((r) => r.type === t && r.year === y);
+  const max = Math.max(...types.flatMap((t) => years.map((y) => inCell(t, y).length)));
   const selT = params.get("type"), selY = params.get("year") ? +params.get("year") : null, topic = params.get("topic");
+  const out = params.get("outcome"), open = params.get("open"), shown = +(params.get("n") || 40);
   const topics = [...new Set(rows.flatMap((r) => r.topics))].sort();
-  const list = rows.filter((r) => (!selT || r.type === selT) && (!selY || r.year === selY) && (!topic || r.topics.includes(topic)));
+  const list = rows.filter((r) => (!selT || r.type === selT) && (!selY || r.year === selY) && (!topic || r.topics.includes(topic))
+    && (!out || status(r) === out));
   const href = (o) => {
     const p = new URLSearchParams(params);
     Object.entries(o).forEach(([k, v]) => (v == null ? p.delete(k) : p.set(k, v)));
     return "#/consultations?" + p;
   };
-  const matched = rows.filter((r) => r.match).length;
   const stepName = { consultation: "Consultation", message: "Message", parliament: "Parliament", vote: "Popular vote" };
   const step = (c) => `<div class="step ${c.date ? "on" : "off"}"><b>${stepName[c.step]}</b>
      <span>${c.date ? esc(c.date) : "not found"}</span>${c.detail ? `<small>${esc(c.detail)}</small>` : ""}${c.link ? `<a href="${c.link}" target="_blank" rel="noopener">source ↗</a>` : ""}</div>`;
   const cell = (t, y) => {
-    const n = count(t, y);
+    const here = inCell(t, y), n = here.length, failed = here.filter((r) => status(r) === "rejected_by_vote").length;
     const on = selT === t && selY === y;
-    return `<td><a href="${on ? href({ type: null, year: null }) : href({ type: t, year: y })}" title="${esc(t)} ${y}: ${n}" class="cell ${on ? "sel" : ""}"
-      style="background:${n ? `rgba(181,18,27,${(0.15 + (0.85 * n) / max).toFixed(2)})` : "transparent"}"></a></td>`;
+    return `<td><a href="${on ? href({ type: null, year: null, n: null }) : href({ type: t, year: y, n: null })}" title="${esc(t)} ${y}: ${n}${failed ? `, ${failed} did not succeed` : ""}"
+      class="cell ${on ? "sel" : ""} ${failed ? "has-fail" : ""}" style="background:${n ? `rgba(181,18,27,${(0.15 + (0.85 * n) / max).toFixed(2)})` : "transparent"}"></a></td>`;
+  };
+  const pills = Object.entries(OUTCOME).map(([k, o]) => `<a class="opill ${o.cls} ${out === k ? "on" : ""}" href="${href({ outcome: out === k ? null : k, n: null, open: null })}">
+    <span class="oc-ico">${o.ico}</span><b>${rows.filter((r) => status(r) === k).length}</b> ${o.label}</a>`).join("");
+  const outcomeLine = (r) => {
+    const o = r.outcome || {}, k = OUTCOME[status(r)];
+    const link = o.url ? ` <a href="${o.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(o.source || "source")} ↗</a>` : "";
+    return `<div class="cons-outcome ${k.cls}"><span class="oc-ico">${k.ico}</span><span>${esc(o.label || k.label)}${link}</span></div>`;
+  };
+  const card = (r) => {
+    const o = r.outcome || {}, isOpen = open === r.nr;
+    const possible = o.possible_act;
+    return `<article class="cons-card ${OUTCOME[status(r)].cls} ${isOpen ? "open" : ""}" id="cons-${esc(r.nr)}" data-nr="${esc(r.nr)}">
+      <div class="cons-head" role="button" tabindex="0" aria-expanded="${isOpen}">
+        <div class="cons-meta"><span>${r.year || "?"}</span> · <span>${esc(r.type || "type unknown")}</span> · <span>${esc(r.dept_abbr || "")}</span>
+          ${r.topics.map((t) => `<span class="badge lvl-secondary">${esc(t)}</span>`).join("")}</div>
+        <h3 translate="no">${esc(r.title)}</h3>
+        ${r.title_en && LANG === "en" ? `<div class="muted small">${esc(r.title_en)} ${pv("apertus")}</div>` : ""}
+        ${outcomeLine(r)}
+        <span class="cons-toggle">${isOpen ? "Less ▴" : "Details and context ▾"}</span>
+      </div>
+      <div class="cons-body" ${isOpen ? "" : "hidden"}>
+        <div class="chain">${r.chain.map(step).join('<span class="arrow">→</span>')}</div>
+        ${o.detail && status(r) === "not_found" ? `<p class="small muted">${esc(o.detail)}</p>` : ""}
+        ${o.act ? `<p class="small">Act: <a href="${o.act.url}" target="_blank" rel="noopener">${esc(o.act.title)}</a> (${esc(o.act.date)}${o.act.as_ref ? `, ${esc(o.act.as_ref)}` : ""}).
+          Matched by title overlap ${o.act.title_similarity} and confirmed by Apertus (confidence ${o.act.confidence}): ${esc(o.act.reason || "")}</p>` : ""}
+        ${possible ? `<p class="small muted">Possible act, not confirmed: <a href="${possible.url}" target="_blank" rel="noopener">${esc(possible.title)}</a> (${esc(possible.date)}), Apertus confidence ${possible.confidence}, below the 0.99 bar.</p>` : ""}
+        ${r.possible_vote ? `<p class="small muted">Possible vote, not confirmed: ${esc(r.possible_vote.title)}, ${esc(r.possible_vote.date)}, Apertus confidence ${r.possible_vote.confidence}, below the 0.99 bar.</p>` : ""}
+        ${r.match ? `<p class="small muted">Vote match: title overlap ${r.match.title_similarity}, Apertus confidence ${r.match.confidence}: ${esc(r.match.reason || "")}</p>` : ""}
+        ${r.entities.length ? `<div class="cons-ents">${r.entities.map((e) => `<span class="chip">${esc(e.name)}${e.type ? ` <small>${esc(e.type)}</small>` : ""}</span>`).join("")}</div>` : ""}
+        ${r.addressees ? `<p class="small"><b>Consulted:</b> ${esc(r.addressees.replace(/\n/g, "; "))}</p>` : ""}
+        ${r.archive_records ? `<p class="small muted"><b>Archive records:</b> ${esc(r.archive_records.slice(0, 300))}</p>` : ""}
+        <div class="cons-ctx"><button type="button" class="btn-ctx">Explain the context with Apertus</button><div class="ctx-box" aria-live="polite"></div></div>
+      </div>
+    </article>`;
   };
   app.innerHTML = `<h1>Federal consultations 1960–1991</h1>
-    <p class="muted">${rows.length} consultation procedures from the Swiss Federal Archives' metadata database (opendata.swiss).
-    Topics and entities are tagged by Apertus ${pv("apertus")}. ${matched} procedures are linked to the popular vote they led to, using Swissvotes (CC BY 4.0) as the source:
-    a title-overlap candidate is accepted only when Apertus confirms it with confidence ≥ 0.99 (a manual check found weaker confirmations mostly wrong). Steps that could not be matched say “not found”.</p>
-    <h3>Timeline: year × type of act <small class="muted">(click a cell or a row)</small></h3>
+    <p class="muted">${rows.length} consultation procedures of the Federal Chancellery (opendata.swiss). For each one, CORA shows what became of it: the popular vote it led to (Swissvotes)
+      or the act published in the Official Compilation of federal law (Fedlex). Topics, entities and every match are checked by Apertus ${pv("apertus")}.</p>
+    <details class="small muted cons-how"><summary>How the outcome is determined</summary>
+      <p>Candidates are proposed by title overlap: for votes within 15 years of the consultation, for acts within 12 years and of the same kind
+      (a consultation on a federal act is answered by a federal act, not an ordinance). Apertus then decides whether the vote or act belongs to the same project,
+      and only confirmations with confidence ≥ 0.99 are accepted (a manual check found weaker confirmations mostly wrong); weaker ones are shown as “possible”.
+      Only a popular vote that rejected the proposal is shown as “did not succeed”. When nothing is found, the project may have been abandoned, merged into another act
+      or adopted under a title the matching missed: the page says “no adopted act found” and does not guess.</p></details>
+    <div class="opills">${pills}</div>
+    <h3>Timeline: year × type of act <small class="muted">(click a cell or a row; a red underline marks a year with a proposal that did not succeed)</small></h3>
     <div class="strip"><table><tr><th></th>${years.map((y) => `<th class="yr">${y % 5 === 0 ? y : ""}</th>`).join("")}</tr>
-      ${types.map((t) => `<tr><th class="ty"><a href="${href({ type: selT === t ? null : t, year: null })}">${esc(t)}</a></th>${years.map((y) => cell(t, y)).join("")}</tr>`).join("")}</table></div>
-    <div class="chips">${topics.map((t) => `<a class="chip x ${topic === t ? "on" : ""}" href="${href({ topic: topic === t ? null : t })}">${esc(t)} (${rows.filter((r) => r.topics.includes(t)).length})</a>`).join("")}</div>
-    <div class="resbar" style="margin-top:14px"><div><b>${list.length}</b> procedures${selT ? ` · ${esc(selT)}` : ""}${selY ? ` · ${selY}` : ""}${topic ? ` · ${esc(topic)}` : ""}</div>
-      ${selT || selY || topic ? `<a href="#/consultations">clear</a>` : ""}</div>
-    ${list.slice(0, 60).map((r) => `<article class="result cons"><div>
-        <h3>${esc(r.title)}</h3>
-        <div class="muted small">${LANG === "en" ? esc(r.title_en || "") : ""} ${r.tag_generated ? pv("apertus") : ""}</div>
-        <div class="badges"><span class="badge">${esc(r.type)}</span><span class="badge">${r.year}</span><span class="badge">${esc(r.dept_abbr)}</span>
-          ${r.topics.map((t) => `<span class="badge lvl-secondary">${esc(t)}</span>`).join("")}${r.tag_confidence != null ? `<span class="badge">confidence ${r.tag_confidence}</span>` : ""}</div>
-        ${r.entities.length ? `<div class="small">Entities: ${r.entities.map((e) => esc(e.name)).join(" · ")}</div>` : ""}
-        ${r.archive_records ? `<div class="small muted">Archive records: ${esc(r.archive_records.slice(0, 240))}</div>` : ""}
-        <div class="chain">${r.chain.map(step).join('<span class="arrow">→</span>')}</div>
-        ${r.possible_vote ? `<div class="small muted">Possible (unconfirmed) vote: ${esc(r.possible_vote.title)}, ${esc(r.possible_vote.date)}, Apertus confidence ${r.possible_vote.confidence} (below the 0.99 bar)</div>` : ""}
-        ${r.match ? `<div class="small muted">Vote match: title overlap ${r.match.title_similarity}, Apertus confidence ${r.match.confidence} — ${esc(r.match.reason || "")}</div>` : ""}
-      </div></article>`).join("")}
-    ${list.length > 60 ? `<p class="muted small">Showing 60 of ${list.length}; narrow with the timeline or a topic.</p>` : ""}`;
+      ${types.map((t) => `<tr><th class="ty"><a href="${href({ type: selT === t ? null : t, year: null, n: null })}">${esc(t)}</a></th>${years.map((y) => cell(t, y)).join("")}</tr>`).join("")}</table></div>
+    <div class="chips">${topics.map((t) => `<a class="chip x ${topic === t ? "on" : ""}" href="${href({ topic: topic === t ? null : t, n: null })}">${esc(t)} (${rows.filter((r) => r.topics.includes(t)).length})</a>`).join("")}</div>
+    <div class="resbar" style="margin-top:14px"><div><b>${list.length}</b> procedures${selT ? ` · ${esc(selT)}` : ""}${selY ? ` · ${selY}` : ""}${topic ? ` · ${esc(topic)}` : ""}${out ? ` · ${esc(OUTCOME[out].label)}` : ""}</div>
+      ${selT || selY || topic || out ? `<a href="#/consultations">clear</a>` : ""}</div>
+    <div class="cons-list">${list.slice(0, Math.max(shown, list.findIndex((r) => r.nr === open) + 1)).map(card).join("")}</div>
+    ${list.length > shown ? `<p class="cons-more"><a href="${href({ n: shown + 40 })}">Show ${Math.min(40, list.length - shown)} more</a> <span class="muted small">(${shown} of ${list.length})</span></p>` : ""}`;
+
+  const setOpen = (el, on) => {
+    el.classList.toggle("open", on);
+    el.querySelector(".cons-body").hidden = !on;
+    el.querySelector(".cons-head").setAttribute("aria-expanded", on);
+    el.querySelector(".cons-toggle").textContent = on ? "Less ▴" : "Details and context ▾";
+    const p = new URLSearchParams(params);
+    on ? p.set("open", el.dataset.nr) : p.delete("open");
+    history.replaceState(null, "", "#/consultations?" + p);
+  };
+  document.querySelectorAll(".cons-card").forEach((el) => {
+    const head = el.querySelector(".cons-head");
+    head.onclick = () => setOpen(el, !el.classList.contains("open"));
+    head.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); head.onclick(); } };
+    el.querySelector(".btn-ctx").onclick = () => consultationContext(el);
+  });
+  if (open) document.getElementById("cons-" + open)?.scrollIntoView({ block: "start" });
+}
+
+async function consultationContext(el) {
+  const nr = el.dataset.nr, box = el.querySelector(".ctx-box"), btn = el.querySelector(".btn-ctx");
+  if (box.dataset.loaded) { box.hidden = !box.hidden; btn.textContent = box.hidden ? "Explain the context with Apertus" : "Hide the context"; return; }
+  btn.disabled = true;
+  box.innerHTML = `<p class="small muted"><span class="spinner"></span> Apertus is reading the consultation, its outcome, files of the Federal Archives, events of the period and Wikipedia…</p>`;
+  try {
+    const m = await api(`/api/consultations/${encodeURIComponent(nr)}/context`);
+    const num = {}; m.sources.forEach((s, i) => (num[s.ref] = i + 1));
+    const id = (ref) => `ctx-${nr}-${ref}`;
+    const cite = (refs) => refs.length ? `<sup class="fns">[${[...new Set(refs)].sort((x, y) => num[x] - num[y]).map((f) =>
+      `<a href="#${id(f)}" title="${esc(f)}" onclick="document.getElementById('${id(f)}')?.scrollIntoView({behavior:'smooth',block:'center'});return false;">${num[f]}</a>`).join(",")}]</sup>` : "";
+    const heads = ["The proposal", "The context of the time", "What became of it"];
+    box.innerHTML = `<div class="more ctx">${m.paragraphs.map((p, i) => `<h4>${heads[i] || ""}</h4><p>${p.map((s) => `<span class="${s.inferred ? "inferred" : ""}">${esc(s.text)}${cite(s.sources)}${s.inferred ? ` <span class="badge qc-bad">inferred</span>` : ""}</span>`).join(" ")}</p>`).join("")}
+      <ol class="more-src small">${m.sources.map((s) => `<li id="${id(s.ref)}"><b>${CTX_KIND[s.kind] || s.kind}</b> · ${esc(s.label)}
+        ${s.url ? ` · <a href="${s.url}" target="_blank" rel="noopener">source ↗</a>` : ""} <span class="tier">${esc(s.tier)}</span></li>`).join("")}</ol>
+      <p class="small muted">Generated by Apertus (${esc(m.model || "")}) from ${m.offered} numbered sources. ${m.inferred_sentences ? `${m.inferred_sentences} sentence(s) cite no source and are marked inferred.` : "Every sentence cites a source."} Wikipedia text: CC BY-SA.</p></div>`;
+    box.dataset.loaded = "1";
+    btn.textContent = "Hide the context";
+  } catch (err) {
+    box.innerHTML = `<p class="small">Could not generate the context: ${esc(err.message)}</p>`;
+  } finally { btn.disabled = false; }
 }
 
 /* ---------------- Parliament: three bodies on a legislature timeline ---------------- */
