@@ -149,7 +149,7 @@ function cover(r, big) {
 }
 
 const pv = (k) => `<span class="pv pv-${k}" title="Source of this value: ${k}">${k}</span>`;
-const fmtDate = (d) => (d ? esc(String(d).replace("/", " – ")) : "—");
+const fmtDate = (d) => (d ? esc(String(d).replace("/..", " –").replace("../", "– ").replace("/", " – ")) : "—");
 
 function setNav(name) {
   document.querySelectorAll(".mainnav a").forEach((a) => a.classList.toggle("active", a.dataset.nav === name));

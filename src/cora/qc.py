@@ -16,7 +16,7 @@ import statistics
 import unicodedata
 from collections import Counter
 
-ISO = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?(/\d{4}(-\d{2}(-\d{2})?)?)?$")
+ISO = re.compile(r"^(\d{4}(-\d{2}(-\d{2})?)?(/(\d{4}(-\d{2}(-\d{2})?)?|\.\.))?|\.\./\d{4}(-\d{2}(-\d{2})?)?)$")  # date, interval, or open interval "X/.."
 SPECULATION = re.compile(r"\b(likely|possibly|probably|presumably|may contain|might|perhaps|apparently)\b", re.I)
 
 
@@ -69,7 +69,7 @@ def grounded(name: str, src: str, alt: str | None = None, lenient: bool = False)
 
 
 def sentences(text: str) -> int:
-    t = re.sub(r"\b(?:[A-Z]|No|Nr|Pkt|St|Dr|ca|approx|e\.g|i\.e|vs|Mr|Mrs|Jr|Sr|etc)\.", "X", text or "")
+    t = re.sub(r"\b(?:[A-Z]|No|Nr|Pkt|St|Dr|Prof|med|phil|jur|lic|Dipl|Ing|Hr|Fr|Mme|Mgr|ca|approx|e\.g|i\.e|vs|Mr|Mrs|Jr|Sr|etc)\.", "X", text or "")
     t = re.sub(r"\d\.\d", "0", t)
     t = re.sub(r"(^|[\s'\"(])\d{1,3}\.(?=\s)", r"\1N", t)  # ordinals such as "22. Chemische …"
     return len([s for s in re.split(r"(?<=[.!?])\s+(?=[A-Z\"'(])", t.strip()) if s.strip()])
@@ -135,7 +135,10 @@ def check_record(row: dict, rec: dict) -> dict:
     if rf and cf:
         created_in_range = (rf - 1) <= cf and (ct or cf) <= (rt + 1)
         if not created_in_range:
-            critical.append("date_created_outside_record_range")
+            # A finding aid is usually written after the records it lists; that is not an error
+            # when the record's own description states the later date ("Bern, den 11. Februar 1977").
+            later_aid = a["source_level"] == "tertiary" and cf > rt and str(cf) in (rec.get("scope_and_content") or "")
+            (warnings if later_aid else critical).append("date_created_outside_record_range")
     archived_ok = (_year(a.get("date_archived")) == _year(d["date_archived"]))
     if not archived_ok:
         warnings.append("date_archived_mismatch")

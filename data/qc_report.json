@@ -2,27 +2,14 @@
  "summary": {
   "records": 300,
   "model": "apertus-v1-5-70b",
-  "processed_ok_pct": 89.0,
-  "structural_error_pct": 10.0,
-  "critical_error_pct": 1.3,
-  "structural_error_types": [
-   [
-    "non_iso",
-    28
-   ],
-   [
-    "resume_4_sentences",
-    2
-   ],
-   [
-    "resume_5_sentences",
-    1
-   ]
-  ],
+  "processed_ok_pct": 99.3,
+  "structural_error_pct": 0.0,
+  "critical_error_pct": 0.7,
+  "structural_error_types": [],
   "critical_types": [
    [
     "date_created_outside_record_range",
-    4
+    2
    ]
   ],
   "warning_types": [
@@ -33,6 +20,10 @@
    [
     "source_level_secondary_mismatch",
     36
+   ],
+   [
+    "repaired:iso",
+    28
    ],
    [
     "resume_speculative",
@@ -51,11 +42,19 @@
     2
    ],
    [
+    "date_created_outside_record_range",
+    2
+   ],
+   [
     "geo_conflict_over_50km",
+    1
+   ],
+   [
+    "repaired:control_chars",
     1
    ]
   ],
-  "resume_max_3_sentences_pct": 99.0,
+  "resume_max_3_sentences_pct": 100.0,
   "entity_grounding_pct": 99.4,
   "entity_grounding_strict_pct": 95.7,
   "entities": 649,
@@ -2910,11 +2909,11 @@
    "pre_1940": null,
    "source_level_v1": "primary",
    "source_level": "primary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -2941,7 +2940,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "32573367",
@@ -4786,11 +4785,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -4815,7 +4814,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "5751765",
@@ -4862,11 +4861,11 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_published"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -4891,7 +4890,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "5751739",
@@ -5126,11 +5125,11 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -5155,7 +5154,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "29420406",
@@ -5239,11 +5238,11 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -5268,7 +5267,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "1424161",
@@ -5278,11 +5277,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -5307,7 +5306,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "1680730",
@@ -5509,6 +5508,7 @@
    "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:control_chars",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -5545,11 +5545,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -5574,7 +5574,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3233815",
@@ -5621,11 +5621,10 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_published"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -5652,7 +5651,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3297508",
@@ -5896,11 +5895,11 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -5925,7 +5924,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "930494",
@@ -6238,11 +6237,10 @@
    "pre_1940": false,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -6269,7 +6267,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3468589",
@@ -6279,11 +6277,10 @@
    "pre_1940": false,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -6310,7 +6307,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "1106754",
@@ -6476,11 +6473,10 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch",
     "source_level_secondary_expected_primary"
    ],
@@ -6508,7 +6504,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "2101177",
@@ -6672,11 +6668,10 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -6703,7 +6698,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "2102455",
@@ -7058,9 +7053,7 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "secondary",
-   "structural_errors": [
-    "resume_4_sentences"
-   ],
+   "structural_errors": [],
    "critical": [
     "date_created_outside_record_range"
    ],
@@ -7072,7 +7065,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 1,
-   "resume_sentences": 4,
+   "resume_sentences": 3,
    "created_in_range": false,
    "archived_ok": false,
    "agreement": {},
@@ -7102,11 +7095,10 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -7133,7 +7125,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "9222587",
@@ -7260,17 +7252,16 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created",
-    "resume_5_sentences"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 2,
-   "resume_sentences": 5,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -7290,7 +7281,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "10147493",
@@ -7569,9 +7560,7 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "resume_4_sentences"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
     "resume_speculative"
@@ -7580,7 +7569,7 @@
    "ungrounded": [],
    "ungrounded_strict": [],
    "n_entities": 3,
-   "resume_sentences": 4,
+   "resume_sentences": 3,
    "created_in_range": true,
    "archived_ok": true,
    "agreement": {},
@@ -7600,7 +7589,7 @@
    "places_total": 1,
    "places_resolved": 1,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "1647887",
@@ -7684,11 +7673,10 @@
    "pre_1940": true,
    "source_level_v1": "secondary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -7715,7 +7703,7 @@
    "places_total": 3,
    "places_resolved": 2,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3288810",
@@ -8029,11 +8017,10 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "source_level_secondary_expected_primary"
    ],
    "geo_conflicts": [],
@@ -8060,7 +8047,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "22722079",
@@ -8341,11 +8328,10 @@
    "pre_1940": false,
    "source_level_v1": "primary",
    "source_level": "secondary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch",
     "source_level_secondary_expected_primary"
    ],
@@ -8373,7 +8359,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "456231",
@@ -8572,11 +8558,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -8601,7 +8587,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3471613",
@@ -8611,11 +8597,11 @@
    "pre_1940": true,
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -8640,7 +8626,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "7689813",
@@ -8763,11 +8749,11 @@
    "pre_1940": true,
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -8792,7 +8778,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "5992860",
@@ -8952,11 +8938,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -8981,7 +8967,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "7485800",
@@ -9141,11 +9127,11 @@
    "pre_1940": true,
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -9170,7 +9156,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "5992820",
@@ -9705,10 +9691,10 @@
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
    "structural_errors": [],
-   "critical": [
+   "critical": [],
+   "warnings": [
     "date_created_outside_record_range"
    ],
-   "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -9733,7 +9719,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "4999584",
@@ -9935,10 +9921,10 @@
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
    "structural_errors": [],
-   "critical": [
+   "critical": [],
+   "warnings": [
     "date_created_outside_record_range"
    ],
-   "warnings": [],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -9963,7 +9949,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "10146297",
@@ -9973,11 +9959,10 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "source_level_tertiary_expected_primary"
    ],
    "geo_conflicts": [],
@@ -10004,7 +9989,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "7688933",
@@ -10014,11 +9999,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -10043,7 +10028,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "7688100",
@@ -10053,11 +10038,11 @@
    "pre_1940": true,
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [
@@ -10084,7 +10069,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3121390",
@@ -10591,11 +10576,11 @@
    "pre_1940": true,
    "source_level_v1": "primary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
-   "warnings": [],
+   "warnings": [
+    "repaired:iso"
+   ],
    "geo_conflicts": [],
    "ungrounded": [],
    "ungrounded_strict": [],
@@ -10620,7 +10605,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "3460127",
@@ -11683,11 +11668,10 @@
    "pre_1940": false,
    "source_level_v1": "tertiary",
    "source_level": "tertiary",
-   "structural_errors": [
-    "non_iso:date_created"
-   ],
+   "structural_errors": [],
    "critical": [],
    "warnings": [
+    "repaired:iso",
     "date_archived_mismatch"
    ],
    "geo_conflicts": [],
@@ -11714,7 +11698,7 @@
    "places_total": 0,
    "places_resolved": 0,
    "model_error_km": [],
-   "ok": false
+   "ok": true
   },
   {
    "id": "32684792",

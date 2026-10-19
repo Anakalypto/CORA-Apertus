@@ -449,7 +449,7 @@ def level_from_answers(raw: dict, press_convention: str = "secondary") -> dict:
 OPTIONAL_KEYS = {"date_updated", "date_published", "commissioner", "creator", "publisher"}
 DATE_KEYS = ("date_created", "date_published", "date_updated", "date_archived")
 _CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
-_ISO = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?(/\d{4}(-\d{2}(-\d{2})?)?)?$")
+_ISO = re.compile(r"^(\d{4}(-\d{2}(-\d{2})?)?(/(\d{4}(-\d{2}(-\d{2})?)?|\.\.))?|\.\./\d{4}(-\d{2}(-\d{2})?)?)$")  # date, interval, or open interval "X/.."
 
 
 def _one_date(t: str) -> str | None:
@@ -472,6 +472,7 @@ def iso_date(v):
     if not isinstance(v, str) or not v.strip() or _ISO.match(v.strip()):
         return v, False
     v = re.sub(r"\(?\bca\.\)?", "", v).strip()  # approximation markers; kept as a separate flag by repair()
+    v = re.sub(r"\s*/\s*(?:\.{2,}|…|\?)?$", "/..", v)  # open end: "1937-01-01/..." -> ISO 8601-2 "1937-01-01/.."
     if _ISO.match(v):
         return v, True
     parts = re.split(r"\s*(?:/|–|—|\bto\b|\bbis\b|(?<=\d)\s*-\s*(?=\d{1,2}\.\d|\d{4}))\s*", v.strip())
