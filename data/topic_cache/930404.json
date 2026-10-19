@@ -1,0 +1,47 @@
+{
+ "id": "930404",
+ "generated": true,
+ "subject": "Association of Young Social Democrats (VJS)",
+ "identifiable": true,
+ "contemporary": false,
+ "plan": {
+  "subject": "Association of Young Social Democrats (VJS)",
+  "identifiable": true,
+  "wikipedia_query": "Association of Young Social Democrats (Switzerland)",
+  "wikipedia_broader": "Social Democratic Party of Switzerland",
+  "archive_stems": [
+   "VJS",
+   "junge Sozialdemokraten"
+  ],
+  "contemporary": false,
+  "news_query": ""
+ },
+ "wikipedia": {
+  "title": "Social Democratic Party of Switzerland",
+  "description": "Political party in Switzerland",
+  "extract": "The Social Democratic Party of Switzerland, also called the Swiss Socialist Party, is a political party in Switzerland. The SP has had two representatives on the Federal Council since 1960 and received the second-highest number of votes in the 2023 Swiss federal election.",
+  "url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Switzerland",
+  "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2022_logo_of_the_Social_Democratic_Party_of_Switzerland.svg/330px-2022_logo_of_the_Social_Democratic_Party_of_Switzerland.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0"
+ },
+ "primary": [
+  {
+   "id": "5522167",
+   "title": "HB-VJS",
+   "reference_code": "E8150B#1996/350#551*",
+   "date": "1988-1995",
+   "stem": "VJS",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5522167"
+  }
+ ],
+ "primary_in_dataset": [],
+ "news": [],
+ "note": "The record is a press article about the Association of Young Social Democrats (VJS), and the primary source dossier HB-VJS (P1) directly pertains to this youth organization within the Swiss Social Democratic movement.",
+ "offered": {
+  "wikipedia": 8,
+  "primary": 2,
+  "primary_in_dataset": 3,
+  "news": 0
+ },
+ "seconds": 38.9
+}

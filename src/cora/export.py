@@ -179,4 +179,6 @@ def run(cfg):
     df.to_csv(out_dir / "cora_dataset.tsv", index=False, sep="\t", encoding="utf-8")
     pd.DataFrame(edits).to_json(out_dir / "edit_log.jsonl", orient="records", lines=True, force_ascii=False)
     (out_dir / "schema.json").write_text(json.dumps(SCHEMA, indent=1), encoding="utf-8")
+    from .search_index import build
+    build(records, out_dir / "cora_search.sqlite")   # retrieval index for Ask the archive / chat / See more
     print(f"  {len(records)} records, {len(df.columns)} flat columns, {len(edits)} logged edits -> data/dataset/")

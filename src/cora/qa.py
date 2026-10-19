@@ -72,6 +72,7 @@ def _strip_ids(text: str, focus: str | None) -> str:
     if focus:
         text = re.sub(rf"(?i)\b(?:the )?record \[{focus}\]", "this record", text)
     text = re.sub(r"\s*\[\d+(?:\s*[,;]\s*\d+)*\]", "", text)
+    text = re.sub(r"\s*\((?:source|record)s?(?: ID)?:?\s*\d+(?:\s*(?:,|;|and)\s*\d+)*\)", "", text, flags=re.I)
     text = re.sub(r"\s*[,;]+\s*([),;.])", r"\1", text)
     text = re.sub(r"\(\s*\)", "", text)
     text = re.sub(r"\s{2,}", " ", text).strip()
@@ -96,11 +97,15 @@ def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5, foc
     sources = []
     for rid, score, hit in relevant:
         r = index.records[rid]
-        m, c, o = r["metadata"], r["classification"], r["source"]["original"]
-        sources.append({"id": rid, "title": m.get("title_normalized") or m["title"], "title_en": m.get("title_en"),
-                        "date": m.get("content_date") or m.get("date_created"), "type": c["document_type"],
-                        "resume": c.get("resume"), "content": (o.get("scope_and_content") or "")[:600],
-                        "reference_code": r["source"]["reference_code"]})
+        if hasattr(index, "card"):  # search_index.Index: stored card + the passage that matched the question
+            sources.append(index.card(rid) | {"matched_passage": index.passage(rid, question)
+                                              or (r["source"]["original"].get("scope_and_content") or "")[:300] or None})
+        else:
+            m, c, o = r["metadata"], r["classification"], r["source"]["original"]
+            sources.append({"id": rid, "title": m.get("title_normalized") or m["title"], "title_en": m.get("title_en"),
+                            "date": m.get("content_date") or m.get("date_created"), "type": c["document_type"],
+                            "resume": c.get("resume"), "content": (o.get("scope_and_content") or "")[:600],
+                            "reference_code": r["source"]["reference_code"]})
         if rid == focus:  # the record in view: all its original fields, not only the summary
             from .narrative import evidence
             sources[-1]["original_fields"] = {e["label"]: str(e["value"])[:500] for e in evidence(r)}

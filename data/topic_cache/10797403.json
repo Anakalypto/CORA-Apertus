@@ -1,0 +1,48 @@
+{
+ "id": "10797403",
+ "generated": true,
+ "subject": "Swiss press coverage in 1917",
+ "identifiable": true,
+ "contemporary": false,
+ "plan": {
+  "subject": "Swiss press coverage in 1917",
+  "identifiable": true,
+  "wikipedia_query": "Swiss press coverage in 1917",
+  "wikipedia_broader": "Switzerland",
+  "archive_stems": [
+   "Switzerland",
+   "press coverage",
+   "1917"
+  ],
+  "contemporary": false,
+  "news_query": ""
+ },
+ "wikipedia": {
+  "title": "Switzerland",
+  "description": "Country in Central Europe",
+  "extract": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe. It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south. Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne.",
+  "url": "https://en.wikipedia.org/wiki/Switzerland",
+  "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/330px-Flag_of_Switzerland_%28Pantone%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0"
+ },
+ "primary": [
+  {
+   "id": "3276429",
+   "title": "1917",
+   "reference_code": "E1#1000/4#539*",
+   "date": "1916.01.01-1917.12.31",
+   "stem": "1917",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3276429"
+  }
+ ],
+ "primary_in_dataset": [],
+ "news": [],
+ "note": "The record is a folder of newspaper clippings from 1917 about Switzerland, making P13 the only primary source directly covering Swiss press coverage in that year.",
+ "offered": {
+  "wikipedia": 8,
+  "primary": 22,
+  "primary_in_dataset": 0,
+  "news": 0
+ },
+ "seconds": 38.0
+}
