@@ -1,0 +1,73 @@
+{
+ "id": "6884093",
+ "uri": "https://culture.ld.admin.ch/ais/6884093",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6884093",
+ "title": "Répertoire des expulsés sur la page de gauche",
+ "reference_code": "E2200.16-02#1000/246#115*",
+ "reference_number": "J.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Frankreich",
+ "date": {
+  "from": "1872-01-01",
+  "to": "1888-12-31",
+  "expressed": "1872-1888"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/8801",
+   "number": "1000/246",
+   "title": "1000/00246 Bundesverwaltung (Bern) (1817 - 1913)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6884092",
+   "title": "Arrestations, expulsion, extraditions; Protection pendant la guerre",
+   "level": "Serie",
+   "reference_code": "E2200.16-02#J.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6884089",
+   "title": "Protection de la personne",
+   "level": "Serie",
+   "reference_code": "E2200.16-02#J"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6883723",
+   "title": "Schweizerische Vertretung, Lyon: Zentrale Ablage (1946-1965)",
+   "level": "Sub-file",
+   "reference_code": "E2200.16-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6383",
+   "title": "Schweizerische Vertretung, Lyon (1816-)",
+   "level": "Stock",
+   "reference_code": "E10629*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

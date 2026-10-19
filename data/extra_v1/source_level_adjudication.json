@@ -1,4 +1,5 @@
 {
+ "reviewer": "CORA team (human review)",
  "method": "Manual adjudication of 30 of the 121 disagreements between Apertus' source level and the label set from archival evidence (10 random per group, seed 7). Each record judged from its title, date, scope and archive hierarchy.",
  "summary": {"reviewed": 30, "apertus_right": 19, "label_right": 4, "both_defensible": 6, "neither": 1,
              "by_group": {"secondary_press": {"apertus_right": 4, "label_right": 2, "both_defensible": 3, "neither": 1},

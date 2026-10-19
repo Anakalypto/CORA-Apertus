@@ -1,0 +1,342 @@
+{
+ "id": "29661478",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29661478",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29661478",
+  "reference_code": "J2.225#2007/61#35#66*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Schweizerische Steuerpraktiken",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503886\nSignatur Bundesarchiv: J2.225#2007/1#35*",
+   "scope_and_content": "Inhaltsangabe: Schweiz, Frankreich: Kritik der französischen Sozialisten am schweizerischen Steuersystem\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <o.O.: Zeitungsschlagzeilen mit Fotos von Arnaud Montebourg / Grafik Zitat von Arnaud °Montebourg\no.O.: Konzert-Ausschnitt Johnny Hallyday\nSchweiz <o.O.: Hans-Jürg Fehr in Wohnzimmer in Zeitung blätternd / Statement Hans-Jürg Fehr / Reto Nause in Zeitung blätternd / Statement Reto Nause <Bern, BE: Zoom AA Bundeshaus",
+   "author": "AutorIn: Forster, Hanspeter (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:55\nPosition Anfang: 00:50:49",
+   "thema": "Personen: Montebourg, Arnaud (Sozialistische Partei)\nSachdeskriptor: /STAAT./STEUER",
+   "date": {
+    "from": "2007-01-04",
+    "to": null,
+    "expressed": "2007.01.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by Swiss public broadcaster SF as a news report at the time of the events.",
+  "resume": "This is a 2007 Swiss TV news report (Tagesschau) that features criticism of Swiss tax practices by French socialist Arnaud Montebourg, alongside Swiss reactions from Hans-Jürg Fehr and Reto Nause. It includes footage of Montebourg, Johnny Hallyday, and the Swiss Federal Palace in Bern."
+ },
+ "metadata": {
+  "title": "Schweizerische Steuerpraktiken",
+  "title_normalized": "Schweizerische Steuerpraktiken",
+  "title_en": "Swiss tax practices",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-01-04",
+  "date_published": "2007-01-04",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-01-04",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "taxation",
+   "Swiss tax system",
+   "French politics",
+   "Arnaud Montebourg"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 04.01.2007"
+  ],
+  "reference_code": "J2.225#2007/61#35#66*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29661478",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Montebourg, Arnaud",
+    "display_name": "Arnaud Montebourg",
+    "role": "French socialist politician, subject of criticism",
+    "wikidata": {
+     "qid": "Q737311",
+     "label": "Arnaud Montebourg",
+     "description": "French politician, lawyer and entrepreneur",
+     "url": "https://www.wikidata.org/wiki/Q737311"
+    }
+   },
+   {
+    "name": "Fehr, Hans-Jürg",
+    "display_name": "Hans-Jürg Fehr",
+    "role": "Swiss commentator",
+    "wikidata": {
+     "qid": "Q116829",
+     "label": "Hans-Jürg Fehr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116829"
+    }
+   },
+   {
+    "name": "Nause, Reto",
+    "display_name": "Reto Nause",
+    "role": "Swiss commentator",
+    "wikidata": {
+     "qid": "Q1497859",
+     "label": "Reto Nause",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1497859"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SF",
+    "role": "Producer and broadcaster",
+    "wikidata": {
+     "qid": "Q24925",
+     "label": "science fiction",
+     "description": "genre of speculative fiction that imagines advanced and futuristic changes in technology, scientific knowledge, or biological systems",
+     "url": "https://www.wikidata.org/wiki/Q24925"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.4474
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2006-2007)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Forster, Hanspeter (AUT)\nProduktionsgesel",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Montebourg, Arnaud (Sozialistische Partei); named organizations or places (apertus): Sachdeskriptor: /STAAT./STEUER",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2007.01.04; free text places (apertus): Schweiz <o.O.: … <Bern, BE: Zoom AA Bundeshaus",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2006-2007)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Forster, Hanspeter (AUT)\nProduktionsgesel"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2007.01.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <o.O.: … <Bern, BE: Zoom AA Bundeshaus"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Montebourg, Arnaud (Sozialistische Partei)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sachdeskriptor: /STAAT./STEUER"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations related to political discourse on taxation."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-01-04",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "TV news report produced by SF on Swiss tax practices and French criticism",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2007-01-04",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#35#66*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4481,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

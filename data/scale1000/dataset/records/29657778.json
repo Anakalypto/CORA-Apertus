@@ -1,0 +1,347 @@
+{
+ "id": "29657778",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29657778",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657778",
+  "reference_code": "J2.225#2006/364#241#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Stauffer-Bern\" von Herbert Meier",
+   "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#659*",
+   "scope_and_content": "Sequenzbeschrieb: CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nZusammenfassung: CH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses",
+   "author": "Produktionsgesellschaft: DRS",
+   "form": "Video",
+   "format": "Dauer: 00:05:26\nFarbe: FA\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.03.25\nTräger: Betacam-Digital",
+   "thema": "Personen: Meier, Herbert;Arx, Bernhard von;Stauffer Bern, Karl\nSachdeskriptor: Theater",
+   "date": {
+    "from": "1974-12-01",
+    "to": null,
+    "expressed": "1974.12.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+     "number": "2006/364",
+     "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a live theatrical performance and its associated broadcast materials.",
+  "resume": "The document is a video recording of a theatrical performance titled \"Stauffer-Bern\" by Herbert Meier, featuring excerpts from the play, a book by Bernhard von Arx, and a portrait of Karl Stauffer-Bern. It was filmed at the Studio Wolfbach of the Zurich Schauspielhaus and broadcast as part of the \"Panorama der Woche\" series in December 1974."
+ },
+ "metadata": {
+  "title": "Stauffer-Bern\" von Herbert Meier",
+  "title_normalized": "Stauffer-Bern\" von Herbert Meier",
+  "title_en": "Stauffer-Bern by Herbert Meier",
+  "creator": "DRS",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1974-12-01",
+  "date_published": "1974-12-01",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1974-12-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "theater",
+   "performances",
+   "biographies"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1974",
+   "Panorama der Woche - Tél-Hebdo - Telerama 01.12.1974"
+  ],
+  "reference_code": "J2.225#2006/364#241#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657778",
+  "accession_numbers": [
+   "2006/364"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Meier, Herbert",
+    "display_name": "Herbert Meier",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Arx, Bernhard von",
+    "display_name": "Bernhard von Arx",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q826245",
+     "label": "Bernhard von Arx",
+     "description": "Swiss writer (1924-2012)",
+     "url": "https://www.wikidata.org/wiki/Q826245"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2012,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stauffer Bern, Karl",
+    "display_name": "Karl Stauffer Bern",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q117489",
+     "label": "Karl Stauffer-Bern",
+     "description": "Swiss artist (1857-1891)",
+     "url": "https://www.wikidata.org/wiki/Q117489"
+    },
+    "life_date_check": {
+     "born": 1857,
+     "died": 1891,
+     "verdict": "flag",
+     "reason": "died 1891, more than 50 years before the document (1974)"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production company",
+    "wikidata": null
+   },
+   {
+    "name": "Zürcher Schauspielhaus",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q40313234",
+     "label": "Schauspielhaus Zürich",
+     "description": "theatre production company in Zurich (Switzerland)",
+     "url": "https://www.wikidata.org/wiki/Q40313234"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1970-1978)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nZusammenfassung: CH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:05:26\nFarbe: FA\nFormat Arbeitskopie: Sic",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Meier, Herbert;Arx, Bernhard von;Stauffer Bern, Karl; named organizations or places (apertus): CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nCH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1974.12.01; free text places (apertus): CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nCH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1970-1978)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nZusammenfassung: CH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:05:26\nFarbe: FA\nFormat Arbeitskopie: Sic"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1974.12.01"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nCH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Meier, Herbert;Arx, Bernhard von;Stauffer Bern, Karl"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH <Zürich, ZH: Theater-Ausschnitte \"Stauffer-Bern\" / Blätter in Buch \"Der Fall Karl Stauffer\" von Bernhard von Arx / Stich Karl Stauffer-Bern\nCH <Zürich, ZH: Aufführung \"Stauffer-Bern\" von Herbert Meier im Studio Wolfbach des Zürcher Schauspielhauses"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1974-12-01",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Video recording of theatrical performance \"Stauffer-Bern\" by Herbert Meier.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/364 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/364#241#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5342,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

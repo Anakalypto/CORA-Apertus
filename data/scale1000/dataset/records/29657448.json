@@ -1,0 +1,358 @@
+{
+ "id": "29657448",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29657448",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657448",
+  "reference_code": "J2.225#2006/364#170#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Freilassung pakistanischer ex-Kriegsgefangener",
+   "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#931*",
+   "scope_and_content": "Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen",
+   "author": "Produktionsgesellschaft: Agenturen",
+   "form": "Video",
+   "format": "Dauer: 00:03:04\nFarbe: FA\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.48.15\nTräger: Betacam-Digital",
+   "thema": "Personen: Waldheim, Kurt\nSachdeskriptor: Krieg",
+   "date": {
+    "from": "1973-07-22",
+    "to": null,
+    "expressed": "1973.07.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+     "number": "2006/364",
+     "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage produced by news agencies (Agenturen) and recorded during the events.",
+  "resume": "The video sequence documents the release of Pakistani former prisoners of war from India and the return of refugees, featuring scenes from Wagah, Islamabad, Shakargar, and footage of Kurt Waldheim at a UN demonstration, as well as protests and reconstruction efforts."
+ },
+ "metadata": {
+  "title": "Freilassung pakistanischer ex-Kriegsgefangener",
+  "title_normalized": "Freilassung pakistanischer ex-Kriegsgefangener",
+  "title_en": "Release of Pakistani Former Prisoners of War",
+  "creator": "Agenturen",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1973-07-22",
+  "date_published": "1973-07-22",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1973-07-22",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Pakistan",
+   "Krieg",
+   "Kurt Waldheim"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1973",
+   "Panorama der Woche - Tél-Hebdo - Telerama 22.07.1973"
+  ],
+  "reference_code": "J2.225#2006/364#170#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657448",
+  "accession_numbers": [
+   "2006/364"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Waldheim, Kurt",
+    "display_name": "Kurt Waldheim",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q1260",
+     "label": "Kurt Waldheim",
+     "description": "Austrian politician and diplomat (1918–2007)",
+     "url": "https://www.wikidata.org/wiki/Q1260"
+    },
+    "life_date_check": {
+     "born": 1918,
+     "died": 2007,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Wagah",
+    "as_written": "Wagah",
+    "role": "depicted",
+    "country": "PK",
+    "lat": 31.589944,
+    "lon": 74.5765072,
+    "gazetteer": "https://www.openstreetmap.org/node/99902837",
+    "model_lat": 31.3,
+    "model_lon": 74.4
+   },
+   {
+    "name": "Islamabad",
+    "as_written": "Islamabad",
+    "role": "depicted",
+    "country": "PK",
+    "lat": 33.6938118,
+    "lon": 73.0651511,
+    "gazetteer": "https://www.openstreetmap.org/node/316440978",
+    "model_lat": 33.5,
+    "model_lon": 73.1
+   },
+   {
+    "name": "Shakargar",
+    "as_written": "Shakargar",
+    "role": "depicted",
+    "country": "PK",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 31.5,
+    "model_lon": 74.2
+   },
+   {
+    "name": "Switzerland",
+    "as_written": "CH",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2006/364#931*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:03:04\nFarbe: FA\nFormat Arbeitskopie: Sic; multilingual (apertus): Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: Personen: Waldheim, Kurt; named organizations or places (apertus): thema: Personen: Waldheim, Kurt\nSachdeskriptor: Krieg",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 1973.07.22; free text places (apertus): Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2006/364#931*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:03:04\nFarbe: FA\nFormat Arbeitskopie: Sic"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 1973.07.22"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Pakistan <Wagah: Ex-Gefangene von Lastwagen steigend <Islamabad: Frauen-Demonstration / Kurt Waldheim (UNO-Generalsekretär) vor Demonstrantinnen / Frau mit CH-Diplomat sprechend <o.O., Shakargar: Ex-Flüchtlinge von Lastwagen steigend / Bevölkerung in zerstörter Stadt / Männer bei Wiederaufbau-Arbeiten <o.O.: Schülerinnen-Demonstration mit Plakat \"Wake up UN\" / LA Flug zerstörte Stadt\nZusammenfassung: Pakistan <o.O.: Freilassung pakistanischer Kriegsgefangener aus Indien und Rückkehr von Flüchtlingen"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Waldheim, Kurt"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Waldheim, Kurt\nSachdeskriptor: Krieg"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1973-07-22",
+   "place": "Wagah",
+   "lat": 31.589944,
+   "lon": 74.5765072,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1973-07-22",
+   "place": "Islamabad",
+   "lat": 33.6938118,
+   "lon": 73.0651511,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1973-07-22",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video sequence recorded during a newsreel broadcast.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/364 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/364#170#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5802,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

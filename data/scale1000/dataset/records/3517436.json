@@ -1,0 +1,466 @@
+{
+ "id": "3517436",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3517436",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517436",
+  "reference_code": "E1301#2005/31#12#10*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2003.0471: Parlamentarische Initiative Allemann Evi. Die Einführung von Road-Pricing-Modellen vereinfachen / Initiative parlementaire Allemann Evi. Simplifier l'introduction de péages urbains; 2004.3619: Postulat KVF-NR (03.471). Einführung eines Road Pricing / Postulat CTT-CN (03.471). Instaurer le péage urbain",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aeschbacher, Ruedi; Allemann, Evi; Beck, Serge; Binder, Max; Fehr, Jacqueline; Föhn, Peter; Giezendanner, Ulrich; Hegetschweiler, Rolf; Hochreutener, Norbert; Hollenstein, Pia; Leuenberger, Moritz; Riklin, Kathy; Rime, Jean-François; Simoneschi, Chiara",
+   "date": {
+    "from": "2005-03-17",
+    "to": null,
+    "expressed": "2005.03.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1404996",
+     "number": "2005/31",
+     "title": "2005/00031 Parlamentsdienste (Bern) (2005)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a National Council debate, capturing the speakers and the parliamentary instruments presented.",
+  "resume": "The document comprises a parliamentary initiative and a postulate concerning the introduction of road pricing models, recorded during a session of the National Council in spring 2005. It includes the names of speakers in the debate and is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "2003.0471: Parlamentarische Initiative Allemann Evi. Die Einführung von Road-Pricing-Modellen vereinfachen / Initiative parlementaire Allemann Evi. Simplifier l'introduction de péages urbains; 2004.3619: Postulat KVF-NR (03.471). Einführung eines Road Pricing / Postulat CTT-CN (03.471). Instaurer le péage urbain",
+  "title_normalized": "2003.0471: Parlamentarische Initiative Allemann Evi. Die Einführung von Road-Pricing-Modellen vereinfachen / Initiative parlementaire Allemann Evi. Simplifier l'introduction de péages urbains; 2004.3619: Postulat KVF-NR (03.471). Einführung eines Road Pricing / Postulat CTT-CN (03.471). Instaurer le péage urbain",
+  "title_en": "Parliamentary Initiative Allemann Evi: Simplifying the Introduction of Road Pricing Models / Postulate KVF-NR (03.471): Introducing Urban Road Pricing",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2005-03-17",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2005-03-17",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "road pricing",
+   "parliamentary initiative",
+   "postulate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2005",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2005/31#12#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517436",
+  "accession_numbers": [
+   "2005/31"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ruedi Aeschbacher",
+    "display_name": "Ruedi Aeschbacher",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q121106",
+     "label": "Ruedi Aeschbacher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121106"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Evi Allemann",
+    "display_name": "Evi Allemann",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120881",
+     "label": "Evi Allemann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120881"
+    },
+    "life_date_check": {
+     "born": 1978,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Serge Beck",
+    "display_name": "Serge Beck",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q122862",
+     "label": "Serge Beck",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q122862"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Max Binder",
+    "display_name": "Max Binder",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116490",
+     "label": "Max Binder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116490"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacqueline Fehr",
+    "display_name": "Jacqueline Fehr",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116424",
+     "label": "Jacqueline Fehr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116424"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Föhn",
+    "display_name": "Peter Föhn",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q119888",
+     "label": "Peter Föhn",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119888"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ulrich Giezendanner",
+    "display_name": "Ulrich Giezendanner",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Rolf Hegetschweiler",
+    "display_name": "Rolf Hegetschweiler",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Norbert Hochreutener",
+    "display_name": "Norbert Hochreutener",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1996858",
+     "label": "Norbert Hochreutener",
+     "description": "Swiss journalist and politician",
+     "url": "https://www.wikidata.org/wiki/Q1996858"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pia Hollenstein",
+    "display_name": "Pia Hollenstein",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q61596208",
+     "label": "Pia Hollenstein",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q61596208"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Kathy Riklin",
+    "display_name": "Kathy Riklin",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1358187",
+     "label": "Kathy Riklin",
+     "description": "High-school Teacher and Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1358187"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-François Rime",
+    "display_name": "Jean-François Rime",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116079",
+     "label": "Jean-François Rime",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116079"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Chiara Simoneschi",
+    "display_name": "Chiara Simoneschi",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): yes",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2005.03.17",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2005.03.17"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/31 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2005/31#12#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5205,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

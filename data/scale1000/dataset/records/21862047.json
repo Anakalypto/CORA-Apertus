@@ -1,0 +1,331 @@
+{
+ "id": "21862047",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21862047",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21862047",
+  "reference_code": "J2.225#2000/22#1927#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Jubiläum Rettungsflugwacht ; DRS-aktuell, 27.04.1982",
+   "old_reference_code": "Original Signatur: RJSFDRS 9307168\nSignatur Bundesarchiv: J2.225#2000/22#5369*",
+   "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: 30-Jahr-Jubiläum Schweizerische Rettungsflugwacht (REGA)\nSequenzbeschrieb: CH o.O.: Einsatz Rega-Flugzeug, Absprung von Fallschirmspringern (Schweizer Filmwochenschau, sw, 1952) / Landung Gletscherflugzeug, Abtransport von Verwundeten (Schweizer Filmwochenschau, sw, 1952) / Start Rega-Helikopter (Schweizer Filmwochenschau, sw, 1957) Zürich, ZH: IA Rega-Einsatzzentrale, Einsatzplanung o.O., GR: Start Rega-Helikopter / Landung Rega-Helikopzer / Bergung von Verschütteten / Rega-Helikopter fliegend Zürich, ZH: Statement Christian Bühler (D °SRFW) / verschiedene Rega-Einsatze Zürich Flughafen, ZH: Rega Ambulanz-Flugzeug rollend",
+   "author": "AutorIn: Spirk, Arthur\nProduktion: DRS;Filmwochenschau",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Wacker, Dagmar",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 20.04.1982-04.05.1982",
+   "form": "Video",
+   "format": "Dauer: 00:06:15\nFarbe: Farbaufnahmen\nStartposition: 00.02.45\nTräger: Betacam-Digital",
+   "thema": "Personen: Bühler, Christian\nSachdeskriptor: Rettungswesen",
+   "date": {
+    "from": "1982-04-27",
+    "to": null,
+    "expressed": "1982.04.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast from DRS-aktuell on 27 April 1982, containing original footage and commentary.",
+  "resume": "The document is a television news report from DRS-aktuell dated 27 April 1982 commemorating the 30th anniversary of the Swiss Air Rescue Service (REGA). It includes footage of historical REGA operations from 1952 and 1957, as well as a statement by Christian Bühler and scenes of REGA ambulances at Zurich Airport."
+ },
+ "metadata": {
+  "title": "Jubiläum Rettungsflugwacht ; DRS-aktuell, 27.04.1982",
+  "title_normalized": "Jubiläum Rettungsflugwacht ; DRS-aktuell, 27.04.1982",
+  "title_en": "REGA 30th Anniversary ; DRS-aktuell, 27 April 1982",
+  "creator": "DRS, Filmwochenschau",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1982-04-27",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1982-04-27",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "REGA",
+   "air rescue",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1982",
+   "Regionalmagazine SFDRS 27.04.1982"
+  ],
+  "reference_code": "J2.225#2000/22#1927#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21862047",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Christian Bühler",
+    "display_name": "Christian Bühler",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1079133",
+     "label": "Christian Bühler",
+     "description": "Swiss politician (1903-1997)",
+     "url": "https://www.wikidata.org/wiki/Q1079133"
+    },
+    "life_date_check": {
+     "born": 1903,
+     "died": 1997,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "REGA",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q673068",
+     "label": "Rega",
+     "description": "Swiss air rescue",
+     "url": "https://www.wikidata.org/wiki/Q673068"
+    }
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zurich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1958-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Spirk, Arthur\nProduktion: DRS;Filmwochens",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Bühler, Christian; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1982.04.27; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1958-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Spirk, Arthur\nProduktion: DRS;Filmwochens"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1982.04.27"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Bühler, Christian"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1982-04-27",
+   "place": "Zurich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Television news report broadcast by DRS-aktuell.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#1927#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5674,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

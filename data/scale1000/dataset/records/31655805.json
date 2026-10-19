@@ -1,0 +1,335 @@
+{
+ "id": "31655805",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31655805",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31655805",
+  "reference_code": "E1301#2018/82#9#27*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2015.0006: Motionen und Postulate der gesetzgebenden Räte im Jahre 2014. Bericht / Motions et postulats des conseils législatifs en 2014. Rapport",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Casanova, Corina; Rossini, Stéphane;",
+   "form": "Digital",
+   "date": {
+    "from": "2015-06-15",
+    "to": null,
+    "expressed": "2015.06.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31231066",
+     "number": "2018/82",
+     "title": "2018/00082 Parlamentsdienste: Amtliches Bulletin (Bern) (2015)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct documentation of parliamentary debates and legislative instruments created at the time of the events.",
+  "resume": "This document is a parliamentary report containing motions and postulates from the legislative councils in 2014, compiled and published in 2015. It records a debate on June 15, 2015, featuring speakers Corina Casanova and Stéphane Rossini. The record is a digital parliamentary protocol documenting legislative proceedings."
+ },
+ "metadata": {
+  "title": "2015.0006: Motionen und Postulate der gesetzgebenden Räte im Jahre 2014. Bericht / Motions et postulats des conseils législatifs en 2014. Rapport",
+  "title_normalized": "2015.0006: Motionen und Postulate der gesetzgebenden Räte im Jahre 2014. Bericht / Motions et postulats des conseils législatifs en 2014. Rapport",
+  "title_en": "Motions and Postulates of the Legislative Councils in 2014. Report",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2015-06-15",
+  "date_updated": null,
+  "date_archived": "2018",
+  "content_date": "2015-06-15",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary procedure",
+   "legislative motions",
+   "Swiss legislative process"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Sommersession 2015",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2018/82#9#27*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31655805",
+  "accession_numbers": [
+   "2018/82"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Corina Casanova",
+    "display_name": "Corina Casanova",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q466874",
+     "label": "Corina Casanova",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q466874"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stéphane Rossini",
+    "display_name": "Stéphane Rossini",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121330",
+     "label": "Stéphane Rossini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121330"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2015.0006: Motionen und Postulate der gesetzgebenden Räte im Jahre 2014. Bericht / Motions et postulats des conseils législatifs en 2014. Rapport\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Corina Casanova\", \"Stéphane Rossini\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2015.06.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2015.0006: Motionen und Postulate der gesetzgebenden Räte im Jahre 2014. Bericht / Motions et postulats des conseils législatifs en 2014. Rapport\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2015.06.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Corina Casanova\", \"Stéphane Rossini\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2015-06-15",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Parliamentary report published documenting motions and postulates from 2014.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2018",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2018/82 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2018/82#9#27*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4854,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

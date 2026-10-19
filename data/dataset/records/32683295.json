@@ -1,0 +1,316 @@
+{
+ "id": "32683295",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32683295",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32683295",
+  "reference_code": "E3120C#2014/269#436*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Findmittel E2200.135 Schweizerische Vertretung, Los Angeles",
+   "reference_number": "516.9",
+   "scope_and_content": "enthält folgende Ablieferungen:***1000/176***1000/177***1000/178***1000/179***1000/180***1970/191***1970/192***1974/41***1974/42***1974/43***1981/78***1991/142***1991/143***1991/144***1991/145***1996/363***1996/364***1996/365***1996/366***1998/35***1998/36***1998/37***1998/38***2003/300***2003/301",
+   "date": {
+    "from": "1949-01-01",
+    "to": "2008-12-31",
+    "expressed": "1949-2008"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30291142",
+     "number": "2014/269",
+     "title": "2014/00269 Schweizerisches Bundesarchiv (Bern) (1894-2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a finding aid (source level) that indexes archival deliveries from the Swiss representation in Los Angeles.",
+  "resume": "This is a finding aid (inventory) listing archival files of the Swiss representation in Los Angeles, covering the period 1949–2008. It indexes multiple sub-files containing administrative documents, correspondence, and reports related to Swiss diplomatic activities in the United States. The document itself is a catalogue entry, not the primary source material."
+ },
+ "metadata": {
+  "title": "Findmittel E2200.135 Schweizerische Vertretung, Los Angeles",
+  "title_normalized": "Findmittel E2200.135 Schweizerische Vertretung, Los Angeles",
+  "title_en": "Inventory E2200.135 Swiss Representation, Los Angeles",
+  "creator": "Swiss Federal Archives",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "1949/2008",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss diplomacy",
+   "United States",
+   "Swiss representation",
+   "Los Angeles",
+   "administrative records"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerisches Bundesarchiv (1979-)",
+  "fonds_reference": "E10796*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerisches Bundesarchiv (1979-)",
+   "Schweizerisches Bundesarchiv: Zentrale Ablage (1996-2007)",
+   "Bewertung, Erschliessung",
+   "Erschliessung",
+   "Detailfindmittel",
+   "Ausgeschiedene Find- und Findhilfsmittel"
+  ],
+  "reference_code": "E3120C#2014/269#436*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32683295",
+  "accession_numbers": [
+   "2014/269"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Los Angeles",
+    "role": "subject of the archival inventory",
+    "wikidata": null
+   },
+   {
+    "name": "Schweizerisches Bundesarchiv",
+    "role": "creator of the finding aid",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Los Angeles",
+    "as_written": "Los Angeles",
+    "role": "depicted",
+    "country": "US",
+    "lat": 34.0536923,
+    "lon": -118.2427676,
+    "gazetteer": "https://www.openstreetmap.org/relation/207359",
+    "model_lat": 34.0522,
+    "model_lon": -118.2437
+   },
+   {
+    "name": "Switzerland",
+    "as_written": null,
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.948,
+    "model_lon": 8.4655
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Findmittel E2200.135 Schweizerische Vertretung, Los Angeles\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Swiss Federal Archives, Schweizerische Vertretung, Los Angeles",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in hierarchy (Los Angeles) or reference_code (not explicit)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Findmittel E2200.135 Schweizerische Vertretung, Los Angeles\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (Los Angeles) or reference_code (not explicit)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives, Schweizerische Vertretung, Los Angeles"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Los Angeles",
+   "lat": 34.0536923,
+   "lon": -118.2427676,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/269 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3120C#2014/269#436*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5243,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

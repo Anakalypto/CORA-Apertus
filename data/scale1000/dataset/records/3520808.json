@@ -1,0 +1,306 @@
+{
+ "id": "3520808",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3520808",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3520808",
+  "reference_code": "E1301#1984/209#12#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "84.257: Bernhard Böhi, Basel Petition gegen die Diskriminierung der Motorräder durch die Behörden / Bernhard Böhi, Bâle Pétition contre la discrimination des motocycles",
+   "date": {
+    "from": "1984-06-22",
+    "to": null,
+    "expressed": "1984.06.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383402",
+     "number": "1984/209",
+     "title": "1984/00209 Parlamentsdienste (Bern) (1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary record from the Swiss National Council (Nationalrat) capturing a petition debate on June 22, 1984, concerning discrimination of motorcycles by authorities, presented by Bernhard Böhi from Basel."
+ },
+ "metadata": {
+  "title": "84.257: Bernhard Böhi, Basel Petition gegen die Diskriminierung der Motorräder durch die Behörden / Bernhard Böhi, Bâle Pétition contre la discrimination des motocycles",
+  "title_normalized": "84.257: Bernhard Böhi, Basel Petition gegen die Diskriminierung der Motorräder durch die Behörden / Bernhard Böhi, Bâle Pétition contre la discrimination des motocycles",
+  "title_en": "Petition by Bernhard Böhi of Basel against the discrimination of motorcycles by authorities",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1984-06-22",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1984",
+  "content_date": "1984-06-22",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "motorcycle discrimination",
+   "petition",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1983 bis Herbstsession 1987",
+   "Sommersession 1984",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1984/209#12#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3520808",
+  "accession_numbers": [
+   "1984/209"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Bernhard Böhi",
+    "display_name": "Bernhard Böhi",
+    "role": "petitioner",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "Basel",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.54,
+    "model_lon": 7.55
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"84.257: Bernhard Böhi, Basel Petition gegen die Diskriminierung der Behörden / Bernhard Böhi, Bâle Pétition contre la discrimination des motocycles\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: Bernhard Böhi; named organizations or places (apertus): title: Basel, Bâle",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1984.06.22",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"84.257: Bernhard Böhi, Basel Petition gegen die Diskriminierung der Behörden / Bernhard Böhi, Bâle Pétition contre la discrimination des motocycles\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1984.06.22"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: Bernhard Böhi"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: Basel, Bâle"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1984-06-22",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1984",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1984/209 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1984/209#12#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4705,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

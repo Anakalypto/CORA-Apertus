@@ -1,0 +1,59 @@
+{
+ "id": 817,
+ "signature": "BAR B0 1000/1483, Nr. 1429, fol. 173-174v",
+ "reference": {
+  "place": "Studen",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Georg Martin Binder",
+  "teacher_age": 62,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 34,
+  "pupils_winter": 24,
+  "pupils_summer": 24,
+  "author_name": "Georg Martin Binder",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Studen",
+  "canton_1799": "Bern",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Georg Martin Binder",
+  "teacher_age": 62,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 34,
+  "pupils_winter": 24,
+  "pupils_summer": 24,
+  "author_name": "Schullehrer zu Studen",
+  "date_written": "1799-03-25"
+ },
+ "evidence": {
+  "place_as_written": "Das Ort der Schule heißt Studen.",
+  "canton_1799": "Caton Bern",
+  "school_type": "Die Kinder lernen Buchstabieren, Leßen ... auswendig der @ Heydelbergische Catechismus. Psalmen und @ die Biblische Historien.",
+  "confession": "Zu der Kirch gemeind Birglen.",
+  "teacher_name": "Georg Martin Binder",
+  "teacher_age": "Alt 62 Jahr",
+  "teacher_marital_status": "und hab ein Frau",
+  "teacher_since": "Jch bin 34. Jahr Schulmeist im Canton Bern",
+  "pupils_winter": "Deren anzahl die die Suhl besuchen @ sind 24. Kinder, 8. Knaben und 16. Mägdchen @ und komen Somer und Winter",
+  "pupils_summer": "Deren anzahl die die Suhl besuchen @ sind 24. Kinder, 8. Knaben und 16. Mägdchen @ und komen Somer und Winter"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "match",
+  "author_name": "mismatch",
+  "date_written": "extra"
+ },
+ "seconds": 9.35
+}

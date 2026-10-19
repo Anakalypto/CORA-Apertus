@@ -1,0 +1,70 @@
+{
+ "id": "21779794",
+ "uri": "https://culture.ld.admin.ch/ais/21779794",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21779794",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 07.03.1976",
+ "reference_code": "J2.225#1996/68#6484#2*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 76/67/02A;Rolle 1274\nSignatur Bundesarchiv: J2.225#1996/68#64706*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Lyss, BE: Ausstellung schweizer Holzschnitt-Kunst mit Werken von Werner Hoffmann, Robert Wyss, Hans Studer, Michael Terrapon, Peter Wullimann, Martin Thöni und Emil Zbinden\nSequenzbeschrieb: CH Lyss, BE: AA Kirche / Ausstellungs-Impressionen",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 29.02.1976-14.03.1976",
+ "form": "Video",
+ "format": "Dauer: 1.13\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.52.03\nTräger: Betacam-Digital",
+ "thema": "Personen: Hoffmann, Werner;Wyss, Robert;Studer, Hans;Terrapon, Michael;Wullimann, Peter;Thöni, Martin;Zbinden, Emil\nSachdeskriptor: Kunstausstellung",
+ "country": null,
+ "date": {
+  "from": "1976-03-07",
+  "to": null,
+  "expressed": "1976.03.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21779792",
+   "title": "Tagesschau SFDRS 07.03.1976",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6484*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690385",
+   "title": "Tagesschau SFDRS 1976",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1976"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

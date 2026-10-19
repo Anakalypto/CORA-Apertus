@@ -1,0 +1,61 @@
+{
+ "id": "29385201",
+ "uri": "https://culture.ld.admin.ch/ais/29385201",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29385201",
+ "title": "Répertoire des Procès-verbaux du Comité pro 1919 et 1920",
+ "reference_code": "J2.78#1000/1252#17*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1919-01-01",
+  "to": "1920-12-31",
+  "expressed": "1919-1920"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16406",
+   "number": "1000/1252",
+   "title": "1000/01252 k.A. Organisation (1915-1920)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29385037",
+   "title": "Comité de la S.S.S.: Procès de verbaux",
+   "level": "Serie",
+   "reference_code": "J2.78#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833",
+   "title": "Société suisse de surveillance économique S.S.S. (1915-1920)",
+   "level": "Stock",
+   "reference_code": "J2.78*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

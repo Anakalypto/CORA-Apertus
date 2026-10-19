@@ -1,0 +1,305 @@
+{
+ "id": "29491752",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29491752",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29491752",
+  "reference_code": "E19#1000/43#62*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Das neue schweizerische Bundeshaus in Bern. Festschrift anlässlich dessen 1902 Vollendung und Einweihung herausgegeben vom Eidg. Departement des Innern, Bern 1902 (deutsch und französisch)",
+   "date": {
+    "from": "1902-01-01",
+    "to": "1902-12-31",
+    "expressed": "1902-1902"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7511",
+     "number": "1000/43",
+     "title": "1000/00043 Bundesverwaltung (Bern) (1845-1933)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "publication / book",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This is a retrospective commemorative publication produced by the acting administration to document the completion of the Federal Palace in Bern.",
+  "resume": "This is a bilingual commemorative publication (German and French) celebrating the completion and inauguration of the new Swiss Federal Palace in Bern in 1902. It was issued by the Federal Department of the Interior as a festschrift. The document contains historical information and descriptions related to the construction and significance of the building."
+ },
+ "metadata": {
+  "title": "Das neue schweizerische Bundeshaus in Bern. Festschrift anlässlich dessen 1902 Vollendung und Einweihung herausgegeben vom Eidg. Departement des Innern, Bern 1902 (deutsch und französisch)",
+  "title_normalized": "Das neue schweizerische Bundeshaus in Bern. Festschrift anlässlich dessen 1902 Vollendung und Einweihung herausgegeben vom Eidg. Departement des Innern, Bern 1902 (deutsch und französisch)",
+  "title_en": "The new Swiss Federal Palace in Bern. Festschrift on the occasion of its completion and inauguration in 1902, published by the Federal Department of the Interior, Bern 1902 (German and French)",
+  "creator": "Eidgenössisches Departement des Innern",
+  "publisher": "Eidgenössisches Departement des Innern",
+  "commissioner": null,
+  "date_created": "1902",
+  "date_published": "1902",
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1902/1902",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss Federal Palace",
+   "architecture",
+   "history",
+   "commemoration",
+   "public works"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössische Bauten und öffentliche Werke",
+  "fonds_reference": "E19*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössische Bauten und öffentliche Werke",
+   "Eidgenössische Bauten",
+   "Verwaltungsgebäude",
+   "Verwaltungsgebäude in Bern",
+   "Parlamentsgebäude Bundeshaus-Mittelbau"
+  ],
+  "reference_code": "E19#1000/43#62*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29491752",
+  "accession_numbers": [
+   "1000/43"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössisches Departement des Innern",
+    "role": "publisher/creator",
+    "wikidata": {
+     "qid": "Q688584",
+     "label": "Federal Department of Home Affairs",
+     "description": "one of the seven federal government and administrative units in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q688584"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "published",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains \"(deutsch und französisch)\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): title mentions \"Eidg. Departement des Innern\" and \"Bundeshaus\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"(deutsch und französisch)\""
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title mentions \"Eidg. Departement des Innern\" and \"Bundeshaus\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1902",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Published as a commemorative book by the Federal Department of the Interior.",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1902",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Published place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/43 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E19#1000/43#62*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4547,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

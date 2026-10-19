@@ -1,0 +1,356 @@
+{
+ "id": "4591510",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4591510",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4591510",
+  "reference_code": "E1301#2007/201#5#14*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2007.5099: Fragestunde. Frage Sommaruga Carlo. IV. Unerhörte politische Werbung des BSV-Direktors / Heure des questions. Question Sommaruga Carlo. AI. Scandaleuse publicité politique du directeur de l'OFAS; 2007.5156: Fragestunde. Frage Schenker Silvia. Verhalten von Amtsdirektorinnen und -direktoren / Heure des questions. Question Schenker Silvia. Comportement des directeurs d'offices fédéraux",
+   "scope_and_content": "Sprecher/Sprecherinnen: Couchepin, Pascal; Egerszegi-Obrist, Christine; Schenker, Silvia; Sommaruga, Carlo",
+   "date": {
+    "from": "2007-06-11",
+    "to": null,
+    "expressed": "2007.06.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4035620",
+     "number": "2007/201",
+     "title": "2007/00201 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The records are verbatim transcripts and audio recordings of actual parliamentary debates conducted by the National Council.",
+  "resume": "The document comprises two parliamentary question sessions recorded during the summer session of 2007, featuring questions by Carlo Sommaruga and Silvia Schenker on political advertising by the OFAS director and the conduct of federal office directors, respectively. The recordings are part of the National Council's debate protocols and belong to the Swiss Federal Archives' parliamentary record collection. The sessions were held on 11 June 2007."
+ },
+ "metadata": {
+  "title": "2007.5099: Fragestunde. Frage Sommaruga Carlo. IV. Unerhörte politische Werbung des BSV-Direktors / Heure des questions. Question Sommaruga Carlo. AI. Scandaleuse publicité politique du directeur de l'OFAS; 2007.5156: Fragestunde. Frage Schenker Silvia. Verhalten von Amtsdirektorinnen und -direktoren / Heure des questions. Question Schenker Silvia. Comportement des directeurs d'offices fédéraux",
+  "title_normalized": "2007.5099: Fragestunde. Frage Sommaruga Carlo. IV. Unerhörte politische Werbung des BSV-Direktors / Heure des questions. Question Sommaruga Carlo. AI. Scandaleuse publicité politique du directeur de l'OFAS; 2007.5156: Fragestunde. Frage Schenker Silvia. Verhalten von Amtsdirektorinnen und -direktoren / Heure des questions. Question Schenker Silvia. Comportement des directeurs d'offices fédéraux",
+  "title_en": "Question sessions: Carlo Sommaruga questions on OFAS political advertising; Silvia Schenker questions on conduct of federal office directors",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-06-11",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-11",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary questions",
+   "political advertising",
+   "conduct of federal office directors"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2007",
+   "Sommersession 2007, 5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2007/201#5#14*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4591510",
+  "accession_numbers": [
+   "2007/201"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Carlo Sommaruga",
+    "display_name": "Carlo Sommaruga",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q119393",
+     "label": "Carlo Sommaruga",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119393"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Silvia Schenker",
+    "display_name": "Silvia Schenker",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q117158",
+     "label": "Silvia Schenker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117158"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christine Egerszegi-Obrist",
+    "display_name": "Christine Egerszegi-Obrist",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q118232",
+     "label": "Christine Egerszegi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118232"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title includes German and French phrases.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers_in_debate includes Carlo Sommaruga, Silvia Schenker, Pascal Couchepin, Christine Egerszegi-Obrist; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.06.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title includes German and French phrases."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.06.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes Carlo Sommaruga, Silvia Schenker, Pascal Couchepin, Christine Egerszegi-Obrist"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-06-11",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/201 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2007/201#5#14*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5137,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,327 @@
+{
+ "id": "3522176",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3522176",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522176",
+  "reference_code": "E1301#1987/194#2#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "85.365: Interpellation Martin. Bahnlinie Aigle-Sépey-Diablerets / Chemin de fer Aigle-Sépey-Diablerets",
+   "scope_and_content": "Sprecher/Sprecherinnen: Martin, Jacques; Schlumpf, Leon",
+   "date": {
+    "from": "1987-06-02",
+    "to": null,
+    "expressed": "1987.06.02"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383422",
+     "number": "1987/194",
+     "title": "1987/00194 Parlamentsdienste (Bern) (1987)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary interpellation concerning the railway line Aigle-Sépey-Diablerets, recorded during a session of the National Council on 2 June 1987. Speakers Jacques Martin and Leon Schlumpf addressed the issue, and the record is part of the National Council's debate protocols."
+ },
+ "metadata": {
+  "title": "85.365: Interpellation Martin. Bahnlinie Aigle-Sépey-Diablerets / Chemin de fer Aigle-Sépey-Diablerets",
+  "title_normalized": "85.365: Interpellation Martin. Bahnlinie Aigle-Sépey-Diablerets / Chemin de fer Aigle-Sépey-Diablerets",
+  "title_en": "Interpellation Martin: Railway Line Aigle-Sépey-Diablerets",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1987-06-02",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1987-06-02",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "railways",
+   "transportation",
+   "parliamentary proceedings"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1983 bis Herbstsession 1987",
+   "Sommersession 1987",
+   "2. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1987/194#2#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522176",
+  "accession_numbers": [
+   "1987/194"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jacques Martin",
+    "display_name": "Jacques Martin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Leon Schlumpf",
+    "display_name": "Leon Schlumpf",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Aigle",
+    "as_written": "Aigle",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 46.3179006,
+    "lon": 6.9688929,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684831",
+    "model_lat": 46.2,
+    "model_lon": 6.8
+   },
+   {
+    "name": "Sépey",
+    "as_written": "Sépey",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 46.076244,
+    "lon": 7.527129,
+    "gazetteer": "https://www.openstreetmap.org/node/3406332201",
+    "model_lat": 46.2,
+    "model_lon": 6.8
+   },
+   {
+    "name": "Diablerets",
+    "as_written": "Diablerets",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 46.345629,
+    "lon": 7.1550325,
+    "gazetteer": "https://www.openstreetmap.org/node/8895033529",
+    "model_lat": 46.2,
+    "model_lon": 6.8
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Jacques Martin\", \"Leon Schlumpf\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1987.06.02",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1987.06.02"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Jacques Martin\", \"Leon Schlumpf\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/194 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1987/194#2#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4840,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

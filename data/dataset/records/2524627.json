@@ -1,0 +1,282 @@
+{
+ "id": "2524627",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/2524627",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2524627",
+  "reference_code": "E6351B#1000/1040#482*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Register über die von den Zollämtern tarifierten Waren",
+   "reference_number": "021-19",
+   "date": {
+    "from": "1907-01-01",
+    "to": null,
+    "expressed": "1907"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/14599",
+     "number": "1000/1040",
+     "title": "1000/01040 Oberzolldirektion (Bern) (1905-1926)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a register within the customs administration's central files, functioning as a descriptive index for tariffed goods.",
+  "resume": "This is a register listing goods tariffed by Swiss customs offices, documenting customs control activities from 1907 onward. It contains standardized forms and administrative data used by the Oberzolldirektion for tracking imported and exported merchandise. The document serves as an official record of customs operations rather than a narrative account."
+ },
+ "metadata": {
+  "title": "Register über die von den Zollämtern tarifierten Waren",
+  "title_normalized": "Register über die von den Zollämtern tarifierten Waren",
+  "title_en": "Register of goods tariffed by customs offices",
+  "creator": "Oberzolldirektion",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1907-01-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1907",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "customs administration",
+   "tariffs",
+   "trade control",
+   "administrative records"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Oberzolldirektion (1850-2021)",
+  "fonds_reference": "E10432*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Oberzolldirektion (1850-2021)",
+   "Oberzolldirektion: Zentrale Ablage (1906-1922)",
+   "KONTROLLE I.",
+   "Formulare und andere Drucksachen"
+  ],
+  "reference_code": "E6351B#1000/1040#482*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2524627",
+  "accession_numbers": [
+   "1000/1040"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Oberzolldirektion",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q19362476",
+     "label": "building of the Swiss federal administration Monbijoustrasse 40 in Bern",
+     "description": "striking administrative building in the city of Bern, Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q19362476"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Register über die von den Zollämtern tarifierten Waren\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): accessions contains \"Oberzolldirektion (Bern)\" and hierarchy includes \"Oberzolldirektion\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Register über die von den Zollämtern tarifierten Waren\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions contains \"Oberzolldirektion (Bern)\" and hierarchy includes \"Oberzolldirektion\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; the record concerns customs tariff registers and administrative bodies."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1907-01-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The register was created by the Oberzolldirektion to document tariffed goods processed by Swiss customs offices.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1040 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E6351B#1000/1040#482*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4443,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

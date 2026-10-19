@@ -1,0 +1,59 @@
+{
+ "id": 2300,
+ "signature": "BAR B0 1000/1483, Nr. 1424, fol. 290-291",
+ "reference": {
+  "place": "Spreitenbach",
+  "canton_1799": "Baden",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Bernhard Mundtwiller",
+  "teacher_age": 56,
+  "teacher_marital_status": null,
+  "teacher_since": 16,
+  "pupils_winter": 27,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Spreitenbach",
+  "canton_1799": "Canton Baden",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Bernhart Mundtwiller",
+  "teacher_age": 56,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 16,
+  "pupils_winter": 27,
+  "pupils_summer": 0,
+  "author_name": "Schreiber der Antwort",
+  "date_written": "1799-01-01"
+ },
+ "evidence": {
+  "place_as_written": "Jn Spreitenbach",
+  "canton_1799": "im districkt Baaden Canton Baden ist eine Schuhle.",
+  "school_type": "Jn der Schuhle wird Schreiben und rechnen gelehrnet.",
+  "confession": "zu der pfarrgemeind oder dietikon gehörrig under Einem @ Eignen Agenten alldorten.",
+  "teacher_name": "Er nent Sich bernhart Mundtwiller.",
+  "teacher_age": "||[Seite 2] 56. Jahr alt.",
+  "teacher_marital_status": "hat zwey Kinder einen Sohn und ein Mädchen",
+  "teacher_since": "Er ist in daß 16 Jahr Schuhl Meister.",
+  "pupils_winter": "Knaben 13. @@ Mädchen 14. @@ Sie besuchen die Schuhl nur im winter, aber auch nicht alle, die Mädchen @ doch imer Schier alle hier.",
+  "pupils_summer": "ist dermahl kein Schuhl fähiges kind mehr dorten."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "extra",
+  "date_written": "extra"
+ },
+ "seconds": 9.26
+}

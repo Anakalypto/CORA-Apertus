@@ -1,0 +1,320 @@
+{
+ "id": "22329478",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22329478",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22329478",
+  "reference_code": "J2.225#2004/489#121#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Antenne ; Antenne, 09.11.1967",
+   "old_reference_code": "Original Signatur: RJSFDRS 9501845\nSignatur Bundesarchiv: J2.225#2004/489#890*",
+   "scope_and_content": "Inhaltsangabe: CH Lenzburg, AG: Renovation Haus Burghalde\nSequenzbeschrieb: CH Lenzburg, AG: AA Zoom (-) Haus Burghalde und OV Stadt / AA Haus Burghalde (diverse) / Statement Hänny (Stadtschreiber) / Park / Grabstein von Margrita Ringier (Bewohnerin) / Bildnis Johann Jakob Bär (Bauherr) und Gattin in Wohnzimmer / Impressionen Wo",
+   "author": "AutorIn: Kuhn, Peter\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.11.1967",
+   "form": "Video",
+   "format": "Dauer: 00:03:14\nFarbe: Schwarzweissaufnahmen\nStartposition: 10.37.02\nTräger: Betacam-Digital",
+   "thema": "Personen: Hänny;Ringier, Margrita;Bär, Johann Jakob;Oschwald Ringier, Fanny\nSachdeskriptor: Denkmalschutz",
+   "date": {
+    "from": "1967-11-09",
+    "to": null,
+    "expressed": "1967.11.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1160518",
+     "number": "2004/489",
+     "title": "2004/00489 Schweizer Fernsehen DRS (Z�rich) (1962-1974)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a television broadcast created at the time of the events.",
+  "resume": "A television segment from Antenne dated 9 November 1967 covering the renovation of the Haus Burghalde in Lenzburg, featuring statements from local figures and historical images."
+ },
+ "metadata": {
+  "title": "Antenne ; Antenne, 09.11.1967",
+  "title_normalized": "Antenne ; Antenne, 09.11.1967",
+  "title_en": "Antenne - 09.11.1967",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1967-11-09",
+  "date_published": "1967-11-09",
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "1967-11-09",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Renovation",
+   "Heritage conservation",
+   "Lenzburg"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1967",
+   "Regionalmagazine SFDRS 09.11.1967"
+  ],
+  "reference_code": "J2.225#2004/489#121#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22329478",
+  "accession_numbers": [
+   "2004/489"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hänny",
+    "display_name": "Hänny",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ringier, Margrita",
+    "display_name": "Margrita Ringier",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Bär, Johann Jakob",
+    "display_name": "Johann Jakob Bär",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Oschwald Ringier, Fanny",
+    "display_name": "Fanny Oschwald Ringier",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Lenzburg",
+    "as_written": "CH Lenzburg, AG",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3873136,
+    "lon": 8.1821873,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684351",
+    "model_lat": 47.4,
+    "model_lon": 8.4
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Kuhn, Peter\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Hänny;Ringier, Margrita;Bär, Johann Jakob;Oschwald Ringier, Fanny; named organizations or places (apertus): CH Lenzburg, AG",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1967.11.09; free text places (apertus): CH Lenzburg, AG",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Kuhn, Peter\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1967.11.09"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Lenzburg, AG"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hänny;Ringier, Margrita;Bär, Johann Jakob;Oschwald Ringier, Fanny"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Lenzburg, AG"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1967-11-09",
+   "place": "Lenzburg",
+   "lat": 47.3873136,
+   "lon": 8.1821873,
+   "description": "Television segment broadcast on Antenne covering Haus Burghalde renovation.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/489 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2004/489#121#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5321,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,271 @@
+{
+ "id": "930494",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/930494",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/930494",
+  "reference_code": "J2.181#1987/52#2585*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Presseartikel über die Sozialdemokratische Frauenbewegung",
+   "reference_number": "212.00",
+   "date": {
+    "from": "1931-01-01",
+    "to": "1934-12-31",
+    "expressed": "1931-1934"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+     "number": "1987/52",
+     "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit contains retrospective press clippings about the Social Democratic Women's Movement, making it press material rather than an administrative file or finding aid.",
+  "resume": "The record is a press article from 1931–1934 about the Social Democratic Women's Movement in Switzerland. It is part of the archival holdings of the Christian Democratic People's Party of Switzerland deposited at the Swiss Federal Archives. The article discusses the activities and goals of the Social Democratic Women's Movement during that period."
+ },
+ "metadata": {
+  "title": "Presseartikel über die Sozialdemokratische Frauenbewegung",
+  "title_normalized": "Presseartikel über die Sozialdemokratische Frauenbewegung",
+  "title_en": "Press article about the Social Democratic Women's Movement",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1931/1934",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Social Democratic Women's Movement",
+   "Swiss politics",
+   "women's rights",
+   "1930s"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+  "fonds_reference": "J2.181*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "Diverse Parteien (ausser CVP)",
+   "Diverse Parteien in der Schweiz (ausser CVP)",
+   "Sozialistische Parteien",
+   "Allgemeines"
+  ],
+  "reference_code": "J2.181#1987/52#2585*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/930494",
+  "accession_numbers": [
+   "1987/52"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Sozialdemokratische Frauenbewegung",
+    "role": "subject of the article",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Organisation named: 'Christlichdemokratische Volkspartei der Schweiz (Bern)'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in accession title 'Christlichdemokratische Volkspartei der Schweiz (Bern)', not in structured fields.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in accession title 'Christlichdemokratische Volkspartei der Schweiz (Bern)', not in structured fields."
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Organisation named: 'Christlichdemokratische Volkspartei der Schweiz (Bern)'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; the record concerns a political party and its activities."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/52 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.181#1987/52#2585*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4435,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

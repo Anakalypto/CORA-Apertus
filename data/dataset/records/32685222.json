@@ -1,0 +1,296 @@
+{
+ "id": "32685222",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32685222",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32685222",
+  "reference_code": "E3120C#2014/269#2085*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Findmittel J2.248 Radio e Televisiun Rumantscha (1992-)",
+   "reference_number": "516.9",
+   "scope_and_content": "enthält folgende Ablieferung: 1999/173",
+   "date": {
+    "from": "2005-01-01",
+    "to": null,
+    "expressed": "2005"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30291142",
+     "number": "2014/269",
+     "title": "2014/00269 Schweizerisches Bundesarchiv (Bern) (1894-2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a finding aid describing archival material of the Radio e Televisiun Rumantscha.",
+  "resume": "This is a finding aid (inventory) for archival material from Radio e Televisiun Rumantscha (RTR) covering the period 1992 onwards. It specifically describes one delivery accessioned in 1999. The document itself is an administrative record created by the Swiss Federal Archives to describe and manage archival holdings."
+ },
+ "metadata": {
+  "title": "Findmittel J2.248 Radio e Televisiun Rumantscha (1992-)",
+  "title_normalized": "Findmittel J2.248 Radio e Televisiun Rumantscha (1992-)",
+  "title_en": "Inventory J2.248 Radio e Televisiun Rumantscha (1992-)",
+  "creator": "Schweizerisches Bundesarchiv",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2005",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "2005",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Radio e Televisiun Rumantscha",
+   "archival description",
+   "finding aids"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerisches Bundesarchiv (1979-)",
+  "fonds_reference": "E10796*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerisches Bundesarchiv (1979-)",
+   "Schweizerisches Bundesarchiv: Zentrale Ablage (1996-2007)",
+   "Bewertung, Erschliessung",
+   "Erschliessung",
+   "Detailfindmittel",
+   "Ausgeschiedene Find- und Findhilfsmittel"
+  ],
+  "reference_code": "E3120C#2014/269#2085*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32685222",
+  "accession_numbers": [
+   "2014/269"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Radio e Televisiun Rumantscha",
+    "role": "subject of the archival material described",
+    "wikidata": {
+     "qid": "Q688243",
+     "label": "Radiotelevisiun Svizra Rumantscha",
+     "description": "Romansh-language public broadcaster in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q688243"
+    }
+   },
+   {
+    "name": "Schweizerisches Bundesarchiv",
+    "role": "creator of the finding aid",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Findmittel J2.248 Radio e Televisiun Rumantscha (1992-)\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains \"Radio e Televisiun Rumantscha\" (Italian/Romansh)",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): title: \"Radio e Televisiun Rumantscha\" is an organization",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Findmittel J2.248 Radio e Televisiun Rumantscha (1992-)\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Radio e Televisiun Rumantscha\" (Italian/Romansh)"
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Radio e Televisiun Rumantscha\" is an organization"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": 2005,
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Finding aid created by the Swiss Federal Archives to describe RTR archival material",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/269 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3120C#2014/269#2085*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4698,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

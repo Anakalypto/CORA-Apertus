@@ -2,8 +2,10 @@
 
 Source: opendata.swiss "The Stapfer-Enquête: schooling in Switzerland 1799" (Swiss Federal Archives,
 open use), SQL dump stapferappdb_final.sql.zip. Apertus reads ONLY the transcribed answers of a
-response sheet and extracts the fields the Bern team coded by hand; we compare field by field.
+response sheet and extracts the fields the Bern team coded by hand; we compare field by field, across
+historical spellings ("Tachsen" = Dachsen). Cases and results are stored one file per response sheet.
 """
+import difflib
 import json
 import random
 import re
@@ -11,6 +13,8 @@ import unicodedata
 import urllib.request
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
+
+from . import store
 
 DUMP_URL = "https://sfa-laboratory.ch/Hackathon/Stapfer/stapferappdb_final.sql.zip"
 _ESC = {"n": "\n", "r": "\r", "t": "\t", "0": "\0"}
@@ -158,8 +162,39 @@ def _fold(v) -> str:
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
-def compare(ref, got) -> str:
-    """match | mismatch | missed (Bern has it, Apertus null) | extra (only Apertus) | both_empty."""
+# 1799 spelling vs today's: "Tachsen" = Dachsen, "Riggispärg" = Riggisberg, "Oberweil" = Oberwil, "Bubenreüthi" = Bubenrüti.
+_HIST = [(r"ß", "ss"), (r"[äæ]|ae", "e"), (r"[öœ]|oe", "e"), (r"e[uü]|äu", "ü"), (r"ue", "ü"), (r"y", "i")]
+_HIST_ASCII = [(r"(?<=[a-z])h(?![aeiou])|(?<=[aeiou])h", ""), (r"th", "t"), (r"rh", "r"), (r"ph", "f"), (r"dt", "t"), (r"ck", "k"),
+               (r"tz", "z"), (r"c(?=[aou])", "k"), (r"qu", "kw"), (r"v", "f"), (r"ei|ai", "i"), (r"p", "b"), (r"t", "d"),
+               (r"k", "g"), (r"(.)\1+", r"\1")]
+
+
+def historical_key(v) -> str:
+    """Spelling-independent key: umlauts, ß, th/rh/ph/ck/dt, ei/ai/y, eu/ue, voiced/voiceless consonants
+    (p/b, t/d, k/g), silent h and doubled letters folded; spaces, hyphens and dots removed."""
+    s = str(v).lower()
+    for a, b in _HIST:
+        s = re.sub(a, b, s)
+    s = re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode())
+    for a, b in _HIST_ASCII:
+        s = re.sub(a, b, s)
+    return s
+
+
+def _tokens_match(ref: str, got: str, key) -> bool:
+    """Names of 2+ words: at least half of the reference's words appear in the extraction; "J." or "Joh."
+    stands for Johann. (A one-word place must match as a whole: "Wil" is not "Weil am Rhein".)"""
+    ta, tb = [key(t) for t in _fold(ref).split()], [key(t) for t in _fold(got).split()]
+    ta, tb = [t for t in ta if t], [t for t in tb if t]
+    if len(ta) < 2:
+        return False
+    hit = sum(1 for a in ta if any(a == b or (len(b) <= 3 and a.startswith(b)) for b in tb))
+    return bool(ta) and hit / len(ta) >= 0.5
+
+
+def compare(ref, got, historical: bool = True) -> str:
+    """match | mismatch | missed (Bern has it, Apertus null) | extra (only Apertus) | both_empty.
+    Text fields match across historical spellings unless historical=False (exact spelling)."""
     empty = lambda v: v in (None, "", 0) or (isinstance(v, str) and v.strip().lower() in ("null", "none", "keine angabe"))
     if empty(ref) and empty(got):
         return "both_empty"
@@ -175,23 +210,73 @@ def compare(ref, got) -> str:
     a, b = _fold(ref), _fold(got)
     if a == b or (a and a in b) or (b and b in a):
         return "match"
-    ta, tb = set(a.split()), set(b.split())
-    return "match" if ta and len(ta & tb) / len(ta) >= 0.5 else "mismatch"
+    ka, kb = historical_key(ref), historical_key(got)
+    if not historical or not ka or not kb:  # exact spelling, or no letters to compare (dates, codes)
+        ta, tb = set(a.split()), set(b.split())
+        return "match" if ta and len(ta & tb) / len(ta) >= 0.5 else "mismatch"
+    if ka and (ka == kb or min(len(ka), len(kb)) >= 5 and (ka in kb or kb in ka)):  # "Wil" is not "Weil am Rhein"
+        return "match"
+    if min(len(ka), len(kb)) >= 6 and difflib.SequenceMatcher(None, ka, kb).ratio() >= 0.8:  # one letter dropped or added
+        return "match"
+    return "match" if _tokens_match(ref, got, historical_key) else "mismatch"
+
+
+def load_cases(out_dir) -> list[dict]:
+    """The 1,562 single-school response sheets, one file per sheet in stapfer/cases/ (built from the dump once)."""
+    cases = store.Entries(out_dir / "cases.json")
+    if not cases.ids():
+        zpath = out_dir / "stapferappdb_final.sql.zip"
+        if not zpath.exists():
+            urllib.request.urlretrieve(DUMP_URL, zpath)
+        z = zipfile.ZipFile(zpath)
+        cases.write_all(build_cases(load_dump(z.read(z.namelist()[0]).decode("utf-8", "replace"))))
+    return cases.all()
+
+
+def summarize(rows: list[dict], **meta) -> dict:
+    summary = meta | {"errors": sum(1 for r in rows if "error" in r), "fields": {}}
+    for f in FIELDS:
+        rs = [r["result"][f] for r in rows if "result" in r]
+        cnt = {k: rs.count(k) for k in ("match", "mismatch", "missed", "extra", "both_empty")}
+        scored = cnt["match"] + cnt["mismatch"] + cnt["missed"]
+        cnt["accuracy_where_bern_has_value"] = round(cnt["match"] / scored, 3) if scored else None
+        exact = sum(compare(r["reference"].get(f), r["apertus"].get(f), historical=False) == "match" for r in rows if "result" in r)
+        cnt["accuracy_exact_spelling"] = round(exact / scored, 3) if scored else None
+        summary["fields"][f] = cnt
+    return summary
+
+
+def save_comparison(out_dir, name: str, summary: dict, rows: list[dict]) -> None:
+    """Results: one file per response sheet in stapfer/<name>/, the summary in stapfer/<name>_summary.json."""
+    store.write_entries(out_dir / f"{name}.json", [r for r in rows if "id" in r])
+    (out_dir / f"{name}_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def load_comparison(out_dir, name: str) -> tuple[dict, list[dict]]:
+    path = out_dir / f"{name}.json"
+    if path.exists():  # not split yet: the old single file {"summary", "rows"}
+        old = json.loads(path.read_text(encoding="utf-8"))
+        save_comparison(out_dir, name, old["summary"], old["rows"])
+    return json.loads((out_dir / f"{name}_summary.json").read_text(encoding="utf-8")), store.read_entries(path)
+
+
+def rescore(cfg, name: str = "comparison") -> dict:
+    """Score stored extractions again (no model call), e.g. after a change to compare()."""
+    out_dir = cfg["paths"]["data_dir"] / "stapfer"
+    old, rows = load_comparison(out_dir, name)
+    for r in rows:
+        if "result" in r:
+            r["result"] = {f: compare(r["reference"].get(f), r["apertus"].get(f)) for f in FIELDS}
+    summary = summarize(rows, **{k: v for k, v in old.items() if k not in ("errors", "fields")})
+    save_comparison(out_dir, name, summary, rows)
+    return summary
 
 
 def run(cfg, n: int = 40, seed: int = 42) -> None:
     from .apertus import Apertus
     out_dir = cfg["paths"]["data_dir"] / "stapfer"
     out_dir.mkdir(exist_ok=True)
-    cases_path = out_dir / "cases.json"
-    if not cases_path.exists():
-        zpath = out_dir / "stapferappdb_final.sql.zip"
-        if not zpath.exists():
-            urllib.request.urlretrieve(DUMP_URL, zpath)
-        z = zipfile.ZipFile(zpath)
-        cases = build_cases(load_dump(z.read(z.namelist()[0]).decode("utf-8", "replace")))
-        cases_path.write_text(json.dumps(cases, ensure_ascii=False), encoding="utf-8")
-    cases = json.loads(cases_path.read_text(encoding="utf-8"))
+    cases = load_cases(out_dir)
     sample = random.Random(seed).sample(sorted(cases, key=lambda c: c["id"]), n)
     l = cfg["llm"]
     ap = Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 1500, l["retries"])
@@ -202,20 +287,13 @@ def run(cfg, n: int = 40, seed: int = 42) -> None:
         except Exception as e:
             return {"id": c["id"], "error": repr(e)}
         return {"id": c["id"], "signature": c["signature"], "reference": c["reference"],
-                "apertus": {f: got.get(f) for f in FIELDS}, "evidence": got.get("evidence"),
+                "apertus": {f: got.get(f) for f in FIELDS} | {"place_as_written": got.get("place_as_written")},
+                "evidence": got.get("evidence"),
                 "result": {f: compare(c["reference"].get(f), got.get(f)) for f in FIELDS},
                 "seconds": meta["seconds"]}
 
     with ThreadPoolExecutor(l["workers"]) as pool:
         rows = list(pool.map(one, sample))
-    summary = {"cases_available": len(cases), "sampled": n, "seed": seed, "model": l["model"],
-               "errors": sum(1 for r in rows if "error" in r), "fields": {}}
-    for f in FIELDS:
-        rs = [r["result"][f] for r in rows if "result" in r]
-        cnt = {k: rs.count(k) for k in ("match", "mismatch", "missed", "extra", "both_empty")}
-        scored = cnt["match"] + cnt["mismatch"] + cnt["missed"]
-        cnt["accuracy_where_bern_has_value"] = round(cnt["match"] / scored, 3) if scored else None
-        summary["fields"][f] = cnt
-    (out_dir / "comparison.json").write_text(json.dumps({"summary": summary, "rows": rows}, ensure_ascii=False, indent=1),
-                                             encoding="utf-8")
+    summary = summarize(rows, cases_available=len(cases), sampled=n, seed=seed, model=l["model"])
+    save_comparison(out_dir, "comparison", summary, rows)
     print(json.dumps(summary, ensure_ascii=False, indent=1))

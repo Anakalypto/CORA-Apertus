@@ -1,0 +1,58 @@
+{
+ "id": 504,
+ "signature": "BAR B0 1000/1483, Nr. 1458, fol. 89-90v",
+ "reference": {
+  "place": "Bubenrüti",
+  "canton_1799": "Säntis",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Konrad Altherr",
+  "teacher_age": 30,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 2,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Konrad Altherr",
+  "date_written": "1799-02-24"
+ },
+ "apertus": {
+  "place": "Bubenreüthi",
+  "canton_1799": "Säntis",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Konrad Altherr",
+  "teacher_age": 30,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 2.5,
+  "pupils_winter": 20,
+  "pupils_summer": 35,
+  "author_name": "Konrad Altherr",
+  "date_written": "1799-02-24"
+ },
+ "evidence": {
+  "place": "Der Namme des Fleken dieser Schule heist, Bubenreüthi.",
+  "canton_1799": "im Kanton Sentis.",
+  "school_type": "Jn dieser Schule wird gelehrt. Buchstabieren. Lesen. Schreiben.",
+  "teacher_name": "Mein Namme ist. Konrad Altherr.",
+  "teacher_age": "von Teüffen, alt 30. Jahr.",
+  "teacher_marital_status": "verheürathet",
+  "teacher_since": "ich bin 2 1/2 Jahr Schullehrer.",
+  "pupils_winter": "diese Schul besuchen 20.-35. Kinder",
+  "pupils_summer": "diese Schul besuchen 20.-35. Kinder"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 10.37
+}

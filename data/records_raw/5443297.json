@@ -1,0 +1,79 @@
+{
+ "id": "5443297",
+ "uri": "https://culture.ld.admin.ch/ais/5443297",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5443297",
+ "title": "Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+ "reference_code": "E2003A#1988/15#197*",
+ "reference_number": "o.121.322.01",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1973-01-01",
+  "to": "1975-12-31",
+  "expressed": "1973-1975"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7678",
+   "number": "1988/15",
+   "title": "1988/00015 Bundesverwaltung (Bern) (1950-1976)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3764544",
+   "title": "CE Conseil de l'Europe",
+   "level": "Serie",
+   "reference_code": "E2003A#o.121"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3764543",
+   "title": "Organisations européennes et regionales",
+   "level": "Serie",
+   "reference_code": "E2003A#o.12"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3764527",
+   "title": "Organisations internationales",
+   "level": "Serie",
+   "reference_code": "E2003A#o.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4343",
+   "title": "Abteilung für internationale Organisationen: Zentrale Ablage (1955-1972)",
+   "level": "Sub-file",
+   "reference_code": "E2003A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4342",
+   "title": "Abteilung für internationale Organisationen (1950-1972)",
+   "level": "Stock",
+   "reference_code": "E10010*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

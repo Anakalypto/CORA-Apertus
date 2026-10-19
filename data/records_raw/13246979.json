@@ -1,0 +1,67 @@
+{
+ "id": "13246979",
+ "uri": "https://culture.ld.admin.ch/ais/13246979",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/13246979",
+ "title": "Aktenverzeichnis",
+ "reference_code": "E2200.86-01#1000/701#31*",
+ "reference_number": "1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1876-01-01",
+  "to": "1879-12-31",
+  "expressed": "1876-1879"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11656",
+   "number": "1000/701",
+   "title": "1000/00701 Bundesverwaltung (Bern) (1815-1919)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/13246924",
+   "title": "Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E2200.86-01#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8939103",
+   "title": "Schweizerische Vertretung, Sankt Petersburg: Zentrale Ablage (1817-1918)",
+   "level": "Sub-file",
+   "reference_code": "E2200.86-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8939070",
+   "title": "Schweizerische Vertretung, Sankt Petersburg (1817-1918)",
+   "level": "Stock",
+   "reference_code": "E11086*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

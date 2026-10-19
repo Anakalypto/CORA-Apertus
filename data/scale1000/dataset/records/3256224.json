@@ -1,0 +1,294 @@
+{
+ "id": "3256224",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3256224",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3256224",
+  "reference_code": "E5221#1996/255#6#171*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Kesselhaus",
+   "reference_number": "09.8",
+   "scope_and_content": "Abzug; Negativ: 8-1, Nr. 24, 25, 26",
+   "form": "Fotografie",
+   "date": {
+    "from": "1895-01-01",
+    "to": "1896-12-31",
+    "expressed": "1895-1896"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/13586",
+     "number": "1996/255",
+     "title": "1996/00255 Bundesverwaltung (Bern) (s.d. (sine dato))"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct photographic negative from the administrative files of the Federal Powder Factory, documenting physical structures.",
+  "resume": "The document is a photograph from the Eidgenössische Pulverfabrik, Wimmis, showing structures labeled Kesselhaus, with negative numbers 8-1, 24, 25, 26. The image is part of the Kriegspulverfabrik Worblaufen series within the administrative records of the Federal Powder Factory. The photograph depicts industrial facilities without indicating any specific event or speech."
+ },
+ "metadata": {
+  "title": "Kesselhaus",
+  "title_normalized": "Kesselhaus",
+  "title_en": "Kesselhaus",
+  "creator": "Eidgenössische Pulverfabrik, Wimmis",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1895/1896",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1895/1896",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "powder factory",
+   "industrial buildings",
+   "Worblaufen"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössische Pulverfabrik, Wimmis (1917-1995)",
+  "fonds_reference": "E10205*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössische Pulverfabrik, Wimmis (1917-1995)",
+   "Eidgenössische Pulverfabrik, Wimmis: Kaufmännisch-administrative Abteilung (1917-1995)",
+   "Bauten, Anlagen, Liegenschaften",
+   "Fabrikationsanlagen Kriegspulverfabrik Worblaufen",
+   "Fabrikationsanlagen Kriegspulverfabrik Worblaufen"
+  ],
+  "reference_code": "E5221#1996/255#6#171*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3256224",
+  "accession_numbers": [
+   "1996/255"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössische Pulverfabrik, Wimmis",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Worblaufen",
+    "as_written": "Kriegspulverfabrik Worblaufen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9792613,
+    "lon": 7.4578175,
+    "gazetteer": "https://www.openstreetmap.org/node/3081154456",
+    "model_lat": 47.0,
+    "model_lon": 7.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1895-1896",
+   "place": "Worblaufen",
+   "lat": 46.9792613,
+   "lon": 7.4578175,
+   "description": "Photograph of industrial structures at the Federal Powder Factory.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/255 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5221#1996/255#6#171*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4649,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

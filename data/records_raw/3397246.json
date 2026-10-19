@@ -1,0 +1,73 @@
+{
+ "id": "3397246",
+ "uri": "https://culture.ld.admin.ch/ais/3397246",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3397246",
+ "title": "Presseausschnitte betr. \"Korporationen-Idee",
+ "reference_code": "J1.178#1000/1304#59*",
+ "reference_number": "2.3.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1933-01-01",
+  "to": null,
+  "expressed": "1933"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16561",
+   "number": "1000/1304",
+   "title": "1000/01304 Sonderegger, R. (Wabern) (1888-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3806388",
+   "title": "Erneuerungsbewegungen",
+   "level": "Serie",
+   "reference_code": "J1.178#2.3.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3806387",
+   "title": "Politik",
+   "level": "Serie",
+   "reference_code": "J1.178#2.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3806378",
+   "title": "Sachsytematischer Teil",
+   "level": "Serie",
+   "reference_code": "J1.178#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3974",
+   "title": "Sonderegger Emil (1868-1934)",
+   "level": "Stock",
+   "reference_code": "J1.178*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

@@ -1,0 +1,308 @@
+{
+ "id": "25724628",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/25724628",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/25724628",
+  "reference_code": "E1401#2010/213#13#19*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2009.9001: Mitteilungen des Präsidenten / Communications du président",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Berset, Alain;",
+   "form": "Digital",
+   "date": {
+    "from": "2009-06-12",
+    "to": null,
+    "expressed": "2009.06.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/6742631",
+     "number": "2010/213",
+     "title": "2010/00213 Parlamentsdienste: Amtliches Bulletin (Bern) (2009)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a parliamentary session, created at the time of the events by the Council of States.",
+  "resume": "This is a digital parliamentary record from the Swiss Federal Archives documenting communications by the President of the Council of States during the summer session of 2009, featuring a speech by Alain Berset."
+ },
+ "metadata": {
+  "title": "2009.9001: Mitteilungen des Präsidenten / Communications du président",
+  "title_normalized": "2009.9001: Mitteilungen des Präsidenten / Communications du président",
+  "title_en": "Communications of the President / Communications du président",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2009-06-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2010",
+  "content_date": "2009-06-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Council of States",
+   "Parliamentary communications"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Frühjahrssession 2009 bis Herbstsession 2011",
+   "Sommersession 2009",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2010/213#13#19*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/25724628",
+  "accession_numbers": [
+   "2010/213"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Alain Berset",
+    "display_name": "Alain Berset",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Alain Berset\" ]; named organizations or places (apertus): hierarchy_top_down: ... Ständerat (1848-)...",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2009.06.12",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2009.06.12"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Alain Berset\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: ... Ständerat (1848-)..."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2009-06-12",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Parliamentary session recording created during the summer session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2010",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2010/213 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2010/213#13#19*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4665,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

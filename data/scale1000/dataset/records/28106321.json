@@ -1,0 +1,294 @@
+{
+ "id": "28106321",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28106321",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106321",
+  "reference_code": "J2.225#2006/365#136#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Appenzeller Alpabfahrt",
+   "old_reference_code": "Original Signatur: 9502007\nSignatur Bundesarchiv: J2.225#2006/365#3*",
+   "scope_and_content": "Inhaltsangabe: CH o.O.: Alpabfahrt im Appenzellerland\nSequenzbeschrieb: CH o.O.: Sennen Alpgeräte aus Hütte tragend und auf Schlitten befestigend / Sennen in Tracht Traggestell mit Käsekessi aufladend und Holzschlitten ziehend / Sennen Schweine Hang hinunter treibend / Sennen Senntums-Glocken schwenkend und jodelnd (¿) / Sennen mit Glocken absteigend, Bauern Kühe treibend / Kinder Ziegen treibend / Leitkühen werden an Sammelplatz Glocken umgebunden / Kühe und Sennen bei Alpabzug / Pferdefuhrwerke mit Alp-Gerätschaften / Sennen und Vieh auf Strasse und durch Dorf ziehend",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "format": "Bemerkungen: Beitrag vermutlich nicht gesendet\nDauer: 00:08:33\nOriginalformat: V-U;16 mm;sepmag\nPosition Anfang: 01.15.51",
+   "thema": "Sachdeskriptor: Berglandwirtschaft;Brauchtum",
+   "date": {
+    "from": "1959-01-01",
+    "to": "1970-12-31",
+    "expressed": "1959-1970"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376890",
+     "number": "2006/365",
+     "title": "2006/00365 Schweizer Fernsehen DRS (Z�rich) (1959-1971)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production by DRS for broadcast, capturing live footage of traditional Alpine descent practices.",
+  "resume": "The document is a television segment titled 'Appenzeller Alpabfahrt' showing traditional Alpine descent practices in Appenzell, including herders with equipment, livestock, and village scenes. It was produced by DRS as part of the agricultural round-up series covering mountain farming customs."
+ },
+ "metadata": {
+  "title": "Appenzeller Alpabfahrt",
+  "title_normalized": "Appenzeller Alpabfahrt",
+  "title_en": "Appenzeller Alpabfahrt",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1959/1970",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Berglandwirtschaft",
+   "Brauchtum"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Landwirtschaftliche Rundschau (LRS) 1959-1970",
+   "Landwirtschaftliche Rundschau (LRS) s.d.",
+   "Landwirtschaftliche Rundschau (LRS) s.d."
+  ],
+  "reference_code": "J2.225#2006/365#136#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106321",
+  "accession_numbers": [
+   "2006/365"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Appenzell",
+    "as_written": "Appenzellerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3299506,
+    "lon": 9.4099311,
+    "gazetteer": "https://www.openstreetmap.org/node/240102374",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2006/365#3*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Bemerkungen: Beitrag vermutlich nicht gesendet\nDau",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Appenzellerland",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2006/365#3*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Bemerkungen: Beitrag vermutlich nicht gesendet\nDau"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Appenzellerland"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Appenzell",
+   "lat": 47.3299506,
+   "lon": 9.4099311,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/365 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/365#136#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5125,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,530 @@
+{
+ "about": "Curated key events of Swiss history for the year context drawer. Each event lists the title words used to find Federal Archives units that reference it (lower-case stems, German/French). Edited by hand; Apertus does not choose the events.",
+ "events": [
+  {
+   "id": "bundesbrief",
+   "year": 1291,
+   "title": "Federal Charter of 1291",
+   "summary": "Uri, Schwyz and Unterwalden renew an alliance of mutual assistance; the charter was later treated as the founding document of the Confederation.",
+   "terms": [
+    "bundesbrief"
+   ]
+  },
+  {
+   "id": "morgarten",
+   "year": 1315,
+   "title": "Battle of Morgarten",
+   "summary": "Schwyz forces defeat a Habsburg army near Lake Ägeri.",
+   "terms": [
+    "morgarten"
+   ]
+  },
+  {
+   "id": "sempach",
+   "year": 1386,
+   "title": "Battle of Sempach",
+   "summary": "The Confederates defeat Duke Leopold III of Austria, who dies in the battle.",
+   "terms": [
+    "sempach"
+   ]
+  },
+  {
+   "id": "burgundian-wars",
+   "year": 1476,
+   "end": 1477,
+   "title": "Burgundian Wars: Grandson and Murten",
+   "summary": "The Confederates defeat Charles the Bold of Burgundy at Grandson and Murten (1476) and at Nancy (1477).",
+   "terms": [
+    "murten",
+    "grandson",
+    "burgunderkrieg"
+   ],
+   "hls_q": "Burgunderkriege"
+  },
+  {
+   "id": "swabian-war",
+   "year": 1499,
+   "title": "Swabian War",
+   "summary": "War against the Swabian League and Emperor Maximilian I; the Peace of Basel ends it.",
+   "terms": [
+    "schwabenkrieg"
+   ]
+  },
+  {
+   "id": "marignano",
+   "year": 1515,
+   "title": "Battle of Marignano",
+   "summary": "Defeat by France near Milan; the Confederates withdraw from great-power politics in Italy.",
+   "terms": [
+    "marignano"
+   ]
+  },
+  {
+   "id": "reformation",
+   "year": 1523,
+   "end": 1531,
+   "title": "Reformation in Zurich",
+   "summary": "After the disputations of 1523 Zurich adopts Zwingli's Reformation; Bern, Basel and other places follow, and the Confederation splits by confession.",
+   "terms": [
+    "reformation",
+    "zwingli"
+   ],
+   "hls_q": "Reformation"
+  },
+  {
+   "id": "kappel",
+   "year": 1531,
+   "title": "Second War of Kappel",
+   "summary": "The Catholic cantons defeat Zurich; Zwingli is killed. The peace fixes the confessional balance for generations.",
+   "terms": [
+    "kappel"
+   ]
+  },
+  {
+   "id": "westphalia",
+   "year": 1648,
+   "title": "Peace of Westphalia",
+   "summary": "The Confederation's exemption from the Holy Roman Empire is formally recognised.",
+   "terms": [
+    "westfäl"
+   ],
+   "hls_q": "Westfälischer Friede"
+  },
+  {
+   "id": "peasants-war",
+   "year": 1653,
+   "title": "Swiss Peasants' War",
+   "summary": "Peasants of Lucerne, Bern, Solothurn and Basel rise against the city authorities and are defeated.",
+   "terms": [
+    "bauernkrieg"
+   ]
+  },
+  {
+   "id": "villmergen",
+   "year": 1712,
+   "title": "Toggenburg War (Second War of Villmergen)",
+   "summary": "Zurich and Bern defeat the Catholic cantons; the Reformed side becomes dominant.",
+   "terms": [
+    "villmergen",
+    "toggenburgerkrieg"
+   ]
+  },
+  {
+   "id": "helvetic-republic",
+   "year": 1798,
+   "end": 1803,
+   "title": "French invasion and Helvetic Republic",
+   "summary": "France invades; the Old Confederation collapses and a centralised Helvetic Republic is proclaimed.",
+   "terms": [
+    "helvetik",
+    "helvetische republik",
+    "république helvétique"
+   ],
+   "hls_q": "Helvetische Republik"
+  },
+  {
+   "id": "stapfer",
+   "year": 1799,
+   "title": "Stapfer-Enquête school survey",
+   "summary": "Minister Philipp Albert Stapfer has every school in the Helvetic Republic describe its teacher, pupils and lessons: the first national school survey.",
+   "terms": [
+    "stapfer"
+   ],
+   "hls_q": "Stapfer-Enquete"
+  },
+  {
+   "id": "suvorov",
+   "year": 1799,
+   "title": "War of the Second Coalition in Switzerland; Suvorov crosses the Alps",
+   "summary": "French, Austrian and Russian armies fight on Swiss soil (battles of Zurich); Suvorov's army crosses the Gotthard and the Panix pass.",
+   "terms": [
+    "suworow",
+    "suvorov",
+    "koalitionskrieg"
+   ],
+   "hls_q": "Suworow"
+  },
+  {
+   "id": "mediation",
+   "year": 1803,
+   "end": 1813,
+   "title": "Act of Mediation",
+   "summary": "Napoleon imposes a federal constitution with 19 cantons, among them the new cantons of Aargau, St. Gallen, Graubünden, Thurgau, Ticino and Vaud.",
+   "terms": [
+    "mediation"
+   ]
+  },
+  {
+   "id": "vienna",
+   "year": 1815,
+   "title": "Congress of Vienna and Federal Treaty",
+   "summary": "The powers recognise Switzerland's perpetual neutrality; Valais, Neuchâtel and Geneva join; the Federal Treaty binds 22 cantons.",
+   "terms": [
+    "wiener kongress",
+    "bundesvertrag",
+    "neutralität"
+   ],
+   "hls_q": "Wiener Kongress"
+  },
+  {
+   "id": "famine-1816",
+   "year": 1816,
+   "end": 1817,
+   "title": "Year without a summer and famine",
+   "summary": "After the Tambora eruption, cold and rain ruin harvests; famine and emigration follow, especially in eastern Switzerland.",
+   "terms": [
+    "hungersnot",
+    "teuerung"
+   ],
+   "hls_q": "Hungersnot"
+  },
+  {
+   "id": "regeneration",
+   "year": 1830,
+   "end": 1847,
+   "title": "Regeneration",
+   "summary": "Liberal movements give many cantons new constitutions with popular sovereignty and freedom of the press.",
+   "terms": [
+    "regeneration"
+   ]
+  },
+  {
+   "id": "sonderbund",
+   "year": 1845,
+   "end": 1847,
+   "title": "Sonderbund and Sonderbund War",
+   "summary": "Seven Catholic cantons form a separate alliance (1845); the federal army under General Dufour defeats it in November 1847 in a short civil war.",
+   "terms": [
+    "sonderbund",
+    "sonderbundskrieg"
+   ]
+  },
+  {
+   "id": "constitution-1848",
+   "year": 1848,
+   "title": "Federal Constitution: the federal state",
+   "summary": "The Confederation becomes a federal state with a parliament of two chambers, the Federal Council and Bern as federal city.",
+   "terms": [
+    "bundesverfassung",
+    "constitution fédérale"
+   ],
+   "hls_q": "Bundesverfassung"
+  },
+  {
+   "id": "franc",
+   "year": 1850,
+   "title": "The Swiss franc",
+   "summary": "The federal coinage act replaces the cantonal currencies with the franc.",
+   "terms": [
+    "münzgesetz",
+    "münzreform"
+   ],
+   "hls_q": "Franken"
+  },
+  {
+   "id": "polytechnikum",
+   "year": 1855,
+   "title": "Federal Polytechnic School opens in Zurich",
+   "summary": "The future ETH Zurich starts teaching.",
+   "terms": [
+    "polytechnikum",
+    "polytechnische schule"
+   ],
+   "hls_q": "ETH Zürich"
+  },
+  {
+   "id": "neuchatel-crisis",
+   "year": 1856,
+   "end": 1857,
+   "title": "Neuchâtel crisis",
+   "summary": "A royalist uprising and the claims of the King of Prussia lead to a mobilisation; Prussia renounces Neuchâtel in 1857.",
+   "terms": [
+    "neuenburgerhandel",
+    "neuenburger handel"
+   ],
+   "hls_q": "Neuenburgerhandel"
+  },
+  {
+   "id": "red-cross",
+   "year": 1863,
+   "end": 1864,
+   "title": "Red Cross and the first Geneva Convention",
+   "summary": "Henry Dunant and others found the committee that becomes the ICRC (1863); the first Geneva Convention is signed (1864).",
+   "terms": [
+    "rotes kreuz",
+    "croix-rouge",
+    "genfer konvention"
+   ],
+   "hls_q": "Rotes Kreuz"
+  },
+  {
+   "id": "constitution-1874",
+   "year": 1874,
+   "title": "Revised Federal Constitution",
+   "summary": "The total revision strengthens the Confederation and introduces the optional referendum.",
+   "terms": [
+    "bundesverfassung",
+    "verfassungsrevision"
+   ],
+   "hls_q": "Bundesverfassung"
+  },
+  {
+   "id": "gotthard-railway",
+   "year": 1882,
+   "title": "Gotthard railway opens",
+   "summary": "The Gotthard tunnel (bored 1872–1880) links northern Switzerland and Ticino by rail.",
+   "terms": [
+    "gotthardbahn",
+    "gotthard"
+   ]
+  },
+  {
+   "id": "1891",
+   "year": 1891,
+   "title": "Popular initiative and the first national day",
+   "summary": "The popular initiative for partial revisions of the constitution is introduced; the 600th anniversary of the Confederation is celebrated on 1 August for the first time.",
+   "terms": [
+    "bundesfeier",
+    "volksinitiative"
+   ],
+   "hls_q": "Bundesfeier"
+  },
+  {
+   "id": "sbb",
+   "year": 1902,
+   "title": "Swiss Federal Railways (SBB) start operating",
+   "summary": "After the 1898 nationalisation vote, the main private railways are taken over by the Confederation.",
+   "terms": [
+    "bundesbahnen",
+    "verstaatlichung"
+   ],
+   "hls_q": "SBB"
+  },
+  {
+   "id": "simplon",
+   "year": 1906,
+   "title": "Simplon tunnel opens",
+   "summary": "The rail tunnel between Brig and Domodossola opens.",
+   "terms": [
+    "simplon"
+   ]
+  },
+  {
+   "id": "ww1",
+   "year": 1914,
+   "end": 1918,
+   "title": "First World War: active service",
+   "summary": "The army guards the borders under General Wille; food and fuel become scarce and social tensions grow.",
+   "terms": [
+    "grenzbesetzung",
+    "aktivdienst",
+    "mobilmachung"
+   ],
+   "hls_q": "Erster Weltkrieg"
+  },
+  {
+   "id": "general-strike",
+   "year": 1918,
+   "title": "General strike and Spanish flu",
+   "summary": "The national general strike of 12–14 November is ended by the army; the influenza pandemic kills about 25,000 people in Switzerland (1918–1919).",
+   "terms": [
+    "landesstreik",
+    "generalstreik",
+    "grippe"
+   ],
+   "hls_q": "Landesstreik"
+  },
+  {
+   "id": "proporz",
+   "year": 1919,
+   "title": "First National Council election by proportional representation",
+   "summary": "Proportional representation, accepted in 1918, ends the absolute majority of the Free Democrats.",
+   "terms": [
+    "proporz",
+    "proportionalwahl"
+   ],
+   "hls_q": "Proporz"
+  },
+  {
+   "id": "league-of-nations",
+   "year": 1920,
+   "title": "Switzerland joins the League of Nations",
+   "summary": "Voters accept membership; Geneva becomes the League's seat.",
+   "terms": [
+    "völkerbund",
+    "société des nations"
+   ],
+   "hls_q": "Völkerbund"
+  },
+  {
+   "id": "landi",
+   "year": 1939,
+   "title": "National Exhibition in Zurich (Landi)",
+   "summary": "The national exhibition becomes a symbol of 'spiritual national defence' on the eve of the war.",
+   "terms": [
+    "landesausstellung"
+   ],
+   "hls_q": "Landesausstellung"
+  },
+  {
+   "id": "ww2",
+   "year": 1939,
+   "end": 1945,
+   "title": "Second World War: active service",
+   "summary": "General Guisan commands the army; the Rütli report (1940) and the Alpine redoubt; rationing, refugees turned back at the border.",
+   "terms": [
+    "aktivdienst",
+    "guisan",
+    "réduit",
+    "flüchtling"
+   ],
+   "hls_q": "Zweiter Weltkrieg"
+  },
+  {
+   "id": "ahv",
+   "year": 1947,
+   "end": 1948,
+   "title": "Old-age and survivors' insurance (AHV/AVS)",
+   "summary": "Voters accept the federal pension insurance in 1947; it pays out from 1948.",
+   "terms": [
+    "altersversicherung",
+    "ahv"
+   ],
+   "hls_q": "AHV"
+  },
+  {
+   "id": "hungary-1956",
+   "year": 1956,
+   "title": "Refugees from Hungary",
+   "summary": "After the Soviet suppression of the uprising, Switzerland takes in about 14,000 Hungarian refugees.",
+   "terms": [
+    "ungarnflüchtling",
+    "ungarn-flüchtling"
+   ],
+   "hls_q": "Ungarnaufstand"
+  },
+  {
+   "id": "magic-formula",
+   "year": 1959,
+   "title": "The 'magic formula'",
+   "summary": "The four largest parties share the seven Federal Council seats (2-2-2-1), a formula kept until 2003.",
+   "terms": [
+    "zauberformel",
+    "bundesratswahl"
+   ],
+   "hls_q": "Zauberformel"
+  },
+  {
+   "id": "expo64",
+   "year": 1964,
+   "title": "National Exhibition in Lausanne (Expo 64)",
+   "summary": "The national exhibition in Lausanne.",
+   "terms": [
+    "expo 64",
+    "expo 1964",
+    "landesausstellung"
+   ],
+   "hls_q": "Expo 64"
+  },
+  {
+   "id": "women-suffrage",
+   "year": 1971,
+   "title": "Women's right to vote",
+   "summary": "On 7 February 1971 men vote to give women the vote and the right to stand at the federal level.",
+   "terms": [
+    "frauenstimmrecht",
+    "suffrage féminin"
+   ],
+   "hls_q": "Frauenstimmrecht"
+  },
+  {
+   "id": "jura",
+   "year": 1978,
+   "end": 1979,
+   "title": "Canton of Jura",
+   "summary": "Voters accept the new canton in 1978; it becomes the 26th canton on 1 January 1979.",
+   "terms": [
+    "kanton jura",
+    "jurafrage",
+    "question jurassienne"
+   ],
+   "hls_q": "Jurafrage"
+  },
+  {
+   "id": "youth-1980",
+   "year": 1980,
+   "title": "Youth unrest in Zurich",
+   "summary": "Protests for an autonomous youth centre start at the Zurich opera house and spread to other cities.",
+   "terms": [
+    "jugendunruhen",
+    "opernhauskrawall",
+    "jugendbewegung"
+   ],
+   "hls_q": "Jugendunruhen"
+  },
+  {
+   "id": "schweizerhalle",
+   "year": 1986,
+   "title": "Schweizerhalle chemical fire",
+   "summary": "A warehouse fire near Basel on 1 November pollutes the Rhine with chemicals.",
+   "terms": [
+    "schweizerhalle"
+   ]
+  },
+  {
+   "id": "fichen",
+   "year": 1989,
+   "end": 1990,
+   "title": "Secret files scandal (Fichenaffäre)",
+   "summary": "A parliamentary inquiry reveals that the federal police kept files on some 900,000 people and organisations.",
+   "terms": [
+    "fichen",
+    "staatsschutz"
+   ],
+   "hls_q": "Fichenaffäre"
+  },
+  {
+   "id": "eea",
+   "year": 1992,
+   "title": "No to the European Economic Area",
+   "summary": "On 6 December voters and cantons reject joining the EEA.",
+   "terms": [
+    "ewr",
+    "europäischer wirtschaftsraum"
+   ],
+   "hls_q": "EWR"
+  },
+  {
+   "id": "swissair",
+   "year": 2001,
+   "title": "Swissair grounding",
+   "summary": "The national airline grounds its fleet on 2 October and is wound up.",
+   "terms": [
+    "swissair"
+   ],
+   "hls_q": "Swissair"
+  },
+  {
+   "id": "un",
+   "year": 2002,
+   "title": "Switzerland joins the United Nations",
+   "summary": "Voters accept UN membership on 3 March; Switzerland joins in September.",
+   "terms": [
+    "uno-beitritt",
+    "vereinte nationen"
+   ],
+   "hls_q": "UNO"
+  },
+  {
+   "id": "gotthard-base",
+   "year": 2016,
+   "title": "Gotthard Base Tunnel opens",
+   "summary": "The 57 km rail tunnel, the core of the NEAT project, opens on 1 June.",
+   "terms": [
+    "gotthard-basistunnel",
+    "neat"
+   ],
+   "hls_q": "NEAT"
+  }
+ ]
+}

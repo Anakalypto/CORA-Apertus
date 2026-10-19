@@ -1,0 +1,285 @@
+{
+ "id": "29383119",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29383119",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29383119",
+  "reference_code": "J1.8#1000/1376#10*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsartikel und Interviews",
+   "date": {
+    "from": "1935-01-01",
+    "to": "1936-12-31",
+    "expressed": "1935-1936"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16724",
+     "number": "1000/1376",
+     "title": "1000/01376 Obrecht, Karl (Kuettigkofen) (1900-1940)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit is a collection of press material (newspaper articles and interviews) from the estate of Federal Councillor Hermann Obrecht.",
+  "resume": "The record is a collection of newspaper articles and interviews spanning 1935–1936, part of the estate of Swiss Federal Councillor Hermann Obrecht. It contains primary-source press material rather than a direct parliamentary debate recording. The content reflects contemporary reporting on Obrecht and related topics."
+ },
+ "metadata": {
+  "title": "Zeitungsartikel und Interviews",
+  "title_normalized": "Zeitungsartikel und Interviews",
+  "title_en": "Newspaper articles and interviews",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1935/1936",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1935/1936",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Hermann Obrecht",
+   "Swiss politics",
+   "press coverage",
+   "1930s"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Obrecht Hermann (1882-1940)",
+  "fonds_reference": "J1.8*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Obrecht Hermann (1882-1940)",
+   "Nachlass Bundesrat Hermann Obrecht"
+  ],
+  "reference_code": "J1.8#1000/1376#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29383119",
+  "accession_numbers": [
+   "1000/1376"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Obrecht, Karl (Kuettigkofen)",
+    "display_name": "Karl (Kuettigkofen) Obrecht",
+    "role": "Subject of the articles",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Obrecht, Hermann (1882-1940)",
+    "display_name": "Hermann (1882-1940) Obrecht",
+    "role": "Estate owner",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Accession title includes 'Obrecht, Karl (Kuettigkofen)' and 'Hermann Obrecht'.; named organizations or places (apertus): Hierarchy includes 'Schweizerischen Bundesarchivs' and 'Bundesrat Hermann Obrecht'.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places appear only in accession title 'Obrecht, Karl (Kuettigkofen)', not in structured fields.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places appear only in accession title 'Obrecht, Karl (Kuettigkofen)', not in structured fields."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Accession title includes 'Obrecht, Karl (Kuettigkofen)' and 'Hermann Obrecht'."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hierarchy includes 'Schweizerischen Bundesarchivs' and 'Bundesrat Hermann Obrecht'."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Named persons are public figures (Bundesrat Hermann Obrecht)."
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person is concerned by health, criminal, asylum or similar sensitive topics."
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes named public figures (Hermann Obrecht) but no sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1935-1936",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper articles and interviews were produced during this period as part of the Hermann Obrecht estate.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1376 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.8#1000/1376#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.65,
+  "tokens": 4376,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

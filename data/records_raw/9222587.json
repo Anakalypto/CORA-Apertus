@@ -1,0 +1,79 @@
+{
+ "id": "9222587",
+ "uri": "https://culture.ld.admin.ch/ais/9222587",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/9222587",
+ "title": "Nachruf für Herrn Konsul Tictor Vogt, Valdivia, verfasst von Walter Meyer, Osorno, Juni 1940",
+ "reference_code": "E2200.144-01#1000/199#33*",
+ "reference_number": "A.I.2",
+ "old_reference_code": "E2200.144-01#1000/199#50*",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1940-01-01",
+  "to": "1940-12-31",
+  "expressed": "1940-1940"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/8385",
+   "number": "1000/199",
+   "title": "1000/00199 Bundesverwaltung (Bern) (1918 - 1944)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/9220376",
+   "title": "Liste des Dossiers 1918-1950",
+   "level": "Serie",
+   "reference_code": "E2200.144-01#A.I.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/9128554",
+   "title": "Administration du consulat",
+   "level": "Serie",
+   "reference_code": "E2200.144-01#A.I"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/9128550",
+   "title": "Affaires administratives",
+   "level": "Serie",
+   "reference_code": "E2200.144-01#A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/9127696",
+   "title": "Schweizerische Vertretung, Santiago de Chile: Zentrale Ablage (1921-1965)",
+   "level": "Sub-file",
+   "reference_code": "E2200.144-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6530",
+   "title": "Schweizerische Vertretung, Santiago de Chile (1918-)",
+   "level": "Stock",
+   "reference_code": "E10699*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

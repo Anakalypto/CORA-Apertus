@@ -1,0 +1,497 @@
+{
+ "id": "30676785",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30676785",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30676785",
+  "reference_code": "E1301#2014/135#10#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2011.0004: GPK-NR/SR und GPDel. Jahresbericht 2010 / CdG-CN/CE et DélCdG. Rapport annuel 2010",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Binder, Max; Daguet, André; Eichenberger-Walther, Corina; Gadient, Brigitta M.; Germanier, Jean-René; Glanzmann-Hunkeler, Ida; Lustenberger, Ruedi; Maire, Jacques-André;, Autor: Sprecher/Sprecherinnen:  Moret, Isabelle; Roth-Bernasconi, Maria; Veillon, Pierre-François; Wasserfallen, Christian; Weber-Gobet, Marie-Thérèse; Wyss, Brigit;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-03-15",
+    "to": null,
+    "expressed": "2011.03.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/29730093",
+     "number": "2014/135",
+     "title": "2014/00135 Parlamentsdienste (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council session with listed speakers and date of debate, created at the time of the events.",
+  "resume": "The document is a digital parliamentary record from the National Council session of spring 2011, containing the annual report of the GPK-NR/SR and GPDel. for 2010, with a list of speakers from the debate."
+ },
+ "metadata": {
+  "title": "2011.0004: GPK-NR/SR und GPDel. Jahresbericht 2010 / CdG-CN/CE et DélCdG. Rapport annuel 2010",
+  "title_normalized": "2011.0004: GPK-NR/SR und GPDel. Jahresbericht 2010 / CdG-CN/CE et DélCdG. Rapport annuel 2010",
+  "title_en": "GPK-NR/SR and GPDel. Annual Report 2010 / CdG-CN/CE and DélCdG. Annual Report 2010",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-03-15",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "2011-03-15",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary report",
+   "annual report",
+   "National Council session"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "Frühjahrssession 2011",
+   "10. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2014/135#10#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30676785",
+  "accession_numbers": [
+   "2014/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Max Binder",
+    "display_name": "Max Binder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116490",
+     "label": "Max Binder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116490"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "André Daguet",
+    "display_name": "André Daguet",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q518149",
+     "label": "André Daguet",
+     "description": "Swiss politician (1947-2015)",
+     "url": "https://www.wikidata.org/wiki/Q518149"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Corina Eichenberger-Walther",
+    "display_name": "Corina Eichenberger-Walther",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1132782",
+     "label": "Corina Eichenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1132782"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Brigitta M. Gadient",
+    "display_name": "Brigitta M. Gadient",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean-René Germanier",
+    "display_name": "Jean-René Germanier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118667",
+     "label": "Jean-René Germanier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118667"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ida Glanzmann-Hunkeler",
+    "display_name": "Ida Glanzmann-Hunkeler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121882",
+     "label": "Ida Glanzmann-Hunkeler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121882"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruedi Lustenberger",
+    "display_name": "Ruedi Lustenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1348117",
+     "label": "Ruedi Lustenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1348117"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacques-André Maire",
+    "display_name": "Jacques-André Maire",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119103",
+     "label": "Jacques-André Maire",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119103"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Isabelle Moret",
+    "display_name": "Isabelle Moret",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120742",
+     "label": "Isabelle Moret",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120742"
+    },
+    "life_date_check": {
+     "born": 1970,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Maria Roth-Bernasconi",
+    "display_name": "Maria Roth-Bernasconi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117391",
+     "label": "Maria Roth-Bernasconi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117391"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pierre-François Veillon",
+    "display_name": "Pierre-François Veillon",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119047",
+     "label": "Pierre-François Veillon",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119047"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christian Wasserfallen",
+    "display_name": "Christian Wasserfallen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q73883",
+     "label": "Christian Wasserfallen",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q73883"
+    },
+    "life_date_check": {
+     "born": 1981,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Marie-Thérèse Weber-Gobet",
+    "display_name": "Marie-Thérèse Weber-Gobet",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1541414",
+     "label": "Marie-Thérèse Weber-Gobet",
+     "description": "Swiss journalist and politician",
+     "url": "https://www.wikidata.org/wiki/Q1541414"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Brigit Wyss",
+    "display_name": "Brigit Wyss",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117845",
+     "label": "Brigit Wyss",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117845"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2011.0004: GPK-NR/SR und GPDel. Jahresbericht 2010 / CdG-CN/CE et DélCdG. Rapport annuel 2010'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Max Binder', 'André Daguet', ...]; named organizations or places (apertus): hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.03.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2011.0004: GPK-NR/SR und GPDel. Jahresbericht 2010 / CdG-CN/CE et DélCdG. Rapport annuel 2010'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.03.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Max Binder', 'André Daguet', ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2014/135#10#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5391,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

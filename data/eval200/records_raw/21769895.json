@@ -1,0 +1,71 @@
+{
+ "id": "21769895",
+ "uri": "https://culture.ld.admin.ch/ais/21769895",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21769895",
+ "title": "Tagesschau - Téléjournal - Telegiornale (Spätausgabe TS), 19.05.1973",
+ "reference_code": "J2.225#1996/68#5465#4*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 73/137/02A;Rolle 1108\nSignatur Bundesarchiv: J2.225#1996/68#59325*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Wohlen, AG: Internationale Hunde-Ausstellung",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 12.05.1973-26.05.1973",
+ "form": "Video",
+ "format": "Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.16.16\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Ausstellung",
+ "country": null,
+ "date": {
+  "from": "1973-05-19",
+  "to": null,
+  "expressed": "1973.05.19"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21769891",
+   "title": "Tagesschau SFDRS 19.05.1973",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#5465*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690382",
+   "title": "Tagesschau SFDRS 1973",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1973"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "audiovisual"
+}

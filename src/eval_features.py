@@ -28,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cora import classify, config  # noqa: E402
 from cora.apertus import Apertus  # noqa: E402
+from cora import store  # noqa: E402
 
 MODELS = ("apertus-v1-5-70b", "apertus-v1-5-8b")
 CFG = config.load()
@@ -105,17 +106,7 @@ def common(outs: list[dict]) -> dict:
 # ---------------------------------------------------------------- 1. Stapfer (ground truth: Bern hand coding)
 def f_stapfer(n: int = 100):
     from cora import stapfer
-    cases_path = DATA / "stapfer" / "cases.json"
-    if not cases_path.exists():  # builds cases.json from the public dump, as `run.py stapfer` does
-        import urllib.request
-        import zipfile
-        zpath = DATA / "stapfer" / "stapferappdb_final.sql.zip"
-        if not zpath.exists():
-            urllib.request.urlretrieve(stapfer.DUMP_URL, zpath)
-        z = zipfile.ZipFile(zpath)
-        cases_path.write_text(json.dumps(stapfer.build_cases(stapfer.load_dump(z.read(z.namelist()[0]).decode("utf-8", "replace"))),
-                                         ensure_ascii=False), encoding="utf-8")
-    cases = json.loads(cases_path.read_text(encoding="utf-8"))
+    cases = stapfer.load_cases(DATA / "stapfer")  # one file per sheet; built from the public dump if missing
     sample = random.Random(42).sample(sorted(cases, key=lambda c: c["id"]), n)  # seed 42: first 40 = the published run
     items = [{"id": str(c["id"]), "case": c} for c in sample]
 
@@ -143,7 +134,7 @@ def f_stapfer(n: int = 100):
 
 # ---------------------------------------------------------------- 2. Source level (ground truth: 30 adjudicated)
 def f_level():
-    recs = {r["id"]: r for r in json.loads((DATA / "records_raw.json").read_text(encoding="utf-8"))}
+    recs = {r["id"]: r for r in store.read_entries(DATA / "records_raw.json")}
     adj = {a["id"]: a for a in json.loads((DATA / "extra_v1" / "source_level_adjudication.json").read_text(encoding="utf-8"))["items"]}
     # the adjudicated records come from the first draw of extra sources (only their IDs are stored): fetch them once
     cache = OUT / "adjudicated_records.json"
@@ -180,7 +171,7 @@ def f_level():
 
 # ---------------------------------------------------------------- 3. Audit (reference: rule detectors)
 def f_audit(n: int = 200):
-    recs = json.loads((DATA / "eval200" / "records_raw.json").read_text(encoding="utf-8"))[:n]
+    recs = store.read_entries(DATA / "eval200" / "records_raw.json")[:n]
     items = [{"id": r["id"], "rec": r} for r in recs]
 
     def one(m, x):
@@ -286,7 +277,9 @@ def _eval_cfg(m: str) -> dict:
     cfg = copy.deepcopy(CFG)
     d = OUT / "cache" / m
     d.mkdir(parents=True, exist_ok=True)
-    if not (d / "enrich_cache.json").exists() and (DATA / "enrich_cache.json").exists():
+    if not (d / "enrich_cache").exists() and (DATA / "enrich_cache").exists():  # the lookup cache: one file per key
+        shutil.copytree(DATA / "enrich_cache", d / "enrich_cache")
+    elif not (d / "enrich_cache.json").exists() and (DATA / "enrich_cache.json").exists():  # not split yet
         shutil.copy(DATA / "enrich_cache.json", d / "enrich_cache.json")
     cfg["paths"]["data_dir"] = d
     return cfg

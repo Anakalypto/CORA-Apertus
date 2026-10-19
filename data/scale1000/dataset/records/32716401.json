@@ -1,0 +1,294 @@
+{
+ "id": "32716401",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32716401",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32716401",
+  "reference_code": "E27#1000/721#17724#29*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Stützpunkt St. Johannsen Caponière Armierungsplan",
+   "reference_number": "1047 / 13",
+   "date": {
+    "from": "1916-01-01",
+    "to": null,
+    "expressed": "1916"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "map / plan",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a technical drawing created at the time of the events by the military engineering service.",
+  "resume": "The document is an armaments plan for the fortification St. Johannsen Caponière, dated 1916, showing engineering drawings for a defensive structure in the Murten–Vuilly–Jolimont sector."
+ },
+ "metadata": {
+  "title": "Stützpunkt St. Johannsen Caponière Armierungsplan",
+  "title_normalized": "Stützpunkt St. Johannsen Caponière Armierungsplan",
+  "title_en": "St. Johannsen Caponière Armaments Plan",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1916-01-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1916",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "fortifications",
+   "military engineering",
+   "World War I"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Militärische Anlagen. Festungen",
+   "Festungen",
+   "Verteidigungslinien, Armeestellungen, Stellungs- und Hindernisbauten",
+   "Westschweiz - Basel - Saane - Thunersee",
+   "Murten - Vuilly - Jolimont, Zihl",
+   "Fortifikation Murten, Abschnitt Jolimont - Pläne und Zeichnungen, Teil 1"
+  ],
+  "reference_code": "E27#1000/721#17724#29*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32716401",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Murten",
+    "as_written": "Murten - Vuilly - Jolimont, Zihl",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9288643,
+    "lon": 7.1163909,
+    "gazetteer": "https://www.openstreetmap.org/relation/5817743",
+    "model_lat": 47.0,
+    "model_lon": 7.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1916-01-01",
+   "place": "Murten, Switzerland",
+   "lat": 46.9288643,
+   "lon": 7.1163909,
+   "description": "Technical drawing for fortification armaments plan.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1916-01-01",
+   "place": "Murten",
+   "lat": 46.9288643,
+   "lon": 7.1163909,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#17724#29*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4547,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

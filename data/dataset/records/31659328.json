@@ -1,0 +1,355 @@
+{
+ "id": "31659328",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31659328",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659328",
+  "reference_code": "E1301#2019/248#9#13*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "20185158: Fragestunde. Frage Hadorn Philipp. Bundesamt für Wohnungswesen in Grenchen. Bedarf ausgewiesen, Zukunft infrage gestellt? / Heure des questions. Question Hadorn Philipp. L'Office fédéral du logement à Granges répond à un besoin. Menaces sur son avenir?",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Schneider-Ammann,Johann N.; Hadorn,Philipp; Schneider-Ammann,Johann N.;",
+   "form": "Digital",
+   "date": {
+    "from": "2018-03-12",
+    "to": null,
+    "expressed": "2018.03.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31658867",
+     "number": "2019/248",
+     "title": "2019/00248 Parlamentsdienste: Amtliches Bulletin (Bern) (2018)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary debate.",
+  "resume": "This is a video recording of a parliamentary question session in the Swiss National Council on 12 March 2018, where National Councillor Philipp Hadorn questioned Federal Councillor Johann N. Schneider-Ammann about the future of the Federal Housing Office in Grenchen. The session addressed whether the office's need was established and if its future was at risk."
+ },
+ "metadata": {
+  "title": "20185158: Fragestunde. Frage Hadorn Philipp. Bundesamt für Wohnungswesen in Grenchen. Bedarf ausgewiesen, Zukunft infrage gestellt? / Heure des questions. Question Hadorn Philipp. L'Office fédéral du logement à Granges répond à un besoin. Menaces sur son avenir?",
+  "title_normalized": "20185158: Fragestunde. Frage Hadorn Philipp. Bundesamt für Wohnungswesen in Grenchen. Bedarf ausgewiesen, Zukunft infrage gestellt? / Heure des questions. Question Hadorn Philipp. L'Office fédéral du logement à Granges répond à un besoin. Menaces sur son avenir?",
+  "title_en": "Question Time. Question by Philipp Hadorn. Federal Housing Office in Grenchen. Need demonstrated, future in question?",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2018-03-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2018-03-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "parliamentary debate",
+   "housing policy",
+   "Federal Housing Office"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2018",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/248#9#13*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659328",
+  "accession_numbers": [
+   "2019/248"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Johann N. Schneider-Ammann",
+    "display_name": "Johann N. Schneider-Ammann",
+    "role": "Federal Councillor (respondent)",
+    "wikidata": {
+     "qid": "Q380063",
+     "label": "Johann Schneider-Ammann",
+     "description": "businessman, politician and member of the Swiss Federal Council (2010-2018)",
+     "url": "https://www.wikidata.org/wiki/Q380063"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Philipp Hadorn",
+    "display_name": "Philipp Hadorn",
+    "role": "National Councillor (questioner)",
+    "wikidata": {
+     "qid": "Q1725330",
+     "label": "Philipp Hadorn",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1725330"
+    },
+    "life_date_check": {
+     "born": 1967,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   },
+   {
+    "name": "Bundesamt für Wohnungswesen",
+    "role": "subject of question",
+    "wikidata": {
+     "qid": "Q31841186",
+     "label": "Federal Office for Housing",
+     "description": "Swiss governmental agency for housing affairs",
+     "url": "https://www.wikidata.org/wiki/Q31841186"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Grenchen",
+    "as_written": "Grenchen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.1911495,
+    "lon": 7.3967199,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683510",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German, French and English text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers list includes \"Johann N. Schneider-Ammann\" and \"Philipp Hadorn\"; named organizations or places (apertus): Title mentions \"Bundesamt für Wohnungswesen\" and \"Grenchen\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2018.03.12\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German, French and English text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2018.03.12\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers list includes \"Johann N. Schneider-Ammann\" and \"Philipp Hadorn\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mentions \"Bundesamt für Wohnungswesen\" and \"Grenchen\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political issues"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data of private individuals or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2018-03-12",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video recording made during the National Council session.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2018-03-12",
+   "place": "Grenchen",
+   "lat": 47.1911495,
+   "lon": 7.3967199,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/248 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/248#9#13*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5045,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,564 @@
+{
+ "id": "3511401",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3511401",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3511401",
+  "reference_code": "E1401#2004/507#2#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2001.0057: Transplantationsgesetz / Loi sur la transplantation",
+   "scope_and_content": "Sprecher/Sprecherinnen: Brunner, Christiane; Bürgi, Hermann; Couchepin, Pascal; Fetz, Anita; Forster-Vannini, Erika; Frick, Bruno; Heberlein, Trix; Hofmann, Hans; Jenny, This; Pfisterer, Thomas; Saudan, Françoise; Schiesser, Fritz; Schmid, Carlo; Schweiger, Rolf; Sommaruga, Simonetta; Stadler, Hansruedi; Stähelin, Philipp",
+   "date": {
+    "from": "2004-06-02",
+    "to": null,
+    "expressed": "2004.06.02"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1165655",
+     "number": "2004/507",
+     "title": "2004/00507 Parlamentsdienste (Bern) (2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This document is a parliamentary record of the Swiss Council of States (Ständerat) from the winter session 2003 to autumn session 2007, specifically the summer session 2004, capturing a debate on the Transplantationsgesetz (law on transplantation). It contains the names of speakers who participated in the debate and is part of the Swiss Federal Archives holdings."
+ },
+ "metadata": {
+  "title": "2001.0057: Transplantationsgesetz / Loi sur la transplantation",
+  "title_normalized": "2001.0057: Transplantationsgesetz / Loi sur la transplantation",
+  "title_en": "Transplantationsgesetz / Loi sur la transplantation",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "2004-06-02",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "transplantation law",
+   "Swiss legislation",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2004",
+   "2. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2004/507#2#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3511401",
+  "accession_numbers": [
+   "2004/507"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Christiane Brunner",
+    "display_name": "Christiane Brunner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118808",
+     "label": "Christiane Brunner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118808"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hermann Bürgi",
+    "display_name": "Hermann Bürgi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117151",
+     "label": "Hermann Bürgi",
+     "description": "Swiss politician (1946-)",
+     "url": "https://www.wikidata.org/wiki/Q117151"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Anita Fetz",
+    "display_name": "Anita Fetz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118321",
+     "label": "Anita Fetz",
+     "description": "Swiss politician and historian, born 1957",
+     "url": "https://www.wikidata.org/wiki/Q118321"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erika Forster-Vannini",
+    "display_name": "Erika Forster-Vannini",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116433",
+     "label": "Erika Forster-Vannini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116433"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bruno Frick",
+    "display_name": "Bruno Frick",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116486",
+     "label": "Bruno Frick",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116486"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Trix Heberlein",
+    "display_name": "Trix Heberlein",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2454519",
+     "label": "Trix Heberlein",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2454519"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Hofmann",
+    "display_name": "Hans Hofmann",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "This Jenny",
+    "display_name": "This Jenny",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q374396",
+     "label": "This Jenny",
+     "description": "Swiss politician (1952-2014)",
+     "url": "https://www.wikidata.org/wiki/Q374396"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Pfisterer",
+    "display_name": "Thomas Pfisterer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q106303704",
+     "label": "Thomas Pfisterer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q106303704"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Françoise Saudan",
+    "display_name": "Françoise Saudan",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1282105",
+     "label": "Françoise Saudan",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1282105"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Schiesser",
+    "display_name": "Fritz Schiesser",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q693281",
+     "label": "Fritz Schiesser",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q693281"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Carlo Schmid",
+    "display_name": "Carlo Schmid",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q67511",
+     "label": "Carlo Schmid",
+     "description": "German academic and politician of the social-democratic SPD (1896-1979)",
+     "url": "https://www.wikidata.org/wiki/Q67511"
+    },
+    "life_date_check": {
+     "born": 1896,
+     "died": 1979,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Schweiger",
+    "display_name": "Rolf Schweiger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118354",
+     "label": "Rolf Schweiger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118354"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Simonetta Sommaruga",
+    "display_name": "Simonetta Sommaruga",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122991",
+     "label": "Simonetta Sommaruga",
+     "description": "politician and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q122991"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansruedi Stadler",
+    "display_name": "Hansruedi Stadler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120948",
+     "label": "Hansruedi Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120948"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Philipp Stähelin",
+    "display_name": "Philipp Stähelin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118298",
+     "label": "Philipp Stähelin",
+     "description": "Swiss politician (1944-)",
+     "url": "https://www.wikidata.org/wiki/Q118298"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival holding",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2001.0057: Transplantationsgesetz / Loi sur la transplantation\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Christiane Brunner', 'Hermann Bürgi', ...]; named organizations or places (apertus): hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2004.06.02",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2001.0057: Transplantationsgesetz / Loi sur la transplantation\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2004.06.02"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Christiane Brunner', 'Hermann Bürgi', ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/507 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2004/507#2#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5357,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

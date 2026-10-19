@@ -1,0 +1,67 @@
+{
+ "id": "10797403",
+ "uri": "https://culture.ld.admin.ch/ais/10797403",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10797403",
+ "title": "Zeitungsausschnitte betr. Schweiz",
+ "reference_code": "E2200.36-06#1000/1740#1*",
+ "reference_number": "1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1917-01-01",
+  "to": "1917-12-31",
+  "expressed": "1917-1917"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10374",
+   "number": "1000/1740",
+   "title": "1000/01740 Bundesverwaltung (Bern) (1917 - 1925)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10797390",
+   "title": "Der im Rahmen der allgemeinen Registratur nicht eingefügten Dossiers und Akten (Geheimdossiers)",
+   "level": "Serie",
+   "reference_code": "E2200.36-06#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10789930",
+   "title": "Schweizerische Vertretung, Washington: Nicht registraturgebundenes Schriftgut (1917-1925)",
+   "level": "Sub-file",
+   "reference_code": "E2200.36-06*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6605",
+   "title": "Schweizerische Vertretung, Washington (1822-)",
+   "level": "Stock",
+   "reference_code": "E10735*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

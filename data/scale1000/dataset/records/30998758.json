@@ -1,0 +1,335 @@
+{
+ "id": "30998758",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30998758",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30998758",
+  "reference_code": "E1301#2017/176#9#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2013.5094: Fragestunde. Frage Freysinger Oskar. Besteuerung von Goldunzen / Heure des questions. Question Freysinger Oskar. Imposition des onces d'or",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Freysinger, Oskar; Widmer-Schlumpf, Eveline;",
+   "form": "Digital",
+   "date": {
+    "from": "2013-03-18",
+    "to": null,
+    "expressed": "2013.03.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30987504",
+     "number": "2017/176",
+     "title": "2017/00176 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This is a video recording of a parliamentary question session from the Swiss National Council during the spring session of 2013, featuring Oskar Freysinger and Eveline Widmer-Schlumpf discussing the taxation of gold ounces."
+ },
+ "metadata": {
+  "title": "2013.5094: Fragestunde. Frage Freysinger Oskar. Besteuerung von Goldunzen / Heure des questions. Question Freysinger Oskar. Imposition des onces d'or",
+  "title_normalized": "2013.5094: Fragestunde. Frage Freysinger Oskar. Besteuerung von Goldunzen / Heure des questions. Question Freysinger Oskar. Imposition des onces d'or",
+  "title_en": "Question Session: Question by Oskar Freysinger on Taxation of Gold Ounces / Question Time: Question by Oskar Freysinger on Taxation of Gold Ounces",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2013-03-18",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2013-03-18",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "taxation",
+   "gold ounces",
+   "parliamentary questions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Frühjahrssession 2013",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/176#9#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30998758",
+  "accession_numbers": [
+   "2017/176"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Oskar Freysinger",
+    "display_name": "Oskar Freysinger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123109",
+     "label": "Oskar Freysinger",
+     "description": "Swiss teacher, politician (SVP), and writer",
+     "url": "https://www.wikidata.org/wiki/Q123109"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eveline Widmer-Schlumpf",
+    "display_name": "Eveline Widmer-Schlumpf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q162767",
+     "label": "Eveline Widmer-Schlumpf",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q162767"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text: 'Fragestunde. Frage Freysinger Oskar. Besteuerung von Goldunzen / Heure des questions. Question Freysinger Oskar. Imposition des onces d'or'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Oskar Freysinger', 'Eveline Widmer-Schlumpf']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2013.03.18",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text: 'Fragestunde. Frage Freysinger Oskar. Besteuerung von Goldunzen / Heure des questions. Question Freysinger Oskar. Imposition des onces d'or'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2013.03.18"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Oskar Freysinger', 'Eveline Widmer-Schlumpf']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; the record concerns a parliamentary debate on taxation."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2013-03-18",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Video recording of parliamentary question session",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/176 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/176#9#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4869,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

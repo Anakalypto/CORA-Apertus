@@ -1,0 +1,284 @@
+{
+ "id": "4419709",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4419709",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4419709",
+  "reference_code": "E4007B#2006/222#36*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]",
+   "reference_number": "11-2001-00260",
+   "date": {
+    "from": "2001-01-01",
+    "to": "2003-12-31",
+    "expressed": "2001-2003"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3341818",
+     "number": "2006/222",
+     "title": "2006/00222 Eidgen�ssischer Datenschutzbeauftragter (Bern) (2000-2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an ordinary administrative dossier containing ongoing business records of the Federal Data Protection Commissioner from 2001 to 2003.",
+  "resume": "This is a register of persons maintained by the Swiss Federal Data Protection Officer from 2001 to 2003, covering the period starting January 1, 2002. It documents administrative records related to data protection activities within the federal administration. The register is part of the ongoing business files of the Data Protection Officer."
+ },
+ "metadata": {
+  "title": "PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]",
+  "title_normalized": "PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]",
+  "title_en": "PERSON REGISTER (phase from 01.01.2002) [From: 21.11.2001]",
+  "creator": "Eidgenössischer Datenschutzbeauftragter",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-01-01/2003-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2001/2003",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "data protection",
+   "administration",
+   "personnel records",
+   "Swiss federal administration"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössischer Datenschutzbeauftragter (1993-2006)",
+  "fonds_reference": "E10160*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössischer Datenschutzbeauftragter (1993-2006)",
+   "Eidgenössischer Datenschutzbeauftragter: Zentrale Ablage (1999-)",
+   "Laufende Geschäfte nach Jahren chronologisch",
+   "Geschäfte Schutzfrist 30 Jahre"
+  ],
+  "reference_code": "E4007B#2006/222#36*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4419709",
+  "accession_numbers": [
+   "2006/222"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössischer Datenschutzbeauftragter",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q1241631",
+     "label": "Federal Data Protection and Information Commissioner",
+     "description": "independent, Swiss data protection and freedom of information authority",
+     "url": "https://www.wikidata.org/wiki/Q1241631"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains \"GenÃ¨ve\" with mangled accent; uppercase or abbreviated title (apertus): title is \"PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]\" in all caps and abbreviations",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title mixes German and French",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy includes \"Eidgenössischer Datenschutzbeauftragter\" and \"Bern\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date expressed as \"2001-2003\" instead of ISO; free text places (apertus): places only appear in hierarchy (e.g., Bern) not as structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains \"GenÃ¨ve\" with mangled accent"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]\" in all caps and abbreviations"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title mixes German and French"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"2001-2003\" instead of ISO"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only appear in hierarchy (e.g., Bern) not as structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes \"Eidgenössischer Datenschutzbeauftragter\" and \"Bern\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "no identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political issues"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories; record concerns administrative data on data protection."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2001-01-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The register was created by the Swiss Federal Data Protection Officer as part of their ongoing administrative records.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/222 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4007B#2006/222#36*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4705,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

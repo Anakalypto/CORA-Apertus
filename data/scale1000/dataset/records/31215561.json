@@ -1,0 +1,304 @@
+{
+ "id": "31215561",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31215561",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31215561",
+  "reference_code": "E21#1000/131#24697#58*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Billite Boris Benzion 17.12.1864, auch Bilite, Heimat: Odessa",
+   "scope_and_content": "Signalement/Personenbeschreibung",
+   "date": {
+    "from": "1906-01-01",
+    "to": null,
+    "expressed": "1906"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+     "number": "1000/131",
+     "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct personnel description created by the police archive.",
+  "resume": "This document is a signalement (personal description) of Boris Benzion, also known as Bilite, born on 17 December 1864 in Odessa, recorded in a police personnel file."
+ },
+ "metadata": {
+  "title": "Billite Boris Benzion 17.12.1864, auch Bilite, Heimat: Odessa",
+  "title_normalized": "Billite Boris Benzion 17.12.1864, auch Bilite, Heimat: Odessa",
+  "title_en": "Billite Boris Benzion, born 17 December 1864, also known as Bilite, native of Odessa",
+  "creator": "Policewesen [E21#1000/131#24697#58*]",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1906",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "personnel records",
+   "police",
+   "Odessa"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Polizeiwesen",
+  "fonds_reference": "E21*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Polizeiwesen",
+   "Personenkarteien und Personenindizes",
+   "Personenkartei Anfangsbuchstabe B"
+  ],
+  "reference_code": "E21#1000/131#24697#58*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31215561",
+  "accession_numbers": [
+   "1000/131"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Billite Boris Benzion",
+    "display_name": "Billite Boris Benzion",
+    "role": "subject of description",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Policewesen [E21#1000/131#24697#58*]",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Odessa",
+    "as_written": "Odessa",
+    "role": "depicted",
+    "country": "UA",
+    "lat": 46.4843023,
+    "lon": 30.7322878,
+    "gazetteer": "https://www.openstreetmap.org/relation/1413934",
+    "model_lat": 46.48,
+    "model_lon": 30.47
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Billite Boris Benzion; named organizations or places (apertus): Odessa",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Billite Boris Benzion"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Odessa"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": null,
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Personal description of Boris Benzion created by police archive.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Odessa",
+   "lat": 46.4843023,
+   "lon": 30.7322878,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/131 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E21#1000/131#24697#58*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4379,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

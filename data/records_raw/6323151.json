@@ -1,0 +1,85 @@
+{
+ "id": "6323151",
+ "uri": "https://culture.ld.admin.ch/ais/6323151",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6323151",
+ "title": "Repertoire internationale des institutions statistiques",
+ "reference_code": "E7181A#1978/90#29*",
+ "reference_number": "03.b.3.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1938-01-01",
+  "to": "1938-12-31",
+  "expressed": "1938-1938"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15347",
+   "number": "1978/90",
+   "title": "1978/00090 Bundesverwaltung (Bern) (1914 - 1978)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6323140",
+   "title": "Auszüge nach Quellen",
+   "level": "Serie",
+   "reference_code": "E7181A#03.b.3.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6323127",
+   "title": "Zur Frage der administrativen Eingliederung der Sozialstatistik in das BIGA (Gutachten vom 9.12.1938)",
+   "level": "Serie",
+   "reference_code": "E7181A#03.b.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6318984",
+   "title": "Schweiz",
+   "level": "Serie",
+   "reference_code": "E7181A#03.b"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6318983",
+   "title": "Arbeitsstatistik",
+   "level": "Serie",
+   "reference_code": "E7181A#03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4595",
+   "title": "Bundesamt für Industrie, Gewerbe und Arbeit: Teilregistratur Sozialstatistik (1928-1979)",
+   "level": "Sub-file",
+   "reference_code": "E7181A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4573",
+   "title": "Bundesamt für Industrie, Gewerbe und Arbeit (1930-1997)",
+   "level": "Stock",
+   "reference_code": "E10078*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

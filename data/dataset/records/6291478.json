@@ -1,0 +1,279 @@
+{
+ "id": "6291478",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/6291478",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6291478",
+  "reference_code": "E7800#1000/1961#2248*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsausschnitte",
+   "reference_number": "11.03.2",
+   "date": {
+    "from": "1934-01-01",
+    "to": "1934-12-31",
+    "expressed": "1934-1934"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15520",
+     "number": "1000/1961",
+     "title": "1000/01961 Bundesverwaltung (Bern) (keine Angabe)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit consists of newspaper clippings collected by the Federal Department of Economic Affairs in 1934.",
+  "resume": "The record consists of newspaper clippings collected by the Federal Department of Economic Affairs' General Secretariat between 1934 and 1934. It appears to be a compilation of press articles rather than a primary source document. The content likely covers economic or administrative topics relevant to the department."
+ },
+ "metadata": {
+  "title": "Zeitungsausschnitte",
+  "title_normalized": "Zeitungsausschnitte",
+  "title_en": "Newspaper clippings",
+  "creator": "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1934-12-31",
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1934/1934",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "newspapers",
+   "economic affairs",
+   "administration"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements (1939-2012)",
+  "fonds_reference": "E10310*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements (1939-2012)",
+   "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements: Zentrale Ablage (1939-1967)",
+   "Verschiedenes EVD",
+   "Personelles",
+   "Bundesrat Schulthess"
+  ],
+  "reference_code": "E7800#1000/1961#2248*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6291478",
+  "accession_numbers": [
+   "1000/1961"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Swiss Federal Archives, eidgenössisches Volkswirtschaftsdepartements, Bern",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in hierarchy (e.g., Bern), not in explicit fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in hierarchy (e.g., Bern), not in explicit fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives, eidgenössisches Volkswirtschaftsdepartements, Bern"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1934-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compilation of newspaper clippings completed and archived within the departmental series.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1961 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E7800#1000/1961#2248*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "resume_speculative"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4488,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

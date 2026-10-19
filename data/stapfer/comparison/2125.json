@@ -1,0 +1,58 @@
+{
+ "id": 2125,
+ "signature": "BAR B0 1000/1483, Nr. 1442, fol. 34-35v",
+ "reference": {
+  "place": "Chexbres",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Jean Samuel Girard",
+  "teacher_age": 57,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 35,
+  "pupils_winter": 43,
+  "pupils_summer": null,
+  "author_name": "Jean Samuel Girard",
+  "date_written": "2013-03-08"
+ },
+ "apertus": {
+  "place": "Chexbres",
+  "canton_1799": "Léman",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Jean Samuel Girard",
+  "teacher_age": 57,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 35,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "J. S. Girard",
+  "date_written": "1799-03-08"
+ },
+ "evidence": {
+  "place": "à Chexbres.",
+  "canton_1799": "du Leman",
+  "school_type": "on enseigne à lire, écrire, l'artihmétique, apprendre par coeur le Catéchisme retouché d'Ostervald, prier et Dicter et corriger des Thêmes chaque jour, et deux jours par semaine le chant des Pseaumes",
+  "confession": "Paroisse de St. Sapho= rin, Agence de Chexbres.",
+  "teacher_name": "Jean Samuel Girard.",
+  "teacher_age": "57. ans.",
+  "teacher_since": "dès le 4. Juillet 1764.",
+  "pupils_winter": "cela varie tous les jours.",
+  "author_name": "Chexbres le 8. Mars 1799 J. S. Girard Règent de la 1.re Ecole de Chexbres."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "missed",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 8.54
+}

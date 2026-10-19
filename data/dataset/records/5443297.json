@@ -1,0 +1,282 @@
+{
+ "id": "5443297",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5443297",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5443297",
+  "reference_code": "E2003A#1988/15#197*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+   "reference_number": "o.121.322.01",
+   "date": {
+    "from": "1973-01-01",
+    "to": "1975-12-31",
+    "expressed": "1973-1975"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7678",
+     "number": "1988/15",
+     "title": "1988/00015 Bundesverwaltung (Bern) (1950-1976)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an ordinary administrative file containing official documents related to the government committee for the protection and revitalization of immovable cultural heritage.",
+  "resume": "This record is an administrative file from the Swiss Federal Archives documenting the work of a governmental committee on the protection and revitalization of immovable cultural heritage under the Council of Europe between 1973 and 1975. It contains general information and background materials rather than a direct recording of a debate or event. The file is part of the international organizations holdings."
+ },
+ "metadata": {
+  "title": "Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+  "title_normalized": "Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+  "title_en": "Defence and enhancement of historical sites and ensembles - Generalities. Governmental committee for cooperation in the field of safeguarding and revitalization of immovable cultural heritage",
+  "creator": "Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1973-01-01/1975-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1988",
+  "content_date": "1973/1975",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "cultural heritage",
+   "immovable heritage",
+   "heritage protection",
+   "Council of Europe",
+   "governmental committee"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für internationale Organisationen (1950-1972)",
+  "fonds_reference": "E10010*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für internationale Organisationen (1950-1972)",
+   "Abteilung für internationale Organisationen: Zentrale Ablage (1955-1972)",
+   "Organisations internationales",
+   "Organisations européennes et regionales",
+   "CE Conseil de l'Europe"
+  ],
+  "reference_code": "E2003A#1988/15#197*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5443297",
+  "accession_numbers": [
+   "1988/15"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+    "role": "creator",
+    "wikidata": null
+   },
+   {
+    "name": "Conseil de l'Europe",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q8908",
+     "label": "Council of Europe",
+     "description": "International organisation founded in 1949",
+     "url": "https://www.wikidata.org/wiki/Q8908"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): Title is \"Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains French \"Défense...\" and German \"...sauvegard...immobilier\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Hierarchy includes \"Conseil de l'Europe\" and \"Schweizerischen Bundesarchivs\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "Title is \"Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains French \"Défense...\" and German \"...sauvegard...immobilier\""
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hierarchy includes \"Conseil de l'Europe\" and \"Schweizerischen Bundesarchivs\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1988",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1988/15 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2003A#1988/15#197*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4722,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

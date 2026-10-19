@@ -275,7 +275,7 @@ def _related_candidates(cfg, v: dict, k: int = 30) -> list[dict]:
     return [o for _, o in sorted(scored, key=lambda x: -x[0])[:k]]
 
 
-def detail(cfg, anr: str, ap) -> dict:
+def _detail(cfg, anr: str, ap) -> dict:
     """One vote: result, party-cue estimate, parliament's vote, and (Apertus, cached) English title, summary, related votes."""
     v = _by_anr(cfg, anr)
     cache_dir = cfg["paths"]["data_dir"] / "referendum" / "votes"
@@ -323,7 +323,7 @@ given (the party's recommendations on related votes near {year}) or in the party
 Return {{"parties": {{"<party>": {{"rec": "1|2|5", "reason": "<sentence>"}}}}}}."""
 
 
-def whatif(cfg, anr: str, year: int, ap) -> dict:
+def _whatif(cfg, anr: str, year: int, ap) -> dict:
     """The proposal of vote `anr` under the conditions of `year`: its own party positions with that year's strengths
     (evidence-based), and positions imagined by Apertus for the parties of that year (generated). When a related vote
     lies within 6 years of `year`, its model residual corrects both (issue-specific gap of that electorate)."""
@@ -333,7 +333,7 @@ def whatif(cfg, anr: str, year: int, ap) -> dict:
     path = cache_dir / f"{anr}_{year}.json"
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
-    d = detail(cfg, anr, ap)
+    d = _detail(cfg, anr, ap)
     cond = conditions(cfg, year)
     recs = recs_of(v)
     c_a, u_a = strict_cue(recs, cond["shares"])
@@ -379,3 +379,54 @@ def whatif(cfg, anr: str, year: int, ap) -> dict:
     if imagined:
         path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return out
+
+
+# ------------------------------------------------------------------ the reader's language
+VOTE_TEXT = """For a reader in {language}, write a two-sentence summary of this Swiss federal vote: what was decided and
+why it mattered, in {language}. Keep names of laws, parties and places. (The title is not translated: the page shows
+the official title.) Return one JSON object {{"summary": "<two sentences in {language}>"}}."""
+
+REASONS = """Write each party's reasoning below in {language}, keeping the meaning and the party abbreviations.
+Return one JSON object {{"<party>": "<reasoning in {language}>"}} with the same keys."""
+
+
+def detail(cfg, anr: str, ap, lang: str = "en") -> dict:
+    """`_detail` with the vote's summary written by Apertus in the reader's language (cached per vote)."""
+    from . import i18n
+    d = _detail(cfg, anr, ap)
+    if lang == "en":
+        return d | {"lang": "en"}
+    a = d["apertus"]
+
+    def make():
+        try:
+            raw, _ = ap.chat_json([{"role": "system", "content": VOTE_TEXT.format(language=i18n.language(lang))},
+                                   {"role": "user", "content": json.dumps({"date": d["date"], "title_de": d["title_de"], "title_fr": d["title_fr"],
+                                                                           "official_title": d["title_official"], "summary_en": a.get("summary")},
+                                                                          ensure_ascii=False)}])
+        except Exception:
+            return None
+        return {"summary": raw.get("summary")} if raw.get("summary") else None
+    loc = i18n.localized(cfg["paths"]["data_dir"] / "referendum" / "votes" / f"{anr}.json", lang, make) or {}
+    return d | {"lang": lang if loc else "en", "apertus": a | {"summary": loc.get("summary") or a.get("summary")}}
+
+
+def whatif(cfg, anr: str, year: int, ap, lang: str = "en") -> dict:
+    """`_whatif` with the imagined parties' reasoning in the reader's language. The positions themselves are those of the
+    one cached run, so the estimates do not depend on the language."""
+    from . import i18n
+    w = _whatif(cfg, anr, year, ap)
+    parties = (w.get("imagination") or {}).get("parties") or {}
+    if lang == "en" or not parties:
+        return w | {"lang": "en"}
+
+    def make():
+        try:
+            raw, _ = ap.chat_json([{"role": "system", "content": REASONS.format(language=i18n.language(lang))},
+                                   {"role": "user", "content": json.dumps({p: x.get("reason") for p, x in parties.items()}, ensure_ascii=False)}])
+        except Exception:
+            return None
+        return {p: str(raw[p]) for p in parties if isinstance(raw.get(p), str) and raw[p].strip()}
+    loc = i18n.localized(cfg["paths"]["data_dir"] / "referendum" / "whatif" / f"{anr}_{year}.json", lang, make) or {}
+    im = w["imagination"] | {"parties": {p: x | {"reason": loc.get(p, x.get("reason"))} for p, x in parties.items()}}
+    return w | {"lang": lang if loc else "en", "imagination": im}

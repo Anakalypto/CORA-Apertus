@@ -1,0 +1,70 @@
+{
+ "id": "21790701",
+ "uri": "https://culture.ld.admin.ch/ais/21790701",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21790701",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 19.02.1979",
+ "reference_code": "J2.225#1996/68#7557#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 79/50/02A;Rolle 1480\nSignatur Bundesarchiv: J2.225#1996/68#70842*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: Messe für Schweizer Herren-Mode im neu eröffneten Textil & Mode Center (TMC)\nSequenzbeschrieb: CH Zürich, ZH: AA TMC / Einkäufer in der Ausstellung / Modeschau",
+ "author": "AutorIn: Häberlin, Christophe\nProduktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 12.02.1979-26.02.1979",
+ "form": "Video",
+ "format": "Dauer: 1.33\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.00.00\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Mode;Messe",
+ "country": null,
+ "date": {
+  "from": "1979-02-19",
+  "to": null,
+  "expressed": "1979.02.19"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21790698",
+   "title": "Tagesschau SFDRS 19.02.1979",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#7557*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690388",
+   "title": "Tagesschau SFDRS 1979",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1979"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

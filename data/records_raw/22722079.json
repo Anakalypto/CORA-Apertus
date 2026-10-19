@@ -1,0 +1,67 @@
+{
+ "id": "22722079",
+ "uri": "https://culture.ld.admin.ch/ais/22722079",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22722079",
+ "title": "Übermittlung von historischen Publikationen: Traité historique sur les régiments suisses; Die Schweizerische Abordnung an den Friedenskongress in Münster und Osnabrück",
+ "reference_code": "E2200.41-02#1000/1671#1172*",
+ "reference_number": "11/80",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1880-01-01",
+  "to": null,
+  "expressed": "1880.01.01"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10634",
+   "number": "1000/1671",
+   "title": "1000/01671 Schweizerische Vertretung, Paris (FR-Paris) (1798-1929)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22486564",
+   "title": "1880-1889",
+   "level": "Serie",
+   "reference_code": "E2200.41-02#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/13953129",
+   "title": "Schweizerische Vertretung, Paris: Repertorium (1798-1939)",
+   "level": "Sub-file",
+   "reference_code": "E2200.41-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6463",
+   "title": "Schweizerische Vertretung, Paris (1798-)",
+   "level": "Stock",
+   "reference_code": "E10667*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

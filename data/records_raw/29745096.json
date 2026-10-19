@@ -1,0 +1,67 @@
+{
+ "id": "29745096",
+ "uri": "https://culture.ld.admin.ch/ais/29745096",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29745096",
+ "title": "Zeitungsartikel aus der Volksstimme St. Gallen vom 26.03.1936: \"Das sagt der Propagandachef der Schweizerischen Offiziersgesellschaft\" und zwei weitere Artikel",
+ "reference_code": "J1.107#2012/140#202*",
+ "reference_number": "60",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1936-01-01",
+  "to": null,
+  "expressed": "1936"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/29343559",
+   "number": "2012/140",
+   "title": "2012/00140 Hausamann, Torsten (Teufen) (1922-1974)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29740262",
+   "title": "Schweizerische Offiziersgesellschaft (SOG)",
+   "level": "Serie",
+   "reference_code": "J1.107#60"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3988481",
+   "title": "Diverse Tätigkeiten",
+   "level": "Serie",
+   "reference_code": "J1.107#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3896",
+   "title": "Hausamann Hans (1897-1974)",
+   "level": "Stock",
+   "reference_code": "J1.107*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

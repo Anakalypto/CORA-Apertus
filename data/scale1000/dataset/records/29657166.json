@@ -1,0 +1,401 @@
+{
+ "id": "29657166",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29657166",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657166",
+  "reference_code": "J2.225#2006/364#118#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Internationale Währungskrise",
+   "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#1158*",
+   "scope_and_content": "Sequenzbeschrieb: GB <London: Broker in wiedereröffneter Devisenbörse arbeitend;Japan <Tokio: Börsenhändler in Börse arbeitend / Angestellter Kurse an Tafel notierend / AA geschlossene Börse / Schliessungs-Schild;Luxemburg: Finanzminister-Wirtschaftsminister Treffen / PK FM Valéry Giscard d'Estaing zu Italien / Statement AM Gaston Thorn und MP Pierre Werner;CH <Zürich, ZH: Devisenhändler im Büro arbeitend / Börsenhändler am Ring gestikulierend\nZusammenfassung: GB, Japan, CH: Internationale Währungs-Krise",
+   "author": "Produktionsgesellschaft: Agenturen",
+   "form": "Video",
+   "format": "Dauer: 00:04:38\nFarbe: SW\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.25.21\nTräger: Betacam-Digital",
+   "thema": "Personen: Giscard d'Estaing, Valéry;Thorn, Gaston;Werner, Pierre\nSachdeskriptor: Währung",
+   "date": {
+    "from": "1972-07-02",
+    "to": null,
+    "expressed": "1972.07.02"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+     "number": "2006/364",
+     "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news segment produced by news agencies.",
+  "resume": "A television segment from the Panorama der Woche series dated 2 July 1972, showing scenes of currency trading in London, Tokyo, and Zurich, alongside a meeting of Luxembourg's finance ministers and a statement by Gaston Thorn and Pierre Werner."
+ },
+ "metadata": {
+  "title": "Internationale Währungskrise",
+  "title_normalized": "Internationale Währungskrise",
+  "title_en": "International Currency Crisis",
+  "creator": "Agenturen",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1972-07-02",
+  "date_published": "1972-07-02",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1972-07-02",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "currency crisis",
+   "finance",
+   "economics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1972",
+   "Panorama der Woche - Tél-Hebdo - Telerama 02.07.1972"
+  ],
+  "reference_code": "J2.225#2006/364#118#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657166",
+  "accession_numbers": [
+   "2006/364"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Giscard d'Estaing, Valéry",
+    "display_name": "Valéry Giscard d'Estaing",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q2124",
+     "label": "Valéry Giscard d'Estaing",
+     "description": "French official and politician (1926–2020)",
+     "url": "https://www.wikidata.org/wiki/Q2124"
+    },
+    "life_date_check": {
+     "born": 1926,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thorn, Gaston",
+    "display_name": "Gaston Thorn",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q295128",
+     "label": "Gaston Thorn",
+     "description": "Luxembourgish politician (1928–2007)",
+     "url": "https://www.wikidata.org/wiki/Q295128"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2007,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner, Pierre",
+    "display_name": "Pierre Werner",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q315661",
+     "label": "Pierre Werner",
+     "description": "Luxembourgish politician (1913-2002), Prime Minister of Luxembourg (1959-1974, 1979-1984)",
+     "url": "https://www.wikidata.org/wiki/Q315661"
+    },
+    "life_date_check": {
+     "born": 1913,
+     "died": 2002,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "London",
+    "as_written": "GB",
+    "role": "depicted",
+    "country": "GBR",
+    "lat": 51.5074456,
+    "lon": -0.1277653,
+    "gazetteer": "https://www.openstreetmap.org/relation/175342",
+    "model_lat": 51.5074,
+    "model_lon": -0.1278
+   },
+   {
+    "name": "Tokyo",
+    "as_written": "Japan",
+    "role": "depicted",
+    "country": "JPN",
+    "lat": 35.6768601,
+    "lon": 139.7638947,
+    "gazetteer": "https://www.openstreetmap.org/relation/1543125",
+    "model_lat": 35.6762,
+    "model_lon": 139.6503
+   },
+   {
+    "name": "Zürich",
+    "as_written": "CH",
+    "role": "depicted",
+    "country": "CHE",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   },
+   {
+    "name": "Luxembourg",
+    "as_written": "Luxemburg",
+    "role": "depicted",
+    "country": "LUX",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 49.6117,
+    "model_lon": 6.1335
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1970-1978)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: … Zusammenfassung: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:04:38\nFarbe: SW\nFormat Arbeitskopie: Sic",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Giscard d'Estaing, Valéry;Thorn, Gaston;Werner, Pierre; named organizations or places (apertus): Luxemburg: Finanzminister-Wirtschaftsminister Treffen",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1972.07.02; free text places (apertus): Zürich, ZH",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1970-1978)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: … Zusammenfassung: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:04:38\nFarbe: SW\nFormat Arbeitskopie: Sic"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1972.07.02"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Giscard d'Estaing, Valéry;Thorn, Gaston;Werner, Pierre"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Luxemburg: Finanzminister-Wirtschaftsminister Treffen"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1972-07-02",
+   "place": "London",
+   "lat": 51.5074456,
+   "lon": -0.1277653,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1972-07-02",
+   "place": "Tokyo",
+   "lat": 35.6768601,
+   "lon": 139.7638947,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1972-07-02",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1972-07-02",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television segment aired as part of Panorama der Woche.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/364 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/364#118#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5396,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

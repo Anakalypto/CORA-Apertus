@@ -1,0 +1,289 @@
+{
+ "id": "3472254",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3472254",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3472254",
+  "reference_code": "E4#1000/781#285*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Festschriften",
+   "reference_number": "5.2",
+   "scope_and_content": "Ausarbeitung durch Prof. W. Oechsli (Die Anfänge der Eidgenossenschaft) und Prof. C. Hilty (Die Bundesverfassungen der schweizerischen Eidgenossenschaft); Abgabe und Verteilung",
+   "form": "Mikroform",
+   "date": {
+    "from": "1890-01-01",
+    "to": "1893-12-31",
+    "expressed": "1890-1893"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/12694",
+     "number": "1000/781",
+     "title": "1000/00781 Bundesverwaltung (Bern) (1848-1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "publication / book",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit contains scholarly works compiled for a federal celebration, indicating a retrospective and analytic nature.",
+  "resume": "The record contains two scholarly contributions by Prof. W. Oechsli and Prof. C. Hilty on the origins of the Swiss Confederation and its federal constitutions, compiled as part of a festschrift series. It documents the preparation and distribution of these works rather than the events themselves. The material is preserved as a microform within the Swiss Federal Archives."
+ },
+ "metadata": {
+  "title": "Festschriften",
+  "title_normalized": "Festschriften",
+  "title_en": "Festschriften (Festschrifts)",
+  "creator": "Prof. W. Oechsli and Prof. C. Hilty",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1890/1893",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1890/1893",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Confederation",
+   "federal constitutions",
+   "history",
+   "scholarly works"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Inneres, Verwaltung und Verschiedenes",
+  "fonds_reference": "E4*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Inneres, Verwaltung und Verschiedenes",
+   "Feierlichkeiten und Feste, Sportanlässe",
+   "Bundesfeier 1891"
+  ],
+  "reference_code": "E4#1000/781#285*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3472254",
+  "accession_numbers": [
+   "1000/781"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Prof. W. Oechsli",
+    "display_name": "W. Oechsli",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Prof. C. Hilty",
+    "display_name": "C. Hilty",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Prof. W. Oechsli and Prof. C. Hilty are named.; named organizations or places (apertus): Swiss Federal Archives (CH-BAR), Bundesverwaltung (Bern), Eidgenossenschaft are named.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in hierarchy (e.g., Bern) or accession title, not as structured fields.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in hierarchy (e.g., Bern) or accession title, not as structured fields."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Prof. W. Oechsli and Prof. C. Hilty are named."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives (CH-BAR), Bundesverwaltung (Bern), Eidgenossenschaft are named."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Prof. W. Oechsli and Prof. C. Hilty are public figures."
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person is concerned by health, criminal, asylum, religion, sexual life or political opinion."
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data about private individuals or sensitive topics is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1890-1893",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Scholarly contributions by Prof. W. Oechsli and Prof. C. Hilty were prepared and compiled as part of a festschrift series.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/781 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4#1000/781#285*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4512,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

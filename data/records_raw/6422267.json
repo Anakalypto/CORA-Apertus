@@ -1,0 +1,73 @@
+{
+ "id": "6422267",
+ "uri": "https://culture.ld.admin.ch/ais/6422267",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6422267",
+ "title": "Registraturplan vom 01.01.1930",
+ "reference_code": "E6354A#2000/299#13*",
+ "reference_number": "5-163",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1905-01-01",
+  "to": "1930-12-31",
+  "expressed": "1905-1930"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/14721",
+   "number": "2000/299",
+   "title": "2000/00299 Zollkreisdirektion, Schaffhausen, (DII) (Schaffhausen) (1810-1991)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6422262",
+   "title": "Allgemeine Nummern",
+   "level": "Serie",
+   "reference_code": "E6354A#5-163"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4909080",
+   "title": "Kontrolle V",
+   "level": "Serie",
+   "reference_code": "E6354A#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7078",
+   "title": "Zollkreisdirektion Schaffhausen: Zentrale Ablage (1848-1905)",
+   "level": "Sub-file",
+   "reference_code": "E6354A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7077",
+   "title": "Zollkreisdirektion, Schaffhausen (1848-)",
+   "level": "Stock",
+   "reference_code": "E10892*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

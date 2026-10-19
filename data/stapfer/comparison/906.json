@@ -1,0 +1,58 @@
+{
+ "id": 906,
+ "signature": "BAR B0 1000/1483, Nr. 1463, fol. 454-454v",
+ "reference": {
+  "place": "Oberhofen",
+  "canton_1799": "Thurgau",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Büchi",
+  "teacher_age": 25,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 1,
+  "pupils_winter": 40,
+  "pupils_summer": null,
+  "author_name": "Johannes   Büchi",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Oberhoffen",
+  "canton_1799": "Thurgäu",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Büchi",
+  "teacher_age": 55,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 1,
+  "pupils_winter": 40,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Oberhoffen ein Dorf in Local und Oeonomie angelegenheiten macht es mit Gingishaus eine Dorf gemeine aus gehört zur Kirchen Gemeine Sirnach.",
+  "canton_1799": "gehört zum Distrik Tobel im Kanton Thurgäü",
+  "school_type": null,
+  "confession": "gehört zur Kirchen Gemeine Sirnach",
+  "teacher_name": "Johannes Büchi von Oberhoffen",
+  "teacher_age": "gebohren den 21. febr. 1747 1774. ein Ehmann",
+  "teacher_marital_status": null,
+  "teacher_since": "sind einem Jahr Schulmeister vorher",
+  "pupils_winter": "40. Jncirca die Hälfte Knaben und die Hälfte Mädchen"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "mismatch",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "missed",
+  "date_written": "both_empty"
+ },
+ "seconds": 7.56
+}

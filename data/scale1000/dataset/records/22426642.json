@@ -1,0 +1,296 @@
+{
+ "id": "22426642",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22426642",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22426642",
+  "reference_code": "J2.240#2002/139#948#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "U5. GRAND CONSEIL MENU / GENEVE ; Journal Romand, 17.04.1986",
+   "old_reference_code": "Original Signatur: JRTSR LM013455\nSignatur Bundesarchiv: J2.240#2002/139#4859*",
+   "scope_and_content": "Sequenzbeschrieb: Geneve : reunion du Grand Conseil - Allocution de M. Menu - Carte de la rade de Geneve - Vue de la rade - Projet traversee sur la carte -",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: SUISSE\nZeitliche Abdeckung: 10.04.1986-24.04.1986",
+   "form": "Video",
+   "format": "Dauer: 00:00.48\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:06.16",
+   "thema": "Sachdeskriptor: Politique.gen.",
+   "date": {
+    "from": "1986-04-17",
+    "to": null,
+    "expressed": "1986.04.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+     "number": "2002/139",
+     "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast from the television program, created at the time of the events by the publisher.",
+  "resume": "A television segment from the Journal Romand broadcast on 17 April 1986, showing a meeting of the Grand Council in Geneva with a speech by M. Menu, accompanied by maps and views of the Rade de Genève."
+ },
+ "metadata": {
+  "title": "U5. GRAND CONSEIL MENU / GENEVE ; Journal Romand, 17.04.1986",
+  "title_normalized": "U5. GRAND CONSEIL MENU / GENEVE ; Journal Romand, 17.04.1986",
+  "title_en": "Grand Council Menu / Geneva; Journal Romand, 17 April 1986",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1986-04-17",
+  "date_published": "1986-04-17",
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "1986-04-17",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "Politics",
+   "Geneva",
+   "Grand Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Journal romand 1981-1986 TSR",
+   "Journal romand TSR 1986",
+   "Journal romand TSR 17.04.1986"
+  ],
+  "reference_code": "J2.240#2002/139#948#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22426642",
+  "accession_numbers": [
+   "2002/139"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "GENEVE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": 46.2,
+    "model_lon": 6.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"2002/00139 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): U5. GRAND CONSEIL MENU / GENEVE ; Journal Romand, 17.04.1986",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Geneve : reunion du Grand Conseil - Allocution de M. Menu - Carte de la rade de Geneve - Vue de la rade - Projet traversee sur la carte -",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:00.48\nFarbe: couleur\nFormat Arbeitskopie; multilingual (apertus): title: 'U5. GRAND CONSEIL MENU / GENEVE' ; scope_and_content: 'Sequenzbeschrieb: ...'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): title: 'GENEVE' ; coverage: 'SUISSE' ; scope_and_content: 'Geneve'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1986.04.17; free text places (apertus): scope_and_content: 'Geneve : reunion du Grand Conseil'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"2002/00139 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "U5. GRAND CONSEIL MENU / GENEVE ; Journal Romand, 17.04.1986"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Geneve : reunion du Grand Conseil - Allocution de M. Menu - Carte de la rade de Geneve - Vue de la rade - Projet traversee sur la carte -"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:00.48\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'U5. GRAND CONSEIL MENU / GENEVE' ; scope_and_content: 'Sequenzbeschrieb: ...'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1986.04.17"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: 'Geneve : reunion du Grand Conseil'"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'GENEVE' ; coverage: 'SUISSE' ; scope_and_content: 'Geneve'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1986-04-17",
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Broadcast of a segment from Journal Romand covering Grand Council activities.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/139 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#2002/139#948#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5130,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

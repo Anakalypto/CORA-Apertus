@@ -1,0 +1,327 @@
+{
+ "id": "21738172",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21738172",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21738172",
+  "reference_code": "J2.225#1996/68#3170#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 23.01.1967",
+   "old_reference_code": "Original Signatur: TSSRG 67/23/06; Rolle 623\nSignatur Bundesarchiv: J2.225#1996/68#40158*",
+   "scope_and_content": "Inhaltsangabe: Indonesien Jakarta: Studenten-Demonstration gegen P Ahmed Sukarno und Vorbereitungen zu seinem endgültigen Sturz\nSequenzbeschrieb: Indonesien Jakarta: Demonstrierende, defilierende Studenten / General Suharto Anliegen der Studenten entgegennehmend",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln\nZeitliche Abdeckung: 16.01.1967-30.01.1967",
+   "form": "Video",
+   "format": "Dauer: 0.56\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.55.47\nTräger: Betacam-Digital",
+   "thema": "Personen: Sukarno, Ahmed; Suharto\nSachdeskriptor: Regierung",
+   "date": {
+    "from": "1967-01-23",
+    "to": null,
+    "expressed": "1967.01.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast from the news program Tagesschau, captured on 16 mm film and preserved as part of the Swiss Federal Archives.",
+  "resume": "A television news report from January 23, 1967, showing student demonstrations in Jakarta, Indonesia, against President Ahmed Sukarno and General Suharto's reception of the students' concerns."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 23.01.1967",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 23.01.1967",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 23 January 1967",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1967-01-23",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1967-01-23",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Sukarno",
+   "Suharto",
+   "Indonesia"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1967",
+   "Tagesschau SFDRS 23.01.1967"
+  ],
+  "reference_code": "J2.225#1996/68#3170#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21738172",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Sukarno",
+    "display_name": "Sukarno",
+    "role": "Personen",
+    "wikidata": {
+     "qid": "Q76127",
+     "label": "Sukarno",
+     "description": "1st President of Indonesia (1901—1970)",
+     "url": "https://www.wikidata.org/wiki/Q76127"
+    },
+    "life_date_check": {
+     "born": 1901,
+     "died": 1970,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Suharto",
+    "display_name": "Suharto",
+    "role": "Personen",
+    "wikidata": {
+     "qid": "Q44819",
+     "label": "Suharto",
+     "description": "2nd President of Indonesia (1968—1998) and Acting President of Indonesia (1967—1968)",
+     "url": "https://www.wikidata.org/wiki/Q44819"
+    },
+    "life_date_check": {
+     "born": 1921,
+     "died": 2008,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Jakarta",
+    "as_written": "Jakarta",
+    "role": "depicted",
+    "country": "ID",
+    "lat": -6.1754049,
+    "lon": 106.827168,
+    "gazetteer": "https://www.openstreetmap.org/relation/6362934",
+    "model_lat": 6.21,
+    "model_lon": 106.85
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: Indonesien Jakarta: Studenten-Demonstration gegen P Ahmed Sukarno und Vorbereitungen zu seinem endgültigen Sturz\nSequenzbeschrieb: Indonesien Jakarta: Demonstrierende, defilierende Studenten / General Suharto Anliegen der Studenten entgegennehmend",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.56\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Sukarno, Ahmed; Suharto; named organizations or places (apertus): Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1967.01.23",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Indonesien Jakarta: Studenten-Demonstration gegen P Ahmed Sukarno und Vorbereitungen zu seinem endgültigen Sturz\nSequenzbeschrieb: Indonesien Jakarta: Demonstrierende, defilierende Studenten / General Suharto Anliegen der Studenten entgegennehmend"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.56\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1967.01.23"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Sukarno, Ahmed; Suharto"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1967-01-23",
+   "place": "Jakarta",
+   "lat": -6.1754049,
+   "lon": 106.827168,
+   "description": "Broadcast of student demonstrations against President Sukarno and General Suharto.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#3170#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5263,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

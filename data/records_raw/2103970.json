@@ -1,0 +1,67 @@
+{
+ "id": "2103970",
+ "uri": "https://culture.ld.admin.ch/ais/2103970",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2103970",
+ "title": "Tod, 6.9.1900: Nachrufe, Abdankungsrede",
+ "reference_code": "J1.63#1000/1360#45*",
+ "reference_number": "05.c",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1900-01-01",
+  "to": null,
+  "expressed": "1900"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16700",
+   "number": "1000/1360",
+   "title": "1000/01360 Welti Peter (1774-1948)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3809693",
+   "title": "Verschiedenes",
+   "level": "Serie",
+   "reference_code": "J1.63#05.c"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3809690",
+   "title": "Johann Jakob Welti",
+   "level": "Serie",
+   "reference_code": "J1.63#05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4099",
+   "title": "Familie Welti (keine Angabe)",
+   "level": "Stock",
+   "reference_code": "J1.63*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

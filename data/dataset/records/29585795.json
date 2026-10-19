@@ -1,0 +1,272 @@
+{
+ "id": "29585795",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29585795",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29585795",
+  "reference_code": "E8172#2012/57#700*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Inhaltsverzeichnis",
+   "reference_number": "A.G.05.B",
+   "date": {
+    "from": "1932-01-01",
+    "to": "1934-12-31",
+    "expressed": "1932-1934"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/29168616",
+     "number": "2012/57",
+     "title": "2012/00057 Bundesamt f�r Umwelt, BAFU (Ittigen) (1886-2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a table of contents serving as a finding aid for the sub-file containing technical documents on the Rhone river expansion projects.",
+  "resume": "This is an index or table of contents document for a sub-series of technical files concerning the Rhone river expansion projects up to the Swiss border, specifically the Russin stage. It lists the structure and contents of the associated administrative and technical records rather than containing primary source material itself. The document was created as part of the archival arrangement of the Eidgenössisches Amt für Wasserwirtschaft files."
+ },
+ "metadata": {
+  "title": "Inhaltsverzeichnis",
+  "title_normalized": "Inhaltsverzeichnis",
+  "title_en": "Table of contents",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2012",
+  "content_date": "1932/1934",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Rhone river",
+   "water management",
+   "hydraulic engineering",
+   "Swiss infrastructure",
+   "administrative files"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössisches Amt für Wasserwirtschaft (1919-1979)",
+  "fonds_reference": "E10241*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössisches Amt für Wasserwirtschaft (1919-1979)",
+   "Eidgenössisches Amt für Wasserwirtschaft: Teilregistratur Wasserkräfte und Wasserstrassen (1909-1979)",
+   "Technisches Archiv Schifffahrtsstrassen",
+   "Rhoneausbau bis zur Schweizergrenze",
+   "Rhoneausbau bis zur Schweizergrenze, Stufenprojekte, Stufe Russin"
+  ],
+  "reference_code": "E8172#2012/57#700*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29585795",
+  "accession_numbers": [
+   "2012/57"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössisches Amt für Wasserwirtschaft",
+    "role": "Depositor of the original records described",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'Inhaltsverzeichnis' with broken character 'Ã¨'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): named organizations: 'Bundesamt f�r Umwelt, BAFU', 'Eidgenössisches Amt für Wasserwirtschaft'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in hierarchy (e.g., 'Russin') not linked to authority file",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'Inhaltsverzeichnis' with broken character 'Ã¨'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., 'Russin') not linked to authority file"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "named organizations: 'Bundesamt f�r Umwelt, BAFU', 'Eidgenössisches Amt für Wasserwirtschaft'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2012",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2012/57 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8172#2012/57#700*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4524,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

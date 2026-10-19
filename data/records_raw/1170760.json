@@ -1,0 +1,73 @@
+{
+ "id": "1170760",
+ "uri": "https://culture.ld.admin.ch/ais/1170760",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1170760",
+ "title": "Zeitungsartikel zu den Bundesratswahlen von 1938",
+ "reference_code": "J1.258#1997/222#534*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1938-01-01",
+  "to": null,
+  "expressed": "1938"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16775",
+   "number": "1997/222",
+   "title": "1997/00222 Keine Angaben (k.A.) 2 (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3941194",
+   "title": "Sozialpolitik",
+   "level": "Serie",
+   "reference_code": "J1.258#01.02.01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3941193",
+   "title": "Innenpolitik",
+   "level": "Serie",
+   "reference_code": "J1.258#01.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3941188",
+   "title": "CVP (Christlichdemokratische Volkspartei der Schweiz)",
+   "level": "Serie",
+   "reference_code": "J1.258#01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4157",
+   "title": "Rosenberg Martin (1908-1976)",
+   "level": "Stock",
+   "reference_code": "J1.258*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

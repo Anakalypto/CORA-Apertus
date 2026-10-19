@@ -1,0 +1,356 @@
+{
+ "id": "22411105",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22411105",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22411105",
+  "reference_code": "J2.240#1998/317#1847#1*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "TELESIEGE CHANDOLIN - ST-LUC ; TELE JOURNAL, 25.12.1986",
+   "old_reference_code": "Original Signatur: TJTSR 86UH7221/01; 97LX0850/01\nSignatur Bundesarchiv: J2.240#1998/317#9794*",
+   "scope_and_content": "Sequenzbeschrieb: Montagnes enneigees. Skieurs. Telesiege Chandolin-St-Luc. Int.: sur la contruction du telesiege.",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: MONTAGNES; SUISSE; Valais; Chandolin; St-Luc\nZeitliche Abdeckung: 18.12.1986-01.01.1987",
+   "form": "Video",
+   "format": "Audiotyp: INTER; INTER\nDauer: 00:01.25\nFarbe: couleur\nFormat Arbeitskopie: Betacam-digital\nOriginalformat: COMPON25 4/3\nStartposition: 00:01.30",
+   "thema": "Sachdeskriptor: neige; interview; ski",
+   "date": {
+    "from": "1986-12-25",
+    "to": null,
+    "expressed": "1986.12.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16906",
+     "number": "1998/317",
+     "title": "1998/00317 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording created at the time of the events by the television station.",
+  "resume": "This is a television news segment from Téléjournal broadcast on 25 December 1986 by Télévision Suisse Romande, showing footage of snowy mountains, skiers, and the construction of the Chandolin–St-Luc cable car in Valais, Switzerland."
+ },
+ "metadata": {
+  "title": "TELESIEGE CHANDOLIN - ST-LUC ; TELE JOURNAL, 25.12.1986",
+  "title_normalized": "TELESIEGE CHANDOLIN - ST-LUC ; TELE JOURNAL, 25.12.1986",
+  "title_en": "Cable Car Chandolin–St-Luc; Télé Journal, 25 December 1986",
+  "creator": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1986-12-25",
+  "date_published": "1986-12-25",
+  "date_updated": null,
+  "date_archived": "1998",
+  "content_date": "1986-12-25",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "skiing",
+   "cable car",
+   "mountains",
+   "Valais",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Téléjournal 1980-1991 TSR",
+   "Téléjournal TSR 1986",
+   "Téléjournal TSR 25.12.1986"
+  ],
+  "reference_code": "J2.240#1998/317#1847#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22411105",
+  "accession_numbers": [
+   "1998/317"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR)",
+    "role": "creator and publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Chandolin",
+    "as_written": "Chandolin",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2525826,
+    "lon": 7.5986698,
+    "gazetteer": "https://www.openstreetmap.org/node/1436350147",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "St-Luc",
+    "as_written": "St-Luc",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2205594,
+    "lon": 7.596488,
+    "gazetteer": "https://www.openstreetmap.org/node/240043267",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Valais",
+    "as_written": "Valais",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2303063,
+    "lon": 7.6605757,
+    "gazetteer": "https://www.openstreetmap.org/relation/1686699",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Switzerland",
+    "as_written": "SUISSE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"1998/00317 T�l�vision Suisse Roma; uppercase or abbreviated title (apertus): title: \"TELESIEGE CHANDOLIN - ST-LUC ; TELE JOURNAL, 25.12.1986\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content: \"Sequenzbeschrieb: … Int.: …\"",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Audiotyp: INTER; INTER\nDauer: 00:01.25\nFarbe: coul",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): publisher: \"Télévision suisse romande (TSR), SRG SSR idée suisse\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1986.12.25\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"1998/00317 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title: \"TELESIEGE CHANDOLIN - ST-LUC ; TELE JOURNAL, 25.12.1986\""
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content: \"Sequenzbeschrieb: … Int.: …\""
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Audiotyp: INTER; INTER\nDauer: 00:01.25\nFarbe: coul"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: \"1986.12.25\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher: \"Télévision suisse romande (TSR), SRG SSR idée suisse\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1986-12-25",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast recording produced by TSR showing snowy mountains and cable car construction.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1986-12-25",
+   "place": "Chandolin",
+   "lat": 46.2525826,
+   "lon": 7.5986698,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1986-12-25",
+   "place": "St-Luc",
+   "lat": 46.2205594,
+   "lon": 7.596488,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1986-12-25",
+   "place": "Valais",
+   "lat": 46.2303063,
+   "lon": 7.6605757,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1998",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1998/317 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#1998/317#1847#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4733,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

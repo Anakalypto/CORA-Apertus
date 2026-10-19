@@ -1,0 +1,312 @@
+{
+ "id": "30687440",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30687440",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30687440",
+  "reference_code": "J2.143#1996/386#264-2#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zurich : Salut aux jeunes citoyens",
+   "reference_number": "0264-2",
+   "old_reference_code": "Original Signatur: CJS 264-2",
+   "alternate_reference": "CJS_0264-2",
+   "scope_and_content": "Genre:\nCiné-Journal\n\nInhaltsangabe:\nSchweiz, Zürich, ZH: Jungbürgerfeier\n\nSequenzbeschrieb:\nZürich, ZH (Schweiz) - Ankunft JungbürgerInnen\nZürich, ZH (Schweiz) - Rede STP Adolf Lüchinger\nZürich, ZH (Schweiz) - Überreichen von Heimatbuch an JungbürgerInnen\nCommuniqué:\nRéunion, au Kongresshaus, des jeunes citoyens et jeunes citoyennes de la ville de Zurich qui ont atteint leur majorité en 1945 et jouissent maintenant des droits civiques.\n\nKommentar:\nDans de nombreuses communes suisses, les fêtes en l’honneur des jeunes citoyens sont devenues une tradition. A Zurich, le président de la ville, Monsieur Luchinger, s’adresse à deux mille jeunes citoyennes et citoyens. Si nous voulons nous opposer à l’abus de la puissance, dit le magistrat zurichois, nous devons être des citoyens actifs. Cette vérité, la guerre nous l’a fait apparaître, avec une terrible évidence. A l’issue de la fête, les jeunes gens de vingt ans, à qui est permis l’espoir d’un avenir joyeux, reçoivent leur cadeau de citoyens : un livre dédié à la patrie, qui expose avec clarté les droits et les devoirs des citoyens d’un pays libre.",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Video",
+   "format": "Dauer: 01:45 (Start 02:31 / End 04:17)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: nitrate de cellulose 35mm\nKommentarton: allemand\nUntertiltel: français",
+   "thema": "Personen: \nAdolf Lüchinger\n\nOrte: \nZürich, ZH (Schweiz)\n\nSchlagworte: \nEUROPE OCCIDENTALE; JUSTICE, CITOYENNETÉ; HOMME, JEUNESSE",
+   "date": {
+    "from": "1945-11-30",
+    "to": null,
+    "expressed": "1945.11.30"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a contemporary newsreel produced by Cinéjournal suisse, documenting a specific event with direct visual and audio content.",
+  "resume": "A Swiss newsreel from 1945-11-30 records a coming-of-age ceremony in Zurich for young citizens who attained voting rights after 1945, featuring a speech by Adolf Lüchinger and the presentation of a homeland book."
+ },
+ "metadata": {
+  "title": "Zurich : Salut aux jeunes citoyens",
+  "title_normalized": "Zurich : Salut aux jeunes citoyens",
+  "title_en": "Zurich: Greeting to Young Citizens",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1945-11-30",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1945-11-30",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "EUROPE OCCIDENTALE",
+   "CITIZENSHIP",
+   "YOUTH"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1945",
+   "Schweizer Filmwochenschau vom 30.11.1945",
+   "Cinéjournal suisse du 30.11.1945"
+  ],
+  "reference_code": "J2.143#1996/386#264-2#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30687440",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Adolf Lüchinger",
+    "display_name": "Adolf Lüchinger",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2021232",
+     "label": "Adolf Lüchinger",
+     "description": "Swiss politician (1894-1949)",
+     "url": "https://www.wikidata.org/wiki/Q2021232"
+    },
+    "life_date_check": {
+     "born": 1894,
+     "died": 1949,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Zurich, ZH (Switzerland)",
+    "as_written": "Zürich, ZH (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe:\nSchweiz, Zürich, ZH: Jungbürgerfeier",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 01:45 (Start 02:31 / End 04:17)\nSeitenverhä; multilingual (apertus): Communiqué:\nRéunion, au Kongresshaus, des jeunes citoyens et jeunes citoyennes de la ville de Zurich qui ont atteint leur majorité en 1945 et jouissent maintenant des droits civiques.\nKommentar:\nDans de nombreuses communes suisses, les fêtes en l’honneur des jeunes citoyens sont devenues une tradition. A Zurich, le président de la ville, Monsieur Luchinger, s’adresse à deux mille jeunes citoyennes et citoyens. Si nous voulons nous opposer à l’abus de la puissance, dit le magistrat zurichois, nous devons être des citoyens actifs. Cette vérité, la guerre nous l’a fait apparaître, avec une terrible évidence. A l’issue de la fête, les jeunes gens de vingt ans, à qui est permis l’espoir d’un avenir joyeux, reçoivent leur cadeau de citoyens : un livre dédié à la patrie, qui expose avec clarté les droits et les devoirs des citoyens d’un pays libre.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: \nAdolf Lüchinger; named organizations or places (apertus): Orte: \nZürich, ZH (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 1945.11.30; free text places (apertus): Orte: \nZürich, ZH (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe:\nSchweiz, Zürich, ZH: Jungbürgerfeier"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 01:45 (Start 02:31 / End 04:17)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Communiqué:\nRéunion, au Kongresshaus, des jeunes citoyens et jeunes citoyennes de la ville de Zurich qui ont atteint leur majorité en 1945 et jouissent maintenant des droits civiques.\nKommentar:\nDans de nombreuses communes suisses, les fêtes en l’honneur des jeunes citoyens sont devenues une tradition. A Zurich, le président de la ville, Monsieur Luchinger, s’adresse à deux mille jeunes citoyennes et citoyens. Si nous voulons nous opposer à l’abus de la puissance, dit le magistrat zurichois, nous devons être des citoyens actifs. Cette vérité, la guerre nous l’a fait apparaître, avec une terrible évidence. A l’issue de la fête, les jeunes gens de vingt ans, à qui est permis l’espoir d’un avenir joyeux, reçoivent leur cadeau de citoyens : un livre dédié à la patrie, qui expose avec clarté les droits et les devoirs des citoyens d’un pays libre."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 1945.11.30"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte: \nZürich, ZH (Schweiz)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: \nAdolf Lüchinger"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte: \nZürich, ZH (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1945-11-30",
+   "place": "Zurich, ZH (Switzerland)",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Newsreel documenting a ceremony for young citizens in Zurich.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#264-2#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 6048,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

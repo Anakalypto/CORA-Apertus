@@ -1,0 +1,73 @@
+{
+ "id": "5757615",
+ "uri": "https://culture.ld.admin.ch/ais/5757615",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5757615",
+ "title": "Nekrolog, geschrieben von Prof. M. Rümelin, Tübingen",
+ "reference_code": "J1.109-01#1000/1276#70*",
+ "reference_number": "1.M",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Briefe von W. Burckhardt, M. Rümelin",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1923-01-01",
+  "to": null,
+  "expressed": "1923"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16460",
+   "number": "1000/1276",
+   "title": "1000/01276 Keine Angaben (k.A.) 2 (1809-1937)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3761374",
+   "title": "Nekrologe, Biographien",
+   "level": "Serie",
+   "reference_code": "J1.109-01#1.M"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3761362",
+   "title": "1. Teil",
+   "level": "Serie",
+   "reference_code": "J1.109-01#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3499808",
+   "title": "Huber Eugen: Archivalien des Zivilgesetzbuches, Manuskripte und Briefe",
+   "level": "Sub-file",
+   "reference_code": "J1.109-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3898",
+   "title": "Huber Eugen (1849-1923)",
+   "level": "Stock",
+   "reference_code": "J1.109*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

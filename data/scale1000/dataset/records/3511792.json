@@ -1,0 +1,346 @@
+{
+ "id": "3511792",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3511792",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3511792",
+  "reference_code": "E1401#2005/32#5#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité",
+   "scope_and_content": "Sprecher/Sprecherinnen: Frick, Bruno; Huber, Annemarie; Studer, Jean",
+   "date": {
+    "from": "2005-03-07",
+    "to": null,
+    "expressed": "2005.03.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1404998",
+     "number": "2005/32",
+     "title": "2005/00032 Parlamentsdienste (Bern) (2005)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This document is a parliamentary motion from the Christian Democratic Group concerning an efficiency package, recorded during a debate in the Council of States on 7 March 2005. The speakers listed participated in the discussion, and the item is part of the Swiss Federal Archives' holdings of the Council of States' meeting protocols. It represents a primary source of legislative proceedings."
+ },
+ "metadata": {
+  "title": "2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité",
+  "title_normalized": "2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité",
+  "title_en": "Motion of the Christian Democratic Group: Efficiency Package / Motion of the Christian Democratic Group: Efficiency Package",
+  "creator": "Council of States (Ständerat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2005-03-07",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2005-03-07",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary motion",
+   "efficiency package",
+   "Council of States"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2005",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2005/32#5#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3511792",
+  "accession_numbers": [
+   "2005/32"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Bruno Frick",
+    "display_name": "Bruno Frick",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116486",
+     "label": "Bruno Frick",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116486"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Annemarie Huber",
+    "display_name": "Annemarie Huber",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean Studer",
+    "display_name": "Jean Studer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120693",
+     "label": "Jean Studer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120693"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Christian Democratic Group",
+    "role": "author_of_motion",
+    "wikidata": null
+   },
+   {
+    "name": "Council of States (Ständerat)",
+    "role": "creator_of_record",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Bruno Frick\", \"Annemarie Huber\", \"Jean Studer\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2005.03.07",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2003.3311: Motion christlichdemokratische Fraktion. Effizienzpaket / Motion groupe démocrate-chrétien. Paquet efficacité\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2005.03.07"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Bruno Frick\", \"Annemarie Huber\", \"Jean Studer\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2005-03-07",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/32 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2005/32#5#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4909,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

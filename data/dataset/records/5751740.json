@@ -1,0 +1,271 @@
+{
+ "id": "5751740",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5751740",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5751740",
+  "reference_code": "J2.144#1000/1231#5/0774*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsausschnitte",
+   "reference_number": "3.05-48",
+   "scope_and_content": "LA-Berichte (06.08.1939-11.08.1939) ; LA-Berichte (12.08.1939-21.08.1939)",
+   "date": {
+    "from": "1939-01-01",
+    "to": null,
+    "expressed": "1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16276",
+     "number": "1000/1231",
+     "title": "1000/01231 k.A. Organisation (1914-1941)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): The unit consists exclusively of newspaper clippings collected for the Swiss National Exhibition (Landi) in 1939.",
+  "resume": "The record contains newspaper clippings from August 1939 reporting on the Swiss National Exhibition (Landi) in Zurich. It covers two time periods: August 6–11 and August 12–21, 1939. The material is part of the exhibition's propaganda series within the Federal Archives' Landi holdings."
+ },
+ "metadata": {
+  "title": "Zeitungsausschnitte",
+  "title_normalized": "Zeitungsausschnitte",
+  "title_en": "Newspaper clippings",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939-08-06/1939-08-21",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1939",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss National Exhibition (Landi)",
+   "Zurich",
+   "propaganda",
+   "newspapers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Landesausstellung, Zürich 1939 (Landi)",
+  "fonds_reference": "J2.144*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizerische Landesausstellung, Zürich 1939 (Landi)",
+   "Bestandesübersicht",
+   "Propaganda"
+  ],
+  "reference_code": "J2.144#1000/1231#5/0774*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5751740",
+  "accession_numbers": [
+   "1000/1231"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy includes 'Schweizerische Landesausstellung, Zürich 1939'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1939\" (not ISO); free text places (apertus): places only in hierarchy (e.g., Zürich) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed = \"1939\" (not ISO)"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., Zürich) not in structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes 'Schweizerische Landesausstellung, Zürich 1939'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no personal or sensitive data about individuals is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939-08-06/1939-08-21",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper clippings were published covering the Swiss National Exhibition in Zurich.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1231 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.144#1000/1231#5/0774*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4419,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

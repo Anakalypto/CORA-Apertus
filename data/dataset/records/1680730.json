@@ -1,0 +1,273 @@
+{
+ "id": "1680730",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1680730",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1680730",
+  "reference_code": "E2001D#1000/1551#794*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Pressekommentare",
+   "reference_number": "B.14.21.2.1",
+   "alternate_reference": "Aegypten",
+   "date": {
+    "from": "1937-01-01",
+    "to": null,
+    "expressed": "1937"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7560",
+     "number": "1000/1551",
+     "title": "1000/01551 Bundesverwaltung (Bern) (1848-1969)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit contains press clippings and comments compiled by the Swiss foreign policy administration during the specified period.",
+  "resume": "This record is a press commentary file from the Swiss Federal Archives' Foreign Affairs division, covering international affairs in 1937. It contains press clippings or summaries of news reports rather than original recordings or broadcasts. The file is part of a series on Switzerland's international treaties and specific agreements."
+ },
+ "metadata": {
+  "title": "Pressekommentare",
+  "title_normalized": "Pressekommentare",
+  "title_en": "Press commentaries",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1937",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "international relations",
+   "press",
+   "diplomacy",
+   "Switzerland",
+   "1937"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für Auswärtiges (1915-1946)",
+  "fonds_reference": "E10003*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für Auswärtiges (1915-1946)",
+   "Abteilung für Auswärtiges: Zentrale Ablage (1937-1945)",
+   "Auswärtige Politik",
+   "Allgemeine internationale Verträge",
+   "Staatsverträge der Schweiz",
+   "Schweizerische Partikularverträge",
+   "Spezielle Verträge"
+  ],
+  "reference_code": "E2001D#1000/1551#794*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1680730",
+  "accession_numbers": [
+   "1000/1551"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Abteilung für Auswärtiges",
+    "role": "Depositor/creator of the archival series",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Pressekommentare\" in all caps",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Schweizerischen Bundesarchivs\", \"Abteilung für Auswärtiges\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date expressed as \"1937\" instead of ISO; free text places (apertus): alternate_reference \"Aegypten\" is free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Pressekommentare\" in all caps"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"1937\" instead of ISO"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "alternate_reference \"Aegypten\" is free text"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Schweizerischen Bundesarchivs\", \"Abteilung für Auswärtiges\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are mentioned."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1551 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2001D#1000/1551#794*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.65,
+  "tokens": 4547,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

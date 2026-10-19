@@ -1,0 +1,85 @@
+{
+ "id": "2014767",
+ "uri": "https://culture.ld.admin.ch/ais/2014767",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2014767",
+ "title": "Presseberichte und -Artikel",
+ "reference_code": "E5440A#1000/904#460*",
+ "reference_number": "1055",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1957-01-01",
+  "to": null,
+  "expressed": "1957"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13811",
+   "number": "1000/904",
+   "title": "1000/00904 Bundesverwaltung (Bern) (1943-1963)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3692532",
+   "title": "Presseberichte und -Artikel",
+   "level": "Serie",
+   "reference_code": "E5440A#1055"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3692526",
+   "title": "Dokumentation, Allgemeines",
+   "level": "Serie",
+   "reference_code": "E5440A#105"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3692482",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E5440A#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3692481",
+   "title": "Administratives und Rechnungswesen",
+   "level": "Serie",
+   "reference_code": "E5440A#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4316",
+   "title": "Abteilung für Artillerie: Zentrale Ablage (1954-1959)",
+   "level": "Sub-file",
+   "reference_code": "E5440A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4314",
+   "title": "Abteilung für Artillerie (1875-1979)",
+   "level": "Stock",
+   "reference_code": "E10002*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

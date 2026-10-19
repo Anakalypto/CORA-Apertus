@@ -1,0 +1,297 @@
+{
+ "id": "3522546",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3522546",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522546",
+  "reference_code": "E1301#1987/197#12#43*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "87.552: Interpellation Müller-Meilen. Autoreisezüge Deutschland-Italien / Transport de voitures accompagnées entre l'Allemagne et l'Italie",
+   "date": {
+    "from": "1987-12-18",
+    "to": null,
+    "expressed": "1987.12.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383425",
+     "number": "1987/197",
+     "title": "1987/00197 Parlamentsdienste (Bern) (1987)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a parliamentary session and its associated sound recording, created at the time of the debate.",
+  "resume": "This document is a parliamentary interpellation from the Swiss National Council concerning automobile travel between Germany and Italy, recorded during the winter session of 1987. It is part of the National Council's meeting protocols and sound recordings series. The record captures a debate initiated by Müller-Meilen."
+ },
+ "metadata": {
+  "title": "87.552: Interpellation Müller-Meilen. Autoreisezüge Deutschland-Italien / Transport de voitures accompagnées entre l'Allemagne et l'Italie",
+  "title_normalized": "87.552: Interpellation Müller-Meilen. Autoreisezüge Deutschland-Italien / Transport de voitures accompagnées entre l'Allemagne et l'Italie",
+  "title_en": "Interpellation Müller-Meilen: Automobile travel between Germany and Italy / Transport of accompanied vehicles between Germany and Italy",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1987-12-18",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1987-12-18",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "transport",
+   "international travel",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Wintersession 1987",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1987/197#12#43*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522546",
+  "accession_numbers": [
+   "1987/197"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Müller-Meilen",
+    "display_name": "Müller-Meilen",
+    "role": "interpellator",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Interpellation Müller-Meilen. Autoreisezüge Deutschland-Italien / Transport de voitures accompagnées entre l'Allemagne et l'Italie'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: 'Interpellation Müller-Meilen'; named organizations or places (apertus): title: 'Deutschland-Italien', 'l'Allemagne et l'Italie'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: '1987.12.18'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Interpellation Müller-Meilen. Autoreisezüge Deutschland-Italien / Transport de voitures accompagnées entre l'Allemagne et l'Italie'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: '1987.12.18'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Interpellation Müller-Meilen'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Deutschland-Italien', 'l'Allemagne et l'Italie'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/197 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1987/197#12#43*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4710,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

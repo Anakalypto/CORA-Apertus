@@ -1,0 +1,348 @@
+{
+ "id": "29674573",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29674573",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674573",
+  "reference_code": "J2.225#2008/121#55#36*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Gewalt gegen Frauen",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504593\nSignatur Bundesarchiv: J2.225#2008/121#55*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Zürich, ZH: Solidaritäts-Aktion von PolitikerInnen, KünstlerInnen, Männern und Frauen am Internationalen Tag gegen Gewalt an Frauen\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Zürich, ZH: Solidaritäts-Kundgebung vor dem Stadthaus / Statement Tim Wielandt / Statement Esther Girsberger / Vorbereitungen Teilnehmer für \"Stadtlauf\" / Statement Andreas Brunner / Statement Ruth Schweikert / TeilnehmerInnen Holzhaus bastelnd (",
+   "author": "AutorIn: Kolbe, Christian (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:48\nPosition Anfang: 01:13:36",
+   "thema": "Personen: Wielandt, Tim (Mister Schweiz 2007)\nSachdeskriptor: /MENSCH./FRAU;/MENSCH./VERHALTEN/GEWALT",
+   "date": {
+    "from": "2007-11-24",
+    "to": null,
+    "expressed": "2007.11.24"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production of a live event.",
+  "resume": "The document is a video recording of a solidarity action in Zurich on 24 November 2007 against violence against women, featuring statements from Tim Wielandt, Esther Girsberger, Andreas Brunner, and Ruth Schweikert, along with preparations for a city run."
+ },
+ "metadata": {
+  "title": "Gewalt gegen Frauen",
+  "title_normalized": "Gewalt gegen Frauen",
+  "title_en": "Violence against Women",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-11-24",
+  "date_published": "2007-11-24",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-11-24",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "violence against women",
+   "women's rights",
+   "public demonstration"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 24.11.2007"
+  ],
+  "reference_code": "J2.225#2008/121#55#36*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674573",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Tim Wielandt",
+    "display_name": "Tim Wielandt",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Esther Girsberger",
+    "display_name": "Esther Girsberger",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q58790392",
+     "label": "Esther Girsberger",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q58790392"
+    },
+    "life_date_check": {
+     "born": 1961,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andreas Brunner",
+    "display_name": "Andreas Brunner",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q16980193",
+     "label": "Andreas Brunner",
+     "description": "Swiss entrepreneur, politician and jurist (1923-1988)",
+     "url": "https://www.wikidata.org/wiki/Q16980193"
+    },
+    "life_date_check": {
+     "born": 1923,
+     "died": 1988,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruth Schweikert",
+    "display_name": "Ruth Schweikert",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2177767",
+     "label": "Ruth Schweikert",
+     "description": "Swiss writer (1964–2023)",
+     "url": "https://www.wikidata.org/wiki/Q2177767"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Zürich, ZH: Solidaritäts-Aktion von PolitikerInnen, KünstlerInnen, Männern und Frauen am Internationalen Tag gegen Gewalt an Frauen",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Kolbe, Christian (AUT)\nProduktionsgesells",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Wielandt, Tim (Mister Schweiz 2007); named organizations or places (apertus): Zürich, ZH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.11.24; free text places (apertus): Zürich, ZH",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Zürich, ZH: Solidaritäts-Aktion von PolitikerInnen, KünstlerInnen, Männern und Frauen am Internationalen Tag gegen Gewalt an Frauen"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Kolbe, Christian (AUT)\nProduktionsgesells"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.11.24"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Wielandt, Tim (Mister Schweiz 2007)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-11-24",
+   "place": "Zürich, ZH",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Solidarity action against violence against women organized by politicians, artists, and citizens.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#55#36*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5177,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

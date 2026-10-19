@@ -1,0 +1,310 @@
+{
+ "id": "21721316",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21721316",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21721316",
+  "reference_code": "J2.225#1996/68#2279#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964",
+   "old_reference_code": "Original Signatur: TSSRG 64/171/03; Rolle 405\nSignatur Bundesarchiv: J2.225#1996/68#30373*",
+   "scope_and_content": "Inhaltsangabe: Zypern Kyrenia: Brandanschlag auf britischen Segelclub durch Griechisch-Zyprioten o.O.: Manöver der griechischen Marine\nSequenzbeschrieb: Zypern Kyrenia: Schwenk über zerstörte Segelboote am Strand / Einladen der Segelboote in Lastwagen o.O.: Soldaten mitFernglas auf fahrendem Schiff",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.07.1964-23.07.1964",
+   "form": "Video",
+   "format": "Dauer: 1.07\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.04.33\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Bürgerkrieg",
+   "date": {
+    "from": "1964-07-16",
+    "to": null,
+    "expressed": "1964.07.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a contemporaneous video recording produced by news agencies and broadcast by SRG SSR idée suisse.",
+  "resume": "This is a 16 July 1964 television news segment from Tagesschau (TS), Telejournal (FR), Telegiornale (IT) covering a fire attack on a British sailing club in Kyrenia, Cyprus by Greek‑Cypriot perpetrators, and Greek‑Marine maneuvers, with footage of destroyed boats, trucks loading boats, and soldiers with binoculars on a ship."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 16 July 1964",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1964-07-16",
+  "date_published": "1964-07-16",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1964-07-16",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Cyprus",
+   "bombing",
+   "military maneuvers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1964",
+   "Tagesschau SFDRS 16.07.1964"
+  ],
+  "reference_code": "J2.225#1996/68#2279#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21721316",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Agenturen",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Kyrenia",
+    "as_written": "Kyrenia",
+    "role": "depicted",
+    "country": "CY",
+    "lat": 35.3396291,
+    "lon": 33.3205287,
+    "gazetteer": "https://www.openstreetmap.org/relation/16272388",
+    "model_lat": 35.2,
+    "model_lon": 34.7
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title: 'Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content: 'Inhaltsangabe: … Sequenzbeschrieb: …'",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 1.07\nFarbe: Schwarzweissaufnahmen\nOriginalf; multilingual (apertus): title: 'Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): scope_and_content: 'Zypern Kyrenia'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1964.07.16; free text places (apertus): scope_and_content: 'Zypern Kyrenia'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title: 'Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content: 'Inhaltsangabe: … Sequenzbeschrieb: …'"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.07\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Tagesschau - Téléjournal - Telegiornale (TS), 16.07.1964'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1964.07.16"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: 'Zypern Kyrenia'"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: 'Zypern Kyrenia'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1964-07-16",
+   "place": "Kyrenia",
+   "lat": 35.3396291,
+   "lon": 33.3205287,
+   "description": "Broadcast of Tagesschau segment covering the attack and Greek‑Marine maneuvers.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#2279#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5290,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

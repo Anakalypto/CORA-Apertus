@@ -1,0 +1,486 @@
+{
+ "id": "3513345",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3513345",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513345",
+  "reference_code": "E1301#2001/217#7#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2001.3678: Motion FK-NR (01.048). Ausgabenwachstum im Finanzplan 2003-2005 / Motion CdF-CN (01.048). Croissance des dépenses dans le plan financier 2003-2005; 2001.0048: Finanzplan 2003-2005 / Plan financier 2003-2005",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aeppli Wartmann, Regine; Bührer, Gerold; Hofmann, Urs; Marti, Werner; Marty Kälin, Barbara; Maspoli, Flavio; Maury Pasquier, Liliane; Mugny, Patrice; Sandoz, Marcel; Villiger, Kaspar; Walker, Felix; Weyeneth, Hermann; Widrig Hans, Werner; Zuppiger, Bruno",
+   "date": {
+    "from": "2001-12-05",
+    "to": null,
+    "expressed": "2001.12.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383488",
+     "number": "2001/217",
+     "title": "2001/00217 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate with listed speakers and date of the session, created at the time of the events by the National Council.",
+  "resume": "The document contains parliamentary records of the National Council (Nationalrat) from the winter session 2001, including a motion on expenditure growth in the 2003-2005 financial plan and related discussion protocols. It records the speakers and proceedings of a debate on fiscal planning. The material is part of the Swiss Federal Archives' holdings of parliamentary debates."
+ },
+ "metadata": {
+  "title": "2001.3678: Motion FK-NR (01.048). Ausgabenwachstum im Finanzplan 2003-2005 / Motion CdF-CN (01.048). Croissance des dépenses dans le plan financier 2003-2005; 2001.0048: Finanzplan 2003-2005 / Plan financier 2003-2005",
+  "title_normalized": "2001.3678: Motion FK-NR (01.048). Ausgabenwachstum im Finanzplan 2003-2005 / Motion CdF-CN (01.048). Croissance des dépenses dans le plan financier 2003-2005; 2001.0048: Finanzplan 2003-2005 / Plan financier 2003-2005",
+  "title_en": "Motion FK-NR (01.048) on expenditure growth in the 2003-2005 financial plan and related financial plan documents",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-12-05",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "2001-12-05",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "financial planning",
+   "budget",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Wintersession 2001",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2001/217#7#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513345",
+  "accession_numbers": [
+   "2001/217"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Regine Aeppli Wartmann",
+    "display_name": "Regine Aeppli Wartmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2138047",
+     "label": "Regine Aeppli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2138047"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gerold Bührer",
+    "display_name": "Gerold Bührer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120521",
+     "label": "Gerold Bührer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120521"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Urs Hofmann",
+    "display_name": "Urs Hofmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121170",
+     "label": "Urs Hofmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121170"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Marti",
+    "display_name": "Werner Marti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2561999",
+     "label": "Werner Marti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2561999"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Barbara Marty Kälin",
+    "display_name": "Barbara Marty Kälin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q61586907",
+     "label": "Barbara Marty Kälin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q61586907"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Flavio Maspoli",
+    "display_name": "Flavio Maspoli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117552",
+     "label": "Flavio Maspoli",
+     "description": "Swiss politician (1950-2007)",
+     "url": "https://www.wikidata.org/wiki/Q117552"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": 2007,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Liliane Maury Pasquier",
+    "display_name": "Liliane Maury Pasquier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116648",
+     "label": "Liliane Maury Pasquier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116648"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Patrice Mugny",
+    "display_name": "Patrice Mugny",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3369002",
+     "label": "Patrice Mugny",
+     "description": "Swiss journalist, politician and writer",
+     "url": "https://www.wikidata.org/wiki/Q3369002"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Marcel Sandoz",
+    "display_name": "Marcel Sandoz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q110952713",
+     "label": "Marcel Sandoz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q110952713"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kaspar Villiger",
+    "display_name": "Kaspar Villiger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Felix Walker",
+    "display_name": "Felix Walker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1403882",
+     "label": "Felix Walker",
+     "description": "American politician (1753-1828)",
+     "url": "https://www.wikidata.org/wiki/Q1403882"
+    },
+    "life_date_check": {
+     "born": 1753,
+     "died": 1828,
+     "verdict": "flag",
+     "reason": "died 1828, more than 50 years before the document (2001)"
+    }
+   },
+   {
+    "name": "Hermann Weyeneth",
+    "display_name": "Hermann Weyeneth",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q15815388",
+     "label": "Hermann Weyeneth",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q15815388"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Widrig Hans",
+    "display_name": "Werner Widrig Hans",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Bruno Zuppiger",
+    "display_name": "Bruno Zuppiger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116446",
+     "label": "Bruno Zuppiger",
+     "description": "Swiss politician (Swiss People's Party, 1952-2016)",
+     "url": "https://www.wikidata.org/wiki/Q116446"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): yes",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.12.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.12.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Speakers are named politicians, not private individuals."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/217 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2001/217#7#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5237,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

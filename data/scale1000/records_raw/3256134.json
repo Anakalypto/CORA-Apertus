@@ -1,0 +1,76 @@
+{
+ "id": "3256134",
+ "uri": "https://culture.ld.admin.ch/ais/3256134",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3256134",
+ "title": "Gebäude A 14 aufgenommen gegen Westen, Krisenweiher",
+ "reference_code": "E5221#1996/255#3#81*",
+ "reference_number": "09.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Glasplatte; Abzug",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1917-01-01",
+  "to": "1940-12-29",
+  "expressed": "1917.01.01-1940.12.29"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13586",
+   "number": "1996/255",
+   "title": "1996/00255 Bundesverwaltung (Bern) (s.d. (sine dato))"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3450785",
+   "title": "Liegenschaftsdienst, Gebäude",
+   "level": "Dossier",
+   "reference_code": "E5221#1996/255#3*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675751",
+   "title": "Liegenschaftsdienst, Gebäude",
+   "level": "Serie",
+   "reference_code": "E5221#09.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675750",
+   "title": "Bauten, Anlagen, Liegenschaften",
+   "level": "Serie",
+   "reference_code": "E5221#09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5041",
+   "title": "Eidgenössische Pulverfabrik, Wimmis: Kaufmännisch-administrative Abteilung (1917-1995)",
+   "level": "Sub-file",
+   "reference_code": "E5221*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5038",
+   "title": "Eidgenössische Pulverfabrik, Wimmis (1917-1995)",
+   "level": "Stock",
+   "reference_code": "E10205*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

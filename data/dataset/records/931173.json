@@ -1,0 +1,364 @@
+{
+ "id": "931173",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/931173",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931173",
+  "reference_code": "J2.181#1987/52#3136*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nekrologe 1935",
+   "reference_number": "413",
+   "scope_and_content": "- Albert Geser-Rohner\\- Eugen Heer\\- Josef Hildebrand\\- Josef Huonder\\- Franz Moser-Schär\\- Emile Savoy\\- Alois Schwerzmann",
+   "date": {
+    "from": "1935-01-01",
+    "to": null,
+    "expressed": "1935"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+     "number": "1987/52",
+     "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective biographical series containing obituaries for individuals who died in 1935.",
+  "resume": "The document is a press article from 1935 listing obituaries of several individuals. It contains no audio, video, or legislative content, but rather a textual compilation of deceased persons. The record is a secondary source summarizing deaths rather than a primary witness account."
+ },
+ "metadata": {
+  "title": "Nekrologe 1935",
+  "title_normalized": "Nekrologe 1935",
+  "title_en": "Obituaries 1935",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1935",
+  "date_published": "1935",
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1935",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "deaths",
+   "biographies",
+   "press"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+  "fonds_reference": "J2.181*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "Medien",
+   "Presse",
+   "Personenbezogene Presseartikel A-Z"
+  ],
+  "reference_code": "J2.181#1987/52#3136*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931173",
+  "accession_numbers": [
+   "1987/52"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Albert Geser-Rohner",
+    "display_name": "Albert Geser-Rohner",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Eugen Heer",
+    "display_name": "Eugen Heer",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Josef Hildebrand",
+    "display_name": "Josef Hildebrand",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q16026203",
+     "label": "Josef Hildebrand",
+     "description": "Swiss politician (1855-1935)",
+     "url": "https://www.wikidata.org/wiki/Q16026203"
+    },
+    "life_date_check": {
+     "born": 1855,
+     "died": 1935,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Josef Huonder",
+    "display_name": "Josef Huonder",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Franz Moser-Schär",
+    "display_name": "Franz Moser-Schär",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q1448317",
+     "label": "Franz Moser-Schär",
+     "description": "Swiss politician (1872-1935)",
+     "url": "https://www.wikidata.org/wiki/Q1448317"
+    },
+    "life_date_check": {
+     "born": 1872,
+     "died": 1935,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Emile Savoy",
+    "display_name": "Emile Savoy",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q3052277",
+     "label": "Emile Savoy",
+     "description": "Swiss politician (1877-1935)",
+     "url": "https://www.wikidata.org/wiki/Q3052277"
+    },
+    "life_date_check": {
+     "born": 1877,
+     "died": 1935,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alois Schwerzmann",
+    "display_name": "Alois Schwerzmann",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q55682690",
+     "label": "Alois Schwerzmann",
+     "description": "Swiss politician (1826-1898)",
+     "url": "https://www.wikidata.org/wiki/Q55682690"
+    },
+    "life_date_check": {
+     "born": 1826,
+     "died": 1898,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Nekrologe 1935\" in all caps",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): scope_and_content lists \"Albert Geser-Rohner\", \"Eugen Heer\", etc.; named organizations or places (apertus): accessions includes \"Christlichdemokratische Volkspartei der Schweiz\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in scope_and_content free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Nekrologe 1935\" in all caps"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in scope_and_content free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content lists \"Albert Geser-Rohner\", \"Eugen Heer\", etc."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions includes \"Christlichdemokratische Volkspartei der Schweiz\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names deceased individuals but does not concern identifiable persons in sensitive contexts such as health, criminal proceedings, or asylum cases."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1935",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Press article listing obituaries of several individuals published in 1935.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/52 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.181#1987/52#3136*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4630,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

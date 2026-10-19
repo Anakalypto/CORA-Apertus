@@ -1,0 +1,73 @@
+{
+ "id": "31494895",
+ "uri": "https://culture.ld.admin.ch/ais/31494895",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31494895",
+ "title": "Register über die im Standesarchiv zu Zürich befindlichen allgemeinen und besonrden Abschiede",
+ "reference_code": "E85#1000/1164#66*",
+ "reference_number": null,
+ "old_reference_code": "E85#1000/1164#62",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Buch",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1424-01-01",
+  "to": "1789-12-31",
+  "expressed": "1424-1789"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15976",
+   "number": "1000/1164",
+   "title": "1000/01164 Bundesverwaltung (Bern) (1848-1928)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833076",
+   "title": "Amtliche Sammlung der älteren eidg. Abschiede 1291-1798",
+   "level": "Serie",
+   "reference_code": "E85#1.3.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833075",
+   "title": "Erschliessung der Akten",
+   "level": "Serie",
+   "reference_code": "E85#1.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833063",
+   "title": "Eidg. Archiv",
+   "level": "Serie",
+   "reference_code": "E85#1."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3624",
+   "title": "Archivwesen",
+   "level": "Stock",
+   "reference_code": "E85*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

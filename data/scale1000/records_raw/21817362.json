@@ -1,0 +1,70 @@
+{
+ "id": "21817362",
+ "uri": "https://culture.ld.admin.ch/ais/21817362",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21817362",
+ "title": "Tagesschau (TS), 07.04.1987",
+ "reference_code": "J2.225#1996/68#10513#6*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 220312817\nSignatur Bundesarchiv: J2.225#1996/68#4233*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bern, BE: Bauern-Verband fordert Direkt-Zahlungen an kleine und mittlere Betriebe",
+ "author": "AutorIn: Erny, Hansjörg\nProduktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 31.03.1987-14.04.1987",
+ "form": "Video",
+ "format": "Dauer: 2.03\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 10.26.47\nTräger: Betacam-SP",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1987-04-07",
+  "to": null,
+  "expressed": "1987.04.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21817356",
+   "title": "Tagesschau SFDRS 07.04.1987",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#10513*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690396",
+   "title": "Tagesschau SFDRS 1987",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1987"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

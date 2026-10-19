@@ -1,0 +1,164 @@
+{
+ "surname": "Bärtschi",
+ "home": {
+  "id": 1886,
+  "name": "Langnau im Emmental",
+  "municipality": "Langnau im Emmental",
+  "canton": "Bern",
+  "canton_1799": "Bern",
+  "lat": 46.94131,
+  "lon": 7.78394,
+  "confession": "Reformiert"
+ },
+ "sources": [
+  {
+   "ref": "S1",
+   "kind": "S",
+   "text": "Langnau im Emmental in 1799: Flecken in the canton of Bern (district Oberemmental), today Langnau im Emmental (Bern); confession Reformiert",
+   "label": "Stapfer-Enquête 1799 · Langnau im Emmental",
+   "url": "https://stapferenquete.ch/"
+  },
+  {
+   "ref": "S2",
+   "kind": "S",
+   "text": "Horben, 4 km from Langnau im Emmental, was a market town in 1799 (canton Bern).",
+   "label": "Stapfer-Enquête 1799 · Horben",
+   "url": "https://stapferenquete.ch/"
+  },
+  {
+   "ref": "S3",
+   "kind": "S",
+   "text": "Burgdorf, 17 km from Langnau im Emmental, was a market town in 1799 (canton Bern).",
+   "label": "Stapfer-Enquête 1799 · Burgdorf",
+   "url": "https://stapferenquete.ch/"
+  },
+  {
+   "ref": "W1",
+   "kind": "W",
+   "text": "Langnau im Emmental is a municipality in the administrative district of Emmental in the canton of Bern in Switzerland.",
+   "label": "Wikipedia · Langnau im Emmental",
+   "url": "https://en.wikipedia.org/wiki/Langnau_im_Emmental",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "ref": "C1",
+   "kind": "C",
+   "text": "Langnau im Emmental (municipality no. 0902) had 7'208 inhabitants at the federal census of 1880.",
+   "label": "Federal population census · Langnau im Emmental",
+   "url": "https://www.bfs.admin.ch/asset/de/px-x-4004000000_101"
+  },
+  {
+   "ref": "C2",
+   "kind": "C",
+   "text": "Langnau im Emmental (municipality no. 0902) had 7'585 inhabitants at the federal census of 1888.",
+   "label": "Federal population census · Langnau im Emmental",
+   "url": "https://www.bfs.admin.ch/asset/de/px-x-4004000000_101"
+  },
+  {
+   "ref": "C3",
+   "kind": "C",
+   "text": "Between the census of 1850 and that of 1880, the population of Langnau im Emmental grew by 34%.",
+   "label": "Federal population census · Langnau im Emmental",
+   "url": "https://www.bfs.admin.ch/asset/de/px-x-4004000000_101"
+  },
+  {
+   "ref": "G1",
+   "kind": "G",
+   "text": "Bundesblatt 1877, \"Aus den Verhandlungen des schweiz. Bundesrates.\" (names the family name): …, „ Schmid, Johann, in Kaiserstuhl, „ Lichtenhahn, Fritz, in Basel, „ Siegrist, Albert, in Basel, „ Stähelin, Alfred, in Aarau, „ Bärtschi , Jakob, in Lenzburg, „ Rippmann, Theodor, in Sissaeh, Hauptleute. (4) 211 Herr Schlatter, Rudolf, in Zurzach, „ Bleuler, Richard…",
+   "label": "Bundesblatt 1877, vol. 1, p. 207 · Aus den Verhandlungen des schweiz. Bundesrates.",
+   "url": "https://www.amtsdruckschriften.bar.admin.ch/detailView.do?id=10009436",
+   "pdf": "https://www.amtsdruckschriften.bar.admin.ch/viewOrigDoc/10009436.pdf?ID=10009436",
+   "date": "1877"
+  },
+  {
+   "ref": "E1",
+   "kind": "E",
+   "text": "Revised Federal Constitution (1874): The total revision strengthens the Confederation and introduces the optional referendum.",
+   "label": "Key event · Revised Federal Constitution",
+   "url": "https://hls-dhs-dss.ch/de/search/?text=Bundesverfassung",
+   "event_year": 1874
+  }
+ ],
+ "places": [
+  {
+   "name": "Langnau im Emmental",
+   "lat": 46.94131,
+   "lon": 7.78394,
+   "role": "home",
+   "km": 0.0
+  },
+  {
+   "name": "Horben",
+   "lat": 46.90244,
+   "lon": 7.76842,
+   "role": "market town",
+   "km": 4.5
+  },
+  {
+   "name": "Burgdorf",
+   "lat": 47.05639,
+   "lon": 7.62764,
+   "role": "market town",
+   "km": 17.4
+  },
+  {
+   "name": "Hühnerbach",
+   "lat": 46.92709,
+   "lon": 7.80238,
+   "role": "neighbouring place",
+   "km": 2.1
+  },
+  {
+   "name": "Ebnit",
+   "lat": 46.96886,
+   "lon": 7.75611,
+   "role": "neighbouring place",
+   "km": 3.7
+  },
+  {
+   "name": "Schüpbach",
+   "lat": 46.92476,
+   "lon": 7.73895,
+   "role": "neighbouring place",
+   "km": 3.9
+  },
+  {
+   "name": "Frittenbach",
+   "lat": 46.97591,
+   "lon": 7.76376,
+   "role": "neighbouring place",
+   "km": 4.1
+  },
+  {
+   "name": "Lauperswil",
+   "lat": 46.96496,
+   "lon": 7.74102,
+   "role": "neighbouring place",
+   "km": 4.2
+  },
+  {
+   "name": "Bomattschachen [Lauperswil]",
+   "lat": 46.97201,
+   "lon": 7.74953,
+   "role": "neighbouring place",
+   "km": 4.3
+  }
+ ],
+ "namesakes": 1,
+ "newspapers": [
+  {
+   "label": "Newspapers mentioning Langnau im Emmental, 1878–1882",
+   "url": "https://www.e-newspaperarchives.ch/?a=q&hs=1&r=1&results=1&txq=Langnau+im+Emmental&dafyq=1878&datyq=1882&e=-------de-20--1--img-txIN--------0-----"
+  },
+  {
+   "label": "Newspapers mentioning Langnau im Emmental, 1870–1890",
+   "url": "https://www.e-newspaperarchives.ch/?a=q&hs=1&r=1&results=1&txq=Langnau+im+Emmental&dafyq=1870&datyq=1890&e=-------de-20--1--img-txIN--------0-----"
+  }
+ ],
+ "map": {
+  "layer": "ch.swisstopo.zeitreihen",
+  "time": "18801231",
+  "label": "swisstopo 'Journey through time', map of 1880",
+  "year": 1880
+ }
+}

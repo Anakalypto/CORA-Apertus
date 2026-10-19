@@ -1,0 +1,70 @@
+{
+ "id": "29674350",
+ "uri": "https://culture.ld.admin.ch/ais/29674350",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674350",
+ "title": "Ausstellung Burkhard",
+ "reference_code": "J2.225#2008/121#52#5*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: BPSFDRS 2504590\nSignatur Bundesarchiv: J2.225#2008/121#52*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: Schweiz <Burgdorf, BE: Fotografie-Ausstellung \"Songlines Balthasar Burkhard\" im Museum Franz Gertsch\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Burgdorf, BE: IA Ausstellung mit Aktbildern von Balthasar °Burkhard / Statement Balthasar Burkhard / Statement Jean-Christophe Ammann",
+ "author": "AutorIn: Schärer, Christine (AUT)\nProduktionsgesellschaft: SF",
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Video",
+ "format": "Dauer: 00:01:12\nPosition Anfang: 00:23:52",
+ "thema": "Personen: Burkhard, Balthasar (Fotokünstler)\nSachdeskriptor: /KULTUR./AUSSTELLUNG/KUNSTAUSSTELLUNG;/KULTUR./FOTOGRAFIE",
+ "country": null,
+ "date": {
+  "from": "2007-11-21",
+  "to": null,
+  "expressed": "2007.11.21"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+   "number": "2008/121",
+   "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29674345",
+   "title": "Tagesschau SFDRS 21.11.2007",
+   "level": "Dossier",
+   "reference_code": "J2.225#2008/121#52*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22358855",
+   "title": "Tagesschau SFDRS 2007",
+   "level": "Serie",
+   "reference_code": "J2.225#7.2007"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22358853",
+   "title": "Tagesschau ab 2007 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#7"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

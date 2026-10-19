@@ -1,0 +1,317 @@
+{
+ "id": "21726548",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21726548",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21726548",
+  "reference_code": "J2.225#1996/68#2565#14*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 25.05.1965",
+   "old_reference_code": "Original Signatur: TSSRG 65/140/07A; Rolle 466\nSignatur Bundesarchiv: J2.225#1996/68#33409*",
+   "scope_and_content": "Inhaltsangabe: Indonesien Jakarta: Sternfahrt anlässlich 45-Jahr-Jubiläumder Kommunistischen Partei\nSequenzbeschrieb: Indonesien Jakarta: Ankunft Velos und Vespa mit Fahnen dekoriert und mit Hammer-und-Sichel-Symbolen / Rede P Ahmed Sukarno in Sportstadion",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln\nZeitliche Abdeckung: 18.05.1965-01.06.1965",
+   "form": "Video",
+   "format": "Dauer: 0.45\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.38.49\nTräger: Betacam-Digital",
+   "thema": "Personen: Sukarno, Ahmed\nSachdeskriptor: Partei; Jubiläum",
+   "date": {
+    "from": "1965-05-25",
+    "to": null,
+    "expressed": "1965.05.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast created at the time of the events.",
+  "resume": "A television news broadcast from Tagesschau (TS Spätausgabe) dated 25 May 1965, showing footage of a ceremonial arrival in Jakarta, Indonesia, featuring flags with hammer-and-sickle symbols and a speech by Ahmed Sukarno at a stadium."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 25.05.1965",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 25.05.1965",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 25.05.1965",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1965-05-25",
+  "date_published": "1965-05-25",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-05-25",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Sukarno",
+   "Communist Party",
+   "Jubilee"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1965",
+   "Tagesschau SFDRS 25.05.1965"
+  ],
+  "reference_code": "J2.225#1996/68#2565#14*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21726548",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Sukarno",
+    "display_name": "Sukarno",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q76127",
+     "label": "Sukarno",
+     "description": "1st President of Indonesia (1901—1970)",
+     "url": "https://www.wikidata.org/wiki/Q76127"
+    },
+    "life_date_check": {
+     "born": 1901,
+     "died": 1970,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ahmed",
+    "display_name": "Ahmed",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Jakarta",
+    "as_written": "Jakarta",
+    "role": "depicted",
+    "country": "ID",
+    "lat": -6.1754049,
+    "lon": 106.827168,
+    "gazetteer": "https://www.openstreetmap.org/relation/6362934",
+    "model_lat": 6.21,
+    "model_lon": 106.85
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: Indonesien Jakarta: Sternfahrt anlässlich 45-Jahr-Jubiläumder Kommunistischen Partei\nSequenzbeschrieb: Indonesien Jakarta: Ankunft Velos und Vespa mit Fahnen dekoriert und mit Hammer-und-Sichel-Symbolen / Rede P Ahmed Sukarno in Sportstadion",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.45\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: Personen: Sukarno, Ahmed; named organizations or places (apertus): Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1965.05.25; free text places (apertus): Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Indonesien Jakarta: Sternfahrt anlässlich 45-Jahr-Jubiläumder Kommunistischen Partei\nSequenzbeschrieb: Indonesien Jakarta: Ankunft Velos und Vespa mit Fahnen dekoriert und mit Hammer-und-Sichel-Symbolen / Rede P Ahmed Sukarno in Sportstadion"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.45\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1965.05.25"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Sukarno, Ahmed"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1965-05-25",
+   "place": "Jakarta",
+   "lat": -6.1754049,
+   "lon": 106.827168,
+   "description": "News broadcast showing ceremonial arrival and speech.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#2565#14*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5344,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

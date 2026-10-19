@@ -1,0 +1,295 @@
+{
+ "id": "31069888",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31069888",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31069888",
+  "reference_code": "E1301#2017/374#5#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2014.9003: Nachruf / Eloge funèbre",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Rossini, Stéphane;",
+   "form": "Digital",
+   "date": {
+    "from": "2014-12-01",
+    "to": null,
+    "expressed": "2014.12.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31069212",
+     "number": "2017/374",
+     "title": "2017/00374 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary speech.",
+  "resume": "This is a digital video recording of a funeral eulogy delivered by Stéphane Rossini during the National Council session on 1 December 2014. It documents a parliamentary tribute within the official session protocols of the Swiss National Council. The recording captures the spoken tribute without additional contextual material."
+ },
+ "metadata": {
+  "title": "2014.9003: Nachruf / Eloge funèbre",
+  "title_normalized": "2014.9003: Nachruf / Eloge funèbre",
+  "title_en": "Obituary / Funeral Eulogy",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2014-12-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2014-12-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "parliamentary tribute",
+   "funeral eulogy",
+   "National Council",
+   "Swiss politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Wintersession 2014",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/374#5#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31069888",
+  "accession_numbers": [
+   "2017/374"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Stéphane Rossini",
+    "display_name": "Stéphane Rossini",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q121330",
+     "label": "Stéphane Rossini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121330"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"2014.9003: Nachruf / Eloge funèbre\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains \"Nachruf\" (German) and \"Eloge funèbre\" (French)",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate includes \"Stéphane Rossini\"; named organizations or places (apertus): hierarchy_top_down includes \"Nationalrat\" and \"Parlamentsdienste\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"2014.12.01\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"2014.9003: Nachruf / Eloge funèbre\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Nachruf\" (German) and \"Eloge funèbre\" (French)"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as \"2014.12.01\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate includes \"Stéphane Rossini\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Nationalrat\" and \"Parlamentsdienste\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named person is a public figure (Stéphane Rossini) in a parliamentary debate; no identifiable private individual or sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2014-12-01",
+   "place": "Bundeshaus, Bern",
+   "lat": null,
+   "lon": null,
+   "description": "Video recording made during the National Council session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/374 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/374#5#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4655,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

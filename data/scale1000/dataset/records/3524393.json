@@ -1,0 +1,413 @@
+{
+ "id": "3524393",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524393",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524393",
+  "reference_code": "E1301#1990/286#7#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Ad 88.227: Postulat der Kommission für soziale Sicherheit. Information der Rentner(innen) / Postulat de la commission de la sécurité sociale. Information des bénéficiaires de rentes",
+   "scope_and_content": "Sprecher/Sprecherinnen: Allenspach, Heinz; Carobbio, Werner; Cavadini, Jean; Cotti, Flavio; Fankhauser, Angeline; Müller, Andreas; Philippona, Jean-Nicolas; Reimann, Fritz; Spielmann, Jean; Stocker, Monika; Widrig, Hans Werner",
+   "date": {
+    "from": "1990-09-26",
+    "to": null,
+    "expressed": "1990.09.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383448",
+     "number": "1990/286",
+     "title": "1990/00286 Parlamentsdienste (Bern) (1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "audio recording",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary record of a postulate debate in the Swiss National Council concerning information for pensioners, recorded during the autumn session of 1990. The session included multiple speakers discussing social security matters. It is an audio recording of the proceedings."
+ },
+ "metadata": {
+  "title": "Ad 88.227: Postulat der Kommission für soziale Sicherheit. Information der Rentner(innen) / Postulat de la commission de la sécurité sociale. Information des bénéficiaires de rentes",
+  "title_normalized": "Ad 88.227: Postulat der Kommission für soziale Sicherheit. Information der Rentner(innen) / Postulat de la commission de la sécurité sociale. Information des bénéficiaires de rentes",
+  "title_en": "Postulate of the Commission for Social Security: Information for Pensioners / Postulate of the Social Security Commission: Information for Beneficiaries of Pensions",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1990-09-26",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1990",
+  "content_date": "1990-09-26",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "social security",
+   "pensions",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Herbstsession 1990",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1990/286#7#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524393",
+  "accession_numbers": [
+   "1990/286"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Heinz Allenspach",
+    "display_name": "Heinz Allenspach",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1298526",
+     "label": "Heinz Allenspach",
+     "description": "Swiss politician (1928–2022)",
+     "url": "https://www.wikidata.org/wiki/Q1298526"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Carobbio",
+    "display_name": "Werner Carobbio",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120924",
+     "label": "Werner Carobbio",
+     "description": "Swiss politician (1936–2023)",
+     "url": "https://www.wikidata.org/wiki/Q120924"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean Cavadini",
+    "display_name": "Jean Cavadini",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1288224",
+     "label": "Jean Cavadini",
+     "description": "Swiss politician (1936–2013)",
+     "url": "https://www.wikidata.org/wiki/Q1288224"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": 2013,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Flavio Cotti",
+    "display_name": "Flavio Cotti",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Angeline Fankhauser",
+    "display_name": "Angeline Fankhauser",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q535007",
+     "label": "Angeline Fankhauser",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q535007"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andreas Müller",
+    "display_name": "Andreas Müller",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean-Nicolas Philippona",
+    "display_name": "Jean-Nicolas Philippona",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Fritz Reimann",
+    "display_name": "Fritz Reimann",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1467924",
+     "label": "Fritz Reimann",
+     "description": "Swiss politician (1924-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1467924"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean Spielmann",
+    "display_name": "Jean Spielmann",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q23641707",
+     "label": "Jean Spielmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q23641707"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Monika Stocker",
+    "display_name": "Monika Stocker",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1944774",
+     "label": "Monika Stocker",
+     "description": "Swiss politician (1948–2026)",
+     "url": "https://www.wikidata.org/wiki/Q1944774"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": 2026,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Werner Widrig",
+    "display_name": "Hans Werner Widrig",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Ad 88.227: Postulat der Kommission für soziale Sicherheit. Information der Rentner(innen) / Postulat de la commission de la sécurité sociale. Information des bénéficiaires de rentes\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Heinz Allenspach\", \"Werner Carobbio\", ...]; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1990.09.26",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Ad 88.227: Postulat der Kommission für soziale Sicherheit. Information der Rentner(innen) / Postulat de la commission de la sécurité sociale. Information des bénéficiaires de rentes\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1990.09.26"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Heinz Allenspach\", \"Werner Carobbio\", ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1990",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1990/286 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1990/286#7#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5101,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -180,7 +180,8 @@ SCHEMA_HINT = {
 
 def build_messages(rec: dict, cfg: dict) -> list[dict]:
     opts = cfg["classify"]
-    lang = {"en": "English", "fr": "French", "de": "German", "it": "Italian"}.get(opts["output_language"], "English")
+    from .i18n import language
+    lang = language(opts["output_language"])  # en, de, fr, it or rm
     schema = json.loads(json.dumps(SCHEMA_HINT).replace("{lang}", lang))
     if not opts["resume"]:
         schema.pop("resume")

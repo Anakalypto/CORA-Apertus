@@ -1,0 +1,315 @@
+{
+ "id": "4778773",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4778773",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4778773",
+  "reference_code": "E1301#2008/309#5#20*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2007.5353: Fragestunde. Frage Rossini Stéphane. NFA, Sicherheit und Zuverlässigkeit der Nationalstrassen / Heure des questions. Question Rossini Stéphane. RPT, sécurité et fiabilité des routes nationales",
+   "scope_and_content": "Sprecher/Sprecherinnen: Leuenberger, Moritz",
+   "date": {
+    "from": "2007-12-10",
+    "to": null,
+    "expressed": "2007.12.10"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4778304",
+     "number": "2008/309",
+     "title": "2008/00309 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the debate by the National Council.",
+  "resume": "This document is a parliamentary record of a question raised by Stéphane Rossini during the Wintersession 2007 of the Swiss National Council, focusing on the safety and reliability of national roads, with Moritz Leuenberger as the speaker in the debate."
+ },
+ "metadata": {
+  "title": "2007.5353: Fragestunde. Frage Rossini Stéphane. NFA, Sicherheit und Zuverlässigkeit der Nationalstrassen / Heure des questions. Question Rossini Stéphane. RPT, sécurité et fiabilité des routes nationales",
+  "title_normalized": "2007.5353: Fragestunde. Frage Rossini Stéphane. NFA, Sicherheit und Zuverlässigkeit der Nationalstrassen / Heure des questions. Question Rossini Stéphane. RPT, sécurité et fiabilité des routes nationales",
+  "title_en": "Question time: Question by Stéphane Rossini on safety and reliability of national roads",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-12-10",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-12-10",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "national roads",
+   "parliamentary questions",
+   "transportation policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2007 bis Wintersession 2008",
+   "Wintersession 2007",
+   "Wintersession 2007, 5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2008/309#5#20*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4778773",
+  "accession_numbers": [
+   "2008/309"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Stéphane Rossini",
+    "display_name": "Stéphane Rossini",
+    "role": "questioner",
+    "wikidata": {
+     "qid": "Q121330",
+     "label": "Stéphane Rossini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121330"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2007.5353: Fragestunde. Frage Rossini Stéphane. NFA, Sicherheit und Zuverlässigkeit der Nationalstrassen / Heure des questions. Question Rossini Stéphane. RPT, sécurité et fiabilité des routes nationales\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Moritz Leuenberger\" ]; named organizations or places (apertus): hierarchy_top_down contains \"Nationalrat\" and \"Route nationale\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.12.10",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2007.5353: Fragestunde. Frage Rossini Stéphane. NFA, Sicherheit und Zuverlässigkeit der Nationalstrassen / Heure des questions. Question Rossini Stéphane. RPT, sécurité et fiabilité des routes nationales\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.12.10"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Moritz Leuenberger\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Nationalrat\" and \"Route nationale\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speaker is a public figure."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/309 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2008/309#5#20*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4859,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

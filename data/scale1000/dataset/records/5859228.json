@@ -1,0 +1,298 @@
+{
+ "id": "5859228",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5859228",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859228",
+  "reference_code": "J2.229#1996/423#231#542*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Walter E. Boveri, Porträt",
+   "scope_and_content": "Schweizer Industrieller, Leiter der Firma Brown Boveri BBC\nAutor: Photopress, Zürich",
+   "form": "Abzug",
+   "date": {
+    "from": "1964-12-06",
+    "to": null,
+    "expressed": "1964.12.06"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+     "number": "1996/423",
+     "title": "1996/00423 k.A. Organisation (1960-1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by Photopress, Zürich, documenting a specific individual at a specific time.",
+  "resume": "A portrait photograph of Walter E. Boveri, Swiss industrialist and head of Brown Boveri BBC, taken on 6 December 1964 by Photopress, Zürich."
+ },
+ "metadata": {
+  "title": "Walter E. Boveri, Porträt",
+  "title_normalized": "Walter E. Boveri, Porträt",
+  "title_en": "Portrait of Walter E. Boveri",
+  "creator": "Photopress, Zürich",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1964-12-06",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1964-12-06",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Walter E. Boveri",
+   "Brown Boveri BBC",
+   "Swiss industry"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+  "fonds_reference": "J2.229*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "Wirtschaft / Swissair",
+   "Walter E. Boveri"
+  ],
+  "reference_code": "J2.229#1996/423#231#542*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859228",
+  "accession_numbers": [
+   "1996/423"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Walter E. Boveri",
+    "display_name": "Walter E. Boveri",
+    "role": "subject",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Brown Boveri BBC",
+    "role": "employer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich",
+    "role": "created",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Walter E. Boveri; named organizations or places (apertus): Brown Boveri BBC",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1964.12.06",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1964.12.06"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Walter E. Boveri"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Brown Boveri BBC"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1964-12-06",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Portrait photograph taken by Photopress, Zürich.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/423 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.229#1996/423#231#542*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4438,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

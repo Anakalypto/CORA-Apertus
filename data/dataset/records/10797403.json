@@ -1,0 +1,269 @@
+{
+ "id": "10797403",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/10797403",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10797403",
+  "reference_code": "E2200.36-06#1000/1740#1*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsausschnitte betr. Schweiz",
+   "reference_number": "1",
+   "date": {
+    "from": "1917-01-01",
+    "to": "1917-12-31",
+    "expressed": "1917-1917"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/10374",
+     "number": "1000/1740",
+     "title": "1000/01740 Bundesverwaltung (Bern) (1917 - 1925)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): The unit consists of newspaper clippings collected by the Swiss representation in Washington, classified as non-registrative secret files.",
+  "resume": "The record is a folder of newspaper clippings collected in 1917 concerning Switzerland. It contains press coverage rather than original documents or proceedings. The content reflects how Switzerland was reported in the press during that year."
+ },
+ "metadata": {
+  "title": "Zeitungsausschnitte betr. Schweiz",
+  "title_normalized": "Zeitungsausschnitte betr. Schweiz",
+  "title_en": "Newspaper clippings concerning Switzerland",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1917-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1917/1917",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Switzerland",
+   "press coverage",
+   "1917"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Washington (1822-)",
+  "fonds_reference": "E10735*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Washington (1822-)",
+   "Schweizerische Vertretung, Washington: Nicht registraturgebundenes Schriftgut (1917-1925)",
+   "Der im Rahmen der allgemeinen Registratur nicht eingefügten Dossiers und Akten (Geheimdossiers)"
+  ],
+  "reference_code": "E2200.36-06#1000/1740#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10797403",
+  "accession_numbers": [
+   "1000/1740"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Zeitungsausschnitte betr. Schweiz\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Schweizerische Vertretung, Washington\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): hierarchy_top_down contains Washington but no authority file link",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Zeitungsausschnitte betr. Schweiz\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains Washington but no authority file link"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Schweizerische Vertretung, Washington\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1917-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Folder assembled at the end of 1917 containing newspaper clippings from that year.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1740 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.36-06#1000/1740#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.65,
+  "tokens": 4417,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

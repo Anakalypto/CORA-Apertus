@@ -1,0 +1,56 @@
+{
+ "id": 1945,
+ "signature": "BAR B0 1000/1483, Nr. 1465, fol. 203-203v",
+ "reference": {
+  "place": "Schattdorf",
+  "canton_1799": "Waldstätten",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Joseph Anton Zgraggen",
+  "teacher_age": 59,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 37,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joseph Anton Zgraggen",
+  "date_written": "1799-02-17"
+ },
+ "apertus": {
+  "place": "Schatdorff",
+  "canton_1799": "Waldstätten",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Joseph Antoni zgraggen",
+  "teacher_age": 59,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 37,
+  "pupils_winter": "20 bis 25",
+  "pupils_summer": null,
+  "author_name": "Joseph Antoni zgraggen",
+  "date_written": "1799-02-17"
+ },
+ "evidence": {
+  "place_as_written": "jn Vry, zu Schatdorff, es ist ein dorff, es ist ein dorffgemeindt.",
+  "canton_1799": "gehört zum @ kanton waldstätten",
+  "teacher_name": "Joseph Antoni @ zgraggen",
+  "teacher_age": "ietz 59 jahr alt",
+  "teacher_marital_status": "jch war Schuhlmeister 37 jahr. @ jch bin nit mer als ein frau",
+  "teacher_since": "jch war Schuhlmeister 37 jahr",
+  "pupils_winter": "@ die Schuhlkinder etwan aufs Höchst 20 biss 25"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 10.49
+}

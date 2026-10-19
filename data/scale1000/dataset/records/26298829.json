@@ -1,0 +1,414 @@
+{
+ "id": "26298829",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/26298829",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26298829",
+  "reference_code": "E1401#2010/212#3#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2009.3000: Postulat KVF-SR (08.3594). Sanierung des Gotthard-Strassentunnels / Postulat CTT-CE (08.3594). Assainissement du tunnel routier du Saint-Gothard",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Berset, Alain; Bieri, Peter; Büttiker, Rolf; Inderkum, Hansheiri; Leuenberger, Moritz; Lombardi, Filippo; Marty, Dick; Recordon, Luc; Stadler, Hansruedi;",
+   "form": "Digital",
+   "date": {
+    "from": "2009-03-04",
+    "to": null,
+    "expressed": "2009.03.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/6738265",
+     "number": "2010/212",
+     "title": "2010/00212 Parlamentsdienste: Amtliches Bulletin (Bern) (2009)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a session with speakers listed, created at the time of the debate.",
+  "resume": "This document is a parliamentary record of a postulate debate in the Swiss Council of States concerning the renovation of the Gotthard road tunnel, held on 4 March 2009. The record includes the names of speakers and is part of the video recordings series for the 2009 spring session. It is a primary source created during the session."
+ },
+ "metadata": {
+  "title": "2009.3000: Postulat KVF-SR (08.3594). Sanierung des Gotthard-Strassentunnels / Postulat CTT-CE (08.3594). Assainissement du tunnel routier du Saint-Gothard",
+  "title_normalized": "2009.3000: Postulat KVF-SR (08.3594). Sanierung des Gotthard-Strassentunnels / Postulat CTT-CE (08.3594). Assainissement du tunnel routier du Saint-Gothard",
+  "title_en": "Postulate KVF-SR (08.3594) and CTT-CE (08.3594): Renovation of the Gotthard Road Tunnel / Renovation of the Saint-Gothard Road Tunnel",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2009-03-04",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2010",
+  "content_date": "2009-03-04",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Gotthard Tunnel",
+   "Infrastructure renovation",
+   "Swiss Parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Frühjahrssession 2009 bis Herbstsession 2011",
+   "Frühjahrssession 2009",
+   "3. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2010/212#3#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26298829",
+  "accession_numbers": [
+   "2010/212"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Alain Berset",
+    "display_name": "Alain Berset",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Büttiker",
+    "display_name": "Rolf Büttiker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120893",
+     "label": "Rolf Büttiker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120893"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansheiri Inderkum",
+    "display_name": "Hansheiri Inderkum",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118384",
+     "label": "Hansheiri Inderkum",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118384"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Filippo Lombardi",
+    "display_name": "Filippo Lombardi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q353273",
+     "label": "Filippo Lombardi",
+     "description": "Swiss politician (1956-)",
+     "url": "https://www.wikidata.org/wiki/Q353273"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dick Marty",
+    "display_name": "Dick Marty",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123307",
+     "label": "Dick Marty",
+     "description": "Swiss politician (1945–2023)",
+     "url": "https://www.wikidata.org/wiki/Q123307"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Luc Recordon",
+    "display_name": "Luc Recordon",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q358447",
+     "label": "Luc Recordon",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q358447"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansruedi Stadler",
+    "display_name": "Hansruedi Stadler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120948",
+     "label": "Hansruedi Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120948"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2009.3000: Postulat KVF-SR (08.3594). Sanierung des Gotthard-Strassentunnels / Postulat CTT-CE (08.3594). Assainissement du tunnel routier du Saint-Gothard\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Alain Berset\", \"Peter Bieri\", \"Rolf Büttiker\", \"Hansheiri Inderkum\", \"Moritz Leuenberger\", \"Filippo Lombardi\", \"Dick Marty\", \"Luc Recordon\", \"Hansruedi Stadler\"]; named organizations or places (apertus): title: \"Gotthard-Strassentunnel\" and \"Saint-Gothard\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2009.03.04",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2009.3000: Postulat KVF-SR (08.3594). Sanierung des Gotthard-Strassentunnels / Postulat CTT-CE (08.3594). Assainissement du tunnel routier du Saint-Gothard\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2009.03.04"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Alain Berset\", \"Peter Bieri\", \"Rolf Büttiker\", \"Hansheiri Inderkum\", \"Moritz Leuenberger\", \"Filippo Lombardi\", \"Dick Marty\", \"Luc Recordon\", \"Hansruedi Stadler\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Gotthard-Strassentunnel\" and \"Saint-Gothard\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2010",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2010/212 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2010/212#3#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5299,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,267 @@
+{
+ "id": "6734403",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/6734403",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6734403",
+  "reference_code": "E2200.60-02#C.30",
+  "level": "Serie",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Commémoration de dates historiques et fêtes nationales",
+   "date": {
+    "from": "1950-01-01",
+    "to": "1965-12-31",
+    "expressed": "1950-1965"
+   }
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an ordinary administrative file documenting the Swiss representation's activities in Buenos Aires regarding cultural and national holiday matters.",
+  "resume": "This record groups materials from the Swiss diplomatic mission in Buenos Aires covering national holidays and public commemorations between 1950 and 1965. It contains administrative files and correspondence related to cultural diplomacy and public celebrations. The content reflects Swiss representation activities abroad rather than domestic parliamentary proceedings."
+ },
+ "metadata": {
+  "title": "Commémoration de dates historiques et fêtes nationales",
+  "title_normalized": "Commémoration de dates historiques et fêtes nationales",
+  "title_en": "Commemoration of historical dates and national holidays",
+  "creator": "Schweizerische Vertretung, Buenos Aires",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1950-01-01/1965-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1950/1965",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "diplomacy",
+   "cultural affairs",
+   "national holidays",
+   "Swiss foreign representation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Buenos Aires (1834-)",
+  "fonds_reference": "E10513*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Buenos Aires (1834-)",
+   "Schweizerische Vertretung, Buenos Aires: Zentrale Ablage (1946-1965)",
+   "Affaires culturelles et diplomatiques",
+   "Fêtes nationales, hygiène publique"
+  ],
+  "reference_code": "E2200.60-02#C.30",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6734403",
+  "accession_numbers": []
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Buenos Aires",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Organisations/places like 'Schweizerische Vertretung, Buenos Aires' are named.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in hierarchy (e.g., Buenos Aires), not in free-text fields.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in hierarchy (e.g., Buenos Aires), not in free-text fields."
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Organisations/places like 'Schweizerische Vertretung, Buenos Aires' are named."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1950-01-01/1965-12-31",
+   "place": "Buenos Aires",
+   "lat": null,
+   "lon": null,
+   "description": "Administrative files produced by the Swiss diplomatic mission documenting cultural and commemorative activities.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession  into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.60-02#C.30",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4335,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

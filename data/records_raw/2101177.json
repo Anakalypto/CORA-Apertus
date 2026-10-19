@@ -1,0 +1,61 @@
+{
+ "id": "2101177",
+ "uri": "https://culture.ld.admin.ch/ais/2101177",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2101177",
+ "title": "Nachrufe anlässlich seines Ablebens (Zeitungsartikel)",
+ "reference_code": "J1.2#1000/1310#17*",
+ "reference_number": "3-8",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1899-01-01",
+  "to": null,
+  "expressed": "1899"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16596",
+   "number": "1000/1310",
+   "title": "1000/01310 Keine Angaben (1813-1899)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3773310",
+   "title": "Verschiedenes",
+   "level": "Serie",
+   "reference_code": "J1.2#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3998",
+   "title": "Welti Emil (1825-1899)",
+   "level": "Stock",
+   "reference_code": "J1.2*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

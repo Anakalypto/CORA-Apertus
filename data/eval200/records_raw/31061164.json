@@ -1,0 +1,77 @@
+{
+ "id": "31061164",
+ "uri": "https://culture.ld.admin.ch/ais/31061164",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31061164",
+ "title": "Plakat deutsch - Schweizer Filmwochenschau Nº 1152",
+ "reference_code": "J2.143#1996/386#1152-4#1*",
+ "reference_number": "1152",
+ "old_reference_code": null,
+ "alternate_reference": "SFW_1152",
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": "305x430mm",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1965-02-19",
+  "to": null,
+  "expressed": "1965.02.19"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+   "number": "1996/386",
+   "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31061163",
+   "title": "Plakat der Schweizer Filmwochenschau vom 19.02.1965",
+   "level": "Subdossier",
+   "reference_code": "J2.143#1996/386#1152-4*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21687446",
+   "title": "Schweizer Filmwochenschau vom 19.02.1965",
+   "level": "Dossier",
+   "reference_code": "J2.143#1996/386#1152*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21677521",
+   "title": "Schweizer Filmwochenschau 1965",
+   "level": "Serie",
+   "reference_code": "J2.143#20.1965"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21677483",
+   "title": "Schweizer Filmwochenschau, 1940-1975",
+   "level": "Serie",
+   "reference_code": "J2.143#20"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4205",
+   "title": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "level": "Stock",
+   "reference_code": "J2.143*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

@@ -1,0 +1,299 @@
+{
+ "id": "383684",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/383684",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/383684",
+  "reference_code": "J2.203#1999/387#8#18*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "FHD-Propagandadienst an der Mustermesse Basel",
+   "form": "Abzug",
+   "date": {
+    "from": "1978-01-01",
+    "to": "1993-12-31",
+    "expressed": "1978 (ca.)-1993 (ca.)"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16876",
+     "number": "1999/387",
+     "title": "1999/00387 k.A. Organisation (1914-1999)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created during the documented period, originating from personal papers.",
+  "resume": "The document is a photograph (Abzug) from the Frauenhilfsdienst der Armee and Militärischer Frauendienst fonds, covering the period 1978 to 1993, related to the FHD-Propagandadienst at the Mustermesse Basel."
+ },
+ "metadata": {
+  "title": "FHD-Propagandadienst an der Mustermesse Basel",
+  "title_normalized": "FHD-Propagandadienst an der Mustermesse Basel",
+  "title_en": "FHD-Propaganda Service at the Basel Trade Fair",
+  "creator": "Rosy Gysler-Schöni",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1978/1993",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1999",
+  "content_date": "1978-01-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "propaganda",
+   "trade fair",
+   "women's service"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Frauenhilfsdienst der Armee und Militärischer Frauendienst ab 1946",
+  "fonds_reference": "J2.203*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Frauenhilfsdienst der Armee und Militärischer Frauendienst ab 1946",
+   "Gysler-Schöni, Rosy",
+   "Persönliche Unterlagen",
+   "Persönliche Unterlagen, Dienstbüchlein, Briefe"
+  ],
+  "reference_code": "J2.203#1999/387#8#18*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/383684",
+  "accession_numbers": [
+   "1999/387"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rosy Gysler-Schöni",
+    "display_name": "Rosy Gysler-Schöni",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Frauenhilfsdienst der Armee und Militärischer Frauendienst",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "Basel",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.56,
+    "model_lon": 7.56
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Basel",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Basel"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1978 (ca.)-1993 (ca.)",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1999",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1999/387 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.203#1999/387#8#18*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.9,
+  "tokens": 4474,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

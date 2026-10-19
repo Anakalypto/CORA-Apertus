@@ -1,0 +1,61 @@
+{
+ "id": "3642708",
+ "uri": "https://culture.ld.admin.ch/ais/3642708",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3642708",
+ "title": "Inhaltsverzeichnis Mikroverfilmung Bestand E2",
+ "reference_code": "E2#1000/44#2401*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroform",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1848-01-01",
+  "to": "1895-12-31",
+  "expressed": "1848-1895"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7515",
+   "number": "1000/44",
+   "title": "1000/00044 Bundesverwaltung (Bern) (1848-1951)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4003917",
+   "title": "Weitere Unterlagen",
+   "level": "Serie",
+   "reference_code": "E2#Liste"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3575",
+   "title": "Auswärtige Angelegenheiten 1848-1895",
+   "level": "Stock",
+   "reference_code": "E2*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

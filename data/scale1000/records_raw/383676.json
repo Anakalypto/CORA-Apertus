@@ -1,0 +1,70 @@
+{
+ "id": "383676",
+ "uri": "https://culture.ld.admin.ch/ais/383676",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/383676",
+ "title": "Soldat in Tarnanzug",
+ "reference_code": "J2.203#1999/387#8#10*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Abzug",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1978-01-01",
+  "to": "1993-12-31",
+  "expressed": "1978 (ca.)-1993 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16876",
+   "number": "1999/387",
+   "title": "1999/00387 k.A. Organisation (1914-1999)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/383565",
+   "title": "Persönliche Unterlagen, Dienstbüchlein, Briefe",
+   "level": "Dossier",
+   "reference_code": "J2.203#1999/387#8*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3684988",
+   "title": "Persönliche Unterlagen",
+   "level": "Serie",
+   "reference_code": "J2.203#1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3684987",
+   "title": "Gysler-Schöni, Rosy",
+   "level": "Serie",
+   "reference_code": "J2.203#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4212",
+   "title": "Frauenhilfsdienst der Armee und Militärischer Frauendienst ab 1946",
+   "level": "Stock",
+   "reference_code": "J2.203*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

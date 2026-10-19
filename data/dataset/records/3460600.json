@@ -1,0 +1,283 @@
+{
+ "id": "3460600",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3460600",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460600",
+  "reference_code": "E2#1000/44#2308*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsartikel über Bundesrat Numa Droz",
+   "reference_number": "A.22.1",
+   "form": "Mikroform",
+   "date": {
+    "from": "1881-01-01",
+    "to": "1886-12-31",
+    "expressed": "1881-1886"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7515",
+     "number": "1000/44",
+     "title": "1000/00044 Bundesverwaltung (Bern) (1848-1951)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective press article about a former Swiss Federal Councillor.",
+  "resume": "The record is a press article from 1881–1886 about Swiss Federal Councillor Numa Droz, preserved as a microform within the Swiss Federal Archives. It reports on Droz’s role and activities during his time in office. The article is a secondary source reflecting on past events rather than a primary record of the events themselves."
+ },
+ "metadata": {
+  "title": "Zeitungsartikel über Bundesrat Numa Droz",
+  "title_normalized": "Zeitungsartikel über Bundesrat Numa Droz",
+  "title_en": "Newspaper article about Federal Councillor Numa Droz",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1881/1886",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1881/1886",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Numa Droz",
+   "Swiss Federal Council",
+   "19th-century Swiss politics",
+   "press"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Auswärtige Angelegenheiten 1848-1895",
+  "fonds_reference": "E2*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Auswärtige Angelegenheiten 1848-1895",
+   "Organisation und Verwaltung",
+   "Departementsvorsteher",
+   "Nachlässe",
+   "Bundesrat Droz"
+  ],
+  "reference_code": "E2#1000/44#2308*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460600",
+  "accession_numbers": [
+   "1000/44"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Numa Droz",
+    "display_name": "Numa Droz",
+    "role": "subject of the article",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Bundesrat Numa Droz\"; named organizations or places (apertus): hierarchy_top_down includes \"Bundesverwaltung (Bern)\" and \"Schweizerischen Bundesarchivs\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Bundesrat Numa Droz\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Bundesverwaltung (Bern)\" and \"Schweizerischen Bundesarchivs\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Numa Droz is a public figure (Bundesrat)"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person is concerned by health/criminal/asylum/police/intelligence/religion/sexual/political issues"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names public figure Numa Droz but does not involve personal data about an identifiable private individual."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1881-1886",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper article written about Federal Councillor Numa Droz during his tenure.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/44 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2#1000/44#2308*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4472,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

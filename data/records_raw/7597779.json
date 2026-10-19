@@ -1,0 +1,73 @@
+{
+ "id": "7597779",
+ "uri": "https://culture.ld.admin.ch/ais/7597779",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7597779",
+ "title": "Register zu Amtsbüchern",
+ "reference_code": "E2200.157-01#1000/242#6*",
+ "reference_number": "G.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1918-01-01",
+  "to": null,
+  "expressed": "1918 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/8739",
+   "number": "1000/242",
+   "title": "1000/00242 Bundesverwaltung (Bern) (1917 - 1918)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7597770",
+   "title": "Register zu Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E2200.157-01#G.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7597441",
+   "title": "Register",
+   "level": "Serie",
+   "reference_code": "E2200.157-01#G"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7597047",
+   "title": "Schweizerische Vertretung, Moskau: Zentrale Ablage (1828-1918)",
+   "level": "Sub-file",
+   "reference_code": "E2200.157-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8884315",
+   "title": "Schweizerische Vertretung, Moskau (1828-)",
+   "level": "Stock",
+   "reference_code": "E11083*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

@@ -1,0 +1,57 @@
+{
+ "id": 1488,
+ "signature": "BAR B0 1000/1483, Nr. 1444, fol. 65-66v",
+ "reference": {
+  "place": "Essertines-sur-Yverdon",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "David Daniel Bissat",
+  "teacher_age": 51,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 32,
+  "pupils_winter": 50,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Essertines",
+  "canton_1799": "du Léman",
+  "school_type": null,
+  "confession": "katholisch",
+  "teacher_name": "David Daniel Bissat",
+  "teacher_age": 51,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "32",
+  "pupils_winter": "50 a 60",
+  "pupils_summer": "les plus grands sont forcés de s'occuper a la Campagne",
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place": "Essertines",
+  "canton_1799": "du Léman",
+  "teacher_name": "David Daniel Bissat est son Nom",
+  "teacher_age": "Agé de 51 Ans",
+  "teacher_marital_status": "Jl a sa femme",
+  "teacher_since": "Jl exerce la Vocation d'instituteur depuis passé 32 Ans",
+  "pupils_winter": "En hyver ils fréquentent tous l'Ecole soit garçons soit filles",
+  "pupils_summer": "En Été les plus grands sont forcés de s'occuper a la Campagne"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "mismatch",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "extra",
+  "author_name": "both_empty",
+  "date_written": "both_empty"
+ },
+ "seconds": 10.14
+}

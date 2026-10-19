@@ -1,0 +1,2077 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	resultsView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schweizerisches Bundesarchiv - Online-Amtsdruckschriften - Suchergebnisse</title>
+  <base href="https://www.amtsdruckschriften.bar.admin.ch/resultsView.jsp">
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+ 
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+
+</head>
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Schweizerisches Bundesarchiv</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/de/start.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Bundesverwaltung</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> EDI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> BAR</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Schweizerisches Bundesarchiv</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView" class="active" title="Diese Seite auf deutsch">
+                        DE  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView"  title="Cette page en français">
+                        FR 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/de/home/ueber-uns/kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/de/home.html">
+        <h1>Schweizerisches Bundesarchiv<br>Online-Amtsdruckschriften</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Einfache Suche
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Erweiterte Suche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Datum
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Thema
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Suchverlauf
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Einstellungen
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Hilfe
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Einfache Suche</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Erweiterte Suche</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=suchmodus" >Suchmodus</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Titelbetonung</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Suche im Titel</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Weitere Felder</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Listensuche nach Datum</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Listensuche nach Thema</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Suchergebnisse</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Detailansicht</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Suchverlauf</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Suchverlauf ausdrucken</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Suchverlauf exportieren</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Einstellungen</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Suche nach Referenznummer</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Suchbeispiele</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "de";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Geben Sie hier die gewünschten Suchbegriffe ein. Diese werden unscharf durchsucht, d.h. es werden auch Begriffe mit ähnlicher Schreibweise gefunden und es wird eine Treffergüte berechnet. Möchten Sie exakt suchen und dabei die Boolschen Operatoren (AND, OR, WITHIN,...) verwenden, wechseln Sie in die erweiterte Suche.')">Suchbegriffe:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Bärtschi Langnau" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_de/btn_search.gif" alt="suchen" title="suchen" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="löschen"><img src="images/local_de/btn_delete.gif" alt="löschen"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">suchen</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">löschen</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Geben Sie hier ein Datum oder einen Datumsbereich ein, um nur in Dokumenten aus diesem Zeitraum zu suchen.<br>Beispiel:<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Zeitraum</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1885" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> bis </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1915" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Wählen Sie die gewünschten Druckschrifttypen aus, in welchen gesucht werden soll. <br>Das Bundesblatt umfasst den Zeitraum von 1848 bis heute (für das genaue Jahr siehe \'Home\').<br>Die DDS umfassen den Zeitraum von 1848 bis 1945.')">Suchen in</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Bundesversammlung (Amtliches Bulletin, Protokolle, Findmittel)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliches Bulletin der Bundesversammlung (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle der Bundesversammlung (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Repertorium der Verhandlungen (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Übersicht über die Verhandlungen (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Bundesrecht
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bundesblatt (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bereinigte Sammlung (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliche Sammlung (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Verwaltungspraxis der Bundesbehörden (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Bundesrat
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle des Bundesrates (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Für die Protokolle des Bundesrates bis und mit 1903 existiert keine Texterkennung. <br>Dadurch kann nicht über den Inhalt der Dokumente von 1848 bis 1903 gesucht werden.')">(nur eingeschränkte Suche)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Geschäftsberichte des Bundesrates (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Staatsrechnung und Voranschlag  (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Eidgenössischer Staatskalender (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Diplomatische Dokumente der Schweiz (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Studien und Quellen (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Aktensammlung aus der Zeit der Helvetischen Republik (1798-1803) (Kontext in Deutsch, Akten in Originalsprache)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Alle auswählen </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Suchergebnisse </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Kein gültiges Datum. \nBitte überprüfen Sie Ihre Eingabe. \nWeitere Informationen finden Sie unter Hilfe.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+
+
+
+  <!-- PAGE LABEL -->
+
+<!-- Anker Resultatliste -->
+<a name="resultlist"></a>
+
+
+
+
+
+<table width="99%"  border="0"><tr><td width="33%">
+	<div class="pageLabel"><span style="white-space: nowrap;">Suchergebnisse&nbsp;&nbsp;
+        
+            <a class="icon icon--before icon--print" href="printResultList.do" target="_blank" title="drucken"></a>
+        
+        </span>
+</div>
+</td><td width="33%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td>
+<td align="right" width="33%">
+
+    <table align="right" width="300" border ="0"><tr><td style="width:220px;">
+        <div style="text-align:right;" class="pageLabel">Speichern:&nbsp;&nbsp;</div></td>
+    <td  style="width:80px;" align="right">
+        <input type="hidden" id="exportAction" name="mode" value="">
+        <span style="white-space: nowrap;"><a href="export.do?mode=all"><img src="images/icons/c_selectAll.gif" width="20" higth="20" border="0" alt="Alles auswählen"></a>&nbsp;&nbsp;
+              <a href="export.do?mode=delete"><img src="images/icons/c_selectNone.gif" width="20" higth="20" border="0" alt="Auswahl aufheben"></a>&nbsp;&nbsp;
+              <a href="javascript:setExportFormSubmit('','export','')"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Auswahl speichern"></a>
+                <!--<a href="export.do"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Auswahl speichern"></a>-->
+        </span>
+    </td></tr></table>
+
+</td></tr></table>
+	
+
+<!--
+	statusMessage.jsp
+-->
+
+
+
+
+
+        
+            <!-- RESULTS LIST -->
+            
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+<!--
+    Determine pane expand state.
+        Incoming value, and forced values. 
+        Force expand takes precendence (only one force should be present).
+-->
+  
+  
+    
+  
+
+  
+
+  
+    
+      
+    
+  
+
+<!--
+   Set up initial state of image source and content div.
+	  Originally also had position:relative for the div, from some (hopefully) old issues with showing/hiding.
+	  This had a side effect of hiding the focus indicator for checkboxes and radio buttons.
+-->
+  
+	  
+	  
+  
+
+
+
+
+    
+        <!-- show pagination -->
+        <div>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Die maximale Anzahl der angezeigten Dokumente kann unter Einstellungen erhöht werden.')">1 bis 25 von 54</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">nächste Seite</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','50','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+        docsList.jsp
+        Caller sets conv:load-channel to query or cat.
+-->
+
+
+
+    
+<style>
+    
+    .docsRow {font-size:small}
+</style>
+
+
+
+
+
+<!-- Document List Body -->
+<div class="resultListBody">
+
+<!-- Begin results table -->
+<!-- CONVERA - SB Export Formular -->
+<form name="exportForm"  id="exportForm" action="setExport.jsp" method="GET">
+    <input type="hidden" name="sortBy" value="relevance" id="sortBy">
+    <input type="hidden" name="sortOrder" value="asc" id="sortOrder">
+    <input type="hidden" id="fetchCount" name="fetchCount" value="">
+    <input type="hidden" id="fetchStart" name="fetchStart" value="">
+
+<!--<table width="95%" border="0">-->
+<fieldset>
+<table width="100%" border="0">
+        <tr class="docsColumnHeadRow"><td align="left" nowrap="1" valign="middle"><div nowrap="1">
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_titel_normal_de', 'desc', '', '')"
+                title="Sortieren nach Titel"
+                valign="middle">Titel<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('a_druckschrifttyp_de', 'desc', '', '')"
+                title="Sortieren nach Druckschrifttyp"
+                valign="middle">Druckschrifttyp<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('a_jahr', 'desc', '', '')"
+                title="Sortieren nach Jahr"
+                valign="middle">Jahr<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('b_band_nr', 'desc', '', '')"
+                title="Sortieren nach Band"
+                valign="middle">Band<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_von_num', 'desc', '', '')"
+                title="Sortieren nach Seite von"
+                valign="middle">Seite von<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_bis_num', 'desc', '', '')"
+                title="Sortieren nach Seite bis"
+                valign="middle">Seite bis<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_textkategorie_de', 'desc', '', '')"
+                title="Sortieren nach Textkategorie/Thema"
+                valign="middle">Textkategorie/Thema<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('a_anlass_ort_kurz_de', 'desc', '', '')"
+                title="Sortieren nach Rat"
+                valign="middle">Rat<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_autor', 'desc', '', '')"
+                title="Sortieren nach Autor, Autorin"
+                valign="middle">Autor, Autorin<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('size', 'desc', '', '')"
+                title="Sortieren nach Grösse"
+                valign="middle">Dokument<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('relevance', 'desc', '', '')"
+                title="Sortieren nach Relevanz"
+                valign="middle">Relevanz<img
+                src="images/layout/btn_sort_asc.gif"
+                alt="aufsteigend"
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                <label for="export"><span class="docsColumnLink" valign="middle"><u>Speichern</u></span></label></div></td></tr>
+        <tr><td>
+        </td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=50000180"
+            title="Details anzeigen"
+            >Bericht des Schweizerischen Bundesrats &#252;ber seine Gesch&#228;ftsf&#252;hrung im Jahr 1896</a></td><td align="center" valign="top">Gesch&#228;ftsberichte des Bundesrates</td><td align="center" valign="top">1896</td><td align="center" valign="top">42</td><td align="center" valign="top">1</td><td align="center" valign="top">776</td><td align="center" valign="top">Berichte</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/50000180.pdf?ID=50000180" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">24MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.5001979" height="21"
+                alt="3.3337731"
+                title="3.3337731"/><img src="scheme/rank_back.gif"
+                width="43.499805" height="21"
+                alt="3.3337731"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_50000180" name="export" value="50000180">
+                        <label for="export_50000180"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="50000180">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=50000243"
+            title="Details anzeigen"
+            >Bericht des Schweizerischen Bundesrats &#252;ber seine Gesch&#228;ftsf&#252;hrung im Jahr 1913</a></td><td align="center" valign="top">Gesch&#228;ftsberichte des Bundesrates</td><td align="center" valign="top">1913</td><td align="center" valign="top">59</td><td align="center" valign="top">1</td><td align="center" valign="top">734</td><td align="center" valign="top">Berichte</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/50000243.pdf?ID=50000243" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">19MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.4886649" height="21"
+                alt="3.308144"
+                title="3.308144"/><img src="scheme/rank_back.gif"
+                width="43.511333" height="21"
+                alt="3.308144"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_50000243" name="export" value="50000243">
+                        <label for="export_50000243"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="50000243">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=50000144"
+            title="Details anzeigen"
+            >Bericht des Schweizerischen Bundesrats &#252;ber seine Gesch&#228;ftsf&#252;hrung im Jahr 1887</a></td><td align="center" valign="top">Gesch&#228;ftsberichte des Bundesrates</td><td align="center" valign="top">1887</td><td align="center" valign="top">33</td><td align="center" valign="top">1</td><td align="center" valign="top">678</td><td align="center" valign="top">Berichte</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/50000144.pdf?ID=50000144" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">15MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.4771018" height="21"
+                alt="3.2824483"
+                title="3.2824483"/><img src="scheme/rank_back.gif"
+                width="43.5229" height="21"
+                alt="3.2824483"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_50000144" name="export" value="50000144">
+                        <label for="export_50000144"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="50000144">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001229"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1910</td><td align="center" valign="top">-</td><td align="center" valign="top">167</td><td align="center" valign="top">432</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001229.pdf?ID=40001229" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">11MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2880272" height="21"
+                alt="2.8622825"
+                title="2.8622825"/><img src="scheme/rank_back.gif"
+                width="43.71197" height="21"
+                alt="2.8622825"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001229" name="export" value="40001229">
+                        <label for="export_40001229"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001229">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001259"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1912</td><td align="center" valign="top">-</td><td align="center" valign="top">172</td><td align="center" valign="top">472</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001259.pdf?ID=40001259" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">12MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2855172" height="21"
+                alt="2.8567052"
+                title="2.8567052"/><img src="scheme/rank_back.gif"
+                width="43.71448" height="21"
+                alt="2.8567052"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001259" name="export" value="40001259">
+                        <label for="export_40001259"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001259">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000824"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1887</td><td align="center" valign="top">-</td><td align="center" valign="top">133</td><td align="center" valign="top">172</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000824.pdf?ID=40000824" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">1MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2587385" height="21"
+                alt="2.7971969"
+                title="2.7971969"/><img src="scheme/rank_back.gif"
+                width="43.74126" height="21"
+                alt="2.7971969"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000824" name="export" value="40000824">
+                        <label for="export_40000824"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000824">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001214"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1909</td><td align="center" valign="top">-</td><td align="center" valign="top">166</td><td align="center" valign="top">422</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001214.pdf?ID=40001214" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">11MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2534709" height="21"
+                alt="2.7854908"
+                title="2.7854908"/><img src="scheme/rank_back.gif"
+                width="43.74653" height="21"
+                alt="2.7854908"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001214" name="export" value="40001214">
+                        <label for="export_40001214"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001214">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000804"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1886</td><td align="center" valign="top">-</td><td align="center" valign="top">133</td><td align="center" valign="top">172</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000804.pdf?ID=40000804" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">1MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2509986" height="21"
+                alt="2.7799969"
+                title="2.7799969"/><img src="scheme/rank_back.gif"
+                width="43.749" height="21"
+                alt="2.7799969"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000804" name="export" value="40000804">
+                        <label for="export_40000804"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000804">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000844"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1888</td><td align="center" valign="top">-</td><td align="center" valign="top">139</td><td align="center" valign="top">180</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000844.pdf?ID=40000844" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2509986" height="21"
+                alt="2.7799969"
+                title="2.7799969"/><img src="scheme/rank_back.gif"
+                width="43.749" height="21"
+                alt="2.7799969"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000844" name="export" value="40000844">
+                        <label for="export_40000844"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000844">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001101"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1901</td><td align="center" valign="top">-</td><td align="center" valign="top">135</td><td align="center" valign="top">328</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001101.pdf?ID=40001101" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">8MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2496674" height="21"
+                alt="2.7770388"
+                title="2.7770388"/><img src="scheme/rank_back.gif"
+                width="43.75033" height="21"
+                alt="2.7770388"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001101" name="export" value="40001101">
+                        <label for="export_40001101"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001101">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001303"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1915</td><td align="center" valign="top">-</td><td align="center" valign="top">179</td><td align="center" valign="top">496</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001303.pdf?ID=40001303" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">13MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2494502" height="21"
+                alt="2.776556"
+                title="2.776556"/><img src="scheme/rank_back.gif"
+                width="43.750546" height="21"
+                alt="2.776556"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001303" name="export" value="40001303">
+                        <label for="export_40001303"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001303">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001273"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1913</td><td align="center" valign="top">-</td><td align="center" valign="top">175</td><td align="center" valign="top">496</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001273.pdf?ID=40001273" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">13MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2476364" height="21"
+                alt="2.7725255"
+                title="2.7725255"/><img src="scheme/rank_back.gif"
+                width="43.752365" height="21"
+                alt="2.7725255"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001273" name="export" value="40001273">
+                        <label for="export_40001273"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001273">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001115"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1902</td><td align="center" valign="top">-</td><td align="center" valign="top">145</td><td align="center" valign="top">352</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001115.pdf?ID=40001115" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">9MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2447747" height="21"
+                alt="2.766166"
+                title="2.766166"/><img src="scheme/rank_back.gif"
+                width="43.755226" height="21"
+                alt="2.766166"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001115" name="export" value="40001115">
+                        <label for="export_40001115"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001115">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001244"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1911</td><td align="center" valign="top">-</td><td align="center" valign="top">165</td><td align="center" valign="top">439</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001244.pdf?ID=40001244" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">11MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2426763" height="21"
+                alt="2.7615027"
+                title="2.7615027"/><img src="scheme/rank_back.gif"
+                width="43.757324" height="21"
+                alt="2.7615027"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001244" name="export" value="40001244">
+                        <label for="export_40001244"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001244">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001301"
+            title="Details anzeigen"
+            >Finanz- und Zolldepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1915</td><td align="center" valign="top">-</td><td align="center" valign="top">127</td><td align="center" valign="top">168</td><td align="center" valign="top">Eidg. Finanz- und Zolldepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001301.pdf?ID=40001301" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">1MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2424372" height="21"
+                alt="2.7609715"
+                title="2.7609715"/><img src="scheme/rank_back.gif"
+                width="43.757565" height="21"
+                alt="2.7609715"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001301" name="export" value="40001301">
+                        <label for="export_40001301"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001301">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000864"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1889</td><td align="center" valign="top">-</td><td align="center" valign="top">147</td><td align="center" valign="top">189</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000864.pdf?ID=40000864" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.23943" height="21"
+                alt="2.7542887"
+                title="2.7542887"/><img src="scheme/rank_back.gif"
+                width="43.76057" height="21"
+                alt="2.7542887"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000864" name="export" value="40000864">
+                        <label for="export_40000864"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000864">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000885"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1890</td><td align="center" valign="top">-</td><td align="center" valign="top">154</td><td align="center" valign="top">198</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000885.pdf?ID=40000885" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.23943" height="21"
+                alt="2.7542887"
+                title="2.7542887"/><img src="scheme/rank_back.gif"
+                width="43.76057" height="21"
+                alt="2.7542887"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000885" name="export" value="40000885">
+                        <label for="export_40000885"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000885">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000906"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1891</td><td align="center" valign="top">-</td><td align="center" valign="top">175</td><td align="center" valign="top">220</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000906.pdf?ID=40000906" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.23943" height="21"
+                alt="2.7542887"
+                title="2.7542887"/><img src="scheme/rank_back.gif"
+                width="43.76057" height="21"
+                alt="2.7542887"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000906" name="export" value="40000906">
+                        <label for="export_40000906"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000906">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000928"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1892</td><td align="center" valign="top">-</td><td align="center" valign="top">177</td><td align="center" valign="top">224</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000928.pdf?ID=40000928" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.23943" height="21"
+                alt="2.7542887"
+                title="2.7542887"/><img src="scheme/rank_back.gif"
+                width="43.76057" height="21"
+                alt="2.7542887"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000928" name="export" value="40000928">
+                        <label for="export_40000928"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000928">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001199"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1908</td><td align="center" valign="top">-</td><td align="center" valign="top">163</td><td align="center" valign="top">405</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001199.pdf?ID=40001199" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">10MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.238609" height="21"
+                alt="2.7524645"
+                title="2.7524645"/><img src="scheme/rank_back.gif"
+                width="43.76139" height="21"
+                alt="2.7524645"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001199" name="export" value="40001199">
+                        <label for="export_40001199"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001199">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40000949"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1893</td><td align="center" valign="top">-</td><td align="center" valign="top">197</td><td align="center" valign="top">244</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40000949.pdf?ID=40000949" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">2MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2326574" height="21"
+                alt="2.7392387"
+                title="2.7392387"/><img src="scheme/rank_back.gif"
+                width="43.767338" height="21"
+                alt="2.7392387"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40000949" name="export" value="40000949">
+                        <label for="export_40000949"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40000949">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001288"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1914</td><td align="center" valign="top">-</td><td align="center" valign="top">178</td><td align="center" valign="top">509</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001288.pdf?ID=40001288" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">13MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2285733" height="21"
+                alt="2.730163"
+                title="2.730163"/><img src="scheme/rank_back.gif"
+                width="43.771427" height="21"
+                alt="2.730163"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001288" name="export" value="40001288">
+                        <label for="export_40001288"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001288">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001089"
+            title="Details anzeigen"
+            >Etat der Beamten der 6 Telegraphenkreise.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1900</td><td align="center" valign="top">-</td><td align="center" valign="top">245</td><td align="center" valign="top">332</td><td align="center" valign="top">Etats</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001089.pdf?ID=40001089" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">4MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2238104" height="21"
+                alt="2.7195787"
+                title="2.7195787"/><img src="scheme/rank_back.gif"
+                width="43.776188" height="21"
+                alt="2.7195787"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001089" name="export" value="40001089">
+                        <label for="export_40001089"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001089">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001142"
+            title="Details anzeigen"
+            >Post- und Eisenbahndepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1904</td><td align="center" valign="top">-</td><td align="center" valign="top">156</td><td align="center" valign="top">372</td><td align="center" valign="top">Post- und Eisenbahndepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001142.pdf?ID=40001142" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">9MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2213261" height="21"
+                alt="2.714058"
+                title="2.714058"/><img src="scheme/rank_back.gif"
+                width="43.77867" height="21"
+                alt="2.714058"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001142" name="export" value="40001142">
+                        <label for="export_40001142"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001142">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=40001286"
+            title="Details anzeigen"
+            >Finanz- und Zolldepartement.</a></td><td align="center" valign="top">Eidgen&#246;ssischer Staatskalender</td><td align="center" valign="top">1914</td><td align="center" valign="top">-</td><td align="center" valign="top">128</td><td align="center" valign="top">167</td><td align="center" valign="top">Eidg. Finanz- und Zolldepartement</td><td align="center" valign="top"></td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/40001286.pdf?ID=40001286" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Datei anzeigen" border="0"/></a><br><font size="1">1MB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="1.2211928" height="21"
+                alt="2.7137618"
+                title="2.7137618"/><img src="scheme/rank_back.gif"
+                width="43.77881" height="21"
+                alt="2.7137618"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_40001286" name="export" value="40001286">
+                        <label for="export_40001286"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="40001286">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="12"><div class="resultDivider"></div></td></tr>
+</table>
+</fieldset>
+<br>
+
+</div>
+
+        <!--
+                Page navigation
+                Match the pane's windowTitle table to get fonts to match.
+                Spacer cell provides indent for text. LATER: Make a pane button placeholder image.
+                Flag the position as a footer, for SkipNav naming. Var defined here; omitted in header pane.
+        -->
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Die maximale Anzahl der angezeigten Dokumente kann unter Einstellungen erhöht werden.')">1 bis 25 von 54</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">nächste Seite</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','50','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+
+
+
+
+        </div>
+    
+    
+
+
+
+
+                
+        
+<table width="100%"><tr><td width="100%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td></tr></table>
+
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Schweizerisches Bundesarchiv (BAR)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/de/start/rechtliches.html">Rechtliches</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

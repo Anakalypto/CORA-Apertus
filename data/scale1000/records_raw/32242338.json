@@ -1,0 +1,76 @@
+{
+ "id": "32242338",
+ "uri": "https://culture.ld.admin.ch/ais/32242338",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32242338",
+ "title": "Fort Furka: Schiesskarte für 12 cm Haubitze; Ladung = 300 gr; Höhe = 2418 m; 1:10'000 (Nr. 47+48/6)",
+ "reference_code": "E5480A-01#1975/39#1#14*",
+ "reference_number": "12",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1914-01-01",
+  "to": null,
+  "expressed": "1914"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13926",
+   "number": "1975/39",
+   "title": "1975/00039 Bundesverwaltung (Bern) (1900-1957)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7109148",
+   "title": "Furka: Schiesskarten für 12 cm und 8,4 cm Kanonen (Mappe Nr. 10)",
+   "level": "Dossier",
+   "reference_code": "E5480A-01#1975/39#1*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7109147",
+   "title": "Historische Sammlung Schiesskarten (geheim)",
+   "level": "Serie",
+   "reference_code": "E5480A-01#12"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7107732",
+   "title": "Listen aus verschiedenen Altablagen",
+   "level": "Serie",
+   "reference_code": "E5480A-01#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6872951",
+   "title": "Abteilung für Genie: Teilregistratur Genie und Altablagen (1895-1950)",
+   "level": "Sub-file",
+   "reference_code": "E5480A-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4410",
+   "title": "Abteilung für Genie (1875-1950)",
+   "level": "Stock",
+   "reference_code": "E10033*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

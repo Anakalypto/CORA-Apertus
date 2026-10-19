@@ -1,0 +1,283 @@
+{
+ "id": "3512888",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3512888",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512888",
+  "reference_code": "E1301#2001/209#13#4*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2001.2004: Petition Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\". Gefängnis-Hungerstreik in der Türkei / Pétition Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\". Grève de la faim entamée par des détenus en Turquie",
+   "scope_and_content": "Sprecher/Sprecherinnen: Hess, Peter",
+   "date": {
+    "from": "2001-06-22",
+    "to": null,
+    "expressed": "2001.06.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383480",
+     "number": "2001/209",
+     "title": "2001/00209 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded speech delivered by a parliamentarian during an official session of the Swiss National Council.",
+  "resume": "This document is a sound recording of a speech by Peter Hess in the Swiss National Council during the 2001 summer session, concerning a petition about political prisoners in Turkey and a hunger strike in Turkish prisons. It is part of the official parliamentary protocol of the Swiss National Council."
+ },
+ "metadata": {
+  "title": "2001.2004: Petition Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\". Gefängnis-Hungerstreik in der Türkei / Pétition Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\". Grève de la faim entamée par des détenus en Turquie",
+  "title_normalized": "2001.2004: Petition Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\". Gefängnis-Hungerstreik in der Türkei / Pétition Organisation \"Solidarité avec les prisonniers politiques en Turquie\". Grève de la faim entamée par des détenus en Turquie",
+  "title_en": "2001–2004: Petition Organisation \"Solidarity with political prisoners in Turkey\". Prison hunger strike in Turkey",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-06-22",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "2001-06-22",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "political prisoners",
+   "hunger strike",
+   "Turkey",
+   "Swiss National Council",
+   "human rights"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Sommersession 2001",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2001/209#13#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512888",
+  "accession_numbers": [
+   "2001/209"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hess, Peter",
+    "display_name": "Peter Hess",
+    "role": "Speaker",
+    "wikidata": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): German and French titles present",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Sprecher/Sprecherinnen: Hess, Peter; named organizations or places (apertus): Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\" named",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2001.06.22\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "German and French titles present"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2001.06.22\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sprecher/Sprecherinnen: Hess, Peter"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Organisation \"Solidarität mit den politischen Gefangenen in der Türkei\" named"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person Peter Hess and organization name; no sensitive categories detected."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2001-06-22",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Speech delivered by Peter Hess in the Swiss National Council during the 2001 summer session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/209 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2001/209#13#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4123,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

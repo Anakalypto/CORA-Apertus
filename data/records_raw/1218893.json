@@ -1,0 +1,73 @@
+{
+ "id": "1218893",
+ "uri": "https://culture.ld.admin.ch/ais/1218893",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1218893",
+ "title": "Congrès international de l'histoire de l'art London",
+ "reference_code": "E3001A#1000/728#188*",
+ "reference_number": "05.2.10.04",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": null,
+  "expressed": "1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11992",
+   "number": "1000/728",
+   "title": "1000/00728 Bundesverwaltung (Bern) (1915-1947)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3746035",
+   "title": "Kongresse, Konferenzen, Ausstellungen",
+   "level": "Serie",
+   "reference_code": "E3001A#05.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3746032",
+   "title": "Unterstützung wissenschaftlicher und gemeinnütziger Vereine, Institutionen und Unternehmen",
+   "level": "Serie",
+   "reference_code": "E3001A#05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6792",
+   "title": "Sekretariat des eidgenössischen Departements des Innern: Zentrale Ablage (1909-1941)",
+   "level": "Sub-file",
+   "reference_code": "E3001A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6789",
+   "title": "Sekretariat des eidgenössischen Departements des Innern (1915-1975)",
+   "level": "Stock",
+   "reference_code": "E10806*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

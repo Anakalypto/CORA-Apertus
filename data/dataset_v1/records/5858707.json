@@ -1,0 +1,298 @@
+{
+ "id": "5858707",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5858707",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5858707",
+  "reference_code": "J2.229#1996/423#34#260*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Dominik Auf der Maur und Ludwig von Moos fahren im offenen Wagen durch die Strassen von Schwyz",
+   "scope_and_content": "Kanton Schwyz, CVP\nAutor: Actualités Suisses Lausanne, ASL",
+   "form": "Abzug",
+   "date": {
+    "from": "1965-12-03",
+    "to": null,
+    "expressed": "1965.12.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+     "number": "1996/423",
+     "title": "1996/00423 k.A. Organisation (1960-1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by a news agency (Actualités Suisses Lausanne) documenting the event as it happened.",
+  "resume": "The document is a photographic print showing Swiss politicians Dominik Auf der Maur and Ludwig von Moos riding in an open carriage through the streets of Schwyz on December 3, 1965. It was produced by the Lausanne-based newsreel agency Actualités Suisses Lausanne (ASL)."
+ },
+ "metadata": {
+  "title": "Dominik Auf der Maur und Ludwig von Moos fahren im offenen Wagen durch die Strassen von Schwyz",
+  "title_normalized": "Dominik Auf der Maur und Ludwig von Moos fahren im offenen Wagen durch die Strassen von Schwyz",
+  "title_en": "Dominik Auf der Maur and Ludwig von Moos riding in an open carriage through the streets of Schwyz",
+  "creator": "Actualités Suisses Lausanne (ASL)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1965-12-03",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-12-03",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "politics",
+   "Switzerland",
+   "Schwyz",
+   "politicians",
+   "public event"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+  "fonds_reference": "J2.229*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "Bundesversammlung",
+   "Ständeratspräsidenten",
+   "Dominik Auf der Maur"
+  ],
+  "reference_code": "J2.229#1996/423#34#260*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5858707",
+  "accession_numbers": [
+   "1996/423"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dominik Auf der Maur",
+    "display_name": "Dominik Auf der Maur",
+    "role": "depicted",
+    "wikidata": null
+   },
+   {
+    "name": "Ludwig von Moos",
+    "display_name": "Ludwig von Moos",
+    "role": "depicted",
+    "wikidata": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Schwyz",
+    "as_written": "Schwyz",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0571976,
+    "lon": 8.7222073,
+    "gazetteer": "https://www.openstreetmap.org/relation/1688583",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): scope_and_content: \"Kanton Schwyz, CVP\\nAutor: Actualités Suisses Lausanne, ASL\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): \"title\": \"Dominik Auf der Maur und Ludwig von Moos fahren im offenen Wagen durch die Strassen von Schwyz\"; named organizations or places (apertus): \"scope_and_content\": \"Kanton Schwyz, CVP\\nAutor: Actualités Suisses Lausanne, ASL\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): \"expressed\": \"1965.12.03\"; free text places (apertus): scope_and_content: \"Kanton Schwyz\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "scope_and_content: \"Kanton Schwyz, CVP\\nAutor: Actualités Suisses Lausanne, ASL\""
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"expressed\": \"1965.12.03\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: \"Kanton Schwyz\""
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "\"title\": \"Dominik Auf der Maur und Ludwig von Moos fahren im offenen Wagen durch die Strassen von Schwyz\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "\"scope_and_content\": \"Kanton Schwyz, CVP\\nAutor: Actualités Suisses Lausanne, ASL\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1965-12-03",
+   "place": "Schwyz",
+   "lat": 47.0571976,
+   "lon": 8.7222073,
+   "description": "Photograph taken of Dominik Auf der Maur and Ludwig von Moos in an open carriage through Schwyz streets.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/423 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.229#1996/423#34#260*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 3985,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

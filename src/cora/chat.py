@@ -15,6 +15,7 @@ import urllib.parse
 from .enrich import Cache, _get
 from .more import wikipedia_summary
 from .qa import tokens
+from . import i18n
 
 SYSTEM = """You are the historian of CORA, a research assistant for the Swiss Federal Archives. You talk with a user
 about Swiss and world history and the records of the archive. Use the numbered sources of this turn:
@@ -26,7 +27,7 @@ You may add widely known context that no source states, but then give that sente
 your own knowledge). Never invent records, quotes, dates or numbers. Never name who held an office, command or role
 unless a source of THIS turn states it; otherwise say the sources do not name them. Your earlier answers in this
 conversation are not evidence: if this turn's sources contradict one of them, say so and correct it. If the archive has nothing on the question, say so
-in one sentence and then answer from Wikipedia. Answer in the language of the user's last message, in 1 to 3 short
+in one sentence and then answer from Wikipedia. Answer in the language the last message asks for, in 1 to 3 short
 paragraphs, and propose 3 short follow-up questions the archive could help with. Never write source tags such as
 "R1" or "(W2)" inside the sentence text: list them only in "sources". Return one JSON object."""
 
@@ -138,7 +139,7 @@ def _rec_source(r: dict, ref: str, index=None, query: str = "") -> dict:
                     + f' {passage or (o.get("scope_and_content") or "")[:400]}'}
 
 
-def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = None, k: int = 5) -> dict:
+def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = None, k: int = 5, lang: str | None = None) -> dict:
     turns = [m for m in messages if m.get("role") in ("user", "assistant") and str(m.get("content", "")).strip()][-8:]
     if not turns or turns[-1]["role"] != "user":
         raise ValueError("the last message must be the user's")
@@ -171,7 +172,7 @@ def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = No
         sources.append({"ref": f"W{i}", "kind": "wikipedia", "title": w["title"], "url": w["url"], "lang": w["lang"],
                         "text": w["extract"][:900], "license": "CC BY-SA 4.0"})
 
-    lang = detect_language(question)
+    lang = i18n.language(lang) if lang else detect_language(question)  # the reader's interface language, if given
     sent = {"text": "<sentence>", "sources": ["<R#|W#>"]}
     schema = {"paragraph_1": [sent, sent], "paragraph_2": [sent, sent], "paragraph_3": [sent],
               "follow_ups": ["<question>", "<question>", "<question>"]}

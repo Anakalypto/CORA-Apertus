@@ -1,0 +1,538 @@
+{
+ "id": "4591685",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4591685",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4591685",
+  "reference_code": "E1301#2007/204#3#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2007.0028: Stiftung Pro Helvetia. Finanzierung 2008-2011 / Fondation Pro Helvetia. Financement 2008-2011",
+   "scope_and_content": "Sprecher/Sprecherinnen: Amstutz, Adrian; Couchepin, Pascal; Egerszegi-Obrist, Christine; Freysinger, Oskar; Genner, Ruth; Häberli-Koller, Brigitte; Markwalder Bär, Christa; Menétrey-Savary, Anne-Catherine; Müller-Hemmi, Vreni; Noser, Ruedi; Pfister, Theophil; Riklin, Kathy; Savary, Géraldine; Studer, Heiner",
+   "date": {
+    "from": "2007-09-19",
+    "to": null,
+    "expressed": "2007.09.19"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4036152",
+     "number": "2007/204",
+     "title": "2007/00204 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary record of the Swiss National Council session held on 19 September 2007, focusing on the financial planning of the Pro Helvetia foundation for the period 2008-2011. It contains the names of speakers who participated in the debate and is part of the National Council's meeting protocols."
+ },
+ "metadata": {
+  "title": "2007.0028: Stiftung Pro Helvetia. Finanzierung 2008-2011 / Fondation Pro Helvetia. Financement 2008-2011",
+  "title_normalized": "2007.0028: Stiftung Pro Helvetia. Finanzierung 2008-2011 / Fondation Pro Helvetia. Financement 2008-2011",
+  "title_en": "Pro Helvetia Foundation Funding 2008-2011",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-09-19",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-09-19",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Pro Helvetia",
+   "Swiss cultural funding",
+   "National Council budget"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Herbstsession 2007",
+   "Herbstsession 2007, 3. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2007/204#3#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4591685",
+  "accession_numbers": [
+   "2007/204"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Adrian Amstutz",
+    "display_name": "Adrian Amstutz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116074",
+     "label": "Adrian Amstutz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116074"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christine Egerszegi-Obrist",
+    "display_name": "Christine Egerszegi-Obrist",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118232",
+     "label": "Christine Egerszegi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118232"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Oskar Freysinger",
+    "display_name": "Oskar Freysinger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123109",
+     "label": "Oskar Freysinger",
+     "description": "Swiss teacher, politician (SVP), and writer",
+     "url": "https://www.wikidata.org/wiki/Q123109"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruth Genner",
+    "display_name": "Ruth Genner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117716",
+     "label": "Ruth Genner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117716"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Brigitte Häberli-Koller",
+    "display_name": "Brigitte Häberli-Koller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121134",
+     "label": "Brigitte Häberli-Koller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121134"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christa Markwalder Bär",
+    "display_name": "Christa Markwalder Bär",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118535",
+     "label": "Christa Markwalder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118535"
+    },
+    "life_date_check": {
+     "born": 1975,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anne-Catherine Menétrey-Savary",
+    "display_name": "Anne-Catherine Menétrey-Savary",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2850749",
+     "label": "Anne-Catherine Menétrey",
+     "description": "Swiss political figure and writer",
+     "url": "https://www.wikidata.org/wiki/Q2850749"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vreni Müller-Hemmi",
+    "display_name": "Vreni Müller-Hemmi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1492208",
+     "label": "Vreni Müller-Hemmi",
+     "description": "politician",
+     "url": "https://www.wikidata.org/wiki/Q1492208"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruedi Noser",
+    "display_name": "Ruedi Noser",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q693305",
+     "label": "Ruedi Noser",
+     "description": "Swiss entrepreneur and politician",
+     "url": "https://www.wikidata.org/wiki/Q693305"
+    },
+    "life_date_check": {
+     "born": 1961,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Theophil Pfister",
+    "display_name": "Theophil Pfister",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119484",
+     "label": "Theophil Pfister",
+     "description": "Swiss politician (1942-2012)",
+     "url": "https://www.wikidata.org/wiki/Q119484"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": 2012,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kathy Riklin",
+    "display_name": "Kathy Riklin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1358187",
+     "label": "Kathy Riklin",
+     "description": "High-school Teacher and Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1358187"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Géraldine Savary",
+    "display_name": "Géraldine Savary",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117230",
+     "label": "Géraldine Savary",
+     "description": "Swiss politician and journalist",
+     "url": "https://www.wikidata.org/wiki/Q117230"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heiner Studer",
+    "display_name": "Heiner Studer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121539",
+     "label": "Heiner Studer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121539"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Pro Helvetia",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q672162",
+     "label": "Pro Helvetia",
+     "description": "Swiss culture foundation",
+     "url": "https://www.wikidata.org/wiki/Q672162"
+    }
+   },
+   {
+    "name": "National Council (Nationalrat)",
+    "role": null,
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2007.0028: Stiftung Pro Helvetia. Finanzierung 2008-2011 / Fondation Pro Helvetia. Financement 2008-2011\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Adrian Amstutz', 'Pascal Couchepin', ...]; named organizations or places (apertus): title: \"Stiftung Pro Helvetia\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.09.19",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2007.0028: Stiftung Pro Helvetia. Finanzierung 2008-2011 / Fondation Pro Helvetia. Financement 2008-2011\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.09.19"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Adrian Amstutz', 'Pascal Couchepin', ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Stiftung Pro Helvetia\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-09-19",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/204 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2007/204#3#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5434,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

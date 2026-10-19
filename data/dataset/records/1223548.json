@@ -1,0 +1,276 @@
+{
+ "id": "1223548",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1223548",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1223548",
+  "reference_code": "E3001B#1992/265#44*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Register über Sitzungsprotokolle der Schweiz. Kunstkommission",
+   "reference_number": "10.01.02",
+   "date": {
+    "from": "1892-01-01",
+    "to": "1900-12-31",
+    "expressed": "1892-1900"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/12022",
+     "number": "1992/265",
+     "title": "1992/00265 Generalsekretariat des eidgen�ssischen Departements des Innern (Bern) (1864-1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit functions as a finding aid for session protocols of the Swiss Federal Art Commission.",
+  "resume": "This is a register (index) listing the session minutes of the Swiss Federal Art Commission for the period 1892–1900. It serves as an administrative tool to locate the original protocols rather than containing the protocols themselves. The document is part of the central filing of the Federal Department of the Interior."
+ },
+ "metadata": {
+  "title": "Register über Sitzungsprotokolle der Schweiz. Kunstkommission",
+  "title_normalized": "Register über Sitzungsprotokolle der Schweiz. Kunstkommission",
+  "title_en": "Register of session minutes of the Swiss Federal Art Commission",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1992",
+  "content_date": "1892/1900",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "art administration",
+   "Swiss Federal Art Commission",
+   "cultural policy",
+   "administrative records"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Generalsekretariat des eidgenössischen Departements des Innern (1975-)",
+  "fonds_reference": "E10312*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Generalsekretariat des eidgenössischen Departements des Innern (1975-)",
+   "Generalsekretariat des eidgenössischen Departements des Innern: Zentrale Ablage (1975-)",
+   "Förderung und Pflege der Kunst",
+   "Freie Kunst",
+   "Eidg. Kunstkommission"
+  ],
+  "reference_code": "E3001B#1992/265#44*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1223548",
+  "accession_numbers": [
+   "1992/265"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweiz. Kunstkommission",
+    "role": "Subject of the register",
+    "wikidata": null
+   },
+   {
+    "name": "Generalsekretariat des eidgenössischen Departements des Innern",
+    "role": "Depositor of the records",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'eidgen�ssischen' with mangled umlaut",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): accessions.title contains 'Generalsekretariat des eidgenössischen Departements des Innern'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'eidgen�ssischen' with mangled umlaut"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions.title contains 'Generalsekretariat des eidgenössischen Departements des Innern'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1992",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1992/265 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3001B#1992/265#44*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4551,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

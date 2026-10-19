@@ -1,0 +1,483 @@
+{
+ "id": "31862793",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31862793",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31862793",
+  "reference_code": "E1401#2020/14#2#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2003.0445: Parlamentarische Initiative Lustenberger Ruedi. Öffentliches Beschaffungswesen. Ausbildung von Lehrlingen als Kriterium / Initiative parlementaire Lustenberger Ruedi. Marchés publics. La formation d'apprentis constituerait un critère de sélection",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Baumann, Isidor; Diener Lenz, Verena; Engler, Stefan; Föhn, Peter; Germann, Hannes; Graber, Konrad; Hess, Hans; Rechsteiner, Paul; Schmid, Martin; Theiler, Georges;, Autor: Sprecher/Sprecherinnen:  Widmer-Schlumpf, Eveline; Zanetti, Roberto;",
+   "date": {
+    "from": "2014-06-03",
+    "to": null,
+    "expressed": "2014.06.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31845156",
+     "number": "2020/14",
+     "title": "2020/00014 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary debate.",
+  "resume": "This is a video recording of a debate in the Swiss Council of States (Ständerat) on June 3, 2014, concerning a parliamentary initiative to include apprenticeship training as a criterion in public procurement. Several members of the Council spoke on the proposal."
+ },
+ "metadata": {
+  "title": "2003.0445: Parlamentarische Initiative Lustenberger Ruedi. Öffentliches Beschaffungswesen. Ausbildung von Lehrlingen als Kriterium / Initiative parlementaire Lustenberger Ruedi. Marchés publics. La formation d'apprentis constituerait un critère de sélection",
+  "title_normalized": "2003.0445: Parlamentarische Initiative Lustenberger Ruedi. Öffentliches Beschaffungswesen. Ausbildung von Lehrlingen als Kriterium / Initiative parlementaire Lustenberger Ruedi. Marchés publics. La formation d'apprentis constituerait un critère de sélection",
+  "title_en": "Parliamentary initiative Lustenberger Ruedi. Public procurement. Apprenticeship training as a selection criterion",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2014-06-03",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2020",
+  "content_date": "2014-06-03",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "public procurement",
+   "apprenticeship training",
+   "Swiss politics",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Sommersession 2014",
+   "2. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2020/14#2#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31862793",
+  "accession_numbers": [
+   "2020/14"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Isidor Baumann",
+    "display_name": "Isidor Baumann",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q119445",
+     "label": "Isidor Baumann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119445"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Verena Diener Lenz",
+    "display_name": "Verena Diener Lenz",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q116457",
+     "label": "Verena Diener",
+     "description": "Swiss politician (1949–2024)",
+     "url": "https://www.wikidata.org/wiki/Q116457"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stefan Engler",
+    "display_name": "Stefan Engler",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q121356",
+     "label": "Stefan Engler",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q121356"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Föhn",
+    "display_name": "Peter Föhn",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q119888",
+     "label": "Peter Föhn",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119888"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hannes Germann",
+    "display_name": "Hannes Germann",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q116475",
+     "label": "Hannes Germann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116475"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Konrad Graber",
+    "display_name": "Konrad Graber",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q120902",
+     "label": "Konrad Graber",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120902"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Hess",
+    "display_name": "Hans Hess",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q5650147",
+     "label": "Hans Hess",
+     "description": "German-British art historian, curator, art festival director (1908-1975)",
+     "url": "https://www.wikidata.org/wiki/Q5650147"
+    },
+    "life_date_check": {
+     "born": 1908,
+     "died": 1975,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Rechsteiner",
+    "display_name": "Paul Rechsteiner",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q119440",
+     "label": "Paul Rechsteiner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119440"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Martin Schmid",
+    "display_name": "Martin Schmid",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q121349",
+     "label": "Martin Schmid",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121349"
+    },
+    "life_date_check": {
+     "born": 1969,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Georges Theiler",
+    "display_name": "Georges Theiler",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q120013",
+     "label": "Georges Theiler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120013"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eveline Widmer-Schlumpf",
+    "display_name": "Eveline Widmer-Schlumpf",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q162767",
+     "label": "Eveline Widmer-Schlumpf",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q162767"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roberto Zanetti",
+    "display_name": "Roberto Zanetti",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q118337",
+     "label": "Roberto Zanetti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118337"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate list includes names like 'Isidor Baumann'; named organizations or places (apertus): hierarchy_top_down includes 'Ständerat' and 'Parlamentsdienste'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2014.06.03'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2014.06.03'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate list includes names like 'Isidor Baumann'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes 'Ständerat' and 'Parlamentsdienste'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Topic is parliamentary debate on public procurement, no identifiable person concerned"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by health, criminal, asylum or other sensitive matters."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2014-06-03",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video recording made during the Ständerat debate on the parliamentary initiative.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2020",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2020/14 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2020/14#2#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5205,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

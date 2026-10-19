@@ -1,0 +1,77 @@
+{
+ "id": "5859029",
+ "uri": "https://culture.ld.admin.ch/ais/5859029",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859029",
+ "title": "René Frank Vaucher, Porträt",
+ "reference_code": "J2.229#1996/423#149#430*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Wahl ins Eidg. Versicherungsgericht\nAutor: Photopress, Zürich",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Abzug",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1963-12-11",
+  "to": null,
+  "expressed": "1963.12.11"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+   "number": "1996/423",
+   "title": "1996/00423 k.A. Organisation (1960-1979)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5859028",
+   "title": "René Frank Vaucher",
+   "level": "Dossier",
+   "reference_code": "J2.229#1996/423#149*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5735037",
+   "title": "Eidg. Versicherungsrichter",
+   "level": "Serie",
+   "reference_code": "J2.229#02.02.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5735024",
+   "title": "Bundes- und Kantonsgerichte",
+   "level": "Serie",
+   "reference_code": "J2.229#02.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5735006",
+   "title": "Bundesverwaltung",
+   "level": "Serie",
+   "reference_code": "J2.229#02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4220",
+   "title": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "level": "Stock",
+   "reference_code": "J2.229*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "still_image"
+}

@@ -100,7 +100,7 @@ CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It
 
 ### Verification against the Bern case study
 
-Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfer-Enquête response sheets (opendata.swiss SQL dump) and was compared with the University of Bern structured records. With the Bern codebook in the prompt, agreement is 90–98 % on 8 of 12 fields, and the school place is right in 95 % of sheets (58 % in modern spelling). See [docs/stapfer_verification.md](docs/stapfer_verification.md) for the per-field table and the error taxonomy.
+Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfer-Enquête response sheets (opendata.swiss SQL dump) and was compared with the University of Bern structured records. With the Bern codebook in the prompt and names compared across historical spellings ("Tachsen" = Dachsen), agreement is 90–100 % on 9 of 12 fields, and the school place is right in 95 % of sheets (58 % in modern spelling). See [docs/stapfer_verification.md](docs/stapfer_verification.md) for the per-field table and the error taxonomy.
 
 ### Scale run
 
@@ -118,7 +118,7 @@ Apertus 70B extracted 12 fields from the transcribed answers of 40 random Stapfe
 - **Anonymization:** the flag has about 40 % precision (it confuses sensitive topics with sensitive persons) and at least one miss. It is a triage aid only.
 - **Geography:** 83 % of places were located. There is one known gazetteer error (Simplon), and small hamlets and military points (e.g. "Pkt 706") are not resolved.
 - **Coverage:** all 100 records are primary sources. Secondary and tertiary classification is untested on real examples, and the source-level agreement of 100 % is partly because the task was easy.
-- The manual review was done by one reviewer (an AI assistant) on 25 records. Archivists should repeat it.
+- The manual review of 25 records, and the adjudication of source levels, were done by hand by the CORA team. Archivists of the Federal Archives should repeat them on a larger sample.
 - The University of Bern reference structure was not available to us, so there is no comparison against it.
 
 ## 6. Reproducibility
@@ -136,6 +136,7 @@ jupyter notebook notebooks/demo.ipynb
 - **Seeds:** sample seed 42 over a sorted population. Model temperature is 0.1, so reruns vary slightly.
 - **Pinned facts:** Python 3.12, Apertus v1.5 on vLLM 0.23 (gateway fingerprint), LINDAS data of 2026-01-08.
 - Each stage reads the previous stage's file in `data/`, so any stage can be rerun alone (`python src/run.py qc`).
+- **Data layout:** collections are stored one JSON file per entry (`src/cora/store.py`): the raw archive records in `data/records_raw/`, the AI-ready records in `data/dataset/records/` (`cora_dataset.jsonl/.csv/.tsv` remain as downloads), the lookup cache in `data/enrich_cache/`, and the Stapfer response sheets and results in `data/stapfer/cases/` and `data/stapfer/comparison/`. `_order.json` in each folder keeps the order. An entry still only in an old combined file is split out when it is first read (opening a record on the website splits it); `python src/run.py split` splits everything at once.
 
 ## License
 

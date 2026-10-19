@@ -1,0 +1,308 @@
+{
+ "id": "29666896",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29666896",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29666896",
+  "reference_code": "J2.225#2007/61#90#120*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Swissair-Prozess / Verteidigung Vreni Spoerry",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503991\nSignatur Bundesarchiv: J2.225#2007/1#90*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Bülach, ZH: Swissair-Prozess (SAirGroup) / Verteidigung von Vreni Spoerry\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Bülach, ZH: Prozesszeichnungen Vreni Spoerry / Statement Vreni Spoerry vor Journalisten",
+   "author": "AutorIn: Franziscus, Andri (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:28\nPosition Anfang: 00:55:37",
+   "thema": "Personen: Spoerry, Vreni (ex-Verwaltungsrätin Swissair)\nSachdeskriptor: /JUSTIZ./STRAFVERFAHREN/PROZESS;/VERKEHR./FLUGGESELLSCHAFT/SWISSAIR",
+   "date": {
+    "from": "2007-02-28",
+    "to": null,
+    "expressed": "2007.02.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary audiovisual record documenting a specific event within the Swissair trial.",
+  "resume": "This is a video clip from the Swiss public broadcaster SF showing Vreni Spoerry's defense statement during the Swissair trial in Bülach, ZH, on February 28, 2007. It includes her remarks to journalists and courtroom sketches related to the SAirGroup proceedings. The footage was produced as part of the Tagesschau news program."
+ },
+ "metadata": {
+  "title": "Swissair-Prozess / Verteidigung Vreni Spoerry",
+  "title_normalized": "Swissair-Prozess / Verteidigung Vreni Spoerry",
+  "title_en": "Swissair Trial / Defense of Vreni Spoerry",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-02-28",
+  "date_published": "2007-02-28",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-02-28",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swissair",
+   "corporate bankruptcy",
+   "criminal trial",
+   "Vreni Spoerry"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 28.02.2007"
+  ],
+  "reference_code": "J2.225#2007/61#90#120*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29666896",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Vreni Spoerry",
+    "display_name": "Vreni Spoerry",
+    "role": "defendant giving statement",
+    "wikidata": {
+     "qid": "Q120061",
+     "label": "Vreni Spoerry",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120061"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Bülach",
+    "as_written": "Bülach, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5172321,
+    "lon": 8.5407118,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682100",
+    "model_lat": 47.5667,
+    "model_lon": 8.6917
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Inhaltsangabe: Schweiz <Bülach, ZH: Swissair-Prozess (SAirGroup) / Verteidigung Vreni Spoerry",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Franziscus, Andri (AUT)\nProduktionsgesell",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: Swissair-Prozess / Verteidigung Vreni Spoerry; thema: Spoerry, Vreni; named organizations or places (apertus): thema: SWISSAIR; hierarchy_top_down: Schweizer Fernsehen DRS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: 2007.02.28; free text places (apertus): Inhaltsangabe: Schweiz <Bülach, ZH: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Schweiz <Bülach, ZH: Swissair-Prozess (SAirGroup) / Verteidigung Vreni Spoerry"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Franziscus, Andri (AUT)\nProduktionsgesell"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: 2007.02.28"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Inhaltsangabe: Schweiz <Bülach, ZH: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: Swissair-Prozess / Verteidigung Vreni Spoerry; thema: Spoerry, Vreni"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: SWISSAIR; hierarchy_top_down: Schweizer Fernsehen DRS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organisations but no identifiable individuals concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-02-28",
+   "place": "Bülach, ZH",
+   "lat": 47.5172321,
+   "lon": 8.5407118,
+   "description": "Video recording produced during Swissair trial proceedings featuring Vreni Spoerry's defense statement.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#90#120*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5200,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

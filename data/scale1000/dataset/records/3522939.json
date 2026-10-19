@@ -1,0 +1,915 @@
+{
+ "id": "3522939",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3522939",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522939",
+  "reference_code": "E1301#1988/226#6#42*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "88.467: Motion Fischer-Seengen. Elektrizitätsversorgung und Offenhaltung der Option Kernenergie / Approvisionnement du pays en électricité et sauvegarde de l'otion nucléaire",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aliesch, Peter; Allenspach, Heinz; Bär, Rosmarie; Basler, Konrad; Blocher, Christoph; Bodenmann, Peter; Bonvin, Hubert; Brélaz, Daniel; Bundi, Martin; Burkhardt, Martin; Fischer, Theo, Hägglingen; Fischer, Ulrich; Frey, Walter; Früh, Hans-Rudolf; Giger, Titus; Grendelmeier, Verena; Günter, Paul; Hafner, Rudolf; Houmard, Marc-André; Humbel, Beda; Ledergerber, Elmar; Luder, Paul; Maeder, Herbert; Mauch, Ursula; Meier, Hans; Nebiker, Hans-Rudolf; Neukomm, Alfred; Oester, Hans; Ogi, Adolf; Portmann, Théo; Rebeaud, Laurent; Rebeaud, Laurent; Rechsteiner, Paul; Ruf, Markus; Salvioni, Sergio; Schmid, Hans; Schmidhalter, Paul; Schüle, Kurt; Schwab, Heinz; Seiler, Hanspeter; Spoerry, Vreni; Stucky, Georg; Thür, Hanspeter; Weder, Hansjürg; Zbinden, Paul; Zwygart, Otto",
+   "date": {
+    "from": "1988-09-27",
+    "to": null,
+    "expressed": "1988.09.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383430",
+     "number": "1988/226",
+     "title": "1988/00226 Parlamentsdienste (Bern) (1988)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary record of a motion debate in the Swiss National Council concerning electricity supply and the retention of nuclear energy options, held on 27 September 1988. It contains the names of multiple speakers who participated in the debate. The record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "88.467: Motion Fischer-Seengen. Elektrizitätsversorgung und Offenhaltung der Option Kernenergie / Approvisionnement du pays en électricité et sauvegarde de l'otion nucléaire",
+  "title_normalized": "88.467: Motion Fischer-Seengen. Elektrizitätsversorgung und Offenhaltung der Option Kernenergie / Approvisionnement du pays en électricité et sauvegarde de l'option nucléaire",
+  "title_en": "Motion Fischer-Seengen: Electricity Supply and Retention of Nuclear Energy Option / Supply of Electricity to the Country and Safeguarding of the Nuclear Option",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1988-09-27",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1988",
+  "content_date": "1988-09-27",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "electricity supply",
+   "nuclear energy policy",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Herbstsession 1988",
+   "6. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1988/226#6#42*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522939",
+  "accession_numbers": [
+   "1988/226"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Fischer, Theo, Hägglingen",
+    "display_name": "Fischer, Theo, Hägglingen",
+    "role": "author of the motion",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ulrich Fischer",
+    "display_name": "Ulrich Fischer",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2475778",
+     "label": "Ulrich Fischer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2475778"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Aliesch",
+    "display_name": "Peter Aliesch",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Heinz Allenspach",
+    "display_name": "Heinz Allenspach",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1298526",
+     "label": "Heinz Allenspach",
+     "description": "Swiss politician (1928–2022)",
+     "url": "https://www.wikidata.org/wiki/Q1298526"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rosmarie Bär",
+    "display_name": "Rosmarie Bär",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2167523",
+     "label": "Rosmarie Bär",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2167523"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Konrad Basler",
+    "display_name": "Konrad Basler",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christoph Blocher",
+    "display_name": "Christoph Blocher",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q123857",
+     "label": "Christoph Blocher",
+     "description": "Swiss politician, industrialist, and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123857"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Bodenmann",
+    "display_name": "Peter Bodenmann",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2074000",
+     "label": "Peter Bodenmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2074000"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hubert Bonvin",
+    "display_name": "Hubert Bonvin",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Daniel Brélaz",
+    "display_name": "Daniel Brélaz",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q118484",
+     "label": "Daniel Brélaz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118484"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Martin Bundi",
+    "display_name": "Martin Bundi",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1518805",
+     "label": "Martin Bundi",
+     "description": "Swiss politician and historian (1932-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1518805"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Martin Burkhardt",
+    "display_name": "Martin Burkhardt",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1903531",
+     "label": "Martin Burkhardt",
+     "description": "German politician (1898-1977)",
+     "url": "https://www.wikidata.org/wiki/Q1903531"
+    },
+    "life_date_check": {
+     "born": 1898,
+     "died": 1977,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Verena Grendelmeier",
+    "display_name": "Verena Grendelmeier",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q120736",
+     "label": "Verena Grendelmeier",
+     "description": "Swiss actor, television presenter and politician (1939-2018)",
+     "url": "https://www.wikidata.org/wiki/Q120736"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Günter",
+    "display_name": "Paul Günter",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2059910",
+     "label": "Paul Günter",
+     "description": "Swiss politician (1943–2024)",
+     "url": "https://www.wikidata.org/wiki/Q2059910"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rudolf Hafner",
+    "display_name": "Rudolf Hafner",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2172835",
+     "label": "Rudolf Hafner",
+     "description": "Swiss politician and author",
+     "url": "https://www.wikidata.org/wiki/Q2172835"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Marc-André Houmard",
+    "display_name": "Marc-André Houmard",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q17410921",
+     "label": "Marc-André Houmard",
+     "description": "Swiss politician (1928-2014)",
+     "url": "https://www.wikidata.org/wiki/Q17410921"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Beda Humbel",
+    "display_name": "Beda Humbel",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q125524",
+     "label": "Beda Humbel",
+     "description": "Swiss politician (1933-2019)",
+     "url": "https://www.wikidata.org/wiki/Q125524"
+    },
+    "life_date_check": {
+     "born": 1933,
+     "died": 2019,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Elmar Ledergerber",
+    "display_name": "Elmar Ledergerber",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q115886",
+     "label": "Elmar Ledergerber",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q115886"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Luder",
+    "display_name": "Paul Luder",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q96337513",
+     "label": "Paul Luder",
+     "description": "Swiss politician (1936-1993)",
+     "url": "https://www.wikidata.org/wiki/Q96337513"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": 1993,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Herbert Maeder",
+    "display_name": "Herbert Maeder",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q121855",
+     "label": "Herbert Maeder",
+     "description": "Swiss politician and photographer (1930-2017)",
+     "url": "https://www.wikidata.org/wiki/Q121855"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2017,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Mauch",
+    "display_name": "Ursula Mauch",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q21509161",
+     "label": "Ursula Mauch",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21509161"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Meier",
+    "display_name": "Hans Meier",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q40022607",
+     "label": "Hans Meier",
+     "description": "actor",
+     "url": "https://www.wikidata.org/wiki/Q40022607"
+    },
+    "life_date_check": {
+     "born": null,
+     "died": null,
+     "verdict": "unknown",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans-Rudolf Nebiker",
+    "display_name": "Hans-Rudolf Nebiker",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1578179",
+     "label": "Hans-Rudolf Nebiker",
+     "description": "Swiss politician (1929-2008)",
+     "url": "https://www.wikidata.org/wiki/Q1578179"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2008,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alfred Neukomm",
+    "display_name": "Alfred Neukomm",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q2645584",
+     "label": "Alfred Neukomm",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2645584"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Oester",
+    "display_name": "Hans Oester",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Adolf Ogi",
+    "display_name": "Adolf Ogi",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Théo Portmann",
+    "display_name": "Théo Portmann",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Laurent Rebeaud",
+    "display_name": "Laurent Rebeaud",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q3219475",
+     "label": "Laurent Rebeaud",
+     "description": "Swiss politician and journalist (1947-2015)",
+     "url": "https://www.wikidata.org/wiki/Q3219475"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Rechsteiner",
+    "display_name": "Paul Rechsteiner",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q119440",
+     "label": "Paul Rechsteiner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119440"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Ruf",
+    "display_name": "Markus Ruf",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1901753",
+     "label": "Markus Ruf",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1901753"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Sergio Salvioni",
+    "display_name": "Sergio Salvioni",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q78070644",
+     "label": "Sergio Salvioni",
+     "description": "Swiss politician (1927-2017)",
+     "url": "https://www.wikidata.org/wiki/Q78070644"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2017,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Schmid",
+    "display_name": "Hans Schmid",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Paul Schmidhalter",
+    "display_name": "Paul Schmidhalter",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q119427",
+     "label": "Paul Schmidhalter",
+     "description": "Swiss politician (1931-2005)",
+     "url": "https://www.wikidata.org/wiki/Q119427"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": 2005,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Schüle",
+    "display_name": "Kurt Schüle",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q131671410",
+     "label": "Kurt Schüle",
+     "description": "Schaffhausen politician (1944-2022)",
+     "url": "https://www.wikidata.org/wiki/Q131671410"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heinz Schwab",
+    "display_name": "Heinz Schwab",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Hanspeter Seiler",
+    "display_name": "Hanspeter Seiler",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q23008621",
+     "label": "Hanspeter Seiler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q23008621"
+    },
+    "life_date_check": {
+     "born": 1933,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vreni Spoerry",
+    "display_name": "Vreni Spoerry",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q120061",
+     "label": "Vreni Spoerry",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120061"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Georg Stucky",
+    "display_name": "Georg Stucky",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q76368904",
+     "label": "Georg Stucky",
+     "description": "Swiss politician (1930-2020)",
+     "url": "https://www.wikidata.org/wiki/Q76368904"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanspeter Thür",
+    "display_name": "Hanspeter Thür",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1583982",
+     "label": "Hanspeter Thür",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1583982"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansjürg Weder",
+    "display_name": "Hansjürg Weder",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1583903",
+     "label": "Hansjürg Weder",
+     "description": "Swiss politician (1928-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1583903"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Zbinden",
+    "display_name": "Paul Zbinden",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q17194429",
+     "label": "Paul Zbinden",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q17194429"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Otto Zwygart",
+    "display_name": "Otto Zwygart",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q72075527",
+     "label": "Otto Zwygart",
+     "description": "Swiss politician (1911-1986)",
+     "url": "https://www.wikidata.org/wiki/Q72075527"
+    },
+    "life_date_check": {
+     "born": 1911,
+     "died": 1986,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): yes",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): yes; named organizations or places (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1988.09.27",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1988.09.27"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1988",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1988/226 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1988/226#6#42*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 6092,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

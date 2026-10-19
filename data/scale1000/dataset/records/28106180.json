@@ -1,0 +1,357 @@
+{
+ "id": "28106180",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28106180",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106180",
+  "reference_code": "J2.225#2006/365#80#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Abschätzen von Weinschäden",
+   "old_reference_code": "Original Signatur: 9502093\nSignatur Bundesarchiv: J2.225#2006/365#3*",
+   "scope_and_content": "Inhaltsangabe: CH: Frage nach Bedarf für Elementarschaden-Versicherung / Schätzung von Hagelschäden im Weinbau\nSequenzbeschrieb: CH Lully, GE: Männer neben Rebberg stehend / GPL Versicherungszettel an Pfosten in Rebberg / Versicherungsinspektor und Weinbauer in Rebberg Schäden betrachtend, Trauben und Blätter am Boden liegend o.O.: Frau Reben aufbindend Hallau, SH: Mann bei Trauben-Ernte (Archiv) o.O.: Demo verschiedene Schäden an Rebstöcken und Trauben / GPL Anleitung zur Durchführung der Zählprobe bei Hagelschäden an Weinreben, Formular Zählprobe für Weinschäden / ausgefülltes Schaden-Formular / Bauer Reben besprühend / Weinbauer und Versicherungsexperte Hände schüttelnd / OV Dorf und Bielersee mit Petersinsel / Weinflaschen / GPL Plakat der Schweizerischen Hagelversicherungs-Gesellschaft",
+   "author": "AutorIn: Pfenninger, Kurt ; Scharpf, Hans\nProduktion: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "format": "Dauer: 00:13:39\nOriginalformat: V-U;16 mm;sepmag\nPosition Anfang: 01.19.14",
+   "thema": "Sachdeskriptor: Hagel;Versicherung;Weinbau",
+   "date": {
+    "from": "1966-06-03",
+    "to": null,
+    "expressed": "1966.06.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376890",
+     "number": "2006/365",
+     "title": "2006/00365 Schweizer Fernsehen DRS (Z�rich) (1959-1971)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct television broadcast from 1966 documenting on-site assessments of hail damage in viticulture.",
+  "resume": "The document is a 16 mm television segment from the agricultural program \"Landwirtschaftliche Rundschau\" dated 3 June 1966, showing visual evidence of hail damage to vines and related insurance procedures."
+ },
+ "metadata": {
+  "title": "Abschätzen von Weinschäden",
+  "title_normalized": "Abschätzen von Weinschäden",
+  "title_en": "Assessing Wine Damage",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1966-06-03",
+  "date_published": "1966-06-03",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1966-06-03",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "hagel",
+   "versicherung",
+   "weinbau"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Landwirtschaftliche Rundschau (LRS) 1959-1970",
+   "Landwirtschaftliche Rundschau (LRS) 1966",
+   "Landwirtschaftliche Rundschau (LRS) 03.06.1966"
+  ],
+  "reference_code": "J2.225#2006/365#80#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106180",
+  "accession_numbers": [
+   "2006/365"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Kurt Pfenninger",
+    "display_name": "Kurt Pfenninger",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Hans Scharpf",
+    "display_name": "Hans Scharpf",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "DRS",
+    "display_name": "DRS",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Hallau",
+    "as_written": "Hallau",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.6965281,
+    "lon": 8.4578613,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683654",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bielersee",
+    "as_written": "Bielersee",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0861034,
+    "lon": 7.171634,
+    "gazetteer": "https://www.openstreetmap.org/relation/1860960",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Switzerland",
+    "as_written": "CH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1959-1971)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Pfenninger, Kurt ; Scharpf, Hans\nProdukti",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Kurt Pfenninger, Hans Scharpf; named organizations or places (apertus): CH, SH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1966.06.03; free text places (apertus): CH: … SH: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1959-1971)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Pfenninger, Kurt ; Scharpf, Hans\nProdukti"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1966.06.03"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH: … SH: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Kurt Pfenninger, Hans Scharpf"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH, SH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1966-06-03",
+   "place": "Hallau",
+   "lat": 47.6965281,
+   "lon": 8.4578613,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1966-06-03",
+   "place": "Bielersee",
+   "lat": 47.0861034,
+   "lon": 7.171634,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1966-06-03",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television segment aired as part of \"Landwirtschaftliche Rundschau\" documenting hail damage assessments.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/365 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/365#80#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5496,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

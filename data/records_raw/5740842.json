@@ -1,0 +1,67 @@
+{
+ "id": "5740842",
+ "uri": "https://culture.ld.admin.ch/ais/5740842",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5740842",
+ "title": "Probleme des Kartellverwaltungsrechts. Festschrift für Bruno Schmidhauser zum 60. Geburtstag\", hrsg. von Professor Dr. Leo Schürmann. Rezension von Felix Egli; Korrespondenz mit Verlag Stämpfli",
+ "reference_code": "J1.298#2003/36#3376*",
+ "reference_number": "86",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1992-01-01",
+  "to": null,
+  "expressed": "1992"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/369595",
+   "number": "2003/36",
+   "title": "2003/00036 Sch�rmann, Leo (D�niken) (1877-2002)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3883208",
+   "title": "Festschriften",
+   "level": "Serie",
+   "reference_code": "J1.298#86"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3883197",
+   "title": "Publizistik",
+   "level": "Serie",
+   "reference_code": "J1.298#8"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/368636",
+   "title": "Schürmann Leo (1917-2002)",
+   "level": "Stock",
+   "reference_code": "J1.298*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

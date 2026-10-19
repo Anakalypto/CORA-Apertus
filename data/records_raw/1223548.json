@@ -1,0 +1,79 @@
+{
+ "id": "1223548",
+ "uri": "https://culture.ld.admin.ch/ais/1223548",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1223548",
+ "title": "Register über Sitzungsprotokolle der Schweiz. Kunstkommission",
+ "reference_code": "E3001B#1992/265#44*",
+ "reference_number": "10.01.02",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1892-01-01",
+  "to": "1900-12-31",
+  "expressed": "1892-1900"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12022",
+   "number": "1992/265",
+   "title": "1992/00265 Generalsekretariat des eidgen�ssischen Departements des Innern (Bern) (1864-1990)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3903976",
+   "title": "Eidg. Kunstkommission",
+   "level": "Serie",
+   "reference_code": "E3001B#10.01.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3903974",
+   "title": "Freie Kunst",
+   "level": "Serie",
+   "reference_code": "E3001B#10.01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3903973",
+   "title": "Förderung und Pflege der Kunst",
+   "level": "Serie",
+   "reference_code": "E3001B#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6790",
+   "title": "Generalsekretariat des eidgenössischen Departements des Innern: Zentrale Ablage (1975-)",
+   "level": "Sub-file",
+   "reference_code": "E3001B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5362",
+   "title": "Generalsekretariat des eidgenössischen Departements des Innern (1975-)",
+   "level": "Stock",
+   "reference_code": "E10312*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

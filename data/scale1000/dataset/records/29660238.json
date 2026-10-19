@@ -1,0 +1,306 @@
+{
+ "id": "29660238",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29660238",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29660238",
+  "reference_code": "J2.225#2007/61#25#37*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Weihnachten in Bethlehem",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503876\nSignatur Bundesarchiv: J2.225#2007/1#25*",
+   "scope_and_content": "Inhaltsangabe: Israel <Bethlehem, Palästina: Weihnachten in christlicher Familie Asfour, welche die Stadt wegen eingeschränkter Bewegungsfreiheit nicht verlassen darf für Verwandten-Besuche\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Israel <Bethlehem, Palästina: Familie Asfour in Wohnzimmer  mit Weihnachtsbaum  / Statement Samir Asfour  / Familie Asfour verfolgt am TV Mitternachtsmesse / Mahmud Abbas in Geburtskirche / Strassenszenen mit Weihnachtsmännern / Statement Amjad / Familie Asfour bei Geburtskirche",
+   "author": "AutorIn: Marty, André (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:50\nPosition Anfang: 00:54:31",
+   "thema": "Personen: Asfour, Samir (Gynäkologe)\nSachdeskriptor: /BRAUCHTUM./FEIERTAG/WEIHNACHTEN",
+   "date": {
+    "from": "2006-12-25",
+    "to": null,
+    "expressed": "2006.12.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production created by the production company SF for broadcast.",
+  "resume": "A video report by André Marty and SF documenting a Christian family in Bethlehem, Palestine, celebrating Christmas under movement restrictions, featuring statements from family members and scenes of the city."
+ },
+ "metadata": {
+  "title": "Weihnachten in Bethlehem",
+  "title_normalized": "Weihnachten in Bethlehem",
+  "title_en": "Christmas in Bethlehem",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-12-25",
+  "date_published": "2006-12-25",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2006-12-25",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Christmas",
+   "Bethlehem",
+   "Palestine"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 25.12.2006"
+  ],
+  "reference_code": "J2.225#2007/61#25#37*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29660238",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Samir Asfour",
+    "display_name": "Samir Asfour",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Bethlehem",
+    "as_written": "Bethlehem, Palästina",
+    "role": "depicted",
+    "country": "PL",
+    "lat": 49.8280319,
+    "lon": 19.0435331,
+    "gazetteer": "https://www.openstreetmap.org/node/11886940830",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Marty, André (AUT)\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Samir Asfour; named organizations or places (apertus): Bethlehem, Palästina",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2006.12.25; free text places (apertus): Bethlehem, Palästina",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Marty, André (AUT)\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2006.12.25"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bethlehem, Palästina"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Samir Asfour"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bethlehem, Palästina"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2006-12-25",
+   "place": "Bethlehem",
+   "lat": 49.8280319,
+   "lon": 19.0435331,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2006-12-25",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video report broadcast on Tagesschau SFDRS on 25 December 2006.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#25#37*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5075,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

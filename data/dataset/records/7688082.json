@@ -1,0 +1,267 @@
+{
+ "id": "7688082",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/7688082",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688082",
+  "reference_code": "B0#1000/1483#275h-275i*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Register zu den Beschlüssen [bedingt verwendbar]",
+   "reference_number": "A.5",
+   "date": {
+    "from": "1798-01-01",
+    "to": null,
+    "expressed": "1798"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7088",
+     "number": "1000/1483",
+     "title": "1000/01483 Bundesverwaltung (Bern) (1712-1857)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a register within the Helvetian Republic's legislative archive, serving as a finding aid for resolutions.",
+  "resume": "This is a register (index) of decisions from the Helvetic Republic's legislative archive, covering the period from 1798 onwards. It serves as an administrative tool to locate and reference parliamentary resolutions rather than containing the resolutions themselves. The document is part of the central archive of the Helvetic Republic held by the Swiss Federal Archives."
+ },
+ "metadata": {
+  "title": "Register zu den Beschlüssen [bedingt verwendbar]",
+  "title_normalized": "Register zu den Beschlüssen [bedingt verwendbar]",
+  "title_en": "Register of Decisions [conditionally usable]",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1798",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Helvetic Republic",
+   "parliamentary administration",
+   "legislative records",
+   "registers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Zentralarchiv der Helvetischen Republik (1798-1803)",
+  "fonds_reference": "B0*",
+  "path": [
+   "Archiv der Helvetik (1798-1803)",
+   "Zentralarchiv der Helvetischen Republik (1798-1803)",
+   "Das Archiv der helvetischen Legislative (Parlamentsarchiv)",
+   "Register und Verzeichnisse"
+  ],
+  "reference_code": "B0#1000/1483#275h-275i*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688082",
+  "accession_numbers": [
+   "1000/1483"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Zentralarchiv der Helvetischen Republik",
+    "role": "depositor",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Register zu den Beschlüssen [bedingt verwendbar]\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down contains named organization/places like \"Schweizerischen Bundesarchivs\", \"Helvetik\", \"Helvetischen Republik\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1798\" (not ISO format); free text places (apertus): hierarchy_top_down contains free text place names like \"Bern\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Register zu den Beschlüssen [bedingt verwendbar]\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed: \"1798\" (not ISO format)"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains free text place names like \"Bern\""
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains named organization/places like \"Schweizerischen Bundesarchivs\", \"Helvetik\", \"Helvetischen Republik\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1483 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at B0#1000/1483#275h-275i*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4359,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

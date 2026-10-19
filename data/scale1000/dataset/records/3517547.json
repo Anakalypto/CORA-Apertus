@@ -1,0 +1,316 @@
+{
+ "id": "3517547",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3517547",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517547",
+  "reference_code": "E1301#2005/31#13#82*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2004.3335: Interpellation Hochreutener Norbert. Flughafen Zürich. Drehscheibe des Weltluftverkehrs / Interpellation Hochreutener Norbert. Aéroport de Zurich. Plaque tournante du trafic aérien international",
+   "date": {
+    "from": "2005-03-18",
+    "to": null,
+    "expressed": "2005.03.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1404996",
+     "number": "2005/31",
+     "title": "2005/00031 Parlamentsdienste (Bern) (2005)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary interpellation delivered by Norbert Hochreutener concerning the Zurich Airport, recorded during the National Council session in spring 2005. It captures a speech addressing the airport's role in international air traffic. The item is part of the National Council's meeting protocols."
+ },
+ "metadata": {
+  "title": "2004.3335: Interpellation Hochreutener Norbert. Flughafen Zürich. Drehscheibe des Weltluftverkehrs / Interpellation Hochreutener Norbert. Aéroport de Zurich. Plaque tournante du trafic aérien international",
+  "title_normalized": "2004.3335: Interpellation Hochreutener Norbert. Flughafen Zürich. Drehscheibe des Weltluftverkehrs / Interpellation Hochreutener Norbert. Aéroport de Zurich. Plaque tournante du trafic aérien international",
+  "title_en": "Interpellation by Norbert Hochreutener on Zurich Airport as a Hub of International Air Traffic",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2005-03-18",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Zurich Airport",
+   "air traffic",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2005",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2005/31#13#82*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517547",
+  "accession_numbers": [
+   "2005/31"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Norbert Hochreutener",
+    "display_name": "Norbert Hochreutener",
+    "role": "interpellator",
+    "wikidata": {
+     "qid": "Q1996858",
+     "label": "Norbert Hochreutener",
+     "description": "Swiss journalist and politician",
+     "url": "https://www.wikidata.org/wiki/Q1996858"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zurich Airport",
+    "as_written": "Flughafen Zürich / Aéroport de Zurich",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4633881,
+    "lon": 8.5533661,
+    "gazetteer": "https://www.openstreetmap.org/relation/13368029",
+    "model_lat": 47.3,
+    "model_lon": 8.3
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Flughafen Zürich. Drehscheibe des Weltluftverkehrs / Aéroport de Zurich. Plaque tournante du trafic aérien international'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Hochreutener Norbert; named organizations or places (apertus): Flughafen Zürich, Aéroport de Zurich",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2005.03.18",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Flughafen Zürich. Drehscheibe des Weltluftverkehrs / Aéroport de Zurich. Plaque tournante du trafic aérien international'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2005.03.18"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hochreutener Norbert"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Flughafen Zürich, Aéroport de Zurich"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Zurich Airport",
+   "lat": 47.4633881,
+   "lon": 8.5533661,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/31 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2005/31#13#82*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4740,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

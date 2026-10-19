@@ -1,0 +1,316 @@
+{
+ "id": "3513305",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3513305",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513305",
+  "reference_code": "E1301#2001/217#3#3*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2001.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+   "scope_and_content": "Sprecher/Sprecherinnen: Maury Pasquier, Liliane",
+   "date": {
+    "from": "2001-11-28",
+    "to": null,
+    "expressed": "2001.11.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383488",
+     "number": "2001/217",
+     "title": "2001/00217 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded at the time of the event by the parliamentary services as an official audio capture of the National Council proceedings.",
+  "resume": "This document is a sound recording of the opening communications by the President of the National Council during the third session day of the Wintersession 2001. It features speeches by Maury Pasquier and Liliane. The recording captures official parliamentary proceedings."
+ },
+ "metadata": {
+  "title": "2001.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+  "title_normalized": "2001.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+  "title_en": "Communications of the President",
+  "creator": "Parlamentsdienste (Bern)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-11-28",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "2001-11-28",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "National Council",
+   "parliamentary proceedings",
+   "Wintersession 2001"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Wintersession 2001",
+   "3. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2001/217#3#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513305",
+  "accession_numbers": [
+   "2001/217"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Maury Pasquier",
+    "display_name": "Maury Pasquier",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q116648",
+     "label": "Liliane Maury Pasquier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116648"
+    }
+   },
+   {
+    "name": "Liliane",
+    "display_name": "Liliane",
+    "role": "Speaker",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat",
+    "role": "Hosting body",
+    "wikidata": {
+     "qid": "Q18510612",
+     "label": "Member of the Swiss National Council",
+     "description": "Member of the lower chamber of the Federal Assembly (Swiss federal parliament)",
+     "url": "https://www.wikidata.org/wiki/Q18510612"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": null,
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French: \"Mitteilungen der Präsidentin / Communications de la présidente\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): scope_and_content lists \"Maury Pasquier, Liliane\"; named organizations or places (apertus): hierarchy_top_down includes \"Parlamentsdienste (Bern)\" and \"Nationalrat\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"2001.11.28\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French: \"Mitteilungen der Präsidentin / Communications de la présidente\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as \"2001.11.28\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content lists \"Maury Pasquier, Liliane\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Parlamentsdienste (Bern)\" and \"Nationalrat\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2001-11-28",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Audio recording made during the third session day of the Wintersession 2001 National Council meeting.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/217 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2001/217#3#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4062,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

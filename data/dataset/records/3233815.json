@@ -1,0 +1,276 @@
+{
+ "id": "3233815",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3233815",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3233815",
+  "reference_code": "E4800.1#1000/867#62*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,",
+   "date": {
+    "from": "1938-01-01",
+    "to": null,
+    "expressed": "1938"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/13339",
+     "number": "1000/867",
+     "title": "1000/00867 Bundesverwaltung (Bern) (1923-1945)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): The unit consists of newspaper clippings related to the Evian Conference and refugee problem, collected by the Swiss Federal Police.",
+  "resume": "The record consists of newspaper clippings collected by the Swiss Federal Police concerning the Evian Conference and the refugee problem in 1938. It documents Swiss administrative interest in international developments regarding refugees during the pre-World War II period. The clippings are part of the personal files of Heinrich Rothmund, Chief of the Federal Police."
+ },
+ "metadata": {
+  "title": "Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,",
+  "title_normalized": "Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,",
+  "title_en": "Newspaper clippings regarding the Evian Conference and the refugee problem,",
+  "creator": null,
+  "publisher": null,
+  "commissioner": "Eidgenössische Polizeiabteilung",
+  "date_created": "1938",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1938",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Evian Conference",
+   "refugees",
+   "1938",
+   "Swiss federal police",
+   "international relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössische Polizeiabteilung (1902-1979)",
+  "fonds_reference": "E10452*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössische Polizeiabteilung (1902-1979)",
+   "Polizeiabteilung: Handakten Heinrich Rothmund, Chef (1919-1960)",
+   "Weitere Unterlagen"
+  ],
+  "reference_code": "E4800.1#1000/867#62*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3233815",
+  "accession_numbers": [
+   "1000/867"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössische Polizeiabteilung",
+    "role": "collector",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Eidgenössische Polizeiabteilung\" and \"Heinrich Rothmund\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only mentioned in title: \"Evian\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only mentioned in title: \"Evian\""
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Eidgenössische Polizeiabteilung\" and \"Heinrich Rothmund\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are named; topic concerns a historical refugee policy debate."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1938",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper clippings were gathered by the Swiss Federal Police regarding the Evian Conference and refugee issues",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/867 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4800.1#1000/867#62*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4408,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

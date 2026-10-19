@@ -1,0 +1,292 @@
+{
+ "id": "3514516",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3514516",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3514516",
+  "reference_code": "E1301#2003/451#13#31*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2000.3659: Postulat Ménétrey-Savary Anne-Catherine. Stellung der Frauen in der Asylpolitik / Postulat Ménétrey-Savary Anne-Catherine. Les femmes et l'asile",
+   "date": {
+    "from": "2001-03-23",
+    "to": null,
+    "expressed": "2001.03.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/597753",
+     "number": "2003/451",
+     "title": "2003/00451 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss National Council as an official record of parliamentary proceedings and debate.",
+  "resume": "This document is a parliamentary motion submitted by National Councillor Anne-Catherine Ménétrey-Savary on March 23, 2001, concerning the situation of women in asylum policy. It is part of the official session protocols of the Swiss National Council from the spring session of 2001. The record contains the motion text and the parliamentary debate surrounding it."
+ },
+ "metadata": {
+  "title": "2000.3659: Postulat Ménétrey-Savary Anne-Catherine. Stellung der Frauen in der Asylpolitik / Postulat Ménétrey-Savary Anne-Catherine. Les femmes et l'asile",
+  "title_normalized": "2000.3659: Postulat Ménétrey-Savary Anne-Catherine. Stellung der Frauen in der Asylpolitik / Postulat Ménétrey-Savary Anne-Catherine. Les femmes et l'asile",
+  "title_en": "Motion Ménétrey-Savary Anne-Catherine. Position of women in asylum policy",
+  "creator": "Swiss National Council",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-03-23",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2001-03-23",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "asylum policy",
+   "women's rights",
+   "Swiss parliament",
+   "National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Frühjahrssession 2001",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2003/451#13#31*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3514516",
+  "accession_numbers": [
+   "2003/451"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ménétrey-Savary, Anne-Catherine",
+    "display_name": "Anne-Catherine Ménétrey-Savary",
+    "role": "Motion submitter",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss National Council",
+    "role": "Parliamentary body",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Ménétrey-Savary Anne-Catherine\"; named organizations or places (apertus): hierarchy_top_down contains \"Nationalrat\" and \"Parlamentsdienste (Bern)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed = \"2001.03.23\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): title mentions \"Asylpolitik\" (asylum policy), a sensitive category",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed = \"2001.03.23\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Ménétrey-Savary Anne-Catherine\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Nationalrat\" and \"Parlamentsdienste (Bern)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title mentions \"Asylpolitik\" (asylum policy), a sensitive category"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains personal data of named individual and sensitive asylum policy content."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2001-03-23",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Motion submitted by Anne-Catherine Ménétrey-Savary to the Swiss National Council regarding women in asylum policy.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/451 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2003/451#13#31*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4180,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

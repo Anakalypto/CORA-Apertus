@@ -1,0 +1,325 @@
+{
+ "id": "21699112",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21699112",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21699112",
+  "reference_code": "J2.225#1996/68#731#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 24.06.1959",
+   "old_reference_code": "Original Signatur: TSSRG 59/148/09; Rolle 125\nSignatur Bundesarchiv: J2.225#1996/68#17675*",
+   "scope_and_content": "Inhaltsangabe: USA Cincinnati: Neuer Impfstoff gegen Kinderlähmung (Polio) von Albert Sabin\nSequenzbeschrieb: USA Cincinnati: Albert Sabin bei Laborarbeiten / Verabreichung von Impfstoff an Kinder",
+   "author": "Produktion: CBS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï\nZeitliche Abdeckung: 17.06.1959-01.07.1959",
+   "form": "Video",
+   "format": "Dauer: 1.05\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.04.09\nTräger: Betacam-Digital",
+   "thema": "Personen: Sabin, Albert\nSachdeskriptor: Medizin;  Krankheit",
+   "date": {
+    "from": "1959-06-24",
+    "to": null,
+    "expressed": "1959.06.24"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news broadcast created at the time of the events by the news agency CBS.",
+  "resume": "This is a 16 mm black-and-white video news report from June 24, 1959, showing Albert Sabin conducting laboratory work and administering polio vaccine to children in Cincinnati, USA."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 24.06.1959",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 24.06.1959",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 24.06.1959",
+  "creator": "CBS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1959-06-24",
+  "date_published": "1959-06-24",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1959-06-24",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Sabin, Albert",
+   "Medicine",
+   "Disease"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1959",
+   "Tagesschau SFDRS 24.06.1959"
+  ],
+  "reference_code": "J2.225#1996/68#731#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21699112",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Sabin, Albert",
+    "display_name": "Albert Sabin",
+    "role": "Person depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "CBS",
+    "role": "creator",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Cincinnati",
+    "as_written": "Cincinnati",
+    "role": "depicted",
+    "country": "US",
+    "lat": 39.1012809,
+    "lon": -84.5127405,
+    "gazetteer": "https://www.openstreetmap.org/relation/183453",
+    "model_lat": 39.1,
+    "model_lon": -84.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: USA Cincinnati: Neuer Impfstoff gegen Kinderlähmung (Polio) von Albert Sabin\nSequenzbeschrieb: USA Cincinnati: Albert Sabin bei Laborarbeiten / Verabreichung von Impfstoff an Kinder",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.05\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Sabin, Albert; named organizations or places (apertus): Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1959.06.24",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: USA Cincinnati: Neuer Impfstoff gegen Kinderlähmung (Polio) von Albert Sabin\nSequenzbeschrieb: USA Cincinnati: Albert Sabin bei Laborarbeiten / Verabreichung von Impfstoff an Kinder"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.05\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1959.06.24"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Sabin, Albert"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1959-06-24",
+   "place": "Cincinnati",
+   "lat": 39.1012809,
+   "lon": -84.5127405,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1959-06-24",
+   "place": "Cincinnati, US",
+   "lat": 39.1012809,
+   "lon": -84.5127405,
+   "description": "Video news report broadcast showing Albert Sabin's polio vaccine work.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#731#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5215,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

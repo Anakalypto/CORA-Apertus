@@ -1,0 +1,665 @@
+{
+ "id": "31862730",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31862730",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31862730",
+  "reference_code": "E1401#2019/598#10#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2013.0074: Energiestrategie 2050, erstes Massnahmenpaket. Für den geordneten Ausstieg aus der Atomenergie (Atomausstiegs-Initiative). Volksinitiative / Stratégie énergétique 2050, premier volet. Pour la sortie programmée de l'énergie nucléaire (Initiative Sortir du nucléaire). Initiative populaire",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Berberat, Didier; Bischof, Pirmin; Bischofberger, Ivo; Bruderer Wyss, Pascale; Cramer, Robert; Diener Lenz, Verena; Eberle, Roland; Eder, Joachim; Engler, Stefan; Fetz, Anita;, Autor: Sprecher/Sprecherinnen:  Graber, Konrad; Hêche, Claude; Hefti, Thomas; Hösli, Werner; Imoberdorf, René; Leuthard, Doris; Lombardi, Filippo; Luginbühl, Werner; Schmid, Martin; Stadler, Markus;, Autor: Sprecher/Sprecherinnen:  Theiler, Georges; Zanetti, Roberto;",
+   "date": {
+    "from": "2015-09-22",
+    "to": null,
+    "expressed": "2015.09.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31802731",
+     "number": "2019/598",
+     "title": "2019/00598 Parlamentsdienste: Amtliches Bulletin (Bern) (2015)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a Council of States session with speaker list and date of debate, created at the time of the events.",
+  "resume": "The document is a parliamentary record of the Swiss Council of States (Ständerat) session on 22 September 2015, concerning the first package of measures for the energy strategy 2050 and the nuclear phase-out initiative. It lists the speakers who participated in the debate and is part of the video recordings of the Council of States proceedings for the winter session 2011 to autumn session 2015."
+ },
+ "metadata": {
+  "title": "2013.0074: Energiestrategie 2050, erstes Massnahmenpaket. Für den geordneten Ausstieg aus der Atomenergie (Atomausstiegs-Initiative). Volksinitiative / Stratégie énergétique 2050, premier volet. Pour la sortie programmée de l'énergie nucléaire (Initiative Sortir du nucléaire). Initiative populaire",
+  "title_normalized": "2013.0074: Energiestrategie 2050, erstes Massnahmenpaket. Für den geordneten Ausstieg aus der Atomenergie (Atomausstiegs-Initiative). Volksinitiative / Stratégie énergétique 2050, premier volet. Pour la sortie programmée de l'énergie nucléaire (Initiative Sortir du nucléaire). Initiative populaire",
+  "title_en": "Energy Strategy 2050, First Package of Measures. For the Ordered Phase-out of Nuclear Energy (Nuclear Phase-out Initiative). Popular Initiative",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2015-09-22",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2015-09-22",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "energy policy",
+   "nuclear phase-out",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2015",
+   "10. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2019/598#10#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31862730",
+  "accession_numbers": [
+   "2019/598"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Didier Berberat",
+    "display_name": "Didier Berberat",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117173",
+     "label": "Didier Berberat",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117173"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pirmin Bischof",
+    "display_name": "Pirmin Bischof",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121853",
+     "label": "Pirmin Bischof",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121853"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ivo Bischofberger",
+    "display_name": "Ivo Bischofberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q693332",
+     "label": "Ivo Bischofberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q693332"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascale Bruderer Wyss",
+    "display_name": "Pascale Bruderer Wyss",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116100",
+     "label": "Pascale Bruderer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116100"
+    },
+    "life_date_check": {
+     "born": 1977,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Robert Cramer",
+    "display_name": "Robert Cramer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117102",
+     "label": "Robert Cramer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117102"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Verena Diener Lenz",
+    "display_name": "Verena Diener Lenz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116457",
+     "label": "Verena Diener",
+     "description": "Swiss politician (1949–2024)",
+     "url": "https://www.wikidata.org/wiki/Q116457"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roland Eberle",
+    "display_name": "Roland Eberle",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119404",
+     "label": "Roland Eberle",
+     "description": "Swiss politician (1953-)",
+     "url": "https://www.wikidata.org/wiki/Q119404"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Joachim Eder",
+    "display_name": "Joachim Eder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121351",
+     "label": "Joachim Eder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121351"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stefan Engler",
+    "display_name": "Stefan Engler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121356",
+     "label": "Stefan Engler",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q121356"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anita Fetz",
+    "display_name": "Anita Fetz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118321",
+     "label": "Anita Fetz",
+     "description": "Swiss politician and historian, born 1957",
+     "url": "https://www.wikidata.org/wiki/Q118321"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Konrad Graber",
+    "display_name": "Konrad Graber",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120902",
+     "label": "Konrad Graber",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120902"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Hêche",
+    "display_name": "Claude Hêche",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118306",
+     "label": "Claude Hêche",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118306"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Hefti",
+    "display_name": "Thomas Hefti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q16021674",
+     "label": "Thomas Hefti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q16021674"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Hösli",
+    "display_name": "Werner Hösli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q17305567",
+     "label": "Werner Hösli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q17305567"
+    },
+    "life_date_check": {
+     "born": 1961,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "René Imoberdorf",
+    "display_name": "René Imoberdorf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118390",
+     "label": "René Imoberdorf",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118390"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Doris Leuthard",
+    "display_name": "Doris Leuthard",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q115442",
+     "label": "Doris Leuthard",
+     "description": "lawyer, politician and former member of the Swiss Federal Council (2006-2018)",
+     "url": "https://www.wikidata.org/wiki/Q115442"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Filippo Lombardi",
+    "display_name": "Filippo Lombardi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q353273",
+     "label": "Filippo Lombardi",
+     "description": "Swiss politician (1956-)",
+     "url": "https://www.wikidata.org/wiki/Q353273"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Luginbühl",
+    "display_name": "Werner Luginbühl",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116085",
+     "label": "Werner Luginbühl",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116085"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Martin Schmid",
+    "display_name": "Martin Schmid",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121349",
+     "label": "Martin Schmid",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121349"
+    },
+    "life_date_check": {
+     "born": 1969,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Stadler",
+    "display_name": "Markus Stadler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119412",
+     "label": "Markus Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119412"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Georges Theiler",
+    "display_name": "Georges Theiler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120013",
+     "label": "Georges Theiler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120013"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roberto Zanetti",
+    "display_name": "Roberto Zanetti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118337",
+     "label": "Roberto Zanetti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118337"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Council of States (Ständerat)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.95,
+    "model_lon": 8.35
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate array contains multiple names; named organizations or places (apertus): Archive hierarchy mentions 'Ständerat' and 'Schweizerischen Bundesarchivs'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2015.09.22",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2015.09.22"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate array contains multiple names"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive hierarchy mentions 'Ständerat' and 'Schweizerischen Bundesarchivs'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person's personal data is present in the record."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/598 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2019/598#10#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5790,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

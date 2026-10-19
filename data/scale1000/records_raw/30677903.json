@@ -1,0 +1,64 @@
+{
+ "id": "30677903",
+ "uri": "https://culture.ld.admin.ch/ais/30677903",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30677903",
+ "title": "Radfahrer im Gefecht",
+ "reference_code": "M32#1000/1450#17#20*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "auf Holz aufgezogene Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1900-01-01",
+  "to": "1983-12-31",
+  "expressed": "1900 (ca.)-1983"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16972",
+   "number": "1000/1450",
+   "title": "1000/01450 Keine Angaben (1900 (ca.)-1983)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30677668",
+   "title": "Fotosammlung (Reproduktionen von Fotos vor allem aus dem Bestand M33* für die Ausstellung hergestellt)",
+   "level": "Dossier",
+   "reference_code": "M32#1000/1450#17*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4575534",
+   "title": "Ausstellungsmaterial",
+   "level": "Serie",
+   "reference_code": "M32#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4281",
+   "title": "Ausstellung: Minger - Grimm",
+   "level": "Stock",
+   "reference_code": "M32*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30",
+   "title": "Sammlungsgut (1848-)",
+   "level": "Main Department",
+   "reference_code": "M*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

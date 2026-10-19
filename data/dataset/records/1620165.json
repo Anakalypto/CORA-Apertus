@@ -1,0 +1,276 @@
+{
+ "id": "1620165",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1620165",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1620165",
+  "reference_code": "E2001B#1000/1501#338*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Presseausschnitte «Hoheitsrechte auf dem Bodensee»",
+   "reference_number": "B.11.133.1",
+   "date": {
+    "from": "1920-01-01",
+    "to": null,
+    "expressed": "1920"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7520",
+     "number": "1000/1501",
+     "title": "1000/01501 Bundesverwaltung (Bern) (1873-1961)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit is a collection of press clippings related to Swiss sovereignty rights on Lake Constance, gathered by the Foreign Affairs Department.",
+  "resume": "This record is a press clipping compilation concerning Swiss sovereignty rights on Lake Constance (Hoheitsrechte auf dem Bodensee), assembled by the Swiss Federal Administration's Foreign Affairs division. It contains excerpts from various media sources discussing the legal and political status of the lake's border and jurisdiction. The material is archived within the Swiss Federal Archives as part of the foreign policy holdings."
+ },
+ "metadata": {
+  "title": "Presseausschnitte «Hoheitsrechte auf dem Bodensee»",
+  "title_normalized": "Presseausschnitte «Hoheitsrechte auf dem Bodensee»",
+  "title_en": "Press clippings on 'Sovereignty rights on Lake Constance'",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1920",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Lake Constance",
+   "Hoheitsrechte (sovereignty rights)",
+   "international border law",
+   "Swiss foreign policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für Auswärtiges (1915-1946)",
+  "fonds_reference": "E10003*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für Auswärtiges (1915-1946)",
+   "Abteilung für Auswärtiges: Zentrale Ablage (1918-1946)",
+   "Auswärtige Politik",
+   "Allgemeine internationale Verhältnisse",
+   "Gebiet der Schweiz",
+   "Grenzverträge",
+   "Grenzverträge mit Deutschland",
+   "Hoheitsrecht und Regelung der Landesgrenze auf dem Bodensee"
+  ],
+  "reference_code": "E2001B#1000/1501#338*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1620165",
+  "accession_numbers": [
+   "1000/1501"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Abteilung für Auswärtiges (Swiss Federal Department of Foreign Affairs)",
+    "role": "Depositor of the archival record",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy includes \"Schweizerischen Bundesarchivs\", \"Abteilung für Auswärtiges\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed \"1920\" (not ISO); free text places (apertus): places only in hierarchy (e.g., \"Bodensee\") not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date: expressed \"1920\" (not ISO)"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., \"Bodensee\") not in structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes \"Schweizerischen Bundesarchivs\", \"Abteilung für Auswärtiges\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; the record concerns a general international policy topic."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1501 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2001B#1000/1501#338*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities"
+  ],
+  "ungrounded": [
+   "organization:Abteilung für Auswärtiges (Swiss Federal Department of Foreign Affairs)"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4734,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

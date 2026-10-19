@@ -1,0 +1,279 @@
+{
+ "id": "5574685",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5574685",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5574685",
+  "reference_code": "J1.302#2005/252#75*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Cours: Histoire de Rome",
+   "date": {
+    "from": "1939-01-01",
+    "to": null,
+    "expressed": "1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/2073112",
+     "number": "2005/252",
+     "title": "2005/00252 Freymond, Antoinette (Genthod) (1953-1996)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "other",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This unit is a personal teaching file ('Travail d'enseignant') containing notes on ancient history, not an index, press collection, retrospective study, or mixed administrative dossier.",
+  "resume": "The record is a set of teaching notes on ancient Rome created by Antoinette Freymond as part of her teaching materials. It is a handwritten or typed document containing lecture notes rather than a broadcast or official record. The notes are part of a larger collection of educational materials deposited by the Freymond family."
+ },
+ "metadata": {
+  "title": "Cours: Histoire de Rome",
+  "title_normalized": "Cours: Histoire de Rome",
+  "title_en": "Course: History of Rome",
+  "creator": "Freymond, Antoinette (Genthod)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "1939",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "history",
+   "ancient Rome",
+   "teaching materials",
+   "education"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Freymond Jacques (1911-1998)",
+  "fonds_reference": "J1.302*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Freymond Jacques (1911-1998)",
+   "Travail d'enseignant",
+   "Notes: L'Antiquité"
+  ],
+  "reference_code": "J1.302#2005/252#75*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5574685",
+  "accession_numbers": [
+   "2005/252"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Freymond, Antoinette (Genthod)",
+    "display_name": "Antoinette (Genthod) Freymond",
+    "role": "creator",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Antoinette Freymond (1953-1996); named organizations or places (apertus): Swiss Federal Archives (CH-BAR), Freymond family, Genthod",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places not in structured fields; only in accession title 'Freymond, Antoinette (Genthod)'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places not in structured fields; only in accession title 'Freymond, Antoinette (Genthod)'"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Antoinette Freymond (1953-1996)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives (CH-BAR), Freymond family, Genthod"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Antoinette Freymond is a private individual but no sensitive personal data is disclosed"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories; only names of deceased private individual and archival context."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Teaching notes on Roman history created by Antoinette Freymond.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/252 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.302#2005/252#75*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4363,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

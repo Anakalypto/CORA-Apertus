@@ -1,0 +1,73 @@
+{
+ "id": "4419709",
+ "uri": "https://culture.ld.admin.ch/ais/4419709",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4419709",
+ "title": "PERSONENREGISTER (phase à partir du 01.01.2002) [Ab: 21.11.2001]",
+ "reference_code": "E4007B#2006/222#36*",
+ "reference_number": "11-2001-00260",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2001-01-01",
+  "to": "2003-12-31",
+  "expressed": "2001-2003"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3341818",
+   "number": "2006/222",
+   "title": "2006/00222 Eidgen�ssischer Datenschutzbeauftragter (Bern) (2000-2004)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4248577",
+   "title": "Geschäfte Schutzfrist 30 Jahre",
+   "level": "Serie",
+   "reference_code": "E4007B#11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4248576",
+   "title": "Laufende Geschäfte nach Jahren chronologisch",
+   "level": "Serie",
+   "reference_code": "E4007B#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2085624",
+   "title": "Eidgenössischer Datenschutzbeauftragter: Zentrale Ablage (1999-)",
+   "level": "Sub-file",
+   "reference_code": "E4007B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4883",
+   "title": "Eidgenössischer Datenschutzbeauftragter (1993-2006)",
+   "level": "Stock",
+   "reference_code": "E10160*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": false
+}

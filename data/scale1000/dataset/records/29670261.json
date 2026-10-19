@@ -1,0 +1,339 @@
+{
+ "id": "29670261",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29670261",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29670261",
+  "reference_code": "J2.225#2007/61#115#43*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Wahlen Genf",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504066\nSignatur Bundesarchiv: J2.225#2007/1#115*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Vernier, GE: Wahl des Gemeinde-Parlaments (Kommunal-Wahlen) erstmals mit Beteiligung von Ausländern\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Vernier, GE: Schwarze in Wahllokal an Stimmurne / Statement Edo Kaungu / Statement Hans-Jürgen Schrader / Statement Dominique von Burg / Statement Thierry Apotholóz",
+   "author": "AutorIn: Leuthold, Sara (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:47\nPosition Anfang: 00:26:56",
+   "thema": "Personen: Burg, Dominique von (Journalist)\nSachdeskriptor: /MENSCH./AUSLÄNDER/AUSLÄNDERSTIMMRECHT;/POLITIK./WAHL",
+   "date": {
+    "from": "2007-03-25",
+    "to": null,
+    "expressed": "2007.03.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by SF as a news report of a contemporary event.",
+  "resume": "A video news report from Schweizer Fernsehen DRS (2007) covering the first communal elections in Vernier, Geneva, with statements from multiple individuals on foreign voting rights."
+ },
+ "metadata": {
+  "title": "Wahlen Genf",
+  "title_normalized": "Wahlen Genf",
+  "title_en": "Elections Geneva",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-03-25",
+  "date_published": "2007-03-25",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-03-25",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "elections",
+   "foreign voting rights",
+   "Geneva"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 25.03.2007"
+  ],
+  "reference_code": "J2.225#2007/61#115#43*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29670261",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dominique von Burg",
+    "display_name": "Dominique von Burg",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q120710",
+     "label": "Dominique von Burg",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q120710"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Edo Kaungu",
+    "display_name": "Edo Kaungu",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Hans-Jürgen Schrader",
+    "display_name": "Hans-Jürgen Schrader",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Thierry Apotholóz",
+    "display_name": "Thierry Apotholóz",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Sara Leuthold",
+    "display_name": "Sara Leuthold",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival holding",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Vernier",
+    "as_written": "Vernier, GE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2131843,
+    "lon": 6.0815756,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685540",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Leuthold, Sara (AUT)\nProduktionsgesellsch",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Burg, Dominique von (Journalist); named organizations or places (apertus): Vernier, GE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): 2007.03.25",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Leuthold, Sara (AUT)\nProduktionsgesellsch"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.03.25"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Burg, Dominique von (Journalist)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Vernier, GE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2007-03-25",
+   "place": "Vernier",
+   "lat": 46.2131843,
+   "lon": 6.0815756,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#115#43*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5062,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

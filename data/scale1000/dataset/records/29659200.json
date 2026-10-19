@@ -1,0 +1,314 @@
+{
+ "id": "29659200",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29659200",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29659200",
+  "reference_code": "J2.225#2007/61#12#13*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Boxen / Schwergewicht in Basel",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503863\nSignatur Bundesarchiv: J2.225#2007/1#12*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Basel, BS: Boxen / Schwergewicht / Ankunft Weltmeister Nikolai Walujew zu WBA-WM im St. Jakobsstadion (20070120)\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Basel, BS: Ankunft Nikolai Walujew (°Weltmeister) / Händeschütteln Walujew mit Jameel McCline (°Herausforderer) / PK Walujew / PK McCline",
+   "author": "AutorIn: Tabacznik, Stefan (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:15\nPosition Anfang: 00:28:07",
+   "thema": "Personen: McCline, Jameel\nSachdeskriptor: /SPORT./KAMPFSPORT/BOXEN;/SPORT./TURNIERE UND ERFOLGE/WM",
+   "date": {
+    "from": "2006-12-12",
+    "to": null,
+    "expressed": "2006.12.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production created by the news agency SF for broadcast, capturing live footage of the event.",
+  "resume": "The document is a short video segment covering the arrival of world heavyweight boxing champion Nikolai Walujew in Basel on 20 January 2007, featuring handshakes with challenger Jameel McCline and promotional photographs. It was produced by Stefan Tabacznik and the Swiss Federal Television (SF) as part of a news broadcast. The content focuses on a boxing event and related personalities."
+ },
+ "metadata": {
+  "title": "Boxen / Schwergewicht in Basel",
+  "title_normalized": "Boxen / Schwergewicht in Basel",
+  "title_en": "Boxing / Heavyweight in Basel",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-01-20",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2006-12-12",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "boxing",
+   "boxing tournaments",
+   "world championships"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 12.12.2006"
+  ],
+  "reference_code": "J2.225#2007/61#12#13*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29659200",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "McCline, Jameel",
+    "display_name": "Jameel McCline",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Nikolai Walujew",
+    "display_name": "Nikolai Walujew",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q508929",
+     "label": "Nikolai Valuev",
+     "description": "Russian politician and former heavyweight boxer",
+     "url": "https://www.wikidata.org/wiki/Q508929"
+    },
+    "life_date_check": {
+     "born": 1973,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "Basel, BS",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.54,
+    "model_lon": 7.55
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Tabacznik, Stefan (AUT)\nProduktionsgesell",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): McCline, Jameel; named organizations or places (apertus): Basel, BS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2006.12.12; free text places (apertus): Basel, BS",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Tabacznik, Stefan (AUT)\nProduktionsgesell"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2006.12.12"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Basel, BS"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "McCline, Jameel"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Basel, BS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-01-20",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Video segment broadcast covering the arrival of boxing champion Nikolai Walujew.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#12#13*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5109,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,304 @@
+{
+ "id": "21687677",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21687677",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21687677",
+  "reference_code": "J2.143#1996/386#1185-1#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Rückkehr eines Dorfheiligen",
+   "reference_number": "1185-3",
+   "old_reference_code": "Original Signatur: SFW 1185-3\nSignatur Bundesarchiv: J2.143#1996/386#1175#3*",
+   "alternate_reference": "SFW_1185-3",
+   "scope_and_content": "Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, Ernen, VS: Rückkehr St. Georg-Skulptur nach Ende von Wander-Ausstellung mit alten Wirtshausschildern\n\nSequenzbeschrieb:\nErnen, VS (Schweiz) - Schaulustige auf Dorfplatz\nErnen, VS (Schweiz) - Holz-Skulptur St. Georg wird an Restaurant-Fassade hochgezogen und auf Sockel montiert\nCommuniqué:\nDas wertvollste Objekt einer von der Schweiz. Verkehrszentrale veranstalteten Wanderausstellung alter Wirtshausschilder, die barocke Holzskulptur des drachentötenden St. Georg, kehrt nach Ernen zurück, wo sie im Giebel der Wirtschaft auf dem Dorfplatz ihren alten Standort wieder einnimmt.\n\nKommentar:\nErnen, das malerische Dorf im Oberwallis erlebt die Rückkehr eines reiselustigen Dorfheiligen. Sankt Georg, der Drachentöter, eine prachtvolle Holzskulptur, war nämlich als vielbewunderter Gegenstand einer Wanderausstellung der schweizerischen Verkehrszentrale bis in den wilden Westen Amerikas vorgedrungen. Nun kehrt er erinnerungsschwer an seinen alten Platz zurück und wird wohl von Indianern und wilden Büffeln träumen... /",
+   "author": "Produktion: Schweizer Filmwochenschau",
+   "publisher": "HerausgeberIn: Schweizer Filmwochenschau (SFW)",
+   "form": "Film",
+   "format": "Dauer: 00:33 (Start 02:02 / End 02:35)\nSeitenverhältnis: 4:3\nFarbe: SW\nOriginalträger: 35mm Zelluloseazetat\nKommentarton: deutsch",
+   "thema": "Orte:\nErnen, VS (Schweiz)\n\nSchlagworte:\nWesteuropa, KULTUR, AUSSTELLUNG",
+   "date": {
+    "from": "1965-10-29",
+    "to": null,
+    "expressed": "1965.10.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film footage produced by the Schweizer Filmwochenschau for newsreel distribution.",
+  "resume": "The film records the return of a baroque wooden sculpture of St. George to its original location on the gable of a restaurant in Ernen, Valais, Switzerland, after its participation in a traveling exhibition of old inn signs organized by the Swiss Traffic Centre."
+ },
+ "metadata": {
+  "title": "Rückkehr eines Dorfheiligen",
+  "title_normalized": "Rückkehr eines Dorfheiligen",
+  "title_en": "Return of a Village Saint",
+  "creator": "Schweizer Filmwochenschau",
+  "publisher": "Schweizer Filmwochenschau (SFW)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1965-10-29",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-10-29",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Ernen, VS (Switzerland)",
+   "cultural exhibition",
+   "wooden sculpture"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1965",
+   "Schweizer Filmwochenschau vom 29.10.1965",
+   "Schweizer Filmwochenschau vom 29.10.1965"
+  ],
+  "reference_code": "J2.143#1996/386#1185-1#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21687677",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizer Filmwochenschau",
+    "role": "production",
+    "wikidata": {
+     "qid": "Q27697957",
+     "label": "Schweizer Filmwochenschau",
+     "description": "film series",
+     "url": "https://www.wikidata.org/wiki/Q27697957"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Ernen, VS (Switzerland)",
+    "as_written": "Ernen, VS (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.3988816,
+    "lon": 8.1460083,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685300",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe:\nSchweiz, Ernen, VS: Rückkehr St. Georg-Skulptur nach Ende von Wander-Ausstellung mit alten Wirtshausschildern\n\nSequenzbeschrieb:\nErnen, VS (Schweiz) - Schaulustige auf Dorfplatz\nErnen, VS (Schweiz) - Holz-Skulptur St. Georg wird an Restaurant-Fassade hochgezogen und auf Sockel montiert",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:33 (Start 02:02 / End 02:35)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nErnen, VS (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1965.10.29; free text places (apertus): Orte:\nErnen, VS (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe:\nSchweiz, Ernen, VS: Rückkehr St. Georg-Skulptur nach Ende von Wander-Ausstellung mit alten Wirtshausschildern\n\nSequenzbeschrieb:\nErnen, VS (Schweiz) - Schaulustige auf Dorfplatz\nErnen, VS (Schweiz) - Holz-Skulptur St. Georg wird an Restaurant-Fassade hochgezogen und auf Sockel montiert"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:33 (Start 02:02 / End 02:35)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1965.10.29"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nErnen, VS (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nErnen, VS (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1965-10-29",
+   "place": "Ernen, VS (Switzerland)",
+   "lat": 46.3988816,
+   "lon": 8.1460083,
+   "description": "Film footage of the return of the St. George sculpture to its original location.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#1185-1#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5823,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

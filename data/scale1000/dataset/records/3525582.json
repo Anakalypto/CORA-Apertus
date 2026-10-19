@@ -1,0 +1,416 @@
+{
+ "id": "3525582",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3525582",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3525582",
+  "reference_code": "E1301#1992/299#5#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "90.524: Motion Cotti. Zulassung von Spielbanken / Ouverture de salles de jeux dans l'intérêt du tourisme",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aregger, Manfred; Bonny, Jean-Pierre; Cotti, Gianfranco; Eggly, Jacques-Simon; Koller, Arnold; Maspoli, Flavio: Zisyadis, Joseph; Scherrer, Jürg; Scherrer, Werner; Steffen, Hans; Ziegler, Jean; Zwygart, Otto",
+   "date": {
+    "from": "1992-01-31",
+    "to": null,
+    "expressed": "1992.01.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383461",
+     "number": "1992/299",
+     "title": "1992/00299 Parlamentsdienste (Bern) (1992)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "audio recording",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a live parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary record of a motion debate in the Swiss National Council concerning the licensing of gambling establishments for tourism purposes, held on 31 January 1992. The record captures the speakers and their contributions during the session. It is an audio recording of the proceedings."
+ },
+ "metadata": {
+  "title": "90.524: Motion Cotti. Zulassung von Spielbanken / Ouverture de salles de jeux dans l'intérêt du tourisme",
+  "title_normalized": "Motion Cotti. Zulassung von Spielbanken / Ouverture de salles de jeux dans l'intérêt du tourisme",
+  "title_en": "Motion Cotti: Licensing of Gambling Establishments / Opening of Gaming Rooms in the Interest of Tourism",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1992-01-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1992",
+  "content_date": "1992-01-31",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "gambling",
+   "tourism",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1991 bis Herbstsession 1995",
+   "Januarsession 1992",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1992/299#5#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3525582",
+  "accession_numbers": [
+   "1992/299"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Manfred Aregger",
+    "display_name": "Manfred Aregger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1889177",
+     "label": "Manfred Aregger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1889177"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-Pierre Bonny",
+    "display_name": "Jean-Pierre Bonny",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1685180",
+     "label": "Jean-Pierre Bonny",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1685180"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gianfranco Cotti",
+    "display_name": "Gianfranco Cotti",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1522426",
+     "label": "Gianfranco Cotti",
+     "description": "Swiss politician (1929-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1522426"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacques-Simon Eggly",
+    "display_name": "Jacques-Simon Eggly",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q119063",
+     "label": "Jacques-Simon Eggly",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119063"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Arnold Koller",
+    "display_name": "Arnold Koller",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Maspoli, Flavio: Zisyadis, Joseph",
+    "display_name": "Maspoli, Flavio: Zisyadis, Joseph",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "J\frg Scherrer",
+    "display_name": "J\frg Scherrer",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Werner Scherrer",
+    "display_name": "Werner Scherrer",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q99196637",
+     "label": "Werner Scherrer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q99196637"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Steffen",
+    "display_name": "Hans Steffen",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean Ziegler",
+    "display_name": "Jean Ziegler",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q123706",
+     "label": "Jean Ziegler",
+     "description": "Swiss sociologist, politician and professor (1934–2026)",
+     "url": "https://www.wikidata.org/wiki/Q123706"
+    },
+    "life_date_check": {
+     "born": 1934,
+     "died": 2026,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Otto Zwygart",
+    "display_name": "Otto Zwygart",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q72075527",
+     "label": "Otto Zwygart",
+     "description": "Swiss politician (1911-1986)",
+     "url": "https://www.wikidata.org/wiki/Q72075527"
+    },
+    "life_date_check": {
+     "born": 1911,
+     "died": 1986,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): yes",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1992.01.31",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1992.01.31"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1992",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1992/299 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1992/299#5#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:control_chars",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4821,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

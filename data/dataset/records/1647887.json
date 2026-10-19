@@ -1,0 +1,262 @@
+{
+ "id": "1647887",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1647887",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1647887",
+  "reference_code": "E2001C#1000/1531#1532*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "5. Congrès intern. de l'histoire des religions, Lund 1929",
+   "reference_number": "B.66.274",
+   "date": {
+    "from": "1929-01-01",
+    "to": null,
+    "expressed": "1929"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7543",
+     "number": "1000/1531",
+     "title": "1000/01531 Bundesverwaltung (Bern) (1875 - 1969)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This unit is an administrative file documenting a specific international conference held in 1929, not a finding aid, retrospective study, press clipping, or mixed file.",
+  "resume": "The record documents the 5th International Congress of the History of Religions held in Lund in 1929. It is an archival file from the Swiss Federal Archives containing administrative materials related to this international academic conference. The file itself is a secondary source compiled from records of Swiss foreign policy engagement with international institutions."
+ },
+ "metadata": {
+  "title": "5. Congrès intern. de l'histoire des religions, Lund 1929",
+  "title_normalized": "5. Congrès intern. de l'histoire des religions, Lund 1929",
+  "title_en": "5th International Congress of the History of Religions, Lund 1929",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1929",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "religious studies",
+   "international congresses",
+   "academic history"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für Auswärtiges (1915-1946)",
+  "fonds_reference": "E10003*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für Auswärtiges (1915-1946)",
+   "Abteilung für Auswärtiges: Zentrale Ablage (1927-1936)",
+   "Auswärtige Politik",
+   "Internationale Institutionen",
+   "Internationale Konferenzen, Ausstellungen und Kongresse"
+  ],
+  "reference_code": "E2001C#1000/1531#1532*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1647887",
+  "accession_numbers": [
+   "1000/1531"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"5. Congrès intern. de l'histoire des religions, Lund 1929\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down contains 'Schweizerischen Bundesarchivs', 'Abteilung für Auswärtiges'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in free text (Lund)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"5. Congrès intern. de l'histoire des religions, Lund 1929\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in free text (Lund)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains 'Schweizerischen Bundesarchivs', 'Abteilung für Auswärtiges'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is named; the record concerns an international congress on religious history."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1531 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2001C#1000/1531#1532*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.7,
+  "tokens": 4477,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "5855990",
+ "uri": "https://culture.ld.admin.ch/ais/5855990",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5855990",
+ "title": "Gerber Ernst, 1900. Darin auch: Nachruf von Dr. Meier-Müller auf Oberst Immenhauser",
+ "reference_code": "E5470#2009/194#1625*",
+ "reference_number": "3-1936.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1922-01-01",
+  "to": "1936-12-31",
+  "expressed": "1922-1936"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/5442013",
+   "number": "2009/194",
+   "title": "2009/00194 Luftwaffe (Bern) (1920-2008)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5855965",
+   "title": "Flugunfälle",
+   "level": "Serie",
+   "reference_code": "E5470#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5442012",
+   "title": "Fliegerärztliches Institut Dübendorf: Zentrale Ablage (1948-2003)",
+   "level": "Sub-file",
+   "reference_code": "E5470*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5284",
+   "title": "Fliegerärztliches Institut (1948-)",
+   "level": "Stock",
+   "reference_code": "E10285*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

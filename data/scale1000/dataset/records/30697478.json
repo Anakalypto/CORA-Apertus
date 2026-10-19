@@ -1,0 +1,300 @@
+{
+ "id": "30697478",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30697478",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30697478",
+  "reference_code": "J2.143#1996/386#1322-2#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Chars romains dans la pluie jurassienne",
+   "reference_number": "1322-1",
+   "old_reference_code": "Original Signatur: CJS 1322-1",
+   "alternate_reference": "CJS_1322-1",
+   "scope_and_content": "Genre:\nCinéjournal\nCommuniqué:\nLe mauvais temps a posé de nombreux problèmes aux concurrents du Marché-Concours de Saigneliégier. Comme par le passé, cette fête équestre souligne toujours de façon attachante l'importance économique de l'élevage des chevaux dans les Franches-Montagnes.\n\nKommentar:\nA Saignelégier, situé au cœur des magnifiques Franches-montagnes se déroule chaque année une des fêtes les plus populaires du Jura, le célèbre Marché-concours. / Bravant une pluie battante, 15'000 personnes ont fréquenté le Marché et assisté aux compétitions très originales. / 13 ans, c'était l'âge moyen des cavaliers montant sans selle des chevaux de ferme. Liselotte Salzmann, jeune mais néanmoins énergique amazone, enleva la course sur Suzi. / Le championnat des quadriges est naturellement l'événement le plus spectaculaire. Les conducteurs ont toutes les peines du monde à se maintenir hauts et fermes sur leur chariot. / C'est le quadrige des Breuleux qui l'emporte ! Les vainqueurs ont passé par quelques émotions glissantes et boueuses. / Quant à la non moins traditionnelle course des chars romains, ce fut presque une épopée. Dans l'antique Rome, les conducteurs n'ont certes jamais connu un tel bain de boue ; leurs émules francsmontagnards en ont d'autant plus de mérites. / Même le vainqueur ne sait pas s'il doit en rire ou en pleurer ! /\n\nAlter Titel:\nRömerwagen im Juraregen",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Film",
+   "format": "Dauer: 01:56 (Start 00:00 / End 01:56)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: acétate de cellulose 35mm\nKommentarton: français",
+   "thema": "Orte:\nSaignelégier, BE (Schweiz)\n\nSchlagworte:\nEurope occidentale, COUTUMES, COUTUME SUISSE",
+   "date": {
+    "from": "1968-08-16",
+    "to": null,
+    "expressed": "1968.08.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct audiovisual production created by Cinéjournal suisse for news dissemination.",
+  "resume": "This is a 1968 Swiss newsreel (Cinéjournal suisse) documenting the Marché-concours equestre in Saignelégier, Jura, where rain disrupted competitions and highlighted traditional horse-breeding customs. The footage shows events such as the quadriga race and the Roman chariot race, with commentary in French. The film was produced by Cinéjournal suisse and published by the same entity."
+ },
+ "metadata": {
+  "title": "Chars romains dans la pluie jurassienne",
+  "title_normalized": "Chars romains dans la pluie jurassienne",
+  "title_en": "Roman chariots in the Jura rain",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1968-08-16",
+  "date_published": "1968-08-16",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1968-08-16",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "Saignelégier",
+   "Jura",
+   "horse competitions",
+   "Swiss customs"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1968",
+   "Schweizer Filmwochenschau vom 16.08.1968",
+   "Cinéjournal suisse du 16.08.1968"
+  ],
+  "reference_code": "J2.143#1996/386#1322-2#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30697478",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Cinéjournal suisse (CJS)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Saignelégier",
+    "as_written": "Saignelégier, BE (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.2557997,
+    "lon": 6.9963585,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685626",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nLe mauvais temps a ",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 01:56 (Start 00:00 / End 01:56)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nSaignelégier, BE (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1968.08.16; free text places (apertus): Orte:\nSaignelégier, BE (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nLe mauvais temps a "
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 01:56 (Start 00:00 / End 01:56)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1968.08.16"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nSaignelégier, BE (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nSaignelégier, BE (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person data is present in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1968-08-16",
+   "place": "Saignelégier, BE (Schweiz)",
+   "lat": 47.2557997,
+   "lon": 6.9963585,
+   "description": "Newsreel documenting the Marché-concours equestre in Saignelégier, featuring competitions and traditional customs.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#1322-2#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5859,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

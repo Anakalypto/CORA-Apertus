@@ -1,0 +1,67 @@
+{
+ "id": "5751749",
+ "uri": "https://culture.ld.admin.ch/ais/5751749",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5751749",
+ "title": "Zeitungsausschnitte französisch",
+ "reference_code": "J2.144#1000/1231#5/0784*",
+ "reference_number": "3.05-57",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "restaurant romand, Zürich en rapport avec l'EN, Restaurants à l'EN, PTT, Timbres postaux, l'art à l'exposition nationale, décoration, musique, films, etc.",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1938-11-01",
+  "to": "1939-12-31",
+  "expressed": "1938.11-1939.12"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16276",
+   "number": "1000/1231",
+   "title": "1000/01231 k.A. Organisation (1914-1941)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5749302",
+   "title": "Propaganda",
+   "level": "Serie",
+   "reference_code": "J2.144#03.05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5749297",
+   "title": "Bestandesübersicht",
+   "level": "Serie",
+   "reference_code": "J2.144#03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3681",
+   "title": "Schweizerische Landesausstellung, Zürich 1939 (Landi)",
+   "level": "Stock",
+   "reference_code": "J2.144*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

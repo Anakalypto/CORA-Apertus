@@ -1,0 +1,58 @@
+{
+ "id": 1861,
+ "signature": "BAR B0 1000/1483, Nr. 1442, fol. 110-111v",
+ "reference": {
+  "place": "Dizy",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Olivier Reymond",
+  "teacher_age": 19,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": null,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Dizy",
+  "canton_1799": "Du Léman",
+  "school_type": "Vermengte Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Olivier Reymond",
+  "teacher_age": 19,
+  "teacher_marital_status": "ledig",
+  "teacher_since": 19,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place": "Dizy",
+  "canton_1799": "Du Léman",
+  "school_type": "A Lire à Chanter à Prier et a Ecrire et l'Arithme= tique",
+  "confession": "Paroisse de Cossonnay",
+  "teacher_name": "Olivier Reymond",
+  "teacher_age": "19 Ans",
+  "teacher_since": "Jl y a 19 mois",
+  "pupils_winter": "à lordinaire",
+  "pupils_summer": "à lordinaire"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "mismatch",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "extra",
+  "pupils_winter": "both_empty",
+  "pupils_summer": "both_empty",
+  "author_name": "both_empty",
+  "date_written": "both_empty"
+ },
+ "seconds": 6.46
+}

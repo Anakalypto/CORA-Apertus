@@ -1,0 +1,64 @@
+{
+ "id": "31216011",
+ "uri": "https://culture.ld.admin.ch/ais/31216011",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31216011",
+ "title": "Raux Georgette-Julienne 13.12.1891, Heimat: Paris",
+ "reference_code": "E21#1000/131#24710#6*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1916-01-01",
+  "to": null,
+  "expressed": "1916"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+   "number": "1000/131",
+   "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31216005",
+   "title": "Personenkartei Anfangsbuchstabe R",
+   "level": "Dossier",
+   "reference_code": "E21#1000/131#24710*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31215390",
+   "title": "Personenkarteien und Personenindizes",
+   "level": "Serie",
+   "reference_code": "E21#14"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3577",
+   "title": "Polizeiwesen",
+   "level": "Stock",
+   "reference_code": "E21*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

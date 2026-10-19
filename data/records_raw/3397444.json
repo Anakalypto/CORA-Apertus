@@ -1,0 +1,61 @@
+{
+ "id": "3397444",
+ "uri": "https://culture.ld.admin.ch/ais/3397444",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3397444",
+ "title": "Registraturplan für das Finanz- und Rechnungswesen",
+ "reference_code": "J2.144#1000/1232#12*",
+ "reference_number": "10-12",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": null,
+  "expressed": "1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16277",
+   "number": "1000/1232",
+   "title": "1000/01232 Keine Angaben (k.A.) 2 (1939)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3829398",
+   "title": "Anhang",
+   "level": "Serie",
+   "reference_code": "J2.144#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3681",
+   "title": "Schweizerische Landesausstellung, Zürich 1939 (Landi)",
+   "level": "Stock",
+   "reference_code": "J2.144*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

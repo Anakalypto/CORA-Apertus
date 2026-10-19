@@ -1,0 +1,631 @@
+{
+ "id": "21809694",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21809694",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21809694",
+  "reference_code": "J2.225#1996/68#9689#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Jahresrückblick (TS), 31.12.1984",
+   "old_reference_code": "Original Signatur: TSSRG E84/1329\nSignatur Bundesarchiv: J2.225#1996/68#10251*",
+   "scope_and_content": "Inhaltsangabe: o.O.: Jahresrückblick 1984: Ausland\nSequenzbeschrieb: Indien Amritsar: Sikh-Unruhen o.O.: Beisetzung ermordete PM Indira Gandhi / Wahl PM Wahl Rajiv Gandhi;Sowjetunion Moskau: Beerdigungszeremonie Juri Andropow / Rede Konstantin Tschernenko;USA Los Angeles: Eröffnungszeremonie der OS-Sommerspiele o.O.: Wiederwahl des US-P Ronald Reagan;Libanon o.O.: Abzug der US-Marine / kriegszerstörte Städte;Nicaragua o.O.: Wahl des °Sandinistenführers Daniel Ortega zum Präsidenten;El Salvador o.O.: Wahl des P Jose Napoleon Duarte / Friedensgespräche zwischen Duarte und Guerillas;Chile o.O.: Anti-°Pinochet-Demonstration;Polen o.O.: Ermordung des °Solidarnosc-°Priesters Jerzy Popieluszko;GB o.O.: Minenarbeiter-Streiks;Italien o.O.: Tod des °KP-°Führers Enrico Berlinguer / Rückkehr Mafiaboss Tommaso Buscetta;Mexiko Mexiko-City: Ölraffinerie-Explosion / Tote unter Leintüchern am Boden liegend;Indien Bhopal: Giftkatastrophe der Union Carbide;Äthiopien o.O.: Dürrekatastrope / Unterernährte Kinder, Hungerbilder",
+   "author": "Produktion: TSI",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne SkandinavienNaher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien\nZeitliche Abdeckung: 24.12.1984-07.01.1985",
+   "form": "Video",
+   "format": "Dauer: 12.42\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.17.26\nTräger: Betacam-Digital",
+   "thema": "Personen: Reagan, Ronald;Popieluszko, Jerzy;Ortega, Daniel;Berlinguer, Enrico;Duarte, Jose Napoleon;Gandhi, Rajiv;Gandhi, Indira;Andropow, Juri;Tschernenko, Konstantin;Buscetta, Tommaso\nSachdeskriptor: Unruhen;Wahl;Demonstration;Straftat.;Unfall;Hunger;PORTRÄT PERSONEN",
+   "date": {
+    "from": "1984-12-31",
+    "to": null,
+    "expressed": "1984.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast produced by TSI and published by SRG SSR idée suisse.",
+  "resume": "A television news summary (Tagesschau Jahresrückblick) dated 31 December 1984, presenting a global overview of major events and developments from the year, including political elections, unrest, disasters, and demonstrations."
+ },
+ "metadata": {
+  "title": "Tagesschau Jahresrückblick (TS), 31.12.1984",
+  "title_normalized": "Tagesschau Jahresrückblick (TS), 31.12.1984",
+  "title_en": "Tagesschau Year-in-Review (TS), 31 December 1984",
+  "creator": "TSI",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1984-12-31",
+  "date_published": "1984-12-31",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1984-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Unruhen",
+   "Wahl",
+   "Demonstration",
+   "Unfall",
+   "Hunger",
+   "PORTRÄT PERSONEN"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1984",
+   "Tagesschau SFDRS 31.12.1984"
+  ],
+  "reference_code": "J2.225#1996/68#9689#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21809694",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Reagan, Ronald",
+    "display_name": "Ronald Reagan",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q9960",
+     "label": "Ronald Reagan",
+     "description": "president of the United States from 1981 to 1989 and actor (1911–2004)",
+     "url": "https://www.wikidata.org/wiki/Q9960"
+    },
+    "life_date_check": {
+     "born": 1911,
+     "died": 2004,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Popieluszko, Jerzy",
+    "display_name": "Jerzy Popieluszko",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ortega, Daniel",
+    "display_name": "Daniel Ortega",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q57402",
+     "label": "Daniel Ortega",
+     "description": "president of Nicaragua (1979–1990; 2007–present)",
+     "url": "https://www.wikidata.org/wiki/Q57402"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Berlinguer, Enrico",
+    "display_name": "Enrico Berlinguer",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q164995",
+     "label": "Enrico Berlinguer",
+     "description": "Italian politician (1922–1984)",
+     "url": "https://www.wikidata.org/wiki/Q164995"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 1984,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Duarte, Jose Napoleon",
+    "display_name": "Jose Napoleon Duarte",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gandhi, Rajiv",
+    "display_name": "Rajiv Gandhi",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q4593",
+     "label": "Rajiv Gandhi",
+     "description": "Prime Minister of India (1984-1989)",
+     "url": "https://www.wikidata.org/wiki/Q4593"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 1991,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gandhi, Indira",
+    "display_name": "Indira Gandhi",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q1149",
+     "label": "Indira Gandhi",
+     "description": "Prime Minister of India (1966-1977; 1980-1984)",
+     "url": "https://www.wikidata.org/wiki/Q1149"
+    },
+    "life_date_check": {
+     "born": 1917,
+     "died": 1984,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andropow, Juri",
+    "display_name": "Juri Andropow",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q44071",
+     "label": "Yuri Andropov",
+     "description": "General Secretary of the Communist Party of the Soviet Union (1914–1984)",
+     "url": "https://www.wikidata.org/wiki/Q44071"
+    },
+    "life_date_check": {
+     "born": 1914,
+     "died": 1984,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Tschernenko, Konstantin",
+    "display_name": "Konstantin Tschernenko",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q127442",
+     "label": "Konstantin Chernenko",
+     "description": "General Secretary of the Communist Party of the Soviet Union (1911-1985)",
+     "url": "https://www.wikidata.org/wiki/Q127442"
+    },
+    "life_date_check": {
+     "born": 1912,
+     "died": 1985,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Buscetta, Tommaso",
+    "display_name": "Tommaso Buscetta",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Amritsar",
+    "as_written": "Amritsar",
+    "role": "depicted",
+    "country": "IN",
+    "lat": 31.6356659,
+    "lon": 74.8787496,
+    "gazetteer": "https://www.openstreetmap.org/node/245772397",
+    "model_lat": 31.62,
+    "model_lon": 74.88
+   },
+   {
+    "name": "Moskau",
+    "as_written": "Moskau",
+    "role": "depicted",
+    "country": "RU",
+    "lat": 55.625578,
+    "lon": 37.6063916,
+    "gazetteer": "https://www.openstreetmap.org/relation/102269",
+    "model_lat": 55.76,
+    "model_lon": 37.62
+   },
+   {
+    "name": "Los Angeles",
+    "as_written": "Los Angeles",
+    "role": "depicted",
+    "country": "US",
+    "lat": 34.0536923,
+    "lon": -118.2427676,
+    "gazetteer": "https://www.openstreetmap.org/relation/207359",
+    "model_lat": 34.05,
+    "model_lon": -118.25
+   },
+   {
+    "name": "Libanon",
+    "as_written": "Libanon",
+    "role": "depicted",
+    "country": "LB",
+    "lat": 34.29,
+    "lon": 36.092,
+    "gazetteer": "https://www.openstreetmap.org/node/5202433527",
+    "model_lat": 33.89,
+    "model_lon": 35.86
+   },
+   {
+    "name": "Nicaragua",
+    "as_written": "Nicaragua",
+    "role": "depicted",
+    "country": "NI",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 12.65,
+    "model_lon": -86.25
+   },
+   {
+    "name": "El Salvador",
+    "as_written": "El Salvador",
+    "role": "depicted",
+    "country": "SV",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 13.53,
+    "model_lon": -88.61
+   },
+   {
+    "name": "Chile",
+    "as_written": "Chile",
+    "role": "depicted",
+    "country": "CL",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": -33.45,
+    "model_lon": -70.65
+   },
+   {
+    "name": "Polen",
+    "as_written": "Polen",
+    "role": "depicted",
+    "country": "PL",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 52.23,
+    "model_lon": 21.01
+   },
+   {
+    "name": "Großbritannien",
+    "as_written": "GB",
+    "role": "depicted",
+    "country": "GBR",
+    "lat": 54.3151594,
+    "lon": -1.9181532,
+    "gazetteer": "https://www.openstreetmap.org/relation/6038068",
+    "model_lat": 55.0,
+    "model_lon": -3.0
+   },
+   {
+    "name": "Italien",
+    "as_written": "Italien",
+    "role": "depicted",
+    "country": "IT",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 42.0,
+    "model_lon": 12.0
+   },
+   {
+    "name": "Mexiko-Stadt",
+    "as_written": "Mexiko-City",
+    "role": "depicted",
+    "country": "MX",
+    "lat": 19.3207722,
+    "lon": -99.1514678,
+    "gazetteer": "https://www.openstreetmap.org/relation/1376330",
+    "model_lat": 19.43,
+    "model_lon": -99.13
+   },
+   {
+    "name": "Bhopal",
+    "as_written": "Bhopal",
+    "role": "depicted",
+    "country": "IN",
+    "lat": 23.2584857,
+    "lon": 77.401989,
+    "gazetteer": "https://www.openstreetmap.org/node/245712627",
+    "model_lat": 23.25,
+    "model_lon": 79.0
+   },
+   {
+    "name": "Äthiopien",
+    "as_written": "Äthiopien",
+    "role": "depicted",
+    "country": "ET",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 8.0,
+    "model_lon": 38.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 12.42\nFarbe: Farbaufnahmen\nOriginalformat: ",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Reagan, Ronald;Popieluszko, Jerzy;Ortega, Daniel;Berlinguer, Enrico;Duarte, Jose Napoleon;Gandhi, Rajiv;Gandhi, Indira;Andropow, Juri;Tschernenko, Konstantin;Buscetta, Tommaso; named organizations or places (apertus): Personen: … Orte: Bhopal;Äthiopien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1984.12.31; free text places (apertus): Geografische Abdeckung: Westeuropa ohne SkandinavienNaher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 12.42\nFarbe: Farbaufnahmen\nOriginalformat: "
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1984.12.31"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne SkandinavienNaher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Reagan, Ronald;Popieluszko, Jerzy;Ortega, Daniel;Berlinguer, Enrico;Duarte, Jose Napoleon;Gandhi, Rajiv;Gandhi, Indira;Andropow, Juri;Tschernenko, Konstantin;Buscetta, Tommaso"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: … Orte: Bhopal;Äthiopien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Amritsar",
+   "lat": 31.6356659,
+   "lon": 74.8787496,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Moskau",
+   "lat": 55.625578,
+   "lon": 37.6063916,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Los Angeles",
+   "lat": 34.0536923,
+   "lon": -118.2427676,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Libanon",
+   "lat": 34.29,
+   "lon": 36.092,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Großbritannien",
+   "lat": 54.3151594,
+   "lon": -1.9181532,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Mexiko-Stadt",
+   "lat": 19.3207722,
+   "lon": -99.1514678,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-12-31",
+   "place": "Bhopal",
+   "lat": 23.2584857,
+   "lon": 77.401989,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1984-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television news summary broadcast on 31 December 1984.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#9689#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 6902,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

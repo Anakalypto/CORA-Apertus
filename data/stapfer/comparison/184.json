@@ -1,0 +1,58 @@
+{
+ "id": 184,
+ "signature": "AEF H 437.11, 017-020",
+ "reference": {
+  "place": "Châtel-Saint-Denis",
+  "canton_1799": "Fribourg",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Udalric Galley",
+  "teacher_age": 48,
+  "teacher_marital_status": "Zölibat",
+  "teacher_since": null,
+  "pupils_winter": 60,
+  "pupils_summer": 30,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Châtel",
+  "canton_1799": "Fribourg",
+  "school_type": "Vermengte Schule/niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Udalric Galley",
+  "teacher_age": 48,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 11,
+  "pupils_winter": "60 à 70",
+  "pupils_summer": "30 à 40",
+  "author_name": "Le Chappelain ayant L'Ecôle des Garçons de Châtel",
+  "date_written": "1799-00-00"
+ },
+ "evidence": {
+  "place_as_written": "L'Ecole des garçons de Chatel est @ Située au dit lieu, qui est un Bourg,",
+  "canton_1799": "Fribourg.",
+  "school_type": "On enseigne dans l'Ecole de Chatel @ la lecture, l'ecriture, l'Arithmétique, l'Ortho= @ graphe, la Religion, et les principes de la @ langue latine à ceux qui veulent l'apprendre",
+  "confession": "une {Paroisse} fort peuplée, où il y a un @ Agent.",
+  "teacher_name": "il Se nomme Udalric Galley;",
+  "teacher_age": "il est agé de quarante huit ans.",
+  "teacher_since": "il y a onze ans environ qu'il prend soin de @ l'Ecole des Garçons.",
+  "pupils_winter": "60 à 70 garçons.",
+  "pupils_summer": "30 à 40 garçons. @ il y en a beaucoup qui ne @ fréquentent point, et d'autres rarement."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "extra",
+  "pupils_winter": "match",
+  "pupils_summer": "match",
+  "author_name": "extra",
+  "date_written": "extra"
+ },
+ "seconds": 12.82
+}

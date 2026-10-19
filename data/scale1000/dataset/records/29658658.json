@@ -1,0 +1,455 @@
+{
+ "id": "29658658",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29658658",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29658658",
+  "reference_code": "J2.225#2006/364#480#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Soft-Art Ausstellung Kunsthaus",
+   "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#15*",
+   "scope_and_content": "Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von Salvador Dali, Man Ray, François Grossen, Heidi Bucher, Jacky Morris, Claes Oldenburg, Christo, Antoni Tàpies, Joseph Beuys, Daniel Spörri, Eva Aeppli, François-Xavier Lalanne, Günter Weseler, Inge Prokot, Jean Dubuffet\nZusammenfassung: CH <Zürich, ZH: Soft-Art Ausstellung im Kunsthaus",
+   "author": "Produktionsgesellschaft: DRS",
+   "form": "Video",
+   "format": "Dauer: 00:03:26\nFarbe: FA\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.05.08\nTräger: Betacam-Digital",
+   "thema": "Personen: Dali, Salvador;Ray, Man;Grossen, François;Bucher, Heidi;Morris, Jacky;Oldenburg, Claes;Christo=Jawatschew, Christo;Tàpies, Antoni;Beuys, Joseph;Spörri, Daniel;Aeppli, Eva;Lalanne, François Xavier;Weseler, Günter;Prokot, Inge;Dubuffet, Jean\nSachdeskriptor: Kunstausstellung",
+   "date": {
+    "from": "1979-11-25",
+    "to": null,
+    "expressed": "1979.11.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+     "number": "2006/364",
+     "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of the exhibition created by DRS for broadcast.",
+  "resume": "A video recording of the Soft-Art exhibition at Kunsthaus Zürich, featuring works by Salvador Dalí, Man Ray, François Grossen, Heidi Bucher, Jacky Morris, Claes Oldenburg, Christo, Antoni Tàpies, Joseph Beuys, Daniel Spörri, Eva Aeppli, François-Xavier Lalanne, Günter Weseler, Inge Prokot, and Jean Dubuffet."
+ },
+ "metadata": {
+  "title": "Soft-Art Ausstellung Kunsthaus",
+  "title_normalized": "Soft-Art Ausstellung Kunsthaus",
+  "title_en": "Soft-Art Exhibition Kunsthaus",
+  "creator": "DRS",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1979-11-25",
+  "date_published": "1979-11-25",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1979-11-25",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "art exhibition",
+   "artists",
+   "exhibition catalog"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 25.11.1979"
+  ],
+  "reference_code": "J2.225#2006/364#480#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29658658",
+  "accession_numbers": [
+   "2006/364"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dali, Salvador",
+    "display_name": "Salvador Dali",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ray, Man",
+    "display_name": "Man Ray",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q46139",
+     "label": "Man Ray",
+     "description": "American and French visual artist (1890–1976)",
+     "url": "https://www.wikidata.org/wiki/Q46139"
+    },
+    "life_date_check": {
+     "born": 1890,
+     "died": 1976,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Grossen, François",
+    "display_name": "François Grossen",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Bucher, Heidi",
+    "display_name": "Heidi Bucher",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Morris, Jacky",
+    "display_name": "Jacky Morris",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Oldenburg, Claes",
+    "display_name": "Claes Oldenburg",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christo=Jawatschew, Christo",
+    "display_name": "Christo Christo=Jawatschew",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Tàpies, Antoni",
+    "display_name": "Antoni Tàpies",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Beuys, Joseph",
+    "display_name": "Joseph Beuys",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q153965",
+     "label": "Joseph Beuys",
+     "description": "German artist, teacher, and theorist of art (1921–1986)",
+     "url": "https://www.wikidata.org/wiki/Q153965"
+    },
+    "life_date_check": {
+     "born": 1921,
+     "died": 1986,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Spörri, Daniel",
+    "display_name": "Daniel Spörri",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q123487",
+     "label": "Daniel Spoerri",
+     "description": "Swiss artist (1930–2024)",
+     "url": "https://www.wikidata.org/wiki/Q123487"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Aeppli, Eva",
+    "display_name": "Eva Aeppli",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q458494",
+     "label": "Eva Aeppli",
+     "description": "Swiss artist and astrologer (1925–2015)",
+     "url": "https://www.wikidata.org/wiki/Q458494"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Lalanne, François Xavier",
+    "display_name": "François Xavier Lalanne",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Weseler, Günter",
+    "display_name": "Günter Weseler",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q56711515",
+     "label": "Günter Weseler",
+     "description": "German artist (1930–2020)",
+     "url": "https://www.wikidata.org/wiki/Q56711515"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Prokot, Inge",
+    "display_name": "Inge Prokot",
+    "role": "artist",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Dubuffet, Jean",
+    "display_name": "Jean Dubuffet",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q170076",
+     "label": "Jean Dubuffet",
+     "description": "French artist (1901–1985)",
+     "url": "https://www.wikidata.org/wiki/Q170076"
+    },
+    "life_date_check": {
+     "born": 1901,
+     "died": 1985,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2006/364#15*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von Salvador Dali, Man Ray, François Grossen, Heidi Bucher, Jacky Morris, Claes Oldenburg, Christo, Antoni Tàpies, Joseph Beuys, Daniel Spörri, Eva Aeppli, François-Xavier Lalanne, Günter Weseler, Inge Prokot, Jean Dubuffet\nZusammenfassung: CH <Zürich, ZH: Soft-Art Ausstellung im Kunsthaus",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:03:26\nFarbe: FA\nFormat Arbeitskopie: Sic",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Dali, Salvador;Ray, Man;Grossen, François;Bucher, Heidi;Morris, Jacky;Oldenburg, Claes;Christo=Jawatschew, Christo;Tàpies, Antoni;Beuys, Joseph;Spörri, Daniel;Aeppli, Eva;Lalanne, François Xavier;Weseler, Günter;Prokot, Inge;Dubuffet, Jean; named organizations or places (apertus): Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von...",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1979.11.25; free text places (apertus): Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von...",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2006/364#15*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von Salvador Dali, Man Ray, François Grossen, Heidi Bucher, Jacky Morris, Claes Oldenburg, Christo, Antoni Tàpies, Joseph Beuys, Daniel Spörri, Eva Aeppli, François-Xavier Lalanne, Günter Weseler, Inge Prokot, Jean Dubuffet\nZusammenfassung: CH <Zürich, ZH: Soft-Art Ausstellung im Kunsthaus"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:03:26\nFarbe: FA\nFormat Arbeitskopie: Sic"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1979.11.25"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von..."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Dali, Salvador;Ray, Man;Grossen, François;Bucher, Heidi;Morris, Jacky;Oldenburg, Claes;Christo=Jawatschew, Christo;Tàpies, Antoni;Beuys, Joseph;Spörri, Daniel;Aeppli, Eva;Lalanne, François Xavier;Weseler, Günter;Prokot, Inge;Dubuffet, Jean"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: CH <Zürich, ZH: Ausstellungsplakat / ausgestellte Objekte von..."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1979-11-25",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Video recording of Soft-Art exhibition broadcast.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/364 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/364#480#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5775,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

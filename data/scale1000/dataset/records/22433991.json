@@ -1,0 +1,297 @@
+{
+ "id": "22433991",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22433991",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22433991",
+  "reference_code": "J2.247#2000/21#633#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Mercato delle pecore ; Il Regionale, 04.10.1977",
+   "old_reference_code": "Original Signatur: REGIOTSI 8.64\nSignatur Bundesarchiv: J2.247#2000/21#674*",
+   "scope_and_content": "Genre: Attualità regionale\nInhaltsangabe: CH > MESOCCO, GR - Il tradizionale mercato delle pecore ha raccolto circa 700 capi di bestiame",
+   "author": "Produktionsgesellschaft: TSI",
+   "publisher": "HerausgeberIn: TSI",
+   "coverage": "Geografische Abdeckung: Mesocco",
+   "form": "Video",
+   "format": "Dauer: 00:01:02\nFarbe: Colore\nStartposition: 00:02.28",
+   "thema": "Sachdeskriptor: Fiere agricole; Allevamento del bestiame; Mammiferi ovini pecore",
+   "date": {
+    "from": "1977-10-04",
+    "to": null,
+    "expressed": "1977.10.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16915",
+     "number": "2000/21",
+     "title": "2000/00021 Radiotelevisione Svizzera di lingua italiana (Lugano) (1958-1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage produced by TSI for broadcast.",
+  "resume": "A regional news segment from Il Regionale dated 4 October 1977 showing the traditional sheep market in Mesocco, Switzerland, with approximately 700 animals gathered."
+ },
+ "metadata": {
+  "title": "Mercato delle pecore ; Il Regionale, 04.10.1977",
+  "title_normalized": "Mercato delle pecore ; Il Regionale, 04.10.1977",
+  "title_en": "Sheep Market; Il Regionale, 4 October 1977",
+  "creator": "TSI",
+  "publisher": "TSI",
+  "commissioner": null,
+  "date_created": "1977-10-04",
+  "date_published": "1977-10-04",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1977-10-04",
+  "languages": [
+   "it"
+  ],
+  "subjects": [
+   "agricultural fairs",
+   "livestock",
+   "ovine animals"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Radiotelevisione svizzera di lingua italiana (1931-)",
+  "fonds_reference": "J2.247*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Radiotelevisione svizzera di lingua italiana (1931-)",
+   "Il Regionale 1958 1984",
+   "Il Regionale 1977",
+   "Il Regionale 04.10.1977"
+  ],
+  "reference_code": "J2.247#2000/21#633#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22433991",
+  "accession_numbers": [
+   "2000/21"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "TSI",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Mesocco",
+    "as_written": "Mesocco",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.392173,
+    "lon": 9.2325189,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684118",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre: Attualità regionale\nInhaltsangabe: CH > MES",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:01:02\nFarbe: Colore\nStartposition: 00:02",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Geografische Abdeckung: Mesocco",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1977.10.04; free text places (apertus): Geografische Abdeckung: Mesocco",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre: Attualità regionale\nInhaltsangabe: CH > MES"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:01:02\nFarbe: Colore\nStartposition: 00:02"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1977.10.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Mesocco"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Mesocco"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1977-10-04",
+   "place": "Mesocco",
+   "lat": 46.392173,
+   "lon": 9.2325189,
+   "description": "TV segment broadcast covering the sheep market.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/21 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.247#2000/21#633#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4901,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

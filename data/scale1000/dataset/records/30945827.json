@@ -1,0 +1,337 @@
+{
+ "id": "30945827",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30945827",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30945827",
+  "reference_code": "E1301#2017/57#5#42*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2010.0432: Parlamentarische Initiative Lustenberger Ruedi. Ausserparlamentarische Kommissionen. Bessere Vertretung des politischen Spektrums / Initiative parlementaire Lustenberger Ruedi. Commissions extraparlementaires. Meilleure représentation des sensibilités politiques",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Geissbühler, Andrea Martina; Hiltpold, Hugues; Lustenberger, Ruedi; Tschümperlin, Andy;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-12-12",
+    "to": null,
+    "expressed": "2011.12.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30945503",
+     "number": "2017/57",
+     "title": "2017/00057 Parlamentsdienste (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary record of a debate concerning an initiative by Ruedi Lustenberger on extra-parliamentary commissions and better representation of the political spectrum, held during the Wintersession 2011 of the Swiss National Council. The record includes speakers such as Andrea Martina Geissbühler, Hugues Hiltpold, Ruedi Lustenberger, and Andy Tschümperlin. It is a digital video recording of the proceedings."
+ },
+ "metadata": {
+  "title": "2010.0432: Parlamentarische Initiative Lustenberger Ruedi. Ausserparlamentarische Kommissionen. Bessere Vertretung des politischen Spektrums / Initiative parlementaire Lustenberger Ruedi. Commissions extraparlementaires. Meilleure représentation des sensibilités politiques",
+  "title_normalized": "2010.0432: Parlamentarische Initiative Lustenberger Ruedi. Ausserparlamentarische Kommissionen. Bessere Vertretung des politischen Spektrums / Initiative parlementaire Lustenberger Ruedi. Commissions extraparlementaires. Meilleure représentation des sensibilités politiques",
+  "title_en": "Parliamentary Initiative Lustenberger Ruedi: Extra-parliamentary Commissions. Better Representation of the Political Spectrum / Parliamentary Initiative Lustenberger Ruedi: Extra-parliamentary Commissions. Better Representation of Political Sensitivities",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-12-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2011-12-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary initiative",
+   "extra-parliamentary commissions",
+   "political representation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Wintersession 2011",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/57#5#42*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30945827",
+  "accession_numbers": [
+   "2017/57"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Andrea Martina Geissbühler",
+    "display_name": "Andrea Martina Geissbühler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121166",
+     "label": "Andrea Geissbühler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121166"
+    },
+    "life_date_check": {
+     "born": 1976,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hugues Hiltpold",
+    "display_name": "Hugues Hiltpold",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121172",
+     "label": "Hugues Hiltpold",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121172"
+    },
+    "life_date_check": {
+     "born": 1969,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruedi Lustenberger",
+    "display_name": "Ruedi Lustenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1348117",
+     "label": "Ruedi Lustenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1348117"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andy Tschümperlin",
+    "display_name": "Andy Tschümperlin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119464",
+     "label": "Andy Tschümperlin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119464"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers_in_debate includes Andrea Martina Geissbühler, Hugues Hiltpold, Ruedi Lustenberger, Andy Tschümperlin; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.12.12",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.12.12"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes Andrea Martina Geissbühler, Hugues Hiltpold, Ruedi Lustenberger, Andy Tschümperlin"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/57 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/57#5#42*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4969,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

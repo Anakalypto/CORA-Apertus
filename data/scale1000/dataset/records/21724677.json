@@ -1,0 +1,310 @@
+{
+ "id": "21724677",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21724677",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21724677",
+  "reference_code": "J2.225#1996/68#2485#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 05.03.1965",
+   "old_reference_code": "Original Signatur: TSSRG 65/60/02; Rolle 442\nSignatur Bundesarchiv: J2.225#1996/68#32243*",
+   "scope_and_content": "Inhaltsangabe: Österreich Wien: Staats-Begräbnis von BP Adolf Schärf\nSequenzbeschrieb: Österreich Wien: Trauerzug mit viel Militär auf dem Weg zum Zentralfriedhof / Sarg wird in die Präsidentengruft gelegt",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 26.02.1965-12.03.1965",
+   "form": "Video",
+   "format": "Dauer: 1.50\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.55.55\nTräger: Betacam-Digital",
+   "thema": "Personen: Schärf, Adolf\nSachdeskriptor: Beerdigung",
+   "date": {
+    "from": "1965-03-05",
+    "to": null,
+    "expressed": "1965.03.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast footage of a news report created at the time of the events.",
+  "resume": "This is a television news report from March 5, 1965, showing the state funeral of Adolf Schärf in Vienna, Austria, including a funeral procession with military and the placement of the coffin in the presidential crypt."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 05.03.1965",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 05.03.1965",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 05.03.1965",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1965-03-05",
+  "date_published": "1965-03-05",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-03-05",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "funeral",
+   "Adolf Schärf",
+   "Austria"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1965",
+   "Tagesschau SFDRS 05.03.1965"
+  ],
+  "reference_code": "J2.225#1996/68#2485#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21724677",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Schärf, Adolf",
+    "display_name": "Adolf Schärf",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q72898",
+     "label": "Adolf Schärf",
+     "description": "Austrian politician, President of Austria 1957–1965 (1890–1965)",
+     "url": "https://www.wikidata.org/wiki/Q72898"
+    },
+    "life_date_check": {
+     "born": 1890,
+     "died": 1965,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Vienna",
+    "as_written": "Wien",
+    "role": "depicted",
+    "country": "AT",
+    "lat": 48.2083537,
+    "lon": 16.3725042,
+    "gazetteer": "https://www.openstreetmap.org/relation/109166",
+    "model_lat": 48.2082,
+    "model_lon": 16.3738
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.50\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Schärf, Adolf; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1965.03.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.50\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1965.03.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Schärf, Adolf"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1965-03-05",
+   "place": "Vienna",
+   "lat": 48.2083537,
+   "lon": 16.3725042,
+   "description": "Broadcast of the state funeral of Adolf Schärf.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#2485#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5140,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

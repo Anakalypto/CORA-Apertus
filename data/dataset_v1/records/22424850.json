@@ -1,0 +1,312 @@
+{
+ "id": "22424850",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22424850",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22424850",
+  "reference_code": "J2.240#2002/139#797#2*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "U2. CENTRALE DE COMMANDE POUR LES SERRES ; Journal Romand, 03.09.1985",
+   "old_reference_code": "Original Signatur: JRTSR LM011884\nSignatur Bundesarchiv: J2.240#2002/139#3917*",
+   "scope_and_content": "Sequenzbeschrieb: Paysage - Plaine du RHone - Serre - Interview - Thermostat - Antenne -",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: RHONE\nZeitliche Abdeckung: 27.08.1985-10.09.1985",
+   "form": "Video",
+   "format": "Dauer: 00:01.03\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:02.07",
+   "thema": "Sachdeskriptor: culture maraîchère",
+   "date": {
+    "from": "1985-09-03",
+    "to": null,
+    "expressed": "1985.09.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+     "number": "2002/139",
+     "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by the broadcaster at the time of the events as part of a live news program.",
+  "resume": "This is a television news report from the Swiss French-language channel TSR, broadcast on 3 September 1985, covering greenhouse cultivation in the Rhône plain. It features footage of greenhouses, interviews, and technical equipment such as thermostats and antennas. The segment is part of the 'Journal Romand' news program."
+ },
+ "metadata": {
+  "title": "U2. CENTRALE DE COMMANDE POUR LES SERRES ; Journal Romand, 03.09.1985",
+  "title_normalized": "U2. CENTRALE DE COMMANDE POUR LES SERRES ; Journal Romand, 03.09.1985",
+  "title_en": "Central Command for Greenhouses; Journal Romand, 03.09.1985",
+  "creator": "Télévision suisse romande (TSR)",
+  "publisher": "Télévision suisse romande (TSR)",
+  "commissioner": null,
+  "date_created": "1985-08-27/1985-09-10",
+  "date_published": "1985-09-03",
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "1985-09-03",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "greenhouse farming",
+   "agriculture",
+   "Rhône plain"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Journal romand 1981-1986 TSR",
+   "Journal romand TSR 1985",
+   "Journal romand TSR 03.09.1985"
+  ],
+  "reference_code": "J2.240#2002/139#797#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22424850",
+  "accession_numbers": [
+   "2002/139"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR)",
+    "role": "creator and publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Rhône plain",
+    "as_written": "RHONE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.576752,
+    "lon": 8.3822353,
+    "gazetteer": "https://www.openstreetmap.org/way/1514368369",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"2002/00139 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): U2. CENTRALE DE COMMANDE POUR LES SERRES ; Journal Romand, 0",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:01.03\nFarbe: couleur\nFormat Arbeitskopie",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): publisher: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: 1985.09.03",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"2002/00139 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "U2. CENTRALE DE COMMANDE POUR LES SERRES ; Journal Romand, 0"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:01.03\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1985.09.03"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher: Télévision suisse romande (TSR), SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1985-08-27/1985-09-10",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Production of a news segment on greenhouse agriculture in the Rhône plain.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1985-08-27/1985-09-10",
+   "place": "Rhône plain",
+   "lat": 46.576752,
+   "lon": 8.3822353,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1985-09-03",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of the segment on the 'Journal Romand' program.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/139 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#2002/139#797#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4476,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

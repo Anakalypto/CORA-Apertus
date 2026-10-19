@@ -1,0 +1,89 @@
+{
+ "id": "30676689",
+ "uri": "https://culture.ld.admin.ch/ais/30676689",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30676689",
+ "title": "2011.5089: Fragestunde. Frage Lumengo Ricardo. Arabische Revolution / Heure des questions. Question Lumengo Ricardo. Révolution arabe",
+ "reference_code": "E1301#2014/135#5#37*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Calmy-Rey, Micheline; Lumengo, Ricardo;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2011-03-07",
+  "to": null,
+  "expressed": "2011.03.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/29730093",
+   "number": "2014/135",
+   "title": "2014/00135 Parlamentsdienste (Bern) (2011)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30676652",
+   "title": "5. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#2014/135#5*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30284614",
+   "title": "Frühjahrssession 2011",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-48-10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794374",
+   "title": "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-48"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794373",
+   "title": "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

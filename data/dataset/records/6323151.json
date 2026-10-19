@@ -1,0 +1,281 @@
+{
+ "id": "6323151",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/6323151",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6323151",
+  "reference_code": "E7181A#1978/90#29*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Repertoire internationale des institutions statistiques",
+   "reference_number": "03.b.3.3",
+   "date": {
+    "from": "1938-01-01",
+    "to": "1938-12-31",
+    "expressed": "1938-1938"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15347",
+     "number": "1978/90",
+     "title": "1978/00090 Bundesverwaltung (Bern) (1914 - 1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "report",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a finding aid (repertory) within the Swiss Federal Archives, specifically an excerpt register of international statistical institutions.",
+  "resume": "The document is an excerpt from a 1938 report on the administrative integration of social statistics into the Federal Office of Industry, Trade and Labour (BIGA). It contains a compilation of international statistical institution listings. The content is purely administrative and analytical."
+ },
+ "metadata": {
+  "title": "Repertoire internationale des institutions statistiques",
+  "title_normalized": "Repertoire internationale des institutions statistiques",
+  "title_en": "International directory of statistical institutions",
+  "creator": "Bundesamt für Industrie, Gewerbe und Arbeit (BIGA)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1938-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1978",
+  "content_date": "1938/1938",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "statistics",
+   "administration",
+   "BIGA",
+   "social statistics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Industrie, Gewerbe und Arbeit (1930-1997)",
+  "fonds_reference": "E10078*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Industrie, Gewerbe und Arbeit (1930-1997)",
+   "Bundesamt für Industrie, Gewerbe und Arbeit: Teilregistratur Sozialstatistik (1928-1979)",
+   "Arbeitsstatistik",
+   "Schweiz",
+   "Zur Frage der administrativen Eingliederung der Sozialstatistik in das BIGA (Gutachten vom 9.12.1938)",
+   "Auszüge nach Quellen"
+  ],
+  "reference_code": "E7181A#1978/90#29*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6323151",
+  "accession_numbers": [
+   "1978/90"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Bundesamt für Industrie, Gewerbe und Arbeit (BIGA)",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Bundesamt für Industrie, Gewerbe und Arbeit (BIGA)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bundesamt für Industrie, Gewerbe und Arbeit (BIGA)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1938-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The report was compiled by the BIGA as part of its internal administrative records.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1978",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1978/90 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E7181A#1978/90#29*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4579,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

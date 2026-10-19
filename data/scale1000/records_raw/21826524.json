@@ -1,0 +1,70 @@
+{
+ "id": "21826524",
+ "uri": "https://culture.ld.admin.ch/ais/21826524",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21826524",
+ "title": "Tagesschau (TS), 12.07.1989",
+ "reference_code": "J2.225#1996/68#11337#1*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 220465601\nSignatur Bundesarchiv: J2.225#1996/68#6046*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bern, BE: Bundesrat beabsichtigt, Verluste bei der Exportrisiko-Garantie abzuschreiben - Protest-Aktion 'Erklärung von Bern'",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 05.07.1989-19.07.1989",
+ "form": "Video",
+ "format": "Dauer: 0.30\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.15.44\nTräger: Betacam-SP",
+ "thema": "Sachdeskriptor: Bundesrat",
+ "country": null,
+ "date": {
+  "from": "1989-07-12",
+  "to": null,
+  "expressed": "1989.07.12"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21826523",
+   "title": "Tagesschau SFDRS 12.07.1989",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#11337*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690398",
+   "title": "Tagesschau SFDRS 1989",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1989"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

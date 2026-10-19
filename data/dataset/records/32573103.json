@@ -1,0 +1,274 @@
+{
+ "id": "32573103",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32573103",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32573103",
+  "reference_code": "E5565-05#2020/38#1#22*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "22. Chemische Zeitzünder",
+   "reference_number": "A-22",
+   "form": "gerahmtes Einzel-Dia",
+   "date": {
+    "from": "1939-01-01",
+    "to": "1945-12-31",
+    "expressed": "1939 (ca.)-1945 (ca.)"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31889658",
+     "number": "2020/38",
+     "title": "2020/00038 Nachrichtendienst des Bundes (2010-) (1859-1991)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a single photographic document from the Swiss Federal Intelligence Service's historical military material collection.",
+  "resume": "The record is a framed single photographic slide from the Swiss Federal Archives' internal collection of historical army material, showing chemical time fuses used for training purposes. It dates from circa 1939 to 1945 and was deposited by the Federal Intelligence Service in 2020. The image depicts military equipment rather than people or events."
+ },
+ "metadata": {
+  "title": "22. Chemische Zeitzünder",
+  "title_normalized": "22. Chemische Zeitzünder",
+  "title_en": "22. Chemical Time Fuses",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939-01-01/1945-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2020",
+  "content_date": "1939-01-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "military equipment",
+   "chemical fuses",
+   "training",
+   "World War II"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nachrichtendienst des Bundes (2010-)",
+  "fonds_reference": "E11101*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nachrichtendienst des Bundes (2010-)",
+   "Nachrichtendienst des Bundes: Zentralstelle Historisches Armeematerial - Interne Sammlung NDB",
+   "Sammlung an Fotografien zu Ausbildungszwecken",
+   "A: Allgemeines und Texte"
+  ],
+  "reference_code": "E5565-05#2020/38#1#22*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32573103",
+  "accession_numbers": [
+   "2020/38"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"22. Chemische Zeitzünder\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): accessions[0].title: \"2020/00038 Nachrichtendienst des Bundes (2010-) (1859-1991)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1939 (ca.)-1945 (ca.)\"; free text places (apertus): No place names appear in structured fields; all place info is absent.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"22. Chemische Zeitzünder\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed: \"1939 (ca.)-1945 (ca.)\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "No place names appear in structured fields; all place info is absent."
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title: \"2020/00038 Nachrichtendienst des Bundes (2010-) (1859-1991)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no personal or sensitive data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939-01-01/1945-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Photograph taken for military training purposes showing chemical time fuses.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2020",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2020/38 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5565-05#2020/38#1#22*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4625,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

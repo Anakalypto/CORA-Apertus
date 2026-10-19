@@ -1,0 +1,318 @@
+{
+ "id": "30949167",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30949167",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30949167",
+  "reference_code": "E1401#2017/55#12#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2007.0057: Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Altherr, Hans;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-12-23",
+    "to": null,
+    "expressed": "2011.12.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30936896",
+     "number": "2017/55",
+     "title": "2017/00055 Parlamentsdienste: Amtliches Bulletin (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "The document is a parliamentary record of the Swiss Council of States (Ständerat) from the Winter Session 2011, containing a debate on a federal law concerning measures for internal security. It includes a speech by Hans Altherr. The record is a video recording of the proceedings."
+ },
+ "metadata": {
+  "title": "2007.0057: Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification",
+  "title_normalized": "2007.0057: Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification",
+  "title_en": "Federal Law on Measures for the Maintenance of Internal Security. Amendment / Law Establishing Measures Aimed at Maintaining Internal Security. Amendment",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2011-12-23",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "internal security",
+   "Swiss legislation",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Wintersession 2011",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2017/55#12#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30949167",
+  "accession_numbers": [
+   "2017/55"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Altherr",
+    "display_name": "Hans Altherr",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117781",
+     "label": "Hans Altherr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117781"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2007.0057: Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Hans Altherr\" ]; named organizations or places (apertus): hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.12.23",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2007.0057: Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Bundesgesetz über Massnahmen zur Wahrung der inneren Sicherheit. Änderung / Loi instituant des mesures visant au maintien de la sûreté intérieure. Modification\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.12.23"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Hans Altherr\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/55 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2017/55#12#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4841,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,61 @@
+{
+ "id": "31445428",
+ "uri": "https://culture.ld.admin.ch/ais/31445428",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31445428",
+ "title": "Repertorium der Personalakten von 1876 - 1878, A-Z",
+ "reference_code": "E21#1000/131#24724*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Notiz:\nDie Bandreihe \"Repertorium der Personalakten\", 1849-1866 (2 Bände), 1867-1872, 1873-1875 und 1876-1878 wurde vom Bundesarchiv in den Jahren 1868 bis 1884 erstellt. Dieses Repertorium ist bereits im Archivreglementvom14.9.1864 vorgesehen (Art.14.b). Über Sinn und Zweck des Repertoriums wird im Geschäftsbericht des Bundesrates an die Bundesversammlung für das Jahr 1882 ausgesagt: \"Eine fernere Arbeit, die während des ganzen Jahres den Archivgehülfen fast ausschliesslich beschäftigte, war die Anfertigung des Registers über die weitläufige Abtheilung der sogenannten Personalakten der Jahre 1876/78; dasselbe stand am Schlusse des Berichtsjahres beim Buchstaben F. Diese Gruppe umfasst in alphabetischer Reihenfolge alle jene einzelnen Geschäfte, welche Nachforschungen nach landesabwesenden Personen, Fahndungen, Auslieferungen, Erbschaftsangelegenheiten, kurz bloss persönliche Verhältnisse betreffen.\"\nDie Eintragungen enthalten keine Verweise auf die Archivsignatur, obwohl dieser Vermerk in Artikel 15 des Archivreglements vorgeschrieben ist. Allerdings war dies auch nicht notwendig, weil die \"Personenserien\" sachlich geordnet waren, z.B. \"Nachlässe\", \"Nachforschungen\", \"Auslieferungen\", usw.\nBern, den 11. Februar 1977",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1876-01-01",
+  "to": "1878-12-31",
+  "expressed": "1876-1878"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+   "number": "1000/131",
+   "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31215390",
+   "title": "Personenkarteien und Personenindizes",
+   "level": "Serie",
+   "reference_code": "E21#14"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3577",
+   "title": "Polizeiwesen",
+   "level": "Stock",
+   "reference_code": "E21*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

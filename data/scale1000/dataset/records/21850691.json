@@ -1,0 +1,343 @@
+{
+ "id": "21850691",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21850691",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21850691",
+  "reference_code": "J2.225#2000/22#90#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Porträt NR-P Otto Hess ; Antenne, 12.02.1963",
+   "old_reference_code": "Original Signatur: RJSFDRS 9307551\nSignatur Bundesarchiv: J2.225#2000/22#9136*",
+   "scope_and_content": "Inhaltsangabe: CH Häuslen, TG: Porträt neuer NR-P Otto Hess\nSequenzbeschrieb: CH Häuslen, TG: AA °Hess-Bauernhof / NR-P Otto Hess im Büro arbeitend / Hess Fotos / Hess Pferd fütternd / Schwenk Obst-Bäume / hohe Leiter an Obstbaum Egnach, TG: AA Gebäude der Obstverwertungs-Genossenschaft / Hess Obstlager betrachtend Häuslen, TG: Hess und Sohn im Kuhstall / Hess und Sohn neben Stier stehend Bern, BE: Blumen für NR-P Hess / Rede Hess",
+   "author": "AutorIn: Zibung, Carl\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 05.02.1963-19.02.1963",
+   "form": "Video",
+   "format": "Dauer: 00:05:24\nFarbe: Schwarzweissaufnahmen\nStartposition: 10.23.30\nTräger: Betacam-Digital",
+   "thema": "Personen: Hess, Otto\nSachdeskriptor: Porträt Personen",
+   "date": {
+    "from": "1963-02-12",
+    "to": null,
+    "expressed": "1963.02.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a televised portrait made during the event.",
+  "resume": "A television portrait of Otto Hess, a Nationalrat (NR-P), recorded on 12 February 1963 for Antenne, showing Hess at his farm, in his office, with his family, and receiving flowers in Bern."
+ },
+ "metadata": {
+  "title": "Porträt NR-P Otto Hess ; Antenne, 12.02.1963",
+  "title_normalized": "Porträt NR-P Otto Hess ; Antenne, 12.02.1963",
+  "title_en": "Portrait of NR-P Otto Hess; Antenne, 12 February 1963",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1963-02-12",
+  "date_published": "1963-02-12",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1963-02-12",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Otto Hess",
+   "portrait",
+   "Nationalrat"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1963",
+   "Regionalmagazine SFDRS 12.02.1963"
+  ],
+  "reference_code": "J2.225#2000/22#90#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21850691",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hess, Otto",
+    "display_name": "Otto Hess",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q2039182",
+     "label": "Otto Hess",
+     "description": "Swiss politician (1935-2014)",
+     "url": "https://www.wikidata.org/wiki/Q2039182"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (NR-P)",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Häuslen, TG",
+    "as_written": "Häuslen, TG",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5076385,
+    "lon": 9.3757703,
+    "gazetteer": "https://www.openstreetmap.org/node/3397225438",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bern, BE",
+    "as_written": "Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Zibung, Carl\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Hess, Otto; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1963.02.12; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Zibung, Carl\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1963.02.12"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Hess, Otto"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1963-02-12",
+   "place": "Bern, BE",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1963-02-12",
+   "place": "Häuslen, TG",
+   "lat": 47.5076385,
+   "lon": 9.3757703,
+   "description": "Televised portrait of Otto Hess recorded for Antenne.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#90#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:Nationalrat (NR-P)"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5405,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

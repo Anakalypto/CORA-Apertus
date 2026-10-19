@@ -1,0 +1,317 @@
+{
+ "id": "21722169",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21722169",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21722169",
+  "reference_code": "J2.225#1996/68#2340#10*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 25.09.1964",
+   "old_reference_code": "Original Signatur: TSSRG 64/232/07; Rolle 415\nSignatur Bundesarchiv: J2.225#1996/68#30864*",
+   "scope_and_content": "Inhaltsangabe: Frankreich Marnay: Erfolgreiche Suche nach enftührten Kindern\nSequenzbeschrieb: Frankreich Marnay: Marschierende Soldaten, fahrende Militär-Lastwagen / Soldaten beim Durchsuchen von Gelände",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 18.09.1964-02.10.1964",
+   "form": "Video",
+   "format": "Dauer: 0.35\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.34.00\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Entführung",
+   "date": {
+    "from": "1964-09-25",
+    "to": null,
+    "expressed": "1964.09.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording of a news report created at the time of the events by a news agency.",
+  "resume": "This is a Swiss TV news report from the Tagesschau series broadcast on 25 September 1964, covering the successful search for kidnapped children in Marnay, France. It includes footage of marching soldiers and military vehicles searching the terrain. The report was produced by news agencies and broadcast by SRG SSR idée suisse."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 25.09.1964",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 25.09.1964",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 25.09.1964",
+  "creator": "Produktion: Agenturen",
+  "publisher": "HerausgeberIn: SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1964-09-25",
+  "date_published": "1964-09-25",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1964-09-25",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "kidnapping",
+   "search and rescue",
+   "military activity",
+   "news broadcast"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1964",
+   "Tagesschau SFDRS 25.09.1964"
+  ],
+  "reference_code": "J2.225#1996/68#2340#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21722169",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher / broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "Agenturen",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Marnay",
+    "as_written": "Marnay",
+    "role": "depicted",
+    "country": "FR",
+    "lat": 46.7043803,
+    "lon": 4.9188208,
+    "gazetteer": "https://www.openstreetmap.org/relation/1171786",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 0.35\nFarbe: Schwarzweissaufnahmen\nOriginalf; multilingual (apertus): title contains German, French, Italian",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed date '1964.09.25'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.35\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German, French, Italian"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date '1964.09.25'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1964-09-25",
+   "place": "Marnay",
+   "lat": 46.7043803,
+   "lon": 4.9188208,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1964-09-25",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of the Tagesschau news report covering the search for kidnapped children in Marnay, France.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#2340#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4479,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

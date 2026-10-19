@@ -1,0 +1,405 @@
+{
+ "id": "31865097",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31865097",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31865097",
+  "reference_code": "E1301#2020/23#7#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Derder, Fathi; Lustenberger, Ruedi; Mahrer, Anne; Pieren, Nadja; Quadranti, Rosmarie; Reynard, Mathias; Schneider-Ammann, Johann N.; Weibel, Thomas;",
+   "date": {
+    "from": "2014-06-12",
+    "to": null,
+    "expressed": "2014.06.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31863588",
+     "number": "2020/23",
+     "title": "2020/00023 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate with speaker names and date of the session, indicating primary creation at the time of the events.",
+  "resume": "The document is a parliamentary record of a debate in the Swiss National Council concerning a popular initiative on scholarships and a total revision of the training contribution law, held on 12 June 2014. It includes the names of speakers and is part of the video recordings series for the winter session 2011 to autumn session 2015."
+ },
+ "metadata": {
+  "title": "2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation",
+  "title_normalized": "2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation",
+  "title_en": "Scholarship Initiative and Total Revision of the Training Contribution Act / Popular Initiative on Scholarships and Total Revision of the Training Contribution Law",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2014-06-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2020",
+  "content_date": "2014-06-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "scholarships",
+   "training contribution law",
+   "popular initiative",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Sommersession 2014",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2020/23#7#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31865097",
+  "accession_numbers": [
+   "2020/23"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Fathi Derder",
+    "display_name": "Fathi Derder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118550",
+     "label": "Fathi Derder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118550"
+    },
+    "life_date_check": {
+     "born": 1970,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruedi Lustenberger",
+    "display_name": "Ruedi Lustenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1348117",
+     "label": "Ruedi Lustenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1348117"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anne Mahrer",
+    "display_name": "Anne Mahrer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q16267411",
+     "label": "Anne Mahrer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q16267411"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Nadja Pieren",
+    "display_name": "Nadja Pieren",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117105",
+     "label": "Nadja Umbricht Pieren",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117105"
+    },
+    "life_date_check": {
+     "born": 1980,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rosmarie Quadranti",
+    "display_name": "Rosmarie Quadranti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2167528",
+     "label": "Rosmarie Quadranti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2167528"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Mathias Reynard",
+    "display_name": "Mathias Reynard",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3298593",
+     "label": "Mathias Reynard",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3298593"
+    },
+    "life_date_check": {
+     "born": 1987,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Johann N. Schneider-Ammann",
+    "display_name": "Johann N. Schneider-Ammann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q380063",
+     "label": "Johann Schneider-Ammann",
+     "description": "businessman, politician and member of the Swiss Federal Council (2010-2018)",
+     "url": "https://www.wikidata.org/wiki/Q380063"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Weibel",
+    "display_name": "Thomas Weibel",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120950",
+     "label": "Thomas Weibel",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120950"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Fathi Derder\", \"Ruedi Lustenberger\", \"Anne Mahrer\", \"Nadja Pieren\", \"Rosmarie Quadranti\", \"Mathias Reynard\", \"Johann N. Schneider-Ammann\", \"Thomas Weibel\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2014.06.12",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2013.0058: Stipendien-Initiative und Totalrevision des Ausbildungsbeitragsgesetzes / Initiative populaire sur les bourses d'études et révision totale de la loi sur les contributions à la formation\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2014.06.12"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Fathi Derder\", \"Ruedi Lustenberger\", \"Anne Mahrer\", \"Nadja Pieren\", \"Rosmarie Quadranti\", \"Mathias Reynard\", \"Johann N. Schneider-Ammann\", \"Thomas Weibel\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2020",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2020/23 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2020/23#7#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5169,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

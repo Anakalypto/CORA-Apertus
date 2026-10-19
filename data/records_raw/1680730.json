@@ -1,0 +1,91 @@
+{
+ "id": "1680730",
+ "uri": "https://culture.ld.admin.ch/ais/1680730",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1680730",
+ "title": "Pressekommentare",
+ "reference_code": "E2001D#1000/1551#794*",
+ "reference_number": "B.14.21.2.1",
+ "old_reference_code": null,
+ "alternate_reference": "Aegypten",
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1937-01-01",
+  "to": null,
+  "expressed": "1937"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7560",
+   "number": "1000/1551",
+   "title": "1000/01551 Bundesverwaltung (Bern) (1848-1969)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668555",
+   "title": "Spezielle Verträge",
+   "level": "Serie",
+   "reference_code": "E2001D#B.14.21"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668553",
+   "title": "Schweizerische Partikularverträge",
+   "level": "Serie",
+   "reference_code": "E2001D#B.14.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668552",
+   "title": "Staatsverträge der Schweiz",
+   "level": "Serie",
+   "reference_code": "E2001D#B.14"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668486",
+   "title": "Allgemeine internationale Verträge",
+   "level": "Serie",
+   "reference_code": "E2001D#B.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668485",
+   "title": "Auswärtige Politik",
+   "level": "Serie",
+   "reference_code": "E2001D#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4324",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1937-1945)",
+   "level": "Sub-file",
+   "reference_code": "E2001D*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

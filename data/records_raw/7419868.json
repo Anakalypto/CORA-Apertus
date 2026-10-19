@@ -1,0 +1,73 @@
+{
+ "id": "7419868",
+ "uri": "https://culture.ld.admin.ch/ais/7419868",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7419868",
+ "title": "Prof. Hans Schneider \"Histoire de la Suisse",
+ "reference_code": "E2200.40-05#1000/1637#73*",
+ "reference_number": "VII.A.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Vereinigtes Königreich (Grossbritannien und Nordirland)",
+ "date": {
+  "from": "1923-01-01",
+  "to": "1923-12-31",
+  "expressed": "1923-1923"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10597",
+   "number": "1000/1637",
+   "title": "1000/01637 Schweizerische Vertretung, London (GB-London) (1923)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7390495",
+   "title": "Archives",
+   "level": "Serie",
+   "reference_code": "E2200.40-05#VII.A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7390494",
+   "title": "Archives, service et travaux public, hygiène, arts, eduction et sciences",
+   "level": "Serie",
+   "reference_code": "E2200.40-05#VII"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7374694",
+   "title": "Schweizerische Vertretung, London: Zentrale Ablage (1914-1930)",
+   "level": "Sub-file",
+   "reference_code": "E2200.40-05*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6643",
+   "title": "Schweizerische Vertretung, London (1817-)",
+   "level": "Stock",
+   "reference_code": "E10752*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

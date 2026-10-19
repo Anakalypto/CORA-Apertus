@@ -1,0 +1,319 @@
+{
+ "id": "21769538",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21769538",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21769538",
+  "reference_code": "J2.225#1996/68#5415#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 27.03.1973",
+   "old_reference_code": "Original Signatur: TSSRG 73/85/02;Rolle 1103\nSignatur Bundesarchiv: J2.225#1996/68#59149*",
+   "scope_and_content": "Inhaltsangabe: CH Bern, BE: Interview Hans Naef, Vize-D BA für Sozialversicherung, zur Kostenfrage der SP-Initiative für eine soziale Krankenversicherung und des bundesrätlichen Gegenvorschlags",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 20.03.1973-03.04.1973",
+   "form": "Video",
+   "format": "Dauer: 2.05\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.05.11\nTräger: Betacam-Digital",
+   "thema": "Personen: Naef, Hans\nSachdeskriptor: Krankenversicherung",
+   "date": {
+    "from": "1973-03-27",
+    "to": null,
+    "expressed": "1973.03.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording produced by SRG for news dissemination.",
+  "resume": "This is a video news report from Tagesschau (TS) dated 27 March 1973, featuring an interview with Hans Naef, Vice-Director of the Federal Office for Social Insurance, on the cost issues of a Social Health Insurance initiative and the Federal Council's counterproposal."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 27.03.1973",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 27.03.1973",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 27 March 1973",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1973-03-27",
+  "date_published": "1973-03-27",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1973-03-27",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Hans Naef",
+   "Social Insurance",
+   "Healthcare Policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1973",
+   "Tagesschau SFDRS 27.03.1973"
+  ],
+  "reference_code": "J2.225#1996/68#5415#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21769538",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Naef, Hans",
+    "display_name": "Hans Naef",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Federal Office for Social Insurance",
+    "role": "represented by",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "producer",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "CH Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 2.05\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Naef, Hans; named organizations or places (apertus): CH Bern, BE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1973.03.27",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 2.05\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1973.03.27"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Naef, Hans"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Bern, BE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1973-03-27",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Interview broadcast as part of Tagesschau news program.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#5415#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:Federal Office for Social Insurance"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5155,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

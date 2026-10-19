@@ -1,0 +1,85 @@
+{
+ "id": "4541508",
+ "uri": "https://culture.ld.admin.ch/ais/4541508",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4541508",
+ "title": "Articles de presse publiés en Suisse sur l'Etat de résidence",
+ "reference_code": "E2200.60#2007/64#416*",
+ "reference_number": "611.5",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Argentinien",
+ "date": {
+  "from": "1998-01-01",
+  "to": "1998-12-31",
+  "expressed": "1998-1998"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3436624",
+   "number": "2007/64",
+   "title": "2007/00064 Direktion f�r Ressourcen und Aussennetz, Archivdienst (Bern) (1997-2000)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3731505",
+   "title": "Schweizerische Pressemeldungen über Empfangsstaat   |   Articles de presse publiés en Suisse sur l'Etat de résidence",
+   "level": "Serie",
+   "reference_code": "E2200.60#611.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3731498",
+   "title": "Presse in der Schweiz   |   Presse en Suisse",
+   "level": "Serie",
+   "reference_code": "E2200.60#611"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3731495",
+   "title": "Presse   |   Presse",
+   "level": "Serie",
+   "reference_code": "E2200.60#61"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3731493",
+   "title": "Presse, Radio, Fernsehen, Kultur, Wissenschaft, Ausbildung und Sport   |   Presse, Radio, Télévision, Culture, Science, Enseignement et Sport",
+   "level": "Serie",
+   "reference_code": "E2200.60#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6141",
+   "title": "Schweizerische Vertretung, Buenos Aires: Zentrale Ablage (1966- )",
+   "level": "Sub-file",
+   "reference_code": "E2200.60*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6140",
+   "title": "Schweizerische Vertretung, Buenos Aires (1834-)",
+   "level": "Stock",
+   "reference_code": "E10513*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

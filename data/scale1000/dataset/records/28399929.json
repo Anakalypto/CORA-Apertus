@@ -1,0 +1,335 @@
+{
+ "id": "28399929",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28399929",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28399929",
+  "reference_code": "E1301#2010/278#9#20*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Widmer-Schlumpf, Eveline;",
+   "form": "Digital",
+   "date": {
+    "from": "2009-12-07",
+    "to": null,
+    "expressed": "2009.12.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7181378",
+     "number": "2010/278",
+     "title": "2010/00278 Parlamentsdienste (Bern) (2009)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary session, created at the time of the event by the National Council.",
+  "resume": "This is a video recording of a parliamentary question session held on 7 December 2009, featuring a question by Hans Kaufmann on celibacy, with Eveline Widmer-Schlumpf as the speaker in the debate."
+ },
+ "metadata": {
+  "title": "2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat",
+  "title_normalized": "2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat",
+  "title_en": "Question Session: Question by Hans Kaufmann on Celibacy",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2009-12-07",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2010",
+  "content_date": "2009-12-07",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary questions",
+   "celibacy",
+   "Swiss National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "Wintersession 2009",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2010/278#9#20*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28399929",
+  "accession_numbers": [
+   "2010/278"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Eveline Widmer-Schlumpf",
+    "display_name": "Eveline Widmer-Schlumpf",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q162767",
+     "label": "Eveline Widmer-Schlumpf",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q162767"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Kaufmann",
+    "display_name": "Hans Kaufmann",
+    "role": "questioner",
+    "wikidata": {
+     "qid": "Q116500",
+     "label": "Hans Kaufmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116500"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": 2026,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Eveline Widmer-Schlumpf\" ]; named organizations or places (apertus): hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2009.12.07",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2009.12.07"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Eveline Widmer-Schlumpf\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" ]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2009-12-07",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2010",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2010/278 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2010/278#9#20*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4804,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

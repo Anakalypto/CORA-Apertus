@@ -1,0 +1,287 @@
+{
+ "id": "3519998",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3519998",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519998",
+  "reference_code": "E1301#1982/207#13#25*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "82.444: Postulat Ziegler-Solothurn. Gesamtarbeitsverträge, Allgemeinverbindlicherklärung / Conventions collectives de travail. Extension",
+   "date": {
+    "from": "1982-10-08",
+    "to": null,
+    "expressed": "1982.10.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383389",
+     "number": "1982/207",
+     "title": "1982/00207 Parlamentsdienste (Bern) (1982)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss Federal Assembly as an official record of parliamentary proceedings.",
+  "resume": "This document is the protocol of a parliamentary motion debated in the Swiss National Council during the autumn session of 1982, concerning the extension of collective labor agreements. It records the official proceedings and discussion on the topic of making collective labor agreements generally binding. The motion was submitted by Ziegler-Solothurn."
+ },
+ "metadata": {
+  "title": "82.444: Postulat Ziegler-Solothurn. Gesamtarbeitsverträge, Allgemeinverbindlicherklärung / Conventions collectives de travail. Extension",
+  "title_normalized": "82.444: Postulat Ziegler-Solothurn. Gesamtarbeitsverträge, Allgemeinverbindlicherklärung / Conventions collectives de travail. Extension",
+  "title_en": "Postulate Ziegler-Solothurn. Collective labor agreements, declaration of general applicability / Conventions collectives de travail. Extension",
+  "creator": "Swiss Federal Assembly (Nationalrat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1982-10-08",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1982",
+  "content_date": "1982-10-08",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary procedure",
+   "labor law",
+   "collective labor agreements",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1979 bis Herbstsession 1983",
+   "Herbstsession 1982",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1982/207#13#25*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519998",
+  "accession_numbers": [
+   "1982/207"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ziegler-Solothurn",
+    "display_name": "Ziegler-Solothurn",
+    "role": "Motion submitter",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Assembly (Nationalrat)",
+    "role": "Document creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Ziegler-Solothurn\"; named organizations or places (apertus): hierarchy_top_down contains \"Nationalrat\" and \"Parlamentsdienste (Bern)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1982.10.08\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed = \"1982.10.08\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Ziegler-Solothurn\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Nationalrat\" and \"Parlamentsdienste (Bern)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person and Swiss parliamentary bodies; no personal or sensitive data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1982-10-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary motion debated in the National Council during the autumn session of 1982.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1982",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1982/207 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1982/207#13#25*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4041,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

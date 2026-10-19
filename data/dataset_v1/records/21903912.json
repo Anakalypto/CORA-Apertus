@@ -1,0 +1,334 @@
+{
+ "id": "21903912",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21903912",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21903912",
+  "reference_code": "J2.225#2003/309#28#2*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS): Israels Araber vor schwerer Wahl, 28.01.2003",
+   "old_reference_code": "Original Signatur: TSSFDRS 2500657\nSignatur Bundesarchiv: J2.225#2003/309#323*",
+   "scope_and_content": "Inhaltsangabe: CH Davos, GR: Duplex Antonio Antoniazzi zum Abschluss 33. Weltwirtschaftsforum (WEF)",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Mettler, Catherine\nSprecher: Antoniazzi, Antonio",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 21.01.2003-04.02.2003",
+   "form": "Video",
+   "format": "Dauer: 00:02:20\nFarbe: Farbaufnahmen\nStartposition: 00.05.30",
+   "thema": "Sachdeskriptor: Wirtschaftskonferenz",
+   "date": {
+    "from": "2003-01-28",
+    "to": null,
+    "expressed": "2003.01.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/492840",
+     "number": "2003/309",
+     "title": "2003/00309 Schweizer Fernsehen DRS (Z�rich) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording produced by the broadcaster at the time of the events.",
+  "resume": "This is a 2003 Swiss TV news report from Tagesschau covering Israeli Arabs facing a difficult election, with a segment on the World Economic Forum in Davos featuring Antonio Antoniazzi. The broadcast was produced by Schweizer Fernsehen DRS."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS): Israels Araber vor schwerer Wahl, 28.01.2003",
+  "title_normalized": "Tagesschau Hauptausgabe (TS): Israels Araber vor schwerer Wahl, 28.01.2003",
+  "title_en": "Tagesschau main edition (TS): Israeli Arabs facing a tough election, 28 January 2003",
+  "creator": "Produktion: DRS",
+  "publisher": "HerausgeberIn: SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2003-01-28",
+  "date_published": "2003-01-28",
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2003-01-28",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Israeli Arabs",
+   "elections",
+   "World Economic Forum",
+   "Davos"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2003",
+   "Tagesschau SFDRS 28.01.2003"
+  ],
+  "reference_code": "J2.225#2003/309#28#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21903912",
+  "accession_numbers": [
+   "2003/309"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Mettler",
+    "display_name": "Mettler",
+    "role": "Moderation",
+    "wikidata": null
+   },
+   {
+    "name": "Antoniazzi, Antonio",
+    "display_name": "Antonio Antoniazzi",
+    "role": "Sprecher",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizer Fernsehen DRS",
+    "role": "Producer",
+    "wikidata": {
+     "qid": "Q116401",
+     "label": "Schweizer Fernsehen",
+     "description": "former television station in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q116401"
+    }
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "Publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Davos",
+    "as_written": "CH Davos",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.796198,
+    "lon": 9.8236892,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684068",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:02:20\nFarbe: Farbaufnahmen\nStartposition",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Moderation: Mettler, Catherine\nSprecher: Antoniazzi, Antonio; named organizations or places (apertus): HerausgeberIn: SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: 2003.01.28",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:02:20\nFarbe: Farbaufnahmen\nStartposition"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2003.01.28"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Moderation: Mettler, Catherine\nSprecher: Antoniazzi, Antonio"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "HerausgeberIn: SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and an organization but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2003-01-28",
+   "place": "Davos",
+   "lat": 46.796198,
+   "lon": 9.8236892,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2003-01-28",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of the Tagesschau news report on Israeli Arabs and Davos WEF.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/309 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2003/309#28#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4487,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

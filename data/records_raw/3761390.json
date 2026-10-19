@@ -1,0 +1,73 @@
+{
+ "id": "3761390",
+ "uri": "https://culture.ld.admin.ch/ais/3761390",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3761390",
+ "title": "Zeitungsartikel",
+ "reference_code": "J1.109-01#2.B.1.c",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1880-01-01",
+  "to": "1917-12-31",
+  "expressed": "1880-1917"
+ },
+ "accessions": [],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3761387",
+   "title": "Zivilgesetzbuch",
+   "level": "Serie",
+   "reference_code": "J1.109-01#2.B.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3761386",
+   "title": "Gesetzgebung",
+   "level": "Serie",
+   "reference_code": "J1.109-01#2.B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3761375",
+   "title": "2. Teil",
+   "level": "Serie",
+   "reference_code": "J1.109-01#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3499808",
+   "title": "Huber Eugen: Archivalien des Zivilgesetzbuches, Manuskripte und Briefe",
+   "level": "Sub-file",
+   "reference_code": "J1.109-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3898",
+   "title": "Huber Eugen (1849-1923)",
+   "level": "Stock",
+   "reference_code": "J1.109*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Serie",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

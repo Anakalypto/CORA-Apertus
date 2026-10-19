@@ -1,0 +1,73 @@
+{
+ "id": "10147493",
+ "uri": "https://culture.ld.admin.ch/ais/10147493",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10147493",
+ "title": "Rott,Edward: Histoire de la Représentation diplomatique de la France etc.",
+ "reference_code": "E2200.19-01#1000/1701#2750*",
+ "reference_number": "XXIV.C.8",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1909-01-01",
+  "to": "1909-12-31",
+  "expressed": "1909-1909"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/9394",
+   "number": "1000/1701",
+   "title": "1000/01701 Schweizerische Vertretung, Rom (IT-Roma) (1841-1913)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10147370",
+   "title": "Chancellerie",
+   "level": "Serie",
+   "reference_code": "E2200.19-01#XXIV.C"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10147199",
+   "title": "Affaire de la Légation",
+   "level": "Serie",
+   "reference_code": "E2200.19-01#XXIV"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10075650",
+   "title": "Schweizerische Vertretung, Rom: Zentrale Ablage (1898-1952)",
+   "level": "Sub-file",
+   "reference_code": "E2200.19-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6505",
+   "title": "Schweizerische Vertretung, Rom (1818-)",
+   "level": "Stock",
+   "reference_code": "E10687*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

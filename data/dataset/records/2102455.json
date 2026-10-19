@@ -1,0 +1,287 @@
+{
+ "id": "2102455",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/2102455",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2102455",
+  "reference_code": "J1.4#1000/1339#434*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939",
+   "reference_number": "10.5",
+   "date": {
+    "from": "1939-01-01",
+    "to": null,
+    "expressed": "1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16674",
+     "number": "1000/1339",
+     "title": "1000/01339 Wyss-Nobs Erica (Bern) (1906-1957 (ca.))"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an administrative file containing a commemorative speech and its draft from 1939.",
+  "resume": "A single-page printed draft of a memorial speech for Otto Pfister from 1939, including the final version of the speech text. It is a written document produced as a tribute."
+ },
+ "metadata": {
+  "title": "Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939",
+  "title_normalized": "Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939",
+  "title_en": "Memorial speech on Otto Pfister, print, 1 page, with draft, 1939",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1939",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "memorial speech",
+   "Otto Pfister",
+   "eulogy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nobs Ernst (1886-1957)",
+  "fonds_reference": "J1.4*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Nobs Ernst (1886-1957)",
+   "Reden und Schriften",
+   "Gedenk- und Gratulationsreden u. -schriften"
+  ],
+  "reference_code": "J1.4#1000/1339#434*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2102455",
+  "accession_numbers": [
+   "1000/1339"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Otto Pfister",
+    "display_name": "Otto Pfister",
+    "role": "deceased person commemorated in the speech",
+    "wikidata": {
+     "qid": "Q369506",
+     "label": "Otto Pfister",
+     "description": "German footballer and manager",
+     "url": "https://www.wikidata.org/wiki/Q369506"
+    },
+    "life_date_check": {
+     "born": 1937,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: \"Gedenkrede auf Otto Pfister\" and accessions.title: \"Wyss-Nobs Erica (Bern) (1906-1957 (ca.))\"; named organizations or places (apertus): hierarchy_top_down: \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" and \"Stock: Nobs Ernst (1886-1957)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1939\" (not ISO format); free text places (apertus): No place names appear in structured fields; only free text would contain them.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed: \"1939\" (not ISO format)"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "No place names appear in structured fields; only free text would contain them."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Gedenkrede auf Otto Pfister\" and accessions.title: \"Wyss-Nobs Erica (Bern) (1906-1957 (ca.))\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\" and \"Stock: Nobs Ernst (1886-1957)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are public figures (Otto Pfister, Erica Wyss-Nobs) and the record is a memorial speech; no identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Draft and final version of a memorial speech for Otto Pfister created in 1939",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1339 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.4#1000/1339#434*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4438,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

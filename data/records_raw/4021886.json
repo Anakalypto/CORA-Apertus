@@ -1,0 +1,67 @@
+{
+ "id": "4021886",
+ "uri": "https://culture.ld.admin.ch/ais/4021886",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4021886",
+ "title": "Geschichte des Wappenschutzes und des Schutzes der Herkunftsbezeichnungen",
+ "reference_code": "E4380B#502",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1930-01-01",
+  "to": "1939-12-31",
+  "expressed": "1930-1939"
+ },
+ "accessions": [],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4021883",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E4380B#50"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4021882",
+   "title": "Wappenschutz und Herkunftsbezeichnungen",
+   "level": "Serie",
+   "reference_code": "E4380B#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4567",
+   "title": "Bundesamt für geistiges Eigentum: Zentrale Ablage (1979-1995)",
+   "level": "Sub-file",
+   "reference_code": "E4380B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4566",
+   "title": "Bundesamt für geistiges Eigentum (1979-1995)",
+   "level": "Stock",
+   "reference_code": "E10076*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Serie",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

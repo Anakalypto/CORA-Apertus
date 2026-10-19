@@ -1,0 +1,317 @@
+{
+ "id": "5855990",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5855990",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5855990",
+  "reference_code": "E5470#2009/194#1625*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Gerber Ernst, 1900. Darin auch: Nachruf von Dr. Meier-Müller auf Oberst Immenhauser",
+   "reference_number": "3-1936.1",
+   "date": {
+    "from": "1922-01-01",
+    "to": "1936-12-31",
+    "expressed": "1922-1936"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/5442013",
+     "number": "2009/194",
+     "title": "2009/00194 Luftwaffe (Bern) (1920-2008)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective document containing an obituary within a personal file series related to aviation accidents.",
+  "resume": "The record is a file from the Swiss Federal Archives containing a tribute to Colonel Immenhauser by Dr. Meier-Müller, alongside biographical material on Ernst Gerber (1900). It is part of the Fliegerärztliches Institut's central archive covering the period 1922–1936."
+ },
+ "metadata": {
+  "title": "Gerber Ernst, 1900. Darin auch: Nachruf von Dr. Meier-Müller auf Oberst Immenhauser",
+  "title_normalized": "Gerber Ernst, 1900. Darin auch: Nachruf von Dr. Meier-Müller auf Oberst Immenhauser",
+  "title_en": "Ernst Gerber, 1900. Also included: Obituary of Colonel Immenhauser by Dr. Meier-Müller",
+  "creator": "Fliegerärztliches Institut",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1922/1936",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2009",
+  "content_date": "1922/1936",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "aviation medicine",
+   "military personnel",
+   "biography",
+   "obituary"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Fliegerärztliches Institut (1948-)",
+  "fonds_reference": "E10285*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Fliegerärztliches Institut (1948-)",
+   "Fliegerärztliches Institut Dübendorf: Zentrale Ablage (1948-2003)",
+   "Flugunfälle"
+  ],
+  "reference_code": "E5470#2009/194#1625*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5855990",
+  "accession_numbers": [
+   "2009/194"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ernst Gerber",
+    "display_name": "Ernst Gerber",
+    "role": "subject of biographical material",
+    "wikidata": {
+     "qid": "Q1358269",
+     "label": "Ernst Gerber",
+     "description": "German politician (1904-1976)",
+     "url": "https://www.wikidata.org/wiki/Q1358269"
+    },
+    "life_date_check": {
+     "born": 1904,
+     "died": 1976,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dr. Meier-Müller",
+    "display_name": "Meier-Müller",
+    "role": "author of obituary",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Oberst Immenhauser",
+    "display_name": "Oberst Immenhauser",
+    "role": "deceased subject of obituary",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Fliegerärztliches Institut",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q27926400",
+     "label": "Aeromedical Center",
+     "description": "military unit",
+     "url": "https://www.wikidata.org/wiki/Q27926400"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Gerber Ernst, Dr. Meier-Müller, Oberst Immenhauser; named organizations or places (apertus): Fliegerärztliches Institut, Schweizerisches Bundesarchiv",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in hierarchy (e.g., Dübendorf) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in hierarchy (e.g., Dübendorf) not in structured fields"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Gerber Ernst, Dr. Meier-Müller, Oberst Immenhauser"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Fliegerärztliches Institut, Schweizerisches Bundesarchiv"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes named individuals but no identifiable private individuals or sensitive personal topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1922-1936",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Biographical file created by Fliegerärztliches Institut containing material on Ernst Gerber and obituary of Oberst Immenhauser",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2009",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2009/194 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5470#2009/194#1625*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4554,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

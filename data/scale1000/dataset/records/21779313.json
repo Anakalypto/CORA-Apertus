@@ -1,0 +1,303 @@
+{
+ "id": "21779313",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21779313",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21779313",
+  "reference_code": "J2.225#1996/68#6435#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 18.01.1976",
+   "old_reference_code": "Original Signatur: TSSRG 76/18/01A;Rolle 1265\nSignatur Bundesarchiv: J2.225#1996/68#64435*",
+   "scope_and_content": "Inhaltsangabe: CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire\nSequenzbeschrieb: CH Fribourg, FR: Ausstellung",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 11.01.1976-25.01.1976",
+   "form": "Video",
+   "format": "Dauer: 0.53\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.44.15\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Kunstausstellung;Grafik",
+   "date": {
+    "from": "1976-01-18",
+    "to": null,
+    "expressed": "1976.01.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording produced by SRG for news dissemination.",
+  "resume": "This is a video news report from the Tagesschau program covering the 7th International Woodcut Art Triennial Xylon 7 exhibition at the Musée d'Art et d'Histoire in Fribourg, Switzerland, broadcast on 18 January 1976."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 18.01.1976",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 18.01.1976",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS Late Edition), 18 January 1976",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1976-01-18",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1976-01-18",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Art exhibition",
+   "Woodcut art",
+   "Grafik"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1976",
+   "Tagesschau SFDRS 18.01.1976"
+  ],
+  "reference_code": "J2.225#1996/68#6435#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21779313",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Fribourg",
+    "as_written": "CH Fribourg, FR",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.6789116,
+    "lon": 7.1027113,
+    "gazetteer": "https://www.openstreetmap.org/relation/1698314",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.53\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1976.01.18; free text places (apertus): CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.53\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1976.01.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1976-01-18",
+   "place": "Fribourg",
+   "lat": 46.6789116,
+   "lon": 7.1027113,
+   "description": "Broadcast coverage of the 7th International Woodcut Art Triennial Xylon 7 exhibition.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#6435#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5170,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

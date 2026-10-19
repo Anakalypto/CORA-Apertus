@@ -1,0 +1,91 @@
+{
+ "id": "5471797",
+ "uri": "https://culture.ld.admin.ch/ais/5471797",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5471797",
+ "title": "Zeitungsausschnitte",
+ "reference_code": "E8150A#1969/95#91*",
+ "reference_number": "311.1-09",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1927-01-01",
+  "to": "1929-12-31",
+  "expressed": "1927-1929"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15761",
+   "number": "1969/95",
+   "title": "1969/00095 Eidgen�ssisches Luftamt (k.A.) (1924-1963)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5458292",
+   "title": "Typ Soldenhoff",
+   "level": "Serie",
+   "reference_code": "E8150A#311.1-09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5458045",
+   "title": "Motorflug",
+   "level": "Serie",
+   "reference_code": "E8150A#311.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5457841",
+   "title": "Prüfung und Kontrolle der Luftfahrzeuge und ihrer Ausrüstung",
+   "level": "Serie",
+   "reference_code": "E8150A#311"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5457706",
+   "title": "Materialprüfung und Kontrolle / Unfälle / Subventionen / Ausbildung / Wettbewerbe / Erfindungen und Patente / Technisches Material",
+   "level": "Serie",
+   "reference_code": "E8150A#31"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5457680",
+   "title": "Technischer Dienst / Technische Sektion",
+   "level": "Serie",
+   "reference_code": "E8150A#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5726",
+   "title": "Eidgenössisches Luftamt: Zentrale Ablage (1920-1979)",
+   "level": "Sub-file",
+   "reference_code": "E8150A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4976",
+   "title": "Eidgenössisches Luftamt (1920-1979)",
+   "level": "Stock",
+   "reference_code": "E10191*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

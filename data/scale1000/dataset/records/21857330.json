@@ -1,0 +1,333 @@
+{
+ "id": "21857330",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21857330",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21857330",
+  "reference_code": "J2.225#2000/22#1009#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Fronleichnam Kippel ; Antenne, 28.05.1970",
+   "old_reference_code": "Original Signatur: RJSFDRS 9307762\nSignatur Bundesarchiv: J2.225#2000/22#13003*",
+   "scope_and_content": "Inhaltsangabe: CH Kippel, VS: Fronleichnam-Umzug\nSequenzbeschrieb: CH Kippel, VS: Umzug mit Männern in Uniformen französischer Grenadiere / Trachtenfrauen / weissgekleidete Mädchen Monstranz tragend",
+   "author": "AutorIn: Müller, Paul\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 21.05.1970-04.06.1970",
+   "form": "Video",
+   "format": "Dauer: 00:01:00\nFarbe: Schwarzweissaufnahmen\nStartposition: 10.30.59\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Schweizerisches Brauchtum",
+   "date": {
+    "from": "1970-05-28",
+    "to": null,
+    "expressed": "1970.05.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a televised event created at the time of the event.",
+  "resume": "A television segment from Antenne dated 28 May 1970 showing a Corpus Christi procession in Kippel, Valais, featuring men in French Grenadier uniforms, traditional women's costumes, and girls carrying a monstrance."
+ },
+ "metadata": {
+  "title": "Fronleichnam Kippel ; Antenne, 28.05.1970",
+  "title_normalized": "Fronleichnam Kippel ; Antenne, 28.05.1970",
+  "title_en": "Corpus Christi Kippel; Antenne, 28 May 1970",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1970-05-28",
+  "date_published": "1970-05-28",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1970-05-28",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss customs",
+   "religious processions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1970",
+   "Regionalmagazine SFDRS 28.05.1970"
+  ],
+  "reference_code": "J2.225#2000/22#1009#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21857330",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Paul Müller",
+    "display_name": "Paul Müller",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q200507",
+     "label": "Paul Müller",
+     "description": "Swiss actor (1923-2016)",
+     "url": "https://www.wikidata.org/wiki/Q200507"
+    },
+    "life_date_check": {
+     "born": 1923,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "DRS",
+    "display_name": "DRS",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Kippel",
+    "as_written": "CH Kippel, VS",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.3991936,
+    "lon": 7.7717164,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685321",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1958-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: CH Kippel, VS: Fronleichnam-Umzug\nSequenzbeschrieb: CH Kippel, VS: Umzug mit Männern in Uniformen französischer Grenadiere / Trachtenfrauen / weissgekleidete Mädchen Monstranz tragend",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Müller, Paul\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): CH Kippel, VS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1970.05.28",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1958-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: CH Kippel, VS: Fronleichnam-Umzug\nSequenzbeschrieb: CH Kippel, VS: Umzug mit Männern in Uniformen französischer Grenadiere / Trachtenfrauen / weissgekleidete Mädchen Monstranz tragend"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Müller, Paul\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1970.05.28"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Kippel, VS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1970-05-28",
+   "place": "Kippel",
+   "lat": 46.3991936,
+   "lon": 7.7717164,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1970-05-28",
+   "place": "Kippel, CH",
+   "lat": 46.3991936,
+   "lon": 7.7717164,
+   "description": "Televised Corpus Christi procession recorded for Antenne.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#1009#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5173,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,280 @@
+{
+ "id": "6450266",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/6450266",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6450266",
+  "reference_code": "E6461-02#2005/59#240*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Repertorium - Register über die Laboratoriumsarbeiten, 1. April 1935 (2 schwarz gebundene Mappen)",
+   "reference_number": "290",
+   "date": {
+    "from": "1935-01-01",
+    "to": "1935-12-31",
+    "expressed": "1935-1935"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1419305",
+     "number": "2005/59",
+     "title": "2005/00059 Bundesamt f�r Metrologie und Akkreditierung (Bern) (1901-1970)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit functions as a register or index to locate specific laboratory work records within the archive.",
+  "resume": "This document is a register listing laboratory work conducted by the Swiss Federal Office of Weights and Measures in 1935, organized into two black-bound folders. It serves as an administrative index rather than a primary research report or raw data set. The register documents the scope and categorization of metrological activities during that year."
+ },
+ "metadata": {
+  "title": "Repertorium - Register über die Laboratoriumsarbeiten, 1. April 1935 (2 schwarz gebundene Mappen)",
+  "title_normalized": "Repertorium - Register über die Laboratoriumsarbeiten, 1. April 1935 (2 schwarz gebundene Mappen)",
+  "title_en": "Register of Laboratory Work, 1 April 1935 (2 black-bound folders)",
+  "creator": "Eidgenössisches Amt für Mass und Gewicht",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1935-01-01/1935-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "1935/1935",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "metrology",
+   "laboratory work",
+   "administration",
+   "weights and measures"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössisches Amt für Mass und Gewicht (1909-1977)",
+  "fonds_reference": "E10962*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössisches Amt für Mass und Gewicht (1909-1977)",
+   "Eidgenössisches Amt für Mass und Gewicht: Altablage, neu geordnet nach metrologisch-historischen Kategorien (1909-1977)",
+   "Laborentwicklung / Basismetrologie / Instrumente und Maschinen",
+   "Andere / Diversa",
+   "Diverse Laboratoriumsarbeiten"
+  ],
+  "reference_code": "E6461-02#2005/59#240*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6450266",
+  "accession_numbers": [
+   "2005/59"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Eidgenössisches Amt für Mass und Gewicht",
+    "role": "Creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Bundesamt f�r Metrologie und Akkreditierung (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in hierarchy (e.g., Bern) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'GenÃ¨ve'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., Bern) not in structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bundesamt f�r Metrologie und Akkreditierung (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1935-01-01/1935-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The register was created by the Federal Office of Weights and Measures to document its laboratory activities throughout 1935.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/59 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E6461-02#2005/59#240*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4690,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

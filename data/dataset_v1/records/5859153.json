@@ -1,0 +1,303 @@
+{
+ "id": "5859153",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5859153",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859153",
+  "reference_code": "J2.229#1996/423#197#506*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Pierre Schumacher im Gespräch mit dem belgischen Botschafter Rothschild an der Comptoir Suisse",
+   "scope_and_content": "Staatsratspräsident Kanton Genf\nAutor: Actualités Suisses Lausanne, ASL",
+   "form": "Abzug",
+   "date": {
+    "from": "1965-09-13",
+    "to": null,
+    "expressed": "1965.09.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+     "number": "1996/423",
+     "title": "1996/00423 k.A. Organisation (1960-1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by a news agency (Actualités Suisses Lausanne) documenting a real event involving named individuals.",
+  "resume": "This record documents a conversation between Pierre Schumacher and Belgian Ambassador Rothschild at the Comptoir Suisse in Geneva on September 13, 1965. It is a newsreel produced by Actualités Suisses Lausanne for Swiss television. The content focuses on a diplomatic or political discussion involving a Swiss cantonal figure and a foreign diplomat."
+ },
+ "metadata": {
+  "title": "Pierre Schumacher im Gespräch mit dem belgischen Botschafter Rothschild an der Comptoir Suisse",
+  "title_normalized": "Pierre Schumacher im Gespräch mit dem belgischen Botschafter Rothschild an der Comptoir Suisse",
+  "title_en": "Pierre Schumacher in conversation with Belgian Ambassador Rothschild at the Comptoir Suisse",
+  "creator": "Actualités Suisses Lausanne (ASL)",
+  "publisher": "Actualités Suisses Lausanne (ASL)",
+  "commissioner": null,
+  "date_created": "1965-09-13",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-09-13",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "diplomacy",
+   "Geneva",
+   "Swiss politics",
+   "Belgian diplomacy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+  "fonds_reference": "J2.229*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "Kantonsparlamente",
+   "Staatsräte",
+   "Pierre Schumacher"
+  ],
+  "reference_code": "J2.229#1996/423#197#506*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859153",
+  "accession_numbers": [
+   "1996/423"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Pierre Schumacher",
+    "display_name": "Pierre Schumacher",
+    "role": "interviewee / subject",
+    "wikidata": null
+   },
+   {
+    "name": "Rothschild",
+    "display_name": "Rothschild",
+    "role": "interviewee / Belgian Ambassador",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Actualités Suisses Lausanne",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "Genf",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": 46.2044,
+    "model_lon": 6.1432
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): scope_and_content: \"Staatsratspräsident Kanton Genf\\nAutor: Actualités Suisses Lausanne, ASL\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: \"Pierre Schumacher im Gespräch mit dem belgischen Botschafter Rothschild\"; named organizations or places (apertus): hierarchy_top_down: \"Kanton Genf\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): \"expressed\": \"1965.09.13\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "scope_and_content: \"Staatsratspräsident Kanton Genf\\nAutor: Actualités Suisses Lausanne, ASL\""
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"expressed\": \"1965.09.13\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Pierre Schumacher im Gespräch mit dem belgischen Botschafter Rothschild\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Kanton Genf\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1965-09-13",
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Newsreel filmed capturing a conversation between Pierre Schumacher and Belgian Ambassador Rothschild.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/423 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.229#1996/423#197#506*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4035,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

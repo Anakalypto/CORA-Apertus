@@ -1,0 +1,67 @@
+{
+ "id": "6735202",
+ "uri": "https://culture.ld.admin.ch/ais/6735202",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6735202",
+ "title": "Répertoire. Années 1892-1893",
+ "reference_code": "E2200.44-02#1000/597#9*",
+ "reference_number": "2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1892-01-01",
+  "to": "1893-12-31",
+  "expressed": "1892-1893"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10706",
+   "number": "1000/597",
+   "title": "1000/00597 Bundesverwaltung (Bern) (1859 - 1917)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6735281",
+   "title": "Actes du Consulat et du Consulat Général",
+   "level": "Serie",
+   "reference_code": "E2200.44-02#0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6731010",
+   "title": "Schweizerische Vertretung, Brüssel: Zentrale Ablage (1826-1948)",
+   "level": "Sub-file",
+   "reference_code": "E2200.44-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6136",
+   "title": "Schweizerische Vertretung, Brüssel (1826-)",
+   "level": "Stock",
+   "reference_code": "E10511*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

@@ -1,0 +1,308 @@
+{
+ "id": "30688730",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30688730",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30688730",
+  "reference_code": "J2.143#1996/386#419-2#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Le numéro 168",
+   "reference_number": "0419-2",
+   "old_reference_code": "Original Signatur: CJS 419-2",
+   "alternate_reference": "CJS_0419-2",
+   "scope_and_content": "Genre:\nCinéjournal\nCommuniqué:\nComment sont rédigées et transmises les dernières nouvelles de l'Agence Télégraphique Suisse que l'on peut désormais entendre au téléphone dans certaines villes suisses, en composant le numéro 168.\n\nKommentar:\nAh! pourquoi a-t-on découvert cet effroyable objet qui s'appelle un réveil-matin ? Est-ce qu'il a au moins sonné à l'heure ? / Naturellement non, et une fois de plus les nouvelles seront terminées. / Pour celui qui veut, en guise de dessert, déguster le second bulletin d'informations, / il faut souvent se montrer tyrannique pour pouvoir donner la parole au haut-parleur. / Le plus simple, c'est naturellement de pouvoir écouter les informations quand on le désire, par téléphone. Voyons un peu comment cela est possible. / L'Agence télégraphique suisse à Berne reçoit par téléscripteur les dernières nouvelles de toutes les parties du monde. / Un service spécial rassemble, traduit et rédige les informations. 6 fois par jour on établit un nouveau bulletin, qui dure trois minutes, et on le transmet par téléscripteur au central téléphonique de Berne. / C'est ici le domaine des lectrices dont les voix s'enregistrent sur un ruban d'acier, - cependant qu'à titre exceptionnel notre caméra enregistre leurs traits. / Les rubans d'acier passent ensuite dans les appareils de transmission, qui sont reliés pour l'instant aux réseaux téléphoniques de Berne et de Lausanne. / Et voilà ! comment en faisant un numéro déterminé vous pouvez entendre les dernières nouvelles. / Mais vous n'avez qu'à voir le prochain numéro des actualités suisses ! /\n\nAlter Titel:\nTelefonische Nachrichten Nr. 167",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Film",
+   "format": "Dauer: 01:59 (Start 01:05 / End 03:04)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: nitrate de cellulose 35mm\nKommentarton: allemand\nUntertiltel: français",
+   "thema": "Orte:\no.O. (Schweiz); Bern, BE (Schweiz)\n\nSchlagworte:\nEurope occidentale, MÉDIAS, TÉLÉCOMMUNICATION, TÉLÉPHONE, MÉDIAS, AGENCE DE PRESSE",
+   "date": {
+    "from": "1950-02-10",
+    "to": null,
+    "expressed": "1950.02.10"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a film produced by Cinéjournal suisse, documenting the process of news production and transmission.",
+  "resume": "This film is a Cinéjournal entry from February 10, 1950, explaining how the Swiss Telegraphic Agency produces and transmits news bulletins via telephone, with commentary in German and French."
+ },
+ "metadata": {
+  "title": "Le numéro 168",
+  "title_normalized": "Le numéro 168",
+  "title_en": "Number 168",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1950-02-10",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1950-02-10",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "telecommunication",
+   "news agencies",
+   "media"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1950",
+   "Schweizer Filmwochenschau vom 10.02.1950",
+   "Cinéjournal suisse du 10.02.1950"
+  ],
+  "reference_code": "J2.143#1996/386#419-2#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30688730",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Cinéjournal suisse",
+    "display_name": "Cinéjournal suisse",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Cinéjournal suisse (CJS)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern, BE",
+    "as_written": "o.O. (Schweiz); Bern, BE (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nComment sont rédigé",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 01:59 (Start 01:05 / End 03:04)\nSeitenverhä; multilingual (apertus): Alter Titel:\nTelefonische Nachrichten Nr. 167",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\no.O. (Schweiz); Bern, BE (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1950.02.10; free text places (apertus): Orte:\no.O. (Schweiz); Bern, BE (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nComment sont rédigé"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 01:59 (Start 01:05 / End 03:04)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Alter Titel:\nTelefonische Nachrichten Nr. 167"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1950.02.10"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\no.O. (Schweiz); Bern, BE (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\no.O. (Schweiz); Bern, BE (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1950-02-10",
+   "place": "Bern, BE",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#419-2#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5963,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

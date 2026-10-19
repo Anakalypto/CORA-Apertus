@@ -1,0 +1,327 @@
+{
+ "id": "22430239",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22430239",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22430239",
+  "reference_code": "J2.245#1999/170#345#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Massnahmen des BR zur Verbesserung des bäuerlichen Einkommens",
+   "old_reference_code": "Original Signatur: FNB022 MG17842/8\nSignatur Bundesarchiv: J2.245#1999/170*",
+   "scope_and_content": "Aufnahmeort: Bern\nBehandelte Themen: Landwirtschaft\nGenre: Interview\nZusammenfassung: Einkommensrückstand in Landwirtschaft müsse ausgeglichen werden. Paritätslohn würde annähernd erreicht. Interessenausgleich zwischen Tal und Bergbauern. Sorge mache Erhaltung eines leistungsfähigen Nachwuchses.",
+   "involved": "Produktionsstudio: Radiostudio Bern\nTeilnehmer: Rolle; Funktion: OBRECHT, Urs: Sprecher; Redaktor Radio DRS",
+   "coverage": "Zeitliche Abdeckung: 21.04.1971",
+   "form": "Ton",
+   "format": "Anzahl Bänder: 1\nAnzahl DAT: 1\nAufnahmeart: Im Studio; Live Direktaufnahme\nBemerkungen/Kommentar: Band musste zuerst montiert und nach der Aufnahme demontiert werden\nKopie Details: Revox C270; Panasonic SV4100; CDR HHB800\nReinigung: Umgespult\nTechnische Details Originaltonträger: 6.35 mm\nTotal Tonträgerspieldauer: 6.41\nZustand des Bands: Guter Zustand",
+   "date": {
+    "from": "1971-04-21",
+    "to": null,
+    "expressed": "1971.04.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16912",
+     "number": "1999/170",
+     "title": "1999/00170 Radio DRS Studio Bern (Bern) (1946 (ca.)-1972 (ca.))"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "radio broadcast",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct live studio recording created at the time of the event by the Radiostudio Bern.",
+  "resume": "The document is a live radio studio recording from 21 April 1971 in Bern concerning measures by the Federal Council to improve farmers' income, discussing income gaps, parity wages, and the need to maintain a capable agricultural workforce."
+ },
+ "metadata": {
+  "title": "Massnahmen des BR zur Verbesserung des bäuerlichen Einkommens",
+  "title_normalized": "Massnahmen des BR zur Verbesserung des bäuerlichen Einkommens",
+  "title_en": "Measures by the Federal Council to Improve Farmers' Income",
+  "creator": "Radiostudio Bern",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1971-04-21",
+  "date_published": "1971-04-21",
+  "date_updated": null,
+  "date_archived": "1999",
+  "content_date": "1971-04-21",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "agriculture",
+   "farm income",
+   "Federal Council policies"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Radio DRS (1931-)",
+  "fonds_reference": "J2.245*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Radio DRS (1931-)",
+   "Echo der Zeit",
+   "Echo der Zeit 1971",
+   "Echo der Zeit 21.04.1971"
+  ],
+  "reference_code": "J2.245#1999/170#345#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22430239",
+  "accession_numbers": [
+   "1999/170"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Funktion: OBRECHT",
+    "display_name": "Funktion: OBRECHT",
+    "role": "participant",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Sprecher",
+    "display_name": "Sprecher",
+    "role": "urs",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Redaktor Radio DRS",
+    "display_name": "Redaktor Radio DRS",
+    "role": "urs",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Radiostudio Bern",
+    "role": "production studio",
+    "wikidata": {
+     "qid": "Q131320157",
+     "label": "Radiostudio Bern",
+     "description": null,
+     "url": "https://www.wikidata.org/wiki/Q131320157"
+    }
+   },
+   {
+    "name": "DRS",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Aufnahmeort: Bern\nBehandelte Themen: Landwirtschaf",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Anzahl Bänder: 1\nAnzahl DAT: 1\nAufnahmeart: Im Stu",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1971.04.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Aufnahmeort: Bern\nBehandelte Themen: Landwirtschaf"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Anzahl Bänder: 1\nAnzahl DAT: 1\nAufnahmeart: Im Stu"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1971.04.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1971-04-21",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1999",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1999/170 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.245#1999/170#345#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5114,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

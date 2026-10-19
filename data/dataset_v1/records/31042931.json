@@ -1,0 +1,300 @@
+{
+ "id": "31042931",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31042931",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042931",
+  "reference_code": "E1401#2017/316#4#4*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;",
+   "form": "Digital",
+   "date": {
+    "from": "2013-09-12",
+    "to": null,
+    "expressed": "2013.09.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31039106",
+     "number": "2017/316",
+     "title": "2017/00316 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct digital capture of a parliamentary debate created at the time of the event by the Swiss parliamentary services.",
+  "resume": "This record documents a motion by Ständerat Brigitte Häberli-Koller concerning noise pollution from freight trains, debated during the 2013 autumn session of the Swiss Council of States. It contains a digital video recording of the parliamentary debate featuring Filippo Lombardi as a speaker. The motion addresses environmental and transport policy issues within Switzerland."
+ },
+ "metadata": {
+  "title": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+  "title_normalized": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+  "title_en": "Motion Häberli-Koller Brigitte. Noise from freight trains / Motion Häberli-Koller Brigitte. Noise nuisances due to freight traffic",
+  "creator": "Parlamentsdienste (Swiss Parliamentary Services)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2013-09-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2013-09-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "freight trains",
+   "noise pollution",
+   "parliamentary debate",
+   "transport policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2013",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2017/316#4#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042931",
+  "accession_numbers": [
+   "2017/316"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Häberli-Koller Brigitte",
+    "display_name": "Häberli-Koller Brigitte",
+    "role": "Motion author",
+    "wikidata": null
+   },
+   {
+    "name": "Lombardi Filippo",
+    "display_name": "Lombardi Filippo",
+    "role": "Speaker",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Parlamentsdienste (Swiss Parliamentary Services)",
+    "role": "Creator",
+    "wikidata": null
+   },
+   {
+    "name": "Ständerat (Swiss Council of States)",
+    "role": "Issuing body",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (apertus): scope_and_content: Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;; multilingual (apertus): title: \"2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: \"Motion Häberli-Koller Brigitte\"; named organizations or places (apertus): hierarchy_top_down: Ständerat (1848-); Parlamentsdienste",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date: expressed: \"2013.09.12\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "scope_and_content: Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: \"2013.09.12\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Motion Häberli-Koller Brigitte\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: Ständerat (1848-); Parlamentsdienste"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2013-09-12",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Digital recording of parliamentary debate on noise pollution from freight trains.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/316 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2017/316#4#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4263,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "1620165",
+ "uri": "https://culture.ld.admin.ch/ais/1620165",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1620165",
+ "title": "Presseausschnitte «Hoheitsrechte auf dem Bodensee»",
+ "reference_code": "E2001B#1000/1501#338*",
+ "reference_number": "B.11.133.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1920-01-01",
+  "to": null,
+  "expressed": "1920"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7520",
+   "number": "1000/1501",
+   "title": "1000/01501 Bundesverwaltung (Bern) (1873-1961)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025855",
+   "title": "Hoheitsrecht und Regelung der Landesgrenze auf dem Bodensee",
+   "level": "Serie",
+   "reference_code": "E2001B#B.11.133"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025853",
+   "title": "Grenzverträge mit Deutschland",
+   "level": "Serie",
+   "reference_code": "E2001B#B.11.13"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025844",
+   "title": "Grenzverträge",
+   "level": "Serie",
+   "reference_code": "E2001B#B.11.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025843",
+   "title": "Gebiet der Schweiz",
+   "level": "Serie",
+   "reference_code": "E2001B#B.11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025842",
+   "title": "Allgemeine internationale Verhältnisse",
+   "level": "Serie",
+   "reference_code": "E2001B#B.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025841",
+   "title": "Auswärtige Politik",
+   "level": "Serie",
+   "reference_code": "E2001B#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4322",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1918-1946)",
+   "level": "Sub-file",
+   "reference_code": "E2001B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

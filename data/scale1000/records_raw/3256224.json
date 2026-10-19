@@ -1,0 +1,76 @@
+{
+ "id": "3256224",
+ "uri": "https://culture.ld.admin.ch/ais/3256224",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3256224",
+ "title": "Kesselhaus",
+ "reference_code": "E5221#1996/255#6#171*",
+ "reference_number": "09.8",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Abzug; Negativ: 8-1, Nr. 24, 25, 26",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1895-01-01",
+  "to": "1896-12-31",
+  "expressed": "1895-1896"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13586",
+   "number": "1996/255",
+   "title": "1996/00255 Bundesverwaltung (Bern) (s.d. (sine dato))"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3450788",
+   "title": "Fabrikationsanlagen Kriegspulverfabrik Worblaufen",
+   "level": "Dossier",
+   "reference_code": "E5221#1996/255#6*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675757",
+   "title": "Fabrikationsanlagen Kriegspulverfabrik Worblaufen",
+   "level": "Serie",
+   "reference_code": "E5221#09.8"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675750",
+   "title": "Bauten, Anlagen, Liegenschaften",
+   "level": "Serie",
+   "reference_code": "E5221#09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5041",
+   "title": "Eidgenössische Pulverfabrik, Wimmis: Kaufmännisch-administrative Abteilung (1917-1995)",
+   "level": "Sub-file",
+   "reference_code": "E5221*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5038",
+   "title": "Eidgenössische Pulverfabrik, Wimmis (1917-1995)",
+   "level": "Stock",
+   "reference_code": "E10205*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

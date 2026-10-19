@@ -1,0 +1,310 @@
+{
+ "id": "5097377",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5097377",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5097377",
+  "reference_code": "E1301#2009/75#9#38*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2008.5432: Fragestunde. Frage Bänziger Marlies. Ilisu-Staudamm und Exportrisikogarantie / Heure des questions. Question Bänziger Marlies. Barrage d'Ilisu et garantie contre les risques à l'exportation",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bänziger, Marlies; Leuthard, Doris; Simoneschi-Cortesi, Chiara",
+   "date": {
+    "from": "2008-12-15",
+    "to": null,
+    "expressed": "2008.12.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/5096613",
+     "number": "2009/75",
+     "title": "2009/00075 Parlamentsdienste (Bern) (2008)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded live during the parliamentary session by the official parliamentary services as an authentic transcript of the proceedings.",
+  "resume": "This document is a sound recording of a parliamentary question session in the Swiss National Council on December 15, 2008, concerning the Ilisu Dam project and Switzerland's export risk guarantee. It features National Councillor Marlies Bänziger posing a question to Federal Councillor Doris Leuthard and Chiara Simoneschi-Cortesi. The exchange focuses on Swiss policy regarding the controversial Ilisu Dam construction in Turkey."
+ },
+ "metadata": {
+  "title": "2008.5432: Fragestunde. Frage Bänziger Marlies. Ilisu-Staudamm und Exportrisikogarantie / Heure des questions. Question Bänziger Marlies. Barrage d'Ilisu et garantie contre les risques à l'exportation",
+  "title_normalized": "2008.5432: Fragestunde. Frage Bänziger Marlies. Ilisu-Staudamm und Exportrisikogarantie / Heure des questions. Question Bänziger Marlies. Barrage d'Ilisu et garantie contre les risques à l'exportation",
+  "title_en": "Question Time. Question by Marlies Bänziger. Ilisu Dam and Export Risk Guarantee",
+  "creator": "Parlamentsdienste (Bern)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2008-12-15",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2009",
+  "content_date": "2008-12-15",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Ilisu Dam",
+   "export risk guarantee",
+   "parliamentary questions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2007 bis Wintersession 2008",
+   "Wintersession 2008",
+   "Wintersession 2008, 9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2009/75#9#38*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5097377",
+  "accession_numbers": [
+   "2009/75"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Bänziger, Marlies",
+    "display_name": "Marlies Bänziger",
+    "role": "National Councillor asking a question",
+    "wikidata": {
+     "qid": "Q125459",
+     "label": "Marlies Bänziger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125459"
+    }
+   },
+   {
+    "name": "Leuthard, Doris",
+    "display_name": "Doris Leuthard",
+    "role": "Federal Councillor responding",
+    "wikidata": {
+     "qid": "Q115442",
+     "label": "Doris Leuthard",
+     "description": "lawyer, politician and former member of the Swiss Federal Council (2006-2018)",
+     "url": "https://www.wikidata.org/wiki/Q115442"
+    }
+   },
+   {
+    "name": "Simoneschi-Cortesi, Chiara",
+    "display_name": "Chiara Simoneschi-Cortesi",
+    "role": "Federal Councillor participating in the debate",
+    "wikidata": {
+     "qid": "Q468835",
+     "label": "Chiara Simoneschi-Cortesi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q468835"
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Sprecher/Sprecherinnen: Bänziger, Marlies; Leuthard, Doris; Simoneschi-Cortesi, Chiara; named organizations or places (apertus): Parlamentsdienste (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2008.12.15'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2008.12.15'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sprecher/Sprecherinnen: Bänziger, Marlies; Leuthard, Doris; Simoneschi-Cortesi, Chiara"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Parlamentsdienste (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and an organization but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2008-12-15",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Sound recording made during the Swiss National Council session on December 15, 2008.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2009",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2009/75 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2009/75#9#38*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4246,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

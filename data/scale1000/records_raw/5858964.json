@@ -1,0 +1,70 @@
+{
+ "id": "5858964",
+ "uri": "https://culture.ld.admin.ch/ais/5858964",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5858964",
+ "title": "Eduard Weber, Porträt",
+ "reference_code": "J2.229#1996/423#122#402*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Generaldirektor\nAutor: Actualités Suisses Lausanne, ASL",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Abzug",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1960-01-01",
+  "to": null,
+  "expressed": "1960"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+   "number": "1996/423",
+   "title": "1996/00423 k.A. Organisation (1960-1979)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5858963",
+   "title": "Eduard Weber",
+   "level": "Dossier",
+   "reference_code": "J2.229#1996/423#122*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5735028",
+   "title": "PTT",
+   "level": "Serie",
+   "reference_code": "J2.229#02.06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5735006",
+   "title": "Bundesverwaltung",
+   "level": "Serie",
+   "reference_code": "J2.229#02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4220",
+   "title": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "level": "Stock",
+   "reference_code": "J2.229*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

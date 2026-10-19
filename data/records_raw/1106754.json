@@ -1,0 +1,85 @@
+{
+ "id": "1106754",
+ "uri": "https://culture.ld.admin.ch/ais/1106754",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1106754",
+ "title": "Articles de presse. 14 - 17 décembre 1998",
+ "reference_code": "J2.258-03#2003/375#17120*",
+ "reference_number": "23.13.03",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1998-12-14",
+  "to": "1998-12-17",
+  "expressed": "1998.12.14-1998.12.17"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/565941",
+   "number": "2003/375",
+   "title": "2003/00375 Verein schweizerische Landesausstellung (Neuenburg) (1993-2004)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3837326",
+   "title": "Personal",
+   "level": "Serie",
+   "reference_code": "J2.258-03#23.13.03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3837322",
+   "title": "Medien und Information",
+   "level": "Serie",
+   "reference_code": "J2.258-03#23.13"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3837240",
+   "title": "Direktion Marketing und Kommunikation (DMC) / Direktion Marketing (DM)",
+   "level": "Serie",
+   "reference_code": "J2.258-03#23"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3836844",
+   "title": "Direktionen",
+   "level": "Serie",
+   "reference_code": "J2.258-03#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/349045",
+   "title": "Verein schweizerische Landesausstellung, Neuenburg: Zentrale Ablage (1995-2003)",
+   "level": "Sub-file",
+   "reference_code": "J2.258-03*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2058069",
+   "title": "Schweizerische Landesausstellung, Biel, Neuchâtel, Yverdon-les-Bains und Murten 2002 (Expo.02)",
+   "level": "Stock",
+   "reference_code": "J2.258*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

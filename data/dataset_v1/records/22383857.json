@@ -1,0 +1,400 @@
+{
+ "id": "22383857",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22383857",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383857",
+  "reference_code": "J2.225#2007/195#237#11*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Franz Josef Strauss",
+   "old_reference_code": "Original Signatur: RSSFDRS 9501638\nSignatur Bundesarchiv: J2.225#2007/195#125*",
+   "scope_and_content": "Inhaltsangabe: Deutschland: Porträt des CSU-Parteichefs Franz Josef Strauss anlässlich SPD-Sieg bei Parlaments-Wahlen\nProduktionstyp: Einkauf\nSequenzbeschrieb: Deutschland o.O., Bayern: Jäger im Feld schiessend / Franz-Josef Strauss (°CSU-°Parteichef) beim Jagen / Hund Hase in Schnauze tragend / Jäger und Strauss im Freien Suppe essend / Reden Strauss Bonn: IA Bundestag mit Strauss am Podium und BK Konrad Adenauer in Sitzreihe o.O.: VM Strauss mit BP Heinrich Lübke auf Kriegsschiff (um 1962) / Treffen P Charles de Gaulle und Strauss / Pilot aus Starfighter-Kampfflugzeug steigend und Strauss händeschüttelnd / fliegende Starfighter / Strauss an Manöver / fesche Frauen-Dekolletees in Abendkleidern / Strauss in Büroräumen gehend Hamburg: AA ;Der Spiegel; Gebäude (1962) / Demonstration °Redakteure (Spiegelaffäre) o.O.: Strauss Zeitungsausschnitte lesend und Kaffee trinkend München: Strauss im Gerichtssaal vor Prozess (um 1962) Rott, Bayern: TT Dorf / Strauss mit Familie spazierend / Strauss im Wohnzimmer lesend (um 1963) / Statement Strauss Bonn: Vereidigung FM Strauss (1966) / Kabinettmitglieder der ;Grossen Koalition; / Strauss im Büro arbeitend / Strauss Dokument unterzeichnend o.O.: Strauss-Reden / Rainer Barzel (°CDU-°Parteichef) schwimmend / Strauss-Karikaturen Vilshofen: CSU-Treffen (1969) / Strauss-Rede zu °Radio-°TV o.O.: Strauss als Pilot fliegend, °Macht-Statement (audio) / Zeitung ;Bayernkurier; Bonn: Bundestags-Rede Strauss / PK Richard Stücklen (°Fraktionsvorsitzender) Misstrauensvotum aussprechend (1972) / Statement Strauss / Abgang Barzel und Strauss nach Fraktionssitzung o.O.: Strauss Fahrrad fahrend",
+   "author": "AutorIn: Peschler, Eric A.: BEAR\nProduktion: Agenturen; Fremdproduktion",
+   "form": "Video",
+   "format": "Dauer: 00.16.35\nStartposition: 10:00:00\nTräger: Beta IMX",
+   "thema": "Personen: Lübke, Heinrich:\nSachdeskriptor: /PORTRÄT./PORTRÄT PERSONEN",
+   "date": {
+    "from": "1972-11-08",
+    "to": null,
+    "expressed": "1972.11.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4027437",
+     "number": "2007/195",
+     "title": "2007/00195 Schweizer Fernsehen DRS (Z�rich) (1968-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct audiovisual capture of events and scenes from the time, produced by a news agency for broadcast.",
+  "resume": "This video is a 1972 Swiss TV news report profiling Franz Josef Strauss, the leader of Germany's CSU party, covering his political career, hunting scenes, meetings with foreign leaders, and parliamentary activities. It includes footage of Strauss in various settings such as hunting, giving speeches, and attending official events."
+ },
+ "metadata": {
+  "title": "Franz Josef Strauss",
+  "title_normalized": "Franz Josef Strauss",
+  "title_en": "Franz Josef Strauss",
+  "creator": "Peschler, Eric A.: BEAR",
+  "publisher": "Schweizer Fernsehen DRS",
+  "commissioner": null,
+  "date_created": "1972",
+  "date_published": "1972-11-08",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1972-11-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Franz Josef Strauss",
+   "CSU",
+   "German politics",
+   "parliamentary life",
+   "political leadership"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1968-1975 SFDRS",
+   "Rundschau SFDRS 1972",
+   "Rundschau SFDRS 08.11.1972"
+  ],
+  "reference_code": "J2.225#2007/195#237#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383857",
+  "accession_numbers": [
+   "2007/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Franz Josef Strauss",
+    "display_name": "Franz Josef Strauss",
+    "role": "Subject of the report; CSU party leader",
+    "wikidata": null
+   },
+   {
+    "name": "Heinrich Lübke",
+    "display_name": "Heinrich Lübke",
+    "role": "Depicted; former President of Germany",
+    "wikidata": {
+     "qid": "Q2582",
+     "label": "Heinrich Lübke",
+     "description": "German politician (1894-1972)",
+     "url": "https://www.wikidata.org/wiki/Q2582"
+    }
+   },
+   {
+    "name": "Charles de Gaulle",
+    "display_name": "Charles de Gaulle",
+    "role": "Depicted; former President of France",
+    "wikidata": {
+     "qid": "Q2042",
+     "label": "Charles de Gaulle",
+     "description": "French general and statesman (1890–1970)",
+     "url": "https://www.wikidata.org/wiki/Q2042"
+    }
+   },
+   {
+    "name": "Richard Stücklen",
+    "display_name": "Richard Stücklen",
+    "role": "Depicted; CDU parliamentary leader",
+    "wikidata": {
+     "qid": "Q454669",
+     "label": "Richard Stücklen",
+     "description": "German politician, former President of the Bundestag (1916-2002)",
+     "url": "https://www.wikidata.org/wiki/Q454669"
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Germany",
+    "as_written": null,
+    "role": "depicted",
+    "country": "DE",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bonn",
+    "as_written": null,
+    "role": "depicted",
+    "country": "DE",
+    "lat": 50.7352621,
+    "lon": 7.1024635,
+    "gazetteer": "https://www.openstreetmap.org/relation/62508",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Munich",
+    "as_written": "München",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "gazetteer": "https://www.openstreetmap.org/relation/62428",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Hamburg",
+    "as_written": null,
+    "role": "depicted",
+    "country": "DE",
+    "lat": 53.5501721,
+    "lon": 10.0013165,
+    "gazetteer": "https://www.openstreetmap.org/relation/62782",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Vilshofen",
+    "as_written": "Vilshofen",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 49.2978755,
+    "lon": 11.9529711,
+    "gazetteer": "https://www.openstreetmap.org/node/291549436",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1968-1975)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author: AutorIn: Peschler, Eric A.: BEAR\nProduktion: Agenturen; Fremdproduktion",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Franz Josef Strauss; named organizations or places (apertus): CSU, SPD, Bundesarchiv, Bayern, Bonn, Vilshofen, Bayernkurier",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1972.11.08; free text places (apertus): Dorf / München: Strauss im Gerichtssaal … / Hamburg: AA",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1968-1975)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author: AutorIn: Peschler, Eric A.: BEAR\nProduktion: Agenturen; Fremdproduktion"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1972.11.08"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Dorf / München: Strauss im Gerichtssaal … / Hamburg: AA"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Franz Josef Strauss"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CSU, SPD, Bundesarchiv, Bayern, Bonn, Vilshofen, Bayernkurier"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named public figures and political context but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1972",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video report produced by BEAR for Schweizer Fernsehen DRS",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1972",
+   "place": "Munich",
+   "lat": 48.1371079,
+   "lon": 11.5753822,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1972",
+   "place": "Vilshofen",
+   "lat": 49.2978755,
+   "lon": 11.9529711,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1972-11-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast on Swiss TV news program Rundschau",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/195#237#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 5583,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

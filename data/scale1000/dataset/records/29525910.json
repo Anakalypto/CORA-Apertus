@@ -1,0 +1,270 @@
+{
+ "id": "29525910",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29525910",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29525910",
+  "reference_code": "J2.333-01#2013/157#7#35*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tier-Report; Staffel 1 - Folge 1: \"Konsumenten-Alltag\" (Filmaufnahme)",
+   "reference_number": "6-13",
+   "date": {
+    "from": "1995-01-01",
+    "to": "1997-12-31",
+    "expressed": "1995-1997"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/29525866",
+     "number": "2013/157",
+     "title": "2013/00157 Schweizerische Stiftung f�r audiovisuelle Bildungsangebote (3000 Bern 9) (1983-2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "film",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film recording of a television episode created during the covered period.",
+  "resume": "The document is a film recording titled \"Tier-Report; Staffel 1 - Folge 1: \"Konsumenten-Alltag\"\" from a television series, covering the period 1995-1997. It is part of the holdings of the Schweizerische Stiftung f�r audiovisuelle Bildungsangebote deposited in the Swiss Federal Archives. The content depicts everyday consumer life."
+ },
+ "metadata": {
+  "title": "Tier-Report; Staffel 1 - Folge 1: \"Konsumenten-Alltag\" (Filmaufnahme)",
+  "title_normalized": "Tier-Report; Staffel 1 - Folge 1: \"Konsumenten-Alltag\" (Filmaufnahme)",
+  "title_en": "Tier-Report; Season 1 - Episode 1: \"Consumers' Everyday Life\" (Film recording)",
+  "creator": "Schweizerische Stiftung f�r audiovisuelle Bildungsangebote",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1995-01-01",
+  "date_published": "1997-12-31",
+  "date_updated": null,
+  "date_archived": "2013",
+  "content_date": "1995/1997",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "consumer behavior",
+   "television program",
+   "everyday life"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Stiftung für audiovisuelle Bildungsangebote (1986-)",
+  "fonds_reference": "J2.333*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizerische Stiftung für audiovisuelle Bildungsangebote (1986-)",
+   "Schweizerische Stiftung für audiovisuelle Bildungsangebote: Zentrale Ablage (1986-2006)",
+   "Projekte und Produkte (1988-2005)",
+   "Tier-Report",
+   "Tier-Report, 17 Filme"
+  ],
+  "reference_code": "J2.333-01#2013/157#7#35*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29525910",
+  "accession_numbers": [
+   "2013/157"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Stiftung f�r audiovisuelle Bildungsangebote",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): izerische Stiftung f�r audiovisuelle Bild",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "izerische Stiftung f�r audiovisuelle Bild"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2013",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2013/157 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.333-01#2013/157#7#35*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4632,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

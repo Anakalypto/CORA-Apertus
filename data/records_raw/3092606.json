@@ -1,0 +1,85 @@
+{
+ "id": "3092606",
+ "uri": "https://culture.ld.admin.ch/ais/3092606",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3092606",
+ "title": "Coupures de presse, projets de la Fauxille et du St.Amour - Bellegarde, promulgation de la loi genevoise sur le rachat et le raccordement",
+ "reference_code": "E8001B-01#1000/1131#28*",
+ "reference_number": "009.15",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Expropriations\\Plan\\Chambre des députés\\Procédure et procès-varbal de la conférence pour le raccordement des gares genevoises\\Correspondance diplomatique\\La convention du Gothard et les zones\\Contrat PLM - CFF approuvé en France (août-déc. 1912, 1913)",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1912-01-01",
+  "to": "1913-12-31",
+  "expressed": "1912-1913"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15539",
+   "number": "1000/1131",
+   "title": "1000/01131 Bundesverwaltung (Bern) (1855-1952)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3772988",
+   "title": "Genfer Begehren",
+   "level": "Serie",
+   "reference_code": "E8001B-01#009.15"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3772987",
+   "title": "Diverses",
+   "level": "Serie",
+   "reference_code": "E8001B-01#009"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3772984",
+   "title": "Allgemeines und Organisation der Abteilung Rechtswesen und Sekretariat",
+   "level": "Serie",
+   "reference_code": "E8001B-01#00"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3772983",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E8001B-01#0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2555963",
+   "title": "Abteilung Rechtswesen und Sekretariat im Post- und Eisenbahndepartement: Zentrale Ablage (1930-1963)",
+   "level": "Sub-file",
+   "reference_code": "E8001B-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2555958",
+   "title": "Abteilung Rechtswesen und Sekretariat im Post- und Eisenbahndepartement (1930-1963)",
+   "level": "Stock",
+   "reference_code": "E10981*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

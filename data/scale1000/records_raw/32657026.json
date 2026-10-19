@@ -1,0 +1,82 @@
+{
+ "id": "32657026",
+ "uri": "https://culture.ld.admin.ch/ais/32657026",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32657026",
+ "title": "4. Grundrissschema des Vorprojektes für einen Neubau der Schweiz. Landesbibliothek in Bern",
+ "reference_code": "E3130A#2022/200#119#4*",
+ "reference_number": "706.121-31",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1914-01-01",
+  "to": "1924-12-31",
+  "expressed": "1914.01.01-1924.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/32491001",
+   "number": "2022/200",
+   "title": "2022/00200 Schweizerische Nationalbibliothek (Bern) (1894-1993)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32657022",
+   "title": "Idee von einem Neubau der Schweizerischen Landesbibliothek: Projekte Kirchenfeldquartier - Pläne Format 1/8 WF",
+   "level": "Dossier",
+   "reference_code": "E3130A#2022/200#119*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659969",
+   "title": "Raumfrage, Platzmangel / Umzug Geistiges Eigentum",
+   "level": "Serie",
+   "reference_code": "E3130A#706"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659959",
+   "title": "Gebäude und Einrichtungen",
+   "level": "Serie",
+   "reference_code": "E3130A#70"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659958",
+   "title": "Lokale, Material, Publikationen, Sonderdienstzweige",
+   "level": "Serie",
+   "reference_code": "E3130A#7"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6061",
+   "title": "Schweizerische Landesbibliothek: Zentrale Ablage (1894-1993)",
+   "level": "Sub-file",
+   "reference_code": "E3130A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6060",
+   "title": "Schweizerische Landesbibliothek (1894-2006)",
+   "level": "Stock",
+   "reference_code": "E10481*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

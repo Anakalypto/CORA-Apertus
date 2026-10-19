@@ -1,0 +1,70 @@
+{
+ "id": "21713366",
+ "uri": "https://culture.ld.admin.ch/ais/21713366",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21713366",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 12.11.1962",
+ "reference_code": "J2.225#1996/68#1763#8*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 62/261/11; Rolle 318\nSignatur Bundesarchiv: J2.225#1996/68#26020*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: Italien Mailand: Kunst-Auktion, Ausstellung",
+ "author": "Produktion: Agenturen",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 05.11.1962-19.11.1962",
+ "form": "Video",
+ "format": "Dauer: 1.20\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.48.35\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Auktion",
+ "country": null,
+ "date": {
+  "from": "1962-11-12",
+  "to": null,
+  "expressed": "1962.11.12"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21713358",
+   "title": "Tagesschau SFDRS 12.11.1962",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#1763*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690371",
+   "title": "Tagesschau SFDRS 1962",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1962"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

@@ -1,0 +1,319 @@
+{
+ "id": "21754286",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21754286",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21754286",
+  "reference_code": "J2.225#1996/68#4025#4*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 27.05.1969",
+   "old_reference_code": "Original Signatur: TSSRG 69/147/04;Rolle 811\nSignatur Bundesarchiv: J2.225#1996/68#48088*",
+   "scope_and_content": "Inhaltsangabe: Sudan Khartoum: Situation nach Militärputsch durch Oberst Gafar Mohammed el Nimairi\nSequenzbeschrieb: Sudan Khartoum: Bevölkerung in Strasse / Rede Gafar Mohammed el Nimairi vor Soldaten",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Afrika ohne Maghrebstaaten\nZeitliche Abdeckung: 20.05.1969-03.06.1969",
+   "form": "Video",
+   "format": "Dauer: 0.53\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.50.49\nTräger: Betacam-Digital",
+   "thema": "Personen: Nimairi, Gafar Mohammed el\nSachdeskriptor: Militärputsch",
+   "date": {
+    "from": "1969-05-27",
+    "to": null,
+    "expressed": "1969.05.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "It is a contemporary news broadcast produced by news agencies at the time of the events.",
+  "resume": "This is a Swiss TV news report from the Tagesschau series broadcast on 27 May 1969 covering the military coup in Sudan led by Colonel Gafar Mohammed el-Nimairi. It shows footage of Khartoum's streets and el-Nimairi addressing soldiers. The report was produced by news agencies for the Swiss public broadcaster SRG SSR."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 27.05.1969",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 27.05.1969",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 27 May 1969",
+  "creator": "Produktion: Agenturen",
+  "publisher": "HerausgeberIn: SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1969-05-27",
+  "date_published": "1969-05-27",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1969-05-27",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Sudan",
+   "Khartoum",
+   "military coup",
+   "1969"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1969",
+   "Tagesschau SFDRS 27.05.1969"
+  ],
+  "reference_code": "J2.225#1996/68#4025#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21754286",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gafar Mohammed el-Nimairi",
+    "display_name": "Gafar Mohammed el-Nimairi",
+    "role": "leader of the military coup",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher / broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Khartoum",
+    "as_written": "Sudan Khartoum",
+    "role": "depicted",
+    "country": "SD",
+    "lat": 15.5635972,
+    "lon": 32.5349123,
+    "gazetteer": "https://www.openstreetmap.org/relation/3851428",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 0.53\nFarbe: Schwarzweissaufnahmen\nOriginalf; multilingual (apertus): Title contains German, French, Italian: \"Tagesschau - Téléjournal - Telegiornale\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Person \"Gafar Mohammed el Nimairi\" in scope_and_content; named organizations or places (apertus): Organisation \"SRG SSR idée suisse\" and place \"Sudan Khartoum\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed date \"1969.05.27\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.53\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German, French, Italian: \"Tagesschau - Téléjournal - Telegiornale\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date \"1969.05.27\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Person \"Gafar Mohammed el Nimairi\" in scope_and_content"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Organisation \"SRG SSR idée suisse\" and place \"Sudan Khartoum\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person Gafar Mohammed el Nimairi and mentions a military coup in Sudan."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1969-05-27",
+   "place": "Khartoum",
+   "lat": 15.5635972,
+   "lon": 32.5349123,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1969-05-27",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of the Tagesschau news report covering the Sudanese military coup",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#4025#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4559,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

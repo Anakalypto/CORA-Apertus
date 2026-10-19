@@ -1,0 +1,79 @@
+{
+ "id": "10149446",
+ "uri": "https://culture.ld.admin.ch/ais/10149446",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10149446",
+ "title": "Aktenverzeichnisse",
+ "reference_code": "E2200.36-02#1000/1731#32*",
+ "reference_number": "1.1.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1905-01-01",
+  "to": "1906-12-31",
+  "expressed": "1905-1906"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10373",
+   "number": "1000/1731",
+   "title": "1000/01731 Bundesverwaltung (Bern) (1847-1913)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10149445",
+   "title": "Aktenverzeichnis",
+   "level": "Serie",
+   "reference_code": "E2200.36-02#1.1.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10149404",
+   "title": "Geschäftskontrollen",
+   "level": "Serie",
+   "reference_code": "E2200.36-02#1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10149403",
+   "title": "Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E2200.36-02#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/10149218",
+   "title": "Schweizerische Vertretung, Washington: Zentrale Ablage (1822- 1913)",
+   "level": "Sub-file",
+   "reference_code": "E2200.36-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6605",
+   "title": "Schweizerische Vertretung, Washington (1822-)",
+   "level": "Stock",
+   "reference_code": "E10735*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

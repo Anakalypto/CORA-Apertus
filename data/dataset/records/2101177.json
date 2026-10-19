@@ -1,0 +1,277 @@
+{
+ "id": "2101177",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/2101177",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2101177",
+  "reference_code": "J1.2#1000/1310#17*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nachrufe anlässlich seines Ablebens (Zeitungsartikel)",
+   "reference_number": "3-8",
+   "date": {
+    "from": "1899-01-01",
+    "to": null,
+    "expressed": "1899"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16596",
+     "number": "1000/1310",
+     "title": "1000/01310 Keine Angaben (1813-1899)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a collection of retrospective press obituaries concerning Emil Welti, fitting both 'retrospective_or_analytic' and 'press_material' categories.",
+  "resume": "The record contains newspaper articles reporting on the death of Emil Welti (1825–1899), published around 1899. It consists of obituaries and tributes published in the press following his passing. The articles document public reactions and commemorations of Welti’s life and career."
+ },
+ "metadata": {
+  "title": "Nachrufe anlässlich seines Ablebens (Zeitungsartikel)",
+  "title_normalized": "Nachrufe anlässlich seines Ablebens (Zeitungsartikel)",
+  "title_en": "Obituaries on the occasion of his death (newspaper article)",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1899",
+  "date_published": "1899",
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1899",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "death",
+   "Emil Welti",
+   "19th-century press"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Welti Emil (1825-1899)",
+  "fonds_reference": "J1.2*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Welti Emil (1825-1899)",
+   "Verschiedenes"
+  ],
+  "reference_code": "J1.2#1000/1310#17*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2101177",
+  "accession_numbers": [
+   "1000/1310"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Emil Welti (1825-1899)",
+    "display_name": "Emil Welti (1825-1899)",
+    "role": "deceased person commemorated",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): hierarchy_top_down includes \"Welti Emil (1825-1899)\"; named organizations or places (apertus): hierarchy_top_down includes \"Schweizerischen Bundesarchivs\" and \"Welti Emil\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1899\"; free text places (apertus): places only in hierarchy_top_down (e.g., \"Welti Emil\")",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed = \"1899\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy_top_down (e.g., \"Welti Emil\")"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Welti Emil (1825-1899)\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Schweizerischen Bundesarchivs\" and \"Welti Emil\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names Emil Welti, a public figure, in an archival context; no sensitive personal data about identifiable individuals is present."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1899",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper articles were published reporting on the death of Emil Welti.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1310 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.2#1000/1310#17*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4340,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

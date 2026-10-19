@@ -1,0 +1,56 @@
+{
+ "id": 1494,
+ "signature": "BAR B0 1000/1483, Nr. 1431, fol. 87-88v",
+ "reference": {
+  "place": "Riggisberg",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": 59,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 36,
+  "pupils_winter": 167,
+  "pupils_summer": null,
+  "author_name": "Daniel Köüsen",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Riggispärg",
+  "canton_1799": "Bärn",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": 59,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 36,
+  "pupils_winter": 167,
+  "pupils_summer": null,
+  "author_name": "Daniel Köüsen",
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Riggispärg",
+  "canton_1799": "Bärn",
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": "Gebohren anno 1740",
+  "teacher_marital_status": "Ja: fünf Töchteren",
+  "teacher_since": "seyt 1763: beynach 36 Jahr",
+  "pupils_winter": "167:"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "mismatch",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "both_empty"
+ },
+ "seconds": 8.06
+}

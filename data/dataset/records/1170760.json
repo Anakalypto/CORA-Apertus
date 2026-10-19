@@ -1,0 +1,271 @@
+{
+ "id": "1170760",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1170760",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1170760",
+  "reference_code": "J1.258#1997/222#534*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsartikel zu den Bundesratswahlen von 1938",
+   "date": {
+    "from": "1938-01-01",
+    "to": null,
+    "expressed": "1938"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16775",
+     "number": "1997/222",
+     "title": "1997/00222 Keine Angaben (k.A.) 2 (keine Angabe)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is retrospective press material documenting the 1938 Federal Council elections.",
+  "resume": "The record is a press article from 1938 reporting on the Swiss Federal Council elections that year. It documents the political context and coverage of the election process within Swiss newspapers. The article is part of a private collection deposited at the Swiss Federal Archives."
+ },
+ "metadata": {
+  "title": "Zeitungsartikel zu den Bundesratswahlen von 1938",
+  "title_normalized": "Zeitungsartikel zu den Bundesratswahlen von 1938",
+  "title_en": "Newspaper article on the Federal Council elections of 1938",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1938",
+  "date_published": "1938",
+  "date_updated": null,
+  "date_archived": "1997",
+  "content_date": "1938",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Federal Council elections",
+   "1938"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Rosenberg Martin (1908-1976)",
+  "fonds_reference": "J1.258*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Rosenberg Martin (1908-1976)",
+   "CVP (Christlichdemokratische Volkspartei der Schweiz)",
+   "Innenpolitik",
+   "Sozialpolitik"
+  ],
+  "reference_code": "J1.258#1997/222#534*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1170760",
+  "accession_numbers": [
+   "1997/222"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down contains 'CVP (Christlichdemokratische Volkspartei der Schweiz)'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains 'CVP (Christlichdemokratische Volkspartei der Schweiz)'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1938",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newspaper article published covering the 1938 Swiss Federal Council elections.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1997",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1997/222 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.258#1997/222#534*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4344,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

@@ -1,0 +1,73 @@
+{
+ "id": "5994249",
+ "uri": "https://culture.ld.admin.ch/ais/5994249",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5994249",
+ "title": "Zeitungsberichte, Börsenwesen",
+ "reference_code": "E9#1000/1173#1613*",
+ "reference_number": null,
+ "old_reference_code": "E 9 / Bd. 138",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1892-01-01",
+  "to": null,
+  "expressed": "1892"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15997",
+   "number": "1000/1173",
+   "title": "1000/01173 Bundesverwaltung (Bern) (1822-1925)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992255",
+   "title": "Börsenreform",
+   "level": "Serie",
+   "reference_code": "E9#08.2.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992239",
+   "title": "Zum Inspektorat der schweizerischen Emissionsbanken",
+   "level": "Serie",
+   "reference_code": "E9#08.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992208",
+   "title": "Banknotenwesen",
+   "level": "Serie",
+   "reference_code": "E9#08"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3629",
+   "title": "Finanzwesen",
+   "level": "Stock",
+   "reference_code": "E9*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

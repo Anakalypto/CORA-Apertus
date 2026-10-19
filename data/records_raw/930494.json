@@ -1,0 +1,79 @@
+{
+ "id": "930494",
+ "uri": "https://culture.ld.admin.ch/ais/930494",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/930494",
+ "title": "Presseartikel über die Sozialdemokratische Frauenbewegung",
+ "reference_code": "J2.181#1987/52#2585*",
+ "reference_number": "212.00",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1931-01-01",
+  "to": "1934-12-31",
+  "expressed": "1931-1934"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+   "number": "1987/52",
+   "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675639",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "J2.181#212.00"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675638",
+   "title": "Sozialistische Parteien",
+   "level": "Serie",
+   "reference_code": "J2.181#212"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675629",
+   "title": "Diverse Parteien in der Schweiz (ausser CVP)",
+   "level": "Serie",
+   "reference_code": "J2.181#21"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675627",
+   "title": "Diverse Parteien (ausser CVP)",
+   "level": "Serie",
+   "reference_code": "J2.181#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4210",
+   "title": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "level": "Stock",
+   "reference_code": "J2.181*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

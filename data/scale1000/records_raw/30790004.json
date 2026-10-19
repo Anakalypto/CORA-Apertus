@@ -1,0 +1,64 @@
+{
+ "id": "30790004",
+ "uri": "https://culture.ld.admin.ch/ais/30790004",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30790004",
+ "title": "Communiqués und Kommentare Schweizer Filmwochenschau vom 25.05.1945",
+ "reference_code": "J2.143#1975/35#6#21*",
+ "reference_number": "0241",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1945-05-25",
+  "to": null,
+  "expressed": "1945.05.25"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16844",
+   "number": "1975/35",
+   "title": "1975/00035 k.A. Organisation (1940-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30789983",
+   "title": "Communiqués und Kommentare Schweizer Filmwochenschau 1945",
+   "level": "Dossier",
+   "reference_code": "J2.143#1975/35#6*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30777340",
+   "title": "Communiqués und Kommentare Schweizer Filmwochenschau, 1940-1975",
+   "level": "Serie",
+   "reference_code": "J2.143#21"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4205",
+   "title": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "level": "Stock",
+   "reference_code": "J2.143*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

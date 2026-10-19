@@ -1,0 +1,288 @@
+{
+ "id": "22642828",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22642828",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22642828",
+  "reference_code": "E2200.41-02#1000/1671#4635*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Protection des sites naturels, historiques, légendaires ou pittoresques de la France, Teil 2",
+   "reference_number": "97/19-39",
+   "date": {
+    "from": "1908-01-01",
+    "to": "1911-01-01",
+    "expressed": "1908.01.01-1911.01.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/10634",
+     "number": "1000/1671",
+     "title": "1000/01671 Schweizerische Vertretung, Paris (FR-Paris) (1798-1929)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "report",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a register (repertory) of the Swiss Representation in Paris, serving as a finding aid for other archival units.",
+  "resume": "This record is a dossier compiled by the Swiss Representation in Paris covering French initiatives to protect natural, historical, legendary, and picturesque sites between 1908 and 1911. It contains correspondence and reports gathered from French sources during that period. The dossier serves as a compilation of foreign policy-relevant information rather than a primary source of the protected sites themselves."
+ },
+ "metadata": {
+  "title": "Protection des sites naturels, historiques, légendaires ou pittoresques de la France, Teil 2",
+  "title_normalized": "Protection des sites naturels, historiques, légendaires ou pittoresques de la France, Teil 2",
+  "title_en": "Protection of natural, historical, legendary, or picturesque sites of France, Part 2",
+  "creator": "Schweizerische Vertretung, Paris",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1908-01-01/1911-01-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1908-01-01/1911-01-01",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "environmental protection",
+   "cultural heritage",
+   "France",
+   "Swiss foreign relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Paris (1798-)",
+  "fonds_reference": "E10667*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Paris (1798-)",
+   "Schweizerische Vertretung, Paris: Repertorium (1798-1939)",
+   "1900-1909"
+  ],
+  "reference_code": "E2200.41-02#1000/1671#4635*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22642828",
+  "accession_numbers": [
+   "1000/1671"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Paris",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "France",
+    "as_written": "France",
+    "role": "depicted",
+    "country": "FR",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Schweizerische Vertretung, Paris\" and \"Schweizerisches Bundesarchiv\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed date \"1908.01.01-1911.01.01\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date \"1908.01.01-1911.01.01\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Schweizerische Vertretung, Paris\" and \"Schweizerisches Bundesarchiv\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; the record concerns a general topic about French natural and historical sites."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1908-01-01/1911-01-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Dossier compiled by Swiss Representation in Paris containing reports on French site protection measures.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1671 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.41-02#1000/1671#4635*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4637,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

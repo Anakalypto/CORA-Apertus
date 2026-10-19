@@ -1,0 +1,70 @@
+{
+ "id": "21903987",
+ "uri": "https://culture.ld.admin.ch/ais/21903987",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21903987",
+ "title": "Tagesschau Hauptausgabe (TS): 10 Jahre Fotomuseum, 01.02.2003",
+ "reference_code": "J2.225#2003/309#32#2*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSFDRS 2500661\nSignatur Bundesarchiv: J2.225#2003/309#370*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH St. Moritz, GR: Ski Alpin-WM 2003 / Duplex Andri Franziscus zur bevorstehenden Eröffnung bei prächtigstem Wetter und zum Programm",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": "Moderation: Aebischer, Matthias\nSprecher: Franziscus, Andri",
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 25.01.2003-08.02.2003",
+ "form": "Video",
+ "format": "Dauer: 00:01:51\nFarbe: Farbaufnahmen\nStartposition: 00.05.55",
+ "thema": "Sachdeskriptor: WM;Ski Alpin",
+ "country": null,
+ "date": {
+  "from": "2003-02-01",
+  "to": null,
+  "expressed": "2003.02.01"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/492840",
+   "number": "2003/309",
+   "title": "2003/00309 Schweizer Fernsehen DRS (Z�rich) (2003)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21903985",
+   "title": "Tagesschau SFDRS 01.02.2003",
+   "level": "Dossier",
+   "reference_code": "J2.225#2003/309#32*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21903362",
+   "title": "Tagesschau SFDRS 2003",
+   "level": "Serie",
+   "reference_code": "J2.225#6.2003"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21829670",
+   "title": "Tagesschau 1999-2006 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

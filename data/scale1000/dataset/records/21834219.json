@@ -1,0 +1,334 @@
+{
+ "id": "21834219",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21834219",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21834219",
+  "reference_code": "J2.225#2000/20#290#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), Handel mit Diamanten aus Kriegsländern, 16.07.2000",
+   "old_reference_code": "Original Signatur: TSSFDRS 2309579\nSignatur Bundesarchiv: J2.225#2000/20#2881*",
+   "scope_and_content": "Inhaltsangabe: o.O.: Umstrittener Handel mit Diamanten aus Kriegsländern, Thema an kommender Diamantenhändler-Konferenz in Antwerpen\nSequenzbeschrieb: o.O.: GPL Diamant-Ring, Diamantenschmuck;Sierra Leone o.O.: Abbau von Diamanten / ZS Bürgerkrieg;o.O.: GPL herunterpurzelnde Roh-Diamanten / Logo \"De Beers\" / Statement Stephen Lussier (°Chef °Marketing De °Beers) / Statement Daniel Blolmey (°Amnesty °International °Schweiz) / glitzernde Rohdiamanten ¿;Belgien Antwerpen: Altstadt-Ansicht",
+   "author": "AutorIn: Gogic, Biljana\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Clerc, Charles",
+   "coverage": "Geografische Abdeckung: Afrika ohne Maghrebstaaten;Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.07.2000-23.07.2000",
+   "form": "Video",
+   "format": "Dauer: 00:01:46\nFarbe: Farbaufnahmen\nStartposition: 00.45.14",
+   "thema": "Personen: Lussier, Stephen;Blolmey, Daniel\nSachdeskriptor: Edelstein",
+   "date": {
+    "from": "2000-07-16",
+    "to": null,
+    "expressed": "2000.07.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16886",
+     "number": "2000/20",
+     "title": "2000/00020 Schweizer Fernsehen DRS (Z�rich) (1999-2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording with original footage, speakers, and statements captured at the time of the events.",
+  "resume": "This is a video news report from Tagesschau (TS) dated 16 July 2000, covering the controversial trade in diamonds from conflict zones and featuring statements from Stephen Lussier of De Beers and Daniel Blolmey of Amnesty International."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), Handel mit Diamanten aus Kriegsländern, 16.07.2000",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), Handel mit Diamanten aus Kriegsländern, 16.07.2000",
+  "title_en": "Tagesschau Main Edition (TS), Trade in Diamonds from War Zones, 16 July 2000",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2000-07-16",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "2000-07-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Diamonds",
+   "Conflict diamonds",
+   "Amnesty International"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2000",
+   "Tagesschau SFDRS 16.07.2000"
+  ],
+  "reference_code": "J2.225#2000/20#290#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21834219",
+  "accession_numbers": [
+   "2000/20"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Lussier, Stephen",
+    "display_name": "Stephen Lussier",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Blolmey, Daniel",
+    "display_name": "Daniel Blolmey",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "De Beers",
+    "role": "represented",
+    "wikidata": {
+     "qid": "Q471891",
+     "label": "De Beers",
+     "description": "International corporation that specialises in diamond exploration, diamond mining, diamond retail, rough diamond sales and industrial diamond manufacturing",
+     "url": "https://www.wikidata.org/wiki/Q471891"
+    }
+   },
+   {
+    "name": "Amnesty International (Switzerland)",
+    "role": null,
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Sierra Leone",
+    "as_written": "Sierra Leone",
+    "role": "depicted",
+    "country": "SL",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 8.92,
+    "model_lon": -11.56
+   },
+   {
+    "name": "Antwerp",
+    "as_written": "Belgien Antwerpen",
+    "role": "mentioned",
+    "country": "BE",
+    "lat": 51.2211097,
+    "lon": 4.3997081,
+    "gazetteer": "https://www.openstreetmap.org/relation/59518",
+    "model_lat": 51.2,
+    "model_lon": 4.4
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1999-2002)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Gogic, Biljana\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Lussier, Stephen;Blolmey, Daniel; named organizations or places (apertus): Geografische Abdeckung: Afrika …;Belgien Antwerpen: Altstadt-Ansicht",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2000.07.16; free text places (apertus): Geografische Abdeckung: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1999-2002)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Gogic, Biljana\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2000.07.16"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Lussier, Stephen;Blolmey, Daniel"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Afrika …;Belgien Antwerpen: Altstadt-Ansicht"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2000-07-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau news report on diamond trade from conflict zones.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/20 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/20#290#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5535,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

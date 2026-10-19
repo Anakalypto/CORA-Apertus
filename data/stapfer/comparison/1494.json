@@ -1,0 +1,58 @@
+{
+ "id": 1494,
+ "signature": "BAR B0 1000/1483, Nr. 1431, fol. 87-88v",
+ "reference": {
+  "place": "Riggisberg",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": 59,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 36,
+  "pupils_winter": 167,
+  "pupils_summer": null,
+  "author_name": "Daniel Köüsen",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Riggispärg",
+  "canton_1799": "Bärn",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": 59,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 36,
+  "pupils_winter": 167,
+  "pupils_summer": null,
+  "author_name": "Daniel Köüsen",
+  "date_written": "1799-03-25"
+ },
+ "evidence": {
+  "place_as_written": "Riggispärg",
+  "canton_1799": "Bärn",
+  "school_type": "schreiben: Läsen: singen fragen @ und Historen auswenig und in @ Der Religion underwisen",
+  "confession": "Kirch Thurnen Agent Riggispärg",
+  "teacher_name": "Daniel Köüsen",
+  "teacher_age": "Gebohren anno 1740",
+  "teacher_since": "seyt 1763: beynach 36 Jahr",
+  "pupils_winter": "167",
+  "author_name": "Bescheint Daniel Köüsen @ schuhlmeister zu Riggispärg"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "extra"
+ },
+ "seconds": 6.9
+}

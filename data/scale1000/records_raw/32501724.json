@@ -1,0 +1,88 @@
+{
+ "id": "32501724",
+ "uri": "https://culture.ld.admin.ch/ais/32501724",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32501724",
+ "title": "2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015",
+ "reference_code": "E1401#2022/202#5#3*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Baumann, Isidor; Comte, Raphaël; Dittli, Josef; Fetz, Anita; Fournier, Jean-René; Hêche, Claude; Hösli, Werner; Kuprecht, Alex; Minder, Thomas; Parmelin, Guy;, Autor: Sprecher/Sprecherinnen:  Savary, Géraldine; Zanetti, Roberto;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2016-03-07",
+  "to": null,
+  "expressed": "2016.03.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/32491003",
+   "number": "2022/202",
+   "title": "2022/00202 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32501721",
+   "title": "5. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1401#2022/202#5*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32501679",
+   "title": "Frühjahrssession 2016",
+   "level": "Serie",
+   "reference_code": "E1401#1.5-50-02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31659706",
+   "title": "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "level": "Serie",
+   "reference_code": "E1401#1.5-50"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6737716",
+   "title": "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "level": "Serie",
+   "reference_code": "E1401#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992534",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1401#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6851",
+   "title": "Ständerat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1401*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6848",
+   "title": "Ständerat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10827*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

@@ -1,0 +1,284 @@
+{
+ "id": "4239392",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4239392",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4239392",
+  "reference_code": "E6351G-01#2004/392#2*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Findmittel, Registraturkarten der Plannummern 99-125",
+   "reference_number": "rfm0004",
+   "date": {
+    "from": "1979-01-01",
+    "to": "1979-12-31",
+    "expressed": "1979-1979"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1126474",
+     "number": "2004/392",
+     "title": "2004/00392 Oberzolldirektion (Bern) (1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a finding aid (register) for administrative records of the Oberzolldirektion, not a file containing original documents or press clippings.",
+  "resume": "This is an archival finding aid listing registration cards for plan numbers 99–125 from the Oberzolldirektion (Swiss Customs Administration). It serves as an index to locate administrative records rather than containing the records themselves. The document dates from 1979."
+ },
+ "metadata": {
+  "title": "Findmittel, Registraturkarten der Plannummern 99-125",
+  "title_normalized": "Findmittel, Registraturkarten der Plannummern 99-125",
+  "title_en": "Finding aid, registration cards of plan numbers 99–125",
+  "creator": "Swiss Federal Archives",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1979-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "1979/1979",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administration",
+   "customs",
+   "archival inventory",
+   "records management"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Oberzolldirektion (1850-2021)",
+  "fonds_reference": "E10432*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Oberzolldirektion (1850-2021)",
+   "Oberzolldirektion: Registraturfindmittel (1850-)",
+   "Registraturfindmittel"
+  ],
+  "reference_code": "E6351G-01#2004/392#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4239392",
+  "accession_numbers": [
+   "2004/392"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Oberzolldirektion",
+    "role": "subject of the inventory",
+    "wikidata": {
+     "qid": "Q19362476",
+     "label": "building of the Swiss federal administration Monbijoustrasse 40 in Bern",
+     "description": "striking administrative building in the city of Bern, Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q19362476"
+    }
+   },
+   {
+    "name": "Swiss Federal Archives",
+    "role": "creator of the finding aid",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): accessions[0].title \"2004/00392 Oberzolldirektion (Bern) (1979)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date: expressed \"1979-1979\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date: expressed \"1979-1979\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title \"2004/00392 Oberzolldirektion (Bern) (1979)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/392 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E6351G-01#2004/392#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4433,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

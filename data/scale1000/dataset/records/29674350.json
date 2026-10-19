@@ -1,0 +1,335 @@
+{
+ "id": "29674350",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29674350",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674350",
+  "reference_code": "J2.225#2008/121#52#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Ausstellung Burkhard",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504590\nSignatur Bundesarchiv: J2.225#2008/121#52*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Burgdorf, BE: Fotografie-Ausstellung \"Songlines Balthasar Burkhard\" im Museum Franz Gertsch\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Burgdorf, BE: IA Ausstellung mit Aktbildern von Balthasar °Burkhard / Statement Balthasar Burkhard / Statement Jean-Christophe Ammann",
+   "author": "AutorIn: Schärer, Christine (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:12\nPosition Anfang: 00:23:52",
+   "thema": "Personen: Burkhard, Balthasar (Fotokünstler)\nSachdeskriptor: /KULTUR./AUSSTELLUNG/KUNSTAUSSTELLUNG;/KULTUR./FOTOGRAFIE",
+   "date": {
+    "from": "2007-11-21",
+    "to": null,
+    "expressed": "2007.11.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production of the news program, capturing live footage and statements from the exhibition.",
+  "resume": "A video segment from the Swiss television news program Tagesschau covering the photography exhibition \"Songlines Balthasar Burkhard\" in Burgdorf, featuring statements by Balthasar Burkhard and Jean-Christophe Ammann."
+ },
+ "metadata": {
+  "title": "Ausstellung Burkhard",
+  "title_normalized": "Ausstellung Burkhard",
+  "title_en": "Exhibition Burkhard",
+  "creator": "SF",
+  "publisher": "Swiss Federal Archives (BAR/AFS)",
+  "commissioner": null,
+  "date_created": "2007-11-21",
+  "date_published": "2007-11-21",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-11-21",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "exhibition",
+   "photography",
+   "Burgdorf, BE"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 21.11.2007"
+  ],
+  "reference_code": "J2.225#2008/121#52#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674350",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Balthasar Burkhard",
+    "display_name": "Balthasar Burkhard",
+    "role": "artist",
+    "wikidata": {
+     "qid": "Q2881577",
+     "label": "Balthasar Burkhard",
+     "description": "Swiss photographer (1944-2010)",
+     "url": "https://www.wikidata.org/wiki/Q2881577"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 2010,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-Christophe Ammann",
+    "display_name": "Jean-Christophe Ammann",
+    "role": "statement",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christine Schärer",
+    "display_name": "Christine Schärer",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q97681146",
+     "label": "Christine Schärer",
+     "description": "Swiss association football player",
+     "url": "https://www.wikidata.org/wiki/Q97681146"
+    },
+    "life_date_check": {
+     "born": 1992,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival institution",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Burgdorf",
+    "as_written": "Burgdorf, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0571316,
+    "lon": 7.6237466,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682397",
+    "model_lat": 46.9,
+    "model_lon": 7.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Schärer, Christine (AUT)\nProduktionsgesel",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Burkhard, Balthasar (Fotokünstler); named organizations or places (apertus): Burgdorf, BE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.11.21; free text places (apertus): Schweiz <Burgdorf, BE>",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Schärer, Christine (AUT)\nProduktionsgesel"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.11.21"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <Burgdorf, BE>"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Burkhard, Balthasar (Fotokünstler)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Burgdorf, BE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-11-21",
+   "place": "Burgdorf, BE",
+   "lat": 47.0571316,
+   "lon": 7.6237466,
+   "description": "Video segment aired as part of Tagesschau covering the photography exhibition \"Songlines Balthasar Burkhard\"",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#52#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5094,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

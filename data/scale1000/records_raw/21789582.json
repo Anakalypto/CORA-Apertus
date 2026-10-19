@@ -1,0 +1,70 @@
+{
+ "id": "21789582",
+ "uri": "https://culture.ld.admin.ch/ais/21789582",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21789582",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 12.10.1978",
+ "reference_code": "J2.225#1996/68#7427#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 78/285/01A;Rolle 1459\nSignatur Bundesarchiv: J2.225#1996/68#70252*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Sierre, VS: Schweizerischer Städtetag\nSequenzbeschrieb: CH Sierre, VS: Delegierte im Konferenzsaal / Rede BR Fritz Honegger / Rede STP Reynold Tschäppät",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 05.10.1978-19.10.1978",
+ "form": "Video",
+ "format": "Dauer: 3.00\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.23.15\nTräger: Betacam-Digital",
+ "thema": "Personen: Honegger, Fritz;Tschäppät, Reynold\nSachdeskriptor: Stadt",
+ "country": null,
+ "date": {
+  "from": "1978-10-12",
+  "to": null,
+  "expressed": "1978.10.12"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21789579",
+   "title": "Tagesschau SFDRS 12.10.1978",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#7427*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690387",
+   "title": "Tagesschau SFDRS 1978",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1978"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

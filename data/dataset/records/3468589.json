@@ -1,0 +1,282 @@
+{
+ "id": "3468589",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3468589",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3468589",
+  "reference_code": "E5760-01#2003/169#154*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsberichte, Presseinformationen",
+   "reference_number": "03-01-01",
+   "date": {
+    "from": "1967-01-01",
+    "to": "1993-12-31",
+    "expressed": "1967-1993"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/414770",
+     "number": "2003/169",
+     "title": "2003/00169 Armeestabsteil 105 (Bern) (keine Angabe)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "report",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit consists of press clippings and media reports collected by the Mechanized Division 4, not an administrative dossier or analytical work.",
+  "resume": "This is a collection of newspaper reports and press information produced by the Mechanized Division 4 between 1967 and 1993. It contains general administrative documents rather than direct media broadcasts or speeches. The content reflects official communications and media coverage related to the division's activities."
+ },
+ "metadata": {
+  "title": "Zeitungsberichte, Presseinformationen",
+  "title_normalized": "Zeitungsberichte, Presseinformationen",
+  "title_en": "Newspaper reports, press information",
+  "creator": "Mechanized Division 4",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1967/1993",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "1967/1993",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "military",
+   "army",
+   "press",
+   "administration",
+   "Mechanized Division 4"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Mechanisierte Division 4 (1961-1995)",
+  "fonds_reference": "E10934*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Mechanisierte Division 4 (1961-1995)",
+   "Mechanisierte Division 4: Zentrale Ablage (1961-1995)",
+   "Mot Inf Rgt 11 (Motorisiertes Infanterieregiment 11)",
+   "Kdo Mot Füs Rgt 11 (Kommando Motorisiertes Füsilier Regiment 11)",
+   "Allgemeines"
+  ],
+  "reference_code": "E5760-01#2003/169#154*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3468589",
+  "accession_numbers": [
+   "2003/169"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Mechanized Division 4",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Zeitungsberichte, Presseinformationen\" in all caps",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy includes 'Armeestabsteil 105 (Bern)', 'Mechanisierte Division 4', etc.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in hierarchy (e.g., Bern) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Zeitungsberichte, Presseinformationen\" in all caps"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., Bern) not in structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes 'Armeestabsteil 105 (Bern)', 'Mechanisierte Division 4', etc."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1967-1993",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Collection of newspaper reports and press information produced by Mechanized Division 4.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/169 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5760-01#2003/169#154*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4602,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

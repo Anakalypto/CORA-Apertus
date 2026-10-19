@@ -1,0 +1,70 @@
+{
+ "id": "21778525",
+ "uri": "https://culture.ld.admin.ch/ais/21778525",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21778525",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 01.11.1975",
+ "reference_code": "J2.225#1996/68#6358#5*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 75/305/02;Rolle 1253\nSignatur Bundesarchiv: J2.225#1996/68#64041*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Solothurn, SO: Verleihung Krebspreis 1975 an den Krebsforscher Werner Hirt anlässlich Tagung der Schweizerischen Krebsliga\nSequenzbeschrieb: CH Solothurn, SO: Rede Athos Gallino (P °Krebsliga) / Preisverleihung / Rede Werner Hirt / Statement Gallino",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 25.10.1975-08.11.1975",
+ "form": "Video",
+ "format": "Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.30.59\nTräger: Betacam-Digital",
+ "thema": "Personen: Hirt, Werner;Gallino, Athos\nSachdeskriptor: Krebs;Preisverleihung",
+ "country": null,
+ "date": {
+  "from": "1975-11-01",
+  "to": null,
+  "expressed": "1975.11.01"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21778520",
+   "title": "Tagesschau SFDRS 01.11.1975",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6358*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690384",
+   "title": "Tagesschau SFDRS 1975",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1975"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

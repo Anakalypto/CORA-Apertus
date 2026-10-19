@@ -1,0 +1,638 @@
+{
+ "id": "4035546",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4035546",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4035546",
+  "reference_code": "E1301#2007/198#11#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2004.0061: Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier",
+   "scope_and_content": "Sprecher/Sprecherinnen: Borer, Roland F.; Bortoluzzi, Toni; Couchepin, Pascal; Egerszegi-Obrist, Christine; Fasel, Hugo; Fehr, Jacqueline; Guisan, Yves; Gutzwiller, Felix; Humbel Näf, Ruth; Lang, Josef; Maury Pasquier, Liliane; Meyer, Thérèse; Rossini, Stéphane; Ruey, Claude; Schenker, Silvia; Stahl, Jürg; Studer, Heiner; Teuscher, Franziska; Triponez, Pierre; Vischer, Daniel; Wehrli, Reto",
+   "date": {
+    "from": "2007-03-21",
+    "to": null,
+    "expressed": "2007.03.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4035089",
+     "number": "2007/198",
+     "title": "2007/00198 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the parliamentary service.",
+  "resume": "This document is a parliamentary record of the National Council debate on a partial revision of the Federal Act on Health Insurance concerning hospital financing, held during the spring session of the 2007 legislative period. It contains the names of speakers and the date of the debate. The record is an audio recording of the proceedings."
+ },
+ "metadata": {
+  "title": "2004.0061: Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier",
+  "title_normalized": "2004.0061: Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier",
+  "title_en": "Federal Act on Health Insurance. Partial Revision. Hospital Financing / Federal Law on Sickness Insurance. Partial Revision. Hospital Financing",
+  "creator": "Nationalrat (Parliamentary Service)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-03-21",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-03-21",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "health insurance",
+   "hospital financing",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2007",
+   "11. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2007/198#11#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4035546",
+  "accession_numbers": [
+   "2007/198"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Roland F. Borer",
+    "display_name": "Roland F. Borer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120026",
+     "label": "Roland Borer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120026"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Toni Bortoluzzi",
+    "display_name": "Toni Bortoluzzi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q677774",
+     "label": "Toni Bortoluzzi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q677774"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Christine Egerszegi-Obrist",
+    "display_name": "Christine Egerszegi-Obrist",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118232",
+     "label": "Christine Egerszegi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118232"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hugo Fasel",
+    "display_name": "Hugo Fasel",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125702",
+     "label": "Hugo Fasel",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125702"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacqueline Fehr",
+    "display_name": "Jacqueline Fehr",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116424",
+     "label": "Jacqueline Fehr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116424"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Yves Guisan",
+    "display_name": "Yves Guisan",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q110819228",
+     "label": "Yves Guisan",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q110819228"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Felix Gutzwiller",
+    "display_name": "Felix Gutzwiller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117099",
+     "label": "Felix Gutzwiller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117099"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruth Humbel Näf",
+    "display_name": "Ruth Humbel Näf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q275490",
+     "label": "Ruth Humbel",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q275490"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Josef Lang",
+    "display_name": "Josef Lang",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122886",
+     "label": "Josef Lang",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q122886"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Liliane Maury Pasquier",
+    "display_name": "Liliane Maury Pasquier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116648",
+     "label": "Liliane Maury Pasquier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116648"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thérèse Meyer",
+    "display_name": "Thérèse Meyer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117793",
+     "label": "Thérèse Meyer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117793"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stéphane Rossini",
+    "display_name": "Stéphane Rossini",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121330",
+     "label": "Stéphane Rossini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121330"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Ruey",
+    "display_name": "Claude Ruey",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121364",
+     "label": "Claude Ruey",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121364"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Silvia Schenker",
+    "display_name": "Silvia Schenker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117158",
+     "label": "Silvia Schenker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117158"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jürg Stahl",
+    "display_name": "Jürg Stahl",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118341",
+     "label": "Jürg Stahl",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118341"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heiner Studer",
+    "display_name": "Heiner Studer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121539",
+     "label": "Heiner Studer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121539"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franziska Teuscher",
+    "display_name": "Franziska Teuscher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121335",
+     "label": "Franziska Teuscher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121335"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pierre Triponez",
+    "display_name": "Pierre Triponez",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1715531",
+     "label": "Pierre Triponez",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1715531"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Daniel Vischer",
+    "display_name": "Daniel Vischer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117416",
+     "label": "Daniel Vischer",
+     "description": "Swiss politician (1950-2017)",
+     "url": "https://www.wikidata.org/wiki/Q117416"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": 2017,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Reto Wehrli",
+    "display_name": "Reto Wehrli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1285744",
+     "label": "Reto Wehrli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1285744"
+    },
+    "life_date_check": {
+     "born": 1965,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss Parliament)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2004.0061: Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Roland F. Borer\", \"Toni Bortoluzzi\", ...]; named organizations or places (apertus): hierarchy_top_down: ... Nationalrat (1848-)...",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.03.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2004.0061: Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Bundesgesetz über die Krankenversicherung. Teilrevision. Spitalfinanzierung / Loi fédérale sur l'assurance-maladie. Révision partielle. Financement hospitalier\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.03.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Roland F. Borer\", \"Toni Bortoluzzi\", ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: ... Nationalrat (1848-)..."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/198 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2007/198#11#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5690,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

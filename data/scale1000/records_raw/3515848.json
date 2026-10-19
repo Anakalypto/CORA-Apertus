@@ -1,0 +1,88 @@
+{
+ "id": "3515848",
+ "uri": "https://culture.ld.admin.ch/ais/3515848",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3515848",
+ "title": "2003.5038: Fragestunde. Frage Günter Paul. Schweizer Gold in den USA / Heure des questions. Question Günter Paul. Or suisse aux Etats-Unis",
+ "reference_code": "E1301#2004/277#5#19*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Sprecher/Sprecherinnen: Günter, Paul; Villiger, Kaspar",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2003-03-10",
+  "to": null,
+  "expressed": "2003.03.10"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1118979",
+   "number": "2004/277",
+   "title": "2004/00277 Parlamentsdienste (Bern) (2003)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3445434",
+   "title": "5. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#2004/277#5*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090611",
+   "title": "Frühjahrssession 2003",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-46-17"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090595",
+   "title": "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-46"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965546",
+   "title": "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

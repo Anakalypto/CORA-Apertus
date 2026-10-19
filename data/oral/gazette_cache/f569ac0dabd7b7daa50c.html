@@ -1,0 +1,2419 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	detailView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schweizerisches Bundesarchiv - Online-Amtsdruckschriften - Suchergebnisse</title>
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+  
+  
+      
+  
+  
+  <base href="https://www.amtsdruckschriften.bar.admin.ch:443/detailView.do?id=10011414">
+
+</head>
+
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Schweizerisches Bundesarchiv</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/de/start.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Bundesverwaltung</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> EDI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> BAR</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Schweizerisches Bundesarchiv</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView" class="active" title="Diese Seite auf deutsch">
+                        DE  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView"  title="Cette page en français">
+                        FR 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/de/home/ueber-uns/kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/de/home.html">
+        <h1>Schweizerisches Bundesarchiv<br>Online-Amtsdruckschriften</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Einfache Suche
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Erweiterte Suche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Datum
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Thema
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Suchverlauf
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Einstellungen
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Hilfe
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Einfache Suche</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Erweiterte Suche</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=suchmodus" >Suchmodus</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Titelbetonung</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Suche im Titel</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Weitere Felder</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Listensuche nach Datum</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Listensuche nach Thema</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Suchergebnisse</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Detailansicht</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Suchverlauf</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Suchverlauf ausdrucken</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Suchverlauf exportieren</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Einstellungen</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Suche nach Referenznummer</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Suchbeispiele</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "de";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Geben Sie hier die gewünschten Suchbegriffe ein. Diese werden unscharf durchsucht, d.h. es werden auch Begriffe mit ähnlicher Schreibweise gefunden und es wird eine Treffergüte berechnet. Möchten Sie exakt suchen und dabei die Boolschen Operatoren (AND, OR, WITHIN,...) verwenden, wechseln Sie in die erweiterte Suche.')">Suchbegriffe:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Bärtschi" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_de/btn_search.gif" alt="suchen" title="suchen" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="löschen"><img src="images/local_de/btn_delete.gif" alt="löschen"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">suchen</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">löschen</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Geben Sie hier ein Datum oder einen Datumsbereich ein, um nur in Dokumenten aus diesem Zeitraum zu suchen.<br>Beispiel:<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Zeitraum</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1865" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> bis </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1895" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Wählen Sie die gewünschten Druckschrifttypen aus, in welchen gesucht werden soll. <br>Das Bundesblatt umfasst den Zeitraum von 1848 bis heute (für das genaue Jahr siehe \'Home\').<br>Die DDS umfassen den Zeitraum von 1848 bis 1945.')">Suchen in</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Bundesversammlung (Amtliches Bulletin, Protokolle, Findmittel)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliches Bulletin der Bundesversammlung (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle der Bundesversammlung (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Repertorium der Verhandlungen (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Übersicht über die Verhandlungen (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Bundesrecht
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bundesblatt (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bereinigte Sammlung (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliche Sammlung (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Verwaltungspraxis der Bundesbehörden (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Bundesrat
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle des Bundesrates (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Für die Protokolle des Bundesrates bis und mit 1903 existiert keine Texterkennung. <br>Dadurch kann nicht über den Inhalt der Dokumente von 1848 bis 1903 gesucht werden.')">(nur eingeschränkte Suche)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Geschäftsberichte des Bundesrates (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Staatsrechnung und Voranschlag  (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Eidgenössischer Staatskalender (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Diplomatische Dokumente der Schweiz (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Studien und Quellen (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Aktensammlung aus der Zeit der Helvetischen Republik (1798-1803) (Kontext in Deutsch, Akten in Originalsprache)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Alle auswählen </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Suchergebnisse </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Kein gültiges Datum. \nBitte überprüfen Sie Ihre Eingabe. \nWeitere Informationen finden Sie unter Hilfe.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>                                                                     
+<html>                                                                              
+    <head>                                                                          
+        <title><!--title--></title>  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="JavaScript">
+            function getClientWidthHeight() {
+
+                var dimension = new Object();
+
+                dimension.width = 0;
+                dimension.height = 0;
+
+                if (typeof (window.innerWidth) == 'number') {
+
+                    //Non-IE
+
+                    dimension.width = window.innerWidth;
+                    dimension.height = window.innerHeight;
+
+                } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+
+                    //IE 6+ in 'standards compliant mode'
+
+                    dimension.width = document.documentElement.clientWidth;
+                    dimension.height = document.documentElement.clientHeight;
+
+                } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+
+                    //IE 4 compatible
+
+                    dimension.width = document.body.clientWidth;
+                    dimension.height = document.body.clientHeight;
+
+                }
+
+                return dimension;
+            }
+            function ResizeContent()
+            {
+                var dimension = getClientWidthHeight();
+                var lHeight = 500;
+                if (dimension.height && dimension.height > 0) {
+                    lHeight = dimension.height - 190;
+                }
+                var elDiv = document.getElementById("divDocContent");
+                if (elDiv)
+                {
+                    elDiv.style.height = lHeight + "px";
+                }
+                //alert(lHeight);
+            } 
+            function BestHit(){
+                var nbOfHits=1
+                var nbOfMax = " von 1";
+                if(nbOfHits == 0) return;
+                document.getElementById("spanHitNum").innerHTML = "1" + nbOfMax;
+                location.hash ="#1";
+            }
+            function PrevHit(){
+                var nbOfHits=1
+                var nbOfMax = " von 1";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==1){
+                        hash=(nbOfHits + 1);
+                    }
+                    hash = parseInt(hash) - 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function NextHit(){
+                var nbOfHits=1
+                var nbOfMax = " von 1";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==nbOfHits){
+                        hash=0;
+                    }
+                    hash = parseInt(hash) + 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function ResetNbOf(link){
+                var nbOfMax = " von 1";
+                var href = link.href;
+                var index = href.indexOf("#");
+                var hash = href.substring(index +1);
+                document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+            }
+        </script>
+        <style type="text/css">
+             
+            
+            
+            
+            
+            <!--
+            .medadatatable {background-color: #006699; }
+            .c1 {font-family: arial; font-size: 12px; font-weight: bold; background-color: white; }
+            .c2 {font-family: arial; font-size: 12px; background-color: white; }            
+            body { background-color:#ffffff; margin:10px; font-family:Arial,Verdana,Helvetica,sans-serif; font-size:10pt;}
+            .headerTop { height:24px; color: #333333; font-size:12pt; }
+            .docsColumnHeadRow { font-size:10pt; font-weight:bold; text-decoration:underline; }
+            .red { font-size:10pt; font-weight:bold; color:red; }
+            .docsRow { font-size:small; border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataTable {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCell {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCellKey {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;font-weight: bold;}
+            .pageLabel {color:#425a73;font-size:1.0em;font-weight:bold;}
+            .pageLabelLink {color:#425a73;font-size:1.0em;}
+            .docToolLink {font-size:1.0em;}
+            .high {text-decoration:none;/*background-color:yellow;*/color:black;}
+            .high {background-color:yellow;}
+            .origDocTable {padding:0px;margin:0px;border:0px;}
+            pre {
+                white-space: pre-wrap; /* css-3 */
+                white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+                white-space: -pre-wrap; /* Opera 4-6 */
+                white-space: -o-pre-wrap; /* Opera 7 */
+                word-wrap: break-word; /* Internet Explorer 5.5+ */
+                width:100%;
+                font-family: Arial;
+                border:1px solid gainsboro;
+                font-size: small;
+            }            
+            --> 
+        </style>
+    </head>                                                                         
+    <body OnLoad="ResizeContent()">      
+        <a name="resultlist"></a>
+        <table width="98%" border="0" cellSpacing="0" cellPadding="0">
+            <tr>
+                <td vAlign="top" class="pageLabel">Detailansicht</td>
+                <td vAlign="top" ><a class="pageLabelLink" href="execQuery.do?fetchStart=0">zurück zur Resultatliste</a></td>
+                <td vAlign="top" style="text-align:right;" class="docNavCell">Ergebnisse:&nbsp;<a title="vorheriges Ergebnis" class="docNavLink" href="detailView.do?id=10009436">&lt;&lt;</a>&nbsp;21&nbsp;von&nbsp;34&nbsp;<a title="nächstes Ergebnis" class="docNavLink" href="detailView.do?id=10009060">&gt;&gt;</a>&nbsp;</td>
+                <td vAlign="top" style="text-align:right;width:180px;">
+                    <table border="0" cellSpacing="0" cellPadding="0">
+                        <tr>
+                            <td>
+                                <center>
+                                    <a href="viewOrigDoc/10011414.pdf?id=10011414" target="_blank"><img alt="Datei anzeigen" src="images/icons/c_launch_pdf.gif" border="0"/></a>
+                                    <br/>
+                                    <a style="color:black;" href="viewOrigDoc/10011414.pdf?id=10011414" target="_blank">Ganzes Dokument</a>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div> </div>
+        <div style="border:0px solid grey;width:99%;height:25px;background-image: url('images/pane_bg.gif');margin-top:15px;font-size:0.9em;">
+            <img width="25" height="25" align="absmiddle" alt="" src="images/windowpane_cap_L.gif">    	
+            <span style="display: inline" id=spanHitNavBar>
+                <span class=docHitNavLabel>Auf Treffer im Dokument springen:</span> &nbsp; 
+                <span id=spanBestHit><a class=docHitNavLink href="javascript:BestHit();">bestes Resultat  </a>&nbsp;</span>
+                <a class=docHitNavLink title="vorheriger Treffer" href="javascript:PrevHit()">&lt;&lt;</a> 
+                &nbsp;&nbsp;&nbsp;&nbsp;<span id=spanHitNum>1</span>&nbsp;&nbsp;&nbsp; 
+                <a class=docHitNavLink title="nächster Treffer" href="javascript:NextHit()">&gt;&gt;</a> 
+                <span class=docHitNavDots>::</span> 
+                <span id=spanHitText></span>     
+                
+            </span>            
+        </div>                                                         
+        <div style="border:1px solid grey;width:900px;height:800px;overflow:auto;padding:15px;margin:10px;" id="divDocContent"> 
+            
+            <table width="100%" border="0" class="metadataTable">
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Titel</td>
+<td class="metadataCell" >Verzeichniss der am 18. Februar 1882 für eine neue Amtsdauer von drei Jahren gewählten Beamten in den 6 Zollgebieten.</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Druckschrifttyp</td>
+<td class="metadataCell" >Bundesblatt</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Jahr</td>
+<td class="metadataCell" >1882</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Band</td>
+<td class="metadataCell" >1</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Heft/Dokument</td>
+<td class="metadataCell" >12</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Geschäftsnummer</td>
+<td class="metadataCell" ></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Datum</td>
+<td class="metadataCell" ><a class="high" href="#2" name="1" onclick="javascript:ResetNbOf(this);">18.03.1882</a></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Seite von</td>
+<td class="metadataCell" >460</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Seite bis</td>
+<td class="metadataCell" >470</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Referenznummer</td>
+<td class="metadataCell" >10011414</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Ganzes Dokument</td>
+<td class="metadataCell" ><table class="origDocTable" border="0" cellSpacing="0" cellPadding="0"><tr><td><a href="viewOrigDoc/10011414.pdf?id=10011414" target="_blank" shape="rect"><img alt="Originaldoument / Document complet" src="images/icons/c_launch_pdf.gif" border="0"/></a></td><td>(334.0 KB)</td></tr></table></td>
+</tr>
+</table>
+<br><br>
+            <!--Verzeichniß
+der
+am 18. Februar 1882 für eine neue Amtsdauer von drei
+Jahren gewählten Beamten in den 6 Zollgebieten.
+Gebietsdirektion
+A. Im I. Zollgebiete. (Direktionssi in Basel.)
+a . Burea u der Direktion.
+Sekretär: Hr. Johannes Jenny, von Langenbruk.
+Kassier : „ Gustave Donzé, von Breuleux (Bern).
+Revisor: „ Heinrich Siegerist, von Schaffhausen.
+Gehilfe: „ Christian Schenk, von Röthenbach (Bern).
+„ „ Joseph Wink, von Koblenz.
+1). Z o l l s t ä 11 e u.
+Goumois Einnehmer: Hr. Alphonse Barthoulot von Belfond
+(Bern).
+La Bouége. „ „ Albert Schwab, von Sisseln (Aargau)
+Pruntrut. Einnehmer: Hr. Mathias Böser, von Klein-Hüningen.
+Kontroleur: „ Joseph Maistre.
+Gehilfe: „ Pietro Defilippis von Lugano.
+,, „ Georg Hämmig, von Lampenbach
+(Baselland).
+„ „ Karl Tschudin, von Läufelfingen.
+Courtemaiche. Einnehmer: „ Emil Piller, von Chevenez.
+Note. Die Beamten der Überzolldirektion und die Zolldirektoren wurden
+unterm 13. Januar d. J. für die Amtsdauer vom 1. April 1882 bis zum
+31. März 1885 bestätigt, siehe Seite 101 hievor.
+Wo sich kein Heimatkanton angegeben findet, ist derselbe identisch mit
+D ... geg '
+dem Domizil.
+460
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+Boncourt. Einnehmer: Hr. Jean Brossard, von Pornmerats.
+Damvant. .,, „ Henri Jolissaint, von Keelere.
+Reclère. „ „ Protois Jolissaiut.
+Grandfontaine. „ „ François Babey.
+Fahy. „
+ n
+ Célcstin Houlmann, von Chaufour.
+Beurnevésin. „ „ Justin Quelain, von Röche-d'or.
+Miécourt. „ „ Jacques Metthée, von Bniifol.
+Basel. Centralbahnhof. P. V.
+Einnehmer: Hr. Friedrich Tschudin.
+Kontroleur: . „ Jakob Geiger, von Wigoldingen
+(Thurgau).
+Gehilfe : „ August Böglin.
+„ „ Jean Grœflin, von Höllstein (Basel-
+land).
+„ „ Oskar Kernen, von Heutigen (Bern).
+„ „ Achille Metthée, von Bonfol.
+„ „ Gustav v. Schmid, von Böttstein
+(Aargau).
+„ „ Gustav Stampfli, von Buren.
+„ „ Heinrich Störi, v. Schvvändi (Glarus).
+Basel. Centralbahnhof. G. V.
+Einnehmer: Hr. Johannes Blendinger.
+Kontroleur: ^ Eduard Hamel, von Muttenz.
+Basel. Badische Bahn.
+Einnehmer: Hr. JohannesBähler, sen., vonUebeschi
+(Bern).
+Kontroleur: „ Karl Markees, von Tarlar (Grau-
+bündeu).
+Gehilfe: ^ Arnold Blum, von Koblenz.
+„ „ Karl Lechleitner, von Altstätten
+(St. Gallen).
+„ „ Emil Pfeiffer, von Aarau.
+n
+ „ Johannes Ullrich, v. Sehwarzenburg.
+LisbUchel. Einnehmer : Hr. Wilhelm Erismann, von Basel.
+Gehilfe: ..„ Wilhelm Haas, von Basel.
+Basel. Niederlagshaus.
+Einnehmer : Hr. Franz Schneble, von Stein (Aargau).
+Kontroleur : „ Jakob Rüedi, von Mayenfeld.
+Gehilfe: „ Samuel Lohse, von Buren (Bern).
+.Kleinlützel. Einnehmer: „ Gustav Brunner.
+Burg. „ ^ Anton Geyer.
+Rodersdovf. ^ „ Alois Stöckli.
+461
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+Flühen. Einnehmer: Hr. Xaver Küry.
+Benken. „ „ Johannes Kleiber.
+Schönenbuch. „
+ fl
+ Peter Oser.
+Allschvvyl. „
+ fl
+ Jakob Gürtler.
+Burgfelden. „ „ Johannes Hauser, von Altorf (Uri).
+Riehen. „ Hr. Stephan Jost, von Klosters.
+Gehilfe: „ Karl Heitz, von Basel.
+Wiesenbrücke. Einnehmer : „ Jakob Weber, von Geuensee.
+Klein-Hüningen. „ „ Mathias Schultheß.
+Bettingen. „ „ Johannes Bertschmann.
+Hörn.
+ n
+ „ Konrad Glogg, von Meilen.
+Rheinfelden. Einnehmer: Hr. Johannes Reinle, von Stein (Aargau).
+Kaiseraugst.
+ fl
+ „ August Lützelschwab.
+Wa,llbach. „ „ Rudolf Kaufmann.
+Mumpf. „ „ Johannes Kaufmann.
+Säkingerbrücke. „ „ Nikiaus Widmer, von Schneisingen
+(Aargau).
+Laufenburg. „ Hr. Hermann Mosch, von Frick.
+Floßkontroleur : „ Joseph Rüscher.
+Ezgen. Einnehmer: „ Johannes Zumsteg.
+Klemme. „ „ Mathias Kramer, von Oberleibstadt.
+Jüppen.
+ fl
+ „ Anton Haus, von Füll.
+Zurzach-Burg. Einnehmer : „ Joh. Friedrich Schmid.
+Kaiserstuhl.
+ fl
+ ^ Florian Maienfisch.
+Waldshut. „ Hr. Wilhelm Gaßler, von Koblenz.
+Kontroleur: „ Emil Dilger, von Arbon.
+Gehilfe: „ Joseph Gaßler, von Koblenz.
+Aarau. Niederlagshaus.
+Einnehmer : Hr. Emil Siegrist, von Bözberg.
+B. Im II. Zollgebiete. (Direktionssiz iu Schafifhauseu.)
+o
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Franz Enderli, von Winterthur.
+Revisor: „ Andreas Hansel mann, von Frümsen
+(St. Gallen).
+Gehilfe: „ Jakob Schuppli, von Gachnang
+(Thurgau).
+462
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+b. Z o 1 1 s t ä 11 e n.
+Erzingen. Einnehmer: Hr. Jakob Stierlin, von Schaffhausen.
+Gehilfe: „ Adolf Bader, von Holderbank
+(Solothurn).
+Wildlingen. Einnehmer: „ Johannes Böhm.
+Unterhallau. „ „ Johannes Neukomm.
+Schleitheim. „ „ Michael Weber, von Merishausen.
+Schaffhausen. Bahnhof.
+Einnehmer : Hr. Johannes Hug, von Bettvviesen.
+Kontroleur: -, „ Johannes Schleuniger, v. Klingnau.
+Gehilfe : „ Walter Marty, von Malans (Grau-
+bünden).
+Schaffhausen. Am Rhein.
+Einnehmer: Hr. Andreas Bärtsch, von Seewis.
+Kontroleur: „ Jakob Meßiner, von Eppishausen.
+Wasterkingen. Einnehmer: „ Daniel Spühler.
+Hüntwangen. „ „ Jakob Meier.
+Wyl. „ „ Johannes Siegrist.
+Rafz. „ „ Salomon Siegrist.
+Rüdlingen. „ „ Jakob Fehr.
+Durstgraben. „ „ Johannes Gasser, von Unterhallau.
+Merishausen. „
+ fl
+ Johaones Leu.
+Dörflingen. „ „ Johannes Tanner, von Bargen.
+Dießenhofen. „ ,, Jakob Böni, v. Amden (_St. Gallen).
+Thayngen. Bahnhof.
+Einnehmer :i
+ H
+ j
+ k fa uf t Stäf
+Thayngen, Dorf. „ / '
+Altdorf. „ „ Jakob Stihl.
+Höfen. „
+ fl
+ Johannes Bührei
+1
+.
+Singen. „ y, Johannes Seiler, von Triboldingen.
+Kontroleur : „ Martin Weber, von Wyl (Aargau).
+Stein a. Rhein. Einnehmer: Hr. Johannes Fuog.
+Buch. „ „ Johannes Ruh.
+Rielasingen. ,
+;
+ „ ,, Konrad Schneckenburger, von
+Schaffhausen.
+Ramsen. ^ ,, Jakob Geyer.
+Hemishofen. „ „ Alexander Erni, von Aadorf.
+Stekborn. „ „ Ludwig Strini, von Schönenbaum-
+garten.
+Berlingen. Einnehmerin: Frl. Verena Meyer, von Männedorf.
+Mannenbach. Einnehmer : Hr. Jakob Fehr.
+463
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+Konstanz. Einnehmer: Hr. Johannes Hug, von Wuppenau.
+Kontroleur: „ Karl Hitz, von Seewis.
+Gehilfe: „ August Boiron, von Genf.
+Romanshorn. Einnehmer: Hr. Johannes Bader, von Regensdorf.
+Kontroleur: „ Ariste Rollier, von Nods (Bern).
+Gehilfe: „ Hans Farner, von Stammheim
+(Zürich).
+„ „ Rubin Gauer, von Wartau.
+„ „ Gottlieb Hirt, von Stilli (Aargau).
+„ „ Jakob Lips, von Oberiirdoi-l'(Zürich).
+„ „ Konrad Meßrner, v. Erle n (Thurgau).
+„ „ Georg Zimmermann, von Weggis
+(Luzern).
+Ermatingen. Einnehmer: Hr. Salomon Blattner.
+Gottlieben. Einnehmerin: Frl. Babette Meyer.
+Tägerweilen. Einnehmer: Hr. Peter Sulger, von Stein a. Rhein.
+Emmishofen. „ ^ Dominile Zehnder, von Etten-
+hausen.
+Kreuzungen. „ „ Konrad Schär, von Opfershofen
+(Thurgau).
+Altnau. „ „ Johannes Widmer, von Herrenhof
+(Thurgau).
+Keßweil „ „ Jakob Roth.
+Uttweil. .,, „ Johannes Frischknecht, von Herisau.
+Arbon. „ „ Johannes Rorschach.
+Hörn. „ „ Johannes Keller.
+ZUrich. Niederlagshaus.
+Einnehmer: Rudolf Müller, von Altstetten.
+Kontroleur: Michael Bächtold, von Schleitheim.
+C. Im III. Zollgebiete. (Direktionssiz in Chur.)
+a . Burea u der Direktion .
+Sekretär und Kassier: Hr. Hans Dicht, von Klosters.
+Revisor: „ Mathias Sulser, von Atzmoos.
+Gehilfe: „ Georg Gasser, von Unterhallau.
+b. Zollstätten.
+St. Gallen. Niederlagshaus.
+Einnehmer: Hr. Christian Kummer, von Thayngen.
+Kontroleur : „ Ulrich Kopp, von Romanshorn.
+464
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+Rorschach. Einnehmer: Hr. Ambrosius Ruedi, von Mayenfeld.
+Kontroleur: „ Jakob Frei, von Hemberg.
+Gehülfe: „ Johannes Schumacher, von Sigli-
+storf (Aargau).
+„ „ Georg Ziegler, v. Lachen (Schwyz).
+Staad. Einnehmer: „ Johannes Bärlocher, von Thal.
+St. Margrethen. Bahnhof.
+Einnehmer: Hr. Wilhelm Huber, von Dießenhofen.
+Kontroleur: „ Sebastian Locher, von Etns.
+Gehilfe: „ Friedrich Nsef, von Altstätten
+(St. Gallen.)
+Monstein • Au. Einnehmer : Hr. Johannes Gotte, von Kappel.
+St. Margrethen-
+Straße. „ „ Johannes Casutt, von Vais.
+Buchs. Bahnhof. Einnehmer: Hr. Ulrich Rothenberger.
+Luziensteig. Einnehmer: „ Johannes Bocksberger, von Bürglen
+(Thurgau).
+Schlappin. Einnehmer: „ Hans Jegen, von Klosters.
+Martinsbruck. „ Hr. Joseph Jenal, von Samnaun.
+Compatsch. „ „ Ludwig Jenal.
+Manas. „ „ Kaspar Bardola.
+Munster. „ „ Jakob Pitsch.
+Sta. Maria. „ „ Ulrich Parli, von Tamins.
+Cierfs. „ „ Mathias Moggi.
+Scanfs. y, „ Georg Walin.
+Campocologno. .,, Hr. Dorninik Thöny, von Reischen
+(Graubünden).
+Gehilfe: „ Rudolf Mengotti, von Foschiavo.
+Puschlav. Einnehmer: „ Romedo Passini.
+Castasegna. „ Hr. August Garbald, von Serneus.
+Kontroleur : „ Kaspar Fluor, von Saas.
+SplUgen. Einnehmer: Hr. Martin Meuli, von Nufeneu.
+Kontroleur: „ Mklaus Trepp.
+Madris. Einnehmer: „ Simon Stoffel.
+D. Im IV. Zollgebiete. (Direktionssiz in Lugano.)
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Felice Pozzi.
+Revisor: .
+n
+ Giuseppe Induni, vou Stabio.
+465
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+Gehilfe: Hr. Giosia Bernasconi, von Riva Sau
+Vitale.
+„ „ Theodor Krannichfeldt, von Iseo
+(Tessin).
+Chef der eidg. Grenzwächter
+im IV. Zollgebiet: „ Sebastian Wasescha, von Schwei-
+ningen (Graubünden).
+b. Z o 11 s t ä 11 e n.
+Lugano. Einnehmer: Hr. Ambrogio Conti, von Monteggio.
+Scareglia. „ „ Antonio Frapolli.
+Gandria. „ „ Giuseppe Crivelli, von Monteggio.
+Arogno. „ „ Eugenio Cornetta.
+Morcote. „ " „ Gottardo Rossini, von Scareglia.
+Fornasette. „ „ Filippo Rossinelli, von Novazzano.
+Termini. „ „ Pietro Chiesa, von Sessa.
+Astano. „ „ Giacomo Bachetta.
+Ponte-Tresa. „ „ Giovanni Bella.
+Caslano. „ „ Giuseppe Greppi.
+Chiasso. Bahnhof.
+Einnehmer: Hr. Achille Matti.
+Kontroleur : „ Antonio Della Casa, von Stabio.
+Gehilfe: „ Giovanni Pessina, von Castagnola.
+„ ^ Vittorino Lombardi, von Airolo.
+Chiasso. Straße.
+Einnehmer: Hr. Carlo Bernasconi.
+Kontroleur: „ Battista Tonella, von Lostallo
+(Graubünden).
+Gehilfe: „ Geremia Forni, von Airolo.
+Cabbio. „ „ Pietro Fontana.
+San Simone. „ „ Angelo Chiesa, von Chiasso.
+Seseglio. „ ^ Giovanni Grassi, von Novazzano.
+Novazzano. „ „ Frederico Soldini.
+Brusata. „ „ Carlo Albisetti.
+Stabio. „ ^ Rocco Chiesa, von Berzona.
+Ligornetto. „ „ Luigi Regazzoni, von Baierna.
+San Pietro. „ „ Battista Pellegrini, von Stabio.
+Arzo. „ „ Giacinto Bassi, von Monteggio.
+Magadino. ^ Hr. Paolo Zenna, von Ascona.
+Kontroleur: „ Benigno Bernasconi, von Chiasso.
+Dirinella. Einnehmer: ^ Aurelio Pessina, von Castagnola.
+Indemini. „ „ Bartolomeo Rossi.
+466
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+Carena. Einnehmer: Hr. Giuseppe Boggia, von S.Antonio.
+Bedretto. „ „ Clemente Forni.
+Locamo. „ Hr. Bartolomeo Fanciola.
+Kontroleur: „ Prospero Rusca.
+Gehilfe: „ Salvatore Alliò, von Avzo.
+„ ,., Cesare Greppi, von Caslano.
+Ascona. Einnehmer: „ Angelo Pancaldi-Pasini.
+Brissago. ' „ „ Tommaso Induni, von Stabio.
+Madonna di Ponte. ,, „ Antonio Rossi, von Arzo.
+Camedo. „ „ Francesco Guidetti.
+Comologno. „ „ Giovanni Marconi.
+E. Im V. Zollgebiete. (Direktionssiz in Lausanne.)
+Sekretär und Kassier: Hr. Auguste Cornu, von Mutrux (Waadt).
+Revisor : „ Gustave Druey, von Faoug.
+Gehilfe: „ AdolpheGavillet,vonPeney(Waadt).
+„ „ Maurice Hofer, von Düdingen (Frei-
+burg).
+Chef der eidg. Grenz Wächter
+im Kanton Neuenburg: Hr. Auguste Glardon, von Vallorbes.
+b. Zollstätten.
+Lausanne. Niederlagshaus.
+Einnehmer: Hr. Louis Blanchard, von Jouxtens-
+Mézery (Waadt).
+Vevey. „ ,, Arthur Matthey, von Savagnier.
+Ouchy. Einnehmer: Hr. Henri Glardon, von Vallorbes.
+Morges. „ ^ Louis Jaulet, von Vallorbes.
+Nyon. „ „ Jules Calarne, von Chamblon.
+Coppel. „ „ Jules Delafoge, von Gilly.
+Chavannes. ,, „ Arni Bornet, von Château-d'Oex.
+Grassier. „ „ Adolf Bernard, von Bex.
+Vallorbes. Bahnhof.
+Einnehmer: Hr. Louis Glardon.
+Kontroleur : „ Marc Béboux, von Cully.
+Gehilfe : „ Charles Thélin, von Mex (Waadt).
+Brassus. Einnehmer: Hr. Marc Golaz, von l'Abbaye.
+L'Auberson. ., „ Justin Gueissaz, von Ste. Croix.
+467
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+Verrières. Bahnhof.
+Einnehmer : Hr. Julius Zürni, von Laufenburg.
+Kontroleur : „ Jules Wergerer, von Massongex
+(Wallis).
+Gehilfe : „ Johannes Bähler, jun., von Uebeschi
+(Bern).
+v „ Albert Gribi, von Buren (Bern).
+„ „ André Wulliémoz, von Vuarrens
+(Waadt).
+Meudon. Einnehmer: „ François Crelier, von Bure (Bei-n).
+Col des Roches.
+Einnehmer: Hr. Paul Guillaume, von Verrières.
+Cerneux-
+Péquignot. „ „ Gustave Michel, von Rougemont
+(Waadt).
+Les Brenets. „ „ Friedrich Schenk, von Eggiwyl
+(Bern).
+La Rasse. ., „ Isidore Fragnière, von Gumefens
+(Freiburg).
+F. Im VI. Zollgebiete. (Direktionssiz in Genf.)
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Emil Dorsi vai.
+Revisor : „ Elie Vivien.
+Gehilfe: „ Albert Badoud, von Romont.
+.
+;
+, „ Cy prie n Michel, von Bernex (Genf).
+„ ,., Karl Stettier, von Bern.
+Chef der eidg. Grenz wac h ter
+im VI. Zollgebiet: „ Anton Thalmann, von Entlebuch.
+b . Zollstätten .
+Gondo. Einnehmer: Hr. Georg Riethauser, von Zillis (Grau-
+bünden).
+Bouveret. .,, Hr. Alexandre Bussien.
+Ulrichen. „ ^ César Lagger, v. Münster {Wallis).
+Binnen. ^ „ Elie Walpen.
+Saas. „ .
+n
+ Peter Veneto.
+Zermatt. „ „ Stephan Biner.
+Bourg-St. Pieri-e. „ ^ Joseph Dorsaz.
+Praz-de-Fort. „ ^ François Murisier, von Orsières.
+468
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+Forclaz. Einnehmer : Hr. Lucien Gay, von Martigny.
+Champéry. „ „ Basile Exhenry.
+Genf. Freihafen.
+Einnehmer: Hr. Francois Moynat, v. Chône-Thonex.
+Kontroleur : „ Louis Bellarny, von Genf.
+Gehilfe: ^ Guido Chicherio, von Bellinzona.
+„ „ Ernst Hohl, von Herisau.
+„ „ Gottlieb Liebl, von Gümmenen
+(Bern).
+„ ,. Jean Morier, von Château d'Oex.
+„ „ Paul Rosselct, von les Bayards
+(Neuen bürg).
+Genf. Am See. Einnehmer: Hr. Gaspar Moynat, von Chône-Thonex.
+Kontroleur: ,, Denis D'Humilly, von Bardonnex.
+Hermance. Einnehmer: „ Léonard Tréand.
+\
+7
+ersoix. „ „ Jacques Drivet.
+Genf. Bahnhof. P. V.
+Einnehmer: Hr. Hippolyte Monnier, von Choulex.
+Kontroleur: ,.
+(
+ Arnold Vogt, von Allschwyl(Basel-
+landschaft).
+Gehilfe: „ François Balmer.
+„ „ Marc Berchten.
+„ ,, Pierre Bonnard, von Carouge.
+„ „ Abraham Böschenstcin, von Stein
+a. Rhein.
+„ „ Emile Henchoz, von Vallorbes.
+„ Wilhelm Keller, von Rorschach.
+^ ,, Ferdinand Lenz, von Boudry.
+„ „ Adrien Mathonnet.
+„ „ Ernst Münch, von Rheinfelden.
+„ ,, Charles Richard.
+Genf. Bahnhof. G. V.
+Einnehmer : „ Constant Delphin, von Carouge.
+Kontroleur: ,, François Dorsival.
+Gehilfe : „ Raffaele Maspero, von Ponte-Tresa.
+Moillesulaz. Einnehmer: Hr. Jean Michoud, von Lausanne.
+Kontroleur: „ Constant Lecoultre, von Brassus
+(Waadt).
+Gehilfe: „ EmilTrabold, vonZollikofen(Bern).
+Corsier. • „ ,, Jules Peri'ier, von Ste. Croix.
+Moniaz. „ .
+n
+ Etienne Meilland, von Liddes.
+Cara. „ ,, Francois Duveriiay.
+Voyrier. „ „ Jean Portier.
+469
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=10" target="_blank" shape="rect"><img alt="Seite 10 / Page 10" src="images/icons/c_launch_pdf.gif" border="0"/>(10)</a></div>
+
+Perly. Einnehmer: Hr. Louis Jacob, von Vésenaz.
+Kontroleur: „ Oscar Vuille, von La Sagne.
+Croix-de-
+Rozon. Einnehmer: „ Marc Dunand, von Présinges.
+Bardonnex. „ „ Claude Mermillod, von Carouge.
+Soral. ,, ,, Joseph Battiaz.
+Sésegnin. Einnehmerin : Frl. Françoise Martel.
+Meyrin. Straße.
+Einnehmer: Hr. Vincent Michel, von Païens.
+Gehüife : „ Henri Gaudin, von Nyon.
+Dardagny. Einnehmer: „ Antoine Vouaillat.
+Malvai.
+ fl
+ „ Jean Châtenoux, von Dardagny.
+Choully. Einnehmerin: Frl. Alice Turian.
+Mategnin. Einnehmer: Hr. Jean Argand, von Corsier (Genf).
+Chancy. „. „ Francois Besuchet, von Ballaigues.
+La Plaine. „
+ n
+ August Spicher, von Ueberstorf
+(Freiburg).
+Satigny. .,
+ n
+ Johaones Dora, von Marmorera
+(Graubünden).
+Meyrin (Station)
+ fl
+ „ Simon Seglias, v. Ems(Graubünden).
+Sacconnex.
+ n
+ Hr. Jean Genoux.
+Gehulfe : „ Pierre Tochet, von Liddes (Wallis).
+Vireloup. Einnehmer: „ PierreServettaz, vonCollex(Genf).
+Sauverny.
+ fl
+ • „ Auguste Truan, von Vallorbes.
+470
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=11" target="_blank" shape="rect"><img alt="Seite 11 / Page 11" src="images/icons/c_launch_pdf.gif" border="0"/>(11)</a></div>
+
+-->
+            <pre>Verzeichniß
+der
+am 18. Februar 1882 für eine neue Amtsdauer von drei
+Jahren gewählten Beamten in den 6 Zollgebieten.
+Gebietsdirektion
+A. Im I. Zollgebiete. (Direktionssi in Basel.)
+a . Burea u der Direktion.
+Sekretär: Hr. Johannes Jenny, von Langenbruk.
+Kassier : „ Gustave Donzé, von Breuleux (Bern).
+Revisor: „ Heinrich Siegerist, von Schaffhausen.
+Gehilfe: „ Christian Schenk, von Röthenbach (Bern).
+„ „ Joseph Wink, von Koblenz.
+1). Z o l l s t ä 11 e u.
+Goumois Einnehmer: Hr. Alphonse Barthoulot von Belfond
+(Bern).
+La Bouége. „ „ Albert Schwab, von Sisseln (Aargau)
+Pruntrut. Einnehmer: Hr. Mathias Böser, von Klein-Hüningen.
+Kontroleur: „ Joseph Maistre.
+Gehilfe: „ Pietro Defilippis von Lugano.
+,, „ Georg Hämmig, von Lampenbach
+(Baselland).
+„ „ Karl Tschudin, von Läufelfingen.
+Courtemaiche. Einnehmer: „ Emil Piller, von Chevenez.
+Note. Die Beamten der Überzolldirektion und die Zolldirektoren wurden
+unterm 13. Januar d. J. für die Amtsdauer vom 1. April 1882 bis zum
+31. März 1885 bestätigt, siehe Seite 101 hievor.
+Wo sich kein Heimatkanton angegeben findet, ist derselbe identisch mit
+D ... geg '
+dem Domizil.
+460
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+Boncourt. Einnehmer: Hr. Jean Brossard, von Pornmerats.
+Damvant. .,, „ Henri Jolissaint, von Keelere.
+Reclère. „ „ Protois Jolissaiut.
+Grandfontaine. „ „ François Babey.
+Fahy. „
+ n
+ Célcstin Houlmann, von Chaufour.
+Beurnevésin. „ „ Justin Quelain, von Röche-d'or.
+Miécourt. „ „ Jacques Metthée, von Bniifol.
+Basel. Centralbahnhof. P. V.
+Einnehmer: Hr. Friedrich Tschudin.
+Kontroleur: . „ Jakob Geiger, von Wigoldingen
+(Thurgau).
+Gehilfe : „ August Böglin.
+„ „ Jean Grœflin, von Höllstein (Basel-
+land).
+„ „ Oskar Kernen, von Heutigen (Bern).
+„ „ Achille Metthée, von Bonfol.
+„ „ Gustav v. Schmid, von Böttstein
+(Aargau).
+„ „ Gustav Stampfli, von Buren.
+„ „ Heinrich Störi, v. Schvvändi (Glarus).
+Basel. Centralbahnhof. G. V.
+Einnehmer: Hr. Johannes Blendinger.
+Kontroleur: ^ Eduard Hamel, von Muttenz.
+Basel. Badische Bahn.
+Einnehmer: Hr. JohannesBähler, sen., vonUebeschi
+(Bern).
+Kontroleur: „ Karl Markees, von Tarlar (Grau-
+bündeu).
+Gehilfe: ^ Arnold Blum, von Koblenz.
+„ „ Karl Lechleitner, von Altstätten
+(St. Gallen).
+„ „ Emil Pfeiffer, von Aarau.
+n
+ „ Johannes Ullrich, v. Sehwarzenburg.
+LisbUchel. Einnehmer : Hr. Wilhelm Erismann, von Basel.
+Gehilfe: ..„ Wilhelm Haas, von Basel.
+Basel. Niederlagshaus.
+Einnehmer : Hr. Franz Schneble, von Stein (Aargau).
+Kontroleur : „ Jakob Rüedi, von Mayenfeld.
+Gehilfe: „ Samuel Lohse, von Buren (Bern).
+.Kleinlützel. Einnehmer: „ Gustav Brunner.
+Burg. „ ^ Anton Geyer.
+Rodersdovf. ^ „ Alois Stöckli.
+461
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+Flühen. Einnehmer: Hr. Xaver Küry.
+Benken. „ „ Johannes Kleiber.
+Schönenbuch. „
+ fl
+ Peter Oser.
+Allschvvyl. „
+ fl
+ Jakob Gürtler.
+Burgfelden. „ „ Johannes Hauser, von Altorf (Uri).
+Riehen. „ Hr. Stephan Jost, von Klosters.
+Gehilfe: „ Karl Heitz, von Basel.
+Wiesenbrücke. Einnehmer : „ Jakob Weber, von Geuensee.
+Klein-Hüningen. „ „ Mathias Schultheß.
+Bettingen. „ „ Johannes Bertschmann.
+Hörn.
+ n
+ „ Konrad Glogg, von Meilen.
+Rheinfelden. Einnehmer: Hr. Johannes Reinle, von Stein (Aargau).
+Kaiseraugst.
+ fl
+ „ August Lützelschwab.
+Wa,llbach. „ „ Rudolf Kaufmann.
+Mumpf. „ „ Johannes Kaufmann.
+Säkingerbrücke. „ „ Nikiaus Widmer, von Schneisingen
+(Aargau).
+Laufenburg. „ Hr. Hermann Mosch, von Frick.
+Floßkontroleur : „ Joseph Rüscher.
+Ezgen. Einnehmer: „ Johannes Zumsteg.
+Klemme. „ „ Mathias Kramer, von Oberleibstadt.
+Jüppen.
+ fl
+ „ Anton Haus, von Füll.
+Zurzach-Burg. Einnehmer : „ Joh. Friedrich Schmid.
+Kaiserstuhl.
+ fl
+ ^ Florian Maienfisch.
+Waldshut. „ Hr. Wilhelm Gaßler, von Koblenz.
+Kontroleur: „ Emil Dilger, von Arbon.
+Gehilfe: „ Joseph Gaßler, von Koblenz.
+Aarau. Niederlagshaus.
+Einnehmer : Hr. Emil Siegrist, von Bözberg.
+B. Im II. Zollgebiete. (Direktionssiz iu Schafifhauseu.)
+o
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Franz Enderli, von Winterthur.
+Revisor: „ Andreas Hansel mann, von Frümsen
+(St. Gallen).
+Gehilfe: „ Jakob Schuppli, von Gachnang
+(Thurgau).
+462
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+b. Z o 1 1 s t ä 11 e n.
+Erzingen. Einnehmer: Hr. Jakob Stierlin, von Schaffhausen.
+Gehilfe: „ Adolf Bader, von Holderbank
+(Solothurn).
+Wildlingen. Einnehmer: „ Johannes Böhm.
+Unterhallau. „ „ Johannes Neukomm.
+Schleitheim. „ „ Michael Weber, von Merishausen.
+Schaffhausen. Bahnhof.
+Einnehmer : Hr. Johannes Hug, von Bettvviesen.
+Kontroleur: -, „ Johannes Schleuniger, v. Klingnau.
+Gehilfe : „ Walter Marty, von Malans (Grau-
+bünden).
+Schaffhausen. Am Rhein.
+Einnehmer: Hr. Andreas Bärtsch, von Seewis.
+Kontroleur: „ Jakob Meßiner, von Eppishausen.
+Wasterkingen. Einnehmer: „ Daniel Spühler.
+Hüntwangen. „ „ Jakob Meier.
+Wyl. „ „ Johannes Siegrist.
+Rafz. „ „ Salomon Siegrist.
+Rüdlingen. „ „ Jakob Fehr.
+Durstgraben. „ „ Johannes Gasser, von Unterhallau.
+Merishausen. „
+ fl
+ Johaones Leu.
+Dörflingen. „ „ Johannes Tanner, von Bargen.
+Dießenhofen. „ ,, Jakob Böni, v. Amden (_St. Gallen).
+Thayngen. Bahnhof.
+Einnehmer :i
+ H
+ j
+ k fa uf t Stäf
+Thayngen, Dorf. „ / '
+Altdorf. „ „ Jakob Stihl.
+Höfen. „
+ fl
+ Johannes Bührei
+1
+.
+Singen. „ y, Johannes Seiler, von Triboldingen.
+Kontroleur : „ Martin Weber, von Wyl (Aargau).
+Stein a. Rhein. Einnehmer: Hr. Johannes Fuog.
+Buch. „ „ Johannes Ruh.
+Rielasingen. ,
+;
+ „ ,, Konrad Schneckenburger, von
+Schaffhausen.
+Ramsen. ^ ,, Jakob Geyer.
+Hemishofen. „ „ Alexander Erni, von Aadorf.
+Stekborn. „ „ Ludwig Strini, von Schönenbaum-
+garten.
+Berlingen. Einnehmerin: Frl. Verena Meyer, von Männedorf.
+Mannenbach. Einnehmer : Hr. Jakob Fehr.
+463
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+Konstanz. Einnehmer: Hr. Johannes Hug, von Wuppenau.
+Kontroleur: „ Karl Hitz, von Seewis.
+Gehilfe: „ August Boiron, von Genf.
+Romanshorn. Einnehmer: Hr. Johannes Bader, von Regensdorf.
+Kontroleur: „ Ariste Rollier, von Nods (Bern).
+Gehilfe: „ Hans Farner, von Stammheim
+(Zürich).
+„ „ Rubin Gauer, von Wartau.
+„ „ Gottlieb Hirt, von Stilli (Aargau).
+„ „ Jakob Lips, von Oberiirdoi-l'(Zürich).
+„ „ Konrad Meßrner, v. Erle n (Thurgau).
+„ „ Georg Zimmermann, von Weggis
+(Luzern).
+Ermatingen. Einnehmer: Hr. Salomon Blattner.
+Gottlieben. Einnehmerin: Frl. Babette Meyer.
+Tägerweilen. Einnehmer: Hr. Peter Sulger, von Stein a. Rhein.
+Emmishofen. „ ^ Dominile Zehnder, von Etten-
+hausen.
+Kreuzungen. „ „ Konrad Schär, von Opfershofen
+(Thurgau).
+Altnau. „ „ Johannes Widmer, von Herrenhof
+(Thurgau).
+Keßweil „ „ Jakob Roth.
+Uttweil. .,, „ Johannes Frischknecht, von Herisau.
+Arbon. „ „ Johannes Rorschach.
+Hörn. „ „ Johannes Keller.
+ZUrich. Niederlagshaus.
+Einnehmer: Rudolf Müller, von Altstetten.
+Kontroleur: Michael Bächtold, von Schleitheim.
+C. Im III. Zollgebiete. (Direktionssiz in Chur.)
+a . Burea u der Direktion .
+Sekretär und Kassier: Hr. Hans Dicht, von Klosters.
+Revisor: „ Mathias Sulser, von Atzmoos.
+Gehilfe: „ Georg Gasser, von Unterhallau.
+b. Zollstätten.
+St. Gallen. Niederlagshaus.
+Einnehmer: Hr. Christian Kummer, von Thayngen.
+Kontroleur : „ Ulrich Kopp, von Romanshorn.
+464
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+Rorschach. Einnehmer: Hr. Ambrosius Ruedi, von Mayenfeld.
+Kontroleur: „ Jakob Frei, von Hemberg.
+Gehülfe: „ Johannes Schumacher, von Sigli-
+storf (Aargau).
+„ „ Georg Ziegler, v. Lachen (Schwyz).
+Staad. Einnehmer: „ Johannes Bärlocher, von Thal.
+St. Margrethen. Bahnhof.
+Einnehmer: Hr. Wilhelm Huber, von Dießenhofen.
+Kontroleur: „ Sebastian Locher, von Etns.
+Gehilfe: „ Friedrich Nsef, von Altstätten
+(St. Gallen.)
+Monstein • Au. Einnehmer : Hr. Johannes Gotte, von Kappel.
+St. Margrethen-
+Straße. „ „ Johannes Casutt, von Vais.
+Buchs. Bahnhof. Einnehmer: Hr. Ulrich Rothenberger.
+Luziensteig. Einnehmer: „ Johannes Bocksberger, von Bürglen
+(Thurgau).
+Schlappin. Einnehmer: „ Hans Jegen, von Klosters.
+Martinsbruck. „ Hr. Joseph Jenal, von Samnaun.
+Compatsch. „ „ Ludwig Jenal.
+Manas. „ „ Kaspar Bardola.
+Munster. „ „ Jakob Pitsch.
+Sta. Maria. „ „ Ulrich Parli, von Tamins.
+Cierfs. „ „ Mathias Moggi.
+Scanfs. y, „ Georg Walin.
+Campocologno. .,, Hr. Dorninik Thöny, von Reischen
+(Graubünden).
+Gehilfe: „ Rudolf Mengotti, von Foschiavo.
+Puschlav. Einnehmer: „ Romedo Passini.
+Castasegna. „ Hr. August Garbald, von Serneus.
+Kontroleur : „ Kaspar Fluor, von Saas.
+SplUgen. Einnehmer: Hr. Martin Meuli, von Nufeneu.
+Kontroleur: „ Mklaus Trepp.
+Madris. Einnehmer: „ Simon Stoffel.
+D. Im IV. Zollgebiete. (Direktionssiz in Lugano.)
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Felice Pozzi.
+Revisor: .
+n
+ Giuseppe Induni, vou Stabio.
+465
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+Gehilfe: Hr. Giosia Bernasconi, von Riva Sau
+Vitale.
+„ „ Theodor Krannichfeldt, von Iseo
+(Tessin).
+Chef der eidg. Grenzwächter
+im IV. Zollgebiet: „ Sebastian Wasescha, von Schwei-
+ningen (Graubünden).
+b. Z o 11 s t ä 11 e n.
+Lugano. Einnehmer: Hr. Ambrogio Conti, von Monteggio.
+Scareglia. „ „ Antonio Frapolli.
+Gandria. „ „ Giuseppe Crivelli, von Monteggio.
+Arogno. „ „ Eugenio Cornetta.
+Morcote. „ " „ Gottardo Rossini, von Scareglia.
+Fornasette. „ „ Filippo Rossinelli, von Novazzano.
+Termini. „ „ Pietro Chiesa, von Sessa.
+Astano. „ „ Giacomo Bachetta.
+Ponte-Tresa. „ „ Giovanni Bella.
+Caslano. „ „ Giuseppe Greppi.
+Chiasso. Bahnhof.
+Einnehmer: Hr. Achille Matti.
+Kontroleur : „ Antonio Della Casa, von Stabio.
+Gehilfe: „ Giovanni Pessina, von Castagnola.
+„ ^ Vittorino Lombardi, von Airolo.
+Chiasso. Straße.
+Einnehmer: Hr. Carlo Bernasconi.
+Kontroleur: „ Battista Tonella, von Lostallo
+(Graubünden).
+Gehilfe: „ Geremia Forni, von Airolo.
+Cabbio. „ „ Pietro Fontana.
+San Simone. „ „ Angelo Chiesa, von Chiasso.
+Seseglio. „ ^ Giovanni Grassi, von Novazzano.
+Novazzano. „ „ Frederico Soldini.
+Brusata. „ „ Carlo Albisetti.
+Stabio. „ ^ Rocco Chiesa, von Berzona.
+Ligornetto. „ „ Luigi Regazzoni, von Baierna.
+San Pietro. „ „ Battista Pellegrini, von Stabio.
+Arzo. „ „ Giacinto Bassi, von Monteggio.
+Magadino. ^ Hr. Paolo Zenna, von Ascona.
+Kontroleur: „ Benigno Bernasconi, von Chiasso.
+Dirinella. Einnehmer: ^ Aurelio Pessina, von Castagnola.
+Indemini. „ „ Bartolomeo Rossi.
+466
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+Carena. Einnehmer: Hr. Giuseppe Boggia, von S.Antonio.
+Bedretto. „ „ Clemente Forni.
+Locamo. „ Hr. Bartolomeo Fanciola.
+Kontroleur: „ Prospero Rusca.
+Gehilfe: „ Salvatore Alliò, von Avzo.
+„ ,., Cesare Greppi, von Caslano.
+Ascona. Einnehmer: „ Angelo Pancaldi-Pasini.
+Brissago. ' „ „ Tommaso Induni, von Stabio.
+Madonna di Ponte. ,, „ Antonio Rossi, von Arzo.
+Camedo. „ „ Francesco Guidetti.
+Comologno. „ „ Giovanni Marconi.
+E. Im V. Zollgebiete. (Direktionssiz in Lausanne.)
+Sekretär und Kassier: Hr. Auguste Cornu, von Mutrux (Waadt).
+Revisor : „ Gustave Druey, von Faoug.
+Gehilfe: „ AdolpheGavillet,vonPeney(Waadt).
+„ „ Maurice Hofer, von Düdingen (Frei-
+burg).
+Chef der eidg. Grenz Wächter
+im Kanton Neuenburg: Hr. Auguste Glardon, von Vallorbes.
+b. Zollstätten.
+Lausanne. Niederlagshaus.
+Einnehmer: Hr. Louis Blanchard, von Jouxtens-
+Mézery (Waadt).
+Vevey. „ ,, Arthur Matthey, von Savagnier.
+Ouchy. Einnehmer: Hr. Henri Glardon, von Vallorbes.
+Morges. „ ^ Louis Jaulet, von Vallorbes.
+Nyon. „ „ Jules Calarne, von Chamblon.
+Coppel. „ „ Jules Delafoge, von Gilly.
+Chavannes. ,, „ Arni Bornet, von Château-d'Oex.
+Grassier. „ „ Adolf Bernard, von Bex.
+Vallorbes. Bahnhof.
+Einnehmer: Hr. Louis Glardon.
+Kontroleur : „ Marc Béboux, von Cully.
+Gehilfe : „ Charles Thélin, von Mex (Waadt).
+Brassus. Einnehmer: Hr. Marc Golaz, von l'Abbaye.
+L'Auberson. ., „ Justin Gueissaz, von Ste. Croix.
+467
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+Verrières. Bahnhof.
+Einnehmer : Hr. Julius Zürni, von Laufenburg.
+Kontroleur : „ Jules Wergerer, von Massongex
+(Wallis).
+Gehilfe : „ Johannes Bähler, jun., von Uebeschi
+(Bern).
+v „ Albert Gribi, von Buren (Bern).
+„ „ André Wulliémoz, von Vuarrens
+(Waadt).
+Meudon. Einnehmer: „ François Crelier, von Bure (Bei-n).
+Col des Roches.
+Einnehmer: Hr. Paul Guillaume, von Verrières.
+Cerneux-
+Péquignot. „ „ Gustave Michel, von Rougemont
+(Waadt).
+Les Brenets. „ „ Friedrich Schenk, von Eggiwyl
+(Bern).
+La Rasse. ., „ Isidore Fragnière, von Gumefens
+(Freiburg).
+F. Im VI. Zollgebiete. (Direktionssiz in Genf.)
+a . Burea u der Direktion.
+Sekretär und Kassier: Hr. Emil Dorsi vai.
+Revisor : „ Elie Vivien.
+Gehilfe: „ Albert Badoud, von Romont.
+.
+;
+, „ Cy prie n Michel, von Bernex (Genf).
+„ ,., Karl Stettier, von Bern.
+Chef der eidg. Grenz wac h ter
+im VI. Zollgebiet: „ Anton Thalmann, von Entlebuch.
+b . Zollstätten .
+Gondo. Einnehmer: Hr. Georg Riethauser, von Zillis (Grau-
+bünden).
+Bouveret. .,, Hr. Alexandre Bussien.
+Ulrichen. „ ^ César Lagger, v. Münster {Wallis).
+Binnen. ^ „ Elie Walpen.
+Saas. „ .
+n
+ Peter Veneto.
+Zermatt. „ „ Stephan Biner.
+Bourg-St. Pieri-e. „ ^ Joseph Dorsaz.
+Praz-de-Fort. „ ^ François Murisier, von Orsières.
+468
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+Forclaz. Einnehmer : Hr. Lucien Gay, von Martigny.
+Champéry. „ „ Basile Exhenry.
+Genf. Freihafen.
+Einnehmer: Hr. Francois Moynat, v. Chône-Thonex.
+Kontroleur : „ Louis Bellarny, von Genf.
+Gehilfe: ^ Guido Chicherio, von Bellinzona.
+„ „ Ernst Hohl, von Herisau.
+„ „ Gottlieb Liebl, von Gümmenen
+(Bern).
+„ ,. Jean Morier, von Château d'Oex.
+„ „ Paul Rosselct, von les Bayards
+(Neuen bürg).
+Genf. Am See. Einnehmer: Hr. Gaspar Moynat, von Chône-Thonex.
+Kontroleur: ,, Denis D'Humilly, von Bardonnex.
+Hermance. Einnehmer: „ Léonard Tréand.
+\
+7
+ersoix. „ „ Jacques Drivet.
+Genf. Bahnhof. P. V.
+Einnehmer: Hr. Hippolyte Monnier, von Choulex.
+Kontroleur: ,.
+(
+ Arnold Vogt, von Allschwyl(Basel-
+landschaft).
+Gehilfe: „ François Balmer.
+„ „ Marc Berchten.
+„ ,, Pierre Bonnard, von Carouge.
+„ „ Abraham Böschenstcin, von Stein
+a. Rhein.
+„ „ Emile Henchoz, von Vallorbes.
+„ Wilhelm Keller, von Rorschach.
+^ ,, Ferdinand Lenz, von Boudry.
+„ „ Adrien Mathonnet.
+„ „ Ernst Münch, von Rheinfelden.
+„ ,, Charles Richard.
+Genf. Bahnhof. G. V.
+Einnehmer : „ Constant Delphin, von Carouge.
+Kontroleur: ,, François Dorsival.
+Gehilfe : „ Raffaele Maspero, von Ponte-Tresa.
+Moillesulaz. Einnehmer: Hr. Jean Michoud, von Lausanne.
+Kontroleur: „ Constant Lecoultre, von Brassus
+(Waadt).
+Gehilfe: „ EmilTrabold, vonZollikofen(Bern).
+Corsier. • „ ,, Jules Peri'ier, von Ste. Croix.
+Moniaz. „ .
+n
+ Etienne Meilland, von Liddes.
+Cara. „ ,, Francois Duveriiay.
+Voyrier. „ „ Jean Portier.
+469
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=10" target="_blank" shape="rect"><img alt="Seite 10 / Page 10" src="images/icons/c_launch_pdf.gif" border="0"/>(10)</a></div>
+
+Perly. Einnehmer: Hr. Louis Jacob, von Vésenaz.
+Kontroleur: „ Oscar Vuille, von La Sagne.
+Croix-de-
+Rozon. Einnehmer: „ Marc Dunand, von Présinges.
+Bardonnex. „ „ Claude Mermillod, von Carouge.
+Soral. ,, ,, Joseph Battiaz.
+Sésegnin. Einnehmerin : Frl. Françoise Martel.
+Meyrin. Straße.
+Einnehmer: Hr. Vincent Michel, von Païens.
+Gehüife : „ Henri Gaudin, von Nyon.
+Dardagny. Einnehmer: „ Antoine Vouaillat.
+Malvai.
+ fl
+ „ Jean Châtenoux, von Dardagny.
+Choully. Einnehmerin: Frl. Alice Turian.
+Mategnin. Einnehmer: Hr. Jean Argand, von Corsier (Genf).
+Chancy. „. „ Francois Besuchet, von Ballaigues.
+La Plaine. „
+ n
+ August Spicher, von Ueberstorf
+(Freiburg).
+Satigny. .,
+ n
+ Johaones Dora, von Marmorera
+(Graubünden).
+Meyrin (Station)
+ fl
+ „ Simon Seglias, v. Ems(Graubünden).
+Sacconnex.
+ n
+ Hr. Jean Genoux.
+Gehulfe : „ Pierre Tochet, von Liddes (Wallis).
+Vireloup. Einnehmer: „ PierreServettaz, vonCollex(Genf).
+Sauverny.
+ fl
+ • „ Auguste Truan, von Vallorbes.
+470
+<div class="pageDoc"><a href="viewOrigDoc/10011414.pdf?id=10011414&page=11" target="_blank" shape="rect"><img alt="Seite 11 / Page 11" src="images/icons/c_launch_pdf.gif" border="0"/>(11)</a></div>
+
+<!--highlightedDoc-->  
+            </pre>
+        </div>   
+        <script language="JavaScript">
+            //window.location.hash="resultlist"; 
+            //or
+            //BestHit();
+            BestHit();
+        </script>
+    </body>                                                                         
+</html>
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Schweizerisches Bundesarchiv (BAR)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/de/start/rechtliches.html">Rechtliches</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+//window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

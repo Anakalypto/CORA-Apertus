@@ -1,0 +1,308 @@
+{
+ "id": "10147493",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/10147493",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10147493",
+  "reference_code": "E2200.19-01#1000/1701#2750*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Rott,Edward: Histoire de la Représentation diplomatique de la France etc.",
+   "reference_number": "XXIV.C.8",
+   "date": {
+    "from": "1909-01-01",
+    "to": "1909-12-31",
+    "expressed": "1909-1909"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/9394",
+     "number": "1000/1701",
+     "title": "1000/01701 Schweizerische Vertretung, Rom (IT-Roma) (1841-1913)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "publication / book",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective historical work on French diplomatic representation, housed within the Swiss Federal Archives.",
+  "resume": "A 1909 bound volume titled 'Histoire de la Représentation diplomatique de la France etc.' by Edward Rott, held within the Swiss diplomatic archives in Rome. It documents the history of French diplomatic representation, likely focusing on its relations with Switzerland or Italy. The record is part of the central files of the Swiss Legation in Rome from 1898 to 1952."
+ },
+ "metadata": {
+  "title": "Rott,Edward: Histoire de la Représentation diplomatique de la France etc.",
+  "title_normalized": "Rott,Edward: Histoire de la Représentation diplomatique de la France etc.",
+  "title_en": "History of the Diplomatic Representation of France etc.",
+  "creator": "Edward Rott",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1909-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1909/1909",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "diplomacy",
+   "French foreign policy",
+   "Swiss foreign relations",
+   "history"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Rom (1818-)",
+  "fonds_reference": "E10687*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Rom (1818-)",
+   "Schweizerische Vertretung, Rom: Zentrale Ablage (1898-1952)",
+   "Affaire de la Légation",
+   "Chancellerie"
+  ],
+  "reference_code": "E2200.19-01#1000/1701#2750*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/10147493",
+  "accession_numbers": [
+   "1000/1701"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Edward Rott",
+    "display_name": "Edward Rott",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Rom",
+    "role": "depository",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Rome",
+    "as_written": "Rom",
+    "role": "depicted",
+    "country": "IT",
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "gazetteer": "https://www.openstreetmap.org/relation/41485",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Rott,Edward\"; named organizations or places (apertus): hierarchy_top_down contains \"Schweizerische Vertretung, Rom\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Rott,Edward\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Schweizerische Vertretung, Rom\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names a person (Edward Rott) and an organization (Swiss representation in Rome), but no identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1909-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The book was authored and finalized in 1909.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1909-12-31",
+   "place": "Rome",
+   "lat": 41.8933203,
+   "lon": 12.4829321,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1701 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.19-01#1000/1701#2750*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "resume_speculative"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4569,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

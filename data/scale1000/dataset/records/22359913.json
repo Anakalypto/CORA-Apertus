@@ -1,0 +1,339 @@
+{
+ "id": "22359913",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22359913",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22359913",
+  "reference_code": "J2.225#2007/135#14#31*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Skandal um Wolfowitz",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504086\nSignatur Bundesarchiv: J2.225#2007/135#14*",
+   "scope_and_content": "Inhaltsangabe: USA Washington: Rücktrittsforderungen an Weltbank-Präsident Paul Wolfowitz wegen Verdachts auf Vetternwirtschaft am Treffen des Internationalen Währungsfonds (IWF)\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: USA Washington: Statement Doris Leuthard / Ankunft Paul Wolfowitz / Konferenzszenen mit Paul Wolfowitz / PK Dana  Perino / PK Paul Wolfowitz",
+   "author": "AutorIn: Lingner, Tilman: SPIB\nProduktion: SF",
+   "involved": "Moderation: Stauber, Katja",
+   "form": "Video",
+   "format": "Dauer: 00.01.43\nStartposition: 00:24:38\nTotal Spieldauer: 00.19.30\nTräger: Beta IMX",
+   "thema": "Personen: Perino, Dana : stv Sprecherin Weisses Haus\nSachdeskriptor: /SENSATION./AFFÄRE/SKANDAL;/WIRTSCHAFT./WELTWIRTSCHAFT/WIRTSCHAFTSKONFERENZ",
+   "date": {
+    "from": "2007-04-14",
+    "to": null,
+    "expressed": "2007.04.14"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production of the news program with original footage and on-the-record statements.",
+  "resume": "The document is a video news report covering the controversy surrounding World Bank President Paul Wolfowitz, featuring statements by Doris Leuthard and scenes from a conference in Washington, D.C."
+ },
+ "metadata": {
+  "title": "Skandal um Wolfowitz",
+  "title_normalized": "Skandal um Wolfowitz",
+  "title_en": "Scandal over Wolfowitz",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Z�rich)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-04-14",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-04-14",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Paul Wolfowitz",
+   "World Bank",
+   "International Monetary Fund",
+   "scandal"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 14.04.2007"
+  ],
+  "reference_code": "J2.225#2007/135#14#31*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22359913",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Doris Leuthard",
+    "display_name": "Doris Leuthard",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q115442",
+     "label": "Doris Leuthard",
+     "description": "lawyer, politician and former member of the Swiss Federal Council (2006-2018)",
+     "url": "https://www.wikidata.org/wiki/Q115442"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Perino, Dana",
+    "display_name": "Dana Perino",
+    "role": "stv Speaker White House",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Katja Stauber",
+    "display_name": "Katja Stauber",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1384116",
+     "label": "Katja Stauber",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1384116"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Television DRS (Z�rich)",
+    "role": "producer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Washington",
+    "as_written": "USA Washington",
+    "role": "depicted",
+    "country": "US",
+    "lat": 38.8950982,
+    "lon": -77.0363849,
+    "gazetteer": "https://www.openstreetmap.org/relation/5396194",
+    "model_lat": 38.9072,
+    "model_lon": -77.0399
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Lingner, Tilman: SPIB\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Perino, Dana; named organizations or places (apertus): USA Washington",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): 2007.04.14",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Lingner, Tilman: SPIB\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.04.14"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Perino, Dana"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "USA Washington"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-04-14",
+   "place": "Washington",
+   "lat": 38.8950982,
+   "lon": -77.0363849,
+   "description": "Video news report broadcast covering the Paul Wolfowitz scandal.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#14#31*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5207,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

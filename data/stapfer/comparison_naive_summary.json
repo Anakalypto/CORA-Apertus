@@ -1,0 +1,105 @@
+{
+ "cases_available": 1562,
+ "sampled": 40,
+ "seed": 42,
+ "model": "apertus-v1-5-70b",
+ "errors": 0,
+ "fields": {
+  "place": {
+   "match": 21,
+   "mismatch": 19,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.525
+  },
+  "canton_1799": {
+   "match": 32,
+   "mismatch": 6,
+   "missed": 2,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.8
+  },
+  "school_type": {
+   "match": 0,
+   "mismatch": 2,
+   "missed": 38,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.0
+  },
+  "confession": {
+   "match": 10,
+   "mismatch": 2,
+   "missed": 27,
+   "extra": 0,
+   "both_empty": 1,
+   "accuracy_where_bern_has_value": 0.256
+  },
+  "teacher_name": {
+   "match": 37,
+   "mismatch": 3,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.925
+  },
+  "teacher_age": {
+   "match": 39,
+   "mismatch": 1,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.975
+  },
+  "teacher_marital_status": {
+   "match": 18,
+   "mismatch": 13,
+   "missed": 7,
+   "extra": 1,
+   "both_empty": 1,
+   "accuracy_where_bern_has_value": 0.474
+  },
+  "teacher_since": {
+   "match": 22,
+   "mismatch": 12,
+   "missed": 0,
+   "extra": 5,
+   "both_empty": 1,
+   "accuracy_where_bern_has_value": 0.647
+  },
+  "pupils_winter": {
+   "match": 15,
+   "mismatch": 0,
+   "missed": 1,
+   "extra": 22,
+   "both_empty": 2,
+   "accuracy_where_bern_has_value": 0.938
+  },
+  "pupils_summer": {
+   "match": 3,
+   "mismatch": 2,
+   "missed": 0,
+   "extra": 20,
+   "both_empty": 15,
+   "accuracy_where_bern_has_value": 0.6
+  },
+  "author_name": {
+   "match": 22,
+   "mismatch": 4,
+   "missed": 7,
+   "extra": 1,
+   "both_empty": 6,
+   "accuracy_where_bern_has_value": 0.667
+  },
+  "date_written": {
+   "match": 15,
+   "mismatch": 2,
+   "missed": 1,
+   "extra": 1,
+   "both_empty": 21,
+   "accuracy_where_bern_has_value": 0.833
+  }
+ }
+}

@@ -1,0 +1,491 @@
+{
+ "id": "3524041",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524041",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524041",
+  "reference_code": "E1301#1990/283#9#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Ad 88.210: Postulat der Verkehrskommission. Strasse zwischen Lörrach und Weil am Rhein / Postulat de la Commission des transports et du trafic. Route entre Lörrach et Weil am Rhein",
+   "scope_and_content": "Sprecher/Sprecherinnen: Baerlocher, Thomas; Burckhardt, Martin; Diener, Verena; Dünki, Max; Felber, René; Hösli, Fritz; Hubacher, Helmut; Meizoz, Bernard; Müller, Kurt; Ott, Heinrich; Theubet, Gabriel; Weber, Karl; Weder, Hansjürg",
+   "date": {
+    "from": "1990-03-19",
+    "to": null,
+    "expressed": "1990.03.19"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383445",
+     "number": "1990/283",
+     "title": "1990/00283 Parlamentsdienste (Bern) (1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate with listed speakers and date of the session.",
+  "resume": "This document is a parliamentary postulate concerning the road between Lörrach and Weil am Rhein, recorded during a session of the National Council on 19 March 1990. It contains the names of multiple speakers who participated in the debate. The record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "Ad 88.210: Postulat der Verkehrskommission. Strasse zwischen Lörrach und Weil am Rhein / Postulat de la Commission des transports et du trafic. Route entre Lörrach et Weil am Rhein",
+  "title_normalized": "Ad 88.210: Postulat der Verkehrskommission. Strasse zwischen Lörrach und Weil am Rhein / Postulat de la Commission des transports et du trafic. Route entre Lörrach et Weil am Rhein",
+  "title_en": "Postulate of the Transport Commission: Road between Lörrach and Weil am Rhein",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1990-03-19",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1990",
+  "content_date": "1990-03-19",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "transport infrastructure",
+   "road construction",
+   "cross-border traffic"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Frühjahrssession 1990",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1990/283#9#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524041",
+  "accession_numbers": [
+   "1990/283"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Thomas Baerlocher",
+    "display_name": "Thomas Baerlocher",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Martin Burckhardt",
+    "display_name": "Martin Burckhardt",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Verena Diener",
+    "display_name": "Verena Diener",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116457",
+     "label": "Verena Diener",
+     "description": "Swiss politician (1949–2024)",
+     "url": "https://www.wikidata.org/wiki/Q116457"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Max Dünki",
+    "display_name": "Max Dünki",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1912425",
+     "label": "Max Dünki",
+     "description": "Swiss politician (1932-2011)",
+     "url": "https://www.wikidata.org/wiki/Q1912425"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": 2011,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "René Felber",
+    "display_name": "René Felber",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Fritz Hösli",
+    "display_name": "Fritz Hösli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1466820",
+     "label": "Fritz Hösli",
+     "description": "Swiss politician (1922-2002)",
+     "url": "https://www.wikidata.org/wiki/Q1466820"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2002,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Helmut Hubacher",
+    "display_name": "Helmut Hubacher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1603686",
+     "label": "Helmut Hubacher",
+     "description": "Swiss politician (1926-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1603686"
+    },
+    "life_date_check": {
+     "born": 1926,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bernard Meizoz",
+    "display_name": "Bernard Meizoz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q78066300",
+     "label": "Bernard Meizoz",
+     "description": "Swiss politician (1927-2011)",
+     "url": "https://www.wikidata.org/wiki/Q78066300"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2011,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Müller",
+    "display_name": "Kurt Müller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q16117063",
+     "label": "Kurt Müller",
+     "description": "Swiss field hockey player",
+     "url": "https://www.wikidata.org/wiki/Q16117063"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heinrich Ott",
+    "display_name": "Heinrich Ott",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q15814831",
+     "label": "Heinrich Ott",
+     "description": "Austrian politician (1893-1975)",
+     "url": "https://www.wikidata.org/wiki/Q15814831"
+    },
+    "life_date_check": {
+     "born": 1893,
+     "died": 1975,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gabriel Theubet",
+    "display_name": "Gabriel Theubet",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2697855",
+     "label": "Gabriel Theubet",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2697855"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Karl Weber",
+    "display_name": "Karl Weber",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q85846",
+     "label": "Karl Weber",
+     "description": "German politician, former minister of justice (1898-1985)",
+     "url": "https://www.wikidata.org/wiki/Q85846"
+    },
+    "life_date_check": {
+     "born": 1898,
+     "died": 1985,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansjürg Weder",
+    "display_name": "Hansjürg Weder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1583903",
+     "label": "Hansjürg Weder",
+     "description": "Swiss politician (1928-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1583903"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Lörrach",
+    "as_written": "Lörrach",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.5917393,
+    "lon": 7.6560315,
+    "gazetteer": "https://www.openstreetmap.org/way/1108500971",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Weil am Rhein",
+    "as_written": "Weil am Rhein",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.5890037,
+    "lon": 7.5930449,
+    "gazetteer": "https://www.openstreetmap.org/node/3221981273",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Ad 88.210: Postulat der Verkehrskommission. Strasse zwischen Lörrach und Weil am Rhein / Postulat de la Commission des transports et du trafic. Route entre Lörrach et Weil am Rhein\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Thomas Baerlocher\", \"Martin Burckhardt\", \"Verena Diener\", \"Max Dünki\", \"René Felber\", \"Fritz Hösli\", \"Helmut Hubacher\", \"Bernard Meizoz\", \"Kurt Müller\", \"Heinrich Ott\", \"Gabriel Theubet\", \"Karl Weber\", \"Hansjürg Weder\"]; named organizations or places (apertus): title: \"Strasse zwischen Lörrach und Weil am Rhein\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1990.03.19",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Ad 88.210: Postulat der Verkehrskommission. Strasse zwischen Lörrach und Weil am Rhein / Postulat de la Commission des transports et du trafic. Route entre Lörrach et Weil am Rhein\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1990.03.19"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Thomas Baerlocher\", \"Martin Burckhardt\", \"Verena Diener\", \"Max Dünki\", \"René Felber\", \"Fritz Hösli\", \"Helmut Hubacher\", \"Bernard Meizoz\", \"Kurt Müller\", \"Heinrich Ott\", \"Gabriel Theubet\", \"Karl Weber\", \"Hansjürg Weder\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Strasse zwischen Lörrach und Weil am Rhein\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1990-03-19",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary debate on a postulate concerning the road between Lörrach and Weil am Rhein.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1990",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1990/283 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1990/283#9#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5391,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

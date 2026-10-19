@@ -1,0 +1,67 @@
+{
+ "id": "3471613",
+ "uri": "https://culture.ld.admin.ch/ais/3471613",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3471613",
+ "title": "Register zu den Tagebüchern",
+ "reference_code": "E4#1000/781#76*",
+ "reference_number": "3.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroform",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1859-01-01",
+  "to": "1860-12-31",
+  "expressed": "1859-1860"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12694",
+   "number": "1000/781",
+   "title": "1000/00781 Bundesverwaltung (Bern) (1848-1984)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3832997",
+   "title": "Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E4#3.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3832996",
+   "title": "Administratives, Personelles",
+   "level": "Serie",
+   "reference_code": "E4#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3586",
+   "title": "Inneres, Verwaltung und Verschiedenes",
+   "level": "Stock",
+   "reference_code": "E4*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

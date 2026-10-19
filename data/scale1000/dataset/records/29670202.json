@@ -1,0 +1,310 @@
+{
+ "id": "29670202",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29670202",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29670202",
+  "reference_code": "J2.225#2007/61#114#94*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "SP-Delegiertenversammlung",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504065\nSignatur Bundesarchiv: J2.225#2007/1#114*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Locarno, TI: Delegiertenversammlung (DV) der SP / Zukunftsgipfel zu Wahlkampf-Themen wie Kinderkrippen, Klimaschutz und Steuergerechtigkeit\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Locarno, TI: Rede Hans-Jürg Fehr / Rede Moritz Leuenberger",
+   "author": "AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:57\nPosition Anfang: 00:12:09",
+   "thema": "Personen: Leuenberger, Moritz (Bundesrat)\nSachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF",
+   "date": {
+    "from": "2007-03-24",
+    "to": null,
+    "expressed": "2007.03.24"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production of a political event captured by the Swiss Television DRS.",
+  "resume": "A video recording of the SP delegates' assembly (Delegiertenversammlung) held in Locarno, Ticino, featuring speeches by Hans-Jrg Fehr and Moritz Leuenberger on topics such as childcare, climate protection, and tax fairness."
+ },
+ "metadata": {
+  "title": "SP-Delegiertenversammlung",
+  "title_normalized": "SP-Delegiertenversammlung",
+  "title_en": "SP Delegates' Assembly",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Zabric)",
+  "commissioner": null,
+  "date_created": "2007-03-24",
+  "date_published": "2007-03-24",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-03-24",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "politics",
+   "party",
+   "election campaign"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 24.03.2007"
+  ],
+  "reference_code": "J2.225#2007/61#114#94*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29670202",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Leuenberger, Moritz (Bundesrat)",
+    "display_name": "Moritz (Bundesrat) Leuenberger",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Fehr, Hans-J\u001frg",
+    "display_name": "Hans-J\u001frg Fehr",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SP (Swiss Party)",
+    "role": "organizer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Locarno",
+    "as_written": "Locarno, TI",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.1695739,
+    "lon": 8.7954859,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684697",
+    "model_lat": 46.0,
+    "model_lon": 8.8
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2007/1#114*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: Personen: Leuenberger, Moritz (Bundesrat); named organizations or places (apertus): thema: Personen: Leuenberger, Moritz (Bundesrat)\nSachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.03.24; free text places (apertus): scope_and_content: Schweiz <Locarno, TI: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2007/1#114*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.03.24"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: Schweiz <Locarno, TI: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Leuenberger, Moritz (Bundesrat)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Leuenberger, Moritz (Bundesrat)\nSachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-03-24",
+   "place": "Locarno, TI",
+   "lat": 46.1695739,
+   "lon": 8.7954859,
+   "description": "Video recording of SP delegates' assembly with speeches by Moritz Leuenberger and Hans-J\u001frg Fehr.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#114#94*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:control_chars"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5126,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

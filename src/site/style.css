@@ -724,3 +724,9 @@ body.fit-page .inq-board { position: static; align-self: stretch; min-height: 0;
   body.fit-page .case-composer textarea { min-height: 40px; }
   body.fit-page .case-composer .inq-folder-foot { margin-top: 6px; }
 }
+
+/* Language switch (i18n.js) */
+.lang-switch { display: flex; gap: 2px; margin-left: auto; }
+.lang-switch button { background: none; border: 1px solid #444; color: #ddd; font: 600 12px var(--sans); padding: 4px 8px; cursor: pointer; border-radius: 2px; }
+.lang-switch button:hover { border-color: #888; color: #fff; }
+.lang-switch button.on { background: var(--accent); border-color: var(--accent); color: #fff; }

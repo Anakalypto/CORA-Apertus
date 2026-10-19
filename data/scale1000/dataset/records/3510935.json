@@ -1,0 +1,330 @@
+{
+ "id": "3510935",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3510935",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510935",
+  "reference_code": "E1401#2003/493#9#8*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2003.3067: Empfehlung Hess Hans. Holz für Afghanistan / Recommandation Hess Hans. Du bois pour l'Afghanistan",
+   "scope_and_content": "Sprecher/Sprecherinnen: Hess, Hans; Leuenberger, Moritz; Schiesser, Fritz",
+   "date": {
+    "from": "2003-06-16",
+    "to": null,
+    "expressed": "2003.06.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383499",
+     "number": "2003/493",
+     "title": "2003/00493 Parlamentsdienste (Bern) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a debate in the Swiss Council of States, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record from the Swiss Council of States (Ständerat) capturing a debate on June 16, 2003, concerning a recommendation by Hans Hess regarding timber supplies for Afghanistan, with speakers including Hans Hess, Moritz Leuenberger, and Fritz Schiesser."
+ },
+ "metadata": {
+  "title": "2003.3067: Empfehlung Hess Hans. Holz für Afghanistan / Recommandation Hess Hans. Du bois pour l'Afghanistan",
+  "title_normalized": "2003.3067: Empfehlung Hess Hans. Holz für Afghanistan / Recommandation Hess Hans. Du bois pour l'Afghanistan",
+  "title_en": "Recommendation Hess Hans. Timber for Afghanistan / Recommandation Hess Hans. Wood for Afghanistan",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2003-06-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2003-06-16",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Afghanistan",
+   "timber supply",
+   "Swiss foreign policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Sommersession 2003",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2003/493#9#8*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510935",
+  "accession_numbers": [
+   "2003/493"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Hess",
+    "display_name": "Hans Hess",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q5650147",
+     "label": "Hans Hess",
+     "description": "German-British art historian, curator, art festival director (1908-1975)",
+     "url": "https://www.wikidata.org/wiki/Q5650147"
+    },
+    "life_date_check": {
+     "born": 1908,
+     "died": 1975,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Fritz Schiesser",
+    "display_name": "Fritz Schiesser",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q693281",
+     "label": "Fritz Schiesser",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q693281"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2003.3067: Empfehlung Hess Hans. Holz für Afghanistan / Recommandation Hess Hans. Du bois pour l'Afghanistan'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Hans Hess', 'Moritz Leuenberger', 'Fritz Schiesser']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2003.06.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2003.3067: Empfehlung Hess Hans. Holz für Afghanistan / Recommandation Hess Hans. Du bois pour l'Afghanistan'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2003.06.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Hans Hess', 'Moritz Leuenberger', 'Fritz Schiesser']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/493 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2003/493#9#8*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4834,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

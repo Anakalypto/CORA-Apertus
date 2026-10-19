@@ -1,0 +1,297 @@
+{
+ "id": "32684657",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32684657",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32684657",
+  "reference_code": "E3120C#2014/269#1520*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Findmittel E8171-02 Bundesamt für Wasserwirtschaft: Wasserbau",
+   "reference_number": "516.9",
+   "scope_and_content": "enthält folgende Ablieferung: 2004/577",
+   "date": {
+    "from": "2006-01-01",
+    "to": null,
+    "expressed": "2006"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30291142",
+     "number": "2014/269",
+     "title": "2014/00269 Schweizerisches Bundesarchiv (Bern) (1894-2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a finding aid describing an archival delivery from the Federal Office for Water Management.",
+  "resume": "This is a finding aid (inventory entry) for a transferred archival delivery from the Federal Office of Water Management, containing water construction files. It documents the appraisal and description of the material rather than the water management content itself. The record was created as part of the Swiss Federal Archives' central filing system for obsolete finding aids."
+ },
+ "metadata": {
+  "title": "Findmittel E8171-02 Bundesamt für Wasserwirtschaft: Wasserbau",
+  "title_normalized": "Findmittel E8171-02 Bundesamt für Wasserwirtschaft: Wasserbau",
+  "title_en": "Finding aid E8171-02 Federal Office of Water Management: Water Construction",
+  "creator": "Schweizerisches Bundesarchiv",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "2006",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "water management",
+   "federal administration",
+   "archival description",
+   "water construction"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerisches Bundesarchiv (1979-)",
+  "fonds_reference": "E10796*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerisches Bundesarchiv (1979-)",
+   "Schweizerisches Bundesarchiv: Zentrale Ablage (1996-2007)",
+   "Bewertung, Erschliessung",
+   "Erschliessung",
+   "Detailfindmittel",
+   "Ausgeschiedene Find- und Findhilfsmittel"
+  ],
+  "reference_code": "E3120C#2014/269#1520*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32684657",
+  "accession_numbers": [
+   "2014/269"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Bundesamt für Wasserwirtschaft",
+    "role": "depositor",
+    "wikidata": {
+     "qid": "Q3349623",
+     "label": "Bundesamt für Wasserwirtschaft",
+     "description": "former Swiss government office (1979-1999)",
+     "url": "https://www.wikidata.org/wiki/Q3349623"
+    }
+   },
+   {
+    "name": "Schweizerisches Bundesarchiv",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Bundesamt für Wasserwirtschaft, Schweizerisches Bundesarchiv",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"2006\" only",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"2006\" only"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bundesamt für Wasserwirtschaft, Schweizerisches Bundesarchiv"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2006",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Finding aid created by the Swiss Federal Archives to describe transferred water management files",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/269 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3120C#2014/269#1520*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4616,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

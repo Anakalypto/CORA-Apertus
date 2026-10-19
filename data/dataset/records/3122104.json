@@ -1,0 +1,306 @@
+{
+ "id": "3122104",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3122104",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3122104",
+  "reference_code": "E8100C-02#1983/101#61*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsartikel, Fotos, Prospekte",
+   "reference_number": "6010-30",
+   "date": {
+    "from": "1931-01-01",
+    "to": null,
+    "expressed": "1931"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15645",
+     "number": "1983/101",
+     "title": "1983/00101 Bundesverwaltung (Bern) (1878-1976)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "mixed",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit consists of contemporary press clippings, photographs, and brochures related to the Parsenn cable car project.",
+  "resume": "The record is a mixed-media sub-file containing newspaper articles, photographs, and brochures related to the Parsenn cable car system in Davos. It documents promotional and informational materials produced by the manufacturer and operator of the cable car. The materials cover the system's design, construction, and public presentation."
+ },
+ "metadata": {
+  "title": "Zeitungsartikel, Fotos, Prospekte",
+  "title_normalized": "Zeitungsartikel, Fotos, Prospekte",
+  "title_en": "Newspaper articles, photographs, brochures",
+  "creator": "Bundesamt für Verkehr: Teilregistratur Seilbahnen",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1931",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1983",
+  "content_date": "1931",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "cable car",
+   "transportation",
+   "Davos",
+   "Parsenn",
+   "Roll system"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Teilregistratur Seilbahnen  (1979-1981)",
+   "Davos - Parsenn (System von Roll, Bern)"
+  ],
+  "reference_code": "E8100C-02#1983/101#61*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3122104",
+  "accession_numbers": [
+   "1983/101"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Bundesamt für Verkehr",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q1005512",
+     "label": "Federal Office of Transport",
+     "description": "Swiss federal office",
+     "url": "https://www.wikidata.org/wiki/Q1005512"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Davos",
+    "as_written": "Davos",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.796198,
+    "lon": 9.8236892,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684068",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Zeitungsartikel, Fotos, Prospekte\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down contains named organizations/places like 'Bundesamt für Verkehr'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): hierarchy_top_down contains free text place names like 'Davos'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Zeitungsartikel, Fotos, Prospekte\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains free text place names like 'Davos'"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains named organizations/places like 'Bundesamt für Verkehr'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1931",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Production of newspaper articles, photographs, and brochures about the Parsenn cable car system.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1931",
+   "place": "Davos",
+   "lat": 46.796198,
+   "lon": 9.8236892,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1983",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1983/101 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100C-02#1983/101#61*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4496,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

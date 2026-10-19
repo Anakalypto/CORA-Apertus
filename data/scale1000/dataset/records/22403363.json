@@ -1,0 +1,325 @@
+{
+ "id": "22403363",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22403363",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22403363",
+  "reference_code": "J2.240#1998/317#1145#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "ASUAG / SSIH / FACADES ; TELE JOURNAL, 18.01.1985",
+   "old_reference_code": "Original Signatur: TJTSR 85UH0932/01; 97LM7326/01\nSignatur Bundesarchiv: J2.240#1998/317#5369*",
+   "scope_and_content": "Sequenzbeschrieb: Exterieur du batiment. Asvag / Omega a Bienne. Facades E.T.A. et Rado.",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: SUISSE; Berne; Bienne\nZeitliche Abdeckung: 11.01.1985-25.01.1985",
+   "form": "Video",
+   "format": "Dauer: 00:00.31\nFarbe: couleur\nFormat Arbeitskopie: Betacam-digital\nOriginalformat: COMPON25 4/3\nStartposition: 00:01.30",
+   "thema": "Sachdeskriptor: entreprise; horlogerie",
+   "date": {
+    "from": "1985-01-18",
+    "to": null,
+    "expressed": "1985.01.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16906",
+     "number": "1998/317",
+     "title": "1998/00317 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast segment from the Téléjournal program, created at the time of the events.",
+  "resume": "A video segment from the Swiss Romand television news program Téléjournal, dated 18 January 1985, showing exterior views of the Asvag/Omega building in Bienne and facades of E.T.A. and Rado."
+ },
+ "metadata": {
+  "title": "ASUAG / SSIH / FACADES ; TELE JOURNAL, 18.01.1985",
+  "title_normalized": "ASUAG / SSIH / FACADES ; TELE JOURNAL, 18.01.1985",
+  "title_en": "ASUAG / SSIH / FACADES ; Telejournal, 18 January 1985",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1985-01-18",
+  "date_published": "1985-01-18",
+  "date_updated": null,
+  "date_archived": "1998",
+  "content_date": "1985-01-18",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "enterprise",
+   "watchmaking"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Téléjournal 1980-1991 TSR",
+   "Téléjournal TSR 1985",
+   "Téléjournal TSR 18.01.1985"
+  ],
+  "reference_code": "J2.240#1998/317#1145#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22403363",
+  "accession_numbers": [
+   "1998/317"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Asvag",
+    "role": "depicted",
+    "wikidata": null
+   },
+   {
+    "name": "Omega",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q659224",
+     "label": "Omega SA",
+     "description": "Swiss luxury watchmaker",
+     "url": "https://www.wikidata.org/wiki/Q659224"
+    }
+   },
+   {
+    "name": "E.T.A.",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q91006005",
+     "label": "E.T.A.",
+     "description": "2020 song by Justin Bieber",
+     "url": "https://www.wikidata.org/wiki/Q91006005"
+    }
+   },
+   {
+    "name": "Rado",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q180014",
+     "label": "Rado",
+     "description": "Swiss luxury watch company",
+     "url": "https://www.wikidata.org/wiki/Q180014"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bienne",
+    "as_written": "Bienne",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.1402077,
+    "lon": 7.2439029,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682380",
+    "model_lat": 46.946,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"1998/00317 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): ASUAG / SSIH / FACADES ; TELE JOURNAL, 18.01.1985",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Exterieur du batiment. Asvag / Omega a Bienne. Facades E.T.A. et Rado.",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:00.31\nFarbe: couleur\nFormat Arbeitskopie; multilingual (apertus): Sequenzbeschrieb: Exterieur du batiment. Asvag / Omega a Bienne. Facades E.T.A. et Rado.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Geografische Abdeckung: SUISSE; Berne; Bienne",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1985.01.18; free text places (apertus): Geografische Abdeckung: SUISSE; Berne; Bienne",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"1998/00317 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "ASUAG / SSIH / FACADES ; TELE JOURNAL, 18.01.1985"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Exterieur du batiment. Asvag / Omega a Bienne. Facades E.T.A. et Rado."
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:00.31\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Exterieur du batiment. Asvag / Omega a Bienne. Facades E.T.A. et Rado."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1985.01.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: SUISSE; Berne; Bienne"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: SUISSE; Berne; Bienne"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1985-01-18",
+   "place": "Bienne",
+   "lat": 47.1402077,
+   "lon": 7.2439029,
+   "description": "Broadcast segment of Téléjournal showing exterior views of Asvag/Omega building and facades of E.T.A. and Rado.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1998",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1998/317 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#1998/317#1145#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5222,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

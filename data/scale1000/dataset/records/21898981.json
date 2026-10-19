@@ -1,0 +1,363 @@
+{
+ "id": "21898981",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21898981",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21898981",
+  "reference_code": "J2.225#2000/22#3351#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Basler Kultur ; DRS-aktuell, 11.01.1988",
+   "old_reference_code": "Original Signatur: RJSFDRS 9305967\nSignatur Bundesarchiv: J2.225#2000/22#4194*",
+   "scope_and_content": "Inhaltsangabe: CH Basel, BS: Porträt Basel als Kultur-Stadt anlässlich bevorstehenden Regierungsrats-Wahlen und Grossrats-Wahlen\nSequenzbeschrieb: CH Basel, BS: GPL Plakat / Impressionen Tinguely-Brunnen (°lang) / Rede Edgar Bonjour (°Historiker) (Archiv, 19860510) / mittelalterliche Handschriften-Illumination / IA Historisches Museum, Grabstein von °Erasmus von °Rotterdam / GPL Abstimmungs-Inserate, GPL °Picasso-Gemälde / °Picasso-Gemälde im Museum / Ballett-Ausschnitte / Impressionen Fasnacht (Archiv, 1987) / sw-Foto Maja und Paul Sacher (°Mäzene) / Konzert-Ausschnitt, Paul Sacher dirigierend (Archiv) / IA Museum für Gegenwartskunst, Porträt-Gemälde Maja Sacher von Andy °Warhol / Komponisten-Nachlässe in Archiv",
+   "author": "AutorIn: Bitterlin, Andreas\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Sprecher: Bitterlin, Andreas",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 04.01.1988-18.01.1988",
+   "form": "Video",
+   "format": "Dauer: 00:07:11\nFarbe: Farbaufnahmen\nStartposition: 00.35.04\nTräger: Betacam-Digital",
+   "thema": "Personen: Bonjour, Edgar;Rotterdam, Erasmus von;Picasso, Pablo;Sacher, Maja;Sacher, Paul;Warhol, Andy\nSachdeskriptor: Kultur",
+   "date": {
+    "from": "1988-01-11",
+    "to": null,
+    "expressed": "1988.01.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording of a television program produced by DRS and aired on 11 January 1988.",
+  "resume": "A television regional magazine segment from DRS-aktuell dated 11 January 1988, featuring cultural content about Basel as a city of culture, portraits of Edgar Bonjour, Erasmus of Rotterdam, Pablo Picasso, Maja and Paul Sacher, and Andy Warhol, along with images of the Tinguely fountain, medieval manuscripts, and ballet performances."
+ },
+ "metadata": {
+  "title": "Basler Kultur ; DRS-aktuell, 11.01.1988",
+  "title_normalized": "Basler Kultur ; DRS-aktuell, 11.01.1988",
+  "title_en": "Basel Culture; DRS-aktuell, 11 January 1988",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1988-01-11",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1988-01-11",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "culture",
+   "art",
+   "Basel"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1988",
+   "Regionalmagazine SFDRS 11.01.1988"
+  ],
+  "reference_code": "J2.225#2000/22#3351#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21898981",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Edgar Bonjour",
+    "display_name": "Edgar Bonjour",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Erasmus of Rotterdam",
+    "display_name": "Erasmus of Rotterdam",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Pablo Picasso",
+    "display_name": "Pablo Picasso",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Maja Sacher",
+    "display_name": "Maja Sacher",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Paul Sacher",
+    "display_name": "Paul Sacher",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Andy Warhol",
+    "display_name": "Andy Warhol",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q5603",
+     "label": "Andy Warhol",
+     "description": "American artist, film director, and producer (1928–1987)",
+     "url": "https://www.wikidata.org/wiki/Q5603"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 1987,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "CH Basel",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.56,
+    "model_lon": 7.54
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1958-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Bitterlin, Andreas\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Bonjour, Edgar;Rotterdam, Erasmus von;Picasso, Pablo;Sacher, Maja;Sacher, Paul;Warhol, Andy; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1988.01.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1958-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Bitterlin, Andreas\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1988.01.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Bonjour, Edgar;Rotterdam, Erasmus von;Picasso, Pablo;Sacher, Maja;Sacher, Paul;Warhol, Andy"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1988-01-11",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Television segment aired as part of DRS-aktuell regional magazine.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#3351#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5773,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,70 @@
+{
+ "id": "22323710",
+ "uri": "https://culture.ld.admin.ch/ais/22323710",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22323710",
+ "title": "Ausstellung Hans Purrmann ; Antenne, 01.06.1966",
+ "reference_code": "J2.225#2004/29#42#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: RJSFDRS 9500544\nSignatur Bundesarchiv: J2.225#2004/29#185*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Aarau, AG: Ausstellung von Hans Purrmann im Kunsthaus\nSequenzbeschrieb: CH Aarau, AG: Werkbeispiele Hans Purrmann",
+ "author": "AutorIn: Oppenheim, Roy\nProduktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 25.05.1966-08.06.1966",
+ "form": "Video",
+ "format": "Dauer: 00:01:57\nFarbe: Schwarzweissaufnahmen\nStartposition: 10.06.27\nTräger: Betacam-Digital",
+ "thema": "Personen: Purrmann, Hans\nSachdeskriptor: Kunstausstellung",
+ "country": null,
+ "date": {
+  "from": "1966-06-01",
+  "to": null,
+  "expressed": "1966.06.01"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/995241",
+   "number": "2004/29",
+   "title": "2004/00029 Schweizer Fernsehen DRS (Z�rich) (1966-1971)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22323707",
+   "title": "Regionalmagazine SFDRS 01.06.1966",
+   "level": "Dossier",
+   "reference_code": "J2.225#2004/29#42*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849922",
+   "title": "Regionalmagazine SFDRS 1966",
+   "level": "Serie",
+   "reference_code": "J2.225#2.1966"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849902",
+   "title": "Regionalmagazine 1958-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "3509724",
+ "uri": "https://culture.ld.admin.ch/ais/3509724",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3509724",
+ "title": "Nachrufe zum Tode von Eugen Huber in verschiedenen Zeitungen",
+ "reference_code": "J1.109-02#2007/115#16*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1923-01-01",
+  "to": "1923-12-31",
+  "expressed": "1923-1923"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3466221",
+   "number": "2007/115",
+   "title": "2007/00115 Universit�t Bern, Institut f�r Rechtsgeschichte (Bern) (1900-1924)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3776318",
+   "title": "Nachrufe und Andenken",
+   "level": "Serie",
+   "reference_code": "J1.109-02#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3509678",
+   "title": "Huber Eugen: Unterlagen aus dem Nachlass von Amalia Leuzinger Schuler (1891-1987)",
+   "level": "Sub-file",
+   "reference_code": "J1.109-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3898",
+   "title": "Huber Eugen (1849-1923)",
+   "level": "Stock",
+   "reference_code": "J1.109*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

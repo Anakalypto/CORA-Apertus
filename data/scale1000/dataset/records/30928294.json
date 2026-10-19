@@ -1,0 +1,307 @@
+{
+ "id": "30928294",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30928294",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30928294",
+  "reference_code": "E1401#2017/27#12#21*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2011.3565: Interpellation Recordon Luc. Kunstflüge im Chablais / Interpellation Recordon Luc. Voltige aérienne dans le Chablais",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Altherr, Hans;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-09-29",
+    "to": null,
+    "expressed": "2011.09.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30921866",
+     "number": "2017/27",
+     "title": "2017/00027 Parlamentsdienste: Amtliches Bulletin (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This is a parliamentary interpellation recorded during the autumn session of the Council of States in 2011, focusing on aerobatic flights in the Chablais region. The document contains a single speaker, Hans Altherr, and is part of the video recordings of the Council of States debates."
+ },
+ "metadata": {
+  "title": "2011.3565: Interpellation Recordon Luc. Kunstflüge im Chablais / Interpellation Recordon Luc. Voltige aérienne dans le Chablais",
+  "title_normalized": "Interpellation Recordon Luc. Kunstflüge im Chablais / Interpellation Recordon Luc. Voltige aérienne dans le Chablais",
+  "title_en": "Interpellation Recordon Luc. Aerobatic Flights in the Chablais / Interpellation Recordon Luc. Aerial Acrobatics in the Chablais",
+  "creator": "Council of States",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-09-29",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2011-09-29",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Chablais",
+   "aerobatic flights",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Frühjahrssession 2009 bis Herbstsession 2011",
+   "Herbstsession 2011",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2017/27#12#21*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30928294",
+  "accession_numbers": [
+   "2017/27"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Altherr",
+    "display_name": "Hans Altherr",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117781",
+     "label": "Hans Altherr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117781"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Chablais",
+    "as_written": "Chablais",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2913977,
+    "lon": 6.949284,
+    "gazetteer": "https://www.openstreetmap.org/node/13835093005",
+    "model_lat": 46.0,
+    "model_lon": 6.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Interpellation Recordon Luc. Kunstflüge im Chablais / Interpellation Recordon Luc. Voltige aérienne dans le Chablais'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Hans Altherr']; named organizations or places (apertus): hierarchy_top_down: 'Chablais'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.09.29",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Interpellation Recordon Luc. Kunstflüge im Chablais / Interpellation Recordon Luc. Voltige aérienne dans le Chablais'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.09.29"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Hans Altherr']"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: 'Chablais'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2011-09-29",
+   "place": "Chablais",
+   "lat": 46.2913977,
+   "lon": 6.949284,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/27 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2017/27#12#21*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4784,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

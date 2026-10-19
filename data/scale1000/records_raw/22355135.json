@@ -1,0 +1,70 @@
+{
+ "id": "22355135",
+ "uri": "https://culture.ld.admin.ch/ais/22355135",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22355135",
+ "title": "Antenne ; Antenne, 17.07.1974",
+ "reference_code": "J2.225#2006/4#294#2*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: RJSFDRS 9501990\nSignatur Bundesarchiv: J2.225#2006/4#888*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Burgäschi, SO: Projekt zur Sauerstoffanreicherung des Burgäschisees zur Erhaltung des Biotops\nSequenzbeschrieb: CH Burgäschi, SO.: LA Flug Burgäschisee / Algen auf Wasseroberfläche / Menschen in Boot auf Burgäschisee fahrend / GPL Schwenk Seeoberfläche und Seerosen bei Schilf",
+ "author": "AutorIn: Grämiger, Andreas\nProduktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 17.07.1974",
+ "form": "Video",
+ "format": "Dauer: 00:00:59\nFarbe: Farbaufnahmen\nStartposition: 10.31.24\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Naturschutz",
+ "country": null,
+ "date": {
+  "from": "1974-07-17",
+  "to": null,
+  "expressed": "1974.07.17"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3234059",
+   "number": "2006/4",
+   "title": "2006/00004 Schweizer Fernsehen DRS (Z�rich) (1972-1974)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22355133",
+   "title": "Regionalmagazine SFDRS 17.07.1974",
+   "level": "Dossier",
+   "reference_code": "J2.225#2006/4#294*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849930",
+   "title": "Regionalmagazine SFDRS 1974",
+   "level": "Serie",
+   "reference_code": "J2.225#2.1974"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849902",
+   "title": "Regionalmagazine 1958-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

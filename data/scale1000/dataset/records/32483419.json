@@ -1,0 +1,344 @@
+{
+ "id": "32483419",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32483419",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32483419",
+  "reference_code": "E1401#2020/80#6#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2016.3649: Interpellation Dittli Josef. Präsident Erdogans langer Arm reicht bis in die Schweiz / Interpellation Dittli Josef. Le \"long bras\" du président Erdogan s'étend jusqu'en Suisse",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Bischofberger, Ivo; Dittli, Josef; Parmelin, Guy;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-12-06",
+    "to": null,
+    "expressed": "2016.12.06"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31921662",
+     "number": "2020/80",
+     "title": "2020/00080 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This is a parliamentary interpellation recorded during the Wintersession 2016 debate in the Swiss Council of States, focusing on concerns about President Erdogan's influence in Switzerland. The document includes speakers Ivo Bischofberger, Josef Dittli, and Guy Parmelin, and is part of the Swiss Federal Archives' video recordings of council deliberations."
+ },
+ "metadata": {
+  "title": "2016.3649: Interpellation Dittli Josef. Präsident Erdogans langer Arm reicht bis in die Schweiz / Interpellation Dittli Josef. Le \"long bras\" du président Erdogan s'étend jusqu'en Suisse",
+  "title_normalized": "Interpellation Dittli Josef. Präsident Erdogans langer Arm reicht bis in die Schweiz / Interpellation Dittli Josef. Le \"long bras\" du président Erdogan s'étend jusqu'en Suisse",
+  "title_en": "Interpellation Dittli Josef. President Erdogan's Long Arm Reaches into Switzerland / Interpellation Dittli Josef. The \"Long Arm\" of President Erdogan Extends into Switzerland",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2016-12-06",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2020",
+  "content_date": "2016-12-06",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Switzerland",
+   "Erdogan",
+   "Council of States",
+   "political influence"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Wintersession 2016",
+   "6. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2020/80#6#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32483419",
+  "accession_numbers": [
+   "2020/80"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ivo Bischofberger",
+    "display_name": "Ivo Bischofberger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q693332",
+     "label": "Ivo Bischofberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q693332"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Josef Dittli",
+    "display_name": "Josef Dittli",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1310215",
+     "label": "Josef Dittli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1310215"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Guy Parmelin",
+    "display_name": "Guy Parmelin",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q121160",
+     "label": "Guy Parmelin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121160"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Interpellation Dittli Josef. Präsident Erdogans langer Arm reicht bis in die Schweiz / Interpellation Dittli Josef. Le \"long bras\" du président Erdogan s'étend jusqu'en Suisse\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Ivo Bischofberger\", \"Josef Dittli\", \"Guy Parmelin\" ]; named organizations or places (apertus): title: \"Präsident Erdogans langer Arm reicht bis in die Schweiz\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2016.12.06",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Interpellation Dittli Josef. Präsident Erdogans langer Arm reicht bis in die Schweiz / Interpellation Dittli Josef. Le \"long bras\" du président Erdogan s'étend jusqu'en Suisse\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2016.12.06"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Ivo Bischofberger\", \"Josef Dittli\", \"Guy Parmelin\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Präsident Erdogans langer Arm reicht bis in die Schweiz\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2020",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2020/80 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2020/80#6#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4966,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

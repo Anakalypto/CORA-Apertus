@@ -1,0 +1,275 @@
+{
+ "id": "1432847",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1432847",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1432847",
+  "reference_code": "E27#1000/721#8936*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Register über die Urteilsprotokolle des Divisionsgerichts 4. Div",
+   "reference_number": "06.A.2.d.4.c.2",
+   "form": "Mikroforme",
+   "date": {
+    "from": "1915-01-01",
+    "to": "1917-12-31",
+    "expressed": "1915-1917"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a finding aid/register within the military justice series of the Swiss Federal Archives.",
+  "resume": "This is a register (index) of judgment protocols from the 4th Division Military Court covering the years 1915–1917. It lists and organizes court decisions rather than containing the full judgments themselves. The document is part of the Swiss Federal Archives' military justice holdings."
+ },
+ "metadata": {
+  "title": "Register über die Urteilsprotokolle des Divisionsgerichts 4. Div",
+  "title_normalized": "Register über die Urteilsprotokolle des Divisionsgerichts 4. Div",
+  "title_en": "Register of judgment protocols of the 4th Division Military Court",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1915/1917",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1915/1917",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "military justice",
+   "World War I",
+   "Swiss military courts",
+   "judicial records"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "Armeestab, Dienstzweige, Hilfsdienste",
+   "Dienstzweige",
+   "Militärjustiz",
+   "Militärgerichte",
+   "Divisions- und Territorialgerichte",
+   "Protokolle und Urteilssammlung"
+  ],
+  "reference_code": "E27#1000/721#8936*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1432847",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Divisionsgericht 4. Div",
+    "role": "Subject of the register",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Register über die Urteilsprotokolle des Divisionsgerichts 4. Div\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Militärjustiz\", \"Militärgerichte\", \"Divisions- und Territorialgerichte\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): title references \"Urteilsprotokolle\" (judgment protocols) of a military court",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Register über die Urteilsprotokolle des Divisionsgerichts 4. Div\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Militärjustiz\", \"Militärgerichte\", \"Divisions- und Territorialgerichte\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title references \"Urteilsprotokolle\" (judgment protocols) of a military court"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "The record contains judicial proceedings of a military court, which may involve sensitive personal data of defendants or personnel."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#8936*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4716,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

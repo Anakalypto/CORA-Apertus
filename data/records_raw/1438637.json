@@ -1,0 +1,85 @@
+{
+ "id": "1438637",
+ "uri": "https://culture.ld.admin.ch/ais/1438637",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1438637",
+ "title": "Presseausschnitte über die Société Suisse de Surveillance économique [SSS]",
+ "reference_code": "E27#1000/721#13594*",
+ "reference_number": "06.H.3.f.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroforme",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1915-01-01",
+  "to": null,
+  "expressed": "1915"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848175",
+   "title": "Pressekontrolle",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.f.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848172",
+   "title": "Presse, Theater und Film",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.f"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848146",
+   "title": "Aktivdienst 1914-1918",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848128",
+   "title": "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "level": "Serie",
+   "reference_code": "E27#06.H"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847771",
+   "title": "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "level": "Serie",
+   "reference_code": "E27#06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

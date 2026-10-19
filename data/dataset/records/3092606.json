@@ -1,0 +1,333 @@
+{
+ "id": "3092606",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3092606",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3092606",
+  "reference_code": "E8001B-01#1000/1131#28*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Coupures de presse, projets de la Fauxille et du St.Amour - Bellegarde, promulgation de la loi genevoise sur le rachat et le raccordement",
+   "reference_number": "009.15",
+   "scope_and_content": "Expropriations\\Plan\\Chambre des députés\\Procédure et procès-varbal de la conférence pour le raccordement des gares genevoises\\Correspondance diplomatique\\La convention du Gothard et les zones\\Contrat PLM - CFF approuvé en France (août-déc. 1912, 1913)",
+   "date": {
+    "from": "1912-01-01",
+    "to": "1913-12-31",
+    "expressed": "1912-1913"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15539",
+     "number": "1000/1131",
+     "title": "1000/01131 Bundesverwaltung (Bern) (1855-1952)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an ordinary administrative dossier containing contemporary records from the Swiss Federal Administration.",
+  "resume": "This is a compiled dossier of press clippings and documents concerning railway projects in Bellegarde and the promulgation of a Geneva law on railway buyout and connection. It includes expropriation plans, parliamentary proceedings, diplomatic correspondence, and agreements between PLM and CFF. The material spans 1912–1913."
+ },
+ "metadata": {
+  "title": "Coupures de presse, projets de la Fauxille et du St.Amour - Bellegarde, promulgation de la loi genevoise sur le rachat et le raccordement",
+  "title_normalized": "Coupures de presse, projets de la Fauxille et du St.Amour - Bellegarde, promulgation de la loi genevoise sur le rachat et le raccordement",
+  "title_en": "Press clippings, projects of Fauxille and St.Amour - Bellegarde, promulgation of the Geneva law on railway buyout and connection",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1912-01-01/1913-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1912/1913",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "railways",
+   "expropriation",
+   "Geneva law",
+   "international railway agreements",
+   "PLM-CFF"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung Rechtswesen und Sekretariat im Post- und Eisenbahndepartement (1930-1963)",
+  "fonds_reference": "E10981*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung Rechtswesen und Sekretariat im Post- und Eisenbahndepartement (1930-1963)",
+   "Abteilung Rechtswesen und Sekretariat im Post- und Eisenbahndepartement: Zentrale Ablage (1930-1963)",
+   "Allgemeines",
+   "Allgemeines und Organisation der Abteilung Rechtswesen und Sekretariat",
+   "Diverses",
+   "Genfer Begehren"
+  ],
+  "reference_code": "E8001B-01#1000/1131#28*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3092606",
+  "accession_numbers": [
+   "1000/1131"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Chambre des députés",
+    "role": "producer of parliamentary proceedings",
+    "wikidata": {
+     "qid": "Q320265",
+     "label": "Chamber of Deputies of the Parliament of the Czech Republic",
+     "description": "lower chamber of the bicameral Parliament of the Czech Republic",
+     "url": "https://www.wikidata.org/wiki/Q320265"
+    }
+   },
+   {
+    "name": "PLM",
+    "role": "railway company",
+    "wikidata": null
+   },
+   {
+    "name": "CFF",
+    "role": "Swiss Federal Railways",
+    "wikidata": {
+     "qid": "Q83835",
+     "label": "Swiss Federal Railways",
+     "description": "national railway company of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q83835"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bellegarde",
+    "as_written": "Bellegarde",
+    "role": "depicted",
+    "country": "FR",
+    "lat": 43.4255556,
+    "lon": 0.6244444,
+    "gazetteer": "https://www.openstreetmap.org/relation/125209",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Geneva",
+    "as_written": "Genève",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): named places: 'Bellegarde', 'Genève'; organization: 'Chambre des députés'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in free text (e.g., 'Bellegarde', 'Genève')",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title contains 'GenÃ¨ve'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in free text (e.g., 'Bellegarde', 'Genève')"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "named places: 'Bellegarde', 'Genève'; organization: 'Chambre des députés'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are named."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1912-01-01/1913-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compilation of press clippings and administrative documents on railway projects and Geneva law promulgation",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1912-01-01/1913-12-31",
+   "place": "Bellegarde",
+   "lat": 43.4255556,
+   "lon": 0.6244444,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1131 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8001B-01#1000/1131#28*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 5082,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

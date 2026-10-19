@@ -1,0 +1,71 @@
+{
+ "id": "21776469",
+ "uri": "https://culture.ld.admin.ch/ais/21776469",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21776469",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 18.04.1975",
+ "reference_code": "J2.225#1996/68#6161#5*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 75/108/02A;Rolle 1216\nSignatur Bundesarchiv: J2.225#1996/68#62834*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH, BL: Landrats- und Regierungsrats-Wahlen\nSequenzbeschrieb: CH o.O., BL: Abstimmungsplakat / Männer beim Vorbereiten der Wahl-Urnen, Aufstellen von Wegweiser",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 11.04.1975-25.04.1975",
+ "form": "Video",
+ "format": "Dauer: 0.36\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.38.27\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Wahl",
+ "country": null,
+ "date": {
+  "from": "1975-04-18",
+  "to": null,
+  "expressed": "1975.04.18"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21776464",
+   "title": "Tagesschau SFDRS 18.04.1975",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6161*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690384",
+   "title": "Tagesschau SFDRS 1975",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1975"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "audiovisual"
+}

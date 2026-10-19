@@ -1,0 +1,283 @@
+{
+ "id": "31445426",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31445426",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31445426",
+  "reference_code": "E21#1000/131#24722*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Repertorium der Personalakten von 1867 - 1872, A-Z",
+   "scope_and_content": "Notiz:\nDie Bandreihe \"Repertorium der Personalakten\", 1849-1866 (2 Bände), 1867-1872, 1873-1875 und 1876-1878 wurde vom Bundesarchiv in den Jahren 1868 bis 1884 erstellt. Dieses Repertorium ist bereits im Archivreglementvom14.9.1864 vorgesehen (Art.14.b). Über Sinn und Zweck des Repertoriums wird im Geschäftsbericht des Bundesrates an die Bundesversammlung für das Jahr 1882 ausgesagt: \"Eine fernere Arbeit, die während des ganzen Jahres den Archivgehülfen fast ausschliesslich beschäftigte, war die Anfertigung des Registers über die weitläufige Abtheilung der sogenannten Personalakten der Jahre 1876/78; dasselbe stand am Schlusse des Berichtsjahres beim Buchstaben F. Diese Gruppe umfasst in alphabetischer Reihenfolge alle jene einzelnen Geschäfte, welche Nachforschungen nach landesabwesenden Personen, Fahndungen, Auslieferungen, Erbschaftsangelegenheiten, kurz bloss persönliche Verhältnisse betreffen.\"\nDie Eintragungen enthalten keine Verweise auf die Archivsignatur, obwohl dieser Vermerk in Artikel 15 des Archivreglements vorgeschrieben ist. Allerdings war dies auch nicht notwendig, weil die \"Personenserien\" sachlich geordnet waren, z.B. \"Nachlässe\", \"Nachforschungen\", \"Auslieferungen\", usw.\nBern, den 11. Februar 1977",
+   "date": {
+    "from": "1867-01-01",
+    "to": "1872-12-31",
+    "expressed": "1867-1872"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+     "number": "1000/131",
+     "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: Es handelt sich um ein Findmittel (Repertorium) aus den Jahren 1867-1872, das im Auftrag der damaligen Bundesverwaltung erstellt wurde.",
+  "resume": "This is an archival finding aid (inventory) created in 1977 describing the alphabetical repertory of personal files from 1867 to 1872. It explains that the repertory was produced by the Federal Archives between 1868 and 1884 to index administrative matters concerning individuals, such as absences, extraditions, and inheritance. The original repertory entries did not include archive signatures because the files were already organized by subject."
+ },
+ "metadata": {
+  "title": "Repertorium der Personalakten von 1867 - 1872, A-Z",
+  "title_normalized": "Repertorium der Personalakten von 1867 - 1872, A-Z",
+  "title_en": "Register of Personal Files from 1867 to 1872, A-Z",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1977-02-11",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1867/1872",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administrative records",
+   "personal files",
+   "archival inventory",
+   "19th century",
+   "Swiss federal administration"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Polizeiwesen",
+  "fonds_reference": "E21*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Polizeiwesen",
+   "Personenkarteien und Personenindizes"
+  ],
+  "reference_code": "E21#1000/131#24722*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31445426",
+  "accession_numbers": [
+   "1000/131"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Bundesarchiv",
+    "role": "Repository",
+    "wikidata": {
+     "qid": "Q66779072",
+     "label": "Bundesarchiv",
+     "description": null,
+     "url": "https://www.wikidata.org/wiki/Q66779072"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Repertorium der Personalakten von 1867 - 1872, A-Z\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down: \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", \"Main Department: Archiv des Schweizerischen Bundesstaates ab 1848\", \"Stock: Polizeiwesen\", \"Serie: Personenkarteien und Personenindizes\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): scope_and_content: \"Bern, den 11. Februar 1977\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Repertorium der Personalakten von 1867 - 1872, A-Z\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: \"Bern, den 11. Februar 1977\""
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", \"Main Department: Archiv des Schweizerischen Bundesstaates ab 1848\", \"Stock: Polizeiwesen\", \"Serie: Personenkarteien und Personenindizes\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are mentioned; the record concerns administrative indexes of personal files."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1977-02-11",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "A descriptive note was written by the Federal Archives to document the repertory of personal files from 1867-1872.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/131 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E21#1000/131#24722*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_created_outside_record_range"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5195,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

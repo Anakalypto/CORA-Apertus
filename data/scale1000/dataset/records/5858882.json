@@ -1,0 +1,320 @@
+{
+ "id": "5858882",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5858882",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5858882",
+  "reference_code": "J2.229#1996/423#93#357*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Jean Ziegler im Gespräch mit Helmut Hubacher",
+   "scope_and_content": "Kanton Genf, SPS\nAutor: Photopress, Zürich",
+   "form": "Abzug",
+   "date": {
+    "from": "1977-05-04",
+    "to": null,
+    "expressed": "1977.05.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+     "number": "1996/423",
+     "title": "1996/00423 k.A. Organisation (1960-1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by Photopress, Zürich, documenting a specific event.",
+  "resume": "A photograph (Abzug) of Jean Ziegler in conversation with Helmut Hubacher, taken by Photopress, Zürich, on 4 May 1977."
+ },
+ "metadata": {
+  "title": "Jean Ziegler im Gespräch mit Helmut Hubacher",
+  "title_normalized": "Jean Ziegler im Gespräch mit Helmut Hubacher",
+  "title_en": "Jean Ziegler in conversation with Helmut Hubacher",
+  "creator": "Photopress, Zürich",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1977-05-04",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1977-05-04",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Jean Ziegler",
+   "Helmut Hubacher",
+   "interview"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+  "fonds_reference": "J2.229*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "Bundesversammlung",
+   "Nationalräte",
+   "Jean Ziegler"
+  ],
+  "reference_code": "J2.229#1996/423#93#357*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5858882",
+  "accession_numbers": [
+   "1996/423"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jean Ziegler",
+    "display_name": "Jean Ziegler",
+    "role": "interviewee",
+    "wikidata": {
+     "qid": "Q123706",
+     "label": "Jean Ziegler",
+     "description": "Swiss sociologist, politician and professor (1934–2026)",
+     "url": "https://www.wikidata.org/wiki/Q123706"
+    },
+    "life_date_check": {
+     "born": 1934,
+     "died": 2026,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Helmut Hubacher",
+    "display_name": "Helmut Hubacher",
+    "role": "interviewer",
+    "wikidata": {
+     "qid": "Q1603686",
+     "label": "Helmut Hubacher",
+     "description": "Swiss politician (1926-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1603686"
+    },
+    "life_date_check": {
+     "born": 1926,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "Genf",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Jean Ziegler; named organizations or places (apertus): Genf",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1977.05.04; free text places (apertus): Kanton Genf, SPS",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1977.05.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Kanton Genf, SPS"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Jean Ziegler"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Genf"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1977-05-04",
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Photograph taken during an interview between Jean Ziegler and Helmut Hubacher.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/423 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.229#1996/423#93#357*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4446,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

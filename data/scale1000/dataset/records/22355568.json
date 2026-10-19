@@ -1,0 +1,319 @@
+{
+ "id": "22355568",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22355568",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22355568",
+  "reference_code": "J2.225#2007/1#35#10*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Blickpunkt (2/1037), 05.04.1977 ; 1. Reportage Zuschauer-Blickpunkt - Schrebergarten",
+   "old_reference_code": "Original Signatur: BPSFDRS 9503114\nSignatur Bundesarchiv: J2.225#2007/1#6*",
+   "scope_and_content": "Inhaltsangabe: Schweiz o.O.: Dreharbeiten zum 1. Zuschauerfilm der Sendung \"Blickpunkt\" mit Ernst Baumgartner\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz TVZH: Annemarie Friedli  Zuschauer-Briefe kommentierend / Beat Wieser und Ernst Baumgartner im Gespräch über Stadtplan Zürich Schwamendingen, ZH: Dreharbeiten, Blickpunkt-Equipe mit Ernst Baumgartner von Flachdach aus Schrebergärten filmend",
+   "author": "AutorIn: Wieser, Beat (AUT)\nProduktionsgesellschaft: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "coverage": "Zeitliche Abdeckung: 04.04.1977-06.04.1977",
+   "form": "Video",
+   "format": "Dauer: 00:02:29\nFormat Arbeitskopie: Arbeitskopie\nStartposition: 10:00:00\nTräger: Beta Digital",
+   "thema": "Personen: Friedli, Annemarie\nSachdeskriptor: /MEDIEN./FERNSEHEN",
+   "date": {
+    "from": "1977-04-05",
+    "to": null,
+    "expressed": "1977.04.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3382869",
+     "number": "2007/1",
+     "title": "2007/00001 Schweizer Fernsehen DRS (Z�rich) (1977-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production of the television program \"Blickpunkt\" with original footage and commentary, created at the time of the events.",
+  "resume": "A television report from the Swiss program \"Blickpunkt\" documenting filming activities for the first audience film on 5 April 1977, featuring interviews and commentary by Annemarie Friedli, Beat Wieser, and Ernst Baumgartner, with footage shot from a rooftop overlooking Schrebergärten in Zürich."
+ },
+ "metadata": {
+  "title": "Blickpunkt (2/1037), 05.04.1977 ; 1. Reportage Zuschauer-Blickpunkt - Schrebergarten",
+  "title_normalized": "Blickpunkt (2/1037), 05.04.1977 ; 1. Reportage Zuschauer-Blickpunkt - Schrebergarten",
+  "title_en": "Blickpunkt (2/1037), 05.04.1977: Reportage Zuschauer-Blickpunkt - Schrebergarten",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1977-04-05",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1977-04-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Schweiz",
+   "Fernsehen",
+   "Schrebergärten"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Blickpunkt-Bericht vor Acht, 1977-1978",
+   "Blickpunkt-Bericht vor Acht 1977",
+   "Blickpunkt-Bericht vor Acht 05.04.1977"
+  ],
+  "reference_code": "J2.225#2007/1#35#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22355568",
+  "accession_numbers": [
+   "2007/1"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Friedli, Annemarie",
+    "display_name": "Annemarie Friedli",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Beat Wieser",
+    "display_name": "Beat Wieser",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ernst Baumgartner",
+    "display_name": "Ernst Baumgartner",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Wieser, Beat (AUT)\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Friedli, Annemarie; named organizations or places (apertus): DRS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1977.04.05; free text places (apertus): Schwamendingen, ZH",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Wieser, Beat (AUT)\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1977.04.05"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schwamendingen, ZH"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Friedli, Annemarie"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "DRS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1977-04-05",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Filming of the first audience film for \"Blickpunkt\" program",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/1 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/1#35#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5343,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

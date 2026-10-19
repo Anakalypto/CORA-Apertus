@@ -1,0 +1,73 @@
+{
+ "id": "3289716",
+ "uri": "https://culture.ld.admin.ch/ais/3289716",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3289716",
+ "title": "Druck der Bände der \"Histoire de la représentation diplomatique de la France auprès des cantons suisses, de leurs alliés et confédérés\" von Edouard Rott (basierend auf den in französischen Archiven erstellten Abschriften)",
+ "reference_code": "E85#1000/1164#30*",
+ "reference_number": null,
+ "old_reference_code": "E 8 (I) / Bd. 9",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1921-01-01",
+  "to": null,
+  "expressed": "1921"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15976",
+   "number": "1000/1164",
+   "title": "1000/01164 Bundesverwaltung (Bern) (1848-1928)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833073",
+   "title": "Abschriften von Archivalien aus ausländischen Archiven",
+   "level": "Serie",
+   "reference_code": "E85#1.2.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833071",
+   "title": "Sicherung, Aufbewahrung",
+   "level": "Serie",
+   "reference_code": "E85#1.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833063",
+   "title": "Eidg. Archiv",
+   "level": "Serie",
+   "reference_code": "E85#1."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3624",
+   "title": "Archivwesen",
+   "level": "Stock",
+   "reference_code": "E85*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

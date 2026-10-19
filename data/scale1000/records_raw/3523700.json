@@ -1,0 +1,88 @@
+{
+ "id": "3523700",
+ "uri": "https://culture.ld.admin.ch/ais/3523700",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3523700",
+ "title": "89.575: Postulat Humbel. Baregg-Tunnel N1 / N1. Tunnel de Baregg",
+ "reference_code": "E1301#1989/219#13#61*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1989-10-06",
+  "to": null,
+  "expressed": "1989.10.06"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3383440",
+   "number": "1989/219",
+   "title": "1989/00219 Parlamentsdienste (Bern) (1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3406094",
+   "title": "13. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#1989/219#13*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090574",
+   "title": "Herbstsession 1989",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-43-09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090565",
+   "title": "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-43"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965546",
+   "title": "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

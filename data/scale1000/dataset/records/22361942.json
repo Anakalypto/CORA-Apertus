@@ -1,0 +1,346 @@
+{
+ "id": "22361942",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22361942",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22361942",
+  "reference_code": "J2.225#2007/135#34#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Studie über Landwirtschaft",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504156\nSignatur Bundesarchiv: J2.225#2007/135#34*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Bern, BE: Studie des Bundesamtes für Landwirtschaft (BLW) über die Erwartungen der Schweizer an die Bauern (Selbstversorgung, Umwelt- und Tierschutz, Erholungsräume)\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz o.O.: Weidende Kühe vor Bergpanorama Bern, BE: PK Bundesamt für Landwirtschaft  / Statement Manfred Bötsch o.O.: Grafik Zahlungsbereitschaft Subventionen",
+   "author": "AutorIn: Forster, Hanspeter: AUT\nProduktion: SF",
+   "involved": "Moderation: Gredig, Urs",
+   "form": "Video",
+   "format": "Dauer: 00.01.02\nStartposition: 00:00:59\nTotal Spieldauer: 00.15.38\nTräger: Beta IMX",
+   "thema": "Personen: Bötsch, Manfred: Direktor Bundesamt für Landwirtschaft\nSachdeskriptor: /LANDWIRTSCHAFT./AGRARPOLITIK",
+   "date": {
+    "from": "2007-05-04",
+    "to": null,
+    "expressed": "2007.05.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production (Eigenproduktion UE) of the Federal Office of Agriculture and a broadcast by Schweizer Fernsehen DRS, created at the time of the events.",
+  "resume": "A video study produced by the Federal Office of Agriculture (BLW) examining Swiss expectations regarding farmers, covering self-sufficiency, environmental protection, and animal welfare, featuring statements from Manfred Bötsch and broadcast by Schweizer Fernsehen DRS on 4 May 2007."
+ },
+ "metadata": {
+  "title": "Studie über Landwirtschaft",
+  "title_normalized": "Studie über Landwirtschaft",
+  "title_en": "Study on Agriculture",
+  "creator": "Bundesamt für Landwirtschaft (BLW)",
+  "publisher": "Schweizer Fernsehen DRS",
+  "commissioner": null,
+  "date_created": "2007-05-04",
+  "date_published": "2007-05-04",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-05-04",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "agriculture",
+   "agricultural policy",
+   "farmers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 04.05.2007"
+  ],
+  "reference_code": "J2.225#2007/135#34#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22361942",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Manfred Bötsch",
+    "display_name": "Manfred Bötsch",
+    "role": "Director, Bundesamt für Landwirtschaft",
+    "wikidata": {
+     "qid": "Q131314198",
+     "label": "Manfred Bötsch",
+     "description": "director of the Swiss Federal Office for Agriculture",
+     "url": "https://www.wikidata.org/wiki/Q131314198"
+    },
+    "life_date_check": {
+     "born": null,
+     "died": null,
+     "verdict": "unknown",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanspeter Forster",
+    "display_name": "Hanspeter Forster",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Urs Gredig",
+    "display_name": "Urs Gredig",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1755894",
+     "label": "Urs Gredig",
+     "description": "Swiss television presenter",
+     "url": "https://www.wikidata.org/wiki/Q1755894"
+    },
+    "life_date_check": {
+     "born": 1970,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bundesamt für Landwirtschaft (BLW)",
+    "role": "creator",
+    "wikidata": null
+   },
+   {
+    "name": "Schweizer Fernsehen DRS",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q116401",
+     "label": "Schweizer Fernsehen",
+     "description": "former television station in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q116401"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Schweiz Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2007/135#34*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Forster, Hanspeter: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Bötsch, Manfred: Direktor Bundesamt für Landwirtschaft; named organizations or places (apertus): Personen: Bötsch, Manfred: Direktor Bundesamt für Landwirtschaft",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.05.04; free text places (apertus): Sequenzbeschrieb: Schweiz o.O.: Weidende Kühe vor Bergpanorama Bern, BE: PK Bundesamt für Landwirtschaft",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2007/135#34*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Forster, Hanspeter: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.05.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Schweiz o.O.: Weidende Kühe vor Bergpanorama Bern, BE: PK Bundesamt für Landwirtschaft"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Bötsch, Manfred: Direktor Bundesamt für Landwirtschaft"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Bötsch, Manfred: Direktor Bundesamt für Landwirtschaft"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-05-04",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Video study on agriculture expectations broadcast by Schweizer Fernsehen DRS.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#34#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5312,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

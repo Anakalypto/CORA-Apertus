@@ -1,0 +1,300 @@
+{
+ "id": "557152",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/557152",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/557152",
+  "reference_code": "E4800.1#1000/866#107#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Heinrich Rothmund an seinem Schreibtisch rechter Arm ausgestreckt",
+   "old_reference_code": "E4800.1#1#107#2*",
+   "form": "Abzug",
+   "date": {
+    "from": "1941-08-01",
+    "to": "1941-08-31",
+    "expressed": "1941.08.01 (ca.)-1941.08.31 (ca.)"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/13337",
+     "number": "1000/866",
+     "title": "1000/00866 Bundesverwaltung (Bern) (1922-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by the Eidgenössische Polizeiabteilung during the period of Heinrich Rothmund's service as chief.",
+  "resume": "A photograph depicting Heinrich Rothmund seated at his desk with his right arm extended, taken during August 1941."
+ },
+ "metadata": {
+  "title": "Heinrich Rothmund an seinem Schreibtisch rechter Arm ausgestreckt",
+  "title_normalized": "Heinrich Rothmund an seinem Schreibtisch rechter Arm ausgestreckt",
+  "title_en": "Heinrich Rothmund at his desk with right arm extended",
+  "creator": "Eidgenössische Polizeiabteilung",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1941-08-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1941-08-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Heinrich Rothmund",
+   "Swiss police",
+   "Photographs"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössische Polizeiabteilung (1902-1979)",
+  "fonds_reference": "E10452*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössische Polizeiabteilung (1902-1979)",
+   "Polizeiabteilung: Handakten Heinrich Rothmund, Chef (1919-1960)",
+   "Handakten als Chef der Polizeiabteilung und der Fremdenpolizei 1929-1945, 1947-1954 (Pensionierung) und nach der Pensionierung (Spezialaufgaben)",
+   "Varia",
+   "Fotos von Heinrich Rothmund"
+  ],
+  "reference_code": "E4800.1#1000/866#107#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/557152",
+  "accession_numbers": [
+   "1000/866"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Heinrich Rothmund",
+    "display_name": "Heinrich Rothmund",
+    "role": "subject",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Eidgenössische Polizeiabteilung",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Heinrich Rothmund; named organizations or places (apertus): Schweizerischen Bundesarchivs",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1941.08.01 (ca.)-1941.08.31 (ca.)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1941.08.01 (ca.)-1941.08.31 (ca.)"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Heinrich Rothmund"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweizerischen Bundesarchivs"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record concerns named person Heinrich Rothmund, a public figure."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1941-08-01 (ca.)",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Photograph taken of Heinrich Rothmund at his desk",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/866 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4800.1#1000/866#107#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4677,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

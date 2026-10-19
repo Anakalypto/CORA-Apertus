@@ -16,6 +16,8 @@ import statistics
 import unicodedata
 from collections import Counter
 
+from . import store
+
 ISO = re.compile(r"^(\d{4}(-\d{2}(-\d{2})?)?(/(\d{4}(-\d{2}(-\d{2})?)?|\.\.))?|\.\./\d{4}(-\d{2}(-\d{2})?)?)$")  # date, interval, or open interval "X/.."
 SPECULATION = re.compile(r"\b(likely|possibly|probably|presumably|may contain|might|perhaps|apparently)\b", re.I)
 
@@ -211,7 +213,7 @@ def run(cfg):
     data_dir = cfg["paths"]["data_dir"]
     load = lambda n: [json.loads(l) for l in (data_dir / n).read_text(encoding="utf-8").splitlines() if l.strip()]
     rows = load("enriched.jsonl")
-    recs = {r["id"]: r for r in json.loads((data_dir / "records_raw.json").read_text(encoding="utf-8"))}
+    recs = {r["id"]: r for r in store.read_entries(data_dir / "records_raw.json")}
     checks = [check_record(r, recs[r["id"]]) for r in rows]
     n = len(checks)
     pct = lambda k: round(100 * k / n, 1) if n else 0.0

@@ -1,0 +1,88 @@
+{
+ "id": "29341766",
+ "uri": "https://culture.ld.admin.ch/ais/29341766",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29341766",
+ "title": "2010.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+ "reference_code": "E1201#2011/196#1#1*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Bruderer Wyss, Pascale;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2010-03-17",
+  "to": null,
+  "expressed": "2010.03.17"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/23238629",
+   "number": "2011/196",
+   "title": "2011/00196 Parlamentsdienste (Bern) (2010)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29341765",
+   "title": "1. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1201#2011/196#1*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/23238061",
+   "title": "Frühjahrsession 2010",
+   "level": "Serie",
+   "reference_code": "E1201#1.5-48-05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6728807",
+   "title": "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "level": "Serie",
+   "reference_code": "E1201#1.5-48"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6728794",
+   "title": "Videoaufzeichnungen der Verhandlungen der Vereinigten Bundesversammlung",
+   "level": "Serie",
+   "reference_code": "E1201#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3725171",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1201#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6958",
+   "title": "Vereinigte Bundesversammlung: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1201*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6957",
+   "title": "Vereinigte Bundesversammlung (1848-)",
+   "level": "Stock",
+   "reference_code": "E10858*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "903461",
+ "uri": "https://culture.ld.admin.ch/ais/903461",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/903461",
+ "title": "Zeitungsartikel betr. Besteuerungen, Allgemeines",
+ "reference_code": "E2001D#1000/1555#14*",
+ "reference_number": "B.34.11",
+ "old_reference_code": null,
+ "alternate_reference": "A Allgemeines",
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1935-01-01",
+  "to": "1937-12-31",
+  "expressed": "1935-1937"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7573",
+   "number": "1000/1555",
+   "title": "1000/01555 Bundesverwaltung (Bern) (1909-1942)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668867",
+   "title": "Besteuerung der Schweizer: Spezielle Fälle",
+   "level": "Serie",
+   "reference_code": "E2001D#B.34.11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668865",
+   "title": "Besteuerung der Schweizer im Ausland",
+   "level": "Serie",
+   "reference_code": "E2001D#B.34.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668846",
+   "title": "Rechtsschutz in Bezug auf das Eigentum (Vermögenswerte) der Schweizer im Ausland",
+   "level": "Serie",
+   "reference_code": "E2001D#B.34"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668782",
+   "title": "Schweizer und schweizerische Interessen im Ausland",
+   "level": "Serie",
+   "reference_code": "E2001D#B.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3668485",
+   "title": "Auswärtige Politik",
+   "level": "Serie",
+   "reference_code": "E2001D#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4324",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1937-1945)",
+   "level": "Sub-file",
+   "reference_code": "E2001D*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

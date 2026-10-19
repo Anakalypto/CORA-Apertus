@@ -1,0 +1,85 @@
+{
+ "id": "5691138",
+ "uri": "https://culture.ld.admin.ch/ais/5691138",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5691138",
+ "title": "Verzeichnis der Akten von Nr. 835-838",
+ "reference_code": "D0#1000/3#319*",
+ "reference_number": "C.02-11.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1813-01-01",
+  "to": "1848-12-31",
+  "expressed": "1813 (ca.)-1848 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7095",
+   "number": "1000/3",
+   "title": "1000/00003 Keine Angaben (1715-1860)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5690318",
+   "title": "Vollzug der Trennung des Kantons Basel",
+   "level": "Serie",
+   "reference_code": "D0#C.02-11.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5690264",
+   "title": "Basel",
+   "level": "Serie",
+   "reference_code": "D0#C.02-11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5690209",
+   "title": "Zürich",
+   "level": "Serie",
+   "reference_code": "D0#C.02-1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5690166",
+   "title": "Beziehungen unter den Kantonen und Bundesinterventionen",
+   "level": "Serie",
+   "reference_code": "D0#C.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5690150",
+   "title": "Innere Angelegenheiten",
+   "level": "Serie",
+   "reference_code": "D0#C."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3562",
+   "title": "Archiv der Tagsatzungsperiode (1814-1848)",
+   "level": "Stock",
+   "reference_code": "D0*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29",
+   "title": "Archiv der Tagsatzungsperiode (1814-1848)",
+   "level": "Main Department",
+   "reference_code": "D*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

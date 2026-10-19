@@ -1,0 +1,284 @@
+{
+ "id": "30703634",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30703634",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30703634",
+  "reference_code": "E8100F#2016/63#26#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Stellungnahme zum Auflageprojekt Anschluss Frutigen",
+   "scope_and_content": "Brief / Fax / E-mail",
+   "involved": "Herausgeber: Ludescher, Verfasser: Ludescher",
+   "date": {
+    "from": "2001-07-16",
+    "to": null,
+    "expressed": "2001.07.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "correspondence",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct communication (fax/e-mail) created by the author at the time of the events.",
+  "resume": "A brief or fax/e-mail response concerning the infrastructure project \"Anschluss Frutigen\" dated 16 July 2001."
+ },
+ "metadata": {
+  "title": "Stellungnahme zum Auflageprojekt Anschluss Frutigen",
+  "title_normalized": "Stellungnahme zum Auflageprojekt Anschluss Frutigen",
+  "title_en": "Statement on the Infrastructure Project Anschluss Frutigen",
+  "creator": "Ludescher",
+  "publisher": "Ludescher",
+  "commissioner": null,
+  "date_created": "2001-07-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2001-07-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "infrastructure project",
+   "transportation",
+   "Frutigen"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 26)"
+  ],
+  "reference_code": "E8100F#2016/63#26#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30703634",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ludescher",
+    "display_name": "Ludescher",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): 16/00063 Bundesamt f�r Verkehr (Bern) (19",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved: [{ \"name\": \"Ludescher\", \"role\": \"publisher\" }, { \"name\": \"Ludescher\", \"role\": \"author\" }]; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.07.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "16/00063 Bundesamt f�r Verkehr (Bern) (19"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.07.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: [{ \"name\": \"Ludescher\", \"role\": \"publisher\" }, { \"name\": \"Ludescher\", \"role\": \"author\" }]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2001-07-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Draft response prepared by Ludescher regarding the infrastructure project.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#26#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4609,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

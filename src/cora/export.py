@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
+from . import store
+
 PIPELINE_VERSION = "cora-0.1.0"
 PROMPT_VERSION = {"classify": "v2", "audit": "v3"}  # v2/v3: role labels parsed by rule, archival conventions (quality report §8)
 
@@ -162,7 +164,7 @@ def run(cfg):
     out_dir = data_dir / "dataset"
     out_dir.mkdir(exist_ok=True)
     rows = [json.loads(l) for l in (data_dir / "enriched.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
-    recs = {r["id"]: r for r in json.loads((data_dir / "records_raw.json").read_text(encoding="utf-8"))}
+    recs = {r["id"]: r for r in store.read_entries(data_dir / "records_raw.json")}
     qc_path = data_dir / "qc_report.json"
     qc = {c["id"]: c for c in json.loads(qc_path.read_text(encoding="utf-8"))["records"]} if qc_path.exists() else {}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -173,7 +175,9 @@ def run(cfg):
         r, e = build_record(row, recs[row["id"]], qc.get(row["id"], {}), now)
         records.append(r)
         edits += e
+    # the combined .jsonl is the download; the records are stored one file per record (dataset/records/)
     (out_dir / "cora_dataset.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")
+    store.write_entries(out_dir / "cora_dataset.jsonl", records, keep_combined=True)
     df = pd.DataFrame([flatten(r) for r in records])
     df.to_csv(out_dir / "cora_dataset.csv", index=False, encoding="utf-8")
     df.to_csv(out_dir / "cora_dataset.tsv", index=False, sep="\t", encoding="utf-8")

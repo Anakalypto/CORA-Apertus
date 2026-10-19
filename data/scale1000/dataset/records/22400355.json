@@ -1,0 +1,342 @@
+{
+ "id": "22400355",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22400355",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22400355",
+  "reference_code": "J2.240#1998/317#864#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "XENOPHOBIE ; TELE JOURNAL, 11.04.1984",
+   "old_reference_code": "Original Signatur: TJTSR 84UH2640/01; 97LM5558/04\nSignatur Bundesarchiv: J2.240#1998/317#3687*",
+   "scope_and_content": "Sequenzbeschrieb: Ministre egyptien Boutros-Ghali. Ancien chancelier autrichien Kreisky. Intervention de Simone Weil. Foyer de refugies. Interviews de refugies noirs cherchant des emplois.",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Zeitliche Abdeckung: 04.04.1984-18.04.1984",
+   "form": "Video",
+   "format": "Audiotyp: INTER; INTER\nDauer: 00:03.42\nFarbe: couleur\nFormat Arbeitskopie: Betacam-digital\nOriginalformat: COMPON25 4/3\nStartposition: 00:08.41",
+   "thema": "Personen: BOUTROS-GHALI, Boutros; WEIL, Simone; KREISKY, Bruno\nSachdeskriptor: racisme; Refugie",
+   "date": {
+    "from": "1984-04-11",
+    "to": null,
+    "expressed": "1984.04.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16906",
+     "number": "1998/317",
+     "title": "1998/00317 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast produced by the publisher.",
+  "resume": "A television news segment from Télévision Suisse Romande (TSR) dated 11 April 1984, covering topics of xenophobia, racism, and refugee issues, featuring interviews with Boutros-Ghali, Simone Weil, and Bruno Kreisky."
+ },
+ "metadata": {
+  "title": "XENOPHOBIE ; TELE JOURNAL, 11.04.1984",
+  "title_normalized": "XENOPHOBIE ; TELE JOURNAL, 11.04.1984",
+  "title_en": "Xenophobia; Tele Journal, 11.04.1984",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1984-04-11",
+  "date_published": "1984-04-11",
+  "date_updated": null,
+  "date_archived": "1998",
+  "content_date": "1984-04-11",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "xenophobia",
+   "racism",
+   "refugees"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Téléjournal 1980-1991 TSR",
+   "Téléjournal TSR 1984",
+   "Téléjournal TSR 11.04.1984"
+  ],
+  "reference_code": "J2.240#1998/317#864#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22400355",
+  "accession_numbers": [
+   "1998/317"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "BOUTROS-GHALI, Boutros",
+    "display_name": "Boutros BOUTROS-GHALI",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q1257",
+     "label": "Boutros Boutros-Ghali",
+     "description": "Secretary-General of the United Nations from 1992 to 1996",
+     "url": "https://www.wikidata.org/wiki/Q1257"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "WEIL, Simone",
+    "display_name": "Simone WEIL",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q157309",
+     "label": "Simone Weil",
+     "description": "French philosopher, writer, and social activist (1909–1943)",
+     "url": "https://www.wikidata.org/wiki/Q157309"
+    },
+    "life_date_check": {
+     "born": 1909,
+     "died": 1943,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "KREISKY, Bruno",
+    "display_name": "Bruno KREISKY",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q44517",
+     "label": "Bruno Kreisky",
+     "description": "Austrian diplomat and chancellor (1911–1990)",
+     "url": "https://www.wikidata.org/wiki/Q44517"
+    },
+    "life_date_check": {
+     "born": 1911,
+     "died": 1990,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "published",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"1998/00317 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): XENOPHOBIE ; TELE JOURNAL, 11.04.1984",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Ministre egyptien Boutros-Ghali. Ancien chancelier autrichien Kreisky. Intervention de Simone Weil. Foyer de refugies. Interviews de refugies noirs cherchant des emplois.",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Audiotyp: INTER; INTER\nDauer: 00:03.42\nFarbe: coul; multilingual (apertus): Ministre egyptien Boutros-Ghali. Ancien chancelier autrichien Kreisky. Intervention de Simone Weil.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: BOUTROS-GHALI, Boutros; WEIL, Simone; KREISKY, Bruno; named organizations or places (apertus): Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1984.04.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"1998/00317 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "XENOPHOBIE ; TELE JOURNAL, 11.04.1984"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Ministre egyptien Boutros-Ghali. Ancien chancelier autrichien Kreisky. Intervention de Simone Weil. Foyer de refugies. Interviews de refugies noirs cherchant des emplois."
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Audiotyp: INTER; INTER\nDauer: 00:03.42\nFarbe: coul"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Ministre egyptien Boutros-Ghali. Ancien chancelier autrichien Kreisky. Intervention de Simone Weil."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1984.04.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: BOUTROS-GHALI, Boutros; WEIL, Simone; KREISKY, Bruno"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Télévision suisse romande (TSR), SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1984-04-11",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of a news segment on xenophobia, racism, and refugee issues.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1998",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1998/317 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#1998/317#864#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5271,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

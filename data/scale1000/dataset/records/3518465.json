@@ -1,0 +1,370 @@
+{
+ "id": "3518465",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3518465",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3518465",
+  "reference_code": "E1301#2006/237#1#38*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "1999.0404: Parlamentarische Initiative Rennwald Jean-Claude. Proporzwahl für den Ständerat / Initiative parlementaire Rennwald Jean-Claude. Scrutin proportionnel pour les élections au Conseil des Etats",
+   "scope_and_content": "Sprecher/Sprecherinnen: Antille, Charles-Albert; Baader, Caspar; Chiffelle, Pierre; Gross, Andreas; Rennwald, Jean-Claude; Seiler, Hanspeter",
+   "date": {
+    "from": "2000-06-05",
+    "to": null,
+    "expressed": "2000.06.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3344587",
+     "number": "2006/237",
+     "title": "2006/00237 Parlamentsdienste (Bern) (2000)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary initiative debate recording from the Swiss National Council concerning a proportional election system for the Council of States, held during the summer session of 2000. The speakers listed participated in the debate, and the record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "1999.0404: Parlamentarische Initiative Rennwald Jean-Claude. Proporzwahl für den Ständerat / Initiative parlementaire Rennwald Jean-Claude. Scrutin proportionnel pour les élections au Conseil des Etats",
+  "title_normalized": "1999.0404: Parlamentarische Initiative Rennwald Jean-Claude. Proporzwahl für den Ständerat / Initiative parlementaire Rennwald Jean-Claude. Scrutin proportionnel pour les élections au Conseil des Etats",
+  "title_en": "Parliamentary Initiative Rennwald Jean-Claude: Proportional Election for the Council of States / Initiative parlementaire Rennwald Jean-Claude: Scrutin proportionnel pour les élections au Conseil des Etats",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2000-06-05",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2000-06-05",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Council of States elections",
+   "Proportional representation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Sommersession 2000",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2006/237#1#38*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3518465",
+  "accession_numbers": [
+   "2006/237"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Charles-Albert Antille",
+    "display_name": "Charles-Albert Antille",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q110821444",
+     "label": "Charles-Albert Antille",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q110821444"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Caspar Baader",
+    "display_name": "Caspar Baader",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116419",
+     "label": "Caspar Baader",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116419"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pierre Chiffelle",
+    "display_name": "Pierre Chiffelle",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3384428",
+     "label": "Pierre Chiffelle",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3384428"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andreas Gross",
+    "display_name": "Andreas Gross",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117113",
+     "label": "Andreas Gross",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117113"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-Claude Rennwald",
+    "display_name": "Jean-Claude Rennwald",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120733",
+     "label": "Jean-Claude Rennwald",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120733"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanspeter Seiler",
+    "display_name": "Hanspeter Seiler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q23008621",
+     "label": "Hanspeter Seiler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q23008621"
+    },
+    "life_date_check": {
+     "born": 1933,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '1999.0404: Parlamentarische Initiative Rennwald Jean-Claude. Proporzwahl für den Ständerat / Initiative parlementaire Rennwald Jean-Claude. Scrutin proportionnel pour les élections au Conseil des Etats'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Charles-Albert Antille', 'Caspar Baader', 'Pierre Chiffelle', 'Andreas Gross', 'Jean-Claude Rennwald', 'Hanspeter Seiler']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2000.06.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '1999.0404: Parlamentarische Initiative Rennwald Jean-Claude. Proporzwahl für den Ständerat / Initiative parlementaire Rennwald Jean-Claude. Scrutin proportionnel pour les élections au Conseil des Etats'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2000.06.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Charles-Albert Antille', 'Caspar Baader', 'Pierre Chiffelle', 'Andreas Gross', 'Jean-Claude Rennwald', 'Hanspeter Seiler']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/237 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2006/237#1#38*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4947,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

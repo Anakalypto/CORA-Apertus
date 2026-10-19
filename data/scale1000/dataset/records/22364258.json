@@ -1,0 +1,393 @@
+{
+ "id": "22364258",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22364258",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22364258",
+  "reference_code": "J2.225#2007/135#61#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Konferenz \"Women Leaders",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504183\nSignatur Bundesarchiv: J2.225#2007/135#61*",
+   "scope_and_content": "Inhaltsangabe: Österreich Wien: Konferenz \"Women Leaders\" / US-Aussenministerin Condoleezza Rice diskutiert mit Politikerinnen über Lösungen im Nahost-Konflikt\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Österreich Wien: Arbeitssitzung Politikerinnen mit Condoleezza Rice / PK Condoleezza Rice und Ursula Plassnik / PK Politikerinnen, u.a. Tzipi Livni / Statement Hanan Ashrawi",
+   "author": "AutorIn: Schmid, Erwin: AUT\nProduktion: SF",
+   "involved": "Moderation: Vetsch, Andrea",
+   "form": "Video",
+   "format": "Dauer: 00.01.22\nStartposition: 01:45:03\nTotal Spieldauer: 00.12.00\nTräger: Beta IMX",
+   "thema": "Personen: Livni, Tzipi: Aussenministerin Israel\nSachdeskriptor: /MENSCH./FRAU;/POLITIK./POLITISCHER KONFLIKT",
+   "date": {
+    "from": "2007-05-31",
+    "to": null,
+    "expressed": "2007.05.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a live event produced by SF.",
+  "resume": "A video recording of a conference titled \"Women Leaders\" held in Vienna, Austria, on 31 May 2007, featuring US Secretary of State Condoleezza Rice discussing solutions to the Middle East conflict with female politicians, including Tzipi Livni and Hanan Ashrawi."
+ },
+ "metadata": {
+  "title": "Konferenz \"Women Leaders",
+  "title_normalized": "Konferenz \"Women Leaders\"",
+  "title_en": "Conference \"Women Leaders\"",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Z�rich)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-05-31",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-05-31",
+  "languages": [
+   "de",
+   "en"
+  ],
+  "subjects": [
+   "Women Leaders",
+   "Middle East Conflict",
+   "Political Conference"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 31.05.2007"
+  ],
+  "reference_code": "J2.225#2007/135#61#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22364258",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Condoleezza Rice",
+    "display_name": "Condoleezza Rice",
+    "role": "participant",
+    "wikidata": {
+     "qid": "Q47216",
+     "label": "Condoleezza Rice",
+     "description": "American diplomat and political scientist (born 1954)",
+     "url": "https://www.wikidata.org/wiki/Q47216"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Tzipi Livni",
+    "display_name": "Tzipi Livni",
+    "role": "participant",
+    "wikidata": {
+     "qid": "Q151796",
+     "label": "Tzipi Livni",
+     "description": "Israeli politician, former Israeli Foreign Minister and former leader of the Coalition: Zionist Union together with Isaac Herzog from 2015 to 2019",
+     "url": "https://www.wikidata.org/wiki/Q151796"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanan Ashrawi",
+    "display_name": "Hanan Ashrawi",
+    "role": "participant",
+    "wikidata": {
+     "qid": "Q237143",
+     "label": "Hanan Ashrawi",
+     "description": "Palestinian legislator, activist, and scholar (born 1946)",
+     "url": "https://www.wikidata.org/wiki/Q237143"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Plassnik",
+    "display_name": "Ursula Plassnik",
+    "role": "participant",
+    "wikidata": {
+     "qid": "Q89396",
+     "label": "Ursula Plassnik",
+     "description": "Austrian politician, diplomat, foreign minister",
+     "url": "https://www.wikidata.org/wiki/Q89396"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andrea Vetsch",
+    "display_name": "Andrea Vetsch",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q495232",
+     "label": "Andrea Vetsch",
+     "description": "Swiss television presenter",
+     "url": "https://www.wikidata.org/wiki/Q495232"
+    },
+    "life_date_check": {
+     "born": 1975,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erwin Schmid",
+    "display_name": "Erwin Schmid",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival institution",
+    "wikidata": null
+   },
+   {
+    "name": "Swiss Television DRS (Z�rich)",
+    "role": "producer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Vienna",
+    "as_written": "Wien",
+    "role": "depicted",
+    "country": "AT",
+    "lat": 48.2083537,
+    "lon": 16.3725042,
+    "gazetteer": "https://www.openstreetmap.org/relation/109166",
+    "model_lat": 48.2082,
+    "model_lon": 16.3738
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2007/135#61*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Schmid, Erwin: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Livni, Tzipi: Aussenministerin Israel; named organizations or places (apertus): Personen: Livni, Tzipi: Aussenministerin Israel",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2007.05.31; free text places (apertus): yes",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2007/135#61*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Schmid, Erwin: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2007.05.31"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Livni, Tzipi: Aussenministerin Israel"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Livni, Tzipi: Aussenministerin Israel"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-05-31",
+   "place": "Vienna",
+   "lat": 48.2083537,
+   "lon": 16.3725042,
+   "description": "Video recording of conference \"Women Leaders\" featuring Condoleezza Rice and female politicians.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#61#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5358,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

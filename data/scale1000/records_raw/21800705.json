@@ -1,0 +1,70 @@
+{
+ "id": "21800705",
+ "uri": "https://culture.ld.admin.ch/ais/21800705",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21800705",
+ "title": "Tagesschau (TS), 02.12.1981",
+ "reference_code": "J2.225#1996/68#8571#2*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG E81/423\nSignatur Bundesarchiv: J2.225#1996/68#7747*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Sarnen, OW: Empfang für den neuen SR-P Jost Dillier\nSequenzbeschrieb: CH Sarnen, OW: Jost Dillier, begleitet von BR Hans Hürlimann und weiteren Regierungsmitgliedern auf dem Weg vom Bahnhof zum Gemeindehaus",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 25.11.1981-09.12.1981",
+ "form": "Video",
+ "format": "Dauer: 1.00\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.24.01\nTräger: Betacam-SP",
+ "thema": "Personen: Dillier, Jost\nSachdeskriptor: Ständerat",
+ "country": null,
+ "date": {
+  "from": "1981-12-02",
+  "to": null,
+  "expressed": "1981.12.02"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21800703",
+   "title": "Tagesschau SFDRS 02.12.1981",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#8571*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690390",
+   "title": "Tagesschau SFDRS 1981",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1981"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

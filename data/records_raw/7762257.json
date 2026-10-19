@@ -1,0 +1,67 @@
+{
+ "id": "7762257",
+ "uri": "https://culture.ld.admin.ch/ais/7762257",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7762257",
+ "title": "Aktenverzeichnis (Verzeichnis über alle eröffneten Dossiers)",
+ "reference_code": "E2200.52-04#1000/613#1*",
+ "reference_number": "0",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Vereinigte Staaten von Amerika",
+ "date": {
+  "from": "1929-01-01",
+  "to": "1929-12-31",
+  "expressed": "1929-1929"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10922",
+   "number": "1000/613",
+   "title": "1000/00613 Bundesverwaltung (Bern) (1928 - 1951)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7749139",
+   "title": "Akten, Korrespondenz und Indices",
+   "level": "Serie",
+   "reference_code": "E2200.52-04#0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7748791",
+   "title": "Schweizerische Vertretung, New York: Zentrale Ablage (1842-1953)",
+   "level": "Sub-file",
+   "reference_code": "E2200.52-04*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6443",
+   "title": "Schweizerische Vertretung, New York (1822-)",
+   "level": "Stock",
+   "reference_code": "E10657*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

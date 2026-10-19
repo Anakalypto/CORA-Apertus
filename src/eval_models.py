@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cora import config, qc  # noqa: E402
+from cora import store  # noqa: E402
 
 
 def _read_jsonl(path: Path) -> list[dict]:
@@ -90,7 +91,7 @@ def main():
     args = ap.parse_args()
     cfg = config.load(args.config)
     d = cfg["paths"]["data_dir"]
-    recs = {r["id"]: r for r in json.loads((d / "records_raw.json").read_text(encoding="utf-8"))}
+    recs = {r["id"]: r for r in store.read_entries(d / "records_raw.json")}
     big_rows, small_rows = _read_jsonl(d / "classified.jsonl"), _read_jsonl(d / "classified_compare.jsonl")
     if not big_rows or not small_rows:
         raise SystemExit("run the classify and compare stages first (see the docstring)")

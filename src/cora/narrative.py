@@ -8,6 +8,7 @@ import time
 import urllib.parse
 
 from .enrich import Cache, _get
+from . import store
 
 ORIGINAL_LABELS = {"title": "Title", "scope_and_content": "Scope and content", "author": "Author", "publisher": "Publisher",
                    "involved": "Involved", "coverage": "Coverage", "form": "Form", "format": "Physical format",
@@ -76,7 +77,7 @@ def context(r: dict, cache: Cache) -> list[dict]:
 
 def run(cfg) -> None:
     data = cfg["paths"]["data_dir"]
-    recs = [json.loads(l) for l in (data / "dataset" / "cora_dataset.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+    recs = store.read_entries(data / "dataset" / "cora_dataset.jsonl")
     cache = Cache(data / "enrich_cache.json")
     fetch_context([e["wikidata"]["qid"] for r in recs for e in r["entities"]["persons"] + r["entities"]["organizations"]
                    if e.get("wikidata")], cache, cfg)

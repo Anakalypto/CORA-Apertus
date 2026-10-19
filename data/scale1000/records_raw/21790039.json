@@ -1,0 +1,70 @@
+{
+ "id": "21790039",
+ "uri": "https://culture.ld.admin.ch/ais/21790039",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21790039",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 08.12.1978",
+ "reference_code": "J2.225#1996/68#7484#4*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 78/342/03;Rolle 1466\nSignatur Bundesarchiv: J2.225#1996/68#70450*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH o.O.: Prekäre Strassenverhältnisse in der Nordwestschweiz und im Mittelland wegen Eisregen\nSequenzbeschrieb: CH o.O.: Lastwagen auf Autobahn fahrend / an Strassenrand stehende zerbeulte Autos / steckengebliebenes Salzfahrzeug / Verkehr auf Autobahn (LS)",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 01.12.1978-15.12.1978",
+ "form": "Video",
+ "format": "Dauer: 1.54\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.39.26\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Strassenverkehr;Eisregen",
+ "country": null,
+ "date": {
+  "from": "1978-12-08",
+  "to": null,
+  "expressed": "1978.12.08"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21790035",
+   "title": "Tagesschau SFDRS 08.12.1978",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#7484*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690387",
+   "title": "Tagesschau SFDRS 1978",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1978"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

@@ -1,0 +1,70 @@
+{
+ "id": "22421603",
+ "uri": "https://culture.ld.admin.ch/ais/22421603",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22421603",
+ "title": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984",
+ "reference_code": "J2.240#2002/139#516#6*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: JRTSR LM009721\nSignatur Bundesarchiv: J2.240#2002/139#2117*",
+ "alternate_reference": null,
+ "scope_and_content": "Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers",
+ "author": null,
+ "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: SUISSE\nZeitliche Abdeckung: 07.03.1984-21.03.1984",
+ "form": "Video",
+ "format": "Dauer: 00:00.58\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:12.22",
+ "thema": "Sachdeskriptor: automobilisme",
+ "country": null,
+ "date": {
+  "from": "1984-03-14",
+  "to": null,
+  "expressed": "1984.03.14"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+   "number": "2002/139",
+   "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22421597",
+   "title": "Journal romand TSR 14.03.1984",
+   "level": "Dossier",
+   "reference_code": "J2.240#2002/139#516*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417590",
+   "title": "Journal romand TSR 1984",
+   "level": "Serie",
+   "reference_code": "J2.240#2.1984"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417586",
+   "title": "Journal romand 1981-1986 TSR",
+   "level": "Serie",
+   "reference_code": "J2.240#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4231",
+   "title": "Télévision Suisse Romande (1954-)",
+   "level": "Stock",
+   "reference_code": "J2.240*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

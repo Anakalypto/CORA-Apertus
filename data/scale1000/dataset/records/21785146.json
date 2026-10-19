@@ -1,0 +1,344 @@
+{
+ "id": "21785146",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21785146",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21785146",
+  "reference_code": "J2.225#1996/68#6962#8*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 30.06.1977",
+   "old_reference_code": "Original Signatur: TSSRG 77/181/07;Rolle 1375\nSignatur Bundesarchiv: J2.225#1996/68#67715*",
+   "scope_and_content": "Inhaltsangabe: CH Bern, BE: Treffen Bundesrat und kantonale Finanzdirektoren anlässlich Finanzdirektoren-Konferenz\nSequenzbeschrieb: CH Bern, BE: Konferenz / BR Willi Ritschard, BR-P Kurt Furgler und BR Georges-André Chevallaz auf Podium an Tisch sitzend / Schwenk Finanzdirektoren",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 23.06.1977-07.07.1977",
+   "form": "Video",
+   "format": "Dauer: 0.54\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.16.44\nTräger: Betacam-Digital",
+   "thema": "Personen: Ritschard, Willi;Furgler, Kurt;Chevallaz, Georges André\nSachdeskriptor: Finanzen",
+   "date": {
+    "from": "1977-06-30",
+    "to": null,
+    "expressed": "1977.06.30"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news broadcast created at the time of the events.",
+  "resume": "The document is a video recording of a Tagesschau news broadcast from 30 June 1977 showing a conference of the Swiss Federal Council with cantonal finance directors in Bern."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 30.06.1977",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 30.06.1977",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 30 June 1977",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1977-06-30",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1977-06-30",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Finanzas",
+   "Ritschard, Willi",
+   "Furgler, Kurt",
+   "Chevallaz, Georges André"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1977",
+   "Tagesschau SFDRS 30.06.1977"
+  ],
+  "reference_code": "J2.225#1996/68#6962#8*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21785146",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ritschard, Willi",
+    "display_name": "Willi Ritschard",
+    "role": "Person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Furgler, Kurt",
+    "display_name": "Kurt Furgler",
+    "role": "Person",
+    "wikidata": {
+     "qid": "Q115600",
+     "label": "Kurt Furgler",
+     "description": "Swiss politician (1924-2008)",
+     "url": "https://www.wikidata.org/wiki/Q115600"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2008,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Chevallaz, Georges André",
+    "display_name": "Georges André Chevallaz",
+    "role": "Person",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Council",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q30917",
+     "label": "Swiss Federal Council",
+     "description": "executive council and head of state in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q30917"
+    }
+   },
+   {
+    "name": "cantonal finance directors",
+    "role": "depicted",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "CH Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.54\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Ritschard, Willi;Furgler, Kurt;Chevallaz, Georges André; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1977.06.30",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.54\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1977.06.30"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Ritschard, Willi;Furgler, Kurt;Chevallaz, Georges André"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1977-06-30",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "News broadcast featuring Federal Council members and cantonal finance directors.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#6962#8*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:cantonal finance directors"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5298,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

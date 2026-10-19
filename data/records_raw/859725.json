@@ -1,0 +1,91 @@
+{
+ "id": "859725",
+ "uri": "https://culture.ld.admin.ch/ais/859725",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/859725",
+ "title": "1. Création d'une Commission internationale des monuments historiques; 2. Convention internationale pour la protection légale du patrimoine artistique",
+ "reference_code": "E2001C#1000/1535#1138*",
+ "reference_number": "B.56.23.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1924-01-01",
+  "to": null,
+  "expressed": "1924"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7555",
+   "number": "1000/1535",
+   "title": "1000/01535 Bundesverwaltung (Bern) (1919 - 1944)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679003",
+   "title": "Publications et Subventions suisses à l'institut international de coopération intellectuelle",
+   "level": "Serie",
+   "reference_code": "E2001C#B.56.23.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679000",
+   "title": "Organisation du travail intellectuel",
+   "level": "Serie",
+   "reference_code": "E2001C#B.56.23"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3678825",
+   "title": "Société des Nations",
+   "level": "Serie",
+   "reference_code": "E2001C#B.56"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3678790",
+   "title": "Neutralität und Krieg",
+   "level": "Serie",
+   "reference_code": "E2001C#B.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3678578",
+   "title": "Auswärtige Politik",
+   "level": "Serie",
+   "reference_code": "E2001C#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4320",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1927-1936)",
+   "level": "Sub-file",
+   "reference_code": "E2001C*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

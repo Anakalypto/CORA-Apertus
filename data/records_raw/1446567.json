@@ -1,0 +1,85 @@
+{
+ "id": "1446567",
+ "uri": "https://culture.ld.admin.ch/ais/1446567",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1446567",
+ "title": "Presseausschnitte über die Grippe-Epidemie, u.a. Stellungnahme von Oberstkkdt Wildbolz zu einem Artikel in der schweiz. Militärzeitung",
+ "reference_code": "E27#1000/721#19721*",
+ "reference_number": "10.A.2.d.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroforme",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1918-01-01",
+  "to": null,
+  "expressed": "1918"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3849139",
+   "title": "Grippenepidemie",
+   "level": "Serie",
+   "reference_code": "E27#10.A.2.d.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3849137",
+   "title": "Krankheiten, Epidemien, Impfen, Bluttransfusionen",
+   "level": "Serie",
+   "reference_code": "E27#10.A.2.d"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3849127",
+   "title": "Armeesanitätsdienst",
+   "level": "Serie",
+   "reference_code": "E27#10.A.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3849118",
+   "title": "Sanitätswesen",
+   "level": "Serie",
+   "reference_code": "E27#10.A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3849117",
+   "title": "Sanitätswesen. Schutz der Kriegsopfer, Rotes Kreuz",
+   "level": "Serie",
+   "reference_code": "E27#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

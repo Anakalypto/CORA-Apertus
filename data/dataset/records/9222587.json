@@ -1,0 +1,322 @@
+{
+ "id": "9222587",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/9222587",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/9222587",
+  "reference_code": "E2200.144-01#1000/199#33*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nachruf für Herrn Konsul Tictor Vogt, Valdivia, verfasst von Walter Meyer, Osorno, Juni 1940",
+   "reference_number": "A.I.2",
+   "old_reference_code": "E2200.144-01#1000/199#50*",
+   "date": {
+    "from": "1940-01-01",
+    "to": "1940-12-31",
+    "expressed": "1940-1940"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/8385",
+     "number": "1000/199",
+     "title": "1000/00199 Bundesverwaltung (Bern) (1918 - 1944)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "correspondence",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This is a retrospective personal document (eulogy) created after the events it describes, located within the administrative files of the Swiss Consulate in Santiago.",
+  "resume": "The document is a written eulogy for Consul Tictor Vogt of Valdivia, composed by Walter Meyer of Osorno in June 1940. It is an administrative record from the Swiss Consulate in Santiago de Chile, documenting the death of a Swiss consular official. The text reflects the consular administration's handling of the death of a colleague."
+ },
+ "metadata": {
+  "title": "Nachruf für Herrn Konsul Tictor Vogt, Valdivia, verfasst von Walter Meyer, Osorno, Juni 1940",
+  "title_normalized": "Nachruf für Herrn Konsul Tictor Vogt, Valdivia, verfasst von Walter Meyer, Osorno, Juni 1940",
+  "title_en": "Obituary for Mr. Consul Tictor Vogt, Valdivia, written by Walter Meyer, Osorno, June 1940",
+  "creator": "Walter Meyer",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1940-06",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1940/1940",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "consular affairs",
+   "obituary",
+   "Swiss foreign service",
+   "Chile"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Santiago de Chile (1918-)",
+  "fonds_reference": "E10699*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Santiago de Chile (1918-)",
+   "Schweizerische Vertretung, Santiago de Chile: Zentrale Ablage (1921-1965)",
+   "Affaires administratives",
+   "Administration du consulat",
+   "Liste des Dossiers 1918-1950"
+  ],
+  "reference_code": "E2200.144-01#1000/199#33*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/9222587",
+  "accession_numbers": [
+   "1000/199"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Tictor Vogt",
+    "display_name": "Tictor Vogt",
+    "role": "deceased consular official",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Walter Meyer",
+    "display_name": "Walter Meyer",
+    "role": "author of the obituary",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Valdivia",
+    "as_written": "Valdivia",
+    "role": "depicted",
+    "country": "CL",
+    "lat": -39.8141262,
+    "lon": -73.2459859,
+    "gazetteer": "https://www.openstreetmap.org/relation/1785691",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Osorno",
+    "as_written": "Osorno",
+    "role": "mentioned",
+    "country": "CL",
+    "lat": -40.5736955,
+    "lon": -73.1358091,
+    "gazetteer": "https://www.openstreetmap.org/relation/1794711",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Herrn Konsul Tictor Vogt\", \"Walter Meyer\"; named organizations or places (apertus): hierarchy includes \"Schweizerische Vertretung, Santiago de Chile\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date expressed as \"1940-1940\"; free text places (apertus): places \"Valdivia\", \"Osorno\" only in title free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"1940-1940\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places \"Valdivia\", \"Osorno\" only in title free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Herrn Konsul Tictor Vogt\", \"Walter Meyer\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes \"Schweizerische Vertretung, Santiago de Chile\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names individuals but does not concern them personally in a sensitive context."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1940-06",
+   "place": "Osorno",
+   "lat": -40.5736955,
+   "lon": -73.1358091,
+   "description": "Walter Meyer wrote the obituary for Consul Tictor Vogt.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1940-06",
+   "place": "Valdivia",
+   "lat": -39.8141262,
+   "lon": -73.2459859,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/199 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.144-01#1000/199#33*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4865,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

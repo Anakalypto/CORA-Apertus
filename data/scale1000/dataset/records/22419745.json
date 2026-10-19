@@ -1,0 +1,292 @@
+{
+ "id": "22419745",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22419745",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22419745",
+  "reference_code": "J2.240#2002/139#283#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal Romand, 30.03.1983",
+   "old_reference_code": "Original Signatur: JRTSR LM006690\nSignatur Bundesarchiv: J2.240#2002/139#1130*",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Zeitliche Abdeckung: 23.03.1983-06.04.1983",
+   "form": "Video",
+   "format": "Dauer: 00:00.47\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:01.20",
+   "date": {
+    "from": "1983-03-30",
+    "to": null,
+    "expressed": "1983.03.30"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+     "number": "2002/139",
+     "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast produced by TSR, capturing a news segment from 30 March 1983.",
+  "resume": "This is a video news report from Télévision suisse romande (TSR) covering the period 23 March–6 April 1983, with the specific segment dated 30 March 1983, featuring night plans and reverberations."
+ },
+ "metadata": {
+  "title": "NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal Romand, 30.03.1983",
+  "title_normalized": "NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal Romand, 30.03.1983",
+  "title_en": "New Night Lighting Plans and Night Reverberations; Journal Romand, 30 March 1983",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1983-03-30",
+  "date_published": "1983-03-30",
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "1983-03-30",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "night lighting",
+   "urban planning",
+   "news reporting"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Journal romand 1981-1986 TSR",
+   "Journal romand TSR 1983",
+   "Journal romand TSR 30.03.1983"
+  ],
+  "reference_code": "J2.240#2002/139#283#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22419745",
+  "accession_numbers": [
+   "2002/139"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "published",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"2002/00139 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal ",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): format: Dauer: 00:00.47\nFarbe: couleur\nFormat Arbeitskopie",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:00.47\nFarbe: couleur\nFormat Arbeitskopie; multilingual (apertus): title: 'NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal Romand'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): publisher: 'Télévision suisse romande (TSR), SRG SSR idée suisse'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1983.03.30",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"2002/00139 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal "
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:00.47\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:00.47\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'NOUVEL ECLAIRAGE DE NUIT PLANS REVERBERES DE NUIT ; Journal Romand'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1983.03.30"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher: 'Télévision suisse romande (TSR), SRG SSR idée suisse'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1983-03-30",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of news segment on night lighting plans",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/139 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#2002/139#283#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4922,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

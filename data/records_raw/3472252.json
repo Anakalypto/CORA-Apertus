@@ -1,0 +1,67 @@
+{
+ "id": "3472252",
+ "uri": "https://culture.ld.admin.ch/ais/3472252",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3472252",
+ "title": "Presseausschnitte und Festliteratur aus dem Kt. Aargau, Vol 1-2",
+ "reference_code": "E4#1000/781#283*",
+ "reference_number": "5.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroform",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1891-01-01",
+  "to": null,
+  "expressed": "1891"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12694",
+   "number": "1000/781",
+   "title": "1000/00781 Bundesverwaltung (Bern) (1848-1984)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833012",
+   "title": "Bundesfeier 1891",
+   "level": "Serie",
+   "reference_code": "E4#5.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3833010",
+   "title": "Feierlichkeiten und Feste, Sportanlässe",
+   "level": "Serie",
+   "reference_code": "E4#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3586",
+   "title": "Inneres, Verwaltung und Verschiedenes",
+   "level": "Stock",
+   "reference_code": "E4*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

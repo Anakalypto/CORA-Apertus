@@ -1,0 +1,325 @@
+{
+ "id": "22334706",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22334706",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22334706",
+  "reference_code": "J2.225#2005/179#92#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Antenne ; Antenne, 01.03.1968",
+   "old_reference_code": "Original Signatur: RJSFDRS 9501867\nSignatur Bundesarchiv: J2.225#2005/179#373*",
+   "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: Börsenbericht von Hans-Rudolf Rahn",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 01.03.1968",
+   "form": "Video",
+   "format": "Dauer: 00:02:57\nFarbe: Schwarzweissaufnahmen\nStartposition: 10.32.30\nTräger: Betacam-Digital",
+   "thema": "Personen: Rahn, Hans Rudolf\nSachdeskriptor: Börse",
+   "date": {
+    "from": "1968-03-01",
+    "to": null,
+    "expressed": "1968.03.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/2055607",
+     "number": "2005/179",
+     "title": "2005/00179 Schweizer Fernsehen DRS (Z�rich) (1965-1973)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording produced by DRS for broadcast.",
+  "resume": "A black-and-white video recording from March 1, 1968, showing a stock market report by Hans-Rudolf Rahn for the regional magazine Antenne of Schweizer Fernsehen DRS."
+ },
+ "metadata": {
+  "title": "Antenne ; Antenne, 01.03.1968",
+  "title_normalized": "Antenne ; Antenne, 01.03.1968",
+  "title_en": "Antenne - March 1, 1968",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1968-03-01",
+  "date_published": "1968-03-01",
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "1968-03-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "stock market",
+   "Rahn, Hans Rudolf",
+   "Z\ri\rrich"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1968",
+   "Regionalmagazine SFDRS 01.03.1968"
+  ],
+  "reference_code": "J2.225#2005/179#92#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22334706",
+  "accession_numbers": [
+   "2005/179"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rahn, Hans Rudolf",
+    "display_name": "Hans Rudolf Rahn",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q13882842",
+     "label": "Hans Rudolf Rahn",
+     "description": "Swiss politician, 1560 - 1627",
+     "url": "https://www.wikidata.org/wiki/Q13882842"
+    },
+    "life_date_check": {
+     "born": 1560,
+     "died": 1627,
+     "verdict": "flag",
+     "reason": "died 1627, more than 50 years before the document (1968)"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Z\rrich",
+    "as_written": "Z\rrich",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.3124766,
+    "lon": 9.2118629,
+    "gazetteer": "https://www.openstreetmap.org/node/4453882729",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title: 'Antenne ; Antenne, 01.03.1968'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:02:57\nFarbe: Schwarzweissaufnahmen\nStart",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: 'Personen: Rahn, Hans Rudolf'; named organizations or places (apertus): coverage: 'Geografische Abdeckung: Westeuropa ohne Skandinavien'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date: expressed: '1968.03.01'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title: 'Antenne ; Antenne, 01.03.1968'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:02:57\nFarbe: Schwarzweissaufnahmen\nStart"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: '1968.03.01'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: 'Personen: Rahn, Hans Rudolf'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "coverage: 'Geografische Abdeckung: Westeuropa ohne Skandinavien'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1968-03-01",
+   "place": "Z\rrich",
+   "lat": 46.3124766,
+   "lon": 9.2118629,
+   "description": "Stock market report by Hans-Rudolf Rahn aired on Antenne.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/179 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2005/179#92#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5052,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

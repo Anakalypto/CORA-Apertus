@@ -1,0 +1,350 @@
+{
+ "id": "21841130",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21841130",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21841130",
+  "reference_code": "J2.225#2000/20#701#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), Wirtschafts-Prognose, 31.08.2001",
+   "old_reference_code": "Original Signatur: TSSFDRS 2310445\nSignatur Bundesarchiv: J2.225#2000/20#7246*",
+   "scope_and_content": "Inhaltsangabe: CH: Prognosen der ETH-Konjunkturforschungsstelle (KOF) für schwache Konjunktur\nSequenzbeschrieb: o.O.: ZS Börse, Wirtschaft;CH o.O.: Statement Christoph Koellreuter (°Konjunkturforschung °Basel) / Statement Klaus Wellershoff (°Chefökonom °UBS)",
+   "author": "AutorIn: Franziscus, Andri; Caflisch, Eva\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Clerc, Charles",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 24.08.2001-07.09.2001",
+   "form": "Video",
+   "format": "Dauer: 00:01:43\nFarbe: Farbaufnahmen\nStartposition: 01.15.02",
+   "thema": "Personen: Koellreuter, Christoph;Wellershoff, Klaus\nSachdeskriptor: Konjunktur",
+   "date": {
+    "from": "2001-08-31",
+    "to": null,
+    "expressed": "2001.08.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16886",
+     "number": "2000/20",
+     "title": "2000/00020 Schweizer Fernsehen DRS (Z�rich) (1999-2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news program with original footage and live statements.",
+  "resume": "A video news segment from Tagesschau (TS) on 31 August 2001 presenting economic forecasts by ETH's KOF institute and statements from Christoph Koellreuter and Klaus Wellershoff."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), Wirtschafts-Prognose, 31.08.2001",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), Wirtschafts-Prognose, 31.08.2001",
+  "title_en": "Tagesschau Main Edition (TS), Economic Forecast, 31 August 2001",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2001-08-31",
+  "date_published": "2001-08-31",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "2001-08-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "economic forecasts",
+   "conjuncture",
+   "KOF institute"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2001",
+   "Tagesschau SFDRS 31.08.2001"
+  ],
+  "reference_code": "J2.225#2000/20#701#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21841130",
+  "accession_numbers": [
+   "2000/20"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Charles Clerc",
+    "display_name": "Charles Clerc",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1063960",
+     "label": "Charles Clerc",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1063960"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Koellreuter, Christoph",
+    "display_name": "Christoph Koellreuter",
+    "role": "expert",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Wellershoff, Klaus",
+    "display_name": "Klaus Wellershoff",
+    "role": "expert",
+    "wikidata": {
+     "qid": "Q1745828",
+     "label": "Klaus W. Wellershoff",
+     "description": "German economist and entrepreneur",
+     "url": "https://www.wikidata.org/wiki/Q1745828"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "ETH",
+    "role": "source of forecast",
+    "wikidata": null
+   },
+   {
+    "name": "UBS",
+    "role": "employer of Klaus Wellershoff",
+    "wikidata": {
+     "qid": "Q193199",
+     "label": "UBS",
+     "description": "Swiss multinational investment bank and financial services company",
+     "url": "https://www.wikidata.org/wiki/Q193199"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "CH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1999-2002)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Franziscus, Andri; Caflisch, Eva\nProdukti",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Koellreuter, Christoph;Wellershoff, Klaus; named organizations or places (apertus): SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.08.31",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1999-2002)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Franziscus, Andri; Caflisch, Eva\nProdukti"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.08.31"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Koellreuter, Christoph;Wellershoff, Klaus"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2001-08-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau news segment with economic analysis.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/20 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/20#701#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": false,
+  "structural_errors": [],
+  "critical": [
+   "created_after_archived"
+  ],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5347,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

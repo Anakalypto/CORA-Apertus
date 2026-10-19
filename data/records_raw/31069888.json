@@ -1,0 +1,91 @@
+{
+ "id": "31069888",
+ "uri": "https://culture.ld.admin.ch/ais/31069888",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31069888",
+ "title": "2014.9003: Nachruf / Eloge funèbre",
+ "reference_code": "E1301#2017/374#5#2*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Rossini, Stéphane;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2014-12-01",
+  "to": null,
+  "expressed": "2014.12.01"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/31069212",
+   "number": "2017/374",
+   "title": "2017/00374 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31069886",
+   "title": "5. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#2017/374#5*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31069208",
+   "title": "Wintersession 2014",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-49-16"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30930993",
+   "title": "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-49"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794373",
+   "title": "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

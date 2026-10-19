@@ -1,0 +1,316 @@
+{
+ "id": "21868876",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21868876",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21868876",
+  "reference_code": "J2.225#2000/22#2876#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Fasnacht Luzern ; DRS-aktuell, 06.02.1986",
+   "old_reference_code": "Original Signatur: RJSFDRS 9305839\nSignatur Bundesarchiv: J2.225#2000/22#2521*",
+   "scope_and_content": "Inhaltsangabe: CH Luzern, LU: Porträt Max Lehmann, Tambourmajor Fritschimusig, bei Fasnachts-Beginn\nSequenzbeschrieb: CH Luzern, LU: Max Lehmann im Gespräch auf Baustelle / IA Büro von °Lehmann / Lehmann Bass auspackend / Auftritt Kid Creoles Beach Party und Fritschimusig",
+   "author": "AutorIn: Stäubli, Pitschi; Vögele, Reinhard\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Issler, Helen = Keel, Helen",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 30.01.1986-13.02.1986",
+   "form": "Video",
+   "format": "Dauer: 00:04:13\nFarbe: Farbaufnahmen\nStartposition: 00.57.35\nTräger: Betacam-Digital",
+   "thema": "Personen: Lehmann, Max\nSachdeskriptor: Fasnacht",
+   "date": {
+    "from": "1986-02-06",
+    "to": null,
+    "expressed": "1986.02.06"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a televised event created at the time of the broadcast.",
+  "resume": "A video segment from the Swiss television program DRS-aktuell dated 6 February 1986, showing scenes from the Fasnacht (carnival) celebrations in Lucerne, including portraits of Max Lehmann and the Fritschimusig band."
+ },
+ "metadata": {
+  "title": "Fasnacht Luzern ; DRS-aktuell, 06.02.1986",
+  "title_normalized": "Fasnacht Luzern ; DRS-aktuell, 06.02.1986",
+  "title_en": "Lucerne Carnival ; DRS-aktuell, February 6, 1986",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1986-02-06",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1986-02-06",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Fasnacht",
+   "Lucerne",
+   "Max Lehmann"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1986",
+   "Regionalmagazine SFDRS 06.02.1986"
+  ],
+  "reference_code": "J2.225#2000/22#2876#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21868876",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Lehmann, Max",
+    "display_name": "Max Lehmann",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Lucerne",
+    "as_written": "Luzern",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.052144,
+    "lon": 8.3058123,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682891",
+    "model_lat": 46.948,
+    "model_lon": 8.332
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1958-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Stäubli, Pitschi; Vögele, Reinhard\nProduk",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Lehmann, Max; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1986.02.06",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1958-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Stäubli, Pitschi; Vögele, Reinhard\nProduk"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1986.02.06"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Lehmann, Max"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1986-02-06",
+   "place": "Lucerne",
+   "lat": 47.052144,
+   "lon": 8.3058123,
+   "description": "Video segment broadcast as part of DRS-aktuell program.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#2876#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5334,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

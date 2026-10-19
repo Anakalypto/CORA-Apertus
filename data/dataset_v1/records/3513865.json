@@ -1,0 +1,293 @@
+{
+ "id": "3513865",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3513865",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513865",
+  "reference_code": "E1301#2002/232#5#23*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2002.5163: Fragestunde. Frage Baumann J. Alexander. Oberaufsicht über das BPV / Heure des questions. Question Baumann J. Alexander. Surveillance de l'OFAP",
+   "scope_and_content": "Sprecher/Sprecherinnen: Baumann J., Alexander; Metzler, Ruth",
+   "date": {
+    "from": "2002-09-23",
+    "to": null,
+    "expressed": "2002.09.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383493",
+     "number": "2002/232",
+     "title": "2002/00232 Parlamentsdienste (Bern) (2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded at the time of the event by the parliamentary services as an official audio capture of the National Council session.",
+  "resume": "This is an audio recording of a parliamentary question session in the Swiss National Council during the autumn session of 2002. It features Member of Parliament Baumann J. Alexander asking about the supervision of the Federal Office of Civil Aviation (OFAP)."
+ },
+ "metadata": {
+  "title": "2002.5163: Fragestunde. Frage Baumann J. Alexander. Oberaufsicht über das BPV / Heure des questions. Question Baumann J. Alexander. Surveillance de l'OFAP",
+  "title_normalized": "2002.5163: Fragestunde. Frage Baumann J. Alexander. Oberaufsicht über das BPV / Heure des questions. Question Baumann J. Alexander. Surveillance de l'OFAP",
+  "title_en": "Question Time. Question by Baumann J. Alexander. Supervision of the Federal Office of Civil Aviation (OFAP)",
+  "creator": "Parlamentsdienste (Bern)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2002-09-23",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "2002-09-23",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "parliamentary procedure",
+   "aviation regulation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Herbstsession 2002",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2002/232#5#23*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3513865",
+  "accession_numbers": [
+   "2002/232"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Baumann J. Alexander",
+    "display_name": "Baumann J. Alexander",
+    "role": "Parliamentarian asking a question",
+    "wikidata": null
+   },
+   {
+    "name": "Metzler, Ruth",
+    "display_name": "Ruth Metzler",
+    "role": "Speaker (presumably chair or moderator)",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "Hosting body of the parliamentary session",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Baumann J., Alexander, Metzler, Ruth; named organizations or places (apertus): Nationalrat, Parlamentsdienste (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2002.09.23'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2002.09.23'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Baumann J., Alexander, Metzler, Ruth"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Nationalrat, Parlamentsdienste (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and Swiss parliamentary bodies; no sensitive personal data detected."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2002-09-23",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Audio recording made during the National Council autumn session 2002",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/232 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2002/232#5#23*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4170,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

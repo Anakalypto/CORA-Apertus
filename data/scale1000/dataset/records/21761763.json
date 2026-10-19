@@ -1,0 +1,314 @@
+{
+ "id": "21761763",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21761763",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21761763",
+  "reference_code": "J2.225#1996/68#4538#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau -Téléjournal - Telegiornale (TS), 22.10.1970",
+   "old_reference_code": "Original Signatur: TSSRG 70/295/05;Rolle 1012\nSignatur Bundesarchiv: J2.225#1996/68#54816*",
+   "scope_and_content": "Inhaltsangabe: CH Horgen, ZH: Arbeits-Tagung der Internationalen Arbeitsgemeinschaft der Wasserwerke im Rheineinzugsgebiet (IAWR)",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 15.10.1970-29.10.1970",
+   "form": "Video",
+   "format": "Dauer: 1.01\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.01.20\nTräger: Betacam-Digital",
+   "thema": "Personen: Kopf\nSachdeskriptor: Wasser",
+   "date": {
+    "from": "1970-10-22",
+    "to": null,
+    "expressed": "1970.10.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production of the news program by SRG, capturing live footage of a working meeting.",
+  "resume": "This is a black-and-white video news report from Tagesschau (TS), dated 22 October 1970, covering a working meeting of the International Association of Waterworks in the Rhine catchment area in Horgen, canton of Zürich."
+ },
+ "metadata": {
+  "title": "Tagesschau -Téléjournal - Telegiornale (TS), 22.10.1970",
+  "title_normalized": "Tagesschau -Téléjournal - Telegiornale (TS), 22.10.1970",
+  "title_en": "Tagesschau - Television News Report, 22 October 1970",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1970-10-22",
+  "date_published": "1970-10-22",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1970-10-22",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Water",
+   "Working meetings",
+   "International organizations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1970",
+   "Tagesschau SFDRS 22.10.1970"
+  ],
+  "reference_code": "J2.225#1996/68#4538#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21761763",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Kopf",
+    "display_name": "Kopf",
+    "role": "Sachdeskriptor",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "International Arbeitsgemeinschaft der Wasserwerke im Rheineinzugsgebiet (IAWR)",
+    "role": "depicted",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Horgen",
+    "as_written": "CH Horgen, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.260692,
+    "lon": 8.5976831,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682144",
+    "model_lat": 47.4,
+    "model_lon": 8.6
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.01\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1970.10.22",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "coverage: Geografische Abdeckung: Westeuropa ohne Skandinavi"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.01\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1970.10.22"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1970-10-22",
+   "place": "Horgen",
+   "lat": 47.260692,
+   "lon": 8.5976831,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1970-10-22",
+   "place": "Horgen, CH",
+   "lat": 47.260692,
+   "lon": 8.5976831,
+   "description": "News report covering a working meeting of the International Association of Waterworks in the Rhine catchment area.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#4538#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5099,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

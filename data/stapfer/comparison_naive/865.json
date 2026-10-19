@@ -1,0 +1,54 @@
+{
+ "id": 865,
+ "signature": "BAR B0 1000/1483, Nr. 1449, fol. 232-233v",
+ "reference": {
+  "place": "Benken",
+  "canton_1799": "Linth",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Josef Fridolin Kraz",
+  "teacher_age": 41,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 1,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joseph Fridolin Kraz",
+  "date_written": "1799-02-24"
+ },
+ "apertus": {
+  "place": "Bänken",
+  "canton_1799": "Lint",
+  "school_type": null,
+  "confession": "katholisch",
+  "teacher_name": "Joseph Fridolin Kraz",
+  "teacher_age": 41,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "11 Wintermonath Anno 1798",
+  "pupils_winter": 46,
+  "pupils_summer": 29,
+  "author_name": "Joseph Fridolin Kraz",
+  "date_written": "1799-02-24"
+ },
+ "evidence": {
+  "I.1.a": "in der gemeind bänken im @ Canton lint districkt schöniß in der @ Agentschaft bänken",
+  "II.5": "Jn der schuol wirt hier Teütschgelernt @ schreiben und lesen",
+  "III.11.a": "biß hero hat Man den schuolmeister an einer kirchen gemeind ehr= @ mehrt ale 2 jahr der mahlen wahr @ schuolmeister ich Joseph Fridolin kraz in @ Bänken Anno 1798 Jahrs den 11 winter @ moneth auf 2 Jahr bestimbt und ehr= @ mereth worden auch sol ich daß kirchen @ gesang Vollfüöhren, Alt Wahr ich 41 jahr",
+  "III.12": "schuol kinder hab ich über haubt in @ allem 46 knaben und 29 medchen",
+  "IV.14": "Meine einkünften komen dahär @ Erstlich hab ich inn einem Winter @ uon der gemeind 10 gute gulden @ Zweitenß auch holz für die Noth= @ wendigkeit 3 Jst auch er meret @ worden Von den Mit bürgeren @ Ein jeglicher der kinder in die schuoll @ schickt Sohle ver pflichtet sein Von einem @ Jeden dem schuolmeister 25 luzerner @ schiling"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "mismatch",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 16.05
+}

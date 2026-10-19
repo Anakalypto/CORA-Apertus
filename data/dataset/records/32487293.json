@@ -1,0 +1,324 @@
+{
+ "id": "32487293",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32487293",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32487293",
+  "reference_code": "E1301#2022/124#9#31*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2016.5407: Fragestunde. Frage Addor Jean-Luc. Revision der EU-Waffenrichtlinie. Keine weitere Verschärfung des Schweizer Waffenrechtes / Heure des questions. Question Addor Jean-Luc. Projet de directive européenne sur les armes. Repousser tout durcissement de la législation suisse sur les armes",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Addor, Jean-Luc; Sommaruga, Simonetta;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-09-26",
+    "to": null,
+    "expressed": "2016.09.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32487030",
+     "number": "2022/124",
+     "title": "2022/00124 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an administrative record of a Nationalrat session, specifically a debate transcript from the Herbstsession 2016.",
+  "resume": "This is a video recording of a parliamentary question session in the Swiss National Council on 26 September 2016. National Councillor Jean-Luc Addor asked Federal Councillor Simonetta Sommaruga about the revision of the EU firearms directive and requested that Switzerland not adopt stricter gun legislation. The session was part of the 2016 autumn session of the National Council."
+ },
+ "metadata": {
+  "title": "2016.5407: Fragestunde. Frage Addor Jean-Luc. Revision der EU-Waffenrichtlinie. Keine weitere Verschärfung des Schweizer Waffenrechtes / Heure des questions. Question Addor Jean-Luc. Projet de directive européenne sur les armes. Repousser tout durcissement de la législation suisse sur les armes",
+  "title_normalized": "2016.5407: Fragestunde. Frage Addor Jean-Luc. Revision der EU-Waffenrichtlinie. Keine weitere Verschärfung des Schweizer Waffenrechtes / Heure des questions. Question Addor Jean-Luc. Projet de directive européenne sur les armes. Repousser tout durcissement de la législation suisse sur les armes",
+  "title_en": "Question Time. Question by Jean-Luc Addor. Revision of the EU firearms directive. No further tightening of Swiss gun legislation / Question Time. Question by Jean-Luc Addor. European firearms directive project. Reject any tightening of Swiss gun legislation",
+  "creator": "Parlamentsdienste (Nationalrat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2016-09-26",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "2016-09-26",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss firearms legislation",
+   "EU firearms directive",
+   "Swiss National Council",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Herbstsession 2016",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2022/124#9#31*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32487293",
+  "accession_numbers": [
+   "2022/124"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jean-Luc Addor",
+    "display_name": "Jean-Luc Addor",
+    "role": "National Councillor asking a question",
+    "wikidata": {
+     "qid": "Q21294488",
+     "label": "Jean-Luc Addor",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21294488"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Simonetta Sommaruga",
+    "display_name": "Simonetta Sommaruga",
+    "role": "Federal Councillor answering the question",
+    "wikidata": {
+     "qid": "Q122991",
+     "label": "Simonetta Sommaruga",
+     "description": "politician and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q122991"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "Parliamentary body holding the session",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains both German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers list includes 'Jean-Luc Addor' and 'Simonetta Sommaruga'; named organizations or places (apertus): Hierarchy includes 'Nationalrat' and 'Schweizerischen Bundesarchivs'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2016.09.26'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains both German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2016.09.26'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers list includes 'Jean-Luc Addor' and 'Simonetta Sommaruga'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hierarchy includes 'Nationalrat' and 'Schweizerischen Bundesarchivs'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Topic is parliamentary debate on weapons legislation, not personal case"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are public officials (Jean-Luc Addor, Simonetta Sommaruga) in a parliamentary debate; no identifiable private individuals or sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2016-09-26",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video recording made during the National Council session",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/124 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2022/124#9#31*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5034,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,300 @@
+{
+ "id": "29671039",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29671039",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29671039",
+  "reference_code": "J2.225#2008/121#1#13*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Börsenduplex NYSE",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504511\nSignatur Bundesarchiv: J2.225#2008/121#6*",
+   "scope_and_content": "Inhaltsangabe: USA <New York: Duplex Jens Korte\nProduktionstyp: Eigenproduktion UE",
+   "author": "AutorIn: Korte, Jens (SPIB)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:51\nPosition Anfang: 00:46:41",
+   "date": {
+    "from": "2007-10-01",
+    "to": null,
+    "expressed": "2007.10.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production by the news agency SF with a specific recording date and duration, indicating primary source material.",
+  "resume": "A video news report produced by SF (Swiss Federal Television) featuring a segment titled \"Börsenduplex NYSE\" recorded on 1 October 2007, showing content related to the New York Stock Exchange."
+ },
+ "metadata": {
+  "title": "Börsenduplex NYSE",
+  "title_normalized": "Börsenduplex NYSE",
+  "title_en": "Börsenduplex NYSE",
+  "creator": "Jens (SPIB) Korte, SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-10-01",
+  "date_published": "2007-10-01",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-10-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "New York Stock Exchange",
+   "financial markets",
+   "business news"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 01.10.2007"
+  ],
+  "reference_code": "J2.225#2008/121#1#13*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29671039",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jens (SPIB) Korte",
+    "display_name": "Jens (SPIB) Korte",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SF",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "New York",
+    "as_written": "NYSE",
+    "role": "depicted",
+    "country": "US",
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "gazetteer": "https://www.openstreetmap.org/relation/175905",
+    "model_lat": 40.7128,
+    "model_lon": -74.006
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: USA <New York: Duplex Jens Korte\nProduktionstyp: Eigenproduktion UE",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Korte, Jens (SPIB)\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Jens (SPIB) Korte; named organizations or places (apertus): New York",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2007.10.01; free text places (apertus): New York",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: USA <New York: Duplex Jens Korte\nProduktionstyp: Eigenproduktion UE"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Korte, Jens (SPIB)\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.10.01"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "New York"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Jens (SPIB) Korte"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "New York"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-10-01",
+   "place": "New York",
+   "lat": 40.7127281,
+   "lon": -74.0060152,
+   "description": "Video segment \"Börsenduplex NYSE\" was produced and broadcast.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#1#13*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4789,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

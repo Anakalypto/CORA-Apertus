@@ -1,0 +1,355 @@
+{
+ "id": "931156",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/931156",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931156",
+  "reference_code": "J2.181#1987/52#3134*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nekrologe 1933",
+   "reference_number": "413",
+   "scope_and_content": "- Jakob Bucher\\- Eduard Guntli\\- Meinrad Gyr\\- Meinrad Lienert\\- Jakob Müller\\- Josef Othmar Staub\\- Jakob Wyrsch",
+   "date": {
+    "from": "1933-01-01",
+    "to": null,
+    "expressed": "1933"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+     "number": "1987/52",
+     "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective collection of press obituaries from 1933.",
+  "resume": "The document is a press article from the Christian Democratic People's Party of Switzerland (CVP) collection listing obituaries for six individuals who died in 1933. It contains no primary source material but rather compiled information about deceased persons. The record itself is an archival inventory entry describing this press article."
+ },
+ "metadata": {
+  "title": "Nekrologe 1933",
+  "title_normalized": "Nekrologe 1933",
+  "title_en": "Obituaries 1933",
+  "creator": null,
+  "publisher": "Christlichdemokratische Volkspartei der Schweiz (CVP)",
+  "commissioner": null,
+  "date_created": "1933",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1933",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "death notices",
+   "Christian Democratic People's Party (CVP)",
+   "Swiss politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+  "fonds_reference": "J2.181*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "Medien",
+   "Presse",
+   "Personenbezogene Presseartikel A-Z"
+  ],
+  "reference_code": "J2.181#1987/52#3134*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931156",
+  "accession_numbers": [
+   "1987/52"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jakob Bucher",
+    "display_name": "Jakob Bucher",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Eduard Guntli",
+    "display_name": "Eduard Guntli",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q1288527",
+     "label": "Eduard Guntli",
+     "description": "Swiss politician (1872-1933)",
+     "url": "https://www.wikidata.org/wiki/Q1288527"
+    },
+    "life_date_check": {
+     "born": 1872,
+     "died": 1933,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Meinrad Gyr",
+    "display_name": "Meinrad Gyr",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Meinrad Lienert",
+    "display_name": "Meinrad Lienert",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jakob Müller",
+    "display_name": "Jakob Müller",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q1679246",
+     "label": "Jakob Müller",
+     "description": "Swiss politician (1842-1901)",
+     "url": "https://www.wikidata.org/wiki/Q1679246"
+    },
+    "life_date_check": {
+     "born": 1842,
+     "died": 1901,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Josef Othmar Staub",
+    "display_name": "Josef Othmar Staub",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q78071889",
+     "label": "Othmar Staub",
+     "description": "Swiss politician (1847-1933)",
+     "url": "https://www.wikidata.org/wiki/Q78071889"
+    },
+    "life_date_check": {
+     "born": 1847,
+     "died": 1933,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jakob Wyrsch",
+    "display_name": "Jakob Wyrsch",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q96413867",
+     "label": "Jakob Wyrsch",
+     "description": "Swiss politician (1842-1933)",
+     "url": "https://www.wikidata.org/wiki/Q96413867"
+    },
+    "life_date_check": {
+     "born": 1842,
+     "died": 1933,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is \"Nekrologe 1933\" in all caps",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): scope_and_content lists \"Jakob Bucher\", \"Eduard Guntli\", etc.; named organizations or places (apertus): accessions includes \"Christlichdemokratische Volkspartei der Schweiz\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in scope_and_content free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is \"Nekrologe 1933\" in all caps"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in scope_and_content free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content lists \"Jakob Bucher\", \"Eduard Guntli\", etc."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions includes \"Christlichdemokratische Volkspartei der Schweiz\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names deceased individuals but does not concern identifiable persons in sensitive contexts such as health, criminal proceedings, or asylum cases."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/52 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.181#1987/52#3134*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4648,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

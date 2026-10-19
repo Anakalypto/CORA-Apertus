@@ -1,0 +1,377 @@
+{
+ "id": "22367204",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22367204",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22367204",
+  "reference_code": "J2.225#2007/135#87#16*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Drogenbericht",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504259\nSignatur Bundesarchiv: J2.225#2007/135#87*",
+   "scope_and_content": "Inhaltsangabe: Schweiz, Zürich, ZH, Bern, BE: Reaktionen auf UNO-Bericht über Drogenkonsum und Rangliste der Städte mit dem höchsten Drogenkonsum\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz o.O.: Kokain-Schnupfen (anonym, Archiv)  Zürich, ZH: Eingang Drogenberatungsstelle Gain / Statement Lars Stark o.O.: Drehen Hasch-Zigarette / Grafik Cannabiskonsum Bern, BE: Statement Markus Jann",
+   "author": "AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF",
+   "involved": "Moderation: Müller, Beatrice",
+   "form": "Video",
+   "format": "Dauer: 00.01.45\nStartposition: 01:10:02\nTotal Spieldauer: 00.20.23\nTräger: Beta IMX",
+   "thema": "Personen: Jann, Markus: Bundesamt für Gesundheit\nSachdeskriptor: /STRAFTAT./DROGENDELIKT/DROGENKONSUM",
+   "date": {
+    "from": "2007-06-26",
+    "to": null,
+    "expressed": "2007.06.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production (Eigenproduktion UE) of a news broadcast with original footage and statements.",
+  "resume": "A video news report from Schweizer Fernsehen DRS (2007) covering reactions to a UN drug consumption report, featuring statements from Markus Jann and Lars Stark, and footage of cocaine snorting and cannabis use in Zürich and Bern."
+ },
+ "metadata": {
+  "title": "Drogenbericht",
+  "title_normalized": "Drogenbericht",
+  "title_en": "Drug Report",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Zürich)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-06-26",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-26",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "drug consumption",
+   "cannabis",
+   "cocaine"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 26.06.2007"
+  ],
+  "reference_code": "J2.225#2007/135#87#16*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22367204",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Markus Jann",
+    "display_name": "Markus Jann",
+    "role": "statement",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Lars Stark",
+    "display_name": "Lars Stark",
+    "role": "statement",
+    "wikidata": {
+     "qid": "Q1806331",
+     "label": "Lars Stark",
+     "description": "German chess player",
+     "url": "https://www.wikidata.org/wiki/Q1806331"
+    },
+    "life_date_check": {
+     "born": 1983,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Beatrice Müller",
+    "display_name": "Beatrice Müller",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q813260",
+     "label": "Beatrice Müller",
+     "description": "Swiss television presenter",
+     "url": "https://www.wikidata.org/wiki/Q813260"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanspeter Trütsch",
+    "display_name": "Hanspeter Trütsch",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bundesamt für Gesundheit",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q1005448",
+     "label": "Federal Office of Public Health",
+     "description": "Swiss governmental agency, national public health institute",
+     "url": "https://www.wikidata.org/wiki/Q1005448"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   },
+   {
+    "name": "Bern",
+    "as_written": "Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.9481,
+    "model_lon": 7.4472
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Markus Jann; named organizations or places (apertus): Schweiz, Zürich, ZH, Bern, BE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.06.26; free text places (apertus): Zürich, ZH, Bern, BE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.06.26"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH, Bern, BE"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Markus Jann"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz, Zürich, ZH, Bern, BE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2007-06-26",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of the Tagesschau SFDRS program covering drug consumption issues.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#87#16*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5303,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

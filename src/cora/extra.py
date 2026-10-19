@@ -9,6 +9,7 @@ import json
 import random
 
 from . import lindas
+from . import store
 
 DOSSIER = "<https://culture.ld.admin.ch/ais/vocabularies/recordSetTypes/10008>"
 OLD = '?s rico:isAssociatedWithDate ?d . ?d rico:beginningDate ?b . OPTIONAL { ?d rico:endDate ?e } FILTER(STR(COALESCE(?e, ?b)) < "1940")'
@@ -34,7 +35,7 @@ def run(cfg, seed: int = 2026) -> None:
     data_dir = cfg["paths"]["data_dir"]
     raw_path = data_dir / "records_raw.json"
     # replace any earlier added sources: keep only the original stratified sample
-    existing = [r for r in json.loads(raw_path.read_text(encoding="utf-8")) if not r.get("expected_source_level")]
+    existing = [r for r in store.read_entries(raw_path) if not r.get("expected_source_level")]
     have = {r["id"] for r in existing}
     v1 = data_dir / "extra_v1" / "sample_extra.json"
     if v1.exists():  # never re-draw a unit of the first draw
@@ -55,5 +56,5 @@ def run(cfg, seed: int = 2026) -> None:
     for r in recs:
         r.update({k: meta[r["id"]][k] for k in ("stratum", "expected_source_level", "pre_1940")})
     (data_dir / "sample_extra.json").write_text(json.dumps({"seed": seed, "pools": stats, "sample": picked}, indent=1), encoding="utf-8")
-    raw_path.write_text(json.dumps(existing + recs, ensure_ascii=False, indent=1), encoding="utf-8")
+    store.write_entries(raw_path, existing + recs)
     print(f"  added {len(recs)} records ({sum(1 for p in picked if p['pre_1940'])} ending before 1940); pools {stats}")

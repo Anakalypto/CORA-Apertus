@@ -1,0 +1,329 @@
+{
+ "id": "31067193",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31067193",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31067193",
+  "reference_code": "E1301#2017/358#1#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2014.3382: Postulat WBK-NR. Bilanz über die Umsetzung des Rechts auf Anhörung nach Artikel 12 der Kinderrechtskonvention der Vereinten Nationen in der Schweiz / Postulat CSEC-CN. Droit de l'enfant d'être entendu. Bilan de la mise en oeuvre en Suisse de l'article 12 de la Convention des Nations Unies relative aux droits de l'enfant",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Bulliard-Marbach, Christine; Lustenberger, Ruedi; Reynard, Mathias;",
+   "form": "Digital",
+   "date": {
+    "from": "2014-09-08",
+    "to": null,
+    "expressed": "2014.09.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31064538",
+     "number": "2017/358",
+     "title": "2017/00358 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate with speakers listed and a date of the debate expressed.",
+  "resume": "The document is a parliamentary postulate concerning the implementation of children's right to be heard under Article 12 of the UN Convention on the Rights of the Child in Switzerland, presented during a National Council debate on 8 September 2014. It records the speakers involved in the debate and is part of the video recordings of National Council proceedings from the autumn session of 2014."
+ },
+ "metadata": {
+  "title": "2014.3382: Postulat WBK-NR. Bilanz über die Umsetzung des Rechts auf Anhörung nach Artikel 12 der Kinderrechtskonvention der Vereinten Nationen in der Schweiz / Postulat CSEC-CN. Droit de l'enfant d'être entendu. Bilan de la mise en oeuvre en Suisse de l'article 12 de la Convention des Nations Unies relative aux droits de l'enfant",
+  "title_normalized": "2014.3382: Postulat WBK-NR. Bilanz über die Umsetzung des Rechts auf Anhörung nach Artikel 12 der Kinderrechtskonvention der Vereinten Nationen in der Schweiz / Postulat CSEC-CN. Droit de l'enfant d'être entendu. Bilan de la mise en oeuvre en Suisse de l'article 12 de la Convention des Nations Unies relative aux droits de l'enfant",
+  "title_en": "Postulate WBK-NR: Report on the Implementation of the Right to Be Heard under Article 12 of the UN Convention on the Rights of the Child in Switzerland / Postulate CSEC-CN: Child's Right to Be Heard. Report on the Implementation in Switzerland of Article 12 of the UN Convention on the Rights of the Child",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2014-09-08",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2014-09-08",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "children's rights",
+   "UN Convention on the Rights of the Child",
+   "Swiss legislation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2014",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/358#1#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31067193",
+  "accession_numbers": [
+   "2017/358"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Christine Bulliard-Marbach",
+    "display_name": "Christine Bulliard-Marbach",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1083465",
+     "label": "Christine Bulliard-Marbach",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1083465"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruedi Lustenberger",
+    "display_name": "Ruedi Lustenberger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1348117",
+     "label": "Ruedi Lustenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1348117"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Mathias Reynard",
+    "display_name": "Mathias Reynard",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q3298593",
+     "label": "Mathias Reynard",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3298593"
+    },
+    "life_date_check": {
+     "born": 1987,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2014.3382: Postulat WBK-NR. Bilanz über die Umsetzung des Rechts auf Anhörung nach Artikel 12 der Kinderrechtskonvention der Vereinten Nationen in der Schweiz / Postulat CSEC-CN. Droit de l'enfant d'être entendu. Bilan de la mise en oeuvre en Suisse de l'article 12 de la Convention des Nations Unies relative aux droits de l'enfant'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Christine Bulliard-Marbach', 'Ruedi Lustenberger', 'Mathias Reynard']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2014.09.08",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2014.3382: Postulat WBK-NR. Bilanz über die Umsetzung des Rechts auf Anhörung nach Artikel 12 der Kinderrechtskonvention der Vereinten Nationen in der Schweiz / Postulat CSEC-CN. Droit de l'enfant d'être entendu. Bilan de la mise en oeuvre en Suisse de l'article 12 de la Convention des Nations Unies relative aux droits de l'enfant'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2014.09.08"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Christine Bulliard-Marbach', 'Ruedi Lustenberger', 'Mathias Reynard']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2014-09-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary postulate presented during National Council debate.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/358 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/358#1#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5106,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

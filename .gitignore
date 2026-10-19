@@ -50,3 +50,6 @@ data/scale1000/enrich_cache.json
 # On-demand "See more" cache
 data/more_cache/
 data/scale1000/classified_unrepaired.jsonl
+
+# store.py temp files (atomic writes; only left behind by a crash)
+data/**/.*.tmp

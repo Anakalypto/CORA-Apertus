@@ -1,0 +1,79 @@
+{
+ "id": "6291478",
+ "uri": "https://culture.ld.admin.ch/ais/6291478",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6291478",
+ "title": "Zeitungsausschnitte",
+ "reference_code": "E7800#1000/1961#2248*",
+ "reference_number": "11.03.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1934-01-01",
+  "to": "1934-12-31",
+  "expressed": "1934-1934"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15520",
+   "number": "1000/1961",
+   "title": "1000/01961 Bundesverwaltung (Bern) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6291469",
+   "title": "Bundesrat Schulthess",
+   "level": "Serie",
+   "reference_code": "E7800#11.03.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6291465",
+   "title": "Personelles",
+   "level": "Serie",
+   "reference_code": "E7800#11.03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6291449",
+   "title": "Verschiedenes EVD",
+   "level": "Serie",
+   "reference_code": "E7800#11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794",
+   "title": "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements: Zentrale Ablage (1939-1967)",
+   "level": "Sub-file",
+   "reference_code": "E7800*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5355",
+   "title": "Generalsekretariat des eidgenössischen Volkswirtschaftsdepartements (1939-2012)",
+   "level": "Stock",
+   "reference_code": "E10310*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

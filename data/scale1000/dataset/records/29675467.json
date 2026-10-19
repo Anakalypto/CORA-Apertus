@@ -1,0 +1,330 @@
+{
+ "id": "29675467",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29675467",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29675467",
+  "reference_code": "J2.225#2008/121#70#30*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Kampfkandidatur der CVP bei Bundesrats-Wahlen",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504612\nSignatur Bundesarchiv: J2.225#2008/121#70*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <o.O.: Reaktion der Parteipräsidenten Hans-Jürg Fehr und Ruth Genner auf eine allfällige Kampfkandidatur der CVP bei den Bundesrats-Wahlen\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <o.O.: Statement Hans-Jürg Fehr / NN Ankunft Ruth Genner / NN Statement Ruth Genner",
+   "author": "AutorIn: Prêtre, Ron (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:46\nPosition Anfang: 00:19:25",
+   "thema": "Personen: Fehr, Hans Jürg (Präsident SP)\nSachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF;/STAAT./REGIERUNG/BUNDESRAT",
+   "date": {
+    "from": "2007-12-09",
+    "to": null,
+    "expressed": "2007.12.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news segment produced by SF.",
+  "resume": "A video recording of a Swiss television news segment from December 9, 2007, featuring statements by Hans-Jrg Fehr and Ruth Genner regarding a potential CVP candidate for the Federal Council election."
+ },
+ "metadata": {
+  "title": "Kampfkandidatur der CVP bei Bundesrats-Wahlen",
+  "title_normalized": "Kampfkandidatur der CVP bei Bundesrats-Wahlen",
+  "title_en": "CVP Fight Candidacy for Federal Council Elections",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Zrich)",
+  "commissioner": null,
+  "date_created": "2007-12-09",
+  "date_published": "2007-12-09",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-12-09",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "CVP",
+   "Federal Council election",
+   "Political party campaign"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 09.12.2007"
+  ],
+  "reference_code": "J2.225#2008/121#70#30*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29675467",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Fehr, Hans J\u001frg",
+    "display_name": "Hans J\u001frg Fehr",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Genner, Ruth",
+    "display_name": "Ruth Genner",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q117716",
+     "label": "Ruth Genner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117716"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "CVP",
+    "role": "subject",
+    "wikidata": null
+   },
+   {
+    "name": "Swiss Federal Council",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q30917",
+     "label": "Swiss Federal Council",
+     "description": "executive council and head of state in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q30917"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland <o.O.:",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2008/121#70*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Prêtre, Ron (AUT)\nProduktionsgesellschaft",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: Personen: Fehr, Hans Jürg (Präsident SP); named organizations or places (apertus): thema: Sachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF;/STAAT./REGIERUNG/BUNDESRAT",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.12.09",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2008/121#70*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Prêtre, Ron (AUT)\nProduktionsgesellschaft"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.12.09"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Personen: Fehr, Hans Jürg (Präsident SP)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Sachdeskriptor: /POLITIK./PARTEI;/POLITIK./WAHL/WAHLKAMPF;/STAAT./REGIERUNG/BUNDESRAT"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-12-09",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video segment aired on Swiss television covering CVP's potential Federal Council candidate.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#70#30*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:control_chars"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5203,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

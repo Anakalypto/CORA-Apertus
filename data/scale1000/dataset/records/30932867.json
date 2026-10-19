@@ -1,0 +1,352 @@
+{
+ "id": "30932867",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30932867",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30932867",
+  "reference_code": "E1401#2017/39#10#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2009.3396: Motion Noser Ruedi. E-Billing für Lieferanten der Bundesverwaltung / Motion Noser Ruedi. Facturation électronique pour les fournisseurs de l'administration fédérale",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Bieri, Peter; Comte, Raphaël; Inderkum, Hansheiri;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-06-16",
+    "to": null,
+    "expressed": "2011.06.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30931100",
+     "number": "2017/39",
+     "title": "2017/00039 Parlamentsdienste: Amtliches Bulletin (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a debate in the Swiss Council of States, created at the time of the event by the Council.",
+  "resume": "This is a digital parliamentary record of a motion debate in the Swiss Council of States concerning electronic billing for federal administration suppliers, held on 16 June 2011. The document contains the names of speakers Peter Bieri, Raphaël Comte, and Hansheiri Inderkum. It is part of the video recordings series for the Council of States legislative session of spring 2009 to autumn 2011."
+ },
+ "metadata": {
+  "title": "2009.3396: Motion Noser Ruedi. E-Billing für Lieferanten der Bundesverwaltung / Motion Noser Ruedi. Facturation électronique pour les fournisseurs de l'administration fédérale",
+  "title_normalized": "Motion Noser Ruedi. E-Billing für Lieferanten der Bundesverwaltung / Motion Noser Ruedi. Facturation électronique pour les fournisseurs de l'administration fédérale",
+  "title_en": "Motion Noser Ruedi. E-Billing for Suppliers of the Federal Administration / Motion Noser Ruedi. Electronic Facturation for Suppliers of the Federal Administration",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-06-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2011-06-16",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "electronic billing",
+   "federal administration",
+   "Swiss Council of States"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Frühjahrssession 2009 bis Herbstsession 2011",
+   "Sommersession 2011",
+   "10. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2017/39#10#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30932867",
+  "accession_numbers": [
+   "2017/39"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Raphaël Comte",
+    "display_name": "Raphaël Comte",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118343",
+     "label": "Raphaël Comte",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118343"
+    },
+    "life_date_check": {
+     "born": 1979,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansheiri Inderkum",
+    "display_name": "Hansheiri Inderkum",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118384",
+     "label": "Hansheiri Inderkum",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118384"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Council of States",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): Speakers_in_debate includes Peter Bieri, Raphaël Comte, and Hansheiri Inderkum.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.06.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.06.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes Peter Bieri, Raphaël Comte, and Hansheiri Inderkum."
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2011-06-16",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/39 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2017/39#10#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4898,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

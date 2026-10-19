@@ -1,0 +1,67 @@
+{
+ "id": "3122104",
+ "uri": "https://culture.ld.admin.ch/ais/3122104",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3122104",
+ "title": "Zeitungsartikel, Fotos, Prospekte",
+ "reference_code": "E8100C-02#1983/101#61*",
+ "reference_number": "6010-30",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1931-01-01",
+  "to": null,
+  "expressed": "1931"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15645",
+   "number": "1983/101",
+   "title": "1983/00101 Bundesverwaltung (Bern) (1878-1976)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4001250",
+   "title": "Davos - Parsenn (System von Roll, Bern)",
+   "level": "Serie",
+   "reference_code": "E8100C-02#6010"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2001967",
+   "title": "Bundesamt für Verkehr: Teilregistratur Seilbahnen  (1979-1981)",
+   "level": "Sub-file",
+   "reference_code": "E8100C-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4657",
+   "title": "Bundesamt für Verkehr (1979-)",
+   "level": "Stock",
+   "reference_code": "E10099*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

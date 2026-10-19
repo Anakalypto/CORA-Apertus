@@ -1,0 +1,428 @@
+{
+ "id": "21726160",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21726160",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21726160",
+  "reference_code": "J2.225#1996/68#2548#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 08.05.1965",
+   "old_reference_code": "Original Signatur: TSSRG 65/123/03; Rolle 461\nSignatur Bundesarchiv: J2.225#1996/68#33151*",
+   "scope_and_content": "Inhaltsangabe: Frankreich, Paris, BRD, Bonn, DDR, Berlin, Tschechoslowakei, Prag: Feiern zum 20. Jahrestag der deutschen Kapitulation in Weltkrieg-II\nSequenzbeschrieb: Frankreich Paris: NN Fahnen, Entzünden von Fackeln und Feuer; BRD Bonn: BP Heinrich Lübke und BK Ludwig Erhard bei Kranzniederlegung; DDR Berlin: Kranzniederlegungen durch Soldaten an Denkmal / P Walter Ulbricht, MP Alexej Kossygin und MP Jozef Cyrankiewicz vor Denkmal; Tschechoslowakei Prag: Mann an Feier Rotarmisten und Zivilpersonen auszeichnend undküssend",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien; Osteuropa inkl. Staaten der ehemaligen Sowjetunion, Sibirien, Kurilen-Inseln\nZeitliche Abdeckung: 01.05.1965-15.05.1965",
+   "form": "Video",
+   "format": "Dauer: 1.46\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.13.02\nTräger: Betacam-Digital",
+   "thema": "Personen: Lübke, Heinrich; Erhard, Ludwig; Ulbricht, Walter; Kossygin, Alexej; Cyrankiewicz, Jozef\nSachdeskriptor: Weltkrieg-II",
+   "date": {
+    "from": "1965-05-08",
+    "to": null,
+    "expressed": "1965.05.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This is a contemporary news broadcast recording from the Swiss television archive.",
+  "resume": "This is a Swiss TV news report from the Tagesschau series broadcast on 8 May 1965, covering ceremonies marking the 20th anniversary of Germany's surrender in World War II across multiple European capitals. It shows footage of commemorative events in Paris, Bonn, East Berlin, and Prague, including wreath-laying ceremonies and interactions between political figures and civilians."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 08.05.1965",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 08.05.1965",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 08 May 1965",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1965-05-08",
+  "date_published": "1965-05-08",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-05-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "World War II",
+   "commemorative ceremonies",
+   "political figures",
+   "international relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1965",
+   "Tagesschau SFDRS 08.05.1965"
+  ],
+  "reference_code": "J2.225#1996/68#2548#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21726160",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Lübke, Heinrich",
+    "display_name": "Heinrich Lübke",
+    "role": "participant in wreath-laying ceremony",
+    "wikidata": {
+     "qid": "Q2582",
+     "label": "Heinrich Lübke",
+     "description": "German politician (1894-1972)",
+     "url": "https://www.wikidata.org/wiki/Q2582"
+    },
+    "life_date_check": {
+     "born": 1894,
+     "died": 1972,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erhard, Ludwig",
+    "display_name": "Ludwig Erhard",
+    "role": "participant in wreath-laying ceremony",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ulbricht, Walter",
+    "display_name": "Walter Ulbricht",
+    "role": "participant in ceremony",
+    "wikidata": {
+     "qid": "Q2628",
+     "label": "Walter Ulbricht",
+     "description": "German communist politician and dictator (1893–1973)",
+     "url": "https://www.wikidata.org/wiki/Q2628"
+    },
+    "life_date_check": {
+     "born": 1893,
+     "died": 1973,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kossygin, Alexej",
+    "display_name": "Alexej Kossygin",
+    "role": "participant in ceremony",
+    "wikidata": {
+     "qid": "Q202770",
+     "label": "Aleksey Nikolayevich Kosygin",
+     "description": "Soviet statesman, public officer, cabinet officer",
+     "url": "https://www.wikidata.org/wiki/Q202770"
+    },
+    "life_date_check": {
+     "born": 1904,
+     "died": 1980,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Cyrankiewicz, Jozef",
+    "display_name": "Jozef Cyrankiewicz",
+    "role": "participant in ceremony",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Paris",
+    "as_written": "Frankreich, Paris",
+    "role": "depicted",
+    "country": "FR",
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "gazetteer": "https://www.openstreetmap.org/relation/71525",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bonn",
+    "as_written": "BRD, Bonn",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 50.7352621,
+    "lon": 7.1024635,
+    "gazetteer": "https://www.openstreetmap.org/relation/62508",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Berlin",
+    "as_written": "DDR, Berlin",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "gazetteer": "https://www.openstreetmap.org/relation/62422",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Prague",
+    "as_written": "Tschechoslowakei, Prag",
+    "role": "depicted",
+    "country": "CZ",
+    "lat": 50.0874654,
+    "lon": 14.4212535,
+    "gazetteer": "https://www.openstreetmap.org/relation/435514",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): old_reference_code contains \"Z�rich\" with mangled umlaut",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content contains \"Inhaltsangabe: … Sequenzbeschrieb: …\"",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.46\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema lists \"Lübke, Heinrich; Erhard, Ludwig; Ulbricht, Walter; Kossygin, Alexej; Cyrankiewicz, Jozef\"; named organizations or places (apertus): publisher.name is \"SRG SSR idée suisse\" and hierarchy_top_down includes \"Schweizer Fernsehen DRS\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed is \"1965.05.08\"; free text places (apertus): scope_and_content lists places inside free text (e.g., \"Frankreich, Paris, BRD, Bonn, DDR, Berlin, Tschechoslowakei, Prag\")",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "old_reference_code contains \"Z�rich\" with mangled umlaut"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content contains \"Inhaltsangabe: … Sequenzbeschrieb: …\""
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.46\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed is \"1965.05.08\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content lists places inside free text (e.g., \"Frankreich, Paris, BRD, Bonn, DDR, Berlin, Tschechoslowakei, Prag\")"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema lists \"Lübke, Heinrich; Erhard, Ludwig; Ulbricht, Walter; Kossygin, Alexej; Cyrankiewicz, Jozef\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher.name is \"SRG SSR idée suisse\" and hierarchy_top_down includes \"Schweizer Fernsehen DRS\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are public figures (politicians, statesmen) and the record documents a historical event without personal sensitive data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1965-05-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast recording of news footage capturing ceremonies across multiple European capitals",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1965-05-08",
+   "place": "Paris",
+   "lat": 48.8534951,
+   "lon": 2.3483915,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1965-05-08",
+   "place": "Bonn",
+   "lat": 50.7352621,
+   "lon": 7.1024635,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1965-05-08",
+   "place": "Berlin",
+   "lat": 52.5173885,
+   "lon": 13.3951309,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1965-05-08",
+   "place": "Prague",
+   "lat": 50.0874654,
+   "lon": 14.4212535,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#2548#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5876,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

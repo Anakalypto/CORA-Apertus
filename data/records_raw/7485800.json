@@ -1,0 +1,73 @@
+{
+ "id": "7485800",
+ "uri": "https://culture.ld.admin.ch/ais/7485800",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7485800",
+ "title": "Register über ausgestellte Nationalitätsausweise",
+ "reference_code": "E2200.239#1000/380#26*",
+ "reference_number": "A.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Deutschland",
+ "date": {
+  "from": "1914-01-01",
+  "to": "1923-12-31",
+  "expressed": "1914-1923"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/9906",
+   "number": "1000/380",
+   "title": "1000/00380 Bundesverwaltung (Bern) (1889 - 1923)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7484718",
+   "title": "Bürgerrechts- und Zivilrechtsangelegenheiten",
+   "level": "Serie",
+   "reference_code": "E2200.239#A.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7484708",
+   "title": "Verwaltung, konsularisches und diverses",
+   "level": "Serie",
+   "reference_code": "E2200.239#A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6370",
+   "title": "Schweizerische Vertretung, Leipzig: Zentrale Ablage (1822-1947)",
+   "level": "Sub-file",
+   "reference_code": "E2200.239*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6369",
+   "title": "Schweizerische Vertretung, Leipzig (1835-1945)",
+   "level": "Stock",
+   "reference_code": "E10622*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

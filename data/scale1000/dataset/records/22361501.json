@@ -1,0 +1,384 @@
+{
+ "id": "22361501",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22361501",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22361501",
+  "reference_code": "J2.225#2007/135#30#16*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Reaktionen auf Lohnentwicklung 2006",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504152\nSignatur Bundesarchiv: J2.225#2007/135#30*",
+   "scope_and_content": "Inhaltsangabe: Schweiz: Enttäuschung beim Schweizerischen Gewerkschaftsbund (SGB) über den geringen Anstieg der Löhne 2006 / der Schweizerische Arbeitgeberverband dagegen verweist auf die neu geschaffenen Stellen\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz o.O.: Grafik Entwicklung Minimallöhne 2006 Bern, BE: Andreas Rieger in seinem Büro Dokument lesend (neutrale Personensequenz) / Statement Andreas Rieger o.O.: Bauarbeiter Mörtel auftragend und Backstein einsetzend (Archiv) Zürich, ZH: Statement Ruth Derrer Balladore",
+   "author": "AutorIn: Schärer, Christine: AUT\nProduktion: SF",
+   "involved": "Moderation: Müller, Heinrich J.",
+   "form": "Video",
+   "format": "Dauer: 00.01.40\nStartposition: 00:50:45\nTotal Spieldauer: 00.19.24\nTräger: Beta IMX",
+   "thema": "Personen: Derrer Balladore, Ruth: Arbeitgeberverband\nSachdeskriptor: /ARBEIT./EINKOMMEN/LOHN;/ARBEIT./GEWERKSCHAFT;/WIRTSCHAFT./ARBEITGEBER/ARBEITGEBERORGANISATION",
+   "date": {
+    "from": "2007-04-30",
+    "to": null,
+    "expressed": "2007.04.30"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production from the news program Tagesschau, created at the time of the events.",
+  "resume": "A video segment from the Swiss television news program Tagesschau (DRS) dated 30 April 2007, showing reactions to the 2006 wage development in Switzerland, featuring statements from Andreas Rieger and Ruth Derrer Balladore."
+ },
+ "metadata": {
+  "title": "Reaktionen auf Lohnentwicklung 2006",
+  "title_normalized": "Reaktionen auf Lohnentwicklung 2006",
+  "title_en": "Reactions to Wage Development 2006",
+  "creator": "SF",
+  "publisher": "Swiss Federal Archives (BAR/AFS)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-04-30",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-04-30",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "wages",
+   "labor unions",
+   "employers' organizations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 30.04.2007"
+  ],
+  "reference_code": "J2.225#2007/135#30#16*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22361501",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Christine Schärer",
+    "display_name": "Christine Schärer",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q97681146",
+     "label": "Christine Schärer",
+     "description": "Swiss association football player",
+     "url": "https://www.wikidata.org/wiki/Q97681146"
+    },
+    "life_date_check": {
+     "born": 1992,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heinrich J. Müller",
+    "display_name": "Heinrich J. Müller",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Andreas Rieger",
+    "display_name": "Andreas Rieger",
+    "role": "document reader",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ruth Derrer Balladore",
+    "display_name": "Ruth Derrer Balladore",
+    "role": "statement",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Trade Union Confederation (SGB)",
+    "role": "mentioned",
+    "wikidata": null
+   },
+   {
+    "name": "Swiss Employers' Association",
+    "role": "mentioned",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Schweiz",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bern",
+    "as_written": "Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Schärer, Christine: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Ruth Derrer Balladore; named organizations or places (apertus): Schweizerischer Gewerkschaftsbund (SGB)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.04.30; free text places (apertus): Z�rich",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Schärer, Christine: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.04.30"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Z�rich"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Ruth Derrer Balladore"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweizerischer Gewerkschaftsbund (SGB)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2007-04-30",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Video segment aired as part of Tagesschau news program.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#30#16*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:Swiss Trade Union Confederation (SGB)",
+   "organization:Swiss Employers' Association"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5520,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

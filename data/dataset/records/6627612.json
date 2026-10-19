@@ -1,0 +1,273 @@
+{
+ "id": "6627612",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/6627612",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6627612",
+  "reference_code": "E3120A#1969/80#1356*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Geschichte der Familie Lerber",
+   "reference_number": "4.02.b-1342",
+   "date": {
+    "from": "1926-01-01",
+    "to": "1926-12-31",
+    "expressed": "1926-1926"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/12098",
+     "number": "1969/80",
+     "title": "1969/00080 Bundesverwaltung (Bern) (1849-1965)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "other",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit appears to be a historical study or biographical account of the Lerber family, created retrospectively within the Swiss Federal Archives.",
+  "resume": "The record is a personal family history document titled 'Geschichte der Familie Lerber' covering the year 1926. It appears to be a private or family archive item rather than an official government document. No specific content beyond the family history is indicated in the metadata."
+ },
+ "metadata": {
+  "title": "Geschichte der Familie Lerber",
+  "title_normalized": "Geschichte der Familie Lerber",
+  "title_en": "History of the Lerber Family",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1926-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1969",
+  "content_date": "1926/1926",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "genealogy",
+   "family history",
+   "personal documents"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesarchiv (1915-1979)",
+  "fonds_reference": "E10950*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesarchiv (1915-1979)",
+   "Bundesarchiv: Zentrale Ablage (1915-1966)",
+   "Benutzung der Akten",
+   "Nachforschungen",
+   "chronologisch geordnet (keine den Forscher betreffende Angaben)"
+  ],
+  "reference_code": "E3120A#1969/80#1356*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6627612",
+  "accession_numbers": [
+   "1969/80"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: 'Geschichte der Familie Lerber'; named organizations or places (apertus): hierarchy_top_down includes 'Bundesarchiv' and 'Bern'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places only appear in hierarchy (e.g., Bern), not in explicit fields.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places only appear in hierarchy (e.g., Bern), not in explicit fields."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Geschichte der Familie Lerber'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes 'Bundesarchiv' and 'Bern'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names a family ('Lerber') but does not concern an identifiable individual in a sensitive context."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1926-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Family history document created at the end of 1926.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1969",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1969/80 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3120A#1969/80#1356*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.6,
+  "tokens": 4398,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

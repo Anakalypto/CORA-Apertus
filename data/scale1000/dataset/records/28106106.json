@@ -1,0 +1,310 @@
+{
+ "id": "28106106",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28106106",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106106",
+  "reference_code": "J2.225#2006/365#48#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Raps...odie in Gelb",
+   "old_reference_code": "Original Signatur: 9502006\nSignatur Bundesarchiv: J2.225#2006/365#3*",
+   "scope_and_content": "Inhaltsangabe: CH: Anbau, Verarbeitung und Verwendung von Raps\nSequenzbeschrieb: CH o.O.: ZS Pflügen mit Pferdegespann, Kartoffel-Ernte, Heuen / im Wind schaukelnde Ähren, Getreidefeld / Rübenfeld / Feld mit blühendem Raps / Bauer mit Traktor beim Pflügen, Walzen und Säen von Raps / junge Raps-Pflanzen auf Feld / Besprühen von Rapsfeld mit Pflanzenschutzmittel / Schwenk Rapsfeld und Landschaft / Rapspflanzen mit Schoten / Raps-Ernte mit Mähdrescher / abgemähtes Rapsfeld an Hang mit Garben-Puppen / Raps in Reinigungsanlage und Trocknungsanlage / Traktoren und Pferdegespanne mit Wagen auf dem Weg zu Sammelstelle / Kontrolleur Säcken Proben entnehmend / Untersuchung der Proben in Labor / aufgetürmte Säcke in Lagerhalle / (01.49.30) laufende alte Öl-Mühle / Erhitzen von gemahlenem Raps und Einpacken in Jutetuch, Pressen / IA modernes Öl- und Fettwerk, maschinelle Verarbeitung von Raps / Abfüllanlage, Rapsöl-Flaschen auf Förderband / Frau mit Rapsöl Salatsauce machend, Salate anrichtend / Braten und Frittieren mit Rapsöl / IA Grossküche, Koch Croquetten frittierend und mit Rührmaschine Mayonnaise herstellend",
+   "author": "AutorIn: Haeberli, Rolf\nProduktion: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "format": "Dauer: 00:11:53\nOriginalformat: V-U;16 mm;sepmag\nPosition Anfang: 01.41.48",
+   "thema": "Sachdeskriptor: Landwirtschaft;Raps;Nahrungsmittelindustrie",
+   "date": {
+    "from": "1963-12-08",
+    "to": null,
+    "expressed": "1963.12.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376890",
+     "number": "2006/365",
+     "title": "2006/00365 Schweizer Fernsehen DRS (Z�rich) (1959-1971)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct television production from 1963 with original footage and technical specifications.",
+  "resume": "A 16 mm television segment produced by DRS documenting the cultivation, processing, and use of rapeseed in Switzerland, showing agricultural practices, oil production, and food preparation."
+ },
+ "metadata": {
+  "title": "Raps...odie in Gelb",
+  "title_normalized": "Raps...odie in Gelb",
+  "title_en": "Rapeseed...Ode in Yellow",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1963-12-08",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1963-12-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Agriculture",
+   "Rapeseed",
+   "Food industry"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Landwirtschaftliche Rundschau (LRS) 1959-1970",
+   "Landwirtschaftliche Rundschau (LRS) 1963",
+   "Landwirtschaftliche Rundschau (LRS) 08.12.1963"
+  ],
+  "reference_code": "J2.225#2006/365#48#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106106",
+  "accession_numbers": [
+   "2006/365"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rolf Haeberli",
+    "display_name": "Rolf Haeberli",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "DRS",
+    "display_name": "DRS",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "CH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Haeberli, Rolf\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Rolf Haeberli; named organizations or places (apertus): DRS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1963.12.08",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Haeberli, Rolf\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1963.12.08"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Rolf Haeberli"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "DRS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1963-12-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Production of a television segment on rapeseed cultivation and processing.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/365 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/365#48#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5541,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

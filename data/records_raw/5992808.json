@@ -1,0 +1,73 @@
+{
+ "id": "5992808",
+ "uri": "https://culture.ld.admin.ch/ais/5992808",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5992808",
+ "title": "Register zum Geschäftsprotokoll des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1857",
+ "reference_code": "E9#1000/1173#82*",
+ "reference_number": null,
+ "old_reference_code": "E 6001 (A) -/1  / 2 Buchnr. 7",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1857-01-01",
+  "to": null,
+  "expressed": "1857"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15997",
+   "number": "1000/1173",
+   "title": "1000/01173 Bundesverwaltung (Bern) (1822-1925)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992246",
+   "title": "Geschäftskontrollen",
+   "level": "Serie",
+   "reference_code": "E9#01.1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992210",
+   "title": "Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E9#01.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992200",
+   "title": "Geschäftsberichte",
+   "level": "Serie",
+   "reference_code": "E9#01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3629",
+   "title": "Finanzwesen",
+   "level": "Stock",
+   "reference_code": "E9*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

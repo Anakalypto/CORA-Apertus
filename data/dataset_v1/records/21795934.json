@@ -1,0 +1,334 @@
+{
+ "id": "21795934",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21795934",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21795934",
+  "reference_code": "J2.225#1996/68#8090#6*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.08.1980",
+   "old_reference_code": "Original Signatur: TSSRG 80/218/06;Rolle 1589\nSignatur Bundesarchiv: J2.225#1996/68#73745*",
+   "scope_and_content": "Inhaltsangabe: Japan Hiroshima: Schweigeminute am 35. Jahrestag Atombomben-Abwurf im Weltkrieg-II\nSequenzbeschrieb: Japan Hiroshima: Friedenspark / Demonstration / Philip Noel-Baker neben weiteren °Atombombengegnern sitzend / Rede Takeshi Araki (°Bürgermeister) / Kranzniederlegung bei Cenotaph / Friedensglocke wird geläutet / wegfliegende Tauben",
+   "author": "Produktion: Visnews",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln\nZeitliche Abdeckung: 29.07.1980-12.08.1980",
+   "form": "Video",
+   "format": "Dauer: 2.38\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;comopt\nStartposition: 10.19.55\nTräger: Betacam-Digital",
+   "thema": "Personen: Noel Baker, Philip;Araki, Takeshi\nSachdeskriptor: Atombombe;Weltkrieg-II",
+   "date": {
+    "from": "1980-08-05",
+    "to": null,
+    "expressed": "1980.08.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by Visnews as part of the Swiss national news broadcast on the day of the event.",
+  "resume": "This video is a news report from the Swiss Tagesschau broadcast on 5 August 1980, covering the 35th anniversary of the Hiroshima atomic bombing. It shows a peace ceremony in Hiroshima, Japan, including a minute of silence, speeches by Mayor Takeshi Araki and British anti-nuclear activist Philip Noel-Baker, and symbolic acts like the ringing of the Peace Bell and releasing doves."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.08.1980",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.08.1980",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS Agency Footage), 05.08.1980",
+  "creator": "Visnews",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1980-08-05",
+  "date_published": "1980-08-05",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1980-08-05",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Hiroshima atomic bombing",
+   "anti-nuclear activism",
+   "peace ceremony"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1980",
+   "Tagesschau SFDRS 05.08.1980"
+  ],
+  "reference_code": "J2.225#1996/68#8090#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21795934",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Philip Noel-Baker",
+    "display_name": "Philip Noel-Baker",
+    "role": "anti-nuclear activist",
+    "wikidata": {
+     "qid": "Q211856",
+     "label": "Philip Noel-Baker, Baron Noel-Baker",
+     "description": "British athlete, politician, Cabinet minister, life peer and Nobel Peace Prize winner (1889–1982)",
+     "url": "https://www.wikidata.org/wiki/Q211856"
+    }
+   },
+   {
+    "name": "Takeshi Araki",
+    "display_name": "Takeshi Araki",
+    "role": "Mayor of Hiroshima",
+    "wikidata": {
+     "qid": "Q625490",
+     "label": "Takeshi Araki",
+     "description": "Japanese politician (1916-1994)",
+     "url": "https://www.wikidata.org/wiki/Q625490"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "Publisher/Broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Hiroshima",
+    "as_written": "Japan Hiroshima",
+    "role": "depicted",
+    "country": "JP",
+    "lat": 34.3917241,
+    "lon": 132.4517589,
+    "gazetteer": "https://www.openstreetmap.org/relation/4097196",
+    "model_lat": 34.3994,
+    "model_lon": 132.4544
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 2.38\nFarbe: Farbaufnahmen\nOriginalformat: V; multilingual (apertus): title contains German, French, Italian",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Noel Baker, Philip; Araki, Takeshi; named organizations or places (apertus): HerausgeberIn: SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed date: 1980.08.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 2.38\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German, French, Italian"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date: 1980.08.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Noel Baker, Philip; Araki, Takeshi"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "HerausgeberIn: SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and an organization; no sensitive categories detected."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1980-08-05",
+   "place": "Hiroshima",
+   "lat": 34.3917241,
+   "lon": 132.4517589,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1980-08-05",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of news report covering Hiroshima peace ceremony",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#8090#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4739,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

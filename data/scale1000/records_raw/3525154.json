@@ -1,0 +1,88 @@
+{
+ "id": "3525154",
+ "uri": "https://culture.ld.admin.ch/ais/3525154",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3525154",
+ "title": "91.3113: Interpellation Friderici. Fahrzeuge ohne Katalysator / Voitures sans catalyseur",
+ "reference_code": "E1301#1991/324#13#114*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1991-06-21",
+  "to": null,
+  "expressed": "1991.06.21"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3383457",
+   "number": "1991/324",
+   "title": "1991/00324 Parlamentsdienste (Bern) (1991)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3406204",
+   "title": "13. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#1991/324#13*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090584",
+   "title": "Sommersession 1991",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-43-19"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090565",
+   "title": "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-43"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965546",
+   "title": "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

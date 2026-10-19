@@ -1,0 +1,411 @@
+{
+ "id": "3512572",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3512572",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512572",
+  "reference_code": "E1401#2006/274#11#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2006.0027: Investitionsbeiträge an Privatbahnen. Rahmenkredit für 2007-2010 / Contributions d'investissement aux chemins de fer privés. Crédit-cadre pour 2007-2010",
+   "scope_and_content": "Sprecher/Sprecherinnen: Altherr, Hans; Béguelin, Michel; Bieri, Peter; Brändli, Christoffel; Büttiker, Rolf; Escher, Rolf; Leuenberger, Ernst; Leuenberger, Moritz; Pfisterer, Thomas",
+   "date": {
+    "from": "2006-06-21",
+    "to": null,
+    "expressed": "2006.06.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3348389",
+     "number": "2006/274",
+     "title": "2006/00274 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This document is a parliamentary record from the Swiss Council of States (Ständerat) capturing a debate on investment contributions to private railways and a framework credit for 2007-2010, held during the summer session of 2006. It includes the names of multiple speakers who participated in the discussion. The record is part of the Swiss Federal Archives' holdings."
+ },
+ "metadata": {
+  "title": "2006.0027: Investitionsbeiträge an Privatbahnen. Rahmenkredit für 2007-2010 / Contributions d'investissement aux chemins de fer privés. Crédit-cadre pour 2007-2010",
+  "title_normalized": "2006.0027: Investitionsbeiträge an Privatbahnen. Rahmenkredit für 2007-2010 / Contributions d'investissement aux chemins de fer privés. Crédit-cadre pour 2007-2010",
+  "title_en": "Investment Contributions to Private Railways. Framework Credit for 2007-2010",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-06-21",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-06-21",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "railway investment",
+   "budget",
+   "Swiss Federal Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2006",
+   "11. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2006/274#11#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512572",
+  "accession_numbers": [
+   "2006/274"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Altherr",
+    "display_name": "Hans Altherr",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117781",
+     "label": "Hans Altherr",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117781"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Michel Béguelin",
+    "display_name": "Michel Béguelin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119896",
+     "label": "Michel Béguelin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119896"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christoffel Brändli",
+    "display_name": "Christoffel Brändli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116643",
+     "label": "Christoffel Brändli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116643"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Büttiker",
+    "display_name": "Rolf Büttiker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120893",
+     "label": "Rolf Büttiker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120893"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Escher",
+    "display_name": "Rolf Escher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2163368",
+     "label": "Rolf Escher",
+     "description": "German graphic artist (born 1936)",
+     "url": "https://www.wikidata.org/wiki/Q2163368"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ernst Leuenberger",
+    "display_name": "Ernst Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123122",
+     "label": "Ernst Leuenberger",
+     "description": "Swiss politician (1945-2009)",
+     "url": "https://www.wikidata.org/wiki/Q123122"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Thomas Pfisterer",
+    "display_name": "Thomas Pfisterer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q106303704",
+     "label": "Thomas Pfisterer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q106303704"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Investitionsbeiträge an Privatbahnen. Rahmenkredit für 2007-2010 / Contributions d'investissement aux chemins de fer privés. Crédit-cadre pour 2007-2010'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Hans Altherr', 'Michel Béguelin', 'Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Rolf Escher', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Thomas Pfisterer']; named organizations or places (apertus): speakers_in_debate: ['Hans Altherr', 'Michel Béguelin', 'Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Rolf Escher', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Thomas Pfisterer']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.06.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Investitionsbeiträge an Privatbahnen. Rahmenkredit für 2007-2010 / Contributions d'investissement aux chemins de fer privés. Crédit-cadre pour 2007-2010'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.06.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Hans Altherr', 'Michel Béguelin', 'Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Rolf Escher', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Thomas Pfisterer']"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Hans Altherr', 'Michel Béguelin', 'Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Rolf Escher', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Thomas Pfisterer']"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/274 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2006/274#11#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5254,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

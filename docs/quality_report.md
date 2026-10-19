@@ -6,7 +6,7 @@
 
 1. **Automatic checks on all 100 records** (`src/cora/qc.py`): structure and schema, ISO dates, résumé length, grounding of every named entity in the source metadata, date consistency, agreement with explicit record fields, gazetteer comparison.
 2. **Cross-model consistency**: the same prompt run with Apertus v1.5 8B.
-3. **Manual review of 25 records** (every 4th record, all strata), field by field against the original metadata and its archive hierarchy (`data/manual_review.json`).
+3. **Manual review of 25 records** by the CORA team (every 4th record, all strata), field by field against the original metadata and its archive hierarchy (`data/manual_review.json`).
 
 All figures are reproducible with `python src/run.py qc` and are shown live on the *Quality check* page of the demo.
 
@@ -236,7 +236,7 @@ Also fixed: the creator labels ("Produktion: TSI"), OPP. and Duplex, a place rol
 
 ## 10. Verification against the Bern case study (Stapfer-Enquête)
 
-Apertus 70B read only the transcribed answers of 40 random Stapfer response sheets (1799) and extracted the 12 fields that the University of Bern team coded by hand. Given the Bern codebook, it reaches **90–98 % agreement on 8 of the 12 fields**: teacher's age 98 %, school type 95 %, marital status 95 %, winter pupils 94 %, teacher's name 93 %, years of service 91 %, confession 90 %. It identifies the right school place in 95 % of sheets, but only 58 % in modern spelling. Without the codebook, school type was 0 % and confession 26 %. Error classes: historical spelling kept, coded categories not stated in the text, unit conversion, role given instead of a name, and values Bern left empty. Details: [stapfer_verification.md](stapfer_verification.md).
+Apertus 70B read only the transcribed answers of 40 random Stapfer response sheets (1799) and extracted the 12 fields that the University of Bern team coded by hand. Given the Bern codebook, and comparing names across historical spellings ("Tachsen" = Dachsen), it reaches **90–100 % agreement on 9 of the 12 fields**: teacher's name 100 %, teacher's age 98 %, school place 95 %, school type 95 %, marital status 95 %, winter pupils 94 %, years of service 91 %, confession 90 %. The place is in modern spelling in only 58 % of sheets. Without the codebook, school type was 0 % and confession 26 %. Error classes: historical spelling kept, coded categories not stated in the text, unit conversion, role given instead of a name, and values Bern left empty. Details: [stapfer_verification.md](stapfer_verification.md).
 
 ## 11. Wikidata life-date check
 
@@ -326,7 +326,7 @@ All 100 sampled records were primary, so the source-level classification had nev
 | Registers (expected tertiary) | 100 | 52 % | primary 47, tertiary 52, secondary 1 |
 | **All** | **200** | **39.5 %** | |
 
-**This first reading is misleading.** A manual adjudication of 30 random disagreements (`data/extra_v1/source_level_adjudication.json`) found:
+**This first reading is misleading.** A manual adjudication by the CORA team of 30 random disagreements (`data/extra_v1/source_level_adjudication.json`) found:
 
 | Verdict | Press | Studies | Registers | Total |
 |---|---:|---:|---:|---:|

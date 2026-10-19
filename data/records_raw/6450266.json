@@ -1,0 +1,79 @@
+{
+ "id": "6450266",
+ "uri": "https://culture.ld.admin.ch/ais/6450266",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6450266",
+ "title": "Repertorium - Register über die Laboratoriumsarbeiten, 1. April 1935 (2 schwarz gebundene Mappen)",
+ "reference_code": "E6461-02#2005/59#240*",
+ "reference_number": "290",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1935-01-01",
+  "to": "1935-12-31",
+  "expressed": "1935-1935"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1419305",
+   "number": "2005/59",
+   "title": "2005/00059 Bundesamt f�r Metrologie und Akkreditierung (Bern) (1901-1970)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6450261",
+   "title": "Diverse Laboratoriumsarbeiten",
+   "level": "Serie",
+   "reference_code": "E6461-02#290"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6450260",
+   "title": "Andere / Diversa",
+   "level": "Serie",
+   "reference_code": "E6461-02#29"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6450044",
+   "title": "Laborentwicklung / Basismetrologie / Instrumente und Maschinen",
+   "level": "Serie",
+   "reference_code": "E6461-02#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5623220",
+   "title": "Eidgenössisches Amt für Mass und Gewicht: Altablage, neu geordnet nach metrologisch-historischen Kategorien (1909-1977)",
+   "level": "Sub-file",
+   "reference_code": "E6461-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2060139",
+   "title": "Eidgenössisches Amt für Mass und Gewicht (1909-1977)",
+   "level": "Stock",
+   "reference_code": "E10962*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

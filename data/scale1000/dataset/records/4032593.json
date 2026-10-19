@@ -1,0 +1,292 @@
+{
+ "id": "4032593",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4032593",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4032593",
+  "reference_code": "E1301#2006/380#5#17*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2006.5166: Fragestunde. Frage Leutenegger Oberholzer Susanne. Swisscom-Verwaltungsratsmitglied unter Insiderverdacht / Heure des questions. Question Leutenegger Oberholzer Susanne. Administrateur de Swisscom soupçonné de délit d'initié",
+   "scope_and_content": "Sprecher/Sprecherinnen: Leuenberger, Moritz; Leutenegger Oberholzer, Susanne",
+   "date": {
+    "from": "2006-09-25",
+    "to": null,
+    "expressed": "2006.09.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383505",
+     "number": "2006/380",
+     "title": "2006/00380 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the debate by the National Council.",
+  "resume": "This is a parliamentary record of a question session (Fragestunde) in the Swiss National Council (Nationalrat) on 25 September 2006, featuring a question by Susanne Leutenegger Oberholzer about an alleged insider trading suspicion involving a Swisscom board member. The document contains the speakers' names and the accession information for the parliamentary service records."
+ },
+ "metadata": {
+  "title": "2006.5166: Fragestunde. Frage Leutenegger Oberholzer Susanne. Swisscom-Verwaltungsratsmitglied unter Insiderverdacht / Heure des questions. Question Leutenegger Oberholzer Susanne. Administrateur de Swisscom soupçonné de délit d'initié",
+  "title_normalized": "2006.5166: Fragestunde. Frage Leutenegger Oberholzer Susanne. Swisscom-Verwaltungsratsmitglied unter Insiderverdacht / Heure des questions. Question Leutenegger Oberholzer Susanne. Administrateur de Swisscom soupçonné de délit d'initié",
+  "title_en": "Question Session: Question by Susanne Leutenegger Oberholzer on Swisscom Board Member Under Insider Trading Suspicion / Question Time. Question by Susanne Leutenegger Oberholzer on Swisscom Administrator Suspected of Insider Trading",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-09-25",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-09-25",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swisscom",
+   "insider trading",
+   "parliamentary questions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Herbstsession 2006",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2006/380#5#17*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4032593",
+  "accession_numbers": [
+   "2006/380"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Susanne Leutenegger Oberholzer",
+    "display_name": "Susanne Leutenegger Oberholzer",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q117109",
+     "label": "Susanne Leutenegger Oberholzer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117109"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers_in_debate includes 'Moritz Leuenberger' and 'Susanne Leutenegger Oberholzer'.; named organizations or places (apertus): Title mentions 'Swisscom' and 'Nationalrat'.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.09.25",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.09.25"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes 'Moritz Leuenberger' and 'Susanne Leutenegger Oberholzer'."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mentions 'Swisscom' and 'Nationalrat'."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; the debate concerns a Swisscom board member under insider trading suspicion."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/380 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2006/380#5#17*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4859,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

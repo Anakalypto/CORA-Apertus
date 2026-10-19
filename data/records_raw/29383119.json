@@ -1,0 +1,61 @@
+{
+ "id": "29383119",
+ "uri": "https://culture.ld.admin.ch/ais/29383119",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29383119",
+ "title": "Zeitungsartikel und Interviews",
+ "reference_code": "J1.8#1000/1376#10*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1935-01-01",
+  "to": "1936-12-31",
+  "expressed": "1935-1936"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16724",
+   "number": "1000/1376",
+   "title": "1000/01376 Obrecht, Karl (Kuettigkofen) (1900-1940)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29383109",
+   "title": "Nachlass Bundesrat Hermann Obrecht",
+   "level": "Serie",
+   "reference_code": "J1.8#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4117",
+   "title": "Obrecht Hermann (1882-1940)",
+   "level": "Stock",
+   "reference_code": "J1.8*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}
