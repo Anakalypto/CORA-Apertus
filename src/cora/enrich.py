@@ -5,8 +5,12 @@ model; Apertus' own coordinates are kept only to measure their accuracy in qc.py
 """
 import json
 import math
+import os
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 import urllib.parse
 import urllib.request
 
@@ -25,6 +29,12 @@ class Cache:
 
     def save(self):
         pass  # every entry is written when it is set
+
+
+_NOMINATIM = threading.Lock()  # one request at a time across worker threads
+_last_nominatim = [0.0]
+_geocode_deadline = [None]  # time box (enrich.geocode_until, "HH:MM"): later lookups are skipped, not cached
+_geocode_skipped = [0]
 
 
 def _get(url: str, ua: str):
@@ -46,11 +56,17 @@ def geocode(name: str, country: str | None, cache: Cache, cfg) -> dict | None:
     params = {"q": name, "format": "jsonv2", "limit": 1, "addressdetails": 0}
     if country and re.fullmatch(r"[A-Za-z]{2}", country):
         params["countrycodes"] = country.lower()
-    time.sleep(1.1)  # Nominatim usage policy: max 1 request per second
-    try:
-        hits = _get(cfg["enrich"]["geocoder_url"] + "?" + urllib.parse.urlencode(params), cfg["enrich"]["user_agent"])
-    except Exception:
-        return None
+    if _geocode_deadline[0] and time.time() > _geocode_deadline[0]:
+        _geocode_skipped[0] += 1
+        return None  # not cached: a later run of `enrich` locates it
+    with _NOMINATIM:  # Nominatim usage policy: max 1 request per second, whatever the number of workers
+        time.sleep(max(0.0, _last_nominatim[0] + 1.1 - time.monotonic()))
+        try:
+            hits = _get(cfg["enrich"]["geocoder_url"] + "?" + urllib.parse.urlencode(params), cfg["enrich"]["user_agent"])
+        except Exception:
+            return None
+        finally:
+            _last_nominatim[0] = time.monotonic()
     res = None
     if hits:
         h = hits[0]
@@ -247,11 +263,15 @@ def run(cfg):
     rows = [json.loads(l) for l in (data_dir / "classified.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     recs = {r["id"]: r for r in store.read_entries(data_dir / "records_raw.json")}
     cache = Cache(data_dir / "enrich_cache.json")
-    out = []
-    for i, row in enumerate(rows):
+    until = os.environ.get("CORA_GEOCODE_UNTIL") or cfg["enrich"].get("geocode_until")
+    if until:
+        h, m = map(int, until.split(":"))
+        _geocode_deadline[0] = datetime.now().replace(hour=h, minute=m, second=0).timestamp()
+        print(f"  new places are geocoded until {until}; after that only cached ones", flush=True)
+
+    def one(row):
         if not row.get("apertus"):
-            out.append(row)
-            continue
+            return row
         a = row["apertus"]
         places = []
         for p in a["places"]:
@@ -293,10 +313,18 @@ def run(cfg):
                 for o in a["organizations"]]
         row["enriched"] = {"places": places, "persons": persons, "organizations": orgs,
                            "story": build_story(row, recs[row["id"]], places) if cfg["classify"]["story_map"] else []}
-        out.append(row)
-        if i % 10 == 0:
-            cache.save()
-            print(f"  enriched {i + 1}/{len(rows)}")
+        return row
+
+    # Workers overlap the Wikidata lookups; geocode() still sends Nominatim one request per second.
+    out = []
+    with ThreadPoolExecutor(cfg["enrich"].get("workers", 1)) as pool:
+        for i, row in enumerate(pool.map(one, rows)):
+            out.append(row)
+            if i % 50 == 0:
+                cache.save()
+                print(f"  enriched {i + 1}/{len(rows)}", flush=True)
     cache.save()
+    if _geocode_skipped[0]:
+        print(f"  {_geocode_skipped[0]} place lookups skipped after {until}: re-run `enrich` to locate them")
     (data_dir / "enriched.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in out), encoding="utf-8")
     print(f"  wrote data/enriched.jsonl ({len(out)} records)")

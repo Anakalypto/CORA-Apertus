@@ -1,0 +1,59 @@
+# CORA — 10,000-record mixed batch (tiers x types x eras); merged into data/ after verification.
+# Every value can be overridden by the environment variables LLM_NAME, LLM_BASE_URL, LLM_API_KEY;
+# the model of one feature by LLM_NAME_<FEATURE> (e.g. LLM_NAME_CLASSIFY=apertus-v1-5-70b).
+
+[llm]
+model = "apertus-v1-5-70b"                     # default for any feature not listed in [llm.models]
+compare_model = "apertus-v1-5-70b"             # second opinion in the quality check: the model not used for parsing
+base_url = "https://gateway.keera.ch/api/v1"   # Keera Gateway -> CSCS inference (OpenAI-compatible)
+temperature = 0.1
+max_tokens = 2500
+workers = 12
+retries = 3
+
+[llm.models]
+# Each feature runs on the model that did better in the 70B vs 8B comparison (docs/model_comparison.md).
+classify = "apertus-v1-5-8b"        # parsing: passes 100 % of the automatic checks vs 98.5 %, 3x faster
+audit = "apertus-v1-5-8b"           # judgement checks agree 93-99 %; mechanical checks are decided by rule detectors
+qa = "apertus-v1-5-8b"              # Ask the archive: same citations and refusals, 3x faster
+whatif = "apertus-v1-5-8b"          # only explains the positions, which the related votes decide (referendum.whatif)
+level = "apertus-v1-5-70b"          # source level: recognises 70 % of secondary sources vs 28 % for 8B
+more = "apertus-v1-5-70b"           # See more: 3 % unsourced sentences vs 26 % for 8B
+stapfer = "apertus-v1-5-70b"        # 84.5 % vs 80.8 % on Bern's hand coding; 8B breaks on 8 % of the sheets
+consultations = "apertus-v1-5-70b"  # 8B leaves the fixed topic list 6x more often
+topic = "apertus-v1-5-70b"          # no reference; the two models pick the same Wikipedia article only 14 % of the time
+votes = "apertus-v1-5-70b"          # related votes and English titles: not measured, the larger model is kept
+
+[sample]
+size = 100
+seed = 42
+# "stratified" draws from three strata so the demo shows every kind of record;
+# Strata use only the original "form" field. "uniform" draws uniformly over all 263k item-level records (mostly TV news clips).
+strategy = "stratified"
+strata = { audiovisual = 40, still_image = 30, other = 30 }
+
+[classify]
+resume = true            # 3-sentence résumé on/off
+output_language = "en"   # language of résumé and normalised fields
+preprocessing = true     # preprocessing-needs assessment on/off
+story_map = true         # provenance trail ("retracé") on/off
+press_convention = "secondary"   # source level of press articles/clippings: "secondary" (reported accounts) or "primary"
+
+[enrich]
+geocoder = "nominatim"             # public bulk-friendly, cached, 1 req/s
+geocoder_url = "https://nominatim.openstreetmap.org/search"
+wikidata = true                    # entity linking against Wikidata
+workers = 8                        # parallel records; Nominatim stays at 1 request/s (global lock)
+geocode_until = "11:00"            # hackathon time box: places not yet in the cache after this are left for a later run
+user_agent = "CORA-Apertus/0.1 (Hack Apertus 2026 demo; contact: hello@hackapertus.ch)"
+
+[paths]
+data_dir = "../data/batch10k"
+site_dir = "site"
+
+[mixed]
+# 10,000 new records spread over tiers (share in %), then evenly over types and eras (src/cora/mixed.py)
+batch = "batch10k"
+size = 10000
+seed = 10000
+tiers = { primary = 55, secondary = 27, tertiary = 18 }

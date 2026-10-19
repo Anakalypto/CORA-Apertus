@@ -98,6 +98,11 @@ def _attach_covers():
 
 _attach_covers()
 QC = json.loads((DATA / "qc_report.json").read_text(encoding="utf-8")) if (DATA / "qc_report.json").exists() else {}
+for _b in CFG["paths"].get("batches", []):  # verified batches merged by export.py: their own QC summary
+    _p = (config.SRC / _b / "qc_report.json").resolve()
+    if _p.exists():
+        QC.setdefault("batches", {})[Path(_b).name] = json.loads(_p.read_text(encoding="utf-8"))["summary"] | {
+            "online": sum(r.get("batch") == Path(_b).name for r in RECORDS.values())}
 
 app = FastAPI(title="CORA — Apertus classifier for the Swiss Federal Archives",
               description="AI-ready metadata for records of the Swiss Federal Archives, classified by Apertus v1.5. "
@@ -132,6 +137,7 @@ FACETS = {
     "preprocessing": lambda r: [k for k, v in (r.get("preprocessing") or {}).items() if v["needed"]],
     "qc": lambda r: "passed" if r["qc"].get("ok") else "issues",
     "sample": lambda r: r.get("stratum") or "unknown",
+    "batch": lambda r: r.get("batch") or "demo",
     "flags": lambda r: [f for f, on in (
         ("on_map", any(p.get("lat") is not None for p in r["entities"]["places"])),
         ("story_map", any(e.get("lat") is not None and e.get("event") not in ("holding", "accession") for e in r.get("story") or [])),
@@ -260,7 +266,7 @@ def _day_range(s: str | None) -> tuple[str, str] | None:
     parts = [p.strip() for p in str(s).split("/") if p.strip()]
 
     def bounds(p):
-        m = re.match(r"^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?", p)
+        m = re.match(r"^(\d{4})(?:-(0[1-9]|1[0-2])(?:-(\d{2}))?(?!\d))?", p)  # "1919-1947" is a year range, not month 19
         if not m:
             return None
         y, mo, d = int(m.group(1)), m.group(2), m.group(3)
@@ -339,12 +345,18 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True, l
     cfg["classify"]["resume"], cfg["classify"]["story_map"] = resume, story_map
     cfg["classify"]["output_language"] = i18n.code(lang)  # résumé and normalised fields in the reader's language
     l = CFG["llm"]
-    ap = Apertus(l["base_url"], l["api_key"], l["model"], l["temperature"], l["max_tokens"], l["retries"])
-    raw, meta = ap.chat_json(classify.build_messages(rec, cfg))
+    ap = lambda feature: Apertus(l["base_url"], l["api_key"], config.model_for(CFG, feature), l["temperature"], l["max_tokens"], l["retries"])
+    raw, meta = ap("classify").chat_json(classify.build_messages(rec, cfg))
     result, issues = classify.normalize(raw, rec, cfg)
-    araw, ameta = ap.chat_json(classify.build_audit_messages(rec))
+    araw, ameta = ap("audit").chat_json(classify.build_audit_messages(rec))
     checks, pre, personal = classify.audit_to_flags(araw, rec)
     result["preprocessing"], result["personal_data"], result["audit_checks"] = pre, personal, checks
+    # pass 3, as in the pipeline: the source level from explicit archival definitions
+    lraw, lmeta = ap("level").chat_json(classify.build_level_messages(rec))
+    lvl = classify.level_from_answers(lraw, CFG["classify"].get("press_convention", "secondary"))
+    result["source_level_v1"], result["source_level"], result["source_level_pass3"] = result["source_level"], lvl["level"], lvl
+    result["source_level_rationale"] = f'{lvl["rule"]}: {lvl["note"] or ""}'.strip(": ")
+    result["models"] = {"classify": meta.get("model"), "audit": ameta.get("model"), "level": lmeta.get("model")}
     row = {"id": record_id, "apertus": result, "derived": classify.derived_fields(rec)}
     places = []
     cache = enrich.Cache(DATA / "enrich_cache.json")
@@ -354,16 +366,17 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True, l
     cache.save()
     story = enrich.build_story(row, rec, places) if story_map else []
     return {"record": rec, "classification": result, "derived": row["derived"], "places": places, "story": story,
-            "schema_issues": issues, "seconds": round(meta["seconds"] + ameta["seconds"], 1)}
+            "schema_issues": issues, "seconds": round(meta["seconds"] + ameta["seconds"] + lmeta["seconds"], 1)}
 
 
 # persistent FTS5 index built by `run.py export` (rebuilt here if missing or older than the dataset)
 QA_INDEX = search_index.Index(RECORDS, DATASET / "cora_search.sqlite")
 
 
-def _llm():
+def _llm(feature: str = ""):
+    """Apertus for one feature: the model chosen per feature in config.toml [llm.models] (default: llm.model)."""
     l = CFG["llm"]
-    return Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 1500, l["retries"])
+    return Apertus(l["base_url"], l["api_key"], config.model_for(CFG, feature), 0.0, 1500, l["retries"])
 
 
 @app.get("/api/ask", summary="Ask the archive: cited answer from the dataset (BM25 + Apertus); refuses when nothing relevant is found")
@@ -371,7 +384,7 @@ def ask(q: str = Query(..., min_length=3), k: int = 6, record: str = Query("", d
         lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     if record and record not in RECORDS:
         raise HTTPException(404, "unknown record")
-    return qa.ask(QA_INDEX, _llm(), q, k, focus=record or None, lang=i18n.code(lang))
+    return qa.ask(QA_INDEX, _llm("qa"), q, k, focus=record or None, lang=i18n.code(lang))
 
 
 @app.post("/api/chat", summary="Ask the archive as a conversation: Apertus answers from archive records and Wikipedia "
@@ -454,7 +467,7 @@ def votes():
 @app.get("/api/votes/{anr}", summary="One federal vote: result, estimate, parliament's vote, party positions; Apertus English title, summary and related votes (cached)")
 def vote(anr: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     try:
-        return referendum.detail(CFG, anr, _llm(), i18n.code(lang))
+        return referendum.detail(CFG, anr, _llm("votes"), i18n.code(lang))
     except KeyError:
         raise HTTPException(404, "unknown vote number (anr)")
 
@@ -462,7 +475,7 @@ def vote(anr: str, lang: str = Query("en", description="interface language (en, 
 @app.get("/api/votes/{anr}/whatif", summary="The proposal under the conditions of another year: real positions with that year's strengths, and Apertus-imagined positions (cached)")
 def vote_whatif(anr: str, year: int = Query(..., ge=1848, le=2100), lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     try:
-        return referendum.whatif(CFG, anr, year, _llm(), i18n.code(lang))
+        return referendum.whatif(CFG, anr, year, _llm("votes"), i18n.code(lang), _llm("whatif"))
     except KeyError:
         raise HTTPException(404, "unknown vote number (anr)")
 
@@ -472,7 +485,7 @@ def record_more(record_id: str, lang: str = Query("en", description="interface l
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "unknown record")
-    return more.explain(r, QA_INDEX, CFG, _llm(), i18n.code(lang))
+    return more.explain(r, QA_INDEX, CFG, _llm("more"), i18n.code(lang))
 
 
 @app.get("/api/records/{record_id}/topic", summary="Topic of a secondary/tertiary record: Wikipedia article, primary dossiers of the archive, news (Apertus-selected, cached)")
@@ -480,7 +493,7 @@ def record_topic(record_id: str, lang: str = Query("en", description="interface 
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "unknown record")
-    return topic.build(r, QA_INDEX, CFG, _llm(), i18n.code(lang))
+    return topic.build(r, QA_INDEX, CFG, _llm("topic"), i18n.code(lang))
 
 
 @app.get("/api/records/{record_id}/resume", summary="The record's résumé written by Apertus in the reader's language from its original fields (cached)")
@@ -488,7 +501,7 @@ def record_resume(record_id: str, lang: str = Query("en", description="interface
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "unknown record")
-    return more.resume(r, CFG, _llm(), i18n.code(lang))
+    return more.resume(r, CFG, _llm("more"), i18n.code(lang))
 
 
 @app.get("/api/i18n/{lang}", summary="Interface text in one of the languages of Switzerland (translated by Apertus; "

@@ -1,14 +1,28 @@
 # CORA — Apertus classifier for the Swiss Federal Archives.
-# Every value can be overridden by the environment variables LLM_NAME, LLM_BASE_URL, LLM_API_KEY.
+# Every value can be overridden by the environment variables LLM_NAME, LLM_BASE_URL, LLM_API_KEY;
+# the model of one feature by LLM_NAME_<FEATURE> (e.g. LLM_NAME_CLASSIFY=apertus-v1-5-70b).
 
 [llm]
-model = "apertus-v1-5-70b"                     # main classifier (Apertus v1.5 70B)
-compare_model = "apertus-v1-5-8b"              # second opinion used by the quality check
+model = "apertus-v1-5-70b"                     # default for any feature not listed in [llm.models]
+compare_model = "apertus-v1-5-70b"             # second opinion in the quality check: the model not used for parsing
 base_url = "https://gateway.keera.ch/api/v1"   # Keera Gateway -> CSCS inference (OpenAI-compatible)
 temperature = 0.1
 max_tokens = 2500
 workers = 6
 retries = 3
+
+[llm.models]
+# Each feature runs on the model that did better in the 70B vs 8B comparison (docs/model_comparison.md).
+classify = "apertus-v1-5-8b"        # parsing: passes 100 % of the automatic checks vs 98.5 %, 3x faster
+audit = "apertus-v1-5-8b"           # judgement checks agree 93-99 %; mechanical checks are decided by rule detectors
+qa = "apertus-v1-5-8b"              # Ask the archive: same citations and refusals, 3x faster
+whatif = "apertus-v1-5-8b"          # only explains the positions, which the related votes decide (referendum.whatif)
+level = "apertus-v1-5-70b"          # source level: recognises 70 % of secondary sources vs 28 % for 8B
+more = "apertus-v1-5-70b"           # See more: 3 % unsourced sentences vs 26 % for 8B
+stapfer = "apertus-v1-5-70b"        # 84.5 % vs 80.8 % on Bern's hand coding; 8B breaks on 8 % of the sheets
+consultations = "apertus-v1-5-70b"  # 8B leaves the fixed topic list 6x more often
+topic = "apertus-v1-5-70b"          # no reference; the two models pick the same Wikipedia article only 14 % of the time
+votes = "apertus-v1-5-70b"          # related votes and English titles: not measured, the larger model is kept
 
 [sample]
 size = 100

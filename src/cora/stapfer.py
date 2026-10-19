@@ -13,6 +13,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
+from . import config
 
 from . import store
 
@@ -279,7 +280,7 @@ def run(cfg, n: int = 40, seed: int = 42) -> None:
     cases = load_cases(out_dir)
     sample = random.Random(seed).sample(sorted(cases, key=lambda c: c["id"]), n)
     l = cfg["llm"]
-    ap = Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 1500, l["retries"])
+    ap = Apertus(l["base_url"], l["api_key"], config.model_for(cfg, "stapfer"), 0.0, 1500, l["retries"])
 
     def one(c):
         try:
@@ -294,6 +295,6 @@ def run(cfg, n: int = 40, seed: int = 42) -> None:
 
     with ThreadPoolExecutor(l["workers"]) as pool:
         rows = list(pool.map(one, sample))
-    summary = summarize(rows, cases_available=len(cases), sampled=n, seed=seed, model=l["model"])
+    summary = summarize(rows, cases_available=len(cases), sampled=n, seed=seed, model=config.model_for(cfg, "stapfer"))
     save_comparison(out_dir, "comparison", summary, rows)
     print(json.dumps(summary, ensure_ascii=False, indent=1))

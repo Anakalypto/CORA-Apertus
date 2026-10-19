@@ -15,6 +15,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 from .qa import tokens
+from . import config
 
 BASE = "https://sfa-laboratory.ch/bar-ogd/bar-02/"
 CSV_NAME = "Metadatenbank-Vernehmlassungen-OGD-V1-3.csv"
@@ -91,7 +92,7 @@ def run(cfg) -> None:
     out_dir.mkdir(exist_ok=True)
     cons, votes = load_consultations(out_dir), load_swissvotes(out_dir)
     l = cfg["llm"]
-    ap = Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 3000, l["retries"])
+    ap = Apertus(l["base_url"], l["api_key"], config.model_for(cfg, "consultations"), 0.0, 3000, l["retries"])
 
     def tag(batch):
         items = [{"n": c["nr"], "type": c["type"], "title": c["title"], "department": c["dept_abbr"], "year": c["year"],

@@ -51,5 +51,11 @@ data/scale1000/enrich_cache.json
 data/more_cache/
 data/scale1000/classified_unrepaired.jsonl
 
+# per-model scratch caches of src/eval_features.py
+data/model_eval/cache/
+
 # store.py temp files (atomic writes; only left behind by a crash)
 data/**/.*.tmp
+
+# 10,000-record verification batch: not published, regenerable with src/batch_run.sh (docs/batch10k_verification.md)
+data/batch10k/
