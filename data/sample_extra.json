@@ -2,1216 +2,1220 @@
  "seed": 2026,
  "pools": {
   "secondary_press": {
-   "old_pool": 913,
-   "new_pool": 9331
+   "old_pool": 374,
+   "new_pool": 4973
   },
-  "secondary_study": {
-   "old_pool": 990,
-   "new_pool": 12299
+  "secondary_obituary": {
+   "old_pool": 42,
+   "new_pool": 241
   },
-  "tertiary_register": {
-   "old_pool": 1405,
-   "new_pool": 2579
+  "secondary_history": {
+   "old_pool": 188,
+   "new_pool": 1193
+  },
+  "tertiary_index": {
+   "old_pool": 324,
+   "new_pool": 2825
   }
  },
  "sample": [
   {
-   "id": "19450313",
+   "id": "1915605",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3233818",
+   "id": "32338325",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3297468",
+   "id": "5712992",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3297541",
+   "id": "5751717",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "5732011",
+   "id": "6291478",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "907283",
+   "id": "1620165",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "17272551",
+   "id": "29383119",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "930486",
+   "id": "5751765",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "2707787",
+   "id": "5751776",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "4566717",
+   "id": "5751739",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "5078900",
+   "id": "3397246",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3300609",
+   "id": "5751749",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3281093",
+   "id": "5751735",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6436034",
+   "id": "5471797",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3568486",
+   "id": "5751758",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3297929",
+   "id": "3460600",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "7382188",
+   "id": "29420406",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6000281",
+   "id": "10797403",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6436027",
+   "id": "5751772",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6436018",
+   "id": "1424161",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3297406",
+   "id": "1680730",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6319499",
+   "id": "3092606",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6436023",
+   "id": "1446567",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "4122766",
+   "id": "3472252",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3287727",
+   "id": "1170760",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "29383569",
+   "id": "904967",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "1058693",
+   "id": "903461",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "4629770",
+   "id": "3233815",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "1427691",
+   "id": "2727647",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "1915748",
+   "id": "3297508",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3092631",
+   "id": "29745096",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6691095",
+   "id": "3276865",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "1679352",
+   "id": "3278828",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3287807",
+   "id": "3287644",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "11000465",
+   "id": "5994249",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "6690825",
+   "id": "1422448",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "930776",
+   "id": "930494",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "5751753",
+   "id": "3250878",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "5751746",
+   "id": "1438637",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3205441",
+   "id": "5751740",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "2707380",
+   "id": "5751730",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3278864",
+   "id": "3122104",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "29549646",
+   "id": "3761390",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": true
   },
   {
-   "id": "3246541",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3247673",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "6437607",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3277400",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "611127",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3297542",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5479246",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1427537",
-   "stratum": "secondary_press",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "4060279",
+   "id": "2014767",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "16067555",
+   "id": "930404",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "930538",
+   "id": "3468589",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "929779",
+   "id": "1106754",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "32223691",
+   "id": "4627944",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "32048295",
+   "id": "4541508",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "6343425",
+   "id": "6691177",
    "stratum": "secondary_press",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "2074238",
-   "stratum": "secondary_press",
+   "id": "5855990",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "2101177",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "5757615",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931173",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931156",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "929886",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "2102455",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931194",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931142",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931162",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931188",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "6785332",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "31545753",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "2103970",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "931147",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "29383476",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "3509724",
+   "stratum": "secondary_obituary",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "9222587",
+   "stratum": "secondary_obituary",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "3305594",
-   "stratum": "secondary_press",
+   "id": "31069888",
+   "stratum": "secondary_obituary",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "1287328",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5691375",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3297405",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1950812",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1894847",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "29585582",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "2391717",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1423168",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "2096661",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5999337",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3280449",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3245990",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3117991",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5757619",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1435952",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "2408833",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3118243",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5477796",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "462518",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5757618",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3281670",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5757697",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3115919",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "2096659",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "6575809",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "32200586",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1449717",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "5691342",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "2278719",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "3248586",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "6745632",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "30553146",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "31440442",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "31505872",
-   "stratum": "secondary_study",
-   "expected_source_level": "secondary",
-   "pre_1940": true
-  },
-  {
-   "id": "1186351",
-   "stratum": "secondary_study",
+   "id": "31862786",
+   "stratum": "secondary_obituary",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "4660490",
-   "stratum": "secondary_study",
+   "id": "3472254",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "10147493",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "5574685",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "22642283",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "1668792",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "1218893",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "861530",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "3472257",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "7419868",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "1647887",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "6608526",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "32243223",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "3288810",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "1674257",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "3289716",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "22642828",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "1663610",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "6627612",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "3288558",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "859725",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "4021886",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "22722079",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "4962413",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "31489427",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "29491752",
+   "stratum": "secondary_history",
+   "expected_source_level": "secondary",
+   "pre_1940": true
+  },
+  {
+   "id": "6734403",
+   "stratum": "secondary_history",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "26706086",
-   "stratum": "secondary_study",
+   "id": "5740842",
+   "stratum": "secondary_history",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "1974900",
-   "stratum": "secondary_study",
+   "id": "5443297",
+   "stratum": "secondary_history",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "1292465",
-   "stratum": "secondary_study",
+   "id": "4082157",
+   "stratum": "secondary_history",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "663648",
-   "stratum": "secondary_study",
+   "id": "456231",
+   "stratum": "secondary_history",
    "expected_source_level": "secondary",
    "pre_1940": false
   },
   {
-   "id": "6449649",
-   "stratum": "tertiary_register",
+   "id": "4999588",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7906856",
-   "stratum": "tertiary_register",
+   "id": "5992822",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2564083",
-   "stratum": "tertiary_register",
+   "id": "5992809",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7688096",
-   "stratum": "tertiary_register",
+   "id": "10149448",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992971",
-   "stratum": "tertiary_register",
+   "id": "1392311",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6422860",
-   "stratum": "tertiary_register",
+   "id": "3471613",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "29388540",
-   "stratum": "tertiary_register",
+   "id": "7689813",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449526",
-   "stratum": "tertiary_register",
+   "id": "5992999",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "31883217",
-   "stratum": "tertiary_register",
+   "id": "7688082",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "29166735",
-   "stratum": "tertiary_register",
+   "id": "6833395",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7688108",
-   "stratum": "tertiary_register",
+   "id": "5992860",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6314718",
-   "stratum": "tertiary_register",
+   "id": "4999587",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7941808",
-   "stratum": "tertiary_register",
+   "id": "5992805",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6394215",
-   "stratum": "tertiary_register",
+   "id": "6735202",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449723",
-   "stratum": "tertiary_register",
+   "id": "5994027",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "32240058",
-   "stratum": "tertiary_register",
+   "id": "7485800",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6456481",
-   "stratum": "tertiary_register",
+   "id": "6884064",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992831",
-   "stratum": "tertiary_register",
+   "id": "5992986",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7906809",
-   "stratum": "tertiary_register",
+   "id": "7688143",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3289434",
-   "stratum": "tertiary_register",
+   "id": "1432847",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449732",
-   "stratum": "tertiary_register",
+   "id": "5992820",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7689310",
-   "stratum": "tertiary_register",
+   "id": "5992836",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449582",
-   "stratum": "tertiary_register",
+   "id": "31494627",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6447436",
-   "stratum": "tertiary_register",
+   "id": "5992988",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992978",
-   "stratum": "tertiary_register",
+   "id": "7597779",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3084116",
-   "stratum": "tertiary_register",
+   "id": "5992804",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3277993",
-   "stratum": "tertiary_register",
+   "id": "5992996",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3277898",
-   "stratum": "tertiary_register",
+   "id": "4999578",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "1286778",
-   "stratum": "tertiary_register",
+   "id": "5992979",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "1438327",
-   "stratum": "tertiary_register",
+   "id": "6450266",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2942957",
-   "stratum": "tertiary_register",
+   "id": "29385201",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7689550",
-   "stratum": "tertiary_register",
+   "id": "5992808",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7191058",
-   "stratum": "tertiary_register",
+   "id": "6884093",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6319018",
-   "stratum": "tertiary_register",
+   "id": "5992865",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449648",
-   "stratum": "tertiary_register",
+   "id": "31445428",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449547",
-   "stratum": "tertiary_register",
+   "id": "4999584",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5690735",
-   "stratum": "tertiary_register",
+   "id": "5992970",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3061615",
-   "stratum": "tertiary_register",
+   "id": "3471611",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3276614",
-   "stratum": "tertiary_register",
+   "id": "5992995",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449535",
-   "stratum": "tertiary_register",
+   "id": "1223548",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6321589",
-   "stratum": "tertiary_register",
+   "id": "31445426",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449611",
-   "stratum": "tertiary_register",
+   "id": "10146297",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449569",
-   "stratum": "tertiary_register",
+   "id": "7688933",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992982",
-   "stratum": "tertiary_register",
+   "id": "7688100",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6455656",
-   "stratum": "tertiary_register",
+   "id": "3121390",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7689721",
-   "stratum": "tertiary_register",
+   "id": "7765779",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "1438328",
-   "stratum": "tertiary_register",
+   "id": "4999586",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3277980",
-   "stratum": "tertiary_register",
+   "id": "5920780",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3299411",
-   "stratum": "tertiary_register",
+   "id": "32333504",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6319003",
-   "stratum": "tertiary_register",
+   "id": "7767943",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2556736",
-   "stratum": "tertiary_register",
+   "id": "1627708",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992990",
-   "stratum": "tertiary_register",
+   "id": "5992858",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449622",
-   "stratum": "tertiary_register",
+   "id": "3642708",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3276499",
-   "stratum": "tertiary_register",
+   "id": "10149446",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5996531",
-   "stratum": "tertiary_register",
+   "id": "5992834",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "30367247",
-   "stratum": "tertiary_register",
+   "id": "7689260",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992963",
-   "stratum": "tertiary_register",
+   "id": "7688793",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449518",
-   "stratum": "tertiary_register",
+   "id": "6883981",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "1856518",
-   "stratum": "tertiary_register",
+   "id": "3460127",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7689321",
-   "stratum": "tertiary_register",
+   "id": "5691138",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3277889",
-   "stratum": "tertiary_register",
+   "id": "6323151",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449571",
-   "stratum": "tertiary_register",
+   "id": "7689335",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5691437",
-   "stratum": "tertiary_register",
+   "id": "3397444",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2543194",
-   "stratum": "tertiary_register",
+   "id": "7762257",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "30370463",
-   "stratum": "tertiary_register",
+   "id": "7290303",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5992850",
-   "stratum": "tertiary_register",
+   "id": "3130086",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "29411013",
-   "stratum": "tertiary_register",
+   "id": "5992974",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5994080",
-   "stratum": "tertiary_register",
+   "id": "3838035",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "13247172",
-   "stratum": "tertiary_register",
+   "id": "7689334",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2525683",
-   "stratum": "tertiary_register",
+   "id": "5992829",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "10146275",
-   "stratum": "tertiary_register",
+   "id": "7421918",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5994175",
-   "stratum": "tertiary_register",
+   "id": "5992958",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6908534",
-   "stratum": "tertiary_register",
+   "id": "7688081",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "6449725",
-   "stratum": "tertiary_register",
+   "id": "4999585",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2506537",
-   "stratum": "tertiary_register",
+   "id": "5992868",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7471667",
-   "stratum": "tertiary_register",
+   "id": "31494895",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3061613",
-   "stratum": "tertiary_register",
+   "id": "29585795",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "31888729",
-   "stratum": "tertiary_register",
+   "id": "2524627",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "29166733",
-   "stratum": "tertiary_register",
+   "id": "5992852",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7688093",
-   "stratum": "tertiary_register",
+   "id": "5992856",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "1447318",
-   "stratum": "tertiary_register",
+   "id": "13246979",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "3277896",
-   "stratum": "tertiary_register",
+   "id": "6422267",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7765783",
-   "stratum": "tertiary_register",
+   "id": "5992841",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "7688798",
-   "stratum": "tertiary_register",
+   "id": "5992827",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "5690556",
-   "stratum": "tertiary_register",
+   "id": "5992840",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": true
   },
   {
-   "id": "2166743",
-   "stratum": "tertiary_register",
+   "id": "32683075",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "1105838",
-   "stratum": "tertiary_register",
+   "id": "32684919",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "30378090",
-   "stratum": "tertiary_register",
+   "id": "32684792",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "6999561",
-   "stratum": "tertiary_register",
+   "id": "32685222",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "6901007",
-   "stratum": "tertiary_register",
+   "id": "4239392",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "5089383",
-   "stratum": "tertiary_register",
+   "id": "32683295",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "2130500",
-   "stratum": "tertiary_register",
+   "id": "32683217",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "6449464",
-   "stratum": "tertiary_register",
+   "id": "32685311",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "2304102",
-   "stratum": "tertiary_register",
+   "id": "32685009",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "483876",
-   "stratum": "tertiary_register",
+   "id": "32683450",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "7100076",
-   "stratum": "tertiary_register",
+   "id": "32684657",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "2051460",
-   "stratum": "tertiary_register",
+   "id": "4419709",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "7526264",
-   "stratum": "tertiary_register",
+   "id": "32684259",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "5586359",
-   "stratum": "tertiary_register",
+   "id": "32684760",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   },
   {
-   "id": "2999337",
-   "stratum": "tertiary_register",
+   "id": "3348104",
+   "stratum": "tertiary_index",
    "expected_source_level": "tertiary",
    "pre_1940": false
   }

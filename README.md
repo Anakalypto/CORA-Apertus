@@ -41,7 +41,8 @@ python src/run.py all                             # rebuild everything from scra
 | Trust card (Evidence / Context / Imagination) | record pages, `python src/run.py narrative` |
 | Map time slider on swisstopo historical maps | *Map* page |
 | Federal consultations 1960–1991 with procedure chains | *Consultations* page, `python src/run.py consultations` |
-| Parliament since 1848 and the 1959/1971 referendum estimate | *Parliament* and *1959 vs 1971* pages |
+| Parliament since 1848 and every federal vote: party-cue estimate, related votes and "what if voted in year Y" (Apertus), e.g. women's suffrage 1971 vs 1959 | *Parliament & votes* page, `/api/votes` |
+| Subject of secondary/tertiary records: Wikipedia article, primary dossiers of the Federal Archives, news for current issues (Apertus-selected) | record pages, `/api/records/{id}/topic` |
 | 1,000-record scale run (Apertus 8B, timed) | `src/scale_run.sh`, `data/scale1000/` |
 
 Submissions must use the v1.5 Apertus model family.

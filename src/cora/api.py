@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import classify, config, enrich, lindas, more, qa
+from . import classify, config, enrich, lindas, more, qa, referendum, topic
 from .apertus import Apertus
 
 CFG = config.load()
@@ -278,11 +278,32 @@ def parliament_links(people: list[dict]):
 
 
 @app.get("/api/referendum", summary="Party-cue referendum model, backtest and the women's-suffrage 1959/1971 estimate")
-def referendum():
+def referendum_suffrage():
     path = DATA / "referendum" / "suffrage.json"
     if not path.exists():
         raise HTTPException(404, "run `python src/run.py referendum` first")
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+@app.get("/api/votes", summary="Every federal vote since 1848 with its result and the party-cue estimate (Swissvotes)")
+def votes():
+    return referendum.votes(CFG)
+
+
+@app.get("/api/votes/{anr}", summary="One federal vote: result, estimate, parliament's vote, party positions; Apertus English title, summary and related votes (cached)")
+def vote(anr: str):
+    try:
+        return referendum.detail(CFG, anr, _llm())
+    except KeyError:
+        raise HTTPException(404, "unknown vote number (anr)")
+
+
+@app.get("/api/votes/{anr}/whatif", summary="The proposal under the conditions of another year: real positions with that year's strengths, and Apertus-imagined positions (cached)")
+def vote_whatif(anr: str, year: int = Query(..., ge=1848, le=2100)):
+    try:
+        return referendum.whatif(CFG, anr, year, _llm())
+    except KeyError:
+        raise HTTPException(404, "unknown vote number (anr)")
 
 
 @app.get("/api/records/{record_id}/more", summary="See more: Apertus explains the record from the record, related records, Wikipedia and Wikidata (cited, cached)")
@@ -291,6 +312,14 @@ def record_more(record_id: str):
     if not r:
         raise HTTPException(404, "unknown record")
     return more.explain(r, QA_INDEX, CFG, _llm())
+
+
+@app.get("/api/records/{record_id}/topic", summary="Topic of a secondary/tertiary record: Wikipedia article, primary dossiers of the archive, news (Apertus-selected, cached)")
+def record_topic(record_id: str):
+    r = RECORDS.get(record_id)
+    if not r:
+        raise HTTPException(404, "unknown record")
+    return topic.build(r, QA_INDEX, CFG, _llm())
 
 
 @app.get("/", include_in_schema=False)

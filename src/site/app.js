@@ -311,6 +311,7 @@ async function recordPage(id, tab) {
         <div class="muted">${esc(r.metadata.title_en || "")}</div>
         ${r.classification.resume ? `<div class="resume-box">${esc(r.classification.resume)} ${pv("apertus")}
           <div><button class="more-btn" id="morebtn">See more ▾</button></div><div id="more"></div></div>` : `<p class="muted small">Résumé disabled in config.</p>`}
+        ${r.classification.source_level !== "primary" ? `<div id="topic"></div>` : ""}
         <div class="tabs">${Object.entries(tabs).map(([k, v]) => `<button data-tab="${k}" class="${k === tab ? "on" : ""}">${v}</button>`).join("")}</div>
         <div class="tabpane" id="pane"></div>
       </section>
@@ -355,6 +356,40 @@ async function recordPage(id, tab) {
     } finally { mb.disabled = false; }
   };
   show(tab);
+  if ($("#topic")) topicPanel(r);
+}
+
+/* Secondary / tertiary records: the subject they report on, with a Wikipedia article, primary sources and news. */
+async function topicPanel(r) {
+  const box = $("#topic");
+  box.innerHTML = `<section class="band band-context topic"><p class="small muted"><span class="spinner"></span> Apertus is identifying the subject of this ${esc(r.classification.source_level)} source and checking Wikipedia, the archive and the news…</p></section>`;
+  let t;
+  try { t = await api(`/api/records/${r.id}/topic`); } catch (err) { box.innerHTML = `<p class="small muted">Subject lookup failed: ${esc(err.message)}</p>`; return; }
+  if (!$("#topic") || !t.identifiable) { box.innerHTML = t.identifiable ? "" : `<p class="small muted">Apertus found no identifiable subject to read further on.</p>`; return; }
+  const wp = t.wikipedia;
+  const primary = [...t.primary_in_dataset.map((d) => `<li><a href="#/record/${d.id}">${esc(d.title)}</a> <span class="muted">${fmtDate(d.date)}</span> <span class="tier">in this dataset</span></li>`),
+    ...t.primary.map((d) => `<li>${esc(d.title)} <span class="muted">${esc(d.date || "")}</span>${d.reference_code ? ` · <code>${esc(d.reference_code)}</code>` : ""} · <a href="${d.portal_url}" target="_blank" rel="noopener">archive portal ↗</a></li>`)];
+  box.innerHTML = `<section class="band band-context topic">
+    <h3>About the subject <small>selected by Apertus · Wikipedia CC BY-SA</small></h3>
+    <div class="topic-head"><span class="small muted">Apertus reads this record as being about</span> <b>${esc(t.subject)}</b></div>
+    ${wp ? `<div class="topic-wp">${wp.thumbnail ? `<img src="${esc(wp.thumbnail)}" alt="" loading="lazy">` : ""}<div>
+        <b>${esc(wp.title)}</b>${wp.description ? ` <span class="muted small">· ${esc(wp.description)}</span>` : ""}
+        <p>${esc(wp.extract || "")}</p><a href="${esc(wp.url)}" target="_blank" rel="noopener">Read the Wikipedia article ↗</a></div></div>`
+      : `<p class="small muted">No Wikipedia article matched this subject.</p>`}
+    ${t.note ? `<p class="small muted">${esc(t.note)} ${pv("apertus")}</p>` : ""}
+    <button class="more-btn" id="topicbtn">See more about it ▾</button>
+    <div id="topicmore" hidden>
+      <h4>Primary sources about it</h4>
+      ${primary.length ? `<ul class="topic-list">${primary.join("")}</ul>` : `<p class="small muted">Apertus kept no primary source among the ${t.offered?.primary ?? 0} archive dossiers found for this subject.</p>`}
+      <p class="small muted">Dossiers of the Federal Archives whose original title contains ${(t.plan.archive_stems || []).map((s) => `“${esc(s)}”`).join(", ")}; Apertus kept those produced by the people and offices involved (no media reports).
+      Search further: ${Object.entries(t.search_links || {}).map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k)} ↗</a>`).join(" · ")}</p>
+      ${t.contemporary ? `<h4>In the news</h4>
+        ${t.news.length ? `<ul class="topic-list">${t.news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="muted small">· ${esc(n.source || "")} · ${esc((n.date || "").slice(0, 16))}</span></li>`).join("")}</ul>`
+          : `<p class="small muted">No current article kept by Apertus.</p>`}
+        <p class="small muted">Apertus judged the subject still debated today; articles from a news search (“${esc(t.plan.news_query || t.subject)}”), filtered by Apertus for relevance.</p>` : ""}
+    </div></section>`;
+  const b = $("#topicbtn"), m = $("#topicmore");
+  b.onclick = () => { m.hidden = !m.hidden; b.textContent = m.hidden ? "See more about it ▾" : "See less ▴"; };
 }
 
 /* ---------------- Overview map with time slider ---------------- */
@@ -482,7 +517,8 @@ async function qualityPage() {
       </div>
     </div>
     ${s.source_level_vs_evidence ? `<h2>Source level: Apertus vs archival evidence (${s.source_level_vs_evidence.n} added sources)</h2>
-      <p class="small muted">The 200 added sources were chosen by archival evidence as secondary (press, studies) or tertiary (registers, indexes). Agreement of Apertus with that label: <b>${s.source_level_vs_evidence.agreement_pct} %</b>.</p>
+      <p class="small muted">The 200 added sources were chosen by archival evidence as secondary (press, studies) or tertiary (registers, indexes). Agreement of Apertus with that label: <b>${s.source_level_vs_evidence.agreement_pct} %</b>${s.source_level_vs_evidence.pass1_agreement_pct != null ? ` with the dedicated source-level pass (pass 1 alone: ${s.source_level_vs_evidence.pass1_agreement_pct} %)` : ""}.
+      ${s.source_level_original_sample ? `On the original 100 records the pass gives ${esc(Object.entries(s.source_level_original_sample).map(([k, v]) => `${k} ${v}`).join(", "))}.` : ""}</p>
       <table class="t"><tr><th>Group</th><th>n</th><th>Agreement</th><th>Apertus said</th></tr>
       ${Object.entries(s.source_level_vs_evidence.by_stratum).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${v.n}</td><td>${v.agreement_pct} %</td><td>${esc(Object.entries(v.predicted).map(([a, b]) => `${a} ${b}`).join(", "))}</td></tr>`).join("")}</table>
       ${s.source_level_adjudication ? `<p class="small">Manual adjudication of ${s.source_level_adjudication.reviewed} disagreements: Apertus right ${s.source_level_adjudication.apertus_right}, evidence label right ${s.source_level_adjudication.label_right}, both defensible ${s.source_level_adjudication.both_defensible}.</p>` : ""}` : ""}
@@ -673,13 +709,16 @@ function hemicycle(seats, lineages, onClick, small) {
 
 async function parliamentPage(params) {
   setNav("parliament");
-  PARL ||= await api("/api/parliament");
+  [PARL, VOTES] = await Promise.all([PARL || api("/api/parliament"), VOTES || api("/api/votes")]);
   const legs = PARL.legislatures;
-  let y = +(params.get("year") || 1971);
+  const legStart = (L) => (L === 1848 ? "1848-11-01" : `${L}-12-01`);  // elections in autumn, new councils sit from December
+  const vote = VOTES.votes.find((v) => v.anr === params.get("vote"));
+  let y = +(params.get("year") || (vote ? legs.filter((L) => legStart(L) <= vote.date).pop() : 1971));
   if (!legs.includes(y)) y = legs.reduce((a, b) => (Math.abs(b - y) < Math.abs(a - y) ? b : a));
   const sel = params.get("lineage");
-  const d = y === 1848 ? "1848-11-20" : `${y}-12-15`;
-  const dFC = `${y + 1}-01-15`;  // the Federal Council is elected in December and takes office on 1 January
+  // with a vote selected, show who sat in the councils on the day of the vote
+  const d = vote ? vote.date : y === 1848 ? "1848-11-20" : `${y}-12-15`;
+  const dFC = vote ? vote.date : `${y + 1}-01-15`;  // the Federal Council is elected in December and takes office on 1 January
   const active = (c) => [...new Map(PARL.members.filter((m) => { const t = c === 99 ? dFC : d; return m.council === c && m.join && m.join <= t && (!m.leave || m.leave >= t); })
       .map((m) => [m.pn, m])).values()]  // one seat per person (the source has repeated rows)
     .sort((a, b) => LINEAGE_ORDER.indexOf(a.lineage) - LINEAGE_ORDER.indexOf(b.lineage) || (a.party || "").localeCompare(b.party || ""));
@@ -690,10 +729,17 @@ async function parliamentPage(params) {
     const c = {}; seats.forEach((s) => (c[s.lineage] = (c[s.lineage] || 0) + 1));
     return LINEAGE_ORDER.filter((l) => c[l]).map((l) => `<a class="lg ${sel === l ? "on" : ""}" href="#/parliament?year=${y}&lineage=${l}"><i style="background:${PARL.lineages[l].color}"></i>${esc(PARL.lineages[l].label)} <b>${c[l]}</b></a>`).join("");
   };
-  app.innerHTML = `<h1>Parliament and government, ${y}${idx + 1 < legs.length ? `–${legs[idx + 1]}` : "–"}</h1>
-    <p class="muted">Members in office on ${d} (Federal Council: ${dFC}), from the parlament.ch open-data service (all members since 1848).
-    Legislatures snap to election years: 3-year terms until 1931, 4-year terms after. Party lineages keep one colour across renamings and mergers
+  const inLeg = VOTES.votes.filter((v) => v.date >= legStart(y) && (idx + 1 >= legs.length || v.date < legStart(legs[idx + 1])));
+  app.innerHTML = `<h1>Parliament, government and votes, ${y}${idx + 1 < legs.length ? `–${legs[idx + 1]}` : "–"}</h1>
+    <p class="muted">Members in office on ${d}${vote ? " (day of the selected vote)" : ` (Federal Council: ${dFC})`}, from the parlament.ch open-data service (all members since 1848),
+    and every federal vote from Swissvotes. Legislatures snap to election years: 3-year terms until 1931, 4-year terms after. Party lineages keep one colour across renamings and mergers
     (BGB → SVP, KK → KVP → CVP → Die Mitte, LPS → FDP in 2009).</p>
+    <div class="vote-find">
+      <input id="votefind" list="votelist" placeholder="Find any federal vote since 1848 (title or year)…" autocomplete="off">
+      <datalist id="votelist">${VOTES.votes.map((v) => `<option value="${v.anr} · ${v.date.slice(0, 4)} · ${esc(v.title_en || v.title_de)}">`).join("")}</datalist>
+      <span class="small muted">Featured: <a href="#/parliament?vote=224&whatif=1959">women's suffrage, 1971 vs 1959</a></span>
+    </div>
+    ${vote ? `<div id="votepanel"></div>` : ""}
     <div class="slider-bar">
       <a class="btn" href="#/parliament?year=${legs[Math.max(0, idx - 1)]}">‹</a>
       <input type="range" id="leg" min="0" max="${legs.length - 1}" value="${idx}" step="1">
@@ -706,8 +752,15 @@ async function parliamentPage(params) {
     ${shares ? `<div class="shares">${Object.entries(shares).filter(([, v]) => v.share >= 0.5).sort((a, b) => b[1].share - a[1].share).map(([p, v]) => `<div class="sh"><span>${esc(p)}</span><div class="bar"><i style="width:${(v.share * 2.5).toFixed(1)}%;background:${(PARL.lineages[v.lineage] || PARL.lineages.other).color}"></i></div><b>${v.share.toFixed(1)} %</b></div>`).join("")}</div>
       <p class="small muted">Vote shares, not seats. Source: BFS px-x-1702020000_104.</p>`
       : `<p class="muted small">No national vote shares for ${y} in the BFS series used here (it starts in 1971). Seats above come from parlament.ch.</p>`}
+    <h3>Federal votes in this legislature <small class="muted">${inLeg.length}</small></h3>
+    ${inLeg.length ? `<table class="t votes"><tr><th>Date</th><th>Vote</th><th>Yes</th><th>Party-cue estimate</th></tr>
+      ${inLeg.map((v) => `<tr class="${vote && v.anr === vote.anr ? "on" : ""}"><td>${v.date}</td><td><a href="#/parliament?year=${y}&vote=${v.anr}">${esc(v.title_en || v.title_de)}</a> <span class="small muted">${esc(v.legal_form)}</span></td>
+        <td>${voteBar(v.yes, v.accepted)}</td><td>${v.estimate != null ? `${v.estimate} %` : `<span class="muted">–</span>`}</td></tr>`).join("")}</table>`
+      : `<p class="small muted">No federal vote in this legislature.</p>`}
     <div id="members"></div>`;
   $("#leg").oninput = (e) => (location.hash = `#/parliament?year=${legs[+e.target.value]}`);
+  $("#votefind").onchange = (e) => { const anr = e.target.value.split(" · ")[0].trim(); if (VOTES.votes.some((v) => v.anr === anr)) location.hash = `#/parliament?vote=${anr}`; };
+  if (vote) votePanel(vote, +params.get("whatif") || null, y);
   if (sel) {
     const ms = bodies.flatMap((b) => b.seats.filter((s) => s.lineage === sel).map((s) => ({ ...s, body: b.name })));
     $("#members").innerHTML = `<h3>${esc(PARL.lineages[sel].label)}: ${ms.length} members in ${y}</h3><p class="small muted"><span class="spinner"></span> Looking up Wikipedia articles via Wikidata…</p>`;
@@ -720,49 +773,110 @@ async function parliamentPage(params) {
   }
 }
 
-/* ---------------- Referendum estimate: women's suffrage ---------------- */
-async function referendumPage() {
-  setNav("referendum");
-  const d = await api("/api/referendum");
-  const s = d.suffrage, f = d.fit;
-  const W = 520, H = 300, px = (c) => 40 + c * (W - 60), py = (y) => H - 30 - (y / 100) * (H - 50);
-  const REC = { "1": "yes", "2": "no", "3": "none", "5": "free vote", "66": "neutral", ".": "unknown", "9999": "–" };
-  const pts = d.backtest.map((p) => `<circle cx="${px(p.cue).toFixed(1)}" cy="${py(p.yes).toFixed(1)}" r="${p.anr === "191" || p.anr === "224" ? 6 : 2.2}"
-      fill="${p.anr === "191" ? "#b5121b" : p.anr === "224" ? "#1f7a4d" : "rgba(60,60,60,.35)"}"><title>${esc(p.date + " " + p.title)}: ${p.yes}% yes (model ${p.predicted_loo}%)</title></circle>`).join("");
-  const line = `<line x1="${px(0)}" y1="${py(f.a)}" x2="${px(1)}" y2="${py(f.a + f.b)}" stroke="#1d5fa6" stroke-width="2"/>`;
-  const partyRows = (u) => Object.entries(u).map(([p, x]) => `<tr><td>${esc(p.toUpperCase())}</td><td>${REC[x.rec] || x.rec}</td><td>${x.share.toFixed(1)} %</td></tr>`).join("");
-  const im = s.imagination_apertus_positions_1959;
-  app.innerHTML = `<h1>What if the 1971 proposal had been voted in 1959?</h1>
-    <p class="muted">Women's suffrage at federal level was rejected on 1 February 1959 (${s.actual_1959} % yes) and accepted on 7 February 1971 (${s.actual_1971} % yes).
-    ${esc(s.note)} Data: ${esc(d.source)}. Party strengths are National Council <b>vote shares</b>, not seats.</p>
+/* ---------------- Federal votes: estimate and "what if it had been voted in another year" ---------------- */
+const REC = { "1": "yes", "2": "no", "3": "none", "4": "empty", "5": "free vote", "66": "neutral" };
+const PARTY_LINEAGE = { fdp: "fdp", sp: "sp", svp: "svp", cvp: "mitte", mitte: "mitte", bdp: "mitte", evp: "evp", gps: "gps", glp: "glp", pda: "left", poch: "left",
+  sd: "right", edu: "right", fps: "right", lega: "right", rep: "right", mcg: "right", lps: "lps", ldu: "ldu", csp: "csp" };
+const PARTY_LABEL = { sp: "SP", svp: "SVP (BGB)", cvp: "CVP (KVP)", mitte: "Die Mitte", gps: "Grüne", ldu: "LdU", pda: "PdA" };
+const partyDot = (p) => `<i class="pdot" style="background:${(PARL.lineages[PARTY_LINEAGE[p]] || PARL.lineages.other).color}"></i>${esc(PARTY_LABEL[p] || p.toUpperCase())}`;
+let VOTES = null;
+
+function voteBar(yes, accepted) {
+  if (yes == null) return `<span class="small muted">upcoming</span>`;
+  return `<span class="vbar"><i style="width:${yes}%" class="${accepted ? "acc" : "rej"}"></i></span> <b>${yes.toFixed(1)} %</b>`;
+}
+
+function backtestSvg(points, f, marks) {
+  const W = 520, H = 280, px = (c) => 40 + c * (W - 60), py = (y) => H - 30 - (y / 100) * (H - 50);
+  const dots = Object.entries(points).map(([anr, p]) => marks[anr] ? "" : `<circle cx="${px(p.cue).toFixed(1)}" cy="${py(p.yes).toFixed(1)}" r="2.2" fill="rgba(60,60,60,.3)"/>`).join("");
+  const big = Object.entries(marks).filter(([anr]) => points[anr]).map(([anr, m]) => `<circle cx="${px(points[anr].cue).toFixed(1)}" cy="${py(points[anr].yes).toFixed(1)}" r="6" fill="${m.color}"><title>${esc(m.label)}</title></circle>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" class="scatter"><line x1="40" y1="${H - 30}" x2="${W - 20}" y2="${H - 30}" stroke="#999"/><line x1="40" y1="20" x2="40" y2="${H - 30}" stroke="#999"/>
+    <text x="${W / 2}" y="${H - 6}" text-anchor="middle" class="ax">party cue (0 = all parties say no, 1 = all say yes)</text>
+    <text x="12" y="${H / 2}" transform="rotate(-90 12 ${H / 2})" text-anchor="middle" class="ax">yes %</text>${dots}
+    <line x1="${px(0)}" y1="${py(f.a)}" x2="${px(1)}" y2="${py(f.a + f.b)}" stroke="#1d5fa6" stroke-width="2"/>${big}</svg>`;
+}
+
+async function votePanel(v, whatifYear, legYear) {
+  const box = $("#votepanel");
+  const f = VOTES.model;
+  box.innerHTML = `<section class="vote"><h2>${esc(v.title_en || v.title_de)}</h2><p class="muted">${v.date} · ${esc(v.legal_form)} · ${voteBar(v.yes, v.accepted)}</p>
+    <p class="small muted"><span class="spinner"></span> Apertus is reading the vote and looking for related votes…</p></section>`;
+  let d;
+  try { d = await api(`/api/votes/${v.anr}`); } catch (err) { box.innerHTML = `<p class="small">Could not load the vote: ${esc(err.message)}</p>`; return; }
+  if (!$("#votepanel")) return;
+  const a = d.apertus;
+  const rel = a.related || [];
+  const years = [...new Set([...rel.map((x) => x.year), ...PARL.legislatures.filter((L) => L >= 1896)])].filter((yy) => yy !== d.year).sort((p, q) => p - q);
+  const partyRows = (u, extra = () => "") => Object.entries(u).sort((p, q) => q[1].share - p[1].share).map(([p, x]) => `<tr><td>${partyDot(p)}</td><td>${REC[x.rec] || x.rec}</td><td>${x.share.toFixed(1)} %</td>${extra(p, x)}</tr>`).join("");
+  const hasResult = d.yes != null;
+  box.innerHTML = `<section class="vote">
+    <div class="vote-head"><div>
+      <h2>${esc(a.title_en || d.title_de)}</h2>
+      <p class="muted">${esc(d.title_de)} · ${esc(d.title_fr)}<br>${d.date} · ${esc(d.legal_form)}${d.cantons_accepting && d.cantons_accepting !== "." ? ` · cantons: ${esc(d.cantons_accepting)} % yes` : ""}</p>
+    </div><div class="vote-result">
+      <div><span class="small muted">${hasResult ? "Result" : "Upcoming"}</span><b class="${hasResult ? (d.accepted ? "acc" : "rej") : ""}">${hasResult ? `${d.yes.toFixed(1)} % yes` : "–"}</b>${hasResult ? `<span class="small">${d.accepted ? "accepted" : "rejected"}</span>` : ""}</div>
+      <div><span class="small muted">${hasResult ? "Party-cue estimate" : "Party-cue forecast"}</span><b>${d.estimate != null ? `${d.estimate} %` : "–"}</b><span class="small">± ${d.loo_mae} pts</span></div>
+    </div></div>
+    ${a.summary ? `<p class="small">${esc(a.summary)} ${pv("apertus")}</p>` : ""}
     <div class="two"><div>
-      <h3>Method and backtest</h3>
-      <p class="small">${esc(d.method)}. Fitted on ${f.n_votes} federal votes (1894–today): yes % = ${f.a} + ${f.b} × cue.
-      <b>Confidence: ±${f.loo_mae} points</b> (leave-one-out mean absolute error; by era ${Object.entries(f.loo_mae_by_era).map(([k, v]) => `${k}: ${v}`).join(", ")}).</p>
-      <svg viewBox="0 0 ${W} ${H}" class="scatter"><line x1="40" y1="${H - 30}" x2="${W - 20}" y2="${H - 30}" stroke="#999"/><line x1="40" y1="20" x2="40" y2="${H - 30}" stroke="#999"/>
-        <text x="${W / 2}" y="${H - 6}" text-anchor="middle" class="ax">party cue (0 = all parties say no, 1 = all say yes)</text>
-        <text x="12" y="${H / 2}" transform="rotate(-90 12 ${H / 2})" text-anchor="middle" class="ax">yes %</text>${pts}${line}</svg>
-      <p class="small"><span style="color:#b5121b">●</span> 1959 &nbsp; <span style="color:#1f7a4d">●</span> 1971 &nbsp; grey: all other votes</p>
+      <h3>Party recommendations</h3>
+      ${Object.keys(d.parties).length ? `<table class="t">${partyRows(d.parties)}</table>` : `<p class="small muted">No party recommendations recorded.</p>`}
+      <p class="small muted">Weights: National Council vote shares ${d.shares_from ? `of the closest vote with data (${d.shares_from.date})` : "at the time"}. Parliament: ${Object.entries(d.parliament).filter(([, x]) => x.yes != null).map(([k, x]) => `${k} ${x.yes}–${x.no}`).join(", ") || "no recorded vote"}.
+      ${Object.entries(d.links).map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k)} ↗</a>`).join(" · ")}</p>
     </div><div>
-      <h3>Estimates</h3>
+      <h3>Related votes</h3>
+      ${rel.length ? `<ul class="topic-list">${rel.map((x) => `<li><a href="#/parliament?vote=${x.anr}">${x.date.slice(0, 4)} · ${esc(x.title_de)}</a> <span class="small muted">${esc(x.relation || "")}${x.by === "title" ? " (same title)" : ""} · ${x.yes != null ? `${x.yes.toFixed(1)} % yes` : "upcoming"}</span>
+          ${x.year !== d.year ? ` · <a class="small" href="#/parliament?vote=${d.anr}&whatif=${x.year}">what if voted in ${x.year}?</a>` : ""}</li>`).join("")}</ul>` : `<p class="small muted">Apertus found no related vote among ${a.candidates} candidates.</p>`}
+      <p class="small muted">Related votes: same short title, or chosen by Apertus among votes of the same policy area or with similar titles ${pv("apertus")}.</p>
+      <div class="whatif-form"><label>What if this proposal had been voted in
+        <select id="wfyear">${years.map((yy) => `<option ${yy === whatifYear ? "selected" : ""}>${yy}</option>`).join("")}</select></label>
+        <input id="wfcustom" type="number" min="1848" max="2030" placeholder="or year" value="${whatifYear && !years.includes(whatifYear) ? whatifYear : ""}">
+        <button id="wfgo" class="btn">Estimate</button></div>
+    </div></div>
+    <div id="whatif"></div></section>`;
+  $("#wfgo").onclick = () => { const yy = +$("#wfcustom").value || +$("#wfyear").value; if (yy) location.hash = `#/parliament?vote=${d.anr}&whatif=${yy}`; };
+  if (!whatifYear) {
+    $("#whatif").innerHTML = backtestSvg(f.points, f, { [d.anr]: { color: "#b5121b", label: `${d.date} ${d.title_de}` } })
+      + `<p class="small muted">Backtest of the party-cue model on ${f.n_votes} votes: yes % = ${f.a} + ${f.b} × cue, leave-one-out error ±${f.loo_mae} points. <span style="color:#b5121b">●</span> this vote.</p>`;
+    return;
+  }
+  const wb = $("#whatif");
+  wb.innerHTML = `<p class="small muted"><span class="spinner"></span> Apertus is imagining the ${whatifYear} party positions…</p>`;
+  let w;
+  try { w = await api(`/api/votes/${d.anr}/whatif?year=${whatifYear}`); } catch (err) { wb.innerHTML = `<p class="small">Could not estimate: ${esc(err.message)}</p>`; return; }
+  if (!$("#whatif")) return;
+  const P = w.positions_then_strengths, im = w.imagination, an = w.anchor;
+  const marks = { [d.anr]: { color: "#1f7a4d", label: d.title_de } };
+  if (an) marks[an.anr] = { color: "#b5121b", label: an.title_de };
+  wb.innerHTML = `<h3>The ${d.year} proposal under ${whatifYear} conditions</h3>
+    <div class="two"><div>
       <table class="t"><tr><th>Scenario</th><th>Estimate</th><th>Actual</th></tr>
-        <tr><td>1959 vote, 1959 party positions and strengths</td><td>${s.model_1959.estimate} %</td><td>${s.actual_1959} %</td></tr>
-        <tr><td>1971 vote, 1971 positions and strengths</td><td>${s.model_1971.estimate} %</td><td>${s.actual_1971} %</td></tr>
-        <tr><td><b>1971 proposal under 1959 conditions</b> (1971 positions, 1959 strengths)</td><td><b>${s.counterfactual_1971_positions_1959_strengths.estimate} %</b><br><span class="small">${s.counterfactual_1971_positions_1959_strengths.interval[0]}–${s.counterfactual_1971_positions_1959_strengths.interval[1]} %</span></td><td>–</td></tr>
-        <tr><td>… corrected by the model's 1959 miss (${s.corrected_counterfactual.residual_1959} points)</td><td><b>${s.corrected_counterfactual.estimate} %</b></td><td>–</td></tr></table>
-      <div class="callout small">Reading: in 1971 every party recommended yes, so party strengths barely matter and the cue model gives ${s.counterfactual_1971_positions_1959_strengths.estimate} %.
-      But the same model put the real 1959 vote at ${s.model_1959.estimate} % against an actual ${s.actual_1959} %: the all-male electorate of 1959 followed party cues far less on this question than on others.
-      Carrying that ${s.corrected_counterfactual.residual_1959}-point gap over gives about ${s.corrected_counterfactual.estimate} %, a coin flip. The estimate is a model output, not a fact.</div>
-      <h3>Party positions used</h3>
-      <div class="two"><div><b class="small">1959 (actual)</b><table class="t">${partyRows(s.model_1959.parties)}</table></div>
-      <div><b class="small">1971 (actual) with 1959 strengths</b><table class="t">${partyRows(s.counterfactual_1971_positions_1959_strengths.parties)}</table></div></div>
+        <tr><td>${d.year} vote, its own positions and strengths</td><td>${d.estimate ?? "–"} %</td><td>${hasResult ? `${d.yes.toFixed(1)} %` : "–"}</td></tr>
+        ${an ? `<tr><td>${an.date.slice(0, 4)} vote “${esc(an.title_de)}” (${esc(an.relation || "related")})</td><td>${an.estimate ?? "–"} %</td><td>${an.actual ?? "–"} %</td></tr>` : ""}
+        <tr><td><b>${d.year} positions, ${whatifYear} party strengths</b></td><td><b>${P.estimate ?? "–"} %</b>${P.interval ? `<br><span class="small">${P.interval[0]}–${P.interval[1]} %</span>` : ""}</td><td>–</td></tr>
+        ${P.corrected != null ? `<tr><td>… corrected by the model's miss on the ${an.date.slice(0, 4)} vote (${an.residual > 0 ? "+" : ""}${an.residual} pts)</td><td><b>${P.corrected} %</b></td><td>–</td></tr>` : ""}
+        <tr><td>Apertus-imagined ${whatifYear} positions, ${whatifYear} strengths <span class="badge">generated</span></td><td>${im.estimate ?? "–"} %${im.corrected != null ? `<br><span class="small">corrected ${im.corrected} %</span>` : ""}</td><td>–</td></tr></table>
+      <div class="callout small">Strengths of ${whatifYear}: National Council vote shares from the vote of ${w.conditions.date}.
+        ${P.parties_without_position.length ? `Parties of ${whatifYear} without a position in ${d.year} (left out of the evidence row): ${P.parties_without_position.map((p) => esc(PARTY_LABEL[p] || p.toUpperCase())).join(", ")}.` : ""}
+        ${an && an.residual != null ? `On the related ${an.date.slice(0, 4)} vote the model was off by ${an.residual} points: that is the issue-specific gap of that electorate, carried over in the corrected rows.` : `No related vote within 6 years of ${whatifYear}, so no issue-specific correction.`}
+        The estimates are model outputs, not facts.</div>
+      ${backtestSvg(f.points, f, marks)}
+      <p class="small muted"><span style="color:#1f7a4d">●</span> ${d.year} vote ${an ? `&nbsp;<span style="color:#b5121b">●</span> ${an.date.slice(0, 4)} vote` : ""} · grey: all other votes (yes % = ${f.a} + ${f.b} × cue, ±${f.loo_mae} pts)</p>
+    </div><div>
+      <h4>Party positions used (${d.year} positions, ${whatifYear} strengths)</h4>
+      <table class="t">${partyRows(P.parties)}</table>
+      ${an ? `<h4>Actual positions on the ${an.date.slice(0, 4)} vote</h4><table class="t">${partyRows(an.parties)}</table>` : ""}
     </div></div>
     <section class="band band-imagination"><h3>Imagination <small>generated by Apertus · counterfactual party positions, not evidence</small></h3>
-      <p class="small">Asked: “Had the 1971 proposal been voted in 1959, what would each 1959 party most plausibly have recommended?” With those positions the cue model gives <b>${im.estimate ?? "–"} %</b>.</p>
-      <table class="t"><tr><th>Party</th><th>Imagined</th><th>Actual 1959</th><th>Reasoning (generated)</th></tr>
-      ${Object.entries(im.parties || {}).map(([p, x]) => `<tr><td>${esc(p.toUpperCase())}</td><td>${REC[x.rec] || x.rec}</td><td>${REC[x.real_1959_rec] || x.real_1959_rec}</td>
+      <p class="small">Asked: “Had this proposal been voted in ${whatifYear}, what would each party of ${whatifYear} most plausibly have recommended?”, with the parties' recommendations on related votes as evidence.</p>
+      <table class="t"><tr><th>Party</th><th>Imagined</th>${an ? `<th>Actual ${an.date.slice(0, 4)}</th>` : ""}<th>Reasoning (generated)</th></tr>
+      ${Object.entries(im.parties || {}).map(([p, x]) => `<tr><td>${partyDot(p)}</td><td>${REC[x.rec] || x.rec}</td>${an ? `<td>${REC[x.anchor_rec] || x.anchor_rec || "–"}</td>` : ""}
         <td class="small">${esc(x.reason || "")}${x.misstates_evidence ? ` <span class="badge qc-bad">misstates the record</span>` : ""}</td></tr>`).join("")}</table>
     </section>`;
+}
+
+async function referendumPage() {
+  location.replace("#/parliament?vote=224&whatif=1959");  // the 1959 vs 1971 page is now one case of the votes view
 }
 
 /* ---------------- Router ---------------- */

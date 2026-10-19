@@ -170,6 +170,7 @@ def check_record(row: dict, rec: dict) -> dict:
     return {
         "id": row["id"], "stratum": rec["stratum"], "document_type": a["document_type"],
         "evidence_source_level": rec.get("expected_source_level"), "pre_1940": rec.get("pre_1940"),
+        "source_level_v1": a.get("source_level_v1"),
         "source_level": a["source_level"], "structural_errors": structural, "critical": critical,
         "warnings": warnings, "geo_conflicts": geo_conflicts, "ungrounded": ungrounded, "ungrounded_strict": ungrounded_strict, "n_entities": len(ent),
         "resume_sentences": n_sent, "created_in_range": created_in_range, "archived_ok": archived_ok,
@@ -307,6 +308,12 @@ def run(cfg):
                                 "predicted": dict(Counter(c["source_level"] for c in g))}
                            for st in sorted({c["stratum"] for c in lab}) for g in [[c for c in lab if c["stratum"] == st]]},
         }
+    if lab and any(c.get("source_level_v1") for c in lab):
+        summary["source_level_vs_evidence"]["pass1_agreement_pct"] = round(
+            100 * sum(c["evidence_source_level"] == (c.get("source_level_v1") or c["source_level"]) for c in lab) / len(lab), 1)
+    prim = [c for c in checks if not c.get("evidence_source_level") and c.get("source_level")]
+    if prim:
+        summary["source_level_original_sample"] = dict(Counter(c["source_level"] for c in prim))
     adj = data_dir / "source_level_adjudication.json"
     if adj.exists():
         summary["source_level_adjudication"] = json.loads(adj.read_text(encoding="utf-8"))["summary"]

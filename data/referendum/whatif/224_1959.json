@@ -1,0 +1,158 @@
+{
+ "anr": "224",
+ "year": 1959,
+ "conditions": {
+  "anr": "192",
+  "date": "1959-05-24",
+  "shares": {
+   "svp": 12.08,
+   "evp": 1.08,
+   "ldu": 5.48,
+   "sp": 27.02,
+   "fdp": 23.3,
+   "cvp": 23.17,
+   "lps": 2.22,
+   "pda": 2.57
+  }
+ },
+ "anchor": {
+  "anr": "191",
+  "date": "1959-02-01",
+  "title_de": "Einführung des Frauenstimmrechts",
+  "relation": "same proposal",
+  "actual": 33.08,
+  "estimate": 51.2,
+  "parties": {
+   "svp": {
+    "rec": "2",
+    "share": 12.08
+   },
+   "evp": {
+    "rec": "1",
+    "share": 1.08
+   },
+   "ldu": {
+    "rec": "1",
+    "share": 5.48
+   },
+   "sp": {
+    "rec": "1",
+    "share": 27.02
+   },
+   "fdp": {
+    "rec": "5",
+    "share": 23.3
+   },
+   "cvp": {
+    "rec": "5",
+    "share": 23.17
+   },
+   "pda": {
+    "rec": "1",
+    "share": 2.57
+   }
+  },
+  "residual": -18.1
+ },
+ "positions_then_strengths": {
+  "cue": 1.0,
+  "estimate": 68.3,
+  "parties": {
+   "svp": {
+    "rec": "1",
+    "share": 12.08
+   },
+   "evp": {
+    "rec": "1",
+    "share": 1.08
+   },
+   "ldu": {
+    "rec": "1",
+    "share": 5.48
+   },
+   "sp": {
+    "rec": "1",
+    "share": 27.02
+   },
+   "fdp": {
+    "rec": "1",
+    "share": 23.3
+   },
+   "cvp": {
+    "rec": "1",
+    "share": 23.17
+   },
+   "lps": {
+    "rec": "1",
+    "share": 2.22
+   },
+   "pda": {
+    "rec": "1",
+    "share": 2.57
+   }
+  },
+  "interval": [
+   58.6,
+   78.0
+  ],
+  "corrected": 50.2,
+  "parties_without_position": []
+ },
+ "imagination": {
+  "generated": true,
+  "model": "apertus-v1-5-70b",
+  "parties": {
+   "svp": {
+    "rec": "2",
+    "reason": "The Swiss People's Party (SVP) historically opposed women's suffrage, reflecting its conservative stance on social issues in the 1950s.",
+    "anchor_rec": "2",
+    "misstates_evidence": false
+   },
+   "evp": {
+    "rec": "1",
+    "reason": "The Evangelical People's Party (EVP) generally supported progressive social reforms, including women's rights, aligning with its Christian social values.",
+    "anchor_rec": "1",
+    "misstates_evidence": false
+   },
+   "ldu": {
+    "rec": "1",
+    "reason": "The Liberal Democratic Party (LDP) advocated for individual rights and social progress, making it likely to support women's suffrage.",
+    "anchor_rec": "1",
+    "misstates_evidence": false
+   },
+   "sp": {
+    "rec": "1",
+    "reason": "The Social Democratic Party (SP) was a strong advocate for women's rights and social equality, making it a key supporter of women's suffrage.",
+    "anchor_rec": "1",
+    "misstates_evidence": false
+   },
+   "fdp": {
+    "rec": "5",
+    "reason": "The Free Democratic Party (FDP) often took a pragmatic stance on social issues, sometimes opting for a free vote to allow individual members to decide.",
+    "anchor_rec": "5",
+    "misstates_evidence": false
+   },
+   "cvp": {
+    "rec": "1",
+    "reason": "The Christian Democratic People's Party (CVP) supported social reforms that aligned with its values of community and equality, including women's suffrage.",
+    "anchor_rec": "5",
+    "misstates_evidence": false
+   },
+   "lps": {
+    "rec": "2",
+    "reason": "The Labour Party of Switzerland (LPS) was more focused on workers' rights and economic issues, and its stance on women's suffrage was less clear-cut compared to other parties.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "pda": {
+    "rec": "1",
+    "reason": "The Democratic Party of the Swiss People (PPD) generally supported progressive social policies, including women's suffrage, reflecting its broader liberal-conservative orientation.",
+    "anchor_rec": "1",
+    "misstates_evidence": false
+   }
+  },
+  "cue": 0.732,
+  "estimate": 56.0,
+  "corrected": 37.9
+ }
+}

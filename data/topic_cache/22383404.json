@@ -1,0 +1,52 @@
+{
+ "id": "22383404",
+ "generated": true,
+ "subject": "Expulsion of Asians from Uganda (1972)",
+ "identifiable": true,
+ "contemporary": false,
+ "plan": {
+  "subject": "Expulsion of Asians from Uganda (1972)",
+  "identifiable": true,
+  "wikipedia_query": "Expulsion of Asians from Uganda",
+  "wikipedia_broader": "Idi Amin",
+  "archive_stems": [
+   "Asiatenausweisung",
+   "Uganda",
+   "Idi Amin"
+  ],
+  "contemporary": false,
+  "news_query": "Uganda Asian expulsion 1972"
+ },
+ "wikipedia": {
+  "title": "Expulsion of Asians from Uganda",
+  "description": "1972 expulsion of Indians by Idi Amin",
+  "extract": "In early August 1972, the President of Uganda Idi Amin ordered the expulsion of his country's Indian minority, giving them 90 days to leave the country. At the time, South Asians in East Africa were simply known as \"Asians\". Having first arrived in the late 1800s as migrant laborers to build the Uganda Railway, they would go on to dominate trade in the country.",
+  "url": "https://en.wikipedia.org/wiki/Expulsion_of_Asians_from_Uganda",
+  "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aziaten_die_Oeganda_uitgewezen_zijn_op_Schiphol%2C_groep_Aziaten_na_aankomst%2C_Bestanddeelnr_926-0503.jpg/330px-Aziaten_die_Oeganda_uitgewezen_zijn_op_Schiphol%2C_groep_Aziaten_na_aankomst%2C_Bestanddeelnr_926-0503.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0"
+ },
+ "primary": [
+  {
+   "id": "1850300",
+   "title": "Actions d'entraide de la Confédération en Ouganda",
+   "reference_code": "E2003A#1984/84#798*",
+   "date": "1972-1972",
+   "stem": "Uganda",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1850300"
+  }
+ ],
+ "primary_in_dataset": [],
+ "news": [],
+ "note": "The record is a Swiss TV news report on the 1972 expulsion of Asians from Uganda under Idi Amin; the closest Wikipedia article is on that specific event, and the Swiss Federal Archives contain a primary source dossier (P8) specifically covering the expulsion in 1972.",
+ "offered": {
+  "wikipedia": 8,
+  "primary": 12,
+  "primary_in_dataset": 1,
+  "news": 0
+ },
+ "seconds": 39.0,
+ "search_links": {
+  "Swiss Federal Archives (online search)": "https://www.recherche.bar.admin.ch/recherche/#/de/suche/einfach/Asiatenausweisung",
+  "Dodis (diplomatic documents)": "https://dodis.ch/search?q=Expulsion%20of%20Asians%20from%20Uganda%20%281972%29"
+ }
+}

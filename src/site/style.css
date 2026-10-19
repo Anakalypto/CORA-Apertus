@@ -276,3 +276,37 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .more-src li { margin: 3px 0; }
 .fns { font: 600 10.5px ui-monospace, Consolas, monospace; margin-left: 2px; }
 .fns a { color: var(--p-apertus); }
+
+/* Topic panel (secondary / tertiary records) */
+.topic h4 { margin: 14px 0 4px; font: 600 14px var(--sans); }
+.topic-head { margin-bottom: 8px; }
+.topic-head b { font-size: 16px; }
+.topic-wp { display: flex; gap: 14px; align-items: flex-start; background: #fff; border: 1px solid var(--line); padding: 10px 12px; margin: 6px 0; }
+.topic-wp img { width: 110px; max-height: 140px; object-fit: cover; flex: none; }
+.topic-wp p { margin: 6px 0; font-size: 14px; }
+.topic-list { padding-left: 18px; margin: 4px 0; }
+.topic-list li { margin: 4px 0; font-size: 14px; }
+.topic .tier { font-size: 11px; color: var(--ink-3); border: 1px solid var(--line); padding: 0 5px; border-radius: 2px; margin-left: 4px; }
+@media (max-width: 560px) { .topic-wp { flex-direction: column; } .topic-wp img { width: 100%; max-height: 180px; } }
+
+/* Votes */
+.vote-find { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin: 10px 0 14px; }
+.vote-find input { flex: 1 1 320px; max-width: 560px; padding: 6px 10px; border: 1px solid var(--line); font: 14px var(--sans); }
+.vote { border: 1px solid var(--line); border-top: 4px solid var(--accent); padding: 12px 16px; margin: 0 0 18px; background: #fff; }
+.vote h2 { margin: 0 0 4px; }
+.vote-head { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.vote-result { display: flex; gap: 22px; }
+.vote-result > div { display: flex; flex-direction: column; min-width: 110px; }
+.vote-result b { font-size: 24px; }
+.acc { color: var(--ok); } .rej { color: var(--bad); }
+.vbar { display: inline-block; width: 80px; height: 8px; background: #eee; vertical-align: middle; position: relative; }
+.vbar::after { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; border-left: 1px solid #777; }
+.vbar i { display: block; height: 100%; }
+.vbar i.acc { background: var(--ok); } .vbar i.rej { background: var(--bad); }
+.pdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
+.whatif-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: 14px; }
+.whatif-form select, .whatif-form input { padding: 4px 6px; border: 1px solid var(--line); font: 14px var(--sans); }
+.whatif-form input { width: 90px; }
+.whatif-form .btn { padding: 4px 12px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font: 600 13px var(--sans); cursor: pointer; }
+#whatif > .scatter:first-child { max-width: 560px; display: block; }
