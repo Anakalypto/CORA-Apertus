@@ -289,6 +289,53 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .step small { color: var(--ink-2); }
 .arrow { align-self: center; color: var(--ink-3); }
 
+/* Consultations: outcome summary, cards that open on click, Apertus context */
+.cons-how { margin: 4px 0 12px; max-width: 980px; }
+.cons-how summary { cursor: pointer; }
+.opills { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 16px; }
+.opill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 18px; color: var(--ink); background: #fff; font-size: 13.5px; }
+.opill b { font-variant-numeric: tabular-nums; }
+.opill:hover { text-decoration: none; border-color: var(--ink-3); }
+.opill.on { outline: 2px solid var(--ink); outline-offset: 1px; }
+.oc-ico { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; font: 700 11px var(--sans); color: #fff; background: var(--ink-3); flex: none; }
+.ok .oc-ico { background: var(--ok); }
+.fail .oc-ico { background: var(--bad); }
+.unk .oc-ico { background: #b8b8b8; }
+.na .oc-ico { background: #d6d3cc; color: var(--ink-2); }
+.opill.fail { border-color: #efc5c8; background: var(--accent-soft); }
+.strip .cell.has-fail { box-shadow: inset 0 -4px 0 var(--bad); }
+.cons-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+.cons-card { border: 1px solid var(--line); border-left: 5px solid #cfcfcf; background: #fff; }
+.cons-card.ok { border-left-color: var(--ok); }
+.cons-card.fail { border-left-color: var(--bad); background: #fffafa; }
+.cons-card.na { border-left-color: #e3e0d8; }
+.cons-head { padding: 12px 16px; cursor: pointer; display: flex; flex-direction: column; gap: 4px; position: relative; }
+.cons-head:hover { background: var(--paper-2); }
+.cons-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cons-head h3 { margin: 0; font-size: 17px; padding-right: 150px; }
+.cons-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12.5px; color: var(--ink-3); }
+.cons-outcome { display: flex; align-items: center; gap: 8px; font-size: 14px; margin-top: 2px; }
+.cons-outcome.fail { color: var(--bad); font-weight: 600; }
+.cons-outcome.ok { color: var(--ok); }
+.cons-outcome.unk, .cons-outcome.na { color: var(--ink-2); }
+.cons-toggle { position: absolute; top: 12px; right: 16px; font-size: 12.5px; color: var(--accent); }
+.cons-body { padding: 4px 16px 16px; border-top: 1px dashed var(--line); }
+.cons-body p { margin: 8px 0; }
+.cons-ents { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.cons-ents .chip small { color: var(--ink-3); }
+.cons-ctx { margin-top: 12px; }
+.btn-ctx { background: var(--ink); color: #fff; border: 0; border-radius: 4px; padding: 8px 14px; font: 600 13.5px var(--sans); cursor: pointer; }
+.btn-ctx:hover { background: #000; }
+.btn-ctx:disabled { opacity: .55; cursor: wait; }
+.ctx-box { margin-top: 10px; }
+.more.ctx h4 { margin: 12px 0 2px; font: 600 12px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.more.ctx p { margin: 0 0 6px; }
+.cons-more { margin: 14px 0; }
+@media (max-width: 640px) {
+  .cons-head h3 { padding-right: 0; }
+  .cons-toggle { position: static; }
+}
+
 /* Parliament */
 .parl { display: grid; grid-template-columns: 1.4fr 1fr 0.8fr; gap: 18px; align-items: start; }
 .parl .body h3 small { color: var(--ink-3); font: 500 12px var(--sans); }
@@ -681,8 +728,12 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
 .exh-ref.ref { background: #e8f2f6; color: var(--p-wikidata); border-radius: 50%; }
 .exh-ref.ref:hover { background: var(--p-wikidata); color: #fff; }
 .inq-claim.weak { text-decoration: underline wavy #c99a4a; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-.case-composer { flex: none; background: #fff; border-top: 1px solid var(--inq-line); margin: 0 -20px; padding: 12px 20px 14px; }
-.case-composer textarea { min-height: 52px; }
+.case-composer { flex: none; background: #fff; border-top: 1px solid var(--inq-line); margin: 0 -20px; padding: 8px 20px 10px; }
+.case-composer label { font-size: 12px; margin-bottom: 4px; }
+.case-row { display: flex; gap: 8px; align-items: flex-end; }
+.case-composer textarea { flex: 1; min-height: 40px; max-height: 120px; resize: none; overflow-y: hidden; padding: 8px 12px; font-size: 15px; }
+.case-row button { height: 40px; white-space: nowrap; }
+.case-composer .inq-folder-foot { margin-top: 4px; font-size: 11px; }
 .case-composer button:disabled, .case-composer textarea:disabled { opacity: .55; cursor: wait; }
 .inq-board { align-self: start; position: sticky; top: 12px; }
 .inq-board button.inq-lead { width: 100%; text-align: left; font: inherit; font-size: 13.5px; cursor: pointer; }
@@ -749,9 +800,7 @@ body.fit-page .inq-board { position: static; align-self: stretch; min-height: 0;
   /* short screens: drop the intro so the conversation keeps its room */
   body.fit-page .inq-head p { display: none; }
   body.fit-page .inq-head { margin: 8px 0 8px; }
-  body.fit-page .case-composer { padding: 8px 20px 10px; }
-  body.fit-page .case-composer textarea { min-height: 40px; }
-  body.fit-page .case-composer .inq-folder-foot { margin-top: 6px; }
+  body.fit-page .case-composer { padding: 6px 20px 8px; }
 }
 
 /* Language switch (i18n.js) */

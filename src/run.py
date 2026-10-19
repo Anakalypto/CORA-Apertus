@@ -260,6 +260,12 @@ def stage_split(cfg):
             print(f"  stapfer/{name}.json: {len(stapfer.load_comparison(sd, name)[1])} results")
 
 
+def stage_outcomes(cfg):
+    """Outcome of each consultation: popular vote (Swissvotes) or adopted act (Fedlex), confirmed by Apertus."""
+    from cora import outcomes
+    outcomes.run(cfg)
+
+
 def stage_export(cfg):
     from cora import export
     export.run(cfg)
@@ -281,7 +287,7 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources", "split", "i18n", "mixed_sample"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources", "split", "i18n", "mixed_sample", "outcomes"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--force", action="store_true", help="reprocess records that were already classified/audited")
     args = ap.parse_args()
@@ -301,6 +307,9 @@ if __name__ == "__main__":
         sys.exit()
     if args.stage == "consultations":
         stage_consultations(cfg)
+        sys.exit()
+    if args.stage == "outcomes":
+        stage_outcomes(cfg)
         sys.exit()
     if args.stage == "narrative":
         stage_narrative(cfg)

@@ -414,6 +414,15 @@ def consultations():
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+@app.get("/api/consultations/{nr}/context", summary="Context of one consultation: Apertus explains the proposal, its time and its outcome from cited sources (cached)")
+def consultation_context(nr: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
+    from . import consultation_context as cc
+    c = next((x for x in consultations() if x["nr"] == nr), None)
+    if not c:
+        raise HTTPException(404, "unknown consultation number")
+    return cc.explain(c, CFG, _llm("consultations"), i18n.code(lang))
+
+
 PARL_PATH = DATA / "parliament" / "parliament.json"
 
 
