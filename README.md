@@ -11,6 +11,9 @@ There are 3 challenges to pick from:
 2. OpenParlData: Topic classification for Swiss parliaments with Apertus
 3. University of Bern: Deciphering Archives with Apertus
 
+**CORAS** stands for **C**ollective **O**rigins, **R**emembrance & **A**rchives of the **S**wiss. Its aim is to make Swiss memory
+more accessible and interactive for newer generations.
+
 **CORA** turns records of the Swiss Federal Archives into AI-ready, provenance-tracked metadata with Apertus v1.5.
 For each document Apertus writes a résumé of at most 3 sentences (can be turned off) and decides whether it is a primary, secondary or tertiary source and of which type.
 It also completes Gallica-style metadata (creator, publisher, commissioner, dates of creation, publication, update and archiving, place in the archive),
