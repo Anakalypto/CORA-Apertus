@@ -1,10 +1,10 @@
-# Technical report — CORA, `team name`
+# Technical report — CORA, Red Pandas
 
 An Apertus-powered classifier and Gallica-style explorer for the Archive database of the Swiss Federal Archives.
 
 - **Challenge:** University of Bern — Deciphering Archives with Apertus
 - **Event:** On-site Liebefeld
-- **Team:** `team name` — `member`, `member`, `member`
+- **Team:** Red Pandas — Giovanni Yazbeck, Alfredo Pio Yazbeck
 - **Demo:** `link to video`
 
 ## 1. Summary
