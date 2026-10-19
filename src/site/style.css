@@ -54,7 +54,26 @@ a:hover { text-decoration: underline; }
 .searchform button { padding: 0 22px; background: var(--accent); color: #fff; border: 0; font-weight: 600; cursor: pointer; border-radius: 0 2px 2px 0; }
 
 main { padding: 24px 16px 48px; min-height: 60vh; }
-.footer { background: var(--paper-2); color: var(--ink-3); font-size: 12.5px; padding: 18px 0; border-top: 1px solid var(--line); }
+.footer { background: var(--band); color: #bdbdbd; font-size: 13px; padding: 30px 0 0; margin-top: 40px; border-top: 3px solid var(--accent); }
+.footer a { color: #e6e6e6; }
+.footer a:hover { color: #fff; }
+.footer-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, .8fr)) minmax(0, 1.4fr); gap: 28px; padding-bottom: 24px; }
+.footer p { margin: 0 0 10px; line-height: 1.55; }
+.footer-brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 20px; margin-bottom: 12px; text-decoration: none; }
+.footer-brand:hover { text-decoration: none; }
+.footer-about p b { color: #fff; }
+.footer-col h4 { margin: 4px 0 10px; font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .07em; color: #fff; }
+.footer-col a { display: block; padding: 3px 0; }
+.footer-credits p { font-size: 12.5px; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; padding-top: 14px; padding-bottom: 18px;
+  border-top: 1px solid #333; font-size: 12px; color: #8f8f8f; }
+@media (max-width: 860px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-about, .footer-credits { grid-column: 1 / -1; } }
+
+/* Browse: the search bar comes down with the reader. The whole header is sticky, offset upwards by the height of its
+   navigation row (--nav-h, set in app.js), so only the search band stays in view. */
+body.browse .topbar { position: sticky; top: calc(-1 * var(--nav-h, 0px)); z-index: 1000; }
+body.browse .searchband { box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+body.browse .resmap { top: calc(var(--band-h, 0px) + 10px); height: calc(100vh - var(--band-h, 0px) - 20px); }
 
 h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.25; }
 h1 { font-size: 28px; margin: 0 0 6px; }

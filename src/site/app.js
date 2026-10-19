@@ -1433,11 +1433,21 @@ async function referendumPage() {
 }
 
 /* ---------------- Router ---------------- */
+/* Heights of the header's navigation row and search band, for the sticky search bar on Browse (style.css). */
+function measureHeader() {
+  const s = document.documentElement.style;
+  s.setProperty("--nav-h", `${$(".topbar-inner").offsetHeight}px`);
+  s.setProperty("--band-h", `${$(".searchband").offsetHeight}px`);
+}
+new ResizeObserver(measureHeader).observe($(".topbar"));  // the language drop-down and translations change its height
+
 async function route() {
   const h = location.hash.slice(1) || "/";
   const [path, query] = h.split("?");
   const parts = path.split("/").filter(Boolean);
   document.body.classList.remove("fit-page");
+  document.body.classList.toggle("browse", parts[0] === "search");
+  measureHeader();
   app.innerHTML = `<p class="muted"><span class="spinner"></span> Loading…</p>`;
   try {
     if (!parts.length) await home();

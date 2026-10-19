@@ -50,10 +50,36 @@
 </header>
 <main id="app" class="wrap"></main>
 <footer class="footer">
-  <div class="wrap">
-    Metadata: Archive database of the Swiss Federal Archives (opendata.swiss, open use; original fields only).
-    Classification: Apertus v1.5 (Swiss AI) via CSCS. Gazetteer © OpenStreetMap contributors. Entity links: Wikidata (CC0).
-    Institution icons are the trademarks of their owners and are used for identification only.
+  <div class="wrap footer-grid">
+    <section class="footer-about">
+      <a class="brand footer-brand" href="#/"><span class="brand-mark">C</span><b>CORA</b></a>
+      <p><b>C</b>ollective <b>O</b>rigins, <b>R</b>emembrance &amp; <b>A</b>rchives of the <b>S</b>wiss: making Swiss memory more accessible
+        and interactive for newer generations.</p>
+      <p class="small">By team <b>Red Pandas</b>: Giovanni Yazbeck and Alfredo Pio Yazbeck · Hack Apertus Liebefeld 2026,
+        University of Bern challenge <i>Deciphering Archives with Apertus</i>.</p>
+    </section>
+    <nav class="footer-col" aria-label="Explore">
+      <h4>Explore</h4>
+      <a href="#/search">Browse</a><a href="#/ask">Ask the archive</a><a href="#/consultations">Consultations</a>
+      <a href="#/parliament">Parliament &amp; votes</a><a href="#/history">A year in context</a><a href="#/oral">Oral tradition</a>
+    </nav>
+    <nav class="footer-col" aria-label="Project">
+      <h4>Project</h4>
+      <a href="#/quality">Quality check</a><a href="#/live">Live classify</a>
+      <a href="/docs" target="_blank" rel="noopener">API</a>
+      <a href="https://github.com/Anakalypto/CORA-Apertus" target="_blank" rel="noopener">Source code</a>
+      <a href="https://github.com/Anakalypto/CORA-Apertus/blob/main/RedPandas_Report.pdf" target="_blank" rel="noopener">Technical report (PDF)</a>
+    </nav>
+    <section class="footer-col footer-credits">
+      <h4>Sources</h4>
+      <p>Metadata: Archive database of the Swiss Federal Archives (opendata.swiss, open use; original fields only).
+        Classification: Apertus v1.5 (Swiss AI) via CSCS. Gazetteer © OpenStreetMap contributors. Entity links: Wikidata (CC0).
+        Maps: swisstopo. Photos: ETH Library and Wikimedia Commons, credited on each page.</p>
+    </section>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Red Pandas · Code under the Apache-2.0 licence</span>
+    <span>Institution icons are the trademarks of their owners and are used for identification only.</span>
   </div>
 </footer>
 <script src="vendor/maplibre/maplibre-gl.js"></script>
