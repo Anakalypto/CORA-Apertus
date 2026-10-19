@@ -241,7 +241,6 @@ h1, h3, .cover .ct, .resume-box, table.dl td { overflow-wrap: anywhere; }
 .slider-bar input[type=range] { flex: 1; min-width: 200px; accent-color: var(--accent); }
 .slider-bar b { font: 600 22px var(--serif); min-width: 3.2em; font-variant-numeric: tabular-nums; }
 .slider-bar button { background: var(--ink); color: #fff; border: 0; width: 36px; height: 30px; cursor: pointer; }
-.basemap-lab { color: var(--ink-2); margin-bottom: 4px; }
 
 /* Consultations timeline strip and procedure chain */
 .strip { overflow-x: auto; border: 1px solid var(--line); padding: 8px; }
@@ -628,42 +627,23 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
 .chat-composer button { padding: 0 20px; background: var(--accent); color: #fff; border: 0; font-weight: 600; border-radius: 6px; cursor: pointer; }
 .chat-composer button:disabled, .chat-composer textarea:disabled { opacity: .55; cursor: wait; }
 
-/* Overview map: date window, filters, map filling the page */
-.mapwrap { margin: -24px -16px 0; }
-.maptools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 10px 16px; background: var(--paper-2); border-bottom: 1px solid var(--line); }
-.mt-dates { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13.5px; }
-.mt-dates label { display: flex; align-items: center; gap: 5px; font-weight: 600; color: var(--ink-2); }
-.mt-dates input[type=date], .mt-dates select { font: 14px var(--sans); padding: 4px 6px; border: 1px solid #bbb; background: #fff; }
-.mt-step, .mt-play { width: 30px; height: 30px; border: 0; background: var(--ink); color: #fff; cursor: pointer; font-size: 17px; line-height: 1; }
-.mt-play .i { width: 14px; height: 14px; vertical-align: -2px; }
-.mt-scrub { flex: 1; min-width: 160px; accent-color: var(--accent); }
-.mapfilters .pop { right: 0; left: auto; }
-.mf-form { display: grid; gap: 8px; padding: 10px !important; }
-.mf-form label { display: grid; gap: 3px; font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
-.mf-form select, .mf-form input { font: 13.5px var(--sans); padding: 4px 6px; border: 1px solid #bbb; max-width: 100%; }
-.mf-actions { display: flex; gap: 12px; align-items: center; }
-.mf-actions button { padding: 5px 16px; background: var(--accent); color: #fff; border: 0; font-weight: 600; cursor: pointer; }
-.map.fill { height: 60vh; border-left: 0; border-right: 0; }
-.mapfoot { padding: 6px 16px 0; }
-.mapfoot .legend { margin: 4px 0; }
-.mapfoot p { margin: 2px 0; }
-.legend i.ring { background: transparent !important; border: 2px solid var(--ink-2); box-sizing: border-box; }
 @media (max-width: 860px) {
-  .mapwrap { margin: -16px -16px 0; }
-  .mt-scrub { order: 3; width: 100%; flex-basis: 100%; }
   .chat-msg { max-width: 100%; }
   .chat-head { flex-direction: column; }
 }
 .chat-start[hidden] { display: none; }
 
 /* Ask the archive: the conversation as a running case on the investigation desk */
-.case-file { display: flex; flex-direction: column; padding-bottom: 0; }
+.case-file { display: flex; flex-direction: column; padding-bottom: 0; max-height: calc(100vh - 24px); min-height: 0; }
+/* the conversation scrolls inside the case file, separately from the page */
+#thread { position: relative; flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; margin: 0 -20px; padding: 0 20px 4px; scrollbar-gutter: stable; }
 .case-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
 .case-top .inq-tab { margin: 0; }
 .case-turn { margin: 14px 0 6px; max-width: none; }
 .case-turn:first-child { margin-top: 6px; }
-.case-turn .inq-q { font-size: 17px; margin-top: 14px; }
-.case-turn .inq-findings p { margin: 0 0 10px; }
+.case-turn .inq-q { font-size: 15.5px; margin-top: 14px; }
+.case-turn .inq-findings { font-size: 14.5px; line-height: 1.65; }
+.case-turn .inq-findings p { margin: 0 0 8px; }
 .case-turn.pending .inq-progress { margin: 6px 20px 18px; }
 .case-exhibits { margin: 14px 20px 0; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
 .case-exhibits .inq-exhibit { padding: 10px 12px; }
@@ -672,7 +652,7 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
 .exh-ref.ref { background: #e8f2f6; color: var(--p-wikidata); border-radius: 50%; }
 .exh-ref.ref:hover { background: var(--p-wikidata); color: #fff; }
 .inq-claim.weak { text-decoration: underline wavy #c99a4a; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-.case-composer { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--inq-line); margin: 10px -20px 0; padding: 12px 20px 14px; }
+.case-composer { flex: none; background: #fff; border-top: 1px solid var(--inq-line); margin: 0 -20px; padding: 12px 20px 14px; }
 .case-composer textarea { min-height: 52px; }
 .case-composer button:disabled, .case-composer textarea:disabled { opacity: .55; cursor: wait; }
 .inq-board { align-self: start; position: sticky; top: 12px; }
@@ -681,5 +661,66 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
 @media (max-width: 860px) {
   .inq-desk { grid-template-columns: 1fr; }
   .inq-board { position: static; }
+  .case-file { max-height: calc(100svh - 16px); }
   .case-exhibits { margin: 12px 14px 0; }
+}
+
+/* Search results with the map: map column on the left that stays in view while the results scroll */
+.adv-f select { cursor: pointer; }
+.adv-actions .btn-map { display: inline-flex; align-items: center; gap: 6px; background: #fff; color: var(--ink); border: 1px solid var(--ink-3); }
+.adv-actions .btn-map.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn-map .i { width: 15px; height: 15px; }
+.withmap { display: grid; grid-template-columns: minmax(300px, 42%) minmax(0, 1fr); gap: 22px; align-items: start; }
+.rescol { min-width: 0; }
+.resmap { position: sticky; top: 10px; height: calc(100vh - 20px); display: flex; flex-direction: column; border: 1px solid var(--line); background: #fff; }
+.resmap-head { display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.resmap-head .i { width: 15px; height: 15px; vertical-align: -2px; color: var(--accent); }
+.resmap-x { display: grid; place-items: center; width: 26px; height: 26px; color: var(--ink-2); border-radius: 2px; }
+.resmap-x:hover { background: var(--paper-2); }
+.resmap-map { flex: 1; min-height: 0; }
+.resmap-foot { padding: 4px 10px 6px; border-top: 1px solid var(--line); }
+.resmap-foot .legend { margin: 2px 0; font-size: 12px; gap: 10px; }
+.resmap-foot p { margin: 2px 0; }
+@media (max-width: 860px) {
+  /* phones: the map sits on top and stays pinned while the results scroll under it */
+  .withmap { grid-template-columns: 1fr; gap: 12px; }
+  .resmap { top: 0; height: 44vh; z-index: 20; margin: 0 -16px; border-left: 0; border-right: 0; box-shadow: 0 4px 10px rgba(0,0,0,.12); }
+  .resmap-foot .legend { display: none; }
+}
+.legend i.trip { width: 18px; height: 0; border-radius: 0; border-top: 2px dashed #b5121b; vertical-align: 3px; }
+
+/* Citation marks in the case: a hover (or tap) card instead of a list under each report */
+.exh-ref { cursor: pointer; }
+.exh-tip { position: fixed; z-index: 100; display: flex; flex-direction: column; gap: 5px; width: max-content; max-width: min(320px, calc(100vw - 16px));
+  background: #fff; color: var(--ink); border: 1px solid var(--inq-line); border-left: 3px solid var(--accent); border-radius: 6px;
+  padding: 10px 12px; box-shadow: 0 8px 24px rgba(0,0,0,.16); pointer-events: none; font: 13px/1.4 var(--sans); }
+.exh-tip[hidden] { display: none; }
+.exh-tip.ref { border-left-color: var(--p-wikidata); }
+.exh-tip.ref .inq-tag { color: var(--p-wikidata); background: #e8f2f6; }
+.exh-tip b { font: 600 14px/1.35 var(--sans); overflow-wrap: anywhere; }
+.exh-tip .inq-ex-type .i { width: 13px; height: 13px; vertical-align: -2px; }
+
+/* Ask the archive fits one screen under the top bar; the case file and the board scroll inside */
+body.fit-page .footer { display: none; }
+body.fit-page .inq { height: calc(100dvh - var(--hdr, 140px)); display: flex; flex-direction: column; padding-bottom: 12px; }
+body.fit-page .inq-head { flex: none; margin: 12px 0 10px; max-width: none; }
+body.fit-page .inq-head h1 { font-size: 24px; margin: 2px 0 4px; }
+body.fit-page .inq-head p { font-size: 13.5px; max-width: 980px; }
+body.fit-page .inq-desk { flex: 1 1 auto; min-height: 0; grid-template-rows: minmax(0, 1fr); }
+body.fit-page .case-file { height: 100%; max-height: none; }
+body.fit-page .inq-board { position: static; align-self: stretch; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 860px) {
+  /* phones: everything cannot fit; the case file fills the screen and the board follows */
+  body.fit-page .footer { display: block; }
+  body.fit-page .inq { height: auto; padding-bottom: 20px; }
+  body.fit-page .inq-desk { grid-template-rows: auto; }
+  body.fit-page .case-file { height: calc(100svh - 16px); }
+}
+@media (min-width: 861px) and (max-height: 800px) {
+  /* short screens: drop the intro so the conversation keeps its room */
+  body.fit-page .inq-head p { display: none; }
+  body.fit-page .inq-head { margin: 8px 0 8px; }
+  body.fit-page .case-composer { padding: 8px 20px 10px; }
+  body.fit-page .case-composer textarea { min-height: 40px; }
+  body.fit-page .case-composer .inq-folder-foot { margin-top: 6px; }
 }

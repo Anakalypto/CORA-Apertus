@@ -292,6 +292,9 @@ const SEARCH_IN_LABEL = { all: "All fields", title: "Title", creator: "Author / 
   person: "Person", place: "Place", reference: "Reference code", resume: "Résumé & description" };
 const SORT_LABEL = { relevance: "Relevance", date_asc: "Oldest first", date_desc: "Newest first", title: "Title A–Z", creator: "Author A–Z" };
 const ADV_FIELDS = ["creator", "publisher", "subject", "person", "place"];
+// the map's single-choice filters, also offered in the advanced panel; a choice replaces that facet's include flags
+const ADV_SELECTS = ["document_type", "source_level", "medium", "century", "level", "fonds", "flags"];
+const EVENT_COLORS = ["match", ["get", "event"], "creation", "#8a1c7c", "depicted", "#1d5fa6", "publication", "#a05a00", "#444"];
 const facetLabel = (k, v) => (k === "preprocessing" ? PREP_LABEL[v] : k === "flags" ? FLAG_LABEL[v] : null) || v;
 const centuryNum = (c) => parseInt(c, 10) || 99;
 
@@ -309,11 +312,14 @@ function searchFromHeader(e) {
 
 async function search(params) {
   setNav("search");
+  window.__searchMap?.remove(); window.__searchMap = null;
   const size = [10, 20, 50].includes(+params.get("size")) ? +params.get("size") : 20;
   $("#q").value = params.get("q") || "";
   $("#qin").value = params.get("in") || "all";
-  const api_p = new URLSearchParams(params); api_p.set("size", size); api_p.delete("adv");
-  const res = await api("/api/records?" + api_p.toString());
+  const mapOn = params.get("map") === "1";
+  const api_p = new URLSearchParams(params); api_p.set("size", size); api_p.delete("adv"); api_p.delete("map");
+  const map_p = new URLSearchParams(api_p); ["size", "page", "sort"].forEach((k) => map_p.delete(k));
+  const [res, mapData] = await Promise.all([api("/api/records?" + api_p.toString()), mapOn ? api("/api/map?" + map_p.toString()) : null]);
   const page = +(params.get("page") || 1), sort = params.get("sort") === "date" ? "date_asc" : params.get("sort") || "relevance";
   const href = (fn) => { const p = new URLSearchParams(params); p.delete("page"); fn(p); return "#/search?" + p.toString(); };
   // Filter flags: each value cycles off -> include -> exclude ("!value"); groups AND-ed, values OR-ed (AND in flags/preprocessing).
@@ -350,6 +356,13 @@ async function search(params) {
   const moreOn = more.reduce((n, k) => n + params.getAll(k).length, 0);
   const b = res.date_bounds || [1400, 2025];
   const options = (k) => (res.facets[k] || []).filter(([v]) => v !== "unknown").map(([v]) => `<option value="${esc(String(v))}">`).join("");
+  const selectField = (k) => {
+    const vals = values(k), inc = params.getAll(k).filter((v) => !v.startsWith("!"));
+    if (!vals.length) return "";
+    const keep = inc.length > 1 ? `<option value="__keep" selected>${inc.length} selected</option>` : "";
+    return `<div class="adv-f"><label for="adv-${k}">${FACET_TITLES[k]}</label><select id="adv-${k}" name="${k}"><option value="">any</option>${keep}
+      ${vals.map(([v, n]) => `<option value="${esc(v)}" ${inc.length === 1 && inc[0] === v ? "selected" : ""}>${esc(facetLabel(k, v))} (${n})</option>`).join("")}</select></div>`;
+  };
 
   app.innerHTML = `
     <div class="filterbar" role="search" aria-label="Filters and sort">
@@ -374,11 +387,22 @@ async function search(params) {
         <div class="adv-f"><label for="adv-date_from">Date</label>
           <div class="adv-row"><input id="adv-date_from" name="date_from" type="number" inputmode="numeric" min="${b[0]}" max="${b[1]}" placeholder="${b[0]}" value="${esc(params.get("date_from") || "")}" aria-label="From year">
             <span class="muted">to</span> <input name="date_to" type="number" inputmode="numeric" min="${b[0]}" max="${b[1]}" placeholder="${b[1]}" value="${esc(params.get("date_to") || "")}" aria-label="To year"></div></div>
+        ${ADV_SELECTS.map(selectField).join("")}
         ${ADV_FIELDS.map((k) => `<div class="adv-f"><label for="adv-${k}">${FACET_TITLES[k]}</label><input id="adv-${k}" name="${k}" list="dl-${k}" placeholder="any"><datalist id="dl-${k}">${options(k)}</datalist></div>`).join("")}
       </div>
-      <div class="adv-actions"><button type="submit">Apply</button> <a href="#/search?adv=1">Reset all</a>
-        <span class="small muted">Dates match records whose date range overlaps the period. Author, publisher, subject, person and place add an include flag; pick a suggestion for an exact value.</span></div>
+      <div class="adv-actions"><button type="submit">Apply</button>
+        <button type="submit" class="btn-map ${mapOn ? "on" : ""}" name="map" value="${mapOn ? "0" : "1"}" aria-pressed="${mapOn}">${icon("map")} ${mapOn ? "Hide map" : "Show map"}</button>
+        <a href="#/search?adv=1${mapOn ? "&map=1" : ""}">Reset all</a>
+        <span class="small muted">Dates match records whose date range overlaps the period. Document type to flags replace that filter's choice; author, publisher, subject, person and place add an include flag (pick a suggestion for an exact value). The map shows where the filtered records are located.</span></div>
     </form>` : ""}
+    <div class="${mapOn ? "withmap" : ""}">
+    ${mapOn ? `<aside class="resmap" aria-label="Map of the filtered records">
+      <div class="resmap-head"><b>${icon("map")} Map of these results</b><a class="resmap-x" href="${href((p) => p.delete("map"))}" title="Hide map" aria-label="Hide map">${icon("x")}</a></div>
+      <div id="resmap" class="resmap-map"></div>
+      <div class="resmap-foot">
+        <div class="legend">${["creation", "depicted", "publication"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}<span><i class="trip"></i>Journey to the Federal Archives</span></div>
+        <p class="small muted" id="resmaplab"></p></div></aside>` : ""}
+    <div class="rescol">
     <div class="resbar">
       <div><b>${res.total}</b> result${res.total === 1 ? "" : "s"}${params.get("q") ? ` for “${esc(params.get("q"))}”${params.get("in") && params.get("in") !== "all" ? ` in ${esc(SEARCH_IN_LABEL[params.get("in")] || params.get("in"))}` : ""}` : ""}
         ${params.get("date_from") || params.get("date_to") ? ` · dated ${esc(params.get("date_from") || "…")}–${esc(params.get("date_to") || "…")}` : ""} · sorted by ${SORT_LABEL[sort].toLowerCase()}</div>
@@ -398,7 +422,7 @@ async function search(params) {
           </div>
         </article>`).join("") || `<p class="muted">No documents match.</p>`}
       ${pager(page, Math.ceil(res.total / size), (n) => href((p) => p.set("page", n)))}
-    </section>`;
+    </section></div></div>`;
 
   // one popover open at a time; Escape or a click outside closes it
   const pills = [...document.querySelectorAll(".filterbar .pill")];
@@ -421,9 +445,72 @@ async function search(params) {
     location.hash = href((p) => {
       p.set("adv", "1");
       for (const k of ["q", "in", "date_from", "date_to"]) { const v = (f.get(k) || "").trim(); v && !(k === "in" && v === "all") ? p.set(k, v) : p.delete(k); }
+      for (const k of ADV_SELECTS) {
+        const v = f.get(k);
+        if (v == null || v === "__keep") continue;
+        const exc = p.getAll(k).filter((x) => x.startsWith("!")); p.delete(k);
+        exc.forEach((x) => x !== "!" + v && p.append(k, x));
+        if (v) p.append(k, v);
+      }
       for (const k of ADV_FIELDS) { const v = (f.get(k) || "").trim(); if (v && !p.getAll(k).includes(v)) p.append(k, v); }
+      if (e.submitter?.name === "map") e.submitter.value === "1" ? p.set("map", "1") : p.delete("map");
     });
   };
+  if (mapOn) resultsMap(mapData, new Set(res.results.map((r) => r.id)));
+}
+
+/* Map next to the search results: every located event of the filtered records (not only this page);
+   the records on this page are drawn larger, and hovering a result highlights its places. */
+function resultsMap(data, onPage) {
+  const { points, archive } = data;
+  const fc = (features) => ({ type: "FeatureCollection", features });
+  const feats = fc(points.map((p, i) => ({ type: "Feature", geometry: { type: "Point", coordinates: [p.lon, p.lat] },
+    properties: { i, id: p.id, event: p.event, cur: onPage.has(p.id) } })));
+  // travel line per record: its located events in story order, then on to the Federal Archives
+  const byRec = new Map();
+  points.forEach((p) => byRec.set(p.id, [...(byRec.get(p.id) || []), [p.lon, p.lat]]));
+  const trips = fc([...byRec].map(([id, ll]) => ({ type: "Feature", properties: { id, cur: onPage.has(id) },
+    geometry: { type: "LineString", coordinates: [...ll, [archive.lon, archive.lat]] } })));
+  const docs = new Set(points.map((p) => p.id)), here = [...docs].filter((id) => onPage.has(id)).length;
+  $("#resmaplab").innerHTML = points.length
+    ? `${points.length} located event${points.length === 1 ? "" : "s"} from <b>${docs.size}</b> of ${data.records} filtered record${data.records === 1 ? "" : "s"}
+       (${here} on this page, drawn larger).`
+    : `None of the ${data.records} filtered record${data.records === 1 ? "" : "s"} has a located place.`;
+  const map = baseMap($("#resmap"), (m) => {
+    m.addSource("trips", { type: "geojson", data: trips });
+    m.addLayer({ id: "trips", type: "line", source: "trips", layout: { "line-join": "round" }, paint: {
+      "line-color": "#b5121b", "line-dasharray": [2.4, 2.4],
+      "line-width": ["case", ["get", "cur"], 2, 1.2], "line-opacity": ["case", ["get", "cur"], 0.8, 0.3] } });
+    m.addLayer({ id: "trips-hl", type: "line", source: "trips", filter: ["==", ["get", "id"], ""], layout: { "line-join": "round" },
+      paint: { "line-color": "#b5121b", "line-width": 3.5, "line-opacity": 1 } });
+    m.addSource("pts", { type: "geojson", data: feats });
+    m.addLayer({ id: "pts", type: "circle", source: "pts", paint: {
+      "circle-radius": ["case", ["get", "cur"], 7, 4.5], "circle-color": EVENT_COLORS, "circle-opacity": ["case", ["get", "cur"], 0.95, 0.55],
+      "circle-stroke-color": "#fff", "circle-stroke-width": ["case", ["get", "cur"], 2, 1] } });
+    m.addLayer({ id: "hl", type: "circle", source: "pts", filter: ["==", ["get", "id"], ""], paint: {
+      "circle-radius": 11, "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#b5121b", "circle-stroke-width": 3 } });
+  }, { center: [8.2, 46.8], zoom: 6 });
+  window.__searchMap = map;
+  if (points.length) {
+    const b = new maplibregl.LngLatBounds();
+    points.forEach((p) => b.extend([p.lon, p.lat]));
+    map.fitBounds(b, { padding: 36, maxZoom: 10, duration: 0 });
+  }
+  new maplibregl.Marker({ element: eventIcon({ event: "holding" }, {}, 0) }).setLngLat([archive.lon, archive.lat])
+    .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`)).addTo(map);
+  map.on("click", "pts", (e) => {
+    const p = points[e.features[0].properties.i];
+    new maplibregl.Popup({ offset: 8 }).setLngLat([p.lon, p.lat])
+      .setHTML(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event] || esc(p.event)} · ${esc(p.place || "")} · ${fmtDate(p.date || p.start)}`).addTo(map);
+  });
+  map.on("mouseenter", "pts", () => { map.getCanvas().style.cursor = "pointer"; });
+  map.on("mouseleave", "pts", () => { map.getCanvas().style.cursor = ""; });
+  const hl = (id) => { if (!map.getLayer("hl")) return; map.setFilter("hl", ["==", ["get", "id"], id]); map.setFilter("trips-hl", ["==", ["get", "id"], id]); };
+  document.querySelectorAll(".results .result").forEach((a) => {
+    const id = a.querySelector("h3 a")?.getAttribute("href")?.split("/").pop() || "";
+    a.addEventListener("mouseenter", () => hl(id));
+    a.addEventListener("mouseleave", () => hl(""));
+  });
 }
 
 function pager(page, pages, hrefFor) {
@@ -671,181 +758,6 @@ async function topicPanel(r) {
   b.onclick = () => { m.hidden = !m.hidden; b.textContent = m.hidden ? "See more about it ▾" : "See less ▴"; };
 }
 
-/* ---------------- Overview map with time slider ---------------- */
-/* ---------------- Overview map: a date window of at most one year, filters, historical base maps ---------------- */
-const DAY = 86400000;
-const isoDay = (d) => d.toISOString().slice(0, 10);
-const parseDay = (s) => new Date(s + "T00:00:00Z");
-const addMonths = (d, n) => { const x = new Date(d); x.setUTCMonth(x.getUTCMonth() + n); return x; };
-const WINDOWS = { "1 day": [0, 0], "1 week": [0, 6], "1 month": [1, -1], "3 months": [3, -1], "6 months": [6, -1], "1 year": [12, -1] };
-const windowEnd = (from, w) => { const [m, d] = WINDOWS[w]; return new Date((m ? addMonths(from, m) : from).getTime() + d * DAY); };
-const MAP_FILTERS = ["document_type", "source_level", "medium", "century", "level", "flags", "fonds", "creator", "subject", "person", "place"];
-const fmtLong = (s) => parseDay(s).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
-
-async function mapPage(params) {
-  setNav("map");
-  const filterQs = () => { const p = new URLSearchParams(); for (const [k, v] of params) if (MAP_FILTERS.includes(k) || ["q", "in"].includes(k)) p.append(k, v); return p; };
-  const [data, zr, facets] = await Promise.all([api("/api/map?" + filterQs()), fetch("assets/zeitreihen_years.json").then((r) => r.json()),
-    api("/api/records?size=0&" + filterQs())]);
-  let { points, archive } = data;
-  const dated = () => points.filter((p) => p.start);
-  const bounds = () => { const d = dated(); return d.length ? [d.reduce((a, p) => (p.start < a ? p.start : a), "9999"), d.reduce((a, p) => (p.end > a ? p.end : a), "0000")] : ["1900-01-01", "2020-12-31"]; };
-  // default window: the calendar year in which most located events start
-  const busiest = () => { const c = {}; dated().forEach((p) => (c[p.start.slice(0, 4)] = (c[p.start.slice(0, 4)] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1])[0]?.[0] || "1914"; };
-  let win = WINDOWS[params.get("w")] ? params.get("w") : "1 year";
-  let from = params.get("from") ? parseDay(params.get("from")) : parseDay(busiest() + "-01-01");
-  let to = params.get("to") ? parseDay(params.get("to")) : windowEnd(from, win);
-  const opts = (k) => (facets.facets[k] || []).filter(([v]) => v !== "unknown").map(([v, n]) => `<option value="${esc(String(v))}" ${params.get(k) === String(v) ? "selected" : ""}>${esc(facetLabel(k, String(v)))} (${n})</option>`).join("");
-  const nActive = MAP_FILTERS.filter((k) => params.get(k)).length + (params.get("q") ? 1 : 0);
-
-  app.innerHTML = `<div class="mapwrap">
-    <div class="maptools">
-      <div class="mt-dates">
-        <button type="button" class="mt-step" id="prev" title="Previous window" aria-label="Previous window">‹</button>
-        <label>From <input type="date" id="dfrom"></label>
-        <label>To <input type="date" id="dto"></label>
-        <button type="button" class="mt-step" id="next" title="Next window" aria-label="Next window">›</button>
-        <select id="win" title="Window length" aria-label="Window length">${Object.keys(WINDOWS).map((w) => `<option ${w === win ? "selected" : ""}>${w}</option>`).join("")}</select>
-        <button type="button" id="play" class="mt-play" title="Play">${icon("play")}</button>
-      </div>
-      <input type="range" id="scrub" class="mt-scrub" aria-label="Move the window through time">
-      <details class="pill mapfilters ${nActive ? "on" : ""}" id="mapfilters"><summary>Filters${nActive ? ` <b class="fcount">${nActive}</b>` : ""} <span class="caret">▾</span></summary>
-        <form class="pop wide mf-form" id="mf">
-          <label>Words <select name="in">${Object.entries(SEARCH_IN_LABEL).map(([k, l]) => `<option value="${k}" ${(params.get("in") || "all") === k ? "selected" : ""}>${l}</option>`).join("")}</select>
-            <input type="search" name="q" value="${esc(params.get("q") || "")}" placeholder="any words"></label>
-          ${MAP_FILTERS.map((k) => (facets.facets[k] || []).length ? `<label>${FACET_TITLES[k]} <select name="${k}"><option value="">any</option>${opts(k)}</select></label>` : "").join("")}
-          <div class="mf-actions"><button>Apply</button> <a href="#/map" id="mfreset">Reset</a></div>
-        </form></details>
-    </div>
-    <div id="bigmap" class="map fill"></div>
-    <div class="mapfoot">
-      <div class="legend">${["creation", "depicted", "publication", "holding"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}
-        <span><i class="ring"></i>dated only to a longer period overlapping the window</span></div>
-      <p class="small" id="countlab"></p>
-      <p class="small basemap-lab" id="baselab"></p>
-    </div></div>`;
-
-  const nearest = (y) => { const before = zr.years.filter((v) => v <= y); return before.length ? before[before.length - 1] : zr.years[0]; };
-  const bar = [archive.lon, archive.lat];
-  let vis = [], shownBase = null;
-  const fc = (features) => ({ type: "FeatureCollection", features });
-  const paint = (m) => {
-    if (!m.getSource("docs")) return;
-    m.getSource("links").setData(fc(vis.map(({ p }) => ({ type: "Feature", geometry: { type: "LineString", coordinates: [[p.lon, p.lat], bar] } }))));
-    m.getSource("docs").setData(fc(vis.map(({ p, i, exact }) => ({ type: "Feature", properties: { i, event: p.event, exact }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } }))));
-  };
-  const setHist = (m) => {
-    if (shownBase == null) return;
-    if (m.getLayer("hist")) { m.removeLayer("hist"); m.removeSource("hist"); }
-    m.addSource("hist", { type: "raster", tileSize: 256, maxzoom: 16, bounds: [5.8, 45.7, 10.6, 47.9], attribution: `© swisstopo, Journey through time ${shownBase}`,
-      tiles: [`https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/${shownBase}1231/3857/{z}/{x}/{y}.png`] });
-    m.addLayer({ id: "hist", type: "raster", source: "hist" }, "links");
-  };
-  const COLORS = ["match", ["get", "event"], "creation", "#8a1c7c", "depicted", "#1d5fa6", "publication", "#a05a00", "#444"];
-  const el = $("#bigmap");
-  const fit = () => {  // the map takes the height left on screen under the tools, above its footer
-    const foot = $(".mapfoot")?.offsetHeight || 0;
-    el.style.height = Math.max(360, innerHeight - el.getBoundingClientRect().top - foot - 12) + "px";
-    map?.resize();
-  };
-  let map = null;
-  fit();
-  map = baseMap(el, (m) => {
-    m.addSource("links", { type: "geojson", data: fc([]) });
-    m.addLayer({ id: "links", type: "line", source: "links", paint: { "line-color": "#b5121b", "line-width": 1, "line-opacity": 0.3 } });
-    m.addSource("docs", { type: "geojson", data: fc([]) });
-    m.addLayer({ id: "docs", type: "circle", source: "docs", paint: {
-      "circle-radius": 6, "circle-stroke-width": ["case", ["get", "exact"], 2, 2.5], "circle-opacity": ["case", ["get", "exact"], 0.9, 0],
-      "circle-stroke-color": ["case", ["get", "exact"], "#fff", COLORS], "circle-color": COLORS } });
-    setHist(m);
-    paint(m);
-  }, { center: [8.2, 46.8], zoom: 7 });
-  addEventListener("resize", fit);
-  window.addEventListener("hashchange", () => removeEventListener("resize", fit), { once: true });
-  new maplibregl.Marker({ element: eventIcon({ event: "holding" }, {}, 0) }).setLngLat(bar)
-    .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`)).addTo(map);
-  map.on("click", "docs", (e) => {
-    const p = points[e.features[0].properties.i];
-    new maplibregl.Popup({ offset: 8 }).setLngLat([p.lon, p.lat])
-      .setHTML(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date || p.start)}`).addTo(map);
-  });
-  map.on("mouseenter", "docs", () => { map.getCanvas().style.cursor = "pointer"; });
-  map.on("mouseleave", "docs", () => { map.getCanvas().style.cursor = ""; });
-
-  // the scrubber moves the window start month by month across the dated events
-  const months = () => { const [a, b] = bounds(); const s = parseDay(a.slice(0, 7) + "-01"); const e = parseDay(b.slice(0, 7) + "-01");
-    return Math.max(0, (e.getUTCFullYear() - s.getUTCFullYear()) * 12 + e.getUTCMonth() - s.getUTCMonth()); };
-  const scrubStart = () => parseDay(bounds()[0].slice(0, 7) + "-01");
-  const clamp = (changed) => {  // keep 0 ≤ to − from ≤ one year
-    if (to < from) changed === "to" ? (from = new Date(to)) : (to = new Date(from));
-    const maxTo = new Date(addMonths(from, 12).getTime() - DAY);
-    if (to > maxTo) changed === "to" ? (from = new Date(addMonths(to, -12).getTime() + DAY)) : (to = maxTo);
-  };
-  const remember = () => {
-    const p = filterQs(); p.set("from", isoDay(from)); p.set("to", isoDay(to)); if (win !== "1 year") p.set("w", win);
-    history.replaceState(null, "", "#/map?" + p.toString());
-  };
-  const update = () => {
-    const f = isoDay(from), t = isoDay(to);
-    $("#dfrom").value = f; $("#dto").value = t;
-    const [a, b] = bounds(); $("#dfrom").min = $("#dto").min = a; $("#dfrom").max = $("#dto").max = b;
-    $("#scrub").max = months();
-    $("#scrub").value = (from.getUTCFullYear() - scrubStart().getUTCFullYear()) * 12 + from.getUTCMonth() - scrubStart().getUTCMonth();
-    const span = (to - from) / DAY;
-    vis = points.map((p, i) => ({ p, i })).filter(({ p }) => p.start && p.start <= t && p.end >= f)
-      .map((x) => ({ ...x, exact: (parseDay(x.p.end) - parseDay(x.p.start)) / DAY <= span + 1 }));
-    paint(map);
-    const y = from.getUTCFullYear(), n = nearest(y);
-    if (n !== shownBase) { shownBase = n; if (map.getSource("docs")) setHist(map); }
-    const docs = new Set(vis.map(({ p }) => p.id)).size, exactN = vis.filter((v) => v.exact).length;
-    $("#countlab").innerHTML = `<b>${fmtLong(f)} – ${fmtLong(t)}</b> (${Math.round(span) + 1} day${span ? "s" : ""}, max. 1 year): ${vis.length} located event${vis.length === 1 ? "" : "s"} from ${docs} document${docs === 1 ? "" : "s"},
-      ${exactN} dated within the window. ${data.records} records match the filters; ${points.filter((p) => !p.start).length} undated events are not shown.`;
-    const note = y < zr.years[0] ? `the earliest available, ${zr.years[0]} (no national map exists for ${y})` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
-    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: OpenStreetMap
-      (today's swisstopo map or plain OpenStreetMap for the rest, switch at top left).`;
-    remember();
-  };
-  const shift = (dir) => {
-    if (WINDOWS[win][0]) { from = addMonths(from, dir * WINDOWS[win][0]); to = windowEnd(from, win); }
-    else { const d = (WINDOWS[win][1] + 1) * DAY * dir; from = new Date(from.getTime() + d); to = new Date(to.getTime() + d); }
-    update();
-  };
-  $("#dfrom").onchange = (e) => { if (e.target.value) { from = parseDay(e.target.value); clamp("from"); update(); } };
-  $("#dto").onchange = (e) => { if (e.target.value) { to = parseDay(e.target.value); clamp("to"); update(); } };
-  $("#win").onchange = (e) => { win = e.target.value; to = windowEnd(from, win); update(); };
-  $("#prev").onclick = () => shift(-1);
-  $("#next").onclick = () => shift(1);
-  $("#scrub").oninput = (e) => { from = addMonths(scrubStart(), +e.target.value); to = windowEnd(from, win); update(); };
-  let timer = null;
-  $("#play").onclick = () => {
-    if (timer) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
-    if (isoDay(to) >= bounds()[1]) { from = scrubStart(); to = windowEnd(from, win); }
-    $("#play").innerHTML = icon("pause");
-    timer = setInterval(() => {
-      if (!$("#play")) return clearInterval(timer);
-      if (isoDay(to) >= bounds()[1]) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
-      shift(1);
-    }, 700);
-  };
-  // filters: re-query the points, keep the map and the window
-  $("#mf").onsubmit = async (e) => {
-    e.preventDefault();
-    const fd = new FormData(e.target), p = new URLSearchParams();
-    for (const [k, v] of fd) if (v && !(k === "in" && v === "all")) p.set(k, v);
-    params = p; $("#mapfilters").open = false;
-    const n = MAP_FILTERS.filter((k) => p.get(k)).length + (p.get("q") ? 1 : 0);
-    $("#mapfilters").classList.toggle("on", n > 0);
-    $("#mapfilters summary").innerHTML = `Filters${n ? ` <b class="fcount">${n}</b>` : ""} <span class="caret">▾</span>`;
-    const d = await api("/api/map?" + p.toString());
-    points = d.points; data.records = d.records;
-    update();
-  };
-  $("#mfreset").onclick = (e) => { e.preventDefault(); $("#mf").reset(); $("#mf").querySelectorAll("select").forEach((s) => (s.value = s.name === "in" ? "all" : "")); $("#mf").q.value = ""; $("#mf").requestSubmit(); };
-  clamp("from");
-  update();
-  requestAnimationFrame(fit);
-}
-
 /* ---------------- Quality ---------------- */
 async function qualityPage() {
   setNav("quality");
@@ -1054,33 +966,65 @@ function deskReport(t, n, c) {
   r.sources.filter((s) => s.kind === "wikipedia").forEach((s, i) => (refNo[s.ref] = i + 1));
   const tagOf = (s) => (s.kind === "record" ? c.exhibits[s.id] : `Ref. ${refNo[s.ref]}`);
   const byRef = Object.fromEntries(r.sources.map((s) => [s.ref, s]));
+  const card = (s) => s.kind === "record"
+    ? `<span class="exh-card" hidden><span class="inq-tag">Exhibit ${c.exhibits[s.id]}</span>
+        <span class="inq-ex-type">${icon(TYPE_ICON[s.document_type] || "file")} ${esc(s.document_type)} · ${esc(s.source_level)} source</span>
+        <b>${esc(s.title)}</b><span class="inq-ex-meta">${fmtDate(s.date)} · ${esc(s.reference_code)}</span></span>`
+    : `<span class="exh-card ref" hidden><span class="inq-tag">Reference ${refNo[s.ref]}</span>
+        <span class="inq-ex-type">${icon("book")} Wikipedia (${esc(s.lang)}) · tertiary · CC BY-SA</span><b>${esc(s.title)}</b></span>`;
   const marks = (refs) => refs.map((f) => { const s = byRef[f]; if (!s) return "";
-    return s.kind === "record" ? `<a class="exh-ref" href="#/record/${s.id}" title="Exhibit ${c.exhibits[s.id]}: ${esc(s.title)}">${c.exhibits[s.id]}</a>`
-      : `<a class="exh-ref ref" href="${s.url}" target="_blank" rel="noopener" title="Reference ${refNo[f]}: ${esc(s.title)} (Wikipedia)">${refNo[f]}</a>`; }).join("");
+    return s.kind === "record" ? `<a class="exh-ref" href="#/record/${s.id}" aria-label="Exhibit ${c.exhibits[s.id]}: ${esc(s.title)}">${c.exhibits[s.id]}${card(s)}</a>`
+      : `<a class="exh-ref ref" href="${s.url}" target="_blank" rel="noopener" aria-label="Reference ${refNo[f]}: ${esc(s.title)} (Wikipedia)">${refNo[f]}${card(s)}</a>`; }).join("");
   const findings = r.paragraphs.map((p) => `<p>${p.map((s) => `<span class="inq-claim${s.own_knowledge ? " unv" : s.weakly_supported ? " weak" : ""}"
       ${s.weakly_supported ? `title="Few of its words occur in the cited source (support ${s.support})"` : ""}>${esc(s.text)}${marks(s.sources)}${s.own_knowledge
       ? `<span class="inq-unv" title="No source of this inquiry states it: Apertus' own knowledge">unverified</span>` : ""}</span>`).join(" ")}</p>`).join("");
-  const exhibits = r.sources.filter((s) => s.kind === "record").map((s) => `<a class="inq-exhibit" href="#/record/${s.id}">
-      <span class="inq-tag">Exhibit ${c.exhibits[s.id]}</span>
-      <span class="inq-ex-type">${icon(TYPE_ICON[s.document_type] || "file")} ${esc(s.document_type)} · ${esc(s.source_level)} source</span>
-      <b>${esc(s.title)}</b><span class="inq-ex-meta">${fmtDate(s.date)} · <code>${esc(s.reference_code)}</code></span></a>`).join("");
-  const refs = r.sources.filter((s) => s.kind === "wikipedia").map((s) => `<a class="inq-exhibit ref" href="${s.url}" target="_blank" rel="noopener">
-      <span class="inq-tag">Reference ${refNo[s.ref]}</span><span class="inq-ex-type">${icon("book")} Wikipedia (${esc(s.lang)}) · tertiary · CC BY-SA</span>
-      <b>${esc(s.title)}</b></a>`).join("");
   const v = verdictOf(r);
   return `<article class="inq-report case-turn">
     <p class="inq-q"><span>Inquiry ${n}</span>“${esc(t.q)}”</p>
     <div class="inq-findings">${findings || "<p>No report could be drafted.</p>"}</div>
     <span class="inq-stamp ${v === "context" ? "partial" : v}">${STAMP[v]}</span>
-    ${exhibits || refs ? `<div class="inq-exhibits case-exhibits">${exhibits}${refs}</div>` : ""}
     <p class="inq-report-foot">Drafted by Apertus${r.model ? ` (${esc(r.model)})` : ""}${r.seconds ? ` in ${r.seconds} s` : ""} from ${r.offered.records} file${r.offered.records === 1 ? "" : "s"} pulled
-      from the stacks and ${r.offered.wikipedia} reference work${r.offered.wikipedia === 1 ? "" : "s"}. Letters point to exhibits, numbers to references;
+      from the stacks and ${r.offered.wikipedia} reference work${r.offered.wikipedia === 1 ? "" : "s"}. Letters point to exhibits, numbers to references (hover or tap one to see it);
       ${r.own_knowledge_sentences ? `${r.own_knowledge_sentences} claim${r.own_knowledge_sentences > 1 ? "s" : ""} with neither ${r.own_knowledge_sentences > 1 ? "are" : "is"} marked unverified.` : "every claim points to one."}</p>
   </article>`;
 }
 
+function wireExhibitCards() {
+  if (window.__exhCards) return;
+  window.__exhCards = true;
+  const tip = document.createElement("div");
+  tip.className = "exh-tip"; tip.hidden = true; tip.setAttribute("role", "tooltip");
+  document.body.append(tip);
+  let cur = null, touch = false;
+  const hide = () => { tip.hidden = true; cur = null; };
+  const show = (a) => {
+    const cardEl = a.querySelector(".exh-card");
+    if (!cardEl) return;
+    cur = a; tip.className = "exh-tip" + (cardEl.classList.contains("ref") ? " ref" : ""); tip.innerHTML = cardEl.innerHTML; tip.hidden = false;
+    const r = a.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+    const left = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), innerWidth - w - 8);
+    const top = r.top - h - 8 >= 8 ? r.top - h - 8 : r.bottom + 8;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  };
+  const refOf = (e) => e.target.closest?.(".exh-ref");
+  document.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; if (!refOf(e) && !e.target.closest?.(".exh-tip")) hide(); });
+  document.addEventListener("pointerover", (e) => { const a = refOf(e); if (a && e.pointerType === "mouse") show(a); });
+  document.addEventListener("pointerout", (e) => { const a = refOf(e); if (a && e.pointerType === "mouse" && !a.contains(e.relatedTarget)) hide(); });
+  document.addEventListener("focusin", (e) => { const a = refOf(e); if (a && !touch) show(a); });
+  document.addEventListener("focusout", (e) => { if (refOf(e)) hide(); });
+  document.addEventListener("click", (e) => { const a = refOf(e); if (a && touch && cur !== a) { e.preventDefault(); show(a); } });
+  document.addEventListener("scroll", hide, true);
+  addEventListener("hashchange", hide);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") hide(); });
+}
+
 async function askPage(params) {
+  wireExhibitCards();
   setNav("ask");
+  // the desk fits the screen under the top bar: the page itself does not scroll, the case and the board do
+  const fitHdr = () => document.documentElement.style.setProperty("--hdr", $(".topbar").offsetHeight + "px");
+  fitHdr(); document.body.classList.add("fit-page");
+  if (!window.__fitWired) { window.__fitWired = true; addEventListener("resize", fitHdr); }
   let c = loadChat();
   const rec = params.get("record"), reopen = params.get("case");
   if (reopen) { const found = savedCases().find((x) => x.id === reopen); if (found) c = { exhibits: {}, ...found }; }
@@ -1112,6 +1056,9 @@ async function askPage(params) {
     </div></div>`;
   const thread = $("#thread"), ta = $("#caseq");
   let tick = null;
+  // the thread scrolls on its own, not the page: open on the latest inquiry (its question, then the answer below it)
+  const toLatest = (smooth) => { const t = thread.querySelectorAll(".case-turn")[c.turns.length - 1];
+    if (t) thread.scrollTo({ top: t.offsetTop - 6, behavior: smooth ? "smooth" : "auto" }); };
   const render = () => {
     $("#casetab").textContent = `Case file Nº ${c.turns.length ? caseNumber(c) : "— new —"}${c.turns.length ? ` · opened ${openedOn(c)} · ${c.turns.length} inquir${c.turns.length === 1 ? "y" : "ies"}` : ""}`;
     $("#caselabel").textContent = c.turns.length ? "Next line of inquiry" : "Line of inquiry";
@@ -1140,7 +1087,7 @@ async function askPage(params) {
     if (q.length < 2 || $("#casebtn").disabled) return;
     const turn = { q, response: null };
     c.turns.push(turn); render(); busy(true);
-    thread.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "start" });
+    toLatest(true);
     const messages = c.turns.flatMap((t) => [{ role: "user", content: t.q }, ...(t.response ? [{ role: "assistant", content: t.response.answer }] : [])]);
     try {
       turn.response = await api("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages, record: c.record }) });
@@ -1149,10 +1096,11 @@ async function askPage(params) {
     saveChat(c);
     if (!$("#thread")) return;  // the user left the page; the case is saved
     render(); busy(false);
-    thread.querySelectorAll(".case-turn")[c.turns.length - 1]?.scrollIntoView({ behavior: "smooth", block: "start" });
-    ta.focus();
+    toLatest(true);
+    ta.focus({ preventScroll: true });
   }
   render();
+  toLatest(false);
   ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#caseform").requestSubmit(); } };
   $("#caseform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; send(q); };
   $("#newcase").onclick = () => { c = newCase(c.record); saveChat(c); history.replaceState(null, "", "#/ask"); render(); ta.focus(); };
@@ -1439,12 +1387,16 @@ async function route() {
   const h = location.hash.slice(1) || "/";
   const [path, query] = h.split("?");
   const parts = path.split("/").filter(Boolean);
+  document.body.classList.remove("fit-page");
   app.innerHTML = `<p class="muted"><span class="spinner"></span> Loading…</p>`;
   try {
     if (!parts.length) await home();
     else if (parts[0] === "search") await search(new URLSearchParams(query || ""));
     else if (parts[0] === "record") await recordPage(parts[1], parts[2]);
-    else if (parts[0] === "map") await mapPage(new URLSearchParams(query || ""));
+    else if (parts[0] === "map") {  // the map page was folded into search; old links open search with the map and keep their filters
+      const p = new URLSearchParams(query || ""); ["from", "to", "w"].forEach((k) => p.delete(k)); p.set("map", "1");
+      location.replace("#/search?" + p.toString()); return;
+    }
     else if (parts[0] === "quality") await qualityPage();
     else if (parts[0] === "live") await livePage();
     else if (parts[0] === "ask") await askPage(new URLSearchParams(query || ""));
