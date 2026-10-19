@@ -140,7 +140,7 @@ jupyter notebook notebooks/demo.ipynb
 
 ## License
 
-Creative Commons Attribution 4.0 (CC-BY-4.0). All HackApertus projects are open-sourced.
+Apache License 2.0 (Apache-2.0), see [LICENSE](LICENSE). All HackApertus projects are open-sourced.
 
 ## References
 

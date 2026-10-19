@@ -115,7 +115,7 @@ def on_page(canv, doc):
 P("CORA: deciphering the Swiss Federal Archives with Apertus", "title")
 P("Technical report · <b>Red Pandas</b>: Giovanni Yazbeck, Alfredo Pio Yazbeck · University of Bern challenge "
   "<i>Deciphering Archives with Apertus</i>, Hack Apertus Liebefeld", "sub")
-P(f'Code and data: <font color="#B4161B">{REPO}</font> · Demo video: {DEMO_VIDEO} · Licence: CC BY 4.0', "sub")
+P(f'Code and data: <font color="#B4161B">{REPO}</font> · Demo video: {DEMO_VIDEO} · Licence: Apache-2.0', "sub")
 
 H1("1. Summary")
 P("The Archive database of the Swiss Federal Archives describes 263,123 item-level documents in dense German, French "
