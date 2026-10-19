@@ -9,7 +9,7 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Body, FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -236,17 +236,51 @@ def record(record_id: str):
     return _public(r) | {"_nav": {"prev": ids[i - 1] if i else None, "next": ids[i + 1] if i + 1 < len(ids) else None}}
 
 
-@app.get("/api/map", summary="All story points of all records (for the overview map)")
-def map_points():
+def _day_range(s: str | None) -> tuple[str, str] | None:
+    """'1914' -> (1914-01-01, 1914-12-31); '1985-10' -> month; '1985-10-22' -> that day; 'a/b' -> start of a, end of b."""
+    import calendar
+    if not s:
+        return None
+    parts = [p.strip() for p in str(s).split("/") if p.strip()]
+
+    def bounds(p):
+        m = re.match(r"^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?", p)
+        if not m:
+            return None
+        y, mo, d = int(m.group(1)), m.group(2), m.group(3)
+        if d:
+            return f"{y:04d}-{mo}-{d}", f"{y:04d}-{mo}-{d}"
+        if mo:
+            return f"{y:04d}-{mo}-01", f"{y:04d}-{mo}-{calendar.monthrange(y, int(mo))[1]:02d}"
+        return f"{y:04d}-01-01", f"{y:04d}-12-31"
+    b = [x for x in map(bounds, parts) if x]
+    return (b[0][0], b[-1][1]) if b else None
+
+
+MAP_LISTS = ["document_type", "source_level", "medium", "decade", "century", "level", "fonds", "language", "creator",
+             "publisher", "subject", "person", "place", "preprocessing", "qc", "sample", "flags"]
+
+
+@app.get("/api/map", summary="Located story events for the overview map, with the same filters as /api/records "
+                             "(q, in, date_from/date_to and every facet); each point has an exact start/end day")
+def map_points(request: Request):
+    qp = request.query_params
+    year = lambda k: int(qp[k]) if qp.get(k, "").isdigit() else None
+    kw = {k: qp.getlist(k) for k in MAP_LISTS}
+    keep = {r["id"] for r in search(q=qp.get("q", ""), in_=qp.get("in", "all"), date_from=year("date_from"),
+                                     date_to=year("date_to"), size=100000, **kw)["results"]}
     pts = []
     for r in RECORDS.values():
+        if r["id"] not in keep:
+            continue
+        rec_range = _day_range(r["metadata"].get("content_date") or r["metadata"].get("date_created"))
         for e in r.get("story", []):
             if e.get("lat") is not None and e["event"] not in ("accession", "holding"):
-                y = re.match(r"(\d{4})", r["metadata"].get("content_date") or r["metadata"].get("date_created") or "")
+                rng = _day_range(e.get("date")) or rec_range
                 pts.append({"id": r["id"], "title": r["metadata"].get("title_normalized") or r["metadata"]["title"],
-                            "year": int(y.group(1)) if y else None,
+                            "year": int(rng[0][:4]) if rng else None, "start": rng[0] if rng else None, "end": rng[1] if rng else None,
                             "document_type": r["classification"]["document_type"], **e})
-    return {"points": pts, "archive": classify.BAR_HOLDER}
+    return {"points": pts, "archive": classify.BAR_HOLDER, "records": len(keep)}
 
 
 @app.get("/api/stats", summary="Collection statistics")
@@ -319,6 +353,25 @@ def ask(q: str = Query(..., min_length=3), k: int = 6, record: str = Query("", d
     if record and record not in RECORDS:
         raise HTTPException(404, "unknown record")
     return qa.ask(QA_INDEX, _llm(), q, k, focus=record or None)
+
+
+@app.post("/api/chat", summary="Ask the archive as a conversation: Apertus answers from archive records and Wikipedia "
+                              "(body: {messages: [{role, content}], record?}); every sentence cites R#/W# or is marked own knowledge")
+def chat_turn(body: dict = Body(...)):
+    from . import chat as chat_mod
+    msgs = body.get("messages") or []
+    record = body.get("record") or None
+    if record and record not in RECORDS:
+        raise HTTPException(404, "unknown record")
+    try:
+        return chat_mod.chat(QA_INDEX, _llm_chat(), msgs, CFG, DATA, record=record)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+def _llm_chat():
+    l = CFG["llm"]
+    return Apertus(l["base_url"], l["api_key"], l["model"], 0.3, 2000, l["retries"])
 
 
 @app.get("/api/consultations", summary="Federal consultations 1960-1991 with Apertus topics/entities and procedure chains")

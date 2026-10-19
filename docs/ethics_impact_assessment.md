@@ -15,6 +15,7 @@
 ## Generated content
 - Everything Apertus writes is labelled as generated: résumés, Q&A answers, "See more" explanations and consultation tags. The trust card shows only **Evidence** (the record) and **Context** (reference works); it holds no generated text.
 - Q&A and "See more" explanations must cite record IDs or evidence items sentence by sentence. Uncited or weakly supported sentences are marked, not hidden.
+- "Ask the archive" is a conversation that may add historical context from Wikipedia (cited, CC BY-SA) and from the model's own knowledge. Sentences of the second kind carry no source and are shown dotted, as unverified, so a reader can tell the archive's evidence, the reference work and the model apart.
 - Wikidata person links are checked against life dates. A link to someone born after the document is rejected; this caught the link of a private 1853 individual to a 20th-century footballer. Organization links reject other-state homonyms and ambiguous acronyms.
 - Nothing about living private persons is inferred or linked: links require an exact match to a public-figure description and pass the life-date check, and the anonymization flag is person-centred.
 

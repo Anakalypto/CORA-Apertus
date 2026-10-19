@@ -368,11 +368,13 @@ async function search(params) {
     </div>
     ${advOn ? `<form class="advanced" id="advform">
       <div class="adv-grid">
-        <label>Words <span class="muted">in</span> <select name="in">${Object.entries(SEARCH_IN_LABEL).map(([k, l]) => `<option value="${k}" ${k === (params.get("in") || "all") ? "selected" : ""}>${l}</option>`).join("")}</select>
-          <input name="q" type="search" value="${esc(params.get("q") || "")}" placeholder="all of these words"></label>
-        <label>Date from <input name="date_from" type="number" min="${b[0]}" max="${b[1]}" placeholder="${b[0]}" value="${esc(params.get("date_from") || "")}">
-          to <input name="date_to" type="number" min="${b[0]}" max="${b[1]}" placeholder="${b[1]}" value="${esc(params.get("date_to") || "")}"></label>
-        ${ADV_FIELDS.map((k) => `<label>${FACET_TITLES[k]} <input name="${k}" list="dl-${k}" placeholder="any"><datalist id="dl-${k}">${options(k)}</datalist></label>`).join("")}
+        <div class="adv-f adv-words"><label for="adv-q">Words</label>
+          <div class="adv-row"><select name="in" aria-label="Search in">${Object.entries(SEARCH_IN_LABEL).map(([k, l]) => `<option value="${k}" ${k === (params.get("in") || "all") ? "selected" : ""}>${l}</option>`).join("")}</select>
+            <input id="adv-q" name="q" type="search" value="${esc(params.get("q") || "")}" placeholder="all of these words"></div></div>
+        <div class="adv-f"><label for="adv-date_from">Date</label>
+          <div class="adv-row"><input id="adv-date_from" name="date_from" type="number" inputmode="numeric" min="${b[0]}" max="${b[1]}" placeholder="${b[0]}" value="${esc(params.get("date_from") || "")}" aria-label="From year">
+            <span class="muted">to</span> <input name="date_to" type="number" inputmode="numeric" min="${b[0]}" max="${b[1]}" placeholder="${b[1]}" value="${esc(params.get("date_to") || "")}" aria-label="To year"></div></div>
+        ${ADV_FIELDS.map((k) => `<div class="adv-f"><label for="adv-${k}">${FACET_TITLES[k]}</label><input id="adv-${k}" name="${k}" list="dl-${k}" placeholder="any"><datalist id="dl-${k}">${options(k)}</datalist></div>`).join("")}
       </div>
       <div class="adv-actions"><button type="submit">Apply</button> <a href="#/search?adv=1">Reset all</a>
         <span class="small muted">Dates match records whose date range overlaps the period. Author, publisher, subject, person and place add an include flag; pick a suggestion for an exact value.</span></div>
@@ -670,36 +672,67 @@ async function topicPanel(r) {
 }
 
 /* ---------------- Overview map with time slider ---------------- */
-async function mapPage() {
+/* ---------------- Overview map: a date window of at most one year, filters, historical base maps ---------------- */
+const DAY = 86400000;
+const isoDay = (d) => d.toISOString().slice(0, 10);
+const parseDay = (s) => new Date(s + "T00:00:00Z");
+const addMonths = (d, n) => { const x = new Date(d); x.setUTCMonth(x.getUTCMonth() + n); return x; };
+const WINDOWS = { "1 day": [0, 0], "1 week": [0, 6], "1 month": [1, -1], "3 months": [3, -1], "6 months": [6, -1], "1 year": [12, -1] };
+const windowEnd = (from, w) => { const [m, d] = WINDOWS[w]; return new Date((m ? addMonths(from, m) : from).getTime() + d * DAY); };
+const MAP_FILTERS = ["document_type", "source_level", "medium", "century", "level", "flags", "fonds", "creator", "subject", "person", "place"];
+const fmtLong = (s) => parseDay(s).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+
+async function mapPage(params) {
   setNav("map");
-  const [{ points, archive }, zr] = await Promise.all([api("/api/map"), fetch("assets/zeitreihen_years.json").then((r) => r.json())]);
-  const years = points.map((p) => p.year).filter(Boolean);
-  const minY = Math.min(...years), maxY = Math.max(...years);
-  app.innerHTML = `<h1>Where the documents come from</h1>
-    <p class="muted">Every place Apertus identified as where a document was made, depicted or published, located with the OpenStreetMap gazetteer.
-    Move the slider: documents appear by date, and inside Switzerland the base map becomes the swisstopo national map of that time.</p>
-    <div class="slider-bar">
-      <button id="play" title="Play">${icon("play")}</button>
-      <input type="range" id="year" min="${minY}" max="${maxY}" value="${maxY}" step="1">
-      <b id="yearlab">${maxY}</b>
-      <label class="small"><input type="checkbox" id="cumul" checked> show all documents up to this year</label>
+  const filterQs = () => { const p = new URLSearchParams(); for (const [k, v] of params) if (MAP_FILTERS.includes(k) || ["q", "in"].includes(k)) p.append(k, v); return p; };
+  const [data, zr, facets] = await Promise.all([api("/api/map?" + filterQs()), fetch("assets/zeitreihen_years.json").then((r) => r.json()),
+    api("/api/records?size=0&" + filterQs())]);
+  let { points, archive } = data;
+  const dated = () => points.filter((p) => p.start);
+  const bounds = () => { const d = dated(); return d.length ? [d.reduce((a, p) => (p.start < a ? p.start : a), "9999"), d.reduce((a, p) => (p.end > a ? p.end : a), "0000")] : ["1900-01-01", "2020-12-31"]; };
+  // default window: the calendar year in which most located events start
+  const busiest = () => { const c = {}; dated().forEach((p) => (c[p.start.slice(0, 4)] = (c[p.start.slice(0, 4)] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1])[0]?.[0] || "1914"; };
+  let win = WINDOWS[params.get("w")] ? params.get("w") : "1 year";
+  let from = params.get("from") ? parseDay(params.get("from")) : parseDay(busiest() + "-01-01");
+  let to = params.get("to") ? parseDay(params.get("to")) : windowEnd(from, win);
+  const opts = (k) => (facets.facets[k] || []).filter(([v]) => v !== "unknown").map(([v, n]) => `<option value="${esc(String(v))}" ${params.get(k) === String(v) ? "selected" : ""}>${esc(facetLabel(k, String(v)))} (${n})</option>`).join("");
+  const nActive = MAP_FILTERS.filter((k) => params.get(k)).length + (params.get("q") ? 1 : 0);
+
+  app.innerHTML = `<div class="mapwrap">
+    <div class="maptools">
+      <div class="mt-dates">
+        <button type="button" class="mt-step" id="prev" title="Previous window" aria-label="Previous window">‹</button>
+        <label>From <input type="date" id="dfrom"></label>
+        <label>To <input type="date" id="dto"></label>
+        <button type="button" class="mt-step" id="next" title="Next window" aria-label="Next window">›</button>
+        <select id="win" title="Window length" aria-label="Window length">${Object.keys(WINDOWS).map((w) => `<option ${w === win ? "selected" : ""}>${w}</option>`).join("")}</select>
+        <button type="button" id="play" class="mt-play" title="Play">${icon("play")}</button>
+      </div>
+      <input type="range" id="scrub" class="mt-scrub" aria-label="Move the window through time">
+      <details class="pill mapfilters ${nActive ? "on" : ""}" id="mapfilters"><summary>Filters${nActive ? ` <b class="fcount">${nActive}</b>` : ""} <span class="caret">▾</span></summary>
+        <form class="pop wide mf-form" id="mf">
+          <label>Words <select name="in">${Object.entries(SEARCH_IN_LABEL).map(([k, l]) => `<option value="${k}" ${(params.get("in") || "all") === k ? "selected" : ""}>${l}</option>`).join("")}</select>
+            <input type="search" name="q" value="${esc(params.get("q") || "")}" placeholder="any words"></label>
+          ${MAP_FILTERS.map((k) => (facets.facets[k] || []).length ? `<label>${FACET_TITLES[k]} <select name="${k}"><option value="">any</option>${opts(k)}</select></label>` : "").join("")}
+          <div class="mf-actions"><button>Apply</button> <a href="#/map" id="mfreset">Reset</a></div>
+        </form></details>
     </div>
-    <div class="small basemap-lab" id="baselab"></div>
-    <div class="legend">${["creation", "depicted", "publication", "holding"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}</div>
-    <div id="bigmap" class="map big"></div>
-    <p class="small muted" id="countlab"></p>`;
-  const nearest = (y) => {
-    const before = zr.years.filter((v) => v <= y);
-    return before.length ? before[before.length - 1] : zr.years[0];
-  };
+    <div id="bigmap" class="map fill"></div>
+    <div class="mapfoot">
+      <div class="legend">${["creation", "depicted", "publication", "holding"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}
+        <span><i class="ring"></i>dated only to a longer period overlapping the window</span></div>
+      <p class="small" id="countlab"></p>
+      <p class="small basemap-lab" id="baselab"></p>
+    </div></div>`;
+
+  const nearest = (y) => { const before = zr.years.filter((v) => v <= y); return before.length ? before[before.length - 1] : zr.years[0]; };
   const bar = [archive.lon, archive.lat];
-  const all = points.map((p, i) => ({ p, i }));
   let vis = [], shownBase = null;
   const fc = (features) => ({ type: "FeatureCollection", features });
   const paint = (m) => {
     if (!m.getSource("docs")) return;
     m.getSource("links").setData(fc(vis.map(({ p }) => ({ type: "Feature", geometry: { type: "LineString", coordinates: [[p.lon, p.lat], bar] } }))));
-    m.getSource("docs").setData(fc(vis.map(({ p, i }) => ({ type: "Feature", properties: { i, event: p.event }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } }))));
+    m.getSource("docs").setData(fc(vis.map(({ p, i, exact }) => ({ type: "Feature", properties: { i, event: p.event, exact }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } }))));
   };
   const setHist = (m) => {
     if (shownBase == null) return;
@@ -708,53 +741,109 @@ async function mapPage() {
       tiles: [`https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/${shownBase}1231/3857/{z}/{x}/{y}.png`] });
     m.addLayer({ id: "hist", type: "raster", source: "hist" }, "links");
   };
-  const map = baseMap($("#bigmap"), (m) => {
+  const COLORS = ["match", ["get", "event"], "creation", "#8a1c7c", "depicted", "#1d5fa6", "publication", "#a05a00", "#444"];
+  const el = $("#bigmap");
+  const fit = () => {  // the map takes the height left on screen under the tools, above its footer
+    const foot = $(".mapfoot")?.offsetHeight || 0;
+    el.style.height = Math.max(360, innerHeight - el.getBoundingClientRect().top - foot - 12) + "px";
+    map?.resize();
+  };
+  let map = null;
+  fit();
+  map = baseMap(el, (m) => {
     m.addSource("links", { type: "geojson", data: fc([]) });
     m.addLayer({ id: "links", type: "line", source: "links", paint: { "line-color": "#b5121b", "line-width": 1, "line-opacity": 0.3 } });
     m.addSource("docs", { type: "geojson", data: fc([]) });
     m.addLayer({ id: "docs", type: "circle", source: "docs", paint: {
-      "circle-radius": 6, "circle-stroke-width": 2, "circle-stroke-color": "#fff", "circle-opacity": 0.9,
-      "circle-color": ["match", ["get", "event"], "creation", "#8a1c7c", "depicted", "#1d5fa6", "publication", "#a05a00", "#444"] } });
+      "circle-radius": 6, "circle-stroke-width": ["case", ["get", "exact"], 2, 2.5], "circle-opacity": ["case", ["get", "exact"], 0.9, 0],
+      "circle-stroke-color": ["case", ["get", "exact"], "#fff", COLORS], "circle-color": COLORS } });
     setHist(m);
     paint(m);
-  }, { center: [8.2, 46.8], zoom: 7 });  // Switzerland, where the historical base maps exist; zoom out for the rest of the world
+  }, { center: [8.2, 46.8], zoom: 7 });
+  addEventListener("resize", fit);
+  window.addEventListener("hashchange", () => removeEventListener("resize", fit), { once: true });
   new maplibregl.Marker({ element: eventIcon({ event: "holding" }, {}, 0) }).setLngLat(bar)
     .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`)).addTo(map);
   map.on("click", "docs", (e) => {
     const p = points[e.features[0].properties.i];
     new maplibregl.Popup({ offset: 8 }).setLngLat([p.lon, p.lat])
-      .setHTML(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date)}`).addTo(map);
+      .setHTML(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date || p.start)}`).addTo(map);
   });
   map.on("mouseenter", "docs", () => { map.getCanvas().style.cursor = "pointer"; });
   map.on("mouseleave", "docs", () => { map.getCanvas().style.cursor = ""; });
-  const update = () => {
-    const y = +$("#year").value, cum = $("#cumul").checked;
-    $("#yearlab").textContent = y;
-    vis = all.filter(({ p }) => p.year && (cum ? p.year <= y : Math.abs(p.year - y) <= 5));
-    paint(map);
-    const n = nearest(y);
-    if (n !== shownBase) {
-      shownBase = n;
-      if (map.getSource("docs")) setHist(map);
-    }
-    const note = y < zr.years[0] ? `earliest available (${zr.years[0]}); no national map exists for ${y}` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
-    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: OpenStreetMap (today's swisstopo map or plain OpenStreetMap for the rest, switch at top left).`;
-    $("#countlab").textContent = `${vis.length} located events from ${new Set(vis.map(({ p }) => p.id)).size} documents ${cum ? `dated up to ${y}` : `dated ${y - 5}–${y + 5}`} (${points.filter((p) => !p.year).length} undated not shown).`;
+
+  // the scrubber moves the window start month by month across the dated events
+  const months = () => { const [a, b] = bounds(); const s = parseDay(a.slice(0, 7) + "-01"); const e = parseDay(b.slice(0, 7) + "-01");
+    return Math.max(0, (e.getUTCFullYear() - s.getUTCFullYear()) * 12 + e.getUTCMonth() - s.getUTCMonth()); };
+  const scrubStart = () => parseDay(bounds()[0].slice(0, 7) + "-01");
+  const clamp = (changed) => {  // keep 0 ≤ to − from ≤ one year
+    if (to < from) changed === "to" ? (from = new Date(to)) : (to = new Date(from));
+    const maxTo = new Date(addMonths(from, 12).getTime() - DAY);
+    if (to > maxTo) changed === "to" ? (from = new Date(addMonths(to, -12).getTime() + DAY)) : (to = maxTo);
   };
-  $("#year").oninput = update;
-  $("#cumul").onchange = update;
+  const remember = () => {
+    const p = filterQs(); p.set("from", isoDay(from)); p.set("to", isoDay(to)); if (win !== "1 year") p.set("w", win);
+    history.replaceState(null, "", "#/map?" + p.toString());
+  };
+  const update = () => {
+    const f = isoDay(from), t = isoDay(to);
+    $("#dfrom").value = f; $("#dto").value = t;
+    const [a, b] = bounds(); $("#dfrom").min = $("#dto").min = a; $("#dfrom").max = $("#dto").max = b;
+    $("#scrub").max = months();
+    $("#scrub").value = (from.getUTCFullYear() - scrubStart().getUTCFullYear()) * 12 + from.getUTCMonth() - scrubStart().getUTCMonth();
+    const span = (to - from) / DAY;
+    vis = points.map((p, i) => ({ p, i })).filter(({ p }) => p.start && p.start <= t && p.end >= f)
+      .map((x) => ({ ...x, exact: (parseDay(x.p.end) - parseDay(x.p.start)) / DAY <= span + 1 }));
+    paint(map);
+    const y = from.getUTCFullYear(), n = nearest(y);
+    if (n !== shownBase) { shownBase = n; if (map.getSource("docs")) setHist(map); }
+    const docs = new Set(vis.map(({ p }) => p.id)).size, exactN = vis.filter((v) => v.exact).length;
+    $("#countlab").innerHTML = `<b>${fmtLong(f)} – ${fmtLong(t)}</b> (${Math.round(span) + 1} day${span ? "s" : ""}, max. 1 year): ${vis.length} located event${vis.length === 1 ? "" : "s"} from ${docs} document${docs === 1 ? "" : "s"},
+      ${exactN} dated within the window. ${data.records} records match the filters; ${points.filter((p) => !p.start).length} undated events are not shown.`;
+    const note = y < zr.years[0] ? `the earliest available, ${zr.years[0]} (no national map exists for ${y})` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
+    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: OpenStreetMap
+      (today's swisstopo map or plain OpenStreetMap for the rest, switch at top left).`;
+    remember();
+  };
+  const shift = (dir) => {
+    if (WINDOWS[win][0]) { from = addMonths(from, dir * WINDOWS[win][0]); to = windowEnd(from, win); }
+    else { const d = (WINDOWS[win][1] + 1) * DAY * dir; from = new Date(from.getTime() + d); to = new Date(to.getTime() + d); }
+    update();
+  };
+  $("#dfrom").onchange = (e) => { if (e.target.value) { from = parseDay(e.target.value); clamp("from"); update(); } };
+  $("#dto").onchange = (e) => { if (e.target.value) { to = parseDay(e.target.value); clamp("to"); update(); } };
+  $("#win").onchange = (e) => { win = e.target.value; to = windowEnd(from, win); update(); };
+  $("#prev").onclick = () => shift(-1);
+  $("#next").onclick = () => shift(1);
+  $("#scrub").oninput = (e) => { from = addMonths(scrubStart(), +e.target.value); to = windowEnd(from, win); update(); };
   let timer = null;
   $("#play").onclick = () => {
     if (timer) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
-    if (+$("#year").value >= maxY) $("#year").value = minY;
+    if (isoDay(to) >= bounds()[1]) { from = scrubStart(); to = windowEnd(from, win); }
     $("#play").innerHTML = icon("pause");
     timer = setInterval(() => {
-      const v = +$("#year").value + 2;
-      if (v > maxY) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
-      $("#year").value = v; update();
-    }, 350);
+      if (!$("#play")) return clearInterval(timer);
+      if (isoDay(to) >= bounds()[1]) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
+      shift(1);
+    }, 700);
   };
+  // filters: re-query the points, keep the map and the window
+  $("#mf").onsubmit = async (e) => {
+    e.preventDefault();
+    const fd = new FormData(e.target), p = new URLSearchParams();
+    for (const [k, v] of fd) if (v && !(k === "in" && v === "all")) p.set(k, v);
+    params = p; $("#mapfilters").open = false;
+    const n = MAP_FILTERS.filter((k) => p.get(k)).length + (p.get("q") ? 1 : 0);
+    $("#mapfilters").classList.toggle("on", n > 0);
+    $("#mapfilters summary").innerHTML = `Filters${n ? ` <b class="fcount">${n}</b>` : ""} <span class="caret">▾</span>`;
+    const d = await api("/api/map?" + p.toString());
+    points = d.points; data.records = d.records;
+    update();
+  };
+  $("#mfreset").onclick = (e) => { e.preventDefault(); $("#mf").reset(); $("#mf").querySelectorAll("select").forEach((s) => (s.value = s.name === "in" ? "all" : "")); $("#mf").q.value = ""; $("#mf").requestSubmit(); };
+  clamp("from");
   update();
+  requestAnimationFrame(fit);
 }
 
 /* ---------------- Quality ---------------- */
@@ -934,57 +1023,97 @@ function caseReport(r, { mini = false, focus = null } = {}) {
       `<li><a href="#/record/${h.id}">${esc(h.id)}</a> <span class="muted">catalogue score ${h.score ?? "–"}${h.matched_terms?.length ? ` · matched ${esc(h.matched_terms.join(", "))}` : ""}</span></li>`).join("") || "<li class='muted'>None: every file pulled was cited.</li>"}</ul></details>` : ""}`;
 }
 
+/* Ask the archive: a conversation with Apertus over the records and Wikipedia ---------------- */
+const CHAT_KEY = "cora.chat";
+const loadChat = () => { try { return JSON.parse(sessionStorage.getItem(CHAT_KEY) || "null") || { record: null, turns: [] }; } catch { return { record: null, turns: [] }; } };
+const saveChat = (c) => { try { sessionStorage.setItem(CHAT_KEY, JSON.stringify(c)); } catch { /* storage unavailable: the chat lives for this page only */ } };
+
+function chatAnswer(t) {
+  const r = t.response;
+  if (t.error) return `<div class="chat-msg bot err"><p>Apertus could not answer: ${esc(t.error)}</p></div>`;
+  if (!r) return `<div class="chat-msg bot"><p class="small muted"><span class="spinner"></span> Searching the records and Wikipedia, Apertus is writing…</p></div>`;
+  const num = {}; r.sources.forEach((s, i) => (num[s.ref] = i + 1));
+  const cite = (refs) => refs.length ? `<sup class="fns">[${refs.map((f) => `<a href="#" data-ref="${f}">${num[f]}</a>`).join(",")}]</sup>` : "";
+  const para = (p) => `<p>${p.map((s) => `<span class="${s.own_knowledge ? "own" : s.weakly_supported ? "weak" : ""}" ${s.own_knowledge
+    ? 'title="Apertus\' own knowledge: no source of this turn states it"' : s.weakly_supported ? `title="Few of its words occur in the cited source (support ${s.support})"` : ""}>${esc(s.text)}${cite(s.sources)}</span>`).join(" ")}</p>`;
+  const src = (s) => s.kind === "record"
+    ? `<li data-ref="${s.ref}"><span class="srcn">${num[s.ref]}</span>${icon(TYPE_ICON[s.document_type] || "file")} <a href="#/record/${s.id}"><b>${esc(s.title)}</b></a>
+        <span class="muted small">${fmtDate(s.date)} · ${esc(s.document_type)} · ${esc(s.source_level)} source · <code>${esc(s.reference_code)}</code> · <a href="${s.portal_url}" target="_blank" rel="noopener">archive portal ↗</a></span></li>`
+    : `<li data-ref="${s.ref}"><span class="srcn">${num[s.ref]}</span>${icon("book")} <a href="${s.url}" target="_blank" rel="noopener"><b>${esc(s.title)}</b></a>
+        <span class="muted small">Wikipedia (${esc(s.lang)}) · CC BY-SA</span></li>`;
+  return `<div class="chat-msg bot">${r.paragraphs.map(para).join("") || "<p class='muted'>No answer.</p>"}
+    ${r.sources.length ? `<ol class="chat-src">${r.sources.map(src).join("")}</ol>` : ""}
+    <p class="chat-meta">${pv("apertus")} Generated from ${r.offered.records} archive record${r.offered.records === 1 ? "" : "s"} and ${r.offered.wikipedia} Wikipedia article${r.offered.wikipedia === 1 ? "" : "s"}${r.seconds ? ` in ${r.seconds} s` : ""}.
+      ${r.own_knowledge_sentences ? `<span class="own">Dotted</span>: ${r.own_knowledge_sentences} sentence${r.own_knowledge_sentences > 1 ? "s" : ""} from Apertus' own knowledge, not checked against a source.` : "Every sentence cites a source."}
+      ${r.weak_sentences ? ` <span class="weak">Wavy</span>: weakly supported by its source.` : ""}</p>
+    ${r.follow_ups?.length ? `<div class="chat-follow">${r.follow_ups.map((f) => `<button type="button" class="chip x">${esc(f)}</button>`).join("")}</div>` : ""}</div>`;
+}
+
 async function askPage(params) {
   setNav("ask");
-  const q = params.get("q") || "";
-  const focus = params.get("record") || "";
-  const leads = ["Which records concern the Swissair trial?", "What do the photographs of the 1914-1918 active service show?",
-    "Welche Vorstösse gab es zur Kinderbetreuung?", "What did Swiss television report about Uganda?", "Who won the 1966 World Cup?"];
-  const log = caseLog();
-  app.innerHTML = `<div class="inq">
-    <header class="inq-head">
-      <div class="inq-kicker">Swiss Federal Archives · Investigation desk</div>
-      <h1>Ask the archive</h1>
-      <p>You are the investigator. Write down a line of inquiry: the archivist pulls the matching files from the stacks,
-      Apertus drafts a report, and every claim in it points to an exhibit you can open. No file, no claim. ${pv("apertus")}</p>
+  let chat = loadChat();
+  const rec = params.get("record");
+  if (rec && chat.record !== rec) chat = { record: rec, turns: [] };
+  if (!rec && chat.record && params.get("q")) chat = { record: null, turns: [] };
+  const starters = ["What do the photographs of the Swiss Active Service 1914–1918 show, and who commanded the army?",
+    "Why did Swiss men reject women's suffrage in 1959?", "What did Swiss television report about Indira Gandhi?",
+    "Welche Vorstösse gab es zur Kinderbetreuung?", "What was the Swissair trial about?"];
+  app.innerHTML = `<div class="chat">
+    <header class="chat-head">
+      <div><h1>Ask the archive</h1>
+        <p class="muted">Talk with Apertus about the records of the Swiss Federal Archives and their historical context. Each answer draws on the archive's records
+        and on Wikipedia, and every sentence shows its source; sentences from the model's own knowledge are marked.</p></div>
+      <button type="button" class="btn-ghost" id="newchat">${icon("refresh")} New conversation</button>
     </header>
-    <div class="inq-desk">
-      <form class="inq-folder" id="askform">
-        <div class="inq-tab">Case file Nº ${q ? caseNo(q) : "— new —"}</div>
-        ${focus ? `<p class="inq-focus">Case concerns record <a href="#/record/${esc(focus)}">${esc(focus)}</a> · <a href="#/ask${q ? "?q=" + encodeURIComponent(q) : ""}">search the whole archive instead</a></p>` : ""}
-        <label for="askq">Line of inquiry</label>
-        <textarea id="askq" rows="2" placeholder="e.g. What do the records show about Swiss football abroad?">${esc(q)}</textarea>
-        <div class="inq-folder-foot">
-          <span>Opened ${today()} · Investigator: you · Holdings: the classified records of CORA</span>
-          <button id="askbtn">Open the case</button>
-        </div>
-      </form>
-      <aside class="inq-board">
-        <h3>Open leads</h3>
-        <div class="inq-leads">${leads.map((x, i) => `<a class="inq-lead" href="#/ask?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join("")}</div>
-        ${log.length ? `<h3>Your case log</h3><ol class="inq-log">${log.map((c) => `<li><a href="#/ask?q=${encodeURIComponent(c.q)}">${esc(c.q)}</a> <span class="inq-v ${c.verdict}">${{ supported: "supported", partial: "partial", closed: "closed" }[c.verdict] || ""}</span></li>`).join("")}</ol>
-          <p class="small muted">Kept in this browser only.</p>` : ""}
-      </aside>
-    </div>
-    <div id="askout"></div></div>`;
-  const ta = $("#askq");
-  ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#askform").requestSubmit(); } };
-  $("#askform").onsubmit = (e) => { e.preventDefault(); const v = ta.value.trim(); if (v.length >= 3) location.hash = `#/ask?${focus ? `record=${encodeURIComponent(focus)}&` : ""}q=` + encodeURIComponent(v); };
-  if (!q) return;
-  const out = $("#askout");
-  const steps = ["Searching the catalogue", "Pulling the files from the stacks", "Apertus is drafting the report"];
-  out.innerHTML = `<ol class="inq-progress">${steps.map((s, i) => `<li data-i="${i}">${s}</li>`).join("")}</ol>`;
-  let i = 0; const tick = setInterval(() => { out.querySelectorAll(".inq-progress li").forEach((li) => li.classList.toggle("on", +li.dataset.i <= i)); i = Math.min(i + 1, steps.length - 1); }, 700);
-  try {
-    const r = await api(`/api/ask?${focus ? `record=${encodeURIComponent(focus)}&` : ""}q=` + encodeURIComponent(q));
-    clearInterval(tick);
-    if (!$("#askout")) return;
-    out.innerHTML = caseReport(r, { focus: focus || null });
-    logCase(q, !r.sentences.length ? "closed" : r.insufficient || !r.answered ? "partial" : "supported");
-  } catch (err) {
-    clearInterval(tick);
-    out.innerHTML = `<div class="callout">The archivist could not complete the search: ${esc(err.message)}</div>`;
+    ${chat.record ? `<p class="chat-focus">About record <a href="#/record/${esc(chat.record)}">${esc(chat.record)}</a>: it is always one of the sources. <a href="#/ask" id="unfocus">Ask about the whole archive instead</a></p>` : ""}
+    <div id="thread" class="chat-thread" aria-live="polite"></div>
+    <div class="chat-start" id="starters">${starters.map((s) => `<button type="button" class="chip x">${esc(s)}</button>`).join("")}</div>
+    <form class="chat-composer" id="chatform">
+      <textarea id="chatq" rows="1" placeholder="Ask a question, or follow up on the last answer…" aria-label="Your message"></textarea>
+      <button id="chatsend">Send</button>
+    </form>
+  </div>`;
+  const thread = $("#thread");
+  const render = () => {
+    thread.innerHTML = chat.turns.map((t) => `<div class="chat-msg me"><p>${esc(t.q)}</p></div>${chatAnswer(t)}`).join("");
+    $("#starters").hidden = chat.turns.length > 0;
+    thread.querySelectorAll(".chat-follow .chip").forEach((b) => (b.onclick = () => send(b.textContent)));
+    thread.querySelectorAll("sup.fns a").forEach((a) => (a.onclick = (e) => {
+      e.preventDefault();
+      const li = a.closest(".chat-msg").querySelector(`.chat-src li[data-ref="${a.dataset.ref}"]`);
+      if (li) { li.scrollIntoView({ behavior: "smooth", block: "center" }); li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1200); }
+    }));
+  };
+  const busy = (on) => { $("#chatsend").disabled = on; $("#chatq").disabled = on; };
+  async function send(q) {
+    q = q.trim();
+    if (q.length < 2 || $("#chatsend").disabled) return;
+    const turn = { q, response: null };
+    chat.turns.push(turn); render(); busy(true);
+    thread.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "end" });
+    const messages = chat.turns.flatMap((t) => [{ role: "user", content: t.q }, ...(t.response ? [{ role: "assistant", content: t.response.answer }] : [])]);
+    try {
+      turn.response = await api("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages, record: chat.record }) });
+    } catch (err) { turn.error = err.message; }
+    saveChat(chat);
+    if (!$("#thread")) return;  // the user navigated away
+    render(); busy(false);
+    thread.querySelectorAll(".chat-msg.me")[chat.turns.length - 1]?.scrollIntoView({ behavior: "smooth", block: "start" });
+    $("#chatq").focus();
   }
+  render();
+  const ta = $("#chatq");
+  ta.oninput = () => { ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight, 160) + "px"; };
+  ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#chatform").requestSubmit(); } };
+  $("#chatform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; ta.style.height = "auto"; send(q); };
+  $("#starters").querySelectorAll(".chip").forEach((b) => (b.onclick = () => send(b.textContent)));
+  $("#newchat").onclick = () => { chat = { record: chat.record, turns: [] }; saveChat(chat); render(); ta.focus(); };
+  const unf = $("#unfocus"); if (unf) unf.onclick = () => saveChat({ record: null, turns: [] });
+  // links of the form #/ask?q=… (home page, record pages) start or continue the conversation with that question
+  const q0 = params.get("q");
+  if (q0 && chat.turns.at(-1)?.q !== q0) send(q0);
+  else if (chat.turns.length) thread.lastElementChild?.scrollIntoView({ block: "end" });
+  saveChat(chat);
 }
 
 /* "Investigate this record": the same desk, focused on the record in view. */
@@ -1269,7 +1398,7 @@ async function route() {
     if (!parts.length) await home();
     else if (parts[0] === "search") await search(new URLSearchParams(query || ""));
     else if (parts[0] === "record") await recordPage(parts[1], parts[2]);
-    else if (parts[0] === "map") await mapPage();
+    else if (parts[0] === "map") await mapPage(new URLSearchParams(query || ""));
     else if (parts[0] === "quality") await qualityPage();
     else if (parts[0] === "live") await livePage();
     else if (parts[0] === "ask") await askPage(new URLSearchParams(query || ""));
@@ -1283,6 +1412,12 @@ async function route() {
   window.scrollTo(0, 0);
 }
 $("#searchform").onsubmit = searchFromHeader;
+$(".advlink").onclick = (e) => {  // open the advanced panel on the current search instead of a blank one
+  e.preventDefault();
+  const p = location.hash.startsWith("#/search") ? new URLSearchParams(location.hash.split("?")[1] || "") : new URLSearchParams();
+  p.set("adv", "1");
+  location.hash = "#/search?" + p.toString();
+};
 $("#qin").onchange = () => { if (location.hash.startsWith("#/search")) $("#searchform").requestSubmit(); };
 window.addEventListener("hashchange", route);
 route();
