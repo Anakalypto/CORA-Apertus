@@ -40,6 +40,24 @@ def _load():
             json.dumps(r["source"]["original"], ensure_ascii=False)])))
         y = re.match(r"(\d{4})", m.get("content_date") or m.get("date_created") or "")
         r["_decade"] = f"{y.group(1)[:3]}0s" if y else "unknown"
+        c_ = int(y.group(1)) // 100 + 1 if y else None
+        r["_century"] = f"{c_}{'st' if c_ % 10 == 1 and c_ != 11 else 'nd' if c_ % 10 == 2 and c_ != 12 else 'rd' if c_ % 10 == 3 and c_ != 13 else 'th'} century" if y else "unknown"
+        years = [int(x) for x in re.findall(r"\d{4}", m.get("content_date") or m.get("date_created") or "")]
+        r["_years"] = (min(years), max(years)) if years else None
+        # Gallica-style field search ("Search in"): one folded string per field
+        persons = [p.get("display_name") or p["name"] for p in r["entities"]["persons"]]
+        r["_fields"] = {k: _fold(" ".join(filter(None, v))) for k, v in {
+            "title": [m["title"], m.get("title_normalized"), m.get("title_en")],
+            "creator": [m.get("creator"), r["source"]["original"].get("author")],
+            "publisher": [m.get("publisher"), r["source"]["original"].get("publisher")],
+            "subject": list(m.get("subjects") or []) + [r["source"]["original"].get("thema")],
+            "person": persons + [p["name"] for p in r["entities"]["persons"]],
+            "place": [p["name"] for p in r["entities"]["places"]] + [p.get("as_written") for p in r["entities"]["places"]]
+                     + [r["source"]["original"].get("coverage")],
+            "reference": [r["source"]["reference_code"], r["id"], r["source"]["original"].get("old_reference_code")]
+                         + list(r["archival_location"].get("accession_numbers") or []),
+            "resume": [c.get("resume"), r["source"]["original"].get("scope_and_content")],
+        }.items()}
     return {r["id"]: r for r in recs}
 
 
@@ -88,7 +106,15 @@ FACETS = {
     "source_level": lambda r: r["classification"]["source_level"],
     "medium": lambda r: r["classification"]["medium"],
     "decade": lambda r: r["_decade"],
+    "century": lambda r: r["_century"],
+    "level": lambda r: r["source"].get("level") or "Document",
     "fonds": lambda r: r["archival_location"].get("fonds") or "unknown",
+    # Gallica's author / publisher / subject / place facets
+    "creator": lambda r: r["metadata"].get("creator") or "unknown",
+    "publisher": lambda r: r["metadata"].get("publisher") or "unknown",
+    "subject": lambda r: list(dict.fromkeys(r["metadata"].get("subjects") or [])),
+    "person": lambda r: list(dict.fromkeys(p.get("display_name") or p["name"] for p in r["entities"]["persons"])),
+    "place": lambda r: list(dict.fromkeys(p["name"] for p in r["entities"]["places"])),
     "language": lambda r: (r["metadata"].get("languages") or ["unknown"])[0],
     "preprocessing": lambda r: [k for k, v in (r.get("preprocessing") or {}).items() if v["needed"]],
     "qc": lambda r: "passed" if r["qc"].get("ok") else "issues",
@@ -100,8 +126,11 @@ FACETS = {
         ("wikidata_links", any(e.get("wikidata") for e in r["entities"]["persons"] + r["entities"]["organizations"])),
         ("personal_data", (r.get("personal_data") or {}).get("contains_personal_data")),
         ("has_cover", bool(r.get("cover"))),
+        ("has_description", bool(r["source"]["original"].get("scope_and_content"))),  # Gallica's "mode texte"
     ) if on],
 }
+SEARCH_IN = ["all", "title", "creator", "publisher", "subject", "person", "place", "reference", "resume"]
+SORTS = ["relevance", "date_asc", "date_desc", "title", "creator"]
 
 
 def _public(r: dict) -> dict:
@@ -136,22 +165,47 @@ def _matches(r: dict, filters: dict, skip: str | None = None) -> bool:
     return True
 
 
-@app.get("/api/records", summary="Search records (full text + filter flags; repeat a parameter to OR values, prefix '!' to exclude)")
-def search(q: str = "", document_type: list[str] = Query([]), source_level: list[str] = Query([]), medium: list[str] = Query([]),
-           decade: list[str] = Query([]), fonds: list[str] = Query([]), language: list[str] = Query([]),
-           preprocessing: list[str] = Query([]), qc: list[str] = Query([]), sample: list[str] = Query([]), flags: list[str] = Query([]),
-           sort: str = Query("relevance", enum=["relevance", "date", "title"]), page: int = 1, size: int = 20):
-    filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade, fonds=fonds,
-                   language=language, preprocessing=preprocessing, qc=qc, sample=sample, flags=flags)
+@app.get("/api/records", summary="Search records: full text or one field (in=), date range, filter flags "
+                                  "(repeat a parameter to OR values, prefix '!' to exclude)")
+def search(q: str = "", in_: str = Query("all", alias="in", enum=SEARCH_IN),
+           date_from: int | None = Query(None, ge=1000, le=2100), date_to: int | None = Query(None, ge=1000, le=2100),
+           document_type: list[str] = Query([]), source_level: list[str] = Query([]), medium: list[str] = Query([]),
+           decade: list[str] = Query([]), century: list[str] = Query([]), level: list[str] = Query([]),
+           fonds: list[str] = Query([]), language: list[str] = Query([]), creator: list[str] = Query([]),
+           publisher: list[str] = Query([]), subject: list[str] = Query([]), person: list[str] = Query([]),
+           place: list[str] = Query([]), preprocessing: list[str] = Query([]), qc: list[str] = Query([]),
+           sample: list[str] = Query([]), flags: list[str] = Query([]),
+           sort: str = Query("relevance", enum=SORTS + ["date"]), page: int = 1, size: int = Query(20, ge=0, le=100)):
+    filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade, century=century,
+                   level=level, fonds=fonds, language=language, creator=creator, publisher=publisher, subject=subject,
+                   person=person, place=place, preprocessing=preprocessing, qc=qc, sample=sample, flags=flags)
     # direct calls get the Query defaults; "document_type=" (empty) means no filter, as before
     filters = {k: [x for x in v if x and x != "!"] if isinstance(v, list) else [] for k, v in filters.items()}
+    in_ = in_ if isinstance(in_, str) and in_ in SEARCH_IN else "all"
+    date_from = date_from if isinstance(date_from, int) else None
+    date_to = date_to if isinstance(date_to, int) else None
+    size = size if isinstance(size, int) else 20
+    sort = sort if isinstance(sort, str) else "relevance"
     terms = _fold(q).split()
-    found = [r for r in RECORDS.values() if not terms or all(t in r["_text"] for t in terms)]
-    hits = [(sum(r["_text"].count(t) for t in terms), r) for r in found if _matches(r, filters)]
-    if sort == "date":
-        hits.sort(key=lambda h: h[1]["metadata"].get("content_date") or "9999")
+    text = (lambda r: r["_text"]) if in_ == "all" else (lambda r: r["_fields"][in_])
+
+    def in_range(r):  # Gallica's "date de … à …": the record's date range overlaps the requested one
+        if date_from is None and date_to is None:
+            return True
+        if not r["_years"]:
+            return False
+        return (date_from is None or r["_years"][1] >= date_from) and (date_to is None or r["_years"][0] <= date_to)
+
+    found = [r for r in RECORDS.values() if (not terms or all(t in text(r) for t in terms)) and in_range(r)]
+    hits = [(sum(text(r).count(t) for t in terms), r) for r in found if _matches(r, filters)]
+    if sort in ("date", "date_asc"):
+        hits.sort(key=lambda h: h[1]["_years"] or (9999, 9999))
+    elif sort == "date_desc":
+        hits.sort(key=lambda h: h[1]["_years"] or (-1, -1), reverse=True)
     elif sort == "title":
-        hits.sort(key=lambda h: _fold(h[1]["metadata"]["title"]))
+        hits.sort(key=lambda h: _fold(h[1]["metadata"].get("title_normalized") or h[1]["metadata"]["title"]))
+    elif sort == "creator":
+        hits.sort(key=lambda h: (not h[1]["metadata"].get("creator"), _fold(h[1]["metadata"].get("creator") or "")))
     else:
         hits.sort(key=lambda h: -h[0])
     # Counts per OR facet ignore that facet's own flags, so every value shows how many results ticking it would add;
@@ -164,9 +218,12 @@ def search(q: str = "", document_type: list[str] = Query([]), source_level: list
                 for x in (v if isinstance(v, list) else [v]):
                     facets[k][x] += 1
     start = (max(1, page) - 1) * size
+    yrs = [r["_years"] for r in RECORDS.values() if r["_years"]]
     return {"total": len(hits), "page": page, "size": size,
             "results": [_summary(r) for _, r in hits[start:start + size]],
-            "facets": {k: c.most_common() for k, c in facets.items()}}
+            "facets": {k: c.most_common() for k, c in facets.items()},
+            "date_bounds": [min(y[0] for y in yrs), max(y[1] for y in yrs)] if yrs else None,
+            "search_in": SEARCH_IN, "sorts": SORTS}
 
 
 @app.get("/api/records/{record_id}", summary="Full record: original metadata, classification, provenance, story")

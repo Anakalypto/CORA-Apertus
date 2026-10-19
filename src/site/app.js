@@ -279,69 +279,161 @@ async function home() {
     <div class="grid-cards">${featured.map((r) => `<a class="card" href="#/record/${r.id}">${cover(r)}<div class="t">${esc(r.title_en || r.title)}</div><div class="small muted">${fmtDate(r.date)}</div></a>`).join("")}</div>`;
 }
 
-/* ---------------- Search ---------------- */
-const FACET_TITLES = { flags: "Flags", document_type: "Document type", source_level: "Source level", medium: "Medium", decade: "Period", fonds: "Fonds", language: "Language", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group" };
-const FLAG_LABEL = { on_map: "Located on the map", story_map: "Has a story map", names_persons: "Names persons", wikidata_links: "Linked to Wikidata", personal_data: "Contains personal data", has_cover: "Has a cover image" };
+/* ---------------- Search: Gallica-style bar, filter flags and sort next to the search field ---------------- */
+const FACET_TITLES = {
+  flags: "Flags", document_type: "Document type", source_level: "Source level", medium: "Medium", century: "Century",
+  level: "Level", decade: "Decade", fonds: "Fonds", language: "Language", creator: "Author / creator", publisher: "Publisher",
+  subject: "Subject", person: "Person", place: "Place", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group",
+};
+const PRIMARY_FACETS = ["document_type", "source_level", "medium", "century", "level", "flags"];
+const FLAG_LABEL = { on_map: "Located on the map", story_map: "Has a story map", names_persons: "Names persons", wikidata_links: "Linked to Wikidata",
+  personal_data: "Contains personal data", has_cover: "Has a cover image", has_description: "Has description text" };
+const SEARCH_IN_LABEL = { all: "All fields", title: "Title", creator: "Author / creator", publisher: "Publisher", subject: "Subject",
+  person: "Person", place: "Place", reference: "Reference code", resume: "Résumé & description" };
+const SORT_LABEL = { relevance: "Relevance", date_asc: "Oldest first", date_desc: "Newest first", title: "Title A–Z", creator: "Author A–Z" };
+const ADV_FIELDS = ["creator", "publisher", "subject", "person", "place"];
 const facetLabel = (k, v) => (k === "preprocessing" ? PREP_LABEL[v] : k === "flags" ? FLAG_LABEL[v] : null) || v;
+const centuryNum = (c) => parseInt(c, 10) || 99;
+
+/* The header search keeps the current filters, field and sort when used on the search page (Gallica: refine within). */
+function searchFromHeader(e) {
+  e.preventDefault();
+  const onSearch = location.hash.startsWith("#/search");
+  const p = onSearch ? new URLSearchParams(location.hash.split("?")[1] || "") : new URLSearchParams();
+  const q = $("#q").value.trim(), where = $("#qin").value;
+  q ? p.set("q", q) : p.delete("q");
+  where && where !== "all" ? p.set("in", where) : p.delete("in");
+  p.delete("page");
+  location.hash = "#/search?" + p.toString();
+}
 
 async function search(params) {
   setNav("search");
+  const size = [10, 20, 50].includes(+params.get("size")) ? +params.get("size") : 20;
   $("#q").value = params.get("q") || "";
-  params.set("size", "20");
-  const res = await api("/api/records?" + params.toString());
-  const page = +(params.get("page") || 1);
+  $("#qin").value = params.get("in") || "all";
+  const api_p = new URLSearchParams(params); api_p.set("size", size); api_p.delete("adv");
+  const res = await api("/api/records?" + api_p.toString());
+  const page = +(params.get("page") || 1), sort = params.get("sort") === "date" ? "date_asc" : params.get("sort") || "relevance";
+  const href = (fn) => { const p = new URLSearchParams(params); p.delete("page"); fn(p); return "#/search?" + p.toString(); };
   // Filter flags: each value cycles off -> include -> exclude ("!value"); groups AND-ed, values OR-ed (AND in flags/preprocessing).
   const state = (k, v) => { const vs = params.getAll(k); return vs.includes(v) ? "inc" : vs.includes("!" + v) ? "exc" : "off"; };
-  const link = (k, v, to) => {
-    const p = new URLSearchParams(params); p.delete("page"); p.delete("size");
+  const link = (k, v, to) => href((p) => {
     const rest = p.getAll(k).filter((x) => x !== v && x !== "!" + v); p.delete(k);
     rest.forEach((x) => p.append(k, x));
     if (to === "inc") p.append(k, v); else if (to === "exc") p.append(k, "!" + v);
-    return "#/search?" + p.toString();
-  };
-  const clearAll = () => { const p = new URLSearchParams(params); Object.keys(FACET_TITLES).forEach((k) => p.delete(k)); p.delete("page"); p.delete("size"); return "#/search?" + p; };
-  const active = [...params.entries()].filter(([k]) => FACET_TITLES[k]);
+  });
   const NEXT = { off: "inc", inc: "exc", exc: "off" };
   const TIP = { off: "Click to include", inc: "Included · click to exclude", exc: "Excluded · click to clear" };
-  const facetHtml = Object.keys(FACET_TITLES).map((k) => {
-    const vals = (res.facets[k] || []).map(([v, n]) => [String(v), n]);
-    params.getAll(k).map((x) => x.replace(/^!/, "")).forEach((v) => { if (!vals.some(([w]) => w === v)) vals.push([v, 0]); });  // keep ticked flags visible at 0
+  const active = [...params.entries()].filter(([k]) => FACET_TITLES[k]);
+  const advOn = ["date_from", "date_to"].some((k) => params.get(k)) || params.get("adv") === "1";
+
+  const values = (k) => {
+    let vals = (res.facets[k] || []).map(([v, n]) => [String(v), n]);
+    if (k === "century") vals.sort((a, b) => centuryNum(a[0]) - centuryNum(b[0]));
+    if (k === "decade") vals.sort((a, b) => a[0].localeCompare(b[0]));
+    params.getAll(k).map((x) => x.replace(/^!/, "")).forEach((v) => { if (!vals.some(([w]) => w === v)) vals.push([v, 0]); });
+    return vals;
+  };
+  const row = (k) => ([v, n]) => { const st = state(k, v); return `<li data-v="${esc(facetLabel(k, v).toLowerCase())}"><a class="flag ${st}" href="${link(k, v, NEXT[st])}" title="${TIP[st]}" role="checkbox" aria-checked="${st === "inc" ? "true" : st === "exc" ? "mixed" : "false"}">
+      <i class="box">${st === "inc" ? "✓" : st === "exc" ? "−" : ""}</i><span>${esc(facetLabel(k, v))}</span><span>${n}</span></a></li>`; };
+  const pill = (k) => {
+    const vals = values(k);
     if (!vals.length) return "";
     const on = vals.filter(([v]) => state(k, v) !== "off").length;
-    const row = ([v, n]) => { const st = state(k, v); return `<li><a class="flag ${st}" href="${link(k, v, NEXT[st])}" title="${TIP[st]}" role="checkbox" aria-checked="${st === "inc" ? "true" : st === "exc" ? "mixed" : "false"}">
-        <i class="box">${st === "inc" ? "✓" : st === "exc" ? "−" : ""}</i><span>${esc(facetLabel(k, v))}</span><span>${n}</span></a></li>`; };
-    const shown = vals.filter(([v], i) => i < 8 || state(k, v) !== "off");
-    const more = vals.filter(([v], i) => i >= 8 && state(k, v) === "off");
-    return `<details class="fgroup" ${on || k === "flags" || k === "document_type" || k === "source_level" ? "open" : ""}><summary>${FACET_TITLES[k]}${on ? ` <b class="fcount">${on}</b>` : ""}</summary>
-      <ul>${shown.map(row).join("")}</ul>${more.length ? `<details class="fmore"><summary>${more.length} more</summary><ul>${more.map(row).join("")}</ul></details>` : ""}</details>`;
-  }).join("");
-  const pages = Math.ceil(res.total / 20);
+    const long = vals.length > 12;
+    return `<details class="pill ${on ? "on" : ""}" data-k="${k}"><summary>${FACET_TITLES[k]}${on ? ` <b class="fcount">${on}</b>` : ""} <span class="caret">▾</span></summary>
+      <div class="pop">${long ? `<input class="pfind" type="search" placeholder="Filter ${esc(FACET_TITLES[k].toLowerCase())}…" aria-label="Filter values">` : ""}
+        <ul>${vals.map(row(k)).join("")}</ul></div></details>`;
+  };
+  const more = Object.keys(FACET_TITLES).filter((k) => !PRIMARY_FACETS.includes(k));
+  const moreOn = more.reduce((n, k) => n + params.getAll(k).length, 0);
+  const b = res.date_bounds || [1400, 2025];
+  const options = (k) => (res.facets[k] || []).filter(([v]) => v !== "unknown").map(([v]) => `<option value="${esc(String(v))}">`).join("");
+
   app.innerHTML = `
-    <div class="layout">
-      <aside class="facets"><details class="refine" ${matchMedia("(max-width: 860px)").matches ? "" : "open"}><summary><h2>Refine${active.length ? ` <span class="muted small">(${active.length} active)</span>` : ""}</h2></summary>
-        <p class="small muted fhelp">Click a flag to include it (✓), again to exclude it (−), a third time to clear. Groups combine with AND; within a group, ticked values combine with OR, except Flags and Preprocessing, where a record must have all of them.${active.length ? ` <a href="${clearAll()}">Clear all</a>` : ""}</p>
-        ${facetHtml}</details></aside>
-      <section>
-        <div class="resbar">
-          <div><b>${res.total}</b> result${res.total === 1 ? "" : "s"}${params.get("q") ? ` for “${esc(params.get("q"))}”` : ""}</div>
-          <label class="small">Sort <select id="sort">${["relevance", "date", "title"].map((s) => `<option ${params.get("sort") === s ? "selected" : ""}>${s}</option>`).join("")}</select></label>
-        </div>
-        ${active.length ? `<div class="chips">${active.map(([k, v]) => { const exc = v.startsWith("!"), w = exc ? v.slice(1) : v; return `<a class="chip x ${exc ? "exc" : ""}" href="${link(k, w, "off")}">${FACET_TITLES[k]}: ${exc ? "not " : ""}${esc(facetLabel(k, w))} ${icon("x")}</a>`; }).join("")}</div>` : ""}
-        ${res.results.map((r) => `
-          <article class="result">
-            <a href="#/record/${r.id}">${cover(r)}</a>
-            <div>
-              <h3><a href="#/record/${r.id}">${esc(r.title_normalized || r.title)}</a></h3>
-              <div class="badges"><span class="badge">${esc(r.document_type)}</span><span class="badge lvl-${r.source_level}">${esc(r.source_level)} source</span>${r.qc_ok ? "" : `<span class="badge qc-bad">QC issue</span>`}${r.n_places ? `<span class="badge">${icon("pin")} ${r.n_places}</span>` : ""}</div>
-              <div class="meta-line"><b>Date</b> ${fmtDate(r.date)} · <b>Creator</b> ${esc(r.creator || "—")} · <b>Fonds</b> ${esc(r.fonds || "—")}</div>
-              <div class="meta-line muted small">${esc(r.reference_code)}</div>
-              ${r.resume ? `<p class="resume">${esc(r.resume)}</p>` : ""}
-            </div>
-          </article>`).join("") || `<p class="muted">No documents match.</p>`}
-        ${pages > 1 ? `<div class="pager">${Array.from({ length: pages }, (_, i) => i + 1).map((p) => p === page ? `<span class="cur">${p}</span>` : `<a href="${(() => { const q = new URLSearchParams(params); q.delete("size"); q.set("page", p); return "#/search?" + q; })()}">${p}</a>`).join("")}</div>` : ""}
-      </section>
-    </div>`;
-  $("#sort").onchange = (e) => { const p = new URLSearchParams(params); p.delete("size"); p.set("sort", e.target.value); location.hash = "#/search?" + p; };
+    <div class="filterbar" role="search" aria-label="Filters and sort">
+      <div class="pills">${PRIMARY_FACETS.map(pill).join("")}
+        <details class="pill morefilters ${moreOn ? "on" : ""}"><summary>More filters${moreOn ? ` <b class="fcount">${moreOn}</b>` : ""} <span class="caret">▾</span></summary>
+          <div class="pop wide">${more.map((k) => { const vals = values(k); if (!vals.length) return ""; const on = vals.filter(([v]) => state(k, v) !== "off").length;
+            return `<details class="fgroup" data-k="${k}" ${on ? "open" : ""}><summary>${FACET_TITLES[k]}${on ? ` <b class="fcount">${on}</b>` : ""}</summary>
+              ${vals.length > 12 ? `<input class="pfind" type="search" placeholder="Filter…" aria-label="Filter values">` : ""}<ul>${vals.map(row(k)).join("")}</ul></details>`; }).join("")}</div></details>
+        <a class="pill-link ${advOn ? "on" : ""}" href="${href((p) => (advOn ? (p.delete("adv"), p.delete("date_from"), p.delete("date_to")) : p.set("adv", "1")))}">${advOn ? "Hide advanced" : "Advanced search"}</a>
+      </div>
+      <div class="sortbar">
+        <span class="small muted">Sort</span>
+        <div class="seg" role="radiogroup" aria-label="Sort results">${Object.entries(SORT_LABEL).map(([k, l]) => `<a role="radio" aria-checked="${k === sort}" class="${k === sort ? "on" : ""}" href="${href((p) => (k === "relevance" ? p.delete("sort") : p.set("sort", k)))}">${l}</a>`).join("")}</div>
+        <label class="small muted">Per page <select id="psize">${[10, 20, 50].map((n) => `<option ${n === size ? "selected" : ""}>${n}</option>`).join("")}</select></label>
+      </div>
+    </div>
+    ${advOn ? `<form class="advanced" id="advform">
+      <div class="adv-grid">
+        <label>Words <span class="muted">in</span> <select name="in">${Object.entries(SEARCH_IN_LABEL).map(([k, l]) => `<option value="${k}" ${k === (params.get("in") || "all") ? "selected" : ""}>${l}</option>`).join("")}</select>
+          <input name="q" type="search" value="${esc(params.get("q") || "")}" placeholder="all of these words"></label>
+        <label>Date from <input name="date_from" type="number" min="${b[0]}" max="${b[1]}" placeholder="${b[0]}" value="${esc(params.get("date_from") || "")}">
+          to <input name="date_to" type="number" min="${b[0]}" max="${b[1]}" placeholder="${b[1]}" value="${esc(params.get("date_to") || "")}"></label>
+        ${ADV_FIELDS.map((k) => `<label>${FACET_TITLES[k]} <input name="${k}" list="dl-${k}" placeholder="any"><datalist id="dl-${k}">${options(k)}</datalist></label>`).join("")}
+      </div>
+      <div class="adv-actions"><button type="submit">Apply</button> <a href="#/search?adv=1">Reset all</a>
+        <span class="small muted">Dates match records whose date range overlaps the period. Author, publisher, subject, person and place add an include flag; pick a suggestion for an exact value.</span></div>
+    </form>` : ""}
+    <div class="resbar">
+      <div><b>${res.total}</b> result${res.total === 1 ? "" : "s"}${params.get("q") ? ` for “${esc(params.get("q"))}”${params.get("in") && params.get("in") !== "all" ? ` in ${esc(SEARCH_IN_LABEL[params.get("in")] || params.get("in"))}` : ""}` : ""}
+        ${params.get("date_from") || params.get("date_to") ? ` · dated ${esc(params.get("date_from") || "…")}–${esc(params.get("date_to") || "…")}` : ""} · sorted by ${SORT_LABEL[sort].toLowerCase()}</div>
+      ${active.length || params.get("q") || params.get("date_from") || params.get("date_to") ? `<a class="small" href="#/search${advOn ? "?adv=1" : ""}">Clear search</a>` : ""}
+    </div>
+    ${active.length ? `<div class="chips">${active.map(([k, v]) => { const exc = v.startsWith("!"), w = exc ? v.slice(1) : v; return `<a class="chip x ${exc ? "exc" : ""}" href="${link(k, w, "off")}">${FACET_TITLES[k]}: ${exc ? "not " : ""}${esc(facetLabel(k, w))} ${icon("x")}</a>`; }).join("")}</div>` : ""}
+    <section class="results">
+      ${res.results.map((r) => `
+        <article class="result">
+          <a href="#/record/${r.id}">${cover(r)}</a>
+          <div>
+            <h3><a href="#/record/${r.id}">${esc(r.title_normalized || r.title)}</a></h3>
+            <div class="badges"><span class="badge">${esc(r.document_type)}</span><span class="badge lvl-${r.source_level}">${esc(r.source_level)} source</span>${r.qc_ok ? "" : `<span class="badge qc-bad">QC issue</span>`}${r.n_places ? `<span class="badge">${icon("pin")} ${r.n_places}</span>` : ""}</div>
+            <div class="meta-line"><b>Date</b> ${fmtDate(r.date)} · <b>Creator</b> ${esc(r.creator || "—")} · <b>Fonds</b> ${esc(r.fonds || "—")}</div>
+            <div class="meta-line muted small">${esc(r.reference_code)}</div>
+            ${r.resume ? `<p class="resume">${esc(r.resume)}</p>` : ""}
+          </div>
+        </article>`).join("") || `<p class="muted">No documents match.</p>`}
+      ${pager(page, Math.ceil(res.total / size), (n) => href((p) => p.set("page", n)))}
+    </section>`;
+
+  // one popover open at a time; Escape or a click outside closes it
+  const pills = [...document.querySelectorAll(".filterbar .pill")];
+  pills.forEach((d) => d.addEventListener("toggle", () => { if (d.open) pills.forEach((o) => o !== d && (o.open = false)); }));
+  if (!window.__pillsWired) {  // installed once; looks up the current pills at event time
+    window.__pillsWired = true;
+    const closeAll = () => document.querySelectorAll(".filterbar .pill[open]").forEach((d) => (d.open = false));
+    document.addEventListener("click", (e) => { if (!e.target.closest(".filterbar .pill")) closeAll(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeAll(); });
+  }
+  document.querySelectorAll(".pfind").forEach((inp) => (inp.oninput = () => {
+    const t = inp.value.toLowerCase();
+    inp.parentElement.querySelectorAll("li").forEach((li) => (li.hidden = t && !li.dataset.v.includes(t)));
+  }));
+  $("#psize").onchange = (e) => (location.hash = href((p) => p.set("size", e.target.value)));
+  const form = $("#advform");
+  if (form) form.onsubmit = (e) => {
+    e.preventDefault();
+    const f = new FormData(form);
+    location.hash = href((p) => {
+      p.set("adv", "1");
+      for (const k of ["q", "in", "date_from", "date_to"]) { const v = (f.get(k) || "").trim(); v && !(k === "in" && v === "all") ? p.set(k, v) : p.delete(k); }
+      for (const k of ADV_FIELDS) { const v = (f.get(k) || "").trim(); if (v && !p.getAll(k).includes(v)) p.append(k, v); }
+    });
+  };
+}
+
+function pager(page, pages, hrefFor) {
+  if (pages <= 1) return "";
+  const nums = [...new Set([1, page - 2, page - 1, page, page + 1, page + 2, pages])].filter((n) => n >= 1 && n <= pages).sort((a, b) => a - b);
+  let out = "", prev = 0;
+  for (const n of nums) {
+    if (n - prev > 1) out += `<span class="gap">…</span>`;
+    out += n === page ? `<span class="cur">${n}</span>` : `<a href="${hrefFor(n)}">${n}</a>`;
+    prev = n;
+  }
+  return `<nav class="pager" aria-label="Pages">${page > 1 ? `<a href="${hrefFor(page - 1)}">‹</a>` : ""}${out}${page < pages ? `<a href="${hrefFor(page + 1)}">›</a>` : ""}</nav>`;
 }
 
 /* ---------------- Record (notice) ---------------- */
@@ -1190,6 +1282,7 @@ async function route() {
   }
   window.scrollTo(0, 0);
 }
-$("#searchform").onsubmit = (e) => { e.preventDefault(); location.hash = "#/search?q=" + encodeURIComponent($("#q").value.trim()); };
+$("#searchform").onsubmit = searchFromHeader;
+$("#qin").onchange = () => { if (location.hash.startsWith("#/search")) $("#searchform").requestSubmit(); };
 window.addEventListener("hashchange", route);
 route();

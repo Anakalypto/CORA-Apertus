@@ -30,8 +30,14 @@
   </div>
   <div class="searchband">
     <form class="wrap searchform" id="searchform">
+      <select id="qin" aria-label="Search in">
+        <option value="all">All fields</option><option value="title">Title</option><option value="creator">Author / creator</option>
+        <option value="publisher">Publisher</option><option value="subject">Subject</option><option value="person">Person</option>
+        <option value="place">Place</option><option value="reference">Reference code</option><option value="resume">Résumé &amp; description</option>
+      </select>
       <input id="q" name="q" type="search" placeholder="Search titles, résumés, people, places, reference codes…" autocomplete="off">
       <button type="submit">Search</button>
+      <a class="advlink" href="#/search?adv=1">Advanced</a>
     </form>
   </div>
 </header>
