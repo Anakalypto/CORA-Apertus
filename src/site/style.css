@@ -419,3 +419,90 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
   .inq-mini-form { flex-wrap: wrap; }
   .inq-mini-form button { flex: 1 0 100%; }
 }
+
+/* Inline SVG icons (replace emoji, which depend on the viewer's fonts) */
+.i { width: 1.1em; height: 1.1em; vertical-align: -0.18em; flex: none; }
+.cover .ic { color: var(--cover-c, var(--ink-2)); }
+.cover .ic .i { width: 1em; height: 1em; display: block; }
+.tile b .i { color: var(--accent); margin-right: 2px; }
+.pin .i { width: 15px; height: 15px; color: var(--c, #444); }
+.chip.x .i { width: .9em; height: .9em; }
+.callout .i { color: var(--ok); }
+.slider-bar button .i { width: 14px; height: 14px; vertical-align: -2px; }
+
+/* Collapsible "Refine" panel on the search page (open by default on wide screens) */
+.refine > summary { list-style: none; cursor: pointer; }
+.refine > summary::-webkit-details-marker { display: none; }
+.refine > summary h2 { margin-top: 0; display: inline; }
+.pager { flex-wrap: wrap; }
+
+/* Phones and small tablets */
+@media (max-width: 860px) {
+  .topbar-inner { gap: 8px; }
+  .mainnav { flex-wrap: nowrap; overflow-x: auto; width: 100%; margin: 0 -16px; padding: 0 16px; width: calc(100% + 32px);
+             scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .mainnav::-webkit-scrollbar { display: none; }
+  .mainnav a { white-space: nowrap; flex: none; }
+  .searchband { padding: 8px 0; }
+  .searchform button { padding: 0 16px; }
+  main { padding: 16px 16px 40px; }
+  h1 { font-size: 24px; }
+  .notice h1 { font-size: 21px; }
+
+  /* search: filters become a button-like bar above the results */
+  .refine { border: 1px solid var(--line); padding: 10px 12px; margin-bottom: 12px; background: var(--paper-2); }
+  .refine > summary h2 { font-size: 17px; }
+  .refine > summary::after { content: " ▾"; color: var(--ink-3); }
+  .refine[open] > summary::after { content: " ▴"; }
+  .result { grid-template-columns: 64px 1fr; gap: 12px; }
+  .result .cover { aspect-ratio: 1; }
+  .result .cover .cr { display: none; }
+
+  /* record page: content first, side boxes after; no duplicated cover title */
+  .notice { gap: 16px; }
+  .notice aside { display: block; order: 2; }
+  .notice aside .cover { display: none; }
+  .notice aside .side-box { margin-top: 14px; }
+  table.dl th { width: 110px; padding-right: 8px; }
+
+  /* wide tables scroll inside their own box instead of widening the page */
+  table.t { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .map { height: 360px; }
+  .map.big { height: 420px; }
+  .stats { gap: 8px; }
+  .stat b, .kpi b { font-size: 22px; }
+}
+@media (max-width: 480px) {
+  .brand-text small { display: none; }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .tile { padding: 10px; }
+  .tile { min-width: 0; }
+  .tile b { font-size: 14.5px; overflow-wrap: anywhere; hyphens: auto; }
+  .grid-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .two { gap: 16px; }
+  .vote-result { gap: 12px; flex-wrap: wrap; }
+}
+
+/* Covers with a Wikimedia Commons illustration */
+.cover.has-img { padding: 0; background: #ddd; }
+.cover.has-img::before { z-index: 2; }
+.cover .ill { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cover.has-img .ic { position: relative; z-index: 1; margin: 8px 0 0 14px; width: max-content; padding: 4px; line-height: 0;
+                     background: rgba(255,255,255,.92); border-radius: 3px; font-size: 18px; }
+.cover.has-img .ct, .cover.has-img .cr { display: none; }
+.cover .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; padding: 18px 8px 6px 14px; font-size: 11px; line-height: 1.25;
+              color: #fff; background: linear-gradient(transparent, rgba(0,0,0,.72)); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.notice aside .cover.has-img .ic { font-size: 24px; }
+.notice aside .cover.has-img .cap { font-size: 12.5px; }
+.credit { margin: 6px 0 0; font-size: 12px; line-height: 1.4; }
+
+/* Covers without one: tinted background, centred type icon (no empty-looking box) */
+.cover:not(.has-img) { background: color-mix(in srgb, var(--cover-c, #5a5a5a) 9%, #fff); }
+.result .cover:not(.has-img) { justify-content: center; align-items: center; }
+.result .cover:not(.has-img) .ic { font-size: 30px; opacity: .85; }
+.result .cover .cr, .result .cover .cap { display: none; }
+.result .cover.has-img .ic { margin: 6px 0 0 10px; font-size: 14px; padding: 3px; }
+
+@media (max-width: 860px) {
+  .notice aside .credit { display: none; }
+}

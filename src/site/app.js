@@ -10,16 +10,52 @@ const api = async (path, opts) => {
   return r.json();
 };
 
-const MEDIUM_ICON = { "moving image": "🎞️", "still image": "📷", text: "📜", sound: "🎙️", mixed: "🗂️" };
+/* Icons: inline SVG (Lucide-style strokes), so they render the same on every OS and browser,
+   with no dependency on an emoji font. */
+const SVG = {
+  tv: '<rect x="2" y="7" width="20" height="15" rx="2"/><path d="m17 2-5 5-5-5"/>',
+  film: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 3v18M17 3v18M3 7.5h4M3 12h18M3 16.5h4M17 7.5h4M17 16.5h4"/>',
+  radio: '<rect x="2" y="8" width="20" height="13" rx="2"/><path d="M6 8 17 3"/><circle cx="15" cy="14.5" r="3"/><path d="M6 12h4M6 16h4"/>',
+  clapper: '<path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z"/><path d="m6.2 5.3 3.1 3.9M12.4 3.4l3.1 4"/><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/>',
+  mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8"/>',
+  camera: '<path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3"/>',
+  mail: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>',
+  doc: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>',
+  file: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/>',
+  pen: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/>',
+  landmark: '<path d="M3 22h18M6 18v-7M10 18v-7M14 18v-7M18 18v-7M12 2l8 5H4z"/>',
+  scale: '<path d="m16 16 3-8 3 8c-.9.6-1.9 1-3 1s-2.1-.4-3-1Z"/><path d="m2 16 3-8 3 8c-.9.6-1.9 1-3 1s-2.1-.4-3-1Z"/><path d="M7 21h10M12 3v18M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>',
+  archive: '<rect x="2" y="3" width="20" height="5" rx="1"/><path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8M10 12h4"/>',
+  map: '<path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/>',
+  news: '<path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/>',
+  megaphone: '<path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',
+  index: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h10M7 17h6"/>',
+  list: '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>',
+  book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>',
+  layers: '<path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/>',
+  pin: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+  eye: '<path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>',
+  tower: '<path d="M4.9 16.1C1 12.2 1 5.8 4.9 1.9M7.8 4.7a6.1 6.1 0 0 0-.8 7.5M16.2 4.8c2 2 2.3 5 .8 7.5M19.1 1.9a10 10 0 0 1 0 14.1"/><circle cx="12" cy="9" r="2"/><path d="m8.5 21 3.5-8 3.5 8M9.5 18h5"/>',
+  refresh: '<path d="M21 12a9 9 0 0 1-15 6.7L3 16M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M3 21v-5h5"/>',
+  package: '<path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/>',
+  check: '<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>',
+  alert: '<path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/>',
+  x: '<path d="M18 6 6 18M6 6l12 12"/>',
+  play: '<path d="M6 4l14 8-14 8z" fill="currentColor"/>',
+  pause: '<path d="M7 4h3v16H7zM14 4h3v16h-3z" fill="currentColor"/>',
+};
+const icon = (name) => `<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${SVG[name] || SVG.file}</svg>`;
+
+const MEDIUM_ICON = { "moving image": "film", "still image": "camera", text: "doc", sound: "mic", mixed: "layers" };
 const TYPE_ICON = {
-  "TV news report": "📺", newsreel: "🎞️", "radio broadcast": "📻", film: "🎬", "audio recording": "🎙️",
-  photograph: "📷", correspondence: "✉️", report: "📑", "minutes / protocol": "🖋️", "parliamentary record": "🏛️",
-  "legislation / decree": "⚖️", "administrative file": "🗃️", "map / plan": "🗺️", "press article": "📰",
-  "press release / communiqué": "📣", "register / index": "📇", "finding aid / inventory": "📇", "publication / book": "📕",
-  speech: "🎤", other: "📄",
+  "TV news report": "tv", newsreel: "film", "radio broadcast": "radio", film: "clapper", "audio recording": "mic",
+  photograph: "camera", correspondence: "mail", report: "doc", "minutes / protocol": "pen", "parliamentary record": "landmark",
+  "legislation / decree": "scale", "administrative file": "archive", "map / plan": "map", "press article": "news",
+  "press release / communiqué": "megaphone", "register / index": "index", "finding aid / inventory": "list", "publication / book": "book",
+  speech: "mic", other: "file",
 };
 const EVENT_LABEL = { creation: "Created", depicted: "Depicted place", publication: "Published / broadcast", update: "Updated", accession: "Entered the Federal Archives", holding: "Kept today" };
-const EVENT_EMOJI = { creation: "✍️", depicted: "👁️", publication: "📡", update: "🔁", accession: "📦", holding: "🏛️" };
+const EVENT_ICON = { creation: "pen", depicted: "eye", publication: "tower", update: "refresh", accession: "package", holding: "landmark" };
 const PREP_LABEL = {
   transcription_normalization: "Transcription normalization",
   structure_extraction: "Structure extraction",
@@ -49,7 +85,7 @@ function eventIcon(ev, rec, n) {
   if (ev.event === "accession" || ev.event === "holding") src = "assets/icons/bar_admin_ch.png";
   else if (ev.event === "publication") src = institutionIcon(`${m.publisher} ${m.creator}`);
   else if (ev.event === "creation") src = institutionIcon(`${m.creator} ${m.commissioner} ${rec.archival_location?.fonds}`);
-  const inner = src ? `<img src="${src}" alt="">` : EVENT_EMOJI[ev.event] || "•";
+  const inner = src ? `<img src="${src}" alt="">` : (EVENT_ICON[ev.event] ? icon(EVENT_ICON[ev.event]) : "•");
   const el = document.createElement("div");  // MapLibre positions this wrapper; the pin keeps its own layout
   el.innerHTML = `<div class="pin ev-${ev.event}">${inner}${n ? `<b>${n}</b>` : ""}</div>`;
   return el;
@@ -90,15 +126,26 @@ function baseMap(el, onStyle, opts = {}) {
 
 const lineGeo = (lls) => ({ type: "Feature", geometry: { type: "LineString", coordinates: lls.map(([la, lo]) => [lo, la]) } });
 
+const COVER_KIND = { person: "person in this record", place: "place in this record", organization: "organization in this record" };
+
+/* Covers: a Wikimedia Commons illustration of a person, place or organization of the record when
+   covers.py found one (labelled as an illustration, with credit), else a typed facsimile cover. */
 function cover(r, big) {
   const medium = r.medium || r.classification?.medium;
   const type = r.document_type || r.classification?.document_type;
   const title = r.title_normalized || r.title || r.metadata?.title_normalized || r.metadata?.title;
   const ref = r.reference_code || r.source?.reference_code;
-  return `<div class="cover m-${(medium || "mixed").replace(/\s+/g, "-")}">
-    <div class="ic" aria-hidden="true">${TYPE_ICON[type] || MEDIUM_ICON[medium] || "📄"}</div>
+  const c = r.cover;
+  const img = c ? `<img class="ill" src="${esc(c.thumb)}" alt="Illustration: ${esc(c.label)}" loading="lazy"
+      onerror="this.parentElement.classList.remove('has-img');this.nextElementSibling?.remove();this.remove()">
+    <div class="cap">Illustration · ${esc(c.label)}</div>` : "";
+  const credit = c && big ? `<p class="credit small muted">Illustration, not the document: ${esc(c.label)} (${COVER_KIND[c.kind] || c.kind}).
+      Image: <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.author || "Wikimedia Commons")}</a>${c.license ? `, ${esc(c.license)}` : ""},
+      via Wikimedia Commons / <a href="https://www.wikidata.org/wiki/${esc(c.qid)}" target="_blank" rel="noopener">Wikidata</a>.</p>` : "";
+  return `<div class="cover m-${(medium || "mixed").replace(/\s+/g, "-")}${c ? " has-img" : ""}">${img}
+    <div class="ic" aria-hidden="true">${icon(TYPE_ICON[type] || MEDIUM_ICON[medium] || "file")}</div>
     <div class="ct">${esc(title)}</div>
-    <div class="cr">${esc(ref)}</div></div>`;
+    <div class="cr">${esc(ref)}</div></div>${credit}`;
 }
 
 const pv = (k) => `<span class="pv pv-${k}" title="Source of this value: ${k}">${k}</span>`;
@@ -139,7 +186,7 @@ async function home() {
       </div>
     </section>
     <h2>Browse by document type</h2>
-    <div class="tiles">${s.facets.document_type.map(([k, n]) => `<a class="tile" href="#/search?document_type=${encodeURIComponent(k)}"><b>${TYPE_ICON[k] || "📄"} ${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
+    <div class="tiles">${s.facets.document_type.map(([k, n]) => `<a class="tile" href="#/search?document_type=${encodeURIComponent(k)}"><b>${icon(TYPE_ICON[k] || "file")} ${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
     <h2>By fonds</h2>
     <div class="tiles">${s.facets.fonds.slice(0, 8).map(([k, n]) => `<a class="tile" href="#/search?fonds=${encodeURIComponent(k)}"><b>${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
     <h2>A few documents</h2>
@@ -162,19 +209,19 @@ async function search(params) {
   const pages = Math.ceil(res.total / 20);
   app.innerHTML = `
     <div class="layout">
-      <aside class="facets"><h2 style="margin-top:0">Refine</h2>${facetHtml}</aside>
+      <aside class="facets"><details class="refine" ${matchMedia("(max-width: 860px)").matches ? "" : "open"}><summary><h2>Refine${active.length ? ` <span class="muted small">(${active.length} active)</span>` : ""}</h2></summary>${facetHtml}</details></aside>
       <section>
         <div class="resbar">
           <div><b>${res.total}</b> result${res.total === 1 ? "" : "s"}${params.get("q") ? ` for “${esc(params.get("q"))}”` : ""}</div>
           <label class="small">Sort <select id="sort">${["relevance", "date", "title"].map((s) => `<option ${params.get("sort") === s ? "selected" : ""}>${s}</option>`).join("")}</select></label>
         </div>
-        ${active.length ? `<div class="chips">${active.map(([k, v]) => `<a class="chip x" href="${link(k, null)}">${FACET_TITLES[k]}: ${esc(v)} ✕</a>`).join("")}</div>` : ""}
+        ${active.length ? `<div class="chips">${active.map(([k, v]) => `<a class="chip x" href="${link(k, null)}">${FACET_TITLES[k]}: ${esc(v)} ${icon("x")}</a>`).join("")}</div>` : ""}
         ${res.results.map((r) => `
           <article class="result">
             <a href="#/record/${r.id}">${cover(r)}</a>
             <div>
               <h3><a href="#/record/${r.id}">${esc(r.title_normalized || r.title)}</a></h3>
-              <div class="badges"><span class="badge">${esc(r.document_type)}</span><span class="badge lvl-${r.source_level}">${esc(r.source_level)} source</span>${r.qc_ok ? "" : `<span class="badge qc-bad">QC issue</span>`}${r.n_places ? `<span class="badge">📍 ${r.n_places}</span>` : ""}</div>
+              <div class="badges"><span class="badge">${esc(r.document_type)}</span><span class="badge lvl-${r.source_level}">${esc(r.source_level)} source</span>${r.qc_ok ? "" : `<span class="badge qc-bad">QC issue</span>`}${r.n_places ? `<span class="badge">${icon("pin")} ${r.n_places}</span>` : ""}</div>
               <div class="meta-line"><b>Date</b> ${fmtDate(r.date)} · <b>Creator</b> ${esc(r.creator || "—")} · <b>Fonds</b> ${esc(r.fonds || "—")}</div>
               <div class="meta-line muted small">${esc(r.reference_code)}</div>
               ${r.resume ? `<p class="resume">${esc(r.resume)}</p>` : ""}
@@ -282,7 +329,7 @@ function prepBlock(r) {
 function qcBlock(r) {
   const q = r.qc || {};
   const list = (xs) => (xs && xs.length ? `<ul>${xs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p class="muted">none</p>`);
-  return `<div class="callout">${q.ok ? "✅ Passed the automatic checks (structure, dates)." : "⚠️ Did not pass every automatic check."}</div>
+  return `<div class="callout">${q.ok ? `${icon("check")} Passed the automatic checks (structure, dates).` : `${icon("alert")} Did not pass every automatic check.`}</div>
     <h3>Structural errors</h3>${list(q.structural_errors)}
     <h3>Critical issues</h3>${list(q.critical)}
     <h3>Warnings</h3>${list(q.warnings)}
@@ -434,7 +481,7 @@ async function mapPage() {
     <p class="muted">Every place Apertus identified as where a document was made, depicted or published, located with the OpenStreetMap gazetteer.
     Move the slider: documents appear by date, and inside Switzerland the base map becomes the swisstopo national map of that time.</p>
     <div class="slider-bar">
-      <button id="play" title="Play">▶</button>
+      <button id="play" title="Play">${icon("play")}</button>
       <input type="range" id="year" min="${minY}" max="${maxY}" value="${maxY}" step="1">
       <b id="yearlab">${maxY}</b>
       <label class="small"><input type="checkbox" id="cumul" checked> show all documents up to this year</label>
@@ -500,12 +547,12 @@ async function mapPage() {
   $("#cumul").onchange = update;
   let timer = null;
   $("#play").onclick = () => {
-    if (timer) { clearInterval(timer); timer = null; $("#play").textContent = "▶"; return; }
+    if (timer) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
     if (+$("#year").value >= maxY) $("#year").value = minY;
-    $("#play").textContent = "❚❚";
+    $("#play").innerHTML = icon("pause");
     timer = setInterval(() => {
       const v = +$("#year").value + 2;
-      if (v > maxY) { clearInterval(timer); timer = null; $("#play").textContent = "▶"; return; }
+      if (v > maxY) { clearInterval(timer); timer = null; $("#play").innerHTML = icon("play"); return; }
       $("#year").value = v; update();
     }, 350);
   };
@@ -670,7 +717,7 @@ function caseReport(r, { mini = false, focus = null } = {}) {
     : `<p>${esc(r.message || "The files pulled from the stacks do not answer this question.")}</p>`;
   const exhibits = (r.citations || []).map((c, i) => `<a class="inq-exhibit" href="#/record/${c.id}">
       <span class="inq-tag">${c.id === focus ? "This record" : "Exhibit " + EXHIBIT(i)}</span>
-      <span class="inq-ex-type">${TYPE_ICON[c.document_type] || "📄"} ${esc(c.document_type || "")}${c.source_level ? ` · ${esc(c.source_level)}` : ""}</span>
+      <span class="inq-ex-type">${icon(TYPE_ICON[c.document_type] || "file")} ${esc(c.document_type || "")}${c.source_level ? ` · ${esc(c.source_level)}` : ""}</span>
       <b>${esc(c.title)}</b>
       <span class="inq-ex-meta">${fmtDate(c.date)} · <code>${esc(c.reference_code)}</code></span></a>`).join("");
   if (mini) return `<div class="inq-mini-report">${findings}

@@ -1,0 +1,36 @@
+# CORA — 200-record test: Apertus 70B vs 8B on the same new documents.
+# Every value can be overridden by the environment variables LLM_NAME, LLM_BASE_URL, LLM_API_KEY.
+
+[llm]
+model = "apertus-v1-5-70b"                     # big model
+compare_model = "apertus-v1-5-8b"              # small model, same prompt
+base_url = "https://gateway.keera.ch/api/v1"   # Keera Gateway -> CSCS inference (OpenAI-compatible)
+temperature = 0.1
+max_tokens = 2500
+workers = 6
+retries = 3
+
+[sample]
+size = 200
+seed = 200                 # different seed: 200 docs NOT in the original 100
+# "stratified" draws from three strata so the demo shows every kind of record;
+# Strata use only the original "form" field. "uniform" draws uniformly over all 263k item-level records (mostly TV news clips).
+strategy = "stratified"
+strata = { audiovisual = 80, still_image = 60, other = 60 }
+
+[classify]
+resume = true            # 3-sentence résumé on/off
+output_language = "en"   # language of résumé and normalised fields
+preprocessing = true     # preprocessing-needs assessment on/off
+story_map = true         # provenance trail ("retracé") on/off
+press_convention = "secondary"   # same as the main config
+
+[enrich]
+geocoder = "nominatim"             # public bulk-friendly, cached, 1 req/s
+geocoder_url = "https://nominatim.openstreetmap.org/search"
+wikidata = true                    # entity linking against Wikidata
+user_agent = "CORA-Apertus/0.1 (Hack Apertus 2026 demo; contact: hello@hackapertus.ch)"
+
+[paths]
+data_dir = "../data/eval200"
+site_dir = "site"

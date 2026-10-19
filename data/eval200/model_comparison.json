@@ -1,0 +1,70 @@
+{
+ "records": 200,
+ "apertus-v1-5-70b": {
+  "records": 200,
+  "valid_json_pct": 100.0,
+  "processed_ok_pct": 98.5,
+  "date_created_in_range_pct": 100.0,
+  "creator_matches_record_pct": 86.6,
+  "publisher_matches_record_pct": 100.0,
+  "entities_found_in_source_pct": 97.2,
+  "resume_speculative_pct": 0.0,
+  "mean_seconds_per_record": 16.5,
+  "errors": [
+   "21842590",
+   "21844921",
+   "5858515"
+  ]
+ },
+ "apertus-v1-5-8b": {
+  "records": 200,
+  "valid_json_pct": 100.0,
+  "processed_ok_pct": 100.0,
+  "date_created_in_range_pct": 100.0,
+  "creator_matches_record_pct": 95.1,
+  "publisher_matches_record_pct": 100.0,
+  "entities_found_in_source_pct": 95.0,
+  "resume_speculative_pct": 0.0,
+  "mean_seconds_per_record": 5.7,
+  "errors": []
+ },
+ "apertus-v1-5-8b_vs_apertus-v1-5-70b": {
+  "records_both_valid": 200,
+  "document_type": {
+   "agreement_pct": 90.5,
+   "kappa": 0.873
+  },
+  "medium": {
+   "agreement_pct": 94.5,
+   "kappa": 0.914
+  },
+  "source_level": {
+   "agreement_pct": 98.5,
+   "kappa": 0.0
+  },
+  "date_created": {
+   "agreement_pct": 75.0
+  },
+  "date_published": {
+   "agreement_pct": 94.0
+  },
+  "creator": {
+   "agreement_pct": 47.0
+  },
+  "publisher": {
+   "agreement_pct": 89.0
+  },
+  "persons": {
+   "name_overlap_f1_pct": 75.5,
+   "records": 139
+  },
+  "organizations": {
+   "name_overlap_f1_pct": 26.7,
+   "records": 163
+  },
+  "places": {
+   "name_overlap_f1_pct": 57.8,
+   "records": 167
+  }
+ }
+}

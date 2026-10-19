@@ -49,7 +49,7 @@ def fit(xs, ys):
 def run(cfg) -> None:
     from .apertus import Apertus
     data_dir = cfg["paths"]["data_dir"]
-    rows = list(csv.DictReader(io.StringIO((data_dir / "consultations" / "swissvotes_dataset.csv").read_bytes().decode("utf-8-sig")), delimiter=";"))
+    rows = list(csv.DictReader(io.StringIO(open(_csv(cfg), "rb").read().decode("utf-8-sig")), delimiter=";"))
     pts = []
     for v in rows:
         y = _f(v.get("volkja-proz"))
@@ -150,7 +150,11 @@ def _rows(path: str) -> tuple:
 
 
 def _csv(cfg) -> str:
-    return str(cfg["paths"]["data_dir"] / "consultations" / "swissvotes_dataset.csv")
+    """Swissvotes dataset (CC BY 4.0); not in git, downloaded on first use."""
+    from .consultations import SWISSVOTES, _download
+    path = cfg["paths"]["data_dir"] / "consultations" / "swissvotes_dataset.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return str(_download(SWISSVOTES, path))
 
 
 def rows(cfg) -> tuple:

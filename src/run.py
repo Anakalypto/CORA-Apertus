@@ -217,13 +217,18 @@ def stage_export(cfg):
     export.run(cfg)
 
 
+def stage_covers(cfg):
+    from cora import covers
+    covers.run(cfg)
+
+
 def stage_serve(cfg):
     import uvicorn
     uvicorn.run("cora.api:app", host="127.0.0.1", port=8000)
 
 
 STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classify,
-          "audit": stage_audit, "repair": stage_repair, "level": stage_level, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export}
+          "audit": stage_audit, "repair": stage_repair, "level": stage_level, "compare": stage_compare, "enrich": stage_enrich, "qc": stage_qc, "export": stage_export, "covers": stage_covers}
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")

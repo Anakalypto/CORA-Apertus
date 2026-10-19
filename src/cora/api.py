@@ -64,6 +64,18 @@ def _attach_trust():
 
 
 _attach_trust()
+
+
+def _attach_covers():
+    """Commons illustrations picked by covers.py (python src/run.py covers); records without one keep the typed cover."""
+    path = DATA / "covers.json"
+    if path.exists():
+        for rid, c in json.loads(path.read_text(encoding="utf-8")).items():
+            if rid in RECORDS:
+                RECORDS[rid]["cover"] = c
+
+
+_attach_covers()
 QC = json.loads((DATA / "qc_report.json").read_text(encoding="utf-8")) if (DATA / "qc_report.json").exists() else {}
 
 app = FastAPI(title="CORA — Apertus classifier for the Swiss Federal Archives",
@@ -95,7 +107,7 @@ def _summary(r: dict) -> dict:
             "resume": c.get("resume"), "date": m.get("content_date") or m.get("date_created"), "creator": m.get("creator"),
             "publisher": m.get("publisher"), "fonds": r["archival_location"].get("fonds"),
             "reference_code": r["source"]["reference_code"], "qc_ok": r["qc"].get("ok"),
-            "n_places": sum(1 for p in r["entities"]["places"] if p.get("lat") is not None)}
+            "n_places": sum(1 for p in r["entities"]["places"] if p.get("lat") is not None), "cover": r.get("cover")}
 
 
 def _matches(r: dict, filters: dict) -> bool:
