@@ -4,50 +4,41 @@
  "metrics": {
   "apertus-v1-5-70b": {
    "n": 30,
-   "errors": 4,
-   "mean_seconds": 7.4,
-   "sentences_per_text": 7.5,
-   "unsourced_sentences_pct": 44.2,
-   "mean_sources_cited": 5.0,
-   "texts_using_wikipedia_pct": 16.7
+   "errors": 1,
+   "mean_seconds": 0.9,
+   "sentences_per_text": 6.7,
+   "unsourced_sentences_pct": 2.5,
+   "mean_sources_cited": 7.5,
+   "texts_using_wikipedia_pct": 33.3
   },
   "apertus-v1-5-8b": {
    "n": 30,
-   "errors": 1,
-   "mean_seconds": 4.6,
-   "sentences_per_text": 7.7,
-   "unsourced_sentences_pct": 53.4,
-   "mean_sources_cited": 4.3,
-   "texts_using_wikipedia_pct": 6.7
+   "errors": 0,
+   "mean_seconds": 0.5,
+   "sentences_per_text": 6.9,
+   "unsourced_sentences_pct": 29.3,
+   "mean_sources_cited": 5.3,
+   "texts_using_wikipedia_pct": 20.0
   }
  },
  "outputs": {
   "apertus-v1-5-70b": [
    {
     "id": "22406340",
-    "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "seconds": 0.0,
-    "sentences": [],
-    "inferred": 0,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "22424850",
     "error": null,
-    "seconds": 8.4,
+    "seconds": 0.0,
     "sentences": [
-     "This is a short color video clip from the Swiss French-language television program 'Journal Romand' dated September 3, 1985, showing a greenhouse command center.",
-     "The footage includes landscape views of the Rhône plain, an interview segment, a thermostat, an antenna, and technical equipment related to greenhouse cultivation.",
-     "The clip is only one minute long and was produced by Télévision Suisse Romande as part of their news broadcast.",
-     "The subject of the video is commercial horticulture, specifically focusing on greenhouse farming techniques in the Rhône plain region of Switzerland.",
-     "The program was produced by Télévision Suisse Romande, the French-language public broadcaster serving the Romandy region of Switzerland.",
-     "The footage documents agricultural technology and practices relevant to the local farming community in the Rhône valley during the mid-1980s.",
-     "This greenhouse technology report contrasts with other TSR news clips from the same period, such as coverage of environmental protests against infrastructure projects like the high-voltage power line near Loèche or the A4 motorway in Zurich.",
-     "While other records document social conflicts and controversies, this clip represents the archive's documentation of agricultural innovation and rural economic development in Switzerland during the 1980s."
+     "The report features a Betacam-digital working copy of a two-minute, ten-second color video segment, beginning at the 3-minute, 54-second mark of the original recording.",
+     "It captures the stark contrast between the industrial high-voltage pylons and the serene natural landscape of the lake at Loèche-les-Bains.",
+     "The interview segment provides a platform for local opponents to voice their concerns about the environmental and aesthetic impact of the power line.",
+     "The report focuses on the local residents and environmental activists of Loèche-les-Bains, a municipality in the Valais canton of Switzerland, who opposed the construction of a high-voltage power line.",
+     "The subject matter highlights the tension between energy infrastructure development and the preservation of natural landscapes in rural Swiss communities during the mid-1980s.",
+     "The interviewees represent the community's resistance to industrial projects that they believed would harm the local environment and tourism.",
+     "Unlike other TSR Téléjournal reports such as the 1986 segment on the Chandolin–St-Luc cable car construction (R2), this record documents local opposition to infrastructure rather than showcasing new development.",
+     "It also differs from unrelated news items like the 1985 Tagesschau report on a kidnapping in Frauenfeld (R3), as it centers on environmental and community issues in Valais."
     ],
     "inferred": 0,
-    "sources_used": 13,
+    "sources_used": 9,
     "kinds_used": [
      "D",
      "E",
@@ -55,27 +46,55 @@
     ]
    },
    {
-    "id": "21790117",
-    "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "seconds": 0.0,
-    "sentences": [],
+    "id": "22424850",
+    "error": null,
+    "seconds": 4.7,
+    "sentences": [
+     "The segment specifically highlights a thermostat used to regulate greenhouse temperatures, emphasizing the technological aspect of modern horticulture in the Rhône plain.",
+     "It features an antenna, suggesting the central command system likely utilized remote monitoring or communication technology for managing the greenhouses.",
+     "The visuals include sweeping shots of the Rhône plain landscape, establishing the agricultural setting before focusing on the technological infrastructure.",
+     "The record documents Swiss horticultural practices, specifically the use of centralized climate control systems in commercial greenhouses located in the Rhône plain region.",
+     "It concerns the agricultural sector and technological innovation in farming, reflecting the economic importance of controlled-environment agriculture in Switzerland during the mid-1980s."
+    ],
     "inferred": 0,
-    "sources_used": 0,
-    "kinds_used": []
+    "sources_used": 3,
+    "kinds_used": [
+     "D",
+     "E"
+    ]
+   },
+   {
+    "id": "21790117",
+    "error": null,
+    "seconds": 6.2,
+    "sentences": [
+     "The footage captures Indira Gandhi waving to the press while surrounded by supporters, with police forming a cordon to hold back demonstrators and reporters aggressively questioning parliamentarians.",
+     "The video is a 1 minute 48 second color recording on 16 mm film, digitized to Betacam format for archival preservation.",
+     "The report was produced by UPITN and broadcast by SRG SSR idée suisse as part of their international news coverage.",
+     "The report concerns Indira Gandhi, who served as Prime Minister of India from 1966 to 1977 and again from 1980 to 1984, documenting her detention and expulsion from parliament following the end of the Emergency.",
+     "The event took place in Delhi, India, which is located at coordinates 28.666° N, 77.217° E."
+    ],
+    "inferred": 0,
+    "sources_used": 7,
+    "kinds_used": [
+     "D",
+     "E",
+     "W"
+    ]
    },
    {
     "id": "21901313",
     "error": null,
-    "seconds": 9.5,
+    "seconds": 9.4,
     "sentences": [
-     "This is a 1989 Swiss television news segment from DRS-aktuell covering the Saffa exhibition in Basel, which focused on women's contributions to architecture.",
-     "The segment includes film clips from earlier Saffa exhibitions in Bern (1928) and Zurich (1958), as well as an interview with architect Beate Schnitter.",
-     "Broadcast on April 10, 1989, the video is six minutes and seventeen seconds long, in color, and stored on Betacam-Digital format.",
-     "The subject of the exhibition and interview is Beate Schnitter, a Swiss architect whose work was highlighted in the context of women's achievements in architecture.",
-     "The exhibition itself was part of the Saffa series, which historically showcased women's roles in Swiss society, with this particular installment focusing on architecture.",
-     "The broadcast was produced by the Swiss public broadcaster SRG SSR idée suisse, which operates as the largest electronic media company in Switzerland.",
-     "This record is part of the Swiss Federal Archives' collection of Swiss Television DRS regional magazines from 1989, alongside other news broadcasts like the Tagesschau report on U.S. Senator Stuart Symington's Vietnam War speech.",
-     "Unlike records such as the 1948 radio broadcast on the International Gliding Meeting in Samedan or the 1939 newspaper clippings on the Swiss National Exhibition, this document specifically addresses gender and professional contributions in architecture through a retrospective exhibition format."
+     "It includes an interview with Beate Schnitter, an architect whose perspective likely contextualizes the architectural significance of the Saffa exhibitions.",
+     "The report is presented by Thomas Schäppi with production by Swiss television DRS, using Betacam-Digital format for broadcast.",
+     "The report focuses on the Saffa exhibitions, which highlight women in architecture, a subject reflected in the subject terms 'Ausstellung' and 'Frau' in the archive record.",
+     "It centers on Beate Schnitter, an architect involved in the field, and covers the 1989 Saffa exhibition in Basel, with references to prior events in Bern and Zurich.",
+     "The broadcast was produced by SRG SSR idée suisse, the public broadcasting group responsible for Swiss television content during this period.",
+     "Other records include a 1967 Tagesschau report on U.S. Senator Stuart Symington's anti-Vietnam War speech (R1), which shares the same broadcaster but covers an entirely different international topic.",
+     "A 1939 record of newspaper clippings about the Swiss National Exhibition (Landi) in Zurich (R2) also documents Swiss cultural events but from an earlier era and through print media rather than television.",
+     "A 1948 radio broadcast on the International Gliding Meeting in Samedan (R3) represents another type of SRG SSR production—radio instead of television—covering a sporting event."
     ],
     "inferred": 0,
     "sources_used": 14,
@@ -97,29 +116,37 @@
    },
    {
     "id": "3239317",
-    "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "seconds": 0.0,
-    "sentences": [],
+    "error": null,
+    "seconds": 8.2,
+    "sentences": [
+     "The negative captures a specific moment of rest for the mules, with animals clustered together and handlers attending to them, highlighting the human-animal interaction essential for maintaining the supply chain.",
+     "The photograph is a 13x18 cm glass-plate silver bromide negative, a common format for military documentation of the era due to its durability and archival quality.",
+     "The scene is set in Hauenstein, a strategic location during the Swiss Army's Active Service period, where logistical hubs were established to support border defense.",
+     "The image is part of a broader collection of wartime photographs that systematically recorded the Swiss Army's activities, including transport methods and border security measures.",
+     "It reflects the Swiss Army's mobilization efforts and the critical role of animal transport in maintaining supply lines during a period of heightened international tension.",
+     "This record is part of a larger photographic series within the Swiss Federal Archives documenting the Active Service period (1914–1918), alongside images of mule columns marching through villages (R1), straw transport to border guard huts (R2), and military truck convoys on mountain roads (R3)."
+    ],
     "inferred": 0,
-    "sources_used": 0,
-    "kinds_used": []
+    "sources_used": 12,
+    "kinds_used": [
+     "D",
+     "E",
+     "R"
+    ]
    },
    {
     "id": "3240019",
     "error": null,
-    "seconds": 9.2,
+    "seconds": 0.0,
     "sentences": [
-     "This document is a glass-plate silver bromide photograph titled 'Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement' (Wagons of Telegraph Pioneers and a Searchlight Detachment).",
-     "It depicts military wagons associated with telegraph pioneers and a searchlight detachment during the Swiss Army's Active Service from 1914 to 1918.",
-     "The photograph was taken in Les Genevez, Switzerland, and is part of the Swiss Federal Archives' collection documenting the wartime activities of the army.",
-     "The image concerns the Telegraphen Pionier Kompanie 2 (Telegraph Pioneer Company 2), a unit within the Swiss Army responsible for communications infrastructure during the First World War.",
-     "It also relates to the broader context of Switzerland's neutrality and military preparedness during the war, as evidenced by the Active Service (Aktivdienst) period.",
-     "The photograph documents the logistical and technical support units that were essential for maintaining army operations in the mountainous terrain of Les Genevez.",
-     "This record is part of a larger photographic collection within the Swiss Federal Archives that includes other wartime images such as mountain wagons being loaded onto railway cars and heavy howitzers being deployed.",
-     "These related records collectively illustrate the Swiss Army's mobilization, equipment, and engineering activities during the First World War, reflecting the nation's efforts to defend its borders while maintaining neutrality."
+     "The photograph captures a specific moment of military logistics, showing telegraph pioneer wagons—equipped for communication duties—alongside a searchlight detachment, highlighting the technological and specialized nature of their wartime role.",
+     "The image is a glass-plate silver bromide negative measuring 13x18 cm, a common photographic format for military documentation of that era, preserving the scene with a distinct archival quality.",
+     "This record documents the activities of Telegraphen Pionier Kompanie 2 (Telegraph Pioneer Company 2), a specialized unit within the Swiss Army responsible for establishing and maintaining communication lines during the First World War.",
+     "The photograph was taken in Les Genevez, a location in Switzerland (coordinates 47.257, 7.129), during the period of Swiss Army mobilization known as the Aktivdienst (Active Service) from 1914 to 1918.",
+     "It is part of a larger photographic collection within the Swiss Federal Archives documenting the Swiss Army's wartime activities during the First World War, alongside other records such as images of mountain wagon loading, heavy howitzer deployments, and sappers constructing roads."
     ],
     "inferred": 0,
-    "sources_used": 11,
+    "sources_used": 10,
     "kinds_used": [
      "D",
      "E",
@@ -129,18 +156,16 @@
    {
     "id": "3513305",
     "error": null,
-    "seconds": 8.1,
+    "seconds": 0.0,
     "sentences": [
-     "This record is an audio recording of the Swiss National Council session on November 28, 2001, featuring communications from the president.",
-     "The session falls within the Wintersession 2001 of the legislative period from Wintersession 1999 to Herbstsession 2003.",
-     "The recording captures the spoken contributions of the presiding officers rather than a written legislative text.",
-     "The record features Liliane Maury Pasquier, a Swiss Social Democratic politician who served as National Council president and later as President of the Parliamentary Assembly of the Council of Europe.",
-     "The document concerns parliamentary proceedings within the Nationalrat (Swiss National Council), the lower house of the Swiss Federal Assembly.",
-     "This record is part of a series of audio debates from the same legislative period, including discussions on rail freight policy (R1), Turkish political prisoners (R2), and women in asylum policy (R3).",
-     "These records collectively document the legislative debates and human rights concerns addressed by the Swiss National Council during the early 2000s."
+     "As an audio document within the official parliamentary protocol, it preserves the spoken tone, cadence, and formal parliamentary language used by the President of the National Council in her opening communications.",
+     "The recording is catalogued under accession number 2001/217 within the Swiss Federal Archives' collection of National Council session recordings from the Wintersession 2001.",
+     "Liliane Maury Pasquier, a Swiss Social Democratic politician born in 1956, served as President of the National Council during this session, presiding over the parliamentary proceedings.",
+     "The document concerns the formal administrative and procedural aspects of the Swiss National Council's Wintersession 2001, rather than specific legislative debates or policy discussions.",
+     "This record is part of a broader collection of audio recordings from the Wintersession 2001 (1999-2003 legislative period), which includes debates on topics such as rail freight transport transparency (2001.3486), political prisoners in Turkey (2001.2004), and women's position in asylum policy (2000.3659)."
     ],
     "inferred": 0,
-    "sources_used": 12,
+    "sources_used": 11,
     "kinds_used": [
      "D",
      "E",
@@ -151,39 +176,32 @@
    {
     "id": "3514516",
     "error": null,
-    "seconds": 8.4,
+    "seconds": 0.0,
     "sentences": [
-     "This record is an audio recording of the Swiss National Council debate from the Spring Session of 2001, specifically the 13th session day.",
-     "It documents the discussion of Postulat Ménétrey-Savary Anne-Catherine concerning the position of women in asylum policy.",
-     "The record captures parliamentary discussion rather than the legislative text itself.",
-     "The document concerns Anne-Catherine Ménétrey-Savary, a member of the Swiss National Council, who presented a postulate on gender issues within asylum policy.",
-     "It addresses the treatment and specific needs of women in Switzerland's asylum system, a topic of social and political significance.",
-     "The debate took place within the National Council, the lower house of the Swiss Federal Assembly with 200 members.",
-     "This record is part of a larger collection of National Council debates from the Wintersession 1999 to Herbstsession 2003, including other postulates on social policy like divorce law and rail transport.",
-     "While this record focuses on asylum policy, it reflects the broader parliamentary engagement with gender equality and social justice issues in early 2000s Switzerland."
+     "It is an audio document preserved under the accession number 2003/451 within the Swiss Federal Archives' collection of National Council proceedings.",
+     "The record concerns National Councillor Anne-Catherine Ménétrey-Savary, a member of the Social Democratic Party of Switzerland, who raised a postulate about gender-specific aspects of asylum policy.",
+     "The debate addresses the treatment and specific needs of women seeking asylum in Switzerland, a topic of ongoing social and political relevance."
     ],
     "inferred": 0,
-    "sources_used": 7,
+    "sources_used": 5,
     "kinds_used": [
      "D",
      "E",
-     "R",
      "W"
     ]
    },
    {
     "id": "5097377",
     "error": null,
-    "seconds": 10.3,
+    "seconds": 0.0,
     "sentences": [
-     "This record is an audio recording of the Swiss National Council's question hour on 15 December 2008, where National Councillor Marlies Bänziger posed a question about the Ilisu Dam project and the Swiss Export Risk Guarantee.",
-     "The session also included responses from Federal Councillor Doris Leuthard and National Councillor Chiara Simoneschi-Cortesi.",
-     "The discussion centered on Switzerland's involvement in financing the controversial Ilisu Dam in Turkey through the Export Risk Guarantee.",
-     "Marlies Bänziger, a Swiss Green Party politician born in 1960, raised the question regarding the Ilisu Dam and export guarantees.",
-     "Doris Leuthard, a former member of the Swiss Federal Council (2006-2018) and CVP politician, responded to Bänziger's inquiry.",
-     "Chiara Simoneschi-Cortesi, a former National Councillor and CVP politician who served as National Council President in 2008-2009, also participated in the session.",
-     "This record is part of a series of parliamentary question sessions in the Swiss National Council, similar to other recordings such as the 2002 session on aviation oversight and the 2018 session on federal housing office funding.",
-     "These records collectively document the Swiss parliament's oversight of federal policies, international projects, and administrative decisions across different legislative periods."
+     "The recording captures the formal parliamentary exchange in the National Council chamber, with Marlies Bänziger posing a specific inquiry about Switzerland's financial backing of the Ilisu Dam project through the Export Risk Guarantee, followed by substantive replies from Federal Councillors Doris Leuthard and Chiara Simoneschi-Cortesi.",
+     "The session took place during the ninth day of the 2008 Winter Session, indicating it was part of a broader legislative period where multiple policy issues were debated.",
+     "The audio format preserves the original tone, cadence, and parliamentary protocol of the exchange, including procedural interjections and the formal structure of question-and-answer exchanges.",
+     "Marlies Bänziger, a Swiss Green Party politician born in 1960, raised concerns about the environmental and ethical implications of Swiss export guarantees for controversial infrastructure projects.",
+     "Doris Leuthard, a lawyer and former member of the Swiss Federal Council from 2006 to 2018, responded to the question during her tenure as a Federal Councillor, representing the CVP party.",
+     "Chiara Simoneschi-Cortesi, a CVP politician and former National Council member who served as the Council's President during the 2008–2009 session, also participated in the discussion.",
+     "This record is part of a series of parliamentary question sessions in the National Council, alongside other recordings such as the 2002 session on OFAP oversight (R1), the 2018 session on the Federal Housing Office in Grenchen (R2), and the 2015 session on federal support for employees' political activities (R3), all documenting the Swiss democratic process through official parliamentary debates."
     ],
     "inferred": 0,
     "sources_used": 13,
@@ -197,20 +215,19 @@
    {
     "id": "1915605",
     "error": null,
-    "seconds": 8.9,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a collection of press articles from 1936, including coverage of the Swiss Press Association's president conference in Montreux (May 9, 1936) and the general assembly in Frauenfeld (June 27, 1936).",
-     "It is part of the archival holdings of Markus Feldmann, a journalist and press figure, stored under the category 'Presse' within the Swiss Federal Archives.",
-     "The record contains cuttings from various newspapers rather than original manuscripts, reflecting the archival practice of preserving press coverage.",
-     "The document concerns the Swiss Press Association (Verein der Schweizer Presse, VSP), a key organization in Swiss media during the interwar period.",
-     "It also references the Swiss Officers' Society, whose propaganda chief was interviewed in a St. Gallen newspaper article included in the collection.",
-     "These organizations were active in shaping public discourse and national identity in Switzerland during the tense years leading up to World War II.",
-     "This record is related to other press clipping files in the archive, such as the 'Coupures de presse: Etranger' collection, which also contains foreign news cuttings from 1936.",
-     "It also connects to the broader diplomatic context of 1936, as evidenced by the archival inventory listing Swiss representation documents in London from the same year.",
-     "Together, these records illustrate the Swiss Federal Archives' role in preserving both domestic media and international diplomatic communications during a pivotal era in European history."
+     "The article specifically reports on the proceedings and resolutions of the Swiss Press Association's leadership meeting in Montreux, including discussions on press freedom and international journalistic cooperation during a period of rising global tensions.",
+     "It also documents the outcomes of the subsequent General Assembly in Frauenfeld, likely covering membership matters, financial reports, and strategic decisions for the Swiss press community in the mid-1930s.",
+     "The document is preserved as part of a larger collection of press materials donated by Markus Feldmann, a journalist and press figure active in Switzerland during that era.",
+     "The record concerns the Swiss Press Association (Verein der Schweizer Presse, VSP), a professional organization representing Swiss journalists and media outlets.",
+     "It documents the activities of this association during a critical year in European history, 1936, when Switzerland maintained strict neutrality while facing increasing pressure from neighboring totalitarian regimes.",
+     "The document provides insight into how Swiss media professionals organized themselves and addressed challenges related to information dissemination and press independence in the interwar period.",
+     "This record is part of a broader collection of press clippings and foreign news cuttings (R1) that the Swiss Federal Archives holds, suggesting it was preserved alongside other international media coverage from the same period.",
+     "Unlike the regional newspaper articles from St. Gallen (R2) or the diplomatic inventory from London (R3), this document focuses specifically on the internal governance and professional concerns of the Swiss press community rather than foreign propaganda or diplomatic administration."
     ],
-    "inferred": 1,
-    "sources_used": 7,
+    "inferred": 0,
+    "sources_used": 6,
     "kinds_used": [
      "E",
      "R"
@@ -219,102 +236,61 @@
    {
     "id": "3397246",
     "error": null,
-    "seconds": 9.6,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a folder of newspaper clippings from 1933 titled 'Presseauschnitte betr. \"Korporationen-Idee\"', stored under the reference code J1.178#1000/1304#59* in the Swiss Federal Archives.",
-     "It is part of the 'Politik › Erneuerungsbewegungen' (Politics › Renewal Movements) section within the Emil Sonderegger collection, indicating its focus on political ideologies or reformist ideas.",
-     "As a press clipping compilation, it contains external media coverage rather than original government documents, reflecting public discourse on the 'Korporationen-Idee' (Corporations Idea) at the time.",
-     "sources: [E1, E3, E4, R1]",
-     "The 'Korporationen-Idee' likely refers to Swiss corporatist or guild-based political concepts, which historically emphasized organized interest groups representing different sectors of society.",
-     "Emil Sonderegger (1868–1934), whose collection this record belongs to, was a Swiss politician and member of the National Council, known for his involvement in political and social movements of the early 20th century.",
-     "No specific Wikidata or Wikipedia entries were provided for the 'Korporationen-Idee' or Emil Sonderegger in the sources, so details rely on the archive's classification and general historical context.",
-     "sources: [E4, R1]",
-     "This record is part of a broader series of press clippings in the archive, such as those from 1873–1874 on military organization (R3) and 1917 on Swiss affairs (R1), showing a consistent practice of collecting media coverage on key political and social issues.",
-     "The focus on 'Erneuerungsbewegungen' (Renewal Movements) situates this document within Switzerland's interwar period, a time of significant political debate over economic, social, and federal reforms.",
-     "sources: [E4, R1, R2, R3]"
+     "The clippings within this file specifically focus on debates surrounding the 'Korporationen-Idee,' a form of corporatism that sought to organize society into occupational groups to mediate between labor and capital.",
+     "These cuttings originate from Swiss newspapers published in 1933, capturing the contemporary discourse on economic and social organization during a period of significant political and economic upheaval in Europe.",
+     "The file is physically organized as a folder within the Sonderegger collection, identified by the reference code J1.178#1000/1304#59*, indicating its systematic placement under the category of 'Erneuerungsbewegungen' (renewal movements).",
+     "The 'Korporationen-Idee' was a significant political and economic concept in interwar Switzerland, reflecting broader European trends towards corporatism as an alternative to both liberal capitalism and Marxist socialism.",
+     "This record concerns the intellectual and public debate surrounding this idea, rather than any specific individual or event, focusing instead on the ideological currents shaping Swiss political thought in the early 1930s.",
+     "The Sonderegger collection itself, from which this file derives, was compiled by Emil Sonderegger (1868-1934), a Swiss politician and historian who documented various political movements of his time.",
+     "This record is part of a larger series of press clipping files within the Sonderegger collection, such as those covering Swiss affairs in 1917 (R1) or military organization in 1873-1874 (R3), all of which serve as secondary sources documenting public discourse on specific political and social issues.",
+     "Unlike the Aargau festive literature compilation (R2), which focuses on local celebrations, this file is nationally oriented, concentrating on a specific ideological movement rather than regional festivities or military policy."
     ],
-    "inferred": 11,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "1680730",
-    "error": null,
-    "seconds": 7.0,
-    "sentences": [
-     "The document is a press commentary titled 'Pressekommentare' from 1937, stored under the reference code E2001D#1000/1551#794* within the Swiss Federal Archives.",
-     "It is categorized under the diplomatic archives concerning Switzerland's foreign policy, specifically within the section for special treaties.",
-     "The record contains no narrative text beyond the alternate reference 'Aegypten', indicating its focus on Egypt-related matters.",
-     "The document concerns international relations between Switzerland and Egypt in 1937, a period of significant geopolitical change in the Middle East.",
-     "It does not directly name individuals but relates to diplomatic and treaty matters, unlike other records such as the Nekrologe 1937 which list obituaries for Johann Müller and Joseph Pauchard.",
-     "Wikidata and Wikipedia sources do not provide specific entries for this particular press commentary, as it is a specific archival item rather than a widely documented historical event.",
-     "This record is part of a larger collection of foreign policy documents from the 1937 period, alongside other press articles on taxation issues affecting Swiss citizens abroad.",
-     "Unlike the trade relations records with Italy from 1901-1904, this document reflects Switzerland's diplomatic engagement with Egypt during the interwar years.",
-     "The archival context suggests it was used for internal diplomatic briefing or information dissemination within the Swiss foreign affairs department."
-    ],
-    "inferred": 9,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "29745096",
-    "error": null,
-    "seconds": 8.9,
-    "sentences": [
-     "The document is a newspaper article from the 'Volksstimme St. Gallen' dated March 26, 1936, featuring an interview with the propaganda chief of the Swiss Officers' Society.",
-     "It presents the views and statements of this propaganda chief on unspecified topics relevant to the Swiss military or society at that time.",
-     "The article is part of a larger collection of diverse materials donated by Hans Hausamann to the Swiss Federal Archives.",
-     "sources: [E1]",
-     "The Swiss Officers' Society (Schweizerische Offiziersgesellschaft or SOG) is the umbrella organization for 24 cantonal and 15 specialist officers' societies, with a total of 22,000 members.",
-     "The article concerns the propaganda chief of this organization, reflecting its role in shaping public discourse around military and national issues in Switzerland during the 1930s.",
-     "The document originates from St. Gallen, a city located at coordinates 47.426, 9.376.",
-     "sources: [E1, W1, D2]",
-     "This record is part of the same archival collection as other materials related to the Swiss Officers' Society and diverse activities of Hans Hausamann.",
-     "Unlike records such as the Rickenbahn railway clippings (R1), which document infrastructure development in the late 19th century, this article reflects interwar political and military discourse.",
-     "It also differs from the 2015 parliamentary debate on the Regio-Express (R2), as it is a pre-war press interview rather than a contemporary legislative discussion.",
-     "sources: [E4, R1, R2]"
-    ],
-    "inferred": 12,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "5751730",
-    "error": null,
-    "seconds": 8.6,
-    "sentences": [
-     "The document is a folder of newspaper clippings titled 'Zeitungsausschnitte' from May 1939, containing reports on the Swiss National Exhibition (Landi) in Zurich between May 1 and June 6, 1939.",
-     "These clippings were collected as part of the archive's holdings related to the Swiss National Exhibition and are categorized under 'Propaganda' within the 'Depositen und Schenkungen ab 1798' series.",
-     "The record serves as a compilation of public discourse and media coverage surrounding the Landi exhibition during its early weeks.",
-     "The document concerns the Swiss National Exhibition (Landi), a major national event held in Zurich in 1939 that showcased Swiss culture, industry, and society.",
-     "The exhibition was a significant cultural and political undertaking in Switzerland during the late 1930s, aiming to foster national unity and identity.",
-     "The newspaper clippings document how Swiss and foreign media reported on the exhibition, reflecting its importance in public consciousness.",
-     "This record is part of a larger series of newspaper clippings related to the Landi exhibition, including French-language clippings covering the opening and cantonal dispatches, as well as foreign press from the United States and Canada.",
-     "Together, these records provide a comprehensive view of how the Landi exhibition was perceived and reported both domestically and internationally during a period of rising global tensions."
-    ],
-    "inferred": 2,
-    "sources_used": 9,
+    "inferred": 1,
+    "sources_used": 7,
     "kinds_used": [
      "E",
      "R"
     ]
    },
    {
-    "id": "5855990",
+    "id": "1680730",
     "error": null,
-    "seconds": 10.4,
+    "seconds": 0.0,
     "sentences": [
-     "The record titled 'Gerber Ernst, 1900. Darin auch: Nachruf von Dr. Meier-Müller auf Oberst Immenhauser' contains a eulogy by Dr. Meier-Müller for Colonel Immenhauser, likely part of a larger collection or publication from around 1900.",
-     "It is archived within the Swiss Federal Archives under the reference code E5470#2009/194#1625* and accession number 2009/194.",
-     "The document is physically located in the Fliegerärztliches Institut Dübendorf: Zentrale Ablage (1948-2003) sub-collection, specifically within the 'Flugunfälle' (aviation accidents) series.",
-     "The document concerns Colonel Immenhauser, who is honored in a eulogy by Dr. Meier-Müller.",
-     "While no direct Wikidata or Wikipedia entries are provided for Colonel Immenhauser or Dr. Meier-Müller in the sources, the record is part of a broader collection related to aviation medicine and military personnel.",
-     "The archival context suggests it relates to Swiss military aviation history, given its placement within the Fliegerärztliches Institut records.",
-     "This record is not directly linked to the other listed archive records such as the Schenk family estate tribute or the Nekrologe obituary compilation, as those pertain to different individuals and time periods.",
-     "However, it shares the broader context of Swiss Federal Archives holdings documenting military, medical, and commemorative materials from the late 19th to mid-20th century."
+     "The file is specifically labeled 'Aegypten' (Egypt), indicating its focus on events or diplomatic relations involving Egypt during 1937.",
+     "It is stored within the 'Auswärtige Politik' (Foreign Policy) section of the archive, under 'Allgemeine internationale Verträge' (General International Treaties) and 'Schweizerische Partikularverträge' (Swiss Particular Treaties)",
+     "The record is part of a larger accession (1000/1551) that likely contains multiple documents related to Switzerland's international agreements and diplomatic correspondence from the same period.",
+     "The record concerns Switzerland's foreign policy and international relations, specifically focusing on Egypt in 1937.",
+     "It is a press commentary file, meaning it likely contains summaries or analyses of news reports about Egypt rather than original diplomatic correspondence.",
+     "Unlike the Nekrologe record (R1), which lists obituaries of Swiss individuals, or the trade article (R3) covering Switzerland-Italy relations in the early 1900s, this document centers on Egypt's role in Switzerland's international affairs during the late 1930s.",
+     "It is part of a series of documents within the Swiss Federal Archives' Foreign Affairs division that document Switzerland's international treaties and specific agreements, suggesting it may relate to diplomatic negotiations, trade relations, or political developments involving Egypt.",
+     "Unlike the taxation-focused article (R2) concerning Swiss citizens abroad or the early 20th-century Swiss-Italian trade article (R3), this record is specifically tied to Egypt and the broader context of Switzerland's foreign policy in the 1930s."
     ],
     "inferred": 0,
-    "sources_used": 10,
+    "sources_used": 8,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "29745096",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The interview features the propaganda chief articulating the Swiss Officers' Society's stance on national defense and military preparedness during a period of rising international tensions in Europe.",
+     "Alongside the interview, the record includes two additional articles that likely cover related military or political topics of interest to the society's members and the regional readership.",
+     "The document is preserved as a newspaper clipping within a personal archive collection, indicating its significance as a primary source for understanding the society's public messaging.",
+     "The Swiss Officers' Society (Schweizerische Offiziersgesellschaft, SOG) is a national umbrella organization representing over 22,000 members across 24 cantonal and 15 specialized military associations in Switzerland.",
+     "The featured propaganda chief represents the SOG's public face, shaping narratives around Swiss military identity and readiness in the politically charged climate of the mid-1930s.",
+     "Published in the St. Gallen edition of Volksstimme, the article targeted a regional audience in eastern Switzerland, reflecting the society's efforts to engage local communities in its mission.",
+     "This record is part of a larger collection of newspaper articles and interviews from 1935–1936 within the estate of Swiss Federal Councillor Hermann Obrecht (record R3), suggesting a broader interest in contemporary political and military discourse among Swiss elites.",
+     "Unlike the railway-focused clippings (R1) or the 2015 parliamentary debate on cross-border rail (R2), this record centers on military society activities rather than infrastructure or modern transport policy."
+    ],
+    "inferred": 0,
+    "sources_used": 9,
     "kinds_used": [
      "D",
      "E",
@@ -323,21 +299,57 @@
     ]
    },
    {
-    "id": "931188",
+    "id": "5751730",
     "error": null,
-    "seconds": 8.1,
+    "seconds": 0.0,
     "sentences": [
-     "The document titled 'Nekrologe 1937' is a press article from the Christian Democratic People's Party of Switzerland collection listing obituaries for two individuals who died in 1937.",
-     "It contains compiled information about the deceased persons Johann Müller and Joseph Pauchard, rather than primary source material.",
-     "The record is an archival inventory entry with the reference code J2.181#1987/52#3138* and accession number 1987/52.",
-     "The document concerns Johann Müller and Joseph Pauchard, whose deaths in 1937 are noted in this press article.",
-     "No specific Wikipedia or Wikidata entries were found for these individuals in the provided sources.",
-     "The record is part of a series of similar obituary compilations from the Christian Democratic People's Party of Switzerland media holdings.",
-     "This document is part of a series of 'Nekrologe' records at the Swiss Federal Archives, including earlier years such as 1933, 1932, and a compilation from 1883 to 1930.",
-     "All these records share the same format: press articles listing obituaries of Swiss individuals, serving as historical documentation of notable deaths within the party's media collection."
+     "The clippings specifically cover the initial days of the exhibition, from May 1 to May 6, 1939, capturing early media reactions and reports on the opening events.",
+     "The material is organized as a physical compilation within the archive's holdings on propaganda related to the Swiss National Exhibition (Landi) in Zurich.",
+     "The record is part of a larger accession (1000/1231) that includes various media materials documenting the exhibition.",
+     "The record documents the media coverage of the Swiss National Exhibition (Landi) held in Zurich in 1939, a major national event showcasing Swiss culture, industry, and society.",
+     "It focuses on the public discourse generated by the exhibition through Swiss press reports during its first week of operation.",
+     "The collection is part of the archive's systematic effort to preserve the propaganda and public relations materials produced for the Landi.",
+     "This record is directly related to other newspaper clipping series within the same Landi collection, such as the French-language clippings (R2) covering April to June 1939 and the foreign (North American) clippings (R3) collected from 1937 onward.",
+     "These related records together form a comprehensive archive of international and multilingual press coverage surrounding the Swiss National Exhibition."
     ],
     "inferred": 1,
-    "sources_used": 8,
+    "sources_used": 7,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "5855990",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The file contains a specific tribute (Nachruf) written by Dr. Meier-Müller for Colonel Immenhauser, which is distinct from the biographical information on Ernst Gerber included within the same document.",
+     "The document is part of the Fliegerärztliches Institut's central archive, specifically categorized under 'Flugunfälle' (aviation accidents), indicating its relevance to incidents or casualties within Swiss military aviation.",
+     "It is an accessioned item from 2009 (Accession: 2009/194), suggesting it was processed and preserved as part of a later archival intake rather than its original creation period of 1922–1936.",
+     "The Fliegerärztliches Institut (FAI) in Dübendorf, where this file is archived, functions as Switzerland's central authority for medical and psychological assessments related to military and civil aviation personnel."
+    ],
+    "inferred": 0,
+    "sources_used": 6,
+    "kinds_used": [
+     "D",
+     "E",
+     "W"
+    ]
+   },
+   {
+    "id": "931188",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The document is a typewritten list formatted alphabetically by surname, presenting only the full names of Johann Müller and Joseph Pauchard without additional biographical details or dates of death.",
+     "It is a concise archival inventory entry rather than a narrative obituary, serving as a reference tool within the party's media collection.",
+     "No specific biographical data about these individuals is provided in the document itself, nor are they linked to entries in the available Wikidata or Wikipedia sources.",
+     "This record is part of a series of annual 'Nekrologe' (obituary) press articles held by the Swiss Federal Archives, including similar compilations from 1932, 1933, and a multi-year collection spanning 1883–1930.",
+     "All these records share the same archival provenance and function as reference lists within the Christian Democratic People's Party media holdings, rather than original obituaries."
+    ],
+    "inferred": 0,
+    "sources_used": 6,
     "kinds_used": [
      "E",
      "R"
@@ -346,20 +358,18 @@
    {
     "id": "3472254",
     "error": null,
-    "seconds": 8.6,
+    "seconds": 0.0,
     "sentences": [
-     "This record consists of microform copies of festschriften (commemorative publications) created by Prof. W. Oechsli and Prof. C. Hilty for the Swiss Federal Celebration of 1891.",
-     "The festschriften contain scholarly works on the origins of the Swiss Confederation and the development of its federal constitutions.",
-     "The document also covers the administrative process of delivering and distributing these publications as part of the official festivities.",
-     "The festschriften concern the Swiss Federal Celebration of 1891, a national event marking the history and political development of the Swiss Confederation.",
-     "The scholarly contributions were authored by Prof. W. Oechsli and Prof. C. Hilty, prominent Swiss historians of their time.",
-     "The record reflects the federal government's role in promoting national identity and historical awareness through official publications.",
-     "This record is part of a series of documents related to the 1891 Federal Celebration, alongside other materials like receipts for commemorative medals.",
-     "Unlike records such as the Extraordinary Tagsatzung proceedings from 1845, which document political deliberations, this record focuses on the cultural and administrative aspects of national commemoration.",
-     "It contrasts with other archival materials like the dispute with the Stämpfli printing house, which concern the practical logistics of publishing rather than the content of scholarly works."
+     "The contributions by Prof. Oechsli and Prof. Hilty specifically analyze the early political alliances and the evolution of constitutional frameworks that defined the Swiss Confederation.",
+     "The record includes administrative details such as the quantities distributed, the recipients of the festschriften, and the logistical arrangements for their dissemination.",
+     "Preserved as a microform, the document reflects late 19th-century archival practices of compacting large volumes of text for long-term storage.",
+     "The record concerns two Swiss academic historians, Wilhelm Oechsli and Carl Hilty, whose scholarly works were compiled to commemorate the Swiss Federal Celebration of 1891.",
+     "These contributions focus on the historical development of the Swiss Confederation and its federal constitutions, topics central to understanding Swiss statehood.",
+     "The festschriften were part of official state commemorations, linking academic scholarship with national identity and political history.",
+     "It is closely related to the record \"Empfangsbescheinigungen für Festmedaille und Festschriften (1891)\" (R1), which documents the actual distribution of the commemorative medals and festival publications mentioned in this festschrift compilation."
     ],
     "inferred": 0,
-    "sources_used": 7,
+    "sources_used": 4,
     "kinds_used": [
      "E",
      "R"
@@ -368,42 +378,38 @@
    {
     "id": "6608526",
     "error": null,
-    "seconds": 8.0,
+    "seconds": 0.0,
     "sentences": [
-     "The document is an article titled 'Geschichte des Toledo Schweizer Verein' (History of the Toledo Swiss Association), held in the Swiss Federal Archives.",
-     "It is part of the central files of the Swiss representation in Cincinnati, specifically within the collection concerning Swiss colonies, important events, and personalities.",
-     "The record dates from 1923 and is catalogued under accession number 1000/168 with reference code E2200.128#1000/168#302*.",
-     "sources: [E1, E3, E4, E5, E6]",
-     "The document concerns the Toledo Swiss Association, a community of Swiss expatriates in Toledo, Ohio, United States.",
-     "It likely details the activities, events, or prominent members of this Swiss colony in the early 20th century.",
-     "Wikidata places Toledo at coordinates 41.653, -83.538, confirming its location in the United States (E2, D1).",
-     "sources: [E2, D1]",
-     "This record is part of a broader collection of Swiss diplomatic and colonial documentation, alongside other materials on Swiss communities abroad.",
-     "It contrasts with other archive items such as the family history of the Lerbers (R2) or oral histories of the Swiss Border Brigade (R3), which focus on different aspects of Swiss heritage and history.",
-     "The Toledo Swiss Association document provides insight into the transatlantic Swiss diaspora and cultural preservation efforts in the interwar period.",
-     "sources: [E5, R1, R2, R3]"
+     "The document is a textual article specifically focusing on the activities, events, and prominent individuals of the Toledo Swiss Association during the year 1923.",
+     "It is categorized within the Swiss Federal Archives under the collection of Swiss colonies, highlighting its significance for documenting Swiss diaspora communities abroad.",
+     "The record is physically stored in the Swiss representation files in Cincinnati, within the central archive covering the period from 1864 to 1953.",
+     "The record concerns the Swiss diaspora community in Toledo, Ohio, United States, documenting their efforts to maintain Swiss culture and provide welfare support to fellow Swiss expatriates.",
+     "It highlights the role of Swiss associations abroad in fostering community ties and preserving national identity among emigrants.",
+     "The document features notable figures and events within the Toledo Swiss Association, though specific names are not detailed in the provided metadata."
     ],
-    "inferred": 12,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 1,
+    "sources_used": 6,
+    "kinds_used": [
+     "D",
+     "E"
+    ]
    },
    {
     "id": "4021886",
     "error": null,
-    "seconds": 8.9,
+    "seconds": 0.0,
     "sentences": [
-     "The document titled 'Geschichte des Wappenschutzes und des Schutzes der Herkunftsbezeichnungen' (History of Coat of Arms Protection and Protection of Designations of Origin) is an archival record from the Swiss Federal Archives dating to the 1930–1939 period.",
-     "It is stored in the archive under the reference code E4380B#502 within the section dedicated to coat of arms protection and designations of origin at the Federal Office of Intellectual Property.",
-     "The record likely contains administrative materials, correspondence, or publications related to Switzerland's efforts to protect heraldic symbols and geographical indications.",
-     "The document concerns Swiss intellectual property policy and the legal protection of cultural and economic identifiers such as coats of arms and regional products.",
-     "It reflects Switzerland's engagement in international cooperation on heritage and intellectual property issues during the interwar period.",
-     "No specific individuals or families are mentioned in the record's metadata, so it does not directly concern private persons.",
-     "This record is part of a broader collection on intellectual property and cultural heritage at the Federal Office of Intellectual Property within the Swiss Federal Archives.",
-     "Unlike other records such as the press article on taxation of Swiss citizens abroad (R2) or the Lerber family history (R3), this document focuses on official policy rather than individual cases or private genealogies.",
-     "Its historical context lies in the early 20th-century movement to codify international protections for cultural and economic symbols, preceding modern trademark and geographical indication laws."
+     "The file contains background material on the legal frameworks and administrative procedures governing the protection of coats of arms and geographical indications, including discussions on international cooperation and comparative law.",
+     "It likely includes summaries of relevant national and international regulations, case studies of emblem registrations, and guidelines for applicants seeking protection for their symbols or product origins.",
+     "The document is organized as a central reference file within the Federal Institute of Intellectual Property's archives, serving as a resource for internal use rather than a public legislative record.",
+     "This record concerns the Swiss Federal Institute of Intellectual Property (IPI), the government agency responsible for administering intellectual property rights in Switzerland, including trademarks, patents, designs, and geographical indications.",
+     "It specifically addresses the protection of heraldic symbols (coats of arms) and the designation of origin for goods, which are key components of Switzerland's economic and cultural identity, particularly in sectors like watchmaking, cheese, and chocolate.",
+     "The timeframe of 1930–1939 captures a period of evolving international intellectual property norms, during which Switzerland was actively engaging with global efforts to harmonize legal protections for artistic and commercial symbols.",
+     "This file is closely related to record R1, which documents Switzerland's involvement in international conventions for the legal protection of artistic heritage, reflecting a broader governmental interest in safeguarding cultural and commercial symbols on a global scale.",
+     "Unlike R2, which deals with taxation of Swiss citizens abroad or R3, a private family history document, this record is an official administrative file focused on intellectual property policy rather than diplomatic taxation or genealogical research."
     ],
-    "inferred": 1,
-    "sources_used": 7,
+    "inferred": 0,
+    "sources_used": 6,
     "kinds_used": [
      "E",
      "R"
@@ -412,73 +418,83 @@
    {
     "id": "4999588",
     "error": null,
-    "seconds": 10.0,
+    "seconds": 0.0,
     "sentences": [
-     "Aktenverzeichnis 1939 is an archival inventory listing documents from the Swiss diplomatic mission in London for the year 1939.",
-     "It serves as a finding aid within the Swiss Federal Archives, organizing administrative files from the Swiss representation in the United Kingdom.",
-     "The record is stored under the reference code E2200.40-01#2004/87#18* in the archive's collection.",
-     "This record concerns the Swiss diplomatic mission in London, which is part of Switzerland's foreign representation network.",
-     "The Swiss Federal Archives (BAR), based in Bern, preserves such diplomatic records to ensure transparency and continuity of state administration.",
-     "The document covers the year 1939, a period marked by rising international tensions preceding World War II.",
-     "It is part of a series of similar inventories, such as Aktenverzeichnis 1929 and the Répertoire Alphabétique Général 1905 to 1913, which document Swiss diplomatic correspondence over time.",
-     "These records collectively illustrate the systematic archival practice of the Swiss Federal Archives in managing diplomatic files from various missions abroad.",
-     "Together, they provide a historical record of Switzerland's diplomatic relations and administrative activities during the first half of the 20th century."
+     "The inventory is organized as a subject card index (Sachkartei) within the Swiss Federal Archives' holdings, specifically under the Swiss representation in London's registry of finding aids.",
+     "It carries the accession number 2004/87, indicating it was processed and catalogued by the archive in 2004 as part of a larger transfer of diplomatic records.",
+     "The document reflects the administrative structure of the Swiss diplomatic mission in London, which maintained systematic record-keeping practices to manage correspondence and official business.",
+     "This record pertains to the Swiss diplomatic mission in London, documenting its administrative activities during the critical year of 1939, just before the outbreak of World War II.",
+     "It concerns the Swiss Federal Archives' mandate to preserve and make accessible the administrative heritage of Swiss foreign representations, as outlined in the Federal Archives Act.",
+     "The inventory serves as a bridge between the Swiss government's overseas operations and the public, enabling research into Switzerland's neutrality and diplomatic relations in the interwar period.",
+     "It is part of a series of similar inventories for the London mission, including the Aktenverzeichnis 1929 (1929/1929), which covers the preceding decade and shares the same archival classification and purpose.",
+     "Unlike the London-focused inventories, other diplomatic mission inventories such as the Aktenverzeichnisse (1905/1906) for Washington and the Répertoire Alphabétique Général (1905/1913) for London cover different periods and locations, illustrating the archive's comprehensive documentation of Swiss diplomatic history."
     ],
-    "inferred": 9,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 0,
+    "sources_used": 9,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
    },
    {
     "id": "5992860",
     "error": null,
-    "seconds": 7.4,
+    "seconds": 0.0,
     "sentences": [
-     "This document is an alphabetically ordered register of subject headings for the business protocols of the Swiss Federal Finance Department from 1907.",
-     "It functions as an administrative index to locate specific topics within the department's official records rather than containing the protocols themselves.",
-     "The document is part of the Swiss Federal Archives' collection under the accession number 1000/1173 and is stored in the section covering finance administration.",
-     "The register concerns the Swiss Federal Finance Department, a key administrative body responsible for managing the federal finances of Switzerland.",
-     "It documents the bureaucratic organization of financial affairs during the early 20th century, reflecting the systematic approach to record-keeping in Swiss federal administration.",
-     "This 1907 register is part of a series of similar alphabetical registers dating back to at least 1858, showing a consistent administrative practice across decades.",
-     "Comparing it with earlier registers from 1871 and 1884 reveals the continuity and evolution of the department's indexing system over time."
+     "The 1907 register is organized alphabetically by subject terms, allowing officials to quickly locate entries related to specific financial matters such as taxation, customs, or budgetary items within the department's protocols.",
+     "It is a bound volume with a reference code of E9#1000/1173#132* and accession number 1000/1173, stored within the Swiss Federal Archives under the series Finanzwesen (Finance).",
+     "The document reflects the bureaucratic structure of the Swiss Federal Finance Department at the turn of the 20th century, where systematic indexing was essential for managing growing administrative volumes.",
+     "This register pertains to the Swiss Federal Finance Department (Eidgenössisches Finanzdepartement), a federal administrative body responsible for Switzerland's financial and economic policies.",
+     "It concerns the department's business protocols (Geschäftsprotokolle), which document official meetings, decisions, and administrative actions taken by the department between 1907 and earlier years.",
+     "The subject headings in the register cover a wide range of financial topics relevant to the federal government, such as public debt, revenue collection, and state expenditures.",
+     "This 1907 register is part of a continuous series of subject index registers maintained by the Swiss Federal Finance Department, including earlier volumes from 1858, 1871, and 1884 (R3, R2, R1 respectively).",
+     "These related records collectively demonstrate the department's long-standing practice of creating systematic, alphabetical indexes to manage its extensive archival holdings over more than half a century."
     ],
-    "inferred": 7,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 0,
+    "sources_used": 7,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
    },
    {
     "id": "5992820",
     "error": null,
-    "seconds": 6.0,
+    "seconds": 0.0,
     "sentences": [
-     "This document is an alphabetically ordered register of subject headings for the business protocols of the Swiss Federal Finance Department from 1869.",
-     "It functions as an administrative index to locate entries within the department's official records rather than containing the protocols themselves.",
-     "The register is part of the Swiss Federal Archives' collection under the accession number 1000/1173.",
-     "The register concerns the Swiss Federal Finance Department, a key administrative body responsible for managing the financial affairs of the Swiss Confederation.",
-     "It documents the bureaucratic organization and subject matter of the department's business protocols during the late 19th century.",
-     "Wikidata and Wikipedia sources confirm the Swiss Federal Finance Department's role in federal governance and its historical continuity from the mid-19th century onward.",
-     "This 1869 register is part of a series of similar alphabetical registers from other years, including those from 1858, 1871, and 1877, all serving the same indexing function for the Finance Department's protocols.",
-     "These registers collectively illustrate the development of administrative record-keeping practices in the Swiss federal government during the post-Civil War era."
+     "The register is organized alphabetically by subject terms, allowing officials to quickly locate entries related to specific financial matters such as taxation, customs, or budgetary allocations within the department's protocols.",
+     "It is a bound volume with a reference code of E9#1000/1173#94* and accession number 1000/1173, stored within the Swiss Federal Archives under the Finance Department's administrative records.",
+     "The document reflects the bureaucratic practices of the Swiss Federal Finance Department in the late 19th century, emphasizing systematic record-keeping and administrative efficiency.",
+     "This register pertains to the Swiss Federal Finance Department (Eidgenössisches Finanzdepartement), a key federal agency responsible for managing Switzerland's public finances, taxation, and economic policy during the 19th century.",
+     "It concerns administrative protocols from the year 1869, which would have documented decisions, correspondence, and official business conducted by the department.",
+     "The subject headings indexed in the register would have covered core financial topics such as revenue collection, debt management, and budgetary oversight, essential for the functioning of the federal state.",
+     "This 1869 register is part of a series of similar alphabetical subject registers produced by the Swiss Federal Finance Department, including those from 1858, 1871, and 1877, all serving the same purpose of indexing administrative protocols.",
+     "These registers collectively illustrate the evolution of record-keeping practices within the department over two decades, showing continuity in administrative methodology despite changing political and economic contexts."
     ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 0,
+    "sources_used": 8,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
    },
    {
     "id": "29385201",
     "error": null,
-    "seconds": 9.1,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a register of meeting minutes from the pro-Committee of 1919 and 1920, documenting the proceedings of the Société Suisse de Surveillance économique (SSS) committee during that period.",
-     "It is part of the archive's holdings on the SSS, an economic surveillance organization active during and after World War I.",
-     "The record is stored as accession number 1000/1252 within the Depositen und Schenkungen collection.",
-     "The document concerns the Société Suisse de Surveillance économique (SSS), an economic organization whose wartime activities were monitored by Swiss military authorities.",
-     "Wikidata does not have a specific entry for the SSS, but the organization is referenced in the Swiss Federal Archives' records related to economic surveillance during World War I.",
-     "The minutes reflect the committee's internal operations and decisions during a critical period of Swiss neutrality and economic regulation in the early 20th century.",
-     "This record is closely related to other SSS materials in the archive, such as press clippings (R1) that document wartime media coverage of the organization.",
-     "Unlike later records such as the governmental committee file on cultural heritage (R2) from the 1970s, this document focuses on wartime economic surveillance rather than post-war cultural preservation.",
-     "The register also connects to administrative practices of the era, such as the alphabetical copying register from the Federal Finance Department (R3), which reflects the bureaucratic environment in which the SSS operated."
+     "The register is structured as an alphabetical index, allowing researchers to locate specific committee meetings or topics within the S.S.S. proceedings for the years 1919 and 1920.",
+     "It is physically housed within the archive's collection of the Swiss Society for Economic Surveillance (S.S.S.) from 1915 to 1920, specifically under the sub-series for committee minutes.",
+     "The document carries a unique reference code (J2.78#1000/1252#17*) that distinguishes it within the archive's accession 1000/1252.",
+     "The record pertains to the Swiss Society for Economic Surveillance (S.S.S.), an organization active during the post-World War I period that focused on monitoring and analyzing economic conditions in Switzerland.",
+     "It specifically documents the activities of the 'pro 1919–1920' committee, which likely addressed economic recovery and surveillance issues in the immediate aftermath of the global conflict.",
+     "Unlike the press clippings record (R1), which focuses on wartime media coverage of the S.S.S., this register is an internal administrative tool for accessing the society's actual meeting minutes.",
+     "It differs from the later cultural heritage committee file (R2) in both time period and subject matter, as it deals with economic surveillance rather than the protection of immovable cultural heritage.",
+     "The alphabetical register of copied Finance Department documents (R3) shares a structural similarity as an administrative index, but it pertains to federal government correspondence rather than the minutes of a private economic society."
     ],
-    "inferred": 0,
+    "inferred": 1,
     "sources_used": 8,
     "kinds_used": [
      "E",
@@ -488,60 +504,63 @@
    {
     "id": "31445426",
     "error": null,
-    "seconds": 7.2,
+    "seconds": 0.0,
     "sentences": [
-     "E1 is a repertory of personnel files created between 1867 and 1872, serving as an alphabetical index of administrative records.",
-     "It was produced by the Swiss Federal Archives between 1868 and 1884, as mandated by the 1864 archive regulations (Article 14.b).",
-     "The repertory indexes files concerning personal matters such as absentees, extraditions, and inheritance cases.",
-     "The document concerns Swiss federal administrative records related to individuals, including those who were absent from the country or involved in legal matters like extradition and inheritance.",
-     "It is part of the Swiss Federal Archives' Police Department holdings, which managed such personal and security-related files during the late 19th century.",
-     "Wikidata and Wikipedia sources do not provide specific details about individuals in this repertory, as it is an archival index rather than a primary record of personal data.",
-     "E1 is part of a series of repertories covering 1849–1878, including E2 which covers 1876–1878, all serving as finding aids for the same administrative files.",
-     "Other related records like R2 (register of expelled persons) and R3 (inventory of diplomatic mission files) reflect the broader Swiss federal administration of personal and consular affairs in the same period.",
-     "These documents collectively illustrate the Swiss state's systematic organization of personal data and diplomatic administration in the late 19th century."
-    ],
-    "inferred": 9,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "1627708",
-    "error": null,
-    "seconds": 9.1,
-    "sentences": [
-     "The document is a 'Répertoire pour le différend de limites entre la Colombie et le Vénézuéla' (Directory for the boundary dispute between Colombia and Venezuela), dated 1921.",
-     "It is an archival record from the Swiss Federal Archives, specifically located within the Foreign Affairs section concerning international treaties and arbitration agreements.",
-     "The document serves as a compilation or index related to the legal and diplomatic proceedings of the boundary dispute between Colombia and Venezuela.",
-     "The document concerns the international boundary dispute between Colombia and Venezuela, two South American nations.",
-     "It does not directly concern Swiss citizens or internal Swiss affairs but rather international relations and state boundaries.",
-     "The Swiss Federal Archives holds this record as part of its diplomatic and legal documentation on international treaties and arbitration.",
-     "This record is distinct from other Swiss archival materials such as the 'Répertoire internationale des institutions statistiques' or the 'Répertoire des secours et rapatriements', which focus on Swiss administrative statistics and citizen repatriation respectively.",
-     "Unlike records on Rhine navigation conventions or Swiss foreign policy inventories, this document specifically addresses a Latin American territorial dispute, highlighting Switzerland's role in international arbitration and diplomatic record-keeping."
+     "The repertory was specifically designed to index administrative matters such as absences of Swiss nationals abroad, extradition requests, and inheritance cases, providing a systematic way to locate files without needing archive signatures.",
+     "It was created as part of a larger series of repertories spanning multiple decades, from 1849 to 1878, reflecting a sustained effort to organize the Swiss Federal Archives' growing collection of personal files.",
+     "The document is housed within the Swiss Federal Archives' Police Department section, specifically under the subcategory of 'Personnel Card Indexes and Personal Indices', indicating its role in managing sensitive personal administrative data.",
+     "This record concerns Swiss federal administrative files from 1867 to 1872, documenting personal matters of individuals under Swiss jurisdiction or with Swiss connections, such as those who were absent from Switzerland or involved in cross-border legal matters.",
+     "The repertory served as an internal tool for the Swiss Federal Archives staff to efficiently locate files related to specific individuals, supporting the government's administrative and legal functions during the late 19th century.",
+     "It is part of a broader archival system that also includes records of expelled persons and diplomatic mission files, all contributing to the Swiss state's management of international and domestic personal affairs.",
+     "It is directly related to the 'Repertorium der Personalakten von 1876 - 1878, A-Z' (R1), which follows the same format and purpose but covers a later time period, indicating a continuous archival practice of indexing personnel files.",
+     "While not directly related to diplomatic mission inventories like the 'Aktenverzeichnis (1876/1879)' (R3) or registers of expelled persons (R2), all these records share the common theme of Swiss federal administration managing personal data across different domains."
     ],
     "inferred": 0,
-    "sources_used": 8,
+    "sources_used": 6,
     "kinds_used": [
-     "D",
      "E",
      "R"
     ]
    },
    {
+    "id": "1627708",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The dossier includes specific correspondence and legal documents related to the arbitration process initiated under international law to resolve the territorial dispute between Colombia and Venezuela.",
+     "It is organized within the Swiss Federal Archives' central foreign policy files, reflecting Switzerland's role as a neutral state often involved in international mediation.",
+     "The record is part of a larger collection of files on international treaties and arbitration mechanisms maintained by the Swiss foreign affairs department during the interwar period.",
+     "The document pertains to the diplomatic and legal relations between Colombia and Venezuela, two South American nations engaged in a boundary dispute in the early 20th century.",
+     "It documents Switzerland's involvement as a neutral intermediary in international disputes, consistent with its historical foreign policy of promoting peace and legal resolution of conflicts.",
+     "The dossier is indexed under the category of international law and arbitration within the Swiss Federal Archives' diplomatic records, highlighting its significance in the study of international relations.",
+     "Unlike the purely administrative records such as the Swiss statistical institution listings (R1) or repatriation registers (R2), this dossier is a substantive diplomatic file dealing with international legal proceedings.",
+     "It differs from the Rhine navigation convention finding aid (R3), which catalogues a file on river transport law, as it directly addresses a territorial dispute between two sovereign states rather than economic or transport agreements."
+    ],
+    "inferred": 0,
+    "sources_used": 7,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
     "id": "6323151",
     "error": null,
-    "seconds": 7.7,
+    "seconds": 0.0,
     "sentences": [
-     "The document is an excerpt from the 'Repertoire internationale des institutions statistiques' dated 1938, held in the Swiss Federal Archives under the reference code E7181A#1978/90#29*.",
-     "It is part of the administrative files of the Federal Office for Industry, Trade and Labour concerning social statistics.",
-     "The excerpt specifically addresses the question of the administrative integration of social statistics into the BIGA (Bundesamt für Industrie, Gewerbe und Arbeit).",
-     "The document concerns the Swiss Federal Office for Industry, Trade and Labour (BIGA), which was responsible for economic and social statistics in Switzerland during the interwar period.",
-     "It reflects the Swiss government's efforts to organize and integrate statistical data collection within its administrative framework in the late 1930s.",
-     "No specific individuals are named in the record, as it focuses on institutional and administrative matters rather than personal biographies.",
-     "This record is related to other Swiss Federal Archives files concerning international administrative cooperation and institutional development, such as those documenting Swiss involvement in international congresses and conventions.",
-     "It reflects a broader historical context of the 1930s where Switzerland was actively engaged in organizing and standardizing statistical and administrative practices both domestically and within international frameworks."
+     "The excerpt specifically lists international statistical institutions alongside their contact details, publication schedules, and areas of statistical focus, serving as a reference tool for comparative analysis.",
+     "It is formatted as a typewritten administrative document with tabulated data, reflecting the bureaucratic standards of the Swiss Federal Office of Industry, Trade and Labour in the late 1930s.",
+     "The document is part of a larger advisory report submitted on December 9, 1938, which evaluated how social statistics should be organized within the BIGA administrative structure.",
+     "The document concerns the Swiss Federal Office of Industry, Trade and Labour (BIGA), a key federal agency responsible for economic and labor policy during the interwar period.",
+     "It addresses the integration of social statistics into BIGA's operations, highlighting the importance of international data exchange and standardization for Swiss economic governance.",
+     "The report reflects Switzerland's engagement with global statistical networks, positioning the country within international frameworks for economic and social data collection.",
+     "Unlike records such as the 1929 Lund Congress documentation (R1) or the 1924 heritage conventions file (R3), this document is not related to cultural or diplomatic events but focuses on economic administration and statistical infrastructure.",
+     "It stands apart from foreign policy arbitration files like the Colombia-Venezuela boundary dispute record (R2), as it centers on internal Swiss bureaucratic reform rather than international legal disputes."
     ],
-    "inferred": 1,
-    "sources_used": 8,
+    "inferred": 0,
+    "sources_used": 7,
     "kinds_used": [
      "E",
      "R"
@@ -550,19 +569,18 @@
    {
     "id": "7421918",
     "error": null,
-    "seconds": 8.9,
+    "seconds": 0.0,
     "sentences": [
-     "The document is the 'Répertoire Alphabétique Général' covering the years 1905 to 1913, serving as an alphabetical index of incoming and outgoing journals for the Swiss representation in London.",
-     "It functions as an administrative tool to locate specific entries within the central files of the Swiss diplomatic mission in London during that period.",
-     "The record is part of the Swiss Federal Archives' holdings under the series for Swiss representation in London, specifically within the political affairs section.",
-     "This record concerns the Swiss diplomatic mission in London, which was responsible for representing Swiss interests and providing consular services to Swiss citizens abroad.",
-     "The document reflects the administrative practices of the Swiss federal government in managing diplomatic correspondence and official communications at the turn of the 20th century.",
-     "No specific individuals are named in the document itself, which is an index rather than a primary record of personal affairs.",
-     "It relates to other archival records such as the 'Register zum Geschäftsprotokoll des eidgenössischen Finanzdepartements' from 1905, which also served as an administrative index for the Swiss Federal Finance Department.",
-     "Similarly, it connects to the 'Aktenverzeichnisse' from 1905/1906, which were inventories of files from the Swiss mission in Washington, illustrating a broader pattern of Swiss diplomatic archival organization.",
-     "These records collectively demonstrate the systematic approach of the Swiss federal administration to document and manage its diplomatic and consular activities during the early 20th century."
+     "The register is organized alphabetically by correspondent or subject, providing a systematic way to locate specific diplomatic communications within the mission's central files.",
+     "It includes not only letters and dispatches but also reports, memoranda, and administrative notices exchanged between the Swiss legation in London and various Swiss federal departments, foreign governments, and private individuals.",
+     "Each entry typically contains a brief description of the document's content, its date, and a reference to its physical location within the archival series.",
+     "This record pertains to the Swiss diplomatic mission in London, which served as the official representation of Switzerland in the United Kingdom during the early 20th century.",
+     "It documents the political, economic, and consular affairs handled by Swiss diplomats, reflecting Switzerland's neutral stance and international relations during a period of rising European tensions.",
+     "The register is part of Switzerland's broader diplomatic archival system, which preserves the country's foreign policy activities and consular responsibilities abroad.",
+     "It is similar in function to other alphabetical registers in the Swiss Federal Archives, such as the Register zum Geschäftsprotokoll des eidgenössischen Finanzdepartements (R2), which also serves as an administrative index to locate entries within departmental records.",
+     "Unlike the Washington mission's Aktenverzeichnisse (R3), which cover a shorter timeframe and a different diplomatic post, this London register spans eight years and reflects the broader scope of Swiss-British relations during a critical pre-World War I period."
     ],
-    "inferred": 1,
+    "inferred": 0,
     "sources_used": 7,
     "kinds_used": [
      "E",
@@ -572,326 +590,16 @@
    {
     "id": "13246979",
     "error": null,
-    "seconds": 9.3,
+    "seconds": 0.0,
     "sentences": [
-     "This record is an 'Aktenverzeichnis' (file index) from the Swiss Federal Archives, covering the years 1876 to 1879.",
-     "It is part of the central filing of the Swiss representation in Saint Petersburg, with the reference code E2200.86-01#1000/701#31* and accession number 1000/701.",
-     "As an archival finding aid, it serves to describe and organize the administrative documents of the Swiss diplomatic mission in Saint Petersburg during that period.",
-     "The document concerns the Swiss diplomatic mission in Saint Petersburg, which was active from 1817 to 1918 as part of Switzerland's foreign representation.",
-     "It pertains to the administrative and diplomatic activities of Swiss officials stationed in the Russian capital during the late 19th century.",
-     "This record is similar in function to other 'Aktenverzeichnisse' in the archive, such as those from the Swiss representations in New York (1929) and London (1936, 1939), which also serve as administrative inventories of diplomatic files.",
-     "Together, these records illustrate the systematic archival practice of Swiss diplomacy across different locations and time periods, providing insight into the organization of foreign affairs documentation."
-    ],
-    "inferred": 7,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "32683295",
-    "error": null,
-    "seconds": 6.3,
-    "sentences": [
-     "The document is a finding aid titled 'Findmittel E2200.135 Schweizerische Vertretung, Los Angeles', which indexes archival deliveries from the Swiss representation in Los Angeles.",
-     "It lists specific archival units (e.g., *1000/176*, *1970/191*) spanning the period from 1949 to 2008.",
-     "This finding aid serves as an administrative index within the Swiss Federal Archives' central storage system, not as the primary historical records themselves.",
-     "The record concerns the Swiss diplomatic mission in Los Angeles, documenting its administrative and official activities over several decades.",
-     "It relates to Switzerland's foreign representation system, which is overseen by the Swiss Federal Archives as mandated by federal law.",
-     "Los Angeles is identified in Wikidata as a major city in California, USA, where the Swiss representation was located.",
-     "This finding aid is part of a series of similar inventories for Swiss representations abroad, such as those for Galatz (E2200.222) and Vesoul (E2200.302A), all catalogued by the Swiss Federal Archives.",
-     "Like the Washington mission's 1909–1910 index (R3), it contributes to the systematic archiving of Swiss diplomatic history and supports administrative transparency and legal certainty."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   }
-  ],
-  "apertus-v1-5-8b": [
-   {
-    "id": "22406340",
-    "error": null,
-    "seconds": 4.6,
-    "sentences": [
-     "This is a video segment titled \"LOECHE / OPP.LIGNE HAUTE TENSION\" from the Swiss French-language channel TSR's Téléjournal, dated 22 October 1985, showing electrical pylons, a high-voltage power line in the mountains, an interior lake, and an interview.",
-     "The footage covers the geographical area of Loeche-les-Bains in Valais, Switzerland, and was produced in color on Betacam-digital format, lasting 2 minutes and 10 seconds.",
-     "It is part of the Swiss Federal Archives collection of Téléjournal broadcasts from 1980 to 1991, accessioned in 1998 under the reference code J2.240#1998/317#7050* and archived under J2.240#1998/317#1420#2*.",
-     "The segment concerns the high-voltage power line infrastructure in the mountainous region of Loeche-les-Bains, Valais, Switzerland, and includes an interview about electrical energy.",
-     "The location Loeche-les-Bains is situated in the Valais canton of Switzerland, with coordinates 46.379, 7.627, and the canton of Valais is located at 46.230, 7.661.",
-     "The content is part of the broader media documentation of Swiss infrastructure and energy projects during the 1980s, as captured by the Swiss public broadcaster TSR.",
-     "Other related records include news segments from the same broadcaster such as \"U2. CENTRALE DE COMMANDE POUR LES SERRES\" from 3 September 1985 and \"TELESIEGE CHANDOLIN - ST-LUC\" from 25 December 1986, which also document infrastructure and regional development.",
-     "The segment reflects the broader historical context of Switzerland's investment in energy infrastructure and regional development during the 1980s, as documented by the Swiss Federal Archives through its collection of television news broadcasts."
-    ],
-    "inferred": 0,
-    "sources_used": 14,
-    "kinds_used": [
-     "D",
-     "E",
-     "R"
-    ]
-   },
-   {
-    "id": "22424850",
-    "error": null,
-    "seconds": 3.8,
-    "sentences": [
-     "This is a video segment titled \"U2. CENTRALE DE COMMANDE POUR LES SERRES\" from the Journal Romand broadcast on 3 September 1985, covering a greenhouse control system in the Rhône plain.",
-     "The segment features a description of a landscape in the Rhône plain, an interview, and details about a thermostat and antenna used in the greenhouse.",
-     "It is a colour video recording in Betacam digital format, lasting 1 minute and 3 seconds, focusing on agricultural technology in the Rhône region.",
-     "The content concerns agricultural practices in the Rhône plain, specifically the management of greenhouses and their technological components like thermostats and antennas.",
-     "This relates to the broader theme of Swiss agriculture and technological innovation in rural areas during the mid-1980s, as documented by Swiss television.",
-     "The segment provides insight into the cultural aspects of farming in the Rhône plain, reflecting the region's focus on horticulture and controlled-environment agriculture.",
-     "Other records in the Swiss Federal Archives include news reports on controversial infrastructure projects like high-voltage power lines and motorway construction, as well as a kidnapping incident in a hospital.",
-     "These diverse records collectively illustrate the range of social, political, and technological issues covered by Swiss television news during the mid-1980s, alongside agricultural topics."
-    ],
-    "inferred": 0,
-    "sources_used": 16,
-    "kinds_used": [
-     "D",
-     "E",
-     "R"
-    ]
-   },
-   {
-    "id": "21790117",
-    "error": null,
-    "seconds": 5.5,
-    "sentences": [
-     "This is a video news report titled 'Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial)' from 19 December 1978, showing footage of Indira Gandhi's arrest in Delhi and scenes of police cordons and demonstrators.",
-     "The footage captures Gandhi interacting with supporters, reporters being crowded, and her waving to photographers, documenting a significant political event involving the former Prime Minister of India.",
-     "The video is part of the Tagesschau series, produced by UPITN and published by SRG SSR idée suisse, covering Asia without the Middle East states, and is 1 minute and 48 seconds long in color.",
-     "The record concerns Indira Gandhi, the former Prime Minister of India, who was arrested and subsequently excluded from parliament, as documented in the Tagesschau news report.",
-     "Indira Gandhi served as Prime Minister of India from 1966 to 1977 and again from 1980 to 1984, making her a prominent figure in Indian politics and the subject of this news coverage.",
-     "The event took place in Delhi, the capital city of India, where Gandhi's arrest occurred, as indicated by the geographical coverage of the Tagesschau report.",
-     "This record is part of the Swiss Federal Archives' collection of Tagesschau broadcasts from 1957 to 1989, which includes other news reports such as those covering floods in Paris and diplomatic negotiations in Vietnam.",
-     "The Tagesschau series, produced by SRG SSR idée suisse, provides a historical record of international news events, with this particular report contributing to the documentation of significant political developments in India during the late 1970s."
-    ],
-    "inferred": 0,
-    "sources_used": 17,
-    "kinds_used": [
-     "D",
-     "E",
-     "R",
-     "W"
-    ]
-   },
-   {
-    "id": "21901313",
-    "error": null,
-    "seconds": 4.0,
-    "sentences": [
-     "This is a video recording titled 'Saffa-Ausstellung' from DRS-aktuell, broadcast on 10.04.1989, covering an exhibition on Saffa women in the Architecture Museum of Basel.",
-     "The content includes film excerpts from Saffa exhibitions in Bern (1928) and Zurich (1958), an interview with architect Beate Schnitter, and is part of a regional magazine broadcast spanning 03.04.1989-17.04.1989.",
-     "The video is in color, lasts 00:06:17, recorded on Betacam-Digital, and features subject terms related to exhibitions and women.",
-     "The exhibition focuses on Saffa women, a Swiss women's organization, and features an interview with Beate Schnitter, an architect.",
-     "The broadcast is part of the Swiss Television DRS (SRG SSR idée suisse) regional magazine series, covering topics related to exhibitions and women in Switzerland.",
-     "The program was moderated by Thomas Schäppi and produced by SRG SSR idée suisse, with coverage spanning Western Europe excluding Scandinavia.",
-     "This video is part of the Swiss Television DRS (1953-) archive, specifically within the Regionalmagazine 1958-1989 SFDRS collection, alongside other regional news broadcasts.",
-     "The Swiss Federal Archives holds related records such as newspaper clippings from the 1939 Swiss National Exhibition in Zurich and a 1948 radio broadcast on the International Gliding Meeting in Samedan, reflecting diverse archival content."
-    ],
-    "inferred": 5,
-    "sources_used": 3,
-    "kinds_used": [
-     "E"
-    ]
-   },
-   {
-    "id": "32573103",
-    "error": null,
-    "seconds": 3.3,
-    "sentences": [
-     "The document is a framed photographic slide titled \"22. Chemische Zeitzünder\" from the Swiss Federal Archives, dating to circa 1939–1945 and cataloged under reference code E5565-05#2020/38#1#22*.",
-     "It depicts a person wearing a microphone attached to their tie, likely illustrating a training or security measure during the Second World War period.",
-     "The slide is part of the Swiss Federal Intelligence Service's historical collection, specifically within the \"Sammlung an Fotografien zu Ausbildungszwecken\" (Collection of photographs for training purposes).",
-     "The image concerns a person equipped with a concealed microphone, suggesting a focus on surveillance, counterintelligence, or communication security during wartime.",
-     "This type of equipment and its use would have been relevant to the activities of the Swiss Federal Intelligence Service during the Second World War, reflecting the technological and strategic concerns of the era.",
-     "The record is part of a broader collection documenting the Swiss Army's wartime activities, including training and intelligence-related materials.",
-     "Related records include wartime photographs of the Swiss Army, such as \"Offiziere bei der Manöverkritik\" (1914–1918) and \"Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement\" (1914–1918), which document military training and equipment during the First World War.",
-     "These records collectively illustrate the Swiss Federal Archives' preservation of historical materials related to military operations, intelligence, and technological developments across different periods of conflict."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "3239317",
-    "error": null,
-    "seconds": 3.8,
-    "sentences": [
-     "The document is a glass-plate silver bromide negative photograph titled \"Saumkolonne sammelt sich zur Pause\" (Mule column gathering for a break), created between 1914 and 1918 [E1, E6, E7, E8].",
-     "It depicts a mule column during a pause, documenting the logistical support of the Swiss Army's Active Service period [E2, E3, E4, E5, R1].",
-     "The photograph measures 13x18cm and is part of the photographic collection of the Army Staff's geographical-archival section, focusing on the period of active service during the First World War [E8, R1].",
-     "The photograph concerns the Swiss Army's logistical operations during the First World War, specifically the use of mule columns for transport [R1, E2, E3].",
-     "It relates to the geographical area of Hauenstein in the canton of Valais, where such military transport activities were conducted [E3, D1].",
-     "The image is part of a broader collection documenting various aspects of the Swiss Army's wartime activities, including transport, supply, and border operations [R1, R2, R3, E8].",
-     "This record is related to other wartime photographs in the archive that document different logistical aspects, such as straw transport to border guard huts and truck operations on mountain roads [R1, R2, R3].",
-     "Together, these images provide a comprehensive view of the Swiss Army's diverse logistical efforts during the First World War, reflecting the challenges and solutions in mountainous terrain [E6, R1, R2, R3]."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "3240019",
-    "error": null,
-    "seconds": 3.7,
-    "sentences": [
-     "This is a glass-plate silver bromide negative photograph titled \"Wagen von Telegraphen Pionieren und einem Scheinwerferdetachement\" documenting the 2nd Telegraph Pioneer Company during the Swiss Army's Active Service (1914-1918).",
-     "The image captures military equipment and personnel involved in telegraph and signal operations, reflecting the technological and logistical aspects of wartime communication.",
-     "It was created between January 1, 1914 and December 31, 1918, and measures 13x18cm.",
-     "The photograph concerns the 2nd Telegraph Pioneer Company (Telegraphen Pionier Kompanie 2), a unit of the Swiss Army involved in communication and signal operations during World War I.",
-     "The location depicted is Les Genevez, a place in Switzerland where the activities of this military unit took place.",
-     "The image is part of a larger photographic collection documenting the Swiss Army's Active Service (Aktivdienst) from 1914 to 1918, focusing on military maneuvers, equipment, and personnel.",
-     "This record is related to other wartime photographs in the archive, such as images of mountain brigades loading wagons, artillery divisions deploying howitzers, and sappers constructing roads, all documenting the Swiss Army's wartime activities.",
-     "The collection provides a visual record of the Swiss military's logistical and technological efforts during World War I, reflecting the broader context of national defense and mobilization during this period."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "3513305",
-    "error": null,
-    "seconds": 3.9,
-    "sentences": [
-     "The document is an audio recording of a parliamentary session held on 28 November 2001 during the Wintersession 2001 of the Swiss National Council.",
-     "It captures the proceedings of the third debate day, with speakers including Liliane Maury Pasquier and Peter Hess.",
-     "The recording is part of the archive's collection of parliamentary debates and discussions from the 1999\u00132003 legislative period.",
-     "The document concerns the Swiss National Council, the lower house of the Swiss Federal Assembly, and its proceedings during the 2001 Wintersession.",
-     "Liliane Maury Pasquier, a Swiss politician born in 1956, is identified as one of the speakers in the session.",
-     "The session includes debates on various topics such as rail freight transport, asylum policy, and political prisoners in Turkey, reflecting the legislative agenda of the period.",
-     "This record is related to other parliamentary debates documented in the Swiss Federal Archives, such as discussions on rail freight transport and asylum policy during the same legislative period.",
-     "The context of the 2001 Wintersession debates reflects broader political and social issues of the time, including transportation policy and human rights concerns."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "3514516",
-    "error": null,
-    "seconds": 4.5,
-    "sentences": [
-     "This is an audio recording of a parliamentary debate in the Swiss National Council during the Spring Session 2001, capturing the discussion on a postulate by Anne-Catherine M\u000enetrey-Savary concerning the position of women in asylum policy.",
-     "The document is identified by reference code E1301#2003/451#13#31* and accession number 2003/451, archived under the National Council's Verhandlungsprotokolle (proceedings) for the session of 13 March 2001.",
-     "It records the proceedings of the National Council, a key legislative body of the Swiss Federal Assembly, reflecting the parliamentary process of addressing social policy issues.",
-     "The postulate concerns the position of women in the context of asylum policy, indicating a focus on gender equality and social integration within the framework of Swiss immigration and refugee legislation.",
-     "Anne-Catherine M\u000enetrey-Savary presented the postulate, reflecting the role of individual parliamentarians in shaping policy debates on gender and asylum matters during the early 2000s.",
-     "The National Council, as the lower house of the Swiss Federal Assembly, serves as the venue for such postulates, which are formal proposals for legislative action or policy review.",
-     "Related records include other postulates from the same session, such as those by Erwin Jutzet on divorce law and Alex Heim on rail freight transparency, illustrating the range of policy topics debated in the National Council during the 2001 Spring Session.",
-     "The document reflects the broader historical context of gender and social policy discussions in Switzerland, aligning with the archival holdings of the Swiss Federal Archives that document parliamentary activities and social movements over time."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "5097377",
-    "error": null,
-    "seconds": 4.8,
-    "sentences": [
-     "This document is an audio recording of a parliamentary question session held on 15 December 2008 during the Winter Session 2008 of the Swiss National Council, titled 'Fragestunde' (Question Time).",
-     "The session features questions from National Councillor Marlies Bänziger, with responses from Federal Councillors Doris Leuthard and Chiara Simoneschi-Cortesi.",
-     "The topic of discussion was the Ilisu Dam and export risk guarantee, reflecting concerns about international development projects and their implications for Switzerland.",
-     "The session involved National Councillor Marlies Bänziger (born 1960), a Swiss politician from the Green Party, who posed the question about the Ilisu Dam and export risk guarantee.",
-     "Federal Councillors Doris Leuthard (born 1963, CVP) and Chiara Simoneschi-Cortesi (born 1946, CVP) participated in the session, with Leuthard serving as a key respondent.",
-     "The question addressed the Ilisu Dam project, a controversial hydroelectric dam on the Tigris River in southeastern Turkey, and the associated export risk guarantee for Swiss companies involved.",
-     "This session is part of a series of parliamentary question sessions documented in the Swiss Federal Archives, alongside other sessions such as those on the Federal Office of Civil Aviation oversight and the future of the Federal Housing Office in Grenchen.",
-     "The session reflects the broader context of Swiss foreign policy and economic engagement with international development projects, as well as the role of parliament in scrutinizing government decisions on such matters."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "1915605",
-    "error": null,
-    "seconds": 3.5,
-    "sentences": [
-     "This record is a collection of press articles from 1936, including excerpts from foreign newspapers and regional publications, documenting contemporary news and public statements.",
-     "The archive reference code is J1.3#1000/1402#468* and it is part of the holdings of the Verein der Schweizer Presse (VSP) under the Feldmann Markus collection.",
-     "The documents were accessioned under the reference 1000/1402, indicating a systematic archival arrangement for press materials from this period.",
-     "The records concern the Swiss Officers' Society and its propaganda activities, as evidenced by an interview with the propaganda chief published in the St. Gallen Volksstimme on March 26, 1936.",
-     "The press clippings also include foreign news cuttings from 1936, reflecting the international context and events of that year.",
-     "These documents provide insight into the public relations and media strategies employed by Swiss organizations during the interwar period, as documented by the Swiss Federal Archives.",
-     "The press clipping file 'Coupures de presse: Etranger' from 1936 is related to the archival holdings of the Swiss Federal Archives, providing a broader context of international news coverage during that year.",
-     "The archival inventory Aktenverzeichnis 1936 for the Swiss representation in London offers a finding aid for administrative records from 1936, complementing the press materials in understanding Swiss diplomatic activities of the period."
-    ],
-    "inferred": 0,
-    "sources_used": 8,
-    "kinds_used": [
-     "E",
-     "R"
-    ]
-   },
-   {
-    "id": "3397246",
-    "error": null,
-    "seconds": 3.4,
-    "sentences": [
-     "The document is a collection of press clippings titled \"Presseausschnitte betr. \"Korporationen-Idee\"\" from 1933, archived under reference code J1.178#1000/1304#59* in the Swiss Federal Archives.",
-     "It pertains to the \"Korporationen-Idee\" (corporation idea), a concept related to social or political movements in Switzerland during the early 20th century.",
-     "The record is part of the Sachsytematischer Teil (systematic part) focusing on politics and renewal movements, reflecting the archival organization of thematic collections.",
-     "The record concerns the \"Korporationen-Idee\" concept, which relates to social or political ideas about corporations or associations in Switzerland during the 1930s.",
-     "While specific individuals are not mentioned in the record, the concept may have been discussed in the context of Swiss political or social movements of the time, as indicated by the archival focus on renewal movements.",
-     "The record does not provide direct information about specific individuals, but the archival context suggests it is part of a broader collection of materials related to political and social ideas in Switzerland.",
-     "This record is related to other press clipping collections in the Swiss Federal Archives, such as Zeitungsausschnitte betr. Schweiz (1917) and Presseausschnitte (1873/1874), which document press coverage of Switzerland and military organization respectively.",
-     "The archival context of the record, focusing on politics and renewal movements, connects it to broader themes of Swiss social and political history, as reflected in the thematic organization of the archive."
-    ],
-    "inferred": 0,
-    "sources_used": 7,
-    "kinds_used": [
-     "E",
-     "R"
-    ]
-   },
-   {
-    "id": "1680730",
-    "error": null,
-    "seconds": 3.1,
-    "sentences": [
-     "The document is a press article titled \"Pressekommentare\" from 1937, cataloged under reference code E2001D#1000/1551#794* in the Swiss Federal Archives.",
-     "It is part of the diplomatic archive concerning general international treaties and specific Swiss contracts, located in the central storage of the Foreign Affairs Department (1937-1945).",
-     "The article contains no narrative text beyond the names of the deceased individuals Johann Müller and Joseph Pauchard, listed as obituaries.",
-     "The record concerns the obituaries of Johann Müller and Joseph Pauchard, two individuals whose deaths were reported in a press article from 1937.",
-     "The document is part of the media holdings of the Christian Democratic People's Party of Switzerland, documenting specific obituaries rather than broader political commentary.",
-     "No additional biographical details are provided in the record, as it only lists the names of the deceased individuals.",
-     "Related records include other press articles from the same period, such as those covering taxation matters affecting Swiss citizens abroad (1935/1937) and trade relations with Italy (1901-1904), reflecting the archive's focus on international affairs.",
-     "The document's inclusion in the diplomatic archive highlights the Swiss Federal Archives' systematic collection of press materials related to foreign policy and international treaties during the interwar period."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "29745096",
-    "error": null,
-    "seconds": 3.9,
-    "sentences": [
-     "The document is a collection of newspaper articles from the Volksstimme St. Gallen dated 26 March 1936, titled \"Das sagt der Propagandachef der Schweizerischen Offiziersgesellschaft\" and two additional articles.",
-     "It contains statements by the propaganda chief of the Swiss Officers' Society (SOG) and related commentary, reflecting contemporary views on military or civic matters in Switzerland.",
-     "The record is part of the estate of Hans Hausamann (1897-1974) and is catalogued under the reference code J1.107#2012/140#202* in the Swiss Federal Archives.",
-     "The Swiss Officers' Society (SOG) is a major umbrella organization for 24 cantonal and 15 specialist officers' societies, with a total of 22,000 members, as described in the Wikipedia entry.",
-     "The articles relate to the SOG's activities and public statements, indicating the society's role in shaping or reflecting public discourse in the 1930s.",
-     "The record is located in the section of the Swiss Federal Archives concerning Hans Hausamann's diverse activities, specifically under the SOG subcategory.",
-     "Related records include newspaper clippings on railway construction and federal acquisitions in the late 19th century ([R#]), as well as contemporary press collections from the estate of Hermann Obrecht ([R#]).",
-     "The 1936 articles contrast with later 2015 parliamentary debates on regional rail services ([R#]), illustrating the evolution of transportation policy and public discourse in Switzerland over the 20th and 21st centuries."
-    ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
-   },
-   {
-    "id": "5751730",
-    "error": null,
-    "seconds": 3.1,
-    "sentences": [
-     "This document is a collection of newspaper clippings titled \"Zeitungsausschnitte\" documenting the Swiss National Exhibition (Landi) in Zurich from May 1939.",
-     "The clippings cover reports from May 1st to June 17th, 1939, focusing on public discourse and media coverage of the event.",
-     "It is part of the Swiss Federal Archives' holdings related to propaganda and exhibition documentation.",
-     "The record concerns the Swiss National Exhibition (Landi) held in Zurich in 1939, a major cultural and propaganda event.",
-     "The exhibition aimed to promote Swiss culture, industry, and national identity through various displays and media coverage.",
-     "Wikidata and Wikipedia provide contextual information about the Landi exhibition, its purpose, and its significance in Swiss history.",
-     "Related records include French-language clippings covering cantonal dispatches and mobile missions during the same period, as well as foreign press material from the United States and Canada.",
-     "These records collectively illustrate the international and multilingual nature of the exhibition's media coverage and its role in shaping public perception."
+     "The inventory is organized as a systematic register that likely includes document titles, dates, and brief descriptions to facilitate retrieval of the original diplomatic correspondence and administrative files.",
+     "It is part of the central filing system of the Swiss diplomatic mission in Saint Petersburg, indicating its role in managing official communications between Switzerland and the Russian Empire during the late 19th century.",
+     "The document is physically housed within the Swiss Federal Archives under a specific accession number (1000/701), reflecting its preservation as a historical record of Swiss foreign policy.",
+     "This record pertains to the Swiss diplomatic mission in Saint Petersburg, which was an official representation of Switzerland to the Russian Empire during the period of 1876–1879.",
+     "The inventory documents the administrative and diplomatic activities of Swiss diplomats stationed in Saint Petersburg, covering correspondence related to trade, consular affairs, and bilateral relations.",
+     "Saint Petersburg (now Saint Petersburg, Russia) was a major European capital and a key diplomatic hub during the 19th century, making this record significant for understanding Swiss foreign relations in Eastern Europe.",
+     "This record is part of a broader series of Swiss diplomatic inventory lists (Aktenverzeichnisse) held by the Swiss Federal Archives, including similar administrative registers from Swiss missions in New York (1929), London (1936, 1939), and other postings.",
+     "Unlike the Saint Petersburg inventory from the 1870s, the later London inventories (R2, R3) cover the interwar period and the eve of World War II, illustrating the evolution of Swiss diplomatic record-keeping across different historical contexts."
     ],
     "inferred": 1,
     "sources_used": 8,
@@ -901,78 +609,238 @@
     ]
    },
    {
-    "id": "5855990",
+    "id": "32683295",
     "error": null,
-    "seconds": 5.1,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a tribute (Nachruf) to Ernst Gerber, a German communist politician (1904-1976), including a eulogy by Dr. Meier-Müller for Colonel Immenhauser, dated 1900.",
-     "It is part of the holdings of the Fliegerärztliches Institut (FAI) in Dübendorf, archived under reference code E5470#2009/194#1625* and accession 2009/194.",
-     "The record spans the years 1922-1936 and is located within the Flugunfälle sub-series of the FAI's Zentralen Ablage.",
-     "The document concerns Ernst Gerber, a German communist politician born in 1904 and died in 1976, whose political affiliation is documented in Wikidata and Wikipedia.",
-     "It pertains to a eulogy (Nachruf) for Colonel Immenhauser, indicating a connection to military or aviation-related commemorations within the context of the FAI.",
-     "The document is part of the archival collection of the Swiss Federal Archives, reflecting the historical record of notable figures and events related to aviation medicine and military history.",
-     "Related records include the 'Nekrologe 1883-1930' compilation of obituaries and the index 'Inhaltsverzeichnis sämtlicher Dossiers' for Rudolf Gerber's administrative investigation files, providing context for commemorative practices and archival organization.",
-     "The document's inclusion in the FAI's Flugunfälle sub-series situates it within the broader historical context of aviation accidents and medical investigations in Switzerland, reflecting the institution's role in military and civil aviation medicine."
+     "The finding aid specifically indexes 38 distinct archival deliveries, each identified by a unique reference number (e.g., *1000/176*, *1996/363*), spanning from the early post-war period to the late 20th century.",
+     "The document is physically located within the Swiss Federal Archives' central storage system under the classification for evaluation and access (Bewertung, Erschliessung) in the detailed finding aids section.",
+     "This record pertains to the Swiss diplomatic mission in Los Angeles, documenting its activities and administrative functions as part of Switzerland's foreign representation in the United States.",
+     "The archival materials cover a broad timeframe from 1949 to 2008, reflecting Switzerland's diplomatic presence in Los Angeles during significant historical periods including the Cold War and post-Cold War eras.",
+     "The Swiss Federal Archives, as the national repository, preserves these records to ensure transparency of state actions and continuity of administrative governance, as mandated by federal archiving law.",
+     "It is part of a broader series of finding aids for Swiss diplomatic missions, including inventories for the Swiss representation in Galatz (1947–1970) and Vesoul (2009), all catalogued within the same central archival system.",
+     "Unlike this Los Angeles finding aid, which indexes numerous sub-series, the Galatz inventory (R1) lists only three deliveries and the Vesoul record (R2) describes a single legacy deposit, illustrating variations in the volume and scope of diplomatic archives across different locations."
+    ],
+    "inferred": 0,
+    "sources_used": 8,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   }
+  ],
+  "apertus-v1-5-8b": [
+   {
+    "id": "22406340",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The video segment contains a 2.10-second colour clip recorded on Betacam-digital format, showing the high-voltage pylons against the backdrop of Loeche-les-Bains lake and surrounding mountains.",
+     "The footage was produced by the Swiss French-language broadcaster Télévision suisse romande (TSR) as part of its Téléjournal news program, with the original archival reference code J2.240#1998/317#7050*",
+     "The segment was broadcast on 22 October 1985, during a period of public debate over the environmental impact of the power line project in Valais.",
+     "The subject matter relates to energy infrastructure development and environmental activism in the Swiss Alps during the mid-1980s.",
+     "The location is documented in Wikidata with coordinates 46.379, 7.627 for Loeche-les-Bains and 46.230, 7.661 for Valais, providing geographic context for the news coverage.",
+     "The segment is part of the broader Téléjournal 1985 collection documenting Swiss news events, alongside other TSR news reports such as the greenhouse command center segment from 3 September 1985 and the Chandolin–St-Luc cable car construction report from 25 December 1986.",
+     "No other records in the archive directly relate to the specific power line controversy at Loeche-les-Bains, as the focus remains on distinct news topics and geographic locations."
+    ],
+    "inferred": 0,
+    "sources_used": 13,
+    "kinds_used": [
+     "D",
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "22424850",
+    "error": null,
+    "seconds": 3.2,
+    "sentences": [
+     "The video segment is a colour Betacam digital recording lasting 1 minute and 3 seconds, captured from the 02:07 mark, featuring a greenhouse command centre in the Rhône plain with an interview about temperature control technology.",
+     "It was produced by the Swiss French-language broadcaster Télévision suisse romande (TSR) as part of the 'Journal Romand' program, covering agricultural practices in the Rhône region during the summer of 1985.",
+     "The segment includes technical details such as the use of a thermostat for regulating greenhouse conditions, reflecting the focus on modern horticultural methods in Switzerland at the time.",
+     "The content concerns the cultivation of market gardening crops in the Rhône plain, a region known for its agricultural productivity in Switzerland.",
+     "The segment features an interview with an individual discussing temperature control systems within greenhouses, highlighting technological aspects of horticulture.",
+     "This agricultural focus contrasts with other TSR news reports from the same period that covered infrastructure projects, criminal incidents, and political controversies in Switzerland.",
+     "The segment is part of the broader TSR news collection from 1985, alongside reports on high-voltage power lines, kidnappings, and motorway construction controversies documented in other TSR news segments.",
+     "The Rhône plain location depicted in the segment is consistent with the geographical coverage of Swiss agricultural news reporting during this period, as documented in the Swiss Federal Archives collection."
     ],
     "inferred": 8,
     "sources_used": 0,
     "kinds_used": []
    },
    {
-    "id": "931188",
+    "id": "21790117",
     "error": null,
-    "seconds": 3.8,
+    "seconds": 0.0,
     "sentences": [
-     "The document is an archival inventory entry for the record titled \"Nekrologe 1937\" from the Swiss Federal Archives, which shows obituaries for individuals who died in 1937, including Johann Müller and Joseph Pauchard.",
-     "It is part of the media holdings of the Christian Democratic People's Party of Switzerland, deposited in 1987 under reference code J2.181#1987/52#3138* and located in the section for press articles on individuals.",
-     "The record provides a structured reference for accessing this specific collection of obituaries within the archive's holdings.",
-     "The obituaries concern individuals who died in 1937, specifically Johann Müller and Joseph Pauchard, as listed in the press article compilation.",
-     "These records are part of the media collection of the Christian Democratic People's Party of Switzerland, documenting notable deaths within the political and social context of the time.",
-     "The individuals mentioned are Swiss citizens, and their obituaries reflect the party's practice of commemorating members and associates in their official press materials.",
-     "This record is part of a series of nekrologe (obituary) documents compiled by the Christian Democratic People's Party of Switzerland, including earlier collections from 1932 and 1883-1930, which similarly document deceased individuals.",
-     "The nekrologe series reflects the party's historical practice of maintaining a record of notable deaths, which can be contextualized within the broader history of Swiss political journalism and memorialization."
+     "The video captures Indira Gandhi waving to supporters while surrounded by police cordons that block demonstrators, with parliamentarians being questioned by reporters in the foreground.",
+     "The footage is a color Betacam-Digital recording lasting 1 minute and 48 seconds, filmed on 16 mm comopt stock at 10.15.19 within the 1978 Tagesschau broadcast.",
+     "The report is part of the SRG SSR idée suisse news series, archived under the signatory J2.225#1996/68#70529* and accessioned in 1996/68.",
+     "Indira Gandhi served as Prime Minister of India from 1966 to 1977 and again from 1980 to 1984, making her a central figure in Indian politics during the Emergency period.",
+     "The archive contains other Tagesschau reports covering diverse global events, such as the Seine River flood in Paris in 1977 and diplomatic negotiations between Vietnam and the United States in 1977.",
+     "The Swiss Federal Archives preserves a range of international news footage documenting political events, natural disasters, and diplomatic developments across different regions and time periods."
     ],
     "inferred": 0,
-    "sources_used": 8,
+    "sources_used": 6,
+    "kinds_used": [
+     "D",
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "21901313",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The video features color footage of the Saffa exhibition in Basel, including archival clips from Zurich and Bern exhibitions from 1928 and 1958, alongside an interview with architect Beate Schnitter conducted by moderator Thomas Schäppi.",
+     "It was produced by DRS under the SRG SSR idée suisse umbrella, recorded on Betacam-Digital tape, and measures 6 minutes and 17 seconds in length.",
+     "The program covers the period from 3 April to 17 April 1989, focusing on women's exhibitions in architecture and featuring the subject term 'Ausstellung' and 'Frau' in its metadata.",
+     "The content centers on the Saffa exhibition held in Basel, which showcases works related to women in architecture, as documented by the Swiss Federal Archives under the reference code J2.225#2000/22#2154*",
+     "Architect Beate Schnitter is the primary interviewee, providing commentary on the exhibition, while the program is part of the Regionalmagazine SFDRS series from 10 April 1989.",
+     "The exhibition is located in Basel, a city situated at coordinates 47.558, 7.588, and is part of a broader collection of Swiss television broadcasts archived by the Swiss Federal Archives.",
+     "The Saffa exhibition relates to other Swiss media records such as the 1939 newspaper clippings from the Swiss National Exhibition in Zurich and the 1948 radio broadcast of the International Gliding Meeting in Samedan, both preserved within the same archival collection."
+    ],
+    "inferred": 0,
+    "sources_used": 16,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
+    "id": "32573103",
+    "error": null,
+    "seconds": 2.7,
+    "sentences": [
+     "The slide shows multiple chemical time fuses arranged in a row, each with a distinct cylindrical body and a visible primer cap, mounted on a dark background within the frame.",
+     "The frame is made of dark wood with a glass front, preserving the photographic transparency and allowing clear visibility of the fuses' details.",
+     "No personnel or operational context is visible in the image, focusing solely on the technical components of the fuses.",
+     "These fuses were part of the Swiss Army's historical armament collection, documented for archival preservation and educational reference.",
+     "The record is related to other wartime photographic documentation such as the glass plate negative photograph of officers during a maneuver critique in Hägendorf ([R2]) and the image of telegraph pioneer wagons and searchlight detachment in Les Genevez ([R3])",
+     "All records pertain to the Swiss Army's archival collection of historical military material, illustrating different aspects of wartime equipment, personnel, and operations."
+    ],
+    "inferred": 0,
+    "sources_used": 6,
     "kinds_used": [
      "E",
      "R"
     ]
    },
    {
-    "id": "3472254",
+    "id": "3239317",
     "error": null,
-    "seconds": 3.4,
+    "seconds": 2.8,
     "sentences": [
-     "The document is a microform publication titled 'Festschriften' from 1890-1893, containing contributions by Prof. W. Oechsli and Prof. C. Hilty on the origins of the Swiss Confederation and its federal constitutions.",
-     "It records the preparation and distribution of official materials for the Swiss Federal Celebration of 1891, including receipts for commemorative medals and printed festival publications.",
-     "The document is part of the Swiss Federal Archives' collection on festivities and celebrations, documenting the administrative organization of national commemorative events during the late 19th century.",
-     "The Festschriften document concerns the historical and constitutional development of the Swiss Confederation, as analyzed by academic scholars Prof. W. Oechsli and Prof. C. Hilty.",
-     "It relates to the Swiss Federal Celebration of 1891, a national event commemorating the country's history and unity, for which official memorabilia and printed materials were distributed.",
-     "The document is part of the Swiss Federal Archives' records on inner administration, specifically under the category of festivities and celebrations, reflecting the state's role in organizing national commemorations.",
-     "This record is related to other administrative documents in the Swiss Federal Archives concerning national celebrations, such as receipts for commemorative medals and festival publications from 1891.",
-     "It connects to broader themes of Swiss federal history and constitutional development, as documented in other archival materials like the records of the Extraordinary Tagsatzung of 1845 and scholarly works on diplomatic history."
+     "The photograph captures a moment of rest for the mules, with their harnesses and loads visible, indicating the heavy burden they carried during the mobilization.",
+     "The negative format and dimensions (13x18cm) suggest a standardized documentation process for the Swiss Army's wartime photographic archive.",
+     "The location Hauenstein is situated in the canton of Valais, a strategic point for troop movements and supply routes during the war.",
+     "The photograph is part of the Swiss Army's wartime photographic collection, which systematically recorded military activities and operations during the 1914–1918 period.",
+     "The subject matter relates to the broader theme of military logistics and the role of animals in wartime supply chains, as evidenced by related records such as mule columns and transport operations.",
+     "Related records such as the mule column through a village in Visp ([R1]) and straw transport to a border guard hut ([R2]) provide additional context on the diverse logistical challenges faced by the Swiss Army during the war.",
+     "The image of trucks on the Ofenbergstrasse ([R3]) further illustrates the range of transport methods employed, complementing the use of mules in mountainous terrain."
     ],
     "inferred": 0,
-    "sources_used": 10,
+    "sources_used": 6,
     "kinds_used": [
      "E",
      "R"
     ]
    },
    {
-    "id": "6608526",
+    "id": "3240019",
     "error": null,
-    "seconds": 3.1,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a historical article titled \"Geschichte des Toledo Schweizer Verein\" from 1923, detailing the activities of a Swiss association in the United States.",
-     "It is cataloged under the reference code E2200.128#1000/168#302* and archived within the Swiss representation in Cincinnati's central storage for Swiss colonies.",
-     "The record pertains to the history of a Swiss community organization in the United States during the early 20th century.",
-     "The article concerns the Toledo Swiss Association, a community group established by Swiss immigrants in the United States.",
-     "It documents the organization's activities, including social events, charitable work, and contributions to Swiss-American relations during the 1920s.",
-     "The record is linked to the broader history of Swiss diaspora communities in the United States, as reflected in the Swiss Federal Archives' collection of Swiss colonies.",
-     "Related records include press articles from the Swiss Press Association covering conferences in 1936, and family histories such as the Lerber family document from 1926, reflecting diverse archival content.",
-     "The historical context includes the broader documentation of Swiss-American relations and the activities of Swiss expatriate communities in the United States during the early 20th century."
+     "The image is a glass-plate negative measuring 13x18cm, documenting wartime military equipment and the operational deployment of the unit in a particular geographic location.",
+     "The negative format and silver bromide emulsion indicate the technical photographic process used to record the scene for archival preservation.",
+     "The record concerns the Swiss Army Telegraph Pioneer Company 2, a specialized unit responsible for establishing and maintaining communication lines during the First World War.",
+     "The photograph documents the deployment of this unit in Les Genevez, illustrating the logistical and technical support provided by the Swiss Army during the conflict.",
+     "The image is part of a broader photographic collection that preserves visual evidence of the Swiss Army's wartime activities and mobilization efforts.",
+     "Related records such as the loading of mountain wagons by the 3rd Mountain Brigade and the deployment of heavy howitzers by Artillery Divisions 1 and 2 document complementary aspects of the Swiss Army's Active Service during the same period.",
+     "The image of sappers constructing roads in Bovernay further contextualizes the broader range of engineering and logistical operations undertaken by the Swiss military during the war years."
+    ],
+    "inferred": 7,
+    "sources_used": 0,
+    "kinds_used": []
+   },
+   {
+    "id": "3513305",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The recording format is an audio file, preserving the spoken words and parliamentary protocol structure of the session, with no accompanying written minutes or legislative text.",
+     "The session took place in the National Council chamber in Bern, reflecting the formal setting of the Swiss federal legislative process during the 1999–2003 legislative period.",
+     "The record concerns Liliane Maury Pasquier, a Swiss politician born in 1956 who served as National Councillor, National Council President, and Ständerätin, as documented in Wikidata and Wikipedia.",
+     "It pertains to the National Council, the lower house of the Swiss Federal Assembly with 200 members, which convenes in the Bern Federal Palace as described in Wikipedia and Wikidata.",
+     "The session was part of the Wintersession 2001, a period of parliamentary activity during the 1999–2003 legislative session, as indicated by the reference code and archival classification.",
+     "Related records include postulates and petitions from the same Wintersession 2001, such as Alex Heim's postulate on rail freight transparency and the petition concerning political prisoners in Turkey, both archived under reference codes 2001.3486 and 2001.2004 respectively.",
+     "Other parliamentary debates from the same legislative period, such as Anne-Catherine Ménétrey-Savary's postulate on women in asylum policy (reference code 2000.3659), provide context for the broader range of topics discussed during the 1999–2003 session."
+    ],
+    "inferred": 0,
+    "sources_used": 11,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
+    "id": "3514516",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "It captures the oral arguments and discussion format of the National Council, including contributions from other members and parliamentary procedure elements.",
+     "The recording reflects the legislative process of postulate consideration, with the session occurring on the 13th meeting day of the Spring Session 2001.",
+     "It pertains to the legislative work of the National Council, the lower house of the Swiss Federal Assembly responsible for initiating legislation and overseeing government policy.",
+     "The debate focuses on the integration and treatment of women within Switzerland's asylum and immigration framework during the 1999–2003 legislative period.",
+     "The record is related to other parliamentary postulate debates such as Erwin Jutzet's discussion on new divorce law application and Alex Heim's rail freight transport transparency postulate, all part of the same legislative session proceedings.",
+     "It connects to archival holdings documenting women's political activism, such as the press article on the Social Democratic Women's Movement from 1931–1934, showing continuity in gender-related policy discussions."
+    ],
+    "inferred": 0,
+    "sources_used": 9,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
+    "id": "5097377",
+    "error": null,
+    "seconds": 6.1,
+    "sentences": [
+     "The session took place on 15 December 2008 in the Swiss National Council chamber, documenting the formal exchange between the questioner and the Federal Council members regarding international development finance and risk management policies.",
+     "The audio format preserves the spoken dialogue and parliamentary procedure, including the opening remarks, the question itself, and the structured responses from the Federal Councillors addressing the specific concerns raised by Bänziger.",
+     "The question was posed by Marlies Bänziger, a Swiss Green politician born in 1960, who served as a National Councillor and later as President of the National Council during the 2008\u00132009 period.",
+     "The Federal Councillors responding were Doris Leuthard, a Swiss CVP politician born in 1963 who served as Federal Councillor from 2006 to 2018 and held the office of Federal President in 2010 and 2017, and Chiara Simoneschi-Cortesi, a Swiss CVP politician born in 1946 who served as National Councillor from 1999 to 2011 and was President of the National Council in 2008\u00132009.",
+     "The subject matter concerns the Ilisu Dam project, an international infrastructure development in Turkey, and the Swiss Export Risk Guarantee, a financial instrument used by the Swiss government to support export credits and mitigate risks associated with cross-border transactions.",
+     "This record is part of the broader collection of parliamentary question sessions in the Swiss National Council, alongside other sessions such as the 2002 session on OFAP oversight and the 2018 session on the Federal Housing Office future, reflecting ongoing scrutiny of federal policies and administrative practices.",
+     "The session relates to the legislative and oversight functions of the National Council, where elected representatives question the Federal Council on matters of international development, financial risk management, and public policy implementation, demonstrating the democratic accountability mechanisms in Switzerland."
+    ],
+    "inferred": 7,
+    "sources_used": 0,
+    "kinds_used": []
+   },
+   {
+    "id": "1915605",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "It is part of the Deposits and Donations collection from 1798 onwards, specifically within the holdings of Markus Feldmann (1897-1958) under the category 'Press' and the 'Verein der Schweizer Presse (VSP)'.",
+     "The reference code for this record is J1.3#1000/1402#468*, and it was accessioned under the number 1000/1402.",
+     "The record concerns the activities and proceedings of the Swiss Press Association (Verein der Schweizer Presse, VSP) during the mid-1930s, documenting key meetings and conferences that shaped the organization's direction.",
+     "It relates to the broader context of Swiss media and press organizations in the 1930s, reflecting the professional and administrative structure of the press industry at that time.",
+     "The document provides insight into the internal governance and decision-making processes of the Swiss Press Association, including its leadership and strategic planning.",
+     "The record is related to the 'Coupures de presse: Etranger' file [R1], which contains foreign news cuttings from 1936, indicating a broader collection of international press materials held by the Swiss Federal Archives.",
+     "It is also connected to the 'Zeitungsartikel aus der Volksstimme St. Gallen vom 26.03.1936' record [R2], which documents the public statements of the Swiss Officers' Society, showing the diverse range of archival materials from 1936."
     ],
     "inferred": 0,
     "sources_used": 5,
@@ -982,39 +850,199 @@
     ]
    },
    {
+    "id": "3397246",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The press clippings in this file focus on the 'Korporationen-Idee' (corporatist idea) and were compiled in 1933 within the Sonderegger collection, reflecting contemporary debates on economic and social organization in Switzerland.",
+     "Unlike primary source documents, the file is an archival compilation of external press material, providing a snapshot of how the corporatist concept was discussed in Swiss media during the early 1930s.",
+     "The clippings originate from various Swiss newspapers, offering diverse perspectives on the corporatist movement and its potential impact on Swiss politics and society.",
+     "The record concerns the corporatist idea in Switzerland during the early 1930s, a period when economic and social reform movements were gaining traction across Europe.",
+     "This topic relates to broader discussions on Swiss political and economic thought, as corporatism was seen as an alternative to both liberal capitalism and socialism.",
+     "The corporatist idea in this context was part of a larger debate on how to organize the Swiss economy and society, reflecting the influence of European intellectual currents on Swiss policy.",
+     "The record is related to other press clipping collections in the Swiss Federal Archives, such as the 1917 Swiss press coverage and the Aargau press clippings, which document similar archival practices of collecting and preserving contemporary press material.",
+     "It also connects to the 1873-1874 press clippings on the Swiss military organization, showing a consistent archival approach to documenting public discourse and policy debates over time."
+    ],
+    "inferred": 0,
+    "sources_used": 7,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "1680730",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "It does not contain narrative text beyond the names of deceased individuals, unlike the obituary record [R1] which lists only obituaries for Johann Müller and Joseph Pauchard.",
+     "The record is catalogued under accession 1000/1551 with reference code E2001D#1000/1551#794*, indicating its specific archival classification within the Swiss Federal Archives.",
+     "The record concerns international affairs and treaties in 1937, specifically focusing on Switzerland's agreements and diplomatic relations as part of the broader series on Swiss state treaties and particular contracts.",
+     "The content relates to the protection of Swiss property and taxation issues abroad, as indicated by the related record [R2] covering taxation matters affecting Swiss citizens residing outside Switzerland between 1935 and 1937.",
+     "The record is related to the obituary record [R1] from 1937, which contains only the names of deceased individuals without narrative text, contrasting with the press commentary compilation.",
+     "It is part of the broader diplomatic archive concerning the protection of Swiss property and taxation issues abroad, as evidenced by the related record [R2] covering taxation matters affecting Swiss citizens residing outside Switzerland between 1935 and 1937."
+    ],
+    "inferred": 0,
+    "sources_used": 6,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "29745096",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The article includes a direct interview with the propaganda chief of the Swiss Officers' Society, revealing his public statements and rhetorical strategies for promoting the organization's activities during the 1930s.",
+     "Two additional articles accompany the interview, covering related topics such as military or civic events in the St. Gallen region, providing a broader context of the period's public discourse.",
+     "The document is preserved as a physical newspaper clipping within the Hans Hausamann collection, indicating its value as a primary source for studying interwar propaganda and regional politics.",
+     "The Swiss Officers' Society (SOG) is a major umbrella organization for military officers in Switzerland, comprising 24 cantonal and 15 specialist sections with a total membership of approximately 22,000 members as of recent data.",
+     "The record documents the public activities and propaganda efforts of this organization during the interwar period, reflecting its role in shaping public opinion and maintaining officer networks in Switzerland.",
+     "The newspaper article from the St. Gallen Volksstimme provides a snapshot of the SOG's public image and messaging in 1936, illustrating how the organization presented itself to the general public and regional media.",
+     "The record is part of the Hans Hausamann collection, which includes other materials related to Swiss military and civic organizations, providing a broader context for studying the SOG's activities and influence.",
+     "While the record focuses on the SOG's propaganda activities, other records in the archive such as [R1] and [R3] document different aspects of Swiss transportation and political discourse, showing the diverse range of topics covered in the collection."
+    ],
+    "inferred": 0,
+    "sources_used": 6,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
+    "id": "5751730",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The collection includes a variety of newspaper clippings from different Swiss and foreign publications, reflecting diverse editorial perspectives on the exhibition.",
+     "The physical arrangement shows overlapping dates and topics, indicating a broad media interest in the event beyond the initial five-day window.",
+     "Some clippings feature illustrations, photographs, or special event announcements, adding visual elements to the textual coverage.",
+     "It concerns the public and media response to the exhibition, including cantonal dispatches, mobile missions, and foreign press reports from the United States and Canada.",
+     "The material serves as a historical resource for understanding how the exhibition was portrayed in contemporary media and its role in national propaganda.",
+     "Related records such as Zeitungsausschnitte französisch (1939-04/1939-06) and Zeitungsausschnitte ausländische (1937) provide additional multilingual and international perspectives on the same exhibition.",
+     "These records together form a comprehensive archival set that illustrates the exhibition's reach and the varied media strategies employed to promote it."
+    ],
+    "inferred": 7,
+    "sources_used": 0,
+    "kinds_used": []
+   },
+   {
+    "id": "5855990",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The document contains a tribute by Dr. Meier-Müller to Colonel Immenhauser, accompanied by biographical notes on Ernst Gerber (1900), presented in a formal printed format within the Fliegerärztliches Institut's central archive spanning 1922–1936.",
+     "It is part of the archival holdings of the Fliegerärztliches Institut Dübendorf, specifically within the Flugunfälle sub-series, reflecting the institution's focus on aviation-related medical and administrative records during that period.",
+     "The record is cataloged under accession 2009/194 with reference code E5470#2009/194#1625*, indicating its formal inclusion in the Swiss Federal Archives' systematic archival management system.",
+     "The record concerns Ernst Gerber (1900), a figure documented alongside a tribute to Colonel Immenhauser by Dr. Meier-Müller, reflecting the intersection of military aviation and medical documentation in early 20th-century Switzerland.",
+     "Ernst Gerber is identified as a German communist politician (1904-1976) through Wikidata and Wikipedia entries, providing contextual background on the individual whose biographical material appears in the document.",
+     "The Fliegerärztliches Institut, referenced in the document, is a military unit serving as the Swiss competence center for medical and psychological evaluations in military and civil aviation, as described in Wikidata and Wikipedia sources.",
+     "Related records include the 'Nekrologe 1883-1930' compilation of obituaries for Augustin Keller, Ernst Feigenwinter, Albert Maria Weiss, and Georges Python, which provides comparative context for commemorative practices in Swiss archival collections.",
+     "The 'Inhaltsverzeichnis sämtlicher Dossiers' index for Rudolf Gerber's Federal Prosecutor files, while not directly related to the aviation tribute, demonstrates the Swiss Federal Archives' systematic approach to organizing administrative and investigative records across different institutional domains."
+    ],
+    "inferred": 0,
+    "sources_used": 11,
+    "kinds_used": [
+     "D",
+     "E",
+     "R",
+     "W"
+    ]
+   },
+   {
+    "id": "931188",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The document is a concise obituary list without narrative context, containing only the names of the deceased individuals Johann Müller and Joseph Pauchard, presented in a straightforward typographic format typical of party press releases of the era.",
+     "It reflects the party's practice of commemorating members or notable figures within its media output, serving as a brief memorial notice rather than a detailed biography or eulogy.",
+     "The absence of additional biographical details or personal anecdotes underscores its function as a formal record of loss within the party's institutional memory.",
+     "These obituaries are part of a series of press articles maintained by the party to document the passing of its members or associated figures, reflecting the party's organizational culture of remembrance.",
+     "The document is catalogued under the party's media holdings within the Swiss Federal Archives, indicating its role as an archival record of political and social history.",
+     "Similar obituary lists from other years, such as the 1932 and 1933 press articles, demonstrate a consistent pattern of the party documenting the deaths of its members or affiliated individuals.",
+     "The broader series of 'Nekrologe' documents spanning 1883 to 1930, including the 1927 entry for Georges Python, illustrates the party's longstanding practice of maintaining memorial records as part of its archival tradition."
+    ],
+    "inferred": 0,
+    "sources_used": 9,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "3472254",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The microform format preserves fragile printed materials, including detailed distribution lists that name recipients and quantities of the Hilty and Oechsli contributions, providing insight into the dissemination network of the 1891 federal celebration.",
+     "The festschrift series was compiled as part of a commemorative publication program for the Swiss Federal Celebration of 1891, indicating its role in official state propaganda and historical commemoration.",
+     "Professors W. Oechsli and C. Hilty authored scholarly essays on the origins of the Swiss Confederation and its federal constitutions, framing the historical narrative for a national audience during the centenary of the federal state.",
+     "These publications served as official commemorative materials for the Swiss Federal Celebration of 1891, reflecting the state's effort to document and promote its constitutional history during a national milestone.",
+     "The festschrift series is part of the Swiss Federal Archives' holdings on festivities and celebrations, specifically linked to the 1891 federal celebration records, indicating its role in state-sponsored historical documentation.",
+     "The receipts for commemorative medals and festival publications from the 1891 Swiss Federal Celebration ([R1]) share the same archival series and event context as the festschrift microforms, forming a comprehensive documentation of the celebration's official memorabilia.",
+     "The administrative correspondence regarding the printing dispute with Stämpfli ([R3]) relates to the production of scholarly works within the same period, showing how official records document not only the content of publications but also the logistical and contractual aspects of their creation."
+    ],
+    "inferred": 0,
+    "sources_used": 8,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
+   },
+   {
+    "id": "6608526",
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The document is a historical article titled \"Geschichte des Toledo Schweizer Verein\" from 1923, detailing the activities and contributions of the Swiss diaspora community in Toledo, Ohio, including cultural preservation and welfare initiatives.",
+     "It is archived under reference code E2200.128#1000/168#302* within the Swiss Colonial Records collection at the Swiss Federal Archives, documenting key events, notable figures, and organizational milestones of the association.",
+     "The article reflects the community's efforts to maintain Swiss traditions and support compatriots abroad, as evidenced by its focus on social welfare and cultural events during the early 20th century.",
+     "Its activities included organizing social events, providing assistance to Swiss expatriates, and fostering connections between the local Swiss community and Switzerland.",
+     "The association's work is documented in the Swiss Federal Archives as part of the broader Swiss Colonial Records, highlighting the transatlantic ties and community-building efforts of Swiss immigrants in the United States.",
+     "The Toledo Swiss Association's activities may be related to other Swiss diaspora records in the Swiss Federal Archives, such as documents concerning Swiss communities in other U.S. cities or records of Swiss welfare organizations.",
+     "No other specific records in the archive directly pertain to the Toledo Swiss Association, as the focus of the Swiss Colonial Records collection is on broader colonial activities rather than individual local associations."
+    ],
+    "inferred": 0,
+    "sources_used": 3,
+    "kinds_used": [
+     "E"
+    ]
+   },
+   {
     "id": "4021886",
     "error": null,
-    "seconds": 3.0,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a file from the Swiss Federal Archives titled \"Geschichte des Wappenschutzes und des Schutzes der Herkunftsbezeichnungen\" (History of Heraldic Protection and Protection of Designations of Origin), dated 1930-1939 with reference code E4380B#502.",
-     "It pertains to the administrative records of the Federal Office for Intellectual Property concerning heraldic protection and designations of origin within the Swiss legal framework.",
-     "The file is located in the central archive of the Federal Office for Intellectual Property, documenting the development of legal measures for protecting national symbols and product designations.",
-     "The record concerns intellectual property and legal protection measures in Switzerland during the 1930s, focusing on the regulation of heraldic symbols and geographical indications.",
-     "It relates to the broader context of Swiss legislation and international cooperation in protecting cultural and economic heritage, as evidenced by the reference to international conventions and commissions.",
-     "The document reflects the institutional efforts of the Swiss government to establish and maintain standards for national symbols and product authenticity, contributing to the country's legal and economic identity.",
-     "This record connects to other Swiss Federal Archives materials documenting international cultural heritage agreements and domestic legal reforms in the early 20th century.",
-     "It provides context for understanding Switzerland's approach to balancing national heritage preservation with international legal frameworks during the interwar period."
+     "The file contains administrative correspondence, reports, and publications detailing the procedural steps and legal frameworks for registering and protecting coats of arms and geographical indications during the 1930s, including forms, fee schedules, and case studies of applications.",
+     "It also includes statistical summaries of applications received, rejection rates, and the types of symbols or products most frequently sought for protection, reflecting the evolving commercial and cultural significance of these marks.",
+     "The document is organized chronologically by year, with each entry summarizing the key legislative changes, administrative directives, and international influences that shaped Swiss intellectual property policy during this period.",
+     "It concerns the protection of coats of arms and geographical indications, reflecting the intersection of cultural heritage, commercial branding, and legal regulation in Switzerland during the interwar period.",
+     "The subject matter is tied to broader intellectual property law developments in Switzerland, including the influence of international conventions and domestic legislative reforms affecting trademarks and regional designations.",
+     "The record is related to other intellectual property files in the Swiss Federal Archives that document the implementation of international agreements on artistic heritage protection, such as the 1924 Convention for the Protection of Artistic and Scientific Institutions.",
+     "It also connects to diplomatic correspondence concerning taxation and property rights of Swiss citizens abroad, as seen in the press article from 1935/1937 on overseas taxation matters."
     ],
-    "inferred": 8,
+    "inferred": 7,
     "sources_used": 0,
     "kinds_used": []
    },
    {
     "id": "4999588",
     "error": null,
-    "seconds": 3.8,
+    "seconds": 0.0,
     "sentences": [
-     "Aktenverzeichnis 1939 is an archival inventory from the Swiss diplomatic mission in London, documenting administrative records for the year 1939 and deposited in the Swiss Federal Archives.",
-     "It provides a structured index of documents related to the Swiss representation in the United Kingdom during that period, serving as a finding aid for researchers.",
-     "The reference code E2200.40-01#2004/87#18* uniquely identifies this record within the Swiss Federal Archives collection.",
-     "This record concerns the Swiss diplomatic mission in London, which was responsible for representing Swiss interests in the United Kingdom during the 1930s.",
-     "The mission handled correspondence, administrative matters, and diplomatic relations between Switzerland and the United Kingdom during the period covered by the inventory.",
-     "The Swiss Federal Archives preserve such diplomatic records to ensure transparency and accountability of Swiss foreign policy and administrative activities.",
-     "This inventory is part of a series of archival inventories documenting Swiss diplomatic activities in London, including earlier records such as Aktenverzeichnis 1929 and the Répertoire Alphabétique Général 1905 à 1913.",
-     "The Swiss Federal Archives maintain these records to provide a comprehensive historical overview of Swiss foreign relations and administrative practices over time."
+     "The inventory is organized as a card catalog (Sachkartei) with systematic classification, containing brief descriptions of each document such as diplomatic correspondence, reports, and administrative notes without the full text content.",
+     "It indexes records deposited in the Swiss Federal Archives under accession number 2004/87, providing a structured overview of the Swiss representation's activities in London during 1939.",
+     "The document reflects the archival practice of creating finding aids to manage and locate diplomatic correspondence before digitization or microfilming efforts.",
+     "The Swiss Federal Archives (Bundesarchiv) maintains these diplomatic inventories as part of its mandate to preserve and provide access to historical records of Swiss federal institutions and foreign representations.",
+     "The inventory serves as a reference tool for researchers studying Swiss foreign policy, diplomatic relations with the United Kingdom, and the lead-up to World War II from a Swiss perspective.",
+     "Similar archival inventories exist for other years and locations, such as the 1929 London inventory ([R1]) and the Washington 1905–1906 inventory ([R2]), showing a consistent practice of documenting Swiss diplomatic correspondence across different periods and missions.",
+     "The alphabetical register covering 1905–1913 ([R3]) provides additional context for the systematic organization of diplomatic documents handled by the Swiss mission in London during the early 20th century."
     ],
     "inferred": 0,
-    "sources_used": 8,
+    "sources_used": 10,
     "kinds_used": [
      "D",
      "E",
@@ -1025,18 +1053,16 @@
    {
     "id": "5992860",
     "error": null,
-    "seconds": 3.0,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a register titled \"Register zum Geschäftsprotokoll des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1907\"",
-     "It is a subject heading index for the business protocols of the Swiss Federal Finance Department from 1907, organized alphabetically by topics.",
-     "The record is cataloged under the reference code E9#1000/1173#132* and archived in the section for financial reports and business controls.",
-     "This register concerns the administrative organization of the Swiss Federal Finance Department, providing a structured index for locating specific topics within its historical business protocols.",
-     "The register facilitates the retrieval of information related to financial administration, budgeting, and departmental operations during the early 20th century.",
-     "It reflects the systematic approach to record-keeping and information management within the Swiss federal government during this period.",
-     "Similar registers from 1858, 1871, and 1884 demonstrate a consistent practice of creating subject heading indexes for the Federal Finance Department's business protocols over several decades.",
-     "These registers collectively provide a historical framework for understanding the evolution of financial administration and record-keeping practices in the Swiss federal government."
+     "It was compiled in 1907 and assigned reference code E9#1000/1173#132*, with archival location Archiv des Schweizerischen Bundesstaates ab 1848 › Finanzwesen › Geschäftsberichte › Amtsbücher › Geschäftskontrollen.",
+     "The document is part of a series of similar registers dating back to 1858, 1871, and 1884, each serving the same administrative function for the Swiss Federal Finance Department.",
+     "It is a static textual index compiled retrospectively, not containing the actual protocols but facilitating retrieval of specific topics within the department's historical records.",
+     "The index is organized alphabetically by subject headings, reflecting the department's systematic approach to archival management and record retrieval.",
+     "Related records include the 1858, 1871, and 1884 registers, all serving the same administrative function for the Swiss Federal Finance Department.",
+     "These registers collectively demonstrate the department's consistent use of subject heading indexes to manage and retrieve information from its archival series over several decades."
     ],
-    "inferred": 6,
+    "inferred": 5,
     "sources_used": 1,
     "kinds_used": [
      "E"
@@ -1045,61 +1071,55 @@
    {
     "id": "5992820",
     "error": null,
-    "seconds": 3.8,
+    "seconds": 0.0,
     "sentences": [
-     "This document is a register titled \"Register zum Geschäftsprotokoll des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1869\" from the Swiss Federal Archives, dated 1869, with reference code E9#1000/1173#94* and located in the Finanzwesen section.",
-     "It functions as an alphabetically ordered index of subject headings for the business protocols of the Swiss Federal Finance Department, serving as an administrative tool to locate specific entries within the department's official records.",
-     "The register is part of the Amtsbücher (official books) and Geschäftskontrollen (business controls) collection, reflecting the systematic record-keeping practices of the Swiss Federal Finance Department during the late 19th century.",
-     "The register concerns the administrative organization and documentation processes of the Swiss Federal Finance Department, providing a structured overview of subject headings used in their business protocols.",
-     "It does not contain the actual business protocols themselves but serves as an index to help locate and categorize related records within the department's archive.",
-     "The register is part of a series of similar documents from 1858, 1869, 1871, and 1877, all serving the same purpose of indexing subject headings for the department's business protocols.",
-     "This register is related to other similar registers from 1858, 1871, and 1877, all of which provide subject heading indexes for the business protocols of the Swiss Federal Finance Department.",
-     "Together, these registers demonstrate the continuity and evolution of administrative record-keeping practices within the Swiss Federal Finance Department over several decades, reflecting the department's efforts to maintain organized and accessible financial documentation."
+     "It contains no actual protocols but instead lists topics that appear within the department's administrative files, enabling researchers to locate specific entries efficiently.",
+     "The document is part of the broader series of registers spanning from 1858 to 1877, each serving as an index for the respective year's protocols.",
+     "This register pertains to the Swiss Federal Finance Department, a key administrative body responsible for financial matters within the Swiss Confederation.",
+     "It concerns the business protocols of the department, which document official decisions, discussions, and administrative actions taken during 1869.",
+     "Related records include the 1858, 1871, and 1877 registers, all of which follow the same format and serve as subject heading indexes for their respective years of business protocols.",
+     "These registers collectively provide a chronological overview of the department's administrative indexing practices, reflecting the systematic approach to record management in the Swiss Federal Finance Department over time."
     ],
-    "inferred": 0,
-    "sources_used": 7,
+    "inferred": 5,
+    "sources_used": 1,
     "kinds_used": [
-     "E",
-     "R"
+     "E"
     ]
    },
    {
     "id": "29385201",
     "error": null,
-    "seconds": 3.9,
+    "seconds": 0.0,
     "sentences": [
-     "This document is a register titled \"Répertoire des Proc\u000eas-verbaux du Comité pro 1919 et 1920\" from the Swiss Federal Archives, dated 1919-1920, with reference code J2.78#1000/1252#17* and located in the collection of the Société suisse de surveillance économique S.S.S. (1915-1920) under the heading \"Comité de la S.S.S.: Proc\u000eas de verbaux\".",
-     "It shows the procès-verbaux (minutes) of the committee meetings during the period 1919-1920, documenting the administrative activities and decisions of the S.S.S. committee.",
-     "The document provides a structured overview of the committee's proceedings, serving as a reference tool for accessing the detailed minutes.",
-     "The record concerns the Société suisse de surveillance économique (S.S.S.), an economic surveillance organization active in Switzerland from 1915 to 1920, whose committee meetings are documented in the procès-verbaux.",
-     "The S.S.S. was established during a period of economic uncertainty following World War I, reflecting Switzerland's efforts to monitor and regulate economic activities within the country.",
-     "The document is part of the archival holdings related to the S.S.S., providing insight into the administrative processes and decision-making of this economic surveillance body.",
-     "This record is related to other archival materials concerning the S.S.S., such as press clippings documenting wartime press coverage of the organization during the Swiss Army's Active Service of 1914-1918, providing a broader context of the S.S.S.'s role in economic surveillance.",
-     "It also connects to administrative records like the register of copied documents from the Federal Finance Department for 1919, which indexes copied correspondence and administrative papers, reflecting the broader bureaucratic context of the time."
+     "The document is an archival inventory that indexes the committee's proceedings rather than containing the actual minutes, providing a structured reference for locating the original records within the archive.",
+     "The reference code J2.78#1000/1252#17* and accession 1000/1252 place it within the S.S.S. holdings under the Committee de la S.S.S.: Procès de verbaux section.",
+     "The record concerns the Committee pro 1919\u00131920 of the Swiss Society for Economic Surveillance (S.S.S.), an organization active during the post-World War I period focused on economic monitoring.",
+     "The Swiss Society for Economic Surveillance (S.S.S.) was a Swiss organization established in 1915 that aimed to monitor and regulate economic activities, particularly during times of crisis or war.",
+     "The Committee pro 1919\u00131920 was a specific sub-committee within the S.S.S. that documented and managed the organization's proceedings during the transition years following World War I.",
+     "The record is related to the S.S.S. holdings, which include other materials such as press clippings about the organization during wartime [R1], and administrative files concerning cultural heritage protection [R2].",
+     "It also connects to the Federal Finance Department's copied documents register from 1919 [R3], which indexes copied correspondence and administrative papers from that period."
     ],
     "inferred": 0,
-    "sources_used": 7,
+    "sources_used": 4,
     "kinds_used": [
-     "E",
-     "R"
+     "E"
     ]
    },
    {
     "id": "31445426",
     "error": null,
-    "seconds": 3.6,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a repertory titled \"Repertorium der Personalakten\" covering the years 1867–1872, created by the Swiss Federal Archives between 1868 and 1884 to index personnel files related to absentees, extraditions, and inheritance matters.",
-     "It organizes individual cases alphabetically and was part of the archive regulation of 14 September 1864 (Article 14.b).",
-     "The reference code is E21#1000/131#24722* and it is located in the Police Department holdings of the Swiss Federal Archives.",
-     "The repertory concerns administrative records of the Swiss Federal Police Department, documenting cases involving absentees, extraditions, and inheritance matters during the specified period.",
-     "It indexes personnel files that were already organized by subject, without including archive signatures, reflecting the systematic approach to managing federal police records in the late 19th century.",
-     "The records are part of the broader Swiss Federal Archives holdings, which include related documents such as the \"Répertoire des expulsés\" and \"Aktenverzeichnis\" for diplomatic missions.",
-     "Related records include the \"Répertoire des expulsés\" (1872/1888) listing expelled persons and the \"Aktenverzeichnis\" (1876/1879) for the Saint Petersburg diplomatic mission, both providing complementary administrative context.",
-     "These documents collectively illustrate the Swiss Federal Archives' systematic approach to cataloging police and diplomatic records in the late 19th century, reflecting the administrative priorities of the time."
+     "The repertory entries list individual administrative cases alphabetically, including absences, extraditions, and inheritance matters, without archive reference numbers since files were already organized by subject.",
+     "Entries cover the years 1867 to 1872, documenting a range of personal administrative matters handled by the Swiss Federal Archives during that period.",
+     "The document is part of the Police Department holdings within the Swiss Federal Archives, reflecting the systematic indexing of personnel records for administrative oversight.",
+     "It concerns the systematic organization of personal files from 1867 to 1872, reflecting the administrative practices of the Swiss Federal Archives during that era.",
+     "The records are part of the broader police and personnel archive holdings of the Swiss Federal Archives, documenting state oversight of individuals.",
+     "The Repertorium der Personalakten von 1876 - 1878, A-Z shares the same purpose and origin as the 1867-1872 repertory, both created by the Bundesarchiv between 1868 and 1884 to index personnel files.",
+     "The Répertoire des expulsés on the page of left (1872/1888) documents expelled persons, which may intersect with the personnel file records concerning extraditions and absences."
     ],
     "inferred": 0,
-    "sources_used": 9,
+    "sources_used": 4,
     "kinds_used": [
      "E",
      "R"
@@ -1108,16 +1128,16 @@
    {
     "id": "1627708",
     "error": null,
-    "seconds": 3.6,
+    "seconds": 0.0,
     "sentences": [
-     "The record is a 1921 document titled \"Répertoire pour le différend de limites entre la Colombie et le Vénézuéla\" with reference code E2001B#1000/1515#7*, archived in the Swiss Federal Archives under the category of international arbitration treaties.",
-     "It pertains to a boundary dispute between Colombia and Venezuela, indicating Switzerland's involvement in international legal mediation during the early 20th century.",
-     "The document is part of the Swiss Federal Archives' diplomatic and international relations holdings, reflecting the country's role in global arbitration and treaty administration.",
-     "The document concerns the international boundary dispute between Colombia and Venezuela, two South American nations, and reflects Switzerland's engagement in international arbitration.",
-     "Switzerland, officially the Swiss Confederation (Schweizerische Eidgenossenschaft), is a federal democratic state in Central Europe, as described in Wikidata [D#] and Wikipedia [W#].",
-     "The record illustrates Switzerland's historical function as a neutral mediator in international conflicts, a role consistent with its long-standing policy of neutrality and diplomatic engagement.",
-     "Related records include administrative documents on international statistical institutions [R1] and registers of Swiss repatriation efforts [R2], showing the breadth of Swiss diplomatic and humanitarian activities.",
-     "The document's placement within the Swiss Federal Archives' diplomatic collections highlights the systematic archiving of international treaties and arbitration records, contributing to the broader historical narrative of Swiss neutrality and global engagement."
+     "The dossier contains diplomatic correspondence, legal memoranda, and arbitration proposals exchanged between Swiss diplomatic representatives and the parties involved, reflecting the detailed procedural steps taken during the dispute resolution process.",
+     "It includes annotated copies of international treaties and arbitration agreements, as well as minutes of meetings held by Swiss mediators, illustrating the administrative and legal framework of the arbitration.",
+     "The file also features a chronological index of key dates, such as the submission of claims and the convening of arbitration sessions, providing a timeline of the dispute's progression.",
+     "The record concerns the 1921 boundary dispute between Colombia and Venezuela, focusing on the arbitration process mediated by Switzerland and the resulting legal and diplomatic documentation.",
+     "It pertains to international relations and arbitration law, specifically the role of Switzerland as a neutral mediator in resolving territorial conflicts between Latin American nations during the early 20th century.",
+     "The subject matter is linked to the broader context of Swiss foreign policy, which historically involved mediating international disputes and maintaining neutrality in regional conflicts.",
+     "The dossier is related to other diplomatic records concerning international arbitration and treaty negotiations, such as the 1933/1934 file on the Rhine navigation convention revision, reflecting Switzerland's involvement in European transport law.",
+     "It also connects to administrative registers documenting Swiss assistance and repatriation efforts, such as the 1891/1905 Lyon repatriation register, showing the parallel development of humanitarian and diplomatic functions within the Swiss foreign service."
     ],
     "inferred": 8,
     "sources_used": 0,
@@ -1126,63 +1146,76 @@
    {
     "id": "6323151",
     "error": null,
-    "seconds": 3.7,
+    "seconds": 0.0,
     "sentences": [
-     "The document is a Swiss Federal Archives record titled \"Zur Frage der administrativen Eingliederung der Sozialstatistik in das BIGA (Gutachten vom 9.12.1938)\" with reference code E7181A#1978/90#29*, dated 1938, concerning a report on the administrative integration of social statistics into the Federal Office for Industry, Trade and Labour.",
-     "It is part of the social statistics sub-registry within the Federal Office for Industry, Trade and Labour, archived under the section for administrative and statistical records from 1928 to 1979.",
-     "The record is an excerpt from source materials, accessioned in 1978/90, and reflects the bureaucratic processes of Swiss federal statistical administration during the interwar period.",
-     "The record concerns the administrative and statistical functions of the Swiss federal government, specifically the Federal Office for Industry, Trade and Labour (Bundesamt für Industrie, Gewerbe und Arbeit) during the 1930s.",
-     "It documents the internal deliberations and recommendations regarding the integration of social statistics into the federal office, reflecting the institutional development of Swiss social policy.",
-     "The record is part of the broader Swiss federal archival holdings that track the evolution of statistical and social administration, contributing to the historical understanding of Swiss welfare and labour policies.",
-     "This record is related to other Swiss Federal Archives files documenting international engagement, such as the 1929 5th International Congress of the History of Religions (R1) and the 1921 Colombia-Venezuela boundary dispute (R2), which together illustrate the range of Swiss foreign policy and administrative activities.",
-     "It also connects to records concerning international cultural initiatives like the 1924 International Commission for Historic Monuments and the Convention for the Protection of Artistic Heritage (R3), showing the Swiss Federal Archives' comprehensive documentation of both domestic and international affairs."
+     "The excerpt presents a structured list of international statistical institutions with their locations and contact details, formatted as a tabular compilation for administrative reference.",
+     "It includes specific entries for institutions such as the International Labour Office and the League of Nations Statistical Institute, indicating the scope of statistical cooperation tracked by the BIGA.",
+     "The document is a typed page with clear headings and columns, reflecting the bureaucratic style of the 1930s for compiling comparative international data.",
+     "It concerns the process of aligning Swiss social statistics with international standards and institutions, as part of broader efforts to harmonize statistical practices across nations.",
+     "The subject matter reflects Switzerland's engagement with global statistical networks during the interwar period, contributing to the development of standardized international data collection methods.",
+     "The dossier is part of the Swiss Federal Archives' holdings on the BIGA's social statistics division, which also includes other administrative reports and correspondence from 1928 to 1979.",
+     "It relates to other records concerning international statistical cooperation, such as the 1929 International Congress of the History of Religions and the 1924 International Convention for the Protection of Artistic Heritage, reflecting Switzerland's broader engagement with global intellectual and legal initiatives."
     ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 0,
+    "sources_used": 4,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
    },
    {
     "id": "7421918",
-    "error": "ValueError('no valid JSON after retries')",
-    "seconds": 27.3,
-    "sentences": [],
+    "error": null,
+    "seconds": 0.0,
+    "sentences": [
+     "The register contains detailed chronological entries of incoming and outgoing documents, including diplomatic correspondence, official reports, and administrative communications exchanged between the Swiss mission and British authorities or other Swiss diplomatic posts during 1905–1913.",
+     "Each entry is systematically organized alphabetically by sender or recipient, providing a structured overview of the diplomatic activities and information flow managed by the Swiss representation in London during this specific period.",
+     "The document is physically preserved as a bound volume within the Swiss Federal Archives' holdings, reflecting the meticulous record-keeping practices of the Swiss diplomatic service in the early 20th century.",
+     "It provides insight into the diplomatic relations, administrative procedures, and information management practices of the Swiss Federal State during the years leading up to World War I.",
+     "The register is part of the Swiss Federal Archives' broader holdings of diplomatic correspondence and administrative files, alongside other registers such as the Répertoire des secours et rapatriements (1891/1905) and Aktenverzeichnisse (1905/1906) which document different aspects of Swiss diplomatic and administrative activities."
+    ],
     "inferred": 0,
-    "sources_used": 0,
-    "kinds_used": []
+    "sources_used": 4,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
    },
    {
     "id": "13246979",
     "error": null,
-    "seconds": 3.3,
+    "seconds": 0.0,
     "sentences": [
-     "This record is an Aktenverzeichnis (inventory) from the Swiss representation in Saint Petersburg, dated 1876-1879, with reference code E2200.86-01#1000/701#31* and located in the central filing of the Swiss representation.",
-     "It pertains to the administrative records of the Swiss diplomatic mission in Saint Petersburg during the late 19th century, documenting official correspondence and activities.",
-     "The document serves as a finding aid for the archival materials held by the Swiss Federal Archives, providing an overview of the contents within the Amtsbücher (official books).",
-     "The record concerns the Swiss diplomatic representation in Saint Petersburg, which was active from 1817 to 1918, and specifically covers the period of 1876-1879.",
-     "It relates to the broader context of Swiss foreign policy and diplomatic relations during the late 19th century, reflecting the activities of the Swiss Federal Government in international affairs.",
-     "The inventory is part of the archival holdings of the Swiss Federal Archives, which preserve historical documents related to the Swiss representation in various cities, including Saint Petersburg, London, and New York.",
-     "This record is related to other archival inventories such as the Aktenverzeichnis from 1929, 1936, and 1939, which document the Swiss representation in New York, London, and London respectively, providing a chronological overview of Swiss diplomatic activities.",
-     "The records collectively illustrate the systematic approach of the Swiss Federal Archives in preserving and organizing diplomatic correspondence, reflecting the historical importance of maintaining detailed administrative records for international relations."
+     "The document is a structured inventory list titled \"Aktenverzeichnis\" that systematically catalogs the central files of the Swiss diplomatic mission in Saint Petersburg for the years 1876–1879, detailing the reference code E2200.86-01#1000/701#31* and its placement within the \"Zentrale Ablage\" of the Swiss representation.",
+     "It describes the administrative organization of the mission's archival holdings, including the accession number 1000/701, and provides a framework for locating specific documents within the historical diplomatic correspondence.",
+     "The list does not contain the actual diplomatic correspondence but serves as a finding aid to identify and access the physical documents stored in the Swiss Federal Archives.",
+     "The record concerns the Swiss diplomatic mission in Saint Petersburg, which was active from 1817 to 1918, and specifically documents the central filing system for the years 1876–1879.",
+     "This inventory aids researchers in understanding the scope and content of Swiss diplomatic activities in Russia during the late 19th century, providing context for the mission's operations and correspondence.",
+     "The record is part of the broader Swiss diplomatic archive holdings, reflecting the systematic approach to preserving and organizing diplomatic correspondence and administrative records.",
+     "Related archival inventories such as the 1929 Aktenverzeichnis for the Swiss representation in New York and the 1936/1939 inventories for London demonstrate a consistent practice of creating finding aids to manage and describe diplomatic records across different locations and time periods.",
+     "These parallel records highlight the Swiss Federal Archives' systematic approach to cataloging diplomatic correspondence, ensuring that historical documents remain accessible for research and historical analysis."
     ],
-    "inferred": 8,
-    "sources_used": 0,
-    "kinds_used": []
+    "inferred": 0,
+    "sources_used": 8,
+    "kinds_used": [
+     "E",
+     "R"
+    ]
    },
    {
     "id": "32683295",
     "error": null,
-    "seconds": 4.2,
+    "seconds": 0.0,
     "sentences": [
-     "The record is a finding aid titled Findmittel E2200.135 Schweizerische Vertretung, Los Angeles, covering archival deliveries from 1949 to 2008 and stored in the Swiss Federal Archives central filing system.",
-     "It indexes multiple archival deposits including 1000/176 to 1000/180, 1970/191 to 1970/192, 1974/41 to 1974/43, 1981/78, 1991/142 to 1991/145, 1996/363 to 1996/366, 1998/35 to 1998/38, and 2003/300 to 2003/301.",
-     "The reference code is E3120C#2014/269#436* and the archive location is the Zentralen Ablage (1996-2007) within the Schweizerisches Bundesarchiv.",
-     "The document concerns archival materials from the Swiss representation in Los Angeles, which are part of the Swiss Federal Archives holdings managed by the national archives of Switzerland based in Bern.",
-     "These records document the activities and correspondence of the Swiss diplomatic mission in Los Angeles over several decades, reflecting Switzerland's international relations and administrative practices.",
-     "The Swiss Federal Archives, under the direction of Philippe Künzler since 2018, is responsible for preserving, cataloging, and providing access to such archival materials for historical research and transparency.",
-     "Related finding aids include E2200.222 for the Swiss representation in Galatz (1947/1970) and E2200.302A for the Swiss representation in Vesoul (2009), both serving as administrative indexes for archival deposits.",
-     "The Los Angeles records are part of a broader network of Swiss diplomatic archives in the United States, alongside the Washington mission records documented in Aktenverzeichnisse (1909/1910), illustrating Switzerland's diplomatic presence and administrative continuity across different locations and time periods."
+     "The document is a structured catalogue entry that indexes multiple archival deliveries (e.g., 1000/176 to 2003/301) under the reference code E3120C#2014/269#436*, detailing the scope and content of Swiss diplomatic records held in Los Angeles from 1949 to 2008.",
+     "The record is part of the central archival holdings of the Swiss Federal Archives, managed by the Archiv des Schweizerischen Bundesstaates since 1848 and housed in the Schweizerisches Bundesarchiv in Bern.",
+     "The record concerns the Swiss representation in Los Angeles, documenting diplomatic activities and administrative correspondence between 1949 and 2008, held by the Swiss Federal Archives.",
+     "It pertains to the Swiss diplomatic presence in the United States, specifically the Los Angeles office, and is part of the broader Swiss Federal Archives' mission to preserve and provide access to state records.",
+     "The material is organized as a finding aid for archival deliveries, facilitating research into Swiss foreign policy, consular services, and cultural relations during the Cold War and post-Cold War periods.",
+     "Related records include finding aids for Swiss representations in Galatz ([R1]), Vesoul ([R2]), and Washington ([R3]), which similarly document diplomatic activities in different locations and time periods, reflecting the Swiss Federal Archives' systematic approach to preserving overseas diplomatic correspondence.",
+     "These records collectively illustrate the Swiss Federal Archives' role in maintaining a comprehensive archive of Swiss diplomatic history, with the Los Angeles finding aid serving as a key component for understanding Switzerland's engagement with the United States during the late 20th and early 21st centuries."
     ],
-    "inferred": 8,
+    "inferred": 7,
     "sources_used": 0,
     "kinds_used": []
    }

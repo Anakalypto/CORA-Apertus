@@ -288,6 +288,8 @@ def _eval_cfg(m: str) -> dict:
     d.mkdir(parents=True, exist_ok=True)
     if not (d / "enrich_cache.json").exists() and (DATA / "enrich_cache.json").exists():
         shutil.copy(DATA / "enrich_cache.json", d / "enrich_cache.json")
+    if not (d / "topic_cache").exists() and (DATA / "topic_cache").exists():  # more.shown_text reads the subject panel cache
+        shutil.copytree(DATA / "topic_cache", d / "topic_cache", dirs_exist_ok=True)
     cfg["paths"]["data_dir"] = d
     return cfg
 
@@ -384,6 +386,11 @@ def _rec_code(x) -> str:
     return {"yes": "1", "no": "2", "free vote": "5", "free": "5", "none": "3", "empty": "4", "neutral": "66"}.get(x, x)
 
 
+def _most_frequent(seen: list) -> str | None:
+    """Most frequent recommendation; ties go to the one seen first (the most similar related vote)."""
+    return min(seen, key=lambda r: (-seen.count(r), seen.index(r))) if seen else None
+
+
 def f_whatif(n: int = 40):
     from cora import referendum as R
     pool_ = []
@@ -401,7 +408,7 @@ def f_whatif(n: int = 40):
         base = {}
         for p in truth:
             seen = [R.recs_of(o).get(p) for o in rel if R.recs_of(o).get(p) in ("1", "2", "5")]
-            base[p] = max(set(seen), key=seen.count) if seen else None
+            base[p] = _most_frequent(seen)
         prompt = (WHATIF + f"\n\nProposal: {v['titel_kurz_d']} / {v['titel_kurz_f']} ({v['titel_off_d'][:300]}), voted {v['_iso']}.\n"
                   f"Parties: {json.dumps(sorted(truth))}\nEvidence, recommendations on related votes: {json.dumps(evidence, ensure_ascii=False)}")
         items.append({"id": v["anr"], "prompt": prompt, "truth": truth, "baseline": base})
@@ -429,8 +436,64 @@ def f_whatif(n: int = 40):
                 "compared with the real Swissvotes recommendation. Baseline: each party repeats its most frequent related-vote recommendation.")
 
 
+ANCHORED = """You know Swiss party history. A federal proposal is described, with each party's recommendations on related
+votes. For each party a DEFAULT is given: the recommendation it issued most often on those related votes. Keep the default
+unless this proposal differs from the related votes in a way that would clearly change that party's position; only then
+change it, and say in one sentence what difference makes the party change. Codes: "1" yes, "2" no, "5" free vote.
+Return {"parties": {"<party>": {"rec": "1|2|5", "changed": true|false, "reason": "<sentence>"}}}."""
+
+
+def f_whatif_fix(n: int = 40):
+    """Variants for the what-if positions, on the same votes as f_whatif: two evidence rules and an anchored prompt."""
+    from cora import referendum as R
+    base_run = json.loads((OUT / "whatif.json").read_text(encoding="utf-8"))
+    votes = {v["anr"]: v for v in R.rows(CFG)}
+    items = []
+    for o in base_run["outputs"][MODELS[0]][:n]:
+        v = votes[o["id"]]
+        rel = [x for x in R._related_candidates(CFG, v) if x["titel_kurz_d"].strip().lower() != v["titel_kurz_d"].strip().lower()][:3]
+        truth = o["truth"]
+        seen = {p: [R.recs_of(x).get(p) for x in rel if R.recs_of(x).get(p) in ("1", "2", "5")] for p in truth}
+        freq = {p: _most_frequent(seen[p]) for p in truth}
+        nearest = {p: (seen[p][0] if seen[p] else None) for p in truth}
+        evidence = {f"{x['_iso']} {x['titel_kurz_d']}": {p: R.REC_LABEL.get(r, r) for p, r in R.recs_of(x).items() if p in truth} for x in rel}
+        prompt = (ANCHORED + f"\n\nProposal: {v['titel_kurz_d']} / {v['titel_kurz_f']} ({v['titel_off_d'][:300]}), voted {v['_iso']}.\n"
+                  f"Evidence, recommendations on related votes: {json.dumps(evidence, ensure_ascii=False)}\n"
+                  f"Defaults: {json.dumps({p: freq[p] for p in sorted(truth) if freq[p]})}\n"
+                  f"Parties without related-vote evidence (no default, decide from the party's profile): {json.dumps(sorted(p for p in truth if not freq[p]))}")
+        items.append({"id": o["id"], "prompt": prompt, "truth": truth, "freq": freq, "nearest": nearest})
+
+    def one(m, x):
+        raw, err, s = timed(lambda: client(m, 0.0, 1500).chat_json([{"role": "user", "content": x["prompt"]}])[0])
+        got = {p: _rec_code(y.get("rec")) for p, y in ((raw or {}).get("parties") or {}).items() if isinstance(y, dict)}
+        return {"id": x["id"], "error": err, "seconds": s, "predicted": got, "truth": x["truth"], "freq": x["freq"], "nearest": x["nearest"]}
+
+    outs = run_models("whatif_fix", items, one)
+    acc = lambda pairs: pct(sum(a == b for a, b in pairs), len(pairs))
+    allp = [(p, t, x) for x in items for p, t in x["truth"].items()]
+    metrics = {"positions": len(allp),
+               "rule_most_frequent_pct": acc([(x["freq"][p], t) for p, t, x in allp]),
+               "rule_nearest_vote_pct": acc([(x["nearest"][p], t) for p, t, x in allp]),
+               "positions_with_evidence": sum(1 for p, t, x in allp if x["freq"][p])}
+    for m, os_ in outs.items():
+        by = {o["id"]: o for o in os_}
+        pairs = [(by[x["id"]]["predicted"].get(p), t) for p, t, x in allp]
+        changed = [(by[x["id"]]["predicted"].get(p), t) for p, t, x in allp if x["freq"][p] and by[x["id"]]["predicted"].get(p) not in (None, x["freq"][p])]
+        kept_wrong = sum(1 for p, t, x in allp if x["freq"][p] and x["freq"][p] != t)
+        no_ev = [(by[x["id"]]["predicted"].get(p), t) for p, t, x in allp if not x["freq"][p]]
+        # hybrid: rule where evidence exists, the anchored model only where it does not
+        hybrid = [((x["freq"][p] or by[x["id"]]["predicted"].get(p)), t) for p, t, x in allp]
+        metrics[m] = common(os_) | {"anchored_accuracy_pct": acc(pairs), "changes": len(changed), "changes_right_pct": acc(changed),
+                                    "defaults_that_were_wrong": kept_wrong, "no_evidence_accuracy_pct": acc(no_ev), "no_evidence_n": len(no_ev),
+                                    "hybrid_rule_plus_model_pct": acc(hybrid)}
+    return save("whatif_fix", outs, metrics, "What-if variants on the same votes as 'whatif'. Rules: each party repeats its most frequent "
+                "(ties: most similar vote) or its most similar related-vote recommendation. Anchored: the model gets the most-frequent rule "
+                "as a default and may change it with a reason (temperature 0). Hybrid: the rule where a party has related-vote evidence, the "
+                "anchored model's answer where it has none.")
+
+
 FEATURES = {"stapfer": f_stapfer, "level": f_level, "audit": f_audit, "qa": f_qa,
-            "more": f_more, "topic": f_topic, "consultations": f_consultations, "whatif": f_whatif}
+            "more": f_more, "topic": f_topic, "consultations": f_consultations, "whatif": f_whatif, "whatif_fix": f_whatif_fix}
 
 
 if __name__ == "__main__":

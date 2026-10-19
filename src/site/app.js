@@ -283,7 +283,7 @@ async function home() {
 const FACET_TITLES = {
   flags: "Flags", document_type: "Document type", source_level: "Source level", medium: "Medium", century: "Century",
   level: "Level", decade: "Decade", fonds: "Fonds", language: "Language", creator: "Author / creator", publisher: "Publisher",
-  subject: "Subject", person: "Person", place: "Place", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group",
+  subject: "Subject", person: "Person", place: "Place", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group", batch: "Batch",
 };
 const PRIMARY_FACETS = ["document_type", "source_level", "medium", "century", "level", "flags"];
 const FLAG_LABEL = { on_map: "Located on the map", story_map: "Has a story map", names_persons: "Names persons", wikidata_links: "Linked to Wikidata",
@@ -791,6 +791,20 @@ async function qualityPage() {
       ${kpi(s.places_resolved_pct, `places located by the gazetteer (${s.places})`)}
       ${kpi(s.model_coord_within_25km_pct, `Apertus' own coordinates within 25 km (median error ${s.model_coord_error_km_median} km)`)}
     </div>
+    ${Object.entries(qc.batches || {}).map(([name, b]) => {
+      const mr = b.manual_review, sl = b.source_level_vs_evidence;
+      return `<h2>Batch ${esc(name)}: ${(b.online ?? b.records).toLocaleString()} more records</h2>
+      <p class="muted">Drawn over source tiers, record types and eras, processed by the same pipeline and verified before going online
+      (<a href="https://github.com/Anakalypto/CORA-Apertus/blob/main/docs/batch10k_verification.md" target="_blank">verification report</a>).</p>
+      <div class="kpis">
+        ${kpi(b.processed_ok_pct, "processed correctly (no structural or critical error)", 80, 60)}
+        ${kpi(b.structural_error_pct, "structural errors (target < 5%)", -1, -1)}
+        ${kpi(b.entity_grounding_pct, `named entities in the source (${b.entities.toLocaleString()} entities)`)}
+        ${kpi(b.date_created_in_range_pct, "creation dates inside the record's date range")}
+        ${sl ? kpi(sl.agreement_pct, `source level = archival evidence (${sl.n.toLocaleString()} secondary/tertiary records)`) : ""}
+        ${mr ? kpi(Math.round(100 * (mr.reviewed - verdict(mr, "major_errors")) / mr.reviewed), `manual review: no major error (${mr.reviewed} records, ${verdict(mr, "correct")} fully correct)`) : ""}
+      </div>`;
+    }).join("")}
     <div class="two">
       <div>
         <h2>Agreement with explicit record fields</h2>
@@ -1344,11 +1358,11 @@ async function votePanel(v, whatifYear, legYear) {
     return;
   }
   const wb = $("#whatif");
-  wb.innerHTML = `<p class="small muted"><span class="spinner"></span> Apertus is imagining the ${whatifYear} party positions…</p>`;
+  wb.innerHTML = `<p class="small muted"><span class="spinner"></span> Collecting the parties' positions on related votes near ${whatifYear}…</p>`;
   let w;
   try { w = await api(`/api/votes/${d.anr}/whatif?year=${whatifYear}`); } catch (err) { wb.innerHTML = `<p class="small">Could not estimate: ${esc(err.message)}</p>`; return; }
   if (!$("#whatif")) return;
-  const P = w.positions_then_strengths, im = w.imagination, an = w.anchor;
+  const P = w.positions_then_strengths, rp = w.related_positions, an = w.anchor, bt = rp.backtest;
   const marks = { [d.anr]: { color: "#1f7a4d", label: d.title_de } };
   if (an) marks[an.anr] = { color: "#b5121b", label: an.title_de };
   wb.innerHTML = `<h3>The ${d.year} proposal under ${whatifYear} conditions</h3>
@@ -1358,7 +1372,7 @@ async function votePanel(v, whatifYear, legYear) {
         ${an ? `<tr><td>${an.date.slice(0, 4)} vote “${esc(an.title_de)}” (${esc(an.relation || "related")})</td><td>${an.estimate ?? "–"} %</td><td>${an.actual ?? "–"} %</td></tr>` : ""}
         <tr><td><b>${d.year} positions, ${whatifYear} party strengths</b></td><td><b>${P.estimate ?? "–"} %</b>${P.interval ? `<br><span class="small">${P.interval[0]}–${P.interval[1]} %</span>` : ""}</td><td>–</td></tr>
         ${P.corrected != null ? `<tr><td>… corrected by the model's miss on the ${an.date.slice(0, 4)} vote (${an.residual > 0 ? "+" : ""}${an.residual} pts)</td><td><b>${P.corrected} %</b></td><td>–</td></tr>` : ""}
-        <tr><td>Apertus-imagined ${whatifYear} positions, ${whatifYear} strengths <span class="badge">generated</span></td><td>${im.estimate ?? "–"} %${im.corrected != null ? `<br><span class="small">corrected ${im.corrected} %</span>` : ""}</td><td>–</td></tr></table>
+        <tr><td>Positions on related votes near ${whatifYear}, ${whatifYear} strengths <span class="badge">evidence</span></td><td>${rp.estimate ?? "–"} %${rp.corrected != null ? `<br><span class="small">corrected ${rp.corrected} %</span>` : ""}</td><td>–</td></tr></table>
       <div class="callout small">Strengths of ${whatifYear}: National Council vote shares from the vote of ${w.conditions.date}.
         ${P.parties_without_position.length ? `Parties of ${whatifYear} without a position in ${d.year} (left out of the evidence row): ${P.parties_without_position.map((p) => esc(PARTY_LABEL[p] || p.toUpperCase())).join(", ")}.` : ""}
         ${an && an.residual != null ? `On the related ${an.date.slice(0, 4)} vote the model was off by ${an.residual} points: that is the issue-specific gap of that electorate, carried over in the corrected rows.` : `No related vote within 6 years of ${whatifYear}, so no issue-specific correction.`}
@@ -1370,11 +1384,15 @@ async function votePanel(v, whatifYear, legYear) {
       <table class="t">${partyRows(P.parties)}</table>
       ${an ? `<h4>Actual positions on the ${an.date.slice(0, 4)} vote</h4><table class="t">${partyRows(an.parties)}</table>` : ""}
     </div></div>
-    <section class="band band-imagination"><h3>Imagination <small>generated by Apertus · counterfactual party positions, not evidence</small></h3>
-      <p class="small">Asked: “Had this proposal been voted in ${whatifYear}, what would each party of ${whatifYear} most plausibly have recommended?”, with the parties' recommendations on related votes as evidence.</p>
-      <table class="t"><tr><th>Party</th><th>Imagined</th>${an ? `<th>Actual ${an.date.slice(0, 4)}</th>` : ""}<th>Reasoning (generated)</th></tr>
-      ${Object.entries(im.parties || {}).map(([p, x]) => `<tr><td>${partyDot(p)}</td><td>${REC[x.rec] || x.rec}</td>${an ? `<td>${REC[x.anchor_rec] || x.anchor_rec || "–"}</td>` : ""}
+    <section class="band band-imagination"><h3>Party positions in ${whatifYear} <small>positions: evidence · explanations: generated by Apertus</small></h3>
+      <p class="small">Each party's position is the one it took most often on the related votes nearest ${whatifYear}; Apertus only explains it.
+        Why not let Apertus decide: on ${bt.votes} past votes this rule matched the real recommendation ${bt.rule_pct} % of the time,
+        Apertus 70B predicting the positions itself ${bt.apertus_70b_pct} % and 8B ${bt.apertus_8b_pct} %.</p>
+      <table class="t"><tr><th>Party</th><th>Position</th><th>From vote</th>${an ? `<th>Actual ${an.date.slice(0, 4)}</th>` : ""}<th>Explanation (generated)</th></tr>
+      ${Object.entries(rp.parties || {}).map(([p, x]) => `<tr><td>${partyDot(p)}</td><td>${REC[x.rec] || x.rec}</td>
+        <td class="small">${x.from.map((a) => `<a href="#/parliament?vote=${a}">${a}</a>`).join(", ")}</td>${an ? `<td>${REC[x.anchor_rec] || x.anchor_rec || "–"}</td>` : ""}
         <td class="small">${esc(x.reason || "")}${x.misstates_evidence ? ` <span class="badge qc-bad">misstates the record</span>` : ""}</td></tr>`).join("")}</table>
+      ${rp.parties_without_evidence.length ? `<p class="small muted">No position on the related votes, so no estimate is made for: ${rp.parties_without_evidence.map((p) => esc(PARTY_LABEL[p] || p.toUpperCase())).join(", ")}.</p>` : ""}
     </section>`;
 }
 

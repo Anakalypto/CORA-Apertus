@@ -48,9 +48,9 @@ def stage_fetch(cfg):
     _write(cfg["paths"]["data_dir"] / "records_raw.json", recs)
 
 
-def _client(cfg):
+def _client(cfg, feature: str):
     l = cfg["llm"]
-    return Apertus(l["base_url"], l["api_key"], l["model"], l["temperature"], l["max_tokens"], l["retries"])
+    return Apertus(l["base_url"], l["api_key"], config.model_for(cfg, feature), l["temperature"], l["max_tokens"], l["retries"])
 
 
 def _classify_all(cfg, model: str, out_name: str):
@@ -59,7 +59,7 @@ def _classify_all(cfg, model: str, out_name: str):
     done = {r["id"]: r for r in _read(out_path)} if out_path.exists() and not FORCE else {}
     todo = [r for r in recs if r["id"] not in done or not done[r["id"]].get("apertus")]
     print(f"  {len(done)} already classified, {len(todo)} to do")
-    ap = _client(cfg)
+    ap = _client(cfg, "classify")
 
     def one(rec):
         msgs = classify.build_messages(rec, cfg)
@@ -82,7 +82,7 @@ def _classify_all(cfg, model: str, out_name: str):
 
 
 def stage_classify(cfg):
-    _classify_all(cfg, cfg["llm"]["model"], "classified.jsonl")
+    _classify_all(cfg, config.model_for(cfg, "classify"), "classified.jsonl")
 
 
 def stage_compare(cfg):
@@ -94,7 +94,7 @@ def stage_audit(cfg):
     path = cfg["paths"]["data_dir"] / "classified.jsonl"
     rows = _read(path)
     recs = {r["id"]: r for r in _read(cfg["paths"]["data_dir"] / "records_raw.json")}
-    ap = _client(cfg)
+    ap = _client(cfg, "audit")
 
     def one(row):
         if not row.get("apertus") or (row["apertus"].get("audit_checks") and not FORCE):
@@ -124,7 +124,7 @@ def stage_level(cfg):
     path = cfg["paths"]["data_dir"] / "classified.jsonl"
     rows = _read(path)
     recs = {r["id"]: r for r in _read(cfg["paths"]["data_dir"] / "records_raw.json")}
-    ap = _client(cfg)
+    ap = _client(cfg, "level")
     conv = cfg["classify"].get("press_convention", "secondary")
 
     def one(row):
@@ -187,6 +187,11 @@ def stage_add_sources(cfg):
     extra.run(cfg)
 
 
+def stage_mixed_sample(cfg):
+    from cora import mixed
+    mixed.run(cfg)
+
+
 def stage_referendum(cfg):
     from cora import referendum
     referendum.run(cfg)
@@ -233,7 +238,7 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources", "mixed_sample"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--force", action="store_true", help="reprocess records that were already classified/audited")
     args = ap.parse_args()
@@ -241,6 +246,9 @@ if __name__ == "__main__":
     FORCE = args.force
     if args.stage == "add_sources":
         stage_add_sources(cfg)
+        sys.exit()
+    if args.stage == "mixed_sample":
+        stage_mixed_sample(cfg)
         sys.exit()
     if args.stage == "referendum":
         stage_referendum(cfg)

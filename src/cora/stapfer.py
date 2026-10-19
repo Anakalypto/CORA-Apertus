@@ -11,6 +11,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
+from . import config
 
 DUMP_URL = "https://sfa-laboratory.ch/Hackathon/Stapfer/stapferappdb_final.sql.zip"
 _ESC = {"n": "\n", "r": "\r", "t": "\t", "0": "\0"}
@@ -194,7 +195,7 @@ def run(cfg, n: int = 40, seed: int = 42) -> None:
     cases = json.loads(cases_path.read_text(encoding="utf-8"))
     sample = random.Random(seed).sample(sorted(cases, key=lambda c: c["id"]), n)
     l = cfg["llm"]
-    ap = Apertus(l["base_url"], l["api_key"], l["model"], 0.0, 1500, l["retries"])
+    ap = Apertus(l["base_url"], l["api_key"], config.model_for(cfg, "stapfer"), 0.0, 1500, l["retries"])
 
     def one(c):
         try:
@@ -208,7 +209,7 @@ def run(cfg, n: int = 40, seed: int = 42) -> None:
 
     with ThreadPoolExecutor(l["workers"]) as pool:
         rows = list(pool.map(one, sample))
-    summary = {"cases_available": len(cases), "sampled": n, "seed": seed, "model": l["model"],
+    summary = {"cases_available": len(cases), "sampled": n, "seed": seed, "model": config.model_for(cfg, "stapfer"),
                "errors": sum(1 for r in rows if "error" in r), "fields": {}}
     for f in FIELDS:
         rs = [r["result"][f] for r in rows if "result" in r]

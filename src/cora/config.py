@@ -29,3 +29,10 @@ def load(path: Path | None = None) -> dict:
     cfg["paths"]["site_dir"] = (SRC / cfg["paths"]["site_dir"]).resolve()
     cfg["paths"]["data_dir"].mkdir(parents=True, exist_ok=True)
     return cfg
+
+
+def model_for(cfg: dict, feature: str) -> str:
+    """Apertus model of one feature: env LLM_NAME_<FEATURE>, else [llm.models] in config.toml, else the default
+    model (LLM_NAME / llm.model). The per-feature choice comes from the 70B vs 8B comparison (docs/model_comparison.md)."""
+    return (os.environ.get(f"LLM_NAME_{feature.upper()}") or cfg["llm"].get("models", {}).get(feature)
+            or cfg["llm"]["model"])

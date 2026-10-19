@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
+from . import config
+
 PIPELINE_VERSION = "cora-0.1.0"
 PROMPT_VERSION = {"classify": "v2", "audit": "v3"}  # v2/v3: role labels parsed by rule, archival conventions (quality report §8)
 
@@ -98,6 +100,7 @@ def build_record(row: dict, rec: dict, qc: dict, now: str) -> tuple[dict, list[d
                        "processed_at": now},
         "stratum": rec.get("stratum"),
         "evidence_source_level": rec.get("expected_source_level"),
+        **{k: rec[k] for k in ("tier", "era", "batch") if rec.get(k)},  # records of a mixed batch (mixed.py)
     }
     return out, edits
 
@@ -123,6 +126,7 @@ def flatten(r: dict) -> dict:
         "sensitivity": (r["personal_data"] or {}).get("sensitivity"),
         "qc_ok": r["qc"]["ok"], "qc_warnings": join(r["qc"]["warnings"] or []),
         "stratum": r["stratum"], "level": r["source"]["level"], "evidence_source_level": r.get("evidence_source_level"),
+        "tier": r.get("tier"), "era": r.get("era"), "batch": r.get("batch"),
     }
 
 
@@ -173,6 +177,14 @@ def run(cfg):
         r, e = build_record(row, recs[row["id"]], qc.get(row["id"], {}), now)
         records.append(r)
         edits += e
+    for b in cfg["paths"].get("batches", []):  # verified batches (e.g. data/batch10k), exported in their own directory
+        ds = (config.SRC / b / "dataset").resolve()
+        have = {r["id"] for r in records}
+        new = [json.loads(l) for l in (ds / "cora_dataset.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+        records += [r for r in new if r["id"] not in have]
+        log = [json.loads(l) for l in (ds / "edit_log.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+        edits += [e for e in log if e["record_id"] not in have]
+        print(f"  + {sum(r['id'] not in have for r in new)} records of {b}")
     (out_dir / "cora_dataset.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")
     df = pd.DataFrame([flatten(r) for r in records])
     df.to_csv(out_dir / "cora_dataset.csv", index=False, encoding="utf-8")

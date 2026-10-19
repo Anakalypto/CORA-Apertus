@@ -13,6 +13,7 @@ import io
 import json
 import re
 import statistics
+from . import config
 
 PARTY_PAIRS = {"fdp": "fdp", "sps": "sp", "svp": "svp", "cvp": "cvp", "kvp": "cvp", "mitte": "mitte", "evp": "evp",
                "gps": "gps", "glp": "glp", "pda": "pda", "sd": "sd", "edu": "edu", "fps": "fps", "lega": "lega",
@@ -80,7 +81,7 @@ def run(cfg) -> None:
 
     # Imagination: Apertus proposes 1959 positions on the 1971 proposal (labelled generated, not evidence).
     l = cfg["llm"]
-    ap = Apertus(l["base_url"], l["api_key"], l["model"], 0.3, 1200, l["retries"])
+    ap = Apertus(l["base_url"], l["api_key"], config.model_for(cfg, "votes"), 0.3, 1200, l["retries"])
     parties59 = [p for p, w in PARTY_PAIRS.items() if w in shares59]
     prompt = ("In February 1959 Swiss men rejected women's suffrage (33.1 % yes). Party recommendations then: "
               + json.dumps({p: v59.get(f"p-{p}") for p in parties59}) + " (1=yes, 2=no, 5=free vote). "
@@ -316,23 +317,41 @@ def detail(cfg, anr: str, ap) -> dict:
             "loo_mae": round(model(cfg)["mae"], 1), "parties": used, "shares_from": cond, "apertus": gen}
 
 
-IMAGINE = """You know Swiss party history. A federal proposal is described, with the real party recommendations of its own vote.
-Imagine it had been put to the vote in {year}. For EACH party listed as existing in {year}, give the recommendation it
-would most plausibly have issued then ("1" yes, "2" no, "5" free vote) and one sentence of reasoning grounded in the evidence
-given (the party's recommendations on related votes near {year}) or in the party's profile at the time.
-Return {{"parties": {{"<party>": {{"rec": "1|2|5", "reason": "<sentence>"}}}}}}."""
+EXPLAIN = """You explain, for a general reader, why each Swiss party would most plausibly have taken the position given
+on a federal proposal had it been voted in {year}. The positions are FIXED: each comes from the party's own recommendations
+on related federal votes near {year}, listed as evidence. Do not change or question them. For each party write ONE sentence
+grounded in that evidence or in the party's profile at the time. Return {{"parties": {{"<party>": "<sentence>"}}}}."""
+WHATIF_VERSION = 2  # 2: positions from related votes, Apertus only explains them (cached version-1 results are redone)
 
 
-def whatif(cfg, anr: str, year: int, ap) -> dict:
-    """The proposal of vote `anr` under the conditions of `year`: its own party positions with that year's strengths
-    (evidence-based), and positions imagined by Apertus for the parties of that year (generated). When a related vote
-    lies within 6 years of `year`, its model residual corrects both (issue-specific gap of that electorate)."""
+def rule_positions(cfg, near: list[dict], parties) -> dict:
+    """Each party's most frequent recommendation on the related votes nearest the year (up to 3; ties go to the nearest).
+    Backtest on 40 votes since 1971 (data/model_eval/whatif_fix.json): 68 % of positions right, as many as Apertus 70B
+    predicting them itself (68 %) and more than 8B (64 %); neither model improved on it when given it as a default."""
+    out = {}
+    for p in parties:
+        seen = [(r, x["anr"]) for x in near[:3] if (r := recs_of(_by_anr(cfg, x["anr"])).get(p)) in ("1", "2", "5")]
+        if seen:
+            recs = [r for r, _ in seen]
+            best = min(recs, key=lambda r: (-recs.count(r), recs.index(r)))
+            out[p] = {"rec": best, "from": [a for r, a in seen if r == best]}
+    return out
+
+
+def whatif(cfg, anr: str, year: int, ap, ap_explain=None) -> dict:
+    """The proposal of vote `anr` under the conditions of `year`, two evidence-based rows: its own party positions with
+    that year's strengths, and the positions the parties of that year took on related votes near it (rule_positions),
+    each explained in one sentence by Apertus (generated). When a related vote lies within 6 years of `year`, its model
+    residual corrects both (issue-specific gap of that electorate). `ap` serves the vote detail, `ap_explain` the
+    explanations (config: [llm.models] votes / whatif)."""
     v = _by_anr(cfg, anr)
     cache_dir = cfg["paths"]["data_dir"] / "referendum" / "whatif"
     cache_dir.mkdir(parents=True, exist_ok=True)
     path = cache_dir / f"{anr}_{year}.json"
     if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if cached.get("version") == WHATIF_VERSION:
+            return cached
     d = detail(cfg, anr, ap)
     cond = conditions(cfg, year)
     recs = recs_of(v)
@@ -350,32 +369,41 @@ def whatif(cfg, anr: str, year: int, ap) -> dict:
     for x in near[:3]:
         o = _by_anr(cfg, x["anr"])
         evidence[f"{o['_iso']} {o['titel_kurz_d']}"] = {w: REC_LABEL.get(r, r) for w, r in recs_of(o).items() if w in cond["shares"]}
-    prompt = (IMAGINE.format(year=year) + "\n\n"
-              + f"Proposal: {v['titel_kurz_d']} ({d['apertus'].get('title_en') or v['titel_kurz_f']}), voted {v['_iso']}, yes {v.get('volkja-proz')} %.\n"
-              + f"Real recommendations in {v['_year']}: " + json.dumps({w: REC_LABEL.get(r, r) for w, r in recs.items()}) + "\n"
-              + f"Parties existing in {year} (vote share %): " + json.dumps(cond["shares"]) + "\n"
-              + "Evidence, recommendations on related votes: " + json.dumps(evidence, ensure_ascii=False))
-    try:
-        raw, meta = ap.chat_json([{"role": "user", "content": prompt}])
-        imagined = {p: {"rec": str(x["rec"]), "reason": x.get("reason")} for p, x in (raw.get("parties") or {}).items()
-                    if p in cond["shares"] and isinstance(x, dict) and str(x.get("rec")) in CUE}
-    except Exception:
-        imagined, meta = {}, {}
+    rule = rule_positions(cfg, near, cond["shares"])
+    explained, meta = {}, {}
+    if rule:
+        prompt = (EXPLAIN.format(year=year) + "\n\n"
+                  + f"Proposal: {v['titel_kurz_d']} ({d['apertus'].get('title_en') or v['titel_kurz_f']}), voted {v['_iso']}, yes {v.get('volkja-proz')} %.\n"
+                  + "Positions: " + json.dumps({p: REC_LABEL[x["rec"]] for p, x in rule.items()}) + "\n"
+                  + "Evidence, recommendations on related votes: " + json.dumps(evidence, ensure_ascii=False))
+        try:
+            raw, meta = (ap_explain or ap).chat_json([{"role": "user", "content": prompt}])
+            explained = {p: x.get("reason") if isinstance(x, dict) else x for p, x in (raw.get("parties") or {}).items()}
+            explained = {p: x.strip() for p, x in explained.items() if p in rule and isinstance(x, str) and x.strip()}
+        except Exception:
+            explained, meta = {}, {}
     real_anchor = recs_of(_by_anr(cfg, anchor["anr"])) if anchor else {}
-    for p, x in imagined.items():  # does the generated reasoning misstate the party's real position on the anchor vote?
-        x["anchor_rec"] = real_anchor.get(p)
-        claims = [k for k, rx in SAID.items() if re.search(rx, x.get("reason") or "", re.I)]
-        x["misstates_evidence"] = bool(claims and x["anchor_rec"] and x["anchor_rec"] not in claims)
-    c_i, _ = strict_cue({p: x["rec"] for p, x in imagined.items()}, cond["shares"])
+    positions = {}
+    for p, x in rule.items():
+        reason = explained.get(p)
+        claims = [k for k, rx in SAID.items() if re.search(rx, reason or "", re.I)]
+        # does the generated explanation misstate the party's real position on the anchor vote, or the position itself?
+        positions[p] = {"rec": x["rec"], "from": x["from"], "reason": reason, "anchor_rec": real_anchor.get(p),
+                        "misstates_evidence": bool(claims and any(c not in (x["rec"], real_anchor.get(p)) for c in claims))}
+    c_r, _ = strict_cue({p: x["rec"] for p, x in positions.items()}, cond["shares"])
     mae, res = model(cfg)["mae"], (anchor or {}).get("residual")
-    est_a, est_i = (estimate(cfg, c_a) if len(u_a) >= 2 else None), estimate(cfg, c_i)
+    est_a, est_r = (estimate(cfg, c_a) if len(u_a) >= 2 else None), (estimate(cfg, c_r) if len(positions) >= 2 else None)
     shift = lambda e: round(e + res, 1) if e is not None and res is not None else None
-    out = {"anr": anr, "year": year, "conditions": cond, "anchor": anchor,
+    out = {"anr": anr, "year": year, "version": WHATIF_VERSION, "conditions": cond, "anchor": anchor,
            "positions_then_strengths": {"cue": round(c_a, 3) if c_a is not None else None, "estimate": est_a, "parties": u_a,
                                         "interval": [round(est_a - mae, 1), round(est_a + mae, 1)] if est_a is not None else None,
                                         "corrected": shift(est_a), "parties_without_position": sorted(set(cond["shares"]) - set(u_a))},
-           "imagination": {"generated": True, "model": meta.get("model"), "parties": imagined,
-                           "cue": round(c_i, 3) if c_i is not None else None, "estimate": est_i, "corrected": shift(est_i)}}
-    if imagined:
+           "related_positions": {"method": "each party's most frequent recommendation on the related votes nearest the year",
+                                 "votes": [x["anr"] for x in near[:3]], "parties": positions,
+                                 "parties_without_evidence": sorted(set(cond["shares"]) - set(positions)),
+                                 "cue": round(c_r, 3) if c_r is not None else None, "estimate": est_r, "corrected": shift(est_r),
+                                 "explained_by": meta.get("model"), "backtest": {"votes": 40, "rule_pct": 68.3, "apertus_70b_pct": 67.8,
+                                                                                 "apertus_8b_pct": 64.4}}}
+    if positions and len(explained) == len(positions):
         path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return out

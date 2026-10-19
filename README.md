@@ -44,6 +44,7 @@ python src/run.py all                             # rebuild everything from scra
 | Parliament since 1848 and every federal vote: party-cue estimate, related votes and "what if voted in year Y" (Apertus), e.g. women's suffrage 1971 vs 1959 | *Parliament & votes* page, `/api/votes` |
 | Subject of secondary/tertiary records: Wikipedia article, primary dossiers of the Federal Archives, news for current issues (Apertus-selected) | record pages, `/api/records/{id}/topic` |
 | 1,000-record scale run (Apertus 8B, timed) | `src/scale_run.sh`, `data/scale1000/` |
+| 10,000-record verification run over source tiers, record types and eras (Apertus 8B/70B, timed; not in the published dataset) | `src/batch_run.sh`, `src/cora/mixed.py`, `docs/batch10k_verification.md` |
 
 Submissions must use the v1.5 Apertus model family.
 The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions).

@@ -15,6 +15,7 @@ import re
 import statistics
 import unicodedata
 from collections import Counter
+from . import config
 
 ISO = re.compile(r"^(\d{4}(-\d{2}(-\d{2})?)?(/(\d{4}(-\d{2}(-\d{2})?)?|\.\.))?|\.\./\d{4}(-\d{2}(-\d{2})?)?)$")  # date, interval, or open interval "X/.."
 SPECULATION = re.compile(r"\b(likely|possibly|probably|presumably|may contain|might|perhaps|apparently)\b", re.I)
@@ -246,7 +247,7 @@ def run(cfg):
     compare_path = data_dir / "classified_compare.jsonl"
     summary = {
         "records": n,
-        "model": cfg["llm"]["model"],
+        "model": config.model_for(cfg, "classify"),
         "processed_ok_pct": pct(sum(c["ok"] for c in checks)),
         "structural_error_pct": pct(sum(bool(c["structural_errors"]) for c in checks)),
         "critical_error_pct": pct(sum(bool(c.get("critical")) for c in checks)),
