@@ -13,7 +13,7 @@ from fastapi import Body, FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import classify, config, enrich, lindas, more, qa, referendum, topic
+from . import classify, config, enrich, lindas, more, qa, referendum, search_index, topic
 from .apertus import Apertus
 
 CFG = config.load()
@@ -340,7 +340,8 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True):
             "schema_issues": issues, "seconds": round(meta["seconds"] + ameta["seconds"], 1)}
 
 
-QA_INDEX = qa.Index(RECORDS)
+# persistent FTS5 index built by `run.py export` (rebuilt here if missing or older than the dataset)
+QA_INDEX = search_index.Index(RECORDS, DATASET / "cora_search.sqlite")
 
 
 def _llm():
@@ -371,7 +372,7 @@ def chat_turn(body: dict = Body(...)):
 
 def _llm_chat():
     l = CFG["llm"]
-    return Apertus(l["base_url"], l["api_key"], l["model"], 0.3, 2000, l["retries"])
+    return Apertus(l["base_url"], l["api_key"], l["model"], 0.1, 2000, l["retries"])
 
 
 @app.get("/api/consultations", summary="Federal consultations 1960-1991 with Apertus topics/entities and procedure chains")

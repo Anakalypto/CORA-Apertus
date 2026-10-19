@@ -655,3 +655,31 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
   .chat-head { flex-direction: column; }
 }
 .chat-start[hidden] { display: none; }
+
+/* Ask the archive: the conversation as a running case on the investigation desk */
+.case-file { display: flex; flex-direction: column; padding-bottom: 0; }
+.case-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+.case-top .inq-tab { margin: 0; }
+.case-turn { margin: 14px 0 6px; max-width: none; }
+.case-turn:first-child { margin-top: 6px; }
+.case-turn .inq-q { font-size: 17px; margin-top: 14px; }
+.case-turn .inq-findings p { margin: 0 0 10px; }
+.case-turn.pending .inq-progress { margin: 6px 20px 18px; }
+.case-exhibits { margin: 14px 20px 0; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+.case-exhibits .inq-exhibit { padding: 10px 12px; }
+.case-exhibits .inq-exhibit b { font-size: 13.5px; }
+.inq-exhibit.ref .inq-tag { color: var(--p-wikidata); background: #e8f2f6; }
+.exh-ref.ref { background: #e8f2f6; color: var(--p-wikidata); border-radius: 50%; }
+.exh-ref.ref:hover { background: var(--p-wikidata); color: #fff; }
+.inq-claim.weak { text-decoration: underline wavy #c99a4a; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.case-composer { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--inq-line); margin: 10px -20px 0; padding: 12px 20px 14px; }
+.case-composer textarea { min-height: 52px; }
+.case-composer button:disabled, .case-composer textarea:disabled { opacity: .55; cursor: wait; }
+.inq-board { align-self: start; position: sticky; top: 12px; }
+.inq-board button.inq-lead { width: 100%; text-align: left; font: inherit; font-size: 13.5px; cursor: pointer; }
+.case-ex b { display: inline-grid; place-items: center; min-width: 18px; height: 18px; font: 600 10.5px var(--mono); color: var(--accent); background: var(--accent-soft); border-radius: 3px; margin-right: 4px; }
+@media (max-width: 860px) {
+  .inq-desk { grid-template-columns: 1fr; }
+  .inq-board { position: static; }
+  .case-exhibits { margin: 12px 14px 0; }
+}

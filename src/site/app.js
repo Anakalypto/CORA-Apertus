@@ -1023,97 +1023,143 @@ function caseReport(r, { mini = false, focus = null } = {}) {
       `<li><a href="#/record/${h.id}">${esc(h.id)}</a> <span class="muted">catalogue score ${h.score ?? "–"}${h.matched_terms?.length ? ` · matched ${esc(h.matched_terms.join(", "))}` : ""}</span></li>`).join("") || "<li class='muted'>None: every file pulled was cited.</li>"}</ul></details>` : ""}`;
 }
 
-/* Ask the archive: a conversation with Apertus over the records and Wikipedia ---------------- */
-const CHAT_KEY = "cora.chat";
-const loadChat = () => { try { return JSON.parse(sessionStorage.getItem(CHAT_KEY) || "null") || { record: null, turns: [] }; } catch { return { record: null, turns: [] }; } };
-const saveChat = (c) => { try { sessionStorage.setItem(CHAT_KEY, JSON.stringify(c)); } catch { /* storage unavailable: the chat lives for this page only */ } };
+/* Ask the archive: a conversation with Apertus, presented as a running case on the investigation desk.
+   Cited records become lettered exhibits that keep their letter for the whole case; Wikipedia articles are references. */
+const CHAT_KEY = "cora.chat", CASES_KEY = "cora.cases";
+const newCase = (record = null) => ({ id: `${Date.now().toString(36)}`, record, turns: [], exhibits: {}, opened: Date.now() });
+const loadChat = () => { try { const c = JSON.parse(sessionStorage.getItem(CHAT_KEY) || "null"); return c && c.turns ? { exhibits: {}, ...c } : newCase(); } catch { return newCase(); } };
+const savedCases = () => { try { return JSON.parse(localStorage.getItem(CASES_KEY) || "[]"); } catch { return []; } };
+const saveChat = (c) => {
+  try {
+    sessionStorage.setItem(CHAT_KEY, JSON.stringify(c));
+    if (c.turns.some((t) => t.response)) localStorage.setItem(CASES_KEY, JSON.stringify([c, ...savedCases().filter((x) => x.id !== c.id)].slice(0, 8)));
+  } catch { /* storage unavailable: the case lives for this page only */ }
+};
+const caseNumber = (c) => `CORA-${new Date(c.opened).getFullYear()}-${String(parseInt(c.id, 36) % 10000).padStart(4, "0")}`;
+const openedOn = (c) => new Date(c.opened).toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
+const verdictOf = (r) => {
+  if (!r || !r.paragraphs.length) return "closed";
+  const sents = r.paragraphs.flat();
+  if (sents.some((s) => s.own_knowledge)) return "partial";
+  return r.sources.some((s) => s.kind === "record") ? "supported" : "context";
+};
+const STAMP = { supported: "Supported by the files", context: "Context from reference works", partial: "Partly Apertus' own knowledge", closed: "No answer drafted" };
 
-function chatAnswer(t) {
-  const r = t.response;
-  if (t.error) return `<div class="chat-msg bot err"><p>Apertus could not answer: ${esc(t.error)}</p></div>`;
-  if (!r) return `<div class="chat-msg bot"><p class="small muted"><span class="spinner"></span> Searching the records and Wikipedia, Apertus is writing…</p></div>`;
-  const num = {}; r.sources.forEach((s, i) => (num[s.ref] = i + 1));
-  const cite = (refs) => refs.length ? `<sup class="fns">[${refs.map((f) => `<a href="#" data-ref="${f}">${num[f]}</a>`).join(",")}]</sup>` : "";
-  const para = (p) => `<p>${p.map((s) => `<span class="${s.own_knowledge ? "own" : s.weakly_supported ? "weak" : ""}" ${s.own_knowledge
-    ? 'title="Apertus\' own knowledge: no source of this turn states it"' : s.weakly_supported ? `title="Few of its words occur in the cited source (support ${s.support})"` : ""}>${esc(s.text)}${cite(s.sources)}</span>`).join(" ")}</p>`;
-  const src = (s) => s.kind === "record"
-    ? `<li data-ref="${s.ref}"><span class="srcn">${num[s.ref]}</span>${icon(TYPE_ICON[s.document_type] || "file")} <a href="#/record/${s.id}"><b>${esc(s.title)}</b></a>
-        <span class="muted small">${fmtDate(s.date)} · ${esc(s.document_type)} · ${esc(s.source_level)} source · <code>${esc(s.reference_code)}</code> · <a href="${s.portal_url}" target="_blank" rel="noopener">archive portal ↗</a></span></li>`
-    : `<li data-ref="${s.ref}"><span class="srcn">${num[s.ref]}</span>${icon("book")} <a href="${s.url}" target="_blank" rel="noopener"><b>${esc(s.title)}</b></a>
-        <span class="muted small">Wikipedia (${esc(s.lang)}) · CC BY-SA</span></li>`;
-  return `<div class="chat-msg bot">${r.paragraphs.map(para).join("") || "<p class='muted'>No answer.</p>"}
-    ${r.sources.length ? `<ol class="chat-src">${r.sources.map(src).join("")}</ol>` : ""}
-    <p class="chat-meta">${pv("apertus")} Generated from ${r.offered.records} archive record${r.offered.records === 1 ? "" : "s"} and ${r.offered.wikipedia} Wikipedia article${r.offered.wikipedia === 1 ? "" : "s"}${r.seconds ? ` in ${r.seconds} s` : ""}.
-      ${r.own_knowledge_sentences ? `<span class="own">Dotted</span>: ${r.own_knowledge_sentences} sentence${r.own_knowledge_sentences > 1 ? "s" : ""} from Apertus' own knowledge, not checked against a source.` : "Every sentence cites a source."}
-      ${r.weak_sentences ? ` <span class="weak">Wavy</span>: weakly supported by its source.` : ""}</p>
-    ${r.follow_ups?.length ? `<div class="chat-follow">${r.follow_ups.map((f) => `<button type="button" class="chip x">${esc(f)}</button>`).join("")}</div>` : ""}</div>`;
+function deskReport(t, n, c) {
+  if (t.error) return `<article class="inq-report case-turn"><p class="inq-q"><span>Inquiry ${n}</span>“${esc(t.q)}”</p>
+    <div class="inq-findings"><p>The archivist could not complete this inquiry: ${esc(t.error)}</p></div><span class="inq-stamp closed">${STAMP.closed}</span><p class="inq-report-foot"></p></article>`;
+  if (!t.response) return `<article class="inq-report case-turn pending"><p class="inq-q"><span>Inquiry ${n}</span>“${esc(t.q)}”</p>
+    <ol class="inq-progress">${["Reading the case so far", "Pulling files from the stacks", "Consulting reference works", "Apertus is drafting the report"].map((s, i) => `<li data-i="${i}">${s}</li>`).join("")}</ol></article>`;
+  const r = t.response, refNo = {};
+  r.sources.filter((s) => s.kind === "wikipedia").forEach((s, i) => (refNo[s.ref] = i + 1));
+  const tagOf = (s) => (s.kind === "record" ? c.exhibits[s.id] : `Ref. ${refNo[s.ref]}`);
+  const byRef = Object.fromEntries(r.sources.map((s) => [s.ref, s]));
+  const marks = (refs) => refs.map((f) => { const s = byRef[f]; if (!s) return "";
+    return s.kind === "record" ? `<a class="exh-ref" href="#/record/${s.id}" title="Exhibit ${c.exhibits[s.id]}: ${esc(s.title)}">${c.exhibits[s.id]}</a>`
+      : `<a class="exh-ref ref" href="${s.url}" target="_blank" rel="noopener" title="Reference ${refNo[f]}: ${esc(s.title)} (Wikipedia)">${refNo[f]}</a>`; }).join("");
+  const findings = r.paragraphs.map((p) => `<p>${p.map((s) => `<span class="inq-claim${s.own_knowledge ? " unv" : s.weakly_supported ? " weak" : ""}"
+      ${s.weakly_supported ? `title="Few of its words occur in the cited source (support ${s.support})"` : ""}>${esc(s.text)}${marks(s.sources)}${s.own_knowledge
+      ? `<span class="inq-unv" title="No source of this inquiry states it: Apertus' own knowledge">unverified</span>` : ""}</span>`).join(" ")}</p>`).join("");
+  const exhibits = r.sources.filter((s) => s.kind === "record").map((s) => `<a class="inq-exhibit" href="#/record/${s.id}">
+      <span class="inq-tag">Exhibit ${c.exhibits[s.id]}</span>
+      <span class="inq-ex-type">${icon(TYPE_ICON[s.document_type] || "file")} ${esc(s.document_type)} · ${esc(s.source_level)} source</span>
+      <b>${esc(s.title)}</b><span class="inq-ex-meta">${fmtDate(s.date)} · <code>${esc(s.reference_code)}</code></span></a>`).join("");
+  const refs = r.sources.filter((s) => s.kind === "wikipedia").map((s) => `<a class="inq-exhibit ref" href="${s.url}" target="_blank" rel="noopener">
+      <span class="inq-tag">Reference ${refNo[s.ref]}</span><span class="inq-ex-type">${icon("book")} Wikipedia (${esc(s.lang)}) · tertiary · CC BY-SA</span>
+      <b>${esc(s.title)}</b></a>`).join("");
+  const v = verdictOf(r);
+  return `<article class="inq-report case-turn">
+    <p class="inq-q"><span>Inquiry ${n}</span>“${esc(t.q)}”</p>
+    <div class="inq-findings">${findings || "<p>No report could be drafted.</p>"}</div>
+    <span class="inq-stamp ${v === "context" ? "partial" : v}">${STAMP[v]}</span>
+    ${exhibits || refs ? `<div class="inq-exhibits case-exhibits">${exhibits}${refs}</div>` : ""}
+    <p class="inq-report-foot">Drafted by Apertus${r.model ? ` (${esc(r.model)})` : ""}${r.seconds ? ` in ${r.seconds} s` : ""} from ${r.offered.records} file${r.offered.records === 1 ? "" : "s"} pulled
+      from the stacks and ${r.offered.wikipedia} reference work${r.offered.wikipedia === 1 ? "" : "s"}. Letters point to exhibits, numbers to references;
+      ${r.own_knowledge_sentences ? `${r.own_knowledge_sentences} claim${r.own_knowledge_sentences > 1 ? "s" : ""} with neither ${r.own_knowledge_sentences > 1 ? "are" : "is"} marked unverified.` : "every claim points to one."}</p>
+  </article>`;
 }
 
 async function askPage(params) {
   setNav("ask");
-  let chat = loadChat();
-  const rec = params.get("record");
-  if (rec && chat.record !== rec) chat = { record: rec, turns: [] };
-  if (!rec && chat.record && params.get("q")) chat = { record: null, turns: [] };
+  let c = loadChat();
+  const rec = params.get("record"), reopen = params.get("case");
+  if (reopen) { const found = savedCases().find((x) => x.id === reopen); if (found) c = { exhibits: {}, ...found }; }
+  else if (rec && c.record !== rec) c = newCase(rec);
+  else if (!rec && c.record && params.get("q")) c = newCase();
   const starters = ["What do the photographs of the Swiss Active Service 1914–1918 show, and who commanded the army?",
     "Why did Swiss men reject women's suffrage in 1959?", "What did Swiss television report about Indira Gandhi?",
     "Welche Vorstösse gab es zur Kinderbetreuung?", "What was the Swissair trial about?"];
-  app.innerHTML = `<div class="chat">
-    <header class="chat-head">
-      <div><h1>Ask the archive</h1>
-        <p class="muted">Talk with Apertus about the records of the Swiss Federal Archives and their historical context. Each answer draws on the archive's records
-        and on Wikipedia, and every sentence shows its source; sentences from the model's own knowledge are marked.</p></div>
-      <button type="button" class="btn-ghost" id="newchat">${icon("refresh")} New conversation</button>
+  app.innerHTML = `<div class="inq">
+    <header class="inq-head">
+      <div class="inq-kicker">Swiss Federal Archives · Investigation desk</div>
+      <h1>Ask the archive</h1>
+      <p>Open a case and keep asking. The archivist pulls the matching files from the stacks and the reference works,
+      Apertus drafts a report for each inquiry, and every claim points to an exhibit (a record of the archive) or a reference (Wikipedia).
+      A claim with neither is marked unverified. ${pv("apertus")}</p>
     </header>
-    ${chat.record ? `<p class="chat-focus">About record <a href="#/record/${esc(chat.record)}">${esc(chat.record)}</a>: it is always one of the sources. <a href="#/ask" id="unfocus">Ask about the whole archive instead</a></p>` : ""}
-    <div id="thread" class="chat-thread" aria-live="polite"></div>
-    <div class="chat-start" id="starters">${starters.map((s) => `<button type="button" class="chip x">${esc(s)}</button>`).join("")}</div>
-    <form class="chat-composer" id="chatform">
-      <textarea id="chatq" rows="1" placeholder="Ask a question, or follow up on the last answer…" aria-label="Your message"></textarea>
-      <button id="chatsend">Send</button>
-    </form>
-  </div>`;
-  const thread = $("#thread");
+    <div class="inq-desk">
+      <section class="inq-folder case-file">
+        <div class="case-top"><div class="inq-tab" id="casetab"></div><button type="button" class="btn-ghost" id="newcase">${icon("refresh")} New case</button></div>
+        ${c.record ? `<p class="inq-focus">Case concerns record <a href="#/record/${esc(c.record)}">${esc(c.record)}</a>: it is always one of the files. · <a href="#/ask" id="unfocus">search the whole archive instead</a></p>` : ""}
+        <div id="thread" aria-live="polite"></div>
+        <form id="caseform" class="case-composer">
+          <label for="caseq" id="caselabel">Line of inquiry</label>
+          <textarea id="caseq" rows="2" placeholder="e.g. What do the records show about Swiss football abroad?"></textarea>
+          <div class="inq-folder-foot"><span id="casefoot"></span><button id="casebtn">Ask</button></div>
+        </form>
+      </section>
+      <aside class="inq-board" id="board"></aside>
+    </div></div>`;
+  const thread = $("#thread"), ta = $("#caseq");
+  let tick = null;
   const render = () => {
-    thread.innerHTML = chat.turns.map((t) => `<div class="chat-msg me"><p>${esc(t.q)}</p></div>${chatAnswer(t)}`).join("");
-    $("#starters").hidden = chat.turns.length > 0;
-    thread.querySelectorAll(".chat-follow .chip").forEach((b) => (b.onclick = () => send(b.textContent)));
-    thread.querySelectorAll("sup.fns a").forEach((a) => (a.onclick = (e) => {
-      e.preventDefault();
-      const li = a.closest(".chat-msg").querySelector(`.chat-src li[data-ref="${a.dataset.ref}"]`);
-      if (li) { li.scrollIntoView({ behavior: "smooth", block: "center" }); li.classList.add("flash"); setTimeout(() => li.classList.remove("flash"), 1200); }
-    }));
+    $("#casetab").textContent = `Case file Nº ${c.turns.length ? caseNumber(c) : "— new —"}${c.turns.length ? ` · opened ${openedOn(c)} · ${c.turns.length} inquir${c.turns.length === 1 ? "y" : "ies"}` : ""}`;
+    $("#caselabel").textContent = c.turns.length ? "Next line of inquiry" : "Line of inquiry";
+    ta.placeholder = c.turns.length ? "Follow up: ask about a person, a place, the context…" : "e.g. What do the records show about Swiss football abroad?";
+    $("#casefoot").textContent = c.turns.length ? "Follow-ups use the whole case so far" : `Opened ${openedOn(c)} · Investigator: you · Holdings: the classified records of CORA and Wikipedia`;
+    thread.innerHTML = c.turns.map((t, i) => deskReport(t, i + 1, c)).join("");
+    const last = c.turns.at(-1)?.response;
+    const leads = last?.follow_ups?.length ? last.follow_ups : c.turns.length ? [] : starters;
+    const allEx = Object.entries(c.exhibits).sort((a, b) => a[1].length - b[1].length || a[1].localeCompare(b[1]));
+    const titles = {}; c.turns.forEach((t) => (t.response?.sources || []).forEach((s) => s.kind === "record" && (titles[s.id] = s.title)));
+    const log = savedCases().filter((x) => x.id !== c.id);
+    $("#board").innerHTML = `${leads.length ? `<h3>${last ? "Leads from the last report" : "Open leads"}</h3><div class="inq-leads">${leads.map((x) => `<button type="button" class="inq-lead">${esc(x)}</button>`).join("")}</div>` : ""}
+      ${allEx.length ? `<h3>Exhibits in this case</h3><ol class="inq-log case-ex">${allEx.map(([id, L]) => `<li><a href="#/record/${id}"><b>${L}</b> ${esc(titles[id] || id)}</a></li>`).join("")}</ol>` : ""}
+      ${log.length ? `<h3>Your case log</h3><ol class="inq-log">${log.map((x) => `<li><a href="#/ask?case=${x.id}">${esc(x.turns[0]?.q || "Case")}</a>
+        <span class="inq-v ${(() => { const v = verdictOf(x.turns.at(-1)?.response); return v === "context" ? "partial" : v; })()}">${x.turns.length} inq.</span></li>`).join("")}</ol>
+        <p class="small muted">Kept in this browser only.</p>` : ""}`;
+    $("#board").querySelectorAll(".inq-lead").forEach((b) => (b.onclick = () => send(b.textContent)));
+    const pending = thread.querySelector(".pending .inq-progress");
+    clearInterval(tick);
+    if (pending) { let i = 0; tick = setInterval(() => { if (!pending.isConnected) return clearInterval(tick);
+      pending.querySelectorAll("li").forEach((li) => li.classList.toggle("on", +li.dataset.i <= i)); i = Math.min(i + 1, 3); }, 900); }
   };
-  const busy = (on) => { $("#chatsend").disabled = on; $("#chatq").disabled = on; };
+  const busy = (on) => { $("#casebtn").disabled = on; ta.disabled = on; };
   async function send(q) {
-    q = q.trim();
-    if (q.length < 2 || $("#chatsend").disabled) return;
+    q = (q || "").trim();
+    if (q.length < 2 || $("#casebtn").disabled) return;
     const turn = { q, response: null };
-    chat.turns.push(turn); render(); busy(true);
-    thread.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "end" });
-    const messages = chat.turns.flatMap((t) => [{ role: "user", content: t.q }, ...(t.response ? [{ role: "assistant", content: t.response.answer }] : [])]);
+    c.turns.push(turn); render(); busy(true);
+    thread.lastElementChild?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const messages = c.turns.flatMap((t) => [{ role: "user", content: t.q }, ...(t.response ? [{ role: "assistant", content: t.response.answer }] : [])]);
     try {
-      turn.response = await api("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages, record: chat.record }) });
+      turn.response = await api("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages, record: c.record }) });
+      turn.response.sources.forEach((s) => { if (s.kind === "record" && !c.exhibits[s.id]) c.exhibits[s.id] = EXHIBIT(Object.keys(c.exhibits).length); });
     } catch (err) { turn.error = err.message; }
-    saveChat(chat);
-    if (!$("#thread")) return;  // the user navigated away
+    saveChat(c);
+    if (!$("#thread")) return;  // the user left the page; the case is saved
     render(); busy(false);
-    thread.querySelectorAll(".chat-msg.me")[chat.turns.length - 1]?.scrollIntoView({ behavior: "smooth", block: "start" });
-    $("#chatq").focus();
+    thread.querySelectorAll(".case-turn")[c.turns.length - 1]?.scrollIntoView({ behavior: "smooth", block: "start" });
+    ta.focus();
   }
   render();
-  const ta = $("#chatq");
-  ta.oninput = () => { ta.style.height = "auto"; ta.style.height = Math.min(ta.scrollHeight, 160) + "px"; };
-  ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#chatform").requestSubmit(); } };
-  $("#chatform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; ta.style.height = "auto"; send(q); };
-  $("#starters").querySelectorAll(".chip").forEach((b) => (b.onclick = () => send(b.textContent)));
-  $("#newchat").onclick = () => { chat = { record: chat.record, turns: [] }; saveChat(chat); render(); ta.focus(); };
-  const unf = $("#unfocus"); if (unf) unf.onclick = () => saveChat({ record: null, turns: [] });
-  // links of the form #/ask?q=… (home page, record pages) start or continue the conversation with that question
-  const q0 = params.get("q");
-  if (q0 && chat.turns.at(-1)?.q !== q0) send(q0);
-  else if (chat.turns.length) thread.lastElementChild?.scrollIntoView({ block: "end" });
-  saveChat(chat);
+  ta.onkeydown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#caseform").requestSubmit(); } };
+  $("#caseform").onsubmit = (e) => { e.preventDefault(); const q = ta.value; ta.value = ""; send(q); };
+  $("#newcase").onclick = () => { c = newCase(c.record); saveChat(c); history.replaceState(null, "", "#/ask"); render(); ta.focus(); };
+  const unf = $("#unfocus"); if (unf) unf.onclick = () => { try { sessionStorage.removeItem(CHAT_KEY); } catch { /* ignore */ } };
+  const q0 = params.get("q");  // links of the form #/ask?q=… (home page, record pages) start or continue the case with that question
+  if (q0 && c.turns.at(-1)?.q !== q0) send(q0);
+  try { sessionStorage.setItem(CHAT_KEY, JSON.stringify(c)); } catch { /* ignore */ }
 }
 
 /* "Investigate this record": the same desk, focused on the record in view. */

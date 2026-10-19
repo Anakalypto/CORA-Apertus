@@ -23,9 +23,31 @@ about Swiss and world history and the records of the archive. Use the numbered s
 Give historical context when it helps: who, what, when, why it mattered. Every sentence lists ONLY the sources that
 actually state what the sentence says (never cite a record for a fact it does not contain).
 You may add widely known context that no source states, but then give that sentence no sources (it will be shown as
-your own knowledge). Never invent records, quotes, dates or numbers. If the archive has nothing on the question, say so
+your own knowledge). Never invent records, quotes, dates or numbers. Never name who held an office, command or role
+unless a source of THIS turn states it; otherwise say the sources do not name them. Your earlier answers in this
+conversation are not evidence: if this turn's sources contradict one of them, say so and correct it. If the archive has nothing on the question, say so
 in one sentence and then answer from Wikipedia. Answer in the language of the user's last message, in 1 to 3 short
-paragraphs, and propose 3 short follow-up questions the archive could help with. Return one JSON object."""
+paragraphs, and propose 3 short follow-up questions the archive could help with. Never write source tags such as
+"R1" or "(W2)" inside the sentence text: list them only in "sources". Return one JSON object."""
+
+_TAGS = re.compile(r"\s*\((?:[RW]\d+(?:\s*(?:,|–|-|bis|to|and|und|et)\s*[RW]?\d+)*)\)")  # bracketed tags only
+
+
+def wiki_candidates(queries: list[tuple[str, str]], focus: str, cache: Cache, cfg, k: int = 4) -> list[dict]:
+    """Top-3 search hits per (lang, query), ranked by overlap with the user's questions, best k kept."""
+    want = {w[:6] for w in tokens(focus) if len(w) > 3}
+    cands, seen = [], set()
+    for qi, (lang, q) in enumerate(queries):
+        for rank, w in enumerate(wiki_search(q, lang, cache, cfg, k=3)):
+            if w["url"] in seen:
+                continue
+            seen.add(w["url"])
+            have = {t[:6] for t in tokens(w["title"] + " " + w["extract"][:600])}
+            title_hit = sum(t[:6] in want for t in tokens(w["title"]))
+            score = len(want & have) + 2 * title_hit - 0.5 * rank - 0.2 * qi
+            cands.append((score, w))
+    cands.sort(key=lambda x: -x[0])
+    return [w for _, w in cands[:k]]
 
 
 def wiki_search(query: str, lang: str, cache: Cache, cfg, k: int = 2) -> list[dict]:
@@ -50,21 +72,32 @@ def wiki_search(query: str, lang: str, cache: Cache, cfg, k: int = 2) -> list[di
 
 PLAN = """Turn the user's last message into self-contained search queries, resolving pronouns and follow-ups from the
 conversation (e.g. "and who commanded the army?" after a question on Swiss mobilisation 1914-1918 becomes
-"commander-in-chief Swiss Army 1914-1918 General"). Return one JSON object:
+"commander-in-chief Swiss Army 1914-1918 General"). When the user asks WHO held a role (a commander, a minister, an
+author), one Wikipedia query must name that role precisely (e.g. "General (Switzerland)", "List of members of the Swiss
+Federal Council") or the person if you know it. Return one JSON object:
 {"archive_query": "<keywords in German and English for the Swiss Federal Archives catalogue>",
  "wikipedia_en": ["<1-2 English Wikipedia search queries, ideally article names>"],
- "wikipedia_de": ["<0-1 German Wikipedia query if the topic is Swiss>"]}"""
+ "wikipedia_de": ["<0-1 German Wikipedia query if the topic is Swiss>"],
+ "asks_who": {"role": "<the office/role the user asks about, e.g. 'General of the Swiss Army'>", "period": "<years>",
+              "candidate": "<the person you believe held it, or null>"} or null when the user does not ask who}"""
 
 
 def plan_queries(ap, turns: list[dict]) -> dict:
-    convo = "\n".join(f"{m['role']}: {m['content'][:600]}" for m in turns[-5:])
+    # Only the user's questions: an earlier (possibly wrong) answer must not steer the search.
+    convo = "\n".join(f"user: {m['content'][:600]}" for m in turns if m["role"] == "user")
+    temp, ap.temperature = ap.temperature, 0.0  # deterministic planning
     try:
         raw, _ = ap.chat_json([{"role": "system", "content": PLAN}, {"role": "user", "content": convo}])
     except Exception:
         raw = {}
+    finally:
+        ap.temperature = temp
     strs = lambda v: [x for x in (v if isinstance(v, list) else [v]) if isinstance(x, str) and x.strip()]
+    who = raw.get("asks_who") if isinstance(raw.get("asks_who"), dict) else {}
+    who = {k: who.get(k).strip() for k in ("role", "period", "candidate") if isinstance(who.get(k), str) and who.get(k).strip()
+           and who.get(k).strip().lower() not in ("null", "none", "unknown")}
     return {"archive_query": raw.get("archive_query") if isinstance(raw.get("archive_query"), str) else "",
-            "wikipedia_en": strs(raw.get("wikipedia_en"))[:2], "wikipedia_de": strs(raw.get("wikipedia_de"))[:1]}
+            "wikipedia_en": strs(raw.get("wikipedia_en"))[:2], "wikipedia_de": strs(raw.get("wikipedia_de"))[:1], "asks_who": who or None}
 
 
 re_words = re.compile(r"[a-zàâäéèêëîïôöùûüç]+")
@@ -91,13 +124,18 @@ def _support(text: str, cited: list[str]) -> float:
     return round(sum(w in pool or any(w[:5] == p[:5] for p in pool if len(p) > 4) for w in words) / len(words), 2)
 
 
-def _rec_source(r: dict, ref: str) -> dict:
+def _rec_source(r: dict, ref: str, index=None, query: str = "") -> dict:
     m, c, o = r["metadata"], r["classification"], r["source"]["original"]
+    # with the search index: the people/places of the record and the passage that matched, not the first 400 characters
+    passage = index.passage(r["id"], query) if hasattr(index, "passage") and query else None
+    card = index.card(r["id"]) if hasattr(index, "card") else {}
+    who = "; ".join(filter(None, [", ".join(card.get("persons") or []), ", ".join(card.get("places") or [])]))
     return {"ref": ref, "kind": "record", "id": r["id"], "title": m.get("title_normalized") or m["title"], "title_en": m.get("title_en"),
             "date": m.get("content_date") or m.get("date_created"), "document_type": c["document_type"], "source_level": c["source_level"],
             "reference_code": r["source"]["reference_code"], "portal_url": r["source"]["portal_url"],
             "text": f'{m.get("title_en") or m["title"]} ({m.get("content_date") or ""}, {c["document_type"]}): '
-                    f'{c.get("resume") or ""} {(o.get("scope_and_content") or "")[:400]}'}
+                    f'{c.get("resume") or ""}' + (f" People/places: {who}." if who else "")
+                    + f' {passage or (o.get("scope_and_content") or "")[:400]}'}
 
 
 def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = None, k: int = 5) -> dict:
@@ -118,16 +156,16 @@ def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = No
                 scored[rid] = max(scored.get(rid, 0), sc)
     ranked = sorted(scored, key=lambda x: -scored[x])
     ids = ([record] if record and record in index.records else []) + [x for x in ranked if x != record]
-    sources = [_rec_source(index.records[rid], f"R{i}") for i, rid in enumerate(ids[:k], 1)]
+    sources = [_rec_source(index.records[rid], f"R{i}", index, f'{plan["archive_query"]} {question}')
+               for i, rid in enumerate(ids[:k], 1)]
     # 3. Wikipedia: the planned queries (English, plus German for Swiss topics), falling back to the question's words
-    wiki, seen = [], set()
-    for lang, qs in (("en", plan["wikipedia_en"] or [" ".join(w for w in tokens(question) if len(w) > 2) or question]),
-                     ("de", plan["wikipedia_de"])):
-        for q_ in qs:
-            for w in wiki_search(q_, lang, cache, cfg, k=1 if len(qs) > 1 or lang == "de" else 2):
-                if w["url"] not in seen:
-                    seen.add(w["url"])
-                    wiki.append(w)
+    user_qs = " ".join(m["content"] for m in turns if m["role"] == "user")
+    keywords = " ".join(w for w in tokens(prev_q + " " + question) if len(w) > 3)  # questions only, as a fallback query
+    who = plan.get("asks_who") or {}
+    who_q = ([("en", who["role"])] if who.get("role") else []) + \
+            ([("en", who["candidate"]), ("de", who["candidate"])] if who.get("candidate") else [])  # checked by the article text
+    queries = who_q + [("en", q_) for q_ in plan["wikipedia_en"]] + [("de", q_) for q_ in plan["wikipedia_de"]] + [("en", keywords)]
+    wiki = wiki_candidates(queries, question + " " + user_qs, cache, cfg)
     cache.save()
     for i, w in enumerate(wiki[:4], 1):
         sources.append({"ref": f"W{i}", "kind": "wikipedia", "title": w["title"], "url": w["url"], "lang": w["lang"],
@@ -151,8 +189,9 @@ def chat(index, ap, messages: list[dict], cfg, data_dir, record: str | None = No
             if isinstance(s, dict) and str(s.get("text", "")).strip():
                 refs = [str(x).strip("[] ") for x in s.get("sources") or []]
                 ok = list(dict.fromkeys(x for x in refs if x in allowed))
-                sup = _support(s["text"], [text_of[x] for x in ok]) if ok else None
-                sents.append({"text": s["text"].strip(), "sources": ok, "own_knowledge": not ok,
+                sup = _support(_TAGS.sub("", s["text"]), [text_of[x] for x in ok]) if ok else None
+                clean = re.sub(r"\s+([.,;:])", r"\1", _TAGS.sub("", s["text"])).strip()  # stray "R1"/"(W2)" tags in the prose
+                sents.append({"text": clean, "sources": ok, "own_knowledge": not ok,
                               "support": sup, "weakly_supported": bool(ok) and sup < 0.2,
                               "dropped_sources": [x for x in refs if x not in allowed]})
         if sents:
