@@ -1,0 +1,157 @@
+{
+ "anr": "102",
+ "year": 2019,
+ "conditions": {
+  "anr": "627",
+  "date": "2019-05-19",
+  "shares": {
+   "bdp": 4.1,
+   "glp": 4.6,
+   "sp": 18.8,
+   "svp": 29.4,
+   "lega": 1.0,
+   "csp": 0.2,
+   "evp": 1.9,
+   "gps": 7.1,
+   "cvp": 11.6,
+   "fdp": 16.4,
+   "sd": 0.1,
+   "edu": 1.2,
+   "pda": 0.9,
+   "mcg": 0.3
+  }
+ },
+ "anchor": null,
+ "positions_then_strengths": {
+  "cue": 0.924,
+  "estimate": 64.8,
+  "parties": {
+   "sp": {
+    "rec": "1",
+    "share": 18.8
+   },
+   "svp": {
+    "rec": "1",
+    "share": 29.4
+   },
+   "cvp": {
+    "rec": "66",
+    "share": 11.6
+   },
+   "fdp": {
+    "rec": "1",
+    "share": 16.4
+   }
+  },
+  "interval": [
+   55.1,
+   74.5
+  ],
+  "corrected": null,
+  "parties_without_position": [
+   "bdp",
+   "csp",
+   "edu",
+   "evp",
+   "glp",
+   "gps",
+   "lega",
+   "mcg",
+   "pda",
+   "sd"
+  ]
+ },
+ "imagination": {
+  "generated": true,
+  "model": "apertus-v1-5-70b",
+  "parties": {
+   "bdp": {
+    "rec": "1",
+    "reason": "The BDP, rooted in agrarian and rural interests, would likely support measures to ensure national grain supply, consistent with its historical alignment with agricultural self-sufficiency.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "glp": {
+    "rec": "2",
+    "reason": "The GLP, advocating free-market principles and minimal state intervention, would likely oppose constitutional provisions that centralize or regulate grain supply.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "sp": {
+    "rec": "1",
+    "reason": "The SP has historically supported food security and agricultural policies that ensure supply stability, as seen in its consistent 'yes' votes on related agricultural measures.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "svp": {
+    "rec": "1",
+    "reason": "The SVP has traditionally backed policies that strengthen national self-sufficiency in food production, including grain supply, as reflected in its 'yes' vote in 1926 and similar stances in later decades.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "lega": {
+    "rec": "2",
+    "reason": "The Lega, focused on regional autonomy and skepticism toward centralized federal policies, would likely oppose a constitutional article that imposes a uniform national grain supply framework.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "csp": {
+    "rec": "1",
+    "reason": "The CVP, with its Christian-democratic and rural roots, would likely support a constitutional measure aimed at ensuring food security and agricultural stability.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "evp": {
+    "rec": "1",
+    "reason": "The EVP, emphasizing social responsibility and food security, would likely endorse a constitutional article that guarantees the country's grain supply.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "gps": {
+    "rec": "1",
+    "reason": "The Greens, prioritizing food sovereignty and sustainable agriculture, would likely support a constitutional provision that ensures long-term grain supply and self-sufficiency.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "cvp": {
+    "rec": "1",
+    "reason": "The CVP has consistently backed agricultural and food security measures, as seen in its 'yes' vote in 1957 and other related referendums.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "fdp": {
+    "rec": "1",
+    "reason": "The FDP, while pro-market, has historically supported measures that ensure economic stability and food security, as evidenced by its 'yes' vote in 1926 and 1994.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "sd": {
+    "rec": "2",
+    "reason": "The Sd, with its libertarian and anti-interventionist stance, would likely oppose a constitutional article that centralizes control over grain supply.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "edu": {
+    "rec": "1",
+    "reason": "The EDU, with its conservative and rural base, would likely support a constitutional measure that reinforces national food self-sufficiency.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "pda": {
+    "rec": "2",
+    "reason": "The PPD, historically skeptical of state intervention in agriculture, would likely oppose a constitutional article that imposes centralized grain supply regulations.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "mcg": {
+    "rec": "1",
+    "reason": "The MCG, representing urban and regional interests with a pragmatic approach, would likely support a measure ensuring stable grain supply for the population.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   }
+  },
+  "cue": 0.932,
+  "estimate": 65.2,
+  "corrected": null
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "22642283",
+ "generated": true,
+ "subject": "French heritage preservation (natural, historical, legendary, picturesque sites)",
+ "identifiable": true,
+ "contemporary": true,
+ "plan": {
+  "subject": "French heritage preservation (natural, historical, legendary, picturesque sites)",
+  "identifiable": true,
+  "wikipedia_query": "Heritage preservation in France",
+  "wikipedia_broader": "Cultural heritage",
+  "archive_stems": [
+   "heritage preservation",
+   "natural sites",
+   "historical sites",
+   "France"
+  ],
+  "contemporary": true,
+  "news_query": "heritage preservation France"
+ },
+ "wikipedia": null,
+ "primary": [],
+ "primary_in_dataset": [
+  {
+   "id": "5443297",
+   "title": "Défense et mise en valeur des sites et ensembles historiques - Généralités. Comité gouvernementale de cooperation dans le domaine de la sauvegard et de la réanimation du patrimoine culturel immobilier",
+   "date": "1973/1975",
+   "resume": "This record is an administrative file from the Swiss Federal Archives documenting the work of a governmental committee on the protection and revitalization of immovable cultural heritage under the Council of Europe between 1973 and 1975. It contains general information and background materials rather than a direct recording of a debate or event. The file is part of the international organizations holdings.",
+   "url": "#/record/5443297"
+  }
+ ],
+ "news": [
+  {
+   "title": "French project uses AI to visualise how climate change will affect heritage sites",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY2VzSXFEQlVWcGdELWRTLWh4SERpNHh6N0ZvaHJJOXR1N0cxRkRxc1FDdlprcnVyV2ZaT01kRFF1TGVzQmRyZUR5UmxSQXBqUndnbUwzYWlHa25iTnpDSXB2Und0cUxvaUNpR1NWUlk5MzZuTE14dEpxaDNtbXdodU5YbUJSWnZHdzRqS2FadFpPeFBsM0xjM1dCMWRNZlhnM0w2cFN2N20zR3g0TWo4bjF5V0JzcnhtTmtLaTU3WEVndw?oc=5",
+   "source": "The Art Newspaper",
+   "date": "Thu, 28 May 2026 07:00:00 GMT"
+  }
+ ],
+ "note": "The record indexes Swiss-held documents on French heritage preservation efforts from 1905–1908; the linked Wikipedia article covers the broader concept of historic preservation, while the news article reports on modern AI applications to protect heritage sites.",
+ "offered": {
+  "wikipedia": 7,
+  "primary": 1,
+  "primary_in_dataset": 3,
+  "news": 10
+ },
+ "seconds": 44.6
+}

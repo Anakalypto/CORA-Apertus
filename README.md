@@ -31,7 +31,7 @@ python src/run.py all                             # rebuild everything from scra
 |---|---|
 | Pipeline code (Python) | `src/cora/`, CLI `src/run.py`, settings `src/config.toml` |
 | REST API (FastAPI, OpenAPI docs at `/docs`) | `src/cora/api.py` |
-| Gallica-style front end (JS + Leaflet) | `src/site/` |
+| Gallica-style front end (JS + MapLibre GL) | `src/site/` |
 | AI-ready dataset (JSONL / CSV / TSV), schema, edit log | `data/dataset/` |
 | Quality check of the Apertus output | `docs/quality_report.md`, `data/qc_report.json` |
 | Ethical impact assessment | `docs/ethics_impact_assessment.md` |

@@ -1,0 +1,157 @@
+{
+ "anr": "102",
+ "year": 2015,
+ "conditions": {
+  "anr": "592",
+  "date": "2015-06-14",
+  "shares": {
+   "bdp": 5.4,
+   "glp": 5.4,
+   "sp": 18.7,
+   "svp": 26.6,
+   "lega": 0.8,
+   "csp": 0.3,
+   "evp": 2.0,
+   "gps": 8.4,
+   "cvp": 12.3,
+   "fdp": 15.1,
+   "sd": 0.2,
+   "edu": 1.3,
+   "pda": 0.9,
+   "mcg": 0.4
+  }
+ },
+ "anchor": null,
+ "positions_then_strengths": {
+  "cue": 0.915,
+  "estimate": 64.4,
+  "parties": {
+   "sp": {
+    "rec": "1",
+    "share": 18.7
+   },
+   "svp": {
+    "rec": "1",
+    "share": 26.6
+   },
+   "cvp": {
+    "rec": "66",
+    "share": 12.3
+   },
+   "fdp": {
+    "rec": "1",
+    "share": 15.1
+   }
+  },
+  "interval": [
+   54.7,
+   74.1
+  ],
+  "corrected": null,
+  "parties_without_position": [
+   "bdp",
+   "csp",
+   "edu",
+   "evp",
+   "glp",
+   "gps",
+   "lega",
+   "mcg",
+   "pda",
+   "sd"
+  ]
+ },
+ "imagination": {
+  "generated": true,
+  "model": "apertus-v1-5-70b",
+  "parties": {
+   "bdp": {
+    "rec": "1",
+    "reason": "The BDP, successor to the Christian People's Party (CVP), has historically supported agricultural and food security measures, consistent with its rural and conservative base.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "glp": {
+    "rec": "2",
+    "reason": "The GLP has consistently advocated for free markets and reduced state intervention in agriculture, opposing policies that centralize or regulate food supply.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "sp": {
+    "rec": "1",
+    "reason": "The SP has traditionally supported food security and agricultural policies that ensure supply stability, especially for vulnerable populations.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "svp": {
+    "rec": "1",
+    "reason": "The SVP has historically backed measures to ensure national food self-sufficiency, aligning with its agrarian roots and emphasis on national sovereignty.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "lega": {
+    "rec": "2",
+    "reason": "The Lega has generally opposed centralized federal policies, especially those involving economic regulation or agricultural intervention.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "csp": {
+    "rec": "2",
+    "reason": "The CSP, a small Christian-conservative party, has often aligned with market-oriented or anti-interventionist stances on economic issues.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "evp": {
+    "rec": "1",
+    "reason": "The EVP has supported policies that ensure food security and sustainable agriculture, reflecting its social and ethical values.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "gps": {
+    "rec": "1",
+    "reason": "The Greens prioritize food sovereignty and sustainable agriculture, making them likely to support constitutional measures ensuring grain supply.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "cvp": {
+    "rec": "1",
+    "reason": "The CVP (predecessor of BDP) historically backed agricultural and food security policies, consistent with its rural constituency.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "fdp": {
+    "rec": "1",
+    "reason": "The FDP has generally supported measures to ensure economic stability and supply security, especially when framed as constitutional safeguards.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "sd": {
+    "rec": "2",
+    "reason": "The Sd has typically opposed state intervention in the economy and agriculture, favoring market-driven solutions.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "edu": {
+    "rec": "1",
+    "reason": "The EDU, a conservative Christian party, aligns with traditional values of self-sufficiency and support for agriculture.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "pda": {
+    "rec": "2",
+    "reason": "The PdA has historically opposed conservative agricultural policies and state intervention in food supply, favoring social redistribution over supply guarantees.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   },
+   "mcg": {
+    "rec": "5",
+    "reason": "The MCG, a regional Geneva-based party, has often taken neutral or issue-specific stances rather than aligning with national party blocs on agricultural policy.",
+    "anchor_rec": null,
+    "misstates_evidence": false
+   }
+  },
+  "cue": 0.92,
+  "estimate": 64.6,
+  "corrected": null
+ }
+}

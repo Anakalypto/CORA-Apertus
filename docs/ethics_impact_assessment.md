@@ -36,7 +36,7 @@
 ## Transparency and sovereignty
 - Apertus v1.5 is an open model with open training data, run on Swiss infrastructure (CSCS through the Keera Gateway). It can also run on-premise: the code only needs an OpenAI-compatible endpoint.
 - Every field carries its provenance (record / derived / apertus / gazetteer / wikidata). Prompts are versioned in `src/cora/classify.py`, and the QC with its manual review is published together with the dataset.
-- The front end needs no external scripts at runtime (Leaflet is vendored). Map tiles come from OpenStreetMap, or from swisstopo in Switzerland.
+- The front end needs no external scripts at runtime (MapLibre GL is vendored). Base maps are swisstopo vector tiles (vectortiles.geo.admin.ch) or OpenStreetMap; historical maps come from swisstopo "Journey through time".
 
 ## Apertus Charter alignment
 The design follows the Charter's principles: the model's assertions are kept separate from the archival record, uncertainty and errors are measured and published, and decisions about personal data stay with human archivists.

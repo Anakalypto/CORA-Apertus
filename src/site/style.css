@@ -153,6 +153,8 @@ pre.json { background: #f7f7f5; border: 1px solid var(--line); padding: 12px; ov
 /* Map */
 .map { height: 460px; border: 1px solid var(--line); }
 .map.big { height: 620px; }
+.basemap-switch select { border: 0; background: #fff; font: inherit; font-size: 12px; padding: 4px 6px; cursor: pointer; }
+.maplibregl-popup-content { font-family: inherit; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); margin: 8px 0; }
 .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
 .pin { width: 30px; height: 30px; border-radius: 50%; background: #fff; border: 3px solid var(--c, #444); display: grid; place-items: center; box-shadow: 0 1px 4px rgba(0,0,0,.35); position: relative; font-size: 14px; }

@@ -1,0 +1,48 @@
+{
+ "id": "21790117",
+ "generated": true,
+ "subject": "Detention and parliamentary exclusion of Indira Gandhi",
+ "identifiable": true,
+ "contemporary": false,
+ "plan": {
+  "subject": "Detention and parliamentary exclusion of Indira Gandhi",
+  "identifiable": true,
+  "wikipedia_query": "Indira Gandhi detention 1978",
+  "wikipedia_broader": "Indira Gandhi",
+  "archive_stems": [
+   "Indira Gandhi",
+   "detention",
+   "parliamentary exclusion"
+  ],
+  "contemporary": false,
+  "news_query": ""
+ },
+ "wikipedia": {
+  "title": "The Emergency (India)",
+  "description": "1975–1977 state of emergency in India under Prime Minister Indira Gandhi",
+  "extract": "The Emergency in India was a 21 month period from 1975 to 1977 when prime minister Indira Gandhi declared a state of emergency across India by citing internal and external threats to the country.",
+  "url": "https://en.wikipedia.org/wiki/The_Emergency_(India)",
+  "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Indira_Gandhi_1966.png/330px-Indira_Gandhi_1966.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0"
+ },
+ "primary": [
+  {
+   "id": "5141421",
+   "title": "UNO. Kommission über die Menschenrechte. Study of the right of everyone to be free from arbitrary arrest, detention and exile. <Freiheitsentzug>",
+   "reference_code": "E4260D-01#2000/392#418*",
+   "date": "1962-1965",
+   "stem": "detention",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5141421"
+  }
+ ],
+ "primary_in_dataset": [],
+ "news": [],
+ "note": "The record documents the detention and parliamentary exclusion of Indira Gandhi during the aftermath of the Emergency in India; the closest Wikipedia article is about the Emergency period itself.",
+ "offered": {
+  "wikipedia": 8,
+  "primary": 13,
+  "primary_in_dataset": 5,
+  "news": 0
+ },
+ "seconds": 39.0
+}

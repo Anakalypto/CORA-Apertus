@@ -1,0 +1,56 @@
+{
+ "id": "21690234",
+ "generated": true,
+ "subject": "Tour de Suisse 1974",
+ "identifiable": true,
+ "contemporary": true,
+ "plan": {
+  "subject": "Tour de Suisse 1974",
+  "identifiable": true,
+  "wikipedia_query": "Tour de Suisse 1974",
+  "wikipedia_broader": "Tour de Suisse",
+  "archive_stems": [
+   "Tour de Suisse",
+   "Radsport",
+   "Velorennen"
+  ],
+  "contemporary": true,
+  "news_query": "Tour de Suisse cycling race"
+ },
+ "wikipedia": {
+  "title": "1974 Tour de Suisse",
+  "description": "Cycling race",
+  "extract": "The 1974 Tour de Suisse was the 38th edition of the Tour de Suisse cycle race and was held from 13 June to 21 June 1974. The race started in Gippingen and finished in Olten. The race was won by Eddy Merckx of the Molteni team.",
+  "url": "https://en.wikipedia.org/wiki/1974_Tour_de_Suisse",
+  "thumbnail": null,
+  "license": "CC BY-SA 4.0"
+ },
+ "primary": [
+  {
+   "id": "3564384",
+   "title": "A 302/71 Nr. 2 \"Tour de Suisse\"",
+   "reference_code": "E4380B#1994/1#502*",
+   "date": "1971",
+   "stem": "Tour de Suisse",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3564384"
+  },
+  {
+   "id": "609362",
+   "title": "Sportanlässe: Radsport",
+   "reference_code": "E1010B#1986/151#416*",
+   "date": "1970-1980",
+   "stem": "Radsport",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/609362"
+  }
+ ],
+ "primary_in_dataset": [],
+ "news": [],
+ "note": "The record is a 1974 newsreel about the Tour de Suisse, specifically focusing on the 'broom wagon' and the fate of eliminated riders, contrasting commercialization with the struggle of those who drop out.",
+ "offered": {
+  "wikipedia": 5,
+  "primary": 20,
+  "primary_in_dataset": 2,
+  "news": 10
+ },
+ "seconds": 39.7
+}

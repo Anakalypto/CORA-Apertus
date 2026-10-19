@@ -1,0 +1,49 @@
+{
+ "id": "10147493",
+ "generated": true,
+ "subject": "French diplomatic representation",
+ "identifiable": true,
+ "contemporary": false,
+ "plan": {
+  "subject": "French diplomatic representation",
+  "identifiable": true,
+  "wikipedia_query": "French diplomatic representation",
+  "wikipedia_broader": "French foreign policy",
+  "archive_stems": [
+   "French diplomacy",
+   "diplomatic representation",
+   "France"
+  ],
+  "contemporary": false,
+  "news_query": ""
+ },
+ "wikipedia": null,
+ "primary": [
+  {
+   "id": "3280730",
+   "title": "Schreiben der Légation de suisse en France über einen Gesetzentwurf betr. verschiedene Massnahmen gegen Waldbrände",
+   "reference_code": "E16#1000/40#101*",
+   "date": "1922.12.08",
+   "stem": "France",
+   "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3280730"
+  }
+ ],
+ "primary_in_dataset": [
+  {
+   "id": "4962413",
+   "title": "Anstand mit der Druckerei Stämpfli & Cie, Bern, betr. das Werk von Dr. von Rott \"Histoire de la représentation diplomatique de la France auprès des cantons suisses\"",
+   "date": "1935/1935",
+   "resume": "The document is an administrative correspondence from the Swiss Federal Justice Department concerning a dispute with the Stämpfli printing house in Bern about the publication of Dr. von Rott's work on French diplomatic representation in Swiss cantons. It records an internal matter related to the printing and distribution of a scholarly book rather than the book's content itself. The exchange likely concerns rights, costs, or contractual obligations between the government and the printer.",
+   "url": "#/record/4962413"
+  }
+ ],
+ "news": [],
+ "note": "The record is a 1909 book on French diplomatic representation, and the archive includes a primary source directly concerning its publication and another about French forest fire legislation affecting Swiss interests, both linking to French foreign relations.",
+ "offered": {
+  "wikipedia": 8,
+  "primary": 10,
+  "primary_in_dataset": 2,
+  "news": 0
+ },
+ "seconds": 38.6
+}

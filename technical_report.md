@@ -31,7 +31,7 @@ opendata.swiss dataset ──► LINDAS SPARQL (original fields only)
                                                         ▼
                          qc (automatic checks + manual review) ─► export (JSONL/CSV/TSV, schema, edit log)
                                                         ▼
-                         FastAPI backend (/api, /docs) + Gallica-style JS front end (Leaflet map)
+                         FastAPI backend (/api, /docs) + Gallica-style JS front end (MapLibre GL map)
 ```
 
 | Component | File | Runs |
@@ -70,7 +70,7 @@ CORA is deployable **on-premise (a)** and on a **sovereign Swiss cloud (c)**. It
 - **Runtime dependencies:**
   - an OpenAI-compatible Apertus endpoint: the CSCS-hosted one, or Apertus weights served with vLLM on-premise
   - optionally, Nominatim and Wikidata, both of which can be self-hosted, or the cache can be shipped
-- **The front end** uses vendored Leaflet. Map tiles come from OpenStreetMap, or from swisstopo for Switzerland.
+- **The front end** uses vendored MapLibre GL. Base maps are swisstopo vector tiles (vectortiles.geo.admin.ch) or OpenStreetMap raster tiles.
 - **Python packages:** pandas, FastAPI, uvicorn; Jupyter only for the notebook.
 - **Build time vs runtime:** the 100-record demo runs fully offline once `data/` is built, except for the map tiles. Only the *Live classify* page needs the model endpoint at runtime.
 - **For air-gapped use:** serve Apertus locally, self-host Nominatim or ship the enrichment cache, serve the tiles locally, and load records from the opendata.swiss bulk dump instead of LINDAS.

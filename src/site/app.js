@@ -50,18 +50,45 @@ function eventIcon(ev, rec, n) {
   else if (ev.event === "publication") src = institutionIcon(`${m.publisher} ${m.creator}`);
   else if (ev.event === "creation") src = institutionIcon(`${m.creator} ${m.commissioner} ${rec.archival_location?.fonds}`);
   const inner = src ? `<img src="${src}" alt="">` : EVENT_EMOJI[ev.event] || "•";
-  return L.divIcon({ className: "", html: `<div class="pin ev-${ev.event}">${inner}${n ? `<b>${n}</b>` : ""}</div>`, iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14] });
+  const el = document.createElement("div");  // MapLibre positions this wrapper; the pin keeps its own layout
+  el.innerHTML = `<div class="pin ev-${ev.event}">${inner}${n ? `<b>${n}</b>` : ""}</div>`;
+  return el;
 }
 
-function baseMap(el, opts = {}) {
-  const map = L.map(el, { scrollWheelZoom: false, ...opts });
-  const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© OpenStreetMap contributors" });
-  const swiss = L.tileLayer("https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg",
-    { maxZoom: 18, attribution: "© swisstopo" });
-  osm.addTo(map);
-  L.control.layers({ "OpenStreetMap": osm, "swisstopo (Swiss national map)": swiss }).addTo(map);
+// Base maps: swisstopo vector tiles (vectortiles.geo.admin.ch), or OpenStreetMap raster tiles.
+const BASEMAPS = {
+  "swisstopo light base map": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json",
+  "swisstopo base map": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json",
+  "OpenStreetMap": {
+    version: 8,
+    sources: { osm: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"], tileSize: 256, maxzoom: 19, attribution: "© OpenStreetMap contributors" } },
+    layers: [{ id: "osm", type: "raster", source: "osm" }],
+  },
+};
+
+class BaseSwitch {
+  onAdd(map) {
+    this.el = document.createElement("div");
+    this.el.className = "maplibregl-ctrl maplibregl-ctrl-group basemap-switch";
+    this.el.innerHTML = `<select title="Base map">${Object.keys(BASEMAPS).map((k) => `<option>${k}</option>`).join("")}</select>`;
+    this.el.firstChild.onchange = (e) => map.setStyle(BASEMAPS[e.target.value], { diff: false });
+    return this.el;
+  }
+  onRemove() { this.el.remove(); }
+}
+
+// Overlays (sources/layers) must be re-added after every base-map switch: pass them as onStyle.
+function baseMap(el, onStyle, opts = {}) {
+  const map = new maplibregl.Map({ container: el, style: Object.values(BASEMAPS)[0], scrollZoom: false, dragRotate: false, pitchWithRotate: false,
+    attributionControl: { compact: true }, ...opts });
+  map.touchZoomRotate.disableRotation();
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
+  map.addControl(new BaseSwitch(), "top-left");
+  if (onStyle) map.on("style.load", () => onStyle(map));
   return map;
 }
+
+const lineGeo = (lls) => ({ type: "Feature", geometry: { type: "LineString", coordinates: lls.map(([la, lo]) => [lo, la]) } });
 
 function cover(r, big) {
   const medium = r.medium || r.classification?.medium;
@@ -172,8 +199,7 @@ function storyBlock(r, mapId) {
 function drawStory(r, mapId) {
   const el = document.getElementById(mapId);
   if (!el) return;
-  const map = baseMap(el);
-  const pts = [];
+  const pts = [], pins = [];
   let n = 0;
   const seen = new Map();
   (r.story || []).forEach((e) => {
@@ -182,16 +208,20 @@ function drawStory(r, mapId) {
     const key = `${e.lat.toFixed(4)},${e.lon.toFixed(4)}`;
     const k = seen.get(key) || 0; seen.set(key, k + 1);
     const ll = [e.lat + k * 0.0009, e.lon + k * 0.0012];  // nudge stacked points apart
-    L.marker(ll, { icon: eventIcon(e, r, n) }).addTo(map)
-      .bindPopup(`<b>${n}. ${EVENT_LABEL[e.event] || e.event}</b><br>${fmtDate(e.date)}${e.place ? " · " + esc(e.place) : ""}<br><span class="small">${esc(e.description || "")}</span>`);
+    pins.push(new maplibregl.Marker({ element: eventIcon(e, r, n) }).setLngLat([ll[1], ll[0]])
+      .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML(`<b>${n}. ${EVENT_LABEL[e.event] || e.event}</b><br>${fmtDate(e.date)}${e.place ? " · " + esc(e.place) : ""}<br><span class="small">${esc(e.description || "")}</span>`)));
     pts.push(ll);
   });
-  if (pts.length > 1) {
-    L.polyline(pts, { color: "#b5121b", weight: 2.5, dashArray: "6 6", opacity: 0.85 }).addTo(map);
-  }
-  if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.35), { maxZoom: 11 });
-  else map.setView([46.8, 8.2], 7);
-  setTimeout(() => map.invalidateSize(), 50);
+  const view = pts.length
+    ? { bounds: pts.reduce((b, [la, lo]) => b.extend([lo, la]), new maplibregl.LngLatBounds()), fitBoundsOptions: { padding: 50, maxZoom: 10 } }
+    : { center: [8.2, 46.8], zoom: 6 };
+  const map = baseMap(el, (m) => {
+    if (pts.length < 2) return;
+    m.addSource("route", { type: "geojson", data: lineGeo(pts) });
+    m.addLayer({ id: "route", type: "line", source: "route", paint: { "line-color": "#b5121b", "line-width": 2.5, "line-dasharray": [2.4, 2.4], "line-opacity": 0.85 } });
+  }, view);
+  pins.forEach((p) => p.addTo(map));
+  setTimeout(() => map.resize(), 50);
 }
 
 function noticeTable(r) {
@@ -413,43 +443,57 @@ async function mapPage() {
     <div class="legend">${["creation", "depicted", "publication", "holding"].map((k) => `<span><i style="background:var(--c)" class="ev-${k}"></i>${EVENT_LABEL[k]}</span>`).join("")}</div>
     <div id="bigmap" class="map big"></div>
     <p class="small muted" id="countlab"></p>`;
-  const map = L.map($("#bigmap"), { scrollWheelZoom: false });
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© OpenStreetMap contributors", opacity: 0.55 }).addTo(map);
-  let hist = null;
-  const histTile = (y) => L.tileLayer(`https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/${y}1231/3857/{z}/{x}/{y2}.png`.replace("{y2}", "{y}"),
-    { maxZoom: 16, attribution: `© swisstopo, Journey through time ${y}`, bounds: [[45.7, 5.8], [47.9, 10.6]] });
   const nearest = (y) => {
     const before = zr.years.filter((v) => v <= y);
     return before.length ? before[before.length - 1] : zr.years[0];
   };
-  const bar = [archive.lat, archive.lon];
-  L.marker(bar, { icon: eventIcon({ event: "holding" }, {}, 0), zIndexOffset: 1000 }).addTo(map).bindPopup(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`);
-  const layer = L.layerGroup().addTo(map);
-  const all = points.map((p) => {
-    const ll = [p.lat, p.lon];
-    const g = L.layerGroup([
-      L.polyline([ll, bar], { color: "#b5121b", weight: 1, opacity: 0.3 }),
-      L.circleMarker(ll, { radius: 6, weight: 2, color: "#fff", fillOpacity: 0.9, fillColor: { creation: "#8a1c7c", depicted: "#1d5fa6", publication: "#a05a00" }[p.event] || "#444" })
-        .bindPopup(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date)}`),
-    ]);
-    return { p, g };
+  const bar = [archive.lon, archive.lat];
+  const all = points.map((p, i) => ({ p, i }));
+  let vis = [], shownBase = null;
+  const fc = (features) => ({ type: "FeatureCollection", features });
+  const paint = (m) => {
+    if (!m.getSource("docs")) return;
+    m.getSource("links").setData(fc(vis.map(({ p }) => ({ type: "Feature", geometry: { type: "LineString", coordinates: [[p.lon, p.lat], bar] } }))));
+    m.getSource("docs").setData(fc(vis.map(({ p, i }) => ({ type: "Feature", properties: { i, event: p.event }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } }))));
+  };
+  const setHist = (m) => {
+    if (shownBase == null) return;
+    if (m.getLayer("hist")) { m.removeLayer("hist"); m.removeSource("hist"); }
+    m.addSource("hist", { type: "raster", tileSize: 256, maxzoom: 16, bounds: [5.8, 45.7, 10.6, 47.9], attribution: `© swisstopo, Journey through time ${shownBase}`,
+      tiles: [`https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.zeitreihen/default/${shownBase}1231/3857/{z}/{x}/{y}.png`] });
+    m.addLayer({ id: "hist", type: "raster", source: "hist" }, "links");
+  };
+  const map = baseMap($("#bigmap"), (m) => {
+    m.addSource("links", { type: "geojson", data: fc([]) });
+    m.addLayer({ id: "links", type: "line", source: "links", paint: { "line-color": "#b5121b", "line-width": 1, "line-opacity": 0.3 } });
+    m.addSource("docs", { type: "geojson", data: fc([]) });
+    m.addLayer({ id: "docs", type: "circle", source: "docs", paint: {
+      "circle-radius": 6, "circle-stroke-width": 2, "circle-stroke-color": "#fff", "circle-opacity": 0.9,
+      "circle-color": ["match", ["get", "event"], "creation", "#8a1c7c", "depicted", "#1d5fa6", "publication", "#a05a00", "#444"] } });
+    setHist(m);
+    paint(m);
+  }, { center: [8.2, 46.8], zoom: 7 });  // Switzerland, where the historical base maps exist; zoom out for the rest of the world
+  new maplibregl.Marker({ element: eventIcon({ event: "holding" }, {}, 0) }).setLngLat(bar)
+    .setPopup(new maplibregl.Popup({ offset: 14 }).setHTML(`<b>${esc(archive.name)}</b><br>${esc(archive.place)}`)).addTo(map);
+  map.on("click", "docs", (e) => {
+    const p = points[e.features[0].properties.i];
+    new maplibregl.Popup({ offset: 8 }).setLngLat([p.lon, p.lat])
+      .setHTML(`<a href="#/record/${p.id}"><b>${esc(p.title)}</b></a><br>${EVENT_LABEL[p.event]} · ${esc(p.place || "")} · ${fmtDate(p.date)}`).addTo(map);
   });
-  map.setView([46.8, 8.2], 8);  // Switzerland, where the historical base maps exist; zoom out for the rest of the world
-  let shownBase = null;
+  map.on("mouseenter", "docs", () => { map.getCanvas().style.cursor = "pointer"; });
+  map.on("mouseleave", "docs", () => { map.getCanvas().style.cursor = ""; });
   const update = () => {
     const y = +$("#year").value, cum = $("#cumul").checked;
     $("#yearlab").textContent = y;
-    layer.clearLayers();
-    const vis = all.filter(({ p }) => p.year && (cum ? p.year <= y : Math.abs(p.year - y) <= 5));
-    vis.forEach(({ g }) => layer.addLayer(g));
+    vis = all.filter(({ p }) => p.year && (cum ? p.year <= y : Math.abs(p.year - y) <= 5));
+    paint(map);
     const n = nearest(y);
     if (n !== shownBase) {
-      if (hist) map.removeLayer(hist);
-      hist = histTile(n).addTo(map);
       shownBase = n;
+      if (map.getSource("docs")) setHist(map);
     }
     const note = y < zr.years[0] ? `earliest available (${zr.years[0]}); no national map exists for ${y}` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
-    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: today's OpenStreetMap.`;
+    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: today's base map (swisstopo vector tiles or OpenStreetMap, switch at top left).`;
     $("#countlab").textContent = `${vis.length} located events from ${new Set(vis.map(({ p }) => p.id)).size} documents ${cum ? `dated up to ${y}` : `dated ${y - 5}–${y + 5}`} (${points.filter((p) => !p.year).length} undated not shown).`;
   };
   $("#year").oninput = update;
