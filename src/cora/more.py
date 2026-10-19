@@ -12,6 +12,7 @@ import time
 import urllib.parse
 
 from .enrich import Cache, _get, life_dates
+from . import i18n
 from .narrative import evidence, fetch_context
 from .qa import tokens
 
@@ -23,7 +24,7 @@ appearing); do not open by saying again what the document is. Paragraph 2: who a
 Wikipedia [W#] and Wikidata [D#] sources. Paragraph 3: how it relates to other records of the archive [R#]; only
 records that really concern the same subject, otherwise leave the paragraph empty. 1-3 sentences per paragraph.
 Every sentence lists the sources it relies on. If you add something no source supports, give that sentence no sources.
-Do not speculate about private persons. Answer in English. Return one JSON object."""
+Do not speculate about private persons. Answer in {language}. Return one JSON object."""
 VERSION = 2  # cached explanations of an older version are regenerated
 
 
@@ -102,10 +103,10 @@ def sources(r: dict, index, cache: Cache, cfg) -> list[dict]:
     return src
 
 
-def explain(r: dict, index, cfg, ap) -> dict:
+def explain(r: dict, index, cfg, ap, lang: str = "en") -> dict:
     cache_dir = cfg["paths"]["data_dir"] / "more_cache"
     cache_dir.mkdir(exist_ok=True)
-    path = cache_dir / f"{r['id']}.json"
+    path = cache_dir / (f"{r['id']}.json" if lang == "en" else f"{r['id']}.{lang}.json")  # one explanation per language
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
         if cached.get("version") == VERSION:
@@ -121,7 +122,7 @@ def explain(r: dict, index, cfg, ap) -> dict:
               "paragraph_2_who_and_what_wikipedia_wikidata": [sent, sent, sent],
               "paragraph_3_related_records_and_context": [sent, sent]}
     user = (f"Already shown (do not repeat):\n{shown or '(nothing)'}\n\n" + "Sources:\n" + "\n".join(f"[{s['ref']}] {s['text'][:900]}" for s in src) + "\n\nReturn:\n" + json.dumps(schema))
-    raw, meta = ap.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}])
+    raw, meta = ap.chat_json([{"role": "system", "content": SYSTEM.format(language=i18n.language(lang))}, {"role": "user", "content": user}])
     allowed = {s["ref"] for s in src}
     paras, dropped = [], 0
     for key in sorted(k for k in raw if k.startswith("paragraph")):
@@ -137,9 +138,42 @@ def explain(r: dict, index, cfg, ap) -> dict:
         if sents:
             paras.append(sents)
     used = {x for p in paras for s in p for x in s["sources"]}
-    out = {"id": r["id"], "version": VERSION, "generated": True, "model": meta.get("model"), "repeats_dropped": dropped, "seconds": round(meta["seconds"], 1),
+    out = {"id": r["id"], "lang": lang, "version": VERSION, "generated": True, "model": meta.get("model"), "repeats_dropped": dropped, "seconds": round(meta["seconds"], 1),
            "paragraphs": paras, "sources": [s for s in src if s["ref"] in used],
            "offered": {k: sum(1 for s in src if s["kind"] == k) for k in "ERWD"},
            "inferred_sentences": sum(s["inferred"] for p in paras for s in p)}
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return out
+
+
+RESUME = """Write the résumé of ONE record of the Swiss Federal Archives for a reader, in {language}: at most 3 sentences,
+what the document is and what it shows or says. Use only the fields given; do not guess. Keep names, titles and
+quotes in their original language. Return one JSON object {{"resume": "<at most 3 sentences in {language}>"}}."""
+
+
+def resume(r: dict, cfg, ap, lang: str) -> dict:
+    """The record's résumé written by Apertus in the reader's language from its original fields (cached per record
+    and language in resume_cache/<id>.<lang>.json; the English résumé is the one of the dataset)."""
+    if lang == "en":
+        return {"id": r["id"], "lang": "en", "resume": r["classification"].get("resume"), "generated": True}
+    path = cfg["paths"]["data_dir"] / "resume_cache" / f"{r['id']}.{lang}.json"
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    fields = "\n".join(f"{e['label']}: {str(e['value'])[:1500]}" for e in evidence(r))
+    raw, meta = ap.chat_json([{"role": "system", "content": RESUME.format(language=i18n.language(lang))},
+                              {"role": "user", "content": fields}])
+    text = str(raw.get("resume") or "").strip()
+    if not text:
+        return {"id": r["id"], "lang": "en", "resume": r["classification"].get("resume"), "generated": True}
+    out = {"id": r["id"], "lang": lang, "resume": text, "generated": True, "model": meta.get("model")}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    return out
+
+
+def cached_resume(r: dict, cfg, lang: str) -> str | None:
+    """The résumé in the reader's language if it was generated before (for result lists, which never call Apertus)."""
+    if lang == "en":
+        return r["classification"].get("resume")
+    path = cfg["paths"]["data_dir"] / "resume_cache" / f"{r['id']}.{lang}.json"
+    return json.loads(path.read_text(encoding="utf-8"))["resume"] if path.exists() else None

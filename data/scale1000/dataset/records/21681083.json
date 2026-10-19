@@ -1,0 +1,294 @@
+{
+ "id": "21681083",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21681083",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21681083",
+  "reference_code": "J2.143#1996/386#457-1#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Der Erdrutsch im Waadtland",
+   "reference_number": "0457-1",
+   "old_reference_code": "Original Signatur: SFW 457-1\nSignatur Bundesarchiv: J2.143#1996/386#453#4*",
+   "alternate_reference": "SFW_0457-1",
+   "scope_and_content": "Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, La Cornallaz, VD: Erdrutsch\n\nSequenzbeschrieb:\nLa Cornallaz, VD (Schweiz) - Fotos Erdmassen und Risse im Gelände\nLa Cornallaz, VD (Schweiz) - zusammengestürztes Wohnhaus\nLa Cornallaz, VD (Schweiz) - Arbeiter Trinkwasserrohr an Oberfläche verlegend\nLa Cornallaz, VD (Schweiz) - Sondierbohrungen Bahn-Trassee\nLa Cornallaz, VD (Schweiz) - Geometer durch Fernrohr blickend\nCommuniqué:\nDie gefährliche Situation bei La Cornallaz auf der Eisenbahnlinie Bern-Lausanne.\n\nKommentar:\nBei La Cornallaz, auf der Linie Bern-Lausanne sind 3 Millionen Tonnen Erde in Bewegung. Hohe Falten und mächtige Risse durchziehen das Rutschgebiet. / Das Haus von Grossvater Gaillard wurde von den drängenden Massen wie ein Spielzeug zerdrückt. / Lausannes Trinkwasserversorgung ist in Gefahr; eine der Leitungen muss in aller Eile an die Oberfläche verlegt werden. Die Ingenieure der SBB sondieren das Gelände bis in 9 Meter Tiefe. Die Erdmassen stauen sich oberhalb des Bahndammes. Er hat sich vorläufig nicht bewegt. Aber die Gefahr hält an, und die Züge werden mit grösster Vorsicht geführt. /\n\nAlter Titel:\nErdrutsch Waadtland",
+   "author": "Produktion: Schweizer Filmwochenschau",
+   "publisher": "HerausgeberIn: Schweizer Filmwochenschau (SFW)",
+   "form": "Film",
+   "format": "Dauer: 00:49 (Start 00:00 / End 00:49)\nSeitenverhältnis: 4:3\nFarbe: SW\nOriginalträger: 35mm Zellulosenitrat\nKommentarton: deutsch",
+   "thema": "Orte:\nLa Cornallaz, VD (Schweiz)\n\nSchlagworte:\nWesteuropa, SENSATION, NATURKATASTROPHE, ERDRUTSCH",
+   "date": {
+    "from": "1950-12-15",
+    "to": null,
+    "expressed": "1950.12.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film newsreel produced by the Schweizer Filmwochenschau, showing on-site footage and commentary.",
+  "resume": "A Swiss newsreel from December 15, 1950, documenting an earthslide at La Cornallaz in the canton of Vaud, showing collapsed houses, damaged water pipelines, and engineering efforts to stabilize the railway line."
+ },
+ "metadata": {
+  "title": "Der Erdrutsch im Waadtland",
+  "title_normalized": "Der Erdrutsch im Waadtland",
+  "title_en": "Landslide in the Waadtland",
+  "creator": "Schweizer Filmwochenschau",
+  "publisher": "Schweizer Filmwochenschau (SFW)",
+  "commissioner": null,
+  "date_created": "1950-12-15",
+  "date_published": "1950-12-15",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1950-12-15",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "La Cornallaz, VD (Switzerland)",
+   "NATURKATASTROPHE",
+   "SENSATION",
+   "ERDRUTSCH"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1950",
+   "Schweizer Filmwochenschau vom 15.12.1950",
+   "Schweizer Filmwochenschau vom 15.12.1950"
+  ],
+  "reference_code": "J2.143#1996/386#457-1#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21681083",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": [
+   {
+    "name": "La Cornallaz, VD (Switzerland)",
+    "as_written": "La Cornallaz, VD (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe:\nSchweiz, La Cornallaz, VD: Erdrutsch\n\nSequenzbeschrieb:\nLa Cornallaz, VD (Schweiz) - Fotos Erdmassen und Risse im Gelände\nLa Cornallaz, VD (Schweiz) - zusammengestürztes Wohnhaus\nLa Cornallaz, VD (Schweiz) - Arbeiter Trinkwasserrohr an Oberfläche verlegend\nLa Cornallaz, VD (Schweiz) - Sondierbohrungen Bahn-Trassee\nLa Cornallaz, VD (Schweiz) - Geometer durch Fernrohr blickend",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:49 (Start 00:00 / End 00:49)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nLa Cornallaz, VD (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1950.12.15; free text places (apertus): Orte:\nLa Cornallaz, VD (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe:\nSchweiz, La Cornallaz, VD: Erdrutsch\n\nSequenzbeschrieb:\nLa Cornallaz, VD (Schweiz) - Fotos Erdmassen und Risse im Gelände\nLa Cornallaz, VD (Schweiz) - zusammengestürztes Wohnhaus\nLa Cornallaz, VD (Schweiz) - Arbeiter Trinkwasserrohr an Oberfläche verlegend\nLa Cornallaz, VD (Schweiz) - Sondierbohrungen Bahn-Trassee\nLa Cornallaz, VD (Schweiz) - Geometer durch Fernrohr blickend"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:49 (Start 00:00 / End 00:49)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1950.12.15"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nLa Cornallaz, VD (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nLa Cornallaz, VD (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1950-12-15",
+   "place": "La Cornallaz, VD (Switzerland)",
+   "lat": null,
+   "lon": null,
+   "description": "Release of the newsreel documenting the landslide.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#457-1#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5997,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

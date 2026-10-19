@@ -1,0 +1,342 @@
+{
+ "id": "25724455",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/25724455",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/25724455",
+  "reference_code": "E1401#2010/213#7#24*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2009.3345: Motion Maury Pasquier Liliane. Familien von den Krankenkassenprämien entlasten / Motion Maury Pasquier Liliane. Allègement des primes d'assurance-maladie pour les familles",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Couchepin, Pascal; Forster-Vannini, Erika; Maury Pasquier, Liliane;",
+   "form": "Digital",
+   "date": {
+    "from": "2009-06-04",
+    "to": null,
+    "expressed": "2009.06.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/6742631",
+     "number": "2010/213",
+     "title": "2010/00213 Parlamentsdienste: Amtliches Bulletin (Bern) (2009)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript and video of an official parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This is a digital parliamentary record of a motion debate in the Swiss Council of States concerning the relief of families from health insurance premiums, held on 4 June 2009. The speakers listed include Pascal Couchepin, Erika Forster-Vannini, and Liliane Maury Pasquier. The record is part of the video archive of the Council of States session."
+ },
+ "metadata": {
+  "title": "2009.3345: Motion Maury Pasquier Liliane. Familien von den Krankenkassenprämien entlasten / Motion Maury Pasquier Liliane. Allègement des primes d'assurance-maladie pour les familles",
+  "title_normalized": "2009.3345: Motion Maury Pasquier Liliane. Familien von den Krankenkassenprämien entlasten / Motion Maury Pasquier Liliane. Allègement des primes d'assurance-maladie pour les familles",
+  "title_en": "Motion Maury Pasquier Liliane: Relief of families from health insurance premiums / Motion Maury Pasquier Liliane: Relief of health insurance premiums for families",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2009-06-04",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2010",
+  "content_date": "2009-06-04",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "health insurance",
+   "family relief",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Frühjahrssession 2009 bis Herbstsession 2011",
+   "Sommersession 2009",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2010/213#7#24*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/25724455",
+  "accession_numbers": [
+   "2010/213"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Erika Forster-Vannini",
+    "display_name": "Erika Forster-Vannini",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116433",
+     "label": "Erika Forster-Vannini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116433"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Liliane Maury Pasquier",
+    "display_name": "Liliane Maury Pasquier",
+    "role": "author of motion",
+    "wikidata": {
+     "qid": "Q116648",
+     "label": "Liliane Maury Pasquier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116648"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2009.3345: Motion Maury Pasquier Liliane. Familien von den Krankenkassenprämien entlasten / Motion Maury Pasquier Liliane. Allègement des primes d'assurance-maladie pour les familles\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Pascal Couchepin\", \"Erika Forster-Vannini\", \"Liliane Maury Pasquier\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2009.06.04",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2009.3345: Motion Maury Pasquier Liliane. Familien von den Krankenkassenprämien entlasten / Motion Maury Pasquier Liliane. Allègement des primes d'assurance-maladie pour les familles\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2009.06.04"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Pascal Couchepin\", \"Erika Forster-Vannini\", \"Liliane Maury Pasquier\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2009-06-04",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Parliamentary debate on motion concerning health insurance premium relief",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2010",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2010/213 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2010/213#7#24*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4994,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

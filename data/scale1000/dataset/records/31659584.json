@@ -1,0 +1,309 @@
+{
+ "id": "31659584",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31659584",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659584",
+  "reference_code": "E1301#2019/248#13#109*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "20174176: Interpellation Schmid-Federer Barbara. Kohlekraftwerke finanziert mit Schweizer Beteiligung? / Interpellation Schmid-Federer Barbara. Financement des centrales à charbon. La Suisse a-t-elle une participation dans le capital?",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen:",
+   "form": "Digital",
+   "date": {
+    "from": "2018-03-16",
+    "to": null,
+    "expressed": "2018.03.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31658867",
+     "number": "2019/248",
+     "title": "2019/00248 Parlamentsdienste: Amtliches Bulletin (Bern) (2018)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the event by the National Council.",
+  "resume": "This is a digital parliamentary record of an interpellation by Barbara Schmid-Federer concerning Swiss involvement in financing coal-fired power plants, captured during the National Council session in spring 2018."
+ },
+ "metadata": {
+  "title": "20174176: Interpellation Schmid-Federer Barbara. Kohlekraftwerke finanziert mit Schweizer Beteiligung? / Interpellation Schmid-Federer Barbara. Financement des centrales à charbon. La Suisse a-t-elle une participation dans le capital?",
+  "title_normalized": "20174176: Interpellation Schmid-Federer Barbara. Kohlekraftwerke finanziert mit Schweizer Beteiligung? / Interpellation Schmid-Federer Barbara. Financement des centrales à charbon. La Suisse a-t-elle une participation dans le capital?",
+  "title_en": "Interpellation by Barbara Schmid-Federer on Swiss participation in financing coal-fired power plants",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2018-03-16",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "coal-fired power plants",
+   "Swiss investment",
+   "parliamentary questions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2018",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/248#13#109*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659584",
+  "accession_numbers": [
+   "2019/248"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Barbara Schmid-Federer",
+    "display_name": "Barbara Schmid-Federer",
+    "role": "interpellator",
+    "wikidata": {
+     "qid": "Q125397",
+     "label": "Barbara Schmid-Federer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125397"
+    },
+    "life_date_check": {
+     "born": 1965,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.95,
+    "model_lon": 8.35
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"20174176: Interpellation Schmid-Federer Barbara. Kohlekraftwerke finanziert mit Schweizer Beteiligung? / Interpellation Schmid-Federer Barbara. Financement des centrales à charbon. La Suisse a-t-elle une participation dans le capital?\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Schmid-Federer Barbara; named organizations or places (apertus): Switzerland",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2018.03.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"20174176: Interpellation Schmid-Federer Barbara. Kohlekraftwerke finanziert mit Schweizer Beteiligung? / Interpellation Schmid-Federer Barbara. Financement des centrales à charbon. La Suisse a-t-elle une participation dans le capital?\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2018.03.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schmid-Federer Barbara"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Switzerland"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/248 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/248#13#109*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4761,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

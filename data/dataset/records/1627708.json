@@ -1,0 +1,304 @@
+{
+ "id": "1627708",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1627708",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1627708",
+  "reference_code": "E2001B#1000/1515#7*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Répertoire pour le différend de limites entre la Colombie et le Vénézuéla",
+   "reference_number": "B.14.271.P.1.1",
+   "date": {
+    "from": "1921-01-01",
+    "to": null,
+    "expressed": "1921"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7526",
+     "number": "1000/1515",
+     "title": "1000/01515 Bundesverwaltung (Bern) (1768 - 1926)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a finding aid (repertory) within the Swiss Federal Archives' diplomatic records, specifically cataloguing documentation related to a boundary dispute between Colombia and Venezuela.",
+  "resume": "This is a Swiss Federal Archives inventory record for a dossier concerning the 1921 boundary dispute between Colombia and Venezuela. It contains administrative files and correspondence related to international law and arbitration. The dossier is part of the Swiss foreign policy archives."
+ },
+ "metadata": {
+  "title": "Répertoire pour le différend de limites entre la Colombie et le Vénézuéla",
+  "title_normalized": "Répertoire pour le différend de limites entre la Colombie et le Vénézuéla",
+  "title_en": "Directory for the boundary dispute between Colombia and Venezuela",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1921",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1921",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "international law",
+   "boundary disputes",
+   "arbitration",
+   "diplomacy",
+   "Colombia-Venezuela"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für Auswärtiges (1915-1946)",
+  "fonds_reference": "E10003*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für Auswärtiges (1915-1946)",
+   "Abteilung für Auswärtiges: Zentrale Ablage (1918-1946)",
+   "Auswärtige Politik",
+   "Allgemeine internationale Verhältnisse",
+   "Staatsverträge",
+   "Handels- und Sozialverträge / Partikularverträge",
+   "Völkerrecht",
+   "Schiedsgerichte und Schiedsverträge",
+   "Schiedsverträge mit einzelnen Staaten"
+  ],
+  "reference_code": "E2001B#1000/1515#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1627708",
+  "accession_numbers": [
+   "1000/1515"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Eidgenossenschaft",
+    "role": "creator of the administrative dossier",
+    "wikidata": {
+     "qid": "Q39",
+     "label": "Switzerland",
+     "description": "country in Central Europe",
+     "url": "https://www.wikidata.org/wiki/Q39"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Colombia",
+    "as_written": "Colombie",
+    "role": "mentioned",
+    "country": "CO",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Venezuela",
+    "as_written": "Vénézuéla",
+    "role": "mentioned",
+    "country": "VE",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title is in French ('Répertoire...')",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Swiss Federal Archives hierarchy includes 'Schweizerischen Bundesarchivs' and 'Abteilung für Auswärtiges'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title is in French ('Répertoire...')"
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives hierarchy includes 'Schweizerischen Bundesarchivs' and 'Abteilung für Auswärtiges'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1515 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2001B#1000/1515#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "source_level_tertiary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4817,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

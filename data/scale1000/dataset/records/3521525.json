@@ -1,0 +1,596 @@
+{
+ "id": "3521525",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3521525",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3521525",
+  "reference_code": "E1301#1986/191#8#12*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "86.444: Interpellation Oehen. Tschernobyl. Diplomatische Beziehungen mit der UdSSR / Catastrophe de Tschernobyl. Rélations diplomatiques avec l'URSS",
+   "scope_and_content": "Sprecher/Sprecherinnen: Carobbio, Werner; Deneys, Heidi; Egli, Alphons; Fetz, Anita; Günter, Paul; Hubacher, Helmut; Humbel, Beda; Jaeger, Franz; Künzi, Hans; Leuenberger, Moritz; Longet, René; Mauch, Ursula; Morf, Doris; Oehen, Valentin; Ogi, Adolf; Ruf, Markus; Ruffy, Victor; Schlumpf, Leon; Schmidhalter, Paul; Spälti, Peter; Villiger, Kaspar; Weder, Hansjürg",
+   "date": {
+    "from": "1986-06-16",
+    "to": null,
+    "expressed": "1986.06.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383416",
+     "number": "1986/191",
+     "title": "1986/00191 Parlamentsdienste (Bern) (1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a National Council debate, created at the time of the events by the Council.",
+  "resume": "This document is a parliamentary record of an interpellation debate in the Swiss National Council concerning the Chernobyl disaster and diplomatic relations with the USSR, held on 16 June 1986. It contains the names of multiple speakers who addressed the session. The record is an audio recording of the proceedings."
+ },
+ "metadata": {
+  "title": "86.444: Interpellation Oehen. Tschernobyl. Diplomatische Beziehungen mit der UdSSR / Catastrophe de Tschernobyl. Rélations diplomatiques avec l'URSS",
+  "title_normalized": "86.444: Interpellation Oehen. Tschernobyl. Diplomatische Beziehungen mit der UdSSR / Catastrophe de Tschernobyl. Rélations diplomatiques avec l'URSS",
+  "title_en": "Interpellation Oehen: Chernobyl. Diplomatic relations with the USSR",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1986-06-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1986",
+  "content_date": "1986-06-16",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Chernobyl disaster",
+   "USSR",
+   "diplomatic relations",
+   "Swiss National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1983 bis Herbstsession 1987",
+   "Sommersession 1986",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1986/191#8#12*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3521525",
+  "accession_numbers": [
+   "1986/191"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Werner Carobbio",
+    "display_name": "Werner Carobbio",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120924",
+     "label": "Werner Carobbio",
+     "description": "Swiss politician (1936–2023)",
+     "url": "https://www.wikidata.org/wiki/Q120924"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heidi Deneys",
+    "display_name": "Heidi Deneys",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q18599248",
+     "label": "Heidi Deneys",
+     "description": "Swiss politician and teacher (1937-2014)",
+     "url": "https://www.wikidata.org/wiki/Q18599248"
+    },
+    "life_date_check": {
+     "born": 1937,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alphons Egli",
+    "display_name": "Alphons Egli",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Anita Fetz",
+    "display_name": "Anita Fetz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118321",
+     "label": "Anita Fetz",
+     "description": "Swiss politician and historian, born 1957",
+     "url": "https://www.wikidata.org/wiki/Q118321"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Günter",
+    "display_name": "Paul Günter",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2059910",
+     "label": "Paul Günter",
+     "description": "Swiss politician (1943–2024)",
+     "url": "https://www.wikidata.org/wiki/Q2059910"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Helmut Hubacher",
+    "display_name": "Helmut Hubacher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1603686",
+     "label": "Helmut Hubacher",
+     "description": "Swiss politician (1926-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1603686"
+    },
+    "life_date_check": {
+     "born": 1926,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Beda Humbel",
+    "display_name": "Beda Humbel",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125524",
+     "label": "Beda Humbel",
+     "description": "Swiss politician (1933-2019)",
+     "url": "https://www.wikidata.org/wiki/Q125524"
+    },
+    "life_date_check": {
+     "born": 1933,
+     "died": 2019,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Jaeger",
+    "display_name": "Franz Jaeger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122033",
+     "label": "Franz Jaeger",
+     "description": "Swiss politician and economist",
+     "url": "https://www.wikidata.org/wiki/Q122033"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Künzi",
+    "display_name": "Hans Künzi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125263",
+     "label": "Hans Künzi",
+     "description": "Swiss mathematician and politician (1924-2004)",
+     "url": "https://www.wikidata.org/wiki/Q125263"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2004,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "René Longet",
+    "display_name": "René Longet",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ursula Mauch",
+    "display_name": "Ursula Mauch",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21509161",
+     "label": "Ursula Mauch",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21509161"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Doris Morf",
+    "display_name": "Doris Morf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1245264",
+     "label": "Doris Morf",
+     "description": "Swiss politician, publisher and author (1927-2003)",
+     "url": "https://www.wikidata.org/wiki/Q1245264"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2003,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Valentin Oehen",
+    "display_name": "Valentin Oehen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3553595",
+     "label": "Valentin Oehen",
+     "description": "Swiss politician (1931–2022)",
+     "url": "https://www.wikidata.org/wiki/Q3553595"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Adolf Ogi",
+    "display_name": "Adolf Ogi",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Markus Ruf",
+    "display_name": "Markus Ruf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1901753",
+     "label": "Markus Ruf",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1901753"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Victor Ruffy",
+    "display_name": "Victor Ruffy",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Leon Schlumpf",
+    "display_name": "Leon Schlumpf",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Paul Schmidhalter",
+    "display_name": "Paul Schmidhalter",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119427",
+     "label": "Paul Schmidhalter",
+     "description": "Swiss politician (1931-2005)",
+     "url": "https://www.wikidata.org/wiki/Q119427"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": 2005,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Spälti",
+    "display_name": "Peter Spälti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2078432",
+     "label": "Peter Spälti",
+     "description": "Swiss manager, politician and handball player (1930-2010)",
+     "url": "https://www.wikidata.org/wiki/Q2078432"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2010,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kaspar Villiger",
+    "display_name": "Kaspar Villiger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Hansjürg Weder",
+    "display_name": "Hansjürg Weder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1583903",
+     "label": "Hansjürg Weder",
+     "description": "Swiss politician (1928-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1583903"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss National Council",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Interpellation Oehen. Tschernobyl. Diplomatische Beziehungen mit der UdSSR / Catastrophe de Tschernobyl. Rélations diplomatiques avec l'URSS'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Werner Carobbio', 'Heidi Deneys', ...]; named organizations or places (apertus): title: 'Diplomatische Beziehungen mit der UdSSR', 'Catastrophe de Tschernobyl', 'l'URSS'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1986.06.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Interpellation Oehen. Tschernobyl. Diplomatische Beziehungen mit der UdSSR / Catastrophe de Tschernobyl. Rélations diplomatiques avec l'URSS'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1986.06.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Werner Carobbio', 'Heidi Deneys', ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Diplomatische Beziehungen mit der UdSSR', 'Catastrophe de Tschernobyl', 'l'URSS'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1986",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1986/191 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1986/191#8#12*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5690,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

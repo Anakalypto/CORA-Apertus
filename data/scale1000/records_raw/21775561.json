@@ -1,0 +1,70 @@
+{
+ "id": "21775561",
+ "uri": "https://culture.ld.admin.ch/ais/21775561",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21775561",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 13.01.1975",
+ "reference_code": "J2.225#1996/68#6066#5*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 75/13/05;Rolle 1203\nSignatur Bundesarchiv: J2.225#1996/68#62409*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bern, BE: Massnahmeplan für Reduktion von Lärm und Abgasausstoss bei Autos\nSequenzbeschrieb: CH o.O.: Lastwagen-Auspuff / fahrende Lastwagen Bern, BE: PK BR Kurt Furgler",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 06.01.1975-20.01.1975",
+ "form": "Video",
+ "format": "Dauer: 1.01\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.36.22\nTräger: Betacam-Digital",
+ "thema": "Personen: Furgler, Kurt\nSachdeskriptor: Lärm;Abgas",
+ "country": null,
+ "date": {
+  "from": "1975-01-13",
+  "to": null,
+  "expressed": "1975.01.13"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21775556",
+   "title": "Tagesschau SFDRS 13.01.1975",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6066*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690384",
+   "title": "Tagesschau SFDRS 1975",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1975"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

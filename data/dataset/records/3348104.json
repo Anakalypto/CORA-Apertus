@@ -1,0 +1,281 @@
+{
+ "id": "3348104",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3348104",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3348104",
+  "reference_code": "E4800.3-01#1994/116#44*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Inhaltsverzeichnis sämtlicher Dossiers",
+   "date": {
+    "from": "1989-01-01",
+    "to": null,
+    "expressed": "1989"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16647",
+     "number": "1994/116",
+     "title": "1994/00116 Gerber Rudolf (Kehrsatz) (1889-1994)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit serves as a descriptive index for the administrative files of Rudolf Gerber, not as a primary administrative record itself.",
+  "resume": "This is an index page listing all dossiers within a specific sub-series of the Federal Prosecutor's Office files concerning Rudolf Gerber, who served as Federal Prosecutor from 1974 to 1993. It does not contain the dossiers themselves but rather a table of contents for the administrative investigation files related to him. The document serves as an inventory tool for navigating the larger collection."
+ },
+ "metadata": {
+  "title": "Inhaltsverzeichnis sämtlicher Dossiers",
+  "title_normalized": "Inhaltsverzeichnis sämtlicher Dossiers",
+  "title_en": "Table of Contents of all Dossiers",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1994",
+  "content_date": "1989",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administrative investigation",
+   "disciplinary investigation",
+   "Federal Prosecutor's Office",
+   "Rudolf Gerber"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesanwaltschaft (1889-)",
+  "fonds_reference": "E10105*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesanwaltschaft (1889-)",
+   "Bundesanwaltschaft: Handakten Rudolf Gerber, Bundesanwalt (1974-1993)",
+   "Administrativuntersuchung / Disziplinaruntersuchung"
+  ],
+  "reference_code": "E4800.3-01#1994/116#44*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3348104",
+  "accession_numbers": [
+   "1994/116"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rudolf Gerber",
+    "display_name": "Rudolf Gerber",
+    "role": "subject of the archival files indexed",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bundesanwaltschaft",
+    "role": "depositor of the archival files",
+    "wikidata": {
+     "qid": "Q1528231",
+     "label": "Office of the Attorney General of Switzerland",
+     "description": "position",
+     "url": "https://www.wikidata.org/wiki/Q1528231"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): accessions[0].title contains \"Gerber Rudolf\"; named organizations or places (apertus): hierarchy_top_down contains \"Bundesanwaltschaft\" and \"Schweizerischen Bundesarchivs\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"1989\" only",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"1989\" only"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title contains \"Gerber Rudolf\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Bundesanwaltschaft\" and \"Schweizerischen Bundesarchivs\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named person is a public official (Rudolf Gerber, former Federal Prosecutor), not a private individual."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1994",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1994/116 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4800.3-01#1994/116#44*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4458,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

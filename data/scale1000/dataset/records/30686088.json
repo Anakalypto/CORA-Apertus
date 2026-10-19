@@ -1,0 +1,331 @@
+{
+ "id": "30686088",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30686088",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30686088",
+  "reference_code": "J2.143#1996/386#10-3#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Gandria: La vendemmia nel Canton Ticino",
+   "reference_number": "0010-4",
+   "old_reference_code": "Original Signatur: CGS 10-4",
+   "alternate_reference": "CGS_0010-4",
+   "scope_and_content": "Genre:\nCinegiornale\n\nInhaltsangabe:\nSchweiz, Gandria, Lugano, TI: Weinlese und Winzerfest\n\nSequenzbeschrieb:\nGandria, TI (Schweiz) - Winzerinnen Trauben erntend\nLugano, TI (Schweiz) - Winzerfest mit Umzug\nCommuniqué:\nLa vendemmia nel Canton Ticino\n\nKommentar:\n[Commento mancante]",
+   "author": "Produktion: Cinegiornale svizzero",
+   "publisher": "HerausgeberIn: Cinegiornale svizzero (CGS)",
+   "form": "Video",
+   "format": "Dauer: 00:40 (Start 02:06 / End 02:46)\nSeitenverhältnis: 4:3\nFarbe: B/N\nOriginalträger: 35mm nitrato di cellulosa\nKommentarton: tedesco\nUntertiltel: italiano",
+   "thema": "Orte: \nGandria, TI (Schweiz); Lugano, TI (Schweiz)\n\nSchlagworte: \nEUROPA OCCIDENTALE; TRADIZIONE, TRADIZIONE SVIZZERA, FESTA DEI VITICOLTORI; AGRICOLTURA, VITICOLTURA",
+   "date": {
+    "from": "1940-10-04",
+    "to": null,
+    "expressed": "1940.10.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a 35mm nitrate film produced by Cinegiornale svizzero for newsreel distribution.",
+  "resume": "A Swiss newsreel (Cinegiornale svizzero) documenting the grape harvest and winemaker festival in Gandria and Lugano, Ticino, Switzerland, on 4 October 1940."
+ },
+ "metadata": {
+  "title": "Gandria: La vendemmia nel Canton Ticino",
+  "title_normalized": "Gandria: La vendemmia nel Canton Ticino",
+  "title_en": "Gandria: The Harvest in the Canton Ticino",
+  "creator": "Cinegiornale svizzero",
+  "publisher": "Cinegiornale svizzero (CGS)",
+  "commissioner": null,
+  "date_created": "1940-10-04",
+  "date_published": "1940-10-04",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1940-10-04",
+  "languages": [
+   "de",
+   "it"
+  ],
+  "subjects": [
+   "Ticino",
+   "grape harvest",
+   "winemaker festival",
+   "agriculture",
+   "Swiss tradition"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1940",
+   "Schweizer Filmwochenschau vom 04.10.1940",
+   "Cinegiornale svizzero del 04.10.1940"
+  ],
+  "reference_code": "J2.143#1996/386#10-3#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30686088",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Cinegiornale svizzero (CGS)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Gandria",
+    "as_written": "Gandria",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.005737,
+    "lon": 9.0027751,
+    "gazetteer": "https://www.openstreetmap.org/node/20600198",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Lugano",
+    "as_written": "Lugano",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.0038007,
+    "lon": 8.9512275,
+    "gazetteer": "https://www.openstreetmap.org/relation/2888417",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe:\nSchweiz, Gandria, Lugano, TI: Weinlese und Winzerfest\n\nSequenzbeschrieb:\nGandria, TI (Schweiz) - Winzerinnen Trauben erntend\nLugano, TI (Schweiz) - Winzerfest mit Umzug",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:40 (Start 02:06 / End 02:46)\nSeitenverhä; multilingual (apertus): Communiqué:\nLa vendemmia nel Canton Ticino",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte: Gandria, TI (Schweiz); Lugano, TI (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1940.10.04; free text places (apertus): Orte: \nGandria, TI (Schweiz); Lugano, TI (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe:\nSchweiz, Gandria, Lugano, TI: Weinlese und Winzerfest\n\nSequenzbeschrieb:\nGandria, TI (Schweiz) - Winzerinnen Trauben erntend\nLugano, TI (Schweiz) - Winzerfest mit Umzug"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:40 (Start 02:06 / End 02:46)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Communiqué:\nLa vendemmia nel Canton Ticino"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1940.10.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte: \nGandria, TI (Schweiz); Lugano, TI (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte: Gandria, TI (Schweiz); Lugano, TI (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by the content of this archival record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1940-10-04",
+   "place": "Gandria",
+   "lat": 46.005737,
+   "lon": 9.0027751,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1940-10-04",
+   "place": "Lugano",
+   "lat": 46.0038007,
+   "lon": 8.9512275,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1940-10-04",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Release of the Cinegiornale svizzero newsreel episode documenting the harvest in Ticino.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#10-3#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5551,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

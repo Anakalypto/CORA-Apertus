@@ -1,0 +1,97 @@
+{
+ "id": "1424161",
+ "uri": "https://culture.ld.admin.ch/ais/1424161",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1424161",
+ "title": "Zeitungsausschnitte über die Arbeitsverhältnisse in den Militärwerkstätten Thun und Bern",
+ "reference_code": "E27#1000/721#1523*",
+ "reference_number": "03.A.2.e.6.c.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroforme",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1902-01-01",
+  "to": "1926-12-31",
+  "expressed": "1902-1926"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847087",
+   "title": "Besoldungs- und Arbeitsverhältnisse",
+   "level": "Serie",
+   "reference_code": "E27#03.A.2.e.6.c.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847086",
+   "title": "Personal",
+   "level": "Serie",
+   "reference_code": "E27#03.A.2.e.6.c"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847083",
+   "title": "Militärwerkstätten",
+   "level": "Serie",
+   "reference_code": "E27#03.A.2.e.6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847068",
+   "title": "Kriegstechnische Abteilung",
+   "level": "Serie",
+   "reference_code": "E27#03.A.2.e"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3846994",
+   "title": "Departementsvorsteher und Dienstabteilungen",
+   "level": "Serie",
+   "reference_code": "E27#03.A.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3846977",
+   "title": "Organisation und Personal des EMD",
+   "level": "Serie",
+   "reference_code": "E27#03.A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3846976",
+   "title": "Verwaltung, Kommissionen",
+   "level": "Serie",
+   "reference_code": "E27#03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

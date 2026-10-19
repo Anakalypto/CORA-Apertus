@@ -1,0 +1,315 @@
+{
+ "id": "26688477",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/26688477",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26688477",
+  "reference_code": "J2.245#2005/40#89#1*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Internationales Segelflugmeeting in Samedan",
+   "old_reference_code": "Original Signatur: FNB022 5104\nSignatur Bundesarchiv: J2.245#2005/40*",
+   "scope_and_content": "01 - 02 Hinflug\n03 - 04 Geringer\n05 Einleitung Douglas\n06 Interview Douglas\n07 - 08 Hofstettler\n09 Zwischentext\n10 Pilotenrapport französisch\n11 Pilotenrapport englisch\n12 Pilotenrapport deutsch\n13 Zwischentext\n14 Meteorolog\n15 Auslösung\n16 Zwischentext\n17 Dreieckflug\n18 Schlusstest\n19 Erläuterungen Geringer",
+   "involved": "Produktionsstudio: Radiostudio Zürich\nTeilnehmer: Rolle; Funktion:",
+   "form": "Ton",
+   "date": {
+    "from": "1948-07-24",
+    "to": null,
+    "expressed": "1948.07.24"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1405848",
+     "number": "2005/40",
+     "title": "2005/00040 Radio DRS Studio Bern (Bern) (1946 (ca.)-1954 (ca.))"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "radio broadcast",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the radio studio as a live or recorded broadcast of the event.",
+  "resume": "This radio broadcast documents the 1948 International Gliding Meeting in Samedan, featuring pilot interviews, pilot reports in multiple languages, meteorological information, and flight explanations. It was produced by the Zurich Radio Studio as part of the 'Echo der Zeit' program. The recording captures the event's proceedings and technical aspects from a contemporary perspective."
+ },
+ "metadata": {
+  "title": "Internationales Segelflugmeeting in Samedan",
+  "title_normalized": "Internationales Segelflugmeeting in Samedan",
+  "title_en": "International Gliding Meeting in Samedan",
+  "creator": "Radiostudio Zürich",
+  "publisher": "Schweizer Radio DRS",
+  "commissioner": null,
+  "date_created": "1948-07-24",
+  "date_published": "1948-07-24",
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "1948-07-24",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "gliding",
+   "aviation",
+   "sports",
+   "radio broadcast",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Radio DRS (1931-)",
+  "fonds_reference": "J2.245*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Radio DRS (1931-)",
+   "Echo der Zeit",
+   "Echo der Zeit 1948",
+   "Echo der Zeit 24.07.1948"
+  ],
+  "reference_code": "J2.245#2005/40#89#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26688477",
+  "accession_numbers": [
+   "2005/40"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Douglas",
+    "display_name": "Douglas",
+    "role": "interviewee",
+    "wikidata": null
+   },
+   {
+    "name": "Hofstettler",
+    "display_name": "Hofstettler",
+    "role": "interviewee",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Radiostudio Zürich",
+    "role": "producer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Samedan",
+    "as_written": "Samedan",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.5332403,
+    "lon": 9.874586,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684150",
+    "model_lat": 46.5,
+    "model_lon": 9.75
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): involved: Produktionsstudio: Radiostudio Zürich\nTeilnehmer: ",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): involved: 'Produktionsstudio: Radiostudio Zürich\nTeilnehmer: Rolle; Funktion:'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): involved: 'Produktionsstudio: Radiostudio Zürich'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: '1948.07.24'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "involved: Produktionsstudio: Radiostudio Zürich\nTeilnehmer: "
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "involved: 'Produktionsstudio: Radiostudio Zürich\nTeilnehmer: Rolle; Funktion:'"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: '1948.07.24'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: 'Produktionsstudio: Radiostudio Zürich'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified in the metadata."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1948-07-24",
+   "place": "Zurich",
+   "lat": null,
+   "lon": null,
+   "description": "Radio broadcast produced by Radiostudio Zürich documenting the International Gliding Meeting in Samedan.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1948-07-24",
+   "place": "Samedan",
+   "lat": 46.5332403,
+   "lon": 9.874586,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/40 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.245#2005/40#89#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4368,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

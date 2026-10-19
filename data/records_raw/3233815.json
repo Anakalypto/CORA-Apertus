@@ -1,0 +1,67 @@
+{
+ "id": "3233815",
+ "uri": "https://culture.ld.admin.ch/ais/3233815",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3233815",
+ "title": "Zeitungsausschnitte betr. Konferenz von Evian und Flüchtlingsproblem,",
+ "reference_code": "E4800.1#1000/867#62*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1938-01-01",
+  "to": null,
+  "expressed": "1938"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13339",
+   "number": "1000/867",
+   "title": "1000/00867 Bundesverwaltung (Bern) (1923-1945)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002789",
+   "title": "Weitere Unterlagen",
+   "level": "Serie",
+   "reference_code": "E4800.1#Liste"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5917",
+   "title": "Polizeiabteilung: Handakten Heinrich Rothmund, Chef (1919-1960)",
+   "level": "Sub-file",
+   "reference_code": "E4800.1*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5913",
+   "title": "Eidgenössische Polizeiabteilung (1902-1979)",
+   "level": "Stock",
+   "reference_code": "E10452*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

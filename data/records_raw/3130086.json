@@ -1,0 +1,85 @@
+{
+ "id": "3130086",
+ "uri": "https://culture.ld.admin.ch/ais/3130086",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3130086",
+ "title": "Verzeichnis der Beschlüsse und Kreisschreiben des Bundesrates und des Eisenbahn-Departementes",
+ "reference_code": "E8100C-03#1976/122#17*",
+ "reference_number": "004.8",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1903-01-01",
+  "to": null,
+  "expressed": "1903"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15637",
+   "number": "1976/122",
+   "title": "1976/00122 Bundesverwaltung (Bern) (1873-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3812505",
+   "title": "Kreisschreiben (Sammlungen)",
+   "level": "Serie",
+   "reference_code": "E8100C-03#004.8"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3812501",
+   "title": "Dokumentation",
+   "level": "Serie",
+   "reference_code": "E8100C-03#004"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3812492",
+   "title": "Administratives",
+   "level": "Serie",
+   "reference_code": "E8100C-03#00"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3812491",
+   "title": "Verwaltung",
+   "level": "Serie",
+   "reference_code": "E8100C-03#0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2785257",
+   "title": "Eidgenössisches Amt für Verkehr: Zentrale Ablage (1935-1978)",
+   "level": "Sub-file",
+   "reference_code": "E8100C-03*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5151",
+   "title": "Eidgenössisches Amt für Verkehr (1935-1979)",
+   "level": "Stock",
+   "reference_code": "E10240*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

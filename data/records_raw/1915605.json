@@ -1,0 +1,67 @@
+{
+ "id": "1915605",
+ "uri": "https://culture.ld.admin.ch/ais/1915605",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1915605",
+ "title": "Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936",
+ "reference_code": "J1.3#1000/1402#468*",
+ "reference_number": "51",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1936-01-01",
+  "to": null,
+  "expressed": "1936"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16819",
+   "number": "1000/1402",
+   "title": "1000/01402 Feldmann Hans (Bern) (1914-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3698369",
+   "title": "Verein der Schweizer Presse (VSP)",
+   "level": "Serie",
+   "reference_code": "J1.3#51"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3698368",
+   "title": "Presse",
+   "level": "Serie",
+   "reference_code": "J1.3#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4196",
+   "title": "Feldmann Markus (1897-1958)",
+   "level": "Stock",
+   "reference_code": "J1.3*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

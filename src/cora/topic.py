@@ -21,7 +21,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from html import unescape
 
-from . import lindas
+from . import i18n, lindas
 from .enrich import _get
 
 PLAN = """You help a reader go further from ONE record of the Swiss Federal Archives that reports on, or indexes, an event or issue.
@@ -71,14 +71,25 @@ def wikipedia_candidates(query: str, ua: str, n: int = 5) -> list[dict]:
             for x in d.get("query", {}).get("search", [])]
 
 
-def wikipedia_page(title: str, ua: str) -> dict | None:
+def wikipedia_page(title: str, ua: str, wiki: str = "en") -> dict | None:
     try:
-        d = _get("https://en.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(title.replace(" ", "_")), ua)
+        d = _get(f"https://{wiki}.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(title.replace(" ", "_")), ua)
     except Exception:
         return None
     return {"title": d.get("title"), "description": d.get("description"), "extract": d.get("extract"),
             "url": (d.get("content_urls") or {}).get("desktop", {}).get("page"),
-            "thumbnail": (d.get("thumbnail") or {}).get("source"), "license": "CC BY-SA 4.0"}
+            "thumbnail": (d.get("thumbnail") or {}).get("source"), "license": "CC BY-SA 4.0", "lang": wiki}
+
+
+def wikipedia_in(title: str, lang: str, ua: str) -> dict | None:
+    """The same article in the reader's Wikipedia (de, fr, it, rm), through the English article's language links."""
+    try:
+        d = _get("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+            {"action": "query", "titles": title, "prop": "langlinks", "lllang": lang, "format": "json", "redirects": 1}), ua)
+        links = next(iter(d["query"]["pages"].values())).get("langlinks") or []
+    except Exception:
+        return None
+    return wikipedia_page(links[0]["*"], ua, lang) if links else None
 
 
 def archive_dossiers(stem: str, limit: int = 10) -> list[dict]:
@@ -128,6 +139,34 @@ def _for_reader(out: dict) -> dict:
     return out | {"note": note, "search_links": search_links(out)}
 
 
+LOCALIZE = """You write two short texts for a reader of an archive website, in {language}.
+Given the subject of an archive record and an English note on how the record connects to its sources, return one
+JSON object {{"subject": "<the subject, as a reader in {language} would name it>",
+"note": "<the note, written in {language}, same meaning, one or two sentences>"}}. Keep names of people, places and
+archive units as they are."""
+
+
+def _in_language(out: dict, path, lang: str, ap, ua: str = "CORA-Apertus/0.1") -> dict:
+    """Subject label and note written by Apertus in the reader's language (cached per record and language)."""
+    if lang == "en" or not out.get("identifiable"):
+        return out | {"lang": "en"}
+
+    def make():
+        wp = wikipedia_in(out["wikipedia"]["title"], lang, ua) if out.get("wikipedia") else None
+        try:
+            raw, _ = ap.chat_json([{"role": "system", "content": LOCALIZE.format(language=i18n.language(lang))},
+                                   {"role": "user", "content": json.dumps({"subject": out["subject"], "note": out.get("note") or ""},
+                                                                          ensure_ascii=False)}])
+        except Exception:
+            return None
+        return {"subject": str(raw.get("subject") or "").strip() or None, "note": str(raw.get("note") or "").strip() or None,
+                "wikipedia": wp}
+    loc = i18n.localized(path, lang, make) or {}
+    return out | {"lang": lang if loc else "en", "subject_en": out["subject"],
+                  "subject": loc.get("subject") or out["subject"], "note": loc.get("note") or out.get("note"),
+                  "wikipedia": loc.get("wikipedia") or out.get("wikipedia")}  # the reader's Wikipedia when the article exists there
+
+
 def search_links(out: dict) -> dict:
     """Ready-made searches for the reader to go further (Federal Archives portal, Dodis)."""
     if not out.get("identifiable"):
@@ -149,12 +188,12 @@ def _picked(refs, prefix: str, items: list, k: int) -> list:
     return out[:k]
 
 
-def build(r: dict, index, cfg, ap) -> dict:
+def build(r: dict, index, cfg, ap, lang: str = "en") -> dict:
     cache_dir = cfg["paths"]["data_dir"] / "topic_cache"
     cache_dir.mkdir(exist_ok=True)
     path = cache_dir / f"{r['id']}.json"
     if path.exists():
-        return _for_reader(json.loads(path.read_text(encoding="utf-8")))
+        return _in_language(_for_reader(json.loads(path.read_text(encoding="utf-8"))), path, lang, ap, cfg["enrich"]["user_agent"])
     ua = cfg["enrich"]["user_agent"]
     t0 = time.time()
     plan, _ = ap.chat_json([{"role": "system", "content": PLAN}, {"role": "user", "content": _record_text(r)}])
@@ -195,4 +234,4 @@ def build(r: dict, index, cfg, ap) -> dict:
         out["offered"] = {"wikipedia": len(wps), "primary": len(dossiers), "primary_in_dataset": len(own), "news": len(items)}
     out["seconds"] = round(time.time() - t0, 1)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    return _for_reader(out)
+    return _in_language(_for_reader(out), path, lang, ap, ua)

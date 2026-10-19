@@ -1,0 +1,318 @@
+{
+ "id": "29341766",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29341766",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29341766",
+  "reference_code": "E1201#2011/196#1#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2010.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Bruderer Wyss, Pascale;",
+   "form": "Digital",
+   "date": {
+    "from": "2010-03-17",
+    "to": null,
+    "expressed": "2010.03.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/23238629",
+     "number": "2011/196",
+     "title": "2011/00196 Parlamentsdienste (Bern) (2010)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a parliamentary session, created at the time of the events.",
+  "resume": "This is a digital parliamentary record from the Swiss Federal Archives documenting a communication by the President, featuring a speaker during a session of the United Federal Assembly in the spring of 2010."
+ },
+ "metadata": {
+  "title": "2010.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+  "title_normalized": "2010.9002: Mitteilungen der Präsidentin / Communications de la présidente",
+  "title_en": "Communications of the President",
+  "creator": "Vereinigte Bundesversammlung (United Federal Assembly)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2011",
+  "content_date": "2010-03-17",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary communication",
+   "United Federal Assembly",
+   "Swiss politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Vereinigte Bundesversammlung (1848-)",
+  "fonds_reference": "E10858*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Vereinigte Bundesversammlung (1848-)",
+   "Vereinigte Bundesversammlung: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen der Vereinigten Bundesversammlung",
+   "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "Frühjahrsession 2010",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1201#2011/196#1#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29341766",
+  "accession_numbers": [
+   "2011/196"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Pascale Bruderer Wyss",
+    "display_name": "Pascale Bruderer Wyss",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116100",
+     "label": "Pascale Bruderer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116100"
+    },
+    "life_date_check": {
+     "born": 1977,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Vereinigte Bundesversammlung (United Federal Assembly)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q684719",
+     "label": "Federal Assembly of Switzerland",
+     "description": "legislative body of the Swiss Confederation",
+     "url": "https://www.wikidata.org/wiki/Q684719"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2010.9002: Mitteilungen der Präsidentin / Communications de la présidente\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Pascale Bruderer Wyss\" ]; named organizations or places (apertus): hierarchy_top_down: ... [E10858*] Vereinigte Bundesversammlung (1848-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2010.03.17",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2010.9002: Mitteilungen der Präsidentin / Communications de la présidente\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2010.03.17"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Pascale Bruderer Wyss\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: ... [E10858*] Vereinigte Bundesversammlung (1848-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2011",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2011/196 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1201#2011/196#1#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4672,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

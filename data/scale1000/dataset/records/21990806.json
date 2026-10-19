@@ -1,0 +1,352 @@
+{
+ "id": "21990806",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21990806",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21990806",
+  "reference_code": "J2.225#2004/178#16#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS): Duplex Annahme UNO Irak-Resolution, 16.10.2003",
+   "old_reference_code": "Original Signatur: TSSFDRS 2501205\nSignatur Bundesarchiv: J2.225#2004/178#168*",
+   "scope_and_content": "Inhaltsangabe: CH Genève, GE: Duplex Andreas Zumach",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Müller, Beatrice",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.10.2003-23.10.2003",
+   "form": "Video",
+   "format": "Dauer: 00:02:00\nFarbe: Farbaufnahmen\nStartposition: 00.54.53",
+   "thema": "Personen: Zumach, Andreas",
+   "date": {
+    "from": "2003-10-16",
+    "to": null,
+    "expressed": "2003.10.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1084055",
+     "number": "2004/178",
+     "title": "2004/00178 Schweizer Fernsehen DRS (Z�rich) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording produced by SRG SSR idée suisse.",
+  "resume": "This is a video segment from the Tagesschau Hauptausgabe (TS) news broadcast that covers the acceptance of a UN resolution regarding Iraq on 16 October 2003, featuring an interview with Andreas Zumach."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS): Duplex Annahme UNO Irak-Resolution, 16.10.2003",
+  "title_normalized": "Tagesschau Hauptausgabe (TS): Duplex Annahme UNO Irak-Resolution, 16.10.2003",
+  "title_en": "Tagesschau Hauptausgabe (TS): Duplex Acceptance of UN Iraq Resolution, 16 October 2003",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2003-10-16",
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "2003-10-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "UN Resolution",
+   "Iraq",
+   "Tagesschau"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2003",
+   "Tagesschau SFDRS 16.10.2003"
+  ],
+  "reference_code": "J2.225#2004/178#16#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21990806",
+  "accession_numbers": [
+   "2004/178"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Andreas Zumach",
+    "display_name": "Andreas Zumach",
+    "role": "interviewee",
+    "wikidata": {
+     "qid": "Q501343",
+     "label": "Andreas Zumach",
+     "description": "German journalist",
+     "url": "https://www.wikidata.org/wiki/Q501343"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Beatrice Müller",
+    "display_name": "Beatrice Müller",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q813260",
+     "label": "Beatrice Müller",
+     "description": "Swiss television presenter",
+     "url": "https://www.wikidata.org/wiki/Q813260"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "Genève",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": 46.2,
+    "model_lon": 6.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: CH Genève, GE: Duplex Andreas Zumach",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:02:00\nFarbe: Farbaufnahmen\nStartposition",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Beatrice Müller; named organizations or places (apertus): CH Genève",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2003.10.16; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: CH Genève, GE: Duplex Andreas Zumach"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:02:00\nFarbe: Farbaufnahmen\nStartposition"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2003.10.16"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Beatrice Müller"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Genève"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2003-10-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau Hauptausgabe segment covering UN Iraq resolution.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/178 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2004/178#16#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5085,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

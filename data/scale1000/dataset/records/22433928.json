@@ -1,0 +1,357 @@
+{
+ "id": "22433928",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22433928",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22433928",
+  "reference_code": "J2.247#2000/21#616#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Difesa del passato - Difesa del passato in Vallemaggia (tio) ; Il Regionale, 07.06.1977",
+   "old_reference_code": "Original Signatur: REGIOTSI 8.64\nSignatur Bundesarchiv: J2.247#2000/21#685*",
+   "scope_and_content": "Genre: Attualità regionale\nInhaltsangabe: CH > VALLEMAGGIA, TI / CH > FOROGLIO, TI / CH > MAGGIA, TI - A 2 anni dalla sua nascita, l'Associazione per la Protezione del Patrimonio Artistico e Architettonico di Vallemaggia (APAV) ha redatto un catalogo dei monumenti storici e artistici, alcuni dei",
+   "author": "AutorIn: Sörgel, Thomas\nProduktionsgesellschaft: TSI",
+   "publisher": "HerausgeberIn: TSI",
+   "coverage": "Geografische Abdeckung: Vallemaggia;Foroglio;Maggia",
+   "form": "Video",
+   "format": "Dauer: 00:06:33\nFarbe: Colore\nStartposition: 00:41.26",
+   "thema": "Körperschaften: Associazione per la Protezione del Patrimonio Artistico e Architettonico della Vallemaggia (APAV)\nPersonen: Donati, Armando\nSachdeskriptor: Associazioni culturali; Statistica; Monumenti; Valli; Restauri; Cappelle; Affreschi; Resta uro di opere d'arte; Arte religiosa",
+   "date": {
+    "from": "1977-06-07",
+    "to": null,
+    "expressed": "1977.06.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16915",
+     "number": "2000/21",
+     "title": "2000/00021 Radiotelevisione Svizzera di lingua italiana (Lugano) (1958-1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a video segment produced by TSI for broadcast on 7 June 1977.",
+  "resume": "A regional news segment from Il Regionale dated 7 June 1977 covering the APAV association's catalog of historic monuments in Vallemaggia, Foroglio, and Maggia, featuring Armando Donati."
+ },
+ "metadata": {
+  "title": "Difesa del passato - Difesa del passato in Vallemaggia (tio) ; Il Regionale, 07.06.1977",
+  "title_normalized": "Difesa del passato - Difesa del passato in Vallemaggia (tio) ; Il Regionale, 07.06.1977",
+  "title_en": "Defence of the Past - Defence of the Past in Vallemaggia (tio) ; Il Regionale, 07.06.1977",
+  "creator": "TSI",
+  "publisher": "TSI",
+  "commissioner": null,
+  "date_created": "1977-06-07",
+  "date_published": "1977-06-07",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1977-06-07",
+  "languages": [
+   "it"
+  ],
+  "subjects": [
+   "Associations",
+   "Cultural heritage",
+   "Monuments",
+   "Vallées",
+   "Restoration",
+   "Religious art"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Radiotelevisione svizzera di lingua italiana (1931-)",
+  "fonds_reference": "J2.247*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Radiotelevisione svizzera di lingua italiana (1931-)",
+   "Il Regionale 1958 1984",
+   "Il Regionale 1977",
+   "Il Regionale 07.06.1977"
+  ],
+  "reference_code": "J2.247#2000/21#616#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22433928",
+  "accession_numbers": [
+   "2000/21"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Donati, Armando",
+    "display_name": "Armando Donati",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Associazione per la Protezione del Patrimonio Artistico e Architettonico della Vallemaggia (APAV)",
+    "role": "depicted",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Vallemaggia",
+    "as_written": "Vallemaggia",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.345206,
+    "lon": 8.5792146,
+    "gazetteer": "https://www.openstreetmap.org/relation/1688773",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Foroglio",
+    "as_written": "Foroglio",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.3738972,
+    "lon": 8.5474384,
+    "gazetteer": "https://www.openstreetmap.org/node/1327372542",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Maggia",
+    "as_written": "Maggia",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.3596308,
+    "lon": 8.648602,
+    "gazetteer": "https://www.openstreetmap.org/relation/2201760",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre: Attualità regionale\nInhaltsangabe: CH > VAL",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Sörgel, Thomas\nProduktionsgesellschaft: T",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Donati, Armando; named organizations or places (apertus): Körperschaften: Associazione per la Protezione del Patrimonio Artistico e Architettonico della Vallemaggia (APAV)\nGeografische Abdeckung: Vallemaggia;Foroglio;Maggia",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1977.06.07; free text places (apertus): Geografische Abdeckung: Vallemaggia;Foroglio;Maggia",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre: Attualità regionale\nInhaltsangabe: CH > VAL"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Sörgel, Thomas\nProduktionsgesellschaft: T"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1977.06.07"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Vallemaggia;Foroglio;Maggia"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Donati, Armando"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Körperschaften: Associazione per la Protezione del Patrimonio Artistico e Architettonico della Vallemaggia (APAV)\nGeografische Abdeckung: Vallemaggia;Foroglio;Maggia"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1977-06-07",
+   "place": "Vallemaggia",
+   "lat": 46.345206,
+   "lon": 8.5792146,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1977-06-07",
+   "place": "Foroglio",
+   "lat": 46.3738972,
+   "lon": 8.5474384,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1977-06-07",
+   "place": "Maggia",
+   "lat": 46.3596308,
+   "lon": 8.648602,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1977-06-07",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "TV segment broadcast on Il Regionale.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/21 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.247#2000/21#616#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5448,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,913 @@
+{
+ "id": "3520982",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3520982",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3520982",
+  "reference_code": "E1301#1985/233#4#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "84.088: Waldsterben. Bericht und Massnahmen / Dépérissement des forêts. Rapport et mesures",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bircher, Silvio; Blunschy, Elisabeth; Clivaz, Jean; Coutau, Gilbert; Deneys, Heidi; Egli, Alphons; Eisenring, Paul; Fischer, Theo, Sursee; Geissbühler, Gottlieb; Giger, Titus; Graf, Hans Ulrich; Grendelmeier, Verena; Günter, Paul; Hari, Fritz; Herczog, Andreas; Hösli, Fritz; Jaeger, Franz; Keller, Anton; Kohler, Raoul; Künzi, Hans; Lüchinger, Hans Georg; Magnin, Armand; Mauch, Ursula; Müller, Bernhard; Müller, Kurt; Nauer, Otto; Neuenschwander, Willi; Oehen, Valentin; Oehen, Valentin; Oehler, Edgar; Rebeaud, Laurent; Reimann, Fritz; Schüle, Kurt; Spoerry, Vreni; Stucky, Georg; Uchtenhagen, Lilian; Vannay, Françoise; Weder, Hansjürg; Wick, Hugo; Zwingli, Walter",
+   "date": {
+    "from": "1985-02-07",
+    "to": null,
+    "expressed": "1985.02.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383407",
+     "number": "1985/233",
+     "title": "1985/00233 Parlamentsdienste (Bern) (1985)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning forest decline (Waldsterben) and proposed measures, held on 7 February 1985 during the Winter session. It contains the names of multiple speakers who participated in the discussion. The record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "84.088: Waldsterben. Bericht und Massnahmen / Dépérissement des forêts. Rapport et mesures",
+  "title_normalized": "84.088: Waldsterben. Bericht und Massnahmen / Dépérissement des forêts. Rapport et mesures",
+  "title_en": "Forest Decline. Report and Measures / Dépérissement des forêts. Rapport et mesures",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1985-02-07",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1985",
+  "content_date": "1985-02-07",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "forest decline",
+   "environmental policy",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1983 bis Herbstsession 1987",
+   "Februarsession 1985",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1985/233#4#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3520982",
+  "accession_numbers": [
+   "1985/233"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Silvio Bircher",
+    "display_name": "Silvio Bircher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1287750",
+     "label": "Silvio Bircher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1287750"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Elisabeth Blunschy",
+    "display_name": "Elisabeth Blunschy",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1329797",
+     "label": "Elisabeth Blunschy",
+     "description": "Swiss politician and lawyer (1922-2015)",
+     "url": "https://www.wikidata.org/wiki/Q1329797"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean Clivaz",
+    "display_name": "Jean Clivaz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q96285028",
+     "label": "Jean Clivaz",
+     "description": "Swiss politician and trade unionist",
+     "url": "https://www.wikidata.org/wiki/Q96285028"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2021,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gilbert Coutau",
+    "display_name": "Gilbert Coutau",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1523947",
+     "label": "Gilbert Coutau",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1523947"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Heidi Deneys",
+    "display_name": "Heidi Deneys",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q18599248",
+     "label": "Heidi Deneys",
+     "description": "Swiss politician and teacher (1937-2014)",
+     "url": "https://www.wikidata.org/wiki/Q18599248"
+    },
+    "life_date_check": {
+     "born": 1937,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alphons Egli",
+    "display_name": "Alphons Egli",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Paul Eisenring",
+    "display_name": "Paul Eisenring",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q78061376",
+     "label": "Paul Eisenring",
+     "description": "Swiss politician (1924-2016)",
+     "url": "https://www.wikidata.org/wiki/Q78061376"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fischer, Theo, Sursee",
+    "display_name": "Fischer, Theo, Sursee",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gottlieb Geissbühler",
+    "display_name": "Gottlieb Geissbühler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q78062015",
+     "label": "Gottlieb Geissbühler",
+     "description": "Swiss politician (1925-2002)",
+     "url": "https://www.wikidata.org/wiki/Q78062015"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2002,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Titus Giger",
+    "display_name": "Titus Giger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1397521",
+     "label": "Titus Giger",
+     "description": "Swiss politician (1932-2021)",
+     "url": "https://www.wikidata.org/wiki/Q1397521"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": 2021,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Ulrich Graf",
+    "display_name": "Hans Ulrich Graf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1582821",
+     "label": "Hans Ulrich Graf",
+     "description": "Swiss politician (1922-2010)",
+     "url": "https://www.wikidata.org/wiki/Q1582821"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2010,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Verena Grendelmeier",
+    "display_name": "Verena Grendelmeier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120736",
+     "label": "Verena Grendelmeier",
+     "description": "Swiss actor, television presenter and politician (1939-2018)",
+     "url": "https://www.wikidata.org/wiki/Q120736"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Günter",
+    "display_name": "Paul Günter",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2059910",
+     "label": "Paul Günter",
+     "description": "Swiss politician (1943–2024)",
+     "url": "https://www.wikidata.org/wiki/Q2059910"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Hari",
+    "display_name": "Fritz Hari",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q96319153",
+     "label": "Fritz Hari",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q96319153"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2024,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andreas Herczog",
+    "display_name": "Andreas Herczog",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2846461",
+     "label": "Andreas Herczog",
+     "description": "Swiss politician and architect (1947-2021)",
+     "url": "https://www.wikidata.org/wiki/Q2846461"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2021,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Hösli",
+    "display_name": "Fritz Hösli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1466820",
+     "label": "Fritz Hösli",
+     "description": "Swiss politician (1922-2002)",
+     "url": "https://www.wikidata.org/wiki/Q1466820"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2002,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Jaeger",
+    "display_name": "Franz Jaeger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122033",
+     "label": "Franz Jaeger",
+     "description": "Swiss politician and economist",
+     "url": "https://www.wikidata.org/wiki/Q122033"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anton Keller",
+    "display_name": "Anton Keller",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Raoul Kohler",
+    "display_name": "Raoul Kohler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3419213",
+     "label": "Raoul Kohler",
+     "description": "Swiss politician (1921-2013)",
+     "url": "https://www.wikidata.org/wiki/Q3419213"
+    },
+    "life_date_check": {
+     "born": 1921,
+     "died": 2013,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Künzi",
+    "display_name": "Hans Künzi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125263",
+     "label": "Hans Künzi",
+     "description": "Swiss mathematician and politician (1924-2004)",
+     "url": "https://www.wikidata.org/wiki/Q125263"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2004,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Georg Lüchinger",
+    "display_name": "Hans Georg Lüchinger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1579749",
+     "label": "Hans Georg Lüchinger",
+     "description": "Swiss politician (1927-2009)",
+     "url": "https://www.wikidata.org/wiki/Q1579749"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Armand Magnin",
+    "display_name": "Armand Magnin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q677684",
+     "label": "Armand Magnin",
+     "description": "Swiss politician (1920-2011)",
+     "url": "https://www.wikidata.org/wiki/Q677684"
+    },
+    "life_date_check": {
+     "born": 1920,
+     "died": 2011,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Mauch",
+    "display_name": "Ursula Mauch",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21509161",
+     "label": "Ursula Mauch",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21509161"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bernhard Müller",
+    "display_name": "Bernhard Müller",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Kurt Müller",
+    "display_name": "Kurt Müller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q16117063",
+     "label": "Kurt Müller",
+     "description": "Swiss field hockey player",
+     "url": "https://www.wikidata.org/wiki/Q16117063"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Otto Nauer",
+    "display_name": "Otto Nauer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1558452",
+     "label": "Otto Nauer",
+     "description": "Swiss politician (1914-2012)",
+     "url": "https://www.wikidata.org/wiki/Q1558452"
+    },
+    "life_date_check": {
+     "born": 1914,
+     "died": 2012,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Willi Neuenschwander",
+    "display_name": "Willi Neuenschwander",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1341412",
+     "label": "Willi Neuenschwander",
+     "description": "Swiss politician (1929-2003)",
+     "url": "https://www.wikidata.org/wiki/Q1341412"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2003,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Valentin Oehen",
+    "display_name": "Valentin Oehen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3553595",
+     "label": "Valentin Oehen",
+     "description": "Swiss politician (1931–2022)",
+     "url": "https://www.wikidata.org/wiki/Q3553595"
+    },
+    "life_date_check": {
+     "born": 1931,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Edgar Oehler",
+    "display_name": "Edgar Oehler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1284075",
+     "label": "Edgar Oehler",
+     "description": "Swiss entrepreneur and politician",
+     "url": "https://www.wikidata.org/wiki/Q1284075"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Laurent Rebeaud",
+    "display_name": "Laurent Rebeaud",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q3219475",
+     "label": "Laurent Rebeaud",
+     "description": "Swiss politician and journalist (1947-2015)",
+     "url": "https://www.wikidata.org/wiki/Q3219475"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Reimann",
+    "display_name": "Fritz Reimann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1467924",
+     "label": "Fritz Reimann",
+     "description": "Swiss politician (1924-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1467924"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Schüle",
+    "display_name": "Kurt Schüle",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q131671410",
+     "label": "Kurt Schüle",
+     "description": "Schaffhausen politician (1944-2022)",
+     "url": "https://www.wikidata.org/wiki/Q131671410"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vreni Spoerry",
+    "display_name": "Vreni Spoerry",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120061",
+     "label": "Vreni Spoerry",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120061"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Georg Stucky",
+    "display_name": "Georg Stucky",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q76368904",
+     "label": "Georg Stucky",
+     "description": "Swiss politician (1930-2020)",
+     "url": "https://www.wikidata.org/wiki/Q76368904"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Lilian Uchtenhagen",
+    "display_name": "Lilian Uchtenhagen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117058",
+     "label": "Lilian Uchtenhagen",
+     "description": "Swiss politician and economist (1928–2016)",
+     "url": "https://www.wikidata.org/wiki/Q117058"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Françoise Vannay",
+    "display_name": "Françoise Vannay",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Hansjürg Weder",
+    "display_name": "Hansjürg Weder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1583903",
+     "label": "Hansjürg Weder",
+     "description": "Swiss politician (1928-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1583903"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hugo Wick",
+    "display_name": "Hugo Wick",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q67203390",
+     "label": "Hugo Wick",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q67203390"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Walter Zwingli",
+    "display_name": "Walter Zwingli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q56042636",
+     "label": "Walter Zwingli",
+     "description": "Swiss politician (1925-2018)",
+     "url": "https://www.wikidata.org/wiki/Q56042636"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): yes",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): yes; named organizations or places (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1985.02.07",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1985.02.07"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1985-02-07",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary debate on forest decline (Waldsterben) and measures recorded by the National Council.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1985",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1985/233 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1985/233#4#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 6076,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

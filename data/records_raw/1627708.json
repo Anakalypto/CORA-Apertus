@@ -1,0 +1,103 @@
+{
+ "id": "1627708",
+ "uri": "https://culture.ld.admin.ch/ais/1627708",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1627708",
+ "title": "Répertoire pour le différend de limites entre la Colombie et le Vénézuéla",
+ "reference_code": "E2001B#1000/1515#7*",
+ "reference_number": "B.14.271.P.1.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1921-01-01",
+  "to": null,
+  "expressed": "1921"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7526",
+   "number": "1000/1515",
+   "title": "1000/01515 Bundesverwaltung (Bern) (1768 - 1926)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5692664",
+   "title": "Schiedsverträge mit einzelnen Staaten",
+   "level": "Serie",
+   "reference_code": "E2001B#B.14.271.P"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025968",
+   "title": "Schiedsgerichte und Schiedsverträge",
+   "level": "Serie",
+   "reference_code": "E2001B#B.14.271"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025967",
+   "title": "Völkerrecht",
+   "level": "Serie",
+   "reference_code": "E2001B#B.14.27"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025924",
+   "title": "Handels- und Sozialverträge / Partikularverträge",
+   "level": "Serie",
+   "reference_code": "E2001B#B.14.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025920",
+   "title": "Staatsverträge",
+   "level": "Serie",
+   "reference_code": "E2001B#B.14"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025842",
+   "title": "Allgemeine internationale Verhältnisse",
+   "level": "Serie",
+   "reference_code": "E2001B#B.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4025841",
+   "title": "Auswärtige Politik",
+   "level": "Serie",
+   "reference_code": "E2001B#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4322",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1918-1946)",
+   "level": "Sub-file",
+   "reference_code": "E2001B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

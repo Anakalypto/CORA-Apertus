@@ -1,0 +1,353 @@
+{
+ "id": "32490625",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32490625",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32490625",
+  "reference_code": "E1301#2022/180#1#12*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2014.3092: Motion Aubert Josiane. Recht der Lernenden, die Berufsmaturität über die integrierte Berufsmaturität zu erwerben / Motion Aubert Josiane. Droit de l'apprenti à accéder à la maturité professionnelle par la maturité intégrée",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Reynard, Mathias; Schneider-Ammann, Johann N.; Stahl, Jürg;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-02-29",
+    "to": null,
+    "expressed": "2016.02.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32488745",
+     "number": "2022/180",
+     "title": "2022/00180 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a National Council debate, capturing the motion and the speakers.",
+  "resume": "This is a parliamentary motion concerning the right of apprentices to obtain a professional maturity certificate through integrated vocational maturity, debated in the National Council during the spring session of 2016. The document records the speakers and the motion text in both German and French. It is a video recording of the National Council debate."
+ },
+ "metadata": {
+  "title": "2014.3092: Motion Aubert Josiane. Recht der Lernenden, die Berufsmaturität über die integrierte Berufsmaturität zu erwerben / Motion Aubert Josiane. Droit de l'apprenti à accéder à la maturité professionnelle par la maturité intégrée",
+  "title_normalized": "2014.3092: Motion Aubert Josiane. Recht der Lernenden, die Berufsmaturität über die integrierte Berufsmaturität zu erwerben / Motion Aubert Josiane. Droit de l'apprenti à accéder à la maturité professionnelle par la maturité intégrée",
+  "title_en": "Motion by Josiane Aubert on the right of apprentices to obtain professional maturity via integrated vocational maturity",
+  "creator": "Nationalrat (Swiss Federal Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2016-02-29",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "2016-02-29",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "vocational education",
+   "apprentices",
+   "professional maturity certificate",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2016",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2022/180#1#12*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32490625",
+  "accession_numbers": [
+   "2022/180"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Mathias Reynard",
+    "display_name": "Mathias Reynard",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q3298593",
+     "label": "Mathias Reynard",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3298593"
+    },
+    "life_date_check": {
+     "born": 1987,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Johann N. Schneider-Ammann",
+    "display_name": "Johann N. Schneider-Ammann",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q380063",
+     "label": "Johann Schneider-Ammann",
+     "description": "businessman, politician and member of the Swiss Federal Council (2010-2018)",
+     "url": "https://www.wikidata.org/wiki/Q380063"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jürg Stahl",
+    "display_name": "Jürg Stahl",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118341",
+     "label": "Jürg Stahl",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118341"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (Swiss Federal Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2014.3092: Motion Aubert Josiane. Recht der Lernenden, die Berufsmaturität über die integrierte Berufsmaturität zu erwerben / Motion Aubert Josiane. Droit de l'apprenti à accéder à la maturité professionnelle par la maturité intégrée\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Mathias Reynard\", \"Johann N. Schneider-Ammann\", \"Jürg Stahl\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2016.02.29",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2014.3092: Motion Aubert Josiane. Recht der Lernenden, die Berufsmaturität über die integrierte Berufsmaturität zu erwerben / Motion Aubert Josiane. Droit de l'apprenti à accéder à la maturité professionnelle par la maturité intégrée\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2016.02.29"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Mathias Reynard\", \"Johann N. Schneider-Ammann\", \"Jürg Stahl\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories; speakers are public figures."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2016-02-29",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Video recording of National Council debate on apprentices' vocational maturity rights",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/180 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2022/180#1#12*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4980,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,70 @@
+{
+ "id": "21728961",
+ "uri": "https://culture.ld.admin.ch/ais/21728961",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21728961",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 23.09.1965",
+ "reference_code": "J2.225#1996/68#2686#11*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 65/261/07A; Rolle 499\nSignatur Bundesarchiv: J2.225#1996/68#34818*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: Italien Pomezia: Internationales Zigeuner-Treffen\nSequenzbeschrieb: Italien Pomezia: Zelte, Wohnwagen / Autonummern / Gottesdienst, Männer-Frauen-Kinder-Gesichter",
+ "author": "Produktion: Agenturen",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 16.09.1965-30.09.1965",
+ "form": "Video",
+ "format": "Dauer: 0.55\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.53.44\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Zigeuner",
+ "country": null,
+ "date": {
+  "from": "1965-09-23",
+  "to": null,
+  "expressed": "1965.09.23"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21728938",
+   "title": "Tagesschau SFDRS 23.09.1965",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#2686*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690374",
+   "title": "Tagesschau SFDRS 1965",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1965"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

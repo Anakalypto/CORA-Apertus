@@ -1,0 +1,73 @@
+{
+ "id": "3278828",
+ "uri": "https://culture.ld.admin.ch/ais/3278828",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3278828",
+ "title": "Zeitungsartikel; Notizen für das Journalistenzimmer",
+ "reference_code": "E13#1000/38#318*",
+ "reference_number": null,
+ "old_reference_code": "E 13 (B) / Bd. 226",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1901-01-01",
+  "to": "1904-12-31",
+  "expressed": "1901.01.01-1904.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7477",
+   "number": "1000/38",
+   "title": "1000/00038 Bundesverwaltung (Bern) (1848-1932)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965507",
+   "title": "Handelsvertrag vom 13.07.1904 [AS, 21, 189]",
+   "level": "Serie",
+   "reference_code": "E13#2.04.06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965501",
+   "title": "Italien",
+   "level": "Serie",
+   "reference_code": "E13#2.04"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965485",
+   "title": "Handelsverträge und Zahlungsabkommen mit einzelnen Staaten",
+   "level": "Serie",
+   "reference_code": "E13#2."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3567",
+   "title": "Handelsverträge und Zahlungsabkommen",
+   "level": "Stock",
+   "reference_code": "E13*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

@@ -1,0 +1,308 @@
+{
+ "id": "31042931",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31042931",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042931",
+  "reference_code": "E1401#2017/316#4#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;",
+   "form": "Digital",
+   "date": {
+    "from": "2013-09-12",
+    "to": null,
+    "expressed": "2013.09.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31039106",
+     "number": "2017/316",
+     "title": "2017/00316 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary debate on noise pollution from freight trains.",
+  "resume": "This is a digital parliamentary record of the Swiss Council of States (Ständerat) from the autumn session of 2013, documenting a debate on a motion by Brigitte Häberli-Koller concerning noise pollution from freight trains. Only one speaker, Filippo Lombardi, is listed in the metadata for this specific debate segment. The record is an official transcript or video recording of the legislative session."
+ },
+ "metadata": {
+  "title": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+  "title_normalized": "2012.4040: Motion Häberli-Koller Brigitte. Lärm von Güterzügen / Motion Häberli-Koller Brigitte. Nuisances sonores dues au trafic marchandises",
+  "title_en": "Motion Häberli-Koller Brigitte. Noise from freight trains / Motion Häberli-Koller Brigitte. Noise nuisance due to freight traffic",
+  "creator": "Parliamentary Services of the Swiss Council of States",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2013-09-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2013-09-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "freight trains",
+   "noise pollution",
+   "environmental policy",
+   "Swiss politics",
+   "legislation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2013",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2017/316#4#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042931",
+  "accession_numbers": [
+   "2017/316"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Filippo Lombardi",
+    "display_name": "Filippo Lombardi",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q353273",
+     "label": "Filippo Lombardi",
+     "description": "Swiss politician (1956-)",
+     "url": "https://www.wikidata.org/wiki/Q353273"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Council of States (Ständerat)",
+    "role": "Legislative body hosting the debate",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains both German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers_in_debate includes \"Filippo Lombardi\" and \"Brigitte Häberli-Koller\" in title; named organizations or places (apertus): Hierarchy includes \"Ständerat\" and \"Parlamentsdienste\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2013.09.12\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains both German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2013.09.12\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes \"Filippo Lombardi\" and \"Brigitte Häberli-Koller\" in title"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hierarchy includes \"Ständerat\" and \"Parlamentsdienste\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Topic is noise pollution from freight trains, no identifiable person concerned"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by health, criminal or sensitive proceedings."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2013-09-12",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Recorded during the Council of States autumn session debate on motion concerning freight train noise.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/316 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2017/316#4#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4846,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

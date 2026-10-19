@@ -1,0 +1,79 @@
+{
+ "id": "3460600",
+ "uri": "https://culture.ld.admin.ch/ais/3460600",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460600",
+ "title": "Zeitungsartikel über Bundesrat Numa Droz",
+ "reference_code": "E2#1000/44#2308*",
+ "reference_number": "A.22.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroform",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1881-01-01",
+  "to": "1886-12-31",
+  "expressed": "1881-1886"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7515",
+   "number": "1000/44",
+   "title": "1000/00044 Bundesverwaltung (Bern) (1848-1951)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002807",
+   "title": "Bundesrat Droz",
+   "level": "Serie",
+   "reference_code": "E2#A.22.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002806",
+   "title": "Nachlässe",
+   "level": "Serie",
+   "reference_code": "E2#A.22"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002804",
+   "title": "Departementsvorsteher",
+   "level": "Serie",
+   "reference_code": "E2#A.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002802",
+   "title": "Organisation und Verwaltung",
+   "level": "Serie",
+   "reference_code": "E2#A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3575",
+   "title": "Auswärtige Angelegenheiten 1848-1895",
+   "level": "Stock",
+   "reference_code": "E2*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

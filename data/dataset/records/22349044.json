@@ -1,0 +1,350 @@
+{
+ "id": "22349044",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22349044",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22349044",
+  "reference_code": "J2.225#2006/292#106#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), 15.07.2006 ; Auszeichnung für Hernergut",
+   "old_reference_code": "Original Signatur: TSSFDRS 2503462\nSignatur Bundesarchiv: J2.225#2006/292#1448*",
+   "scope_and_content": "Inhaltsangabe: CH Horgen, ZH: Auszeichnung des Badehäuschens Hernergut durch die Europäische Denkmalschutz-Organisation \"Europa Nostra\" für die hervorragende Renovation\nSequenzbeschrieb: CH Horgen, ZH: Anbringen von Plakette an Mauer an Feier",
+   "author": "AutorIn: Pauk, Charlotte\nProduktion: SF",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Stauber, Katja",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 15.07.2006-16.07.2006",
+   "form": "Video",
+   "format": "Dauer: 00:00:10\nFarbe: Farbaufnahmen\nStartposition: 01.03.01\nTräger: MPEG IMX",
+   "thema": "Sachdeskriptor: Altbausanierung;Auszeichnung",
+   "date": {
+    "from": "2006-07-15",
+    "to": null,
+    "expressed": "2006.07.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3350933",
+     "number": "2006/292",
+     "title": "2006/00292 Schweizer Fernsehen DRS (Z�rich) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This is a contemporary news broadcast recording documenting a specific event (award ceremony for Hernergut) as it occurred.",
+  "resume": "This is a short news segment from the Swiss TV program Tagesschau on 15 July 2006 showing the award ceremony for the renovated Hernergut bathhouse in Horgen, Switzerland, by the European heritage organization Europa Nostra. The clip depicts the plaque being affixed to the building wall during the ceremony. It is a television news report covering a cultural heritage event."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), 15.07.2006 ; Auszeichnung für Hernergut",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), 15.07.2006 ; Auszeichnung für Hernergut",
+  "title_en": "Tagesschau main edition (TS), 15.07.2006 ; Award for Hernergut",
+  "creator": "SF",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2006-07-15",
+  "date_published": "2006-07-15",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-07-15",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "heritage conservation",
+   "renovation",
+   "award ceremony",
+   "cultural heritage",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 15.07.2006"
+  ],
+  "reference_code": "J2.225#2006/292#106#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22349044",
+  "accession_numbers": [
+   "2006/292"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Charlotte Pauk",
+    "display_name": "Charlotte Pauk",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Katja Stauber",
+    "display_name": "Katja Stauber",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1384116",
+     "label": "Katja Stauber",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1384116"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "Europa Nostra",
+    "role": "awarding organization",
+    "wikidata": {
+     "qid": "Q591690",
+     "label": "Europa Nostra",
+     "description": "organization",
+     "url": "https://www.wikidata.org/wiki/Q591690"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Horgen",
+    "as_written": "CH Horgen, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.260692,
+    "lon": 8.5976831,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682144",
+    "model_lat": 47.22,
+    "model_lon": 8.68
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2006)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Pauk, Charlotte\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Charlotte Pauk, Katja Stauber; named organizations or places (apertus): Europäische Denkmalschutz-Organisation \"Europa Nostra\" ; CH Horgen, ZH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: 2006.07.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2006)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Pauk, Charlotte\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2006.07.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Charlotte Pauk, Katja Stauber"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Europäische Denkmalschutz-Organisation \"Europa Nostra\" ; CH Horgen, ZH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are public figures (journalist, presenter, organization) with no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2006-07-15",
+   "place": "Horgen",
+   "lat": 47.260692,
+   "lon": 8.5976831,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2006-07-15",
+   "place": "Horgen, Switzerland",
+   "lat": 47.260692,
+   "lon": 8.5976831,
+   "description": "Broadcast of the Tagesschau news segment featuring the award ceremony for Hernergut.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/292 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/292#106#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5381,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

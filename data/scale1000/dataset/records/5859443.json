@@ -1,0 +1,287 @@
+{
+ "id": "5859443",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5859443",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859443",
+  "reference_code": "J2.229#1996/423#316#668*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Pierre Jaccoud vor Gericht während seinem Prozess",
+   "scope_and_content": "Rechtsanwalt, Anklage wegen Mordes\nAutor: Actualités Suisses Lausanne, ASL",
+   "form": "Abzug",
+   "date": {
+    "from": "1960-01-01",
+    "to": null,
+    "expressed": "1960"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16890",
+     "number": "1996/423",
+     "title": "1996/00423 k.A. Organisation (1960-1979)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by Actualités Suisses Lausanne (ASL) documenting a court appearance, making it a primary source of visual evidence.",
+  "resume": "The document is a still image (photograph) showing lawyer Pierre Jaccoud during his court proceedings, created by Actualités Suisses Lausanne (ASL). It records a legal event involving Pierre Jaccoud and provides visual evidence of the trial."
+ },
+ "metadata": {
+  "title": "Pierre Jaccoud vor Gericht während seinem Prozess",
+  "title_normalized": "Pierre Jaccoud vor Gericht während seinem Prozess",
+  "title_en": "Pierre Jaccoud before court during his trial",
+  "creator": "Actualités Suisses Lausanne, ASL",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1960",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1960",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "court proceedings",
+   "lawyer",
+   "trial"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+  "fonds_reference": "J2.229*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stadtbibliothek, La Chaux-de-Fonds (keine Angabe)",
+   "Diverses",
+   "Pierre Jaccoud"
+  ],
+  "reference_code": "J2.229#1996/423#316#668*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5859443",
+  "accession_numbers": [
+   "1996/423"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Pierre Jaccoud",
+    "display_name": "Pierre Jaccoud",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q45179",
+     "label": "Pierre Jaccoud",
+     "description": "Swiss lawyer (1905-1996)",
+     "url": "https://www.wikidata.org/wiki/Q45179"
+    },
+    "life_date_check": {
+     "born": 1905,
+     "died": 1996,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Actualités Suisses Lausanne, ASL",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Pierre Jaccoud; named organizations or places (apertus): Actualités Suisses Lausanne, ASL",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Pierre Jaccoud"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Actualités Suisses Lausanne, ASL"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/423 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.229#1996/423#316#668*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.9,
+  "tokens": 4433,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

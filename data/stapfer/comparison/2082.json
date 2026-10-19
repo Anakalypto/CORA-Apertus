@@ -1,0 +1,57 @@
+{
+ "id": 2082,
+ "signature": "HA 9131, fol. 17-19",
+ "reference": {
+  "place": "Zofingen",
+  "canton_1799": "Aargau",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Franz Samuel Müller",
+  "teacher_age": 73,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 38,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Zofingen",
+  "canton_1799": "null",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Franz Samuel Müller",
+  "teacher_age": 73,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 38,
+  "pupils_winter": 46,
+  "pupils_summer": 46,
+  "author_name": "Schullehrer Franz Samuel Müller",
+  "date_written": "1799-01-01"
+ },
+ "evidence": {
+  "place": "zofingen, eine kleine Stadt.",
+  "school_type": "die Schulen werden das ganze Jahr gehalten. — Vermengte Schule (repetieren des Heidelbergers, Psalmen, Lieder, Sprüche, schreiben, Latein schreiben, Rechnen, Psalmen zu vier Stimmen singen)",
+  "confession": "Kirch-Gemeinde zofingen",
+  "teacher_name": "Franz Samuel Müller",
+  "teacher_age": "73 Jahr alt",
+  "teacher_since": "Seit 38 Jahren",
+  "pupils_winter": "46 Knaben",
+  "pupils_summer": "46 Knaben"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "missed",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "extra",
+  "date_written": "extra"
+ },
+ "seconds": 9.48
+}

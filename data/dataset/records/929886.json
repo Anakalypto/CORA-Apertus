@@ -1,0 +1,287 @@
+{
+ "id": "929886",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/929886",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/929886",
+  "reference_code": "J2.181#1987/52#1983*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nachrufe verschiedener kirchlicher Persönlichkeiten",
+   "reference_number": "131.06-5",
+   "date": {
+    "from": "1931-01-01",
+    "to": "1939-12-31",
+    "expressed": "1931-1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+     "number": "1987/52",
+     "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "other",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit consists of retrospective obituaries of church personalities compiled within the administrative records of the Christian Democratic People's Party.",
+  "resume": "The record is a collection of obituaries for various religious figures, compiled by the Christian Democratic People's Party of Switzerland between 1931 and 1939. It documents the passing of notable church personalities during that decade. The material is archived within the party's internal files on church-related matters."
+ },
+ "metadata": {
+  "title": "Nachrufe verschiedener kirchlicher Persönlichkeiten",
+  "title_normalized": "Nachrufe verschiedener kirchlicher Persönlichkeiten",
+  "title_en": "Obituaries of various religious personalities",
+  "creator": "Christlichdemokratische Volkspartei der Schweiz",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1931/1939",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1931/1939",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "religious figures",
+   "Christian Democratic People's Party",
+   "church"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+  "fonds_reference": "J2.181*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "Christlichdemokratische Volkspartei der Schweiz  (CVP)",
+   "Eidgenössische Politik",
+   "Innenpolitik",
+   "Kirche",
+   "Verschiedenes"
+  ],
+  "reference_code": "J2.181#1987/52#1983*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/929886",
+  "accession_numbers": [
+   "1987/52"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Christlichdemokratische Volkspartei der Schweiz",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q659461",
+     "label": "Christian Democratic People's Party",
+     "description": "political party in Switzerland (CVP/PDC/PPD)",
+     "url": "https://www.wikidata.org/wiki/Q659461"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title: \"Nachrufe verschiedener kirchlicher Persönlichkeiten\"; named organizations or places (apertus): hierarchy_top_down: \"Christlichdemokratische Volkspartei der Schweiz\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Nachrufe verschiedener kirchlicher Persönlichkeiten\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Christlichdemokratische Volkspartei der Schweiz\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names deceased religious figures and a political party; no identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1931-1939",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compilation of obituaries for various religious personalities by the Christian Democratic People's Party of Switzerland.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/52 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.181#1987/52#1983*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4506,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

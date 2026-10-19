@@ -1,0 +1,336 @@
+{
+ "id": "28106183",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28106183",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106183",
+  "reference_code": "J2.225#2006/365#81#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Neue Betriebe der Schweizerischen Milchwirtschaft",
+   "old_reference_code": "Original Signatur: 9502012\nSignatur Bundesarchiv: J2.225#2006/365#3*",
+   "scope_and_content": "Inhaltsangabe: CH Villars-sur-Glâne, FR: Butter-Produktion in neuer Cremo-Butterfabrik Lucens, VD: Herstellung von Choco-Drink in neuer Fabrik des kantonalen Milchproduzentenverbands\nSequenzbeschrieb: CH o.O., FR: Schwenk Landschaft mit Schwarzflecken-Kühen Villars-sur-Glâne, FR: Lastwagen vor Butterzentrale vorfahrend, Abladen von Rahmkannen auf Förderband / Mann Kannen öffnend und Rahm kontrollierend / automatisches Leeren der Kannen / Laborantin Rahm-Probe entnehmend / automatisches Reinigen der Kannen / Mann Pasteurisierungsanlage bedienend / laufende Buttermaschinen, Mann Butter-Konsistenz prüfend / Arbeiter Buttermilch aus Stahlfertiger fliessen lassend und mit Schaufel Butter in Behälter füllend / laufende Modelliermaschine und Verpackungsmaschine / Arbeiterinnen Butter-Mödeli in Kartons verpackend / Gabelstapler Butterschachteln in Kühlraum abladend Lucens, VD: Bäuerin und Mädchen Heuwagen auf Strasse ziehend, Ortstafel / Kühe auf Weide / AA Léco-Fabrik / Harassen mit leeren Flaschen / leere Flaschen werden mit Vakuumgerät auf Förderband gestellt / Flaschen in Reinigungsanlage, Arbeiterin schadhafte Flaschen aussortierend / Flaschen in Abfüllanlage / Flaschen in Sterilisationsmaschine / automatisches Verpacken von Choco Drink-Flaschen in Harassen / Verladen von Harassen auf Lastwagen",
+   "author": "AutorIn: Senti, Alois ; Haeberli, Rolf\nProduktion: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "format": "Dauer: 00:09:53\nOriginalformat: V-U;16 mm;sepmag\nPosition Anfang: 01.49.25",
+   "thema": "Sachdeskriptor: Milchprodukt;Nahrungsmittelindustrie",
+   "date": {
+    "from": "1966-06-12",
+    "to": null,
+    "expressed": "1966.06.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376890",
+     "number": "2006/365",
+     "title": "2006/00365 Schweizer Fernsehen DRS (Z�rich) (1959-1971)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct television production created during the events it depicts, with original footage and technical metadata.",
+  "resume": "A 16 mm television segment from the Swiss Federal Television DRS (1959-1971) documenting new operations in the Swiss dairy industry, showing butter production at the Cremo-Butterfabrik Lucens and chocolate drink manufacturing at a cantonal milk producers' association facility, with workers performing various stages of processing, packaging, and transportation."
+ },
+ "metadata": {
+  "title": "Neue Betriebe der Schweizerischen Milchwirtschaft",
+  "title_normalized": "Neue Betriebe der Schweizerischen Milchwirtschaft",
+  "title_en": "New Operations of the Swiss Dairy Industry",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1966-06-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1966-06-12",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Milchprodukt",
+   "Nahrungsmittelindustrie"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Landwirtschaftliche Rundschau (LRS) 1959-1970",
+   "Landwirtschaftliche Rundschau (LRS) 1966",
+   "Landwirtschaftliche Rundschau (LRS) 12.06.1966"
+  ],
+  "reference_code": "J2.225#2006/365#81#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106183",
+  "accession_numbers": [
+   "2006/365"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Alois Senti",
+    "display_name": "Alois Senti",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Rolf Haeberli",
+    "display_name": "Rolf Haeberli",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "DRS",
+    "display_name": "DRS",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Lucens",
+    "as_written": "Lucens",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.708447,
+    "lon": 6.8389766,
+    "gazetteer": "https://www.openstreetmap.org/relation/1868686",
+    "model_lat": 46.6,
+    "model_lon": 6.7
+   },
+   {
+    "name": "Villars-sur-Glâne",
+    "as_written": "Villars-sur-Glâne",
+    "role": "depicted",
+    "country": "FR",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.6,
+    "model_lon": 6.7
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1959-1971)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Senti, Alois ; Haeberli, Rolf\nProduktion:",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Alois Senti, Rolf Haeberli; named organizations or places (apertus): CH Villars-sur-Glâne, FR: … Lucens, VD: …",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1966.06.12; free text places (apertus): CH Villars-sur-Glâne, FR: … Lucens, VD: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1959-1971)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Senti, Alois ; Haeberli, Rolf\nProduktion:"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1966.06.12"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Villars-sur-Glâne, FR: … Lucens, VD: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Alois Senti, Rolf Haeberli"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Villars-sur-Glâne, FR: … Lucens, VD: …"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1966-06-12",
+   "place": "Lucens",
+   "lat": 46.708447,
+   "lon": 6.8389766,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1966-06-12",
+   "place": "Lucens, VD",
+   "lat": 46.708447,
+   "lon": 6.8389766,
+   "description": "Television segment aired documenting dairy operations.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/365 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/365#81#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5820,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

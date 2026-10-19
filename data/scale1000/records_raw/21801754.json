@@ -1,0 +1,70 @@
+{
+ "id": "21801754",
+ "uri": "https://culture.ld.admin.ch/ais/21801754",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21801754",
+ "title": "Tagesschau (TS), 20.04.1982",
+ "reference_code": "J2.225#1996/68#8709#1*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG E82/234\nSignatur Bundesarchiv: J2.225#1996/68#7966*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bern, BE: Bilanz-PK der Eidgenössischen Bankenkommission\nSequenzbeschrieb: CH Bern, BE: PK / Jahresbericht / Interview mit Hermann Bodenmann, (P der Bankenkommission) / Statement Albert Uldry,(Vize-P) / AA Bank Paribas",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 13.04.1982-27.04.1982",
+ "form": "Video",
+ "format": "Dauer: 5.30\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.11.30\nTräger: Betacam-SP",
+ "thema": "Personen: Bodenmann, Hermann; Uldry, Albert\nSachdeskriptor: Bank",
+ "country": null,
+ "date": {
+  "from": "1982-04-20",
+  "to": null,
+  "expressed": "1982.04.20"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21801753",
+   "title": "Tagesschau SFDRS 20.04.1982",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#8709*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690391",
+   "title": "Tagesschau SFDRS 1982",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1982"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

@@ -1,0 +1,61 @@
+{
+ "id": 2365,
+ "signature": "BAR B0 1000/1483, Nr. 1461, fol. 81-82v",
+ "reference": {
+  "place": "Messen",
+  "canton_1799": "Solothurn",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Rudolf Messer",
+  "teacher_age": 45,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 21,
+  "pupils_winter": 81,
+  "pupils_summer": null,
+  "author_name": "Rudolf Meßer",
+  "date_written": "1799-02-27"
+ },
+ "apertus": {
+  "place": "Meßen",
+  "canton_1799": "Solothurn",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Rudolf Meßer",
+  "teacher_age": 45,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "21",
+  "pupils_winter": 81,
+  "pupils_summer": 81,
+  "author_name": "Rudolf Meßer",
+  "date_written": "1799-03-17"
+ },
+ "evidence": {
+  "subjects_taught": "seine gegenstände Buchstabieren, Sylabieren, Lesen, im neüen und alten Testament, Psalmen, geschriebnes, Schreiben, Rechnen, und Singen",
+  "school_season": "Seine Zeyt. 1. im Winter, von Martini biß Ostern. 2. im Summer per Wochen 1 Tag, und dazu wenig benutzt und von der kleinsten Zahl.",
+  "textbooks": "Die Üblichen Bücher. Namenbücher. Berner, und Heidelberger Chatechismus Test: Psalmen Histo: Festlieder. Wägweiser. Schreib vorschrifften werden aus Büchern des Göttlichen worts vorgelegt.",
+  "daily_duration": "Seyne Daur von 8-11 Ur, VM: von 1-4 NM:",
+  "class_division": "Classen. Buchstabierende. Sylabde; Anfänger im Lesen, die fertigen im Lesen, und auswendig-lehrnenden, die Repetierenden, Schreibenten, und anfänger im Rechnen.",
+  "teacher_appointment": "bihsherige bestellung der Schul durch die Gemeinde auf Examynacion hin deß Pfarrers.",
+  "teacher_previous_occupation": "ein Schreyner",
+  "income_source": "Einkommen deß Schullehrers besteht in 36 kr. Circa wird verhältnißmäßig von jedem Hausvatter Bezahlt.",
+  "school_fund": "Schulfond ist keiner, auch kein Armen noch Kirchenfond",
+  "school_building_condition": "Schulhaus, in alter Bauarth, hat nichts dan die Schulstube",
+  "school_building_type": "Schulhaus, in alter Bauarth, hat nichts dan die Schulstube",
+  "local_info": "Meßen ein Dorf, und eine Gemeinde, im Distrikt Biebeist Section Bucheggberg Canton Solothurn, Haubt Kirchspil Meßen, hat am Ohrt selbst seinen Agenten, auch einzig fürs Dorf selbst eine Schule, von dieser die wenigst-entfernten Schulen sind. a. Roppoldsried b. Braunenthal. jede 1/4 Stund. {NB Oben bey sind die Zahl der Häuser 48 auß gelaßen worden welche zur Schul gehören.}"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "mismatch"
+ },
+ "seconds": 20.97
+}

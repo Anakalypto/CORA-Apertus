@@ -1,0 +1,57 @@
+{
+ "id": 2457,
+ "signature": "BAR B0 1000/1483, Nr. 1426, fol. 100-103v",
+ "reference": {
+  "place": "Basel",
+  "canton_1799": "Basel",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Samuel Wettstein",
+  "teacher_age": 70,
+  "teacher_marital_status": "ledig",
+  "teacher_since": 1779,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Samuel Wettstein",
+  "date_written": "1799-02-14"
+ },
+ "apertus": {
+  "place": "Basel (minderen Basel)",
+  "canton_1799": "Waldstätten",
+  "school_type": "Mägdlein-Schul",
+  "confession": "reformiert",
+  "teacher_name": "Samuel Wettstein",
+  "teacher_age": 70,
+  "teacher_marital_status": "ledig",
+  "teacher_since": 20,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Samuel Wettstein",
+  "date_written": "1799-02-14"
+ },
+ "evidence": {
+  "school_type": "Mägdlein-Schul",
+  "confession": "reformiert",
+  "teacher_name": "Samuel Wettstein",
+  "teacher_age": "Siebenzig Jahre alt",
+  "teacher_marital_status": "im ledigen Stand zugebracht",
+  "teacher_since": "zwanzig Jahre ist es, daß ich Praeceptor der Mägdlein-Schul im minderen Basel bin",
+  "pupils_winter": null,
+  "pupils_summer": null
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "mismatch",
+  "school_type": "mismatch",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "mismatch",
+  "pupils_winter": "both_empty",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 9.06
+}

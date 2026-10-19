@@ -1,0 +1,367 @@
+{
+ "id": "21683041",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21683041",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21683041",
+  "reference_code": "J2.143#1996/386#642-1#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Militärsport",
+   "reference_number": "0642-6",
+   "old_reference_code": "Original Signatur: SFW 642-6\nSignatur Bundesarchiv: J2.143#1996/386#637#6*",
+   "alternate_reference": "SFW_0642-6",
+   "scope_and_content": "Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, Altdorf, UR: Wehrsport / 10. Militär-Wettmarsch\n\nSequenzbeschrieb:\nAltdorf, UR (Schweiz) - Start Teilnehmer\nAltdorf, UR (Schweiz) - Renn-Ausschnitte Frischknecht, Wittwer,\nErstfeld, UR (Schweiz) - Renn-Ausschnitt mit Zwingli und Meili\nAltdorf, UR (Schweiz) - 1. Zwingli im Ziel\nCommuniqué:\nNiklaus Zwingli gewinnt den von 851 Wehrmännern bestrittenen Altdorfer Militärwettmarsch.\n\nKommentar:\n851 Feldgraue starten beim Telldenkmal zum 10. Altdorfer Militärmarsch. Hans Frischknecht, der grosse Favorit, wird von gefährlichen Mitkämpfern gejagt, / unter ihnen Füsilier Wittwer, der vor dem 10. Kilometer die Spitze gewinnt. / Aber in Erstfeld greift der Landwehrmann Niklaus Zwingli an, / dem sich der Gefreite Max Meili anschliesst. / Wittwer hält das Tempo eine Zeitlang mit: dann holt Zwingli zum Entscheidungsschlag aus / und geht mit neuer Rekordzeit in Altdorf durchs Ziel: 30 Kilometer in 2 Stunden, 26 Minuten, 10 Sekunden./\n\nAlter Titel:\nWehrsport",
+   "author": "Produktion: Schweizer Filmwochenschau",
+   "publisher": "HerausgeberIn: Schweizer Filmwochenschau (SFW)",
+   "form": "Film",
+   "format": "Dauer: 00:44 (Start 05:35 / End 06:19)\nSeitenverhältnis: 4:3\nFarbe: SW\nOriginalträger: 35mm Zelluloseazetat\nKommentarton: deutsch",
+   "thema": "Personen:\nHans Frischknecht; Niklaus Zwingli; Max Meili; Arthur Wittwer\n\nOrte:\nAltdorf, UR (Schweiz); Erstfeld, UR (Schweiz)\n\nSchlagworte:\nWesteuropa",
+   "date": {
+    "from": "1954-10-15",
+    "to": null,
+    "expressed": "1954.10.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film footage of a newsreel produced by the Schweizer Filmwochenschau.",
+  "resume": "A Swiss newsreel (Filmwochenschau) from 1954 documents the 10th Altdorf military march, showing footage of participants, race highlights, and a commentary on the competition won by Niklaus Zwingli."
+ },
+ "metadata": {
+  "title": "Militärsport",
+  "title_normalized": "Militärsport",
+  "title_en": "Military Sport",
+  "creator": "Schweizer Filmwochenschau",
+  "publisher": "Schweizer Filmwochenschau (SFW)",
+  "commissioner": null,
+  "date_created": "1954-10-15",
+  "date_published": "1954-10-15",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1954-10-15",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "military marches",
+   "sports",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1954",
+   "Schweizer Filmwochenschau vom 15.10.1954",
+   "Schweizer Filmwochenschau vom 15.10.1954"
+  ],
+  "reference_code": "J2.143#1996/386#642-1#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21683041",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Frischknecht",
+    "display_name": "Hans Frischknecht",
+    "role": "athlete",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Niklaus Zwingli",
+    "display_name": "Niklaus Zwingli",
+    "role": "athlete",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Max Meili",
+    "display_name": "Max Meili",
+    "role": "athlete",
+    "wikidata": {
+     "qid": "Q16101779",
+     "label": "Max Meili",
+     "description": "Swiss association football player",
+     "url": "https://www.wikidata.org/wiki/Q16101779"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Arthur Wittwer",
+    "display_name": "Arthur Wittwer",
+    "role": "athlete",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizer Filmwochenschau (SFW)",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Altdorf, UR (Switzerland)",
+    "as_written": "Altdorf, UR (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.8820732,
+    "lon": 8.6413922,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683055",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Erstfeld, UR (Switzerland)",
+    "as_written": "Erstfeld, UR (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.8215088,
+    "lon": 8.6499636,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683070",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, Al",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:44 (Start 05:35 / End 06:19)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Hans Frischknecht; Niklaus Zwingli; Max Meili; Arthur Wittwer; named organizations or places (apertus): Orte: Altdorf, UR (Schweiz); Erstfeld, UR (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date: expressed: 1954.10.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, Al"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:44 (Start 05:35 / End 06:19)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 1954.10.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Hans Frischknecht; Niklaus Zwingli; Max Meili; Arthur Wittwer"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte: Altdorf, UR (Schweiz); Erstfeld, UR (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1954-10-15",
+   "place": "Altdorf, UR (Switzerland)",
+   "lat": 46.8820732,
+   "lon": 8.6413922,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1954-10-15",
+   "place": "Erstfeld, UR (Switzerland)",
+   "lat": 46.8215088,
+   "lon": 8.6499636,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1954-10-15",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Newsreel footage of the 10th Altdorf military march was produced and broadcast.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#642-1#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 6069,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

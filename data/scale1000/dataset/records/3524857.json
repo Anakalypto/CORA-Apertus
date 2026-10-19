@@ -1,0 +1,493 @@
+{
+ "id": "3524857",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524857",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524857",
+  "reference_code": "E1301#1991/321#12#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "87.076: Fernmeldegesetz / Loi sur les télécommunications",
+   "scope_and_content": "Sprecher/Sprecherinnen: Auer, Felix; Caccia, Fulvio; Columberg, Dumeni; Frey, Walter; Hafner, Rudolf; Lanz, Fritz; Leuenberger, Ernst; Martin, Jacques; Mühlemann, Ernst; Nebiker, Hans-Rudolf; Ogi, Adolf; Reimann, Fritz; Ruf, Markus; Schmid, Hans; Spielmann, Jean",
+   "date": {
+    "from": "1991-03-21",
+    "to": null,
+    "expressed": "1991.03.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383454",
+     "number": "1991/321",
+     "title": "1991/00321 Parlamentsdienste (Bern) (1991)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary record of the National Council debate on the Telecommunications Act (Fernmeldegesetz) held on 21 March 1991, capturing the speeches of multiple members during the spring session of the 1991 legislative period."
+ },
+ "metadata": {
+  "title": "87.076: Fernmeldegesetz / Loi sur les télécommunications",
+  "title_normalized": "87.076: Fernmeldegesetz / Loi sur les télécommunications",
+  "title_en": "Telecommunications Act / Loi sur les télécommunications",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1991-03-21",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1991",
+  "content_date": "1991-03-21",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Telecommunications legislation",
+   "Parliamentary debate",
+   "Swiss federal law"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Frühjahrssession 1991",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1991/321#12#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524857",
+  "accession_numbers": [
+   "1991/321"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Felix Auer",
+    "display_name": "Felix Auer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1403315",
+     "label": "Felix Auer",
+     "description": "Swiss politician (1925-2016)",
+     "url": "https://www.wikidata.org/wiki/Q1403315"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fulvio Caccia",
+    "display_name": "Fulvio Caccia",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120703",
+     "label": "Fulvio Caccia",
+     "description": "Swiss poet, politician and writer",
+     "url": "https://www.wikidata.org/wiki/Q120703"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dumeni Columberg",
+    "display_name": "Dumeni Columberg",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125446",
+     "label": "Dumeni Columberg",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125446"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Walter Frey",
+    "display_name": "Walter Frey",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2544302",
+     "label": "Walter Frey",
+     "description": "German politician (1909-1966)",
+     "url": "https://www.wikidata.org/wiki/Q2544302"
+    },
+    "life_date_check": {
+     "born": 1909,
+     "died": 1966,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rudolf Hafner",
+    "display_name": "Rudolf Hafner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2172835",
+     "label": "Rudolf Hafner",
+     "description": "Swiss politician and author",
+     "url": "https://www.wikidata.org/wiki/Q2172835"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Lanz",
+    "display_name": "Fritz Lanz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1467270",
+     "label": "Fritz Lanz",
+     "description": "Swiss politician (1922-2009)",
+     "url": "https://www.wikidata.org/wiki/Q1467270"
+    },
+    "life_date_check": {
+     "born": 1922,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ernst Leuenberger",
+    "display_name": "Ernst Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123122",
+     "label": "Ernst Leuenberger",
+     "description": "Swiss politician (1945-2009)",
+     "url": "https://www.wikidata.org/wiki/Q123122"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacques Martin",
+    "display_name": "Jacques Martin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ernst Mühlemann",
+    "display_name": "Ernst Mühlemann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1359563",
+     "label": "Ernst Mühlemann",
+     "description": "Swiss politician (1930-2009)",
+     "url": "https://www.wikidata.org/wiki/Q1359563"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans-Rudolf Nebiker",
+    "display_name": "Hans-Rudolf Nebiker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1578179",
+     "label": "Hans-Rudolf Nebiker",
+     "description": "Swiss politician (1929-2008)",
+     "url": "https://www.wikidata.org/wiki/Q1578179"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2008,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Adolf Ogi",
+    "display_name": "Adolf Ogi",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Fritz Reimann",
+    "display_name": "Fritz Reimann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1467924",
+     "label": "Fritz Reimann",
+     "description": "Swiss politician (1924-2018)",
+     "url": "https://www.wikidata.org/wiki/Q1467924"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2018,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Ruf",
+    "display_name": "Markus Ruf",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1901753",
+     "label": "Markus Ruf",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1901753"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Schmid",
+    "display_name": "Hans Schmid",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean Spielmann",
+    "display_name": "Jean Spielmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q23641707",
+     "label": "Jean Spielmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q23641707"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): yes; named organizations or places (apertus): yes",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1991.03.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1991.03.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Speakers are politicians and public figures, not private individuals."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1991",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1991/321 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1991/321#12#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4925,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

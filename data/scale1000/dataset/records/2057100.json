@@ -1,0 +1,319 @@
+{
+ "id": "2057100",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/2057100",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2057100",
+  "reference_code": "J1.173#1986/188#94#80*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Robert Grimm und Sohn Bruno Grimm",
+   "old_reference_code": "J1.173#1986/188#81#80*",
+   "scope_and_content": "Auf Felsen sitzend",
+   "form": "Fotografie",
+   "date": {
+    "from": "1945-01-01",
+    "to": null,
+    "expressed": "1945"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16760",
+     "number": "1986/188",
+     "title": "1986/00188 Grimm-Kuhn, Jenny (Bern) (1896-1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by the family archive.",
+  "resume": "A photograph showing Robert Grimm and his son Bruno Grimm seated on rocks."
+ },
+ "metadata": {
+  "title": "Robert Grimm und Sohn Bruno Grimm",
+  "title_normalized": "Robert Grimm und Sohn Bruno Grimm",
+  "title_en": "Robert Grimm and Son Bruno Grimm",
+  "creator": "Grimm Robert (1881-1958) and Family",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1945",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1986",
+  "content_date": "1945",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "family",
+   "photographs",
+   "Grimm family"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Grimm Robert (1881-1958) und Familie",
+  "fonds_reference": "J1.173*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Grimm Robert (1881-1958) und Familie",
+   "Audiovisuelle Dokumente",
+   "Familie, Privates und Ferien"
+  ],
+  "reference_code": "J1.173#1986/188#94#80*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2057100",
+  "accession_numbers": [
+   "1986/188"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Robert Grimm",
+    "display_name": "Robert Grimm",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q115645",
+     "label": "Robert Grimm",
+     "description": "Swiss politician (1881-1958)",
+     "url": "https://www.wikidata.org/wiki/Q115645"
+    },
+    "life_date_check": {
+     "born": 1881,
+     "died": 1958,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bruno Grimm",
+    "display_name": "Bruno Grimm",
+    "role": "subject",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "null",
+    "as_written": "Auf Felsen sitzend",
+    "role": "depicted",
+    "country": null,
+    "lat": -15.8574306,
+    "lon": -145.1130015,
+    "gazetteer": "https://www.openstreetmap.org/node/13822830734",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): Robert Grimm and Bruno Grimm",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "low",
+   "reason": "private individuals (apertus): Robert Grimm (1881-1958) and Bruno Grimm",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Robert Grimm and Bruno Grimm"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Robert Grimm (1881-1958) and Bruno Grimm"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": true,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1945",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Photograph taken of Robert Grimm and his son Bruno Grimm.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1945",
+   "place": "null",
+   "lat": -15.8574306,
+   "lon": -145.1130015,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1986",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1986/188 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.173#1986/188#94#80*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.9,
+  "tokens": 4370,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

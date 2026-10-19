@@ -1,0 +1,378 @@
+{
+ "id": "22404702",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22404702",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22404702",
+  "reference_code": "J2.240#1998/317#1270#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "BERNE ARCHIVES (10.05-23.05.85) ; TELE JOURNAL, 23.05.1985",
+   "old_reference_code": "Original Signatur: TJTSR 85UH4339/01; 97LX0555/01; 97LX0555/02; 97LX0555/03; 97LX0555/04; 97LX0555/05; 97LX0555/06; 97LX0555/07\nSignatur Bundesarchiv: J2.240#1998/317#6126*",
+   "scope_and_content": "Sequenzbeschrieb: 1. Protection civile Schwarzenburg - Vue des batiments - Inauguration avec Elisabeth Kopp, conseillere federale - Central telephone - Vue abri - Materiel de protection - Maquettes immeubles detruits - 2. Asuag-Ssih - Conf. de presse - Fabrication pieces d'horlogerie - Femmes au travail - Int. Francois Millet - Montres Longines - Int. Pierre Arnold - 3. Voyage Pierre Aubert au Proche-Orient - Int. Pierre Aubert - 4. Initiative protection des animaux - Suppression vivisection - Souris de laboratoire - Chat avec electrodes - 5. Ballenberg - Reconstruction de maisons typiques suisses - 6. Congres des cheminots - Int. Jea n Clivaz - 7. amenagement du territoir Elisabeth Kopp - Kurt Furgler - Moisson dans les cham ps - Ble - Int. Marcel Blanc, conseiller d'etat -",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: PROCHE-ORIENT; SUISSE; Berne; Ballenberg; Schwarzenburg\nZeitliche Abdeckung: 16.05.1985-30.05.1985",
+   "form": "Video",
+   "format": "Audiotyp: INTER; INTER; INTER; INTER\nDauer: 00:02.21\nFarbe: couleur\nFormat Arbeitskopie: Betacam-digital\nOriginalformat: COMPON25 4/3\nStartposition: 00:01.30",
+   "thema": "Personen: AUBERT, Pierre; FURGLER, Kurt; ARNOLD, Pierre; KOPP, Elisabeth\nSachdeskriptor: batiment rural; culture du ble; protection des animaux; entreprise; horlogerie; chemin de fer; travail des femmes",
+   "date": {
+    "from": "1985-05-23",
+    "to": null,
+    "expressed": "1985.05.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16906",
+     "number": "1998/317",
+     "title": "1998/00317 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news program captured on video.",
+  "resume": "This is a video segment from the Swiss Romand television news program Téléjournal dated 23 May 1985, covering topics such as civil protection in Schwarzenburg, watchmaking at Asuag-Ssih, Pierre Aubert's Middle East trip, an animal protection initiative, reconstruction at Ballenberg, a railway congress, and land development by Elisabeth Kopp and Kurt Furgler."
+ },
+ "metadata": {
+  "title": "BERNE ARCHIVES (10.05-23.05.85) ; TELE JOURNAL, 23.05.1985",
+  "title_normalized": "BERNE ARCHIVES (10.05-23.05.85) ; TELE JOURNAL, 23.05.1985",
+  "title_en": "Bern Archives (10.05-23.05.85) ; Tele Journal, 23.05.1985",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1985-05-23",
+  "date_updated": null,
+  "date_archived": "1998",
+  "content_date": "1985-05-23",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "civil protection",
+   "watchmaking",
+   "animal protection",
+   "railway",
+   "agriculture",
+   "traditional architecture"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Téléjournal 1980-1991 TSR",
+   "Téléjournal TSR 1985",
+   "Téléjournal TSR 23.05.1985"
+  ],
+  "reference_code": "J2.240#1998/317#1270#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22404702",
+  "accession_numbers": [
+   "1998/317"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "AUBERT, Pierre",
+    "display_name": "Pierre AUBERT",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "FURGLER, Kurt",
+    "display_name": "Kurt FURGLER",
+    "role": "interviewee",
+    "wikidata": {
+     "qid": "Q115600",
+     "label": "Kurt Furgler",
+     "description": "Swiss politician (1924-2008)",
+     "url": "https://www.wikidata.org/wiki/Q115600"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2008,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "ARNOLD, Pierre",
+    "display_name": "Pierre ARNOLD",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "KOPP, Elisabeth",
+    "display_name": "Elisabeth KOPP",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Schwarzenburg",
+    "as_written": "Schwarzenburg",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.8179164,
+    "lon": 7.3411883,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682656",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Ballenberg",
+    "as_written": "Ballenberg",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.7487621,
+    "lon": 8.084871,
+    "gazetteer": "https://www.openstreetmap.org/node/403263015",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Proche-Orient",
+    "as_written": "PROCHE-ORIENT",
+    "role": "mentioned",
+    "country": "SYR",
+    "lat": 36.1906908,
+    "lon": 44.0104083,
+    "gazetteer": "https://www.openstreetmap.org/relation/6083229",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"1998/00317 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): BERNE ARCHIVES (10.05-23.05.85) ; TELE JOURNAL, 23.05.1985",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: 1. Protection civile Schwarzenburg - Vue des batiments - Inauguration avec Elisabeth Kopp, conseillere federale - Central telephone - Vue abri - Materiel de protection - Maquettes immeubles detruits - 2. Asuag-Ssih - Conf. de presse - Fabrication pieces d'horlogerie - Femmes au travail - Int. Francois Millet - Montres Longines - Int. Pierre Arnold - 3. Voyage Pierre Aubert au Proche-Orient - Int. Pierre Aubert - 4. Initiative protection des animaux - Suppression vivisection - Souris de laboratoire - Chat avec electrodes - 5. Ballenberg - Reconstruction de maisons typiques suisses - 6. Congres des cheminots - Int. Jea n Clivaz - 7. amenagement du territoir Elisabeth Kopp - Kurt Furgler - Moisson dans les cham ps - Ble - Int. Marcel Blanc, conseiller d'etat -",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Audiotyp: INTER; INTER; INTER; INTER\nDauer: 00:02.; multilingual (apertus): Sequenzbeschrieb: 1. Protection civile Schwarzenburg - Vue des batiments - Inauguration avec Elisabeth Kopp, conseillere federale - Central telephone - Vue abri - Materiel de protection - Maquettes immeubles detruits - 2. Asuag-Ssih - Conf. de presse - Fabrication pieces d'horlogerie - Femmes au travail - Int. Francois Millet - Montres Longines - Int. Pierre Arnold - 3. Voyage Pierre Aubert au Proche-Orient - Int. Pierre Aubert - 4. Initiative protection des animaux - Suppression vivisection - Souris de laboratoire - Chat avec electrodes - 5. Ballenberg - Reconstruction de maisons typiques suisses - 6. Congres des cheminots - Int. Jea n Clivaz - 7. amenagement du territoir Elisabeth Kopp - Kurt Furgler - Moisson dans les cham ps - Ble - Int. Marcel Blanc, conseiller d'etat -",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: AUBERT, Pierre; FURGLER, Kurt; ARNOLD, Pierre; KOPP, Elisabeth; named organizations or places (apertus): Geografische Abdeckung: PROCHE-ORIENT; SUISSE; Berne; Ballenberg; Schwarzenburg",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1985.05.23; free text places (apertus): Geografische Abdeckung: PROCHE-ORIENT; SUISSE; Berne; Ballenberg; Schwarzenburg",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"1998/00317 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "BERNE ARCHIVES (10.05-23.05.85) ; TELE JOURNAL, 23.05.1985"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: 1. Protection civile Schwarzenburg - Vue des batiments - Inauguration avec Elisabeth Kopp, conseillere federale - Central telephone - Vue abri - Materiel de protection - Maquettes immeubles detruits - 2. Asuag-Ssih - Conf. de presse - Fabrication pieces d'horlogerie - Femmes au travail - Int. Francois Millet - Montres Longines - Int. Pierre Arnold - 3. Voyage Pierre Aubert au Proche-Orient - Int. Pierre Aubert - 4. Initiative protection des animaux - Suppression vivisection - Souris de laboratoire - Chat avec electrodes - 5. Ballenberg - Reconstruction de maisons typiques suisses - 6. Congres des cheminots - Int. Jea n Clivaz - 7. amenagement du territoir Elisabeth Kopp - Kurt Furgler - Moisson dans les cham ps - Ble - Int. Marcel Blanc, conseiller d'etat -"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Audiotyp: INTER; INTER; INTER; INTER\nDauer: 00:02."
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: 1. Protection civile Schwarzenburg - Vue des batiments - Inauguration avec Elisabeth Kopp, conseillere federale - Central telephone - Vue abri - Materiel de protection - Maquettes immeubles detruits - 2. Asuag-Ssih - Conf. de presse - Fabrication pieces d'horlogerie - Femmes au travail - Int. Francois Millet - Montres Longines - Int. Pierre Arnold - 3. Voyage Pierre Aubert au Proche-Orient - Int. Pierre Aubert - 4. Initiative protection des animaux - Suppression vivisection - Souris de laboratoire - Chat avec electrodes - 5. Ballenberg - Reconstruction de maisons typiques suisses - 6. Congres des cheminots - Int. Jea n Clivaz - 7. amenagement du territoir Elisabeth Kopp - Kurt Furgler - Moisson dans les cham ps - Ble - Int. Marcel Blanc, conseiller d'etat -"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1985.05.23"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: PROCHE-ORIENT; SUISSE; Berne; Ballenberg; Schwarzenburg"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: AUBERT, Pierre; FURGLER, Kurt; ARNOLD, Pierre; KOPP, Elisabeth"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: PROCHE-ORIENT; SUISSE; Berne; Ballenberg; Schwarzenburg"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion topics."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Schwarzenburg",
+   "lat": 46.8179164,
+   "lon": 7.3411883,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Ballenberg",
+   "lat": 46.7487621,
+   "lon": 8.084871,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1985-05-23",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Téléjournal segment covering multiple topics.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1998",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1998/317 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#1998/317#1270#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 6467,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

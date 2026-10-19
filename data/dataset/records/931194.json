@@ -1,0 +1,343 @@
+{
+ "id": "931194",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/931194",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931194",
+  "reference_code": "J2.181#1987/52#3140*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nekrologe 1939",
+   "reference_number": "413",
+   "scope_and_content": "- Hans Abt\\- Jakob Biroll\\- Anton Büeler\\- Eugène de Cocatrix\\- Julius Dedual\\- Louis Ehrli\\- Alois Küchler",
+   "date": {
+    "from": "1939-01-01",
+    "to": null,
+    "expressed": "1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+     "number": "1987/52",
+     "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective compilation of obituaries for individuals who died in 1939, organized within the media holdings of the Christian Democratic People's Party of Switzerland.",
+  "resume": "The document is a press article listing obituaries of several individuals who died in 1939. It contains a list of names without further biographical or contextual information. The record is part of the media holdings of the Christian Democratic People's Party of Switzerland."
+ },
+ "metadata": {
+  "title": "Nekrologe 1939",
+  "title_normalized": "Nekrologe 1939",
+  "title_en": "Obituaries 1939",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1939",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "deaths",
+   "1939"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+  "fonds_reference": "J2.181*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "Medien",
+   "Presse",
+   "Personenbezogene Presseartikel A-Z"
+  ],
+  "reference_code": "J2.181#1987/52#3140*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931194",
+  "accession_numbers": [
+   "1987/52"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Abt",
+    "display_name": "Hans Abt",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jakob Biroll",
+    "display_name": "Jakob Biroll",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q96268389",
+     "label": "Jakob Biroll",
+     "description": "Swiss politician (1854-1939)",
+     "url": "https://www.wikidata.org/wiki/Q96268389"
+    },
+    "life_date_check": {
+     "born": 1854,
+     "died": 1939,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anton Büeler",
+    "display_name": "Anton Büeler",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Eugène de Cocatrix",
+    "display_name": "Eugène de Cocatrix",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Julius Dedual",
+    "display_name": "Julius Dedual",
+    "role": "deceased person",
+    "wikidata": {
+     "qid": "Q96299625",
+     "label": "Julius Dedual",
+     "description": "Swiss politician (1864-1939)",
+     "url": "https://www.wikidata.org/wiki/Q96299625"
+    },
+    "life_date_check": {
+     "born": 1864,
+     "died": 1939,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Louis Ehrli",
+    "display_name": "Louis Ehrli",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Alois Küchler",
+    "display_name": "Alois Küchler",
+    "role": "deceased person",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Nekrologe 1939\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): scope_and_content: \"- Hans Abt\\- Jakob Biroll\\- Anton Büeler\\- Eugène de Cocatrix\\- Julius Dedual\\- Louis Ehrli\\- Alois Küchler\"; named organizations or places (apertus): accessions.title: \"1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only listed in free text scope_and_content",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Nekrologe 1939\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only listed in free text scope_and_content"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: \"- Hans Abt\\- Jakob Biroll\\- Anton Büeler\\- Eugène de Cocatrix\\- Julius Dedual\\- Louis Ehrli\\- Alois Küchler\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions.title: \"1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record lists deceased persons but does not concern identifiable individuals in health/criminal/asylum contexts."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Press article listing obituaries of individuals who died in 1939",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/52 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.181#1987/52#3140*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4642,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

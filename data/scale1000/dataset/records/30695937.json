@@ -1,0 +1,332 @@
+{
+ "id": "30695937",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30695937",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30695937",
+  "reference_code": "J2.143#1996/386#1161-3#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Importazione di pony in Svizzera",
+   "reference_number": "1161-2",
+   "old_reference_code": "Original Signatur: CGS 1161-2",
+   "alternate_reference": "CGS_1161-2",
+   "scope_and_content": "Genre:\nCinegiornale\nCommuniqué:\nArrivo di 50 cavallini d'Islanda a Kloten: a riceverli si trova anche il noto attor comico zurighese Carigiet, che ammiriamo poi in occasione della sua prima uscita in groppa al poney a lui destinato.\n\nKommentar:\nUn trasporto aereo inconsueto arriva a Kloten: dai pony d'Islanda, una razza equina che anche nel nostro paese conta numerosi appassionati./ Il popolare attore svizzero alemanno Carigiet è uno di questi: i pony sono appunto la sua passione. Nella sua scuderia nei pressi di Zurigo ha già tre di questi cavallini./ C'è di che sbadigliare a stare in attesa su di un campo d'aviazione../ Carigiet la prenda sul serio con la mania per i pony, e lo si vede qui mentre sta sellandone uno insieme a sua figlia Cristina./ I vantaggi dei pony? Questi minuscoli cavalli sono robustissimi e instancabili. E con Carigiet in groppa assumono un atteggiamento altrettanto serio di lui./\n\nAlter Titel:\nPonys für die Schweiz",
+   "author": "Produktion: Cinegiornale svizzero",
+   "publisher": "HerausgeberIn: Cinegiornale svizzero (CGS)",
+   "form": "Film",
+   "format": "Dauer: 01:01 (Start 00:42 / End 01:43)\nSeitenverhältnis: 4:3\nFarbe: B/N\nOriginalträger: 35mm acetato di cellulosa\nKommentarton: italiano",
+   "thema": "Personen:\nZarli Carigiet\n\nOrte:\nZürich Flughafen, ZH (Schweiz); Uetikon, ZH (Schweiz)\n\nSchlagworte:\nEuropa occidentale, AGRICOLTURA, ANIMALI, ANIMALI DOMESTICI",
+   "date": {
+    "from": "1965-04-23",
+    "to": null,
+    "expressed": "1965.04.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a filmed newsreel produced by Cinegiornale svizzero for broadcast.",
+  "resume": "A Swiss newsreel (Cinegiornale svizzero) from 23 April 1965 reports on the arrival of 50 Icelandic ponies at Zurich Airport, featuring actor Carigiet and his daughter preparing to ride one of the ponies."
+ },
+ "metadata": {
+  "title": "Importazione di pony in Svizzera",
+  "title_normalized": "Importazione di pony in Svizzera",
+  "title_en": "Importation of ponies in Switzerland",
+  "creator": "Cinegiornale svizzero",
+  "publisher": "Cinegiornale svizzero (CGS)",
+  "commissioner": null,
+  "date_created": "1965-04-23",
+  "date_published": "1965-04-23",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1965-04-23",
+  "languages": [
+   "de",
+   "it"
+  ],
+  "subjects": [
+   "ponies",
+   "Icelandic ponies",
+   "Zurich Airport"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1965",
+   "Schweizer Filmwochenschau vom 23.04.1965",
+   "Cinegiornale svizzero del 23.04.1965"
+  ],
+  "reference_code": "J2.143#1996/386#1161-3#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30695937",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Zarli Carigiet",
+    "display_name": "Zarli Carigiet",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q119651",
+     "label": "Zarli Carigiet",
+     "description": "Swiss actor and comedian (1907-1981)",
+     "url": "https://www.wikidata.org/wiki/Q119651"
+    },
+    "life_date_check": {
+     "born": 1907,
+     "died": 1981,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Zürich Flughafen, ZH (Schweiz)",
+    "as_written": "Zürich Flughafen, ZH (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4500978,
+    "lon": 8.5618985,
+    "gazetteer": "https://www.openstreetmap.org/node/1240260092",
+    "model_lat": 47.376,
+    "model_lon": 8.541
+   },
+   {
+    "name": "Uetikon, ZH (Schweiz)",
+    "as_written": "Uetikon, ZH (Schweiz)",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.2591379,
+    "lon": 8.6788756,
+    "gazetteer": "https://www.openstreetmap.org/node/1305717852",
+    "model_lat": 47.408,
+    "model_lon": 8.576
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinegiornale\nCommuniqué:\nArrivo di 50 caval",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 01:01 (Start 00:42 / End 01:43)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Zarli Carigiet; named organizations or places (apertus): Zürich Flughafen, ZH (Schweiz); Uetikon, ZH (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1965.04.23; free text places (apertus): Zürich Flughafen, ZH (Schweiz); Uetikon, ZH (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinegiornale\nCommuniqué:\nArrivo di 50 caval"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 01:01 (Start 00:42 / End 01:43)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1965.04.23"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich Flughafen, ZH (Schweiz); Uetikon, ZH (Schweiz)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zarli Carigiet"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich Flughafen, ZH (Schweiz); Uetikon, ZH (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1965-04-23",
+   "place": "Zürich Flughafen, ZH (Schweiz)",
+   "lat": 47.4500978,
+   "lon": 8.5618985,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1965-04-23",
+   "place": "Zurich Flughafen, ZH (Schweiz)",
+   "lat": null,
+   "lon": null,
+   "description": "Newsreel filmed at Zurich Airport documenting the arrival of Icelandic ponies.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#1161-3#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5851,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

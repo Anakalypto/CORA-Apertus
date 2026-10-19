@@ -1,0 +1,73 @@
+{
+ "id": "931194",
+ "uri": "https://culture.ld.admin.ch/ais/931194",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/931194",
+ "title": "Nekrologe 1939",
+ "reference_code": "J2.181#1987/52#3140*",
+ "reference_number": "413",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "- Hans Abt\\- Jakob Biroll\\- Anton Büeler\\- Eugène de Cocatrix\\- Julius Dedual\\- Louis Ehrli\\- Alois Küchler",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": null,
+  "expressed": "1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+   "number": "1987/52",
+   "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675703",
+   "title": "Personenbezogene Presseartikel A-Z",
+   "level": "Serie",
+   "reference_code": "J2.181#413"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675696",
+   "title": "Presse",
+   "level": "Serie",
+   "reference_code": "J2.181#41"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675694",
+   "title": "Medien",
+   "level": "Serie",
+   "reference_code": "J2.181#4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4210",
+   "title": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "level": "Stock",
+   "reference_code": "J2.181*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

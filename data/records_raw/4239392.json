@@ -1,0 +1,67 @@
+{
+ "id": "4239392",
+ "uri": "https://culture.ld.admin.ch/ais/4239392",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4239392",
+ "title": "Findmittel, Registraturkarten der Plannummern 99-125",
+ "reference_code": "E6351G-01#2004/392#2*",
+ "reference_number": "rfm0004",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1979-01-01",
+  "to": "1979-12-31",
+  "expressed": "1979-1979"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1126474",
+   "number": "2004/392",
+   "title": "2004/00392 Oberzolldirektion (Bern) (1979)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4239363",
+   "title": "Registraturfindmittel",
+   "level": "Serie",
+   "reference_code": "E6351G-01#rfm"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2106420",
+   "title": "Oberzolldirektion: Registraturfindmittel (1850-)",
+   "level": "Sub-file",
+   "reference_code": "E6351G-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5832",
+   "title": "Oberzolldirektion (1850-2021)",
+   "level": "Stock",
+   "reference_code": "E10432*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": false
+}

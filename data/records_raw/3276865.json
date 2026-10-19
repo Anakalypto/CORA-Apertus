@@ -1,0 +1,67 @@
+{
+ "id": "3276865",
+ "uri": "https://culture.ld.admin.ch/ais/3276865",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3276865",
+ "title": "Zeitungsartikel",
+ "reference_code": "E11#1000/35#113*",
+ "reference_number": null,
+ "old_reference_code": "E 11 / Bd. 21",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1891-01-01",
+  "to": "1893-12-31",
+  "expressed": "1891.01.01-1893.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7410",
+   "number": "1000/35",
+   "title": "1000/00035 Bundesverwaltung (Bern) (1842-1930)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4023621",
+   "title": "Zolltarif-Revision 1888/1891",
+   "level": "Serie",
+   "reference_code": "E11#02.07"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4023614",
+   "title": "Zolltarife - Gesetzgebung und Reglementierung",
+   "level": "Serie",
+   "reference_code": "E11#02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3565",
+   "title": "Zollwesen",
+   "level": "Stock",
+   "reference_code": "E11*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

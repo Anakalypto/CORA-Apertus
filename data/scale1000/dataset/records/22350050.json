@@ -1,0 +1,325 @@
+{
+ "id": "22350050",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22350050",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22350050",
+  "reference_code": "J2.225#2006/378#38#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau am Mittag (TS), 07.09.2006 ; Wirtschaftsinterview",
+   "old_reference_code": "Original Signatur: TSSFDRS 2503616\nSignatur Bundesarchiv: J2.225#2006/378#430*",
+   "scope_and_content": "Inhaltsangabe: CH TVZH: Interview Marianne Fassbind",
+   "author": "Produktion: SF",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Mettler, Catherine\nSprecher: Fassbind, Marianne",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 07.09.2006-08.09.2006",
+   "form": "Video",
+   "format": "Dauer: 00:01:25\nFarbe: Farbaufnahmen\nStartposition: 00.12.30\nTräger: MPEG IMX",
+   "date": {
+    "from": "2006-09-07",
+    "to": null,
+    "expressed": "2006.09.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3382848",
+     "number": "2006/378",
+     "title": "2006/00378 Schweizer Fernsehen DRS (Z�rich) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production of the news broadcast by SRG SSR idée suisse.",
+  "resume": "This is a video segment of a midday news broadcast (Tagesschau am Mittag) from September 7, 2006, featuring an economic interview with Marianne Fassbind."
+ },
+ "metadata": {
+  "title": "Tagesschau am Mittag (TS), 07.09.2006 ; Wirtschaftsinterview",
+  "title_normalized": "Tagesschau am Mittag (TS), 07.09.2006 ; Wirtschaftsinterview",
+  "title_en": "Tagesschau at Midday (TS), 07 September 2006: Economic Interview",
+  "creator": "SF",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2006-09-07",
+  "date_published": "2006-09-07",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-09-07",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "economy",
+   "interview",
+   "news broadcast"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 07.09.2006"
+  ],
+  "reference_code": "J2.225#2006/378#38#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22350050",
+  "accession_numbers": [
+   "2006/378"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Catherine Mettler",
+    "display_name": "Catherine Mettler",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Marianne Fassbind",
+    "display_name": "Marianne Fassbind",
+    "role": "narrator / speaker",
+    "wikidata": {
+     "qid": "Q1896797",
+     "label": "Marianne Fassbind",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q1896797"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Westeuropa ohne Skandinavien",
+    "role": "published",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title: 'Tagesschau am Mittag (TS), 07.09.2006 ; Wirtschaftsinterview' contains broken characters (�) and mangled accents (GenÃ¨ve)",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): involved: Moderation: Mettler, Catherine\nSprecher: Fassbind,",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:01:25\nFarbe: Farbaufnahmen\nStartposition",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved: Catherine Mettler, Marianne Fassbind; named organizations or places (apertus): publisher: SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.09.07",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title: 'Tagesschau am Mittag (TS), 07.09.2006 ; Wirtschaftsinterview' contains broken characters (�) and mangled accents (GenÃ¨ve)"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "involved: Moderation: Mettler, Catherine\nSprecher: Fassbind,"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:01:25\nFarbe: Farbaufnahmen\nStartposition"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.09.07"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: Catherine Mettler, Marianne Fassbind"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher: SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; only named public figures in a news broadcast."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2006-09-07",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau am Mittag segment featuring economic interview.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/378 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/378#38#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5118,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

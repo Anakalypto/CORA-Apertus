@@ -1,0 +1,55 @@
+{
+ "id": 710,
+ "signature": "BAR B0 1000/1483, Nr. 1429, fol. 101-102v",
+ "reference": {
+  "place": "Schangnau",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Peter Bieri",
+  "teacher_age": 54,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 22,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Peter Bieri",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Tschangnau",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Peter Bieri",
+  "teacher_age": 54,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 22,
+  "pupils_winter": 25,
+  "pupils_summer": 15,
+  "author_name": "Peter Bieri",
+  "date_written": "1799-01-01"
+ },
+ "evidence": {
+  "place_as_written": "im Tschangnau",
+  "teacher_name": "er heist Beter Bieri",
+  "teacher_age": "54 Jahr alt",
+  "teacher_since": "er hat 22 Jahr Schul gehalten",
+  "pupils_winter": "im Winter Knaben 25. Mädchen 10.",
+  "pupils_summer": "im Summer Knaben 15. Mädchen 10."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "extra"
+ },
+ "seconds": 6.28
+}

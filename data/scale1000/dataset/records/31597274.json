@@ -1,0 +1,345 @@
+{
+ "id": "31597274",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31597274",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31597274",
+  "reference_code": "E1301#2019/43#9#8*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2016.5580: Fragestunde. Frage Leutenegger Oberholzer Susanne. Schweiz Tourismus. Auftragsvergabe an Switzerland Travel Centre AG / Heure des questions. Question Leutenegger Oberholzer Susanne. Suisse Tourisme. Attribution de mandats à Switzerland Travel Centre SA",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Leutenegger Oberholzer, Susanne; Schneider-Ammann, Johann N.;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-12-12",
+    "to": null,
+    "expressed": "2016.12.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31588960",
+     "number": "2019/43",
+     "title": "2019/00043 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary session, created at the time of the events by the National Council.",
+  "resume": "The document is a parliamentary video recording from the Swiss National Council's Question Hour on 12 December 2016, featuring Susanne Leutenegger Oberholzer questioning Johann N. Schneider-Ammann about tourism contract awarding to Switzerland Travel Centre AG."
+ },
+ "metadata": {
+  "title": "2016.5580: Fragestunde. Frage Leutenegger Oberholzer Susanne. Schweiz Tourismus. Auftragsvergabe an Switzerland Travel Centre AG / Heure des questions. Question Leutenegger Oberholzer Susanne. Suisse Tourisme. Attribution de mandats à Switzerland Travel Centre SA",
+  "title_normalized": "2016.5580: Fragestunde. Frage Leutenegger Oberholzer Susanne. Schweiz Tourismus. Auftragsvergabe an Switzerland Travel Centre AG / Heure des questions. Question Leutenegger Oberholzer Susanne. Suisse Tourisme. Attribution de mandats à Switzerland Travel Centre SA",
+  "title_en": "Question Hour: Question by Susanne Leutenegger Oberholzer on Tourism Contract Awarding to Switzerland Travel Centre AG / Question Time: Question by Susanne Leutenegger Oberholzer on Tourism Contract Awarding to Switzerland Travel Centre SA",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2016-12-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2016-12-12",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "tourism",
+   "Switzerland Travel Centre AG",
+   "Swiss National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Wintersession 2016",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/43#9#8*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31597274",
+  "accession_numbers": [
+   "2019/43"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Susanne Leutenegger Oberholzer",
+    "display_name": "Susanne Leutenegger Oberholzer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117109",
+     "label": "Susanne Leutenegger Oberholzer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117109"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Johann N. Schneider-Ammann",
+    "display_name": "Johann N. Schneider-Ammann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q380063",
+     "label": "Johann Schneider-Ammann",
+     "description": "businessman, politician and member of the Swiss Federal Council (2010-2018)",
+     "url": "https://www.wikidata.org/wiki/Q380063"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Switzerland Travel Centre AG",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q20183024",
+     "label": "Switzerland Travel Centre AG",
+     "description": "official national tour operator of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q20183024"
+    }
+   },
+   {
+    "name": "Swiss National Council",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains German and French phrases: 'Schweiz Tourismus' and 'Suisse Tourisme'.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers_in_debate includes 'Susanne Leutenegger Oberholzer' and 'Johann N. Schneider-Ammann'.; named organizations or places (apertus): Title mentions 'Switzerland Travel Centre AG' and 'Suisse Tourisme'.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2016.12.12",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains German and French phrases: 'Schweiz Tourismus' and 'Suisse Tourisme'."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2016.12.12"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes 'Susanne Leutenegger Oberholzer' and 'Johann N. Schneider-Ammann'."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mentions 'Switzerland Travel Centre AG' and 'Suisse Tourisme'."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2016-12-12",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary video recording of Question Hour session",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/43 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/43#9#8*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5021,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

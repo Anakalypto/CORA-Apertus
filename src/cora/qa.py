@@ -10,6 +10,8 @@ import re
 import unicodedata
 from collections import Counter
 
+from . import i18n
+
 STOP = set("""a an and are as at be by for from has have how in is it of on or that the this to was were what when where which who whom why with
 der die das und ist im in den des dem ein eine zu von mit auf fur für als bei aus le la les des du de et en un une est dans pour qui que il""".split())
 
@@ -59,8 +61,8 @@ class Index:
 
 SYSTEM = """You answer questions about records of the Swiss Federal Archives using ONLY the numbered sources given.
 Every sentence must cite the record IDs it relies on. If the sources do not answer the question, set insufficient=true
-and say what the sources do contain instead. Never use outside knowledge. Answer in the language of the question.
-Return one JSON object."""
+and say what the sources do contain instead. Never use outside knowledge. Answer in {language}, whatever the language
+of the question or of the sources (quotes may stay in their language). Return one JSON object."""
 
 FOCUS = """
 The reader is looking at record [{id}] and asks about it. Answer first from that record; use the other sources only to
@@ -79,7 +81,7 @@ def _strip_ids(text: str, focus: str | None) -> str:
     return text[:1].upper() + text[1:]
 
 
-def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5, focus: str | None = None) -> dict:
+def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5, focus: str | None = None, lang: str = "en") -> dict:
     """Cited answer from the retrieved records. With `focus`, that record is always the first source and the
     archive is searched with the question plus the record's title (to connect it to related records)."""
     if focus:
@@ -114,7 +116,7 @@ def ask(index: Index, ap, question: str, k: int = 6, min_score: float = 2.5, foc
     schema = {"insufficient": False, "sentences": [{"text": "<one sentence>", "sources": ["<record id>"]}]}
     user = ("Question: " + question + "\n\nSources:\n" + "\n".join(
         f"[{s['id']}] {json.dumps(s, ensure_ascii=False)}" for s in sources) + "\n\nReturn:\n" + json.dumps(schema))
-    system = SYSTEM + (FOCUS.format(id=focus) if focus else "")
+    system = SYSTEM.format(language=i18n.language(lang)) + (FOCUS.format(id=focus) if focus else "")
     raw, meta = ap.chat_json([{"role": "system", "content": system}, {"role": "user", "content": user}])
     allowed = {s["id"] for s in sources}
     sentences = []

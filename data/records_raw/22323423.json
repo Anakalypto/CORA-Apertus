@@ -1,0 +1,70 @@
+{
+ "id": "22323423",
+ "uri": "https://culture.ld.admin.ch/ais/22323423",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22323423",
+ "title": "Tagesschau am Mittag (TS), 31.03.2004 ; Börsenduplex UBS",
+ "reference_code": "J2.225#2004/221#91#18*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSFDRS 2501534\nSignatur Bundesarchiv: J2.225#2004/221#1195*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: Duplex Hanspeter Hausheer",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": "Moderation: Tabacznik, Stefan",
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 24.03.2004-07.04.2004",
+ "form": "Video",
+ "format": "Dauer: 1.43\nFarbe: Farbaufnahmen\nStartposition: 00.13.34\nTräger: MPEG IMX",
+ "thema": "Personen: Hausheer, Hanspeter",
+ "country": null,
+ "date": {
+  "from": "2004-03-31",
+  "to": null,
+  "expressed": "2004.03.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1105536",
+   "number": "2004/221",
+   "title": "2004/00221 Schweizer Fernsehen DRS (Z�rich) (2004)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22323405",
+   "title": "Tagesschau SFDRS 31.03.2004",
+   "level": "Dossier",
+   "reference_code": "J2.225#2004/221#91*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22319448",
+   "title": "Tagesschau SFDRS 2004",
+   "level": "Serie",
+   "reference_code": "J2.225#6.2004"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21829670",
+   "title": "Tagesschau 1999-2006 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

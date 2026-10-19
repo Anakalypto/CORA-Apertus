@@ -1,0 +1,67 @@
+{
+ "id": "6734403",
+ "uri": "https://culture.ld.admin.ch/ais/6734403",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6734403",
+ "title": "Commémoration de dates historiques et fêtes nationales",
+ "reference_code": "E2200.60-02#C.30",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1950-01-01",
+  "to": "1965-12-31",
+  "expressed": "1950-1965"
+ },
+ "accessions": [],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6734402",
+   "title": "Fêtes nationales, hygiène publique",
+   "level": "Serie",
+   "reference_code": "E2200.60-02#C.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6734306",
+   "title": "Affaires culturelles et diplomatiques",
+   "level": "Serie",
+   "reference_code": "E2200.60-02#C"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5001555",
+   "title": "Schweizerische Vertretung, Buenos Aires: Zentrale Ablage (1946-1965)",
+   "level": "Sub-file",
+   "reference_code": "E2200.60-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6140",
+   "title": "Schweizerische Vertretung, Buenos Aires (1834-)",
+   "level": "Stock",
+   "reference_code": "E10513*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Serie",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

@@ -1,0 +1,304 @@
+{
+ "id": "26549239",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/26549239",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26549239",
+  "reference_code": "J2.225#2007/1#382#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Blickpunkt (362/1037), 17.10.1978 ; Rheinschifffahrt",
+   "old_reference_code": "Original Signatur: BPSFDRS 9503194\nSignatur Bundesarchiv: J2.225#2007/1#86*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Basel, BS: Finanzielle Probleme für Schweizer Reedereien wegen des Verfalls von ausländischen Währungen / finanzielle Einbussen, weil 40 Prozent der Einnahmen nicht in Schweizer Franken verbucht werden\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Basel, BS: OV Schwenk über Rheinhafen / Kran beim Ausladen von Schiffen / Statement Josef Kaiser / Rheinschiffe auf Rhein (diverse) / Statement Walter Müller / Mechaniker Schiffsmotor und Elektronik reparierend / Statement Andreas Forrer / GPL Bagger Sand aufladend und in Silo abladend",
+   "author": "AutorIn: Grämiger Andreas (AUT)\nProduktionsgesellschaft: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "form": "Video",
+   "format": "Dauer: 00.05.30\nFormat Arbeitskopie: Arbeitskopie\nStartposition: 10:19:49\nTräger: Beta Digital",
+   "thema": "Personen: Müller Walter (Schweizerische Reederei und Neptun AG)\nSachdeskriptor: /VERKEHR./SCHIFFFAHRT;/WIRTSCHAFT./HANDEL",
+   "date": {
+    "from": "1978-10-17",
+    "to": null,
+    "expressed": "1978.10.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3382869",
+     "number": "2007/1",
+     "title": "2007/00001 Schweizer Fernsehen DRS (Z�rich) (1977-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production from 1978, created by DRS for broadcast.",
+  "resume": "A television report titled 'Blickpunkt (362/1037), 17.10.1978 ; Rheinschifffahrt' produced by DRS, featuring interviews with individuals involved in shipping and port operations in Basel, focusing on financial issues for Swiss shipping companies due to foreign currency devaluation."
+ },
+ "metadata": {
+  "title": "Blickpunkt (362/1037), 17.10.1978 ; Rheinschifffahrt",
+  "title_normalized": "Blickpunkt (362/1037), 17.10.1978 ; Rheinschifffahrt",
+  "title_en": "Blickpunkt (362/1037), 17 October 1978 ; River Shipping",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1978-10-17",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1978-10-17",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "shipping",
+   "transportation",
+   "economy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Blickpunkt-Bericht vor Acht, 1977-1978",
+   "Blickpunkt-Bericht vor Acht 1978",
+   "Blickpunkt-Bericht vor Acht 17.10.1978"
+  ],
+  "reference_code": "J2.225#2007/1#382#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26549239",
+  "accession_numbers": [
+   "2007/1"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Müller Walter",
+    "display_name": "Müller Walter",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Neptun AG",
+    "role": "employer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "Basel, BS",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.54,
+    "model_lon": 7.47
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Grämiger Andreas (AUT)\nProduktionsgesells",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Müller Walter; named organizations or places (apertus): Schweizerische Reederei und Neptun AG",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): 1978.10.17",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Grämiger Andreas (AUT)\nProduktionsgesells"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1978.10.17"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Müller Walter"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweizerische Reederei und Neptun AG"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1978-10-17",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Television report broadcast on Blickpunkt.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/1 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/1#382#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5312,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

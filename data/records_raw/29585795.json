@@ -1,0 +1,79 @@
+{
+ "id": "29585795",
+ "uri": "https://culture.ld.admin.ch/ais/29585795",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29585795",
+ "title": "Inhaltsverzeichnis",
+ "reference_code": "E8172#2012/57#700*",
+ "reference_number": "A.G.05.B",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1932-01-01",
+  "to": "1934-12-31",
+  "expressed": "1932-1934"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/29168616",
+   "number": "2012/57",
+   "title": "2012/00057 Bundesamt f�r Umwelt, BAFU (Ittigen) (1886-2011)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29585794",
+   "title": "Rhoneausbau bis zur Schweizergrenze, Stufenprojekte, Stufe Russin",
+   "level": "Serie",
+   "reference_code": "E8172#A.G.05.B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29585691",
+   "title": "Rhoneausbau bis zur Schweizergrenze",
+   "level": "Serie",
+   "reference_code": "E8172#A.G"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29585018",
+   "title": "Technisches Archiv Schifffahrtsstrassen",
+   "level": "Serie",
+   "reference_code": "E8172#A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4351",
+   "title": "Eidgenössisches Amt für Wasserwirtschaft: Teilregistratur Wasserkräfte und Wasserstrassen (1909-1979)",
+   "level": "Sub-file",
+   "reference_code": "E8172*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5157",
+   "title": "Eidgenössisches Amt für Wasserwirtschaft (1919-1979)",
+   "level": "Stock",
+   "reference_code": "E10241*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

@@ -1,0 +1,328 @@
+{
+ "id": "3238931",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3238931",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3238931",
+  "reference_code": "E27#1000/721#14095#2718*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Wachtposten auf hoher Warte mit Monte Rosa im Hintergrund",
+   "scope_and_content": "Batallion 36",
+   "author": "Fotograf: Aug. Gysi",
+   "coverage": "Geografische Abdeckung: Simplongebiet",
+   "form": "Fotografie",
+   "format": "Negativ; Glasplatte; Silberbromid; 13x18cm",
+   "date": {
+    "from": "1914-01-01",
+    "to": "1918-12-31",
+    "expressed": "1914.01.01-1918.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by a photographer (Aug. Gysi) as part of the Swiss Army's official documentation of its wartime activities.",
+  "resume": "A World War I-era photograph showing Swiss army sentries on a high watchpost with the Monte Rosa massif in the background, taken between 1914 and 1918 during the Swiss Army's mobilization along the Simplon region."
+ },
+ "metadata": {
+  "title": "Wachtposten auf hoher Warte mit Monte Rosa im Hintergrund",
+  "title_normalized": "Wachtposten auf hoher Warte mit Monte Rosa im Hintergrund",
+  "title_en": "Sentries on a high watchpost with Monte Rosa in the background",
+  "creator": "Aug. Gysi",
+  "publisher": null,
+  "commissioner": "Swiss Army (Armeestab)",
+  "date_created": "1914-01-01/1918-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1914-01-01/1918-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "World War I",
+   "Swiss Army",
+   "military surveillance",
+   "Simplon region"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "Aktivdienst 1914-1918",
+   "Aktivdienstberichte, Aktivdiensterinnerungen",
+   "Aktivdiensterinnerungen, Fotosammlungen, Tagebücher",
+   "Fotosammlungen über den Aktivdienst",
+   "Bildarchiv der geografisch-archivistischen Sektion des Armeestabes [Aktivdienst und Kriegsgeschehen]",
+   "Negativplatten und digitale Abzüge 13 x 18 cm; Nr. 15 - 5758; Sch. 1 - 261"
+  ],
+  "reference_code": "E27#1000/721#14095#2718*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3238931",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Aug. Gysi",
+    "display_name": "Aug. Gysi",
+    "role": "Photographer",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Army",
+    "role": "Commissioner",
+    "wikidata": {
+     "qid": "Q332844",
+     "label": "Swiss Armed Forces",
+     "description": "the combined armed forces of the Swiss Confederation",
+     "url": "https://www.wikidata.org/wiki/Q332844"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Simplon region",
+    "as_written": "Simplongebiet",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.4847404,
+    "lon": 7.6663076,
+    "gazetteer": "https://www.openstreetmap.org/node/983974164",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Monte Rosa",
+    "as_written": "Monte Rosa",
+    "role": "depicted",
+    "country": "IT",
+    "lat": 45.9259353,
+    "lon": 7.8191638,
+    "gazetteer": "https://www.openstreetmap.org/way/1081568893",
+    "model_lat": 45.9786,
+    "model_lon": 7.6587
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): author: \"Fotograf: Aug. Gysi\"; named organizations or places (apertus): hierarchy_top_down: \"Landesverteidigung (1848-1950)\", \"Simplongebiet\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: \"1914.01.01-1918.12.31\"; free text places (apertus): coverage: \"Geografische Abdeckung: Simplongebiet\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: \"1914.01.01-1918.12.31\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "coverage: \"Geografische Abdeckung: Simplongebiet\""
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "author: \"Fotograf: Aug. Gysi\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Landesverteidigung (1848-1950)\", \"Simplongebiet\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains personal name of photographer Aug. Gysi and military/geographic data without sensitive personal information."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1914-01-01/1918-12-31",
+   "place": "Simplon region",
+   "lat": 46.4847404,
+   "lon": 7.6663076,
+   "description": "Photograph taken by Aug. Gysi documenting Swiss Army sentries during World War I.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1914-01-01/1918-12-31",
+   "place": "Monte Rosa",
+   "lat": 45.9259353,
+   "lon": 7.8191638,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#14095#2718*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4667,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

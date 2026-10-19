@@ -1,0 +1,304 @@
+{
+ "id": "3519902",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3519902",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519902",
+  "reference_code": "E1301#1982/205#12#44*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "81.552: Interpellation der Fraktion PdA/PSA/POCH. Flugwaffe. Unfallursachen / Interpellation du groupe PdT/PSA/POCH. Aviation militaire. Accidents",
+   "date": {
+    "from": "1982-06-25",
+    "to": null,
+    "expressed": "1982.06.25"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383387",
+     "number": "1982/205",
+     "title": "1982/00205 Parlamentsdienste (Bern) (1982)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript and sound recording of a parliamentary debate, created at the time of the session by the National Council.",
+  "resume": "This document is a parliamentary interpellation record from the Swiss National Council concerning military aviation accidents, recorded during the summer session of 1982. It captures a debate initiated by the PdA/PSA/POCH and PdT/PSA/POCH groups on the causes of aviation incidents. The record is part of the National Council's meeting protocols and sound archives."
+ },
+ "metadata": {
+  "title": "81.552: Interpellation der Fraktion PdA/PSA/POCH. Flugwaffe. Unfallursachen / Interpellation du groupe PdT/PSA/POCH. Aviation militaire. Accidents",
+  "title_normalized": "Interpellation der Fraktion PdA/PSA/POCH. Flugwaffe. Unfallursachen / Interpellation du groupe PdT/PSA/POCH. Aviation militaire. Accidents",
+  "title_en": "Interpellation by the PdA/PSA/POCH group on military aviation accidents / Interpellation by the PdT/PSA/POCH group on military aviation accidents",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1982-06-25",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1982",
+  "content_date": "1982-06-25",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "aviation accidents",
+   "military aviation",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1979 bis Herbstsession 1983",
+   "Sommersession 1982",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1982/205#12#44*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519902",
+  "accession_numbers": [
+   "1982/205"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "PdA/PSA/POCH",
+    "display_name": "PdA/PSA/POCH",
+    "role": "interpellating group",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "PdT/PSA/POCH",
+    "display_name": "PdT/PSA/POCH",
+    "role": "interpellating group",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): Title: '81.552: Interpellation der Fraktion PdA/PSA/POCH. Flugwaffe. Unfallursachen / Interpellation du groupe PdT/PSA/POCH. Aviation militaire. Accidents'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Fraktion PdA/PSA/POCH and groupe PdT/PSA/POCH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1982.06.25",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "Title: '81.552: Interpellation der Fraktion PdA/PSA/POCH. Flugwaffe. Unfallursachen / Interpellation du groupe PdT/PSA/POCH. Aviation militaire. Accidents'"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1982.06.25"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Fraktion PdA/PSA/POCH and groupe PdT/PSA/POCH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1982",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1982/205 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1982/205#12#44*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4823,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

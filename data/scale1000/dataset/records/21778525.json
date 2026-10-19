@@ -1,0 +1,331 @@
+{
+ "id": "21778525",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21778525",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21778525",
+  "reference_code": "J2.225#1996/68#6358#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 01.11.1975",
+   "old_reference_code": "Original Signatur: TSSRG 75/305/02;Rolle 1253\nSignatur Bundesarchiv: J2.225#1996/68#64041*",
+   "scope_and_content": "Inhaltsangabe: CH Solothurn, SO: Verleihung Krebspreis 1975 an den Krebsforscher Werner Hirt anlässlich Tagung der Schweizerischen Krebsliga\nSequenzbeschrieb: CH Solothurn, SO: Rede Athos Gallino (P °Krebsliga) / Preisverleihung / Rede Werner Hirt / Statement Gallino",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 25.10.1975-08.11.1975",
+   "form": "Video",
+   "format": "Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.30.59\nTräger: Betacam-Digital",
+   "thema": "Personen: Hirt, Werner;Gallino, Athos\nSachdeskriptor: Krebs;Preisverleihung",
+   "date": {
+    "from": "1975-11-01",
+    "to": null,
+    "expressed": "1975.11.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a live news broadcast produced by SRG.",
+  "resume": "A television news segment from Tagesschau (TS) dated 1 November 1975 covering the awarding of the Krebspreis 1975 to cancer researcher Werner Hirt at a Swiss Cancer League event in Solothurn, featuring speeches by Athos Gallino and Werner Hirt."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 01.11.1975",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 01.11.1975",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 01.11.1975",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1975-11-01",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1975-11-01",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "cancer",
+   "award ceremony",
+   "Krebspreis"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1975",
+   "Tagesschau SFDRS 01.11.1975"
+  ],
+  "reference_code": "J2.225#1996/68#6358#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21778525",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hirt, Werner",
+    "display_name": "Werner Hirt",
+    "role": "recipient",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gallino, Athos",
+    "display_name": "Athos Gallino",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Cancer League",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q1787012",
+     "label": "Swiss Cancer League",
+     "description": "Swiss non-profit association against cancer",
+     "url": "https://www.wikidata.org/wiki/Q1787012"
+    }
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Solothurn",
+    "as_written": "SO",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.31874,
+    "lon": 7.6698284,
+    "gazetteer": "https://www.openstreetmap.org/relation/1701133",
+    "model_lat": 47.0,
+    "model_lon": 7.6
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Hirt, Werner;Gallino, Athos; named organizations or places (apertus): CH Solothurn, SO",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1975.11.01; free text places (apertus): CH Solothurn, SO",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1975.11.01"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Solothurn, SO"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hirt, Werner;Gallino, Athos"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Solothurn, SO"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1975-11-01",
+   "place": "Solothurn",
+   "lat": 47.31874,
+   "lon": 7.6698284,
+   "description": "Coverage of the Krebspreis 1975 award ceremony.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#6358#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:Swiss Cancer League"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5288,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

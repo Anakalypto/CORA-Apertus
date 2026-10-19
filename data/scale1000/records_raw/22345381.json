@@ -1,0 +1,70 @@
+{
+ "id": "22345381",
+ "uri": "https://culture.ld.admin.ch/ais/22345381",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22345381",
+ "title": "Blickpunkt Region ; Blickpunkt, 27.08.1975",
+ "reference_code": "J2.225#2006/166#261#1*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: RJSFDRS 9503038\nSignatur Bundesarchiv: J2.225#2006/166#516*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bremgarten, AG: Endphase der Reusstalsanierung mit Flachsee und Bau von Kraftwerk\nSequenzbeschrieb: CH Bremgarten, AG: Schwenk über Stausee und Flachsee / Kraftwerkanlage / Baustelle Kraftwerkgebäude / IA Kontrollraum",
+ "author": "AutorIn: Freiburghaus, Peter\nProduktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 27.08.1975",
+ "form": "Video",
+ "format": "Dauer: 00:01:00\nFarbe: Farbaufnahmen\nStartposition: 11.00.02\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Wasserkraftwerk;Naturschutz",
+ "country": null,
+ "date": {
+  "from": "1975-08-27",
+  "to": null,
+  "expressed": "1975.08.27"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3324678",
+   "number": "2006/166",
+   "title": "2006/00166 Schweizer Fernsehen DRS (Z�rich) (1974-1977)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22345374",
+   "title": "Regionalmagazine SFDRS 27.08.1975",
+   "level": "Dossier",
+   "reference_code": "J2.225#2006/166#261*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22344232",
+   "title": "Regionalmagazine SFDRS 1975",
+   "level": "Serie",
+   "reference_code": "J2.225#2.1975"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849902",
+   "title": "Regionalmagazine 1958-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

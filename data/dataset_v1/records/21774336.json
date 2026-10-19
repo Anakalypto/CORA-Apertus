@@ -1,0 +1,346 @@
+{
+ "id": "21774336",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21774336",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21774336",
+  "reference_code": "J2.225#1996/68#5936#6*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 05.09.1974",
+   "old_reference_code": "Original Signatur: TSSRG 74/248/01;Rolle 1180\nSignatur Bundesarchiv: J2.225#1996/68#61679*",
+   "scope_and_content": "Inhaltsangabe: CH Bern, BE: Petition zum Verbleib beim Kanton Bern der Amtsbezirke Courtelary, Moutier und La Neuveville, Jura-Konflikt\nSequenzbeschrieb: CH Bern, BE: Überreichen von Unterschriften-Paketen in Bundeskanzlei",
+   "author": "Produktion: SRG",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 29.08.1974-12.09.1974",
+   "form": "Video",
+   "format": "Dauer: 0.50\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.30.10\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Kantonspolitik;Kantonstrennung",
+   "date": {
+    "from": "1974-09-05",
+    "to": null,
+    "expressed": "1974.09.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by SRG as a contemporary news broadcast documenting the petition handover event.",
+  "resume": "This is a Swiss TV news report from the Tagesschau broadcast on 5 September 1974 covering the political petition regarding the Bernese Jura conflict, specifically the demand for the districts of Courtelary, Moutier, and La Neuveville to remain with the Canton of Bern. It shows the handover of signature packets to the Federal Chancellery in Bern."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 05.09.1974",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 05.09.1974",
+  "title_en": "Tagesschau Late Edition, 05.09.1974",
+  "creator": "SRG",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1974-09-05",
+  "date_published": "1974-09-05",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1974-09-05",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Jura conflict",
+   "canton politics",
+   "petition",
+   "Swiss federalism"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1974",
+   "Tagesschau SFDRS 05.09.1974"
+  ],
+  "reference_code": "J2.225#1996/68#5936#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21774336",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "SRG",
+    "role": "producer",
+    "wikidata": {
+     "qid": "Q2060715",
+     "label": "Spektr-RG",
+     "description": "Russian–German X-ray observatory",
+     "url": "https://www.wikidata.org/wiki/Q2060715"
+    }
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "CH Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.4474
+   },
+   {
+    "name": "Courtelary",
+    "as_written": "Courtelary",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.1785533,
+    "lon": 7.0703235,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682416",
+    "model_lat": 47.2833,
+    "model_lon": 7.1833
+   },
+   {
+    "name": "Moutier",
+    "as_written": "Moutier",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.2796142,
+    "lon": 7.3704192,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682559",
+    "model_lat": 47.25,
+    "model_lon": 7.2167
+   },
+   {
+    "name": "La Neuveville",
+    "as_written": "La Neuveville",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.0637688,
+    "lon": 7.0927997,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682521",
+    "model_lat": 47.1,
+    "model_lon": 7.15
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 0.50\nFarbe: Farbaufnahmen\nOriginalformat: V; multilingual (apertus): title contains German, French, Italian",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): SRG SSR idée suisse, Kanton Bern",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed date '1974.09.05'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.50\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German, French, Italian"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date '1974.09.05'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "SRG SSR idée suisse, Kanton Bern"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1974-09-05",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Handover of signature packets related to the Bernese Jura petition at the Federal Chancellery.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#5936#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4734,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

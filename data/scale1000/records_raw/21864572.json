@@ -1,0 +1,70 @@
+{
+ "id": "21864572",
+ "uri": "https://culture.ld.admin.ch/ais/21864572",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21864572",
+ "title": "Fischsterben ; DRS-aktuell, 03.08.1983",
+ "reference_code": "J2.225#2000/22#2250#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: RJSFDRS 9307221\nSignatur Bundesarchiv: J2.225#2000/22#6790*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Dietikon, ZH: Fischsterben im Naturschutzgebiet Antoniloch\nSequenzbeschrieb: CH Dietikon, ZH: Alter Limmat-Flusslauf / Kannen mit toten Fischen / Verladen Kannen auf Lastwagen",
+ "author": "AutorIn: Grämiger, Andreas\nProduktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": "Moderation: Koehli, Fred",
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 27.07.1983-10.08.1983",
+ "form": "Video",
+ "format": "Dauer: 00:00:28\nFarbe: Farbaufnahmen\nStartposition: 01.24.23\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Fischsterben",
+ "country": null,
+ "date": {
+  "from": "1983-08-03",
+  "to": null,
+  "expressed": "1983.08.03"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+   "number": "2000/22",
+   "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21864569",
+   "title": "Regionalmagazine SFDRS 03.08.1983",
+   "level": "Dossier",
+   "reference_code": "J2.225#2000/22#2250*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849935",
+   "title": "Regionalmagazine SFDRS 1983",
+   "level": "Serie",
+   "reference_code": "J2.225#2.1983"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21849902",
+   "title": "Regionalmagazine 1958-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

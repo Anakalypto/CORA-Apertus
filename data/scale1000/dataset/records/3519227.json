@@ -1,0 +1,351 @@
+{
+ "id": "3519227",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3519227",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519227",
+  "reference_code": "E1301#2006/273#3#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2006.0002: Staatsrechnung 2005 / Compte d'Etat 2005; 2006.0020: Voranschlag 2006. Nachtrag I / Budget 2006. Supplément I",
+   "scope_and_content": "Sprecher/Sprecherinnen: Janiak, Claude; Kohler, Pierre; Pfister, Theophil",
+   "date": {
+    "from": "2006-06-08",
+    "to": null,
+    "expressed": "2006.06.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3348388",
+     "number": "2006/273",
+     "title": "2006/00273 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "audio recording",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a parliamentary session, created at the time of the events by the National Council.",
+  "resume": "The document comprises two budget-related items: the 2005 State Account and the 2006 Budget Supplement I, recorded during a session of the National Council on 8 June 2006. It includes a transcript of debate with three named speakers and is part of the parliamentary protocol series for the 2006 summer session. The material is an audio recording of a parliamentary debate."
+ },
+ "metadata": {
+  "title": "2006.0002: Staatsrechnung 2005 / Compte d'Etat 2005; 2006.0020: Voranschlag 2006. Nachtrag I / Budget 2006. Supplément I",
+  "title_normalized": "2006.0002: Staatsrechnung 2005 / Compte d'Etat 2005; 2006.0020: Voranschlag 2006. Nachtrag I / Budget 2006. Supplément I",
+  "title_en": "State Account 2005 and Budget 2006 Supplement I",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-06-08",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-06-08",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "budget",
+   "state finances",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2006",
+   "3. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2006/273#3#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519227",
+  "accession_numbers": [
+   "2006/273"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Claude Janiak",
+    "display_name": "Claude Janiak",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116461",
+     "label": "Claude Janiak",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116461"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pierre Kohler",
+    "display_name": "Pierre Kohler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119414",
+     "label": "Pierre Kohler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119414"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Theophil Pfister",
+    "display_name": "Theophil Pfister",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119484",
+     "label": "Theophil Pfister",
+     "description": "Swiss politician (1942-2012)",
+     "url": "https://www.wikidata.org/wiki/Q119484"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": 2012,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (1848-)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2006.0002: Staatsrechnung 2005 / Compte d'Etat 2005; 2006.0020: Voranschlag 2006. Nachtrag I / Budget 2006. Supplément I\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Claude Janiak\", \"Pierre Kohler\", \"Theophil Pfister\" ]; named organizations or places (apertus): hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", ... ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.06.08",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2006.0002: Staatsrechnung 2005 / Compte d'Etat 2005; 2006.0020: Voranschlag 2006. Nachtrag I / Budget 2006. Supplément I\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.06.08"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Claude Janiak\", \"Pierre Kohler\", \"Theophil Pfister\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: [ \"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", ... ]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2006-06-08",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/273 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2006/273#3#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5003,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

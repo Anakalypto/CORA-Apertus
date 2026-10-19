@@ -1,0 +1,299 @@
+{
+ "id": "3236361",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3236361",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3236361",
+  "reference_code": "E27#1000/721#14093#52*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Beobachtungsposten; Panorama vom Schuldach aus",
+   "scope_and_content": "Division 4",
+   "author": "Fotograf: Jehle",
+   "coverage": "Geografische Abdeckung: Kleinhüningen",
+   "form": "Fotografie",
+   "format": "Negativ; Glasplatte; Silberbromid; 9x12cm",
+   "date": {
+    "from": "1914-01-01",
+    "to": "1918-12-31",
+    "expressed": "1914.01.01-1918.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a photograph created by a photographer during the period of the events, documenting a specific location and time.",
+  "resume": "This is a photograph documenting an observation post with a panoramic view from Schuldach, taken during the period 1914-1918. The image was captured by photographer Jehle and is part of the army's photographic collection on wartime activities."
+ },
+ "metadata": {
+  "title": "Beobachtungsposten; Panorama vom Schuldach aus",
+  "title_normalized": "Beobachtungsposten; Panorama vom Schuldach aus",
+  "title_en": "Observation Post; Panorama from Schuldach",
+  "creator": "Jehle",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1914-01-01/1918-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1914-01-01/1918-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "World War I",
+   "military observation posts",
+   "photographic documentation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "Aktivdienst 1914-1918",
+   "Aktivdienstberichte, Aktivdiensterinnerungen",
+   "Aktivdiensterinnerungen, Fotosammlungen, Tagebücher",
+   "Fotosammlungen über den Aktivdienst",
+   "Bildarchiv der geografisch-archivistischen Sektion des Armeestabes [Aktivdienst und Kriegsgeschehen]",
+   "Negativplatten und digitale Abzüge 9 x 12 cm; Nr. 1 - 5577; Sch. 1 - 13"
+  ],
+  "reference_code": "E27#1000/721#14093#52*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3236361",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jehle",
+    "display_name": "Jehle",
+    "role": "photographer",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Kleinhüningen",
+    "as_written": "Kleinhüningen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.583376,
+    "lon": 7.5975738,
+    "gazetteer": "https://www.openstreetmap.org/relation/7849692",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): author: { \"name\": \"Jehle\", \"role\": \"photographer\" }; named organizations or places (apertus): Geografische Abdeckung: Kleinhüningen",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1914.01.01-1918.12.31; free text places (apertus): Geografische Abdeckung: Kleinhüningen",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1914.01.01-1918.12.31"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Kleinhüningen"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "author: { \"name\": \"Jehle\", \"role\": \"photographer\" }"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Kleinhüningen"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1914-01-01/1918-12-31",
+   "place": "Kleinhüningen",
+   "lat": 47.583376,
+   "lon": 7.5975738,
+   "description": "Photograph taken by Jehle documenting an observation post with panoramic view from Schuldach.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#14093#52*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5063,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "still_image",
+ "evidence_source_level": null
+}

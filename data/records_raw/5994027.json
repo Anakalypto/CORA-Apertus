@@ -1,0 +1,73 @@
+{
+ "id": "5994027",
+ "uri": "https://culture.ld.admin.ch/ais/5994027",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5994027",
+ "title": "Register zum Conto-Corrente-Buch Nr. 58",
+ "reference_code": "E9#1000/1173#1400*",
+ "reference_number": null,
+ "old_reference_code": "E 6150 (A) -/1 / Ie",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1848-01-01",
+  "to": "1873-12-31",
+  "expressed": "1848-1873"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15997",
+   "number": "1000/1173",
+   "title": "1000/01173 Bundesverwaltung (Bern) (1822-1925)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992271",
+   "title": "Conto-Corrente",
+   "level": "Serie",
+   "reference_code": "E9#03.5.05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992221",
+   "title": "Staatsbuchhaltung",
+   "level": "Serie",
+   "reference_code": "E9#03.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5992202",
+   "title": "Staatskasse",
+   "level": "Serie",
+   "reference_code": "E9#03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3629",
+   "title": "Finanzwesen",
+   "level": "Stock",
+   "reference_code": "E9*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

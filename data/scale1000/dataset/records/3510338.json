@@ -1,0 +1,464 @@
+{
+ "id": "3510338",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3510338",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510338",
+  "reference_code": "E1401#2001/218#10#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "1998.0446: Parlamentarische Initiative Hämmerle Andrea. Post, SBB, Swisscom. Arbeitsplätze in der ganzen Schweiz / Initiative parlementaire Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bieri, Peter; Brändli, Christoffel; Büttiker, Rolf; Cottier, Anton; Hess, Hans; Jenny, This; Lauri, Hans; Leuenberger, Ernst; Leuenberger, Moritz; Maissen, Theo; Schiesser, Fritz; Stadler, Hansruedi",
+   "date": {
+    "from": "2001-12-11",
+    "to": null,
+    "expressed": "2001.12.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383489",
+     "number": "2001/218",
+     "title": "2001/00218 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This document is a parliamentary record from the Swiss Council of States (Ständerat) capturing a debate on a parliamentary initiative by Andrea Hämmerle concerning jobs in Post, SBB, and Swisscom across Switzerland, held during the Wintersession 2001. The record includes the names of speakers and is part of the archival holdings of the Swiss Federal Archives."
+ },
+ "metadata": {
+  "title": "1998.0446: Parlamentarische Initiative Hämmerle Andrea. Post, SBB, Swisscom. Arbeitsplätze in der ganzen Schweiz / Initiative parlementaire Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse",
+  "title_normalized": "1998.0446: Parlamentarische Initiative Hämmerle Andrea. Post, SBB, Swisscom. Des emplois dans toute la Suisse / Initiative parlementaire Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse",
+  "title_en": "Parliamentary Initiative Hämmerle Andrea. Post, SBB, Swisscom. Jobs in the whole of Switzerland / Parliamentary Initiative Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-12-11",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "2001-12-11",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swisscom",
+   "Post",
+   "SBB",
+   "Employment",
+   "Parliamentary initiative"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Wintersession 2001",
+   "8. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2001/218#10#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510338",
+  "accession_numbers": [
+   "2001/218"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christoffel Brändli",
+    "display_name": "Christoffel Brändli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116643",
+     "label": "Christoffel Brändli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116643"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Büttiker",
+    "display_name": "Rolf Büttiker",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120893",
+     "label": "Rolf Büttiker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120893"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anton Cottier",
+    "display_name": "Anton Cottier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121147",
+     "label": "Anton Cottier",
+     "description": "Swiss politician (1943-2006)",
+     "url": "https://www.wikidata.org/wiki/Q121147"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": 2006,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Hess",
+    "display_name": "Hans Hess",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q5650147",
+     "label": "Hans Hess",
+     "description": "German-British art historian, curator, art festival director (1908-1975)",
+     "url": "https://www.wikidata.org/wiki/Q5650147"
+    },
+    "life_date_check": {
+     "born": 1908,
+     "died": 1975,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "This Jenny",
+    "display_name": "This Jenny",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q374396",
+     "label": "This Jenny",
+     "description": "Swiss politician (1952-2014)",
+     "url": "https://www.wikidata.org/wiki/Q374396"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Lauri",
+    "display_name": "Hans Lauri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2189873",
+     "label": "Hans Lauri",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2189873"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ernst Leuenberger",
+    "display_name": "Ernst Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123122",
+     "label": "Ernst Leuenberger",
+     "description": "Swiss politician (1945-2009)",
+     "url": "https://www.wikidata.org/wiki/Q123122"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Theo Maissen",
+    "display_name": "Theo Maissen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118371",
+     "label": "Theo Maissen",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118371"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fritz Schiesser",
+    "display_name": "Fritz Schiesser",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q693281",
+     "label": "Fritz Schiesser",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q693281"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansruedi Stadler",
+    "display_name": "Hansruedi Stadler",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120948",
+     "label": "Hansruedi Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120948"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): TITLE: '1998.0446: Parlamentarische Initiative Hämmerle Andrea. Post, SBB, Swisscom. Arbeitsplätze in der ganzen Schweiz / Initiative parlementaire Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): TITLE: German and French versions of the same parliamentary initiative",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Anton Cottier', 'Hans Hess', 'This Jenny', 'Hans Lauri', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Theo Maissen', 'Fritz Schiesser', 'Hansruedi Stadler']; named organizations or places (apertus): TITLE: Post, SBB, Swisscom. Poste, CFF, Swisscom.",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.12.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "TITLE: '1998.0446: Parlamentarische Initiative Hämmerle Andrea. Post, SBB, Swisscom. Arbeitsplätze in der ganzen Schweiz / Initiative parlementaire Hämmerle Andrea. Poste, CFF, Swisscom. Des emplois dans toute la Suisse'"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "TITLE: German and French versions of the same parliamentary initiative"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.12.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Peter Bieri', 'Christoffel Brändli', 'Rolf Büttiker', 'Anton Cottier', 'Hans Hess', 'This Jenny', 'Hans Lauri', 'Ernst Leuenberger', 'Moritz Leuenberger', 'Theo Maissen', 'Fritz Schiesser', 'Hansruedi Stadler']"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "TITLE: Post, SBB, Swisscom. Poste, CFF, Swisscom."
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/218 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2001/218#10#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5353,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

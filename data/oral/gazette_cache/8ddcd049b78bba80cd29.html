@@ -1,0 +1,2038 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	resultsView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archives fédérales suisses - Publications officielles numérisées - Résultats de recherche</title>
+  <base href="https://www.amtsdruckschriften.bar.admin.ch/resultsView.jsp">
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+ 
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+
+</head>
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Archives fédérales suisses</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/fr/accueil.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Administration fédérale</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> DFI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> AFS</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Archives fédérales suisses</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView"  title="Diese Seite auf deutsch">
+                        DE 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView" class="active" title="Cette page en français">
+                        FR  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/fr/home/portrait/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/fr/home.html">
+        <h1>Archives fédérales suisses<br>Publications officielles numérisées</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Recherche simple
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Recherche avancée
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon la date
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon le contenu
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Déroulement de recherche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Préférences
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Aide
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Recherche simple</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Recherche avancée</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=suchmodus" >Mode de recherche</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Accentuation du titre</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Recherche dans le titre</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Attributs additionnels de la recherche</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Recherche de listes selon la date</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Recherche de listes selon le contenu</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Résultats de recherche</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Vue détaillée</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Déroulement de recherche</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Imprimer le déroulement de recherche</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Exporter le déroulement de recherche</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Préférences</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Recherche de référence</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Examples de recherche</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "fr";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Entrez ici les mots-clés souhaités. Ceux-ci seront recherchés de façon générale, c.à.d. que des mots similaires seront également trouvés et un degré de ressemblance sera calculé. Si vous désirez lancer une recherche précise en utilisant les opérateurs booléens (AND, OR, WITHIN, ...), allez vers la recherche avancée.')">Mots-clés:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Lausanne" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_fr/btn_search.gif" alt="rechercher" title="rechercher" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="effacer"><img src="images/local_fr/btn_delete.gif" alt="effacer"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">rechercher</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">effacer</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Entrez ici une date ou une période de calendrier, pour ne rechercher que dans les documents datés de cette période.Exemple :<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Période</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1903" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> jusque </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1933" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Choisissez les genres de publication dans lesquels votre recherche est souhaitée. <br>La Feuille fédérale est disponible dès 1848 jusqu\'à l\'année la plus récente (pour l\'année exacte, cf. \'Home\').<br>Les DDS sont disponibles pour les années 1848 à 1945.')">Rechercher dans</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Assemblée fédérale (Bulletin officiel, Procès-verbaux, Instruments de recherche)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bulletin officiel de l&#39;Assemblée fédérale (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux de l&#39;Assemblée fédérale (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Répertoire des délibérations (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Résumé des délibérations (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Droit fédéral
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Feuille fédérale (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil systématique (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil officiel (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Jurisprudence des autorités administratives de la Confédération (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Conseil fédéral
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux du Conseil fédéral (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Le système de reconnaissance automatique des textes n\'a pu être appliqué au procès-verbaux du Conseil fédéral qu\'à partir de 1904. <br>On ne peut donc pas effectuer une recherche plein texte pour les procès-verbaux de 1848 à 1903.')">(options de recherche réduites)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Rapports de gestion du Conseil fédéral (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Compte d&#39;Etat et budget (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Annuaire fédéral (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Documents Diplomatiques Suisses (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Etudes et Sources (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Collection d'actes de l'époque de la République helvétique (1798-1803) (contexte en allemand, actes dans la langue originelle)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Sélectionner tout </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Résultats de recherche </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Pas de date valable. \nContrôlez s.v.p. votre entrée. \nVous trouverez de plus amples informations dans le fichier d\'aide.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+
+
+
+  <!-- PAGE LABEL -->
+
+<!-- Anker Resultatliste -->
+<a name="resultlist"></a>
+
+
+
+
+
+<table width="99%"  border="0"><tr><td width="33%">
+	<div class="pageLabel"><span style="white-space: nowrap;">Résultats de recherche&nbsp;&nbsp;
+        
+            <a class="icon icon--before icon--print" href="printResultList.do" target="_blank" title="imprimer"></a>
+        
+        </span>
+</div>
+</td><td width="33%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td>
+<td align="right" width="33%">
+
+    <table align="right" width="300" border ="0"><tr><td style="width:220px;">
+        <div style="text-align:right;" class="pageLabel">Exportation de données:&nbsp;&nbsp;</div></td>
+    <td  style="width:80px;" align="right">
+        <input type="hidden" id="exportAction" name="mode" value="">
+        <span style="white-space: nowrap;"><a href="export.do?mode=all"><img src="images/icons/c_selectAll.gif" width="20" higth="20" border="0" alt="Sélectionner la totalité"></a>&nbsp;&nbsp;
+              <a href="export.do?mode=delete"><img src="images/icons/c_selectNone.gif" width="20" higth="20" border="0" alt="Annuler la sélection"></a>&nbsp;&nbsp;
+              <a href="javascript:setExportFormSubmit('','export','')"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Exporter la sélection"></a>
+                <!--<a href="export.do"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Exporter la sélection"></a>-->
+        </span>
+    </td></tr></table>
+
+</td></tr></table>
+	
+
+<!--
+	statusMessage.jsp
+-->
+
+
+
+
+
+        
+            <!-- RESULTS LIST -->
+            
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+<!--
+    Determine pane expand state.
+        Incoming value, and forced values. 
+        Force expand takes precendence (only one force should be present).
+-->
+  
+  
+    
+  
+
+  
+
+  
+    
+      
+    
+  
+
+<!--
+   Set up initial state of image source and content div.
+	  Originally also had position:relative for the div, from some (hopefully) old issues with showing/hiding.
+	  This had a side effect of hiding the focus indicator for checkboxes and radio buttons.
+-->
+  
+	  
+	  
+  
+
+
+
+
+    
+        <!-- show pagination -->
+        <div>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Le nombre de documents peut être augmenté sous le menu réglages.')">1 à 25 sur les 100 les plus pertinents</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li><a href="javascript:exportFormSubmit('','','75','25')">4</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">Page suivante</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','75','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+        docsList.jsp
+        Caller sets conv:load-channel to query or cat.
+-->
+
+
+
+    
+<style>
+    
+    .docsRow {font-size:small}
+</style>
+
+
+
+
+
+<!-- Document List Body -->
+<div class="resultListBody">
+
+<!-- Begin results table -->
+<!-- CONVERA - SB Export Formular -->
+<form name="exportForm"  id="exportForm" action="setExport.jsp" method="GET">
+    <input type="hidden" name="sortBy" value="relevance" id="sortBy">
+    <input type="hidden" name="sortOrder" value="asc" id="sortOrder">
+    <input type="hidden" id="fetchCount" name="fetchCount" value="">
+    <input type="hidden" id="fetchStart" name="fetchStart" value="">
+
+<!--<table width="95%" border="0">-->
+<fieldset>
+<table width="100%" border="0">
+        <tr class="docsColumnHeadRow"><td align="left" nowrap="1" valign="middle"><div nowrap="1">
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_titel_normal_fr', 'desc', '', '')"
+                title="Trier par Titre"
+                valign="middle">Titre<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('a_jahr', 'desc', '', '')"
+                title="Trier par Année"
+                valign="middle">Année<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('b_band_nr', 'desc', '', '')"
+                title="Trier par Volume"
+                valign="middle">Volume<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_von_num', 'desc', '', '')"
+                title="Trier par Page de"
+                valign="middle">Page de<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_bis_num', 'desc', '', '')"
+                title="Trier par Page jusque"
+                valign="middle">Page jusque<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_autor', 'desc', '', '')"
+                title="Trier par Auteur"
+                valign="middle">Auteur<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('size', 'desc', '', '')"
+                title="Trier par Taille"
+                valign="middle">Document<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('relevance', 'desc', '', '')"
+                title="Trier par Pertinence"
+                valign="middle">Pertinence<img
+                src="images/layout/btn_sort_asc.gif"
+                alt="croissant"
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                <label for="export"><span class="docsColumnLink" valign="middle"><u>Exportation</u></span></label></div></td></tr>
+        <tr><td>
+        </td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10078486"
+            title="Voir les détails"
+            >Arr&#234;t&#233; f&#233;d&#233;ral portant extension de la concession du r&#233;seau des tramways &#233;lectriques de Lausanne et environs &#224; une ligne de tramway &#233;lectrique Lausanne Georgette-Port de Pully.</a></td><td align="center" valign="top">1909</td><td align="center" valign="top">6</td><td align="center" valign="top">671</td><td align="center" valign="top">673</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10078486.pdf?ID=10078486" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">82kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="4.8296857" height="21"
+                alt="10.732635"
+                title="10.732635"/><img src="scheme/rank_back.gif"
+                width="40.170315" height="21"
+                alt="10.732635"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10078486" name="export" value="10078486">
+                        <label for="export_10078486"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10078486">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10076768"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant le transfert &#224; la ville Lausanne de la concession d'un chemin de fer de Renens &#224; Lausanne (gare du Flon). (Du 23 mars 1906.)</a></td><td align="center" valign="top">1906</td><td align="center" valign="top">2</td><td align="center" valign="top">191</td><td align="center" valign="top">201</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10076768.pdf?ID=10076768" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">435kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="4.7642384" height="21"
+                alt="10.587196"
+                title="10.587196"/><img src="scheme/rank_back.gif"
+                width="40.235764" height="21"
+                alt="10.587196"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10076768" name="export" value="10076768">
+                        <label for="export_10076768"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10076768">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10078485"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant l'extension de la concession du r&#233;seau des tramways &#233;lectriques &#224; Lausanne et environs &#224; une nouvelle ligne Lausanne Georgette-Port de Pully. (Du 6 d&#233;cembre 1909.)</a></td><td align="center" valign="top">1909</td><td align="center" valign="top">6</td><td align="center" valign="top">669</td><td align="center" valign="top">671</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10078485.pdf?ID=10078485" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">97kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="4.322094" height="21"
+                alt="9.604653"
+                title="9.604653"/><img src="scheme/rank_back.gif"
+                width="40.677906" height="21"
+                alt="9.604653"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10078485" name="export" value="10078485">
+                        <label for="export_10078485"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10078485">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10082170"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la modification de la concession d'un r&#233;seau de tramways &#233;lectriques &#224; Lausanne et environs, ainsi que de la concession du chemin de fer &#233;lectrique de Lausanne &#224; Moudon. (Du 12 septembre 1919.)</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">5</td><td align="center" valign="top">23</td><td align="center" valign="top">26</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10082170.pdf?ID=10082170" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">176kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="4.313183" height="21"
+                alt="9.584851"
+                title="9.584851"/><img src="scheme/rank_back.gif"
+                width="40.686817" height="21"
+                alt="9.584851"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10082170" name="export" value="10082170">
+                        <label for="export_10082170"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10082170">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081596"
+            title="Voir les détails"
+            >Arr&#234;t&#233; f&#233;d&#233;ral modifiant la concession du chemin de fer &#233;lectrique sur route de Lausanne &#224; Moudon.</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">1</td><td align="center" valign="top">499</td><td align="center" valign="top">501</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081596.pdf?ID=10081596" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">116kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="4.265772" height="21"
+                alt="9.479493"
+                title="9.479493"/><img src="scheme/rank_back.gif"
+                width="40.73423" height="21"
+                alt="9.479493"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081596" name="export" value="10081596">
+                        <label for="export_10081596"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081596">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003131"
+            title="Voir les détails"
+            >Le Chef du D&#233;partement de l'Economie publique, E. Schulthess, au Directeur d'Arrondissement &#224; Lausanne des Chemins de Fer F&#233;d&#233;raux, E. Gorjat</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">59</td><td align="center" valign="top">60</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003131.pdf?ID=60003131" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">112kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.8695886" height="21"
+                alt="8.599086"
+                title="8.599086"/><img src="scheme/rank_back.gif"
+                width="41.130417" height="21"
+                alt="8.599086"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003131" name="export" value="60003131">
+                        <label for="export_60003131"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003131">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081712"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la modification des concessions pour un chemin de fer &#224; voie &#233;troite de Lausanne &#224; Echallens et le raccordement de cette ligne avec celle de Lausanne &#224; Ouchy, ainsi que pour un chemin de fer d'Echallens &#224; Bercher. (Du 2 juillet 1918.)</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">3</td><td align="center" valign="top">567</td><td align="center" valign="top">573</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081712.pdf?ID=10081712" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">326kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.7492476" height="21"
+                alt="8.331661"
+                title="8.331661"/><img src="scheme/rank_back.gif"
+                width="41.25075" height="21"
+                alt="8.331661"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081712" name="export" value="10081712">
+                        <label for="export_10081712"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081712">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081267"
+            title="Voir les détails"
+            >Arr&#234;t&#233; du Conseil f&#233;d&#233;ral sur le recours du notaire M. Golay, &#224; Lausanne, contre une d&#233;cision du bureau suisse du registre du commerce relative aux conditions &#224; remplir pour faire inscrire dans ledit registre une augmentation du capital-actions de la soci&#233;t&#233; anonyme Banque de pr&#234;ts sur gages de Lausanne. (Du 4 avril 1917.)</a></td><td align="center" valign="top">1917</td><td align="center" valign="top">2</td><td align="center" valign="top">405</td><td align="center" valign="top">412</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081267.pdf?ID=10081267" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">413kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.7130172" height="21"
+                alt="8.251149"
+                title="8.251149"/><img src="scheme/rank_back.gif"
+                width="41.286983" height="21"
+                alt="8.251149"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081267" name="export" value="10081267">
+                        <label for="export_10081267"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081267">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081286"
+            title="Voir les détails"
+            >Arr&#234;t&#233; du Conseil f&#233;d&#233;ral sur le recours du Dr Francis Cevey, m&#233;decin &#224; Lausanne, contre une d&#233;cision du tribunal cantonal vaudois relative &#224; l'inscription du recourant au registre du commerce en sa qualit&#233; de propri&#233;taire de la clinique Sylvana, aux Croisettes-Epalinges sur Lausanne. (Du 4 mai 1917.)</a></td><td align="center" valign="top">1917</td><td align="center" valign="top">3</td><td align="center" valign="top">24</td><td align="center" valign="top">34</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081286.pdf?ID=10081286" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">553kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.7116852" height="21"
+                alt="8.248189"
+                title="8.248189"/><img src="scheme/rank_back.gif"
+                width="41.288315" height="21"
+                alt="8.248189"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081286" name="export" value="10081286">
+                        <label for="export_10081286"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081286">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10077486"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la modification de la concession d'un r&#233;seau de tramways &#233;lectriques &#224; Lausanne et environs. (Du 2l septembre 1907.)</a></td><td align="center" valign="top">1907</td><td align="center" valign="top">5</td><td align="center" valign="top">196</td><td align="center" valign="top">199</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10077486.pdf?ID=10077486" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">108kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.6707587" height="21"
+                alt="8.157242"
+                title="8.157242"/><img src="scheme/rank_back.gif"
+                width="41.329243" height="21"
+                alt="8.157242"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10077486" name="export" value="10077486">
+                        <label for="export_10077486"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10077486">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081767"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant l'allocation d'un cr&#233;dit en vue de l'achat d'une propri&#233;t&#233; pour la direction des douanes &#224; Lausanne. (Du 10 septembre 1918.)</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">4</td><td align="center" valign="top">484</td><td align="center" valign="top">487</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081767.pdf?ID=10081767" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">126kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.6340787" height="21"
+                alt="8.07573"
+                title="8.07573"/><img src="scheme/rank_back.gif"
+                width="41.36592" height="21"
+                alt="8.07573"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081767" name="export" value="10081767">
+                        <label for="export_10081767"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081767">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10085884"
+            title="Voir les détails"
+            >MESSAGE du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant l'octroi d'une nouvelle concession au chemin de fer funiculaire Lausanne-Ouchy. (Du 7 mars 1930).</a></td><td align="center" valign="top">1930</td><td align="center" valign="top">1</td><td align="center" valign="top">189</td><td align="center" valign="top">198</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10085884.pdf?ID=10085884" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">438kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.6192126" height="21"
+                alt="8.042695"
+                title="8.042695"/><img src="scheme/rank_back.gif"
+                width="41.380787" height="21"
+                alt="8.042695"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10085884" name="export" value="10085884">
+                        <label for="export_10085884"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10085884">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10076385"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la modification de la concession du chemin de fer funiculaire de Lausanne au Signal du bois de Sauvabelin. (Du 10 juin 1905.)</a></td><td align="center" valign="top">1905</td><td align="center" valign="top">4</td><td align="center" valign="top">317</td><td align="center" valign="top">321</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10076385.pdf?ID=10076385" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">111kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.6157348" height="21"
+                alt="8.034966"
+                title="8.034966"/><img src="scheme/rank_back.gif"
+                width="41.384266" height="21"
+                alt="8.034966"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10076385" name="export" value="10076385">
+                        <label for="export_10076385"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10076385">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10076627"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la concession d'un r&#233;seau de tramways &#233;lectriques &#224; Lausanne et environs. (Du 14 d&#233;cembre 1905.)</a></td><td align="center" valign="top">1905</td><td align="center" valign="top">6</td><td align="center" valign="top">450</td><td align="center" valign="top">461</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10076627.pdf?ID=10076627" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">474kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5941863" height="21"
+                alt="7.987081"
+                title="7.987081"/><img src="scheme/rank_back.gif"
+                width="41.40581" height="21"
+                alt="7.987081"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10076627" name="export" value="10076627">
+                        <label for="export_10076627"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10076627">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081979"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant l'extension de la concession des tramways &#233;lectriques de Lausanne et environs aux nouvelles lignes Renens-St-Sulpice et Prilly-Crissier. (Du 5 avril 1919.)</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">1</td><td align="center" valign="top">595</td><td align="center" valign="top">598</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081979.pdf?ID=10081979" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">146kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.591144" height="21"
+                alt="7.9803205"
+                title="7.9803205"/><img src="scheme/rank_back.gif"
+                width="41.40885" height="21"
+                alt="7.9803205"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081979" name="export" value="10081979">
+                        <label for="export_10081979"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081979">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10077340"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale sur le recours en gr&#226;ce d'Antony Dadier, &#224; Gen&#232;ve, 8, rue de Lausanne, condamn&#233; pour non-paiement de sa taxe militaire. (Du 24 mai 1907.)</a></td><td align="center" valign="top">1907</td><td align="center" valign="top">4</td><td align="center" valign="top">629</td><td align="center" valign="top">631</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10077340.pdf?ID=10077340" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">76kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5855744" height="21"
+                alt="7.967943"
+                title="7.967943"/><img src="scheme/rank_back.gif"
+                width="41.41443" height="21"
+                alt="7.967943"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10077340" name="export" value="10077340">
+                        <label for="export_10077340"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10077340">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10076992"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale sur le recours en gr&#226;ce de Jules Borgeaud, rue Mercerie 17, &#224; Lausanne, condamn&#233; pour non-paiement de sa taxe militaire. (Du 18 septembre 1906.)</a></td><td align="center" valign="top">1906</td><td align="center" valign="top">4</td><td align="center" valign="top">641</td><td align="center" valign="top">643</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10076992.pdf?ID=10076992" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">85kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.582706" height="21"
+                alt="7.961569"
+                title="7.961569"/><img src="scheme/rank_back.gif"
+                width="41.417294" height="21"
+                alt="7.961569"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10076992" name="export" value="10076992">
+                        <label for="export_10076992"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10076992">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10083121"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la construction d'un nouveau palais du Tribunal f&#233;d&#233;ral dans le parc de &#171;Mon-Repos&#187; &#224; Lausanne. (Du 4 janvier 1922.)</a></td><td align="center" valign="top">1922</td><td align="center" valign="top">1</td><td align="center" valign="top">13</td><td align="center" valign="top">26</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10083121.pdf?ID=10083121" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">640kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5810664" height="21"
+                alt="7.957925"
+                title="7.957925"/><img src="scheme/rank_back.gif"
+                width="41.418934" height="21"
+                alt="7.957925"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10083121" name="export" value="10083121">
+                        <label for="export_10083121"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10083121">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10079370"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale sur le recours en mati&#232;re de taxe militaire de Paul Dupertuis, &#224; Lausanne. (Du 18 d&#233;cembre 1911.)</a></td><td align="center" valign="top">1911</td><td align="center" valign="top">5</td><td align="center" valign="top">279</td><td align="center" valign="top">281</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10079370.pdf?ID=10079370" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">112kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5640693" height="21"
+                alt="7.920154"
+                title="7.920154"/><img src="scheme/rank_back.gif"
+                width="41.435932" height="21"
+                alt="7.920154"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10079370" name="export" value="10079370">
+                        <label for="export_10079370"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10079370">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10081595"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant la modification de la concession du chemin de fer &#233;lectrique sur route de Lausanne &#224; Moudon. (Du 23 mars 1918.)</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">1</td><td align="center" valign="top">497</td><td align="center" valign="top">499</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10081595.pdf?ID=10081595" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">119kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5479293" height="21"
+                alt="7.884288"
+                title="7.884288"/><img src="scheme/rank_back.gif"
+                width="41.452072" height="21"
+                alt="7.884288"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10081595" name="export" value="10081595">
+                        <label for="export_10081595"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10081595">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10075569"
+            title="Voir les détails"
+            >Arr&#234;t&#233; du Conseil f&#233;d&#233;ral sur le recours de Gaston Bloch, marchand de chaussures &#224; Lausanne, pour violation de la libert&#233; de commerce et d'industrie. (Du 18 ao&#251;t 1903.)</a></td><td align="center" valign="top">1903</td><td align="center" valign="top">3</td><td align="center" valign="top">1239</td><td align="center" valign="top">1251</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10075569.pdf?ID=10075569" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">649kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.543991" height="21"
+                alt="7.8755355"
+                title="7.8755355"/><img src="scheme/rank_back.gif"
+                width="41.45601" height="21"
+                alt="7.8755355"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10075569" name="export" value="10075569">
+                        <label for="export_10075569"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10075569">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10079856"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale au sujet du recours en mati&#232;re de taxe militaire d'Albert Margot, &#224; Lausanne. (Du 11 mars 1913.)</a></td><td align="center" valign="top">1913</td><td align="center" valign="top">1</td><td align="center" valign="top">642</td><td align="center" valign="top">645</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10079856.pdf?ID=10079856" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">171kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.543991" height="21"
+                alt="7.8755355"
+                title="7.8755355"/><img src="scheme/rank_back.gif"
+                width="41.45601" height="21"
+                alt="7.8755355"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10079856" name="export" value="10079856">
+                        <label for="export_10079856"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10079856">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10082398"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant le recours de taxe militaire de Paul Kind, secr&#233;taire du Tribunal f&#233;d&#233;ral, &#224; Lausanne. (Du 19 mars 1920.)</a></td><td align="center" valign="top">1920</td><td align="center" valign="top">1</td><td align="center" valign="top">569</td><td align="center" valign="top">577</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10082398.pdf?ID=10082398" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">507kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.5038345" height="21"
+                alt="7.786299"
+                title="7.786299"/><img src="scheme/rank_back.gif"
+                width="41.496166" height="21"
+                alt="7.786299"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10082398" name="export" value="10082398">
+                        <label for="export_10082398"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10082398">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10079855"
+            title="Voir les détails"
+            >Message du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale concernant l'extension de la concession du r&#233;seau des Tramways &#233;lectriques de Lausanne et environs aux nouvelles lignes Renens-St-Sulpice et Prilly-Crissier. ; (Du 14 mars 1913.)</a></td><td align="center" valign="top">1913</td><td align="center" valign="top">1</td><td align="center" valign="top">637</td><td align="center" valign="top">641</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10079855.pdf?ID=10079855" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">193kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.272493" height="21"
+                alt="7.272207"
+                title="7.272207"/><img src="scheme/rank_back.gif"
+                width="41.727505" height="21"
+                alt="7.272207"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10079855" name="export" value="10079855">
+                        <label for="export_10079855"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10079855">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=10077477"
+            title="Voir les détails"
+            >Rapport du Conseil f&#233;d&#233;ral &#224; l'Assembl&#233;e f&#233;d&#233;rale sur le recours en gr&#226;ce de Jules K&#252;ffer, conducteur de tramway &#224; Lausanne, condamn&#233; pour atteinte &#224; la s&#233;curit&#233; des chemins de fer. (Du 16 septembre 1907.)</a></td><td align="center" valign="top">1907</td><td align="center" valign="top">5</td><td align="center" valign="top">163</td><td align="center" valign="top">164</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/10077477.pdf?ID=10077477" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">68kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="3.2642634" height="21"
+                alt="7.2539186"
+                title="7.2539186"/><img src="scheme/rank_back.gif"
+                width="41.735737" height="21"
+                alt="7.2539186"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_10077477" name="export" value="10077477">
+                        <label for="export_10077477"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="10077477">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+</table>
+</fieldset>
+<br>
+
+</div>
+
+        <!--
+                Page navigation
+                Match the pane's windowTitle table to get fonts to match.
+                Spacer cell provides indent for text. LATER: Make a pane button placeholder image.
+                Flag the position as a footer, for SkipNav naming. Var defined here; omitted in header pane.
+        -->
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Le nombre de documents peut être augmenté sous le menu réglages.')">1 à 25 sur les 100 les plus pertinents</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li><a href="javascript:exportFormSubmit('','','75','25')">4</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">Page suivante</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','75','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+
+
+
+
+        </div>
+    
+    
+
+
+
+
+                
+        
+<table width="100%"><tr><td width="100%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td></tr></table>
+
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Archives fédérales suisses (AFS)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/fr/accueil/conditions-utilisation.html">Informations juridiques</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

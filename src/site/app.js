@@ -5,7 +5,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const api = async (path, opts) => {
-  const r = await fetch(path, opts);
+  const r = await fetch(withLang(path), opts);  // ?lang=: Apertus writes in the reader's language
   if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
   return r.json();
 };
@@ -45,6 +45,12 @@ const SVG = {
   pause: '<path d="M7 4h3v16H7zM14 4h3v16h-3z" fill="currentColor"/>',
 };
 const icon = (name) => `<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${SVG[name] || SVG.file}</svg>`;
+
+/* Vote titles: official titles stay in their language (German or French); Apertus' English title only in English. */
+function voteTitle(v, en) {
+  if (LANG === "en") return en || v.title_en || v.title_de;
+  return (LANG === "fr" || LANG === "it") ? (v.title_fr || v.title_de) : v.title_de;
+}
 
 const MEDIUM_ICON = { "moving image": "film", "still image": "camera", text: "doc", sound: "mic", mixed: "layers" };
 const TYPE_ICON = {
@@ -276,7 +282,7 @@ async function home() {
     <h2>By fonds</h2>
     <div class="tiles">${s.facets.fonds.slice(0, 8).map(([k, n]) => `<a class="tile" href="#/search?fonds=${encodeURIComponent(k)}"><b>${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
     <h2>A few documents</h2>
-    <div class="grid-cards">${featured.map((r) => `<a class="card" href="#/record/${r.id}">${cover(r)}<div class="t">${esc(r.title_en || r.title)}</div><div class="small muted">${fmtDate(r.date)}</div></a>`).join("")}</div>`;
+    <div class="grid-cards">${featured.map((r) => `<a class="card" href="#/record/${r.id}">${cover(r)}<div class="t">${esc((LANG === "en" && r.title_en) || r.title)}</div><div class="small muted">${fmtDate(r.date)}</div></a>`).join("")}</div>`;
 }
 
 /* ---------------- Search: Gallica-style bar, filter flags and sort next to the search field ---------------- */
@@ -673,8 +679,8 @@ async function recordPage(id, tab) {
       <section>
         <div class="badges"><span class="badge">${esc(r.classification.document_type)}</span><span class="badge lvl-${r.classification.source_level}">${esc(r.classification.source_level)} source</span><span class="badge">${esc(r.classification.medium)}</span>${r.qc.ok ? "" : `<span class="badge qc-bad">QC issue</span>`}</div>
         <h1>${esc(r.metadata.title_normalized || r.metadata.title)}</h1>
-        <div class="muted">${esc(r.metadata.title_en || "")}</div>
-        ${r.classification.resume ? `<div class="resume-box">${esc(r.classification.resume)} ${pv("apertus")}
+        ${LANG === "en" ? `<div class="muted">${esc(r.metadata.title_en || "")}</div>` : ""}
+        ${r.classification.resume ? `<div class="resume-box"><span id="resume-text" translate="no">${esc(r.classification.resume)}</span> ${pv("apertus")}
           <div><button class="more-btn" id="morebtn">See more ▾</button></div><div id="more"></div></div>` : `<p class="muted small">Résumé disabled in config.</p>`}
         ${r.classification.source_level !== "primary" ? `<div id="topic"></div>` : ""}
         <div id="inquiry"></div>
@@ -722,6 +728,7 @@ async function recordPage(id, tab) {
     } finally { mb.disabled = false; }
   };
   show(tab);
+  if (LANG !== "en" && $("#resume-text")) api(`/api/records/${id}/resume`).then((x) => { if ($("#resume-text") && x.resume) $("#resume-text").textContent = x.resume; }).catch(() => {});
   recordInquiry(r);
   if ($("#topic")) topicPanel(r);
 }
@@ -912,7 +919,7 @@ async function livePage() {
 /* ---------------- Ask the archive ---------------- */
 const EXHIBIT = (i) => String.fromCharCode(65 + (i % 26)) + (i >= 26 ? Math.floor(i / 26) : "");
 const caseNo = (q) => { let h = 7; for (const c of q) h = (h * 31 + c.charCodeAt(0)) >>> 0; return `CORA-${new Date().getFullYear()}-${String(h % 10000).padStart(4, "0")}`; };
-const today = () => new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
+const today = () => new Date().toLocaleDateString(LOCALE, { day: "2-digit", month: "long", year: "numeric" });
 const CASELOG_KEY = "cora.caselog";
 const caseLog = () => { try { return JSON.parse(localStorage.getItem(CASELOG_KEY) || "[]"); } catch { return []; } };
 const logCase = (q, verdict) => {
@@ -962,7 +969,7 @@ const saveChat = (c) => {
   } catch { /* storage unavailable: the case lives for this page only */ }
 };
 const caseNumber = (c) => `CORA-${new Date(c.opened).getFullYear()}-${String(parseInt(c.id, 36) % 10000).padStart(4, "0")}`;
-const openedOn = (c) => new Date(c.opened).toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
+const openedOn = (c) => new Date(c.opened).toLocaleDateString(LOCALE, { day: "2-digit", month: "long", year: "numeric" });
 const verdictOf = (r) => {
   if (!r || !r.paragraphs.length) return "closed";
   const sents = r.paragraphs.flat();
@@ -1187,7 +1194,7 @@ async function consultationsPage(params) {
       ${selT || selY || topic ? `<a href="#/consultations">clear</a>` : ""}</div>
     ${list.slice(0, 60).map((r) => `<article class="result cons"><div>
         <h3>${esc(r.title)}</h3>
-        <div class="muted small">${esc(r.title_en || "")} ${r.tag_generated ? pv("apertus") : ""}</div>
+        <div class="muted small">${LANG === "en" ? esc(r.title_en || "") : ""} ${r.tag_generated ? pv("apertus") : ""}</div>
         <div class="badges"><span class="badge">${esc(r.type)}</span><span class="badge">${r.year}</span><span class="badge">${esc(r.dept_abbr)}</span>
           ${r.topics.map((t) => `<span class="badge lvl-secondary">${esc(t)}</span>`).join("")}${r.tag_confidence != null ? `<span class="badge">confidence ${r.tag_confidence}</span>` : ""}</div>
         ${r.entities.length ? `<div class="small">Entities: ${r.entities.map((e) => esc(e.name)).join(" · ")}</div>` : ""}
@@ -1253,7 +1260,7 @@ async function parliamentPage(params) {
     (BGB → SVP, KK → KVP → CVP → Die Mitte, LPS → FDP in 2009).</p>
     <div class="vote-find">
       <input id="votefind" list="votelist" placeholder="Find any federal vote since 1848 (title or year)…" autocomplete="off">
-      <datalist id="votelist">${VOTES.votes.map((v) => `<option value="${v.anr} · ${v.date.slice(0, 4)} · ${esc(v.title_en || v.title_de)}">`).join("")}</datalist>
+      <datalist id="votelist">${VOTES.votes.map((v) => `<option value="${v.anr} · ${v.date.slice(0, 4)} · ${esc(voteTitle(v))}">`).join("")}</datalist>
       <span class="small muted">Featured: <a href="#/parliament?vote=224&whatif=1959">women's suffrage, 1971 vs 1959</a></span>
     </div>
     ${vote ? `<div id="votepanel"></div>` : ""}
@@ -1271,7 +1278,7 @@ async function parliamentPage(params) {
       : `<p class="muted small">No national vote shares for ${y} in the BFS series used here (it starts in 1971). Seats above come from parlament.ch.</p>`}
     <h3>Federal votes in this legislature <small class="muted">${inLeg.length}</small></h3>
     ${inLeg.length ? `<table class="t votes"><tr><th>Date</th><th>Vote</th><th>Yes</th><th>Party-cue estimate</th></tr>
-      ${inLeg.map((v) => `<tr class="${vote && v.anr === vote.anr ? "on" : ""}"><td>${v.date}</td><td><a href="#/parliament?year=${y}&vote=${v.anr}">${esc(v.title_en || v.title_de)}</a> <span class="small muted">${esc(v.legal_form)}</span></td>
+      ${inLeg.map((v) => `<tr class="${vote && v.anr === vote.anr ? "on" : ""}"><td>${v.date}</td><td><a href="#/parliament?year=${y}&vote=${v.anr}">${esc(voteTitle(v))}</a> <span class="small muted">${esc(v.legal_form)}</span></td>
         <td>${voteBar(v.yes, v.accepted)}</td><td>${v.estimate != null ? `${v.estimate} %` : `<span class="muted">–</span>`}</td></tr>`).join("")}</table>`
       : `<p class="small muted">No federal vote in this legislature.</p>`}
     <div id="members"></div>`;
@@ -1316,7 +1323,7 @@ function backtestSvg(points, f, marks) {
 async function votePanel(v, whatifYear, legYear) {
   const box = $("#votepanel");
   const f = VOTES.model;
-  box.innerHTML = `<section class="vote"><h2>${esc(v.title_en || v.title_de)}</h2><p class="muted">${v.date} · ${esc(v.legal_form)} · ${voteBar(v.yes, v.accepted)}</p>
+  box.innerHTML = `<section class="vote"><h2 translate="no">${esc(voteTitle(v))}</h2><p class="muted">${v.date} · ${esc(v.legal_form)} · ${voteBar(v.yes, v.accepted)}</p>
     <p class="small muted"><span class="spinner"></span> Apertus is reading the vote and looking for related votes…</p></section>`;
   let d;
   try { d = await api(`/api/votes/${v.anr}`); } catch (err) { box.innerHTML = `<p class="small">Could not load the vote: ${esc(err.message)}</p>`; return; }
@@ -1328,7 +1335,7 @@ async function votePanel(v, whatifYear, legYear) {
   const hasResult = d.yes != null;
   box.innerHTML = `<section class="vote">
     <div class="vote-head"><div>
-      <h2>${esc(a.title_en || d.title_de)}</h2>
+      <h2 translate="no">${esc(voteTitle(d, a.title_en))}</h2>
       <p class="muted">${esc(d.title_de)} · ${esc(d.title_fr)}<br>${d.date} · ${esc(d.legal_form)}${d.cantons_accepting && d.cantons_accepting !== "." ? ` · cantons: ${esc(d.cantons_accepting)} % yes` : ""}</p>
     </div><div class="vote-result">
       <div><span class="small muted">${hasResult ? "Result" : "Upcoming"}</span><b class="${hasResult ? (d.accepted ? "acc" : "rej") : ""}">${hasResult ? `${d.yes.toFixed(1)} % yes` : "–"}</b>${hasResult ? `<span class="small">${d.accepted ? "accepted" : "rejected"}</span>` : ""}</div>
@@ -1421,6 +1428,7 @@ async function route() {
     else if (parts[0] === "consultations") await consultationsPage(new URLSearchParams(query || ""));
     else if (parts[0] === "parliament") await parliamentPage(new URLSearchParams(query || ""));
     else if (parts[0] === "referendum") await referendumPage();
+    else if (window.EXTRA_ROUTES?.[parts[0]]) await window.EXTRA_ROUTES[parts[0]](parts, new URLSearchParams(query || ""));  // oral.js
     else app.innerHTML = "<p>Not found.</p>";
   } catch (e) {
     app.innerHTML = `<p>Could not load: ${esc(e.message)}</p>`;

@@ -1,0 +1,267 @@
+{
+ "id": "861530",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/861530",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/861530",
+  "reference_code": "E2001C#1000/1541#72*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Geschichte des Titels «Projet de convention revisée pour la navigation du Rhin adopté en première lecture»",
+   "reference_number": "C.13.24.01",
+   "date": {
+    "from": "1933-01-01",
+    "to": "1934-12-31",
+    "expressed": "1933-1934"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7545",
+     "number": "1000/1541",
+     "title": "1000/01541 Bundesverwaltung (Bern) (1905 - 1939)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective historical account within an administrative file series concerning the revision of the Rhine shipping convention.",
+  "resume": "This is an archival finding aid (inventory entry) describing a document related to the revision of the Rhine navigation convention, covering the period 1933–1934. It does not contain the actual convention text or debate recordings but indexes the file within the Swiss Federal Archives' diplomatic and economic policy collections. The record itself is a catalogue description of a file on international river transport law."
+ },
+ "metadata": {
+  "title": "Geschichte des Titels «Projet de convention revisée pour la navigation du Rhin adopté en première lecture»",
+  "title_normalized": "Geschichte des Titels «Projet de convention revisée pour la navigation du Rhin adopté en première lecture»",
+  "title_en": "History of the title 'Draft revised convention for Rhine navigation adopted in first reading'",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1933/1934",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Rhine navigation",
+   "international waterways",
+   "shipping law",
+   "economic policy",
+   "diplomacy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Abteilung für Auswärtiges (1915-1946)",
+  "fonds_reference": "E10003*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Abteilung für Auswärtiges (1915-1946)",
+   "Abteilung für Auswärtiges: Zentrale Ablage (1927-1936)",
+   "Wirtschaftspolitik",
+   "Verkehrsangelegenheiten der Schweiz",
+   "Binnenschiffahrt",
+   "Rheinschiffahrt",
+   "Binnenschiffahrtsrecht",
+   "Revision der Rheinschiffahrtsakte"
+  ],
+  "reference_code": "E2001C#1000/1541#72*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/861530",
+  "accession_numbers": [
+   "1000/1541"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (CH-BAR#Unterlagen*), Main Department: Archiv des Schweizerischen Bundesstaates ab 1848 (E*), Abteilung für Auswärtiges (1915-1946) (E10003*), Bundesverwaltung (Bern) (1000/1541)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (CH-BAR#Unterlagen*), Main Department: Archiv des Schweizerischen Bundesstaates ab 1848 (E*), Abteilung für Auswärtiges (1915-1946) (E10003*), Bundesverwaltung (Bern) (1000/1541)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1541 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2001C#1000/1541#72*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4721,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

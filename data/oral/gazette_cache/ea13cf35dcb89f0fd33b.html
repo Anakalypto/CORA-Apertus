@@ -1,0 +1,3535 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	detailView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archives fédérales suisses - Publications officielles numérisées - Résultats de recherche</title>
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+  
+  
+      
+  
+  
+  <base href="https://www.amtsdruckschriften.bar.admin.ch:443/detailView.do?id=110000284">
+
+</head>
+
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Archives fédérales suisses</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/fr/accueil.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Administration fédérale</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> DFI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> AFS</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Archives fédérales suisses</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView"  title="Diese Seite auf deutsch">
+                        DE 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView" class="active" title="Cette page en français">
+                        FR  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/fr/home/portrait/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/fr/home.html">
+        <h1>Archives fédérales suisses<br>Publications officielles numérisées</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Recherche simple
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Recherche avancée
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon la date
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon le contenu
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Déroulement de recherche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Préférences
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Aide
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Recherche simple</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Recherche avancée</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=suchmodus" >Mode de recherche</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Accentuation du titre</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Recherche dans le titre</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Attributs additionnels de la recherche</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Recherche de listes selon la date</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Recherche de listes selon le contenu</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Résultats de recherche</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Vue détaillée</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Déroulement de recherche</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Imprimer le déroulement de recherche</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Exporter le déroulement de recherche</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Préférences</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Recherche de référence</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Examples de recherche</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "fr";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Entrez ici les mots-clés souhaités. Ceux-ci seront recherchés de façon générale, c.à.d. que des mots similaires seront également trouvés et un degré de ressemblance sera calculé. Si vous désirez lancer une recherche précise en utilisant les opérateurs booléens (AND, OR, WITHIN, ...), allez vers la recherche avancée.')">Mots-clés:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Mercier Lausanne" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_fr/btn_search.gif" alt="rechercher" title="rechercher" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="effacer"><img src="images/local_fr/btn_delete.gif" alt="effacer"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">rechercher</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">effacer</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Entrez ici une date ou une période de calendrier, pour ne rechercher que dans les documents datés de cette période.Exemple :<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Période</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1903" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> jusque </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1933" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Choisissez les genres de publication dans lesquels votre recherche est souhaitée. <br>La Feuille fédérale est disponible dès 1848 jusqu\'à l\'année la plus récente (pour l\'année exacte, cf. \'Home\').<br>Les DDS sont disponibles pour les années 1848 à 1945.')">Rechercher dans</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Assemblée fédérale (Bulletin officiel, Procès-verbaux, Instruments de recherche)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bulletin officiel de l&#39;Assemblée fédérale (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux de l&#39;Assemblée fédérale (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Répertoire des délibérations (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Résumé des délibérations (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Droit fédéral
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Feuille fédérale (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil systématique (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil officiel (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Jurisprudence des autorités administratives de la Confédération (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Conseil fédéral
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux du Conseil fédéral (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Le système de reconnaissance automatique des textes n\'a pu être appliqué au procès-verbaux du Conseil fédéral qu\'à partir de 1904. <br>On ne peut donc pas effectuer une recherche plein texte pour les procès-verbaux de 1848 à 1903.')">(options de recherche réduites)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Rapports de gestion du Conseil fédéral (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Compte d&#39;Etat et budget (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Annuaire fédéral (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Documents Diplomatiques Suisses (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Etudes et Sources (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Collection d'actes de l'époque de la République helvétique (1798-1803) (contexte en allemand, actes dans la langue originelle)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Sélectionner tout </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Résultats de recherche </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Pas de date valable. \nContrôlez s.v.p. votre entrée. \nVous trouverez de plus amples informations dans le fichier d\'aide.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>                                                                     
+<html>                                                                              
+    <head>                                                                          
+        <title><!--title--></title>  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="JavaScript">
+            function getClientWidthHeight() {
+
+                var dimension = new Object();
+
+                dimension.width = 0;
+                dimension.height = 0;
+
+                if (typeof (window.innerWidth) == 'number') {
+
+                    //Non-IE
+
+                    dimension.width = window.innerWidth;
+                    dimension.height = window.innerHeight;
+
+                } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+
+                    //IE 6+ in 'standards compliant mode'
+
+                    dimension.width = document.documentElement.clientWidth;
+                    dimension.height = document.documentElement.clientHeight;
+
+                } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+
+                    //IE 4 compatible
+
+                    dimension.width = document.body.clientWidth;
+                    dimension.height = document.body.clientHeight;
+
+                }
+
+                return dimension;
+            }
+            function ResizeContent()
+            {
+                var dimension = getClientWidthHeight();
+                var lHeight = 500;
+                if (dimension.height && dimension.height > 0) {
+                    lHeight = dimension.height - 190;
+                }
+                var elDiv = document.getElementById("divDocContent");
+                if (elDiv)
+                {
+                    elDiv.style.height = lHeight + "px";
+                }
+                //alert(lHeight);
+            } 
+            function BestHit(){
+                var nbOfHits=14
+                var nbOfMax = " de 14";
+                if(nbOfHits == 0) return;
+                document.getElementById("spanHitNum").innerHTML = "1" + nbOfMax;
+                location.hash ="#1";
+            }
+            function PrevHit(){
+                var nbOfHits=14
+                var nbOfMax = " de 14";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==1){
+                        hash=(nbOfHits + 1);
+                    }
+                    hash = parseInt(hash) - 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function NextHit(){
+                var nbOfHits=14
+                var nbOfMax = " de 14";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==nbOfHits){
+                        hash=0;
+                    }
+                    hash = parseInt(hash) + 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function ResetNbOf(link){
+                var nbOfMax = " de 14";
+                var href = link.href;
+                var index = href.indexOf("#");
+                var hash = href.substring(index +1);
+                document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+            }
+        </script>
+        <style type="text/css">
+             
+            
+            
+            
+            
+            <!--
+            .medadatatable {background-color: #006699; }
+            .c1 {font-family: arial; font-size: 12px; font-weight: bold; background-color: white; }
+            .c2 {font-family: arial; font-size: 12px; background-color: white; }            
+            body { background-color:#ffffff; margin:10px; font-family:Arial,Verdana,Helvetica,sans-serif; font-size:10pt;}
+            .headerTop { height:24px; color: #333333; font-size:12pt; }
+            .docsColumnHeadRow { font-size:10pt; font-weight:bold; text-decoration:underline; }
+            .red { font-size:10pt; font-weight:bold; color:red; }
+            .docsRow { font-size:small; border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataTable {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCell {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCellKey {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;font-weight: bold;}
+            .pageLabel {color:#425a73;font-size:1.0em;font-weight:bold;}
+            .pageLabelLink {color:#425a73;font-size:1.0em;}
+            .docToolLink {font-size:1.0em;}
+            .high {text-decoration:none;/*background-color:yellow;*/color:black;}
+            .high {background-color:yellow;}
+            .origDocTable {padding:0px;margin:0px;border:0px;}
+            pre {
+                white-space: pre-wrap; /* css-3 */
+                white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+                white-space: -pre-wrap; /* Opera 4-6 */
+                white-space: -o-pre-wrap; /* Opera 7 */
+                word-wrap: break-word; /* Internet Explorer 5.5+ */
+                width:100%;
+                font-family: Arial;
+                border:1px solid gainsboro;
+                font-size: small;
+            }            
+            --> 
+        </style>
+    </head>                                                                         
+    <body OnLoad="ResizeContent()">      
+        <a name="resultlist"></a>
+        <table width="98%" border="0" cellSpacing="0" cellPadding="0">
+            <tr>
+                <td vAlign="top" class="pageLabel">Vue détaillée</td>
+                <td vAlign="top" ><a class="pageLabelLink" href="execQuery.do?fetchStart=0">retour vers la liste des résultats</a></td>
+                <td vAlign="top" style="text-align:right;" class="docNavCell">Résultats de la recherche:&nbsp;<a title="résultat précédent" class="docNavLink" href="detailView.do?id=110000232">&lt;&lt;</a>&nbsp;23&nbsp;de&nbsp;100&nbsp;<a title="résultat suivant" class="docNavLink" href="detailView.do?id=110000288">&gt;&gt;</a>&nbsp;</td>
+                <td vAlign="top" style="text-align:right;width:180px;">
+                    <table border="0" cellSpacing="0" cellPadding="0">
+                        <tr>
+                            <td>
+                                <center>
+                                    <a href="viewOrigDoc/110000284.pdf?id=110000284" target="_blank"><img alt="Consulter le fichier" src="images/icons/c_launch_pdf.gif" border="0"/></a>
+                                    <br/>
+                                    <a style="color:black;" href="viewOrigDoc/110000284.pdf?id=110000284" target="_blank">Document complet</a>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div> </div>
+        <div style="border:0px solid grey;width:99%;height:25px;background-image: url('images/pane_bg.gif');margin-top:15px;font-size:0.9em;">
+            <img width="25" height="25" align="absmiddle" alt="" src="images/windowpane_cap_L.gif">    	
+            <span style="display: inline" id=spanHitNavBar>
+                <span class=docHitNavLabel>Sauter sur le mot-clé dans le document</span> &nbsp; 
+                <span id=spanBestHit><a class=docHitNavLink href="javascript:BestHit();">meilleur résultat </a>&nbsp;</span>
+                <a class=docHitNavLink title="occurrence précédente" href="javascript:PrevHit()">&lt;&lt;</a> 
+                &nbsp;&nbsp;&nbsp;&nbsp;<span id=spanHitNum>14</span>&nbsp;&nbsp;&nbsp; 
+                <a class=docHitNavLink title="occurrence suivante" href="javascript:NextHit()">&gt;&gt;</a> 
+                <span class=docHitNavDots>::</span> 
+                <span id=spanHitText></span>     
+                
+            </span>            
+        </div>                                                         
+        <div style="border:1px solid grey;width:900px;height:800px;overflow:auto;padding:15px;margin:10px;" id="divDocContent"> 
+            
+            <table width="100%" border="0" class="metadataTable">
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Titre</td>
+<td class="metadataCell" >Suite de la session d'hiver 1911/1912</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Genre de publication</td>
+<td class="metadataCell" >Résumé des délibérations</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Année</td>
+<td class="metadataCell" >1912</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Volume</td>
+<td class="metadataCell" >22</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Cahier/Document</td>
+<td class="metadataCell" >2</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Numéro d'object</td>
+<td class="metadataCell" ></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Datum</td>
+<td class="metadataCell" ><a class="high" href="#2" name="1" onclick="javascript:ResetNbOf(this);">04.03.1912</a></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Page de</td>
+<td class="metadataCell" >1</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Page jusque</td>
+<td class="metadataCell" >13</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Numéro de référence</td>
+<td class="metadataCell" >110000284</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Document complet</td>
+<td class="metadataCell" ><table class="origDocTable" border="0" cellSpacing="0" cellPadding="0"><tr><td><a href="viewOrigDoc/110000284.pdf?id=110000284" target="_blank" shape="rect"><img alt="Originaldoument / Document complet" src="images/icons/c_launch_pdf.gif" border="0"/></a></td><td>(1.1 MB)</td></tr></table></td>
+</tr>
+</table>
+<br><br>
+            <!--îeraioos 
+de 
+L'ASSEMBLÉE FÉDÉRALE SUISSE. 
+Suite de la session ordinaire d'hiver. 
+(2
+e 
+session at la XXII
+e 
+legislatore. ) 
+Du lundi 4 au mercredi 13 mars 1912. 
+Séances du Conseil national: mars 4, 5, 6, 7, 8, 11, 12, 13 (8 séances). 
+Séances du Conseil des Etats:, mars 4, 5, 6, 7, 8, 12, 13 (8 séances). 
+Une séance de l'Assemblée fédérale réunie, le 12 mars (pour les tractanda n" 3 et 51). 
+APERÇU. 
+Explication des signes. Les premiers nombres indiquent les numéros de la session; les nombres entre parenthèses indiquent 
+les numéros consécutifs de contrôle. 
+N = traité par le Conseil national. E = traité par le Conseil des Etats X = liquidé. 
+n = priorité au Conseil national. é = priorité au Conseil des Etats. 
+1.(1). Vérification des pouvoirs. 
+X2. (254). Traitements des membres du Conseil fédéral (motions 
+Häberlin et Calonder). 
+X3. (280). Nomination du cinq membres du Tribunal fédéral. 
+X4. ('287). n Assurance maladie et accidents. Résultat de la vo-
+tation du 4 février 1912. 
+Département politique. 
+E 5. (3). e Département politique. Réorganisation. 
+Département de l'intérieur. 
+X6. (10). n Vin et cidre artificiels. Interdiction. (Rédaction dé­
+finitive.) 
+E 7. (11). «Automobiles et navigation aérienne. Pojice. 
+X8. (197). n Bâtiment d'administration, rue de l'Isle, à Berne. 
+Construction. 
+E 9. (223). ê Correction de l'Emme 
+10. (255). e Hôtel des poids et mesures. Construction. 
+E 11. (262'. «Epidémies et épizooties. Lutte. 
+12 (275). e Correction de l'Hiiribach (Zoug). 
+13. (276). n Correction de PAar près d'Olten. 
+Département de justice et police. 
+E 14. (14). é Code pénal fédéral. Complément. 
+N 15. (167) n Recours du gouvernement de Soleure Commerce 
+intercantonal d'alcool. 
+XI6. (187). «Recours Croix. Patente de pédicure. 
+X17. (212). n Recours Studer-Wettstein. Colportage de sau­
+cisses. 
+18. (263). e Tribunal administratif. Création. 
+E 19. (279). e Recours Küng. Patente d'auberge. 
+X20. (283). n Constitution de'Thurgovie (création d'une usine 
+électrique cantonale). 
+Département militaire. 
+E 21. (258). é Recours Dupertuis. Taxe militaire. 
+22. (266). é Organisation militaire (art. 190). Indemnité des com­
+mandants des unités d'armée. 
+E 23. (267). e Nouvelles batteries de montagne. Matériel. 
+E 24. (268). é Groupes d'obusiers. Matériel. 
+E 25. (269). é Mitrailleurs d'infanterie. Matériel. 
+E 26. (270). é Artillerie de forteresse. Remplacement de pièces. 
+27. (271). ^Dépenses militaires extraordinaires (postulat 722, 
+chiffre 2). 
+Département des finances et des douanes. 
+X28. ( 159). ^Relèvement du maximum des traitements de fonc­
+tionnaires supérieurs. 
+X29. (281). n Crédits supplémentaires pour 1912 (I™ série). 
+30. (274). e Alcool. Emploi de 10 °/o des recettes de 1910. 
+Département du commerce, de l'industrie et de l'agri­
+culture. 
+31. (43). wLoi sur le travail dans les fabriques. Revision. 
+32. (145). e Etablissements d'essais agricoles à (Erlikon-Zurich. 
+Département des postes et des chemins de fer. 
+33. Affaires de chemins de fer. 
+a. (72). ^Moléson. Concessions. 
+b. (73). é Landquart-Ragaz (frontif:i e nationale). Conces­
+sion. 
+Xc. (181). e'Meiringen-Engelberg. Concession. 
+Xd. (259). é Engelberg-Gerschnialp. Concession. 
+Xe. (265). n Bâle (Riehen)-Chrischona. Prolongation de dé­
+lai. 
+f. (264). é Soleure-Schönbühl-Berne. Projets concurrents. 
+Xg- (282). n CEnsingcn-Balsthal. Modification .de la conces­
+sion. 
+Xh. (284). w Bienne-Montménil (Meinisberg). Modification de 
+la concession et prolongation de délai 
+Xi- (285). nMassagno Cadempino-Ostarietta. Prolongation 
+de délai et extension de la concession à la sec­
+tion Lugano-Massagno. 
+Xk. (288). n Trois prolongatiens de délai (Liiterswil-Soleure; 
+Wattenwil-Wimmis ou Spiez; Petite Scheid-
+egg-Männlichen). 
+XI. (290). n Anet-Cerlier. Concession. 
+Xm. (291). n Saignelégier-Glovelier. Modification de la con­
+cession. 
+Xn. (292). n Langenthal-Melchnau. Concession. 
+Xo. (294). n Frutigen-Adelboden. Transfert de la conces­
+sion et prolongation de délai. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+/ 
+34. (45). Chemin de fer du Gothard. Traité avec ÏAUemàgnè 
+et l'Italie. 
+35. (47). nChemins de fer fédéraux. Relèvement des taxes-
+voyageurs. 
+E 36. (48). e Chemins de fer privés. Calcul du produit net. 
+N 37: (240). n Eligibilité du personnel des chemins de fer fédé­
+raux. 
+38.1243). é Indemnité extraordinaire pour 1909 à .1911 aux ou­
+vriers des ateliers des chemins de fer fédéraux 
+à Bellinzone. 
+39. (246). É&lt;Augmentation du supplément annuel alloué aux 
+ouvriers des chemins de fer fédéraux. 
+40. (53). n Téléphones. Relèvement des taxes. 
+Motions, etc. 
+X41. (218). Motion Göttisheim. Protection de l'enfance et assis­
+tance maternelle. 
+42. (220). Motion Rikli. Hygiène des habitations. 
+X43. (248). Motion Griinm. Témoignage, en justice, du person­
+nel fédéral.-
+X44. (249). Interpellation Pettavel. Réduction des droits de dou­
+ane sur les vivres. 
+X45. (250). Motion Pflüger. Augmentation des secours aux fa­
+milles des militaires en service. 
+Ë 46. (25k Motion Kunz. Double imposition. . 
+47. (273). Motion Hofmann. Répression d'abus de pouvoir d'of­
+ficiers envers la troupe. 
+Y 48. (277). Demandes de subventions pour travaux publics (pos­
+tulat du Conseil des Etats). 
+X49. (278). Situation financière de la Confédération (postulat 
+Pflüger et consorts). 
+Autres objets survenus dans l'intervalle. 
+50. (286). n Correction de la Landquart et de ses affluents. 
+X51. (289). a. Démission de M. le conseiller fédéral Comtesse. 
+h. Nomination d'un membre du Conseil fédéral. 
+X52. (293). e Constitution de St-Gall (modification du nombre et 
+de l'étendue des districts et des circonscrip­
+tions judiciaires). 
+X53- (295). Interpellation Sigg (Zurich). Crédit pour le tunnel 
+de base du Hauenstein. 
+X54- (296). Interpellation Winiger. Entrée en vigueur de la loi 
+sur l'assurance maladie-accidents. 
+55. (297). Motion Eugster-Züst. Caisses de chômage. 
+56. (298). Motion Will. Traction électrique des chemins de 
+fer. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+3 
+SUT" M = priorité au Conseil national; é = priorité au Conseil des Etats. N = commission du Conseil national; E = commission du 
+Conseil des Etats. Les chiffres entre parenthèses indiquent le numéro de contrôle de l'objet pendant, la période législative 
+courante. 
+|. (1). Vérification des pouvoirs des nouveaux membres du Conseil national et du Conseil des Etats. — Rapport du 
+Conseil fédéral du 24 novembre 1911 (F. féd. 1911, V. 84), concernant les élections du Conseil national pour la XXII
+e 
+période 
+législative. 
+N de Meuron, Bonjour, Bühler (Frutigen), Eigenmann, Grtinenfelder, Legier, Lutz, Sidler, Sigg (Genève), Théraulaz, Wyss. 
+Nouveaux membres : 
+Conseil national. 
+M. Giuseppe Cattori, de Sonogno, à Muralto (Tessin), en remplacement de M. Motta, élu au Conseil fédéral. 
+. Louis Reymond, de l'Abbaye, à Orbe (Yaud), en remplacement de feu M. Cavat. 
+I Eugène Wullschleger, de Vordemwald (Argovie) et Baie-, à Bâle, en remplacement de M. Hüry, démissionnaire. 
+1912, 4 mars. Validation de l'élection de MM. Cattori, Reymond et Wullschleger. 
+Conseil des Etats. 
+2. (254). n Traitements des membres du Conseil fédéral. Relèvement. (Motions Häberlin et Calonder.) 
+Projet d'arrêté fédéral concernant les traitements des membres du Conseil fédéral et du chancelier 
+de la Confédération. 
+L'Assemblée fédérale de la Confédération suisse, 
+En modification de l'arrêté fédéral du 22 décembre 1899 (R. o., XVIII. 33), 
+arrête : 
+1. Le traitement des membres du Conseil fédéral est de 20,000 francs par an. Il est en outre alloué 
+au président de la Confédération un supplément de traitement de 2,000 francs. 
+2. Le traitement du chancelier de la Confédération est de 12,000 francs par an. 
+3. Le présent arrêté entrera en vigueur le I
+e
+' janvier 1912. 
+4. Le Conseil fédéral est chargé de publier le présent arrêté conformément aux dispositions de la loi 
+du 17 juin 1874 concernant les votation populaires sur les lois et les arrêtés fédéraux. 
+N Planta, Bissegger, Décoppet, Greulich, Häberlin, Hirter, Kuntschen, Mûri (Argovie), Scherrer-Püllemann,.Spahn, Staub. 
+E Casimir von Arx, Dähler, Hildebrand, Isler, Lachenal, Simon, Wirz. 
+1912, 5 mars. Décision du Conseil national, d'après le projet d'arrêté fédéral ci-dessus, avec la modification que le traitement 
+annuel des membres du Conseil fédéral est fixé à 18,000 francs, et celui du chancelier à 13,000 francs. 
+„ 11 mars. Décision du Conseil des Etats: adhésion. L'arrêté fédéral ne sera pas transmis à la commission de rédaction. 
+„ 11 mars. Décision du Conseil national: adhésion. 
+(Bulletin sténographique.) 
+3.' (280). Nomination de cinq membres du Tribunal fédéral. 
+Election du 12 mars 1912. 
+: 
+M. Virgile Rossel, de.Tramelan-dessus (Jura bernois), à Berne. 
+„ Victor Hauser, d'Horgen (Zurich). 
+„ Hugo Oser, de Schönenbuch (Baie-campagne), à Fribourg. 
+„ Hans Mûri, de Schinznach (Argovie), à Aarau. 
+% 
+„ Henri Thélin, de Bioley-Orjuiaz (Yaud
+1
+, à Nyon. 
+4. (287). n Assurance maladie et accidents. Résultat de la votation populaire du 4 février 1912. Rapport du Conseil fédéral 
+du 23 février 1912 (P. féd. 1912, I. 473), concernant le résultat de la votation populaire du 4 février 1912 sur la loi fédé­
+rale relative à l'assurance en cas de maladie et d'accidents. 
+N Edouard Scherrer (St-Gall), Jäger, Jäggi, Piguet (Vaud), de Streng, Vassalli, Walder, Wyss, Zurburg. 
+E Usteri, Heer, Lachenal, Winiger, Wyrsch. 
+1912, 12 mars. Décision du Conseil national. Il est pris acte du rapport du Conseil fédéral. 
+a 12 mars. Décision du Conseil des Etats: adhésion. 
+Département politique. 
+5. (3). é Département politique. Réorganisation. Rapport du Conseil fédéral du 2 juillet 1909 (F. féd. 1909, IV. 347), concer­
+nant la réorganisation du département politique. 
+N Hirter, Blumer, Bonjour, 'Buser, Max Diesbach, Eggspiihler, Arthur Eugster, Göttisheim, Greulich, Häberlin, Heller, 
+Lohner, Secretan, Spahn, Staub. 
+E Lachenal, Calonder, Düring, Hildebrand, Isler, Munzinger, Wirz. 
+1909, 20 octobre. Décision du Conseil des Etats: 
+1° Il est pris acte du rapport du Conseil fédéral du 2 juillet 1909, dans le sens du maintien de 
+l'organisation actuelle du département politique. 
+2» Le Conseil fédéral est invité à entreprendre le plus tôt possible la réorganisation de l'ad­
+ministration fédérale, notamment par l'institution d'un tribunal administratif. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+I, 
+Département de l'intérieur. 
+6. (10). ù Vili et cidre artificiels. Interdiction. Message et projet d'arrêté du 22 mars 1910 (F. féd. 1910, 1. 787), concernant 
+la prohibition du vin et du cidre artificiels. 
+N Grieshaber, Ohuard, Garbani-Nerini, Gobât, Gninenfelder. Hörni. Legier. 
+- E Pettavel, Dähler, Hildebrand, Kunz, Ribordy, Simon, Stutz. 
+1911, 27 mars. Décision du Conseil national, avec des modifications au projet du Conseil fédéral. 
+» 21 juin. Décision du Conseil des Etats, avec des divergences aux articles 2, 9, 10 et 14. 
+" . „ • .20. décembre. Décision du Conseil national, avec des divergences. . 
+„ 23 décembre. Décision du Conseil des Etats: adhésion. Le projet d'arrêté fédéral est transmis à la commission de rédaction. 
+1912, 6 mars. Décision du Conseil national. Le texte de l'arrêté fédéral revisé par la commission de rédaction est approuvé, et 
+l'arrêté fédéral est adopté en votation définitive. 
+„ 7 mars. Décision du Conseil des Etats: adhésion. 
+. V 
+(Bulletin sténographique.) 
+7. (11). é Automobiles et navigation aérienne. Police. Message et projet d'arrêté du 22 mars 1910 (F. féd. 1910, I. 812), 
+concernant une revision partielle de la constitution fédérale (législation sur la police des automobiles et des cycles et sur la 
+navigation aérienne). 
+N Mächler, Bally, Burckhardt, Caflisch, Henri Calarne, Kuntschen, Maillefer, Moll, Rikli, Sulzer, Walther. 
+E Bolli, Cardinaux, Geel, Leumann, <a class="high" href="#3" name="2" onclick="javascript:ResetNbOf(this);">Mercier</a>, Richard, Steiger, Winiger, W-irz. 
+• 1911, 4 octobre. Décision du Conseil des Etats. Il n'est pas entré en matière pour le moment sur le projet d'arrêté. Le Conseil 
+fédéral est prié de présenter aussitôt que faire se pourra un projet de loi sur la responsabilité civile des 
+automobilistes et d'étudier la possibilité d'édicter en même temps des dispositions pénales fédérales visant 
+la répression des abus commis par les automobilistes. 
+(Bulletin sténographique.) 
+8. (197). n Bâtiment d'administration, rue de l'Isle, à Berne. Message et projet d'arrêté du 26 août 1911 (F. féd. 1911, 
+IV. 1), concernant la construction d'un bâtiment d'administration à la rue de l'Isle, à Berne. 
+N Walder, Choquard, Fonjallaz, Garbani-Nerini, Mtiri (Argovie), Steuble, Wuilleret. 
+E Soldini, Heer, Lusser, Munzinger, Wyrsch. 
+1912, 8 mars. Décision du Conseil 'national, d'après le projet du Conseil fédéral. 
+„ 13 mars. Décision du Conseil des Etats: adhésion. ' 
+9. (223). é Correction de l'Emme. Message et projet d'arrêté du 21 octobre 1911 (F. féd. 1911, IV. 399), concernant une 
+subvention au canton de Berne pour la réfection de travaux de correction de l'Emme depuis Emmenmatt à la frontière can­
+tonale entre Berne et Soleure. 
+N Scherrer-Fiillemann, Furrer, Liechti, Raschein, Seidel, Schmidheiny, Ursprung, Walther, Willemin. 
+E Heer, Lachenal, Roten, Stutz, Wyrsch. 
+1912, 13 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+10. (255). é Hôtel des poids et mesures. Message et projet d'arrêté du (F. féd. 191', ), concernant la 
+construction d'un hôtel pour le bureau fédéral (^3S poids et mesures. 
+N Dubuis, Abt, Ador, Billeter, Deschenaux, Koller, Näher, Tissières, Legier, Zimmermann, Zschokke. 
+E Robert, Cardinaux, Geel, Heer, Schmid. 
+11. (262). é Epidémies et épizooties. Lutte. Message et projet d'arrêté du 20 décembre 1911 (F. féd. 1911, V. 315), concer­
+nant une revision de l'article 69 de la constitution fédérale (attributions de la Confédération relatives aux mesures de police 
+sanitaire dirigées contre les maladies de l'homme et des animaux): • , 
+N Ming, Emery, Hauser, Kniisel, Lutz, de Lavailaz, Minder, Rikli. Suter (Baie campagne), Schubiger, Vassalli. 
+E Düring, Locher (Zurich), Lusser, Pettavel, Steiger, Adrien Thélin, Wyrsch. 
+1912, 5 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral, avec une modification de rédaction au chiffre II. 
+(Bulletin sténographique.) 
+12. (275).' é Correction de l'Hiiribach.. Message et projet d'arrêté du 9 janvier 1912 (F. féd. 1912, I. 133), concernant une 
+subvention au canton de Zoug pour l'endiguement et la correction de l'Hiiribach et de ses affluents, à Unterägeri. 
+- - N • Fellmann, Jenny,.Näher, Ody, Piguet (Neuchâtel), Reymond, Sträuli, Suter (Bâle-eampagne), Ursprung. 
+E Kunz, Brügger, Cardinaux, Paul Scherrer (Bâle-ville), Adrien Thélin. . 
+13. (276). n Correction de l'Aar, près d'Olten. Message et projet d'arrêté du 9 janvier 1912 (F. féd. 1912, I. 141), concer-
+• nant" une subvention au canton de Soleure pour la correction de l'Aar en aval dù pont du Rankwag, près d'Olten. 
+N Schwander, Cattori, Daucourt, Eisenhut, Gaudard, Koller, König, Moser, Ritzchel. 
+E Schmid, Baumann, Böhi, Uchsner, Robert. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+5 
+Département de justice et police. 
+14. (14). é Code pénal fédéral. Complément. Message et projet de loi du 18 juin 1906 (P. féd. 1906, IV. 144), concernant un 
+complément au code pénal fédéral du 4 février 1853 (article 48
+b
+'
+s 
+— incitation de militaires à l'insubordination). 
+N Häberlin, Décoppet, Grand, Heller, Iselin, de Lavallaz, Scheurer, Schmid (Grisons), Studer (Winterthour). 
+E Caloiider, Bolli, Düring, <a class="high" href="#4" name="3" onclick="javascript:ResetNbOf(this);">Mercier</a>. Ribordy, Richard, Paul Scherrer (Bâle-ville). 
+1908, l"
+r 
+octobre. Décision du Conseil des Etats, avec des modifications au projet du Conseil, fédéral. 
+. (Bulletin stênographique.) 
+\ 
+15. (167). nKecours du gouvernement de Soleure. Rapport du Conseil fédéral du 3 avril 1911 (F. féd. 1911, III. 290), con­
+cernant le recours du gouvernement de Soleure en la cause N. Bloch & C
+le
+, relative au commerce intercantonal des bois­
+sons spiritueuses. 
+N de Meuron, Caflisch, Grünenfelder, Hofmann, de Lavallaz, Locher (Berne), Lutz.. 
+E <a class="high" href="#5" name="4" onclick="javascript:ResetNbOf(this);">Mercier</a>, Brügger, Locher (Zurich), Pettavel, Schmid. 
+1912, 7 mars. Décision du Conseil national. Le recours est déclaré fondé, avec l'adoption du postulat suivant : 
+Le Conseil fédéral est invité à présenter un rapport et des propositions sur la réglementation, parla 
+législation fédérale, du commerce de détail des boissons alcooliques, spécialement du commerce intercantonal. 
+16. (187). n Recours Croix. Rapport du Conseil fédéral du 6 juin 1911 (P. féd. 1911, III. 780), concernant le recours d'Ami 
+Julien Croix, à Genève, contre le refus d'une patente de pédicure. 
+N Forrer, Adrien von Arx, Daucourt, Hauser, Legier, Locher (Berne), de Meuron. . 
+E Gabuzzi, Ammann, Pettavel, Henri Scherrer (St-Gall), Wyrsch. 
+1911, 20 décembre. Décision du Conseil national. Le recours est écarté. 
+1912, 7 mars. Décision du Conseil des Etats : adhésion. 
+17. (212). n Recours Stud er-Wettstein. Rapport du Conseil fédéral du 26 septembre 1911 (P. féd. 1911, IV. 280)/ concernant le 
+recours d'Henri Studer-Wettstein, à Ennetaach (Thurgovie), contre le refus d'autoriser le colportage de saucisses. 
+N Studer (Winterthour), Henri Calarne, Hofer, Hunziker, Lagier, Nietlispach, Peter. 
+E Hildebrand, Cardinaux, Geel, Kunz, Soldini. 
+1911, 23 décembre. Décision du Conseil national. Le recours est écarté. 
+1912, 7 mars. Décision du Conseil des Etats: adhésion. 
+18. (263). é Tribunal administratif. Message et projet d'arrêté du 20 décembre 1911 (F. féd. 1912, I. 291), concernant une 
+revision de la constitution fédérale en vue de la création d'un tribunal administratif fédéral. 
+N Hirter, Blumer, Bonjour, Buser, Max Diesbach, Eggspühler, Arthur Eugster, Göttisheim, Greulich, Häberlin,'Lohner, Rossel,' 
+Secretan, Spahn, Staub. 
+E Usteri, Ammann, Kunz, Python, Richard, Henri Scherrer (St-Gall), Paul Scherrer (Bâle-ville), Schulthess, Winiger. 
+(Bulletin stënographique.) 
+19. (279). é Recours Kling. Patente d'auberge. Offlee du Conseil fédéral du 16 janvier 1912, concernant le recours de François 
+Kiing, à Villmergen (Argovie), contre l'arrêté du Conseil fédéral du 31 octobre 1911 relatif au refus d'autorisation de trans­
+fert d'une auberge. 
+N Schwendener, Bühler (Frutigen), Cailler, Deschenaux, Eisenring, Planta, de Preux,;, Willemin, Wullschleger. 
+* E Munzinger, Bolli, Dähler, Ribordy, Richard. ' . 
+1912, 12 mars. Décision du Conseil des Etats. Il n'est pas entré en matière sur le recours pour cause de tardiveté. 
+20. (283). n Constitution de, Thurgovie. Message et projet d'arrêté du 14 février 1912 (P. féd. 1912, I. 429), concernant la 
+garantie du § 10 de la loi constitutionnelle thurgovienne du 10 novembre 1910 relatif à la création d'une usine électrique can­
+tonale. 
+N Burckhardt, Charbonnet, Fritschi, Grünenfelder, d'Hettlingen, Knüsel, Maillefer, Schmidheiny, Seiler. 
+E Dähler, Schulthess, Soldini. 
+1912, 11 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion.' 
+Département militaire. 
+21. (258). é Recours Dupertuis. Taxe militaire. Rapport du Conseil fédéral du 18 décembre 1911 (P. féd. 1911, V. 279), con­
+cernant le recours de Paul Dupertuis, à <a class="high" href="#6" name="5" onclick="javascript:ResetNbOf(this);">Lausanne</a>, contre sa taxe - militaire. 
+N Ringger, Balli (Tessin), Fazy, Gujer, Hofmann, Holenstein, Hunziker, de Preux, Zumstein. 
+E Böhi, Baumann, Gabuzzi, Ribordy, Schüler. 
+1912, 8 mars. Décision du Conseil des Etats. Le recours est écarté. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+22. (266). é Organisation militaire (art. 190). Message et projet d'arrêté du 20 décembre 1911 (P. féd. 1911, V. 333), con­
+cernant la modification de l'article 190 de l'organisation militaire (indemnité des commandants des unités d'armée). 
+N Wyss, Biieler (Schwyz), Crisinel, Furrer, Grimm, Heller, Hess, Peter, Stoffel, Weber (Argovie), Will. 
+„ E 'Paul Scherrer (Bâle-ville), Leumann, Bolli, Brfigger,£Mereier, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+(Bulletin, sténographique.) 
+23. (267). fé Nouvelles batteries de montagne. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 351), con­
+cernant l'acquisition du matériel de trois nouvelles batteries de montagne. 
+N Buser, Erni, Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville), Leumann, Bolli, Brügger, <a class="high" href="#7" name="6" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+24. (268). é Groupes d'obusiers. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 345), concernant l'acquisi­
+tion du matériel des groupes d'obusiers. 
+N Buser, Erni, Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville),* Leumann, Bolli, Brügger, <a class="high" href="#8" name="7" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+1912, 6 mars. Décision, du* Conseil des Etats, d'après le projet du Conseil fédéral. 
+25. (269). é Groupes de mitrailleurs d'infanterie. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 354), 
+concernant l'acquisition du matériel des groupes de mitrailleurs d'infanterie. 
+N Buser, Erni, Liechti,"Lurati, Müller'.(Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+,EJPaul Scherrer (Bâle-ville
+1
+, Leumann,^Bolli,"Brügger, <a class="high" href="#9" name="8" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission', militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. , 
+26. (270). é Artillerie de forteresse. Remplacement de pièces. Message et projet d'arrêté [du 6 févéier 1912 (F. féd. 1912, 
+I. 360), concernant le remplacement de pièces de l'artillerie mobile des places fortifiées. " 
+N Buser, Erni. Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville), Leumann, Bolli, Brügger, <a class="high" href="#10" name="9" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com-
+mission*militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+27. (271). é Dépenses ^militaires extraordinaires Rapport du Conseil fédéral du 16 février 1912 (F. féd. 1912, I. 432), 
+concernant les dépenses militaires extraordinaires. 
+N Planta, Frey (Zurich), Biieler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Sidler, Müller 
+It (Berne). (CommissionSdes finances.) 
+E Munzinger, Bolli,-Briigger, Cardinaux, Leumann, <a class="high" href="#11" name="10" onclick="javascript:ResetNbOf(this);">Mercier</a>, Ochsner, Schulthess, Soldini. 
+Département des finances et des douanes. 
+28. (159). é Traitements de fonctionnaires supérieurs. Augmentation- Message et projet d'arrêté du 27 mars 1911 
+(F. féd. 1911, II. 460), concernant le relèvement du traitement maximum des chefs de division et des premiers secrétaires des 
+départements de l'administration fédérale. 
+N Planta, Frey (Zurich), Büeler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Sidler, Müller 
+(Berne). ' (Commission des finances.) 
+E Geel, Casimir von Arx, Cardinaux, Isler, Kunz, Roten. 
+1911, 29 septembre. Décision du Conseil des Etats, avec des modifications au projet du Conseil fédéral. 
+„ 6 décembre. Décision du.Conseil national, avec des divergences. 
+„ 14 décembre. Décision du Conseil des Etats. Maintien de la décision du 29 septembre 1911, avec deux compléments. 
+„ 22 décembre. Décision dutConseil^national, avec des divergences. 
+1912, 6 mars. Décision'du Conseil dés Etats, avec une divergence à l'article 1
+er
+. 
+„ 8 mars. Décision du Conseil national : adhésion. 
+„ 12 mars. Décision du Conseil desJEtats. Le projet d'arrêté fédéral est adopté en votation définitive. 
+29. (281). 11 Crédits supplémentaires pour 1912 (I
+re 
+série). Message et projet d'arrêté du 4 mars 1912 (F. féd. 1912, 
+I. 575), concernant les crédits supplémentaires pour 1912 (I
+re 
+série). 
+N Planta, Frey.(Zurich), Büeler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), | Commissions 
+Wuilleret, Mûri, Müller (Berne). . n 1 t-
+E Kunz, Brügger, Soldini, <a class="high" href="#12" name="11" onclick="javascript:ResetNbOf(this);">Mercier</a>, Simon, Böhi, Python, Ochsner, Henri Scherrer (St-Gall). ) finances. 
+1912, 13 mars.LiDécision du Conseil national, d'après le projet du Conseil fédéral. 
+- 13 mars. Décision du Conseil des Etats : adhésion. 
+/ 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+1 
+âo. (274). ëAicooi. Emploi de ÌÒ
+ò
+/0 dés rècettes de 101Ò. Rapports des cantons sur l'emploi de Ì0 °/0 des recettes de l'alcool en 
+Ì910. Vingt et unième message du Conseil fédéral, 5 janvier 1912 (F. féd. 1912, I. 59). 
+N Billeter, Balli (Tessin), Hartmann, Niederberger, Schupbach, Seidel, Steinegger, Straumann, Tissières. 
+E Pettavel, Düring, Leumann, Roten, Henri Scherrer (St-Galli, Steiger, Wirz. 
+Département du commerce, de l'industrie et de l'agriciilture. 
+31. (43). n Loi sur les fabriques. Revision. Message et projet de loi du 6 mai 1910 (F. féd. 1910, IV. 113), concernant la 
+revision de la loi fédérale sur le travail'dans les fabriques. 
+N Wild, Bally. Blumer. Biieler (Schwyz), Calame-Colin, Charbonnet, Décoppet, Eugster-Züst, Alfred Frey, Göttisheim, Greulich, 
+Gugelmann. Rebmann, Scheidegger, Schmid, Studer (Winterthour), Sulzer, Vassalli, Walter, Weber (Argovie), Wyrsch". 
+E Steiger, Düring. Heer, Lachenal, Leumann, Locher (Zurich), Pettavel, Python, Paul Scherrer (Bâle-ville), Schulthess. 
+(Bulletin sténographique.) , 
+32. 
+(145). 6 Etablissements d'essais agricoles à Œrlikon (Zurich). Message et projet d'arrêté du 24 février 1911 (F. féd. 
+1911, I. 466), concernant l'ouverture d'un crédit pour la construction, à Œrlikon (Zurich), des bâtiments destinés aux éta­
+blissements d'essais et d'analyses agricoles. 
+N Eigenmann. Fonjallaz, Freiburghaus, Hörni, Legier, Ming, Planta, Schär, Walser. 
+, E Dähler,'Casimir von Arx, Simon, Stutz, Wyrsch. 
+Département des postes et des chemins de fer. 
+33. Affaires de chemins de fei*. 
+N Mächler^ Amsler, Bühlmann, Décoppet, Evéquoz, Göttisheim, Häberlin, Ritzchel, Sigg (Zürich), Spahn, | Commissions 
+E Calonder, Gabuzzi, Stutz, Adrien Thélin, Cardinaux, Geel, Winiger, Isler, Lusser. I ^
+es c
+^
+em
+'
+ns 
+de fer. 
+a. (72). é Moléson. Message et projets d'arrêtés du 26 juin 1908 (F. féd. 1908, IV. 379), concernant la concession des chemins 
+de fer électriques du Moléson. 
+b. (73). é Landquart-Ragaz (frontière nationale). Message et projet d'arrêté du 16 avril 1907 (F. féd. 1907, IV. 388), concernant 
+la concession d'un chemin de fer électrique à voie étroite de Landquart à la frontière du Liechtenstein par Ragaz. — 
+Message et projet d'arrêté du 19 novembre 1907, (F. féd. 1907, VI. 81), concernant le refus de la concession de cette 
+ligne de chemin de fer. 
+c. (184). é Meiringen-Engelberg. Message et projet d'arrêté du 19 mai 1911 (F. féd III. 572), concernant la concession 
+d'un chemin de fer à voie étroite (en partie à crémaillère) de Meiringen à Engelberg. 
+1911, 28 septembre. Décision du Conseil des Etats, d'après le projet du Conseil fédéral, en fixant toutefois l'entrée en vigueur de 
+l'arrêté fédéral au 15 octobre 1911. 
+1912, 8 mars. Décision du Conseil national, avec des divergences à l'article 6 et au chiffre III. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+d. (259). éEngelberg-Greschnialp. Message et projet d'arrêté du 18 décembre 1911, V. 287), concernant la concession 
+d'un chemin de fer funiculaire d'Engelberg à la Greschnialp. 
+1911, 21 décembre. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. • 
+1912, 8 mars. Décision du Conseil national: adhésion, en fixant toutefois l'entrée en vigueur au 1" avril 1912. 
+e. (265). n Bale (Riehen)-Chrischona. Message et projet d'arrêté du 19 décembre 1911 (F. féd. 1911, V. 297), concer­
+nant une prolongation de délai pour un chemin de fer électrique (en partie sur route) de Riehen à la Chrischona par 
+Bettingen. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral, en fixant toutefois l'entrée en vigueur au 1
+er 
+avril 
+1912. 
+12 mars. Décision du Conseil des Etats: adhésion. 
+f. (264). é Soleure-Schönbühl-Berne. Message et projet d'arrêté du — (F. féd. 1912, . ), concernant 
+les^projets de chemin de fer entre Soleure et Berne (Soleure-Schönbühl et Utzenstorf-Schönbühl-Zollikofen). 
+g. (282). n Œnsiûgen-Balsthal. Message et projet d'arrêté du 2 février 1912 (F.- féd. 1912, I. 325), concernant la mo­
+dification de la concession du chemin de fer d'Œnsingen à Balsthal. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+h. (284). n Blenïie-Montménil. Message et projet d'arrêté du 6 février 1912 (F. féd. 19.12, I. -368), concernant la modifi­
+cation de la concession et la prolongation de délai pour un chemin de fer à voie étroite de Bienne à Montménil (Meinis-
+berg). • " -
+1812, 8 mars.. Décision da Conseil national; d'après le projet d'à Conseil fédéral. 
+» 12 mars. Décision du Conseil des Etats : adhésion. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+8 
+i. (285). n Massagno-ôstarietta. Message et projet d'arrêté du i
+er 
+mars 1912 (F. féd. Ì912, Ì. 533), concernant utië 
+prolongation de délai pour un tramway électrique de Massagno à Ostarietta, par Cadempino et l'extension de la conces­
+sion à-la'jâection Lugano-Massagno. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+k. (288). n Prolongations des délais pour trois lignes. Message et projet d'arrêté du 27 février 1912 (P. féd. 1912, 
+I. 509), concernant des prolongations des délais pour les lignes de chemin de fer Lüterswil-Soleure, Wattenwil-Wimmis 
+ou Spiez (Stockental) et Petite Scheidegg-Männlichen. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+• 1. (290). n'Anet-Cerlier. Message et projet d'arrêté du 1
+er 
+mars 1912 (F. féd. 1912, I. 516), concernant la concession d'un 
+chemin de fer électrique à voie étroite d'Anet à Cerlier. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+m. (291). il Saignëlégier-Glovelier. Message et projet d'arrêté du 1
+er 
+mars 1912 (F. féd. 1912, I. 527), concernant la 
+modification de la concession du chemin de fer régional de Saignelégier à Glovelier. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+n. (292). nLangenthal-Melchnau. Message et projet d'arrêté du 4 mars 1912 (F. féd. 1912, I. 555), concernant la con­
+cession d'un chemin de fer à voie étroite de Langenthal (gare du Langenthal-Jura) à Melchnau. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil .fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+o. (294). n Frutigen- Adelboden. Message et projet d'arrêté du 5 mars 1912 (F. féd. 1912, I. 566), concernant le trans­
+fert de la concession et une prolongation de délai pour un chemin de fer à voie étroite de Frutigen à Adélboden. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. ' 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+34. (45). n Chemin de fer du Gothard. Traité avec l'Allemagne et l'Italie. Message et projet d'arrêté du 9 novembre 1909 (F. féd. 
+1909, VI. 50), concernant la ratification du traité conclu avec l'Allemagne et l'Italie au sujet du rachat du chemin de fer 
+du Gothard par la Confédération. 
+N Germann, Dubuis, Alfred Frey, Gobât, Heller, Kuntschen, Manzoni, Mosimann, Planta, Rothenberger, Staub. 
+E Schulthess, Casimir von Arx, Calonder, Geel, Kunz, Locher (Zurich), Python, Eichard, Roten, Paul Scherrer (Bâle-ville), 
+Schüler, Adrien Thélin, Winiger. 
+35. (47). n Chemins de fer fédéraux. Relèvement des tarifs-voyageurs. Message et projet d'arrêté du 3 décembre 1909 (F. féd. 
+1909, VI. 587), concernant une modification de la loi sur les tarifs des chemins de fer fédéraux. 
+N Walser, Bissegger, Bonjour, Diesbach, Germann, Iselin, Mosimann, Schär, Schubiger, ) nommioqion* des rhemin* rte fer 
+Studer (Winterthour), Suter (Argovie). Commissions des chemins de ter 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. J 
+(Bulletin sténographique.) 
+36. (48). é Chemins de fer privés. Calcul du produit net. Message et projet d'arrêté du 3 décembre 1909 (F. féd. 1909, VI. 563), 
+concernant le calcul du produit net des chemins de fer privés. — Rapport du Conseil fédéral du 31 mai 1910 (F. féd. 1910, 
+IV. 293). 
+N Planta,. Bally, Biieler (Schwyz), Cailler, Dubuis, Freiburghaus, Greulich, Hess, Schär. 
+E Isler, Casimir von Arx, Calonder, Cardinaux, Hildebrand, Paul Scherrer (Bâle-ville), Winiger. 
+1910, 4 novembre. Décision du Conseil des Etats, avec des modifications au projet du Conseil fédéral. 
+37. (240). n Eligibilité du personnel des chemins de fer fédéraux à des fonctions publiques. Message et projet 
+d'arrêté du 24 novembre 1911 (F. féd. 1911, V. 70), concernant l'égibilité des fonctionnaires, des employés et des ouvriers des 
+chemins de fer fédéraux à des fonctions publiques. '* 
+N Rothenberger, Evéquoz, Gaudard, Gobât, Grimm, Lutz, Schmid, Sidler, Simonin, Studer (Soleure), Vital, Will, Wyrsch. 
+E Böhi, Ammann, Düring, Gabuzzi, Munzinger, Python, Schmid. 
+1912, 7 mars. Décision du Conseil national, avec des modifications au projet du Conseil fédéral. 
+(Bulletin sténographique.) 
+38. (243). é Requête des ouvriers des ateliers des chemins de fer fédéraux, à Bellinzone. Rapport du Conseil 
+fédéral du 28 novembre 1911 (F. féd. 1911, V. 157), concernant la nouvelle requête des ouvriers des ateliers des chemins de 
+fer fédéraux, à Bellinzone, relative à l'indemnité extraordinaire à allouer pour les années 1909 à 1911. 
+N Zschokke, Borella, Buser, Eugster-Ziist, Hofmann, Simonin, Edouard Scherrer (St-Gall), Secretan, Steuble, Théraulaz, Walser. 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. (Commission des chemins de fer fédéraux.) 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+•9 
+v
+e
+iqn 
+1
+'
+unio]1 ouvri
+ère des entreprises de transports. Rapport du Conseil fédéral du 4 décembre 1911 
+ifi- h « îa ?' 
+c
+°
+ncen
+^
+nt
+.
+la 
+requete de I union ouvrière des entreprises suisses de transport demandant une augmen­
+tation du supplement extraordinaire annuel alloué aux ouvriers des chemins de fer fédéraux. 
+r rwi
+6
+™'"' .Eggspiihler, Frei (Bâle-ville), Pellmann, Pritschi, Grand, Lagier, Michel, Siegrist Vassalli VVEHPR rsit c n i m 
+E Geel, TV îniger, Ammann, Schulthess, Simon, Hildebrand, Python. (Commission des chemins d^Li fédéraux) 
+4(l
+' ^ ^
+Telé
+P
+ho
+î
+ies
+- Relèvement des taxes. Message et projet de loi du 20 décembre 1909 (F. féd. 1910, I. 307) concerninf I* 
+i J.vement des taxes téléphoniques. — Rapport complémentaire du 21 mars 1911 (F. féd. 1911, III. 605). ' 
+F 
+B
+'iv-'i.^
+rth
+,V'' 
+E
+"Sstei-, Evéquoz, Nietlispach, Piguet (Neuchâtel
+1
+, Scheidegger, Schwander Siilzer 
+E Schulthess, Dahler, Kunz, Richard,. Robert, Schmid (Zoug), Soldini, Usten, Wïniger ^
+nwanaei
+. &«•«». 
+(Bulletin stênographique.) 
+42. 
+Motions, etc. 
+41. (218). Motion de M. le conseiller national Göttisheim et cosignataires, du 29 septembre 1911. 
+i„ /, 
+G
+.°,
+nseil f
+édéral est invité à examiner si la Suisse ne pourrait pas provoquer et encourager 
+la création dun organe central du mouvement international pour la protection de l'enfance et difu 
+jeunesse et pour l'assistance maternelle. 
+e el (le la 
+Signataires : Göttisheim. Zürcher, Rikli, Wyss, Ador, Ming. 
+1912, 6 mars. Décision du Conseil national. La motion est prise en considération. 
+(220). Motion de M. le conseiller national Rikli et cosignataires, du 29 septembre 1911. 
+or. -^e Conseil fédéral est invité à présenter un rapport et des propositions sur la auesHnn 
+rv«V i'
+0n 
+-
+n(
+?/
+le
+/
+rait
+' P
+as
+, introduire dans la constitution fédérale une dZosltion autoriW K 
+Confédération a légiférer sur les conditions sanitaires des constructions et des logements. 
+Signataires: Rikli, Studer (Winterthour), Greulich, Briistlein, Eugster-ZUst, Ferri. 
+43. (248). Motion de M. le conseiller national Grimm et cosignataires, du 6 décembre 1911. 
+Vo
+6
+\f\î
+n
+~
+e
+^ fédéral est invité à faire un rapport et des propositions sur les questions ci-aurès-
+ssa«« 
+1914 IS m,„. .TSXL" 
+Wnt 
+«* -W •» 1, pre.niê,. 
+(Bulletin stênographique.) 
+44. (249).. Interpellation de M. le conseiller aux Etats Pettavel et cosignataires, du 6 décembre 1911. ' 
+: 
+Signa fai) es. |ettavel, kachenal, 
+Soldlm
+&gt; Scherrer (Bâle), Baumann, Robert, Dähler, Richard, Geel, 
+1912, 7 mars. Conseil des Etats. L'interpellation a été retirée. 
+46. (250). Motion de M. le conseiller national Pflüger et cosignataires, du 7 décembre 1911. 
+m», is ä°s sä
+1 
+r ätiSÄ sftSifi"
+1 d
+" *» 
+Signataires: Pflüger, Studer (Winterthour), Müller iBerne), Frei (Bâle) Euester-Ziisf Affnttm-
+Greulich, Grimm, Seidel, Sigg'(Zurich), Sigg^(GenèVi)! Rikli ifaine' ' 
+1912, 6 mars. Décision du Conseil national. La motion est prise en considération sous la forme suivante: 
+montant^tes s.ecours, ^on^irèglci^enl^'du^'^^'janvier' 1^^0^sui^^es^sie^co^^s^^l^^vr'é^'ai^^amnte.^'d^s^m^litarr(3s^^^'^ 
+(Bulletin stênographique.) 
+46. (251). Motion de M. le conseiller aux Etats Kunz, du 12 décembre 1911. 
+ai °?
+n
+?$ fédéral est invité à soumettre sans tarder à l'Assemblée fédérale le projet d'une loi fédé­
+rale concernant l'interdiction de la double imposition. 
+N GerD
+^cS?mhuS' SÄ°e4f
+thUr EUg8ter
+' 
+Furl
+'
+er
+' 
+Grieshaber
+' 
+l8elin
+- ^Untschen, Lohner, -Lutz, Mosimann, 
+1912, 6 mars. Décision du Conseil des Etats. La motion est prise en considération, après la suppression des mots „sans tarder'. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+10 
+47. (273). Motion de M. le conseiller national Hofmann et cosignataires, du 22 décembre 1911. " 
+Le Conseil fédéral est invité à présenter un rapport et des propositions sur les moyens de réprimer 
+efficacement les excès commis par certains officiers contre leurs subordonnés. 
+Signataires : Hofmann, Legier, Pellmann, Schwander, Weber (St-GallV Zürcher, Scherrer-
+Füllemann, Jäger. 
+48. (277). Postulat du Conseil des Etats, concernant les demandes de subventions pour des constructions publiques, du 
+12 décembre 191.1. 
+Le Conseil fédéral est invité à rechercher, avec l'aide d'un expert étranger à l'administration fédérale, 
+par quels moyens les autorités fédérales pourraient être mises en mesure d'étudier les demandes cantonales 
+de subventions à des travaux publics avec assez d'exactitude pour qu'elles puissent prendre leur décision en 
+connaissance de cause et se rendre compte de la portée des subventions demandés. 
+N Germann, Henri Calarne, Daucourt, Grieshaber, Holenstein. 
+S Paul Scherrer (Bâle-ville), Ammann,. Hildebrand, Robert, Simon, Usteri. 
+lèl2, 11 mars. Décision du Conseil national. Le postulat n'est pas pris en considération. 
+49. (278). Postulat de M. le conseiller national Pflüger et cosignataires, concernant la sitaation financière de la 
+-.•-G.arifédératrou, du 5 décembre 1911. 
+Le Conseil fédéral est invité: 1° à examiner comment on pourrait assurer l'équilibre financier de la 
+Confédération de manière à le rendre indépendant de la dénonciation des traités de commerce et des fluc­
+tuations du rendement des douanes; 2° à présenter à l'Assemblée fédérale, dans l'espace d'un an, un pro­
+gramme financier établi sur ces bases. 
+Signataires : Pflüger, Studer (Winterthour), Müller (Berne), Frei (Bàie), Affolter, Greulich, 
+• ; Grimm, Naine, Seidel, Sigg (Zurich
+1
+, Sigg (Genève), Rikli, Eugster-Züst, Näher; 
+Jäggi. 
+'• &lt;"1912,' 8 mars. Décision du Conseil national. Le postulat n'est pas pris en considération. 
+•'&gt;••••... (Bulletin sténof/raphique.) 
+50. (286). n Correction de la Landquart. Message et-projet d'arrêté du 20 février 19.12 (P. féd. 1912,1. 469), concernant. l'en-
+.... dignement de la Landquart de Monbiel-Klosters jusqu'au Rhin, du Schanielabach, du Schraubach et du'Taschinabach. 
+N Wagner, Ador, Bühler (Frutigen), Dubuis, Göttisheim, Greulich, Hauser, Locher (Berne), Steuble. 
+-f.": ;t: \ : E ..'Locher (Zurichl, Hildebrand, Lusser, Stutz, Casimir von Arx. (Ancienne commission.) 
+51., (289): Démission de M. le conseiller fédéral Comtesse, et, le cas échéant, nomination d'un membre du Con-
+seil, fédéral. 
+...... ..Assemblée fédérale réunie, a. 1912, 12 mars. La démission donnée par M. le conseiller fédéral Comtesse est acceptée avec remer-
+' ' , V \ céments pour les services rendus. 
+b. Nomination d'un membre du Conseil fédéral. * • 
+Election du 12 mars 1912. 
+•; M. Loiiis Perrier, de S'
+e 
+Croix (Yaud) et Neuchâtel, à Neuchâtel. 
+52. (293). é Constitution de St-Gall. Message et projet d'arrêté du 4 mars 1912 (P. féd. 1912, I. 570), concernant la garantie 
+des articles 70 à 73, 75, 81 à 83, 90, 110 et 113 revisés de là constitution du canton, de St Gall du 16 novembre 1890 et de 
+.. -l'alinéa.-2 revisé 'de la . modification constitutionnelle du 5 février 1911 (modification du nombre et. de l'étendue des districts 
+et, des'circonscriptions judiciaires). 
+• ' .. N. Vital, Adrien von. Arx, Hofmann; Peter, Ringger, Scheidegger, Secretan, Weber (Argovie), Wuilleret. 
+E Isler, Ammann, Schüler 
+1912, 8 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. • -
+„ 13 mars. Décision du Conseil national : adhésion. 
+53. (295). Interpellation de M. le conseiller national Sigg (Zurich) et cosignataires, du 5 mars 1912. 
+Le Conseil fédéral ne considère-t-il pas comme une ingérence dans les compétences budgétaires des 
+.1 y&lt;; . . • 'chambres fédérales la décision prise par le conseil d'administration des chemins de fer fédéraux d'élever 
+de deux millions de francs le crédit voté par l'Assemblée fédérale pour la construction du tunnel de base du 
+Hauenstein? • 
+Si c'est le cas, quelles mesures compte-t-il prendre pour rendre inopérants dans l'avenir des abus de 
+• ! compétence analogues de la part des organes administratifs? 
+Signataires : Sigg (Zurich), Grimm, Sigg (Genève), Studer (Winterthour), Greulich, Seidel, 
+Eugster-Züst, Affolter, Naine, Pf lüger-
+1912, 11 mars. Conseil national. Liquidée. , 
+54., (296). Interpellation .de M. le conseiller aux Etats Winiger, du 5 mars 1912. 
+Le Conseil fédéral est prié de faire connaître ses intentions concernant la mise en vigueur de la loi 
+sur l'assurance en cas de maladie et d'accidents. 
+Signataire : Winiger. 
+.. 1912, 12 mars,, Conseil.des.Etats.. Liquidée. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=10" target="_blank" shape="rect"><img alt="Seite 10 / Page 10" src="images/icons/c_launch_pdf.gif" border="0"/>(10)</a></div>
+
+11 
+55. (297). Motion de M. le conseille^,national Bugstey^Züst^ et cpsigaafcairesir&lt;i«-&gt;8j mars 1912. 
+la rv„f'L
+e
+^,9,°f"
+Seil fédér
+^I ^ invité à présenter un rapport et des propositions sur la question de savoir si 
+la Confédération pourrait s intéresser a la situation des chômeurs involontaires, et notamment de emplie 
+manière elle pourrait encourager financièrement l'assurance contre les suites du chômage involontaire. 
+Signataires: Eugster-Züst, Greulich, Grimm, Studer (Winterthour), Näher Si/r« (Genève}. 
+: 
+'WuHschlegeiy Zürcher, Scherrer-Füllemann, Vassalli, Borèlla, Fazy, Peter, Legier. 
+,..... .. , Ritzchel,..Oalame-Oolin,, Burckhardt; Wersch, Jäggi, Frei (Bàie), Sie* (Zurich) 
+Affoïter, Müller (Berne), Seidel, Rikli, Weber (St-Gall), Pflüger, Zurburg, Eisenring 
+r .. ; JVlUemin, GODat. , J- .&lt;••», I ."Sili; ,J. 
+• iiU-rsJfc '•-
+;
+j 
+f
+'?• 
+56. (298). Motion de M. le conseiller national Will et cosignataires/dû 11 mars i9Tä; '' 
+! j 
+ww*- ' 
+Le Conseil fédéral est invité à examiner s'il n'y a pas lieu de poursuivre d'une facon plus active due 
+. h -P
+8,886 
+1 Electrification des chemins de fer fédéraux, afin d'assurer une meilleure utilisation dés forces 
+; hydrauliques; de-notre'pays et de rendre, dans un -cërtainï làp's-dè temps;
+,;
+ies'
+:
+chemins" de fer fédéraux indé­
+pendants de notre approvisionnement de charbon. i.r , ° 
+Signataires: Will, Bühlmann, Billeter, Ed. Scherrer, ÔttikW, Vital,'Freïburghaus, Bühler 
+(Frutigen), Scheurer, Moll, Mûri, Buser, Bissegger, Wagner, Sulzer, Hofmann, 
+Scherrer-Fullemann, Iselm, Secretan, rlanta. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=11" target="_blank" shape="rect"><img alt="Seite 11 / Page 11" src="images/icons/c_launch_pdf.gif" border="0"/>(11)</a></div>
+
+r i" 
+&lt;ns«i 
+Commisslötts générales öü permànëntes: 
+: i-:' - *• *0 Li'Oi^ÓL'ìJ er; ; Ir.-jvi'-' ''5 ji&gt; 
+:
+v ''' - 
+1 
+' ' ' 
+: 
+' ' ''' 
+: 
+- ' - ; ' ' ^ 
+viiifcnißioV! i:; .'oi c-ittjuión; -i'"-««" •• -:~va•rE-=-î«=r /f-i-:; VJ-, -Ï 
+' .^iwnofcvRi vfo aaHif« *«! t MâAiw-'ttsMOif «§. s»««*;, 
+.'»ai# ' -ïSî'.feK .-ïiH&gt;;dJ'»a)iilWj rnbu,!^ .itutuK? J&lt;;juwjr) _, wV:^»: '•f'
+1
+"
+1
+-'* •*•:•*• 
+I .tsôT ..fiUo:oH .iliârf&nV ,o«,a®î'iUj .r it-TlviLiGotómissioiis^de' gestion. 
+--• ••••-•• • - •• •••' •-- -•--&gt; i- yyji,;L ,£i-'icO-•' 
+jûï -ró JAÜ'I! 
+risisi I .aUo-soS ' ,&lt;uwift»uri-Hr 
+::;iSÂ.fl:s
+&lt;
+;,ï3'î ®ò- ;# S® 
+.TWHitn „., -, • • -—&gt;•-.™ Conseil national.) 
+N Kuntschen, Buri, Calame-Colin, Erni, Arthur Eugster, Forrer,'Garbani, Hartmann, d'Hettlingen, Jäger, de Lavallaz, Mächler, 
+Rikli, Scheidegger, Sträuli. 
+E Winiger, Baumann, Locher (Zurich),, Lusses-Richard,-.Robert,-Schuler. ! U :&4:&lt;vr&gt;•"• -'*! ?». *ö •.:*'?*. ,&lt;•&gt; 
+*i»t» *.'&&gt;#. *#A»j ^• v j•&gt;!&gt; uwt " '•v%
+0
+v ^ ... 
+..-(.-«noi 5'yh etósacWù s-iii»îlrèPï &£&gt;•; ^ushe'.!- um ;• ••• " - v v. »•• 
+'l Ai.''! .. .1 , O., Îoat/HTI o(,/1äC&gt; 
+! 
+fìviÀm AAO v%Aii%* In 
+:*icùÜ-J *-.j 
+, s-iitaJirarc; coi; f:viufiaB.r •:• ••• ••_ ' -
+v 
+-" 
+»l&gt; ^2;;Commissions? des finances pour la période législative de 1912 à 1914. 
+(Pour les crédits supplémentaires et les comptes d'Etat des années 1912 à 1914; pour les budgets des années 1913 à 1915.] 
+XW.'Hffi Klanta, Prey (Zurich)» Biiëlerï'Schwjrz). Dùbuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Müller (Berne), Si 
+E Kunz, Soldini, <a class="high" href="#13" name="12" onclick="javascript:ResetNbOf(this);">Mercier</a>, Simon, Böhi, Brügger, Python, Ochsner, Henri Scherrer (St-Gall). 
+(Membres des délégations des finances : N Planta, Frey (Zurich), Dubuis ; — E Kunz, Brügger, Simon.) 
+) 
+Sidler. 
+3. Commissions pour l'alcool. 
+ber, Hess, Hofer, König, Kuntschen, Pfl 
+nann, Düring, Gabuzzi, Leumann, Petta 
+(Membres des délégations : N Caflisch, Ohoquard, Grieshaber; — E Yon Arx, Düring, Pettavel.) 
+N Caflisch, Choquard, Fonjallaz, Grieshaber, Hess, Hofer, König, Kuntschen, Pflüger, Piguet (Neuchâtel), Schwander. 
+È Casimir von Arx, Steiger, Roten, Baumann, Düring, Gabuzzi, Leumann, Pettavel, Wirz. 
+4. Commissions pour les concessions de chemins de fer. 
+N Mächler, Amsler, Bühlmann, Décoppet, Evéquoz, Göttisheim, Häberlin, Ritzchel, Sigg (Zurich), Spahn, Staub. 
+E Calonder, Gabuzzi, Stutz, Adrien Tnélin, Cardinaux, Geel, Winiger, Isler, Lusser. 
+5. Commissions pour les chemins de fer fédéraux. 
+(Pour les rapports de gestion, les comptes et les crédits supplémentaires des chemins de fer fédéraux de 1912 à 1914 ; 
+pour les budgets de 1913 à 1915.) 
+N Walser, Bissegger, Bonjour, Diesbach, Germann, Iselin, Mosimann, Schär, Schubiger, Studer (Winterthour), Suter (Argovie). 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. 
+6. Commission militaire du Conseil des Etats. 
+E Paul Scherrer (Bàie-ville), Leumann, Bolli, Brügger, <a class="high" href="#14" name="13" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Commission 
+, • militaire.) 
+7. Commissions des pétitions. 
+N Walder, Bally (Soleure), Lagier, Ming, Naine, Schwendener, Stucki, Ullmann, Wyrsch. 
+E Gabuzzi, Baumann, Heer, Schmid, Wyrsch. 
+8. Commissions des grâces pour la XXII
+e 
+période législative. 
+N Streng, Affolter, Maillefer, Ottiker, Ritzchel, Schüpbach, Stadlin, Steinegger, AVeber (Sfc-Gall). 
+E Dähler, Pettavel, Roten, Stutz. 
+9. Commission du Conseil national pour la vérification des pouvoirs. 
+N de Meuron, Bonjour, Bühler (Frutigen), Eigenmann, Grünenfelder, Legier, Lutz, Sidler, Sigg (Genève), Théraulaz, Wyss. 
+10. Commissions pour le tarif des douanes. 
+N Martin, Abegg, Balmer, Blumer, Caflisch, Chuard, Desplands, Eigenmann, Eisenhut, Alfred Frey, Hirter, Hofmann, Hörni, Jäggi, 
+Jenny, Locher (Berne), Moser. Ody, Rothenberger, Scheidegger, Seiler, Stoffel, Sulzer, Wild, Zschokke. 
+E Lachenal, Bolli, Robert, Dähler, Düring, Python, Simon, Soldini, üsteri, Isler, Kunz, Ribordy, Paul Scherrer (Bftle-ville), 
+Leumann, <a class="high" href="#1" name="14" onclick="javascript:ResetNbOf(this);">Mercier</a>. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=12" target="_blank" shape="rect"><img alt="Seite 12 / Page 12" src="images/icons/c_launch_pdf.gif" border="0"/>(12)</a></div>
+
+Table alphabétique des objets à l'ordre du jour. 
+(Le» objets marqués d'une oroix sont restés pendants.) 
+Accidents et maladie. Assurance. 
+Entrée en vigueur de la loi (interpella­
+tion Winiger), 54. 
+Résultat de la votation populaire, 4. 
+t Alcool. Emploi de 10 »/„ des recettes de 1910, 
+30. 
+Assemblée fédérale. 
+Démission de M. le conseiller fédéral 
+Robert Comtesse, 51 a. 
+Nomination de cinq juges fédéraux, 8. 
+Nomination d'un conseiller fédéral (M. 
+Louis Perrier), 51 ft. 
+Vérification des pouvoirs, 1. 
+Assistance maternelle (motion Göttisheim), 41. 
+Assurance maladie et accidents. 
+Entrée en. vigueur de la loi (interpella­
+tion Winiger), 54. 
+Résultat de la votation populaire, 4. 
+t Automobiles et navigation aérienne. Police, 
+Bâtiments fédéraux. 
+Berne, bâtiment d'administration, rue de 
+l'Islè, 8. 
+t -- hôtel des poids et mesures, 10. 
+t (Erlikon, établissements d'essais agri­
+coles, 32. 
+Chancelier de la Confédération. Traitement 
+(motions Häberlin et Calonder). 2. 
+Chemins de fer. 
+En général. 
+Chemins de fer fédéraux. 
+t Ateliers de Bellinzone. Indemnité aux 
+ouvriers pour 1909 à 1911, 38. 
+t Electrification (motion Will), 56. 
+t Gothard. Traité avec l'Allemagne et 
+l'Italie, 37. 
+Hauenstein, tunnel de base. Outrepas­
+sation de crédit (interpellation Sieg, 
+de Zürich), 53. 
+t Ouvriers. Augmentation du supplément 
+annuel, 39. 
+t Personnel. Eligibilité, 37. 
+t Relèvement des taxes-voyageurs, 35. 
+t Chemins dé fer privés. Calcul du produit 
+net, 36. 
+En particulier. 
+Anet-Cerlier. Concession, 331. 
+Bâle (Riehen)-Chrischona. Prolongation 
+de délai, 33 e. 
+Bienne-Montménil (Meinisberg). Modifi­
+cation de la concession et prolongation 
+de délai, 33 h. 
+Bngelberg-Gerschnialp, 38 d. 
+Frutigen-Adelb oden. Transfert de la 
+concession et prolongation de délai, 
+33 o. 
+t Landquart-Ragaz (frontière nationale). 
+Concession, 33 b. 
+Langenthal-Melchnau. Concession, 33 M. ' 
+Liiterswil-Soleure. Prolongation de délai, 
+33k. 
+Massagno-Cadempino-Ostarietta. Prolon­
+gation de délai et extension de la con­
+cession à la section Lugano-Hassagno, 
+33 i. 
+Meiringen-Engelberg. Concession, 33 c. 
+i- Moléson. Concessions, 33 a. 
+Chemins de fer (suite). 
+En particulier (suite). 
+Œnsingen-Balsthal. Modification de la 
+concession, 33.9. 
+Petite Scheidegg-Männlichen. Prolonga­
+tion de délai, 33 h. 
+Saignelégier-Glovelier. Modification^ de 
+la concession, 33 m. 
+t Soleure-Schönbühl-Berne. Projets con-
+currets, 33 /. 
+Wattwil-Wimmis ou Spiez. Prolongation 
+de délai, 33 k. 
+t Chômage involontaire (motion Eugster-Ziist), 
+55. 
+Cidre artificiel. Interdiction, 6. 
+Code pénal. 
+t Complément (incitation des militaires à 
+l'insubordination), 14. 
+Conseil fédéral. 
+Démission de M. Comtesse, 51«. 
+Nomination de M. Perrier, 51 b. 
+t Politique. Réorganisation, 5. 
+Traitements des membres (motions Hä-
+beflin et Calonder), 2. ' 
+Constitutions cantonales (garantie fédérale). 
+Saint-Gall (modification du nombre et de 
+l'étendue des districts et des circons­
+criptions judiciaires), 52. 
+Thurgovie (création d'une usine élec­
+trique cantonale), 20. 
+Cours d'eau. Subventions. 
+t Aar près Olten (Soleure), 13. 
+t Emme (Berne), 9. 
+t Hiiribach (Zoug), 12. 
+t Landquart et affluents (Grisons), 50. 
+Crédits supplémentaires pour 1912 (I™ série), 
+Denrées alimentaires. Réduction des droits 
+de douane (interpellation Pettavel), 44. 
+Enfance. Protection (motion Göttisheim), 41. 
+t Epidémies et épizooties. Lutte, 11. 
+t Essais agricoles. Etablissements d'Œrlikon-
+Zurich, 32. 
+t Fabriques. Travail. Revision de la loi, 31. 
+Finances. Situation financière de la Confédé­
+ration (postulat Pfliiger), 49. 
+Fonctionnaires et employés fédéraux. Re­
+lèvement du traitement de fonctionnaires 
+supérieurs, 28. 
+t Hygiène des habitations (motion Rikli), 42 
+t Imposition double (motion Kunz), 46 
+Interpellations. 
+Pettavel. Réduction des droits de douane 
+sur les vivres, 44. 
+Sigg (Zurich). Tunnel de base du Hauen­
+stein. Outrepassation de crédit, 53. 
+Winiger. Assurance maladie et accidents. 
+Entrée en vigueur de la loi, 54 
+Maladie et accidents. Assurance. 
+Entrée en vigueur de la loi (interpellation 
+Winiger), 54. 
+Résultat de la votation populaire, 4. 
+Militaire. 
+t Artillerie de forteresse. Remplacement 
+de pièces, 26. 
+t Batteries demontagnenouvelles. Matériel 
+23. 
+t Dépenses militaires extraordinaires (pos­
+tulat 722, chiffre 2), 27. 
+Militaire (suite). 
+t Groupes d'obusiers. Matériel, 24. 
++ Incitation des militaires à l'insubordina­
+tion (code pénal fédéral), 14. 
+Militaires en service. Augmentation des 
+secours aux familles (motion Pflüger). 
+45. 
+t Mitrailleurs d'infanterie. Matériel, 25. 
+t Organisation militaire (art. 190). Indemnité 
+des commandants des unités d'armée, 
+22. 
+t Répression d'abus de pouvoir d'officiers 
+envers la troupe (motion Hofmann), 47. 
+t Taxe militaire. Recours Dupertuis, 21. 
+Motions. 
+t Eugster-Züst Chômage involontaires, 55. 
+Göttisheim. Protection de l'enfance et 
+assistance maternelle, 41. 
+Grimm. Témoignage, en justice, du per­
+sonnel fédéral, 43. 
+Häberlin et Calonder. Traitements des 
+membres du Conseil fédéral et du chan­
+celier de la Confédération, 2. 
+t Hofmann. Répression d'abus., de pouvoir 
+d'officiers envers la troupe, 47. 
+t Kunz Double imposition, 46. 
+Pfliiger. Augmentation des secours aux 
+familles des militaires en service, 45. 
+t Rikli. Hygiène des habitations, 42. 
+t Will. Electrification des chemins de fer 
+fédéraux, 56. 
+t Navigation aérienne et automobile^ Police, 7. 
+. Postulats. 
+t Conseil des Etats. Demandes de subven­
+tion pour travaux publics, 48. 
+Pflüger. Situation financière de la Con-
+• fédération, 49. 
+Protection de l'enfance et assistance mater­
+nelle (motion Göttisheim), 41. 
+Recours. 
+Croix. Patente de pédicure, 16. 
+t Dupertuis. Taxe militaire, 21. 
+t Küng. Patente d'auberge, 19. 
+t Soleure, gouvernement. Commerce in­
+tercantonal d'alcool, 15. 
+Studer-Wettstein. Colportage de sau­
+cisses, 17. 
+t Téléphones. Relèvement des taxes, 40. 
+Témoignage, en justice, du personnel fédé­
+ral (motion Grimm), 43. 
+Traitements. 
+Fonctionnaires supérieurs. Relèvement 
+du maximum, 28. 
+Membres du Conseil fédéral et chan­
+celier de la Confédération (motions . 
+Häberlin et Calonder), 2. 
+Traités et conventions. 
+t Gothard. Traité avec l'Allemagne et 
+l'Italie, 34. 
+t Travaux publics. Demandes de subventions 
+(postulat du Conseil des Etats), 48. 
+t Tribunal administratif. Création, 18. 
+Tribunal fédéral. Nomination de cinq 
+juges fédéraux, 3. 
+Vin et cidre artificiels. Interdiction, 6. 
+Vivres. Réduction des droits de douane 
+(interpellation Pettavel), 44. 
+Actes législatifs soumis au referendum. 
+2. Traitements des membres du Conseil fédéral. 
+6. Vin et cidre artificiels. Interdiction.
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=13" target="_blank" shape="rect"><img alt="Seite 13 / Page 13" src="images/icons/c_launch_pdf.gif" border="0"/>(13)</a></div>
+
+-->
+            <pre>îeraioos 
+de 
+L'ASSEMBLÉE FÉDÉRALE SUISSE. 
+Suite de la session ordinaire d'hiver. 
+(2
+e 
+session at la XXII
+e 
+legislatore. ) 
+Du lundi 4 au mercredi 13 mars 1912. 
+Séances du Conseil national: mars 4, 5, 6, 7, 8, 11, 12, 13 (8 séances). 
+Séances du Conseil des Etats:, mars 4, 5, 6, 7, 8, 12, 13 (8 séances). 
+Une séance de l'Assemblée fédérale réunie, le 12 mars (pour les tractanda n" 3 et 51). 
+APERÇU. 
+Explication des signes. Les premiers nombres indiquent les numéros de la session; les nombres entre parenthèses indiquent 
+les numéros consécutifs de contrôle. 
+N = traité par le Conseil national. E = traité par le Conseil des Etats X = liquidé. 
+n = priorité au Conseil national. é = priorité au Conseil des Etats. 
+1.(1). Vérification des pouvoirs. 
+X2. (254). Traitements des membres du Conseil fédéral (motions 
+Häberlin et Calonder). 
+X3. (280). Nomination du cinq membres du Tribunal fédéral. 
+X4. ('287). n Assurance maladie et accidents. Résultat de la vo-
+tation du 4 février 1912. 
+Département politique. 
+E 5. (3). e Département politique. Réorganisation. 
+Département de l'intérieur. 
+X6. (10). n Vin et cidre artificiels. Interdiction. (Rédaction dé­
+finitive.) 
+E 7. (11). «Automobiles et navigation aérienne. Pojice. 
+X8. (197). n Bâtiment d'administration, rue de l'Isle, à Berne. 
+Construction. 
+E 9. (223). ê Correction de l'Emme 
+10. (255). e Hôtel des poids et mesures. Construction. 
+E 11. (262'. «Epidémies et épizooties. Lutte. 
+12 (275). e Correction de l'Hiiribach (Zoug). 
+13. (276). n Correction de PAar près d'Olten. 
+Département de justice et police. 
+E 14. (14). é Code pénal fédéral. Complément. 
+N 15. (167) n Recours du gouvernement de Soleure Commerce 
+intercantonal d'alcool. 
+XI6. (187). «Recours Croix. Patente de pédicure. 
+X17. (212). n Recours Studer-Wettstein. Colportage de sau­
+cisses. 
+18. (263). e Tribunal administratif. Création. 
+E 19. (279). e Recours Küng. Patente d'auberge. 
+X20. (283). n Constitution de'Thurgovie (création d'une usine 
+électrique cantonale). 
+Département militaire. 
+E 21. (258). é Recours Dupertuis. Taxe militaire. 
+22. (266). é Organisation militaire (art. 190). Indemnité des com­
+mandants des unités d'armée. 
+E 23. (267). e Nouvelles batteries de montagne. Matériel. 
+E 24. (268). é Groupes d'obusiers. Matériel. 
+E 25. (269). é Mitrailleurs d'infanterie. Matériel. 
+E 26. (270). é Artillerie de forteresse. Remplacement de pièces. 
+27. (271). ^Dépenses militaires extraordinaires (postulat 722, 
+chiffre 2). 
+Département des finances et des douanes. 
+X28. ( 159). ^Relèvement du maximum des traitements de fonc­
+tionnaires supérieurs. 
+X29. (281). n Crédits supplémentaires pour 1912 (I™ série). 
+30. (274). e Alcool. Emploi de 10 °/o des recettes de 1910. 
+Département du commerce, de l'industrie et de l'agri­
+culture. 
+31. (43). wLoi sur le travail dans les fabriques. Revision. 
+32. (145). e Etablissements d'essais agricoles à (Erlikon-Zurich. 
+Département des postes et des chemins de fer. 
+33. Affaires de chemins de fer. 
+a. (72). ^Moléson. Concessions. 
+b. (73). é Landquart-Ragaz (frontif:i e nationale). Conces­
+sion. 
+Xc. (181). e'Meiringen-Engelberg. Concession. 
+Xd. (259). é Engelberg-Gerschnialp. Concession. 
+Xe. (265). n Bâle (Riehen)-Chrischona. Prolongation de dé­
+lai. 
+f. (264). é Soleure-Schönbühl-Berne. Projets concurrents. 
+Xg- (282). n CEnsingcn-Balsthal. Modification .de la conces­
+sion. 
+Xh. (284). w Bienne-Montménil (Meinisberg). Modification de 
+la concession et prolongation de délai 
+Xi- (285). nMassagno Cadempino-Ostarietta. Prolongation 
+de délai et extension de la concession à la sec­
+tion Lugano-Massagno. 
+Xk. (288). n Trois prolongatiens de délai (Liiterswil-Soleure; 
+Wattenwil-Wimmis ou Spiez; Petite Scheid-
+egg-Männlichen). 
+XI. (290). n Anet-Cerlier. Concession. 
+Xm. (291). n Saignelégier-Glovelier. Modification de la con­
+cession. 
+Xn. (292). n Langenthal-Melchnau. Concession. 
+Xo. (294). n Frutigen-Adelboden. Transfert de la conces­
+sion et prolongation de délai. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+/ 
+34. (45). Chemin de fer du Gothard. Traité avec ÏAUemàgnè 
+et l'Italie. 
+35. (47). nChemins de fer fédéraux. Relèvement des taxes-
+voyageurs. 
+E 36. (48). e Chemins de fer privés. Calcul du produit net. 
+N 37: (240). n Eligibilité du personnel des chemins de fer fédé­
+raux. 
+38.1243). é Indemnité extraordinaire pour 1909 à .1911 aux ou­
+vriers des ateliers des chemins de fer fédéraux 
+à Bellinzone. 
+39. (246). É&lt;Augmentation du supplément annuel alloué aux 
+ouvriers des chemins de fer fédéraux. 
+40. (53). n Téléphones. Relèvement des taxes. 
+Motions, etc. 
+X41. (218). Motion Göttisheim. Protection de l'enfance et assis­
+tance maternelle. 
+42. (220). Motion Rikli. Hygiène des habitations. 
+X43. (248). Motion Griinm. Témoignage, en justice, du person­
+nel fédéral.-
+X44. (249). Interpellation Pettavel. Réduction des droits de dou­
+ane sur les vivres. 
+X45. (250). Motion Pflüger. Augmentation des secours aux fa­
+milles des militaires en service. 
+Ë 46. (25k Motion Kunz. Double imposition. . 
+47. (273). Motion Hofmann. Répression d'abus de pouvoir d'of­
+ficiers envers la troupe. 
+Y 48. (277). Demandes de subventions pour travaux publics (pos­
+tulat du Conseil des Etats). 
+X49. (278). Situation financière de la Confédération (postulat 
+Pflüger et consorts). 
+Autres objets survenus dans l'intervalle. 
+50. (286). n Correction de la Landquart et de ses affluents. 
+X51. (289). a. Démission de M. le conseiller fédéral Comtesse. 
+h. Nomination d'un membre du Conseil fédéral. 
+X52. (293). e Constitution de St-Gall (modification du nombre et 
+de l'étendue des districts et des circonscrip­
+tions judiciaires). 
+X53- (295). Interpellation Sigg (Zurich). Crédit pour le tunnel 
+de base du Hauenstein. 
+X54- (296). Interpellation Winiger. Entrée en vigueur de la loi 
+sur l'assurance maladie-accidents. 
+55. (297). Motion Eugster-Züst. Caisses de chômage. 
+56. (298). Motion Will. Traction électrique des chemins de 
+fer. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+3 
+SUT" M = priorité au Conseil national; é = priorité au Conseil des Etats. N = commission du Conseil national; E = commission du 
+Conseil des Etats. Les chiffres entre parenthèses indiquent le numéro de contrôle de l'objet pendant, la période législative 
+courante. 
+|. (1). Vérification des pouvoirs des nouveaux membres du Conseil national et du Conseil des Etats. — Rapport du 
+Conseil fédéral du 24 novembre 1911 (F. féd. 1911, V. 84), concernant les élections du Conseil national pour la XXII
+e 
+période 
+législative. 
+N de Meuron, Bonjour, Bühler (Frutigen), Eigenmann, Grtinenfelder, Legier, Lutz, Sidler, Sigg (Genève), Théraulaz, Wyss. 
+Nouveaux membres : 
+Conseil national. 
+M. Giuseppe Cattori, de Sonogno, à Muralto (Tessin), en remplacement de M. Motta, élu au Conseil fédéral. 
+. Louis Reymond, de l'Abbaye, à Orbe (Yaud), en remplacement de feu M. Cavat. 
+I Eugène Wullschleger, de Vordemwald (Argovie) et Baie-, à Bâle, en remplacement de M. Hüry, démissionnaire. 
+1912, 4 mars. Validation de l'élection de MM. Cattori, Reymond et Wullschleger. 
+Conseil des Etats. 
+2. (254). n Traitements des membres du Conseil fédéral. Relèvement. (Motions Häberlin et Calonder.) 
+Projet d'arrêté fédéral concernant les traitements des membres du Conseil fédéral et du chancelier 
+de la Confédération. 
+L'Assemblée fédérale de la Confédération suisse, 
+En modification de l'arrêté fédéral du 22 décembre 1899 (R. o., XVIII. 33), 
+arrête : 
+1. Le traitement des membres du Conseil fédéral est de 20,000 francs par an. Il est en outre alloué 
+au président de la Confédération un supplément de traitement de 2,000 francs. 
+2. Le traitement du chancelier de la Confédération est de 12,000 francs par an. 
+3. Le présent arrêté entrera en vigueur le I
+e
+' janvier 1912. 
+4. Le Conseil fédéral est chargé de publier le présent arrêté conformément aux dispositions de la loi 
+du 17 juin 1874 concernant les votation populaires sur les lois et les arrêtés fédéraux. 
+N Planta, Bissegger, Décoppet, Greulich, Häberlin, Hirter, Kuntschen, Mûri (Argovie), Scherrer-Püllemann,.Spahn, Staub. 
+E Casimir von Arx, Dähler, Hildebrand, Isler, Lachenal, Simon, Wirz. 
+1912, 5 mars. Décision du Conseil national, d'après le projet d'arrêté fédéral ci-dessus, avec la modification que le traitement 
+annuel des membres du Conseil fédéral est fixé à 18,000 francs, et celui du chancelier à 13,000 francs. 
+„ 11 mars. Décision du Conseil des Etats: adhésion. L'arrêté fédéral ne sera pas transmis à la commission de rédaction. 
+„ 11 mars. Décision du Conseil national: adhésion. 
+(Bulletin sténographique.) 
+3.' (280). Nomination de cinq membres du Tribunal fédéral. 
+Election du 12 mars 1912. 
+: 
+M. Virgile Rossel, de.Tramelan-dessus (Jura bernois), à Berne. 
+„ Victor Hauser, d'Horgen (Zurich). 
+„ Hugo Oser, de Schönenbuch (Baie-campagne), à Fribourg. 
+„ Hans Mûri, de Schinznach (Argovie), à Aarau. 
+% 
+„ Henri Thélin, de Bioley-Orjuiaz (Yaud
+1
+, à Nyon. 
+4. (287). n Assurance maladie et accidents. Résultat de la votation populaire du 4 février 1912. Rapport du Conseil fédéral 
+du 23 février 1912 (P. féd. 1912, I. 473), concernant le résultat de la votation populaire du 4 février 1912 sur la loi fédé­
+rale relative à l'assurance en cas de maladie et d'accidents. 
+N Edouard Scherrer (St-Gall), Jäger, Jäggi, Piguet (Vaud), de Streng, Vassalli, Walder, Wyss, Zurburg. 
+E Usteri, Heer, Lachenal, Winiger, Wyrsch. 
+1912, 12 mars. Décision du Conseil national. Il est pris acte du rapport du Conseil fédéral. 
+a 12 mars. Décision du Conseil des Etats: adhésion. 
+Département politique. 
+5. (3). é Département politique. Réorganisation. Rapport du Conseil fédéral du 2 juillet 1909 (F. féd. 1909, IV. 347), concer­
+nant la réorganisation du département politique. 
+N Hirter, Blumer, Bonjour, 'Buser, Max Diesbach, Eggspiihler, Arthur Eugster, Göttisheim, Greulich, Häberlin, Heller, 
+Lohner, Secretan, Spahn, Staub. 
+E Lachenal, Calonder, Düring, Hildebrand, Isler, Munzinger, Wirz. 
+1909, 20 octobre. Décision du Conseil des Etats: 
+1° Il est pris acte du rapport du Conseil fédéral du 2 juillet 1909, dans le sens du maintien de 
+l'organisation actuelle du département politique. 
+2» Le Conseil fédéral est invité à entreprendre le plus tôt possible la réorganisation de l'ad­
+ministration fédérale, notamment par l'institution d'un tribunal administratif. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+I, 
+Département de l'intérieur. 
+6. (10). ù Vili et cidre artificiels. Interdiction. Message et projet d'arrêté du 22 mars 1910 (F. féd. 1910, 1. 787), concernant 
+la prohibition du vin et du cidre artificiels. 
+N Grieshaber, Ohuard, Garbani-Nerini, Gobât, Gninenfelder. Hörni. Legier. 
+- E Pettavel, Dähler, Hildebrand, Kunz, Ribordy, Simon, Stutz. 
+1911, 27 mars. Décision du Conseil national, avec des modifications au projet du Conseil fédéral. 
+» 21 juin. Décision du Conseil des Etats, avec des divergences aux articles 2, 9, 10 et 14. 
+" . „ • .20. décembre. Décision du Conseil national, avec des divergences. . 
+„ 23 décembre. Décision du Conseil des Etats: adhésion. Le projet d'arrêté fédéral est transmis à la commission de rédaction. 
+1912, 6 mars. Décision du Conseil national. Le texte de l'arrêté fédéral revisé par la commission de rédaction est approuvé, et 
+l'arrêté fédéral est adopté en votation définitive. 
+„ 7 mars. Décision du Conseil des Etats: adhésion. 
+. V 
+(Bulletin sténographique.) 
+7. (11). é Automobiles et navigation aérienne. Police. Message et projet d'arrêté du 22 mars 1910 (F. féd. 1910, I. 812), 
+concernant une revision partielle de la constitution fédérale (législation sur la police des automobiles et des cycles et sur la 
+navigation aérienne). 
+N Mächler, Bally, Burckhardt, Caflisch, Henri Calarne, Kuntschen, Maillefer, Moll, Rikli, Sulzer, Walther. 
+E Bolli, Cardinaux, Geel, Leumann, <a class="high" href="#3" name="2" onclick="javascript:ResetNbOf(this);">Mercier</a>, Richard, Steiger, Winiger, W-irz. 
+• 1911, 4 octobre. Décision du Conseil des Etats. Il n'est pas entré en matière pour le moment sur le projet d'arrêté. Le Conseil 
+fédéral est prié de présenter aussitôt que faire se pourra un projet de loi sur la responsabilité civile des 
+automobilistes et d'étudier la possibilité d'édicter en même temps des dispositions pénales fédérales visant 
+la répression des abus commis par les automobilistes. 
+(Bulletin sténographique.) 
+8. (197). n Bâtiment d'administration, rue de l'Isle, à Berne. Message et projet d'arrêté du 26 août 1911 (F. féd. 1911, 
+IV. 1), concernant la construction d'un bâtiment d'administration à la rue de l'Isle, à Berne. 
+N Walder, Choquard, Fonjallaz, Garbani-Nerini, Mtiri (Argovie), Steuble, Wuilleret. 
+E Soldini, Heer, Lusser, Munzinger, Wyrsch. 
+1912, 8 mars. Décision du Conseil 'national, d'après le projet du Conseil fédéral. 
+„ 13 mars. Décision du Conseil des Etats: adhésion. ' 
+9. (223). é Correction de l'Emme. Message et projet d'arrêté du 21 octobre 1911 (F. féd. 1911, IV. 399), concernant une 
+subvention au canton de Berne pour la réfection de travaux de correction de l'Emme depuis Emmenmatt à la frontière can­
+tonale entre Berne et Soleure. 
+N Scherrer-Fiillemann, Furrer, Liechti, Raschein, Seidel, Schmidheiny, Ursprung, Walther, Willemin. 
+E Heer, Lachenal, Roten, Stutz, Wyrsch. 
+1912, 13 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+10. (255). é Hôtel des poids et mesures. Message et projet d'arrêté du (F. féd. 191', ), concernant la 
+construction d'un hôtel pour le bureau fédéral (^3S poids et mesures. 
+N Dubuis, Abt, Ador, Billeter, Deschenaux, Koller, Näher, Tissières, Legier, Zimmermann, Zschokke. 
+E Robert, Cardinaux, Geel, Heer, Schmid. 
+11. (262). é Epidémies et épizooties. Lutte. Message et projet d'arrêté du 20 décembre 1911 (F. féd. 1911, V. 315), concer­
+nant une revision de l'article 69 de la constitution fédérale (attributions de la Confédération relatives aux mesures de police 
+sanitaire dirigées contre les maladies de l'homme et des animaux): • , 
+N Ming, Emery, Hauser, Kniisel, Lutz, de Lavailaz, Minder, Rikli. Suter (Baie campagne), Schubiger, Vassalli. 
+E Düring, Locher (Zurich), Lusser, Pettavel, Steiger, Adrien Thélin, Wyrsch. 
+1912, 5 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral, avec une modification de rédaction au chiffre II. 
+(Bulletin sténographique.) 
+12. (275).' é Correction de l'Hiiribach.. Message et projet d'arrêté du 9 janvier 1912 (F. féd. 1912, I. 133), concernant une 
+subvention au canton de Zoug pour l'endiguement et la correction de l'Hiiribach et de ses affluents, à Unterägeri. 
+- - N • Fellmann, Jenny,.Näher, Ody, Piguet (Neuchâtel), Reymond, Sträuli, Suter (Bâle-eampagne), Ursprung. 
+E Kunz, Brügger, Cardinaux, Paul Scherrer (Bâle-ville), Adrien Thélin. . 
+13. (276). n Correction de l'Aar, près d'Olten. Message et projet d'arrêté du 9 janvier 1912 (F. féd. 1912, I. 141), concer-
+• nant" une subvention au canton de Soleure pour la correction de l'Aar en aval dù pont du Rankwag, près d'Olten. 
+N Schwander, Cattori, Daucourt, Eisenhut, Gaudard, Koller, König, Moser, Ritzchel. 
+E Schmid, Baumann, Böhi, Uchsner, Robert. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+5 
+Département de justice et police. 
+14. (14). é Code pénal fédéral. Complément. Message et projet de loi du 18 juin 1906 (P. féd. 1906, IV. 144), concernant un 
+complément au code pénal fédéral du 4 février 1853 (article 48
+b
+'
+s 
+— incitation de militaires à l'insubordination). 
+N Häberlin, Décoppet, Grand, Heller, Iselin, de Lavallaz, Scheurer, Schmid (Grisons), Studer (Winterthour). 
+E Caloiider, Bolli, Düring, <a class="high" href="#4" name="3" onclick="javascript:ResetNbOf(this);">Mercier</a>. Ribordy, Richard, Paul Scherrer (Bâle-ville). 
+1908, l"
+r 
+octobre. Décision du Conseil des Etats, avec des modifications au projet du Conseil, fédéral. 
+. (Bulletin stênographique.) 
+\ 
+15. (167). nKecours du gouvernement de Soleure. Rapport du Conseil fédéral du 3 avril 1911 (F. féd. 1911, III. 290), con­
+cernant le recours du gouvernement de Soleure en la cause N. Bloch & C
+le
+, relative au commerce intercantonal des bois­
+sons spiritueuses. 
+N de Meuron, Caflisch, Grünenfelder, Hofmann, de Lavallaz, Locher (Berne), Lutz.. 
+E <a class="high" href="#5" name="4" onclick="javascript:ResetNbOf(this);">Mercier</a>, Brügger, Locher (Zurich), Pettavel, Schmid. 
+1912, 7 mars. Décision du Conseil national. Le recours est déclaré fondé, avec l'adoption du postulat suivant : 
+Le Conseil fédéral est invité à présenter un rapport et des propositions sur la réglementation, parla 
+législation fédérale, du commerce de détail des boissons alcooliques, spécialement du commerce intercantonal. 
+16. (187). n Recours Croix. Rapport du Conseil fédéral du 6 juin 1911 (P. féd. 1911, III. 780), concernant le recours d'Ami 
+Julien Croix, à Genève, contre le refus d'une patente de pédicure. 
+N Forrer, Adrien von Arx, Daucourt, Hauser, Legier, Locher (Berne), de Meuron. . 
+E Gabuzzi, Ammann, Pettavel, Henri Scherrer (St-Gall), Wyrsch. 
+1911, 20 décembre. Décision du Conseil national. Le recours est écarté. 
+1912, 7 mars. Décision du Conseil des Etats : adhésion. 
+17. (212). n Recours Stud er-Wettstein. Rapport du Conseil fédéral du 26 septembre 1911 (P. féd. 1911, IV. 280)/ concernant le 
+recours d'Henri Studer-Wettstein, à Ennetaach (Thurgovie), contre le refus d'autoriser le colportage de saucisses. 
+N Studer (Winterthour), Henri Calarne, Hofer, Hunziker, Lagier, Nietlispach, Peter. 
+E Hildebrand, Cardinaux, Geel, Kunz, Soldini. 
+1911, 23 décembre. Décision du Conseil national. Le recours est écarté. 
+1912, 7 mars. Décision du Conseil des Etats: adhésion. 
+18. (263). é Tribunal administratif. Message et projet d'arrêté du 20 décembre 1911 (F. féd. 1912, I. 291), concernant une 
+revision de la constitution fédérale en vue de la création d'un tribunal administratif fédéral. 
+N Hirter, Blumer, Bonjour, Buser, Max Diesbach, Eggspühler, Arthur Eugster, Göttisheim, Greulich, Häberlin,'Lohner, Rossel,' 
+Secretan, Spahn, Staub. 
+E Usteri, Ammann, Kunz, Python, Richard, Henri Scherrer (St-Gall), Paul Scherrer (Bâle-ville), Schulthess, Winiger. 
+(Bulletin stënographique.) 
+19. (279). é Recours Kling. Patente d'auberge. Offlee du Conseil fédéral du 16 janvier 1912, concernant le recours de François 
+Kiing, à Villmergen (Argovie), contre l'arrêté du Conseil fédéral du 31 octobre 1911 relatif au refus d'autorisation de trans­
+fert d'une auberge. 
+N Schwendener, Bühler (Frutigen), Cailler, Deschenaux, Eisenring, Planta, de Preux,;, Willemin, Wullschleger. 
+* E Munzinger, Bolli, Dähler, Ribordy, Richard. ' . 
+1912, 12 mars. Décision du Conseil des Etats. Il n'est pas entré en matière sur le recours pour cause de tardiveté. 
+20. (283). n Constitution de, Thurgovie. Message et projet d'arrêté du 14 février 1912 (P. féd. 1912, I. 429), concernant la 
+garantie du § 10 de la loi constitutionnelle thurgovienne du 10 novembre 1910 relatif à la création d'une usine électrique can­
+tonale. 
+N Burckhardt, Charbonnet, Fritschi, Grünenfelder, d'Hettlingen, Knüsel, Maillefer, Schmidheiny, Seiler. 
+E Dähler, Schulthess, Soldini. 
+1912, 11 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion.' 
+Département militaire. 
+21. (258). é Recours Dupertuis. Taxe militaire. Rapport du Conseil fédéral du 18 décembre 1911 (P. féd. 1911, V. 279), con­
+cernant le recours de Paul Dupertuis, à <a class="high" href="#6" name="5" onclick="javascript:ResetNbOf(this);">Lausanne</a>, contre sa taxe - militaire. 
+N Ringger, Balli (Tessin), Fazy, Gujer, Hofmann, Holenstein, Hunziker, de Preux, Zumstein. 
+E Böhi, Baumann, Gabuzzi, Ribordy, Schüler. 
+1912, 8 mars. Décision du Conseil des Etats. Le recours est écarté. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+22. (266). é Organisation militaire (art. 190). Message et projet d'arrêté du 20 décembre 1911 (P. féd. 1911, V. 333), con­
+cernant la modification de l'article 190 de l'organisation militaire (indemnité des commandants des unités d'armée). 
+N Wyss, Biieler (Schwyz), Crisinel, Furrer, Grimm, Heller, Hess, Peter, Stoffel, Weber (Argovie), Will. 
+„ E 'Paul Scherrer (Bâle-ville), Leumann, Bolli, Brfigger,£Mereier, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+(Bulletin, sténographique.) 
+23. (267). fé Nouvelles batteries de montagne. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 351), con­
+cernant l'acquisition du matériel de trois nouvelles batteries de montagne. 
+N Buser, Erni, Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville), Leumann, Bolli, Brügger, <a class="high" href="#7" name="6" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+24. (268). é Groupes d'obusiers. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 345), concernant l'acquisi­
+tion du matériel des groupes d'obusiers. 
+N Buser, Erni, Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville),* Leumann, Bolli, Brügger, <a class="high" href="#8" name="7" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission militaire.) 
+1912, 6 mars. Décision, du* Conseil des Etats, d'après le projet du Conseil fédéral. 
+25. (269). é Groupes de mitrailleurs d'infanterie. Message et projet d'arrêté du 6 février 1912 (F. féd. 1912, I. 354), 
+concernant l'acquisition du matériel des groupes de mitrailleurs d'infanterie. 
+N Buser, Erni, Liechti,"Lurati, Müller'.(Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+,EJPaul Scherrer (Bâle-ville
+1
+, Leumann,^Bolli,"Brügger, <a class="high" href="#9" name="8" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com­
+mission', militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. , 
+26. (270). é Artillerie de forteresse. Remplacement de pièces. Message et projet d'arrêté [du 6 févéier 1912 (F. féd. 1912, 
+I. 360), concernant le remplacement de pièces de l'artillerie mobile des places fortifiées. " 
+N Buser, Erni. Liechti, Lurati, Müller (Berne), Ottiker, Scheurer, Secretan, Sidler, Stadlin, Suter (Argovie). 
+E Paul Scherrer (Bâle-ville), Leumann, Bolli, Brügger, <a class="high" href="#10" name="9" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Com-
+mission*militaire.) 
+1912, 6 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. 
+27. (271). é Dépenses ^militaires extraordinaires Rapport du Conseil fédéral du 16 février 1912 (F. féd. 1912, I. 432), 
+concernant les dépenses militaires extraordinaires. 
+N Planta, Frey (Zurich), Biieler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Sidler, Müller 
+It (Berne). (CommissionSdes finances.) 
+E Munzinger, Bolli,-Briigger, Cardinaux, Leumann, <a class="high" href="#11" name="10" onclick="javascript:ResetNbOf(this);">Mercier</a>, Ochsner, Schulthess, Soldini. 
+Département des finances et des douanes. 
+28. (159). é Traitements de fonctionnaires supérieurs. Augmentation- Message et projet d'arrêté du 27 mars 1911 
+(F. féd. 1911, II. 460), concernant le relèvement du traitement maximum des chefs de division et des premiers secrétaires des 
+départements de l'administration fédérale. 
+N Planta, Frey (Zurich), Büeler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Sidler, Müller 
+(Berne). ' (Commission des finances.) 
+E Geel, Casimir von Arx, Cardinaux, Isler, Kunz, Roten. 
+1911, 29 septembre. Décision du Conseil des Etats, avec des modifications au projet du Conseil fédéral. 
+„ 6 décembre. Décision du.Conseil national, avec des divergences. 
+„ 14 décembre. Décision du Conseil des Etats. Maintien de la décision du 29 septembre 1911, avec deux compléments. 
+„ 22 décembre. Décision dutConseil^national, avec des divergences. 
+1912, 6 mars. Décision'du Conseil dés Etats, avec une divergence à l'article 1
+er
+. 
+„ 8 mars. Décision du Conseil national : adhésion. 
+„ 12 mars. Décision du Conseil desJEtats. Le projet d'arrêté fédéral est adopté en votation définitive. 
+29. (281). 11 Crédits supplémentaires pour 1912 (I
+re 
+série). Message et projet d'arrêté du 4 mars 1912 (F. féd. 1912, 
+I. 575), concernant les crédits supplémentaires pour 1912 (I
+re 
+série). 
+N Planta, Frey.(Zurich), Büeler (Schwyz), Dubuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), | Commissions 
+Wuilleret, Mûri, Müller (Berne). . n 1 t-
+E Kunz, Brügger, Soldini, <a class="high" href="#12" name="11" onclick="javascript:ResetNbOf(this);">Mercier</a>, Simon, Böhi, Python, Ochsner, Henri Scherrer (St-Gall). ) finances. 
+1912, 13 mars.LiDécision du Conseil national, d'après le projet du Conseil fédéral. 
+- 13 mars. Décision du Conseil des Etats : adhésion. 
+/ 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+1 
+âo. (274). ëAicooi. Emploi de ÌÒ
+ò
+/0 dés rècettes de 101Ò. Rapports des cantons sur l'emploi de Ì0 °/0 des recettes de l'alcool en 
+Ì910. Vingt et unième message du Conseil fédéral, 5 janvier 1912 (F. féd. 1912, I. 59). 
+N Billeter, Balli (Tessin), Hartmann, Niederberger, Schupbach, Seidel, Steinegger, Straumann, Tissières. 
+E Pettavel, Düring, Leumann, Roten, Henri Scherrer (St-Galli, Steiger, Wirz. 
+Département du commerce, de l'industrie et de l'agriciilture. 
+31. (43). n Loi sur les fabriques. Revision. Message et projet de loi du 6 mai 1910 (F. féd. 1910, IV. 113), concernant la 
+revision de la loi fédérale sur le travail'dans les fabriques. 
+N Wild, Bally. Blumer. Biieler (Schwyz), Calame-Colin, Charbonnet, Décoppet, Eugster-Züst, Alfred Frey, Göttisheim, Greulich, 
+Gugelmann. Rebmann, Scheidegger, Schmid, Studer (Winterthour), Sulzer, Vassalli, Walter, Weber (Argovie), Wyrsch". 
+E Steiger, Düring. Heer, Lachenal, Leumann, Locher (Zurich), Pettavel, Python, Paul Scherrer (Bâle-ville), Schulthess. 
+(Bulletin sténographique.) , 
+32. 
+(145). 6 Etablissements d'essais agricoles à Œrlikon (Zurich). Message et projet d'arrêté du 24 février 1911 (F. féd. 
+1911, I. 466), concernant l'ouverture d'un crédit pour la construction, à Œrlikon (Zurich), des bâtiments destinés aux éta­
+blissements d'essais et d'analyses agricoles. 
+N Eigenmann. Fonjallaz, Freiburghaus, Hörni, Legier, Ming, Planta, Schär, Walser. 
+, E Dähler,'Casimir von Arx, Simon, Stutz, Wyrsch. 
+Département des postes et des chemins de fer. 
+33. Affaires de chemins de fei*. 
+N Mächler^ Amsler, Bühlmann, Décoppet, Evéquoz, Göttisheim, Häberlin, Ritzchel, Sigg (Zürich), Spahn, | Commissions 
+E Calonder, Gabuzzi, Stutz, Adrien Thélin, Cardinaux, Geel, Winiger, Isler, Lusser. I ^
+es c
+^
+em
+'
+ns 
+de fer. 
+a. (72). é Moléson. Message et projets d'arrêtés du 26 juin 1908 (F. féd. 1908, IV. 379), concernant la concession des chemins 
+de fer électriques du Moléson. 
+b. (73). é Landquart-Ragaz (frontière nationale). Message et projet d'arrêté du 16 avril 1907 (F. féd. 1907, IV. 388), concernant 
+la concession d'un chemin de fer électrique à voie étroite de Landquart à la frontière du Liechtenstein par Ragaz. — 
+Message et projet d'arrêté du 19 novembre 1907, (F. féd. 1907, VI. 81), concernant le refus de la concession de cette 
+ligne de chemin de fer. 
+c. (184). é Meiringen-Engelberg. Message et projet d'arrêté du 19 mai 1911 (F. féd III. 572), concernant la concession 
+d'un chemin de fer à voie étroite (en partie à crémaillère) de Meiringen à Engelberg. 
+1911, 28 septembre. Décision du Conseil des Etats, d'après le projet du Conseil fédéral, en fixant toutefois l'entrée en vigueur de 
+l'arrêté fédéral au 15 octobre 1911. 
+1912, 8 mars. Décision du Conseil national, avec des divergences à l'article 6 et au chiffre III. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+d. (259). éEngelberg-Greschnialp. Message et projet d'arrêté du 18 décembre 1911, V. 287), concernant la concession 
+d'un chemin de fer funiculaire d'Engelberg à la Greschnialp. 
+1911, 21 décembre. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. • 
+1912, 8 mars. Décision du Conseil national: adhésion, en fixant toutefois l'entrée en vigueur au 1" avril 1912. 
+e. (265). n Bale (Riehen)-Chrischona. Message et projet d'arrêté du 19 décembre 1911 (F. féd. 1911, V. 297), concer­
+nant une prolongation de délai pour un chemin de fer électrique (en partie sur route) de Riehen à la Chrischona par 
+Bettingen. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral, en fixant toutefois l'entrée en vigueur au 1
+er 
+avril 
+1912. 
+12 mars. Décision du Conseil des Etats: adhésion. 
+f. (264). é Soleure-Schönbühl-Berne. Message et projet d'arrêté du — (F. féd. 1912, . ), concernant 
+les^projets de chemin de fer entre Soleure et Berne (Soleure-Schönbühl et Utzenstorf-Schönbühl-Zollikofen). 
+g. (282). n Œnsiûgen-Balsthal. Message et projet d'arrêté du 2 février 1912 (F.- féd. 1912, I. 325), concernant la mo­
+dification de la concession du chemin de fer d'Œnsingen à Balsthal. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+h. (284). n Blenïie-Montménil. Message et projet d'arrêté du 6 février 1912 (F. féd. 19.12, I. -368), concernant la modifi­
+cation de la concession et la prolongation de délai pour un chemin de fer à voie étroite de Bienne à Montménil (Meinis-
+berg). • " -
+1812, 8 mars.. Décision da Conseil national; d'après le projet d'à Conseil fédéral. 
+» 12 mars. Décision du Conseil des Etats : adhésion. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+8 
+i. (285). n Massagno-ôstarietta. Message et projet d'arrêté du i
+er 
+mars 1912 (F. féd. Ì912, Ì. 533), concernant utië 
+prolongation de délai pour un tramway électrique de Massagno à Ostarietta, par Cadempino et l'extension de la conces­
+sion à-la'jâection Lugano-Massagno. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+k. (288). n Prolongations des délais pour trois lignes. Message et projet d'arrêté du 27 février 1912 (P. féd. 1912, 
+I. 509), concernant des prolongations des délais pour les lignes de chemin de fer Lüterswil-Soleure, Wattenwil-Wimmis 
+ou Spiez (Stockental) et Petite Scheidegg-Männlichen. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+• 1. (290). n'Anet-Cerlier. Message et projet d'arrêté du 1
+er 
+mars 1912 (F. féd. 1912, I. 516), concernant la concession d'un 
+chemin de fer électrique à voie étroite d'Anet à Cerlier. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+m. (291). il Saignëlégier-Glovelier. Message et projet d'arrêté du 1
+er 
+mars 1912 (F. féd. 1912, I. 527), concernant la 
+modification de la concession du chemin de fer régional de Saignelégier à Glovelier. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+n. (292). nLangenthal-Melchnau. Message et projet d'arrêté du 4 mars 1912 (F. féd. 1912, I. 555), concernant la con­
+cession d'un chemin de fer à voie étroite de Langenthal (gare du Langenthal-Jura) à Melchnau. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil .fédéral. 
+„ 12 mars. Décision du Conseil des Etats: adhésion. 
+o. (294). n Frutigen- Adelboden. Message et projet d'arrêté du 5 mars 1912 (F. féd. 1912, I. 566), concernant le trans­
+fert de la concession et une prolongation de délai pour un chemin de fer à voie étroite de Frutigen à Adélboden. 
+1912, 8 mars. Décision du Conseil national, d'après le projet du Conseil fédéral. ' 
+„ 12 mars. Décision du Conseil des Etats : adhésion. 
+34. (45). n Chemin de fer du Gothard. Traité avec l'Allemagne et l'Italie. Message et projet d'arrêté du 9 novembre 1909 (F. féd. 
+1909, VI. 50), concernant la ratification du traité conclu avec l'Allemagne et l'Italie au sujet du rachat du chemin de fer 
+du Gothard par la Confédération. 
+N Germann, Dubuis, Alfred Frey, Gobât, Heller, Kuntschen, Manzoni, Mosimann, Planta, Rothenberger, Staub. 
+E Schulthess, Casimir von Arx, Calonder, Geel, Kunz, Locher (Zurich), Python, Eichard, Roten, Paul Scherrer (Bâle-ville), 
+Schüler, Adrien Thélin, Winiger. 
+35. (47). n Chemins de fer fédéraux. Relèvement des tarifs-voyageurs. Message et projet d'arrêté du 3 décembre 1909 (F. féd. 
+1909, VI. 587), concernant une modification de la loi sur les tarifs des chemins de fer fédéraux. 
+N Walser, Bissegger, Bonjour, Diesbach, Germann, Iselin, Mosimann, Schär, Schubiger, ) nommioqion* des rhemin* rte fer 
+Studer (Winterthour), Suter (Argovie). Commissions des chemins de ter 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. J 
+(Bulletin sténographique.) 
+36. (48). é Chemins de fer privés. Calcul du produit net. Message et projet d'arrêté du 3 décembre 1909 (F. féd. 1909, VI. 563), 
+concernant le calcul du produit net des chemins de fer privés. — Rapport du Conseil fédéral du 31 mai 1910 (F. féd. 1910, 
+IV. 293). 
+N Planta,. Bally, Biieler (Schwyz), Cailler, Dubuis, Freiburghaus, Greulich, Hess, Schär. 
+E Isler, Casimir von Arx, Calonder, Cardinaux, Hildebrand, Paul Scherrer (Bâle-ville), Winiger. 
+1910, 4 novembre. Décision du Conseil des Etats, avec des modifications au projet du Conseil fédéral. 
+37. (240). n Eligibilité du personnel des chemins de fer fédéraux à des fonctions publiques. Message et projet 
+d'arrêté du 24 novembre 1911 (F. féd. 1911, V. 70), concernant l'égibilité des fonctionnaires, des employés et des ouvriers des 
+chemins de fer fédéraux à des fonctions publiques. '* 
+N Rothenberger, Evéquoz, Gaudard, Gobât, Grimm, Lutz, Schmid, Sidler, Simonin, Studer (Soleure), Vital, Will, Wyrsch. 
+E Böhi, Ammann, Düring, Gabuzzi, Munzinger, Python, Schmid. 
+1912, 7 mars. Décision du Conseil national, avec des modifications au projet du Conseil fédéral. 
+(Bulletin sténographique.) 
+38. (243). é Requête des ouvriers des ateliers des chemins de fer fédéraux, à Bellinzone. Rapport du Conseil 
+fédéral du 28 novembre 1911 (F. féd. 1911, V. 157), concernant la nouvelle requête des ouvriers des ateliers des chemins de 
+fer fédéraux, à Bellinzone, relative à l'indemnité extraordinaire à allouer pour les années 1909 à 1911. 
+N Zschokke, Borella, Buser, Eugster-Ziist, Hofmann, Simonin, Edouard Scherrer (St-Gall), Secretan, Steuble, Théraulaz, Walser. 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. (Commission des chemins de fer fédéraux.) 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+•9 
+v
+e
+iqn 
+1
+'
+unio]1 ouvri
+ère des entreprises de transports. Rapport du Conseil fédéral du 4 décembre 1911 
+ifi- h « îa ?' 
+c
+°
+ncen
+^
+nt
+.
+la 
+requete de I union ouvrière des entreprises suisses de transport demandant une augmen­
+tation du supplement extraordinaire annuel alloué aux ouvriers des chemins de fer fédéraux. 
+r rwi
+6
+™'"' .Eggspiihler, Frei (Bâle-ville), Pellmann, Pritschi, Grand, Lagier, Michel, Siegrist Vassalli VVEHPR rsit c n i m 
+E Geel, TV îniger, Ammann, Schulthess, Simon, Hildebrand, Python. (Commission des chemins d^Li fédéraux) 
+4(l
+' ^ ^
+Telé
+P
+ho
+î
+ies
+- Relèvement des taxes. Message et projet de loi du 20 décembre 1909 (F. féd. 1910, I. 307) concerninf I* 
+i J.vement des taxes téléphoniques. — Rapport complémentaire du 21 mars 1911 (F. féd. 1911, III. 605). ' 
+F 
+B
+'iv-'i.^
+rth
+,V'' 
+E
+"Sstei-, Evéquoz, Nietlispach, Piguet (Neuchâtel
+1
+, Scheidegger, Schwander Siilzer 
+E Schulthess, Dahler, Kunz, Richard,. Robert, Schmid (Zoug), Soldini, Usten, Wïniger ^
+nwanaei
+. &«•«». 
+(Bulletin stênographique.) 
+42. 
+Motions, etc. 
+41. (218). Motion de M. le conseiller national Göttisheim et cosignataires, du 29 septembre 1911. 
+i„ /, 
+G
+.°,
+nseil f
+édéral est invité à examiner si la Suisse ne pourrait pas provoquer et encourager 
+la création dun organe central du mouvement international pour la protection de l'enfance et difu 
+jeunesse et pour l'assistance maternelle. 
+e el (le la 
+Signataires : Göttisheim. Zürcher, Rikli, Wyss, Ador, Ming. 
+1912, 6 mars. Décision du Conseil national. La motion est prise en considération. 
+(220). Motion de M. le conseiller national Rikli et cosignataires, du 29 septembre 1911. 
+or. -^e Conseil fédéral est invité à présenter un rapport et des propositions sur la auesHnn 
+rv«V i'
+0n 
+-
+n(
+?/
+le
+/
+rait
+' P
+as
+, introduire dans la constitution fédérale une dZosltion autoriW K 
+Confédération a légiférer sur les conditions sanitaires des constructions et des logements. 
+Signataires: Rikli, Studer (Winterthour), Greulich, Briistlein, Eugster-ZUst, Ferri. 
+43. (248). Motion de M. le conseiller national Grimm et cosignataires, du 6 décembre 1911. 
+Vo
+6
+\f\î
+n
+~
+e
+^ fédéral est invité à faire un rapport et des propositions sur les questions ci-aurès-
+ssa«« 
+1914 IS m,„. .TSXL" 
+Wnt 
+«* -W •» 1, pre.niê,. 
+(Bulletin stênographique.) 
+44. (249).. Interpellation de M. le conseiller aux Etats Pettavel et cosignataires, du 6 décembre 1911. ' 
+: 
+Signa fai) es. |ettavel, kachenal, 
+Soldlm
+&gt; Scherrer (Bâle), Baumann, Robert, Dähler, Richard, Geel, 
+1912, 7 mars. Conseil des Etats. L'interpellation a été retirée. 
+46. (250). Motion de M. le conseiller national Pflüger et cosignataires, du 7 décembre 1911. 
+m», is ä°s sä
+1 
+r ätiSÄ sftSifi"
+1 d
+" *» 
+Signataires: Pflüger, Studer (Winterthour), Müller iBerne), Frei (Bâle) Euester-Ziisf Affnttm-
+Greulich, Grimm, Seidel, Sigg'(Zurich), Sigg^(GenèVi)! Rikli ifaine' ' 
+1912, 6 mars. Décision du Conseil national. La motion est prise en considération sous la forme suivante: 
+montant^tes s.ecours, ^on^irèglci^enl^'du^'^^'janvier' 1^^0^sui^^es^sie^co^^s^^l^^vr'é^'ai^^amnte.^'d^s^m^litarr(3s^^^'^ 
+(Bulletin stênographique.) 
+46. (251). Motion de M. le conseiller aux Etats Kunz, du 12 décembre 1911. 
+ai °?
+n
+?$ fédéral est invité à soumettre sans tarder à l'Assemblée fédérale le projet d'une loi fédé­
+rale concernant l'interdiction de la double imposition. 
+N GerD
+^cS?mhuS' SÄ°e4f
+thUr EUg8ter
+' 
+Furl
+'
+er
+' 
+Grieshaber
+' 
+l8elin
+- ^Untschen, Lohner, -Lutz, Mosimann, 
+1912, 6 mars. Décision du Conseil des Etats. La motion est prise en considération, après la suppression des mots „sans tarder'. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+10 
+47. (273). Motion de M. le conseiller national Hofmann et cosignataires, du 22 décembre 1911. " 
+Le Conseil fédéral est invité à présenter un rapport et des propositions sur les moyens de réprimer 
+efficacement les excès commis par certains officiers contre leurs subordonnés. 
+Signataires : Hofmann, Legier, Pellmann, Schwander, Weber (St-GallV Zürcher, Scherrer-
+Füllemann, Jäger. 
+48. (277). Postulat du Conseil des Etats, concernant les demandes de subventions pour des constructions publiques, du 
+12 décembre 191.1. 
+Le Conseil fédéral est invité à rechercher, avec l'aide d'un expert étranger à l'administration fédérale, 
+par quels moyens les autorités fédérales pourraient être mises en mesure d'étudier les demandes cantonales 
+de subventions à des travaux publics avec assez d'exactitude pour qu'elles puissent prendre leur décision en 
+connaissance de cause et se rendre compte de la portée des subventions demandés. 
+N Germann, Henri Calarne, Daucourt, Grieshaber, Holenstein. 
+S Paul Scherrer (Bâle-ville), Ammann,. Hildebrand, Robert, Simon, Usteri. 
+lèl2, 11 mars. Décision du Conseil national. Le postulat n'est pas pris en considération. 
+49. (278). Postulat de M. le conseiller national Pflüger et cosignataires, concernant la sitaation financière de la 
+-.•-G.arifédératrou, du 5 décembre 1911. 
+Le Conseil fédéral est invité: 1° à examiner comment on pourrait assurer l'équilibre financier de la 
+Confédération de manière à le rendre indépendant de la dénonciation des traités de commerce et des fluc­
+tuations du rendement des douanes; 2° à présenter à l'Assemblée fédérale, dans l'espace d'un an, un pro­
+gramme financier établi sur ces bases. 
+Signataires : Pflüger, Studer (Winterthour), Müller (Berne), Frei (Bàie), Affolter, Greulich, 
+• ; Grimm, Naine, Seidel, Sigg (Zurich
+1
+, Sigg (Genève), Rikli, Eugster-Züst, Näher; 
+Jäggi. 
+'• &lt;"1912,' 8 mars. Décision du Conseil national. Le postulat n'est pas pris en considération. 
+•'&gt;••••... (Bulletin sténof/raphique.) 
+50. (286). n Correction de la Landquart. Message et-projet d'arrêté du 20 février 19.12 (P. féd. 1912,1. 469), concernant. l'en-
+.... dignement de la Landquart de Monbiel-Klosters jusqu'au Rhin, du Schanielabach, du Schraubach et du'Taschinabach. 
+N Wagner, Ador, Bühler (Frutigen), Dubuis, Göttisheim, Greulich, Hauser, Locher (Berne), Steuble. 
+-f.": ;t: \ : E ..'Locher (Zurichl, Hildebrand, Lusser, Stutz, Casimir von Arx. (Ancienne commission.) 
+51., (289): Démission de M. le conseiller fédéral Comtesse, et, le cas échéant, nomination d'un membre du Con-
+seil, fédéral. 
+...... ..Assemblée fédérale réunie, a. 1912, 12 mars. La démission donnée par M. le conseiller fédéral Comtesse est acceptée avec remer-
+' ' , V \ céments pour les services rendus. 
+b. Nomination d'un membre du Conseil fédéral. * • 
+Election du 12 mars 1912. 
+•; M. Loiiis Perrier, de S'
+e 
+Croix (Yaud) et Neuchâtel, à Neuchâtel. 
+52. (293). é Constitution de St-Gall. Message et projet d'arrêté du 4 mars 1912 (P. féd. 1912, I. 570), concernant la garantie 
+des articles 70 à 73, 75, 81 à 83, 90, 110 et 113 revisés de là constitution du canton, de St Gall du 16 novembre 1890 et de 
+.. -l'alinéa.-2 revisé 'de la . modification constitutionnelle du 5 février 1911 (modification du nombre et. de l'étendue des districts 
+et, des'circonscriptions judiciaires). 
+• ' .. N. Vital, Adrien von. Arx, Hofmann; Peter, Ringger, Scheidegger, Secretan, Weber (Argovie), Wuilleret. 
+E Isler, Ammann, Schüler 
+1912, 8 mars. Décision du Conseil des Etats, d'après le projet du Conseil fédéral. • -
+„ 13 mars. Décision du Conseil national : adhésion. 
+53. (295). Interpellation de M. le conseiller national Sigg (Zurich) et cosignataires, du 5 mars 1912. 
+Le Conseil fédéral ne considère-t-il pas comme une ingérence dans les compétences budgétaires des 
+.1 y&lt;; . . • 'chambres fédérales la décision prise par le conseil d'administration des chemins de fer fédéraux d'élever 
+de deux millions de francs le crédit voté par l'Assemblée fédérale pour la construction du tunnel de base du 
+Hauenstein? • 
+Si c'est le cas, quelles mesures compte-t-il prendre pour rendre inopérants dans l'avenir des abus de 
+• ! compétence analogues de la part des organes administratifs? 
+Signataires : Sigg (Zurich), Grimm, Sigg (Genève), Studer (Winterthour), Greulich, Seidel, 
+Eugster-Züst, Affolter, Naine, Pf lüger-
+1912, 11 mars. Conseil national. Liquidée. , 
+54., (296). Interpellation .de M. le conseiller aux Etats Winiger, du 5 mars 1912. 
+Le Conseil fédéral est prié de faire connaître ses intentions concernant la mise en vigueur de la loi 
+sur l'assurance en cas de maladie et d'accidents. 
+Signataire : Winiger. 
+.. 1912, 12 mars,, Conseil.des.Etats.. Liquidée. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=10" target="_blank" shape="rect"><img alt="Seite 10 / Page 10" src="images/icons/c_launch_pdf.gif" border="0"/>(10)</a></div>
+
+11 
+55. (297). Motion de M. le conseille^,national Bugstey^Züst^ et cpsigaafcairesir&lt;i«-&gt;8j mars 1912. 
+la rv„f'L
+e
+^,9,°f"
+Seil fédér
+^I ^ invité à présenter un rapport et des propositions sur la question de savoir si 
+la Confédération pourrait s intéresser a la situation des chômeurs involontaires, et notamment de emplie 
+manière elle pourrait encourager financièrement l'assurance contre les suites du chômage involontaire. 
+Signataires: Eugster-Züst, Greulich, Grimm, Studer (Winterthour), Näher Si/r« (Genève}. 
+: 
+'WuHschlegeiy Zürcher, Scherrer-Füllemann, Vassalli, Borèlla, Fazy, Peter, Legier. 
+,..... .. , Ritzchel,..Oalame-Oolin,, Burckhardt; Wersch, Jäggi, Frei (Bàie), Sie* (Zurich) 
+Affoïter, Müller (Berne), Seidel, Rikli, Weber (St-Gall), Pflüger, Zurburg, Eisenring 
+r .. ; JVlUemin, GODat. , J- .&lt;••», I ."Sili; ,J. 
+• iiU-rsJfc '•-
+;
+j 
+f
+'?• 
+56. (298). Motion de M. le conseiller national Will et cosignataires/dû 11 mars i9Tä; '' 
+! j 
+ww*- ' 
+Le Conseil fédéral est invité à examiner s'il n'y a pas lieu de poursuivre d'une facon plus active due 
+. h -P
+8,886 
+1 Electrification des chemins de fer fédéraux, afin d'assurer une meilleure utilisation dés forces 
+; hydrauliques; de-notre'pays et de rendre, dans un -cërtainï làp's-dè temps;
+,;
+ies'
+:
+chemins" de fer fédéraux indé­
+pendants de notre approvisionnement de charbon. i.r , ° 
+Signataires: Will, Bühlmann, Billeter, Ed. Scherrer, ÔttikW, Vital,'Freïburghaus, Bühler 
+(Frutigen), Scheurer, Moll, Mûri, Buser, Bissegger, Wagner, Sulzer, Hofmann, 
+Scherrer-Fullemann, Iselm, Secretan, rlanta. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=11" target="_blank" shape="rect"><img alt="Seite 11 / Page 11" src="images/icons/c_launch_pdf.gif" border="0"/>(11)</a></div>
+
+r i" 
+&lt;ns«i 
+Commisslötts générales öü permànëntes: 
+: i-:' - *• *0 Li'Oi^ÓL'ìJ er; ; Ir.-jvi'-' ''5 ji&gt; 
+:
+v ''' - 
+1 
+' ' ' 
+: 
+' ' ''' 
+: 
+- ' - ; ' ' ^ 
+viiifcnißioV! i:; .'oi c-ittjuión; -i'"-««" •• -:~va•rE-=-î«=r /f-i-:; VJ-, -Ï 
+' .^iwnofcvRi vfo aaHif« *«! t MâAiw-'ttsMOif «§. s»««*;, 
+.'»ai# ' -ïSî'.feK .-ïiH&gt;;dJ'»a)iilWj rnbu,!^ .itutuK? J&lt;;juwjr) _, wV:^»: '•f'
+1
+"
+1
+-'* •*•:•*• 
+I .tsôT ..fiUo:oH .iliârf&nV ,o«,a®î'iUj .r it-TlviLiGotómissioiis^de' gestion. 
+--• ••••-•• • - •• •••' •-- -•--&gt; i- yyji,;L ,£i-'icO-•' 
+jûï -ró JAÜ'I! 
+risisi I .aUo-soS ' ,&lt;uwift»uri-Hr 
+::;iSÂ.fl:s
+&lt;
+;,ï3'î ®ò- ;# S® 
+.TWHitn „., -, • • -—&gt;•-.™ Conseil national.) 
+N Kuntschen, Buri, Calame-Colin, Erni, Arthur Eugster, Forrer,'Garbani, Hartmann, d'Hettlingen, Jäger, de Lavallaz, Mächler, 
+Rikli, Scheidegger, Sträuli. 
+E Winiger, Baumann, Locher (Zurich),, Lusses-Richard,-.Robert,-Schuler. ! U :&4:&lt;vr&gt;•"• -'*! ?». *ö •.:*'?*. ,&lt;•&gt; 
+*i»t» *.'&&gt;#. *#A»j ^• v j•&gt;!&gt; uwt " '•v%
+0
+v ^ ... 
+..-(.-«noi 5'yh etósacWù s-iii»îlrèPï &£&gt;•; ^ushe'.!- um ;• ••• " - v v. »•• 
+'l Ai.''! .. .1 , O., Îoat/HTI o(,/1äC&gt; 
+! 
+fìviÀm AAO v%Aii%* In 
+:*icùÜ-J *-.j 
+, s-iitaJirarc; coi; f:viufiaB.r •:• ••• ••_ ' -
+v 
+-" 
+»l&gt; ^2;;Commissions? des finances pour la période législative de 1912 à 1914. 
+(Pour les crédits supplémentaires et les comptes d'Etat des années 1912 à 1914; pour les budgets des années 1913 à 1915.] 
+XW.'Hffi Klanta, Prey (Zurich)» Biiëlerï'Schwjrz). Dùbuis, Henri Calarne, Wagner, Lohner, Müller (Thurgovie), Wuilleret, Müller (Berne), Si 
+E Kunz, Soldini, <a class="high" href="#13" name="12" onclick="javascript:ResetNbOf(this);">Mercier</a>, Simon, Böhi, Brügger, Python, Ochsner, Henri Scherrer (St-Gall). 
+(Membres des délégations des finances : N Planta, Frey (Zurich), Dubuis ; — E Kunz, Brügger, Simon.) 
+) 
+Sidler. 
+3. Commissions pour l'alcool. 
+ber, Hess, Hofer, König, Kuntschen, Pfl 
+nann, Düring, Gabuzzi, Leumann, Petta 
+(Membres des délégations : N Caflisch, Ohoquard, Grieshaber; — E Yon Arx, Düring, Pettavel.) 
+N Caflisch, Choquard, Fonjallaz, Grieshaber, Hess, Hofer, König, Kuntschen, Pflüger, Piguet (Neuchâtel), Schwander. 
+È Casimir von Arx, Steiger, Roten, Baumann, Düring, Gabuzzi, Leumann, Pettavel, Wirz. 
+4. Commissions pour les concessions de chemins de fer. 
+N Mächler, Amsler, Bühlmann, Décoppet, Evéquoz, Göttisheim, Häberlin, Ritzchel, Sigg (Zurich), Spahn, Staub. 
+E Calonder, Gabuzzi, Stutz, Adrien Tnélin, Cardinaux, Geel, Winiger, Isler, Lusser. 
+5. Commissions pour les chemins de fer fédéraux. 
+(Pour les rapports de gestion, les comptes et les crédits supplémentaires des chemins de fer fédéraux de 1912 à 1914 ; 
+pour les budgets de 1913 à 1915.) 
+N Walser, Bissegger, Bonjour, Diesbach, Germann, Iselin, Mosimann, Schär, Schubiger, Studer (Winterthour), Suter (Argovie). 
+E Geel, Winiger, Ammann, Schulthess, Simon, Hildebrand, Python. 
+6. Commission militaire du Conseil des Etats. 
+E Paul Scherrer (Bàie-ville), Leumann, Bolli, Brügger, <a class="high" href="#14" name="13" onclick="javascript:ResetNbOf(this);">Mercier</a>, Casimir von Arx, Ribordy, Adrien Thélin, Cardinaux. (Commission 
+, • militaire.) 
+7. Commissions des pétitions. 
+N Walder, Bally (Soleure), Lagier, Ming, Naine, Schwendener, Stucki, Ullmann, Wyrsch. 
+E Gabuzzi, Baumann, Heer, Schmid, Wyrsch. 
+8. Commissions des grâces pour la XXII
+e 
+période législative. 
+N Streng, Affolter, Maillefer, Ottiker, Ritzchel, Schüpbach, Stadlin, Steinegger, AVeber (Sfc-Gall). 
+E Dähler, Pettavel, Roten, Stutz. 
+9. Commission du Conseil national pour la vérification des pouvoirs. 
+N de Meuron, Bonjour, Bühler (Frutigen), Eigenmann, Grünenfelder, Legier, Lutz, Sidler, Sigg (Genève), Théraulaz, Wyss. 
+10. Commissions pour le tarif des douanes. 
+N Martin, Abegg, Balmer, Blumer, Caflisch, Chuard, Desplands, Eigenmann, Eisenhut, Alfred Frey, Hirter, Hofmann, Hörni, Jäggi, 
+Jenny, Locher (Berne), Moser. Ody, Rothenberger, Scheidegger, Seiler, Stoffel, Sulzer, Wild, Zschokke. 
+E Lachenal, Bolli, Robert, Dähler, Düring, Python, Simon, Soldini, üsteri, Isler, Kunz, Ribordy, Paul Scherrer (Bftle-ville), 
+Leumann, <a class="high" href="#1" name="14" onclick="javascript:ResetNbOf(this);">Mercier</a>. 
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=12" target="_blank" shape="rect"><img alt="Seite 12 / Page 12" src="images/icons/c_launch_pdf.gif" border="0"/>(12)</a></div>
+
+Table alphabétique des objets à l'ordre du jour. 
+(Le» objets marqués d'une oroix sont restés pendants.) 
+Accidents et maladie. Assurance. 
+Entrée en vigueur de la loi (interpella­
+tion Winiger), 54. 
+Résultat de la votation populaire, 4. 
+t Alcool. Emploi de 10 »/„ des recettes de 1910, 
+30. 
+Assemblée fédérale. 
+Démission de M. le conseiller fédéral 
+Robert Comtesse, 51 a. 
+Nomination de cinq juges fédéraux, 8. 
+Nomination d'un conseiller fédéral (M. 
+Louis Perrier), 51 ft. 
+Vérification des pouvoirs, 1. 
+Assistance maternelle (motion Göttisheim), 41. 
+Assurance maladie et accidents. 
+Entrée en. vigueur de la loi (interpella­
+tion Winiger), 54. 
+Résultat de la votation populaire, 4. 
+t Automobiles et navigation aérienne. Police, 
+Bâtiments fédéraux. 
+Berne, bâtiment d'administration, rue de 
+l'Islè, 8. 
+t -- hôtel des poids et mesures, 10. 
+t (Erlikon, établissements d'essais agri­
+coles, 32. 
+Chancelier de la Confédération. Traitement 
+(motions Häberlin et Calonder). 2. 
+Chemins de fer. 
+En général. 
+Chemins de fer fédéraux. 
+t Ateliers de Bellinzone. Indemnité aux 
+ouvriers pour 1909 à 1911, 38. 
+t Electrification (motion Will), 56. 
+t Gothard. Traité avec l'Allemagne et 
+l'Italie, 37. 
+Hauenstein, tunnel de base. Outrepas­
+sation de crédit (interpellation Sieg, 
+de Zürich), 53. 
+t Ouvriers. Augmentation du supplément 
+annuel, 39. 
+t Personnel. Eligibilité, 37. 
+t Relèvement des taxes-voyageurs, 35. 
+t Chemins dé fer privés. Calcul du produit 
+net, 36. 
+En particulier. 
+Anet-Cerlier. Concession, 331. 
+Bâle (Riehen)-Chrischona. Prolongation 
+de délai, 33 e. 
+Bienne-Montménil (Meinisberg). Modifi­
+cation de la concession et prolongation 
+de délai, 33 h. 
+Bngelberg-Gerschnialp, 38 d. 
+Frutigen-Adelb oden. Transfert de la 
+concession et prolongation de délai, 
+33 o. 
+t Landquart-Ragaz (frontière nationale). 
+Concession, 33 b. 
+Langenthal-Melchnau. Concession, 33 M. ' 
+Liiterswil-Soleure. Prolongation de délai, 
+33k. 
+Massagno-Cadempino-Ostarietta. Prolon­
+gation de délai et extension de la con­
+cession à la section Lugano-Hassagno, 
+33 i. 
+Meiringen-Engelberg. Concession, 33 c. 
+i- Moléson. Concessions, 33 a. 
+Chemins de fer (suite). 
+En particulier (suite). 
+Œnsingen-Balsthal. Modification de la 
+concession, 33.9. 
+Petite Scheidegg-Männlichen. Prolonga­
+tion de délai, 33 h. 
+Saignelégier-Glovelier. Modification^ de 
+la concession, 33 m. 
+t Soleure-Schönbühl-Berne. Projets con-
+currets, 33 /. 
+Wattwil-Wimmis ou Spiez. Prolongation 
+de délai, 33 k. 
+t Chômage involontaire (motion Eugster-Ziist), 
+55. 
+Cidre artificiel. Interdiction, 6. 
+Code pénal. 
+t Complément (incitation des militaires à 
+l'insubordination), 14. 
+Conseil fédéral. 
+Démission de M. Comtesse, 51«. 
+Nomination de M. Perrier, 51 b. 
+t Politique. Réorganisation, 5. 
+Traitements des membres (motions Hä-
+beflin et Calonder), 2. ' 
+Constitutions cantonales (garantie fédérale). 
+Saint-Gall (modification du nombre et de 
+l'étendue des districts et des circons­
+criptions judiciaires), 52. 
+Thurgovie (création d'une usine élec­
+trique cantonale), 20. 
+Cours d'eau. Subventions. 
+t Aar près Olten (Soleure), 13. 
+t Emme (Berne), 9. 
+t Hiiribach (Zoug), 12. 
+t Landquart et affluents (Grisons), 50. 
+Crédits supplémentaires pour 1912 (I™ série), 
+Denrées alimentaires. Réduction des droits 
+de douane (interpellation Pettavel), 44. 
+Enfance. Protection (motion Göttisheim), 41. 
+t Epidémies et épizooties. Lutte, 11. 
+t Essais agricoles. Etablissements d'Œrlikon-
+Zurich, 32. 
+t Fabriques. Travail. Revision de la loi, 31. 
+Finances. Situation financière de la Confédé­
+ration (postulat Pfliiger), 49. 
+Fonctionnaires et employés fédéraux. Re­
+lèvement du traitement de fonctionnaires 
+supérieurs, 28. 
+t Hygiène des habitations (motion Rikli), 42 
+t Imposition double (motion Kunz), 46 
+Interpellations. 
+Pettavel. Réduction des droits de douane 
+sur les vivres, 44. 
+Sigg (Zurich). Tunnel de base du Hauen­
+stein. Outrepassation de crédit, 53. 
+Winiger. Assurance maladie et accidents. 
+Entrée en vigueur de la loi, 54 
+Maladie et accidents. Assurance. 
+Entrée en vigueur de la loi (interpellation 
+Winiger), 54. 
+Résultat de la votation populaire, 4. 
+Militaire. 
+t Artillerie de forteresse. Remplacement 
+de pièces, 26. 
+t Batteries demontagnenouvelles. Matériel 
+23. 
+t Dépenses militaires extraordinaires (pos­
+tulat 722, chiffre 2), 27. 
+Militaire (suite). 
+t Groupes d'obusiers. Matériel, 24. 
++ Incitation des militaires à l'insubordina­
+tion (code pénal fédéral), 14. 
+Militaires en service. Augmentation des 
+secours aux familles (motion Pflüger). 
+45. 
+t Mitrailleurs d'infanterie. Matériel, 25. 
+t Organisation militaire (art. 190). Indemnité 
+des commandants des unités d'armée, 
+22. 
+t Répression d'abus de pouvoir d'officiers 
+envers la troupe (motion Hofmann), 47. 
+t Taxe militaire. Recours Dupertuis, 21. 
+Motions. 
+t Eugster-Züst Chômage involontaires, 55. 
+Göttisheim. Protection de l'enfance et 
+assistance maternelle, 41. 
+Grimm. Témoignage, en justice, du per­
+sonnel fédéral, 43. 
+Häberlin et Calonder. Traitements des 
+membres du Conseil fédéral et du chan­
+celier de la Confédération, 2. 
+t Hofmann. Répression d'abus., de pouvoir 
+d'officiers envers la troupe, 47. 
+t Kunz Double imposition, 46. 
+Pfliiger. Augmentation des secours aux 
+familles des militaires en service, 45. 
+t Rikli. Hygiène des habitations, 42. 
+t Will. Electrification des chemins de fer 
+fédéraux, 56. 
+t Navigation aérienne et automobile^ Police, 7. 
+. Postulats. 
+t Conseil des Etats. Demandes de subven­
+tion pour travaux publics, 48. 
+Pflüger. Situation financière de la Con-
+• fédération, 49. 
+Protection de l'enfance et assistance mater­
+nelle (motion Göttisheim), 41. 
+Recours. 
+Croix. Patente de pédicure, 16. 
+t Dupertuis. Taxe militaire, 21. 
+t Küng. Patente d'auberge, 19. 
+t Soleure, gouvernement. Commerce in­
+tercantonal d'alcool, 15. 
+Studer-Wettstein. Colportage de sau­
+cisses, 17. 
+t Téléphones. Relèvement des taxes, 40. 
+Témoignage, en justice, du personnel fédé­
+ral (motion Grimm), 43. 
+Traitements. 
+Fonctionnaires supérieurs. Relèvement 
+du maximum, 28. 
+Membres du Conseil fédéral et chan­
+celier de la Confédération (motions . 
+Häberlin et Calonder), 2. 
+Traités et conventions. 
+t Gothard. Traité avec l'Allemagne et 
+l'Italie, 34. 
+t Travaux publics. Demandes de subventions 
+(postulat du Conseil des Etats), 48. 
+t Tribunal administratif. Création, 18. 
+Tribunal fédéral. Nomination de cinq 
+juges fédéraux, 3. 
+Vin et cidre artificiels. Interdiction, 6. 
+Vivres. Réduction des droits de douane 
+(interpellation Pettavel), 44. 
+Actes législatifs soumis au referendum. 
+2. Traitements des membres du Conseil fédéral. 
+6. Vin et cidre artificiels. Interdiction.
+<div class="pageDoc"><a href="viewOrigDoc/110000284.pdf?id=110000284&page=13" target="_blank" shape="rect"><img alt="Seite 13 / Page 13" src="images/icons/c_launch_pdf.gif" border="0"/>(13)</a></div>
+
+<!--highlightedDoc-->  
+            </pre>
+        </div>   
+        <script language="JavaScript">
+            //window.location.hash="resultlist"; 
+            //or
+            //BestHit();
+            BestHit();
+        </script>
+    </body>                                                                         
+</html>
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Archives fédérales suisses (AFS)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/fr/accueil/conditions-utilisation.html">Informations juridiques</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+//window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

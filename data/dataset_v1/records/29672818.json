@@ -1,0 +1,306 @@
+{
+ "id": "29672818",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29672818",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29672818",
+  "reference_code": "J2.225#2008/121#28#33*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Umfahrung Flims",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504538\nSignatur Bundesarchiv: J2.225#2008/121#33*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Flims, GR: Eröffnung Umfahrungsstrasse, welche mehrheitlich durch Strassentunnels führt\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Flims, GR: Durchschneiden Band durch Heinz Dicht / Rede Heinz Dicht / Oldtimer-Corso auf neuer Strasse",
+   "author": "AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:45\nPosition Anfang: 00:22:53",
+   "thema": "Personen: Dicht, Heinz (Leiter Tiefbauamt GR)\nSachdeskriptor: /VERKEHR./STRASSENBAU;/VERKEHR./STRASSENBAU/STRASSENTUNNEL",
+   "date": {
+    "from": "2007-10-28",
+    "to": null,
+    "expressed": "2007.10.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by Swiss Television DRS as an original news segment covering the event.",
+  "resume": "This video documents the opening of the Flims bypass road in the canton of Graubünden, Switzerland, featuring a speech by Heinz Dicht (head of the cantonal civil engineering office) and an oldtimer parade on the new road. It is a news segment produced by Swiss Television DRS for the Tagesschau program."
+ },
+ "metadata": {
+  "title": "Umfahrung Flims",
+  "title_normalized": "Umfahrung Flims",
+  "title_en": "Flims Bypass",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-10-28",
+  "date_published": "2007-10-28",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-10-28",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "road construction",
+   "transport infrastructure",
+   "Switzerland",
+   "canton of Graubünden"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 28.10.2007"
+  ],
+  "reference_code": "J2.225#2008/121#28#33*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29672818",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dicht, Heinz",
+    "display_name": "Heinz Dicht",
+    "role": "Head of the cantonal civil engineering office (Leiter Tiefbauamt GR)",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SF",
+    "role": "Producer",
+    "wikidata": {
+     "qid": "Q24925",
+     "label": "science fiction",
+     "description": "genre of speculative fiction that imagines advanced and futuristic changes in technology, scientific knowledge, or biological systems",
+     "url": "https://www.wikidata.org/wiki/Q24925"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Flims",
+    "as_written": "Flims, GR",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.8332439,
+    "lon": 9.2834557,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684080",
+    "model_lat": 46.8,
+    "model_lon": 9.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author: \"AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaft: SF\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: \"Personen: Dicht, Heinz (Leiter Tiefbauamt GR)\"; named organizations or places (apertus): thema: \"Sachdeskriptor: /VERKEHR./STRASSENBAU;/VERKEHR./STRASSENBAU/STRASSENTUNNEL\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): \"expressed\": \"2007.10.28\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author: \"AutorIn: Huwyler, Ben (AUT)\nProduktionsgesellschaft: SF\""
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"expressed\": \"2007.10.28\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: \"Personen: Dicht, Heinz (Leiter Tiefbauamt GR)\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: \"Sachdeskriptor: /VERKEHR./STRASSENBAU;/VERKEHR./STRASSENBAU/STRASSENTUNNEL\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person Heinz Dicht, a public official, with no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-10-28",
+   "place": "Flims, GR",
+   "lat": 46.8332439,
+   "lon": 9.2834557,
+   "description": "Broadcast of the Tagesschau news segment covering the opening ceremony of the Flims bypass road.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#28#33*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4442,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

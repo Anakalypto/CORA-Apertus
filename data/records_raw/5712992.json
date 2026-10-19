@@ -1,0 +1,73 @@
+{
+ "id": "5712992",
+ "uri": "https://culture.ld.admin.ch/ais/5712992",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5712992",
+ "title": "Presseberichte und Notizen zu Fraktionssitzungen 1935-1939",
+ "reference_code": "J2.322-01#2009/263#382*",
+ "reference_number": "76-01",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1935-01-01",
+  "to": "1939-12-31",
+  "expressed": "1935-1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/5637958",
+   "number": "2009/263",
+   "title": "2009/00263 Archiv f�r Agrargeschichte (Bern) (1894-2008)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5712991",
+   "title": "Presse-Verlautbarungen, öffentliche Veranstaltungen",
+   "level": "Serie",
+   "reference_code": "J2.322-01#76"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5712733",
+   "title": "Öffentlichkeitsarbeit",
+   "level": "Serie",
+   "reference_code": "J2.322-01#7"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5596201",
+   "title": "Freisinnig-demokratische Partei der Schweiz: Zentrale Ablage (1894-2008)",
+   "level": "Sub-file",
+   "reference_code": "J2.322-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5596199",
+   "title": "Freisinnig-demokratische Partei der Schweiz (1894-2008)",
+   "level": "Stock",
+   "reference_code": "J2.322*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

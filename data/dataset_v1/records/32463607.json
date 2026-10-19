@@ -1,0 +1,280 @@
+{
+ "id": "32463607",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32463607",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32463607",
+  "reference_code": "E1301#2022/39#13#6*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2013.2064: Petition Jugendsession 2013. Gleichstellung von Militär- und Zivildienst / Pétition Session des jeunes 2013. Egalité entre le service civil et militaire",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Stahl, Jürg;",
+   "form": "Digital",
+   "date": {
+    "from": "2017-03-17",
+    "to": null,
+    "expressed": "2017.03.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32401048",
+     "number": "2022/39",
+     "title": "2022/00039 Parlamentsdienste: Amtliches Bulletin (Bern) (2017)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously as an official record of parliamentary proceedings and statements.",
+  "resume": "This record documents a petition submitted during the 2013 Youth Session concerning equal treatment between military and civil service, later archived as part of the National Council's 2017 session protocols. It includes statements by Jürg Stahl and is stored as a digital parliamentary record. The petition advocates for legislative parity between the two service types."
+ },
+ "metadata": {
+  "title": "2013.2064: Petition Jugendsession 2013. Gleichstellung von Militär- und Zivildienst / Pétition Session des jeunes 2013. Egalité entre le service civil et militaire",
+  "title_normalized": "2013.2064: Petition Jugendsession 2013. Gleichstellung von Militär- und Zivildienst / Pétition Session des jeunes 2013. Egalité entre le service civil et militaire",
+  "title_en": "Petition from the 2013 Youth Session: Equality between Military and Civil Service",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2017-03-17",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "2017-03-17",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "civil service",
+   "military service",
+   "equality",
+   "parliamentary petition",
+   "Swiss politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2017",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2022/39#13#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32463607",
+  "accession_numbers": [
+   "2022/39"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Stahl, Jürg",
+    "display_name": "Jürg Stahl",
+    "role": "Sprecher/Speaker",
+    "wikidata": {
+     "qid": "Q118341",
+     "label": "Jürg Stahl",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118341"
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): German and French titles present",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Sprecher/Sprecherinnen: Stahl, Jürg; named organizations or places (apertus): Parlamentsdienste, Nationalrat",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as '2017.03.17'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "German and French titles present"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as '2017.03.17'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sprecher/Sprecherinnen: Stahl, Jürg"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Parlamentsdienste, Nationalrat"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/39 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2022/39#13#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4055,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

@@ -1,0 +1,346 @@
+{
+ "id": "21866070",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21866070",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21866070",
+  "reference_code": "J2.225#2000/22#2447#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Wohnen:  Individuelle Heizkostenabrechnung AG ; DRS-aktuell, 08.05.1984",
+   "old_reference_code": "Original Signatur: RJSFDRS 9307253\nSignatur Bundesarchiv: J2.225#2000/22#7608*",
+   "scope_and_content": "Inhaltsangabe: CH Rheinfelden, AG: Individuelle Heizkostenabrechnung in der Siedlung Augarten, Pilotprojekt\nSequenzbeschrieb: CH Rheinfelden, AG: Schwenk Wohnblock-Siedlung Augarten / IA Heizzentrale / GPL an Heizkörper angebrachter elektronischer Heizkostenverteiler / Statement Bernhard Schwarz (°Energieberater) / Statement Freddy Weber (°Heizungschef °Augarten) / Statement Vreni Gilgen (°Mieterin) o.O.: Statement Willy Kissling (°Liegenschaftsdienst °Ciba-°Geigy) / Modell Siedlung Augarten",
+   "author": "AutorIn: Issler, Helen = Keel, Helen\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Bärenbold, Hans",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 01.05.1984-15.05.1984",
+   "form": "Video",
+   "format": "Dauer: 00:03:17\nFarbe: Farbaufnahmen\nStartposition: 01.32.33\nTräger: Betacam-Digital",
+   "thema": "Personen: Schwarz, Bernhard;Weber, Freddy;Gilgen, Vreni;Kissling, Willy\nSachdeskriptor: Energieverbrauch",
+   "date": {
+    "from": "1984-05-08",
+    "to": null,
+    "expressed": "1984.05.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a televised segment produced by DRS for broadcast on 8 May 1984.",
+  "resume": "A television segment from DRS-aktuell dated 8 May 1984 covering a pilot project for individual heating cost accounting in the Augarten housing estate in Rheinfelden, Switzerland, featuring statements from energy consultants, heating managers, a resident, and a property services representative."
+ },
+ "metadata": {
+  "title": "Wohnen:  Individuelle Heizkostenabrechnung AG ; DRS-aktuell, 08.05.1984",
+  "title_normalized": "Wohnen: Individuelle Heizkostenabrechnung AG ; DRS-aktuell, 08.05.1984",
+  "title_en": "Living: Individual Heating Cost Accounting AG; DRS-aktuell, 08.05.1984",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1984-05-08",
+  "date_published": "1984-05-08",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1984-05-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "energy consumption",
+   "residential heating",
+   "cost accounting"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1984",
+   "Regionalmagazine SFDRS 08.05.1984"
+  ],
+  "reference_code": "J2.225#2000/22#2447#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21866070",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Schwarz, Bernhard",
+    "display_name": "Bernhard Schwarz",
+    "role": "expert",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Weber, Freddy",
+    "display_name": "Freddy Weber",
+    "role": "expert",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gilgen, Vreni",
+    "display_name": "Vreni Gilgen",
+    "role": "resident",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Kissling, Willy",
+    "display_name": "Willy Kissling",
+    "role": "representative",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "AG: Individuelle Heizkostenabrechnung",
+    "role": "subject",
+    "wikidata": null
+   },
+   {
+    "name": "Ciba-Geigy",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q507154",
+     "label": "Novartis",
+     "description": "Swiss-American multinational pharmaceutical corporation",
+     "url": "https://www.wikidata.org/wiki/Q507154"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Rheinfelden",
+    "as_written": "CH Rheinfelden",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5543859,
+    "lon": 7.7922905,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684403",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Issler, Helen = Keel, Helen\nProduktion: D",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Schwarz, Bernhard;Weber, Freddy;Gilgen, Vreni;Kissling, Willy; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1984.05.08; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Issler, Helen = Keel, Helen\nProduktion: D"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1984.05.08"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Schwarz, Bernhard;Weber, Freddy;Gilgen, Vreni;Kissling, Willy"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1984-05-08",
+   "place": "Rheinfelden",
+   "lat": 47.5543859,
+   "lon": 7.7922905,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1984-05-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Televised segment broadcast on DRS-aktuell.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#2447#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5586,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,77 @@
+{
+ "id": "557200",
+ "uri": "https://culture.ld.admin.ch/ais/557200",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/557200",
+ "title": "Heinrich Rothmund in seinem Büro, Zigarette anzündend",
+ "reference_code": "E4800.1#1000/866#107#5*",
+ "reference_number": null,
+ "old_reference_code": "E4800.1#1#107#5*",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Abzug",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1941-08-01",
+  "to": "1941-08-31",
+  "expressed": "1941.08.01 (ca.)-1941.08.31 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13337",
+   "number": "1000/866",
+   "title": "1000/00866 Bundesverwaltung (Bern) (1922-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/557231",
+   "title": "Fotos von Heinrich Rothmund",
+   "level": "Dossier",
+   "reference_code": "E4800.1#1000/866#107*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002786",
+   "title": "Varia",
+   "level": "Serie",
+   "reference_code": "E4800.1#2.30"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002778",
+   "title": "Handakten als Chef der Polizeiabteilung und der Fremdenpolizei 1929-1945, 1947-1954 (Pensionierung) und nach der Pensionierung (Spezialaufgaben)",
+   "level": "Serie",
+   "reference_code": "E4800.1#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5917",
+   "title": "Polizeiabteilung: Handakten Heinrich Rothmund, Chef (1919-1960)",
+   "level": "Sub-file",
+   "reference_code": "E4800.1*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5913",
+   "title": "Eidgenössische Polizeiabteilung (1902-1979)",
+   "level": "Stock",
+   "reference_code": "E10452*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "still_image"
+}

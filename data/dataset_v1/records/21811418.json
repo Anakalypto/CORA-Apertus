@@ -1,0 +1,317 @@
+{
+ "id": "21811418",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21811418",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21811418",
+  "reference_code": "J2.225#1996/68#9876#2*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau (TS), 06.07.1985",
+   "old_reference_code": "Original Signatur: TSSRG E85/1057\nSignatur Bundesarchiv: J2.225#1996/68#11072*",
+   "scope_and_content": "Inhaltsangabe: CH Frauenfeld, TG: Entführung eines neugeborenen Knaben aus der Säuglingsstation des Kantonsspitals\nSequenzbeschrieb: CH Frauenfeld, TG: AA Spital / Statement D Roger Gonzenbach / Statement Kantonspolizist",
+   "author": "AutorIn: Brühlmann, Edda\nProduktion: SRG / DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 29.06.1985-13.07.1985",
+   "form": "Video",
+   "format": "Dauer: 1.53\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.27.54\nTräger: Betacam-SP",
+   "thema": "Personen: Gonzenbach, Roger\nSachdeskriptor: Straftat.; Gesundheitswesen",
+   "date": {
+    "from": "1985-07-06",
+    "to": null,
+    "expressed": "1985.07.06"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by the broadcaster at the time of the events as a news report.",
+  "resume": "This is a Swiss TV news report from the Tagesschau program dated 6 July 1985 covering the kidnapping of a newborn boy from the maternity ward of the cantonal hospital in Frauenfeld, Thurgau. It includes statements from Roger Gonzenbach and a cantonal police officer. The report documents a criminal event involving a private individual."
+ },
+ "metadata": {
+  "title": "Tagesschau (TS), 06.07.1985",
+  "title_normalized": "Tagesschau (TS), 06.07.1985",
+  "title_en": "Tagesschau (TS), 06.07.1985",
+  "creator": "SRG / DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1985-07-06",
+  "date_published": "1985-07-06",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1985-07-06",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "criminal incident",
+   "healthcare",
+   "kidnapping"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1985",
+   "Tagesschau SFDRS 06.07.1985"
+  ],
+  "reference_code": "J2.225#1996/68#9876#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21811418",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gonzenbach, Roger",
+    "display_name": "Roger Gonzenbach",
+    "role": "individual involved in the event",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher / broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "Kantonspolizei",
+    "role": "involved authority",
+    "wikidata": {
+     "qid": "Q665913",
+     "label": "Cantonal police",
+     "description": "sub-national police authorities of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q665913"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Frauenfeld",
+    "as_written": "CH Frauenfeld, TG",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5561915,
+    "lon": 8.8963347,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684522",
+    "model_lat": 47.5833,
+    "model_lon": 9.1667
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Brühlmann, Edda\nProduktion: SRG / DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Gonzenbach, Roger; named organizations or places (apertus): HerausgeberIn: SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1985.07.06; free text places (apertus): Inhaltsangabe: CH Frauenfeld, TG: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): Sachdeskriptor: Straftat.; Gesundheitswesen",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Brühlmann, Edda\nProduktion: SRG / DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1985.07.06"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Inhaltsangabe: CH Frauenfeld, TG: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Gonzenbach, Roger"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "HerausgeberIn: SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sachdeskriptor: Straftat.; Gesundheitswesen"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains personal data related to a criminal act and health services."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1985-07-06",
+   "place": "Frauenfeld",
+   "lat": 47.5561915,
+   "lon": 8.8963347,
+   "description": "Coverage of the kidnapping of a newborn boy from the cantonal hospital.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#9876#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4558,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

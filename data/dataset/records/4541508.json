@@ -1,0 +1,307 @@
+{
+ "id": "4541508",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4541508",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4541508",
+  "reference_code": "E2200.60#2007/64#416*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Articles de presse publiés en Suisse sur l'Etat de résidence",
+   "reference_number": "611.5",
+   "country": "Argentinien",
+   "date": {
+    "from": "1998-01-01",
+    "to": "1998-12-31",
+    "expressed": "1998-1998"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3436624",
+     "number": "2007/64",
+     "title": "2007/00064 Direktion f�r Ressourcen und Aussennetz, Archivdienst (Bern) (1997-2000)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit is a thematic collection of Swiss press articles from 1998 concerning Argentina.",
+  "resume": "This record is a compilation of Swiss press articles from 1998 covering Argentina as the state of residence. It is an archival finding aid that indexes press coverage rather than containing the articles themselves. The material is organized by the Swiss Federal Archives within a series dedicated to Swiss press reports on host countries."
+ },
+ "metadata": {
+  "title": "Articles de presse publiés en Suisse sur l'Etat de résidence",
+  "title_normalized": "Articles de presse publiés en Suisse sur l'Etat de résidence",
+  "title_en": "Swiss press articles published on the state of residence",
+  "creator": "Schweizerisches Bundesarchiv",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1998/1998",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "press",
+   "Argentina",
+   "Switzerland",
+   "media coverage",
+   "residence"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, Buenos Aires (1834-)",
+  "fonds_reference": "E10513*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, Buenos Aires (1834-)",
+   "Schweizerische Vertretung, Buenos Aires: Zentrale Ablage (1966- )",
+   "Presse, Radio, Fernsehen, Kultur, Wissenschaft, Ausbildung und Sport   |   Presse, Radio, Télévision, Culture, Science, Enseignement et Sport",
+   "Presse   |   Presse",
+   "Presse in der Schweiz   |   Presse en Suisse",
+   "Schweizerische Pressemeldungen über Empfangsstaat   |   Articles de presse publiés en Suisse sur l'Etat de résidence"
+  ],
+  "reference_code": "E2200.60#2007/64#416*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4541508",
+  "accession_numbers": [
+   "2007/64"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Buenos Aires",
+    "role": "Depositor of the records",
+    "wikidata": null
+   },
+   {
+    "name": "Schweizerisches Bundesarchiv",
+    "role": "Archivist / Cataloguer",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Argentina",
+    "as_written": "Argentinien",
+    "role": "depicted",
+    "country": "AR",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Switzerland",
+    "as_written": null,
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title is French while country is German",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy includes 'Schweizerische Vertretung, Buenos Aires'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed = '1998-1998'; free text places (apertus): country is free text 'Argentinien'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'GenÃ¨ve'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title is French while country is German"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed = '1998-1998'"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "country is free text 'Argentinien'"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes 'Schweizerische Vertretung, Buenos Aires'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is named; no personal data or sensitive topics involving individuals are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/64 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.60#2007/64#416*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4835,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

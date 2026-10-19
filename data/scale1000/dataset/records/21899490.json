@@ -1,0 +1,328 @@
+{
+ "id": "21899490",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21899490",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21899490",
+  "reference_code": "J2.225#2000/22#3417#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Wahlen SZ ; DRS-aktuell, 15.04.1988",
+   "old_reference_code": "Original Signatur: RJSFDRS 9305996\nSignatur Bundesarchiv: J2.225#2000/22#4546*",
+   "scope_and_content": "Inhaltsangabe: CH, SZ: Bilanz von CVP-Politiker RR Franz Marty und KR Jürg Krummenacher, Kritisches Forum Schwyz (KFS), zur Kantonspolitik der letzten Amptsperiode\nSequenzbeschrieb: CH Schwyz, SZ: AA Rathaus, bemalte Fassade / RR Franz Marty in leerem Ratssaal sitzend / KR Jürg Krummenacher im leeren Ratssaal / Statement Marty Illgau, SZ: Dorf-Impressionen Pfäffikon, SZ: AA IA Ausbildungs-Werkstatt Scheyz, SZ: Statement Krummenacher Einsiedeln, SZ: AA Regionalspital Sattel, SZ: Bus und Südostbahn-Zug im Bahnhof Lachen, SZ: OV See mit Projekt für °Landesausstellung CH91 (Trick) (Archiv, 19870312) / Seeufer Schwyz, SZ: Interview Marty und Krummenacher im Ratssaal",
+   "author": "AutorIn: Kiser, Beny\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Issler, Helen = Keel, Helen",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 08.04.1988-22.04.1988",
+   "form": "Video",
+   "format": "Dauer: 00:10:51\nFarbe: Farbaufnahmen\nStartposition: 00.40.05\nTräger: Betacam-Digital",
+   "thema": "Personen: Marty, Franz;Krummenacher, Jürg\nSachdeskriptor: Kantonspolitik",
+   "date": {
+    "from": "1988-04-15",
+    "to": null,
+    "expressed": "1988.04.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16887",
+     "number": "2000/22",
+     "title": "2000/00022 Schweizer Fernsehen DRS (Z�rich) (1958-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast from the Swiss Television DRS (1953-) dated 15 April 1988, capturing live discussion and on-location footage.",
+  "resume": "A video segment from the regional magazine SFDRS dated 15 April 1988, featuring a discussion between CVP politician Franz Marty and KR Jürg Krummenacher on cantonal politics in Schwyz, with on-location footage at the town hall and other regional sites."
+ },
+ "metadata": {
+  "title": "Wahlen SZ ; DRS-aktuell, 15.04.1988",
+  "title_normalized": "Wahlen SZ ; DRS-aktuell, 15.04.1988",
+  "title_en": "Elections SZ ; DRS-aktuell, 15 April 1988",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1988-04-15",
+  "date_published": "1988-04-15",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1988-04-15",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "cantonal politics",
+   "political discussion",
+   "Schwyz"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Regionalmagazine 1958-1989 SFDRS",
+   "Regionalmagazine SFDRS 1988",
+   "Regionalmagazine SFDRS 15.04.1988"
+  ],
+  "reference_code": "J2.225#2000/22#3417#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21899490",
+  "accession_numbers": [
+   "2000/22"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Franz Marty",
+    "display_name": "Franz Marty",
+    "role": "politician",
+    "wikidata": {
+     "qid": "Q1448198",
+     "label": "Franz Marty",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1448198"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jürg Krummenacher",
+    "display_name": "Jürg Krummenacher",
+    "role": "politician",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "CVP",
+    "role": "political party",
+    "wikidata": null
+   },
+   {
+    "name": "KR",
+    "role": "political role",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Schwyz",
+    "as_written": "SZ",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0571976,
+    "lon": 8.7222073,
+    "gazetteer": "https://www.openstreetmap.org/relation/1688583",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1958-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Kiser, Beny\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Marty, Franz;Krummenacher, Jürg; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1988.04.15; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1958-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Kiser, Beny\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1988.04.15"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Marty, Franz;Krummenacher, Jürg"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1988-04-15",
+   "place": "Schwyz",
+   "lat": 47.0571976,
+   "lon": 8.7222073,
+   "description": "Broadcast of a regional magazine segment featuring political discussion.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/22 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/22#3417#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5635,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

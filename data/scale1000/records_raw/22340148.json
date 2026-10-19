@@ -1,0 +1,70 @@
+{
+ "id": "22340148",
+ "uri": "https://culture.ld.admin.ch/ais/22340148",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22340148",
+ "title": "Tagesschau Hauptausgabe (TS), 20.09.2005 ; TS-Schlagzeilen",
+ "reference_code": "J2.225#2005/341#82#9*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSFDRS 2502839\nSignatur Bundesarchiv: J2.225#2005/341#1109*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH TVZH: Tagesschau-Schlagzeilen (TS)",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": "Moderation: Stauber, Katja\nSprecher: Stauber, Katja",
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 20.09.2005-21.09.2005",
+ "form": "Video",
+ "format": "Dauer: 00:00:49\nFarbe: Farbaufnahmen\nStartposition: 00.44.35\nTräger: MPEG IMX",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2005-09-20",
+  "to": null,
+  "expressed": "2005.09.20"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/2092761",
+   "number": "2005/341",
+   "title": "2005/00341 Schweizer Fernsehen DRS (Z�rich) (2005)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22340139",
+   "title": "Tagesschau SFDRS 20.09.2005",
+   "level": "Dossier",
+   "reference_code": "J2.225#2005/341#82*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22336422",
+   "title": "Tagesschau SFDRS 2005",
+   "level": "Serie",
+   "reference_code": "J2.225#6.2005"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21829670",
+   "title": "Tagesschau 1999-2006 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

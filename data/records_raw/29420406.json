@@ -1,0 +1,61 @@
+{
+ "id": "29420406",
+ "uri": "https://culture.ld.admin.ch/ais/29420406",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29420406",
+ "title": "Coupures de presse: Etranger",
+ "reference_code": "J2.279#1000/1210#27*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1936-01-01",
+  "to": "1936-12-31",
+  "expressed": "1936-1936"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16223",
+   "number": "1000/1210",
+   "title": "1000/01210 k.A. Organisation (s.d. (sine dato))"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29416894",
+   "title": "Diverse Unterlagen",
+   "level": "Serie",
+   "reference_code": "J2.279#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3630",
+   "title": "16. Internationaler Kongress für Kunstgeschichte von 1936 (keine Angabe)",
+   "level": "Stock",
+   "reference_code": "J2.279*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

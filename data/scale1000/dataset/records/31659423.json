@@ -1,0 +1,439 @@
+{
+ "id": "31659423",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31659423",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659423",
+  "reference_code": "E1301#2019/248#10#13*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "20160502: Parlamentarische Initiative Marti Min Li. Ausbau der Leistungen der Arbeitslosenversicherung für ältere Arbeitsuchende / Initiative parlementaire Marti Min Li. Extension des prestations de l'assurance-chômage pour les demandeurs d'emploi âgés",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Moret,Isabelle; Nordmann,Roger; Pardini,Corrado; Flückiger-Bäni,Sylvia; Pardini,Corrado; Grüter,Franz; Pardini,Corrado; Tuena,Mauro; Pardini,Corrado; de Buman,Dominique; Walliser,Bruno; Pardini,Corrado; Schneeberger,Daniela; Buffat,Michaël;",
+   "form": "Digital",
+   "date": {
+    "from": "2018-03-13",
+    "to": null,
+    "expressed": "2018.03.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31658867",
+     "number": "2019/248",
+     "title": "2019/00248 Parlamentsdienste: Amtliches Bulletin (Bern) (2018)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate with listed speakers and a parliamentary initiative title, indicating it was created contemporaneously by the Council.",
+  "resume": "The document is a digital parliamentary record of a debate on a parliamentary initiative concerning the extension of unemployment insurance benefits for older job seekers, held during the spring session of 2018 in the Swiss National Council."
+ },
+ "metadata": {
+  "title": "20160502: Parlamentarische Initiative Marti Min Li. Ausbau der Leistungen der Arbeitslosenversicherung für ältere Arbeitsuchende / Initiative parlementaire Marti Min Li. Extension des prestations de l'assurance-chômage pour les demandeurs d'emploi âgés",
+  "title_normalized": "20160502: Parlamentarische Initiative Marti Min Li. Ausbau der Leistungen der Arbeitslosenversicherung für ältere Arbeitsuchende / Initiative parlementaire Marti Min Li. Extension des prestations de l'assurance-chômage pour les demandeurs d'emploi âgés",
+  "title_en": "Parliamentary Initiative Marti Min Li: Extension of Unemployment Insurance Benefits for Older Job Seekers",
+  "creator": "Nationalrat (Swiss National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2018-03-13",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "unemployment insurance",
+   "parliamentary initiative",
+   "elderly job seekers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2018",
+   "10. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/248#10#13*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659423",
+  "accession_numbers": [
+   "2019/248"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Isabelle Moret",
+    "display_name": "Isabelle Moret",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120742",
+     "label": "Isabelle Moret",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120742"
+    },
+    "life_date_check": {
+     "born": 1970,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roger Nordmann",
+    "display_name": "Roger Nordmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120724",
+     "label": "Roger Nordmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120724"
+    },
+    "life_date_check": {
+     "born": 1973,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Corrado Pardini",
+    "display_name": "Corrado Pardini",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q81968",
+     "label": "Corrado Pardini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q81968"
+    },
+    "life_date_check": {
+     "born": 1965,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Sylvia Flückiger-Bäni",
+    "display_name": "Sylvia Flückiger-Bäni",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q528262",
+     "label": "Sylvia Flückiger-Bäni",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q528262"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Grüter",
+    "display_name": "Franz Grüter",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21269511",
+     "label": "Franz Grüter",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21269511"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Mauro Tuena",
+    "display_name": "Mauro Tuena",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21180030",
+     "label": "Mauro Tuena",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21180030"
+    },
+    "life_date_check": {
+     "born": 1972,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dominique de Buman",
+    "display_name": "Dominique de Buman",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1238363",
+     "label": "Dominique de Buman",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1238363"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bruno Walliser",
+    "display_name": "Bruno Walliser",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21180045",
+     "label": "Bruno Walliser",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21180045"
+    },
+    "life_date_check": {
+     "born": 1966,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Daniela Schneeberger",
+    "display_name": "Daniela Schneeberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1163549",
+     "label": "Daniela Schneeberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1163549"
+    },
+    "life_date_check": {
+     "born": 1967,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Michaël Buffat",
+    "display_name": "Michaël Buffat",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21294587",
+     "label": "Michaël Buffat",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21294587"
+    },
+    "life_date_check": {
+     "born": 1979,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate array contains multiple named individuals",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2018.03.13",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2018.03.13"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate array contains multiple named individuals"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/248 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/248#10#13*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5085,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

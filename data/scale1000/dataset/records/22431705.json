@@ -1,0 +1,317 @@
+{
+ "id": "22431705",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22431705",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22431705",
+  "reference_code": "J2.245#2005/40#31#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Schweizerische Elektrizitätswirtschaft",
+   "old_reference_code": "Original Signatur: FNB022 2635\nSignatur Bundesarchiv: J2.245#2005/40*",
+   "scope_and_content": "Aufnahmeort: Zürich: Radiostudio SRG\nBehandelte Themen: Elektrizität\nGenre: Diskussion\nZusammenfassung: Ausgangspunkt der Diskussion ist die kritische Lage der Elektrizitätsversorgung. Die Herren besprechen die Gründe und Schwierigkeiten, welche den Kraftwerkbau blockieren oder verzögern. Dem Hörer wird vermittelt, wie kompliziert die richtige Kraftnutzung im ganzen Land ist. Folgende Themen kommen zur Sprache: lange Baufristen, Schwierigkeiten mit Konzessionen, Mangel an Material und Arbeitern.",
+   "involved": "Produktionsstudio: Radiostudio Zürich\nTeilnehmer: Rolle; Funktion: STEINER, Ernst: Diskussionsteilnehmer; Vizepräsident des Schweizerischen Energiekonsumentenverbandes",
+   "coverage": "Zeitliche Abdeckung: 23.01.1948",
+   "form": "Ton",
+   "format": "Anzahl bespielter Seiten: 14\nAnzahl DAT: 1\nAnzahl Platten: 8\nAufnahmeart: Im Studio\nKopie Details: EMT 948; Shure M44C, Rmils 2.8\nMaterial: Schwarzer Schellack auf Aluminium\nReinigung: Handreinigung\nTotal Tonträgerspieldauer: 61.57\nZustand der Seiten: In gutem Zustand",
+   "date": {
+    "from": "1948-01-23",
+    "to": null,
+    "expressed": "1948.01.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1405848",
+     "number": "2005/40",
+     "title": "2005/00040 Radio DRS Studio Bern (Bern) (1946 (ca.)-1954 (ca.))"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "radio broadcast",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct studio recording of a live radio discussion with participants and a production studio identified.",
+  "resume": "A studio radio discussion recorded in Zürich on 23 January 1948, focusing on the critical state of electricity supply and the obstacles to power plant construction such as long building times, concession difficulties, material shortages, and labor shortages."
+ },
+ "metadata": {
+  "title": "Schweizerische Elektrizitätswirtschaft",
+  "title_normalized": "Schweizerische Elektrizitätswirtschaft",
+  "title_en": "Swiss Electricity Industry",
+  "creator": "Radiostudio Zürich",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1948-01-23",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "1948-01-23",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "electricity supply",
+   "power plant construction",
+   "energy policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Radio DRS (1931-)",
+  "fonds_reference": "J2.245*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Radio DRS (1931-)",
+   "Echo der Zeit",
+   "Echo der Zeit 1948",
+   "Echo der Zeit 23.01.1948"
+  ],
+  "reference_code": "J2.245#2005/40#31#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22431705",
+  "accession_numbers": [
+   "2005/40"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Funktion: STEINER",
+    "display_name": "Funktion: STEINER",
+    "role": "participant",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Diskussionsteilnehmer",
+    "display_name": "Diskussionsteilnehmer",
+    "role": "ernst",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Vizepräsident des Schweizerischen Energiekonsumentenverbandes",
+    "display_name": "Vizepräsident des Schweizerischen Energiekonsumentenverbandes",
+    "role": "ernst",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizerischer Energiekonsumentenverband",
+    "role": "participant",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich",
+    "role": "created",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Aufnahmeort: Zürich: Radiostudio SRG\nBehandelte Th",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Anzahl bespielter Seiten: 14\nAnzahl DAT: 1\nAnzahl ",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Radiostudio Zürich",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1948.01.23",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Aufnahmeort: Zürich: Radiostudio SRG\nBehandelte Th"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Anzahl bespielter Seiten: 14\nAnzahl DAT: 1\nAnzahl "
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1948.01.23"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Radiostudio Zürich"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1948-01-23",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Studio recording of a radio discussion on electricity supply issues.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/40 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.245#2005/40#31#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5317,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

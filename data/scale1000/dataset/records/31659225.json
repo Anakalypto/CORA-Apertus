@@ -1,0 +1,371 @@
+{
+ "id": "31659225",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31659225",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659225",
+  "reference_code": "E1301#2019/248#5#120*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "20143899: Motion von Siebenthal Erich. Keine Benachteiligung der Anbindeställe / Motion von Siebenthal Erich. Ne pas défavoriser les étables à stabulation entravée",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Amaudruz,Céline; Ritter,Markus; Jans,Beat; Schneider-Ammann,Johann N.; von Siebenthal,Erich; Schneider-Ammann,Johann N.; de Buman,Dominique;",
+   "form": "Digital",
+   "date": {
+    "from": "2018-03-05",
+    "to": null,
+    "expressed": "2018.03.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31658867",
+     "number": "2019/248",
+     "title": "2019/00248 Parlamentsdienste: Amtliches Bulletin (Bern) (2018)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This is a digital parliamentary record of a motion presented by Erich von Siebenthal concerning the non-discrimination of tethered stables, debated in the National Council during the spring session of 2018. The document lists six speakers involved in the debate and is part of the National Council's meeting protocols."
+ },
+ "metadata": {
+  "title": "20143899: Motion von Siebenthal Erich. Keine Benachteiligung der Anbindeställe / Motion von Siebenthal Erich. Ne pas défavoriser les étables à stabulation entravée",
+  "title_normalized": "20143899: Motion von Siebenthal Erich. Keine Benachteiligung der Anbindeställe / Motion von Siebenthal Erich. Ne pas défavoriser les étables à stabulation entravée",
+  "title_en": "Motion by Erich von Siebenthal: No Discrimination of Tethered Stables",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2018-03-05",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "animal welfare",
+   "parliamentary procedure",
+   "agriculture policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2018",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/248#5#120*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659225",
+  "accession_numbers": [
+   "2019/248"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Céline Amaudruz",
+    "display_name": "Céline Amaudruz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120883",
+     "label": "Céline Amaudruz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120883"
+    },
+    "life_date_check": {
+     "born": 1979,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Ritter",
+    "display_name": "Markus Ritter",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1771134",
+     "label": "Markus Ritter",
+     "description": "farmer, politician and president of the Swiss farmers' association",
+     "url": "https://www.wikidata.org/wiki/Q1771134"
+    },
+    "life_date_check": {
+     "born": 1967,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Beat Jans",
+    "display_name": "Beat Jans",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q813067",
+     "label": "Beat Jans",
+     "description": "Swiss politician and Federal Councillor",
+     "url": "https://www.wikidata.org/wiki/Q813067"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Johann N. Schneider-Ammann",
+    "display_name": "Johann N. Schneider-Ammann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q380063",
+     "label": "Johann Schneider-Ammann",
+     "description": "businessman, politician and member of the Swiss Federal Council (2010-2018)",
+     "url": "https://www.wikidata.org/wiki/Q380063"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erich von Siebenthal",
+    "display_name": "Erich von Siebenthal",
+    "role": "author_of_motion",
+    "wikidata": {
+     "qid": "Q119186",
+     "label": "Erich von Siebenthal",
+     "description": "Swiss politician (born 1958)",
+     "url": "https://www.wikidata.org/wiki/Q119186"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dominique de Buman",
+    "display_name": "Dominique de Buman",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1238363",
+     "label": "Dominique de Buman",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1238363"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"20143899: Motion von Siebenthal Erich. Keine Benachteiligung der Anbindeställe / Motion von Siebenthal Erich. Ne pas défavoriser les étables à stabulation entravée\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Céline Amaudruz\", \"Markus Ritter\", \"Beat Jans\", \"Johann N. Schneider-Ammann\", \"Erich von Siebenthal\", \"Dominique de Buman\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2018.03.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"20143899: Motion von Siebenthal Erich. Keine Benachteiligung der Anbindeställe / Motion von Siebenthal Erich. Ne pas défavoriser les étables à stabulation entravée\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2018.03.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Céline Amaudruz\", \"Markus Ritter\", \"Beat Jans\", \"Johann N. Schneider-Ammann\", \"Erich von Siebenthal\", \"Dominique de Buman\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/248 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/248#5#120*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4949,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

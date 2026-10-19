@@ -15,6 +15,7 @@ import time
 import urllib.parse
 
 from .enrich import _get
+from . import store
 
 WD_API = "https://www.wikidata.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
@@ -109,7 +110,7 @@ def _candidates(rec: dict, place_qid: dict) -> list[tuple[str, str, str]]:
 
 def run(cfg):
     data_dir, ua = cfg["paths"]["data_dir"], cfg["enrich"]["user_agent"]
-    recs = [json.loads(l) for l in (data_dir / "dataset" / "cora_dataset.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+    recs = store.read_entries(data_dir / "dataset" / "cora_dataset.jsonl")
     osm = [p.get("gazetteer") for r in recs for p in r["entities"]["places"] if p.get("role") in PLACE_ROLES]
     place_qid = osm_wikidata(osm, ua)
     print(f"  {len(place_qid)} places linked to Wikidata via OpenStreetMap")

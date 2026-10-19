@@ -143,7 +143,7 @@ class Index:
     @staticmethod
     def _sources(path: Path):
         ds = path.parent / "cora_dataset.jsonl"
-        return [ds] if ds.exists() else []
+        return [p for p in (ds, path.parent / "records" / "_order.json") if p.exists()]
 
     def entity_hits(self, query: str) -> dict[str, list[str]]:
         """Entity names (2+ words, or one rare word of 5+ letters) that appear in the question -> record ids."""

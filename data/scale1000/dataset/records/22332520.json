@@ -1,0 +1,320 @@
+{
+ "id": "22332520",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22332520",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22332520",
+  "reference_code": "J2.225#2005/16#23#14*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), 23.10.2004 ; Bahn 2000-Fest",
+   "old_reference_code": "Original Signatur: TSSFDRS 2501967\nSignatur Bundesarchiv: J2.225#2005/16#289*",
+   "scope_and_content": "Inhaltsangabe: CH Olten, SO: Fest zur Einweihung der Bahn 2000-Neubaustrecke Mattstetten-Rothrist / Schnuppertag vor der Inbetriebnahme mit dem Fahrplanwechsel vom 20041212\nSequenzbeschrieb: CH Olten, SO: Schwenk BesucherInnen dicht gedrängt auf Perron / BesucherInnen IC-Doppelstockwaggon betretend / Umfrage o.O.: Fahrt (sub) Neubau-Strecke Mattstetten-Rothrist / GPL Tachometer auf 160 km/h / IA Führerstand, Lokomotivführer während Fahrt /",
+   "author": "AutorIn: Menzi, Pascale\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Müller, Heinrich J.",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 23.10.2004-24.10.2004",
+   "form": "Video",
+   "format": "Dauer: 00:02:00\nFarbe: Farbaufnahmen\nStartposition: 00.59.57\nTräger: MPEG IMX",
+   "thema": "Personen: Binz, Roland\nSachdeskriptor: Bahn 2000;SBB",
+   "date": {
+    "from": "2004-10-23",
+    "to": null,
+    "expressed": "2004.10.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1187212",
+     "number": "2005/16",
+     "title": "2005/00016 Schweizer Fernsehen DRS (Z�rich) (2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage created by the news agency DRS during the event.",
+  "resume": "The document is a video segment from the Tagesschau Hauptausgabe (TS) dated 23 October 2004, covering the inauguration of the Bahn 2000 new railway line between Mattstetten and Rothrist and a preview day with an IC double-decker train, featuring footage of passengers boarding, a train speed test at 160 km/h, and the locomotive driver."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), 23.10.2004 ; Bahn 2000-Fest",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), 23.10.2004 ; Bahn 2000-Fest",
+  "title_en": "Tagesschau Hauptausgabe (TS), 23 October 2004: Bahn 2000 Festival",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2004-10-23",
+  "date_published": "2004-10-23",
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2004-10-23",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Bahn 2000",
+   "SBB"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2004",
+   "Tagesschau SFDRS 23.10.2004"
+  ],
+  "reference_code": "J2.225#2005/16#23#14*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22332520",
+  "accession_numbers": [
+   "2005/16"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Heinrich J. Müller",
+    "display_name": "Heinrich J. Müller",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Roland Binz",
+    "display_name": "Roland Binz",
+    "role": "Person",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "DRS",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Mattstetten-Rothrist",
+    "as_written": "Mattstetten-Rothrist",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Menzi, Pascale\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Heinrich J. Müller; named organizations or places (apertus): CH Olten, SO: Fest zur Einweihung der Bahn 2000-Neubaustrecke Mattstetten-Rothrist",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): 2004.10.23",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Menzi, Pascale\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2004.10.23"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Heinrich J. Müller"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Olten, SO: Fest zur Einweihung der Bahn 2000-Neubaustrecke Mattstetten-Rothrist"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2004-10-23",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video segment aired as part of Tagesschau Hauptausgabe (TS) covering Bahn 2000 inauguration.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/16 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2005/16#23#14*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5506,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

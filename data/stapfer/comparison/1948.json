@@ -1,0 +1,57 @@
+{
+ "id": 1948,
+ "signature": "BAR B0 1000/1483, Nr. 1442, fol. 166-167v",
+ "reference": {
+  "place": "Perroy",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Daniel Guignard",
+  "teacher_age": 36,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 19,
+  "pupils_winter": 54,
+  "pupils_summer": null,
+  "author_name": "Daniel Guignard",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Perroy",
+  "canton_1799": "Du Leman",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Daniel Guignard",
+  "teacher_age": 36,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 18,
+  "pupils_winter": 54,
+  "pupils_summer": 0,
+  "author_name": "Daniel Guignard",
+  "date_written": "1799-03-06"
+ },
+ "evidence": {
+  "place": "Perroy",
+  "canton_1799": "Du Leman",
+  "school_type": "La Réligion, la Lecture, l'Ecriture, l'Arithmetique @ Simple & Composée, l'Orthographe et la Musique Sacrée",
+  "teacher_name": "Daniel Guignard",
+  "teacher_age": "36 ans 9 mois",
+  "teacher_since": "18 ans & 9 mois",
+  "pupils_winter": "54 en hiver",
+  "pupils_summer": "En été s'est varié, la plus grande partie n'y viennent que très rarement"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "extra"
+ },
+ "seconds": 8.53
+}

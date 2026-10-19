@@ -1,0 +1,404 @@
+{
+ "id": "21846174",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21846174",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21846174",
+  "reference_code": "J2.225#2000/20#982#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Spätausgabe (TS), Augenschein in Wingles, 08.06.2002",
+   "old_reference_code": "Original Signatur: TSSFDRS 2500162\nSignatur Bundesarchiv: J2.225#2000/20#10454*",
+   "scope_and_content": "Inhaltsangabe: Frankreich Wingles: Stimmung vor den Parlaments-Wahlen\nSequenzbeschrieb: Frankreich Wingles: Stadt-Impressionen / Wahlplakat Eric °Iorio (°Kandidat °FN) / Wahlveranstaltung Marine Le Pen (°Lebenspartnerin °Iorio) / Statement Iorio / Wahlveranstaltung Odette Duriez (°Sozialistin) / Statement Duriez / Myriam Wonterghem (°Kandidatin °UMP) Wahlzettel verteilend / Statement Wonterghem",
+   "author": "AutorIn: Balzli, Peter\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Clerc, Charles",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 01.06.2002-15.06.2002",
+   "form": "Video",
+   "format": "Dauer: 00:02:06\nFarbe: Farbaufnahmen\nStartposition: 01.23.24",
+   "thema": "Personen: Iorio, Eric;Pen, Marine Le;Duriez, Odette;Wonterghem, Myriam\nSachdeskriptor: Wahlkampf",
+   "date": {
+    "from": "2002-06-08",
+    "to": null,
+    "expressed": "2002.06.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16886",
+     "number": "2000/20",
+     "title": "2000/00020 Schweizer Fernsehen DRS (Z�rich) (1999-2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage created by the news agency DRS during the event.",
+  "resume": "The document is a video segment from the Tagesschau Spätausgabe (TS) dated 8 June 2002, showing election campaign activities in Wingles, France, including statements by candidates Eric Iorio, Marine Le Pen, Odette Duriez, and Myriam Wonterghem."
+ },
+ "metadata": {
+  "title": "Tagesschau Spätausgabe (TS), Augenschein in Wingles, 08.06.2002",
+  "title_normalized": "Tagesschau Spätausgabe (TS), Augenschein in Wingles, 08.06.2002",
+  "title_en": "Tagesschau Late News (TS), On-the-spot Report in Wingles, 8 June 2002",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2002-06-08",
+  "date_published": "2002-06-08",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "2002-06-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "elections",
+   "campaign",
+   "political candidates"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2002",
+   "Tagesschau SFDRS 08.06.2002"
+  ],
+  "reference_code": "J2.225#2000/20#982#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21846174",
+  "accession_numbers": [
+   "2000/20"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Eric Iorio",
+    "display_name": "Eric Iorio",
+    "role": "candidate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Marine Le Pen",
+    "display_name": "Marine Le Pen",
+    "role": "candidate",
+    "wikidata": {
+     "qid": "Q12927",
+     "label": "Marine Le Pen",
+     "description": "French politician (born 1968)",
+     "url": "https://www.wikidata.org/wiki/Q12927"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Odette Duriez",
+    "display_name": "Odette Duriez",
+    "role": "candidate",
+    "wikidata": {
+     "qid": "Q3349187",
+     "label": "Odette Duriez",
+     "description": "French politician",
+     "url": "https://www.wikidata.org/wiki/Q3349187"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Myriam Wonterghem",
+    "display_name": "Myriam Wonterghem",
+    "role": "candidate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Peter Balzli",
+    "display_name": "Peter Balzli",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q134584278",
+     "label": "Peter Balzli",
+     "description": "Swiss Journalist and foreign correspondent",
+     "url": "https://www.wikidata.org/wiki/Q134584278"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Charles Clerc",
+    "display_name": "Charles Clerc",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1063960",
+     "label": "Charles Clerc",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1063960"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "DRS",
+    "display_name": "DRS",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Wingles",
+    "as_written": "Wingles",
+    "role": "depicted",
+    "country": "FR",
+    "lat": 50.4953,
+    "lon": 2.85813,
+    "gazetteer": "https://www.openstreetmap.org/relation/178751",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1999-2002)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Balzli, Peter\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Iorio, Eric;Pen, Marine Le;Duriez, Odette;Wonterghem, Myriam; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2002.06.08",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1999-2002)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Balzli, Peter\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2002.06.08"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Iorio, Eric;Pen, Marine Le;Duriez, Odette;Wonterghem, Myriam"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2002-06-08",
+   "place": "Wingles",
+   "lat": 50.4953,
+   "lon": 2.85813,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2002-06-08",
+   "place": "Wingles, France",
+   "lat": 50.4953,
+   "lon": 2.85813,
+   "description": "Video segment broadcast during Tagesschau Spätausgabe covering French parliamentary election campaign.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/20 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/20#982#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": false,
+  "structural_errors": [],
+  "critical": [
+   "created_after_archived"
+  ],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5505,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

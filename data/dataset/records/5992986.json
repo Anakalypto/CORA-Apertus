@@ -1,0 +1,277 @@
+{
+ "id": "5992986",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5992986",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5992986",
+  "reference_code": "E9#1000/1173#252*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Register zum Kopierbuch des eidgenössischen Finanzdepartements  (alphabetisch geordnet nach Sachbegriffen) 1906",
+   "old_reference_code": "E 6001 (A) -/1  / 4 Buchnr. 28",
+   "date": {
+    "from": "1906-01-01",
+    "to": null,
+    "expressed": "1906"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15997",
+     "number": "1000/1173",
+     "title": "1000/01173 Bundesverwaltung (Bern) (1822-1925)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is an index (register) to another administrative record series, not a primary administrative file or press collection.",
+  "resume": "This is an alphabetically ordered register of the copying book of the Swiss Federal Finance Department from 1906. It serves as an index to administrative records rather than containing the records themselves. The document lists subject headings used to organize correspondence and files within the Finance Department."
+ },
+ "metadata": {
+  "title": "Register zum Kopierbuch des eidgenössischen Finanzdepartements  (alphabetisch geordnet nach Sachbegriffen) 1906",
+  "title_normalized": "Register zum Kopierbuch des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1906",
+  "title_en": "Register of the copying book of the Swiss Federal Finance Department (alphabetically ordered by subject terms) 1906",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1906",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1906",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administration",
+   "finance",
+   "index",
+   "records management"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Finanzwesen",
+  "fonds_reference": "E9*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Finanzwesen",
+   "Geschäftsberichte",
+   "Amtsbücher",
+   "Kopierbücher"
+  ],
+  "reference_code": "E9#1000/1173#252*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5992986",
+  "accession_numbers": [
+   "1000/1173"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "eidgenössisches Finanzdepartements",
+    "role": "subject of the register",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Register zum Kopierbuch des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1906\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"eidgenössischen Finanzdepartements\", \"Schweizerischen Bundesarchivs\", \"Bundesverwaltung\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Register zum Kopierbuch des eidgenössischen Finanzdepartements (alphabetisch geordnet nach Sachbegriffen) 1906\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"eidgenössischen Finanzdepartements\", \"Schweizerischen Bundesarchivs\", \"Bundesverwaltung\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1906",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "The register was created in 1906 as an alphabetical index for the copying book of the Swiss Federal Finance Department",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1173 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E9#1000/1173#252*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4398,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

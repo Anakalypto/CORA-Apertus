@@ -1,0 +1,326 @@
+{
+ "id": "30689130",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30689130",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30689130",
+  "reference_code": "J2.143#1996/386#458-2#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Prix Nobel",
+   "reference_number": "0458-1",
+   "old_reference_code": "Original Signatur: CJS 458-1",
+   "alternate_reference": "CJS_0458-1",
+   "scope_and_content": "Genre:\nCinéjournal\nCommuniqué:\nA Stockholm, le Roi Gustave de Suède a remis les Prix Nobel 1950 aux lauréats, parmi lesquels se trouvait également le prof. Reichstein de Bâle.\n\nKommentar:\nDans la salle des concerts de Stockholm, les prix Nobel de l'année ont été remis par le roi Gustave VI. Parmi les lauréats il y avait de nouveau un Suisse que nous remarquons avec ses collègues de la Science : / le professeur Tadeus Reichstein. / Au nombre des prix Nobel qui reçoivent leur diplôme de la main du Roi, la caméra a saisi la silhouette du philosophe anglais Bertrand Russel. /\n\nAlter Titel:\nNobelpreise",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Film",
+   "format": "Dauer: 00:32 (Start 00:00 / End 00:32)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: nitrate de cellulose 35mm\nKommentarton: allemand\nUntertiltel: français",
+   "thema": "Personen:\nGustav VI. Adolf; Bertrand Russell; Tadeus Reichstein\n\nOrte:\nStockholm (Schweden)\n\nSchlagworte:\nScandinavie, CULTURE, LITTÉRATURE, SANTÉ, MÉDECINE, ÉVÉNEMENT, DISTINCTION, PRIX NOBEL",
+   "date": {
+    "from": "1950-12-22",
+    "to": null,
+    "expressed": "1950.12.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film footage of the 1950 Nobel Prize ceremony, created by the Cinéjournal suisse.",
+  "resume": "This film records the 1950 Nobel Prize ceremony in Stockholm, showing King Gustaf VI Adolf awarding prizes to laureates including Professor Tadeusz Reichstein from Basel and philosopher Bertrand Russell."
+ },
+ "metadata": {
+  "title": "Prix Nobel",
+  "title_normalized": "Prix Nobel",
+  "title_en": "Nobel Prizes",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1950-12-22",
+  "date_published": "1950-12-22",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1950-12-22",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Nobel Prizes",
+   "Stockholm",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1950",
+   "Schweizer Filmwochenschau vom 22.12.1950",
+   "Cinéjournal suisse du 22.12.1950"
+  ],
+  "reference_code": "J2.143#1996/386#458-2#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30689130",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gustav VI. Adolf",
+    "display_name": "Gustav VI. Adolf",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q52878",
+     "label": "Gustaf VI Adolf of Sweden",
+     "description": "King of Sweden (1950–1973); anthropologist, art historian, collector and archaeologist",
+     "url": "https://www.wikidata.org/wiki/Q52878"
+    },
+    "life_date_check": {
+     "born": 1882,
+     "died": 1973,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bertrand Russell",
+    "display_name": "Bertrand Russell",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Tadeus Reichstein",
+    "display_name": "Tadeus Reichstein",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Stockholm",
+    "as_written": "Stockholm (Schweden)",
+    "role": "depicted",
+    "country": "SE",
+    "lat": 59.3251172,
+    "lon": 18.0710935,
+    "gazetteer": "https://www.openstreetmap.org/node/25929985",
+    "model_lat": 59.33,
+    "model_lon": 18.07
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nA Stockholm, le Roi",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:32 (Start 00:00 / End 00:32)\nSeitenverhä; multilingual (apertus): Kommentar:\nDans la salle des concerts de Stockholm, les prix Nobel de l'année ont été remis par le roi Gustave VI. Parmi les lauréats il y avait de nouveau un Suisse que nous remarquons avec ses collègues de la Science : / le professeur Tadeus Reichstein. / Au nombre des prix Nobel qui reçoivent leur diplôme de la main du Roi, la caméra a saisi la silhouette du philosophe anglais Bertrand Russel. /\nAlter Titel:\nNobelpreise",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen:\nGustav VI. Adolf; Bertrand Russell; Tadeus Reichstein; named organizations or places (apertus): Orte:\nStockholm (Schweden)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1950.12.22; free text places (apertus): Orte:\nStockholm (Schweden)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nA Stockholm, le Roi"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:32 (Start 00:00 / End 00:32)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Kommentar:\nDans la salle des concerts de Stockholm, les prix Nobel de l'année ont été remis par le roi Gustave VI. Parmi les lauréats il y avait de nouveau un Suisse que nous remarquons avec ses collègues de la Science : / le professeur Tadeus Reichstein. / Au nombre des prix Nobel qui reçoivent leur diplôme de la main du Roi, la caméra a saisi la silhouette du philosophe anglais Bertrand Russel. /\nAlter Titel:\nNobelpreise"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1950.12.22"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nStockholm (Schweden)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen:\nGustav VI. Adolf; Bertrand Russell; Tadeus Reichstein"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nStockholm (Schweden)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1950-12-22",
+   "place": "Stockholm",
+   "lat": 59.3251172,
+   "lon": 18.0710935,
+   "description": "Film records the 1950 Nobel Prize ceremony",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#458-2#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5600,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

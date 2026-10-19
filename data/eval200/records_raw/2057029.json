@@ -1,0 +1,65 @@
+{
+ "id": "2057029",
+ "uri": "https://culture.ld.admin.ch/ais/2057029",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2057029",
+ "title": "Jugendtag in Bellenz",
+ "reference_code": "J1.173#1986/188#83#9*",
+ "reference_number": null,
+ "old_reference_code": "J1.173#1986/188#81#9*",
+ "alternate_reference": null,
+ "scope_and_content": "Grimm am Pult stehend, dahinter Poster von Karl Marx",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1920-01-01",
+  "to": null,
+  "expressed": "1920"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16760",
+   "number": "1986/188",
+   "title": "1986/00188 Grimm-Kuhn, Jenny (Bern) (1896-1984)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4108754",
+   "title": "Grimm als Redner bei Demonstrationen und Versammlungen",
+   "level": "Dossier",
+   "reference_code": "J1.173#1986/188#83*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3884686",
+   "title": "Audiovisuelle Dokumente",
+   "level": "Serie",
+   "reference_code": "J1.173#7"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4145",
+   "title": "Grimm Robert (1881-1958) und Familie",
+   "level": "Stock",
+   "reference_code": "J1.173*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "still_image"
+}

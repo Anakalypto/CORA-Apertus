@@ -1,0 +1,284 @@
+{
+ "id": "5712992",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5712992",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5712992",
+  "reference_code": "J2.322-01#2009/263#382*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Presseberichte und Notizen zu Fraktionssitzungen 1935-1939",
+   "reference_number": "76-01",
+   "date": {
+    "from": "1935-01-01",
+    "to": "1939-12-31",
+    "expressed": "1935-1939"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/5637958",
+     "number": "2009/263",
+     "title": "2009/00263 Archiv f�r Agrargeschichte (Bern) (1894-2008)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "report",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This is a contemporary press material file from the Free Democratic Party of Switzerland.",
+  "resume": "This record contains press reports and notes from the meetings of the Swiss Free Democratic Party's parliamentary group between 1935 and 1939. It documents the party's internal discussions and public communications during that period. The material is part of the party's central public relations files."
+ },
+ "metadata": {
+  "title": "Presseberichte und Notizen zu Fraktionssitzungen 1935-1939",
+  "title_normalized": "Presseberichte und Notizen zu Fraktionssitzungen 1935-1939",
+  "title_en": "Press reports and notes on parliamentary group meetings 1935-1939",
+  "creator": "Freisinnig-demokratische Partei der Schweiz",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1935-01-01/1939-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2009",
+  "content_date": "1935/1939",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Free Democratic Party",
+   "parliamentary group meetings",
+   "public relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Freisinnig-demokratische Partei der Schweiz (1894-2008)",
+  "fonds_reference": "J2.322*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Freisinnig-demokratische Partei der Schweiz (1894-2008)",
+   "Freisinnig-demokratische Partei der Schweiz: Zentrale Ablage (1894-2008)",
+   "Öffentlichkeitsarbeit",
+   "Presse-Verlautbarungen, öffentliche Veranstaltungen"
+  ],
+  "reference_code": "J2.322-01#2009/263#382*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5712992",
+  "accession_numbers": [
+   "2009/263"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Freisinnig-demokratische Partei der Schweiz",
+    "role": "Creator",
+    "wikidata": {
+     "qid": "Q13850128",
+     "label": "Free Democratic Party of Switzerland",
+     "description": "former political party in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q13850128"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve' with mangled accent",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Freisinnig-demokratische Partei der Schweiz, Schweizerisches Bundesarchiv",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in hierarchy (e.g., Bern) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'GenÃ¨ve' with mangled accent"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., Bern) not in structured fields"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Freisinnig-demokratische Partei der Schweiz, Schweizerisches Bundesarchiv"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable natural persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1935-01-01/1939-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Press reports and notes generated by the Free Democratic Party during their parliamentary group meetings.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2009",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2009/263 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.322-01#2009/263#382*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4590,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

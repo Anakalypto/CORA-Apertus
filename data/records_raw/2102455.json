@@ -1,0 +1,67 @@
+{
+ "id": "2102455",
+ "uri": "https://culture.ld.admin.ch/ais/2102455",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2102455",
+ "title": "Gedenkrede auf Otto Pfister, Druck, 1 S., mit Entwurf, 1939",
+ "reference_code": "J1.4#1000/1339#434*",
+ "reference_number": "10.5",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": null,
+  "expressed": "1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16674",
+   "number": "1000/1339",
+   "title": "1000/01339 Wyss-Nobs Erica (Bern) (1906-1957 (ca.))"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3784693",
+   "title": "Gedenk- und Gratulationsreden u. -schriften",
+   "level": "Serie",
+   "reference_code": "J1.4#10.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3784688",
+   "title": "Reden und Schriften",
+   "level": "Serie",
+   "reference_code": "J1.4#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4073",
+   "title": "Nobs Ernst (1886-1957)",
+   "level": "Stock",
+   "reference_code": "J1.4*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

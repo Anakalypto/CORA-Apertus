@@ -1,0 +1,288 @@
+{
+ "id": "30704186",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30704186",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704186",
+  "reference_code": "E8100F#2016/63#34#20*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+   "scope_and_content": "Arbeitspapier / Grundlagenpapier",
+   "involved": "Herausgeber: Schweizerische Bundesbahnen",
+   "date": {
+    "from": "2007-12-05",
+    "to": null,
+    "expressed": "2007.12.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative file from the Swiss Federal Railways, documenting a specific meeting and its associated materials.",
+  "resume": "This document is a working paper and background paper from a meeting of the AlpTransit Project Organisation's Safety Committee on 5 December 2007, covering the topic of 'reversing on LBL' with accompanying slides. It was produced by the Swiss Federal Railways as part of the project documentation for the AlpTransit infrastructure project. The record is an administrative file containing project-related materials."
+ },
+ "metadata": {
+  "title": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+  "title_normalized": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+  "title_en": "Directors' committee meeting DAS on 5 December 2007: Reversing on LBL; slides",
+  "creator": "Schweizerische Bundesbahnen",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-12-05",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2007-12-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "AlpTransit",
+   "railway infrastructure",
+   "project management",
+   "safety committee"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 34)"
+  ],
+  "reference_code": "E8100F#2016/63#34#20*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704186",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Bundesbahnen",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q83835",
+     "label": "Swiss Federal Railways",
+     "description": "national railway company of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q83835"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve'; uppercase or abbreviated title (apertus): title is in ALL CAPS: 'DIREKTIONSAUSSSCHUSSSITZUNG DAS VOM 5.12.2007: REVERSING AUF LBL; FOLIEN'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): involved[name] 'Schweizerische Bundesbahnen' and hierarchy_top_down contains 'Bundesamt für Verkehr'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as '2007.12.05'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'GenÃ¨ve'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is in ALL CAPS: 'DIREKTIONSAUSSSCHUSSSITZUNG DAS VOM 5.12.2007: REVERSING AUF LBL; FOLIEN'"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as '2007.12.05'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved[name] 'Schweizerische Bundesbahnen' and hierarchy_top_down contains 'Bundesamt für Verkehr'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-12-05",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Working paper and slides produced for a project committee meeting on AlpTransit safety.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#34#20*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4822,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

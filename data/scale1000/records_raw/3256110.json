@@ -1,0 +1,76 @@
+{
+ "id": "3256110",
+ "uri": "https://culture.ld.admin.ch/ais/3256110",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3256110",
+ "title": "Industriegeleise - Abzweigung",
+ "reference_code": "E5221#1996/255#4#57*",
+ "reference_number": "09.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Glasplatte; Abzug; Negativ: 4-2, Nr. 14, 15, 16, 17\nAufnahme der Baustelle",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1918-03-07",
+  "to": null,
+  "expressed": "1918.03.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13586",
+   "number": "1996/255",
+   "title": "1996/00255 Bundesverwaltung (Bern) (s.d. (sine dato))"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3450786",
+   "title": "Industriegeleise",
+   "level": "Dossier",
+   "reference_code": "E5221#1996/255#4*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675752",
+   "title": "Industriegeleise",
+   "level": "Serie",
+   "reference_code": "E5221#09.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675750",
+   "title": "Bauten, Anlagen, Liegenschaften",
+   "level": "Serie",
+   "reference_code": "E5221#09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5041",
+   "title": "Eidgenössische Pulverfabrik, Wimmis: Kaufmännisch-administrative Abteilung (1917-1995)",
+   "level": "Sub-file",
+   "reference_code": "E5221*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5038",
+   "title": "Eidgenössische Pulverfabrik, Wimmis (1917-1995)",
+   "level": "Stock",
+   "reference_code": "E10205*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

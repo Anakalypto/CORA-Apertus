@@ -1,0 +1,77 @@
+{
+ "id": "29525928",
+ "uri": "https://culture.ld.admin.ch/ais/29525928",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29525928",
+ "title": "Je me suis partiellement égaré\" (Filmaufnahme)",
+ "reference_code": "J2.333-01#2013/157#8#53*",
+ "reference_number": "6-18",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1996-01-01",
+  "to": "1997-12-31",
+  "expressed": "1996-1997"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/29525866",
+   "number": "2013/157",
+   "title": "2013/00157 Schweizerische Stiftung f�r audiovisuelle Bildungsangebote (3000 Bern 9) (1983-2006)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29526184",
+   "title": "Hirnverletzt, 18 Filme",
+   "level": "Dossier",
+   "reference_code": "J2.333-01#2013/157#8*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29486131",
+   "title": "Hirnverletzt - Die Reise durch den schwarzen Blumengarten der Hoffnung",
+   "level": "Serie",
+   "reference_code": "J2.333-01#6-18"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29486094",
+   "title": "Projekte und Produkte (1988-2005)",
+   "level": "Serie",
+   "reference_code": "J2.333-01#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29388606",
+   "title": "Schweizerische Stiftung für audiovisuelle Bildungsangebote: Zentrale Ablage (1986-2006)",
+   "level": "Sub-file",
+   "reference_code": "J2.333-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29388605",
+   "title": "Schweizerische Stiftung für audiovisuelle Bildungsangebote (1986-)",
+   "level": "Stock",
+   "reference_code": "J2.333*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

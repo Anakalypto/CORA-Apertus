@@ -1,0 +1,56 @@
+{
+ "id": 1977,
+ "signature": "BAR B0 1000/1483, Nr. 1442, fol. 196-197v",
+ "reference": {
+  "place": "Château-d'Oex",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Josué David Pilet",
+  "teacher_age": 34,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 1,
+  "pupils_winter": 67,
+  "pupils_summer": null,
+  "author_name": "Josué David Pilet",
+  "date_written": "1799-03-06"
+ },
+ "apertus": {
+  "place": "Château-d'Oex",
+  "canton_1799": "du Leman",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Josué David Pilet",
+  "teacher_age": 34,
+  "teacher_marital_status": null,
+  "teacher_since": "Novembre 1798",
+  "pupils_winter": 67,
+  "pupils_summer": null,
+  "author_name": "Josué David Pilet",
+  "date_written": "1799-03-06"
+ },
+ "evidence": {
+  "place_as_written": "Chateaud'Oex",
+  "canton_1799": "du Leman",
+  "teacher_name": "Josué David Pilet",
+  "teacher_age": "34 ans et demi",
+  "teacher_since": "Depuis Novembre 1798",
+  "pupils_winter": "Cela varire, aujourd'hui 67",
+  "school_holds_only_in_winter": "l'Ecole ne se tient qu'en hiver"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "missed",
+  "teacher_since": "mismatch",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 7.95
+}

@@ -1,0 +1,79 @@
+{
+ "id": "6627612",
+ "uri": "https://culture.ld.admin.ch/ais/6627612",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6627612",
+ "title": "Geschichte der Familie Lerber",
+ "reference_code": "E3120A#1969/80#1356*",
+ "reference_number": "4.02.b-1342",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1926-01-01",
+  "to": "1926-12-31",
+  "expressed": "1926-1926"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12098",
+   "number": "1969/80",
+   "title": "1969/00080 Bundesverwaltung (Bern) (1849-1965)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3754057",
+   "title": "chronologisch geordnet (keine den Forscher betreffende Angaben)",
+   "level": "Serie",
+   "reference_code": "E3120A#4.02.b"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3754055",
+   "title": "Nachforschungen",
+   "level": "Serie",
+   "reference_code": "E3120A#4.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3754049",
+   "title": "Benutzung der Akten",
+   "level": "Serie",
+   "reference_code": "E3120A#4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6766",
+   "title": "Bundesarchiv: Zentrale Ablage (1915-1966)",
+   "level": "Sub-file",
+   "reference_code": "E3120A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1185502",
+   "title": "Bundesarchiv (1915-1979)",
+   "level": "Stock",
+   "reference_code": "E10950*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

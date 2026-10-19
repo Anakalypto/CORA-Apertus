@@ -1,0 +1,343 @@
+{
+ "id": "22360319",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22360319",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22360319",
+  "reference_code": "J2.225#2007/135#18#35*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Erfindermesse",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504090\nSignatur Bundesarchiv: J2.225#2007/135#18*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Genève, GE: 35. Erfindermesse / Energiegewinnung auf umweltschonende Art\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz Genève, GE: Chinesische Delegation bei Demo Windrad  / Statement Zhiyong Zeng  / Demo Dampfmaschine von Felix Wirz / Statement Felix Wirz / Besucher in Messehalle / Statement Frank Langlotz / Mann mit Körperkraft angetriebenem Vehikel",
+   "author": "AutorIn: Gerber, Michael: AUT\nProduktion: SF",
+   "involved": "Moderation: Fischlin, Franz",
+   "form": "Video",
+   "format": "Dauer: 00.01.39\nStartposition: 01:21:32\nTotal Spieldauer: 00.19.52\nTräger: Beta IMX",
+   "thema": "Personen: Wirz, Felix: Erfinder\nSachdeskriptor: /SENSATION./ERFINDUNG;/WIRTSCHAFT./MESSE",
+   "date": {
+    "from": "2007-04-18",
+    "to": null,
+    "expressed": "2007.04.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production of a live event captured by SF.",
+  "resume": "The document is a video recording of an invention fair in Geneva, Switzerland, featuring demonstrations of environmentally friendly energy generation technologies and statements from inventors Felix Wirz and Zhiyong Zeng, along with other participants."
+ },
+ "metadata": {
+  "title": "Erfindermesse",
+  "title_normalized": "Erfindermesse",
+  "title_en": "Invention Fair",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-04-18",
+  "date_published": "2007-04-18",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-04-18",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "inventions",
+   "energy generation",
+   "exhibition"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 18.04.2007"
+  ],
+  "reference_code": "J2.225#2007/135#18#35*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22360319",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Felix Wirz",
+    "display_name": "Felix Wirz",
+    "role": "inventor",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Zhiyong Zeng",
+    "display_name": "Zhiyong Zeng",
+    "role": "statement",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Michael Gerber",
+    "display_name": "Michael Gerber",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q662611",
+     "label": "Michael Gerber",
+     "description": "American writer",
+     "url": "https://www.wikidata.org/wiki/Q662611"
+    },
+    "life_date_check": {
+     "born": 1969,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Fischlin",
+    "display_name": "Franz Fischlin",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1446787",
+     "label": "Franz Fischlin",
+     "description": "Swiss television presenter and radio host",
+     "url": "https://www.wikidata.org/wiki/Q1446787"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SF",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "Genève",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": 46.2,
+    "model_lon": 6.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Gerber, Michael: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Wirz, Felix; named organizations or places (apertus): Schweiz Genève",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.04.18; free text places (apertus): Schweiz Genève",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Gerber, Michael: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.04.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz Genève"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Wirz, Felix"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz Genève"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-04-18",
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Video recording of invention fair demonstrations and statements.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#18#35*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5166,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

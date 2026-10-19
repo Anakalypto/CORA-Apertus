@@ -1,0 +1,299 @@
+{
+ "id": "30693522",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30693522",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30693522",
+  "reference_code": "J2.143#1996/386#903-3#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Leoncelli da salotto",
+   "reference_number": "0903-3",
+   "old_reference_code": "Original Signatur: CGS 903-3",
+   "alternate_reference": "CGS_0903-3",
+   "scope_and_content": "Genre:\nCinegiornale\nCommuniqué:\nDue giovani leoncelli sono allevati da un veterinario bernese.\n\nKommentar:\nI loro migliori amici: un cane e un gatto ... per intanto almeno il gemello, che si chiama: Maleku./ Questi due leoncini, mangiano, ognuno, 3 chili di carne al giorno... e vorrebbero raddoppiare la razione. Il comportamento, sbarazzino dei leoncini, non soddisfa il cane, il quale li rimprovera./ \"Sia ben chiaro, dice che se le tende si rompono, la colpa è tutta degli intrusi, non è certo mia..!\"/ \"Non voglio aver contatti con simile gente\" dice il gatto, sottolineando le parole coi fatti. \"Quei balordi fan ciò che vogliono\" aggiunge con invidia./ Finalmente vanno a letto. / Ma che dice Maleku? - Chi è il re delle bestie? .... /\n\nAlter Titel:\nLöwenkinder in der Wohnstube",
+   "author": "Produktion: Cinegiornale svizzero",
+   "publisher": "HerausgeberIn: Cinegiornale svizzero (CGS)",
+   "form": "Film",
+   "format": "Dauer: 01:18 (Start 02:09 / End 03:27)\nSeitenverhältnis: 4:3\nFarbe: B/N\nOriginalträger: 35mm acetato di cellulosa\nKommentarton: italiano",
+   "thema": "Orte:\nGümmenen, BE (Schweiz)\n\nSchlagworte:\nEuropa occidentale, AGRICOLTURA, ANIMALE, MAMMIFERO",
+   "date": {
+    "from": "1960-01-29",
+    "to": null,
+    "expressed": "1960.01.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film produced by Cinegiornale svizzero for newsreel distribution.",
+  "resume": "A short Swiss newsreel (Cinegiornale svizzero) from 29 January 1960 shows two lion cubs raised by a Bernese veterinarian, interacting with a dog and a cat in a domestic setting."
+ },
+ "metadata": {
+  "title": "Leoncelli da salotto",
+  "title_normalized": "Leoncelli da salotto",
+  "title_en": "Living-room lions",
+  "creator": "Cinegiornale svizzero",
+  "publisher": "Cinegiornale svizzero (CGS)",
+  "commissioner": null,
+  "date_created": "1960-01-29",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1960-01-29",
+  "languages": [
+   "it"
+  ],
+  "subjects": [
+   "Gümmenen, BE",
+   "animals",
+   "agriculture"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1960",
+   "Schweizer Filmwochenschau vom 29.01.1960",
+   "Cinegiornale svizzero del 29.01.1960"
+  ],
+  "reference_code": "J2.143#1996/386#903-3#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30693522",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Cinegiornale svizzero (CGS)",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Gümmenen, BE",
+    "as_written": "Gümmenen, BE (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9448449,
+    "lon": 7.2439516,
+    "gazetteer": "https://www.openstreetmap.org/node/31518828",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinegiornale\nCommuniqué:\nDue giovani leonce",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 01:18 (Start 02:09 / End 03:27)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nGümmenen, BE (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1960.01.29; free text places (apertus): Orte:\nGümmenen, BE (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinegiornale\nCommuniqué:\nDue giovani leonce"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 01:18 (Start 02:09 / End 03:27)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1960.01.29"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nGümmenen, BE (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nGümmenen, BE (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1960-01-29",
+   "place": "Gümmenen, BE",
+   "lat": 46.9448449,
+   "lon": 7.2439516,
+   "description": "Newsreel footage of lion cubs raised by a Bernese veterinarian.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#903-3#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5563,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

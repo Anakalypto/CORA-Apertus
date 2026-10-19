@@ -1,0 +1,2233 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	detailView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schweizerisches Bundesarchiv - Online-Amtsdruckschriften - Suchergebnisse</title>
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+  
+  
+      
+  
+  
+  <base href="https://www.amtsdruckschriften.bar.admin.ch:443/detailView.do?id=10009436">
+
+</head>
+
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Schweizerisches Bundesarchiv</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/de/start.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Bundesverwaltung</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> EDI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/de/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> BAR</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Schweizerisches Bundesarchiv</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView" class="active" title="Diese Seite auf deutsch">
+                        DE  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView"  title="Cette page en français">
+                        FR 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/de/home/ueber-uns/kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/de/home.html">
+        <h1>Schweizerisches Bundesarchiv<br>Online-Amtsdruckschriften</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Einfache Suche
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Erweiterte Suche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Datum
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Listensuche nach Thema
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Suchverlauf
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Einstellungen
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Hilfe
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Einfache Suche</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Erweiterte Suche</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Suchbegriffe</a>
+                         <br><a href="help.do?helptag=suchmodus" >Suchmodus</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Titelbetonung</a>
+                         <br><a href="help.do?helptag=zeitraum" >Zeitraum</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Suche im Titel</a>
+                         <br><a href="help.do?helptag=suchenIn" >Suchen in</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Weitere Felder</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Listensuche nach Datum</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Listensuche nach Thema</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Suchergebnisse</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Detailansicht</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Suchverlauf</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Suchverlauf ausdrucken</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Suchverlauf exportieren</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Einstellungen</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Suche nach Referenznummer</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Suchbeispiele</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "de";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Geben Sie hier die gewünschten Suchbegriffe ein. Diese werden unscharf durchsucht, d.h. es werden auch Begriffe mit ähnlicher Schreibweise gefunden und es wird eine Treffergüte berechnet. Möchten Sie exakt suchen und dabei die Boolschen Operatoren (AND, OR, WITHIN,...) verwenden, wechseln Sie in die erweiterte Suche.')">Suchbegriffe:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Bärtschi" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_de/btn_search.gif" alt="suchen" title="suchen" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="löschen"><img src="images/local_de/btn_delete.gif" alt="löschen"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">suchen</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">löschen</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Geben Sie hier ein Datum oder einen Datumsbereich ein, um nur in Dokumenten aus diesem Zeitraum zu suchen.<br>Beispiel:<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Zeitraum</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1865" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> bis </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1895" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Wählen Sie die gewünschten Druckschrifttypen aus, in welchen gesucht werden soll. <br>Das Bundesblatt umfasst den Zeitraum von 1848 bis heute (für das genaue Jahr siehe \'Home\').<br>Die DDS umfassen den Zeitraum von 1848 bis 1945.')">Suchen in</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Bundesversammlung (Amtliches Bulletin, Protokolle, Findmittel)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliches Bulletin der Bundesversammlung (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle der Bundesversammlung (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Repertorium der Verhandlungen (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Übersicht über die Verhandlungen (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Bundesrecht
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bundesblatt (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bereinigte Sammlung (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Amtliche Sammlung (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Verwaltungspraxis der Bundesbehörden (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Bundesrat
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Protokolle des Bundesrates (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Für die Protokolle des Bundesrates bis und mit 1903 existiert keine Texterkennung. <br>Dadurch kann nicht über den Inhalt der Dokumente von 1848 bis 1903 gesucht werden.')">(nur eingeschränkte Suche)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Geschäftsberichte des Bundesrates (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Staatsrechnung und Voranschlag  (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Eidgenössischer Staatskalender (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Diplomatische Dokumente der Schweiz (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Studien und Quellen (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Aktensammlung aus der Zeit der Helvetischen Republik (1798-1803) (Kontext in Deutsch, Akten in Originalsprache)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Alle auswählen </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Suchergebnisse </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Kein gültiges Datum. \nBitte überprüfen Sie Ihre Eingabe. \nWeitere Informationen finden Sie unter Hilfe.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>                                                                     
+<html>                                                                              
+    <head>                                                                          
+        <title><!--title--></title>  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="JavaScript">
+            function getClientWidthHeight() {
+
+                var dimension = new Object();
+
+                dimension.width = 0;
+                dimension.height = 0;
+
+                if (typeof (window.innerWidth) == 'number') {
+
+                    //Non-IE
+
+                    dimension.width = window.innerWidth;
+                    dimension.height = window.innerHeight;
+
+                } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+
+                    //IE 6+ in 'standards compliant mode'
+
+                    dimension.width = document.documentElement.clientWidth;
+                    dimension.height = document.documentElement.clientHeight;
+
+                } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+
+                    //IE 4 compatible
+
+                    dimension.width = document.body.clientWidth;
+                    dimension.height = document.body.clientHeight;
+
+                }
+
+                return dimension;
+            }
+            function ResizeContent()
+            {
+                var dimension = getClientWidthHeight();
+                var lHeight = 500;
+                if (dimension.height && dimension.height > 0) {
+                    lHeight = dimension.height - 190;
+                }
+                var elDiv = document.getElementById("divDocContent");
+                if (elDiv)
+                {
+                    elDiv.style.height = lHeight + "px";
+                }
+                //alert(lHeight);
+            } 
+            function BestHit(){
+                var nbOfHits=2
+                var nbOfMax = " von 2";
+                if(nbOfHits == 0) return;
+                document.getElementById("spanHitNum").innerHTML = "1" + nbOfMax;
+                location.hash ="#1";
+            }
+            function PrevHit(){
+                var nbOfHits=2
+                var nbOfMax = " von 2";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==1){
+                        hash=(nbOfHits + 1);
+                    }
+                    hash = parseInt(hash) - 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function NextHit(){
+                var nbOfHits=2
+                var nbOfMax = " von 2";
+                if(nbOfHits == 0) return;
+                var hash=location.hash;
+                if (hash){
+                    hash = hash.substring(1);
+                    if(hash=="resultlist" || hash==nbOfHits){
+                        hash=0;
+                    }
+                    hash = parseInt(hash) + 1;
+                    document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+                    location.hash ="#" + hash;
+                }
+            }
+            function ResetNbOf(link){
+                var nbOfMax = " von 2";
+                var href = link.href;
+                var index = href.indexOf("#");
+                var hash = href.substring(index +1);
+                document.getElementById("spanHitNum").innerHTML = hash + nbOfMax;
+            }
+        </script>
+        <style type="text/css">
+             
+            
+            
+            
+            
+            <!--
+            .medadatatable {background-color: #006699; }
+            .c1 {font-family: arial; font-size: 12px; font-weight: bold; background-color: white; }
+            .c2 {font-family: arial; font-size: 12px; background-color: white; }            
+            body { background-color:#ffffff; margin:10px; font-family:Arial,Verdana,Helvetica,sans-serif; font-size:10pt;}
+            .headerTop { height:24px; color: #333333; font-size:12pt; }
+            .docsColumnHeadRow { font-size:10pt; font-weight:bold; text-decoration:underline; }
+            .red { font-size:10pt; font-weight:bold; color:red; }
+            .docsRow { font-size:small; border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataTable {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCell {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;}
+            .metadataCellKey {border-style:solid;border-width:1px;border-color:black;border-collapse:collapse;border-spacing:0px;font-weight: bold;}
+            .pageLabel {color:#425a73;font-size:1.0em;font-weight:bold;}
+            .pageLabelLink {color:#425a73;font-size:1.0em;}
+            .docToolLink {font-size:1.0em;}
+            .high {text-decoration:none;/*background-color:yellow;*/color:black;}
+            .high {background-color:yellow;}
+            .origDocTable {padding:0px;margin:0px;border:0px;}
+            pre {
+                white-space: pre-wrap; /* css-3 */
+                white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+                white-space: -pre-wrap; /* Opera 4-6 */
+                white-space: -o-pre-wrap; /* Opera 7 */
+                word-wrap: break-word; /* Internet Explorer 5.5+ */
+                width:100%;
+                font-family: Arial;
+                border:1px solid gainsboro;
+                font-size: small;
+            }            
+            --> 
+        </style>
+    </head>                                                                         
+    <body OnLoad="ResizeContent()">      
+        <a name="resultlist"></a>
+        <table width="98%" border="0" cellSpacing="0" cellPadding="0">
+            <tr>
+                <td vAlign="top" class="pageLabel">Detailansicht</td>
+                <td vAlign="top" ><a class="pageLabelLink" href="execQuery.do?fetchStart=0">zurück zur Resultatliste</a></td>
+                <td vAlign="top" style="text-align:right;" class="docNavCell">Ergebnisse:&nbsp;<a title="vorheriges Ergebnis" class="docNavLink" href="detailView.do?id=10012854">&lt;&lt;</a>&nbsp;20&nbsp;von&nbsp;34&nbsp;<a title="nächstes Ergebnis" class="docNavLink" href="detailView.do?id=10011414">&gt;&gt;</a>&nbsp;</td>
+                <td vAlign="top" style="text-align:right;width:180px;">
+                    <table border="0" cellSpacing="0" cellPadding="0">
+                        <tr>
+                            <td>
+                                <center>
+                                    <a href="viewOrigDoc/10009436.pdf?id=10009436" target="_blank"><img alt="Datei anzeigen" src="images/icons/c_launch_pdf.gif" border="0"/></a>
+                                    <br/>
+                                    <a style="color:black;" href="viewOrigDoc/10009436.pdf?id=10009436" target="_blank">Ganzes Dokument</a>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div> </div>
+        <div style="border:0px solid grey;width:99%;height:25px;background-image: url('images/pane_bg.gif');margin-top:15px;font-size:0.9em;">
+            <img width="25" height="25" align="absmiddle" alt="" src="images/windowpane_cap_L.gif">    	
+            <span style="display: inline" id=spanHitNavBar>
+                <span class=docHitNavLabel>Auf Treffer im Dokument springen:</span> &nbsp; 
+                <span id=spanBestHit><a class=docHitNavLink href="javascript:BestHit();">bestes Resultat  </a>&nbsp;</span>
+                <a class=docHitNavLink title="vorheriger Treffer" href="javascript:PrevHit()">&lt;&lt;</a> 
+                &nbsp;&nbsp;&nbsp;&nbsp;<span id=spanHitNum>2</span>&nbsp;&nbsp;&nbsp; 
+                <a class=docHitNavLink title="nächster Treffer" href="javascript:NextHit()">&gt;&gt;</a> 
+                <span class=docHitNavDots>::</span> 
+                <span id=spanHitText></span>     
+                
+            </span>            
+        </div>                                                         
+        <div style="border:1px solid grey;width:900px;height:800px;overflow:auto;padding:15px;margin:10px;" id="divDocContent"> 
+            
+            <table width="100%" border="0" class="metadataTable">
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Titel</td>
+<td class="metadataCell" >Aus den Verhandlungen des schweiz. Bundesrates.</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Druckschrifttyp</td>
+<td class="metadataCell" >Bundesblatt</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Jahr</td>
+<td class="metadataCell" >1877</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Band</td>
+<td class="metadataCell" >1</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Heft/Dokument</td>
+<td class="metadataCell" >06</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Geschäftsnummer</td>
+<td class="metadataCell" ></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Datum</td>
+<td class="metadataCell" ><a class="high" href="#2" name="1" onclick="javascript:ResetNbOf(this);">10.02.1877</a></td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Seite von</td>
+<td class="metadataCell" >207</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Seite bis</td>
+<td class="metadataCell" >215</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Referenznummer</td>
+<td class="metadataCell" >10009436</td>
+</tr>
+<tr class="docsRow">
+<td class="metadataCellKey" width="150">Ganzes Dokument</td>
+<td class="metadataCell" ><table class="origDocTable" border="0" cellSpacing="0" cellPadding="0"><tr><td><a href="viewOrigDoc/10009436.pdf?id=10009436" target="_blank" shape="rect"><img alt="Originaldoument / Document complet" src="images/icons/c_launch_pdf.gif" border="0"/></a></td><td>(272.5 KB)</td></tr></table></td>
+</tr>
+</table>
+<br><br>
+            <!--Aus den Verhandlunge n des Schweiz. Bundesrathes..
+(Vom 24. Januar 1877.)
+Der Bundesrath hat nachstehende Offiziere, welche Alters
+halber aus der Wehrpflicht entlassen zu werden wünschten oder
+auf deren fernere Dienstleistung nicht mehr reflektirt wurde, aus,
+der Wehrpflicht entlassen:
+Infanterie.
+Herr Schädler, Leonz, in Thun, Oberst.
+„ Mezener, Friedrich, in Bern, Oberstlieutenant.
+Artillerie.
+Herr Delarageaz, Louis, in Lausanne, Oberst.
+„ Rohr, Hans, in Aarau, Oberstlieutenant.
+„ Schluep, Johann, in Nidau, Major.
+„ Rohr, Rudolf, in Bern, „
+„ Roud, Adolf, in Villeneuve, „
+„ Comtesse, George, in Romainmotier, Hauptmann.
+„ Dangel, Othmar, in Luzern, „
+„ Bener, Christian, in Chur „
+„ Rochat, Louis, in Lausanne, Oberlieutenant.
+„ Castan, Mare, in Carouge, Lieutenant.
+Genie.
+Herr Huber, William, in Prémyes par Coppet, Oberstlieutenank
+„ Brocchi, Giovanni, in Turin, Oberlieutenant.
+Sanität.
+Herr Pasteur, Adolf, in Grand-Sacconex,
+„ Imobersteg, Friedrich, in Kirchlindach,
+Reber, Jakob, in Niederbipp,
+„ Brandstetter, Joseph, in Luzern,
+„ Rosenburger, Arnold, in Basel,
+Lorenz, Joseph Anton, in Aarau,
+„ Heußi, Emil, in Dielsdorf,
+„ Hüni, Robert, in Horgen,
+Hauptleute.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+208
+Herr Brunner, Salomon, in Riesbach,
+„ Müller, Johann, in Neunkirch,
+.„ Sulger, Kaspar, in Stein,
+„ Deucher, Adolf, in Frauen feld,
+„ Wichser, Jo%t, in Schwanden,
+„ Buoi, Paul, in Thusis,
+^ Lotti, Giov. Batt., in Bignasco,
+fl
+ Bedotti, Ernst, in. Darò,
+„ Gianella, Luigi, in Dongio,
+„ Bcrguer, Albert, in Yverdon,
+^ Chausson, Benjamin, in Gimel, '
+„ Rapin, Eugène, in Genf,
+„ Kaiser, Joseph, in Tavannes,
+„ Chevillât, Jean Bapt., in Porrentruy,
+fl
+ Reber, Edouard, in Courtelary,
+„ König, Emil, in Locle,
+fl
+ Favarger, Ernst, in Neuenburg, • Hauptleute.
+„ Bähler, Eduard, in Biel,
+„ Rüedi, Johann, in Bälterkinden,
+„ Marti, Adolf, in Bern,
+„ Kottmann, Joseph, in Kriens,
+.„ Stockmann, Melchior, in Surnen,
+fl
+ Reinert, Joseph, in Kerns,
+„ Hegglin, F. B., in Menzingen,
+„ Iselin, Johann, in Messen,
+„ Weiß, Franz Joseph, in Bözen,
+„ Schoch, Adolf, in Ohringen,
+„ Hegner, Reinhard, in Winterthur,
+„ Kistler, Ferdinand, in Reichenburg,
+„ Kälin, Arnold, in Einsiedeln,
+.„ Lang, Gotthilf, in Schaffhausen,
+„ Rusca, Valentino, in Blendrisio,
+„ Ruvioli, Lazzaro, in Ligornetto,
+^ Antonini, Michele, in Lugaggia, Oberlieutenant.
+„ Eigenmann, Jak. Ant.,»in Goßau, Lieutenant.
+„ Amberg, A. J., in Basel,
+ fl
+„ Rüggia, Giorgio, in Pura, „
+Veterinärpersonal.
+Herr Bieler, Samuel, in Lausanne, Major.
+„ Seiler, Johannes, in Ottenbach, Hauptmann.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+209
+Verwaltungstruppen.
+Herr Ernst, Fritz, in Lausanne, Major.
+„ Zellweger, Joh. Kaspar, in Trogen.
+„ Stumpf, Joh. Jakob, in Wolfenschwyl,
+,, Albrecht, August, in Romanshorn,
+„ Valloton, Alfred, in Vallorbes,
+Hauptleute.
+Schoch, Adolf, in Mühleberg,
+Zim merli, Emil, in Aarau,
+Corthésy, Louis, in Aigle, Oberlieutenant.
+Faillettaz, Samuel, in Lausanne,
+ fl
+Eberhardt, Gustav, in Bern, „
+Alters halber oder auf gestelltes Ansuchen hin sind nach-
+stehende Offiziere zur Landwehr versezt und wie folgt eingetheilt
+worden :
+Infanterie.
+Herr de Rougemont, Albert, in Paris, Oberstlieutenant.
+„ Zeerleder, Albert, in Bern, Hauptmann.
+^ von Linden, Hugo, in Bern, „
+Stabssekretäre.
+Herr Ducrest, Etienne, in Lausanne, Lieutenant.
+„ Bernoully, August, in Basel, Adjutant-Unteroffizier.
+Kavallerie.
+Herr Vischer, Karl, in Basel, Hauptmann.
+„ G-latz, Léon, in St. Immer, Oberlieutenant.
+Artillerie.
+Herr Amiguet, Louis, in Gryon,
+„ Meyer, Robert, in Herisau, Hauptleute.
+„ Waldvogel, Lorenz, m Uuterneuhaus,
+„ Ochs, Louis, in Bern,
+., Gnägi, Friedrich, in Zotingen.
+_ Reut, Jakob, in Kehlhof, Oberlieutenants.
+„ Stark, Julius, in Samaden,
+,, Rössel, Arnold, in Winterthur,
+„ Boßhard, Jakob, in Mühlberg, Lieutenant.
+Genie.
+Herr Perret, Louis, in Morges, l
+„ v. Grugelberg, Ulysses, in Mayenfeld, &gt; Hauptleute.
+„ Ladame, Henri, in Neuchâtel, J
+^ v. Wattenwyl, Ludwig, in Paris, Lieutenant.
+Bundesblatt. 29. Jahrg. Bd. L 16
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+210
+Sanität.
+Herr Monastier, Etienne, in Nyon,
+„ Hilt, Georg David, in Genf,
+„ Devrient, Theodor, in Genf,
+„ Reymond, August, in Yverdon,
+v Mœhiien, Jonathan, in Orbe,
+„ Piccard, Eugen, in Lausanne,
+„ Petavel, Josias, in Chêne-Bourg,
+„ Monnier, Alfred, in Crissier,
+fl
+ Mestral, Charles, in Begnins,
+„ Barde, August, in Genf,
+„ Python, Charles, in Freiburg,
+„ Bisig, Bartholom., in Bulle,
+„ Siffert, Peter, in Wallenbach,
+„ Anker, Adolf, in Fleurier,
+„ Perrenoud, Louis, in Chaux-de-Fonds,
+^ Christeler, Alfred, in Bern, in Bordighera,
+„ Stupnicki, Joseph, in Burgdorf,
+„ Howald, Rudolf, in Burgdorf,
+„ Burkhardt, Gottlieb, Waldau bei Bern,
+„ Meyer, Joseph, in Willisau,
+„ Heller, Julius, in Luzern,
+„ Müller, Adolf, in Sumiswald,
+„ Bühler, Friedrich, in Luzern,
+„ Röllin, J. P. in Châtel-St.-Denis,
+„ Bossart, Alois, in Hochdorf,
+„ Dolder, Joseph, in Münster,
+„ Bachmann, Gottlieb, in Reiden,
+„ Attenhofer, Heinrich, in Sursee,
+„ Schubiger, Ferdinand, in Solothurn,
+^ Vogel, Fridolin, in Leuggern,
+^ Bollag, Raphaël, in Lengnau,
+„ Hunziker, Johann, in Attelwyl,
+„ Mettauer, Franz Joseph, in Frick,
+y, Suter, Eugen, in Zofingen,
+„ Baur, Arnold, in Sarmenstorf,
+„ Bernoully, Wilhelm, in Basel,
+„ Schmid, Johann, in Kaiserstuhl,
+„ Lichtenhahn, Fritz, in Basel,
+„ Siegrist, Albert, in Basel,
+„ Stähelin, Alfred, in Aarau,
+„ <a class="high" href="#1" name="2" onclick="javascript:ResetNbOf(this);">Bärtschi</a>, Jakob, in Lenzburg,
+„ Rippmann, Theodor, in Sissaeh,
+Hauptleute.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+211
+Herr Schlatter, Rudolf, in Zurzach,
+„ Bleuler, Richard, in Neumünster,
+„ Wagner, Rudolf, in Albisbrunn,
+„ Berta, Balthasar, in Thayngen,
+„ Meyer, Anton, in Hallau,
+„ Billeter, Friedrich, in Enge bei Zürich,
+„ Birchler, Karl, in Einsiedeln,
+„ Walder, Gottfried, 'in Wezikon,
+„ Steiner, Anton, in Wollerau,
+„ Rebsamen, August, in Winterthur,
+„ Breiter, Wilhelm, in Andelfmgen,
+„ Bridler, Theodor, in Altnau,
+„ Curti, Ferdinand, in St. Gallen,
+„ Kürsteiner, J. Ulrich, in Gais,
+„ Netscher, Julius, in Eschlikon,
+„ Curti, Frz. Jos. Alfr., in Rappersweil,
+„ Müller, C. F. Th., in Kreuzungen,
+„ Eugster, Joseph, in Wattwyl,
+„ Keßler, Hermann, in St. Gallen,
+„ Looser, Julius, in Bischofszell,
+„ Grubenmann, Adolf, in St. Gallen,
+„ Rossi, Achille, in Echallens,
+„ Riedi, Franz, in Ilanz,
+„ Denz, Balthasar, in Churwalden,
+„ Paravicini, Emil, in Ennenda,
+„ Dulex, Jacques, in Vevey, "j
+•n Wj&, Julius, in Kreuzstraße, &gt;
+n
+ Andeer, Joh. Justus, in Basel, J
+Veterinärpersonal.
+Herr Verterli, Heinrich, in Frauenfeld,
+„ Nicod, Adrien, in Granges,
+„ Hägeli, Christian, in Hofstetten,
+^ Kunz, Karl, in Grandson,
+„ Fontanaz, Emil, in Montreux,
+„ Diezig, Franz, in Brig,
+„ Vollmar, Eduard, in Murten,
+„ Meuwly, Jean, in Montagny,
+„ Zbinden, Christian, in Couvet,
+„ Bouvier, Théobald, in St. Ursanne,
+„ Tradisci, Rudolf, in Rüeggisberg,
+„ Studer, Gottlieb, in Nods,
+„ Gj'üter, Adolf, in Willisau,
+„ Friedli, Wilhelm, in Wynigen,
+• Hauptleute,
+Oberlieutenants.
+&gt; Hauptleute.
+Oberlieutenants.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+212
+Herr Keller, Franz Jos., in Endingen,
+^ v. Däniken, Benedikt, in Kestenholz,
+„ Sigmund, Benjamin, in Basel,
+„ Seiler, Bernhard, in Bibern,
+„ Frey, Konrad, in Außersihl,
+„ Müller, Job. Heinrich, in Goßau,
+Verwaltungstruppen.
+Herr Zardetti, Rudolf, in Luzern,
+w
+ Rössel, Fritz, in Solothurn,
+„ Ott, Karl, in Winterthur,
+^ Burkhardt, August, in Basel,
+„ Delaz, Louis, in Romanel,
+„ Motta, Séverine, in Airolo,
+„ Troxler, Paul, in Münster,
+fl
+ Schalch, Emil, in Schaffhausen,
+„ Hirt, August, in Solothurn,
+^ Altherr, Emil, in Speicher,
+Schmid, Franz, m Altdorf,
+Raschle, Emil, in Wattwyl,
+Schenkej:, Bernhard, in Luzern,
+Kindler, Gottfried, in Bern,
+Agassiz, Henri, in Lausanne,
+Carey, Jules, in Genf,
+Kälin, Anton, in Einsiedeln,
+Kündig, Albert, in Pfäffikon,
+Krayer, Wilh., in Ariesheim,
+Biaggi, Jacques, in Lugano,
+Stäheli, Hermann, in Weinfelden,
+Giesker, Albert, in Oerlikon,
+Wackernagel, Gottfried, in Basel,
+Meyer, Rudolf, in Lenzburg,
+Brunner, Jakob, in Dießenhofen,
+Suter, Karl, in Horgen,
+Oberlieutenants.
+•n
+n
+•n
+•n
+Hauptleute.
+Oberlieutenamts.
+Lieutenants.
+Folgende Offiziere haben sich auf die infolge der Schluß-
+nahme des Bundesrathes vom 18. Dezember vorigen Jahres an
+sie gerichtete Einladung zu fernerer Dienstleistung bereit erklärt:
+Infanterie.
+Herr Bonnard, Emile, in Lausanne, Ì
+„ Künzli, Arnold, in Ryken, &gt; Obersten.
+„ Am Rhyn, Walter, in Luzern, j
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+213
+Herr de Reynold, Alfred, in Nonan,
+„ Bischoff, Wilhelm, in Basel,
+•n
+Mola, Pietro, in Coldrerio,
+Oberstlieutenants.
+_ Brunner, Wilhelm, in Bern,
+„ Hofer, Friedrich, in Bern,
+,, Schmidt, Rudolf, in Bern,
+„ Elgger, Karl, in Luzern, l
+ M(
+.
+„ Boissonas, Charles, in Genf, J
+ J
+Kavallerie.
+Herr Wegmann, Jb., in Erlenbach, Major.
+., Alexander, Joh., in Fideris, Ì
+ u
+ ,, ,
+l Melly, Alfred, in Genf, } Hauptleute.
+Artillerie.
+Herr Ceresole, Paul, in Lausanne, Oberst.
+„ Ruchonnet, Ernst, in Lausanne, Oberstlieutenant.
+„ Pfenninger, Joh., in Bern, Major.
+,. Bulliard, Nicolas, in Ecuvillens, l
+ u
+ ,•, ,
+l Adam, Paul, in Aarau, j Hauptleute.
+„ Boßhard, Heinrich, in Hottingen, Lieutenant.
+„ Baader, Gottlieb, in Bremgarten,
+„ wiucna, i oi,Gi, in uiaius, Hauütleute
+TiiilV^nr Ti^fiAnno in f-rp.nf ^ *
+fl
+ Moreillon, Louis, in Mimorey,
+Studer, Gottlieb, in Thun,
+Bauhofer, Gustav, in Aarau,
+Oberlieutenants.
+Genie.
+Herr Ott, Gottlieb, in Bern, Oberstlieutenant.
+„ Guillemin, Etienne, in Lausanne, Major.
+„ Moser, Robert, in Zürich, l „ , ,
+„ Bachofen, Wilhelm, in Basel, f
+ tìall
+P
+tleute
+-
+,, Bollinger, Jean, in Zürich, ) „, ,. , ,
+l Weber, Òtto, in Unterstraß, } Oberheutenants.
+., Meley, Arnold, in Bern, }
+,, Falconnet, Alexis, in Genf, \ Lieutenants.
+., Kramer, Gottlieb, in Zürich, J
+Sanitätstruppen.
+Herr Göldlin, Robert, in Luzern, Oberstlieutenant.
+„ de Stautz, Ernst, in Genf, Hauptmann.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+214
+Veterinärpersonal.
+Herr Felder, Xaver, in Schölz, Hauptmann.
+„ Pedroni, Const., in Mendrisio, Oberlieutenant.
+Verwaltungstruppen.
+Herr Wuilleret, Henri, in Freiburg, Oberstlieutenant.
+„ Siegwart, Franz, in Freiburg, Ì oberlieutenants
+„ Prince, Georges, in Neuchâtel, f
+„ Kneubühler, Emil, in Willisau. |
+ T
+. , ,
+•o A i, t T u • i? -i f Lieutenants.
+„ Boechat, Joseph, m Freiburg, J
+Herr Oberst Hertenstein in Winterthur wurde auf sein
+Verlangen als Kommandant der VI. Artillerie-Brigade entlassen
+und unter die in Art. 58 der Militärorganisation angeführten Of-
+fiziere versezt.
+Ferner wurde Herr Major D o x a t in Lausanne, Kommandan t
+des Divisionsparks H, von seinem Kommando enthoben und bis
+auf Weiteres zur Disposition gestellt.
+(Vom 2. Februar 1877.J
+Hr. Joseph Ackermann, in Solothurn, Oberstlieutenant der
+Sanitätstruppen, ist auf sein Gesuch hin aus dem Militärdienste
+entlassen worden, in allen Ehren und unter Verdankung der
+geleisteten Dienste.
+(Vom 7. Februar 1877.)
+Der Bundesrath hat das Kommando der IV. Armeedivision dem
+Hrn. Oberst der Infanterie Joh. Kottmann, von Solothurn, und
+das Kommando der VHI. Division dem Hrn. Oberst der Infanterie
+Alphons Pfyffer, von Luzern, übertragen.
+Der Bundesrath hat beschlossen, den Postkurs Bischofszell-
+Wyl wegen seines geringen Erträgnisses auf 31. März nächst-
+künftig aufzuheben und denselben, so weit nöthig, durch geeignete
+Fußbotendienste zu ersezen.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+215
+(Vom 9. Februar 1877.)
+Der Bundesrath hat mit Rüksicht auf die bedeutende Geschäfts-
+vermehrung auf dem Postbureau Frauenfeld beschlossen: es sei
+für dieses Bureau eine dritte Kommisstelle auf 1. April nächstkünftig
+zu errichten.
+Der Bundesrath hat gewählt:
+(am 7. Februar 1877)
+als Einnehmer der Hauptzollstätte
+Chiasso-Straße : Hrn. Carlo Bernasconi, von Ma-
+gadino, Gehilfe bei der Zoll-
+direktion Lugano ;
+„ Kontroleur bei dieser Zollstätte : „ Benigno Bernasconi, von
+Chiasso (Tessin), bisher Ge-
+hilfe daselbst;
+(am 9. Februar 1877)
+als Posthalter in Nebikon : Hrn. Josef Birrer, von u. in Nebikon
+(Luzern), Sohn des daselbst ver-
+storbenen Posthalters ;
+„ Postkommis in Lausanne:
+ fl
+ Louis Zwissig, von u. in Siders
+(Wallis), Postkommis daselbst.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+-->
+            <pre>Aus den Verhandlunge n des Schweiz. Bundesrathes..
+(Vom 24. Januar 1877.)
+Der Bundesrath hat nachstehende Offiziere, welche Alters
+halber aus der Wehrpflicht entlassen zu werden wünschten oder
+auf deren fernere Dienstleistung nicht mehr reflektirt wurde, aus,
+der Wehrpflicht entlassen:
+Infanterie.
+Herr Schädler, Leonz, in Thun, Oberst.
+„ Mezener, Friedrich, in Bern, Oberstlieutenant.
+Artillerie.
+Herr Delarageaz, Louis, in Lausanne, Oberst.
+„ Rohr, Hans, in Aarau, Oberstlieutenant.
+„ Schluep, Johann, in Nidau, Major.
+„ Rohr, Rudolf, in Bern, „
+„ Roud, Adolf, in Villeneuve, „
+„ Comtesse, George, in Romainmotier, Hauptmann.
+„ Dangel, Othmar, in Luzern, „
+„ Bener, Christian, in Chur „
+„ Rochat, Louis, in Lausanne, Oberlieutenant.
+„ Castan, Mare, in Carouge, Lieutenant.
+Genie.
+Herr Huber, William, in Prémyes par Coppet, Oberstlieutenank
+„ Brocchi, Giovanni, in Turin, Oberlieutenant.
+Sanität.
+Herr Pasteur, Adolf, in Grand-Sacconex,
+„ Imobersteg, Friedrich, in Kirchlindach,
+Reber, Jakob, in Niederbipp,
+„ Brandstetter, Joseph, in Luzern,
+„ Rosenburger, Arnold, in Basel,
+Lorenz, Joseph Anton, in Aarau,
+„ Heußi, Emil, in Dielsdorf,
+„ Hüni, Robert, in Horgen,
+Hauptleute.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=1" target="_blank" shape="rect"><img alt="Seite 1 / Page 1" src="images/icons/c_launch_pdf.gif" border="0"/>(1)</a></div>
+
+208
+Herr Brunner, Salomon, in Riesbach,
+„ Müller, Johann, in Neunkirch,
+.„ Sulger, Kaspar, in Stein,
+„ Deucher, Adolf, in Frauen feld,
+„ Wichser, Jo%t, in Schwanden,
+„ Buoi, Paul, in Thusis,
+^ Lotti, Giov. Batt., in Bignasco,
+fl
+ Bedotti, Ernst, in. Darò,
+„ Gianella, Luigi, in Dongio,
+„ Bcrguer, Albert, in Yverdon,
+^ Chausson, Benjamin, in Gimel, '
+„ Rapin, Eugène, in Genf,
+„ Kaiser, Joseph, in Tavannes,
+„ Chevillât, Jean Bapt., in Porrentruy,
+fl
+ Reber, Edouard, in Courtelary,
+„ König, Emil, in Locle,
+fl
+ Favarger, Ernst, in Neuenburg, • Hauptleute.
+„ Bähler, Eduard, in Biel,
+„ Rüedi, Johann, in Bälterkinden,
+„ Marti, Adolf, in Bern,
+„ Kottmann, Joseph, in Kriens,
+.„ Stockmann, Melchior, in Surnen,
+fl
+ Reinert, Joseph, in Kerns,
+„ Hegglin, F. B., in Menzingen,
+„ Iselin, Johann, in Messen,
+„ Weiß, Franz Joseph, in Bözen,
+„ Schoch, Adolf, in Ohringen,
+„ Hegner, Reinhard, in Winterthur,
+„ Kistler, Ferdinand, in Reichenburg,
+„ Kälin, Arnold, in Einsiedeln,
+.„ Lang, Gotthilf, in Schaffhausen,
+„ Rusca, Valentino, in Blendrisio,
+„ Ruvioli, Lazzaro, in Ligornetto,
+^ Antonini, Michele, in Lugaggia, Oberlieutenant.
+„ Eigenmann, Jak. Ant.,»in Goßau, Lieutenant.
+„ Amberg, A. J., in Basel,
+ fl
+„ Rüggia, Giorgio, in Pura, „
+Veterinärpersonal.
+Herr Bieler, Samuel, in Lausanne, Major.
+„ Seiler, Johannes, in Ottenbach, Hauptmann.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=2" target="_blank" shape="rect"><img alt="Seite 2 / Page 2" src="images/icons/c_launch_pdf.gif" border="0"/>(2)</a></div>
+
+209
+Verwaltungstruppen.
+Herr Ernst, Fritz, in Lausanne, Major.
+„ Zellweger, Joh. Kaspar, in Trogen.
+„ Stumpf, Joh. Jakob, in Wolfenschwyl,
+,, Albrecht, August, in Romanshorn,
+„ Valloton, Alfred, in Vallorbes,
+Hauptleute.
+Schoch, Adolf, in Mühleberg,
+Zim merli, Emil, in Aarau,
+Corthésy, Louis, in Aigle, Oberlieutenant.
+Faillettaz, Samuel, in Lausanne,
+ fl
+Eberhardt, Gustav, in Bern, „
+Alters halber oder auf gestelltes Ansuchen hin sind nach-
+stehende Offiziere zur Landwehr versezt und wie folgt eingetheilt
+worden :
+Infanterie.
+Herr de Rougemont, Albert, in Paris, Oberstlieutenant.
+„ Zeerleder, Albert, in Bern, Hauptmann.
+^ von Linden, Hugo, in Bern, „
+Stabssekretäre.
+Herr Ducrest, Etienne, in Lausanne, Lieutenant.
+„ Bernoully, August, in Basel, Adjutant-Unteroffizier.
+Kavallerie.
+Herr Vischer, Karl, in Basel, Hauptmann.
+„ G-latz, Léon, in St. Immer, Oberlieutenant.
+Artillerie.
+Herr Amiguet, Louis, in Gryon,
+„ Meyer, Robert, in Herisau, Hauptleute.
+„ Waldvogel, Lorenz, m Uuterneuhaus,
+„ Ochs, Louis, in Bern,
+., Gnägi, Friedrich, in Zotingen.
+_ Reut, Jakob, in Kehlhof, Oberlieutenants.
+„ Stark, Julius, in Samaden,
+,, Rössel, Arnold, in Winterthur,
+„ Boßhard, Jakob, in Mühlberg, Lieutenant.
+Genie.
+Herr Perret, Louis, in Morges, l
+„ v. Grugelberg, Ulysses, in Mayenfeld, &gt; Hauptleute.
+„ Ladame, Henri, in Neuchâtel, J
+^ v. Wattenwyl, Ludwig, in Paris, Lieutenant.
+Bundesblatt. 29. Jahrg. Bd. L 16
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=3" target="_blank" shape="rect"><img alt="Seite 3 / Page 3" src="images/icons/c_launch_pdf.gif" border="0"/>(3)</a></div>
+
+210
+Sanität.
+Herr Monastier, Etienne, in Nyon,
+„ Hilt, Georg David, in Genf,
+„ Devrient, Theodor, in Genf,
+„ Reymond, August, in Yverdon,
+v Mœhiien, Jonathan, in Orbe,
+„ Piccard, Eugen, in Lausanne,
+„ Petavel, Josias, in Chêne-Bourg,
+„ Monnier, Alfred, in Crissier,
+fl
+ Mestral, Charles, in Begnins,
+„ Barde, August, in Genf,
+„ Python, Charles, in Freiburg,
+„ Bisig, Bartholom., in Bulle,
+„ Siffert, Peter, in Wallenbach,
+„ Anker, Adolf, in Fleurier,
+„ Perrenoud, Louis, in Chaux-de-Fonds,
+^ Christeler, Alfred, in Bern, in Bordighera,
+„ Stupnicki, Joseph, in Burgdorf,
+„ Howald, Rudolf, in Burgdorf,
+„ Burkhardt, Gottlieb, Waldau bei Bern,
+„ Meyer, Joseph, in Willisau,
+„ Heller, Julius, in Luzern,
+„ Müller, Adolf, in Sumiswald,
+„ Bühler, Friedrich, in Luzern,
+„ Röllin, J. P. in Châtel-St.-Denis,
+„ Bossart, Alois, in Hochdorf,
+„ Dolder, Joseph, in Münster,
+„ Bachmann, Gottlieb, in Reiden,
+„ Attenhofer, Heinrich, in Sursee,
+„ Schubiger, Ferdinand, in Solothurn,
+^ Vogel, Fridolin, in Leuggern,
+^ Bollag, Raphaël, in Lengnau,
+„ Hunziker, Johann, in Attelwyl,
+„ Mettauer, Franz Joseph, in Frick,
+y, Suter, Eugen, in Zofingen,
+„ Baur, Arnold, in Sarmenstorf,
+„ Bernoully, Wilhelm, in Basel,
+„ Schmid, Johann, in Kaiserstuhl,
+„ Lichtenhahn, Fritz, in Basel,
+„ Siegrist, Albert, in Basel,
+„ Stähelin, Alfred, in Aarau,
+„ <a class="high" href="#1" name="2" onclick="javascript:ResetNbOf(this);">Bärtschi</a>, Jakob, in Lenzburg,
+„ Rippmann, Theodor, in Sissaeh,
+Hauptleute.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=4" target="_blank" shape="rect"><img alt="Seite 4 / Page 4" src="images/icons/c_launch_pdf.gif" border="0"/>(4)</a></div>
+
+211
+Herr Schlatter, Rudolf, in Zurzach,
+„ Bleuler, Richard, in Neumünster,
+„ Wagner, Rudolf, in Albisbrunn,
+„ Berta, Balthasar, in Thayngen,
+„ Meyer, Anton, in Hallau,
+„ Billeter, Friedrich, in Enge bei Zürich,
+„ Birchler, Karl, in Einsiedeln,
+„ Walder, Gottfried, 'in Wezikon,
+„ Steiner, Anton, in Wollerau,
+„ Rebsamen, August, in Winterthur,
+„ Breiter, Wilhelm, in Andelfmgen,
+„ Bridler, Theodor, in Altnau,
+„ Curti, Ferdinand, in St. Gallen,
+„ Kürsteiner, J. Ulrich, in Gais,
+„ Netscher, Julius, in Eschlikon,
+„ Curti, Frz. Jos. Alfr., in Rappersweil,
+„ Müller, C. F. Th., in Kreuzungen,
+„ Eugster, Joseph, in Wattwyl,
+„ Keßler, Hermann, in St. Gallen,
+„ Looser, Julius, in Bischofszell,
+„ Grubenmann, Adolf, in St. Gallen,
+„ Rossi, Achille, in Echallens,
+„ Riedi, Franz, in Ilanz,
+„ Denz, Balthasar, in Churwalden,
+„ Paravicini, Emil, in Ennenda,
+„ Dulex, Jacques, in Vevey, "j
+•n Wj&, Julius, in Kreuzstraße, &gt;
+n
+ Andeer, Joh. Justus, in Basel, J
+Veterinärpersonal.
+Herr Verterli, Heinrich, in Frauenfeld,
+„ Nicod, Adrien, in Granges,
+„ Hägeli, Christian, in Hofstetten,
+^ Kunz, Karl, in Grandson,
+„ Fontanaz, Emil, in Montreux,
+„ Diezig, Franz, in Brig,
+„ Vollmar, Eduard, in Murten,
+„ Meuwly, Jean, in Montagny,
+„ Zbinden, Christian, in Couvet,
+„ Bouvier, Théobald, in St. Ursanne,
+„ Tradisci, Rudolf, in Rüeggisberg,
+„ Studer, Gottlieb, in Nods,
+„ Gj'üter, Adolf, in Willisau,
+„ Friedli, Wilhelm, in Wynigen,
+• Hauptleute,
+Oberlieutenants.
+&gt; Hauptleute.
+Oberlieutenants.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=5" target="_blank" shape="rect"><img alt="Seite 5 / Page 5" src="images/icons/c_launch_pdf.gif" border="0"/>(5)</a></div>
+
+212
+Herr Keller, Franz Jos., in Endingen,
+^ v. Däniken, Benedikt, in Kestenholz,
+„ Sigmund, Benjamin, in Basel,
+„ Seiler, Bernhard, in Bibern,
+„ Frey, Konrad, in Außersihl,
+„ Müller, Job. Heinrich, in Goßau,
+Verwaltungstruppen.
+Herr Zardetti, Rudolf, in Luzern,
+w
+ Rössel, Fritz, in Solothurn,
+„ Ott, Karl, in Winterthur,
+^ Burkhardt, August, in Basel,
+„ Delaz, Louis, in Romanel,
+„ Motta, Séverine, in Airolo,
+„ Troxler, Paul, in Münster,
+fl
+ Schalch, Emil, in Schaffhausen,
+„ Hirt, August, in Solothurn,
+^ Altherr, Emil, in Speicher,
+Schmid, Franz, m Altdorf,
+Raschle, Emil, in Wattwyl,
+Schenkej:, Bernhard, in Luzern,
+Kindler, Gottfried, in Bern,
+Agassiz, Henri, in Lausanne,
+Carey, Jules, in Genf,
+Kälin, Anton, in Einsiedeln,
+Kündig, Albert, in Pfäffikon,
+Krayer, Wilh., in Ariesheim,
+Biaggi, Jacques, in Lugano,
+Stäheli, Hermann, in Weinfelden,
+Giesker, Albert, in Oerlikon,
+Wackernagel, Gottfried, in Basel,
+Meyer, Rudolf, in Lenzburg,
+Brunner, Jakob, in Dießenhofen,
+Suter, Karl, in Horgen,
+Oberlieutenants.
+•n
+n
+•n
+•n
+Hauptleute.
+Oberlieutenamts.
+Lieutenants.
+Folgende Offiziere haben sich auf die infolge der Schluß-
+nahme des Bundesrathes vom 18. Dezember vorigen Jahres an
+sie gerichtete Einladung zu fernerer Dienstleistung bereit erklärt:
+Infanterie.
+Herr Bonnard, Emile, in Lausanne, Ì
+„ Künzli, Arnold, in Ryken, &gt; Obersten.
+„ Am Rhyn, Walter, in Luzern, j
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=6" target="_blank" shape="rect"><img alt="Seite 6 / Page 6" src="images/icons/c_launch_pdf.gif" border="0"/>(6)</a></div>
+
+213
+Herr de Reynold, Alfred, in Nonan,
+„ Bischoff, Wilhelm, in Basel,
+•n
+Mola, Pietro, in Coldrerio,
+Oberstlieutenants.
+_ Brunner, Wilhelm, in Bern,
+„ Hofer, Friedrich, in Bern,
+,, Schmidt, Rudolf, in Bern,
+„ Elgger, Karl, in Luzern, l
+ M(
+.
+„ Boissonas, Charles, in Genf, J
+ J
+Kavallerie.
+Herr Wegmann, Jb., in Erlenbach, Major.
+., Alexander, Joh., in Fideris, Ì
+ u
+ ,, ,
+l Melly, Alfred, in Genf, } Hauptleute.
+Artillerie.
+Herr Ceresole, Paul, in Lausanne, Oberst.
+„ Ruchonnet, Ernst, in Lausanne, Oberstlieutenant.
+„ Pfenninger, Joh., in Bern, Major.
+,. Bulliard, Nicolas, in Ecuvillens, l
+ u
+ ,•, ,
+l Adam, Paul, in Aarau, j Hauptleute.
+„ Boßhard, Heinrich, in Hottingen, Lieutenant.
+„ Baader, Gottlieb, in Bremgarten,
+„ wiucna, i oi,Gi, in uiaius, Hauütleute
+TiiilV^nr Ti^fiAnno in f-rp.nf ^ *
+fl
+ Moreillon, Louis, in Mimorey,
+Studer, Gottlieb, in Thun,
+Bauhofer, Gustav, in Aarau,
+Oberlieutenants.
+Genie.
+Herr Ott, Gottlieb, in Bern, Oberstlieutenant.
+„ Guillemin, Etienne, in Lausanne, Major.
+„ Moser, Robert, in Zürich, l „ , ,
+„ Bachofen, Wilhelm, in Basel, f
+ tìall
+P
+tleute
+-
+,, Bollinger, Jean, in Zürich, ) „, ,. , ,
+l Weber, Òtto, in Unterstraß, } Oberheutenants.
+., Meley, Arnold, in Bern, }
+,, Falconnet, Alexis, in Genf, \ Lieutenants.
+., Kramer, Gottlieb, in Zürich, J
+Sanitätstruppen.
+Herr Göldlin, Robert, in Luzern, Oberstlieutenant.
+„ de Stautz, Ernst, in Genf, Hauptmann.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=7" target="_blank" shape="rect"><img alt="Seite 7 / Page 7" src="images/icons/c_launch_pdf.gif" border="0"/>(7)</a></div>
+
+214
+Veterinärpersonal.
+Herr Felder, Xaver, in Schölz, Hauptmann.
+„ Pedroni, Const., in Mendrisio, Oberlieutenant.
+Verwaltungstruppen.
+Herr Wuilleret, Henri, in Freiburg, Oberstlieutenant.
+„ Siegwart, Franz, in Freiburg, Ì oberlieutenants
+„ Prince, Georges, in Neuchâtel, f
+„ Kneubühler, Emil, in Willisau. |
+ T
+. , ,
+•o A i, t T u • i? -i f Lieutenants.
+„ Boechat, Joseph, m Freiburg, J
+Herr Oberst Hertenstein in Winterthur wurde auf sein
+Verlangen als Kommandant der VI. Artillerie-Brigade entlassen
+und unter die in Art. 58 der Militärorganisation angeführten Of-
+fiziere versezt.
+Ferner wurde Herr Major D o x a t in Lausanne, Kommandan t
+des Divisionsparks H, von seinem Kommando enthoben und bis
+auf Weiteres zur Disposition gestellt.
+(Vom 2. Februar 1877.J
+Hr. Joseph Ackermann, in Solothurn, Oberstlieutenant der
+Sanitätstruppen, ist auf sein Gesuch hin aus dem Militärdienste
+entlassen worden, in allen Ehren und unter Verdankung der
+geleisteten Dienste.
+(Vom 7. Februar 1877.)
+Der Bundesrath hat das Kommando der IV. Armeedivision dem
+Hrn. Oberst der Infanterie Joh. Kottmann, von Solothurn, und
+das Kommando der VHI. Division dem Hrn. Oberst der Infanterie
+Alphons Pfyffer, von Luzern, übertragen.
+Der Bundesrath hat beschlossen, den Postkurs Bischofszell-
+Wyl wegen seines geringen Erträgnisses auf 31. März nächst-
+künftig aufzuheben und denselben, so weit nöthig, durch geeignete
+Fußbotendienste zu ersezen.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=8" target="_blank" shape="rect"><img alt="Seite 8 / Page 8" src="images/icons/c_launch_pdf.gif" border="0"/>(8)</a></div>
+
+215
+(Vom 9. Februar 1877.)
+Der Bundesrath hat mit Rüksicht auf die bedeutende Geschäfts-
+vermehrung auf dem Postbureau Frauenfeld beschlossen: es sei
+für dieses Bureau eine dritte Kommisstelle auf 1. April nächstkünftig
+zu errichten.
+Der Bundesrath hat gewählt:
+(am 7. Februar 1877)
+als Einnehmer der Hauptzollstätte
+Chiasso-Straße : Hrn. Carlo Bernasconi, von Ma-
+gadino, Gehilfe bei der Zoll-
+direktion Lugano ;
+„ Kontroleur bei dieser Zollstätte : „ Benigno Bernasconi, von
+Chiasso (Tessin), bisher Ge-
+hilfe daselbst;
+(am 9. Februar 1877)
+als Posthalter in Nebikon : Hrn. Josef Birrer, von u. in Nebikon
+(Luzern), Sohn des daselbst ver-
+storbenen Posthalters ;
+„ Postkommis in Lausanne:
+ fl
+ Louis Zwissig, von u. in Siders
+(Wallis), Postkommis daselbst.
+<div class="pageDoc"><a href="viewOrigDoc/10009436.pdf?id=10009436&page=9" target="_blank" shape="rect"><img alt="Seite 9 / Page 9" src="images/icons/c_launch_pdf.gif" border="0"/>(9)</a></div>
+
+<!--highlightedDoc-->  
+            </pre>
+        </div>   
+        <script language="JavaScript">
+            //window.location.hash="resultlist"; 
+            //or
+            //BestHit();
+            BestHit();
+        </script>
+    </body>                                                                         
+</html>
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Schweizerisches Bundesarchiv (BAR)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/de/start/rechtliches.html">Rechtliches</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+//window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

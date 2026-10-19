@@ -1,0 +1,316 @@
+{
+ "id": "22383404",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22383404",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383404",
+  "reference_code": "J2.225#2007/195#229#3*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Ausweisung 60000 Asiaten aus Uganda",
+   "old_reference_code": "Original Signatur: RSSFDRS 9501633\nSignatur Bundesarchiv: J2.225#2007/195#120*",
+   "scope_and_content": "Inhaltsangabe: Uganda Kampala: Auswirkung des Beschlusses der Ausweisung von Asiaten, Indern, Pakistanern und Menschen aus Bangladesch\nProduktionstyp: Einkauf\nSequenzbeschrieb: Uganda Kampala: Asiaten-Warteschlange vor GB-Botschaft / britischer Botschaftsangestellter mit Asiaten sprechend / Asiaten in Visaabteilung sich registrierend / Statement °Asiaten / Auto-Abfahrt britischer Botschafter / P Idi Amin und Anhänger händeschüttelnd / Militärkommandanten zusammenstehend / Offizielle Coca-Cola aus Flasche trinkend / Staats-Besuch P Jean Bédel Bokassa / Bokassa und Amin Nationalhymne anhörend / Bokassa Band durchschneidend / Bokassa Street Stein / anti-°Asiaten Rede Amin / AA Schwenk Handels- und Industrieministerium und davor wartende °Asiaten / Asiaten Übereignungsformulare abgebend / Statement afrikanischer °Käufer / AA °Asiaten-Laden / Strassenszenen mit Asiaten-Indern / Ausverkaufs-Plakat an indischem Geschäft / schwarze Afrikaner in °Asiaten-Textilladen einkaufend / afrikanische Schwarze mit maschinell und manuell nähend in Schneiderei / Asiaten im Club Dart und Karten spielend / Asiaten an Fluggesellschafts-Schaltern Tickets kaufend / Verlad Luftfracht / Abreise asiatischer Familien",
+   "author": "AutorIn: Fröhder, Christoph Maria: AUT\nProduktion: Fröhder Christoph Maria",
+   "form": "Video",
+   "format": "Dauer: 00.11.40\nStartposition: 10:10:31\nTräger: Beta IMX",
+   "thema": "Personen: Bokassa, Jean Bédel:\nSachdeskriptor: /MENSCH./AUSLÄNDER/AUSLÄNDERAUSWEISUNG",
+   "date": {
+    "from": "1972-09-13",
+    "to": null,
+    "expressed": "1972.09.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4027437",
+     "number": "2007/195",
+     "title": "2007/00195 Schweizer Fernsehen DRS (Z�rich) (1968-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by Swiss television as a news report documenting events as they unfolded.",
+  "resume": "This Swiss TV news report from September 1972 documents the expulsion of Asians from Uganda under President Idi Amin, showing scenes of visa applications, the visit of Central African President Jean-Bédel Bokassa, and the economic takeover of Asian-owned businesses by Ugandans."
+ },
+ "metadata": {
+  "title": "Ausweisung 60000 Asiaten aus Uganda",
+  "title_normalized": "Ausweisung 60000 Asiaten aus Uganda",
+  "title_en": "Expulsion of 60,000 Asians from Uganda",
+  "creator": "Fröhder, Christoph Maria",
+  "publisher": "Schweizer Fernsehen DRS",
+  "commissioner": null,
+  "date_created": "1972-09-13",
+  "date_published": "1972-09-13",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1972-09-13",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Uganda",
+   "expulsion",
+   "Asians",
+   "Idi Amin",
+   "Jean-Bédel Bokassa"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1968-1975 SFDRS",
+   "Rundschau SFDRS 1972",
+   "Rundschau SFDRS 13.09.1972"
+  ],
+  "reference_code": "J2.225#2007/195#229#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383404",
+  "accession_numbers": [
+   "2007/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Bokassa, Jean Bédel",
+    "display_name": "Jean Bédel Bokassa",
+    "role": "Central African President, depicted visiting Uganda",
+    "wikidata": {
+     "qid": "Q162708",
+     "label": "Jean-Bedel Bokassa",
+     "description": "2nd president (1966–76) and emperor (r. 1976–79) of the Central African Republic",
+     "url": "https://www.wikidata.org/wiki/Q162708"
+    }
+   },
+   {
+    "name": "Amin",
+    "display_name": "Amin",
+    "role": "President of Uganda, depicted giving anti-Asian speech",
+    "wikidata": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Kampala",
+    "as_written": "Uganda Kampala",
+    "role": "depicted",
+    "country": "UG",
+    "lat": 0.3177137,
+    "lon": 32.5813539,
+    "gazetteer": "https://www.openstreetmap.org/relation/10546821",
+    "model_lat": 0.3162,
+    "model_lon": 32.5822
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1968-1975)\"}]; uppercase or abbreviated title (apertus): title: \"Ausweisung 60000 Asiaten aus Uganda\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content: \"Inhaltsangabe: … Sequenzbeschrieb: …\"",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author: \"AutorIn: Fröhder, Christoph Maria: AUT\nProduktion: Fröhder Christoph Maria\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): thema: \"Personen: Bokassa, Jean Bédel:\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1972.09.13\"; free text places (apertus): scope_and_content: \"Uganda Kampala: …\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): thema: \"/MENSCH./AUSLÄNDER/AUSLÄNDERAUSWEISUNG\"",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1968-1975)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Ausweisung 60000 Asiaten aus Uganda\""
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content: \"Inhaltsangabe: … Sequenzbeschrieb: …\""
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author: \"AutorIn: Fröhder, Christoph Maria: AUT\nProduktion: Fröhder Christoph Maria\""
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: \"1972.09.13\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: \"Uganda Kampala: …\""
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: \"Personen: Bokassa, Jean Bédel:\""
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: \"/MENSCH./AUSLÄNDER/AUSLÄNDERAUSWEISUNG\""
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "high",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains personal data related to forced expulsion of specific ethnic groups and political figures."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1972-09-13",
+   "place": "Kampala, Uganda",
+   "lat": 0.3177137,
+   "lon": 32.5813539,
+   "description": "Swiss TV crew filmed scenes of the expulsion of Asians from Uganda",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1972-09-13",
+   "place": "Kampala",
+   "lat": 0.3177137,
+   "lon": 32.5813539,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/195#229#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4986,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

@@ -1,0 +1,290 @@
+{
+ "id": "7767943",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/7767943",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7767943",
+  "reference_code": "E2200.52-04#1000/614#1*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Aktenverzeichnis (Verzeichnis über alle eröffneten Dossiers)",
+   "reference_number": "0",
+   "country": "Vereinigte Staaten von Amerika",
+   "date": {
+    "from": "1935-01-01",
+    "to": "1935-12-31",
+    "expressed": "1935-1935"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/10923",
+     "number": "1000/614",
+     "title": "1000/00614 Schweizerische Vertretung, New York (US-New York) (1935-1940)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a file index created by the Swiss representation in New York in 1935 to locate opened dossiers within the central filing system.",
+  "resume": "This is an index (Aktenverzeichnis) listing all opened dossiers within the central filing of the Swiss representation in New York for the year 1935. It serves as an administrative register of correspondence and files rather than containing the documents themselves. The record provides an overview of the organizational structure and scope of the Swiss diplomatic mission's documentation in New York during that year."
+ },
+ "metadata": {
+  "title": "Aktenverzeichnis (Verzeichnis über alle eröffneten Dossiers)",
+  "title_normalized": "Aktenverzeichnis (Verzeichnis über alle eröffneten Dossiers)",
+  "title_en": "Index of files (list of all opened dossiers)",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1935/1935",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administration",
+   "diplomacy",
+   "Swiss foreign representation",
+   "New York",
+   "1935"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Vertretung, New York (1822-)",
+  "fonds_reference": "E10657*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Vertretung, New York (1822-)",
+   "Schweizerische Vertretung, New York: Zentrale Ablage (1842-1953)",
+   "Akten, Korrespondenz und Indices"
+  ],
+  "reference_code": "E2200.52-04#1000/614#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7767943",
+  "accession_numbers": [
+   "1000/614"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, New York",
+    "role": "Depositor of the archival holdings indexed",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "New York",
+    "as_written": "New York",
+    "role": "depicted",
+    "country": "US",
+    "lat": 40.7127281,
+    "lon": -74.0060152,
+    "gazetteer": "https://www.openstreetmap.org/relation/175905",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): country = \"Vereinigte Staaten von Amerika\" and accessions[0].title contains \"Schweizerische Vertretung, New York\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1935-1935\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed = \"1935-1935\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "country = \"Vereinigte Staaten von Amerika\" and accessions[0].title contains \"Schweizerische Vertretung, New York\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable natural persons are named; no sensitive personal data is present."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "New York",
+   "lat": 40.7127281,
+   "lon": -74.0060152,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/614 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2200.52-04#1000/614#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4579,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "31042956",
+ "uri": "https://culture.ld.admin.ch/ais/31042956",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042956",
+ "title": "2013.9001: Mitteilungen des Präsidenten / Communications du président",
+ "reference_code": "E1401#2017/316#7#3*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2013-09-18",
+  "to": null,
+  "expressed": "2013.09.18"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/31039106",
+   "number": "2017/316",
+   "title": "2017/00316 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31042953",
+   "title": "7. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1401#2017/316#7*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31042890",
+   "title": "Herbstsession 2013",
+   "level": "Serie",
+   "reference_code": "E1401#1.5-49-08"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30936554",
+   "title": "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "level": "Serie",
+   "reference_code": "E1401#1.5-49"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6737716",
+   "title": "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "level": "Serie",
+   "reference_code": "E1401#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992534",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1401#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6851",
+   "title": "Ständerat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1401*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6848",
+   "title": "Ständerat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10827*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

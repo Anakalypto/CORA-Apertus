@@ -1,0 +1,309 @@
+{
+ "id": "29745096",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29745096",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29745096",
+  "reference_code": "J1.107#2012/140#202*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Zeitungsartikel aus der Volksstimme St. Gallen vom 26.03.1936: \"Das sagt der Propagandachef der Schweizerischen Offiziersgesellschaft\" und zwei weitere Artikel",
+   "reference_number": "60",
+   "date": {
+    "from": "1936-01-01",
+    "to": null,
+    "expressed": "1936"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/29343559",
+     "number": "2012/140",
+     "title": "2012/00140 Hausamann, Torsten (Teufen) (1922-1974)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit consists of historical newspaper clippings related to the Swiss Officers' Society, not an administrative file or finding aid.",
+  "resume": "The record contains a newspaper article from the St. Gallen edition of Volksstimme dated March 26, 1936, featuring an interview with the propaganda chief of the Swiss Officers' Society and two additional articles. It documents the public statements and activities of the Swiss Officers' Society during the interwar period. The article was published in a regional newspaper."
+ },
+ "metadata": {
+  "title": "Zeitungsartikel aus der Volksstimme St. Gallen vom 26.03.1936: \"Das sagt der Propagandachef der Schweizerischen Offiziersgesellschaft\" und zwei weitere Artikel",
+  "title_normalized": "Zeitungsartikel aus der Volksstimme St. Gallen vom 26.03.1936: \"Das sagt der Propagandachef der Schweizerischen Offiziersgesellschaft\" und zwei weitere Artikel",
+  "title_en": "Newspaper article from the St. Gallen edition of Volksstimme dated March 26, 1936: \"This is what the propaganda chief of the Swiss Officers' Society says\" and two additional articles",
+  "creator": null,
+  "publisher": "Volksstimme (St. Gallen edition)",
+  "commissioner": null,
+  "date_created": "1936-03-26",
+  "date_published": "1936-03-26",
+  "date_updated": null,
+  "date_archived": "2012",
+  "content_date": "1936",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Officers' Society",
+   "propaganda",
+   "interwar period",
+   "St. Gallen",
+   "newspaper"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Hausamann Hans (1897-1974)",
+  "fonds_reference": "J1.107*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Hausamann Hans (1897-1974)",
+   "Diverse Tätigkeiten",
+   "Schweizerische Offiziersgesellschaft (SOG)"
+  ],
+  "reference_code": "J1.107#2012/140#202*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29745096",
+  "accession_numbers": [
+   "2012/140"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Propagandachef der Schweizerischen Offiziersgesellschaft",
+    "display_name": "Propagandachef der Schweizerischen Offiziersgesellschaft",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizerische Offiziersgesellschaft",
+    "role": "subject of the interview",
+    "wikidata": {
+     "qid": "Q2256552",
+     "label": "Swiss Officers Association",
+     "description": null,
+     "url": "https://www.wikidata.org/wiki/Q2256552"
+    }
+   },
+   {
+    "name": "Volksstimme (St. Gallen edition)",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "St. Gallen",
+    "as_written": "St. Gallen",
+    "role": "published",
+    "country": "CH",
+    "lat": 47.425618,
+    "lon": 9.3762397,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683941",
+    "model_lat": 47.42,
+    "model_lon": 9.4
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title contains \"Zeitungsartikel ...\" in mixed case but \"Schweizerischen Offiziersgesellschaft\" is proper noun; however, overall title is not fully uppercase or cryptic abbreviation",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): accessions[0].title contains \"Hausamann, Torsten (Teufen) (1922-1974)\"; named organizations or places (apertus): hierarchy_top_down contains \"Schweizerische Offiziersgesellschaft\" and \"St. Gallen\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1936\" (not ISO) and date.from = \"1936-01-01\" (ISO); free text places (apertus): places only in title text \"St. Gallen\" and hierarchy (no structured place field)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title contains \"Zeitungsartikel ...\" in mixed case but \"Schweizerischen Offiziersgesellschaft\" is proper noun; however, overall title is not fully uppercase or cryptic abbreviation"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date.expressed = \"1936\" (not ISO) and date.from = \"1936-01-01\" (ISO)"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in title text \"St. Gallen\" and hierarchy (no structured place field)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title contains \"Hausamann, Torsten (Teufen) (1922-1974)\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains \"Schweizerische Offiziersgesellschaft\" and \"St. Gallen\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Torsten Hausamann is linked to an archival fonds, implying public figure"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "no identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political opinion"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes Torsten Hausamann (1922-1974), linked to an archival fonds."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1936-03-26",
+   "place": "St. Gallen",
+   "lat": 47.425618,
+   "lon": 9.3762397,
+   "description": "The newspaper article was published in the St. Gallen edition of Volksstimme.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2012",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2012/140 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.107#2012/140#202*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4793,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

@@ -1,0 +1,325 @@
+{
+ "id": "22421603",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22421603",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22421603",
+  "reference_code": "J2.240#2002/139#516#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984",
+   "old_reference_code": "Original Signatur: JRTSR LM009721\nSignatur Bundesarchiv: J2.240#2002/139#2117*",
+   "scope_and_content": "Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: SUISSE\nZeitliche Abdeckung: 07.03.1984-21.03.1984",
+   "form": "Video",
+   "format": "Dauer: 00:00.58\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:12.22",
+   "thema": "Sachdeskriptor: automobilisme",
+   "date": {
+    "from": "1984-03-14",
+    "to": null,
+    "expressed": "1984.03.14"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+     "number": "2002/139",
+     "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording from the television program.",
+  "resume": "A video segment from the Swiss Romand television program Journal Romand dated 14 March 1984, covering a motocross event at the Course de cote St-Ursanne/Les Rangiers."
+ },
+ "metadata": {
+  "title": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984",
+  "title_normalized": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984",
+  "title_en": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14 March 1984",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1984-03-14",
+  "date_published": "1984-03-14",
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "1984-03-14",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "motocross",
+   "sports",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Journal romand 1981-1986 TSR",
+   "Journal romand TSR 1984",
+   "Journal romand TSR 14.03.1984"
+  ],
+  "reference_code": "J2.240#2002/139#516#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22421603",
+  "accession_numbers": [
+   "2002/139"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "St-Ursanne",
+    "as_written": "St-Ursanne",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3646034,
+    "lon": 7.1539488,
+    "gazetteer": "https://www.openstreetmap.org/node/240042647",
+    "model_lat": 47.1667,
+    "model_lon": 7.0833
+   },
+   {
+    "name": "Les Rangiers",
+    "as_written": "Les Rangiers",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3852139,
+    "lon": 7.2196353,
+    "gazetteer": "https://www.openstreetmap.org/node/1480933383",
+    "model_lat": 47.1667,
+    "model_lon": 7.0833
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"2002/00139 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:00.58\nFarbe: couleur\nFormat Arbeitskopie; multilingual (apertus): Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1984.03.14; free text places (apertus): Geografische Abdeckung: SUISSE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"2002/00139 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "U3. A.S.J. JURA BERNOIS ; Journal Romand, 14.03.1984"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:00.58\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Motocross. Course de cote St-Ursanne\\Les Rangiers"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1984.03.14"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: SUISSE"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Télévision suisse romande (TSR), SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1984-03-14",
+   "place": "St-Ursanne",
+   "lat": 47.3646034,
+   "lon": 7.1539488,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1984-03-14",
+   "place": "Les Rangiers",
+   "lat": 47.3852139,
+   "lon": 7.2196353,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1984-03-14",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of a motocross segment on Journal Romand.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/139 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#2002/139#516#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5096,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

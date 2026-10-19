@@ -1,0 +1,361 @@
+{
+ "id": "3524972",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524972",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524972",
+  "reference_code": "E1301#1991/324#1#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "85.047: Strafgesetzbuch und Militärstrafgesetzbuch. Revision / Code pénal et Code pénal militaire. Révision",
+   "scope_and_content": "Sprecher/Sprecherinnen: Cotti, Gianfranco; Dünki, Max; Hafner, Ursula; Koller, Arnold; Leuba, Jean-François; Spoerry, Vreni",
+   "date": {
+    "from": "1991-06-03",
+    "to": null,
+    "expressed": "1991.06.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383457",
+     "number": "1991/324",
+     "title": "1991/00324 Parlamentsdienste (Bern) (1991)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning revisions to the Swiss Criminal Code and the Military Criminal Code, held on 3 June 1991. The record includes the names of six speakers who participated in the discussion. It is an audio recording of the proceedings."
+ },
+ "metadata": {
+  "title": "85.047: Strafgesetzbuch und Militärstrafgesetzbuch. Revision / Code pénal et Code pénal militaire. Révision",
+  "title_normalized": "Strafgesetzbuch und Militärstrafgesetzbuch. Revision / Code pénal et Code pénal militaire. Révision",
+  "title_en": "Criminal Code and Military Criminal Code. Revision",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1991-06-03",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1991",
+  "content_date": "1991-06-03",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "criminal law",
+   "military law",
+   "legislative revision",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Sommersession 1991",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1991/324#1#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524972",
+  "accession_numbers": [
+   "1991/324"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gianfranco Cotti",
+    "display_name": "Gianfranco Cotti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1522426",
+     "label": "Gianfranco Cotti",
+     "description": "Swiss politician (1929-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1522426"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Max Dünki",
+    "display_name": "Max Dünki",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1912425",
+     "label": "Max Dünki",
+     "description": "Swiss politician (1932-2011)",
+     "url": "https://www.wikidata.org/wiki/Q1912425"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": 2011,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Hafner",
+    "display_name": "Ursula Hafner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q55741049",
+     "label": "Ursula Hafner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q55741049"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Arnold Koller",
+    "display_name": "Arnold Koller",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean-François Leuba",
+    "display_name": "Jean-François Leuba",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116504",
+     "label": "Jean-François Leuba",
+     "description": "Swiss politician (1934-2004)",
+     "url": "https://www.wikidata.org/wiki/Q116504"
+    },
+    "life_date_check": {
+     "born": 1934,
+     "died": 2004,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vreni Spoerry",
+    "display_name": "Vreni Spoerry",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120061",
+     "label": "Vreni Spoerry",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120061"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Strafgesetzbuch und Militärstrafgesetzbuch. Revision / Code pénal et Code pénal militaire. Révision",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): Gianfranco Cotti, Max Dünki, Ursula Hafner, Arnold Koller, Jean-François Leuba, Vreni Spoerry",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1991.06.03",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Strafgesetzbuch und Militärstrafgesetzbuch. Revision / Code pénal et Code pénal militaire. Révision"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1991.06.03"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Gianfranco Cotti, Max Dünki, Ursula Hafner, Arnold Koller, Jean-François Leuba, Vreni Spoerry"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1991",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1991/324 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1991/324#1#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4833,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

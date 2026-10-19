@@ -1,0 +1,297 @@
+{
+ "id": "29674464",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29674464",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674464",
+  "reference_code": "J2.225#2008/121#53#62*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tod von Maurice Béjart",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504591\nSignatur Bundesarchiv: J2.225#2008/121#53*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Lausanne, VD: Tod des Choreografen Maurice Béjart im Alter von 80 Jahren\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Lausanne, VD: Blumen für Maurice Béjart anlässlich 80. Geburtstago.O. Maurice Béjart als junger Tänzer auf Bühne (sw, Archiv) Schweiz <Lausanne, VD: Maurice Béjart bei Ballett-Proben (Archiv) / Statement Maurice Béjart (Archiv)",
+   "author": "AutorIn: Brunner, Jürg (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:12\nPosition Anfang: 00:51:16",
+   "thema": "Personen: Béjart, Maurice (Choreograf)\nSachdeskriptor: /KULTUR./TANZ/BALLETT;/PORTRÄT./PORTRÄT PERSONEN",
+   "date": {
+    "from": "2007-11-22",
+    "to": null,
+    "expressed": "2007.11.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production created at the time of the events by the production company SF.",
+  "resume": "This video report covers the death of choreographer Maurice Béjart in Lausanne, Switzerland, on 22 November 2007, featuring archival footage of Béjart as a young dancer, rehearsals, and a statement. The item was produced by Jürg Brunner and SF, and archived under accession number 2008/121."
+ },
+ "metadata": {
+  "title": "Tod von Maurice Béjart",
+  "title_normalized": "Tod von Maurice Béjart",
+  "title_en": "Death of Maurice Béjart",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-11-22",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-11-22",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Maurice Béjart",
+   "ballet",
+   "portrait"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 22.11.2007"
+  ],
+  "reference_code": "J2.225#2008/121#53#62*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674464",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Maurice Béjart",
+    "display_name": "Maurice Béjart",
+    "role": "subject",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Lausanne",
+    "as_written": "Lausanne, VD",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.5218269,
+    "lon": 6.6327025,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685018",
+    "model_lat": 46.5,
+    "model_lon": 6.6
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Brunner, Jürg (AUT)\nProduktionsgesellscha",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Béjart, Maurice (Choreograf); named organizations or places (apertus): Lausanne, VD",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 2007.11.22; free text places (apertus): Lausanne, VD",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Brunner, Jürg (AUT)\nProduktionsgesellscha"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "2007.11.22"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Lausanne, VD"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Béjart, Maurice (Choreograf)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Lausanne, VD"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-11-22",
+   "place": "Lausanne, VD",
+   "lat": 46.5218269,
+   "lon": 6.6327025,
+   "description": "Video report covering the death of Maurice Béjart and archival footage of his career.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#53#62*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5121,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

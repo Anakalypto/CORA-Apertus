@@ -1,0 +1,67 @@
+{
+ "id": "7290303",
+ "uri": "https://culture.ld.admin.ch/ais/7290303",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7290303",
+ "title": "Index zu den Besucher-Protokollen",
+ "reference_code": "E2200.51-02#1000/607#5790*",
+ "reference_number": "R/Z-d/172",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1867-01-01",
+  "to": "1927-12-31",
+  "expressed": "1867-1927"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10892",
+   "number": "1000/607",
+   "title": "1000/00607 Schweizerisches Konsulat in Le Havre (FR-Le Havre) (1833-1963)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7290178",
+   "title": "Amtsbücher",
+   "level": "Serie",
+   "reference_code": "E2200.51-02#R"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7286646",
+   "title": "Schweizerische Vertretung, Le Havre: Zentrale Ablage (1833-1963)",
+   "level": "Sub-file",
+   "reference_code": "E2200.51-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6630",
+   "title": "Schweizerische Vertretung, Le Havre (1816-)",
+   "level": "Stock",
+   "reference_code": "E10746*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

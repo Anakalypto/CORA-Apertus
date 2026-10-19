@@ -1,0 +1,85 @@
+{
+ "id": "929886",
+ "uri": "https://culture.ld.admin.ch/ais/929886",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/929886",
+ "title": "Nachrufe verschiedener kirchlicher Persönlichkeiten",
+ "reference_code": "J2.181#1987/52#1983*",
+ "reference_number": "131.06-5",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1931-01-01",
+  "to": "1939-12-31",
+  "expressed": "1931-1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16871",
+   "number": "1987/52",
+   "title": "1987/00052 Christlichdemokratische Volkspartei der Schweiz (Bern) (1831-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675504",
+   "title": "Verschiedenes",
+   "level": "Serie",
+   "reference_code": "J2.181#131.06-5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675486",
+   "title": "Kirche",
+   "level": "Serie",
+   "reference_code": "J2.181#131.06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675406",
+   "title": "Innenpolitik",
+   "level": "Serie",
+   "reference_code": "J2.181#131"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675404",
+   "title": "Eidgenössische Politik",
+   "level": "Serie",
+   "reference_code": "J2.181#13"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3675237",
+   "title": "Christlichdemokratische Volkspartei der Schweiz  (CVP)",
+   "level": "Serie",
+   "reference_code": "J2.181#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4210",
+   "title": "Christlichdemokratische Volkspartei der Schweiz (1970-)",
+   "level": "Stock",
+   "reference_code": "J2.181*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

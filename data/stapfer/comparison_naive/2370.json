@@ -1,0 +1,56 @@
+{
+ "id": 2370,
+ "signature": "BAR B0 1000/1483, Nr. 1461, fol. 160-161v",
+ "reference": {
+  "place": "Kappel",
+  "canton_1799": "Solothurn",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Joseph Lack",
+  "teacher_age": 37,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 15,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joseph Lack",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Kappel",
+  "canton_1799": "Canton Solothurn",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Joseph Lack",
+  "teacher_age": 37,
+  "teacher_marital_status": null,
+  "teacher_since": 15,
+  "pupils_winter": 25,
+  "pupils_summer": 0,
+  "author_name": "Joseph Lack Schulmeister",
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Schule Kappel",
+  "canton_1799": "Canton Solothurn",
+  "teacher_name": "Joseph Lack",
+  "teacher_age": "37 Jahr alt.",
+  "teacher_since": "15 Jahr Schüllerrer",
+  "pupils_winter": "25 knaben @ 14 Mädchen",
+  "pupils_summer": "im Sommer ists keine Schule"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "missed",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "both_empty"
+ },
+ "seconds": 8.91
+}

@@ -1,0 +1,364 @@
+{
+ "id": "21833811",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21833811",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21833811",
+  "reference_code": "J2.225#2000/20#262#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), Schwyzerörgeli-Boom, 18.06.2000",
+   "old_reference_code": "Original Signatur: TSSFDRS 2309523\nSignatur Bundesarchiv: J2.225#2000/20#2619*",
+   "scope_and_content": "Inhaltsangabe: CH, Luzern, LU, Schwyz, SZ: Besuch in Schwyzerörgeli-Werkstatt anlässlich Handorgel-Boom am Volksmusik-Fest\nSequenzbeschrieb: CH Luzern, LU: Spielende Schwyzerörgeli-Gruppe \"Örgeli Frönde Emmen\" / Statement Peter Brun (°Örgelifrönde) / Statement Nelly Grubenmann (°Örgelifrönde) Schwyz, SZ: IA Schwyzerörgeli-Werkstatt / Statement Werner Greuter (°Schwyzerörgeli-°Fabrikant)",
+   "author": "AutorIn: Bucher, Walter\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Müller, Heinrich J.",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 11.06.2000-25.06.2000",
+   "form": "Video",
+   "format": "Dauer: 00:01:44\nFarbe: Farbaufnahmen\nStartposition: 00.47.32",
+   "thema": "Personen: Brun, Peter;Grubenmann, Nelly;Greuter, Werner\nSachdeskriptor: Musikinstrument;Volksmusik",
+   "date": {
+    "from": "2000-06-18",
+    "to": null,
+    "expressed": "2000.06.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16886",
+     "number": "2000/20",
+     "title": "2000/00020 Schweizer Fernsehen DRS (Z�rich) (1999-2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast created at the time of the events.",
+  "resume": "A video segment from the Tagesschau main edition (TS) dated 18 June 2000 covering a Schwyzerörgeli boom, featuring interviews with Peter Brun, Nelly Grubenmann, and Werner Greuter at a workshop in Schwyz."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), Schwyzerörgeli-Boom, 18.06.2000",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), Schwyzerörgeli-Boom, 18.06.2000",
+  "title_en": "Tagesschau Main Edition (TS), Swiss Accordion Boom, 18 June 2000",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2000-06-18",
+  "date_published": "2000-06-18",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "2000-06-18",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss accordion",
+   "folk music",
+   "interview"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2000",
+   "Tagesschau SFDRS 18.06.2000"
+  ],
+  "reference_code": "J2.225#2000/20#262#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21833811",
+  "accession_numbers": [
+   "2000/20"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Brun",
+    "display_name": "Peter Brun",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Nelly Grubenmann",
+    "display_name": "Nelly Grubenmann",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Werner Greuter",
+    "display_name": "Werner Greuter",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Heinrich J. Müller",
+    "display_name": "Heinrich J. Müller",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Schwyz",
+    "as_written": "Schwyz, SZ",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0571976,
+    "lon": 8.7222073,
+    "gazetteer": "https://www.openstreetmap.org/relation/1688583",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Luzern",
+    "as_written": "Luzern, LU",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.052144,
+    "lon": 8.3058123,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682891",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1999-2002)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Bucher, Walter\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Brun, Peter;Grubenmann, Nelly;Greuter, Werner; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2000.06.18; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1999-2002)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Bucher, Walter\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2000.06.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Brun, Peter;Grubenmann, Nelly;Greuter, Werner"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2000-06-18",
+   "place": "Schwyz",
+   "lat": 47.0571976,
+   "lon": 8.7222073,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2000-06-18",
+   "place": "Luzern",
+   "lat": 47.052144,
+   "lon": 8.3058123,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2000-06-18",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Video segment aired as part of Tagesschau main edition.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/20 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/20#262#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5527,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

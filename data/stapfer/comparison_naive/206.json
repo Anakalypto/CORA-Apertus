@@ -1,0 +1,56 @@
+{
+ "id": 206,
+ "signature": "AEF H 437.24, 001-004",
+ "reference": {
+  "place": "Burg",
+  "canton_1799": "Fribourg",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "David Roth",
+  "teacher_age": 54,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 28,
+  "pupils_winter": 117,
+  "pupils_summer": null,
+  "author_name": "David Roth",
+  "date_written": "1799-03-12"
+ },
+ "apertus": {
+  "place": "Burg",
+  "canton_1799": "Kanton fryburg",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "David Roth",
+  "teacher_age": 54,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "bald 17 Jahr",
+  "pupils_winter": 117,
+  "pupils_summer": null,
+  "author_name": "David Roth Schulmeister auf der Burg",
+  "date_written": "1799-03-12"
+ },
+ "evidence": {
+  "place_as_written": "€ burg. €€",
+  "canton_1799": "im Kanton fryburg",
+  "teacher_name": "der name deß Schulm: ist david Roth",
+  "teacher_age": "das alter ist 54: Jahr. und 3 monat.",
+  "teacher_marital_status": "Seine Haus haltung ware Sein weib, und 2 Töchteren und 1 Tochters kind Zusamen 5 Persohnen",
+  "teacher_since": "die Zeit meines Hiesigen Schuldiensts ist bald 17 Jahr",
+  "pupils_winter": "darvon Sind Knaben 57. und mägdlein ° - °° 60. @ 117"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "mismatch",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "mismatch",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 10.86
+}

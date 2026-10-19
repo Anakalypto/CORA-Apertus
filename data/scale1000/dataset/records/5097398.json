@@ -1,0 +1,343 @@
+{
+ "id": "5097398",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/5097398",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5097398",
+  "reference_code": "E1301#2009/75#11#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2007.0429: Parlamentarische Initiative Büchler Jakob. Sanierung von belasteten Kugelfängen. Fristverlängerung bis 2012 / Initiative parlementaire Büchler Jakob. Assainissement des buttes de tir. Prolongation du délai jusqu'en 2012",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bigger, Elmar; Bourgeois, Jacques; Büchler, Jakob; Leuenberger, Moritz; Simoneschi-Cortesi, Chiara",
+   "date": {
+    "from": "2008-12-17",
+    "to": null,
+    "expressed": "2008.12.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/5096613",
+     "number": "2009/75",
+     "title": "2009/00075 Parlamentsdienste (Bern) (2008)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "audio recording",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary initiative record from the Swiss National Council concerning the remediation of contaminated firing ranges, with a deadline extension to 2012, captured during the Winter Session 2008 debate. It includes a list of speakers and is part of the National Council's meeting protocols series. The record is an audio recording of the parliamentary proceedings."
+ },
+ "metadata": {
+  "title": "2007.0429: Parlamentarische Initiative Büchler Jakob. Sanierung von belasteten Kugelfängen. Fristverlängerung bis 2012 / Initiative parlementaire Büchler Jakob. Assainissement des buttes de tir. Prolongation du délai jusqu'en 2012",
+  "title_normalized": "2007.0429: Parlamentarische Initiative Büchler Jakob. Sanierung von belasteten Kugelfängen. Fristverlängerung bis 2012 / Initiative parlementaire Büchler Jakob. Assainissement des buttes de tir. Prolongation du délai jusqu'en 2012",
+  "title_en": "Parliamentary Initiative Büchler Jakob: Remediation of Contaminated Firing Ranges. Deadline Extension to 2012",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2009",
+  "content_date": "2008-12-17",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary initiative",
+   "contaminated firing ranges",
+   "environmental remediation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2007 bis Wintersession 2008",
+   "Wintersession 2008",
+   "Wintersession 2008, 11. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2009/75#11#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5097398",
+  "accession_numbers": [
+   "2009/75"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Elmar Bigger",
+    "display_name": "Elmar Bigger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1332705",
+     "label": "Elmar Bigger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1332705"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jacques Bourgeois",
+    "display_name": "Jacques Bourgeois",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q122928",
+     "label": "Jacques Bourgeois",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q122928"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jakob Büchler",
+    "display_name": "Jakob Büchler",
+    "role": "author of initiative",
+    "wikidata": {
+     "qid": "Q119970",
+     "label": "Jakob Büchler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119970"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Chiara Simoneschi-Cortesi",
+    "display_name": "Chiara Simoneschi-Cortesi",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q468835",
+     "label": "Chiara Simoneschi-Cortesi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q468835"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): Speakers_in_debate includes Jakob Büchler, Elmar Bigger, Jacques Bourgeois, Moritz Leuenberger, Chiara Simoneschi-Cortesi",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2008.12.17",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2008.12.17"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers_in_debate includes Jakob Büchler, Elmar Bigger, Jacques Bourgeois, Moritz Leuenberger, Chiara Simoneschi-Cortesi"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2009",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2009/75 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2009/75#11#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4923,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

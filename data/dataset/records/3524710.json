@@ -1,0 +1,322 @@
+{
+ "id": "3524710",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524710",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524710",
+  "reference_code": "E1301#1990/288#13#82*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "90.855: Interpellation Spielmann. Haltung der Schweiz an der 83. IPU-Konferenz in Nikosia / Position de la Suisse à la 83e Conférence de l'Union interparlementaire",
+   "date": {
+    "from": "1990-12-14",
+    "to": null,
+    "expressed": "1990.12.14"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383450",
+     "number": "1990/288",
+     "title": "1990/00288 Parlamentsdienste (Bern) (1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative file documenting a specific parliamentary question and debate.",
+  "resume": "This is an audio recording of the National Council debate on Interpellation Spielmann concerning Switzerland's position at the 83rd IPU Conference in Nicosia on December 14, 1990. It captures the parliamentary discussion and statements made by council members on this specific foreign policy topic. The record documents the official proceedings of the Swiss parliament."
+ },
+ "metadata": {
+  "title": "90.855: Interpellation Spielmann. Haltung der Schweiz an der 83. IPU-Konferenz in Nikosia / Position de la Suisse à la 83e Conférence de l'Union interparlementaire",
+  "title_normalized": "90.855: Interpellation Spielmann. Haltung der Schweiz an der 83. IPU-Konferenz in Nikosia / Position de la Suisse à la 83e Conférence de l'Union interparlementaire",
+  "title_en": "Interpellation Spielmann. Switzerland's stance at the 83rd IPU Conference in Nicosia",
+  "creator": "Parlamentsdienste (Nationalrat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1990-12-14",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1990",
+  "content_date": "1990-12-14",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Switzerland",
+   "IPU",
+   "foreign policy",
+   "parliamentary debate",
+   "Nicosia"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Wintersession 1990",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1990/288#13#82*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524710",
+  "accession_numbers": [
+   "1990/288"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Spielmann",
+    "display_name": "Spielmann",
+    "role": "author of the interpellation",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat",
+    "role": "hosting body of the parliamentary debate",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   },
+   {
+    "name": "IPU",
+    "role": "international organization referenced in the debate",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Nicosia",
+    "as_written": "Nikosia",
+    "role": "depicted",
+    "country": "CY",
+    "lat": 35.1746503,
+    "lon": 33.3638783,
+    "gazetteer": "https://www.openstreetmap.org/node/1893015330",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains both German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Spielmann\"; named organizations or places (apertus): title contains \"Schweiz\", \"Union interparlementaire\", \"Nikosia\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed = \"1990.12.14\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains both German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed = \"1990.12.14\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Spielmann\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Schweiz\", \"Union interparlementaire\", \"Nikosia\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named person is a public figure (parliamentarian), no identifiable private individual or sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1990-12-14",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Audio recording made during the National Council session in Bern.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1990-12-14",
+   "place": "Nicosia",
+   "lat": 35.1746503,
+   "lon": 33.3638783,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1990",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1990/288 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1990/288#13#82*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4854,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

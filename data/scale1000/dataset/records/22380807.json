@@ -1,0 +1,393 @@
+{
+ "id": "22380807",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22380807",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22380807",
+  "reference_code": "J2.225#2007/195#161#14*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Italiens Konkordat unter Kritik",
+   "old_reference_code": "Original Signatur: RSSFDRS 9500968\nSignatur Bundesarchiv: J2.225#2007/195#85*",
+   "scope_and_content": "Inhaltsangabe: Italien: Unterschriftensammlung für ein Referendum zur Abschaffung des vor 3 Monaten in Kraft getretenen Scheidungs-Gesetzes\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Italien o.O.: Film-Ausschnitt ;Scheidung auf italienisch; mit Marcello Mastroianni und Daniela Rocca (sw) Rom: Vor Kirche diskutierende Männer mit Referendums-Broschüren in der Hand / Schwenk Plattenhülle mit Foto von Padre Mariano (°TV-°Seelsorger) / GPL Abspielen von Platte / Statement Gabrio Lombardi (P °Referendumskomitee) / Ankunft Braut bei Kirche / Hochzeit Brautpaar in Kirche / Hochzeitsgäste Braut küssend / Brautpaar für Fotograf posierend, Kolosseum im Hintergrund / Kino-Plakat ;Le Novizie;Vatikan Vatikanstadt: Statement Erzbischof Andrea Maria Pangrazio / AA Petersdom, Schwenk Petersplatz / Strassenszene mit NonnenItalien Rom: Schüler in Jesuitenschule beim Religionsunterricht / Nonne Primarschüler unterrichtend / Statement Loris Fortuna (°Verfasser °Scheidungsgesetz) / Statement Marco Panella (°Sekretär °Liga für °Abschaffung des °Konkordates)",
+   "author": "AutorIn: Koerfer, Thomas: AUT\nProduktion: DRS",
+   "form": "Video",
+   "format": "Dauer: 00.13.45\nStartposition: 10:26:46\nTräger: Beta IMX",
+   "thema": "Personen: Mariano, Aga Mohammed:\nSachdeskriptor: /JUSTIZ./GESETZ;/MENSCH./EHE/SCHEIDUNG;/POLITIK./REFERENDUM",
+   "date": {
+    "from": "1971-03-31",
+    "to": null,
+    "expressed": "1971.03.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4027437",
+     "number": "2007/195",
+     "title": "2007/00195 Schweizer Fernsehen DRS (Z�rich) (1968-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct news segment produced by DRS for broadcast, capturing contemporary events and interviews.",
+  "resume": "The video is a segment from a 1971 DRS news broadcast covering a referendum campaign in Italy against the recently enacted divorce law, featuring interviews with religious figures, politicians, and legal experts."
+ },
+ "metadata": {
+  "title": "Italiens Konkordat unter Kritik",
+  "title_normalized": "Italiens Konkordat unter Kritik",
+  "title_en": "Italy's Concordat Under Criticism",
+  "creator": "DRS",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1971-03-31",
+  "date_published": "1971-03-31",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1971-03-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "divorce law",
+   "referendum",
+   "religion and politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1968-1975 SFDRS",
+   "Rundschau SFDRS 1971",
+   "Rundschau SFDRS 31.03.1971"
+  ],
+  "reference_code": "J2.225#2007/195#161#14*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22380807",
+  "accession_numbers": [
+   "2007/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Mariano",
+    "display_name": "Mariano",
+    "role": "discussant",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gabrio Lombardi",
+    "display_name": "Gabrio Lombardi",
+    "role": "statement",
+    "wikidata": {
+     "qid": "Q3756798",
+     "label": "Gabrio Lombardi",
+     "description": "Italian politician and teacher (1913–1994)",
+     "url": "https://www.wikidata.org/wiki/Q3756798"
+    },
+    "life_date_check": {
+     "born": 1913,
+     "died": 1994,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Loris Fortuna",
+    "display_name": "Loris Fortuna",
+    "role": "statement",
+    "wikidata": {
+     "qid": "Q3259585",
+     "label": "Loris Fortuna",
+     "description": "Italian politician (1924–1985)",
+     "url": "https://www.wikidata.org/wiki/Q3259585"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 1985,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Marco Panella",
+    "display_name": "Marco Panella",
+    "role": "statement",
+    "wikidata": {
+     "qid": "Q47651",
+     "label": "Marco Pannella",
+     "description": "Italian politician and activist (1930-2016)",
+     "url": "https://www.wikidata.org/wiki/Q47651"
+    },
+    "life_date_check": {
+     "born": 1930,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Referendum Committee",
+    "role": "discussant",
+    "wikidata": null
+   },
+   {
+    "name": "Liga for Abolition of the Concordat",
+    "role": "discussant",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Italy",
+    "as_written": "Italien",
+    "role": "depicted",
+    "country": "IT",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Rome",
+    "as_written": "Rom",
+    "role": "depicted",
+    "country": "IT",
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "gazetteer": "https://www.openstreetmap.org/relation/41485",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Vatican City",
+    "as_written": "Vatikan Vatikanstadt",
+    "role": "depicted",
+    "country": "VA",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Koerfer, Thomas: AUT\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Marcello Mastroianni; named organizations or places (apertus): Vatikan",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1971.03.31; free text places (apertus): Rom",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Koerfer, Thomas: AUT\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1971.03.31"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Rom"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Marcello Mastroianni"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Vatikan"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1971-03-31",
+   "place": "Rome",
+   "lat": 41.8933203,
+   "lon": 12.4829321,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1971-03-31",
+   "place": "Italy",
+   "lat": null,
+   "lon": null,
+   "description": "News segment covering referendum campaign against divorce law.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/195#161#14*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": [
+   "organization:Liga for Abolition of the Concordat"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5598,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

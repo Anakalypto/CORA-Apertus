@@ -1,0 +1,381 @@
+{
+ "id": "26548239",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/26548239",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26548239",
+  "reference_code": "J2.225#2007/1#293#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Blickpunkt (273/1037), 05.05.1978 ; Altersferien",
+   "old_reference_code": "Original Signatur: BPSFDRS 9503170\nSignatur Bundesarchiv: J2.225#2007/1#62*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Wilderswil, BE: Kostenlose Ferien für 300 SeniorInnen, offeriert vom Fremdenverkehrsverein in Zusammenarbeit mit Pro Senectute\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Basel, BS: Paul Nadig und Hanna Nadig Prospekt studierend / Interview Paul Nadig und Hanna Nadig / Paul Nadig und Hanna Nadig Koffer packend, Haus verlassend <o.O., BE: Fahrt (sub) entlang Brienzersee <Brienz, BE: Schwenk Kirche auf Reisecar, SeniorInnen aussteigend / SeniorInnen Schnitzerschule besichtigend / Seniorin im Gespräch mit Holzschnitzer <Wilderswil, BE: Interview Ueli Oesch <o.O., BE: SeniorInnnen in fahrendem Reisecar sitzend, Lied singend <Meiringen, BE: SeniorInnen bei Eingang zur Aareschlucht <o.O., BE: SeniorInnnen in Gartenrestaurant sitzend, Kaffee trinkend",
+   "author": "AutorIn: Bigler Roland (AUT)\nProduktionsgesellschaft: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "form": "Video",
+   "format": "Dauer: 00.06.17\nFormat Arbeitskopie: Arbeitskopie\nStartposition: 10:40:32\nTräger: Beta Digital",
+   "thema": "Personen: Oesch Ueli (Verkehrsdirektor Wilderswil)\nSachdeskriptor: /FREIZEIT./FERIEN;/MENSCH./ALTER/ALTERSAKTIVITÄT",
+   "date": {
+    "from": "1978-05-05",
+    "to": null,
+    "expressed": "1978.05.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3382869",
+     "number": "2007/1",
+     "title": "2007/00001 Schweizer Fernsehen DRS (Z�rich) (1977-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production from 1978, created by DRS for broadcast.",
+  "resume": "A television report from Blickpunkt (episode 273/1037) dated 5 May 1978, documenting free senior holidays organized by the local tourism association in cooperation with Pro Senectute, featuring interviews and scenes of senior travelers on a journey along Lake Brienz."
+ },
+ "metadata": {
+  "title": "Blickpunkt (273/1037), 05.05.1978 ; Altersferien",
+  "title_normalized": "Blickpunkt (273/1037), 05.05.1978 ; Altersferien",
+  "title_en": "Blickpunkt (273/1037), 05.05.1978: Senior Holidays",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1978-05-05",
+  "date_published": "1978-05-05",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1978-05-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "senior holidays",
+   "leisure",
+   "senior activities"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Blickpunkt-Bericht vor Acht, 1977-1978",
+   "Blickpunkt-Bericht vor Acht 1978",
+   "Blickpunkt-Bericht vor Acht 05.05.1978"
+  ],
+  "reference_code": "J2.225#2007/1#293#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/26548239",
+  "accession_numbers": [
+   "2007/1"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Oesch Ueli",
+    "display_name": "Oesch Ueli",
+    "role": "Verkehrsdirektor Wilderswil",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Pro Senectute",
+    "role": "cooperator",
+    "wikidata": {
+     "qid": "Q2111462",
+     "label": "Pro Senectute",
+     "description": "organization",
+     "url": "https://www.wikidata.org/wiki/Q2111462"
+    }
+   },
+   {
+    "name": "Fremdenverkehrsverein",
+    "role": "organizer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Wilderswil",
+    "as_written": "Wilderswil, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.6633947,
+    "lon": 7.8629948,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682723",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Basel",
+    "as_written": "Basel, BS",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Brienz",
+    "as_written": "Brienz, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.7560001,
+    "lon": 8.0303006,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682391",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Meiringen",
+    "as_written": "Meiringen, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.7285518,
+    "lon": 8.1870934,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682552",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1977-1978)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Bigler Roland (AUT)\nProduktionsgesellscha",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Oesch Ueli (Verkehrsdirektor Wilderswil); named organizations or places (apertus): Personen: Oesch Ueli (Verkehrsdirektor Wilderswil)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 1978.05.05; free text places (apertus): Sequenzbeschrieb: Schweiz <Basel, BS: Paul Nadig und Hanna Nadig Prospekt studierend / Interview Paul Nadig und Hanna Nadig / Paul Nadig und Hanna Nadig Koffer packend, Haus verlassend <o.O., BE: Fahrt (sub) entlang Brienzersee <Brienz, BE: Schwenk Kirche auf Reisecar, SeniorInnen aussteigend / SeniorInnen Schnitzerschule besichtigend / Seniorin im Gespräch mit Holzschnitzer <Wilderswil, BE: Interview Ueli Oesch <o.O., BE: SeniorInnnen in fahrendem Reisecar sitzend, Lied singend <Meiringen, BE: SeniorInnen bei Eingang zur Aareschlucht <o.O., BE: SeniorInnnen in Gartenrestaurant sitzend, Kaffee trinkend",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1977-1978)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Bigler Roland (AUT)\nProduktionsgesellscha"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1978.05.05"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Schweiz <Basel, BS: Paul Nadig und Hanna Nadig Prospekt studierend / Interview Paul Nadig und Hanna Nadig / Paul Nadig und Hanna Nadig Koffer packend, Haus verlassend <o.O., BE: Fahrt (sub) entlang Brienzersee <Brienz, BE: Schwenk Kirche auf Reisecar, SeniorInnen aussteigend / SeniorInnen Schnitzerschule besichtigend / Seniorin im Gespräch mit Holzschnitzer <Wilderswil, BE: Interview Ueli Oesch <o.O., BE: SeniorInnnen in fahrendem Reisecar sitzend, Lied singend <Meiringen, BE: SeniorInnen bei Eingang zur Aareschlucht <o.O., BE: SeniorInnnen in Gartenrestaurant sitzend, Kaffee trinkend"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Oesch Ueli (Verkehrsdirektor Wilderswil)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Oesch Ueli (Verkehrsdirektor Wilderswil)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1978-05-05",
+   "place": "Wilderswil",
+   "lat": 46.6633947,
+   "lon": 7.8629948,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1978-05-05",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1978-05-05",
+   "place": "Brienz",
+   "lat": 46.7560001,
+   "lon": 8.0303006,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1978-05-05",
+   "place": "Meiringen",
+   "lat": 46.7285518,
+   "lon": 8.1870934,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1978-05-05",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television report broadcast on Blickpunkt.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/1 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/1#293#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5882,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

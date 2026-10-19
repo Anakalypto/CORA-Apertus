@@ -1,0 +1,67 @@
+{
+ "id": "6833395",
+ "uri": "https://culture.ld.admin.ch/ais/6833395",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6833395",
+ "title": "Index zum Registraturrepertorium [Répertoire du Protocole]",
+ "reference_code": "E2200.257A#1000/400#79*",
+ "reference_number": "K.78",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1876-01-01",
+  "to": "1892-12-31",
+  "expressed": "1876-1892"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/9997",
+   "number": "1000/400",
+   "title": "1000/00400 Bundesverwaltung (Bern) (1876 - 1892)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6833389",
+   "title": "Registraturfindmittel",
+   "level": "Serie",
+   "reference_code": "E2200.257A#K"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6432",
+   "title": "Schweizerische Vertretung, Nantes: Zentrale Ablage (1876-1892)",
+   "level": "Sub-file",
+   "reference_code": "E2200.257A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6429",
+   "title": "Schweizerische Vertretung, Nantes (1801-)",
+   "level": "Stock",
+   "reference_code": "E10652*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

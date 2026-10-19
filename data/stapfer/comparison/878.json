@@ -1,0 +1,59 @@
+{
+ "id": 878,
+ "signature": "BAR B0 1000/1483, Nr. 1431, fol. 17-19v",
+ "reference": {
+  "place": "Eisenmoos",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Gosteli",
+  "teacher_age": 31,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": null,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Johannes Gosteli",
+  "date_written": "1799-02-28"
+ },
+ "apertus": {
+  "place": "Eisenmoos",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Gosteli",
+  "teacher_age": 31,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 3,
+  "pupils_winter": 34,
+  "pupils_summer": "circa die gleichen",
+  "author_name": "Johannes Gosteli",
+  "date_written": "1799-02-28"
+ },
+ "evidence": {
+  "place_as_written": "Der Name des Orts wo die Schule ist, heißt ¦ Eisenmoos. ¦¦",
+  "canton_1799": "Zum Kanton Bern.",
+  "school_type": "€ a. €€ das a. b. c. (alphabet)",
+  "confession": "Zur Kirchgemeind Münsingen ° - °°",
+  "teacher_name": "Heißt Johannes Gosteli.",
+  "teacher_age": "31. Jahr alt.",
+  "teacher_marital_status": "Ein Weib, aber keine Kinder.",
+  "teacher_since": "Jst drey Jahre hierorts Schullehrer.",
+  "pupils_winter": "Knaben 34. Madchen 34.",
+  "author_name": "Johannes Gosteli @ Schulmeister"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "extra",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 10.25
+}

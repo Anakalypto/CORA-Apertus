@@ -1,0 +1,308 @@
+{
+ "id": "30691480",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30691480",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30691480",
+  "reference_code": "J2.143#1996/386#688-2#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Festival de jazz",
+   "reference_number": "0688-3",
+   "old_reference_code": "Original Signatur: CJS 688-3",
+   "alternate_reference": "CJS_0688-3",
+   "scope_and_content": "Genre:\nCinéjournal\nCommuniqué:\nPour la 5ème fois, les meilleurs orchestres d'amateurs de Suisse ont répondu avec enthousiasme à l'appel des organisateurs du grand concours national de jazz authentique qui a lieu chaque année à Zurich.\n\nKommentar:\n341 musiciens amateurs se mesurant à Zurich pour le 5me concours national de jazz. / Un soldat à la trompette. / Un lieutenant au piano. / Une recrue à la batterie... / Mais l'amour du jazz abolit toute hiérarchie. / Jazz classique, jazz moderne - toutes les tendances s'expriment librement. / Des quatre coins du pays, les jeunes musiciens ont répondu à l'appel de Zurich. / Le jazz ? Mais ce n'est que du bruit déchaîné ! / - Non, monsieur : c'est la discipline de tous les raffinements. / Chaque concours est le tremplin d'idées nouvelles, de nouvelles harmonies. / On se tourne avec ferveur vers le passé déjà lointain du Dixie-Land. / Que de passion, que de recherches se dissimulent sous l'aisance que l'on affecte sous les feux de la rampe. /\n\nAlter Titel:\nJazz-Festival",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Film",
+   "format": "Dauer: 02:47 (Start 01:25 / End 04:13)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: acétate de cellulose 35mm\nKommentarton: français",
+   "thema": "Orte:\nZürich, ZH (Schweiz)\n\nSchlagworte:\nEurope occidentale, CULTURE, MUSIQUE, JAZZ, CULTURE, MUSIQUE, FESTIVAL DE MUSIQUE",
+   "date": {
+    "from": "1955-09-23",
+    "to": null,
+    "expressed": "1955.09.23"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film footage produced by Cinéjournal suisse for newsreel distribution.",
+  "resume": "A 1955 Swiss newsreel (Cinéjournal suisse) documenting the fifth national authentic jazz contest held in Zurich, featuring amateur musicians from across Switzerland and commentary on jazz as a refined discipline."
+ },
+ "metadata": {
+  "title": "Festival de jazz",
+  "title_normalized": "Festival de jazz",
+  "title_en": "Jazz Festival",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1955-09-23",
+  "date_published": "1955-09-23",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1955-09-23",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "Zürich",
+   "Jazz",
+   "Music Festival"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1955",
+   "Schweizer Filmwochenschau vom 23.09.1955",
+   "Cinéjournal suisse du 23.09.1955"
+  ],
+  "reference_code": "J2.143#1996/386#688-2#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30691480",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Cinéjournal suisse (CJS)",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nPour la 5ème fois, ",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 02:47 (Start 01:25 / End 04:13)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nZürich, ZH (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1955.09.23; free text places (apertus): Orte:\nZürich, ZH (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Genre:\nCinéjournal\nCommuniqué:\nPour la 5ème fois, "
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 02:47 (Start 01:25 / End 04:13)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1955.09.23"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nZürich, ZH (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nZürich, ZH (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by the archival record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1955-09-23",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1955-09-23",
+   "place": "Zurich",
+   "lat": null,
+   "lon": null,
+   "description": "Newsreel footage of the 5th national authentic jazz contest in Zurich.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#688-2#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5564,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

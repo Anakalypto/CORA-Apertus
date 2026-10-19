@@ -1,0 +1,70 @@
+{
+ "id": "21814017",
+ "uri": "https://culture.ld.admin.ch/ais/21814017",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21814017",
+ "title": "Tagesschau (TS), 15.05.1986",
+ "reference_code": "J2.225#1996/68#10186#8*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG E86/1138\nSignatur Bundesarchiv: J2.225#1996/68#12994*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Rigi Kaltbad, LU: Frauenkongress\nSequenzbeschrieb: CH Rigi Kaltbad, LU: Kongress-Impressionen / Interview mitTeilnehmerin in ital.",
+ "author": "AutorIn: Herz, Dinorah\nProduktion: TSI",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 08.05.1986-22.05.1986",
+ "form": "Video",
+ "format": "Dauer: 1.20\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.44.05\nTräger: Betacam-SP",
+ "thema": "Sachdeskriptor: Frau",
+ "country": null,
+ "date": {
+  "from": "1986-05-15",
+  "to": null,
+  "expressed": "1986.05.15"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21814009",
+   "title": "Tagesschau SFDRS 15.05.1986",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#10186*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690395",
+   "title": "Tagesschau SFDRS 1986",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1986"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

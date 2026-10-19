@@ -1,0 +1,339 @@
+{
+ "id": "22323423",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22323423",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22323423",
+  "reference_code": "J2.225#2004/221#91#18*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau am Mittag (TS), 31.03.2004 ; Börsenduplex UBS",
+   "old_reference_code": "Original Signatur: TSSFDRS 2501534\nSignatur Bundesarchiv: J2.225#2004/221#1195*",
+   "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: Duplex Hanspeter Hausheer",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Tabacznik, Stefan",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 24.03.2004-07.04.2004",
+   "form": "Video",
+   "format": "Dauer: 1.43\nFarbe: Farbaufnahmen\nStartposition: 00.13.34\nTräger: MPEG IMX",
+   "thema": "Personen: Hausheer, Hanspeter",
+   "date": {
+    "from": "2004-03-31",
+    "to": null,
+    "expressed": "2004.03.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1105536",
+     "number": "2004/221",
+     "title": "2004/00221 Schweizer Fernsehen DRS (Z�rich) (2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary audiovisual news broadcast recording from the Swiss Television DRS archive.",
+  "resume": "This is a 1 minute 23 second color video clip from the Swiss TV news program Tagesschau am Mittag broadcast on 31 March 2004, featuring a live financial market report (Börsenduplex) with Hanspeter Hausheer from UBS in Zurich. It covers financial news and market developments for West Europe."
+ },
+ "metadata": {
+  "title": "Tagesschau am Mittag (TS), 31.03.2004 ; Börsenduplex UBS",
+  "title_normalized": "Tagesschau am Mittag (TS), 31.03.2004 ; Börsenduplex UBS",
+  "title_en": "Tagesschau at noon (TS), 31 March 2004; Stock Exchange Duplex UBS",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2004-03-31",
+  "date_published": "2004-03-31",
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "2004-03-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "financial markets",
+   "stock exchange",
+   "news broadcast",
+   "economy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2004",
+   "Tagesschau SFDRS 31.03.2004"
+  ],
+  "reference_code": "J2.225#2004/221#91#18*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22323423",
+  "accession_numbers": [
+   "2004/221"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hausheer, Hanspeter",
+    "display_name": "Hanspeter Hausheer",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Tabacznik, Stefan",
+    "display_name": "Stefan Tabacznik",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q84847747",
+     "label": "Stefan Tabacznik",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q84847747"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "UBS",
+    "role": "company",
+    "wikidata": {
+     "qid": "Q193199",
+     "label": "UBS",
+     "description": "Swiss multinational investment bank and financial services company",
+     "url": "https://www.wikidata.org/wiki/Q193199"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zurich",
+    "as_written": "ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): old_reference_code contains \"TSSFDRS 2501534\" with mangled accents",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content contains \"Inhaltsangabe: …\" and \"Sequenzbeschrieb: …\"",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.43\nFarbe: Farbaufnahmen\nStartposition: 00",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved contains \"Stefan Tabacznik\" and thema contains \"Hausheer, Hanspeter\"; named organizations or places (apertus): author.name is \"DRS\" and publisher.name is \"SRG SSR idée suisse\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed is \"2004.03.31\" and coverage uses \"24.03.2004-07.04.2004\"; free text places (apertus): scope_and_content contains \"CH Zürich, ZH\" inside free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "old_reference_code contains \"TSSFDRS 2501534\" with mangled accents"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content contains \"Inhaltsangabe: …\" and \"Sequenzbeschrieb: …\""
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.43\nFarbe: Farbaufnahmen\nStartposition: 00"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed is \"2004.03.31\" and coverage uses \"24.03.2004-07.04.2004\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content contains \"CH Zürich, ZH\" inside free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved contains \"Stefan Tabacznik\" and thema contains \"Hausheer, Hanspeter\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "author.name is \"DRS\" and publisher.name is \"SRG SSR idée suisse\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes named persons (Stefan Tabacznik, Hanspeter Hausheer) but no identifiable individual is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2004-03-31",
+   "place": "Zurich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Broadcast of the Tagesschau am Mittag news segment featuring a financial duplex with UBS.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/221 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2004/221#91#18*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5301,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

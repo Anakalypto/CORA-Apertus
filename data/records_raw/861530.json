@@ -1,0 +1,97 @@
+{
+ "id": "861530",
+ "uri": "https://culture.ld.admin.ch/ais/861530",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/861530",
+ "title": "Geschichte des Titels «Projet de convention revisée pour la navigation du Rhin adopté en première lecture»",
+ "reference_code": "E2001C#1000/1541#72*",
+ "reference_number": "C.13.24.01",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1933-01-01",
+  "to": "1934-12-31",
+  "expressed": "1933-1934"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7545",
+   "number": "1000/1541",
+   "title": "1000/01541 Bundesverwaltung (Bern) (1905 - 1939)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679212",
+   "title": "Revision der Rheinschiffahrtsakte",
+   "level": "Serie",
+   "reference_code": "E2001C#C.13.24.01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679211",
+   "title": "Binnenschiffahrtsrecht",
+   "level": "Serie",
+   "reference_code": "E2001C#C.13.24"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679204",
+   "title": "Rheinschiffahrt",
+   "level": "Serie",
+   "reference_code": "E2001C#C.13.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679200",
+   "title": "Binnenschiffahrt",
+   "level": "Serie",
+   "reference_code": "E2001C#C.13"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679193",
+   "title": "Verkehrsangelegenheiten der Schweiz",
+   "level": "Serie",
+   "reference_code": "E2001C#C.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3679192",
+   "title": "Wirtschaftspolitik",
+   "level": "Serie",
+   "reference_code": "E2001C#C"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4320",
+   "title": "Abteilung für Auswärtiges: Zentrale Ablage (1927-1936)",
+   "level": "Sub-file",
+   "reference_code": "E2001C*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4319",
+   "title": "Abteilung für Auswärtiges (1915-1946)",
+   "level": "Stock",
+   "reference_code": "E10003*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

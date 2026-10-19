@@ -1,0 +1,67 @@
+{
+ "id": "32338325",
+ "uri": "https://culture.ld.admin.ch/ais/32338325",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32338325",
+ "title": "Zeitungsartikel",
+ "reference_code": "E2200.41-02#1000/1671#14093*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1873-01-01",
+  "to": null,
+  "expressed": "1873"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/10634",
+   "number": "1000/1671",
+   "title": "1000/01671 Schweizerische Vertretung, Paris (FR-Paris) (1798-1929)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22355482",
+   "title": "1870-1879",
+   "level": "Serie",
+   "reference_code": "E2200.41-02#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/13953129",
+   "title": "Schweizerische Vertretung, Paris: Repertorium (1798-1939)",
+   "level": "Sub-file",
+   "reference_code": "E2200.41-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6463",
+   "title": "Schweizerische Vertretung, Paris (1798-)",
+   "level": "Stock",
+   "reference_code": "E10667*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

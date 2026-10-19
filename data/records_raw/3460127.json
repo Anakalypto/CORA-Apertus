@@ -1,0 +1,91 @@
+{
+ "id": "3460127",
+ "uri": "https://culture.ld.admin.ch/ais/3460127",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460127",
+ "title": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen [1486-1835]",
+ "reference_code": "E2#1000/44#1834*",
+ "reference_number": "B.133.6.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen Münstertal gegen Tirol 1486-1835 erstellt 1837.\\Schätzung der auf streitigem Grenzgebiet bei Müstair und Taufers gelegenen Felder, 1852. Anfrage betr. österreichischer militärischer Personen an der Landesgrenze, 1859",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroform",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1837-01-01",
+  "to": "1859-12-31",
+  "expressed": "1837-1859"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7515",
+   "number": "1000/44",
+   "title": "1000/00044 Bundesverwaltung (Bern) (1848-1951)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002969",
+   "title": "Graubünden gegen Österreich [jetzt auch Italien]",
+   "level": "Serie",
+   "reference_code": "E2#B.133.6.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002968",
+   "title": "Österreich",
+   "level": "Serie",
+   "reference_code": "E2#B.133.6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002937",
+   "title": "Festsetzung, Berichtigung & Unterhalt der Landesgrenze",
+   "level": "Serie",
+   "reference_code": "E2#B.133"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002930",
+   "title": "Gebietshoheit der Schweiz",
+   "level": "Serie",
+   "reference_code": "E2#B.13"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002818",
+   "title": "Allgemeine internationale Verhältnisse",
+   "level": "Serie",
+   "reference_code": "E2#B.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4002817",
+   "title": "Beziehungen mit dem Ausland",
+   "level": "Serie",
+   "reference_code": "E2#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3575",
+   "title": "Auswärtige Angelegenheiten 1848-1895",
+   "level": "Stock",
+   "reference_code": "E2*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

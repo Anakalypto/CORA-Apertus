@@ -1,0 +1,326 @@
+{
+ "id": "22333673",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22333673",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22333673",
+  "reference_code": "J2.225#2005/16#77#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau am Mittag (TS), 16.12.2004 ; Test Gesichtserkennungssystem am Flughafen Zürich",
+   "old_reference_code": "Original Signatur: TSSFDRS 2502220\nSignatur Bundesarchiv: J2.225#2005/16#978*",
+   "scope_and_content": "Inhaltsangabe: CH Zürich Flughafen, ZH: Verordnung des Zürcher Regierungsrates für die 2. Testphase mit dem automatischen Gesichtserkennungssystem FAREC am Flughafen zur Gewinnung biometrischer Daten\nSequenzbeschrieb: CH Zürich Flughafen, ZH: Polizist Gesichts-Erkennungssystem FAREC bedienend (gestellt) / GPL Computer-Bildschirm mit Passagierfoto o.O., ZH: Statement Ulrich Neracher (Kantonspolizei) / GPL Verordnung des Regierungsrates Zürich Flughafen, ZH: Passagier",
+   "author": "AutorIn: Aklin, Judith\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Menzi, Pascale",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 16.12.2004-17.12.2004",
+   "form": "Video",
+   "format": "Dauer: 00:01:24\nFarbe: Farbaufnahmen\nStartposition: 00.24.07\nTräger: MPEG IMX",
+   "thema": "Personen: Neracher, Ulrich\nSachdeskriptor: Flughafen;Personenfahndung",
+   "date": {
+    "from": "2004-12-16",
+    "to": null,
+    "expressed": "2004.12.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1187212",
+     "number": "2005/16",
+     "title": "2005/00016 Schweizer Fernsehen DRS (Z�rich) (2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct news broadcast created at the time of the events by the broadcaster.",
+  "resume": "This video records a midday news segment from Tagesschau (TS) on 16 December 2004, featuring a test of a facial recognition system at Zurich Airport and statements from Ulrich Neracher of the cantonal police."
+ },
+ "metadata": {
+  "title": "Tagesschau am Mittag (TS), 16.12.2004 ; Test Gesichtserkennungssystem am Flughafen Zürich",
+  "title_normalized": "Tagesschau am Mittag (TS), 16.12.2004 ; Test Gesichtserkennungssystem am Flughafen Zürich",
+  "title_en": "Tagesschau at Noon (TS), 16 December 2004: Test of Facial Recognition System at Zurich Airport",
+  "creator": "SRG SSR idée suisse",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2004-12-16",
+  "date_published": "2004-12-16",
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2004-12-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "airport",
+   "facial recognition",
+   "Zurich Airport"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2004",
+   "Tagesschau SFDRS 16.12.2004"
+  ],
+  "reference_code": "J2.225#2005/16#77#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22333673",
+  "accession_numbers": [
+   "2005/16"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ulrich Neracher",
+    "display_name": "Ulrich Neracher",
+    "role": "expert",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Pascale Menzi",
+    "display_name": "Pascale Menzi",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "producer",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "Kantonspolizei",
+    "role": "expert",
+    "wikidata": {
+     "qid": "Q665913",
+     "label": "Cantonal police",
+     "description": "sub-national police authorities of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q665913"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zurich Airport",
+    "as_written": "Flughafen Zürich",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4633881,
+    "lon": 8.5533661,
+    "gazetteer": "https://www.openstreetmap.org/relation/13368029",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2004)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Aklin, Judith\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Neracher, Ulrich; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2004.12.16; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2004)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Aklin, Judith\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2004.12.16"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Neracher, Ulrich"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2004-12-16",
+   "place": "Zurich Airport",
+   "lat": 47.4633881,
+   "lon": 8.5533661,
+   "description": "News segment broadcast covering facial recognition test at Zurich Airport.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/16 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2005/16#77#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5438,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,54 @@
+{
+ "id": 451,
+ "signature": "BAR B0 1000/1483, Nr. 1458, fol. 237-237v",
+ "reference": {
+  "place": "St. Gallen",
+  "canton_1799": "Säntis",
+  "school_type": "Vermengte Schule/niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johan Conrad Baumgartner",
+  "teacher_age": 62,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 40,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joh. Conrad Baumgartner",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Linsebüel",
+  "canton_1799": "Säntis",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Joh. Conrad Baumgartner",
+  "teacher_age": 62,
+  "teacher_marital_status": null,
+  "teacher_since": 1789,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joh. Conrad Baumgartner",
+  "date_written": null
+ },
+ "evidence": {
+  "canton_1799": "€ $ Canton. $$ €€ Säntis.",
+  "place_as_written": "€ Kirche. €€ Linsebüel.",
+  "teacher_name": "€ Name. €€ Joh. Conrad Baumgartner.",
+  "teacher_age": "€ alter. €€ 62 Jahr",
+  "teacher_since": "wie lang @ an der Stelle seit 1789 Pfarrer in Linsebüel und Lehrer @ der 2.ten Claß, sit 1794. $ Rector $$"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "missed",
+  "teacher_since": "mismatch",
+  "pupils_winter": "both_empty",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "both_empty"
+ },
+ "seconds": 8.9
+}

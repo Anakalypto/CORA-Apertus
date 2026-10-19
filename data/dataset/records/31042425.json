@@ -1,0 +1,307 @@
+{
+ "id": "31042425",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31042425",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042425",
+  "reference_code": "E1301#2017/317#13#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2012.2071: Petition Jugendsession 2012. Vermittlung von Medienkompetenzen in den Bildungsauftrag aufnehmen / Pétition Session des jeunes 2012. Inclure la transmission des compétences médiatiques dans le mandat de formation",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Graf, Maya;",
+   "form": "Digital",
+   "date": {
+    "from": "2013-09-27",
+    "to": null,
+    "expressed": "2013.09.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31039462",
+     "number": "2017/317",
+     "title": "2017/00317 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary debate on media literacy in education.",
+  "resume": "This is a digital parliamentary record of the Swiss National Council's 2013 autumn session, documenting a petition from the Youth Session calling for media literacy to be included in the education mandate. Maya Graf is listed as the speaker in the debate. The record is an official transcript and video recording of the parliamentary discussion."
+ },
+ "metadata": {
+  "title": "2012.2071: Petition Jugendsession 2012. Vermittlung von Medienkompetenzen in den Bildungsauftrag aufnehmen / Pétition Session des jeunes 2012. Inclure la transmission des compétences médiatiques dans le mandat de formation",
+  "title_normalized": "2012.2071: Petition Jugendsession 2012. Vermittlung von Medienkompetenzen in den Bildungsauftrag aufnehmen / Pétition Session des jeunes 2012. Inclure la transmission des compétences médiatiques dans le mandat de formation",
+  "title_en": "Petition from the Youth Session 2012: Include the transmission of media competencies in the education mandate",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2013-09-27",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2013-09-27",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "media literacy",
+   "education policy",
+   "youth petition",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2013",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/317#13#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31042425",
+  "accession_numbers": [
+   "2017/317"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Maya Graf",
+    "display_name": "Maya Graf",
+    "role": "speaker in parliamentary debate",
+    "wikidata": {
+     "qid": "Q119406",
+     "label": "Maya Graf",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119406"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (National Council)",
+    "role": "creator of the parliamentary record",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate includes 'Maya Graf'; named organizations or places (apertus): hierarchy includes 'Nationalrat', 'Parlamentsdienste', 'Bern'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date expressed as '2013.09.27'; free text places (apertus): places only in hierarchy (e.g., Bern) not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as '2013.09.27'"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., Bern) not in structured fields"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate includes 'Maya Graf'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes 'Nationalrat', 'Parlamentsdienste', 'Bern'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "named person 'Maya Graf' is a public figure (politician)"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "no identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political opinion"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "One named person (Maya Graf) is a public figure; no sensitive personal data identified."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2013-09-27",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Recorded during the parliamentary debate on the Youth Session petition.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/317 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/317#13#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4853,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

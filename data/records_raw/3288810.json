@@ -1,0 +1,73 @@
+{
+ "id": "3288810",
+ "uri": "https://culture.ld.admin.ch/ais/3288810",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3288810",
+ "title": "J. Dierauer \"Histoire suisse\";\nR. Fäsch \"Helvetia. Schweizerische Schlachtengesänge\";\nSociété d'histoire et d'archéologie de Genève \"Ouvrage historique à l'occasion du centenaire genevois\";\nSociété jurassienne d'émulation \"Album historique du Jura bernois\";\nA. Weese \"Die Cäsarteppiche im Historischen Museum zu Bern\";\nA. Stockmann \"Bilder von Niklaus von der Flüe\";\nA. Büchi \"Korrespondenz des Kardinals Matthäus Schinner\";\nE. Baldinger \"Minnesänger Graf Rudolf von Neuenburg\";\nW. Oechsli \"Geschichte der Schweiz im 19. Jahrhundert, französische Ausgabe\";\nF. Bonjour \"La démocratie en Suisse\";\nH. Delédevant und M. Henrioud \"Livre d'or des familles vaudoises",
+ "reference_code": "E81#1000/1134#107*",
+ "reference_number": null,
+ "old_reference_code": "E 8 (E) / Bd. 8 / prov. Nr. 545 Bd 3\nDo. alt 174; 180; 181; 182; 183; 184; 185; 186; 187; 188; 189",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1907-01-01",
+  "to": "1922-12-31",
+  "expressed": "1907.01.01-1922.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15582",
+   "number": "1000/1134",
+   "title": "1000/01134 Bundesverwaltung (Bern) (1849-1932)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3794069",
+   "title": "Politik und Schweizer Geschichte",
+   "level": "Serie",
+   "reference_code": "E81#1.2.05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3794064",
+   "title": "Unterstützung von Publikationen",
+   "level": "Serie",
+   "reference_code": "E81#1.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3794062",
+   "title": "Literatur",
+   "level": "Serie",
+   "reference_code": "E81#1."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3620",
+   "title": "Förderung und Unterstützung der Kunst",
+   "level": "Stock",
+   "reference_code": "E81*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

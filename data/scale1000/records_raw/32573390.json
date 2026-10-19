@@ -1,0 +1,70 @@
+{
+ "id": "32573390",
+ "uri": "https://culture.ld.admin.ch/ais/32573390",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32573390",
+ "title": "46. Aschenreste von 4 Dossier (Nahaufnahme)",
+ "reference_code": "E5565-05#2020/38#7#45*",
+ "reference_number": "G-46",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "gerahmtes Einzel-Dia",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": "1945-12-31",
+  "expressed": "1939 (ca.)-1945 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/31889658",
+   "number": "2020/38",
+   "title": "2020/00038 Nachrichtendienst des Bundes (2010-) (1859-1991)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32573345",
+   "title": "G: Sicherungsmassnahmen",
+   "level": "Dossier",
+   "reference_code": "E5565-05#2020/38#7*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32573053",
+   "title": "Sammlung an Fotografien zu Ausbildungszwecken",
+   "level": "Serie",
+   "reference_code": "E5565-05#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32287766",
+   "title": "Nachrichtendienst des Bundes: Zentralstelle Historisches Armeematerial - Interne Sammlung NDB",
+   "level": "Sub-file",
+   "reference_code": "E5565-05*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29472046",
+   "title": "Nachrichtendienst des Bundes (2010-)",
+   "level": "Stock",
+   "reference_code": "E11101*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

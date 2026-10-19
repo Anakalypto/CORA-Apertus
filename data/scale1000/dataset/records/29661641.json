@@ -1,0 +1,298 @@
+{
+ "id": "29661641",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29661641",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29661641",
+  "reference_code": "J2.225#2007/61#37#53*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Französischer Dreikönigskuchen",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503888\nSignatur Bundesarchiv: J2.225#2007/1#37*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Biel-Bienne, BE: \"Galettes des Rois\", die in der Romandie und in Frankreich verbreitete Variante des Dreikönigskuchens\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Biel-Bienne, BE: Patrick Parrain  Teig ausrollend / Patrick Parrain  Teig ausstechend / Patrick Parrain  Füllung mit Spritzsack auf Teig spritzend / Statement Patrick Parrain / GPL Hand Plastik-König auf Crème-Füllung legend / Patrick Parrain Kuchen verzierend / Patrick Parrain gebackene Dreikönigskuchen \"Galettes des Rois\" auf Ofen ziehend / Patrick Parrain Kuchen in Auslage Konditorei stellend / Deutsche und französische Dreikönigskuchen-Galettes des Roi in Verkaufs-Auslage / Statement °Kunde",
+   "author": "AutorIn: Herold, Richard (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:44\nPosition Anfang: 01:06:45",
+   "thema": "Personen: Parrain, Patrick (Bäcker-Konditor)\nSachdeskriptor: /BRAUCHTUM./BRAUCHTUM;/BRAUCHTUM./FEIERTAG;/GEWERBE./LEBENSMITTEL",
+   "date": {
+    "from": "2007-01-06",
+    "to": null,
+    "expressed": "2007.01.06"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production documenting a specific event with on-site footage and direct statements.",
+  "resume": "A short video segment produced by SF showing the preparation and display of French King's Cake (Galettes des Rois) in Biel-Bienne, featuring baker Patrick Parrain."
+ },
+ "metadata": {
+  "title": "Französischer Dreikönigskuchen",
+  "title_normalized": "Französischer Dreikönigskuchen",
+  "title_en": "French King's Cake",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-01-06",
+  "date_published": "2007-01-06",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-01-06",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "food",
+   "culinary traditions",
+   "Swiss cuisine"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 06.01.2007"
+  ],
+  "reference_code": "J2.225#2007/61#37#53*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29661641",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Patrick Parrain",
+    "display_name": "Patrick Parrain",
+    "role": "baker-konditor",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Biel-Bienne",
+    "as_written": "Biel-Bienne, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.1402077,
+    "lon": 7.2439029,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682380",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2006-2007)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Herold, Richard (AUT)\nProduktionsgesellsc",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Parrain, Patrick (Bäcker-Konditor); named organizations or places (apertus): Schweiz <Biel-Bienne, BE>",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2007.01.06; free text places (apertus): Schweiz <Biel-Bienne, BE:",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2006-2007)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Herold, Richard (AUT)\nProduktionsgesellsc"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.01.06"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <Biel-Bienne, BE:"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Parrain, Patrick (Bäcker-Konditor)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <Biel-Bienne, BE>"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-01-06",
+   "place": "Biel-Bienne, BE",
+   "lat": 47.1402077,
+   "lon": 7.2439029,
+   "description": "Video segment documenting preparation and display of French King's Cake.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#37#53*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5218,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,308 @@
+{
+ "id": "29657257",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29657257",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657257",
+  "reference_code": "J2.225#2006/364#133#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Porträt Schweizer Garde",
+   "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#1089*",
+   "scope_and_content": "Sequenzbeschrieb: Vatikan <Vatikanstadt: Schweizergardisten beim Appell strammstehend / Abmarsch Gardisten / Schweizergardist Besucher leitend / Gardist neben Papst Paul VI. kniend / Abfahrt Paul VI. im offenen Auto / Gardisten bei Wachablösung im Freien / Gardist bei Wachhäuschen telefonierend / Gardisten im Vatikan Wache schiebend / Wachablösung im Vatikan-Korridor / Mann Helm flickend / Helme in Werkstatt-Gestell / Gardisten essend / Statement Gardisten\nZusammenfassung: Vatikan <Vatikanstadt: Porträt Schweizergarde",
+   "author": "AutorIn: Carlevaro, Eduardo\nProduktionsgesellschaft: DRS",
+   "form": "Video",
+   "format": "Dauer: 00:04:49\nFarbe: SW\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.42.40\nTräger: Betacam-Digital",
+   "thema": "Personen: Paul VI.\nSachdeskriptor: Schweizergarde",
+   "date": {
+    "from": "1972-11-05",
+    "to": null,
+    "expressed": "1972.11.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+     "number": "2006/364",
+     "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of events captured by a news agency (DRS) during the 1972 visit.",
+  "resume": "A video segment showing Swiss Guards performing duties at the Vatican, including an audience with Pope Paul VI, guard changes, and daily activities, recorded on 5 November 1972."
+ },
+ "metadata": {
+  "title": "Porträt Schweizer Garde",
+  "title_normalized": "Porträt Schweizer Garde",
+  "title_en": "Portrait of the Swiss Guard",
+  "creator": "DRS",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1972-11-05",
+  "date_published": "1972-11-05",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1972-11-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Guard",
+   "Vatican",
+   "Pope Paul VI"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "Panorama der Woche - Tél-Hebdo - Telerama 1972",
+   "Panorama der Woche - Tél-Hebdo - Telerama 05.11.1972"
+  ],
+  "reference_code": "J2.225#2006/364#133#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657257",
+  "accession_numbers": [
+   "2006/364"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Paul VI",
+    "display_name": "Paul VI",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Guard",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q1055735",
+     "label": "Swiss Guard",
+     "description": "Swiss soldiers who have served as guards at foreign European courts",
+     "url": "https://www.wikidata.org/wiki/Q1055735"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Vatican City",
+    "as_written": "Vatikan",
+    "role": "depicted",
+    "country": "VA",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 41.9,
+    "model_lon": 12.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1970-1978)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: ...\nZusammenfassung: ...",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Carlevaro, Eduardo\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Paul VI.; named organizations or places (apertus): Sachdeskriptor: Schweizergarde",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1972.11.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1970-1978)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: ...\nZusammenfassung: ..."
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Carlevaro, Eduardo\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1972.11.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Paul VI."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sachdeskriptor: Schweizergarde"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1972-11-05",
+   "place": "Vatican City",
+   "lat": null,
+   "lon": null,
+   "description": "Video segment recorded during a visit to the Vatican.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/364 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/364#133#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5163,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,290 @@
+{
+ "id": "30704608",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30704608",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704608",
+  "reference_code": "E8100F#2016/63#39#41*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Aktennotiz der Planungssitzung Projektorganisation Sicherheitsbericht AlpTransit vom 1. Februar 2011",
+   "scope_and_content": "Protokoll / Aktennotiz",
+   "involved": "Herausgeber: Projektorganisastion Sicherheitsbericht AlpTransit, Verfasser: Lanz",
+   "date": {
+    "from": "2011-02-03",
+    "to": null,
+    "expressed": "2011.02.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a contemporaneous act note from a planning meeting documenting the proceedings.",
+  "resume": "This document is an act note from a planning meeting concerning the AlpTransit safety report, dated February 3, 2011, recording the proceedings of the project organization."
+ },
+ "metadata": {
+  "title": "Aktennotiz der Planungssitzung Projektorganisation Sicherheitsbericht AlpTransit vom 1. Februar 2011",
+  "title_normalized": "Aktennotiz der Planungssitzung Projektorganisation Sicherheitsbericht AlpTransit vom 1. Februar 2011",
+  "title_en": "Minutes of the Planning Meeting for the AlpTransit Safety Report Project Organization from February 1, 2011",
+  "creator": "Projektorganisastion Sicherheitsbericht AlpTransit",
+  "publisher": "Lanz",
+  "commissioner": null,
+  "date_created": "2011-02-03",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2011-02-03",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "AlpTransit",
+   "Safety report",
+   "Project organization"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 39)"
+  ],
+  "reference_code": "E8100F#2016/63#39#41*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704608",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Lanz",
+    "display_name": "Lanz",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Projektorganisastion Sicherheitsbericht AlpTransit",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): 16/00063 Bundesamt f�r Verkehr (Bern) (19",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.02.03",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "16/00063 Bundesamt f�r Verkehr (Bern) (19"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.02.03"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable persons are concerned in the record."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2011-02-03",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Meeting minutes documenting the planning session for the AlpTransit safety report.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#39#41*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4742,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

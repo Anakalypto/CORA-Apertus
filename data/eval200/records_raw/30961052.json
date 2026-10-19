@@ -1,0 +1,83 @@
+{
+ "id": "30961052",
+ "uri": "https://culture.ld.admin.ch/ais/30961052",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30961052",
+ "title": "Innenaufnahme des Parlamentgebäudes",
+ "reference_code": "E19#1000/43#65#7*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1920-01-01",
+  "to": null,
+  "expressed": "1920"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7511",
+   "number": "1000/43",
+   "title": "1000/00043 Bundesverwaltung (Bern) (1845-1933)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/25626034",
+   "title": "16 Negative (Glasplatten) von Innenaufnahmen des Parlamentgebäudes, v.a. Säle der eidg. Räte, dazu 4 Glasnegative Landschaftsaufnahmen",
+   "level": "Dossier",
+   "reference_code": "E19#1000/43#65*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29491741",
+   "title": "Parlamentsgebäude Bundeshaus-Mittelbau",
+   "level": "Serie",
+   "reference_code": "E19#2.3.1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29491791",
+   "title": "Verwaltungsgebäude in Bern",
+   "level": "Serie",
+   "reference_code": "E19#2.3.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29491624",
+   "title": "Verwaltungsgebäude",
+   "level": "Serie",
+   "reference_code": "E19#2.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29491605",
+   "title": "Eidgenössische Bauten",
+   "level": "Serie",
+   "reference_code": "E19#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3574",
+   "title": "Eidgenössische Bauten und öffentliche Werke",
+   "level": "Stock",
+   "reference_code": "E19*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

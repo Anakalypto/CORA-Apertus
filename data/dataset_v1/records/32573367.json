@@ -1,0 +1,283 @@
+{
+ "id": "32573367",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32573367",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32573367",
+  "reference_code": "E5565-05#2020/38#7#22*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "22. Mikrophon in Kravatte",
+   "reference_number": "G-22",
+   "form": "gerahmtes Einzel-Dia",
+   "date": {
+    "from": "1939-01-01",
+    "to": "1945-12-31",
+    "expressed": "1939 (ca.)-1945 (ca.)"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31889658",
+     "number": "2020/38",
+     "title": "2020/00038 Nachrichtendienst des Bundes (2010-) (1859-1991)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "Created as training material by the Swiss Federal Intelligence Service during the period it depicts.",
+  "resume": "A framed single slide from the Swiss Federal Intelligence Service's historical internal collection, titled '22. Mikrophon in Kravatte' (Microphone in Tie), showing training material on securing communications during the Second World War period."
+ },
+ "metadata": {
+  "title": "22. Mikrophon in Kravatte",
+  "title_normalized": "22. Mikrophon in Kravatte",
+  "title_en": "Microphone in Tie",
+  "creator": "Nachrichtendienst des Bundes (Swiss Federal Intelligence Service)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1939-01-01/1945-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2020",
+  "content_date": "1939-01-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "World War II",
+   "Swiss intelligence",
+   "communications security",
+   "military training"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nachrichtendienst des Bundes (2010-)",
+  "fonds_reference": "E11101*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nachrichtendienst des Bundes (2010-)",
+   "Nachrichtendienst des Bundes: Zentralstelle Historisches Armeematerial - Interne Sammlung NDB",
+   "Sammlung an Fotografien zu Ausbildungszwecken",
+   "G: Sicherungsmassnahmen"
+  ],
+  "reference_code": "E5565-05#2020/38#7#22*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32573367",
+  "accession_numbers": [
+   "2020/38"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Nachrichtendienst des Bundes",
+    "role": "Creator",
+    "wikidata": {
+     "qid": "Q690196",
+     "label": "Swiss intelligence agencies",
+     "description": "Switzerland's federal intelligence service",
+     "url": "https://www.wikidata.org/wiki/Q690196"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-), Nachrichtendienst des Bundes (2010-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: \"1939 (ca.)-1945 (ca.)\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): accessions[0].title: \"Nachrichtendienst des Bundes (2010-) (1859-1991)\"",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "expressed: \"1939 (ca.)-1945 (ca.)\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-), Nachrichtendienst des Bundes (2010-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title: \"Nachrichtendienst des Bundes (2010-) (1859-1991)\""
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "high",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains intelligence and security-related information from the Swiss Federal Intelligence Service."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1939-01-01/1945-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Produced as part of internal training materials on communications security by the Swiss Federal Intelligence Service.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2020",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2020/38 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5565-05#2020/38#7#22*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 3908,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

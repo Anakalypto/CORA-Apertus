@@ -1,0 +1,73 @@
+{
+ "id": "2524627",
+ "uri": "https://culture.ld.admin.ch/ais/2524627",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2524627",
+ "title": "Register über die von den Zollämtern tarifierten Waren",
+ "reference_code": "E6351B#1000/1040#482*",
+ "reference_number": "021-19",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1907-01-01",
+  "to": null,
+  "expressed": "1907"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/14599",
+   "number": "1000/1040",
+   "title": "1000/01040 Oberzolldirektion (Bern) (1905-1926)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3880104",
+   "title": "Formulare und andere Drucksachen",
+   "level": "Serie",
+   "reference_code": "E6351B#1-021"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3880084",
+   "title": "KONTROLLE I.",
+   "level": "Serie",
+   "reference_code": "E6351B#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5838",
+   "title": "Oberzolldirektion: Zentrale Ablage (1906-1922)",
+   "level": "Sub-file",
+   "reference_code": "E6351B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5832",
+   "title": "Oberzolldirektion (1850-2021)",
+   "level": "Stock",
+   "reference_code": "E10432*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

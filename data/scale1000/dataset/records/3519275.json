@@ -1,0 +1,338 @@
+{
+ "id": "3519275",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3519275",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519275",
+  "reference_code": "E1301#2006/273#8#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2005.0080: Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale",
+   "scope_and_content": "Sprecher/Sprecherinnen: Deiss, Joseph; Engelberger, Eduard; Janiak, Claude; Rennwald, Jean-Claude",
+   "date": {
+    "from": "2006-06-15",
+    "to": null,
+    "expressed": "2006.06.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3348388",
+     "number": "2006/273",
+     "title": "2006/00273 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning the new regional policy, captured as a sound recording during the summer session of 2006. The speakers listed participated in the discussion on the federal legislation titled 'Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale'."
+ },
+ "metadata": {
+  "title": "2005.0080: Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale",
+  "title_normalized": "2005.0080: Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale",
+  "title_en": "New Regional Policy. Federal Law / Nouvelle politique régionale. Loi fédérale",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-06-15",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-06-15",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "regional policy",
+   "Swiss federal legislation",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2006",
+   "8. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2006/273#8#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519275",
+  "accession_numbers": [
+   "2006/273"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Joseph Deiss",
+    "display_name": "Joseph Deiss",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q123823",
+     "label": "Joseph Deiss",
+     "description": "Swiss economist, member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123823"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eduard Engelberger",
+    "display_name": "Eduard Engelberger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1288249",
+     "label": "Eduard Engelberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1288249"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Janiak",
+    "display_name": "Claude Janiak",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116461",
+     "label": "Claude Janiak",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116461"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-Claude Rennwald",
+    "display_name": "Jean-Claude Rennwald",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120733",
+     "label": "Jean-Claude Rennwald",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120733"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2005.0080: Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Joseph Deiss\", \"Eduard Engelberger\", \"Claude Janiak\", \"Jean-Claude Rennwald\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.06.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2005.0080: Neue Regionalpolitik. Bundesgesetz / Nouvelle politique régionale. Loi fédérale\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.06.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Joseph Deiss\", \"Eduard Engelberger\", \"Claude Janiak\", \"Jean-Claude Rennwald\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/273 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2006/273#8#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": false,
+  "structural_errors": [
+   "resume_4_sentences"
+  ],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4749,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

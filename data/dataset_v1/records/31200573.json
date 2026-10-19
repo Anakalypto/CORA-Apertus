@@ -1,0 +1,310 @@
+{
+ "id": "31200573",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31200573",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31200573",
+  "reference_code": "E1301#2017/406#5#25*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2015.5072: Fragestunde. Frage Guhl Bernhard. Das Milizsystem in Gefahr. Unterstützen die Bundesbehörden das politische Engagement ihrer Angestellten? / Heure des questions. Question Guhl Bernhard. Le système de milice en danger. Les autorités fédérales soutiennent-elles les activités politiques de leurs collaborateurs?",
+   "old_reference_code": "E1301 #2017/406#5#25*",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Widmer-Schlumpf, Eveline;",
+   "date": {
+    "from": "2015-03-09",
+    "to": null,
+    "expressed": "2015.03.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31112121",
+     "number": "2017/406",
+     "title": "2017/00406 Parlamentsdienste: Amtliches Bulletin (Bern) (2015)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss National Council as an official record of parliamentary proceedings.",
+  "resume": "This record documents a parliamentary question posed by National Councillor Bernhard Guhl during the 2015 spring session of the Swiss National Council, concerning whether federal authorities support the political activities of their employees within the militia system. It is part of the official session protocols and video recordings of the National Council. The question was addressed by Federal Councillor Eveline Widmer-Schlumpf."
+ },
+ "metadata": {
+  "title": "2015.5072: Fragestunde. Frage Guhl Bernhard. Das Milizsystem in Gefahr. Unterstützen die Bundesbehörden das politische Engagement ihrer Angestellten? / Heure des questions. Question Guhl Bernhard. Le système de milice en danger. Les autorités fédérales soutiennent-elles les activités politiques de leurs collaborateurs?",
+  "title_normalized": "2015.5072: Fragestunde. Frage Guhl Bernhard. Das Milizsystem in Gefahr. Unterstützen die Bundesbehörden das politische Engagement ihrer Angestellten? / Heure des questions. Question Guhl Bernhard. Le système de milice en danger. Les autorités fédérales soutiennent-elles les activités politiques de leurs collaborateurs?",
+  "title_en": "Question Time. Question by Bernhard Guhl. The militia system in danger. Do federal authorities support the political engagement of their employees?",
+  "creator": "Swiss National Council",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2015-03-09",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2015-03-09",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "parliamentary procedure",
+   "civil service",
+   "militia system"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Frühjahrssession 2015",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/406#5#25*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31200573",
+  "accession_numbers": [
+   "2017/406"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Guhl, Bernhard",
+    "display_name": "Bernhard Guhl",
+    "role": "National Councillor (questioner)",
+    "wikidata": {
+     "qid": "Q825146",
+     "label": "Bernhard Guhl",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q825146"
+    }
+   },
+   {
+    "name": "Widmer-Schlumpf, Eveline",
+    "display_name": "Eveline Widmer-Schlumpf",
+    "role": "Federal Councillor (respondent)",
+    "wikidata": {
+     "qid": "Q162767",
+     "label": "Eveline Widmer-Schlumpf",
+     "description": "Swiss lawyer and politician",
+     "url": "https://www.wikidata.org/wiki/Q162767"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss National Council",
+    "role": "Parliamentary body",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Named person: Guhl Bernhard; named organizations or places (apertus): Named organization: Bundesbehörden",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2015.03.09'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2015.03.09'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Named person: Guhl Bernhard"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Named organization: Bundesbehörden"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person and organization but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2015-03-09",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary question posed by Bernhard Guhl during the National Council session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/406 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/406#5#25*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4236,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

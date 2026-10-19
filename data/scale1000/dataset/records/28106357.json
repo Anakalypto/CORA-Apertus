@@ -1,0 +1,376 @@
+{
+ "id": "28106357",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/28106357",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106357",
+  "reference_code": "J2.225#2006/365#138#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Das bäuerliche Bildungswesen (1/3)",
+   "old_reference_code": "Original Signatur: 9502114\nSignatur Bundesarchiv: J2.225#2006/365#1*",
+   "scope_and_content": "Inhaltsangabe: CH: Grundausbildungen in der Landwirtschaft und Ausbildung zu spezialisierten Berufen Käser, Molkerist und Geflügelzüchter\nSequenzbeschrieb: CH o.O.: Schwenk Broschüren und Prospekte zu landwirtschaftlichen Ausbildungen Winterthur-Wülflingen, ZH: Schüler in Landwirtschaftlicher Schule im Chemie-Unterricht / Zoom Winterkurs-Schüler Ernst Bieri, Statement (audio) / Zoom Urs Hans, Statement (audio) / AA Landwirtschaftliche Schule mit Werkgebäuden / Schüler mit Traktor in Halle fahrend und Maschine reinigend / Schüler in Schulzimmer Kartoffel aufschneidend / Schüler bei praktischem Unterricht in Holzwerkstatt / verschiedene geschreinerte Holzgegenstände / Lehrer im Unterricht Kuhmodell und Kuh-Skelett erläuternd Hondrich, BE: AA Bergbauernschule / Viehzucht-Unterricht mit Kuh im Freien / D Gammeter unterrichtend / sw-Fotos Tourismus / Schüler in Aufenthaltsraum jassend und Zeitung lesend / AA IA Lehr-Käserei, Schüler beim Unterricht um Kessi stehend / Schüler mit Käseharfe in Kessi rührend / Schüler Butter knetend Zollikofen, BE: AA Schulhaus Molkereischule Rütti / Käsereischüler im Unterricht / Schüler bei praktischem Unterricht in Käserei Käsemasse aus Kessi hebend und in Form pressend / Molkereischüler an Joghurt-Abfüllmaschine arbeitend / Schüler bei Käse-Klassierung / Schüler im Labor Milch prüfend / schlüpfende Küken in Geflügelzucht-Schule / Schwenk AA Geflügelställe (Schnee) / AA Schulhaus / Schüler Eier in Kartons füllend / Lehrer im Unterricht mit Huhn / Schwenk SchülerInnen",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "format": "Dauer: 00:25:55\nOriginalformat: V-U;16 mm;sepmag\nPosition Anfang: 01.00.00",
+   "thema": "Personen: Bieri, Ernst;Hans, Urs;Gammeter\nSachdeskriptor: Berufsschule;Höhere Fachschule;Landwirtschaft",
+   "date": {
+    "from": "1971-05-16",
+    "to": null,
+    "expressed": "1971.05.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3376890",
+     "number": "2006/365",
+     "title": "2006/00365 Schweizer Fernsehen DRS (Z�rich) (1959-1971)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct television production from 1971 with original footage and audio.",
+  "resume": "A television segment from 1971 documenting agricultural education in Switzerland, featuring interviews with Ernst Bieri and Urs Hans, and footage of students in various vocational training activities such as cheese-making, milk testing, and poultry rearing."
+ },
+ "metadata": {
+  "title": "Das bäuerliche Bildungswesen (1/3)",
+  "title_normalized": "Das bäuerliche Bildungswesen (1/3)",
+  "title_en": "Rural Education (Part 1/3)",
+  "creator": "DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1971-05-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "1971-05-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "agricultural education",
+   "vocational training",
+   "farming"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Landwirtschaft heute 1971-1972",
+   "Landwirtschaft heute 1971",
+   "Landwirtschaft heute 16.05.1971"
+  ],
+  "reference_code": "J2.225#2006/365#138#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28106357",
+  "accession_numbers": [
+   "2006/365"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Bieri, Ernst",
+    "display_name": "Ernst Bieri",
+    "role": "statement",
+    "wikidata": {
+     "qid": "Q1357567",
+     "label": "Ernst Bieri",
+     "description": "Swiss journalist (1920-2003)",
+     "url": "https://www.wikidata.org/wiki/Q1357567"
+    },
+    "life_date_check": {
+     "born": 1920,
+     "died": 2003,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans, Urs",
+    "display_name": "Urs Hans",
+    "role": "statement",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Gammeter",
+    "display_name": "Gammeter",
+    "role": null,
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Winterthur-Wülflingen",
+    "as_written": "Winterthur-Wülflingen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5064599,
+    "lon": 8.6809643,
+    "gazetteer": "https://www.openstreetmap.org/node/1330676298",
+    "model_lat": 47.4,
+    "model_lon": 8.6
+   },
+   {
+    "name": "Zollikofen",
+    "as_written": "Zollikofen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9959463,
+    "lon": 7.4576417,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682737",
+    "model_lat": 46.9,
+    "model_lon": 7.4
+   },
+   {
+    "name": "BE",
+    "as_written": "BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.8382351,
+    "lon": 7.6004502,
+    "gazetteer": "https://www.openstreetmap.org/relation/1686344",
+    "model_lat": 46.9,
+    "model_lon": 7.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1959-1971)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:25:55\nOriginalformat: V-U;16 mm;sepmag\nP",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Bieri, Ernst;Hans, Urs;Gammeter; named organizations or places (apertus): CH: Grundausbildungen in der Landwirtschaft und Ausbildung zu spezialisierten Berufen Käser, Molkerist und Geflügelzüchter",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1971.05.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1959-1971)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:25:55\nOriginalformat: V-U;16 mm;sepmag\nP"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1971.05.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Bieri, Ernst;Hans, Urs;Gammeter"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH: Grundausbildungen in der Landwirtschaft und Ausbildung zu spezialisierten Berufen Käser, Molkerist und Geflügelzüchter"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1971-05-16",
+   "place": "Winterthur-Wülflingen",
+   "lat": 47.5064599,
+   "lon": 8.6809643,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1971-05-16",
+   "place": "Zollikofen",
+   "lat": 46.9959463,
+   "lon": 7.4576417,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1971-05-16",
+   "place": "BE",
+   "lat": 46.8382351,
+   "lon": 7.6004502,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1971-05-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television segment aired on 16 May 1971.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/365 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/365#138#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5798,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

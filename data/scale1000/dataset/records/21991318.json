@@ -1,0 +1,338 @@
+{
+ "id": "21991318",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21991318",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21991318",
+  "reference_code": "J2.225#2004/178#39#9*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS): Entschädigung für Marke \"Swissair\", 08.11.2003",
+   "old_reference_code": "Original Signatur: TSSFDRS 2501280\nSignatur Bundesarchiv: J2.225#2004/178#476*",
+   "scope_and_content": "Inhaltsangabe: CH: Kurt Wüthrich, Liquidator der SAirGroup, fordert von der Fluggesellschaft Swiss Entschädigung für die alte Marke Swissair\nSequenzbeschrieb: CH Zürich Flughafen, ZH: ZS Swissair-Flugzeuge o.O.: Karl Wüthrich (zap) (Liquidator) durch Archivräume gehend / Statement Wüthrich / Statement Peter Marthaler (Kommunikationschef Swiss) / Wüthrich in Gesetzessammlung blättern / GPL Logo \"Swiss",
+   "author": "AutorIn: Laeri, Patrizia ; Trütsch, Hanspeter\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Stauber, Katja",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 01.11.2003-15.11.2003",
+   "form": "Video",
+   "format": "Dauer: 00:01:44\nFarbe: Farbaufnahmen\nStartposition: 00.50.30",
+   "thema": "Personen: Wüthrich, Karl;Marthaler, Peter\nSachdeskriptor: Urheberrecht;Swiss;Swissair",
+   "date": {
+    "from": "2003-11-08",
+    "to": null,
+    "expressed": "2003.11.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1084055",
+     "number": "2004/178",
+     "title": "2004/00178 Schweizer Fernsehen DRS (Z�rich) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast with original footage and statements from participants.",
+  "resume": "The video records a Tagesschau news segment from November 8, 2003, featuring Kurt Wüthrich, liquidator of the Swissair Group, demanding compensation for the former Swissair brand from the airline Swiss, with statements from Peter Marthaler, communications chief of Swiss, and footage from Zurich Airport."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS): Entschädigung für Marke \"Swissair\", 08.11.2003",
+  "title_normalized": "Tagesschau Hauptausgabe (TS): Entschädigung für Marke \"Swissair\", 08.11.2003",
+  "title_en": "Tagesschau Main Edition (TS): Compensation for the \"Swissair\" Brand, 8 November 2003",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2003-11-08",
+  "date_updated": null,
+  "date_archived": "2004",
+  "content_date": "2003-11-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swissair",
+   "Swiss",
+   "Intellectual property"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2003",
+   "Tagesschau SFDRS 08.11.2003"
+  ],
+  "reference_code": "J2.225#2004/178#39#9*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21991318",
+  "accession_numbers": [
+   "2004/178"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Karl Wüthrich",
+    "display_name": "Karl Wüthrich",
+    "role": "Liquidator of Swissair Group",
+    "wikidata": {
+     "qid": "Q65069283",
+     "label": "Karl Wüthrich",
+     "description": "Swiss association football player",
+     "url": "https://www.wikidata.org/wiki/Q65069283"
+    },
+    "life_date_check": {
+     "born": 1896,
+     "died": 1965,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Marthaler",
+    "display_name": "Peter Marthaler",
+    "role": "Communications Chief, Swiss",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swissair",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q694098",
+     "label": "Swissair",
+     "description": "defunct national airline of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q694098"
+    }
+   },
+   {
+    "name": "Swiss",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q156776",
+     "label": "Swiss International Air Lines",
+     "description": "flag-carrier airline of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q156776"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Zurich Airport",
+    "as_written": "Zürich Flughafen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4633881,
+    "lon": 8.5533661,
+    "gazetteer": "https://www.openstreetmap.org/relation/13368029",
+    "model_lat": 47.3769,
+    "model_lon": 8.3567
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Laeri, Patrizia ; Trütsch, Hanspeter\nProd",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Wüthrich, Karl;Marthaler, Peter; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2003.11.08",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Laeri, Patrizia ; Trütsch, Hanspeter\nProd"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2003.11.08"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Wüthrich, Karl;Marthaler, Peter"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2003-11-08",
+   "place": "Zurich Airport",
+   "lat": 47.4633881,
+   "lon": 8.5533661,
+   "description": "News segment recorded at Zurich Airport featuring statements from Kurt Wüthrich and Peter Marthaler.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2004",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2004/178 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2004/178#39#9*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5494,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

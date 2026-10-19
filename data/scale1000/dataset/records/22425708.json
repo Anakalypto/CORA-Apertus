@@ -1,0 +1,296 @@
+{
+ "id": "22425708",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22425708",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22425708",
+  "reference_code": "J2.240#2002/139#873#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "U2. EQUIPEMENT NEIGE CHAUX-DE-FONDS / GE ; Journal Romand, 18.12.1985",
+   "old_reference_code": "Original Signatur: JRTSR LM012062\nSignatur Bundesarchiv: J2.240#2002/139#4395*",
+   "scope_and_content": "Sequenzbeschrieb: Neige a Geneve - Batiment - Voirie - Camions - Interview - Bus - Machine a deblayer la neige - Sac chlorure de calcium - Armee deblayant - Photos d'archives - Hangar pour le sel - Chaines - Panneaux de signalisation -",
+   "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: SUISSE\nZeitliche Abdeckung: 11.12.1985-25.12.1985",
+   "form": "Video",
+   "format": "Dauer: 00:04.02\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:02.19",
+   "thema": "Sachdeskriptor: neige",
+   "date": {
+    "from": "1985-12-18",
+    "to": null,
+    "expressed": "1985.12.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+     "number": "2002/139",
+     "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage produced by the broadcaster TSR for news coverage.",
+  "resume": "A television segment from the Journal romand produced by Télévision suisse romande (TSR) covering snow removal operations in Chaux-de-Fonds, featuring interviews, vehicles, and de-icing equipment."
+ },
+ "metadata": {
+  "title": "U2. EQUIPEMENT NEIGE CHAUX-DE-FONDS / GE ; Journal Romand, 18.12.1985",
+  "title_normalized": "U2. EQUIPEMENT NEIGE CHAUX-DE-FONDS / GE ; Journal Romand, 18.12.1985",
+  "title_en": "Snow Equipment in Chaux-de-Fonds / GE; Journal Romand, December 18, 1985",
+  "creator": null,
+  "publisher": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1985-12-18",
+  "date_published": "1985-12-18",
+  "date_updated": null,
+  "date_archived": "2002",
+  "content_date": "1985-12-18",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "snow",
+   "winter maintenance",
+   "transportation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Télévision Suisse Romande (1954-)",
+  "fonds_reference": "J2.240*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Télévision Suisse Romande (1954-)",
+   "Journal romand 1981-1986 TSR",
+   "Journal romand TSR 1985",
+   "Journal romand TSR 18.12.1985"
+  ],
+  "reference_code": "J2.240#2002/139#873#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22425708",
+  "accession_numbers": [
+   "2002/139"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Télévision suisse romande (TSR), SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Chaux-de-Fonds",
+    "as_written": "CHAUX-DE-FONDS",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0897213,
+    "lon": 6.8123375,
+    "gazetteer": "https://www.openstreetmap.org/relation/1689426",
+    "model_lat": 47.0,
+    "model_lon": 7.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): itle\": \"2002/00139 T�l�vision Suisse Roma; uppercase or abbreviated title (rule): U2. EQUIPEMENT NEIGE CHAUX-DE-FONDS / GE ; Journal Romand, 1",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Sequenzbeschrieb: Neige a Geneve - Batiment - Voirie - Camions - Interview - Bus - Machine a deblayer la neige - Sac chlorure de calcium - Armee deblayant - Photos d'archives - Hangar pour le sel - Chaines - Panneaux de signalisation -",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:04.02\nFarbe: couleur\nFormat Arbeitskopie; multilingual (apertus): Sequenzbeschrieb: Neige a Geneve - Batiment - Voirie - Camions - Interview - Bus - Machine a deblayer la neige - Sac chlorure de calcium - Armee deblayant - Photos d'archives - Hangar pour le sel - Chaines - Panneaux de signalisation -",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Télévision suisse romande (TSR), SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1985.12.18; free text places (apertus): Geografische Abdeckung: SUISSE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "itle\": \"2002/00139 T�l�vision Suisse Roma"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "U2. EQUIPEMENT NEIGE CHAUX-DE-FONDS / GE ; Journal Romand, 1"
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Sequenzbeschrieb: Neige a Geneve - Batiment - Voirie - Camions - Interview - Bus - Machine a deblayer la neige - Sac chlorure de calcium - Armee deblayant - Photos d'archives - Hangar pour le sel - Chaines - Panneaux de signalisation -"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:04.02\nFarbe: couleur\nFormat Arbeitskopie"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Neige a Geneve - Batiment - Voirie - Camions - Interview - Bus - Machine a deblayer la neige - Sac chlorure de calcium - Armee deblayant - Photos d'archives - Hangar pour le sel - Chaines - Panneaux de signalisation -"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1985.12.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: SUISSE"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Télévision suisse romande (TSR), SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1985-12-18",
+   "place": "Chaux-de-Fonds",
+   "lat": 47.0897213,
+   "lon": 6.8123375,
+   "description": "Broadcast segment covering snow removal operations.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2002",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2002/139 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.240#2002/139#873#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5246,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

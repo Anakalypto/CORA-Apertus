@@ -1,0 +1,343 @@
+{
+ "id": "3510342",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3510342",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510342",
+  "reference_code": "E1401#2001/218#10#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2001.3677: Interpellation Lombardi Filippo. Allfällige Übernahme der Cablecom durch die Swisscom. Auswirkungen / Interpellation Lombardi Filippo. Conséquences d'une reprise éventuelle de Cablecom par Swisscom   Interpellanza Lombardi Filippo Eventuale acquisizione di Cablecom da parte di Swisscom. Conseguenze",
+   "scope_and_content": "Sprecher/Sprecherinnen: Cottier, Anton; Leuenberger, Moritz; Lombardi, Filippo",
+   "date": {
+    "from": "2001-12-11",
+    "to": null,
+    "expressed": "2001.12.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383489",
+     "number": "2001/218",
+     "title": "2001/00218 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the debate by the Council of States.",
+  "resume": "This document is a parliamentary interpellation record from the Swiss Council of States concerning the potential takeover of Cablecom by Swisscom and its consequences, recorded during the Winter Session 2001. It includes statements by Filippo Lombardi, Anton Cottier, and Moritz Leuenberger. The record is part of the Swiss Federal Archives' holdings of the Council of States' meeting protocols."
+ },
+ "metadata": {
+  "title": "2001.3677: Interpellation Lombardi Filippo. Allfällige Übernahme der Cablecom durch die Swisscom. Auswirkungen / Interpellation Lombardi Filippo. Conséquences d'une reprise éventuelle de Cablecom par Swisscom   Interpellanza Lombardi Filippo Eventuale acquisizione di Cablecom da parte di Swisscom. Conseguenze",
+  "title_normalized": "Interpellation Lombardi Filippo. Allfällige Übernahme der Cablecom durch die Swisscom. Auswirkungen / Interpellation Lombardi Filippo. Conséquences d'une reprise éventuelle de Cablecom par Swisscom. Conseguenze",
+  "title_en": "Interpellation by Filippo Lombardi on the possible takeover of Cablecom by Swisscom and its consequences",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2001-12-11",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "2001-12-11",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Cablecom",
+   "Swisscom",
+   "telecommunications",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Wintersession 2001",
+   "8. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2001/218#10#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510342",
+  "accession_numbers": [
+   "2001/218"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Filippo Lombardi",
+    "display_name": "Filippo Lombardi",
+    "role": "interpellator",
+    "wikidata": {
+     "qid": "Q353273",
+     "label": "Filippo Lombardi",
+     "description": "Swiss politician (1956-)",
+     "url": "https://www.wikidata.org/wiki/Q353273"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anton Cottier",
+    "display_name": "Anton Cottier",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q121147",
+     "label": "Anton Cottier",
+     "description": "Swiss politician (1943-2006)",
+     "url": "https://www.wikidata.org/wiki/Q121147"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": 2006,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swisscom",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q644324",
+     "label": "Swisscom",
+     "description": "Swiss telecommunication company",
+     "url": "https://www.wikidata.org/wiki/Q644324"
+    }
+   },
+   {
+    "name": "Cablecom",
+    "role": "mentioned",
+    "wikidata": {
+     "qid": "Q362582",
+     "label": "UPC Switzerland",
+     "description": "cable provider in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q362582"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Interpellation Lombardi Filippo. Allfällige Übernahme der Cablecom durch die Swisscom. Auswirkungen / Interpellation Lombardi Filippo. Conséquences d'une reprise éventuelle de Cablecom par Swisscom. Interpellanza Lombardi Filippo Eventuale acquisizione di Cablecom da parte di Swisscom. Conseguenze",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Filippo Lombardi; named organizations or places (apertus): Swisscom, Cablecom",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.12.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Interpellation Lombardi Filippo. Allfällige Übernahme der Cablecom durch die Swisscom. Auswirkungen / Interpellation Lombardi Filippo. Conséquences d'une reprise éventuelle de Cablecom par Swisscom. Interpellanza Lombardi Filippo Eventuale acquisizione di Cablecom da parte di Swisscom. Conseguenze"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.12.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Filippo Lombardi"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swisscom, Cablecom"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; the record concerns a parliamentary debate on corporate takeover."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/218 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2001/218#10#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4993,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

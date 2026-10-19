@@ -1,0 +1,278 @@
+{
+ "id": "2103970",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/2103970",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2103970",
+  "reference_code": "J1.63#1000/1360#45*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tod, 6.9.1900: Nachrufe, Abdankungsrede",
+   "reference_number": "05.c",
+   "date": {
+    "from": "1900-01-01",
+    "to": null,
+    "expressed": "1900"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16700",
+     "number": "1000/1360",
+     "title": "1000/01360 Welti Peter (1774-1948)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit contains retrospective biographical and commemorative material rather than contemporary administrative records or press clippings.",
+  "resume": "The record contains obituaries and a funeral oration for Peter Welti, who died on 6 September 1900. It is part of the family papers of the Welti family deposited at the Swiss Federal Archives. The document reflects the commemoration of a deceased individual through written tributes."
+ },
+ "metadata": {
+  "title": "Tod, 6.9.1900: Nachrufe, Abdankungsrede",
+  "title_normalized": "Tod, 6.9.1900: Nachrufe, Abdankungsrede",
+  "title_en": "Death, 6.9.1900: Obituaries, Funeral Oration",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1900-09-06",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1900",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituaries",
+   "funeral oration",
+   "death",
+   "Peter Welti"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Familie Welti (keine Angabe)",
+  "fonds_reference": "J1.63*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Familie Welti (keine Angabe)",
+   "Johann Jakob Welti",
+   "Verschiedenes"
+  ],
+  "reference_code": "J1.63#1000/1360#45*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2103970",
+  "accession_numbers": [
+   "1000/1360"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Welti",
+    "display_name": "Peter Welti",
+    "role": "deceased individual",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve' with mangled accent",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title mentions 'Johann Jakob Welti'; named organizations or places (apertus): hierarchy includes 'Schweizerischen Bundesarchivs' and 'Familie Welti'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date expressed as '1900' not ISO; free text places (apertus): places only in hierarchy (e.g., 'Welti') not linked authority",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title contains 'GenÃ¨ve' with mangled accent"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as '1900' not ISO"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in hierarchy (e.g., 'Welti') not linked authority"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title mentions 'Johann Jakob Welti'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy includes 'Schweizerischen Bundesarchivs' and 'Familie Welti'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named person is Johann Jakob Welti, a public figure; no identifiable private individual or sensitive personal data present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1900-09-06",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Document created containing obituaries and funeral oration for Peter Welti following his death on 6 September 1900",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1360 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.63#1000/1360#45*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4381,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

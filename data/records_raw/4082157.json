@@ -1,0 +1,73 @@
+{
+ "id": "4082157",
+ "uri": "https://culture.ld.admin.ch/ais/4082157",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4082157",
+ "title": "Geschichte der Grenzbrigade 7: Teil 8, darin: Manuskript (Interviews)",
+ "reference_code": "E5734#2001/174#138*",
+ "reference_number": "01-03",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1993-01-01",
+  "to": "1993-12-31",
+  "expressed": "1993-1993"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/14296",
+   "number": "2001/174",
+   "title": "2001/00174 Armeestabsteil 152 (Bern) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4082140",
+   "title": "Geschichte Gz Br 7 (Grenzbrigade 7)",
+   "level": "Serie",
+   "reference_code": "E5734#01-03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4082008",
+   "title": "Kdo Gr Br 7 (Kommando Grenzbrigade 7)",
+   "level": "Serie",
+   "reference_code": "E5734#01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5424",
+   "title": "Grenzbrigade 7: Zentrale Ablage (1938-1995)",
+   "level": "Sub-file",
+   "reference_code": "E5734*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5423",
+   "title": "Grenzbrigade 7 (1938-1995)",
+   "level": "Stock",
+   "reference_code": "E10328*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

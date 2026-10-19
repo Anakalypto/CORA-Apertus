@@ -1,0 +1,308 @@
+{
+ "id": "3510751",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3510751",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510751",
+  "reference_code": "E1401#2003/453#9#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2000.0318: Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification",
+   "scope_and_content": "Sprecher/Sprecherinnen: Saudan, Françoise",
+   "date": {
+    "from": "2001-03-20",
+    "to": null,
+    "expressed": "2001.03.20"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/597756",
+     "number": "2003/453",
+     "title": "2003/00453 Parlamentsdienste (Bern) (2001)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "The document is a parliamentary record of a debate in the Council of States concerning a cantonal initiative on the federal law on health insurance, held during the spring session of 2001. It contains a speech by Françoise Saudan. The record is part of the Swiss Federal Archives' holdings of the Council of States' meeting protocols."
+ },
+ "metadata": {
+  "title": "2000.0318: Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification",
+  "title_normalized": "2000.0318: Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification",
+  "title_en": "Cantonal Initiative Vaud: Federal Law on Health Insurance. Amendment / Cantonal Initiative Vaud. Federal Law on Health Insurance. Amendment",
+  "creator": "Council of States (Ständerat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2001-03-20",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "health insurance",
+   "cantonal initiative",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Frühjahrssession 2001",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2003/453#9#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3510751",
+  "accession_numbers": [
+   "2003/453"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Françoise Saudan",
+    "display_name": "Françoise Saudan",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1282105",
+     "label": "Françoise Saudan",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1282105"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Council of States (Ständerat)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Waadt",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"2000.0318: Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Françoise Saudan\" ]; named organizations or places (apertus): hierarchy_top_down: Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.03.20",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"2000.0318: Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Standesinitiative Waadt. Krankenversicherungsgesetz. Änderung / Initiative cantonale Vaud. Loi fédérale sur l'assurance-maladie. Modification\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.03.20"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Françoise Saudan\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/453 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2003/453#9#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4848,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

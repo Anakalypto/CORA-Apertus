@@ -1,0 +1,304 @@
+{
+ "id": "32683217",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32683217",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32683217",
+  "reference_code": "E3120C#2014/269#358*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Findmittel E2200.222 Schweizerische Vertretung, Galatz",
+   "reference_number": "516.9",
+   "scope_and_content": "enthält folgende Ablieferungen:***1000/369***1970/78***1970/80",
+   "date": {
+    "from": "1947-01-01",
+    "to": "1970-12-31",
+    "expressed": "1947-1970"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30291142",
+     "number": "2014/269",
+     "title": "2014/00269 Schweizerisches Bundesarchiv (Bern) (1894-2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "finding aid / inventory",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a finding aid (Findmittel) describing archival deliveries from the Swiss representation in Galatz.",
+  "resume": "This is a finding aid (inventory) for archival records of the Swiss representation in Galatz, covering the period 1947–1970. It lists specific archival deliveries within the Swiss Federal Archives' central storage system. The document itself is an administrative index, not the primary historical records it describes."
+ },
+ "metadata": {
+  "title": "Findmittel E2200.222 Schweizerische Vertretung, Galatz",
+  "title_normalized": "Findmittel E2200.222 Schweizerische Vertretung, Galatz",
+  "title_en": "Inventory E2200.222 Swiss Representation, Galatz",
+  "creator": "Schweizerisches Bundesarchiv",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "1947/1970",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss foreign representation",
+   "Galatz",
+   "diplomatic archives",
+   "inventory"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerisches Bundesarchiv (1979-)",
+  "fonds_reference": "E10796*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerisches Bundesarchiv (1979-)",
+   "Schweizerisches Bundesarchiv: Zentrale Ablage (1996-2007)",
+   "Bewertung, Erschliessung",
+   "Erschliessung",
+   "Detailfindmittel",
+   "Ausgeschiedene Find- und Findhilfsmittel"
+  ],
+  "reference_code": "E3120C#2014/269#358*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32683217",
+  "accession_numbers": [
+   "2014/269"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Vertretung, Galatz",
+    "role": "subject of the archival holdings described",
+    "wikidata": null
+   },
+   {
+    "name": "Schweizerisches Bundesarchiv",
+    "role": "creator of the finding aid",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Galatz",
+    "as_written": "Galatz",
+    "role": "depicted",
+    "country": "RO",
+    "lat": 45.4338215,
+    "lon": 28.0549395,
+    "gazetteer": "https://www.openstreetmap.org/relation/10487103",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Findmittel E2200.222 Schweizerische Vertretung, Galatz\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): named organization: \"Schweizerische Vertretung\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in free text (Galatz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Findmittel E2200.222 Schweizerische Vertretung, Galatz\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in free text (Galatz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "named organization: \"Schweizerische Vertretung\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Galatz",
+   "lat": 45.4338215,
+   "lon": 28.0549395,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/269 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3120C#2014/269#358*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4720,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

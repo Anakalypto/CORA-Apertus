@@ -1,0 +1,479 @@
+{
+ "id": "4033022",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4033022",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4033022",
+  "reference_code": "E1401#2006/381#3#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2006.0028: Finanzhilfen für familienergänzende Kinderbetreuung / Aides financières à l'accueil extrafamilial pour enfants",
+   "scope_and_content": "Sprecher/Sprecherinnen: Amgwerd, Madeleine; Büttiker, Rolf; Couchepin, Pascal; Fetz, Anita; Forster-Vannini, Erika; Heberlein, Trix; Jenny, This; Kuprecht, Alex; Langenberger, Christiane; Lauri, Hans; Ory, Gisèle; Pfisterer, Thomas; Schwaller, Urs",
+   "date": {
+    "from": "2006-09-20",
+    "to": null,
+    "expressed": "2006.09.20"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383506",
+     "number": "2006/381",
+     "title": "2006/00381 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a debate in the Swiss Council of States, created at the time of the event by the parliamentary archive.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss Council of States (Ständerat) on 20 September 2006 concerning financial assistance for supplementary childcare, with listed speakers and a reference to the parliamentary services archive."
+ },
+ "metadata": {
+  "title": "2006.0028: Finanzhilfen für familienergänzende Kinderbetreuung / Aides financières à l'accueil extrafamilial pour enfants",
+  "title_normalized": "2006.0028: Finanzhilfen für familienergänzende Kinderbetreuung / Aides financières à l'accueil extrafamilial pour enfants",
+  "title_en": "Financial Assistance for Supplementary Childcare / Financial Aid for Extrafamilial Child Care",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-09-20",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-09-20",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "childcare",
+   "financial aid",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Herbstsession 2006",
+   "3. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2006/381#3#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4033022",
+  "accession_numbers": [
+   "2006/381"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Madeleine Amgwerd",
+    "display_name": "Madeleine Amgwerd",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q119109",
+     "label": "Madeleine Amgwerd",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119109"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Büttiker",
+    "display_name": "Rolf Büttiker",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120893",
+     "label": "Rolf Büttiker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120893"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Anita Fetz",
+    "display_name": "Anita Fetz",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118321",
+     "label": "Anita Fetz",
+     "description": "Swiss politician and historian, born 1957",
+     "url": "https://www.wikidata.org/wiki/Q118321"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erika Forster-Vannini",
+    "display_name": "Erika Forster-Vannini",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116433",
+     "label": "Erika Forster-Vannini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116433"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Trix Heberlein",
+    "display_name": "Trix Heberlein",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q2454519",
+     "label": "Trix Heberlein",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2454519"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "This Jenny",
+    "display_name": "This Jenny",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q374396",
+     "label": "This Jenny",
+     "description": "Swiss politician (1952-2014)",
+     "url": "https://www.wikidata.org/wiki/Q374396"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alex Kuprecht",
+    "display_name": "Alex Kuprecht",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118349",
+     "label": "Alex Kuprecht",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118349"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christiane Langenberger",
+    "display_name": "Christiane Langenberger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120053",
+     "label": "Christiane Langenberger",
+     "description": "Swiss politician (1941-2015)",
+     "url": "https://www.wikidata.org/wiki/Q120053"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Lauri",
+    "display_name": "Hans Lauri",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q2189873",
+     "label": "Hans Lauri",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2189873"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gisèle Ory",
+    "display_name": "Gisèle Ory",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q117502",
+     "label": "Gisèle Ory",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117502"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Pfisterer",
+    "display_name": "Thomas Pfisterer",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q106303704",
+     "label": "Thomas Pfisterer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q106303704"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Urs Schwaller",
+    "display_name": "Urs Schwaller",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116114",
+     "label": "Urs Schwaller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116114"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2006.0028: Finanzhilfen für familienergänzende Kinderbetreuung / Aides financières à l'accueil extrafamilial pour enfants\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Madeleine Amgwerd\", \"Rolf Büttiker\", \"Pascal Couchepin\", ...]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.09.20",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2006.0028: Finanzhilfen für familienergänzende Kinderbetreuung / Aides financières à l'accueil extrafamilial pour enfants\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.09.20"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Madeleine Amgwerd\", \"Rolf Büttiker\", \"Pascal Couchepin\", ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/381 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2006/381#3#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5177,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

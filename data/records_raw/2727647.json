@@ -1,0 +1,73 @@
+{
+ "id": "2727647",
+ "uri": "https://culture.ld.admin.ch/ais/2727647",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/2727647",
+ "title": "Zeitungsausschnitte",
+ "reference_code": "E7169-01#1971/168#24*",
+ "reference_number": "16.02.15.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1926-01-01",
+  "to": "1930-12-31",
+  "expressed": "1926-1930"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15200",
+   "number": "1971/168",
+   "title": "1971/00168 Bundesverwaltung (Bern) (1884 - 1930)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3984301",
+   "title": "B.G. über die berufliche Ausbildung",
+   "level": "Serie",
+   "reference_code": "E7169-01#16.02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3984300",
+   "title": "Lehrlings- und berufl. Bildungswesen",
+   "level": "Serie",
+   "reference_code": "E7169-01#16"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2477470",
+   "title": "Bundesamt für Industrie, Gewerbe und Arbeit: Datensammlungen und Dokumentationen (1930-1950)",
+   "level": "Sub-file",
+   "reference_code": "E7169-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4573",
+   "title": "Bundesamt für Industrie, Gewerbe und Arbeit (1930-1997)",
+   "level": "Stock",
+   "reference_code": "E10078*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

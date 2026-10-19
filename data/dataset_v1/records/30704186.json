@@ -1,0 +1,286 @@
+{
+ "id": "30704186",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30704186",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704186",
+  "reference_code": "E8100F#2016/63#34#20*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+   "scope_and_content": "Arbeitspapier / Grundlagenpapier",
+   "involved": "Herausgeber: Schweizerische Bundesbahnen",
+   "date": {
+    "from": "2007-12-05",
+    "to": null,
+    "expressed": "2007.12.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "report",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss Federal Railways as working papers and presentation slides for an internal committee meeting.",
+  "resume": "This document is a working paper and presentation slides from a meeting of the Swiss Federal Railways' Directorate Committee on December 5, 2007, concerning the reversal of a decision regarding the Lötschberg Base Tunnel (LBL). It contains background material and visual aids used during the discussion."
+ },
+ "metadata": {
+  "title": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+  "title_normalized": "Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien",
+  "title_en": "Directorate Committee Meeting DAS on 5 December 2007: Reversal of Decision on Lötschberg Base Tunnel; Slides",
+  "creator": "Schweizerische Bundesbahnen",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-12-05",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2007-12-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Federal Railways",
+   "Lötschberg Base Tunnel",
+   "railway infrastructure",
+   "project management"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 34)"
+  ],
+  "reference_code": "E8100F#2016/63#34#20*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704186",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Bundesbahnen",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q83835",
+     "label": "Swiss Federal Railways",
+     "description": "national railway company of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q83835"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): 16/00063 Bundesamt f�r Verkehr (Bern) (19; uppercase or abbreviated title (apertus): title: \"Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): involved: \"Herausgeber: Schweizerische Bundesbahnen\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: \"2007.12.05\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "16/00063 Bundesamt f�r Verkehr (Bern) (19"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Direktionsaussschusssitzung DAS vom 5.12.2007: Reversing auf LBL; Folien\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: \"2007.12.05\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: \"Herausgeber: Schweizerische Bundesbahnen\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-12-05",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Meeting minutes and presentation slides produced during the Swiss Federal Railways Directorate Committee session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#34#20*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4085,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

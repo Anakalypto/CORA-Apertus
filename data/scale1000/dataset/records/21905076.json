@@ -1,0 +1,321 @@
+{
+ "id": "21905076",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21905076",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21905076",
+  "reference_code": "J2.225#2003/309#81#16*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS): Duplex Doha, 22.03.2003",
+   "old_reference_code": "Original Signatur: TSSFDRS 2500763\nSignatur Bundesarchiv: J2.225#2003/309#1014*",
+   "scope_and_content": "Inhaltsangabe: Türkei Cizre: Telefon-Duplex Werner van Gent zu Dementi von Kurden über möglichen Einmarsch türkischer Truppen im Grenzgebiet des Nordirak, zu deren Auftrag und zu innenpolitischen Implikationen der Besatzung",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Mettler, Catherine\nSprecher: Gent, Werner van",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 15.03.2003-29.03.2003",
+   "form": "Video",
+   "format": "Dauer: 00:03:00\nFarbe: Farbaufnahmen\nStartposition: 00.12.00",
+   "thema": "Sachdeskriptor: Krieg",
+   "date": {
+    "from": "2003-03-22",
+    "to": null,
+    "expressed": "2003.03.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/492840",
+     "number": "2003/309",
+     "title": "2003/00309 Schweizer Fernsehen DRS (Z�rich) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news program created at the time of the events by the production entity DRS.",
+  "resume": "This is a video news report from Tagesschau's main edition (TS) dated 22 March 2003, featuring a duplex interview with Werner van Gent on the Turkish military presence near the Iraq border and its domestic implications."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS): Duplex Doha, 22.03.2003",
+  "title_normalized": "Tagesschau Hauptausgabe (TS): Duplex Doha, 22.03.2003",
+  "title_en": "Tagesschau Main Edition (TS): Duplex Doha, 22 March 2003",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2003-03-22",
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2003-03-22",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "war",
+   "military intervention",
+   "Turkey"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2003",
+   "Tagesschau SFDRS 22.03.2003"
+  ],
+  "reference_code": "J2.225#2003/309#81#16*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21905076",
+  "accession_numbers": [
+   "2003/309"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Catherine Mettler",
+    "display_name": "Catherine Mettler",
+    "role": "presenter",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Werner van Gent",
+    "display_name": "Werner van Gent",
+    "role": "narrator / speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "DRS",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Doha",
+    "as_written": "Doha",
+    "role": "depicted",
+    "country": "QAT",
+    "lat": 25.3108807,
+    "lon": 51.5081812,
+    "gazetteer": "https://www.openstreetmap.org/relation/27332",
+    "model_lat": 25.2744,
+    "model_lon": 51.2778
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title: 'Tagesschau Hauptausgabe (TS): Duplex Doha, 22.03.2003'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): involved: Moderation: Mettler, Catherine\nSprecher: Gent, Wer",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:03:00\nFarbe: Farbaufnahmen\nStartposition",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved: Catherine Mettler, Werner van Gent; named organizations or places (apertus): involved: Catherine Mettler, Werner van Gent",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2003.03.22",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title: 'Tagesschau Hauptausgabe (TS): Duplex Doha, 22.03.2003'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "involved: Moderation: Mettler, Catherine\nSprecher: Gent, Wer"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:03:00\nFarbe: Farbaufnahmen\nStartposition"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2003.03.22"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: Catherine Mettler, Werner van Gent"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: Catherine Mettler, Werner van Gent"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2003-03-22",
+   "place": "Doha",
+   "lat": 25.3108807,
+   "lon": 51.5081812,
+   "description": "Broadcast of Tagesschau main edition featuring a duplex interview.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/309 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2003/309#81#16*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5221,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

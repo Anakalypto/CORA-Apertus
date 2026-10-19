@@ -1,0 +1,370 @@
+{
+ "id": "4046151",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4046151",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4046151",
+  "reference_code": "E1401#2007/199#7#2*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+   "scope_and_content": "Sprecher/Sprecherinnen: Berset, Alain; Bieri, Peter; Blocher, Christoph; Bonhôte, Pierre; Epiney, Simon; Germann, Hannes; Ory, Gisèle; Stadler, Hansruedi; Wicki, Franz",
+   "date": {
+    "from": "2007-03-14",
+    "to": null,
+    "expressed": "2007.03.14"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4035090",
+     "number": "2007/199",
+     "title": "2007/00199 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded directly during the parliamentary session by the official services of the Swiss Council of States.",
+  "resume": "This document is a sound recording of the Swiss Council of States (Ständerat) debate on the total revision of the Federal Victims of Crime Assistance Act (Opferhilfegesetz) during the spring session of 2007. It captures speeches by several politicians discussing the proposed legislative changes. The recording is part of the official parliamentary protocols."
+ },
+ "metadata": {
+  "title": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+  "title_normalized": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+  "title_en": "Federal Victims of Crime Assistance Act. Total revision",
+  "creator": "Parlamentsdienste des Ständerats",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-03-14",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-03-14",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "victims' rights",
+   "legislation",
+   "parliamentary debate",
+   "Swiss politics"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2007",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2007/199#7#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4046151",
+  "accession_numbers": [
+   "2007/199"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Berset, Alain",
+    "display_name": "Alain Berset",
+    "role": "Speaker",
+    "wikidata": null
+   },
+   {
+    "name": "Bieri, Peter",
+    "display_name": "Peter Bieri",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    }
+   },
+   {
+    "name": "Blocher, Christoph",
+    "display_name": "Christoph Blocher",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q123857",
+     "label": "Christoph Blocher",
+     "description": "Swiss politician, industrialist, and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123857"
+    }
+   },
+   {
+    "name": "Bonhôte, Pierre",
+    "display_name": "Pierre Bonhôte",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q3384068",
+     "label": "Pierre Bonhôte",
+     "description": "Swiss politician (1965-2016)",
+     "url": "https://www.wikidata.org/wiki/Q3384068"
+    }
+   },
+   {
+    "name": "Epiney, Simon",
+    "display_name": "Simon Epiney",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q119029",
+     "label": "Simon Epiney",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119029"
+    }
+   },
+   {
+    "name": "Germann, Hannes",
+    "display_name": "Hannes Germann",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q116475",
+     "label": "Hannes Germann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116475"
+    }
+   },
+   {
+    "name": "Ory, Gisèle",
+    "display_name": "Gisèle Ory",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q117502",
+     "label": "Gisèle Ory",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117502"
+    }
+   },
+   {
+    "name": "Stadler, Hansruedi",
+    "display_name": "Hansruedi Stadler",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q120948",
+     "label": "Hansruedi Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120948"
+    }
+   },
+   {
+    "name": "Wicki, Franz",
+    "display_name": "Franz Wicki",
+    "role": "Speaker",
+    "wikidata": {
+     "qid": "Q5492999",
+     "label": "Franz Wicki",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q5492999"
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Sprecher/Sprecherinnen: Berset, Alain; Bieri, Peter; Blocher, Christoph; Bonhôte, Pierre; Epiney, Simon; Germann, Hannes; Ory, Gisèle; Stadler, Hansruedi; Wicki, Franz; named organizations or places (apertus): Parlamentsdienste (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2007.03.14\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): Subject is 'Opferhilfegesetz' (Victim Assistance Law), a criminal matter",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2007.03.14\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sprecher/Sprecherinnen: Berset, Alain; Bieri, Peter; Blocher, Christoph; Bonhôte, Pierre; Epiney, Simon; Germann, Hannes; Ory, Gisèle; Stadler, Hansruedi; Wicki, Franz"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Parlamentsdienste (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Subject is 'Opferhilfegesetz' (Victim Assistance Law), a criminal matter"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Record contains personal names and relates to criminal victim assistance legislation."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-03-14",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Sound recording made during the Swiss Council of States session on the revision of the Victims of Crime Assistance Act.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/199 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2007/199#7#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4352,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

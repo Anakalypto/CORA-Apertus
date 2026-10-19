@@ -1,0 +1,442 @@
+{
+ "id": "3523301",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3523301",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3523301",
+  "reference_code": "E1301#1989/215#11#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "88.015: Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aliesch, Peter; Carobbio, Werner; David, Eugen; Fischer, Theo, Sursee; Guinand, Jean; Hubacher, Helmut; Jeanprêtre, Francine; Koller, Arnold; Leuba, Jean-François; Müller, Kurt; Rechsteiner, Paul; Rychen, Albrecht",
+   "date": {
+    "from": "1989-03-15",
+    "to": null,
+    "expressed": "1989.03.15"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383436",
+     "number": "1989/215",
+     "title": "1989/00215 Parlamentsdienste (Bern) (1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning tenant protection and revisions to rental and lease law, held on 15 March 1989. It contains the names of multiple speakers who participated in the discussion. The record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "88.015: Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme",
+  "title_normalized": "88.015: Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme",
+  "title_en": "Tenant Protection. Revision of Rental and Lease Law / Protection of Tenants. Revision of Rental and Farm Lease Law",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1989-03-15",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1989",
+  "content_date": "1989-03-15",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "tenant protection",
+   "rental law",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Frühjahrssession 1989",
+   "11. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1989/215#11#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3523301",
+  "accession_numbers": [
+   "1989/215"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Aliesch",
+    "display_name": "Peter Aliesch",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Werner Carobbio",
+    "display_name": "Werner Carobbio",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120924",
+     "label": "Werner Carobbio",
+     "description": "Swiss politician (1936–2023)",
+     "url": "https://www.wikidata.org/wiki/Q120924"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eugen David",
+    "display_name": "Eugen David",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q125427",
+     "label": "Eugen David",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125427"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fischer, Theo, Sursee",
+    "display_name": "Fischer, Theo, Sursee",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean Guinand",
+    "display_name": "Jean Guinand",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q3172438",
+     "label": "Jean Guinand",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3172438"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Helmut Hubacher",
+    "display_name": "Helmut Hubacher",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1603686",
+     "label": "Helmut Hubacher",
+     "description": "Swiss politician (1926-2020)",
+     "url": "https://www.wikidata.org/wiki/Q1603686"
+    },
+    "life_date_check": {
+     "born": 1926,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Francine Jeanprêtre",
+    "display_name": "Francine Jeanprêtre",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q3081214",
+     "label": "Francine Jeanprêtre",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q3081214"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Arnold Koller",
+    "display_name": "Arnold Koller",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean-François Leuba",
+    "display_name": "Jean-François Leuba",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116504",
+     "label": "Jean-François Leuba",
+     "description": "Swiss politician (1934-2004)",
+     "url": "https://www.wikidata.org/wiki/Q116504"
+    },
+    "life_date_check": {
+     "born": 1934,
+     "died": 2004,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Müller",
+    "display_name": "Kurt Müller",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q16117063",
+     "label": "Kurt Müller",
+     "description": "Swiss field hockey player",
+     "url": "https://www.wikidata.org/wiki/Q16117063"
+    },
+    "life_date_check": {
+     "born": 1928,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Rechsteiner",
+    "display_name": "Paul Rechsteiner",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q119440",
+     "label": "Paul Rechsteiner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119440"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Albrecht Rychen",
+    "display_name": "Albrecht Rychen",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q1651893",
+     "label": "Albrecht Rychen",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1651893"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"88.015: Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Peter Aliesch', 'Werner Carobbio', 'Eugen David', 'Fischer, Theo, Sursee', 'Jean Guinand', 'Helmut Hubacher', 'Francine Jeanprêtre', 'Arnold Koller', 'Jean-François Leuba', 'Kurt Müller', 'Paul Rechsteiner', 'Albrecht Rychen']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1989.03.15",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"88.015: Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Mieterschutz. Revision des Miet- und Pachtrechts / Protection des locataires. Révision du droit du bail à loyer et du bail à ferme\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1989.03.15"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Peter Aliesch', 'Werner Carobbio', 'Eugen David', 'Fischer, Theo, Sursee', 'Jean Guinand', 'Helmut Hubacher', 'Francine Jeanprêtre', 'Arnold Koller', 'Jean-François Leuba', 'Kurt Müller', 'Paul Rechsteiner', 'Albrecht Rychen']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person data is present in the record."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1989",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1989/215 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1989/215#11#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5243,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

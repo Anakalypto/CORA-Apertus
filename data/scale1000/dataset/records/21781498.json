@@ -1,0 +1,321 @@
+{
+ "id": "21781498",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21781498",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21781498",
+  "reference_code": "J2.225#1996/68#6639#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 10.08.1976",
+   "old_reference_code": "Original Signatur: TSSRG 76/223/01;Rolle 1306\nSignatur Bundesarchiv: J2.225#1996/68#65691*",
+   "scope_and_content": "Inhaltsangabe: Italien Seveso: Freiwillige bei Aufräumarbeiten in der Chemiefabrik \"Icmesa\" nach Giftgas-Unfall\nSequenzbeschrieb: Italien Seveso: Stacheldrahtverhau um Fabrikgelände / Soldaten und Arbeiter auf dem Gelände",
+   "author": "Produktion: visnews",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 03.08.1976-17.08.1976",
+   "form": "Video",
+   "format": "Dauer: 0.48\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;comopt\nStartposition: 10.17.00\nTräger: Betacam-Digital",
+   "thema": "Sachdeskriptor: Chemieunfall",
+   "date": {
+    "from": "1976-08-10",
+    "to": null,
+    "expressed": "1976.08.10"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct news footage produced by visnews for broadcast.",
+  "resume": "This is a video news report from Tagesschau (TS) covering the Seveso chemical accident in Italy on 10 August 1976, showing volunteers and workers at the Icmesa factory site."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 10.08.1976",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 10.08.1976",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS News Agency Footage), 10 August 1976",
+  "creator": "visnews",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1976-08-10",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1976-08-10",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Chemical accident",
+   "Seveso",
+   "Volunteers",
+   "Factory site"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1976",
+   "Tagesschau SFDRS 10.08.1976"
+  ],
+  "reference_code": "J2.225#1996/68#6639#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21781498",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "visnews",
+    "display_name": "visnews",
+    "role": "production",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Seveso",
+    "as_written": "Seveso",
+    "role": "depicted",
+    "country": "IT",
+    "lat": 45.6434655,
+    "lon": 9.1373787,
+    "gazetteer": "https://www.openstreetmap.org/relation/45608",
+    "model_lat": 45.4,
+    "model_lon": 9.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: Italien Seveso: Freiwillige bei Aufräumarbeiten in der Chemiefabrik \"Icmesa\" nach Giftgas-Unfall\nSequenzbeschrieb: Italien Seveso: Stacheldrahtverhau um Fabrikgelände / Soldaten und Arbeiter auf dem Gelände",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.48\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Chemiefabrik \"Icmesa\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1976.08.10",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Italien Seveso: Freiwillige bei Aufräumarbeiten in der Chemiefabrik \"Icmesa\" nach Giftgas-Unfall\nSequenzbeschrieb: Italien Seveso: Stacheldrahtverhau um Fabrikgelände / Soldaten und Arbeiter auf dem Gelände"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.48\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1976.08.10"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Chemiefabrik \"Icmesa\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1976-08-10",
+   "place": "Seveso",
+   "lat": 45.6434655,
+   "lon": 9.1373787,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1976-08-10",
+   "place": "Seveso, Italy",
+   "lat": 45.6434655,
+   "lon": 9.1373787,
+   "description": "Video news report covering the Seveso chemical accident.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#6639#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5200,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

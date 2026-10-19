@@ -1,0 +1,325 @@
+{
+ "id": "29671824",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29671824",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29671824",
+  "reference_code": "J2.225#2008/121#12#38*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Fussball int Europameisterschaft / Treffen Sicherheitsverantwortliche",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504522\nSignatur Bundesarchiv: J2.225#2008/121#17*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Zürich: Fussball int Europameisterschaft 2008 Herren / Tagung Sicherheitsverantwortliche aus der Schweiz und Österreich (EURO 2008)\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Zürich, ZH: Schwenk GPL Notebook auf IA Workshop <Bern, BE: Ausschreitungen Linksautonome auf Bundesplatz (20071006) <Zürich, ZH: Statement Stefan Blättler / Statement Franz Semper / Tagungsteilnehmer in Saal",
+   "author": "AutorIn: Müller, Andy (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:33\nPosition Anfang: 00:48:04",
+   "thema": "Personen: Semper, Franz (Einsatzleiter Polizei Wien)",
+   "date": {
+    "from": "2007-10-12",
+    "to": null,
+    "expressed": "2007.10.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production (Eigenproduktion UE) of Schweizer Fernsehen DRS, capturing a live event and statements.",
+  "resume": "A video recording from Schweizer Fernsehen DRS documenting a meeting of security officials from Switzerland and Austria ahead of the 2008 European Football Championship, featuring statements by Franz Semper and others."
+ },
+ "metadata": {
+  "title": "Fussball int Europameisterschaft / Treffen Sicherheitsverantwortliche",
+  "title_normalized": "Fussball int Europameisterschaft / Treffen Sicherheitsverantwortliche",
+  "title_en": "Football in the European Championship / Meeting of Security Responsible Persons",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-10-12",
+  "date_published": "2007-10-12",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-10-12",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "European Football Championship 2008",
+   "Security officials",
+   "Franz Semper"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 12.10.2007"
+  ],
+  "reference_code": "J2.225#2008/121#12#38*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29671824",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Franz Semper",
+    "display_name": "Franz Semper",
+    "role": "Einsatzleiter Polizei Wien",
+    "wikidata": {
+     "qid": "Q46081062",
+     "label": "Franz Semper",
+     "description": "German handball player",
+     "url": "https://www.wikidata.org/wiki/Q46081062"
+    },
+    "life_date_check": {
+     "born": 1997,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival holding",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Z\u001frich",
+    "as_written": "Z\u001frich",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   },
+   {
+    "name": "Wien",
+    "as_written": "Wien",
+    "role": "mentioned",
+    "country": "AT",
+    "lat": 48.2083537,
+    "lon": 16.3725042,
+    "gazetteer": "https://www.openstreetmap.org/relation/109166",
+    "model_lat": 48.2082,
+    "model_lon": 16.3738
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Inhaltsangabe: Schweiz <Zürich: Fussball int Europameisterschaft 2008 Herren / Tagung Sicherheitsverantwortliche",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Müller, Andy (AUT)\nProduktionsgesellschaf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): thema: Semper, Franz (Einsatzleiter Polizei Wien); named organizations or places (apertus): thema: Semper, Franz (Einsatzleiter Polizei Wien)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.10.12; free text places (apertus): Sequenzbeschrieb: … <Zürich, ZH: … <Bern, BE: … <Zürich, ZH: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Schweiz <Zürich: Fussball int Europameisterschaft 2008 Herren / Tagung Sicherheitsverantwortliche"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Müller, Andy (AUT)\nProduktionsgesellschaf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.10.12"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: … <Zürich, ZH: … <Bern, BE: … <Zürich, ZH: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Semper, Franz (Einsatzleiter Polizei Wien)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema: Semper, Franz (Einsatzleiter Polizei Wien)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record concerns a named individual (Franz Semper) in a professional context, not personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-10-12",
+   "place": "Z\u001frich",
+   "lat": null,
+   "lon": null,
+   "description": "Video produced by Schweizer Fernsehen DRS covering security briefing ahead of EURO 2008.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#12#38*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:control_chars",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5237,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

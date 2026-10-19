@@ -1,0 +1,88 @@
+{
+ "id": "30704802",
+ "uri": "https://culture.ld.admin.ch/ais/30704802",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704802",
+ "title": "Bahntechnik und Inbetriebssetzung Gotthard-Basislinie Gotthard-Basistunnel, Fachkoordination Sicherheit 02/14",
+ "reference_code": "E8100F#2016/63#41#20*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Protokoll / Aktennotiz",
+ "author": null,
+ "publisher": null,
+ "involved": "Herausgeber: Bundesamt für Verkehr, Verfasser: Baumann",
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2014-04-16",
+  "to": null,
+  "expressed": "2014.04.16"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+   "number": "2016/63",
+   "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/30704782",
+   "title": "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 41)",
+   "level": "Dossier",
+   "reference_code": "E8100F#2016/63#41*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8458435",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E8100F#321.0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8458434",
+   "title": "AlpTransit",
+   "level": "Serie",
+   "reference_code": "E8100F#321"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8458425",
+   "title": "Steuerung Grossprojekte",
+   "level": "Serie",
+   "reference_code": "E8100F#32"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8458379",
+   "title": "Bewilligungen Infrastruktur",
+   "level": "Serie",
+   "reference_code": "E8100F#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/8457293",
+   "title": "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "level": "Sub-file",
+   "reference_code": "E8100F*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4657",
+   "title": "Bundesamt für Verkehr (1979-)",
+   "level": "Stock",
+   "reference_code": "E10099*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

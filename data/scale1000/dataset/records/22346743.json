@@ -1,0 +1,363 @@
+{
+ "id": "22346743",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22346743",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22346743",
+  "reference_code": "J2.225#2006/292#2#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), 02.04.2006 ; Medikament für Suchtkranke",
+   "old_reference_code": "Original Signatur: TSSFDRS 2503197\nSignatur Bundesarchiv: J2.225#2006/292#17*",
+   "scope_and_content": "Inhaltsangabe: CH Genève, GE: Hirnforscher der Universität entwickelt Substanz, welche die Drogensucht rückgängig macht\nSequenzbeschrieb: CH Genève, GE: Christian Lüscher (Professor) in Forschungs-Labor / Statement Lüscher / GPL Hirn-Abbildung o.O.: Kokain-Schnupfen (anonym) / Laborszenen / Labormäuse in Behälter",
+   "author": "AutorIn: Tabacznik, Stefan\nProduktion: SF",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Fischlin, Franz",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 02.04.2006-03.04.2006",
+   "form": "Video",
+   "format": "Dauer: 00:01:32\nFarbe: Farbaufnahmen\nStartposition: 01.01.23\nTräger: MPEG IMX",
+   "thema": "Personen: Lüscher, Christian\nSachdeskriptor: Medizinische Forschung",
+   "date": {
+    "from": "2006-04-02",
+    "to": null,
+    "expressed": "2006.04.02"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3350933",
+     "number": "2006/292",
+     "title": "2006/00292 Schweizer Fernsehen DRS (Z�rich) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news program created at the time of the events.",
+  "resume": "A television news segment from Tagesschau (SFDRS) dated 2 April 2006 reports on a brain researcher at the University of Geneva developing a substance to reverse drug addiction, featuring statements by Christian Lüscher and laboratory footage."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), 02.04.2006 ; Medikament für Suchtkranke",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), 02.04.2006 ; Medikament für Suchtkranke",
+  "title_en": "Tagesschau Main Edition (TS), 02 April 2006: Drug for Addicts",
+  "creator": "SF",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2006-04-02",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-04-02",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "medical research",
+   "drug addiction",
+   "neuroscience"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 02.04.2006"
+  ],
+  "reference_code": "J2.225#2006/292#2#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22346743",
+  "accession_numbers": [
+   "2006/292"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Christian Lüscher",
+    "display_name": "Christian Lüscher",
+    "role": "expert",
+    "wikidata": {
+     "qid": "Q116392",
+     "label": "Christian Lüscher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116392"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stefan Tabacznik",
+    "display_name": "Stefan Tabacznik",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q84847747",
+     "label": "Stefan Tabacznik",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q84847747"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Fischlin",
+    "display_name": "Franz Fischlin",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1446787",
+     "label": "Franz Fischlin",
+     "description": "Swiss television presenter and radio host",
+     "url": "https://www.wikidata.org/wiki/Q1446787"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "University of Geneva",
+    "role": "research institution",
+    "wikidata": {
+     "qid": "Q503473",
+     "label": "University of Geneva",
+     "description": "public research university located in Geneva, Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q503473"
+    }
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Geneva",
+    "as_written": "GE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2017559,
+    "lon": 6.1466014,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685488",
+    "model_lat": 46.2,
+    "model_lon": 6.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Tabacznik, Stefan\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Lüscher, Christian; named organizations or places (apertus): CH Genève, GE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2006.04.02; free text places (apertus): CH Genève, GE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Tabacznik, Stefan\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.04.02"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Genève, GE"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Lüscher, Christian"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CH Genève, GE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2006-04-02",
+   "place": "Geneva",
+   "lat": 46.2017559,
+   "lon": 6.1466014,
+   "description": "Broadcast of Tagesschau segment on drug addiction research.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/292 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/292#2#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5329,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,286 @@
+{
+ "id": "4082157",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4082157",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4082157",
+  "reference_code": "E5734#2001/174#138*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Geschichte der Grenzbrigade 7: Teil 8, darin: Manuskript (Interviews)",
+   "reference_number": "01-03",
+   "date": {
+    "from": "1993-01-01",
+    "to": "1993-12-31",
+    "expressed": "1993-1993"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/14296",
+     "number": "2001/174",
+     "title": "2001/00174 Armeestabsteil 152 (Bern) (keine Angabe)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "audio recording",
+  "medium": "sound",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective historical manuscript documenting the history of the Swiss Border Brigade 7 through interviews.",
+  "resume": "This is a sound recording containing interviews compiled as part of a series on the history of the Swiss Border Brigade 7. It documents oral testimonies related to the brigade's activities. The material was produced in 1993 as part of a historical documentation project."
+ },
+ "metadata": {
+  "title": "Geschichte der Grenzbrigade 7: Teil 8, darin: Manuskript (Interviews)",
+  "title_normalized": "Geschichte der Grenzbrigade 7: Teil 8, darin: Manuskript (Interviews)",
+  "title_en": "History of Border Brigade 7: Part 8, including: Manuscript (Interviews)",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1993/1993",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2001",
+  "content_date": "1993/1993",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Border Brigade 7",
+   "Swiss military history",
+   "oral history",
+   "military units"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Grenzbrigade 7 (1938-1995)",
+  "fonds_reference": "E10328*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Grenzbrigade 7 (1938-1995)",
+   "Grenzbrigade 7: Zentrale Ablage (1938-1995)",
+   "Kdo Gr Br 7 (Kommando Grenzbrigade 7)",
+   "Geschichte Gz Br 7 (Grenzbrigade 7)"
+  ],
+  "reference_code": "E5734#2001/174#138*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4082157",
+  "accession_numbers": [
+   "2001/174"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Grenzbrigade 7",
+    "role": "Subject of the historical documentation",
+    "wikidata": {
+     "qid": "Q21018310",
+     "label": "Grenzbrigade 7",
+     "description": null,
+     "url": "https://www.wikidata.org/wiki/Q21018310"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Grenzbrigade 7, Schweizerischen Bundesarchivs, Bern",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"1993-1993\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"1993-1993\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Grenzbrigade 7, Schweizerischen Bundesarchivs, Bern"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1993-1993",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Audio recording of interviews produced as part of a historical series on the Border Brigade 7.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2001",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2001/174 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E5734#2001/174#138*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4506,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

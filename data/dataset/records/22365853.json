@@ -1,0 +1,325 @@
+{
+ "id": "22365853",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22365853",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365853",
+  "reference_code": "J2.225#2007/135#74#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Franktionsausflug FDP",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504196\nSignatur Bundesarchiv: J2.225#2007/135#74*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Heiden, AR: FDP-Fraktions-Ausflug (Schulreise) / Gespräche am Rande über die Ablehnung der BVG-Renten Revision im Ständerat\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz Heiden, AR: FDP-Fraktion auf Feldweg / Statement Fulvio Pelli / Ankunft Pascal Couchepin / Besuch in Geschirr-Fabrik / Statement Felix Gutzwiller",
+   "author": "AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF",
+   "involved": "Moderation: Stauber, Katja",
+   "form": "Video",
+   "format": "Dauer: 00.01.47\nStartposition: 00:44:56\nTotal Spieldauer: 00.22.28\nTräger: Beta IMX",
+   "thema": "Personen: Gutzwiller, Felix: Fraktionschef FDP\nSachdeskriptor: /POLITIK./PARTEI;/SOZIALES./ALTERSVORSORGE/ZWEITE SÄULE",
+   "date": {
+    "from": "2007-06-13",
+    "to": null,
+    "expressed": "2007.06.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an original audiovisual record of a contemporary political event.",
+  "resume": "This is a 22-minute video news report from Swiss TV (SF) documenting an FDP parliamentary group excursion to Heiden, Appenzell Ausserrhoden, on June 13, 2007. It includes statements by party members Felix Gutzwiller and Pascal Couchepin, as well as a visit to a dish factory. The report briefly touches on the rejection of the BVG pension reform in the Council of States."
+ },
+ "metadata": {
+  "title": "Franktionsausflug FDP",
+  "title_normalized": "Franktionsausflug FDP",
+  "title_en": "FDP parliamentary group excursion",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-06-13",
+  "date_published": "2007-06-13",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-13",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "politics",
+   "political parties",
+   "social policy",
+   "pensions"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 13.06.2007"
+  ],
+  "reference_code": "J2.225#2007/135#74#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365853",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Felix Gutzwiller",
+    "display_name": "Felix Gutzwiller",
+    "role": "FDP parliamentary group leader",
+    "wikidata": {
+     "qid": "Q117099",
+     "label": "Felix Gutzwiller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117099"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "FDP politician",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Heiden",
+    "as_written": "Heiden, AR",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4421715,
+    "lon": 9.532089,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683892",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): old_reference_code: Original Signatur: TSSFDRSII 2504196\nSignatur Bundesarchiv: J2.225#2007/135#74*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content: Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author: name and role pairs in one array",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): scope_and_content: Felix Gutzwiller, Pascal Couchepin; named organizations or places (apertus): hierarchy_top_down: Schweizer Fernsehen DRS (Zürich)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.06.13; free text places (apertus): scope_and_content: Schweiz Heiden, AR",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "old_reference_code: Original Signatur: TSSFDRSII 2504196\nSignatur Bundesarchiv: J2.225#2007/135#74*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content: Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author: name and role pairs in one array"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.06.13"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: Schweiz Heiden, AR"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "scope_and_content: Felix Gutzwiller, Pascal Couchepin"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: Schweizer Fernsehen DRS (Zürich)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-06-13",
+   "place": "Heiden, Appenzell Ausserrhoden",
+   "lat": 47.4421715,
+   "lon": 9.532089,
+   "description": "Video recording of FDP parliamentary group excursion and statements.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2007-06-13",
+   "place": "Heiden",
+   "lat": 47.4421715,
+   "lon": 9.532089,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#74#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5296,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,88 @@
+{
+ "id": "28399929",
+ "uri": "https://culture.ld.admin.ch/ais/28399929",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/28399929",
+ "title": "2009.5568: Fragestunde. Frage Kaufmann Hans. Zölibat / Heure des questions. Question Kaufmann Hans. Célibat",
+ "reference_code": "E1301#2010/278#9#20*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Autor: Sprecher/Sprecherinnen: Widmer-Schlumpf, Eveline;",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Digital",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2009-12-07",
+  "to": null,
+  "expressed": "2009.12.07"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7181378",
+   "number": "2010/278",
+   "title": "2010/00278 Parlamentsdienste (Bern) (2009)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28399906",
+   "title": "9. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#2010/278#9*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7181482",
+   "title": "Wintersession 2009",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-48-05"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794374",
+   "title": "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "level": "Serie",
+   "reference_code": "E1301#1.5-48"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6794373",
+   "title": "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

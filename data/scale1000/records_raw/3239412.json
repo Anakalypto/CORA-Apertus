@@ -1,0 +1,100 @@
+{
+ "id": "3239412",
+ "uri": "https://culture.ld.admin.ch/ais/3239412",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3239412",
+ "title": "Minenschacht vor der Sprengung bei Bassecourt",
+ "reference_code": "E27#1000/721#14095#3436*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Division 4",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Bassecourt",
+ "form": "Fotografie",
+ "format": "Negativ; Glasplatte; Silberbromid; 13x18cm",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1914-01-01",
+  "to": "1918-12-31",
+  "expressed": "1914.01.01-1918.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1439228",
+   "title": "Negativplatten und digitale Abzüge 13 x 18 cm; Nr. 15 - 5758; Sch. 1 - 261",
+   "level": "Dossier",
+   "reference_code": "E27#1000/721#14095*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848215",
+   "title": "Bildarchiv der geografisch-archivistischen Sektion des Armeestabes [Aktivdienst und Kriegsgeschehen]",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.k.2.b.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848213",
+   "title": "Fotosammlungen über den Aktivdienst",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.k.2.b"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848211",
+   "title": "Aktivdiensterinnerungen, Fotosammlungen, Tagebücher",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.k.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848205",
+   "title": "Aktivdienstberichte, Aktivdiensterinnerungen",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3.k"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848146",
+   "title": "Aktivdienst 1914-1918",
+   "level": "Serie",
+   "reference_code": "E27#06.H.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848128",
+   "title": "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "level": "Serie",
+   "reference_code": "E27#06.H"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847771",
+   "title": "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "level": "Serie",
+   "reference_code": "E27#06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

@@ -1,0 +1,312 @@
+{
+ "id": "22432793",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22432793",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22432793",
+  "reference_code": "J2.247#2000/21#265#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Ciclomotori truccati ; Il Regionale, 26.11.1968",
+   "old_reference_code": "Original Signatur: REGIOTSI 8.18\nSignatur Bundesarchiv: J2.247#2000/21#239*",
+   "scope_and_content": "Genre: Attualità regionale\nInhaltsangabe: CH > LUGANO, TI - Inchiesta nel mondo dei ciclomotori (motorini) per stabilire la pericolosità di questo mezzo di locomozione, particolarmente apprezzato dai giovani: su circa 13 mila motorini in circolazione, circa il 20% risulta truccato e dunque in gra\nSequenzbeschrieb: CH > Lugano, TI, Ciclomotoristi, giovani, studenti, escono dal Liceo in sella a, motorini (12 03), Ciclomotoristi, giovani, in corsa (12 24), CH > SL, TI, Elio CANEVASCINI, int (12 53), CH > Lugano, TI, Ciclomotori, posteggiati, parz modificati (13 52), C",
+   "author": "AutorIn: Weick, Werner\nProduktionsgesellschaft: TSI",
+   "publisher": "HerausgeberIn: TSI",
+   "coverage": "Geografische Abdeckung: Lugano",
+   "form": "Video",
+   "format": "Dauer: 00:08:08\nFarbe: BN\nStartposition: 00:12.03",
+   "thema": "Personen: Canevascini, Elio; Piccardi, Aurelio\nSachdeskriptor: Motocicletta; Giovani; Sicurezza stradale",
+   "date": {
+    "from": "1968-11-26",
+    "to": null,
+    "expressed": "1968.11.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16915",
+     "number": "2000/21",
+     "title": "2000/00021 Radiotelevisione Svizzera di lingua italiana (Lugano) (1958-1984)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct television broadcast from 1968 with original footage and interviews.",
+  "resume": "A regional news report from Il Regionale dated 26 November 1968 covering an investigation into modified mopeds in Lugano, featuring interviews and footage of young riders."
+ },
+ "metadata": {
+  "title": "Ciclomotori truccati ; Il Regionale, 26.11.1968",
+  "title_normalized": "Ciclomotori truccati ; Il Regionale, 26.11.1968",
+  "title_en": "Modified mopeds; Il Regionale, 26 November 1968",
+  "creator": "TSI",
+  "publisher": "TSI",
+  "commissioner": null,
+  "date_created": "1968-11-26",
+  "date_published": "1968-11-26",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "1968-11-26",
+  "languages": [
+   "it"
+  ],
+  "subjects": [
+   "mopeds",
+   "youth",
+   "road safety"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Radiotelevisione svizzera di lingua italiana (1931-)",
+  "fonds_reference": "J2.247*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Radiotelevisione svizzera di lingua italiana (1931-)",
+   "Il Regionale 1958 1984",
+   "Il Regionale 1968",
+   "Il Regionale 26.11.1968"
+  ],
+  "reference_code": "J2.247#2000/21#265#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22432793",
+  "accession_numbers": [
+   "2000/21"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Canevascini, Elio",
+    "display_name": "Elio Canevascini",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Piccardi, Aurelio",
+    "display_name": "Aurelio Piccardi",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "TSI",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Lugano",
+    "as_written": "Lugano",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.0038007,
+    "lon": 8.9512275,
+    "gazetteer": "https://www.openstreetmap.org/relation/2888417",
+    "model_lat": 45.99,
+    "model_lon": 8.93
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Weick, Werner\nProduktionsgesellschaft: TS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Canevascini, Elio; Piccardi, Aurelio; named organizations or places (apertus): Geografische Abdeckung: Lugano",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1968.11.26; free text places (apertus): Geografische Abdeckung: Lugano",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Weick, Werner\nProduktionsgesellschaft: TS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1968.11.26"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Lugano"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Canevascini, Elio; Piccardi, Aurelio"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Lugano"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1968-11-26",
+   "place": "Lugano",
+   "lat": 46.0038007,
+   "lon": 8.9512275,
+   "description": "Television news segment broadcast on Il Regionale covering moped safety investigation.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/21 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.247#2000/21#265#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5400,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

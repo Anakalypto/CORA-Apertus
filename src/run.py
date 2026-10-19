@@ -12,19 +12,29 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cora import classify, config, lindas  # noqa: E402
+from cora import store  # noqa: E402
 from cora.apertus import Apertus  # noqa: E402
 
 
 FORCE = False  # set by --force: redo records that were already processed
 
 
+STORED = {"records_raw.json"}  # collections kept one file per entry (cora/store.py)
+
+
 def _read(path: Path):
+    if path.name in STORED:
+        return store.read_entries(path)
     if path.suffix == ".jsonl":
         return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
     return json.loads(path.read_text(encoding="utf-8"))
 
 
 def _write(path: Path, data) -> None:
+    if path.name in STORED:
+        store.write_entries(path, data)
+        print(f"  wrote {store.entry_dir(path).relative_to(config.ROOT)}/ ({len(data)} entries)")
+        return
     if path.suffix == ".jsonl":
         path.write_text("".join(json.dumps(d, ensure_ascii=False) + "\n" for d in data), encoding="utf-8")
     else:
@@ -217,6 +227,39 @@ def stage_stapfer(cfg):
     stapfer.run(cfg)
 
 
+def stage_i18n(cfg):
+    """Apertus translates the interface catalog (strings of site/*.js and index.html) into German, French, Italian and
+    Romansh; only strings missing from data/i18n/<lang>.json are sent, so a rerun picks up new interface text."""
+    from cora import i18n
+    l = cfg["llm"]
+    site = cfg["paths"]["site_dir"]
+    print(f"  catalog: {len(i18n.extract(site))} strings")
+    with ThreadPoolExecutor(4) as pool:  # one worker per language
+        added = dict(zip(["de", "fr", "it", "rm"], pool.map(lambda lang: i18n.translate_missing(
+            cfg["paths"]["data_dir"], site, lang, Apertus(l["base_url"], l["api_key"], l["model"], 0.1, 4000, l["retries"])),
+            ["de", "fr", "it", "rm"])))
+    print("  added:", added)
+
+
+def stage_split(cfg):
+    """Split every single-file collection under data/ into one JSON file per entry (cora/store.py).
+    Pages and stages also split entries lazily when they read them; this does it all at once."""
+    from cora import stapfer
+    data = cfg["paths"]["data_dir"]
+    for p in sorted(data.rglob("records_raw.json")):
+        print(f"  {p.relative_to(data)}: {store.Entries(p).split_all()} records")
+    for p in sorted(data.rglob("cora_dataset.jsonl")):  # the .jsonl stays as the download
+        print(f"  {p.relative_to(data)}: {store.Entries(p).split_all(keep_combined=True)} records")
+    for p in sorted(data.rglob("enrich_cache.json")):
+        print(f"  {p.relative_to(data)}: {store.EntryDict(p).split_all()} cache entries")
+    sd = data / "stapfer"
+    if (sd / "cases.json").exists():
+        print(f"  stapfer/cases.json: {store.Entries(sd / 'cases.json').split_all()} response sheets")
+    for name in ("comparison", "comparison_naive"):
+        if (sd / f"{name}.json").exists():
+            print(f"  stapfer/{name}.json: {len(stapfer.load_comparison(sd, name)[1])} results")
+
+
 def stage_export(cfg):
     from cora import export
     export.run(cfg)
@@ -238,7 +281,7 @@ STAGES = {"sample": stage_sample, "fetch": stage_fetch, "classify": stage_classi
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources", "mixed_sample"])
+    ap.add_argument("stage", choices=[*STAGES, "all", "serve", "stapfer", "narrative", "consultations", "parliament", "referendum", "add_sources", "split", "i18n", "mixed_sample"])
     ap.add_argument("--config", type=Path, default=None)
     ap.add_argument("--force", action="store_true", help="reprocess records that were already classified/audited")
     args = ap.parse_args()
@@ -261,6 +304,12 @@ if __name__ == "__main__":
         sys.exit()
     if args.stage == "narrative":
         stage_narrative(cfg)
+        sys.exit()
+    if args.stage == "i18n":
+        stage_i18n(cfg)
+        sys.exit()
+    if args.stage == "split":
+        stage_split(cfg)
         sys.exit()
     if args.stage == "stapfer":
         stage_stapfer(cfg)

@@ -1,0 +1,67 @@
+{
+ "id": "5574685",
+ "uri": "https://culture.ld.admin.ch/ais/5574685",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5574685",
+ "title": "Cours: Histoire de Rome",
+ "reference_code": "J1.302#2005/252#75*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": null,
+  "expressed": "1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/2073112",
+   "number": "2005/252",
+   "title": "2005/00252 Freymond, Antoinette (Genthod) (1953-1996)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5574683",
+   "title": "Notes: L'Antiquité",
+   "level": "Serie",
+   "reference_code": "J1.302#2.08"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5570089",
+   "title": "Travail d'enseignant",
+   "level": "Serie",
+   "reference_code": "J1.302#2.0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/379290",
+   "title": "Freymond Jacques (1911-1998)",
+   "level": "Stock",
+   "reference_code": "J1.302*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

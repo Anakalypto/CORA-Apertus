@@ -1,0 +1,55 @@
+{
+ "id": "3838035",
+ "uri": "https://culture.ld.admin.ch/ais/3838035",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3838035",
+ "title": "Register zu den Protokollen, Mikrofilm",
+ "reference_code": "E1303#rfm 0113",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1848-01-01",
+  "to": "1935-12-31",
+  "expressed": "1848-1935"
+ },
+ "accessions": [],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5804",
+   "title": "Nationalrat: Register zu den Protokollen (1848-1935)",
+   "level": "Sub-file",
+   "reference_code": "E1303*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Serie",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

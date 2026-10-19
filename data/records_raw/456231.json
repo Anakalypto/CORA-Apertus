@@ -1,0 +1,67 @@
+{
+ "id": "456231",
+ "uri": "https://culture.ld.admin.ch/ais/456231",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/456231",
+ "title": "Geleitwort für die Festschrift zur Eröffnung von Teilstrecken der Simplonsstrasse N9, September 1975.",
+ "reference_code": "J1.97#2003/146#1514*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1975-09-01",
+  "to": "1975-09-30",
+  "expressed": "1975.09.01 (ca.)-1975.09.30 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/398039",
+   "number": "2003/146",
+   "title": "2003/00146 H�rlimann  Hans (Zug) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4027403",
+   "title": "Geleitworte und Beiträge für Zeitungen und Zeitschriften",
+   "level": "Serie",
+   "reference_code": "J1.97#22"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4027401",
+   "title": "Bundesratszeit (1974-1982)",
+   "level": "Serie",
+   "reference_code": "J1.97#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4136",
+   "title": "Hürlimann Hans (1918-1994)",
+   "level": "Stock",
+   "reference_code": "J1.97*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

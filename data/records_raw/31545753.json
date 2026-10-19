@@ -1,0 +1,79 @@
+{
+ "id": "31545753",
+ "uri": "https://culture.ld.admin.ch/ais/31545753",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31545753",
+ "title": "Henri Nater: Kondolenzschreiben, Nachrufe",
+ "reference_code": "J2.332-01#2019/6#438*",
+ "reference_number": "166",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1939-01-01",
+  "to": "1939-12-31",
+  "expressed": "1939-1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/31532931",
+   "number": "2019/6",
+   "title": "2019/00006 Archiv f�r Agrargeschichte (1887-2011)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29392677",
+   "title": "Vizedirektoren und wissenschaftliche Mitarbeiter",
+   "level": "Serie",
+   "reference_code": "J2.332-01#166"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29392646",
+   "title": "Handakten Direktoren und leitende Mitarbeitende",
+   "level": "Serie",
+   "reference_code": "J2.332-01#16"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29392598",
+   "title": "Verbandsführung",
+   "level": "Serie",
+   "reference_code": "J2.332-01#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29380479",
+   "title": "Schweizerischer Bauernverband: Zentrale Ablage (1897-)",
+   "level": "Sub-file",
+   "reference_code": "J2.332-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29380476",
+   "title": "Schweizerischer Bauernverband (1897-)",
+   "level": "Stock",
+   "reference_code": "J2.332*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_obituary",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

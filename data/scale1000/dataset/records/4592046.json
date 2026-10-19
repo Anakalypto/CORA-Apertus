@@ -1,0 +1,385 @@
+{
+ "id": "4592046",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4592046",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4592046",
+  "reference_code": "E1401#2007/205#4#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2005.0092: Strafprozessrecht. Vereinheitlichung / Procédure pénale. Unification",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bieri, Peter; Blocher, Christoph; Marty, Dick; Schweiger, Rolf; Wicki, Franz",
+   "date": {
+    "from": "2007-09-20",
+    "to": null,
+    "expressed": "2007.09.20"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4036155",
+     "number": "2007/205",
+     "title": "2007/00205 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary session, created at the time of the debate by the Council of States.",
+  "resume": "This document is a parliamentary record from the Swiss Council of States (Ständerat) capturing a debate on the unification of criminal procedure law during the autumn session of 2007, featuring speeches by listed members."
+ },
+ "metadata": {
+  "title": "2005.0092: Strafprozessrecht. Vereinheitlichung / Procédure pénale. Unification",
+  "title_normalized": "2005.0092: Strafprozessrecht. Vereinheitlichung / Procédure pénale. Unification",
+  "title_en": "Criminal Procedure Law. Unification",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-09-20",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-09-20",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "criminal procedure",
+   "legislation",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Herbstsession 2007",
+   "Herbstsession 2007, 4. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2007/205#4#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4592046",
+  "accession_numbers": [
+   "2007/205"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christoph Blocher",
+    "display_name": "Christoph Blocher",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q123857",
+     "label": "Christoph Blocher",
+     "description": "Swiss politician, industrialist, and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123857"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Dick Marty",
+    "display_name": "Dick Marty",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q123307",
+     "label": "Dick Marty",
+     "description": "Swiss politician (1945–2023)",
+     "url": "https://www.wikidata.org/wiki/Q123307"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rolf Schweiger",
+    "display_name": "Rolf Schweiger",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q118354",
+     "label": "Rolf Schweiger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118354"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Wicki",
+    "display_name": "Franz Wicki",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q5492999",
+     "label": "Franz Wicki",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q5492999"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Peter Bieri', 'Christoph Blocher', 'Dick Marty', 'Rolf Schweiger', 'Franz Wicki']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.09.20",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.09.20"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Peter Bieri', 'Christoph Blocher', 'Dick Marty', 'Rolf Schweiger', 'Franz Wicki']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-09-20",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/205 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2007/205#4#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4828,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,333 @@
+{
+ "id": "3523611",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3523611",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3523611",
+  "reference_code": "E1301#1989/219#7#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "89.012: Hochschulförderungsgesetz. Kredite 1990-1991 / Aide aux universités. Crédits 1990-1991",
+   "scope_and_content": "Sprecher/Sprecherinnen: Cotti, Flavio; Fierz, Lukas; Hafner, Ursula; Loeb, François; Longet, René",
+   "date": {
+    "from": "1989-09-27",
+    "to": null,
+    "expressed": "1989.09.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383440",
+     "number": "1989/219",
+     "title": "1989/00219 Parlamentsdienste (Bern) (1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate with identified speakers and a specific session date, created at the time of the event.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning the Higher Education Funding Act for the fiscal years 1990-1991, capturing the arguments and discussions of the session held on 27 September 1989."
+ },
+ "metadata": {
+  "title": "89.012: Hochschulförderungsgesetz. Kredite 1990-1991 / Aide aux universités. Crédits 1990-1991",
+  "title_normalized": "89.012: Hochschulförderungsgesetz. Kredite 1990-1991 / Aide aux universités. Crédits 1990-1991",
+  "title_en": "Higher Education Funding Act. Credits 1990-1991 / Aid to Universities. Credits 1990-1991",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1989-09-27",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1989",
+  "content_date": "1989-09-27",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "higher education",
+   "budget",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Herbstsession 1989",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1989/219#7#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3523611",
+  "accession_numbers": [
+   "1989/219"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Flavio Cotti",
+    "display_name": "Flavio Cotti",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Lukas Fierz",
+    "display_name": "Lukas Fierz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q23017410",
+     "label": "Lukas Fierz",
+     "description": "Swiss physician and politician",
+     "url": "https://www.wikidata.org/wiki/Q23017410"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Hafner",
+    "display_name": "Ursula Hafner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q55741049",
+     "label": "Ursula Hafner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q55741049"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "François Loeb",
+    "display_name": "François Loeb",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1451108",
+     "label": "François Loeb",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1451108"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "René Longet",
+    "display_name": "René Longet",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"89.012: Hochschulförderungsgesetz. Kredite 1990-1991 / Aide aux universités. Crédits 1990-1991\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Flavio Cotti\", \"Lukas Fierz\", \"Ursula Hafner\", \"François Loeb\", \"René Longet\"]; named organizations or places (apertus): hierarchy_top_down: [\"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", ...]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: \"1989.09.27\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"89.012: Hochschulförderungsgesetz. Kredite 1990-1991 / Aide aux universités. Crédits 1990-1991\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: \"1989.09.27\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Flavio Cotti\", \"Lukas Fierz\", \"Ursula Hafner\", \"François Loeb\", \"René Longet\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: [\"Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)\", ...]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1989",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1989/219 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1989/219#7#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 4929,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

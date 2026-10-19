@@ -1,0 +1,73 @@
+{
+ "id": "6884064",
+ "uri": "https://culture.ld.admin.ch/ais/6884064",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6884064",
+ "title": "Répertoire des secours et rapatriements",
+ "reference_code": "E2200.16-02#1000/246#112*",
+ "reference_number": "E.3",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Frankreich",
+ "date": {
+  "from": "1891-01-01",
+  "to": "1905-12-31",
+  "expressed": "1891-1905"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/8801",
+   "number": "1000/246",
+   "title": "1000/00246 Bundesverwaltung (Bern) (1817 - 1913)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6884055",
+   "title": "Actions de secours - Rapatriement  - Fondation \"Général Guisan",
+   "level": "Serie",
+   "reference_code": "E2200.16-02#E.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6884049",
+   "title": "Assistance, secours et rapatriement",
+   "level": "Serie",
+   "reference_code": "E2200.16-02#E"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6883723",
+   "title": "Schweizerische Vertretung, Lyon: Zentrale Ablage (1946-1965)",
+   "level": "Sub-file",
+   "reference_code": "E2200.16-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6383",
+   "title": "Schweizerische Vertretung, Lyon (1816-)",
+   "level": "Stock",
+   "reference_code": "E10629*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

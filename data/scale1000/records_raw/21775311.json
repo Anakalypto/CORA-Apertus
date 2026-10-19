@@ -1,0 +1,70 @@
+{
+ "id": "21775311",
+ "uri": "https://culture.ld.admin.ch/ais/21775311",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21775311",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 16.12.1974",
+ "reference_code": "J2.225#1996/68#6038#8*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 74/350/02A;Rolle 1200\nSignatur Bundesarchiv: J2.225#1996/68#62310*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Zürich, ZH: Ausstellung \"In den Züspa Hallen Zürcher Künstler",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.12.1974-23.12.1974",
+ "form": "Video",
+ "format": "Dauer: 1.26\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.37.39\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Kunstausstellung",
+ "country": null,
+ "date": {
+  "from": "1974-12-16",
+  "to": null,
+  "expressed": "1974.12.16"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21775303",
+   "title": "Tagesschau SFDRS 16.12.1974",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6038*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690383",
+   "title": "Tagesschau SFDRS 1974",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1974"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

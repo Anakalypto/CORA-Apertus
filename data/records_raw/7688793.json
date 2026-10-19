@@ -1,0 +1,73 @@
+{
+ "id": "7688793",
+ "uri": "https://culture.ld.admin.ch/ais/7688793",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688793",
+ "title": "Register zu Nr. 1512",
+ "reference_code": "B0#1000/1483#1546e*",
+ "reference_number": "C.03.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1798-01-01",
+  "to": "1803-12-31",
+  "expressed": "1798-1803"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7088",
+   "number": "1000/1483",
+   "title": "1000/01483 Bundesverwaltung (Bern) (1712-1857)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618474",
+   "title": "Missivenbücher und Kontrollen",
+   "level": "Serie",
+   "reference_code": "B0#C.03.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618409",
+   "title": "Ministerium der Justiz und Polizei",
+   "level": "Serie",
+   "reference_code": "B0#C.03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618387",
+   "title": "Die Archive der Ministerien (Ministerialarchive)",
+   "level": "Serie",
+   "reference_code": "B0#C"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3560",
+   "title": "Zentralarchiv der Helvetischen Republik (1798-1803)",
+   "level": "Stock",
+   "reference_code": "B0*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/35",
+   "title": "Archiv der Helvetik (1798-1803)",
+   "level": "Main Department",
+   "reference_code": "B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

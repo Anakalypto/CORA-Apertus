@@ -1,0 +1,97 @@
+{
+ "id": "1432847",
+ "uri": "https://culture.ld.admin.ch/ais/1432847",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1432847",
+ "title": "Register über die Urteilsprotokolle des Divisionsgerichts 4. Div",
+ "reference_code": "E27#1000/721#8936*",
+ "reference_number": "06.A.2.d.4.c.2",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Mikroforme",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1915-01-01",
+  "to": "1917-12-31",
+  "expressed": "1915-1917"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847808",
+   "title": "Protokolle und Urteilssammlung",
+   "level": "Serie",
+   "reference_code": "E27#06.A.2.d.4.c.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847806",
+   "title": "Divisions- und Territorialgerichte",
+   "level": "Serie",
+   "reference_code": "E27#06.A.2.d.4.c"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847803",
+   "title": "Militärgerichte",
+   "level": "Serie",
+   "reference_code": "E27#06.A.2.d.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847787",
+   "title": "Militärjustiz",
+   "level": "Serie",
+   "reference_code": "E27#06.A.2.d"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847774",
+   "title": "Dienstzweige",
+   "level": "Serie",
+   "reference_code": "E27#06.A.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847772",
+   "title": "Armeestab, Dienstzweige, Hilfsdienste",
+   "level": "Serie",
+   "reference_code": "E27#06.A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3847771",
+   "title": "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "level": "Serie",
+   "reference_code": "E27#06"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

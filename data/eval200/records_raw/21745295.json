@@ -1,0 +1,71 @@
+{
+ "id": "21745295",
+ "uri": "https://culture.ld.admin.ch/ais/21745295",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21745295",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 28.12.1967",
+ "reference_code": "J2.225#1996/68#3509#4*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 67/362/02A;Rolle 703\nSignatur Bundesarchiv: J2.225#1996/68#43701*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: GB London: Weihnachts-Ausstellung mit Spielen für Kinder in Empire Hall\nSequenzbeschrieb: GB London: Knabe an Fallschirmattrappe von Balkon springend / Kinder auf Dreirad und Kinderautos / Knabe und Mädchen mit Go-Kart fahrend / Kinder mit Monster",
+ "author": "Produktion: Agenturen",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 21.12.1967-04.01.1968",
+ "form": "Video",
+ "format": "Dauer: 0.50\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.46.11\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Weihnachten;Spielen",
+ "country": null,
+ "date": {
+  "from": "1967-12-28",
+  "to": null,
+  "expressed": "1967.12.28"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21745279",
+   "title": "Tagesschau SFDRS 28.12.1967",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#3509*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690376",
+   "title": "Tagesschau SFDRS 1967",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1967"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "audiovisual"
+}

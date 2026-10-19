@@ -47,6 +47,9 @@ def _excluded(data_root, own) -> set[str]:
             continue
         d = json.loads(p.read_text(encoding="utf-8"))
         have |= {r["id"] for r in (d if isinstance(d, list) else d.get("sample", []))}
+    for d in data_root.rglob("records_raw"):  # one file per record (store.py)
+        if d.is_dir() and own not in d.parents:
+            have |= {p.stem for p in d.glob("*.json") if not p.name.startswith("_")}
     return have
 
 

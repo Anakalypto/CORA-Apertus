@@ -1,0 +1,305 @@
+{
+ "id": "4962413",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4962413",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4962413",
+  "reference_code": "E4110A#1000/1820#798*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Anstand mit der Druckerei Stämpfli & Cie, Bern, betr. das Werk von Dr. von Rott \"Histoire de la représentation diplomatique de la France auprès des cantons suisses",
+   "reference_number": "F.03",
+   "date": {
+    "from": "1935-01-01",
+    "to": "1935-12-31",
+    "expressed": "1935-1935"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/12771",
+     "number": "1000/1820",
+     "title": "1000/01820 Bundesverwaltung (Bern) (1935)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "correspondence",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative file concerning a printing contract for a specific historical work.",
+  "resume": "The document is an administrative correspondence from the Swiss Federal Justice Department concerning a dispute with the Stämpfli printing house in Bern about the publication of Dr. von Rott's work on French diplomatic representation in Swiss cantons. It records an internal matter related to the printing and distribution of a scholarly book rather than the book's content itself. The exchange likely concerns rights, costs, or contractual obligations between the government and the printer."
+ },
+ "metadata": {
+  "title": "Anstand mit der Druckerei Stämpfli & Cie, Bern, betr. das Werk von Dr. von Rott \"Histoire de la représentation diplomatique de la France auprès des cantons suisses",
+  "title_normalized": "Anstand mit der Druckerei Stämpfli & Cie, Bern, betr. das Werk von Dr. von Rott \"Histoire de la représentation diplomatique de la France auprès des cantons suisses\"",
+  "title_en": "Dispute with the Stämpfli printing house in Bern regarding Dr. von Rott's work \"History of French diplomatic representation to the Swiss cantons\"",
+  "creator": "Eidgenössische Justizabteilung (Swiss Federal Justice Department)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1935",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1935/1935",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "printing industry",
+   "publishing",
+   "diplomatic history",
+   "Swiss federal administration",
+   "copyright / publishing rights"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössische Justizabteilung (1902-1979)",
+  "fonds_reference": "E10352*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössische Justizabteilung (1902-1979)",
+   "Eidgenössische Justizabteilung: Zentrale Ablage (1916-1963)",
+   "Gutachten und Mitberichte",
+   "Bundeskanzlei"
+  ],
+  "reference_code": "E4110A#1000/1820#798*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4962413",
+  "accession_numbers": [
+   "1000/1820"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dr. von Rott",
+    "display_name": "von Rott",
+    "role": "author of the work referenced in the dispute",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Druckerei Stämpfli & Cie",
+    "role": "printer involved in the dispute",
+    "wikidata": null
+   },
+   {
+    "name": "Eidgenössische Justizabteilung",
+    "role": "creator of the administrative correspondence",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.4474
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title contains \"Dr. von Rott\"; named organizations or places (apertus): title contains \"Druckerei Stämpfli & Cie, Bern\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"1935-1935\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date expressed as \"1935-1935\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Dr. von Rott\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title contains \"Druckerei Stämpfli & Cie, Bern\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names Dr. von Rott and Druckerei Stämpfli & Cie, Bern, but no identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1935",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Administrative correspondence created by the Swiss Federal Justice Department regarding a dispute with the Stämpfli printing house.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1820 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E4110A#1000/1820#798*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "resume_speculative"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4762,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

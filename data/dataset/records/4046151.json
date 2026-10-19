@@ -1,0 +1,421 @@
+{
+ "id": "4046151",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/4046151",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4046151",
+  "reference_code": "E1401#2007/199#7#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+   "scope_and_content": "Sprecher/Sprecherinnen: Berset, Alain; Bieri, Peter; Blocher, Christoph; Bonhôte, Pierre; Epiney, Simon; Germann, Hannes; Ory, Gisèle; Stadler, Hansruedi; Wicki, Franz",
+   "date": {
+    "from": "2007-03-14",
+    "to": null,
+    "expressed": "2007.03.14"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4035090",
+     "number": "2007/199",
+     "title": "2007/00199 Parlamentsdienste (Bern) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary debate on the revision of the Victim Assistance Act.",
+  "resume": "This is an audio recording of a debate in the Swiss Council of States on March 14, 2007, concerning the total revision of the Federal Victims of Crime Assistance Act. It captures statements from several members of the Council discussing the proposed legislative changes. The debate took place during the Spring Session of the 2003–2007 legislative period."
+ },
+ "metadata": {
+  "title": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+  "title_normalized": "2005.0078: Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale",
+  "title_en": "Federal Victims of Crime Assistance Act. Total revision",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-03-14",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-03-14",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Victims of crime",
+   "Legislation",
+   "Parliamentary debate",
+   "Swiss federal law"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2007",
+   "7. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2007/199#7#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4046151",
+  "accession_numbers": [
+   "2007/199"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Alain Berset",
+    "display_name": "Alain Berset",
+    "role": "Speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Peter Bieri",
+    "display_name": "Peter Bieri",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q115926",
+     "label": "Peter Bieri",
+     "description": "Swiss politician (b. 1952)",
+     "url": "https://www.wikidata.org/wiki/Q115926"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Christoph Blocher",
+    "display_name": "Christoph Blocher",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q123857",
+     "label": "Christoph Blocher",
+     "description": "Swiss politician, industrialist, and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123857"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Pierre Bonhôte",
+    "display_name": "Pierre Bonhôte",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q3384068",
+     "label": "Pierre Bonhôte",
+     "description": "Swiss politician (1965-2016)",
+     "url": "https://www.wikidata.org/wiki/Q3384068"
+    },
+    "life_date_check": {
+     "born": 1965,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Simon Epiney",
+    "display_name": "Simon Epiney",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q119029",
+     "label": "Simon Epiney",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119029"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hannes Germann",
+    "display_name": "Hannes Germann",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q116475",
+     "label": "Hannes Germann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116475"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gisèle Ory",
+    "display_name": "Gisèle Ory",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q117502",
+     "label": "Gisèle Ory",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117502"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hansruedi Stadler",
+    "display_name": "Hansruedi Stadler",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q120948",
+     "label": "Hansruedi Stadler",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120948"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Wicki",
+    "display_name": "Franz Wicki",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q5492999",
+     "label": "Franz Wicki",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q5492999"
+    },
+    "life_date_check": {
+     "born": 1939,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): Title is in ALL CAPS: \"2005.0078: OPFERHILFEGESETZ. TOTALREVISION / LOI FÉDÉRALE SUR L'AIDE AUX VICTIMES D'INFRACTIONS. RÉVISION TOTALE\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title mixes German and French: \"Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers list includes \"Alain Berset\", \"Peter Bieri\", \"Christoph Blocher\", etc.; named organizations or places (apertus): Organisation \"Parlamentsdienste (Bern)\" named in accessions",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2007.03.14\" instead of ISO format",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "Title is in ALL CAPS: \"2005.0078: OPFERHILFEGESETZ. TOTALREVISION / LOI FÉDÉRALE SUR L'AIDE AUX VICTIMES D'INFRACTIONS. RÉVISION TOTALE\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mixes German and French: \"Opferhilfegesetz. Totalrevision / Loi fédérale sur l'aide aux victimes d'infractions. Révision totale\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2007.03.14\" instead of ISO format"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers list includes \"Alain Berset\", \"Peter Bieri\", \"Christoph Blocher\", etc."
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Organisation \"Parlamentsdienste (Bern)\" named in accessions"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Topic is legislative debate on victim aid law, not personal case"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are politicians debating legislation; no identifiable private individuals or sensitive personal data present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-03-14",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Audio recording made during the Council of States debate on the Victims of Crime Assistance Act revision.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/199 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2007/199#7#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5137,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

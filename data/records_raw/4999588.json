@@ -1,0 +1,67 @@
+{
+ "id": "4999588",
+ "uri": "https://culture.ld.admin.ch/ais/4999588",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4999588",
+ "title": "Aktenverzeichnis 1939",
+ "reference_code": "E2200.40-01#2004/87#18*",
+ "reference_number": "rfm1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": "Vereinigtes Königreich (Grossbritannien und Nordirland)",
+ "date": {
+  "from": "1939-01-01",
+  "to": "1939-12-31",
+  "expressed": "1939-1939"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1042710",
+   "number": "2004/87",
+   "title": "2004/00087 Direktion f�r Ressourcen und Aussennetz, Archivdienst (Bern) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4934312",
+   "title": "Sachkartei",
+   "level": "Serie",
+   "reference_code": "E2200.40-01#rfm1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/2106446",
+   "title": "Schweizerische Vertretung, London: Registraturfindmittel (1906-)",
+   "level": "Sub-file",
+   "reference_code": "E2200.40-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6643",
+   "title": "Schweizerische Vertretung, London (1817-)",
+   "level": "Stock",
+   "reference_code": "E10752*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

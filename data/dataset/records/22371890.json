@@ -1,0 +1,374 @@
+{
+ "id": "22371890",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22371890",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22371890",
+  "reference_code": "J2.225#2007/188#44#33*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Bilanz Grüne Partei",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504361\nSignatur Bundesarchiv: J2.225#2007/188#44*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Bern, BE: Bilanz über ablaufende Legislatur durch Grüne Fraktion des Nationalrats\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz Bern, BE: GPL Plakat gegen Klimaerwärmung (schmelzende Glacé) der Grünen / PK Grüne Partei / Statement Therese Frösch / Bundesrats-Sitzung / Statement Ueli Leuenberger / Christoph Blocher durch Gang schreitend / Sitzung von Grünen Abgeordneten",
+   "author": "AutorIn: Reimann, Fritz: AUT\nProduktion: SF",
+   "involved": "Moderation: Fischlin, Franz",
+   "form": "Video",
+   "format": "Dauer: 00.01.31\nStartposition: 00:53:30\nTotal Spieldauer: 00.21.38\nTräger: Beta IMX",
+   "thema": "Personen: Blocher, Christoph: Bundesrat\nSachdeskriptor: /POLITIK./PARTEI;/STAAT./PARLAMENT/NATIONALRAT",
+   "date": {
+    "from": "2007-08-13",
+    "to": null,
+    "expressed": "2007.08.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3641112",
+     "number": "2007/188",
+     "title": "2007/00188 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary audiovisual record of a specific political event produced by Swiss public television.",
+  "resume": "This is a 2007 Swiss TV news report from SF DRS covering the Green Party's assessment of the outgoing legislative period. It includes statements by Green Party National Council members Therese Frösch and Ueli Leuenberger, footage of a Green Party poster on climate change, and a shot of Christoph Blocher walking through a corridor during a Federal Council session."
+ },
+ "metadata": {
+  "title": "Bilanz Grüne Partei",
+  "title_normalized": "Bilanz Grüne Partei",
+  "title_en": "Balance sheet of the Green Party",
+  "creator": "SF",
+  "publisher": "SF",
+  "commissioner": null,
+  "date_created": "2007-08-13",
+  "date_published": "2007-08-13",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-08-13",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "Green Party",
+   "National Council",
+   "Federal Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 13.08.2007"
+  ],
+  "reference_code": "J2.225#2007/188#44#33*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22371890",
+  "accession_numbers": [
+   "2007/188"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Blocher, Christoph",
+    "display_name": "Christoph Blocher",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q123857",
+     "label": "Christoph Blocher",
+     "description": "Swiss politician, industrialist, and former member of the Swiss Federal Council",
+     "url": "https://www.wikidata.org/wiki/Q123857"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Frösch, Therese",
+    "display_name": "Therese Frösch",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q118380",
+     "label": "Therese Frösch",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118380"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Leuenberger, Ueli",
+    "display_name": "Ueli Leuenberger",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q120130",
+     "label": "Ueli Leuenberger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120130"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Grüne Partei",
+    "role": "subject",
+    "wikidata": {
+     "qid": "Q851822",
+     "label": "Green Party",
+     "description": "political party",
+     "url": "https://www.wikidata.org/wiki/Q851822"
+    }
+   },
+   {
+    "name": "Nationalrat",
+    "role": "institution",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   },
+   {
+    "name": "Bundesrat",
+    "role": "institution",
+    "wikidata": {
+     "qid": "Q30917",
+     "label": "Swiss Federal Council",
+     "description": "executive council and head of state in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q30917"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Schweiz Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.4474
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): broken characters (e.g., \"Z�rich\")",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author field mixes name and role",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): names: Christoph Blocher, Therese Frösch, Ueli Leuenberger, Franz Fischlin, Fritz Reimann; named organizations or places (apertus): organisations/places: Grüne Partei, Nationalrat, Schweizer Fernsehen DRS, Bundesrat",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed date \"2007.08.13\"; free text places (apertus): places only in free text (Schweiz Bern, BE)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "broken characters (e.g., \"Z�rich\")"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author field mixes name and role"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date \"2007.08.13\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in free text (Schweiz Bern, BE)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "names: Christoph Blocher, Therese Frösch, Ueli Leuenberger, Franz Fischlin, Fritz Reimann"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "organisations/places: Grüne Partei, Nationalrat, Schweizer Fernsehen DRS, Bundesrat"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes named public figures (politicians, party members) and no identifiable private individuals or sensitive personal matters."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-08-13",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "SF DRS produced a news segment covering the Green Party's legislative balance sheet.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/188 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/188#44#33*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5376,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

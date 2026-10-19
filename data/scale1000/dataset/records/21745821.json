@@ -1,0 +1,326 @@
+{
+ "id": "21745821",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21745821",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21745821",
+  "reference_code": "J2.225#1996/68#3544#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 01.02.1968",
+   "old_reference_code": "Original Signatur: TSSRG 68/32/02A;Rolle 710\nSignatur Bundesarchiv: J2.225#1996/68#43958*",
+   "scope_and_content": "Inhaltsangabe: Indien Delhi: Unabhängigkeitstag, Schweigeminute für Opfer der Freiheitskämpfe\nSequenzbeschrieb: Indien Delhi: PM Indira Gandhi und P Zakir Husain an Feier / Husain Blumen auf Denkmal streuend",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln\nZeitliche Abdeckung: 25.01.1968-08.02.1968",
+   "form": "Video",
+   "format": "Dauer: 0.42\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.16.05\nTräger: Betacam-Digital",
+   "thema": "Personen: Gandhi, Indira;Husain, Zakir\nSachdeskriptor: Staatsfeier",
+   "date": {
+    "from": "1968-02-01",
+    "to": null,
+    "expressed": "1968.02.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news broadcast created at the time of the events.",
+  "resume": "A television news broadcast from February 1, 1968, showing India's Independence Day celebrations in Delhi with Prime Minister Indira Gandhi and President Zakir Husain participating in a ceremony."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 01.02.1968",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 01.02.1968",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 01.02.1968",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1968-02-01",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1968-02-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Independence Day",
+   "State ceremony",
+   "India"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1968",
+   "Tagesschau SFDRS 01.02.1968"
+  ],
+  "reference_code": "J2.225#1996/68#3544#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21745821",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gandhi, Indira",
+    "display_name": "Indira Gandhi",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q1149",
+     "label": "Indira Gandhi",
+     "description": "Prime Minister of India (1966-1977; 1980-1984)",
+     "url": "https://www.wikidata.org/wiki/Q1149"
+    },
+    "life_date_check": {
+     "born": 1917,
+     "died": 1984,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Husain, Zakir",
+    "display_name": "Zakir Husain",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q144732",
+     "label": "Zakir Husain",
+     "description": "3rd President of India (1897-1969)",
+     "url": "https://www.wikidata.org/wiki/Q144732"
+    },
+    "life_date_check": {
+     "born": 1897,
+     "died": 1969,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Delhi",
+    "as_written": "Delhi",
+    "role": "depicted",
+    "country": "IN",
+    "lat": 28.6664535,
+    "lon": 77.2169781,
+    "gazetteer": "https://www.openstreetmap.org/relation/21180767",
+    "model_lat": 28.6139,
+    "model_lon": 77.209
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.42\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): Gandhi, Indira;Husain, Zakir",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): 1968.02.01",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.42\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1968.02.01"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Gandhi, Indira;Husain, Zakir"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1968-02-01",
+   "place": "Delhi",
+   "lat": 28.6664535,
+   "lon": 77.2169781,
+   "description": "Television news broadcast covering India's Independence Day celebrations.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#3544#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5235,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

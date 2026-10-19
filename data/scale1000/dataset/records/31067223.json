@@ -1,0 +1,660 @@
+{
+ "id": "31067223",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31067223",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31067223",
+  "reference_code": "E1301#2017/358#4#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2013.0048: Bundesgesetz über Radio und Fernsehen. Änderung / Loi sur la radio et la télévision. Modification",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Aebi, Andreas; Amherd, Viola; Binder, Max; Borer, Roland F.; Candinas, Martin; Fiala, Doris; Flückiger-Bäni, Sylvia; Fluri, Kurt; Graf-Litscher, Edith; Grossen, Jürg;, Autor: Sprecher/Sprecherinnen:  Hardegger, Thomas; Keller, Peter; Lehmann, Markus; Leuthard, Doris; Müller, Walter; Nordmann, Roger; Piller Carrard, Valérie; Portmann, Hans-Peter; Rickli, Natalie Simone;, Autor: Sprecher/Sprecherinnen:  Rime, Jean-François; Rossini, Stéphane; Rutz, Gregor A.; Rytz, Regula;",
+   "form": "Digital",
+   "date": {
+    "from": "2014-09-11",
+    "to": null,
+    "expressed": "2014.09.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31064538",
+     "number": "2017/358",
+     "title": "2017/00358 Parlamentsdienste: Amtliches Bulletin (Bern) (2014)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This is a digital parliamentary record of the National Council debate on the amendment of the Federal Act on Radio and Television, held on 11 September 2014, capturing the participation of multiple members in the legislative process."
+ },
+ "metadata": {
+  "title": "2013.0048: Bundesgesetz über Radio und Fernsehen. Änderung / Loi sur la radio et la télévision. Modification",
+  "title_normalized": "2013.0048: Bundesgesetz über Radio und Fernsehen. Änderung / Loi sur la radio et la télévision. Modification",
+  "title_en": "Federal Act on Radio and Television. Amendment",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2014-09-11",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2014-09-11",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Radio and television legislation",
+   "Parliamentary debate",
+   "Swiss federal law"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Herbstsession 2014",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/358#4#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31067223",
+  "accession_numbers": [
+   "2017/358"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Andreas Aebi",
+    "display_name": "Andreas Aebi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117403",
+     "label": "Andreas Aebi",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117403"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Viola Amherd",
+    "display_name": "Viola Amherd",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120917",
+     "label": "Viola Amherd",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120917"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Max Binder",
+    "display_name": "Max Binder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116490",
+     "label": "Max Binder",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116490"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roland F. Borer",
+    "display_name": "Roland F. Borer",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120026",
+     "label": "Roland Borer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120026"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Martin Candinas",
+    "display_name": "Martin Candinas",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1447989",
+     "label": "Martin Candinas",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1447989"
+    },
+    "life_date_check": {
+     "born": 1980,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Doris Fiala",
+    "display_name": "Doris Fiala",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q542575",
+     "label": "Doris Fiala",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q542575"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Sylvia Flückiger-Bäni",
+    "display_name": "Sylvia Flückiger-Bäni",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q528262",
+     "label": "Sylvia Flückiger-Bäni",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q528262"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Fluri",
+    "display_name": "Kurt Fluri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121470",
+     "label": "Kurt Fluri",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121470"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Edith Graf-Litscher",
+    "display_name": "Edith Graf-Litscher",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q125439",
+     "label": "Edith Graf-Litscher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q125439"
+    },
+    "life_date_check": {
+     "born": 1964,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jürg Grossen",
+    "display_name": "Jürg Grossen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q74519",
+     "label": "Jürg Grossen",
+     "description": "Swiss politician and entrepreneur",
+     "url": "https://www.wikidata.org/wiki/Q74519"
+    },
+    "life_date_check": {
+     "born": 1969,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Hardegger",
+    "display_name": "Thomas Hardegger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2424519",
+     "label": "Thomas Hardegger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2424519"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Keller",
+    "display_name": "Peter Keller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119410",
+     "label": "Peter Keller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119410"
+    },
+    "life_date_check": {
+     "born": 1971,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Lehmann",
+    "display_name": "Markus Lehmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120928",
+     "label": "Markus Lehmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120928"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Doris Leuthard",
+    "display_name": "Doris Leuthard",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q115442",
+     "label": "Doris Leuthard",
+     "description": "lawyer, politician and former member of the Swiss Federal Council (2006-2018)",
+     "url": "https://www.wikidata.org/wiki/Q115442"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Walter Müller",
+    "display_name": "Walter Müller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q88595",
+     "label": "Walter Müller",
+     "description": "Austrian actor (1911-1969)",
+     "url": "https://www.wikidata.org/wiki/Q88595"
+    },
+    "life_date_check": {
+     "born": 1911,
+     "died": 1969,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roger Nordmann",
+    "display_name": "Roger Nordmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120724",
+     "label": "Roger Nordmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120724"
+    },
+    "life_date_check": {
+     "born": 1973,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Valérie Piller Carrard",
+    "display_name": "Valérie Piller Carrard",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q18413490",
+     "label": "Valérie Piller Carrard",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q18413490"
+    },
+    "life_date_check": {
+     "born": 1978,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans-Peter Portmann",
+    "display_name": "Hans-Peter Portmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q18020671",
+     "label": "Hans-Peter Portmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q18020671"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Natalie Simone Rickli",
+    "display_name": "Natalie Simone Rickli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117165",
+     "label": "Natalie Rickli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117165"
+    },
+    "life_date_check": {
+     "born": 1976,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-François Rime",
+    "display_name": "Jean-François Rime",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116079",
+     "label": "Jean-François Rime",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116079"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Stéphane Rossini",
+    "display_name": "Stéphane Rossini",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121330",
+     "label": "Stéphane Rossini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121330"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gregor A. Rutz",
+    "display_name": "Gregor A. Rutz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1417673",
+     "label": "Gregor Rutz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1417673"
+    },
+    "life_date_check": {
+     "born": 1972,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Regula Rytz",
+    "display_name": "Regula Rytz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1029622",
+     "label": "Regula Rytz",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1029622"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Bundesgesetz über Radio und Fernsehen. Änderung / Loi sur la radio et la télévision. Modification\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: Andreas Aebi, Viola Amherd, Max Binder, Roland F. Borer, Martin Candinas, Doris Fiala, Sylvia Flückiger-Bäni, Kurt Fluri, Edith Graf-Litscher, Jürg Grossen, Thomas Hardegger, Peter Keller, Markus Lehmann, Doris Leuthard, Walter Müller, Roger Nordmann, Valérie Piller Carrard, Hans-Peter Portmann, Natalie Simone Rickli, Jean-François Rime, Stéphane Rossini, Gregor A. Rutz, Regula Rytz; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2014.09.11",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Bundesgesetz über Radio und Fernsehen. Änderung / Loi sur la radio et la télévision. Modification\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2014.09.11"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: Andreas Aebi, Viola Amherd, Max Binder, Roland F. Borer, Martin Candinas, Doris Fiala, Sylvia Flückiger-Bäni, Kurt Fluri, Edith Graf-Litscher, Jürg Grossen, Thomas Hardegger, Peter Keller, Markus Lehmann, Doris Leuthard, Walter Müller, Roger Nordmann, Valérie Piller Carrard, Hans-Peter Portmann, Natalie Simone Rickli, Jean-François Rime, Stéphane Rossini, Gregor A. Rutz, Regula Rytz"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/358 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/358#4#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5642,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

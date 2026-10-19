@@ -1,0 +1,304 @@
+{
+ "id": "3238291",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3238291",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3238291",
+  "reference_code": "E27#1000/721#14095#1924*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Verladen von Gebirgswagen auf Eisenbahnwagen",
+   "scope_and_content": "Gebirgsbrigade 3",
+   "author": "Fotograf: P. Bonzon",
+   "coverage": "Geografische Abdeckung: Delsberg",
+   "form": "Fotografie",
+   "format": "Negativ; Glasplatte; Silberbromid; 13x18cm",
+   "date": {
+    "from": "1914-01-01",
+    "to": "1918-12-31",
+    "expressed": "1914.01.01-1918.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by a photographer (P. Bonzon) as part of the Swiss Army's wartime documentation of mobilization and logistics.",
+  "resume": "This is a photographic record from the Swiss Army's wartime archive showing the loading of mountain wagons onto railway cars by the 3rd Mountain Brigade during the First World War. The image documents a logistical operation within Switzerland's mobilization for the 1914–1918 period. It is part of a larger collection of photographs and reports from the army's wartime activities."
+ },
+ "metadata": {
+  "title": "Verladen von Gebirgswagen auf Eisenbahnwagen",
+  "title_normalized": "Verladen von Gebirgswagen auf Eisenbahnwagen",
+  "title_en": "Loading of mountain wagons onto railway cars",
+  "creator": "P. Bonzon",
+  "publisher": null,
+  "commissioner": "Swiss Army (Armeestab)",
+  "date_created": "1914-01-01/1918-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1914-01-01/1918-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Army",
+   "World War I",
+   "military logistics",
+   "transportation",
+   "mobilization"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "Aktivdienst 1914-1918",
+   "Aktivdienstberichte, Aktivdiensterinnerungen",
+   "Aktivdiensterinnerungen, Fotosammlungen, Tagebücher",
+   "Fotosammlungen über den Aktivdienst",
+   "Bildarchiv der geografisch-archivistischen Sektion des Armeestabes [Aktivdienst und Kriegsgeschehen]",
+   "Negativplatten und digitale Abzüge 13 x 18 cm; Nr. 15 - 5758; Sch. 1 - 261"
+  ],
+  "reference_code": "E27#1000/721#14095#1924*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3238291",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "P. Bonzon",
+    "display_name": "P. Bonzon",
+    "role": "Photographer",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Gebirgsbrigade 3",
+    "role": "Subject of the photograph",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Delémont",
+    "as_written": "Delsberg",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3615882,
+    "lon": 7.354445,
+    "gazetteer": "https://www.openstreetmap.org/relation/1685596",
+    "model_lat": 47.44,
+    "model_lon": 7.55
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): author: \"Fotograf: P. Bonzon\"; named organizations or places (apertus): hierarchy_top_down: \"Bundesverwaltung (Bern)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: \"1914.01.01-1918.12.31\"; free text places (apertus): coverage: \"Geografische Abdeckung: Delsberg\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: \"1914.01.01-1918.12.31\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "coverage: \"Geografische Abdeckung: Delsberg\""
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "author: \"Fotograf: P. Bonzon\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: \"Bundesverwaltung (Bern)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains personal name of photographer P. Bonzon and references to military organization."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1914-01-01/1918-12-31",
+   "place": "Delémont",
+   "lat": 47.3615882,
+   "lon": 7.354445,
+   "description": "Photograph taken documenting the loading of mountain wagons onto railway cars by the 3rd Mountain Brigade.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#14095#1924*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4553,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

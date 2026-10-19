@@ -1,0 +1,341 @@
+{
+ "id": "22356402",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22356402",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22356402",
+  "reference_code": "J2.225#2007/1#86#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Blickpunkt (53/1037), 24.06.1977 ; Dani - Cerebral gelähmtes Kind",
+   "old_reference_code": "Original Signatur: BPSFDRS 9503125\nSignatur Bundesarchiv: J2.225#2007/1#17*",
+   "scope_and_content": "Inhaltsangabe: Schweiz, Bern, Gurten, o.O., BE: Zuschauerfilm von Marcel Grimbühler über den Alltag seines cerebral gelähmten Bruders Dani\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz o.O., CH: Statement Marcel Grimbühler / Dani Grimbühler Telefon abnehmend, telefonierend / Dani Grimbühler Märchenkassette hörend / Dani Grimbühler an Krücken zu Auto gehend, einsteigend Bern, BE: Dani Grimbühler auf Markt spazierend Gurten, BE: Dani Grimbühler mit Spielauto und auf Kinderzug fahrend o.O.: Dani Grimbühler mit Grossvater spazierend / Dani Grimbühler und Grossvater in Werkstatt arbeitend",
+   "author": "AutorIn: Grimbühler, Marcel (FAUT)\nProduktionsgesellschaft: DRS",
+   "publisher": "HerausgeberIn: DRS",
+   "coverage": "Zeitliche Abdeckung: 23.06.1977-25.06.1977",
+   "form": "Video",
+   "format": "Dauer: 00:04:53\nFormat Arbeitskopie: Arbeitskopie\nStartposition: 10:19:33\nTräger: Beta Digital",
+   "thema": "Personen: Grimbühler, Dani\nSachdeskriptor: /MENSCH./BEHINDERTER",
+   "date": {
+    "from": "1977-06-24",
+    "to": null,
+    "expressed": "1977.06.24"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3382869",
+     "number": "2007/1",
+     "title": "2007/00001 Schweizer Fernsehen DRS (Z�rich) (1977-1978)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a television program created at the time of the events.",
+  "resume": "A television report titled 'Blickpunkt (53/1037), 24.06.1977 ; Dani - Cerebral gelähmtes Kind' documents the daily life of a cerebral‑paralyzed individual named Dani, filmed by Marcel Grimbühler and produced by DRS."
+ },
+ "metadata": {
+  "title": "Blickpunkt (53/1037), 24.06.1977 ; Dani - Cerebral gelähmtes Kind",
+  "title_normalized": "Blickpunkt (53/1037), 24.06.1977 ; Dani - Cerebral gelähmtes Kind",
+  "title_en": "Blickpunkt (53/1037), 24 June 1977: Dani – Cerebral‑Paralyzed Child",
+  "creator": "Marcel (FAUT) Grimbühler, DRS",
+  "publisher": "DRS",
+  "commissioner": null,
+  "date_created": "1977-06-24",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1977-06-24",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "cerebral palsy",
+   "disability",
+   "family life"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Blickpunkt-Bericht vor Acht, 1977-1978",
+   "Blickpunkt-Bericht vor Acht 1977",
+   "Blickpunkt-Bericht vor Acht 24.06.1977"
+  ],
+  "reference_code": "J2.225#2007/1#86#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22356402",
+  "accession_numbers": [
+   "2007/1"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Marcel (FAUT) Grimbühler",
+    "display_name": "Marcel (FAUT) Grimbühler",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Dani Grimbühler",
+    "display_name": "Dani Grimbühler",
+    "role": "subject",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern, BE",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   },
+   {
+    "name": "Gurten",
+    "as_written": "Gurten, o.O.",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9172914,
+    "lon": 7.4437737,
+    "gazetteer": "https://www.openstreetmap.org/node/31517556",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Grimbühler, Marcel (FAUT)\nProduktionsgese",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Grimbühler, Dani; named organizations or places (apertus): DRS",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1977.06.24; free text places (apertus): Bern, BE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Grimbühler, Marcel (FAUT)\nProduktionsgese"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1977.06.24"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bern, BE"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Grimbühler, Dani"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "DRS"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "1977-06-24",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1977-06-24",
+   "place": "Gurten",
+   "lat": 46.9172914,
+   "lon": 7.4437737,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1977-06-24",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Television report aired on Blickpunkt (53/1037) on 24 June 1977",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/1 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/1#86#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5493,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

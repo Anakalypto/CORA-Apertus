@@ -1,0 +1,70 @@
+{
+ "id": "21745311",
+ "uri": "https://culture.ld.admin.ch/ais/21745311",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21745311",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 30.12.1967",
+ "reference_code": "J2.225#1996/68#3511#5*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 67/364/03;Rolle 704\nSignatur Bundesarchiv: J2.225#1996/68#43710*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: Libanon Beirut: Wiedereröffnung Intra-Bankschalter\nSequenzbeschrieb: Libanon Beirut: Menschenmenge in Bankgebäude gehend / Geldausgabe an Kasse",
+ "author": "Produktion: Agenturen",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Naher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien\nZeitliche Abdeckung: 23.12.1967-06.01.1968",
+ "form": "Video",
+ "format": "Dauer: 0.54\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.00.00\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Bank",
+ "country": null,
+ "date": {
+  "from": "1967-12-30",
+  "to": null,
+  "expressed": "1967.12.30"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21745306",
+   "title": "Tagesschau SFDRS 30.12.1967",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#3511*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690376",
+   "title": "Tagesschau SFDRS 1967",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1967"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

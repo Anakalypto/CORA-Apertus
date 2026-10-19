@@ -1,0 +1,70 @@
+{
+ "id": "22406340",
+ "uri": "https://culture.ld.admin.ch/ais/22406340",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22406340",
+ "title": "LOECHE / OPP.LIGNE HAUTE TENSION ; TELE JOURNAL, 22.10.1985",
+ "reference_code": "J2.240#1998/317#1420#2*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TJTSR 85UH6376/02; 97LM8191/02\nSignatur Bundesarchiv: J2.240#1998/317#7050*",
+ "alternate_reference": null,
+ "scope_and_content": "Sequenzbeschrieb: Loeche-les-Bains: Pylones electriques. Ligne a haute tension Montagne. Lac interieur. Interview.",
+ "author": null,
+ "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: LIGNE; SUISSE; Valais; Loeche-les-Bains\nZeitliche Abdeckung: 15.10.1985-29.10.1985",
+ "form": "Video",
+ "format": "Audiotyp: INTER; INTER\nDauer: 00:02.10\nFarbe: couleur\nFormat Arbeitskopie: Betacam-digital\nOriginalformat: COMPON25 4/3\nStartposition: 00:03.54",
+ "thema": "Sachdeskriptor: energie electrique; interview",
+ "country": null,
+ "date": {
+  "from": "1985-10-22",
+  "to": null,
+  "expressed": "1985.10.22"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16906",
+   "number": "1998/317",
+   "title": "1998/00317 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1990)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22406338",
+   "title": "Téléjournal TSR 22.10.1985",
+   "level": "Dossier",
+   "reference_code": "J2.240#1998/317#1420*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22393650",
+   "title": "Téléjournal TSR 1985",
+   "level": "Serie",
+   "reference_code": "J2.240#3.1985"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22393644",
+   "title": "Téléjournal 1980-1991 TSR",
+   "level": "Serie",
+   "reference_code": "J2.240#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4231",
+   "title": "Télévision Suisse Romande (1954-)",
+   "level": "Stock",
+   "reference_code": "J2.240*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

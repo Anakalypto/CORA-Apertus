@@ -1,0 +1,79 @@
+{
+ "id": "3468589",
+ "uri": "https://culture.ld.admin.ch/ais/3468589",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3468589",
+ "title": "Zeitungsberichte, Presseinformationen",
+ "reference_code": "E5760-01#2003/169#154*",
+ "reference_number": "03-01-01",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1967-01-01",
+  "to": "1993-12-31",
+  "expressed": "1967-1993"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/414770",
+   "number": "2003/169",
+   "title": "2003/00169 Armeestabsteil 105 (Bern) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3867895",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E5760-01#03-01-01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3867894",
+   "title": "Kdo Mot Füs Rgt 11 (Kommando Motorisiertes Füsilier Regiment 11)",
+   "level": "Serie",
+   "reference_code": "E5760-01#03-01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3867893",
+   "title": "Mot Inf Rgt 11 (Motorisiertes Infanterieregiment 11)",
+   "level": "Serie",
+   "reference_code": "E5760-01#03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/557929",
+   "title": "Mechanisierte Division 4: Zentrale Ablage (1961-1995)",
+   "level": "Sub-file",
+   "reference_code": "E5760-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/557928",
+   "title": "Mechanisierte Division 4 (1961-1995)",
+   "level": "Stock",
+   "reference_code": "E10934*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

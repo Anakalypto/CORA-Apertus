@@ -1,0 +1,271 @@
+{
+ "id": "29383476",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29383476",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29383476",
+  "reference_code": "J1.19#1972/89#27*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nachruf für Dr. med. Felix Schenk",
+   "date": {
+    "from": "1920-01-01",
+    "to": "1920-12-31",
+    "expressed": "1920-1920"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16586",
+     "number": "1972/89",
+     "title": "1972/00089 Schenk, C. (Thun) (1823-1961)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "other",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a retrospective obituary within a personal estate collection, not an administrative file or press clipping.",
+  "resume": "The record is a tribute (Nachruf) to Dr. med. Felix Schenk, likely a commemorative text or broadcast segment. It is part of the archival holdings of the Schenk family estate deposited at the Swiss Federal Archives. The document itself was created in 1972."
+ },
+ "metadata": {
+  "title": "Nachruf für Dr. med. Felix Schenk",
+  "title_normalized": "Nachruf für Dr. med. Felix Schenk",
+  "title_en": "Obituary for Dr. med. Felix Schenk",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1972",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1972",
+  "content_date": "1920/1920",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "obituary",
+   "biography",
+   "medicine"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schenk Karl (1823-1895)",
+  "fonds_reference": "J1.19*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schenk Karl (1823-1895)",
+   "Nachlass Bundesrat Karl Schenk"
+  ],
+  "reference_code": "J1.19#1972/89#27*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29383476",
+  "accession_numbers": [
+   "1972/89"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Dr. med. Felix Schenk",
+    "display_name": "med. Felix Schenk",
+    "role": "deceased person commemorated",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Dr. med. Felix Schenk, Karl Schenk (1823-1895); named organizations or places (apertus): Swiss Federal Archives (CH-BAR), Thun",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): Places appear only in hierarchy (e.g., 'Thun') not in structured fields",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places appear only in hierarchy (e.g., 'Thun') not in structured fields"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Dr. med. Felix Schenk, Karl Schenk (1823-1895)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Swiss Federal Archives (CH-BAR), Thun"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "Named persons are public figures (Bundesrat Karl Schenk, Dr. Felix Schenk)"
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political issues"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Personal data includes named public figures; no sensitive categories identified."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1972",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1972/89 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.19#1972/89#27*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": false,
+  "structural_errors": [],
+  "critical": [
+   "date_created_outside_record_range"
+  ],
+  "warnings": [
+   "resume_speculative",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4299,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

@@ -1,0 +1,290 @@
+{
+ "id": "3509724",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3509724",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3509724",
+  "reference_code": "J1.109-02#2007/115#16*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Nachrufe zum Tode von Eugen Huber in verschiedenen Zeitungen",
+   "date": {
+    "from": "1923-01-01",
+    "to": "1923-12-31",
+    "expressed": "1923-1923"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3466221",
+     "number": "2007/115",
+     "title": "2007/00115 Universit�t Bern, Institut f�r Rechtsgeschichte (Bern) (1900-1924)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This unit is a collection of retrospective press material (obituaries) rather than an administrative file or finding aid.",
+  "resume": "The record contains obituaries for Eugen Huber published in various newspapers in 1923. It is a compilation of press articles collected from different sources and preserved in the estate of Amalia Leuzinger Schuler. The material documents public reactions to Huber's death."
+ },
+ "metadata": {
+  "title": "Nachrufe zum Tode von Eugen Huber in verschiedenen Zeitungen",
+  "title_normalized": "Nachrufe zum Tode von Eugen Huber in verschiedenen Zeitungen",
+  "title_en": "Obituaries for Eugen Huber in various newspapers",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1923/1923",
+  "date_published": "1923",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1923/1923",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Eugen Huber",
+   "obituaries",
+   "press",
+   "law"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Huber Eugen (1849-1923)",
+  "fonds_reference": "J1.109*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Huber Eugen (1849-1923)",
+   "Huber Eugen: Unterlagen aus dem Nachlass von Amalia Leuzinger Schuler (1891-1987)",
+   "Nachrufe und Andenken"
+  ],
+  "reference_code": "J1.109-02#2007/115#16*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3509724",
+  "accession_numbers": [
+   "2007/115"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Eugen Huber",
+    "display_name": "Eugen Huber",
+    "role": "deceased subject of obituaries",
+    "wikidata": {
+     "qid": "Q115883",
+     "label": "Eugen Huber",
+     "description": "Swiss lawyer (1849-1923)",
+     "url": "https://www.wikidata.org/wiki/Q115883"
+    },
+    "life_date_check": {
+     "born": 1849,
+     "died": 1923,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): reference_code contains 'Universit�t'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): title mentions 'Eugen Huber'; named organizations or places (apertus): hierarchy_top_down contains 'Universit�t Bern'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): hierarchy_top_down contains 'Universit�t Bern' in free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "reference_code contains 'Universit�t'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains 'Universit�t Bern' in free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title mentions 'Eugen Huber'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains 'Universit�t Bern'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record concerns the death of public figure Eugen Huber; no identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1923",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Original obituaries published in various Swiss newspapers following Eugen Huber's death",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/115 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.109-02#2007/115#16*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso",
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4430,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_obituary",
+ "evidence_source_level": "secondary"
+}

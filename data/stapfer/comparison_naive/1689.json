@@ -1,0 +1,56 @@
+{
+ "id": 1689,
+ "signature": "BAR B0 1000/1483, Nr. 1444, fol. 183-184v",
+ "reference": {
+  "place": "Coppet",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Charles Samuel Bernard",
+  "teacher_age": 54,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 38,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Charles Samuël Bernard",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Coppet",
+  "canton_1799": "du Léman",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Charles Samuël Bernard",
+  "teacher_age": 54,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "38 ans et Six Mois",
+  "pupils_winter": "le plus grand nombre",
+  "pupils_summer": "un nombre des plus âgés étant occupés aux ouvrages de la campagne",
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place": "Coppet",
+  "canton_1799": "du Léman",
+  "teacher_name": "Charles Samuël Bernard",
+  "teacher_age": "54 ans",
+  "teacher_since": "38 ans et Six Mois",
+  "pupils_winter": "Les Ecoles Sont fréquentées par le plus grand nombre.",
+  "pupils_summer": "Elles no sont pas autant fréquentées qu'en hiver; un nombre des plus âgés étant occupés aux ouvrages de la campagne."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "missed",
+  "date_written": "both_empty"
+ },
+ "seconds": 8.46
+}

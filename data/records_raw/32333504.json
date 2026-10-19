@@ -1,0 +1,85 @@
+{
+ "id": "32333504",
+ "uri": "https://culture.ld.admin.ch/ais/32333504",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32333504",
+ "title": "Sachregister und chronologisches Verzeichnis der Kreisschreiben 1857 - 1932",
+ "reference_code": "E4260E-05#2021/127#134*",
+ "reference_number": "0200.4.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1857-01-01",
+  "to": "1932-12-31",
+  "expressed": "1857-1932"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/32292254",
+   "number": "2021/127",
+   "title": "2021/00127 Bundesamt f�r Polizei (Bern) (1857-2009)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32333416",
+   "title": "Die Rechtsquellen und rechtssetzenden Erlasse des Verwaltungsrechts. Allgemeines.",
+   "level": "Serie",
+   "reference_code": "E4260E-05#0200"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32333415",
+   "title": "Das Verwaltungsrecht. Grundsätzliches zum Begriff und Wesen des -.",
+   "level": "Serie",
+   "reference_code": "E4260E-05#020"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32333414",
+   "title": "Verwaltungsrecht. Verwaltungstätigkeit. Verwaltungsverfahren.",
+   "level": "Serie",
+   "reference_code": "E4260E-05#02"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32333358",
+   "title": "Verwaltung",
+   "level": "Serie",
+   "reference_code": "E4260E-05#0"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32311961",
+   "title": "Bundesamt für Polizeiwesen: Zentrale Ablage (1979-1999)",
+   "level": "Sub-file",
+   "reference_code": "E4260E-05*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4628",
+   "title": "Bundesamt für Polizeiwesen (1979-1999)",
+   "level": "Stock",
+   "reference_code": "E10090*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

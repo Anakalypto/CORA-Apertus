@@ -1,0 +1,79 @@
+{
+ "id": "6691177",
+ "uri": "https://culture.ld.admin.ch/ais/6691177",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/6691177",
+ "title": "Pressebericht, Korrespondenz betreffend Ausstellung \"Willy Burkhard 1900-1955",
+ "reference_code": "E3130A#1999/366#311*",
+ "reference_number": "451",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1975-01-01",
+  "to": "1975-12-31",
+  "expressed": "1975-1975"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12119",
+   "number": "1999/366",
+   "title": "1999/00366 Schweizerische Landesbibliothek (Bern) (1886-1993)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659762",
+   "title": "Ausstellungen der Landesbibliothek",
+   "level": "Serie",
+   "reference_code": "E3130A#451"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659760",
+   "title": "Ausstellungen",
+   "level": "Serie",
+   "reference_code": "E3130A#45"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3659702",
+   "title": "Benutzung, Ausstellungen",
+   "level": "Serie",
+   "reference_code": "E3130A#4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6061",
+   "title": "Schweizerische Landesbibliothek: Zentrale Ablage (1894-1993)",
+   "level": "Sub-file",
+   "reference_code": "E3130A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6060",
+   "title": "Schweizerische Landesbibliothek (1894-2006)",
+   "level": "Stock",
+   "reference_code": "E10481*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

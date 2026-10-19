@@ -1,0 +1,366 @@
+{
+ "id": "22337208",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22337208",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22337208",
+  "reference_code": "J2.225#2005/241#37#9*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), 07.05.2005 ; Rose d'Or",
+   "old_reference_code": "Original Signatur: TSSFDRS 2502470\nSignatur Bundesarchiv: J2.225#2005/241#489*",
+   "scope_and_content": "Inhaltsangabe: CH Luzern, LU: Auszeichnung Musiker Sir Bob Geldof für seinen Kampf gegen die Armut am TV-Festival Rose d'Or (Goldene Rose, Charity Award)\nSequenzbeschrieb: CH Luzern, LU: Ankunft Sir Bob Geldof und Partnerin Jeanne Lallemand auf Treppe, durch Lobby gehend / Statement Geldof;o.O., Afrika: Geldof bei PK mit schwarzen Knaben (um 1985);GB London: Ausschnitt Geldof mit Boomtown Rats bei Live Aid-Konzert \"I don'",
+   "author": "AutorIn: Banholzer, Roman\nProduktion: DRS;EVN",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Müller, Beatrice",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien;Afrika ohne Maghrebstaaten\nZeitliche Abdeckung: 07.05.2005-08.05.2005",
+   "form": "Video",
+   "format": "Dauer: 00:01:51\nFarbe: Farbaufnahmen\nStartposition: 00.57.38\nTräger: MPEG IMX",
+   "thema": "Personen: Geldof, Bob;Lallemand, Jeanne;Luks, Georges\nSachdeskriptor: Preisverleihung;Fernsehen;Armut",
+   "date": {
+    "from": "2005-05-07",
+    "to": null,
+    "expressed": "2005.05.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/2072784",
+     "number": "2005/241",
+     "title": "2005/00241 Schweizer Fernsehen DRS (Z�rich) (2005)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a news broadcast created at the time of the events.",
+  "resume": "The document is a video segment from the Tagesschau Hauptausgabe (TS) dated 7 May 2005, covering the awarding of the Rose d'Or to Sir Bob Geldof for his anti-poverty work, including footage of Geldof and Jeanne Lallemand arriving at the festival and archival clips of Geldof with the Boomtown Rats at Live Aid."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), 07.05.2005 ; Rose d'Or",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), 07.05.2005 ; Rose d'Or",
+  "title_en": "Tagesschau Hauptausgabe (TS), 07.05.2005 ; Rose d'Or",
+  "creator": "DRS, EVN",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2005-05-07",
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2005-05-07",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "awards",
+   "poverty",
+   "television"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2005",
+   "Tagesschau SFDRS 07.05.2005"
+  ],
+  "reference_code": "J2.225#2005/241#37#9*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22337208",
+  "accession_numbers": [
+   "2005/241"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Geldof, Bob",
+    "display_name": "Bob Geldof",
+    "role": "Person",
+    "wikidata": {
+     "qid": "Q216608",
+     "label": "Bob Geldof",
+     "description": "Irish singer-songwriter and political activist (born 1951)",
+     "url": "https://www.wikidata.org/wiki/Q216608"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Lallemand, Jeanne",
+    "display_name": "Jeanne Lallemand",
+    "role": "Person",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Luks, Georges",
+    "display_name": "Georges Luks",
+    "role": "Person",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Luzern",
+    "as_written": "CH Luzern, LU",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.052144,
+    "lon": 8.3058123,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682891",
+    "model_lat": 46.948,
+    "model_lon": 8.337
+   },
+   {
+    "name": "London",
+    "as_written": "GB London",
+    "role": "depicted",
+    "country": "GB",
+    "lat": 51.5074456,
+    "lon": -0.1277653,
+    "gazetteer": "https://www.openstreetmap.org/relation/175342",
+    "model_lat": 51.5074,
+    "model_lon": -0.1278
+   },
+   {
+    "name": "Africa",
+    "as_written": "Afrika",
+    "role": "depicted",
+    "country": "AF",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Banholzer, Roman\nProduktion: DRS;EVN",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Geldof, Bob;Lallemand, Jeanne;Luks, Georges; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien;Afrika ohne Maghrebstaaten",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2005.05.07; free text places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien;Afrika ohne Maghrebstaaten",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Banholzer, Roman\nProduktion: DRS;EVN"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2005.05.07"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien;Afrika ohne Maghrebstaaten"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Geldof, Bob;Lallemand, Jeanne;Luks, Georges"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien;Afrika ohne Maghrebstaaten"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "London",
+   "lat": 51.5074456,
+   "lon": -0.1277653,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2005-05-07",
+   "place": "Luzern",
+   "lat": 47.052144,
+   "lon": 8.3058123,
+   "description": "Video segment broadcast as part of Tagesschau Hauptausgabe (TS) covering the Rose d'Or award ceremony.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/241 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2005/241#37#9*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5648,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

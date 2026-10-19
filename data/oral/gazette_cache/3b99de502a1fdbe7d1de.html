@@ -1,0 +1,2038 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--
+	resultsView.jsp
+-->
+
+
+
+
+
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=$start">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archives fédérales suisses - Publications officielles numérisées - Résultats de recherche</title>
+  <base href="https://www.amtsdruckschriften.bar.admin.ch/resultsView.jsp">
+  <link rel="stylesheet" href="bundguidelines/css/vendors.css">
+  <link rel="stylesheet" href="bundguidelines/css/admin.css">
+  <!-- <link rel="stylesheet" href="bundguidelines/css/print.css"> -->
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="bundguidelines/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="bundguidelines/img/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="bundguidelines/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="bundguidelines/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="bundguidelines/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="bundguidelines/img/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="bundguidelines/img/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="bundguidelines/img/ico/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="bundguidelines/img/ico/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="bundguidelines/img/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="bundguidelines/img/ico/browserconfig.xml">
+
+  <!--[if lt IE 9]>
+    <script src="bundguidelines/js/polyfills.min.js"></script>
+  <![endif]-->
+
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Unblu script -->
+  
+
+
+ 
+  <link rel="stylesheet" type="text/css" href="scheme/style.css">
+  <!--<link rel='stylesheet' type='text/css' href='scheme/styles_cdbundlight.css'>-->
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+
+  <script language="JavaScript" src="scripts/util.js"></script>
+  <script language="JavaScript" src="scripts/date.js"></script>
+
+</head>
+<!-- <body onload="setFocusSearch()"> -->
+<body>
+<!-- table over the whole site, that the header is as width as the resultlist -->
+<div class="container container-main">
+<table height="100%" width="960px" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top">
+<!-- CONVERA - SB: Anker Top -->
+<a name="top"></a>
+  
+
+
+
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<!-- Set outer table height. See comments above.  -->
+  
+	
+  
+
+
+<form name="queryForm"  id="queryForm"
+      action="execQuery.do" method="GET"
+              
+                    onsubmit="return canSubmitSearch();"
+              
+>
+
+<!-- HEADER -->
+  
+
+
+
+
+
+
+
+<!--
+	header.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+    <header>
+      <div class="clearfix">
+          
+
+          
+          
+        <!-- Standard Bootstrap `navbar` structure with the `treecrumb` class -->
+        <nav class="navbar treecrumb pull-left" role="navigation">
+          <h2 class="sr-only">Archives fédérales suisses</h2>
+          <ul class="nav navbar-nav">
+
+            <!-- Treecrumb dropdown element -->
+            <li class="dropdown">
+              <!-- Dropdown label -->
+              <a id="admin-dropdown" href="https://www.admin.ch/gov/fr/accueil.html" target="_blank" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> Administration fédérale</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="https://www.edi.admin.ch/edi/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle" data-toggle=""><span class="icon icon--right"></span> DFI</a>
+            </li>
+            <li class="dropdown">
+              <a href="https://www.bar.admin.ch/bar/fr/home.html" target="_blank"  id="service-dropdown" class="dropdown-toggle-last" data-toggle=""><span class="icon icon--right"></span> AFS</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <section class="nav-services clearfix">
+          <h2>Archives fédérales suisses</h2>
+          <nav class="nav-lang">
+            <ul>
+                <li class="webSpracheAktivDiv first">
+                    <a href="setLanguage.do?lang=DE&currWebPage=resultsView"  title="Diese Seite auf deutsch">
+                        DE 
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv last">
+                    <a href="setLanguage.do?lang=FR&currWebPage=resultsView" class="active" title="Cette page en français">
+                        FR  <span class="sr-only">selected</span>
+                    </a>
+                </li>
+                <li class="webSpracheInaktivDiv first">
+                    <a href="setLanguage.do?lang=IT&currWebPage=resultsView"  title="Questa pagina in italiano">
+                        IT 
+                    </a>
+                </li>
+              <!-- <li><a class="disabled" href="#">RM</a></li> -->
+              <li><a class="disabled" href="#">EN</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-service" role="navigation">
+            <ul>
+                <li><a href="https://www.bar.admin.ch/bar/fr/home/portrait/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+
+      </div>
+
+      <a href="start.do" class="brand hidden-xs" title="">
+        <img src="bundguidelines/img/logo-CH.svg" onerror="this.onerror=null; this.src='bundguidelines/img/logo-CH.png'" alt="https://www.bar.admin.ch/bar/fr/home.html">
+        <h1>Archives fédérales suisses<br>Publications officielles numérisées</h1>
+      </a>
+
+
+    </header>
+
+      <nav class="nav-main yamm navbar" id="main-navigation">
+
+
+        <!-- The tab navigation -->
+        <ul class="nav navbar-nav" role="navigation">
+            <li class="dropdown yamm-fw">
+            <a href="start.do" accesskey="0" class="dropdown-toggle" data-toggle="">
+                Home
+            </a>
+          
+          
+          
+              
+                
+              
+          
+          <li class="dropdown open yamm-fw">
+            <a href="javascript:navLink('queryForm', 'showHome.do')" accesskey="1" class="dropdown-toggle" data-toggle="">
+                Recherche simple
+            </a>
+          </li>
+          
+          
+          
+              
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'advSearch.do')" accesskey="2" class="dropdown-toggle" data-toggle="">
+                  Recherche avancée
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyDate.do')" accesskey="3" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon la date
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'showHierarchyContent.do')" accesskey="4" class="dropdown-toggle" data-toggle="">
+                  Recherche de listes selon le contenu
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="javascript:navLink('queryForm', 'searchHistory.do')" accesskey="5" class="dropdown-toggle" data-toggle="">
+                  Déroulement de recherche
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+              <a href="showPrefs.do" accesskey="6" class="dropdown-toggle" data-toggle="">
+                  Préférences
+              </a>
+          </li>
+          
+          
+          <li class="dropdown  yamm-fw">
+            <a href="help.do?helptag=resultsView" class="dropdown-toggle" data-toggle="dropdown">
+                Aide
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- The `li` presence heritated from the classic dropdown structure, only one in that case -->
+              <li>
+                <!-- The `yamm-content` can contain any kind of content like tab, table, list, article... -->
+                <div class="yamm-content container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHome" >Recherche simple</a></h3>
+                         <p><a href="help.do?helptag=suchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a></p>
+                      <h3><a href="help.do?helptag=advancedSearch" >Recherche avancée</a></h3>
+                         <p><a href="help.do?helptag=advSuchbegriffe" >Mots-clés</a>
+                         <br><a href="help.do?helptag=suchmodus" >Mode de recherche</a>
+                         <br><a href="help.do?helptag=advTitelbetonung" >Accentuation du titre</a>
+                         <br><a href="help.do?helptag=zeitraum" >Période</a>
+                         <br><a href="help.do?helptag=suchenImTitel" >Recherche dans le titre</a>
+                         <br><a href="help.do?helptag=suchenIn" >Rechercher dans</a>
+                         <br><a href="help.do?helptag=weitereFelder" >Attributs additionnels de la recherche</a></p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=hierarchyDate" >Recherche de listes selon la date</a></h3>
+                      <h3><a href="help.do?helptag=hierarchyContent" >Recherche de listes selon le contenu</a></h3>
+                      <h3><a href="help.do?helptag=resultsView" >Résultats de recherche</a></h3>
+                      <h3><a href="help.do?helptag=doc" >Vue détaillée</a></h3>
+                  </div>
+                  <div class="col-md-4">
+                      <h3><a href="help.do?helptag=searchHistory" >Déroulement de recherche</a></h3>
+                         <p><a href="help.do?helptag=searchHistoryPrint" >Imprimer le déroulement de recherche</a>
+                             <br><a href="help.do?helptag=searchHistoryExport" >Exporter le déroulement de recherche</a></p>
+                      <h3><a href="help.do?helptag=preferences" >Préférences</a></h3>
+                      <h3><a href="help.do?helptag=referenceSearch" >Recherche de référence</a></h3>
+                      <h3><a href="help.do?helptag=suchbeispiele" >Examples de recherche</a></h3>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+                  <a href="#" class="yamm-close-bottom" role="menuitem" tabindex="-1"><span class="icon icon--top"></span></a>
+              </div><!-- `yamm-content` end -->
+              </li><!-- Dropdown `li` end -->
+            </ul><!-- Dropdown `ul` end -->
+          </li>
+        </ul>
+      </nav>
+
+      
+      
+
+
+
+<!-- OUTER TABLE  -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+	<tr>
+
+	<!-- LEFT SIDE  -->
+	  
+
+
+<!--
+        leftSide.jsp
+-->
+
+
+
+
+	<!-- CONTENT TABLE  -->
+	  <td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+
+
+		<!-- Spacer column and push content down.  -->
+		  <tr><td width="10">&#160;</td><td>&#160;</td></tr>
+
+		<!-- SEARCH PANEL -->
+		  <tr><td></td><td>
+			
+				
+
+
+
+
+
+
+
+
+<!--
+	searchPanel.jsp
+
+        the search panel for the simple, advanced and reference search 
+        with fields and search button.
+        additional fields in the advanced view are imported from 
+        additional filters.jsp file
+
+        Author: CONVERA SWITZERLAND, SB
+        Date:   07.01.2004
+-->
+
+
+
+                                        
+<script language="javascript">
+
+// Send variables to client-side.
+var currWebPage           = "resultsView";
+
+   var language = "fr";
+
+
+
+function canSubmitSearch()
+{
+
+// set the Textkategorie Listbox Querystring
+setListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// set the Anlass Listbox Querystring
+setListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// set the Geschaeftsart Listbox Querystring
+setListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+}
+
+
+
+function checkEnter(e){ //e is event object passed from function invocation
+  var characterCode; // literal character code will be stored in this variable
+
+  if(e && e.which){ //if which property of event object is supported (NN4)
+    e = e;
+    characterCode = e.which; //character code is contained in NN4's which property
+  } else {
+    e = event;
+    characterCode = e.keyCode; //character code is contained in IE's keyCode property
+  }
+
+  if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)
+    //document.forms[0].submit(); //submit the form
+    canSubmitSearch();
+    document.getElementById("queryForm").submit();
+    return false; 
+  } else {
+    return true; 
+  }
+} 
+
+var akbGroupAB = 'AB::ABP::RV::ABP::UEV::ABP::SWB';
+var akbGroupBB= 'BS::BB::AS::BB::VPB::BB::BBL';
+var akbGroupBR = 'BRP::BR::GB';
+var abksAB = akbGroupAB.split("::ABP::");
+var abksBB = akbGroupBB.split("::BB::");
+var abksBR = akbGroupBR.split("::BR::");
+
+function changeSourceType(source, searchMode, abk){
+  var isSearchInResultsActive = false;
+  var bVal = true;
+  var bValNot = false;
+  var selectAll = false;
+  var node;
+  var elements;
+  var isSearchInResultsActive = false;
+
+  if (source == "selectAll") {
+    if (document.getElementsByName("selectAll")[0] != null) {
+        selectAll = document.getElementsByName("selectAll")[0].checked;
+    } 
+    bVal = true;
+    bValNot = false;
+  } else if (source == "results") {
+    bVal = false;
+    bValNot = true;
+    isSearchInResultsActive = true;
+  } else {
+    bVal = true;
+    bValNot = false;
+    isSearchInResultsActive = false;
+  }
+
+if (document.getElementsByName("searchInResults")[0] != null) {
+  if (document.getElementsByName("searchInResults")[0].checked != bValNot) {
+    document.getElementsByName("searchInResults")[0].checked = bValNot;
+  }
+}
+    elements = document.getElementsByName("selectedDruckschrifttypen");
+    for(i=0; i < elements.length; i++) {
+      node = elements[i];
+      if(node.type == "checkbox") {
+        if (source === "selectAll") {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (!node.disabled) {
+                    if (node.checked != selectAll) {
+                        node.checked = selectAll;
+                    }
+                }
+            }
+        } else {
+            if (node.name != "searchInResults" && node.name != "selectAll") {
+                if (bVal == false) {
+                    if (!node.disabled) {
+                      if (node.checked != bVal) {
+                        node.checked = bVal;
+                      }
+                    }
+                }
+            }
+        }
+      }
+    }
+    
+    //Do the group checks
+    checkGroup(abk, akbGroupAB, abksAB);
+    checkGroup(abk, akbGroupBB, abksBB);
+    checkGroup(abk, akbGroupBR, abksBR);
+    
+    if (document.getElementsByName("selectAll")[0] != null) {
+      checkSelectAll();
+    }
+
+    if (isSearchInResultsActive == false) {
+        if (searchMode == "simple") {
+                //navLink('queryForm', 'showHome.do');
+            } else {
+                navLink('queryForm', 'advSearch.do');
+                //submitAction("refreshWordInfo.do");
+            }
+        }
+        
+}
+
+
+    
+    function checkSelectAll() {
+        var selectedAll = true;
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(var i=0; i < elements.length-1; i++) {
+            if (!elements[i].checked) {
+                selectedAll = false;
+                break;
+            }
+        }                
+        document.getElementsByName("selectAll")[0].checked = selectedAll;
+    }
+
+
+    function checkGroup(abk, abkGroup, abks) {
+        if(abk){
+            var element = getSelectedDruckschrifttypenInput(abk);
+            if(abk === abkGroup){
+                //Is the group check
+                for(var i=0; i < abks.length; i++) {
+                    //check the group members as the group
+                    console.log(i + "# " + abks[i] + " ==> " + element.checked);
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        getSelectedDruckschrifttypenInput(abks[i]).checked = element.checked;
+                    }
+                }
+            }else if(inArray(abks, abk)){
+                //Is group member check
+                var groupSelectd = true;
+                for(var i=0; i < abks.length; i++) {
+                    if (getSelectedDruckschrifttypenInput(abks[i])) {
+                        groupSelectd = groupSelectd && getSelectedDruckschrifttypenInput(abks[i]).checked;
+                    }
+                }                
+                //If all group members are selected than check the group as well and otherwise deselect the group
+                getSelectedDruckschrifttypenInput(abkGroup).checked = groupSelectd;
+            }else{
+                //is other check
+            }
+        }else{
+            //Do nothing if not abk (for the case of "results")
+        }
+    }
+
+    
+    function getSelectedDruckschrifttypenInput(abk){
+        var elements = document.getElementsByName("selectedDruckschrifttypen");
+        for(i=0; i < elements.length; i++) {
+            if(elements[i].value === abk){
+                return elements[i];
+            }
+        }        
+        return null;
+    }
+
+    function inArray(a, obj) {
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    } 
+     
+</script>
+
+
+    
+        
+    
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-left: 8px;">
+  <input type="hidden" id="context" name="context" value="results">
+  <input type="hidden" name="searchMode" value="simple">
+
+
+<!-- Display title 
+
+-->
+
+    <tr>
+    <td>
+
+    </td>
+
+    <!-- Input box, Search Button -->
+    <td>
+        <table width="100%">
+            <tr align=left>
+                <td class="text">
+                    
+                    
+                    <!-- simple search panel -->
+                                <table>
+                                    <tr align=left>
+                                        <td class="text">
+                                            <label for="queryString"><a href="help.do?helptag=suchbegriffe" class="helpLink" onMouseover="return escape('Entrez ici les mots-clés souhaités. Ceux-ci seront recherchés de façon générale, c.à.d. que des mots similaires seront également trouvés et un degré de ressemblance sera calculé. Si vous désirez lancer une recherche précise en utilisant les opérateurs booléens (AND, OR, WITHIN, ...), allez vers la recherche avancée.')">Mots-clés:&nbsp;</a></label>
+                                        </td><td>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr><td>
+                                                    <input type="text" name="queryString" size="48" value="Mercier" id="queryString" class="searchQueryString">
+                                                </td><td>
+                                                    <!--
+                                                    &#160;&#160;<input type="image" id="imgSearch" src="images/local_fr/btn_search.gif" alt="rechercher" title="rechercher" >&#160;
+                                                    <span style="white-space: nowrap;">&nbsp;&nbsp;<a class="searchNewLink" href="showHome.do?newSearch=clear&context=simple" title="effacer"><img src="images/local_fr/btn_delete.gif" alt="effacer"></a>
+                                                    &#160;</span>
+                                                    -->
+                                                    &nbsp;&nbsp;&nbsp;
+                                                    <button type="submit" role="button" class="btn btn-primary">rechercher</button>
+                                                    <a class="btn btn-secondary" href="showHome.do?newSearch=clear&context=simple">effacer</a>
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="daterange_from"><a href="help.do?helptag=zeitraum" class="helpLink" onMouseover="return escape('Entrez ici une date ou une période de calendrier, pour ne rechercher que dans les documents datés de cette période.Exemple :<br>2000 --> 1.1.2000-31.12.2000<br>1.2000 --> 1.1.2000-31.1.2000<br>12.1.2000 --> 12.1.2000')">Période</a>:&nbsp;</label>
+                                        </td><td>
+                                            <input type="text" name="daterange_from" size="10" value="01.01.1903" onblur="checkDate('daterange_from')" id="daterange_from" class="searchQueryString">
+                                            <label class="text" for="daterange_to"> jusque </label>
+                                            <input type="text" name="daterange_to" size="10" value="31.12.1933" onblur="checkDate('daterange_to')" id="daterange_to" class="searchQueryString">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">
+                                            <label for="druckschrifttypen"><a href="help.do?helptag=suchenIn" class="helpLink"onMouseover="return escape('Choisissez les genres de publication dans lesquels votre recherche est souhaitée. <br>La Feuille fédérale est disponible dès 1848 jusqu\'à l\'année la plus récente (pour l\'année exacte, cf. \'Home\').<br>Les DDS sont disponibles pour les années 1848 à 1945.')">Rechercher dans</a>:&nbsp;</label>
+                                        </td><td class="text">
+                                            <span id="sources">
+                                            <table cellpadding="0" cellspacing="0" border="0"><tr><td class="text">
+                                                <fieldset>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB::ABP::RV::ABP::UEV::ABP::SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB::ABP::RV::ABP::UEV::ABP::SWB');" id="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    <label for="druckschrifttyp_AB::ABP::RV::ABP::UEV::ABP::SWB">
+                                                    
+                                                        Assemblée fédérale (Bulletin officiel, Procès-verbaux, Instruments de recherche)
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AB');" id="druckschrifttyp_AB">
+                                                    <label for="druckschrifttyp_AB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Bulletin officiel de l&#39;Assemblée fédérale (1891-1999)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SWB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SWB');" id="druckschrifttyp_SWB">
+                                                    <label for="druckschrifttyp_SWB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux de l&#39;Assemblée fédérale (1921-1970)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="RV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'RV');" id="druckschrifttyp_RV">
+                                                    <label for="druckschrifttyp_RV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Répertoire des délibérations (1848-1891)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="UEV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'UEV');" id="druckschrifttyp_UEV">
+                                                    <label for="druckschrifttyp_UEV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Résumé des délibérations (1891-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS::BB::AS::BB::VPB::BB::BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS::BB::AS::BB::VPB::BB::BBL');" id="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                    <label for="druckschrifttyp_BS::BB::AS::BB::VPB::BB::BBL">
+                                                           
+                                                    
+                                                        Droit fédéral
+                                                           
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BBL" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BBL');" id="druckschrifttyp_BBL">
+                                                    <label for="druckschrifttyp_BBL">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Feuille fédérale (1849-2008)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BS');" id="druckschrifttyp_BS">
+                                                    <label for="druckschrifttyp_BS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil systématique (1848-1947)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="AS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'AS');" id="druckschrifttyp_AS">
+                                                    <label for="druckschrifttyp_AS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Recueil officiel (1948-1998)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="VPB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'VPB');" id="druckschrifttyp_VPB">
+                                                    <label for="druckschrifttyp_VPB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Jurisprudence des autorités administratives de la Confédération (1987-2017)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP::BR::GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP::BR::GB');" id="druckschrifttyp_BRP::BR::GB">
+                                                    <label for="druckschrifttyp_BRP::BR::GB">
+                                                           
+                                                           
+                                                    
+                                                        Conseil fédéral
+                                                           
+                                                           
+                                                    
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="BRP" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'BRP');" id="druckschrifttyp_BRP">
+                                                    <label for="druckschrifttyp_BRP">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Procès-verbaux du Conseil fédéral (1848-1975)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                             <!-- Hinweis dass die Suche eingeschr�nkt ist da die Dokumente kein OCR-Text enthalten -->
+                                                             <a href="#" class="helpLink" onMouseover="return escape('Le système de reconnaissance automatique des textes n\'a pu être appliqué au procès-verbaux du Conseil fédéral qu\'à partir de 1904. <br>On ne peut donc pas effectuer une recherche plein texte pour les procès-verbaux de 1848 à 1903.')">(options de recherche réduites)</a>
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                    
+                                                        &nbsp; &nbsp;
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="GB" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'GB');" id="druckschrifttyp_GB">
+                                                    <label for="druckschrifttyp_GB">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Rapports de gestion du Conseil fédéral (1848-1995)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SV" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SV');" id="druckschrifttyp_SV">
+                                                    <label for="druckschrifttyp_SV">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Compte d&#39;Etat et budget (1848-2006)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SK" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SK');" id="druckschrifttyp_SK">
+                                                    <label for="druckschrifttyp_SK">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Annuaire fédéral (1849-2021)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="DDS" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'DDS');" id="druckschrifttyp_DDS">
+                                                    <label for="druckschrifttyp_DDS">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Documents Diplomatiques Suisses (1848-1946)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="SQ" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'SQ');" id="druckschrifttyp_SQ">
+                                                    <label for="druckschrifttyp_SQ">
+                                                           
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        
+                                                            
+                                                                Etudes et Sources (1975-2005)
+                                                            
+                                                         
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                    <div class="checkbox checkbox--left">
+                                                                                                         
+                                                    <input type="checkbox" name="selectedDruckschrifttypen" value="ASHR" checked="checked" onclick="changeSourceType('druckschrifttypen', 'simple', 'ASHR');" id="druckschrifttyp_ASHR">
+                                                    <label for="druckschrifttyp_ASHR">
+                                                           
+                                                           
+                                                           
+                                                    
+                                                        Collection d'actes de l'époque de la République helvétique (1798-1803) (contexte en allemand, actes dans la langue originelle)
+                                                           
+                                                    
+                                                        
+                                                        </label></div>
+                                                
+                                                <hr>
+                                                <div class="checkbox checkbox--left">
+                                                    <input type="checkbox" name="selectAll" value="on" checked="checked" onclick="changeSourceType('selectAll', 'simple');" id="selectAll"><label for="selectAll">Sélectionner tout </label>
+                                                    <input type="hidden" name="selectAll" value="false">
+                                                </div>
+                                                
+                                                    
+                                                        
+                                                            <div class="checkbox checkbox--left">
+                                                            <input type="checkbox" name="searchInResults" value="on" onchange="changeSourceType('results', 'simple');" id="searchInResults"><label for="searchInResults">Résultats de recherche </label>
+                                                            </div>
+                                                        
+                                                    
+                                                
+                                                <input type="hidden" name="selectedDruckschrifttypen" value="false">
+                                                </fieldset>
+                                            </td></tr></table>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+        
+</table>
+
+
+
+<script language="javascript">
+//CONVERA - SB Start
+
+function checkDate(inputField)
+{
+    var dateInput = document.getElementsByName(inputField)[0].value;
+    if (dateInput != "") {
+      if (!getDateFromFormat(dateInput,"d.M.y") && !getDateFromFormat(dateInput,"M.y") && !getDateFromFormat(dateInput,"y")) {
+        alert('Pas de date valable. \nContrôlez s.v.p. votre entrée. \nVous trouverez de plus amples informations dans le fichier d\'aide.');
+      }
+    }
+    return true;
+}
+
+
+function setListbox (listbox, hiddenField) {
+    // Funktion zur Zusammenstellung der Eintr�ge der Listbox in ein hidden Field
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox geschrieben wird.
+    // Die in der Listbox selektierten Eintr�ge werden mit OR verkn�pft und
+    // in das hidden Field geschrieben.
+
+        var queryStringField = "";
+	if (listbox != null) {
+            for(k=1; k < listbox.length; k++) { // erster Eintrag "alle" nicht ber�cksichtigen
+                if (listbox.options[k].selected == true) {
+                    if (queryStringField != "") {
+                        //queryStringField = queryStringField + " OR " + "\"" + listbox.options[k].value + "\"";
+                        queryStringField = queryStringField + " OR " + listbox.options[k].value;
+                    } else {
+                        //queryStringField = "\"" + listbox.options[k].value + "\"";
+                        queryStringField = listbox.options[k].value;
+                    }
+                }
+            }
+            // set hidden field with string
+            if (hiddenField != null) {
+                hiddenField.value = queryStringField;
+            }
+        }
+}
+
+
+function getListbox (listbox, hiddenField) {
+    // Funktion zur Auswahl der ausgew�hlten Elemente einer Listbox
+    // listbox:     Das Objekt der Listbox
+    // hiddenField: Das hidden Field, in welchem der gesamte Suchstring der entsprechenden
+    //              Listbox enthalten ist.
+    // Die im hidden Field enthaltenen Begriffe werden in der Listbox selektiert
+
+    var queryStringField = "";
+    if (hiddenField != null && listbox != null) {
+       queryStringField = hiddenField.value;
+       if (queryStringField == "") { // erster Eintrag "alle" selektieren
+          listbox.options[0].selected = true;
+       } else {
+          //queryStringField = replaceAll(queryStringField, "\"", "");
+          queryStringField = queryStringField.split(" OR ");
+          for(k=0; k < queryStringField.length; k++) {
+             for(i=0; i < listbox.length; i++) {
+                if (listbox.options[i].value == queryStringField[k]) {
+                   listbox.options[i].selected = true;
+                   break;
+                }
+             }
+          }
+       }
+    }
+
+}
+
+function replaceAll (string, search, replace)
+{ var st = string;
+  if (search.length == 0)
+     return st;
+  var idx = st.indexOf(search);
+  while (idx >= 0)
+  {  st = st.substring(0,idx) + replace + st.substr(idx+search.length);
+     idx = st.indexOf(search);
+  }
+  return st;
+}
+
+
+
+// select the textkategorie items in the listbox from the hidden textkategorie search string ("kategorie 1" OR "kategorie 2")
+getListbox (document.getElementById("textkategorieList"), document.getElementById("textkategorie"));
+
+// select the anlass items in the listbox from the hidden anlass search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassList"), document.getElementById("anlass"));
+
+// select the anlass ort items in the listbox from the hidden anlass ort search string ("anlass 1" OR "anlass 2")
+getListbox (document.getElementById("anlassOrtList"), document.getElementById("anlassOrt"));
+
+// select the geschaeftsart items in the listbox from the hidden geschaeftsart search string ("geschaeftsart 1" OR "geschaeftsart 2")
+getListbox (document.getElementById("geschaeftsartList"), document.getElementById("geschaeftsart"));
+
+
+</SCRIPT>
+
+
+
+
+			
+		  </td></tr>
+
+		  <!-- CONVERA / SB <tr><td><img src="images/blank.gif" width="1" height="10" alt=""/></td></tr> -->
+
+		<!--
+		BAR / TABS
+		  Align thin column bar to top, to align with tabs div that has the scroll bar.
+		  Stop line before right edge, so it balances with spacer column.
+	-->
+			
+        		  <tr>
+			  <td></td><td><img src="images/layout/line.gif" width="99%" height="7" alt=""/></td>
+        		  </tr>
+			
+                  <tr><td><img src="images/blank.gif" width="1" height="4" alt=""/></td><td></td></tr>
+
+		<!-- PAGE CONTENTS -->
+		  <tr><td></td><td valign="top">
+		   
+                       
+
+
+
+
+
+
+
+
+
+
+
+  <!-- PAGE LABEL -->
+
+<!-- Anker Resultatliste -->
+<a name="resultlist"></a>
+
+
+
+
+
+<table width="99%"  border="0"><tr><td width="33%">
+	<div class="pageLabel"><span style="white-space: nowrap;">Résultats de recherche&nbsp;&nbsp;
+        
+            <a class="icon icon--before icon--print" href="printResultList.do" target="_blank" title="imprimer"></a>
+        
+        </span>
+</div>
+</td><td width="33%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td>
+<td align="right" width="33%">
+
+    <table align="right" width="300" border ="0"><tr><td style="width:220px;">
+        <div style="text-align:right;" class="pageLabel">Exportation de données:&nbsp;&nbsp;</div></td>
+    <td  style="width:80px;" align="right">
+        <input type="hidden" id="exportAction" name="mode" value="">
+        <span style="white-space: nowrap;"><a href="export.do?mode=all"><img src="images/icons/c_selectAll.gif" width="20" higth="20" border="0" alt="Sélectionner la totalité"></a>&nbsp;&nbsp;
+              <a href="export.do?mode=delete"><img src="images/icons/c_selectNone.gif" width="20" higth="20" border="0" alt="Annuler la sélection"></a>&nbsp;&nbsp;
+              <a href="javascript:setExportFormSubmit('','export','')"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Exporter la sélection"></a>
+                <!--<a href="export.do"><img src="images/icons/c_export.gif" width="20" higth="20" border="0" alt="Exporter la sélection"></a>-->
+        </span>
+    </td></tr></table>
+
+</td></tr></table>
+	
+
+<!--
+	statusMessage.jsp
+-->
+
+
+
+
+
+        
+            <!-- RESULTS LIST -->
+            
+
+
+
+
+<!-- Make some params visible to jsp, since include page cannot use c:out.  -->
+
+  
+  
+
+  
+  
+
+<!--
+    Determine pane expand state.
+        Incoming value, and forced values. 
+        Force expand takes precendence (only one force should be present).
+-->
+  
+  
+    
+  
+
+  
+
+  
+    
+      
+    
+  
+
+<!--
+   Set up initial state of image source and content div.
+	  Originally also had position:relative for the div, from some (hopefully) old issues with showing/hiding.
+	  This had a side effect of hiding the focus indicator for checkboxes and radio buttons.
+-->
+  
+	  
+	  
+  
+
+
+
+
+    
+        <!-- show pagination -->
+        <div>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Le nombre de documents peut être augmenté sous le menu réglages.')">1 à 25 sur les 100 les plus pertinents</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li><a href="javascript:exportFormSubmit('','','75','25')">4</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">Page suivante</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','75','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+        docsList.jsp
+        Caller sets conv:load-channel to query or cat.
+-->
+
+
+
+    
+<style>
+    
+    .docsRow {font-size:small}
+</style>
+
+
+
+
+
+<!-- Document List Body -->
+<div class="resultListBody">
+
+<!-- Begin results table -->
+<!-- CONVERA - SB Export Formular -->
+<form name="exportForm"  id="exportForm" action="setExport.jsp" method="GET">
+    <input type="hidden" name="sortBy" value="relevance" id="sortBy">
+    <input type="hidden" name="sortOrder" value="asc" id="sortOrder">
+    <input type="hidden" id="fetchCount" name="fetchCount" value="">
+    <input type="hidden" id="fetchStart" name="fetchStart" value="">
+
+<!--<table width="95%" border="0">-->
+<fieldset>
+<table width="100%" border="0">
+        <tr class="docsColumnHeadRow"><td align="left" nowrap="1" valign="middle"><div nowrap="1">
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_titel_normal_fr', 'desc', '', '')"
+                title="Trier par Titre"
+                valign="middle">Titre<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('a_jahr', 'desc', '', '')"
+                title="Trier par Année"
+                valign="middle">Année<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('b_band_nr', 'desc', '', '')"
+                title="Trier par Volume"
+                valign="middle">Volume<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_von_num', 'desc', '', '')"
+                title="Trier par Page de"
+                valign="middle">Page de<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_seite_bis_num', 'desc', '', '')"
+                title="Trier par Page jusque"
+                valign="middle">Page jusque<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('t_autor', 'desc', '', '')"
+                title="Trier par Auteur"
+                valign="middle">Auteur<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('size', 'desc', '', '')"
+                title="Trier par Taille"
+                valign="middle">Document<img
+                src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                
+                <a class="docsColumnLink"
+                href="javascript:exportFormSubmit('relevance', 'desc', '', '')"
+                title="Trier par Pertinence"
+                valign="middle">Pertinence<img
+                src="images/layout/btn_sort_asc.gif"
+                alt="croissant"
+                width="6" height="11" border="0" align="absmiddle"/></a></div></td><td align="center" nowrap="1" valign="middle"><div nowrap="1">
+                
+                <img src="images/layout/btn_sort_none.gif"
+                alt=""
+                width="6" height="11" border="0" align="absmiddle"/>
+                
+                <label for="export"><span class="docsColumnLink" valign="middle"><u>Exportation</u></span></label></div></td></tr>
+        <tr><td>
+        </td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002953"
+            title="Voir les détails"
+            >Le D&#233;partement politique au Ministre de Suisse &#224; Berlin, Ph. Mercier</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">441</td><td align="center" valign="top">441</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002953.pdf?ID=60002953" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">45kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="16.493933" height="21"
+                alt="36.653183"
+                title="36.653183"/><img src="scheme/rank_back.gif"
+                width="28.506067" height="21"
+                alt="36.653183"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002953" name="export" value="60002953">
+                        <label for="export_60002953"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002953">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002691"
+            title="Voir les détails"
+            >Le Chef du D&#233;partement politique, F.Calonder, au Ministre de Suisse &#224; Berlin, Ph. Mercier</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">725</td><td align="center" valign="top">726</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002691.pdf?ID=60002691" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">95kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.7874155" height="21"
+                alt="35.083145"
+                title="35.083145"/><img src="scheme/rank_back.gif"
+                width="29.212585" height="21"
+                alt="35.083145"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002691" name="export" value="60002691">
+                        <label for="export_60002691"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002691">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002700"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">736</td><td align="center" valign="top">736</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002700.pdf?ID=60002700" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">38kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.7874155" height="21"
+                alt="35.083145"
+                title="35.083145"/><img src="scheme/rank_back.gif"
+                width="29.212585" height="21"
+                alt="35.083145"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002700" name="export" value="60002700">
+                        <label for="export_60002700"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002700">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002703"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">741</td><td align="center" valign="top">741</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002703.pdf?ID=60002703" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">53kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.7874155" height="21"
+                alt="35.083145"
+                title="35.083145"/><img src="scheme/rank_back.gif"
+                width="29.212585" height="21"
+                alt="35.083145"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002703" name="export" value="60002703">
+                        <label for="export_60002703"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002703">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002652"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">680</td><td align="center" valign="top">681</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002652.pdf?ID=60002652" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">120kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.434156" height="21"
+                alt="34.298126"
+                title="34.298126"/><img src="scheme/rank_back.gif"
+                width="29.565842" height="21"
+                alt="34.298126"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002652" name="export" value="60002652">
+                        <label for="export_60002652"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002652">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002687"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">722</td><td align="center" valign="top">723</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002687.pdf?ID=60002687" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">105kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.434156" height="21"
+                alt="34.298126"
+                title="34.298126"/><img src="scheme/rank_back.gif"
+                width="29.565842" height="21"
+                alt="34.298126"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002687" name="export" value="60002687">
+                        <label for="export_60002687"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002687">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003195"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">864</td><td align="center" valign="top">865</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003195.pdf?ID=60003195" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">108kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.257528" height="21"
+                alt="33.905617"
+                title="33.905617"/><img src="scheme/rank_back.gif"
+                width="29.742474" height="21"
+                alt="33.905617"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003195" name="export" value="60003195">
+                        <label for="export_60003195"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003195">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002664"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">691</td><td align="center" valign="top">693</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002664.pdf?ID=60002664" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">170kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.080898" height="21"
+                alt="33.513107"
+                title="33.513107"/><img src="scheme/rank_back.gif"
+                width="29.919102" height="21"
+                alt="33.513107"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002664" name="export" value="60002664">
+                        <label for="export_60002664"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002664">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003239"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">96</td><td align="center" valign="top">98</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003239.pdf?ID=60003239" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">170kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.080898" height="21"
+                alt="33.513107"
+                title="33.513107"/><img src="scheme/rank_back.gif"
+                width="29.919102" height="21"
+                alt="33.513107"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003239" name="export" value="60003239">
+                        <label for="export_60003239"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003239">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002883"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">312</td><td align="center" valign="top">314</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002883.pdf?ID=60002883" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">169kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="15.080898" height="21"
+                alt="33.513107"
+                title="33.513107"/><img src="scheme/rank_back.gif"
+                width="29.919102" height="21"
+                alt="33.513107"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002883" name="export" value="60002883">
+                        <label for="export_60002883"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002883">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002651"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">678</td><td align="center" valign="top">680</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002651.pdf?ID=60002651" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">191kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="14.904269" height="21"
+                alt="33.120598"
+                title="33.120598"/><img src="scheme/rank_back.gif"
+                width="30.09573" height="21"
+                alt="33.120598"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002651" name="export" value="60002651">
+                        <label for="export_60002651"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002651">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002647"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">6</td><td align="center" valign="top">671</td><td align="center" valign="top">674</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002647.pdf?ID=60002647" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">256kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="14.727642" height="21"
+                alt="32.728092"
+                title="32.728092"/><img src="scheme/rank_back.gif"
+                width="30.272362" height="21"
+                alt="32.728092"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002647" name="export" value="60002647">
+                        <label for="export_60002647"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002647">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003219"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F.Calonder</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">907</td><td align="center" valign="top">911</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003219.pdf?ID=60003219" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">298kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="14.727642" height="21"
+                alt="32.728092"
+                title="32.728092"/><img src="scheme/rank_back.gif"
+                width="30.272362" height="21"
+                alt="32.728092"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003219" name="export" value="60003219">
+                        <label for="export_60003219"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003219">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003020"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, &#224; la Division des Affaires &#233;trang&#232;res du D&#233;partement politique</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">40</td><td align="center" valign="top">40</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003020.pdf?ID=60003020" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">40kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="14.086376" height="21"
+                alt="31.303057"
+                title="31.303057"/><img src="scheme/rank_back.gif"
+                width="30.913626" height="21"
+                alt="31.303057"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003020" name="export" value="60003020">
+                        <label for="export_60003020"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003020">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003211"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, &#224; la Division des Affaires &#233;trang&#232;res du D&#233;partement politique</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">897</td><td align="center" valign="top">897</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003211.pdf?ID=60003211" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">44kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="14.086376" height="21"
+                alt="31.303057"
+                title="31.303057"/><img src="scheme/rank_back.gif"
+                width="30.913626" height="21"
+                alt="31.303057"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003211" name="export" value="60003211">
+                        <label for="export_60003211"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003211">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002930"
+            title="Voir les détails"
+            >Le Chef du D&#233;partement politique, F. Calonder, au Ministre de Suisse &#224; Berlin, Ph. Mercier</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">405</td><td align="center" valign="top">406</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002930.pdf?ID=60002930" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">108kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.733116" height="21"
+                alt="30.518038"
+                title="30.518038"/><img src="scheme/rank_back.gif"
+                width="31.266884" height="21"
+                alt="30.518038"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002930" name="export" value="60002930">
+                        <label for="export_60002930"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002930">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003168"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, &#224; la Division des Affaires &#233;trang&#232;res du D&#233;partement politique</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">814</td><td align="center" valign="top">814</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003168.pdf?ID=60003168" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">49kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.733116" height="21"
+                alt="30.518038"
+                title="30.518038"/><img src="scheme/rank_back.gif"
+                width="31.266884" height="21"
+                alt="30.518038"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003168" name="export" value="60003168">
+                        <label for="export_60003168"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003168">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002846"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F. Calonder</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">228</td><td align="center" valign="top">229</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002846.pdf?ID=60002846" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">116kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.37986" height="21"
+                alt="29.73302"
+                title="29.73302"/><img src="scheme/rank_back.gif"
+                width="31.620142" height="21"
+                alt="29.73302"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002846" name="export" value="60002846">
+                        <label for="export_60002846"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002846">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002960"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement de Justice et Police, E. M&#252;ller</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">449</td><td align="center" valign="top">450</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002960.pdf?ID=60002960" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">112kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.37986" height="21"
+                alt="29.73302"
+                title="29.73302"/><img src="scheme/rank_back.gif"
+                width="31.620142" height="21"
+                alt="29.73302"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002960" name="export" value="60002960">
+                        <label for="export_60002960"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002960">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003254"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F. Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">131</td><td align="center" valign="top">132</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003254.pdf?ID=60003254" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">110kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.20323" height="21"
+                alt="29.340511"
+                title="29.340511"/><img src="scheme/rank_back.gif"
+                width="31.796768" height="21"
+                alt="29.340511"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003254" name="export" value="60003254">
+                        <label for="export_60003254"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003254">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003717"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement de l'Economie publique, E. Schulthess</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7b</td><td align="center" valign="top">215</td><td align="center" valign="top">216</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003717.pdf?ID=60003717" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">125kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.20323" height="21"
+                alt="29.340511"
+                title="29.340511"/><img src="scheme/rank_back.gif"
+                width="31.796768" height="21"
+                alt="29.340511"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003717" name="export" value="60003717">
+                        <label for="export_60003717"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003717">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003243"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement de l'Economie publique, E.Schulthess</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">107</td><td align="center" valign="top">109</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003243.pdf?ID=60003243" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">183kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.026602" height="21"
+                alt="28.948004"
+                title="28.948004"/><img src="scheme/rank_back.gif"
+                width="31.973398" height="21"
+                alt="28.948004"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003243" name="export" value="60003243">
+                        <label for="export_60003243"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003243">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002896"
+            title="Voir les détails"
+            >Le Chef du D&#233;partement de l'Economie publique, E. Schulthess, au Ministre de Suisse &#224; Berlin, Ph. Mercier</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">333</td><td align="center" valign="top">334</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002896.pdf?ID=60002896" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">122kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.026602" height="21"
+                alt="28.948004"
+                title="28.948004"/><img src="scheme/rank_back.gif"
+                width="31.973398" height="21"
+                alt="28.948004"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002896" name="export" value="60002896">
+                        <label for="export_60002896"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002896">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60002947"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement de l'Economie publique, E.Schulthess</a></td><td align="center" valign="top">1919</td><td align="center" valign="top">7a</td><td align="center" valign="top">434</td><td align="center" valign="top">436</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60002947.pdf?ID=60002947" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">178kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="13.026602" height="21"
+                alt="28.948004"
+                title="28.948004"/><img src="scheme/rank_back.gif"
+                width="31.973398" height="21"
+                alt="28.948004"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60002947" name="export" value="60002947">
+                        <label for="export_60002947"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60002947">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+
+                <tr class="docsRow">
+                <td valign="top"><a class="docsTitleLink" href="detailView.do?id=60003076"
+            title="Voir les détails"
+            >Le Ministre de Suisse &#224; Berlin, Ph. Mercier, au Chef du D&#233;partement politique, F. Calonder</a></td><td align="center" valign="top">1918</td><td align="center" valign="top">7a</td><td align="center" valign="top">45</td><td align="center" valign="top">48</td><td align="center" valign="top"></td>              <td align="center" valign="top">
+                    <a href="viewOrigDoc/60003076.pdf?ID=60003076" target="_blank"
+                ><img src="images/icons/c_launch_pdf.gif"
+                alt="Consulter le fichier" border="0"/></a><br><font size="1">240kB</font>
+                </td><td align="center" valign="top" class="rankCol"><img src="scheme/rank_bar.gif"
+                width="12.954212" height="21"
+                alt="28.78714"
+                title="28.78714"/><img src="scheme/rank_back.gif"
+                width="32.045788" height="21"
+                alt="28.78714"/></td><td align="center" valign="top" class="checkbox checkbox--left docListCheckbox">
+                        <input type="checkbox" id="export_60003076" name="export" value="60003076">
+                        <label for="export_60003076"></label>
+                    
+                    <input type="hidden" id="allPageDocuments" name="allPageDocuments" value="60003076">
+                    </td>
+</tr><tr><td align="left" valign="top" colspan="9"><div class="resultDivider"></div></td></tr>
+</table>
+</fieldset>
+<br>
+
+</div>
+
+        <!--
+                Page navigation
+                Match the pane's windowTitle table to get fonts to match.
+                Spacer cell provides indent for text. LATER: Make a pane button placeholder image.
+                Flag the position as a footer, for SkipNav naming. Var defined here; omitted in header pane.
+        -->
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+    <nav class="pagination-container clearfix">
+      <span><a href="showPrefs.do" class="helpLink" onMouseover="return escape('Le nombre de documents peut être augmenté sous le menu réglages.')">1 à 25 sur les 100 les plus pertinents</a></span>
+      <ul class="pull-right pagination">
+        <li class="active"><a href="javascript:exportFormSubmit('','','0','25')">1</a></li><li><a href="javascript:exportFormSubmit('','','25','25')">2</a></li><li><a href="javascript:exportFormSubmit('','','50','25')">3</a></li><li><a href="javascript:exportFormSubmit('','','75','25')">4</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','25','25')">Page suivante</a></li><li class="separator-left"><a href="javascript:exportFormSubmit('','','75','25')" title="Letzte Seite"><span class="icon icon--step-forward"></span></span></a></li>
+        
+        
+      </ul>
+    </nav>  
+    
+
+
+
+
+
+
+
+        </div>
+    
+    
+
+
+
+
+                
+        
+<table width="100%"><tr><td width="100%" align="center" class="text"><a class="icon icon--before icon--top" href="javascript:jumpToTop()" title="TOP"></a></td></tr></table>
+
+
+		   
+		  </td></tr>
+
+	  <!-- Close content table  -->
+		</table>
+	
+	  </td>
+
+  <!-- Close outer table  -->
+	</tr>
+	
+	
+  </table>
+
+
+
+
+
+<!--
+	footer.jsp
+-->
+
+<!-- CONVERA - SB Start 
+  <table class="headerFrame" width="100%" cellpadding="0" cellspacing="0" border="0">
+-->
+
+
+
+
+
+
+<footer>
+      <address>
+        <div class="container-fluid">
+          <span class="hidden-xs">Archives fédérales suisses (AFS)</span>
+          <nav class="pull-right">
+            <ul>
+              <li>
+                  <a href="mailto:info@bar.admin.ch">info@bar.admin.ch</a>
+              </li>
+              <li>
+                  <a href="https://www.admin.ch/gov/fr/accueil/conditions-utilisation.html">Informations juridiques</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </address>
+</footer>
+
+
+  </form>
+
+
+
+
+</td></tr></table>
+</div>
+<!-- CONVERA START - SB: Jump to anchor -->
+<script language="JavaScript">
+window.location.hash="resultlist"; 
+</script>
+<!-- CONVERA END - SB: Jump to anchor -->
+<!-- Load Help-Tooltip Script -->
+<script language="JavaScript" src="scripts/tooltip.js"></script> 
+<!-- Styleguide JS -->
+<script type="text/javascript" src="bundguidelines/js/vendors.min.js"></script>
+<script type="text/javascript" src="bundguidelines/js/main.min.js"></script>
+</body>
+</html>

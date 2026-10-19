@@ -1,0 +1,276 @@
+{
+ "id": "1915605",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1915605",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1915605",
+  "reference_code": "J1.3#1000/1402#468*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936",
+   "reference_number": "51",
+   "date": {
+    "from": "1936-01-01",
+    "to": null,
+    "expressed": "1936"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16819",
+     "number": "1000/1402",
+     "title": "1000/01402 Feldmann Hans (Bern) (1914-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit is a collection of contemporary newspaper articles related to Swiss press conferences in 1936.",
+  "resume": "This record is a press article contained within the session documents of the Swiss Press Association (VSP), covering the Presidents' Conference in Montreux on 9 May 1936 and the General Assembly in Frauenfeld on 27 June 1936."
+ },
+ "metadata": {
+  "title": "Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936",
+  "title_normalized": "Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936",
+  "title_en": "Press article in the BV. Session documents on the Presidents' Conference Montreux, 9 May 1936, and the General Assembly Frauenfeld 27 June 1936",
+  "creator": "Verein der Schweizer Presse (VSP)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1936",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1936",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss Press Association",
+   "Presidents' Conference",
+   "General Assembly",
+   "Swiss journalism"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Feldmann Markus (1897-1958)",
+  "fonds_reference": "J1.3*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Feldmann Markus (1897-1958)",
+   "Presse",
+   "Verein der Schweizer Presse (VSP)"
+  ],
+  "reference_code": "J1.3#1000/1402#468*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1915605",
+  "accession_numbers": [
+   "1000/1402"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Verein der Schweizer Presse (VSP)",
+    "role": "Creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): accessions[0].title: Feldmann Hans (Bern) (1914-1960); named organizations or places (apertus): hierarchy_top_down includes 'Verein der Schweizer Presse (VSP)' and places 'Montreux', 'Frauenfeld'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: from: 1936-01-01, to: null, expressed: 1936; free text places (apertus): Places (Montreux, Frauenfeld) are only in the title free text.",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "Presseartikel in der BV. Sitzungsunterlagen zur Präsidentenkonferenz Montreux, 9.5.1936, und zur GV Frauenfeld 27.6.1936"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "date: from: 1936-01-01, to: null, expressed: 1936"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places (Montreux, Frauenfeld) are only in the title free text."
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title: Feldmann Hans (Bern) (1914-1960)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes 'Verein der Schweizer Presse (VSP)' and places 'Montreux', 'Frauenfeld'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named persons are public figures (Hans Feldmann) and places/organisations; no identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1936",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Press article created as part of session documentation for Swiss Press Association meetings.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1402 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.3#1000/1402#468*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.75,
+  "tokens": 4524,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

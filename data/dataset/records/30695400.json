@@ -1,0 +1,301 @@
+{
+ "id": "30695400",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30695400",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30695400",
+  "reference_code": "J2.143#1996/386#1106-2#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "La nouvelle halle de la Foire de Bâle",
+   "reference_number": "1106-1",
+   "old_reference_code": "Original Signatur: CJS 1106-1",
+   "alternate_reference": "CJS_1106-1",
+   "scope_and_content": "Genre:\nCinéjournal\nCommuniqué:\nLa construction avec des éléments préfabriqués en béton est une solution importante, étant donné que l'effort et le travail sont réduits de moitié.\n\nKommentar:\nLa nouvelle halle de la Foire de Bâle a été construite en un temps record. Le fait est d'autant plus remarquable, que les crédits n'ont été votés par le peuple qu'en décembre dernier ; il s'agissait véritablement d'une gageure, qui on le voit, a été réussie. Il a donc fallu employer les moyens de construction de l'avenir, c'est à dire à l'aide d'éléments de béton préfabriqués. Cette méthode hautement rationnelle permet un gain appréciable de temps et de main d'œuvre. /\n\nAlter Titel:\nDie neue Messehalle in Basel",
+   "author": "Produktion: Cinéjournal suisse",
+   "publisher": "HerausgeberIn: Cinéjournal suisse (CJS)",
+   "form": "Film",
+   "format": "Dauer: 00:41 (Start 00:00 / End 00:41)\nSeitenverhältnis: 4:3\nFarbe: NB\nOriginalträger: acétate de cellulose 35mm\nKommentarton: français",
+   "thema": "Orte:\nBasel, BS (Schweiz)\n\nSchlagworte:\nEurope occidentale, ÉCONOMIE, FOIRE",
+   "date": {
+    "from": "1964-03-13",
+    "to": null,
+    "expressed": "1964.03.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This is a newsreel film produced by Cinéjournal suisse, documenting the construction of the Basel Fair hall.",
+  "resume": "This is a 1964 newsreel segment produced by Cinéjournal suisse reporting on the rapid construction of the new Basel Fair hall using prefabricated concrete elements. It highlights the efficiency of this building method, which halved the effort and labor compared to traditional construction, noting that the project was completed quickly after funding was approved by popular vote in December 1963."
+ },
+ "metadata": {
+  "title": "La nouvelle halle de la Foire de Bâle",
+  "title_normalized": "La nouvelle halle de la Foire de Bâle",
+  "title_en": "The new Basel Fair hall",
+  "creator": "Cinéjournal suisse",
+  "publisher": "Cinéjournal suisse (CJS)",
+  "commissioner": null,
+  "date_created": "1964-03-13",
+  "date_published": "1964-03-13",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1964-03-13",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "construction",
+   "architecture",
+   "trade fairs",
+   "Basel"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1964",
+   "Schweizer Filmwochenschau vom 13.03.1964",
+   "Cinéjournal suisse du 13.03.1964"
+  ],
+  "reference_code": "J2.143#1996/386#1106-2#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30695400",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Cinéjournal suisse",
+    "role": "production",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Basel",
+    "as_written": "Basel, BS (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.5581077,
+    "lon": 7.5878261,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683619",
+    "model_lat": 47.5565,
+    "model_lon": 7.5522
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): scope_and_content contains 'Genre:', 'Communiqué:', 'Kommentar:', 'Alter Titel:'",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "packed role fields (rule): format: Dauer: 00:41 (Start 00:00 / End 00:41)\nSeitenverhä; multilingual (apertus): title is French 'La nouvelle halle de la Foire de Bâle' and 'Alter Titel' is German 'Die neue Messehalle in Basel'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): thema contains 'Basel, BS (Schweiz)' and 'Schlagworte' contains 'Europe occidentale'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed is '1964.03.13'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "scope_and_content contains 'Genre:', 'Communiqué:', 'Kommentar:', 'Alter Titel:'"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:41 (Start 00:00 / End 00:41)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title is French 'La nouvelle halle de la Foire de Bâle' and 'Alter Titel' is German 'Die neue Messehalle in Basel'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed is '1964.03.13'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "thema contains 'Basel, BS (Schweiz)' and 'Schlagworte' contains 'Europe occidentale'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1964-03-13",
+   "place": "Basel",
+   "lat": 47.5581077,
+   "lon": 7.5878261,
+   "description": "Cinéjournal suisse produced a newsreel segment documenting the construction of the new Basel Fair hall.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#1106-2#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5580,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

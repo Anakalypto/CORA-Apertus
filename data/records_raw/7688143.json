@@ -1,0 +1,73 @@
+{
+ "id": "7688143",
+ "uri": "https://culture.ld.admin.ch/ais/7688143",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688143",
+ "title": "Register zum Protokoll des 2. Vollziehungsrates [verwendbar]",
+ "reference_code": "B0#1000/1483#350r-350s*",
+ "reference_number": "B.01.4",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "350r = 6.7.1802 - 31.12.1802\\350s = 3.1.1803 - 8.3.1803",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1802-01-01",
+  "to": "1803-12-31",
+  "expressed": "1802-1803"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7088",
+   "number": "1000/1483",
+   "title": "1000/01483 Bundesverwaltung (Bern) (1712-1857)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618420",
+   "title": "Register und Verzeichnisse",
+   "level": "Serie",
+   "reference_code": "B0#B.01.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618393",
+   "title": "Regierungstätigkeit",
+   "level": "Serie",
+   "reference_code": "B0#B.01"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618386",
+   "title": "Das Archiv der helvetischen Exekutive (Regierungsarchiv)",
+   "level": "Serie",
+   "reference_code": "B0#B"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3560",
+   "title": "Zentralarchiv der Helvetischen Republik (1798-1803)",
+   "level": "Stock",
+   "reference_code": "B0*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/35",
+   "title": "Archiv der Helvetik (1798-1803)",
+   "level": "Main Department",
+   "reference_code": "B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

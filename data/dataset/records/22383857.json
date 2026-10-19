@@ -1,0 +1,431 @@
+{
+ "id": "22383857",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22383857",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383857",
+  "reference_code": "J2.225#2007/195#237#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Franz Josef Strauss",
+   "old_reference_code": "Original Signatur: RSSFDRS 9501638\nSignatur Bundesarchiv: J2.225#2007/195#125*",
+   "scope_and_content": "Inhaltsangabe: Deutschland: Porträt des CSU-Parteichefs Franz Josef Strauss anlässlich SPD-Sieg bei Parlaments-Wahlen\nProduktionstyp: Einkauf\nSequenzbeschrieb: Deutschland o.O., Bayern: Jäger im Feld schiessend / Franz-Josef Strauss (°CSU-°Parteichef) beim Jagen / Hund Hase in Schnauze tragend / Jäger und Strauss im Freien Suppe essend / Reden Strauss Bonn: IA Bundestag mit Strauss am Podium und BK Konrad Adenauer in Sitzreihe o.O.: VM Strauss mit BP Heinrich Lübke auf Kriegsschiff (um 1962) / Treffen P Charles de Gaulle und Strauss / Pilot aus Starfighter-Kampfflugzeug steigend und Strauss händeschüttelnd / fliegende Starfighter / Strauss an Manöver / fesche Frauen-Dekolletees in Abendkleidern / Strauss in Büroräumen gehend Hamburg: AA ;Der Spiegel; Gebäude (1962) / Demonstration °Redakteure (Spiegelaffäre) o.O.: Strauss Zeitungsausschnitte lesend und Kaffee trinkend München: Strauss im Gerichtssaal vor Prozess (um 1962) Rott, Bayern: TT Dorf / Strauss mit Familie spazierend / Strauss im Wohnzimmer lesend (um 1963) / Statement Strauss Bonn: Vereidigung FM Strauss (1966) / Kabinettmitglieder der ;Grossen Koalition; / Strauss im Büro arbeitend / Strauss Dokument unterzeichnend o.O.: Strauss-Reden / Rainer Barzel (°CDU-°Parteichef) schwimmend / Strauss-Karikaturen Vilshofen: CSU-Treffen (1969) / Strauss-Rede zu °Radio-°TV o.O.: Strauss als Pilot fliegend, °Macht-Statement (audio) / Zeitung ;Bayernkurier; Bonn: Bundestags-Rede Strauss / PK Richard Stücklen (°Fraktionsvorsitzender) Misstrauensvotum aussprechend (1972) / Statement Strauss / Abgang Barzel und Strauss nach Fraktionssitzung o.O.: Strauss Fahrrad fahrend",
+   "author": "AutorIn: Peschler, Eric A.: BEAR\nProduktion: Agenturen; Fremdproduktion",
+   "form": "Video",
+   "format": "Dauer: 00.16.35\nStartposition: 10:00:00\nTräger: Beta IMX",
+   "thema": "Personen: Lübke, Heinrich:\nSachdeskriptor: /PORTRÄT./PORTRÄT PERSONEN",
+   "date": {
+    "from": "1972-11-08",
+    "to": null,
+    "expressed": "1972.11.08"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4027437",
+     "number": "2007/195",
+     "title": "2007/00195 Schweizer Fernsehen DRS (Z�rich) (1968-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "secondary",
+  "source_level_rationale": "retrospective or analytic: This is a retrospective television documentary compilation about Franz Josef Strauss.",
+  "resume": "A 16-minute 1972 Swiss TV news report compiling footage of Franz Josef Strauss, leader of Germany's CSU party, showing him hunting, meeting political figures, speaking at the Bundestag, and in various public and private settings. The report also includes unrelated clips of Heinrich Lübke, the Spiegel affair, and other political moments."
+ },
+ "metadata": {
+  "title": "Franz Josef Strauss",
+  "title_normalized": "Franz Josef Strauss",
+  "title_en": "Franz Josef Strauss",
+  "creator": "Agenturen",
+  "publisher": "Schweizer Fernsehen DRS",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1972-11-08",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1972-11-08",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Franz Josef Strauss",
+   "CSU",
+   "German politics",
+   "1960s-1970s",
+   "political figures"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1968-1975 SFDRS",
+   "Rundschau SFDRS 1972",
+   "Rundschau SFDRS 08.11.1972"
+  ],
+  "reference_code": "J2.225#2007/195#237#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22383857",
+  "accession_numbers": [
+   "2007/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Franz Josef Strauss",
+    "display_name": "Franz Josef Strauss",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Heinrich Lübke",
+    "display_name": "Heinrich Lübke",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q2582",
+     "label": "Heinrich Lübke",
+     "description": "German politician (1894-1972)",
+     "url": "https://www.wikidata.org/wiki/Q2582"
+    },
+    "life_date_check": {
+     "born": 1894,
+     "died": 1972,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Charles de Gaulle",
+    "display_name": "Charles de Gaulle",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q2042",
+     "label": "Charles de Gaulle",
+     "description": "French general and statesman (1890–1970)",
+     "url": "https://www.wikidata.org/wiki/Q2042"
+    },
+    "life_date_check": {
+     "born": 1890,
+     "died": 1970,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rainer Barzel",
+    "display_name": "Rainer Barzel",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q470285",
+     "label": "Rainer Barzel",
+     "description": "German politician (1924–2006)",
+     "url": "https://www.wikidata.org/wiki/Q470285"
+    },
+    "life_date_check": {
+     "born": 1924,
+     "died": 2006,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Germany",
+    "as_written": "Deutschland",
+    "role": "depicted",
+    "country": "DE",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Bonn",
+    "as_written": "Bonn",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 50.7352621,
+    "lon": 7.1024635,
+    "gazetteer": "https://www.openstreetmap.org/relation/62508",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Munich",
+    "as_written": "München",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "gazetteer": "https://www.openstreetmap.org/relation/62428",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Hamburg",
+    "as_written": "Hamburg",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 53.5501721,
+    "lon": 10.0013165,
+    "gazetteer": "https://www.openstreetmap.org/relation/62782",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Vilshofen",
+    "as_written": "Vilshofen",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 49.2978755,
+    "lon": 11.9529711,
+    "gazetteer": "https://www.openstreetmap.org/node/291549436",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Z�rich",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): author field mixes 'editor', 'production' roles",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Franz Josef Strauss, Heinrich Lübke, Charles de Gaulle, Rainer Barzel; named organizations or places (apertus): CSU, CDU, Der Spiegel, Bayernkurier, Bundestag, Grossen Koalition",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed date '1972.11.08'; free text places (apertus): places like 'Bonn', 'München', 'Rott' given only in free text",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Z�rich"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "author field mixes 'editor', 'production' roles"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed date '1972.11.08'"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places like 'Bonn', 'München', 'Rott' given only in free text"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Franz Josef Strauss, Heinrich Lübke, Charles de Gaulle, Rainer Barzel"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "CSU, CDU, Der Spiegel, Bayernkurier, Bundestag, Grossen Koalition"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record names public figures and organizations without revealing personal data about private individuals."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Bonn",
+   "lat": 50.7352621,
+   "lon": 7.1024635,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Munich",
+   "lat": 48.1371079,
+   "lon": 11.5753822,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Hamburg",
+   "lat": 53.5501721,
+   "lon": 10.0013165,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Vilshofen",
+   "lat": 49.2978755,
+   "lon": 11.9529711,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1972-11-08",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast on Schweizer Fernsehen DRS as part of the Rundschau news program.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/195#237#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "source_level_secondary_expected_primary"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 6244,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

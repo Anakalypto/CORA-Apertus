@@ -1,0 +1,383 @@
+{
+ "id": "22364141",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22364141",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22364141",
+  "reference_code": "J2.225#2007/135#59#78*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Landschaften und Lebensräume Alpen",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504181\nSignatur Bundesarchiv: J2.225#2007/135#59*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Bern, BE: Nationales Forschungsprogramm \"Landschaften und Lebensräume der Alpen\" / Kein Stopp des Rückgangs der Artenvielfalt durch die Agrarpolitik\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz o.O.: ZS Alpwirtschaft (Kühe auf Bergwiese, GPL Alpenblumen)  Bern, BE: Statement Markus Fischer / PK Forschungsprogramm / Statement Jürg Stöcklin / Bauer Bergwiese mähend (Archiv)",
+   "author": "AutorIn: Forster, Hanspeter: AUT\nProduktion: SF",
+   "involved": "Moderation: Vetsch, Andrea",
+   "form": "Video",
+   "format": "Dauer: 00.01.28\nStartposition: 00:18:19\nTotal Spieldauer: 00.15.59\nTräger: Beta IMX",
+   "thema": "Personen: Stöcklin, Jürg: Botaniker Universität Bern\nSachdeskriptor: /LANDWIRTSCHAFT./AGRARPOLITIK;/UMWELT./UMWELTSCHUTZ/ARTENSCHUTZ",
+   "date": {
+    "from": "2007-05-29",
+    "to": null,
+    "expressed": "2007.05.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production (Eigenproduktion UE) of Schweizer Fernsehen DRS (SF) with original footage and statements from participants.",
+  "resume": "A video segment produced by Schweizer Fernsehen DRS (SF) as part of the National Research Programme \"Landschaften und Lebensräume der Alpen\" documenting agricultural and environmental issues in the Alps, featuring interviews with botanist Jürg Stöcklin and farmer Markus Fischer."
+ },
+ "metadata": {
+  "title": "Landschaften und Lebensräume Alpen",
+  "title_normalized": "Landschaften und Lebensräume Alpen",
+  "title_en": "Landscapes and Habitats of the Alps",
+  "creator": "SF",
+  "publisher": "Schweizer Fernsehen DRS (Z�rich)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-05-29",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-05-29",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "agriculture",
+   "environmental protection",
+   "biodiversity"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 29.05.2007"
+  ],
+  "reference_code": "J2.225#2007/135#59#78*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22364141",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Stöcklin, Jürg",
+    "display_name": "Jürg Stöcklin",
+    "role": "Botaniker Universität Bern",
+    "wikidata": {
+     "qid": "Q1716932",
+     "label": "Jürg Stöcklin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1716932"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Markus Fischer",
+    "display_name": "Markus Fischer",
+    "role": "Bauer",
+    "wikidata": {
+     "qid": "Q1901477",
+     "label": "Markus Fischer",
+     "description": "Swiss screenwriter, film producer and composer",
+     "url": "https://www.wikidata.org/wiki/Q1901477"
+    },
+    "life_date_check": {
+     "born": 1953,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Andrea Vetsch",
+    "display_name": "Andrea Vetsch",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q495232",
+     "label": "Andrea Vetsch",
+     "description": "Swiss television presenter",
+     "url": "https://www.wikidata.org/wiki/Q495232"
+    },
+    "life_date_check": {
+     "born": 1975,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hanspeter Forster",
+    "display_name": "Hanspeter Forster",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizer Fernsehen DRS (Z�rich)",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "Universität Bern",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q659080",
+     "label": "University of Bern",
+     "description": "university in the Swiss capital of Bern",
+     "url": "https://www.wikidata.org/wiki/Q659080"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern, BE",
+    "as_written": "Bern, BE",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   },
+   {
+    "name": "Alps",
+    "as_written": "Alpen",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.4356252,
+    "lon": 7.7323671,
+    "gazetteer": "https://www.openstreetmap.org/relation/11342347",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2007/135#59*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Forster, Hanspeter: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Stöcklin, Jürg: Botaniker Universität Bern; named organizations or places (apertus): Universität Bern",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2007.05.29",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2007/135#59*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Forster, Hanspeter: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.05.29"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Stöcklin, Jürg: Botaniker Universität Bern"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Universität Bern"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Alps",
+   "lat": 46.4356252,
+   "lon": 7.7323671,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2007-05-29",
+   "place": "Bern, BE",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Video segment broadcast as part of Tagesschau SFDRS on 29 May 2007.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#59#78*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5387,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

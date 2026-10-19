@@ -1,0 +1,360 @@
+{
+ "id": "22379197",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22379197",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22379197",
+  "reference_code": "J2.225#2007/195#111#29*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Südafrika vor den Wahlen",
+   "old_reference_code": "Original Signatur: RSSFDRS 9500705\nSignatur Bundesarchiv: J2.225#2007/195#61*",
+   "scope_and_content": "Inhaltsangabe: Südafrika, Kapstadt, Soweto, Pretoria: Situationsbericht Leben von Weissen und Schwarzen im Apartheid-Regime\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Südafrika o.O.: Grafik Landkarte Kapstadt: Wohnblock / Strassenszenen mit weissen Passanten / Weisse in Freibad, Schwarzer Boden putzend / Schild ;whites only; o.O.: Schild ;non-whites only; / Impressionen Bantu-Dorf Soweto: OV Siedlung o.O.: Schwarze Arbeiter und Arbeiterinnen in Keramik-Fabrik / Schwarzer aus Kübel Bier trinkend / schwarze Kinder in Schuluniform / Interview Cornelius Mulder (°Informationsminister) Kapstadt: OV Schwenk Stadt, Tafelberg im Hintergrund / Strassenszenen mit Weissen und Schwarzen / Strassenszenen mit Mulatten in Mischlingsviertel o.O.: Schwarze Kinder mit Blechbüchsen spielend / Schwarze bei Blechhäusern (Elendsviertel) / Beine (barfuss und mit Schuhen) / Schwarze bei Bus schlangestehend Soweto: Strassenszenen / Schwenk Werbeplakat mit weissen Kindern auf spielende schwarze Kinder / Werbeplakate mit ;Muster;-Schwarzen / Sekten-Fahnen / Bier wird in Kübel abgefüllt / Bier trinkende Schwarze / Schwarze beim Brettspiel und Kartenspiel / betrunkener Schwarzer torkelnd / Interview schwarzer °Arzt o.O.: AA umzäuntes Fabrikgelände ;Rosslyn Textiles; / uniformierter schwarzer Wächter / Barbusige Bantu-Frauen in traditionellen Kleidern / schwarze Kinder beim Schulunterricht / Interview Murani (phonetisch) (°Journalist) Kapstadt: Ankunft P Jacobus Fouché mit Gattin beim Parlament / Interview Stein (°Sprecher °United °Party) / weisse Frauen mit Hüten / Interview Helen Suzman (°Progressive °Federal °Party) Pretoria: Interview Weiss (°gereinigte °nationale °Partei) / Weisse aus Kirche kommend, Frauen mit Hüten / Statement °Pfarrer / Impressionen ;Voortrekker Monument; / Umzug tanzende weisse junge Männer mit Lendenschurz und nacktem Oberkörper",
+   "author": "AutorIn: Gysling, Erich: AUT\nProduktion: DRS",
+   "form": "Video",
+   "format": "Dauer: 00.21.11\nStartposition: 10:00:00\nTräger: Beta IMX",
+   "thema": "Personen: Stein, Cornelius:\nSachdeskriptor: /MENSCH./RASSE/APARTHEID",
+   "date": {
+    "from": "1970-04-01",
+    "to": null,
+    "expressed": "1970.04.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4027437",
+     "number": "2007/195",
+     "title": "2007/00195 Schweizer Fernsehen DRS (Z�rich) (1968-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production from 1970, created by DRS as part of the Rundschau series.",
+  "resume": "A television report produced by DRS covering life under apartheid in South Africa, featuring scenes from Cape Town, Soweto, and Pretoria, including interviews with Cornelius Mulder and Murani, as well as footage of political figures."
+ },
+ "metadata": {
+  "title": "Südafrika vor den Wahlen",
+  "title_normalized": "Südafrika vor den Wahlen",
+  "title_en": "South Africa Before the Elections",
+  "creator": "DRS",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1970-04-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "1970-04-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Apartheid",
+   "South Africa",
+   "Racial segregation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1968-1975 SFDRS",
+   "Rundschau SFDRS 1970",
+   "Rundschau SFDRS 01.04.1970"
+  ],
+  "reference_code": "J2.225#2007/195#111#29*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22379197",
+  "accession_numbers": [
+   "2007/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Cornelius",
+    "display_name": "Cornelius",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Murani (phonetically)",
+    "display_name": "Murani (phonetically)",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Stein",
+    "display_name": "Stein",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Cape Town",
+    "as_written": "Kapstadt",
+    "role": "depicted",
+    "country": "ZA",
+    "lat": -33.9288301,
+    "lon": 18.4172197,
+    "gazetteer": "https://www.openstreetmap.org/node/32675806",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Soweto",
+    "as_written": "Soweto",
+    "role": "depicted",
+    "country": "ZA",
+    "lat": -26.2227778,
+    "lon": 27.89,
+    "gazetteer": "https://www.openstreetmap.org/node/27565050",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Pretoria",
+    "as_written": "Pretoria",
+    "role": "depicted",
+    "country": "ZA",
+    "lat": -25.7459277,
+    "lon": 28.1879101,
+    "gazetteer": "https://www.openstreetmap.org/node/25503669",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Gysling, Erich: AUT\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Cornelius:\nMurani (phonetisch)\nStein; named organizations or places (apertus): United °Party",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): 1970.04.01; free text places (apertus): Kapstadt, Soweto, Pretoria",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Gysling, Erich: AUT\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "1970.04.01"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Kapstadt, Soweto, Pretoria"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Cornelius:\nMurani (phonetisch)\nStein"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "United °Party"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1970-04-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video production of a television report on apartheid conditions in South Africa.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1970-04-01",
+   "place": "Cape Town",
+   "lat": -33.9288301,
+   "lon": 18.4172197,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1970-04-01",
+   "place": "Soweto",
+   "lat": -26.2227778,
+   "lon": 27.89,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1970-04-01",
+   "place": "Pretoria",
+   "lat": -25.7459277,
+   "lon": 28.1879101,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/195#111#29*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5993,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

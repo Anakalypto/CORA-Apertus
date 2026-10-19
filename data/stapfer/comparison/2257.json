@@ -1,0 +1,56 @@
+{
+ "id": 2257,
+ "signature": "BAR B0 1000/1483, Nr. 1424, fol. 188-189",
+ "reference": {
+  "place": "Tegerfelden ",
+  "canton_1799": "Baden",
+  "school_type": "Niedere Schule",
+  "confession": null,
+  "teacher_name": "Johannes Deppeler",
+  "teacher_age": 47,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 22,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Johannes Deppeler",
+  "date_written": "1799-03-05"
+ },
+ "apertus": {
+  "place": "Degerfelden",
+  "canton_1799": "Baden",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Deppeler",
+  "teacher_age": 47,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 22,
+  "pupils_winter": 45,
+  "pupils_summer": 78,
+  "author_name": "Johannes Deppeler",
+  "date_written": "1799-03-05"
+ },
+ "evidence": {
+  "place_as_written": "Degerfelden",
+  "canton_1799": "Baden",
+  "teacher_name": "Johannes ¦ Deppeler. ¦¦",
+  "teacher_age": "47 1/2. Jahr.",
+  "teacher_since": "22. Jahr.",
+  "pupils_winter": "Knaben? 45. @ Mächten? 33. @@ 78",
+  "date_written": "den 5. Mertzen € 1799"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "extra",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 6.98
+}

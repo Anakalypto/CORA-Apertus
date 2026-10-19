@@ -1,0 +1,117 @@
+{
+ "cases_available": 1562,
+ "sampled": 40,
+ "seed": 42,
+ "model": "apertus-v1-5-70b",
+ "errors": 0,
+ "fields": {
+  "place": {
+   "match": 38,
+   "mismatch": 2,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.95,
+   "accuracy_exact_spelling": 0.575
+  },
+  "canton_1799": {
+   "match": 34,
+   "mismatch": 4,
+   "missed": 2,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.85,
+   "accuracy_exact_spelling": 0.825
+  },
+  "school_type": {
+   "match": 38,
+   "mismatch": 2,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.95,
+   "accuracy_exact_spelling": 0.95
+  },
+  "confession": {
+   "match": 35,
+   "mismatch": 3,
+   "missed": 1,
+   "extra": 1,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.897,
+   "accuracy_exact_spelling": 0.897
+  },
+  "teacher_name": {
+   "match": 40,
+   "mismatch": 0,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 1.0,
+   "accuracy_exact_spelling": 0.925
+  },
+  "teacher_age": {
+   "match": 39,
+   "mismatch": 1,
+   "missed": 0,
+   "extra": 0,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.975,
+   "accuracy_exact_spelling": 0.975
+  },
+  "teacher_marital_status": {
+   "match": 19,
+   "mismatch": 1,
+   "missed": 0,
+   "extra": 18,
+   "both_empty": 2,
+   "accuracy_where_bern_has_value": 0.95,
+   "accuracy_exact_spelling": 0.95
+  },
+  "teacher_since": {
+   "match": 31,
+   "mismatch": 3,
+   "missed": 0,
+   "extra": 6,
+   "both_empty": 0,
+   "accuracy_where_bern_has_value": 0.912,
+   "accuracy_exact_spelling": 0.912
+  },
+  "pupils_winter": {
+   "match": 15,
+   "mismatch": 0,
+   "missed": 1,
+   "extra": 21,
+   "both_empty": 3,
+   "accuracy_where_bern_has_value": 0.938,
+   "accuracy_exact_spelling": 0.938
+  },
+  "pupils_summer": {
+   "match": 4,
+   "mismatch": 1,
+   "missed": 0,
+   "extra": 18,
+   "both_empty": 17,
+   "accuracy_where_bern_has_value": 0.8,
+   "accuracy_exact_spelling": 0.8
+  },
+  "author_name": {
+   "match": 23,
+   "mismatch": 5,
+   "missed": 5,
+   "extra": 3,
+   "both_empty": 4,
+   "accuracy_where_bern_has_value": 0.697,
+   "accuracy_exact_spelling": 0.667
+  },
+  "date_written": {
+   "match": 15,
+   "mismatch": 2,
+   "missed": 1,
+   "extra": 14,
+   "both_empty": 8,
+   "accuracy_where_bern_has_value": 0.833,
+   "accuracy_exact_spelling": 0.833
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": 1071,
+ "signature": "BAR B0 1000/1483, Nr. 1430, fol. 181-183",
+ "reference": {
+  "place": "Ferenbalm",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Abraham Lehman",
+  "teacher_age": 42,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": null,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Abraham Lehman",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Ferenbalm",
+  "canton_1799": "Bern und Freiburg",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Abraham Lehman",
+  "teacher_age": 42,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": null,
+  "pupils_winter": 73,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Ferenbalm",
+  "teacher_name": "Abraham Lehman",
+  "teacher_age": "42 Jahr",
+  "teacher_marital_status": "Ja ein Weib und drey Kleine Kinder",
+  "pupils_winter": "Knaben: 73"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "both_empty",
+  "pupils_winter": "extra",
+  "pupils_summer": "both_empty",
+  "author_name": "missed",
+  "date_written": "both_empty"
+ },
+ "seconds": 7.22
+}

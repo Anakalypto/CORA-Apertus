@@ -1,0 +1,450 @@
+{
+ "id": "3524428",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3524428",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524428",
+  "reference_code": "E1301#1990/286#12#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire",
+   "scope_and_content": "Sprecher/Sprecherinnen: Couchepin, Pascal; Delamuraz, Jean-Pascal; Dormann, Rosmarie; Frey, Walter; Friderici, Charles; Gysin, Hans-Rudolf; Hafner, Rudolf; Hess, Peter; Jaeger, Franz; Meizoz, Bernard; Spoerry, Vreni; Theubet, Gabriel; Ulrich, Ursula",
+   "date": {
+    "from": "1990-10-04",
+    "to": null,
+    "expressed": "1990.10.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383448",
+     "number": "1990/286",
+     "title": "1990/00286 Parlamentsdienste (Bern) (1990)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning price and credit interest surveillance, held on 4 October 1990. It contains the names of multiple speakers who participated in the discussion. The record is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire",
+  "title_normalized": "Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire",
+  "title_en": "Surveillance of Prices and Credit Interest: Popular Initiative",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1990-10-04",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1990",
+  "content_date": "1990-10-04",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "price regulation",
+   "credit interest",
+   "popular initiative",
+   "Swiss National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Herbstsession 1990",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1990/286#12#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3524428",
+  "accession_numbers": [
+   "1990/286"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Pascal Couchepin",
+    "display_name": "Pascal Couchepin",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Jean-Pascal Delamuraz",
+    "display_name": "Jean-Pascal Delamuraz",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Rosmarie Dormann",
+    "display_name": "Rosmarie Dormann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1487049",
+     "label": "Rosmarie Dormann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1487049"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Walter Frey",
+    "display_name": "Walter Frey",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2544302",
+     "label": "Walter Frey",
+     "description": "German politician (1909-1966)",
+     "url": "https://www.wikidata.org/wiki/Q2544302"
+    },
+    "life_date_check": {
+     "born": 1909,
+     "died": 1966,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Charles Friderici",
+    "display_name": "Charles Friderici",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q110622391",
+     "label": "Charles Friderici",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q110622391"
+    },
+    "life_date_check": {
+     "born": 1946,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans-Rudolf Gysin",
+    "display_name": "Hans-Rudolf Gysin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1582128",
+     "label": "Hans Rudolf Gysin",
+     "description": "Swiss politician (1940–2023)",
+     "url": "https://www.wikidata.org/wiki/Q1582128"
+    },
+    "life_date_check": {
+     "born": 1940,
+     "died": 2023,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Rudolf Hafner",
+    "display_name": "Rudolf Hafner",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2172835",
+     "label": "Rudolf Hafner",
+     "description": "Swiss politician and author",
+     "url": "https://www.wikidata.org/wiki/Q2172835"
+    },
+    "life_date_check": {
+     "born": 1951,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Peter Hess",
+    "display_name": "Peter Hess",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Franz Jaeger",
+    "display_name": "Franz Jaeger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122033",
+     "label": "Franz Jaeger",
+     "description": "Swiss politician and economist",
+     "url": "https://www.wikidata.org/wiki/Q122033"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Bernard Meizoz",
+    "display_name": "Bernard Meizoz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q78066300",
+     "label": "Bernard Meizoz",
+     "description": "Swiss politician (1927-2011)",
+     "url": "https://www.wikidata.org/wiki/Q78066300"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2011,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vreni Spoerry",
+    "display_name": "Vreni Spoerry",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120061",
+     "label": "Vreni Spoerry",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120061"
+    },
+    "life_date_check": {
+     "born": 1938,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Gabriel Theubet",
+    "display_name": "Gabriel Theubet",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2697855",
+     "label": "Gabriel Theubet",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2697855"
+    },
+    "life_date_check": {
+     "born": 1936,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Ulrich",
+    "display_name": "Ursula Ulrich",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Pascal Couchepin\", \"Jean-Pascal Delamuraz\", \"Rosmarie Dormann\", \"Walter Frey\", \"Charles Friderici\", \"Hans-Rudolf Gysin\", \"Rudolf Hafner\", \"Peter Hess\", \"Franz Jaeger\", \"Bernard Meizoz\", \"Vreni Spoerry\", \"Gabriel Theubet\", \"Ursula Ulrich\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1990.10.04",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"89.078: Ueberwachung der Preise und der Kreditzinsen. Volksinitiative / Surveillance des prix et des intérêts des crédits. Initiative populaire\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1990.10.04"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Pascal Couchepin\", \"Jean-Pascal Delamuraz\", \"Rosmarie Dormann\", \"Walter Frey\", \"Charles Friderici\", \"Hans-Rudolf Gysin\", \"Rudolf Hafner\", \"Peter Hess\", \"Franz Jaeger\", \"Bernard Meizoz\", \"Vreni Spoerry\", \"Gabriel Theubet\", \"Ursula Ulrich\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1990",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1990/286 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1990/286#12#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5289,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

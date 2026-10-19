@@ -1,0 +1,89 @@
+{
+ "id": "3519825",
+ "uri": "https://culture.ld.admin.ch/ais/3519825",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519825",
+ "title": "82.031: KUVG und Arbeitslosenversicherung. Versicherter Verdienst / LAMA et assurance-chômage. Gain assuré",
+ "reference_code": "E1301#1982/205#9#2*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1982-06-22",
+  "to": null,
+  "expressed": "1982.06.22"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3383387",
+   "number": "1982/205",
+   "title": "1982/00205 Parlamentsdienste (Bern) (1982)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3405543",
+   "title": "9. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1301#1982/205#9*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090540",
+   "title": "Sommersession 1982",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-41-12"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090538",
+   "title": "Legislaturperiode: Wintersession 1979 bis Herbstsession 1983",
+   "level": "Serie",
+   "reference_code": "E1301#1.4-41"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965546",
+   "title": "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "level": "Serie",
+   "reference_code": "E1301#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3965542",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1301#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5802",
+   "title": "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1301*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5798",
+   "title": "Nationalrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10426*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

@@ -1,0 +1,350 @@
+{
+ "id": "3517278",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3517278",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517278",
+  "reference_code": "E1301#2005/31#1#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2004.0045: Nutzbarmachung des Inn und seiner Zuflüsse. Abkommen mit der Republik Österreich / Utilisation de la force hydraulique de l'Inn et de ses affluents. Convention avec la République d'Autriche",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bigger, Elmar; Janiak, Claude; Leuenberger, Moritz; Nordmann, Roger",
+   "date": {
+    "from": "2005-02-28",
+    "to": null,
+    "expressed": "2005.02.28"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/1404996",
+     "number": "2005/31",
+     "title": "2005/00031 Parlamentsdienste (Bern) (2005)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the National Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning the utilization of the Inn River and its tributaries, involving agreements with Austria. It contains the names of speakers and is part of the National Council's meeting protocols from the spring session of 2005. The record captures the discussion on hydropower development and cross-border cooperation."
+ },
+ "metadata": {
+  "title": "2004.0045: Nutzbarmachung des Inn und seiner Zuflüsse. Abkommen mit der Republik Österreich / Utilisation de la force hydraulique de l'Inn et de ses affluents. Convention avec la République d'Autriche",
+  "title_normalized": "2004.0045: Nutzbarmachung des Inn und seiner Zuflüsse. Abkommen mit der Republik Österreich / Utilisation de la force hydraulique de l'Inn et de ses affluents. Convention avec la République d'Autriche",
+  "title_en": "Utilisation of the Inn River and its tributaries. Agreement with the Republic of Austria",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2005-02-28",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2005",
+  "content_date": "2005-02-28",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Inn River",
+   "hydropower",
+   "Austria",
+   "Switzerland"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Frühjahrssession 2005",
+   "1. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2005/31#1#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3517278",
+  "accession_numbers": [
+   "2005/31"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Elmar Bigger",
+    "display_name": "Elmar Bigger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1332705",
+     "label": "Elmar Bigger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1332705"
+    },
+    "life_date_check": {
+     "born": 1949,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Janiak",
+    "display_name": "Claude Janiak",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q116461",
+     "label": "Claude Janiak",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116461"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Roger Nordmann",
+    "display_name": "Roger Nordmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120724",
+     "label": "Roger Nordmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120724"
+    },
+    "life_date_check": {
+     "born": 1973,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Inn",
+    "as_written": "Inn",
+    "role": "mentioned",
+    "country": "AT",
+    "lat": 47.3547646,
+    "lon": 11.7075655,
+    "gazetteer": "https://www.openstreetmap.org/relation/406437",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2004.0045: Nutzbarmachung des Inn und seiner Zuflüsse. Abkommen mit der Republik Österreich / Utilisation de la force hydraulique de l'Inn et de ses affluents. Convention avec la République d'Autriche'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Elmar Bigger', 'Claude Janiak', 'Moritz Leuenberger', 'Roger Nordmann']; named organizations or places (apertus): title: 'Abkommen mit der Republik Österreich', 'République d'Autriche'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2005.02.28",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2004.0045: Nutzbarmachung des Inn und seiner Zuflüsse. Abkommen mit der Republik Österreich / Utilisation de la force hydraulique de l'Inn et de ses affluents. Convention avec la République d'Autriche'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2005.02.28"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Elmar Bigger', 'Claude Janiak', 'Moritz Leuenberger', 'Roger Nordmann']"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Abkommen mit der Republik Österreich', 'République d'Autriche'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics; speakers are public figures in a parliamentary debate."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2005",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2005/31 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2005/31#1#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4970,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

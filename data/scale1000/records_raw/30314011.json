@@ -1,0 +1,82 @@
+{
+ "id": "30314011",
+ "uri": "https://culture.ld.admin.ch/ais/30314011",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30314011",
+ "title": "Wagner, Joseph, alias Joseph Nussbaumer, Joseph Suter",
+ "reference_code": "E21#1000/131#20507#202*",
+ "reference_number": "09.1.4.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Personalien: 23 Jahre alt, Sohn der Anna Maria Wagner und des Bernhard Suter\nOrt: provisorisch Aargau",
+ "author": "Fotograf: Carl Durheim",
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": "Salzpapier, 13 x 17.5 cm",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1852-01-01",
+  "to": "1853-12-31",
+  "expressed": "1852-1853"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+   "number": "1000/131",
+   "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5922475",
+   "title": "Fotosammlung der Heimatlosen A-Z",
+   "level": "Dossier",
+   "reference_code": "E21#1000/131#20507*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5911063",
+   "title": "Heimatlose, Einzelfälle A-Z",
+   "level": "Serie",
+   "reference_code": "E21#09.1.4.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910973",
+   "title": "Heimatlose",
+   "level": "Serie",
+   "reference_code": "E21#09.1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910909",
+   "title": "Einbürgerung, Staatsangehörigkeit",
+   "level": "Serie",
+   "reference_code": "E21#09.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910871",
+   "title": "Einbürgerung, Bürgerrecht, Wehrpflicht",
+   "level": "Serie",
+   "reference_code": "E21#09"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3577",
+   "title": "Polizeiwesen",
+   "level": "Stock",
+   "reference_code": "E21*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

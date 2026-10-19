@@ -1,0 +1,70 @@
+{
+ "id": "22422282",
+ "uri": "https://culture.ld.admin.ch/ais/22422282",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22422282",
+ "title": "U3. NOUVELLE POSTE DE MONTBRILLANT ; Journal Romand, 30.05.1984",
+ "reference_code": "J2.240#2002/139#571#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: JRTSR LM010170\nSignatur Bundesarchiv: J2.240#2002/139#2496*",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Zeitliche Abdeckung: 23.05.1984-06.06.1984",
+ "form": "Video",
+ "format": "Dauer: 00:01.55\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:07.02",
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1984-05-30",
+  "to": null,
+  "expressed": "1984.05.30"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+   "number": "2002/139",
+   "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22422279",
+   "title": "Journal romand TSR 30.05.1984",
+   "level": "Dossier",
+   "reference_code": "J2.240#2002/139#571*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417590",
+   "title": "Journal romand TSR 1984",
+   "level": "Serie",
+   "reference_code": "J2.240#2.1984"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417586",
+   "title": "Journal romand 1981-1986 TSR",
+   "level": "Serie",
+   "reference_code": "J2.240#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4231",
+   "title": "Télévision Suisse Romande (1954-)",
+   "level": "Stock",
+   "reference_code": "J2.240*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

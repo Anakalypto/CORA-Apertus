@@ -1,0 +1,58 @@
+{
+ "id": 1493,
+ "signature": "BAR B0 1000/1483, Nr. 1444, fol. 69-70v",
+ "reference": {
+  "place": "Essert-Pittet",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "David Daniel Reymond",
+  "teacher_age": 25,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 2,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "David Daniël Reymond",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Essert-Pittet",
+  "canton_1799": "Canton Léman",
+  "school_type": "Vermengte Schule",
+  "confession": "Reformiert",
+  "teacher_name": "David Daniël Reymond",
+  "teacher_age": 25,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 2,
+  "pupils_winter": 0,
+  "pupils_summer": 29,
+  "author_name": "Pour L'inspecteur des Ecôles",
+  "date_written": "1799-06-09"
+ },
+ "evidence": {
+  "place": "Essert Pittet, $$",
+  "canton_1799": "Canton Léman $$",
+  "school_type": "On y enseigne la manière de S'instruire a professer la Réligion Chrétiénne Reformee. & on Si Sert des livres élémantaire, qu'ils la Sainte Bible, le Catéchisme d'Ostervald retouché a l'usage de l'Ecole de Charitté de Lausanne, les Psaumes de David, & quelques Cantiques, on y enseigne aussi l'arithmetique, & L'ortogr{a}phe, & a prier Dieu & la musique vocale.",
+  "confession": "de la paroisse Chrétiénne Reformee",
+  "teacher_name": "David Daniël Reymond",
+  "teacher_age": "25 Ans 6 mois 9 jours",
+  "teacher_since": "Depuit deux Ans & trois mois",
+  "pupils_winter": "En hiver ils fréquantes tout l'ecole;",
+  "pupils_summer": "en été elles Sont proportionnee, aux nombre des Enfans"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "both_empty",
+  "teacher_since": "match",
+  "pupils_winter": "both_empty",
+  "pupils_summer": "extra",
+  "author_name": "mismatch",
+  "date_written": "extra"
+ },
+ "seconds": 11.41
+}

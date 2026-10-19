@@ -1,0 +1,76 @@
+{
+ "id": "558790",
+ "uri": "https://culture.ld.admin.ch/ais/558790",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/558790",
+ "title": "Musy, Jean-Marie (1920-1934)",
+ "reference_code": "E1004-02#2003/352#1#29*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Fotografie",
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1920-01-01",
+  "to": "1934-12-31",
+  "expressed": "1920 (ca.)-1934 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/558629",
+   "number": "2003/352",
+   "title": "2003/00352 Bundeskanzlei (Bern) (keine Angabe)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/558715",
+   "title": "Porträtfotos von diversen Bundesräten seit 1848",
+   "level": "Dossier",
+   "reference_code": "E1004-02#2003/352#1*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4023241",
+   "title": "Fotos und Negative",
+   "level": "Serie",
+   "reference_code": "E1004-02#9.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4023238",
+   "title": "Dokumentation",
+   "level": "Serie",
+   "reference_code": "E1004-02#9"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4713",
+   "title": "Bundesrat: Dokumentation (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1004-02*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4703",
+   "title": "Bundesrat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10108*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "still_image"
+}

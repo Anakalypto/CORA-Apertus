@@ -1,0 +1,304 @@
+{
+ "id": "21683931",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21683931",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21683931",
+  "reference_code": "J2.143#1996/386#740-1#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Alarm auf dem Flugplatz...",
+   "reference_number": "0740-3",
+   "old_reference_code": "Original Signatur: SFW 740-3\nSignatur Bundesarchiv: J2.143#1996/386#733#3*",
+   "alternate_reference": "SFW_0740-3",
+   "scope_and_content": "Genre:\nFilmwochenschau\n\nInhaltsangabe:\nSchweiz, Genève-Cointrin, GE: Neuartige Brandbekämpfung\n\nSequenzbeschrieb:\nGenève-Cointrin, GE (Schweiz) - Brennende Autos\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmänner Schaum auf Brand spritzend\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmann mit Pulverspritze bei Löscharbeiten\nCommuniqué:\nEindrucksvolle Löschübung in Genf-Cointrin: In wenigen Minuten bekämpft ein neuartiges Gerät mit Hilfe von Löschpulver den Brand von drei mit 2'000 Litern Benzin übergossenen Automobilen.\n\nKommentar:\nAlarm auf dem Flugplatz Genf-Cointrin: 3 Autos, mit 2000 Litern Benzin übergossen, stehen in Flammen. Aber schon sind die Löschwagen bereit: Es handelt sich um die Vorführung neuer Methoden der Brandbekämpfung. Die Löschwagen sind mit Schaumspritzen und mit neuartigen Pulverrohren ausgerüstet. / Das Pulver erstickt die Flammen sehr schnell, ohne giftige Gase zu entwickeln. Es kann gleichzeitig mit den Schaumlöschern verwendet werden. Knapp 5 Minuten nach dem Ausbruch des heftigen Brandes ist das Feuer vollständig gelöscht! /\n\nAlter Titel:\nBrandbekämpfung",
+   "author": "Produktion: Schweizer Filmwochenschau",
+   "publisher": "HerausgeberIn: Schweizer Filmwochenschau (SFW)",
+   "form": "Film",
+   "format": "Dauer: 00:40 (Start 04:23 / End 05:03)\nSeitenverhältnis: 4:3\nFarbe: SW\nOriginalträger: 35mm Zelluloseazetat\nKommentarton: deutsch",
+   "thema": "Orte:\nGenève-Cointrin, GE (Schweiz)\n\nSchlagworte:\nWesteuropa, SENSATION, BRAND",
+   "date": {
+    "from": "1956-10-12",
+    "to": null,
+    "expressed": "1956.10.12"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16852",
+     "number": "1996/386",
+     "title": "1996/00386 Verein zur Erhaltung des audiovisuellen Kulturgutes der Schweiz Memoriav (1995-) (1940-1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "newsreel",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct film footage produced by the Schweizer Filmwochenschau for newsreel distribution.",
+  "resume": "A newsreel from the Schweizer Filmwochenschau showing a fire-fighting demonstration at Geneva-Cointrin airport where three cars soaked with 2,000 liters of gasoline are extinguished within minutes using a new powder-based extinguishing system."
+ },
+ "metadata": {
+  "title": "Alarm auf dem Flugplatz...",
+  "title_normalized": "Alarm auf dem Flugplatz...",
+  "title_en": "Alarm at Geneva-Cointrin Airport: New Firefighting Demonstration",
+  "creator": "Schweizer Filmwochenschau",
+  "publisher": "Schweizer Filmwochenschau (SFW)",
+  "commissioner": null,
+  "date_created": "1956-10-12",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1956-10-12",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Genève-Cointrin, GE (Switzerland)",
+   "firefighting demonstration",
+   "Sensation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Stiftung Schweizer Filmwochenschau (1942-1975)",
+  "fonds_reference": "J2.143*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Stiftung Schweizer Filmwochenschau (1942-1975)",
+   "Schweizer Filmwochenschau, 1940-1975",
+   "Schweizer Filmwochenschau 1956",
+   "Schweizer Filmwochenschau vom 12.10.1956",
+   "Schweizer Filmwochenschau vom 12.10.1956"
+  ],
+  "reference_code": "J2.143#1996/386#740-1#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21683931",
+  "accession_numbers": [
+   "1996/386"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizer Filmwochenschau",
+    "role": "production",
+    "wikidata": {
+     "qid": "Q27697957",
+     "label": "Schweizer Filmwochenschau",
+     "description": "film series",
+     "url": "https://www.wikidata.org/wiki/Q27697957"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Genève-Cointrin, GE (Switzerland)",
+    "as_written": "Genève-Cointrin, GE (Schweiz)",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.2313343,
+    "lon": 6.1102707,
+    "gazetteer": "https://www.openstreetmap.org/node/2388447150",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe:\nSchweiz, Genève-Cointrin, GE: Neuartige Brandbekämpfung\n\nSequenzbeschrieb:\nGenève-Cointrin, GE (Schweiz) - Brennende Autos\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmänner Schaum auf Brand spritzend\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmann mit Pulverspritze bei Löscharbeiten\nCommuniqué:\nEindrucksvolle Löschübung in Genf-Cointrin: In wenigen Minuten bekämpft ein neuartiges Gerät mit Hilfe von Löschpulver den Brand von drei mit 2'000 Litern Benzin übergossenen Automobilen.\n\nKommentar:\nAlarm auf dem Flugplatz Genf-Cointrin: 3 Autos, mit 2000 Litern Benzin übergossen, stehen in Flammen. Aber schon sind die Löschwagen bereit: Es handelt sich um die Vorführung neuer Methoden der Brandbekämpfung. Die Löschwagen sind mit Schaumspritzen und mit neuartigen Pulverrohren ausgerüstet. / Das Pulver erstickt die Flammen sehr schnell, ohne giftige Gase zu entwickeln. Es kann gleichzeitig mit den Schaumlöschern verwendet werden. Knapp 5 Minuten nach dem Ausbruch des heftigen Brandes ist das Feuer vollständig gelöscht! /\nAlter Titel:\nBrandbekämpfung",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:40 (Start 04:23 / End 05:03)\nSeitenverhä",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Orte:\nGenève-Cointrin, GE (Schweiz)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 1956.10.12; free text places (apertus): Orte:\nGenève-Cointrin, GE (Schweiz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe:\nSchweiz, Genève-Cointrin, GE: Neuartige Brandbekämpfung\n\nSequenzbeschrieb:\nGenève-Cointrin, GE (Schweiz) - Brennende Autos\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmänner Schaum auf Brand spritzend\nGenève-Cointrin, GE (Schweiz) - Feuerwehrmann mit Pulverspritze bei Löscharbeiten\nCommuniqué:\nEindrucksvolle Löschübung in Genf-Cointrin: In wenigen Minuten bekämpft ein neuartiges Gerät mit Hilfe von Löschpulver den Brand von drei mit 2'000 Litern Benzin übergossenen Automobilen.\n\nKommentar:\nAlarm auf dem Flugplatz Genf-Cointrin: 3 Autos, mit 2000 Litern Benzin übergossen, stehen in Flammen. Aber schon sind die Löschwagen bereit: Es handelt sich um die Vorführung neuer Methoden der Brandbekämpfung. Die Löschwagen sind mit Schaumspritzen und mit neuartigen Pulverrohren ausgerüstet. / Das Pulver erstickt die Flammen sehr schnell, ohne giftige Gase zu entwickeln. Es kann gleichzeitig mit den Schaumlöschern verwendet werden. Knapp 5 Minuten nach dem Ausbruch des heftigen Brandes ist das Feuer vollständig gelöscht! /\nAlter Titel:\nBrandbekämpfung"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:40 (Start 04:23 / End 05:03)\nSeitenverhä"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1956.10.12"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nGenève-Cointrin, GE (Schweiz)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Orte:\nGenève-Cointrin, GE (Schweiz)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1956-10-12",
+   "place": "Genève-Cointrin, GE (Switzerland)",
+   "lat": 46.2313343,
+   "lon": 6.1102707,
+   "description": "Newsreel footage of a firefighting demonstration at Geneva-Cointrin airport.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/386 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.143#1996/386#740-1#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 6131,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

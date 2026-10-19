@@ -1,0 +1,328 @@
+{
+ "id": "21787842",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21787842",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21787842",
+  "reference_code": "J2.225#1996/68#7238#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.04.1978",
+   "old_reference_code": "Original Signatur: TSSRG 78/95/01A;Rolle 1423\nSignatur Bundesarchiv: J2.225#1996/68#69202*",
+   "scope_and_content": "Inhaltsangabe: USA Washington: Treffen AM Cyrus Vance und bundesdeutscher AM Hans-Dietrich Genscher\nSequenzbeschrieb: USA Washington: PK Cyrus Vance im Freien",
+   "author": "Produktion: UPITN",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï\nZeitliche Abdeckung: 29.03.1978-12.04.1978",
+   "form": "Video",
+   "format": "Dauer: 0.32\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;comopt\nStartposition: 10.56.58\nTräger: Betacam-Digital",
+   "thema": "Personen: Genscher, Hans Dietrich;Vance, Cyrus\nSachdeskriptor: Internationale Beziehungen",
+   "date": {
+    "from": "1978-04-05",
+    "to": null,
+    "expressed": "1978.04.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage created by the news agency UPITN during the event.",
+  "resume": "A television news segment from Tagesschau (Swiss Federal Radio and Television) dated 5 April 1978, showing U.S. Secretary of State Cyrus Vance outdoors in Washington, D.C., during a meeting with German Foreign Minister Hans-Dietrich Genscher."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.04.1978",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.04.1978",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 05.04.1978",
+  "creator": "UPITN",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1978-04-05",
+  "date_published": "1978-04-05",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1978-04-05",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Genscher, Hans Dietrich",
+   "Vance, Cyrus",
+   "International Relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1978",
+   "Tagesschau SFDRS 05.04.1978"
+  ],
+  "reference_code": "J2.225#1996/68#7238#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21787842",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Genscher, Hans Dietrich",
+    "display_name": "Hans Dietrich Genscher",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q106235",
+     "label": "Hans-Dietrich Genscher",
+     "description": "German politician and member of the Free Democratic Party (1927-2016)",
+     "url": "https://www.wikidata.org/wiki/Q106235"
+    },
+    "life_date_check": {
+     "born": 1927,
+     "died": 2016,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Vance, Cyrus",
+    "display_name": "Cyrus Vance",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Washington",
+    "as_written": "USA Washington",
+    "role": "depicted",
+    "country": "US",
+    "lat": 38.8950982,
+    "lon": -77.0363849,
+    "gazetteer": "https://www.openstreetmap.org/relation/5396194",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 0.32\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Genscher, Hans Dietrich; Vance, Cyrus; named organizations or places (apertus): Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1978.04.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 0.32\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1978.04.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Genscher, Hans Dietrich; Vance, Cyrus"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1978-04-05",
+   "place": "Washington",
+   "lat": 38.8950982,
+   "lon": -77.0363849,
+   "description": "Televised news segment showing Cyrus Vance outdoors.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#7238#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5197,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

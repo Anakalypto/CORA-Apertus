@@ -1,0 +1,283 @@
+{
+ "id": "7688100",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/7688100",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688100",
+  "reference_code": "B0#1000/1483#276h*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Sachregister zu den an die Kommission gewiesenen Petitionen [nicht verwendbar]",
+   "reference_number": "A.5",
+   "date": {
+    "from": "1798-01-01",
+    "to": "1799-12-31",
+    "expressed": "1798-1799"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7088",
+     "number": "1000/1483",
+     "title": "1000/01483 Bundesverwaltung (Bern) (1712-1857)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This unit is a subject index created by the Helvetian administration to locate specific petitions within the legislative archive.",
+  "resume": "This is a register of petitions addressed to a Helvetic Republic commission, listing petitions received between 1798 and 1799. It serves as an administrative index rather than containing the petitions themselves. The document is part of the Helvetic Republic's parliamentary archive."
+ },
+ "metadata": {
+  "title": "Sachregister zu den an die Kommission gewiesenen Petitionen [nicht verwendbar]",
+  "title_normalized": "Sachregister zu den an die Kommission gewiesenen Petitionen [nicht verwendbar]",
+  "title_en": "Subject index of petitions addressed to the commission [not usable]",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1798/1799",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1798/1799",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Helvetic Republic",
+   "petitions",
+   "parliamentary administration",
+   "registers"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Zentralarchiv der Helvetischen Republik (1798-1803)",
+  "fonds_reference": "B0*",
+  "path": [
+   "Archiv der Helvetik (1798-1803)",
+   "Zentralarchiv der Helvetischen Republik (1798-1803)",
+   "Das Archiv der helvetischen Legislative (Parlamentsarchiv)",
+   "Register und Verzeichnisse"
+  ],
+  "reference_code": "B0#1000/1483#276h*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688100",
+  "accession_numbers": [
+   "1000/1483"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Helvetic Republic",
+    "role": "Subject of the administrative record",
+    "wikidata": {
+     "qid": "Q206696",
+     "label": "Helvetic Republic",
+     "description": "former Swiss polity under Napoleonic domination",
+     "url": "https://www.wikidata.org/wiki/Q206696"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"Sachregister zu den an die Kommission gewiesenen Petitionen [nicht verwendbar]\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down contains named organizations/places like \"Schweizerischen Bundesarchivs\", \"Helvetik\", \"Helvetischen Republik\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): hierarchy_top_down contains free text place names like \"Bern\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"Sachregister zu den an die Kommission gewiesenen Petitionen [nicht verwendbar]\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains free text place names like \"Bern\""
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down contains named organizations/places like \"Schweizerischen Bundesarchivs\", \"Helvetik\", \"Helvetischen Republik\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1798-1799",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compiled as an administrative register of petitions addressed to a commission during the Helvetic Republic period.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/1483 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at B0#1000/1483#276h*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "repaired:iso"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4393,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

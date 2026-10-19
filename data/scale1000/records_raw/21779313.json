@@ -1,0 +1,70 @@
+{
+ "id": "21779313",
+ "uri": "https://culture.ld.admin.ch/ais/21779313",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21779313",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 18.01.1976",
+ "reference_code": "J2.225#1996/68#6435#7*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 76/18/01A;Rolle 1265\nSignatur Bundesarchiv: J2.225#1996/68#64435*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Fribourg, FR: 7. Internationale Triennale der Holzschnitt-Kunst Xylon 7 im Musée d'Art et d'Histoire\nSequenzbeschrieb: CH Fribourg, FR: Ausstellung",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 11.01.1976-25.01.1976",
+ "form": "Video",
+ "format": "Dauer: 0.53\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;sepmag\nStartposition: 10.44.15\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Kunstausstellung;Grafik",
+ "country": null,
+ "date": {
+  "from": "1976-01-18",
+  "to": null,
+  "expressed": "1976.01.18"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21779306",
+   "title": "Tagesschau SFDRS 18.01.1976",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#6435*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690385",
+   "title": "Tagesschau SFDRS 1976",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1976"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

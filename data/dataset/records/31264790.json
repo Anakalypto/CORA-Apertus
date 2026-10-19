@@ -1,0 +1,389 @@
+{
+ "id": "31264790",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31264790",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31264790",
+  "reference_code": "E1401#2018/81#4#11*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2015.3204: Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance",
+   "old_reference_code": "E1301#2018/81#4#11*",
+   "alternate_reference": "Digital",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Häberli-Koller, Brigitte; Hêche, Claude; Keller-Sutter, Karin; Leuthard, Doris; Rechsteiner, Paul;",
+   "date": {
+    "from": "2015-06-04",
+    "to": null,
+    "expressed": "2015.06.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31225088",
+     "number": "2018/81",
+     "title": "2018/00081 Parlamentsdienste: Amtliches Bulletin (Bern) (2015)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is a contemporary administrative record of a parliamentary interpellation debate.",
+  "resume": "This record documents a 2015 Ständerat debate on the Regio-Express train service between St. Gallen and Konstanz, initiated by Paul Rechsteiner. It includes speeches by several senators and is part of the official session protocols. The debate focused on regional rail transport between Switzerland and Germany."
+ },
+ "metadata": {
+  "title": "2015.3204: Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance",
+  "title_normalized": "2015.3204: Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance",
+  "title_en": "Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance",
+  "creator": "Parliamentary Services of the Swiss Council of States",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2015-06-04",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2018",
+  "content_date": "2015-06-04",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "rail transport",
+   "regional transport",
+   "St. Gallen",
+   "Konstanz",
+   "Swiss-German relations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Sommersession 2015",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2018/81#4#11*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31264790",
+  "accession_numbers": [
+   "2018/81"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Brigitte Häberli-Koller",
+    "display_name": "Brigitte Häberli-Koller",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q121134",
+     "label": "Brigitte Häberli-Koller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121134"
+    },
+    "life_date_check": {
+     "born": 1958,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Hêche",
+    "display_name": "Claude Hêche",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q118306",
+     "label": "Claude Hêche",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118306"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Karin Keller-Sutter",
+    "display_name": "Karin Keller-Sutter",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q115881",
+     "label": "Karin Keller-Sutter",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q115881"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Doris Leuthard",
+    "display_name": "Doris Leuthard",
+    "role": "Speaker in debate",
+    "wikidata": {
+     "qid": "Q115442",
+     "label": "Doris Leuthard",
+     "description": "lawyer, politician and former member of the Swiss Federal Council (2006-2018)",
+     "url": "https://www.wikidata.org/wiki/Q115442"
+    },
+    "life_date_check": {
+     "born": 1963,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Paul Rechsteiner",
+    "display_name": "Paul Rechsteiner",
+    "role": "Interpellant",
+    "wikidata": {
+     "qid": "Q119440",
+     "label": "Paul Rechsteiner",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119440"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "St. Gallen",
+    "as_written": "St. Gallen",
+    "role": "mentioned",
+    "country": "CH",
+    "lat": 47.425618,
+    "lon": 9.3762397,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683941",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Konstanz",
+    "as_written": "Konstanz",
+    "role": "mentioned",
+    "country": "DE",
+    "lat": 47.659216,
+    "lon": 9.1750718,
+    "gazetteer": "https://www.openstreetmap.org/relation/2784842",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): Title is in CAPITALS: \"2015.3204: Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title mixes German and French: \"Regio-Express St. Gallen-Konstanz / Regio-Express Saint-Gall-Constance\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Speakers list includes \"Paul Rechsteiner\", \"Brigitte Häberli-Koller\", \"Claude Hêche\", \"Karin Keller-Sutter\", \"Doris Leuthard\"; named organizations or places (apertus): Places named: \"St. Gallen\", \"Konstanz\"; organization implied by \"Parlamentsdienste\" in accessions",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as \"2015.06.04\" instead of ISO format",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "Title is in CAPITALS: \"2015.3204: Interpellation Rechsteiner Paul. Regio-Express St. Gallen-Konstanz / Interpellation Rechsteiner Paul. Regio-Express Saint-Gall-Constance\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mixes German and French: \"Regio-Express St. Gallen-Konstanz / Regio-Express Saint-Gall-Constance\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as \"2015.06.04\" instead of ISO format"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Speakers list includes \"Paul Rechsteiner\", \"Brigitte Häberli-Koller\", \"Claude Hêche\", \"Karin Keller-Sutter\", \"Doris Leuthard\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Places named: \"St. Gallen\", \"Konstanz\"; organization implied by \"Parlamentsdienste\" in accessions"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": "No identifiable person concerned by health/criminal/asylum/police/intelligence/religion/sexual/political opinion; debate topic only"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data; record concerns parliamentary debate on transport infrastructure."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2015-06-04",
+   "place": "Bern",
+   "lat": null,
+   "lon": null,
+   "description": "Recorded during Ständerat session on the Regio-Express St. Gallen-Konstanz",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2018",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2018/81 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2018/81#4#11*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 5330,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

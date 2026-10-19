@@ -1,0 +1,323 @@
+{
+ "id": "29673235",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29673235",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29673235",
+  "reference_code": "J2.225#2008/121#35#13*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Interview Leuenberger zu Null-Promille",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504545\nSignatur Bundesarchiv: J2.225#2008/121#40*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Zürich, ZH: Interview mit Bundesrat Moritz Leuenberger zur Einführung von 0,0-Promillegrenze für Neulenker und Berufschauffeure\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Zürich, ZH: Interview Moritz Leuenberger",
+   "author": "AutorIn: Inhauser, Florian (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:19\nPosition Anfang: 00:43:39",
+   "thema": "Personen: Leuenberger, Moritz (Bundesrat)\nSachdeskriptor: /VERKEHR./STRASSENVERKEHR/STRASSENVERKEHRSGESETZ",
+   "date": {
+    "from": "2007-11-04",
+    "to": null,
+    "expressed": "2007.11.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of an interview produced by SF.",
+  "resume": "A video interview featuring Federal Councillor Moritz Leuenberger discussing the introduction of a zero-percent alcohol limit for new drivers and professional drivers in Switzerland, recorded in Zürich."
+ },
+ "metadata": {
+  "title": "Interview Leuenberger zu Null-Promille",
+  "title_normalized": "Interview Leuenberger zu Null-Promille",
+  "title_en": "Interview with Moritz Leuenberger on Zero-Percent Alcohol Limit",
+  "creator": "SF",
+  "publisher": "Swiss Television DRS (Zürich)",
+  "commissioner": null,
+  "date_created": "2007-11-04",
+  "date_published": "2007-11-04",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-11-04",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "transportation",
+   "driving regulations",
+   "alcohol limits"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 04.11.2007"
+  ],
+  "reference_code": "J2.225#2008/121#35#13*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29673235",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Florian Inhauser",
+    "display_name": "Florian Inhauser",
+    "role": "author",
+    "wikidata": {
+     "qid": "Q61728858",
+     "label": "Florian Inhauser",
+     "description": "Swiss journalist",
+     "url": "https://www.wikidata.org/wiki/Q61728858"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival institution",
+    "wikidata": null
+   },
+   {
+    "name": "Swiss Television DRS (Zürich)",
+    "role": "producer",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Zürich, ZH: Interview mit Bundesrat Moritz Leuenberger zur Einführung von 0,0-Promillegrenze für Neulenker und Berufschauffeure",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: Schweiz <Zürich, ZH: Interview mit Bundesrat Moritz Leuenberger zur Einführung von 0,0-Promillegrenze für Neulenker und Berufschauffeure\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Zürich, ZH: Interview Moritz Leuenberger",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Inhauser, Florian (AUT)\nProduktionsgesell",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Leuenberger, Moritz (Bundesrat); named organizations or places (apertus): Zürich, ZH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2007.11.04; free text places (apertus): Zürich, ZH",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Zürich, ZH: Interview mit Bundesrat Moritz Leuenberger zur Einführung von 0,0-Promillegrenze für Neulenker und Berufschauffeure"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: Schweiz <Zürich, ZH: Interview mit Bundesrat Moritz Leuenberger zur Einführung von 0,0-Promillegrenze für Neulenker und Berufschauffeure\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <Zürich, ZH: Interview Moritz Leuenberger"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Inhauser, Florian (AUT)\nProduktionsgesell"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2007.11.04"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Leuenberger, Moritz (Bundesrat)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Zürich, ZH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-11-04",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Interview recorded on 4 November 2007.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#35#13*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5192,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

@@ -1,0 +1,67 @@
+{
+ "id": "3287644",
+ "uri": "https://culture.ld.admin.ch/ais/3287644",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3287644",
+ "title": "Zeitungsausschnitte, T. 1",
+ "reference_code": "E80#1000/1126#486*",
+ "reference_number": null,
+ "old_reference_code": "E 8 (B) / 50",
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1913-01-01",
+  "to": "1915-12-31",
+  "expressed": "1913.01.01-1915.12.31"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/15533",
+   "number": "1000/1126",
+   "title": "1000/01126 Bundesverwaltung (Bern) (1841-1929)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3980860",
+   "title": "Nationale Erziehung",
+   "level": "Serie",
+   "reference_code": "E80#03.09."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3980833",
+   "title": "Schul-, Unterrichts- und Erziehungswesen",
+   "level": "Serie",
+   "reference_code": "E80#03."
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3618",
+   "title": "Schule und Erziehung",
+   "level": "Stock",
+   "reference_code": "E80*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

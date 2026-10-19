@@ -1,0 +1,282 @@
+{
+ "id": "3121390",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3121390",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3121390",
+  "reference_code": "E8100B#1978/85#55*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Verzeichnis der Beschlüsse und der Kreisschreiben des Bundesrates und des Eisenbahndepartements (1874-1902) und Register der Kreisschreiben (1892-1918)",
+   "reference_number": "514",
+   "date": {
+    "from": "1874-01-01",
+    "to": "1918-12-31",
+    "expressed": "1874-1918"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/15615",
+     "number": "1978/85",
+     "title": "1978/00085 Bundesverwaltung (Bern) (1852 - 1975)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a finding aid (register/directory) that indexes resolutions and circulars of the Federal Council and the Railway Department.",
+  "resume": "This document is a register of federal council resolutions and circulars issued by the Federal Council and the Railway Department between 1874 and 1918, supplemented by a separate register of circulars from 1892 to 1918. It serves as an administrative index rather than a primary source document. The content is purely textual and lists official communications."
+ },
+ "metadata": {
+  "title": "Verzeichnis der Beschlüsse und der Kreisschreiben des Bundesrates und des Eisenbahndepartements (1874-1902) und Register der Kreisschreiben (1892-1918)",
+  "title_normalized": "Verzeichnis der Beschlüsse und der Kreisschreiben des Bundesrates und des Eisenbahndepartements (1874-1902) und Register der Kreisschreiben (1892-1918)",
+  "title_en": "Register of resolutions and circulars of the Federal Council and the Railway Department (1874-1902) and register of circulars (1892-1918)",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1978",
+  "content_date": "1874/1918",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "administration",
+   "railways",
+   "federal council",
+   "circulars",
+   "register"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Eidgenössisches Amt für Verkehr (1935-1979)",
+  "fonds_reference": "E10240*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Eidgenössisches Amt für Verkehr (1935-1979)",
+   "Eidgenössisches Amt für Verkehr: Zentrale Ablage (1935-1979)",
+   "Rechnungswesen und Statistik",
+   "Gesetzliche Grundlagen, Erneuerungsfonds, Abschreibungsfonds, Verordnung über das Rechnungswesen der Eisenbahnen",
+   "Kreisschreiben"
+  ],
+  "reference_code": "E8100B#1978/85#55*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3121390",
+  "accession_numbers": [
+   "1978/85"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Bundesrat",
+    "role": "Issuer of resolutions and circulars",
+    "wikidata": {
+     "qid": "Q30917",
+     "label": "Swiss Federal Council",
+     "description": "executive council and head of state in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q30917"
+    }
+   },
+   {
+    "name": "Eidgenössisches Eisenbahndepartement",
+    "role": "Issuer of circulars",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title is in ALL CAPS",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Eidgenössisches Amt für Verkehr, Schweizerischen Bundesarchivs",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title is in ALL CAPS"
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Eidgenössisches Amt für Verkehr, Schweizerischen Bundesarchivs"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are present."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1978",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1978/85 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100B#1978/85#55*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4678,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

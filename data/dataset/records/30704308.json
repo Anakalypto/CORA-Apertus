@@ -1,0 +1,338 @@
+{
+ "id": "30704308",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30704308",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704308",
+  "reference_code": "E8100F#2016/63#35#103*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "AlpTransit, Gotthard-Basistunnel, Multifunktionsstellen Sedrun und Faido Projektänderungsbegehren: Ausbau der Querkavernen mit Fluchtwegen",
+   "scope_and_content": "Protokoll / Aktennotiz",
+   "involved": "Herausgeber: Bundesamt für Verkehr, Verfasser: Eder",
+   "date": {
+    "from": "2007-06-27",
+    "to": null,
+    "expressed": "2007.06.27"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "administrative file",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This is an ordinary administrative file from the Bundesamt für Verkehr documenting project changes for the Gotthard Base Tunnel.",
+  "resume": "This document is a protocol note from the Federal Office of Transport regarding a project change request for the Gotthard Base Tunnel's multifunctional stations at Sedrun and Faido, specifically concerning the expansion of cross-caverns with escape routes. It forms part of the AlpTransit project documentation within the Federal Office of Transport's central files. The record is an internal administrative communication."
+ },
+ "metadata": {
+  "title": "AlpTransit, Gotthard-Basistunnel, Multifunktionsstellen Sedrun und Faido Projektänderungsbegehren: Ausbau der Querkavernen mit Fluchtwegen",
+  "title_normalized": "AlpTransit, Gotthard-Basistunnel, Multifunktionsstellen Sedrun und Faido Projektänderungsbegehren: Ausbau der Querkavernen mit Fluchtwegen",
+  "title_en": "AlpTransit, Gotthard Base Tunnel, Sedrun and Faido multifunctional stations: Project change request for expansion of cross-caverns with escape routes",
+  "creator": "Bundesamt für Verkehr",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-06-27",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2007-06-27",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "AlpTransit",
+   "Gotthard Base Tunnel",
+   "infrastructure project",
+   "civil engineering",
+   "project documentation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 35)"
+  ],
+  "reference_code": "E8100F#2016/63#35#103*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704308",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Eder",
+    "display_name": "Eder",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bundesamt für Verkehr",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q1005512",
+     "label": "Federal Office of Transport",
+     "description": "Swiss federal office",
+     "url": "https://www.wikidata.org/wiki/Q1005512"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Sedrun",
+    "as_written": "Sedrun",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.6809591,
+    "lon": 8.7762198,
+    "gazetteer": "https://www.openstreetmap.org/node/240030964",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Faido",
+    "as_written": "Faido",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.4780427,
+    "lon": 8.8009322,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684675",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): broken characters \"�\" and \"GenÃ¨ve\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): named \"Bundesamt f�r Verkehr\" and \"Sedrun\" and \"Faido\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed as \"2007.06.27\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "broken characters \"�\" and \"GenÃ¨ve\""
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed as \"2007.06.27\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "named \"Bundesamt f�r Verkehr\" and \"Sedrun\" and \"Faido\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals or sensitive personal data are mentioned."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-06-27",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Internal protocol note created by the Federal Office of Transport regarding AlpTransit project changes.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2007-06-27",
+   "place": "Sedrun",
+   "lat": 46.6809591,
+   "lon": 8.7762198,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2007-06-27",
+   "place": "Faido",
+   "lat": 46.4780427,
+   "lon": 8.8009322,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#35#103*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4998,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

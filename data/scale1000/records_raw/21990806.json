@@ -1,0 +1,70 @@
+{
+ "id": "21990806",
+ "uri": "https://culture.ld.admin.ch/ais/21990806",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21990806",
+ "title": "Tagesschau Hauptausgabe (TS): Duplex Annahme UNO Irak-Resolution, 16.10.2003",
+ "reference_code": "J2.225#2004/178#16#4*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSFDRS 2501205\nSignatur Bundesarchiv: J2.225#2004/178#168*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Genève, GE: Duplex Andreas Zumach",
+ "author": "Produktion: DRS",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": "Moderation: Müller, Beatrice",
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 09.10.2003-23.10.2003",
+ "form": "Video",
+ "format": "Dauer: 00:02:00\nFarbe: Farbaufnahmen\nStartposition: 00.54.53",
+ "thema": "Personen: Zumach, Andreas",
+ "country": null,
+ "date": {
+  "from": "2003-10-16",
+  "to": null,
+  "expressed": "2003.10.16"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1084055",
+   "number": "2004/178",
+   "title": "2004/00178 Schweizer Fernsehen DRS (Z�rich) (2003)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21990802",
+   "title": "Tagesschau SFDRS 16.10.2003",
+   "level": "Dossier",
+   "reference_code": "J2.225#2004/178#16*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21903362",
+   "title": "Tagesschau SFDRS 2003",
+   "level": "Serie",
+   "reference_code": "J2.225#6.2003"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21829670",
+   "title": "Tagesschau 1999-2006 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

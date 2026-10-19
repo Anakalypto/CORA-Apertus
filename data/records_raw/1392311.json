@@ -1,0 +1,73 @@
+{
+ "id": "1392311",
+ "uri": "https://culture.ld.admin.ch/ais/1392311",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1392311",
+ "title": "Repertorium des Protokolls der vollziehenden Behörde",
+ "reference_code": "E3120A#1000/735#1*",
+ "reference_number": "5",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Auszüge aus dem Protokoll der helvetischen Exekutive",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1798-01-01",
+  "to": "1803-12-31",
+  "expressed": "1798-1803"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12097",
+   "number": "1000/735",
+   "title": "1000/00735 Bundesverwaltung (Bern) (1797-1847)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3754071",
+   "title": "Abschriftensammlung von Bundeskanzler Schiess (Schweiz vor 1848)",
+   "level": "Serie",
+   "reference_code": "E3120A#5.12"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3754059",
+   "title": "Abschriftensammlung",
+   "level": "Serie",
+   "reference_code": "E3120A#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6766",
+   "title": "Bundesarchiv: Zentrale Ablage (1915-1966)",
+   "level": "Sub-file",
+   "reference_code": "E3120A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1185502",
+   "title": "Bundesarchiv (1915-1979)",
+   "level": "Stock",
+   "reference_code": "E10950*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

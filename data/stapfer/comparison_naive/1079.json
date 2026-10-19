@@ -1,0 +1,58 @@
+{
+ "id": 1079,
+ "signature": "BAR B0 1000/1483, Nr. 1430, fol. 64-66v",
+ "reference": {
+  "place": "Bern",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Knöri",
+  "teacher_age": 51,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 19,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Johannes Knöri",
+  "date_written": "1799-02-24"
+ },
+ "apertus": {
+  "place": "Bern",
+  "canton_1799": "Bern",
+  "school_type": null,
+  "confession": "reformiert",
+  "teacher_name": "Johannes Knöri",
+  "teacher_age": 51,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "19. 1/2 Jahr",
+  "pupils_winter": "50. bis 60.",
+  "pupils_summer": "40. bis 50.",
+  "author_name": "Joh. Knöri Schullehrer im mittlern Stadtquartier",
+  "date_written": "1799-03-02"
+ },
+ "evidence": {
+  "place": "Bern",
+  "canton_1799": "Bern.",
+  "confession": "Singen, und die Religion",
+  "teacher_name": "Johannes Knöri",
+  "teacher_age": "51. Jahr",
+  "teacher_marital_status": "Ja",
+  "teacher_since": "19. 1/2 Jahr",
+  "pupils_winter": "Knaben? 50. bis 60.",
+  "pupils_summer": "Knaben? 40. bis 50."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 9.66
+}

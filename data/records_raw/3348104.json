@@ -1,0 +1,67 @@
+{
+ "id": "3348104",
+ "uri": "https://culture.ld.admin.ch/ais/3348104",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3348104",
+ "title": "Inhaltsverzeichnis sämtlicher Dossiers",
+ "reference_code": "E4800.3-01#1994/116#44*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1989-01-01",
+  "to": null,
+  "expressed": "1989"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16647",
+   "number": "1994/116",
+   "title": "1994/00116 Gerber Rudolf (Kehrsatz) (1889-1994)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3789583",
+   "title": "Administrativuntersuchung / Disziplinaruntersuchung",
+   "level": "Serie",
+   "reference_code": "E4800.3-01#3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3347964",
+   "title": "Bundesanwaltschaft: Handakten Rudolf Gerber, Bundesanwalt (1974-1993)",
+   "level": "Sub-file",
+   "reference_code": "E4800.3-01*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4681",
+   "title": "Bundesanwaltschaft (1889-)",
+   "level": "Stock",
+   "reference_code": "E10105*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": false
+}

@@ -1,0 +1,56 @@
+{
+ "id": 2193,
+ "signature": "BAR B0 1000/1483, Nr. 1423, fol. 237r-243",
+ "reference": {
+  "place": "Effingen",
+  "canton_1799": "Aargau",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johanes Weibel",
+  "teacher_age": 48,
+  "teacher_marital_status": null,
+  "teacher_since": 15,
+  "pupils_winter": 76,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Efigen",
+  "canton_1799": null,
+  "school_type": "Landschule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Weibel",
+  "teacher_age": 48,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 15,
+  "pupils_winter": 76,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Efigen",
+  "school_type": "Landschulen",
+  "confession": "Kirchgemeinde ¦ Elfigen",
+  "teacher_name": "Johannes Weibel",
+  "teacher_age": "48. Jahre",
+  "teacher_since": "15. Jahre",
+  "pupils_winter": "Anzahl 76. Knaben 33. Mädchen 43."
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "missed",
+  "school_type": "mismatch",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "both_empty",
+  "date_written": "both_empty"
+ },
+ "seconds": 7.27
+}

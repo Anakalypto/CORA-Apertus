@@ -13,7 +13,7 @@ from fastapi import Body, FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import classify, config, enrich, lindas, more, qa, referendum, search_index, topic
+from . import classify, config, enrich, i18n, lindas, more, qa, referendum, search_index, store, topic
 from .apertus import Apertus
 
 CFG = config.load()
@@ -26,9 +26,12 @@ def _fold(s: str) -> str:
     return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
+# one file per record in dataset/records/; records still only in cora_dataset.jsonl are split out when read
+RECORD_STORE = store.Entries(DATASET / "cora_dataset.jsonl")
+
+
 def _load():
-    path = DATASET / "cora_dataset.jsonl"
-    recs = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()] if path.exists() else []
+    recs = RECORD_STORE.all()
     for r in recs:
         m, c = r["metadata"], r["classification"]
         r["_text"] = _fold(" ".join(filter(None, [
@@ -106,6 +109,16 @@ app = FastAPI(title="CORA — Apertus classifier for the Swiss Federal Archives"
                           "Every field carries its provenance (record / derived / apertus / gazetteer / wikidata).",
               version="0.1.0")
 
+
+@app.middleware("http")
+async def _revalidate_front_end(request, call_next):
+    """Browsers revalidate the page and its scripts and styles (cheap, via ETag), so an update is never hidden by a cache."""
+    resp = await call_next(request)
+    if request.url.path == "/" or request.url.path.endswith((".js", ".css", ".html")):
+        resp.headers["Cache-Control"] = "no-cache"
+    return resp
+
+
 FACETS = {
     "document_type": lambda r: r["classification"]["document_type"],
     "source_level": lambda r: r["classification"]["source_level"],
@@ -181,7 +194,8 @@ def search(q: str = "", in_: str = Query("all", alias="in", enum=SEARCH_IN),
            publisher: list[str] = Query([]), subject: list[str] = Query([]), person: list[str] = Query([]),
            place: list[str] = Query([]), preprocessing: list[str] = Query([]), qc: list[str] = Query([]),
            sample: list[str] = Query([]), flags: list[str] = Query([]),
-           sort: str = Query("relevance", enum=SORTS + ["date"]), page: int = 1, size: int = Query(20, ge=0, le=100)):
+           sort: str = Query("relevance", enum=SORTS + ["date"]), page: int = 1, size: int = Query(20, ge=0, le=100),
+           lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade, century=century,
                    level=level, fonds=fonds, language=language, creator=creator, publisher=publisher, subject=subject,
                    person=person, place=place, preprocessing=preprocessing, qc=qc, sample=sample, flags=flags)
@@ -226,7 +240,7 @@ def search(q: str = "", in_: str = Query("all", alias="in", enum=SEARCH_IN),
     start = (max(1, page) - 1) * size
     yrs = [r["_years"] for r in RECORDS.values() if r["_years"]]
     return {"total": len(hits), "page": page, "size": size,
-            "results": [_summary(r) for _, r in hits[start:start + size]],
+            "results": [_localized_summary(r, i18n.code(lang)) for _, r in hits[start:start + size]],
             "facets": {k: c.most_common() for k, c in facets.items()},
             "date_bounds": [min(y[0] for y in yrs), max(y[1] for y in yrs)] if yrs else None,
             "search_in": SEARCH_IN, "sorts": SORTS}
@@ -237,6 +251,8 @@ def record(record_id: str):
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "record not in the demo set; use POST /api/classify/{id} for a live run")
+    if not (RECORD_STORE.dir / store.file_name(record_id)).exists():
+        RECORD_STORE.get(record_id)  # opening a record that is not split yet splits it
     ids = list(RECORDS)
     i = ids.index(record_id)
     return _public(r) | {"_nav": {"prev": ids[i - 1] if i else None, "next": ids[i + 1] if i + 1 < len(ids) else None}}
@@ -318,7 +334,7 @@ def export(fmt: str):
 
 
 @app.post("/api/classify/{record_id}", summary="Live: fetch any record of the archive database and classify it with Apertus")
-def classify_live(record_id: str, resume: bool = True, story_map: bool = True):
+def classify_live(record_id: str, resume: bool = True, story_map: bool = True, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     if not record_id.isdigit():
         raise HTTPException(400, "record id must be numeric (VRZNG_ENHT_ID)")
     recs = lindas.fetch_records([record_id])
@@ -327,6 +343,7 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True):
     rec = recs[0] | {"stratum": "live"}
     cfg = json.loads(json.dumps(CFG, default=str))
     cfg["classify"]["resume"], cfg["classify"]["story_map"] = resume, story_map
+    cfg["classify"]["output_language"] = i18n.code(lang)  # résumé and normalised fields in the reader's language
     l = CFG["llm"]
     ap = lambda feature: Apertus(l["base_url"], l["api_key"], config.model_for(CFG, feature), l["temperature"], l["max_tokens"], l["retries"])
     raw, meta = ap("classify").chat_json(classify.build_messages(rec, cfg))
@@ -356,28 +373,30 @@ def classify_live(record_id: str, resume: bool = True, story_map: bool = True):
 QA_INDEX = search_index.Index(RECORDS, DATASET / "cora_search.sqlite")
 
 
-def _llm(feature: str):
+def _llm(feature: str = ""):
+    """Apertus for one feature: the model chosen per feature in config.toml [llm.models] (default: llm.model)."""
     l = CFG["llm"]
     return Apertus(l["base_url"], l["api_key"], config.model_for(CFG, feature), 0.0, 1500, l["retries"])
 
 
 @app.get("/api/ask", summary="Ask the archive: cited answer from the dataset (BM25 + Apertus); refuses when nothing relevant is found")
-def ask(q: str = Query(..., min_length=3), k: int = 6, record: str = Query("", description="ask about this record (it is always a source)")):
+def ask(q: str = Query(..., min_length=3), k: int = 6, record: str = Query("", description="ask about this record (it is always a source)"),
+        lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     if record and record not in RECORDS:
         raise HTTPException(404, "unknown record")
-    return qa.ask(QA_INDEX, _llm("qa"), q, k, focus=record or None)
+    return qa.ask(QA_INDEX, _llm("qa"), q, k, focus=record or None, lang=i18n.code(lang))
 
 
 @app.post("/api/chat", summary="Ask the archive as a conversation: Apertus answers from archive records and Wikipedia "
                               "(body: {messages: [{role, content}], record?}); every sentence cites R#/W# or is marked own knowledge")
-def chat_turn(body: dict = Body(...)):
+def chat_turn(body: dict = Body(...), lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     from . import chat as chat_mod
     msgs = body.get("messages") or []
     record = body.get("record") or None
     if record and record not in RECORDS:
         raise HTTPException(404, "unknown record")
     try:
-        return chat_mod.chat(QA_INDEX, _llm_chat(), msgs, CFG, DATA, record=record)
+        return chat_mod.chat(QA_INDEX, _llm_chat(), msgs, CFG, DATA, record=record, lang=i18n.code(lang))
     except ValueError as e:
         raise HTTPException(400, str(e))
 
@@ -446,40 +465,72 @@ def votes():
 
 
 @app.get("/api/votes/{anr}", summary="One federal vote: result, estimate, parliament's vote, party positions; Apertus English title, summary and related votes (cached)")
-def vote(anr: str):
+def vote(anr: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     try:
-        return referendum.detail(CFG, anr, _llm("votes"))
+        return referendum.detail(CFG, anr, _llm("votes"), i18n.code(lang))
     except KeyError:
         raise HTTPException(404, "unknown vote number (anr)")
 
 
 @app.get("/api/votes/{anr}/whatif", summary="The proposal under the conditions of another year: real positions with that year's strengths, and Apertus-imagined positions (cached)")
-def vote_whatif(anr: str, year: int = Query(..., ge=1848, le=2100)):
+def vote_whatif(anr: str, year: int = Query(..., ge=1848, le=2100), lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     try:
-        return referendum.whatif(CFG, anr, year, _llm("votes"), _llm("whatif"))
+        return referendum.whatif(CFG, anr, year, _llm("votes"), i18n.code(lang), _llm("whatif"))
     except KeyError:
         raise HTTPException(404, "unknown vote number (anr)")
 
 
 @app.get("/api/records/{record_id}/more", summary="See more: Apertus explains the record from the record, related records, Wikipedia and Wikidata (cited, cached)")
-def record_more(record_id: str):
+def record_more(record_id: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "unknown record")
-    return more.explain(r, QA_INDEX, CFG, _llm("more"))
+    return more.explain(r, QA_INDEX, CFG, _llm("more"), i18n.code(lang))
 
 
 @app.get("/api/records/{record_id}/topic", summary="Topic of a secondary/tertiary record: Wikipedia article, primary dossiers of the archive, news (Apertus-selected, cached)")
-def record_topic(record_id: str):
+def record_topic(record_id: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
     r = RECORDS.get(record_id)
     if not r:
         raise HTTPException(404, "unknown record")
-    return topic.build(r, QA_INDEX, CFG, _llm("topic"))
+    return topic.build(r, QA_INDEX, CFG, _llm("topic"), i18n.code(lang))
+
+
+@app.get("/api/records/{record_id}/resume", summary="The record's résumé written by Apertus in the reader's language from its original fields (cached)")
+def record_resume(record_id: str, lang: str = Query("en", description="interface language (en, de, fr, it, rm): Apertus writes in it")):
+    r = RECORDS.get(record_id)
+    if not r:
+        raise HTTPException(404, "unknown record")
+    return more.resume(r, CFG, _llm("more"), i18n.code(lang))
+
+
+@app.get("/api/i18n/{lang}", summary="Interface text in one of the languages of Switzerland (translated by Apertus; "
+                                     "strings not translated yet are translated in the background)")
+def interface_text(lang: str):
+    code = i18n.code(lang)
+    pending = i18n.ensure_background(DATA, SITE, code, _llm_translate)
+    return {"lang": code, "languages": i18n.LANGS, "strings": i18n.load(DATA, code), "pending": pending}
+
+
+def _llm_translate():
+    l = CFG["llm"]
+    return Apertus(l["base_url"], l["api_key"], l["model"], 0.1, 4000, l["retries"])
+
+
+def _localized_summary(r: dict, lang: str) -> dict:
+    s = _summary(r)
+    if lang != "en":
+        s["resume"] = more.cached_resume(r, CFG, lang) or s["resume"]
+        s["resume_lang"] = lang if more.cached_resume(r, CFG, lang) else "en"
+    return s
 
 
 @app.get("/", include_in_schema=False)
 def index():
     return FileResponse(SITE / "index.html")
 
+
+from . import oral_api  # noqa: E402  year context drawer + Oral tradition (own module; must come before the static mount)
+app.include_router(oral_api.router)
 
 app.mount("/", StaticFiles(directory=SITE), name="site")

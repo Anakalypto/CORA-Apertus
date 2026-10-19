@@ -1,0 +1,325 @@
+{
+ "id": "21790117",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21790117",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21790117",
+  "reference_code": "J2.225#1996/68#7495#3*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 19.12.1978",
+   "old_reference_code": "Original Signatur: TSSRG 78/353/01;Rolle 1469\nSignatur Bundesarchiv: J2.225#1996/68#70529*",
+   "scope_and_content": "Inhaltsangabe: Indien Delhi: Inhaftierung ex-PM Indira Gandhi und Ausschluss aus dem Parlament\nSequenzbeschrieb: Indien Delhi: Indira Gandhi im Gespräch mit AnhängerInnen / Polizei-Kordon Demonstranten stoppend / Abgeordnete von Reportern bedrängt / Gandhi winkend, Pressefotografen",
+   "author": "Produktion: UPITN",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Asien ohne Nahoststaaten; Grenze im Osten: Japan, Indonesien Philippinen; Grenze im Westen: Afghanistan, Pakistan; inkl. indonesische Inseln\nZeitliche Abdeckung: 12.12.1978-26.12.1978",
+   "form": "Video",
+   "format": "Dauer: 1.48\nFarbe: Farbaufnahmen\nOriginalformat: V-U;16 mm;comopt\nStartposition: 10.15.19\nTräger: Betacam-Digital",
+   "thema": "Personen: Gandhi, Indira\nSachdeskriptor: Strafvollzug",
+   "date": {
+    "from": "1978-12-19",
+    "to": null,
+    "expressed": "1978.12.19"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by UPITN as agency footage for the Swiss public broadcaster's news program.",
+  "resume": "This is a television news report from the Swiss Tagesschau series dated 19 December 1978, covering the arrest and parliamentary exclusion of former Indian Prime Minister Indira Gandhi in Delhi. It includes footage of Gandhi speaking with supporters, police cordons, and interactions with the press."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 19.12.1978",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS Agenturrohmaterial), 19.12.1978",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS Agency Footage), 19 December 1978",
+  "creator": "UPITN",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "1978-12-19",
+  "date_published": "1978-12-19",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1978-12-19",
+  "languages": [
+   "de",
+   "fr",
+   "it"
+  ],
+  "subjects": [
+   "Indira Gandhi",
+   "political crisis",
+   "India",
+   "arrest",
+   "parliamentary exclusion"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1978",
+   "Tagesschau SFDRS 19.12.1978"
+  ],
+  "reference_code": "J2.225#1996/68#7495#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21790117",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Indira Gandhi",
+    "display_name": "Indira Gandhi",
+    "role": "Former Prime Minister of India, subject of the news report",
+    "wikidata": {
+     "qid": "Q1149",
+     "label": "Indira Gandhi",
+     "description": "Prime Minister of India (1966-1977; 1980-1984)",
+     "url": "https://www.wikidata.org/wiki/Q1149"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "Publisher/Broadcaster",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Delhi",
+    "as_written": "Indien Delhi",
+    "role": "depicted",
+    "country": "IN",
+    "lat": 28.6664535,
+    "lon": 77.2169781,
+    "gazetteer": "https://www.openstreetmap.org/relation/21180767",
+    "model_lat": 28.7041,
+    "model_lon": 77.1025
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 1.48\nFarbe: Farbaufnahmen\nOriginalformat: V",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Gandhi, Indira; named organizations or places (apertus): SRG SSR idée suisse",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: 1978.12.19",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): Sachdeskriptor: Strafvollzug",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 1.48\nFarbe: Farbaufnahmen\nOriginalformat: V"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 1978.12.19"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Gandhi, Indira"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "SRG SSR idée suisse"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sachdeskriptor: Strafvollzug"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains personal data about Indira Gandhi and criminal justice matters."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1978-12-19",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Agency footage produced by UPITN for Swiss television news coverage.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "1978-12-19",
+   "place": "Delhi",
+   "lat": 28.6664535,
+   "lon": 77.2169781,
+   "description": "Shows Indira Gandhi's arrest and exclusion from parliament in India.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#7495#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4752,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

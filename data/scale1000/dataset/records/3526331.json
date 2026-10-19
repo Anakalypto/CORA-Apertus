@@ -1,0 +1,316 @@
+{
+ "id": "3526331",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3526331",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3526331",
+  "reference_code": "E1301#1992/307#13#17*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "92.3342: Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations",
+   "date": {
+    "from": "1992-12-18",
+    "to": null,
+    "expressed": "1992.12.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383469",
+     "number": "1992/307",
+     "title": "1992/00307 Parlamentsdienste (Bern) (1992)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate captured as a sound recording.",
+  "resume": "This document is a parliamentary motion recorded during the National Council session on 18 December 1992, concerning the abolition of contribution caps in unemployment insurance, presented by Ernst Leuenberger."
+ },
+ "metadata": {
+  "title": "92.3342: Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations",
+  "title_normalized": "Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations",
+  "title_en": "Motion Leuenberger Ernst: Abolition of contribution caps in unemployment insurance / Assurance-chômage. Suppression of contribution ceilings",
+  "creator": "Nationalrat (1848-)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1992-12-18",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1992",
+  "content_date": "1992-12-18",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "unemployment insurance",
+   "parliamentary motion",
+   "social security"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1991 bis Herbstsession 1995",
+   "Wintersession 1992",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1992/307#13#17*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3526331",
+  "accession_numbers": [
+   "1992/307"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ernst Leuenberger",
+    "display_name": "Ernst Leuenberger",
+    "role": "author of the motion",
+    "wikidata": {
+     "qid": "Q123122",
+     "label": "Ernst Leuenberger",
+     "description": "Swiss politician (1945-2009)",
+     "url": "https://www.wikidata.org/wiki/Q123122"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": 2009,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Nationalrat (1848-)",
+    "role": "creator of the record",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"92.3342: Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): title: \"Motion Leuenberger Ernst\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1992.12.18",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"92.3342: Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Motion Leuenberger Ernst. Aufhebung des Beitragsplafonds in der Arbeitslosenversicherung / Assurance-chômage. Suppression du plafonnement des cotisations\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1992.12.18"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Motion Leuenberger Ernst\""
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "The record concerns a named person (Ernst Leuenberger) in a parliamentary motion, but no personal data is disclosed."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1992-12-18",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Created place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1992",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1992/307 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1992/307#13#17*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4767,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

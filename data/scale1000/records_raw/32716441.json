@@ -1,0 +1,88 @@
+{
+ "id": "32716441",
+ "uri": "https://culture.ld.admin.ch/ais/32716441",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32716441",
+ "title": "Mitrailleur Zihlbrücke links Armierungsplan",
+ "reference_code": "E27#1000/721#17724#67*",
+ "reference_number": "4107 / 11820 / 34",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1917-01-01",
+  "to": null,
+  "expressed": "1917 (ca.)"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+   "number": "1000/721",
+   "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1444132",
+   "title": "Fortifikation Murten, Abschnitt Jolimont - Pläne und Zeichnungen, Teil 1",
+   "level": "Dossier",
+   "reference_code": "E27#1000/721#17724*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848770",
+   "title": "Murten - Vuilly - Jolimont, Zihl",
+   "level": "Serie",
+   "reference_code": "E27#08.D.8.a.3"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848767",
+   "title": "Westschweiz - Basel - Saane - Thunersee",
+   "level": "Serie",
+   "reference_code": "E27#08.D.8.a"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848766",
+   "title": "Verteidigungslinien, Armeestellungen, Stellungs- und Hindernisbauten",
+   "level": "Serie",
+   "reference_code": "E27#08.D.8"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848693",
+   "title": "Festungen",
+   "level": "Serie",
+   "reference_code": "E27#08.D"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3848447",
+   "title": "Militärische Anlagen. Festungen",
+   "level": "Serie",
+   "reference_code": "E27#08"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3582",
+   "title": "Landesverteidigung (1848-1950)",
+   "level": "Stock",
+   "reference_code": "E27*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

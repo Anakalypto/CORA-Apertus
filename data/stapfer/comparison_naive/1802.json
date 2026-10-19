@@ -1,0 +1,57 @@
+{
+ "id": 1802,
+ "signature": "BAR B0 1000/1483, Nr. 1444, fol. 223-224v",
+ "reference": {
+  "place": "Genolier",
+  "canton_1799": "Léman",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Jean Georges Boveyron",
+  "teacher_age": 26,
+  "teacher_marital_status": "ledig",
+  "teacher_since": 2,
+  "pupils_winter": 50,
+  "pupils_summer": 20,
+  "author_name": "Jean George Boveyron",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Genollier",
+  "canton_1799": "Léman",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Jean George Boveyron",
+  "teacher_age": 26,
+  "teacher_marital_status": "Célibataire",
+  "teacher_since": "un an et demi",
+  "pupils_winter": 50,
+  "pupils_summer": "une vingtaine",
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "Genollier",
+  "canton_1799": "Léman",
+  "teacher_name": "Jean George Boveyron",
+  "teacher_age": "Vingt six ans",
+  "teacher_marital_status": "Célibataire",
+  "teacher_since": "En viron un an et demi",
+  "pupils_winter": "Cinquante, en hiver",
+  "pupils_summer": "Et en été environ une vingtaine"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "mismatch",
+  "teacher_since": "mismatch",
+  "pupils_winter": "match",
+  "pupils_summer": "mismatch",
+  "author_name": "missed",
+  "date_written": "both_empty"
+ },
+ "seconds": 8.89
+}

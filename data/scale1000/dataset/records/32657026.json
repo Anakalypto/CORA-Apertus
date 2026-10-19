@@ -1,0 +1,292 @@
+{
+ "id": "32657026",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32657026",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32657026",
+  "reference_code": "E3130A#2022/200#119#4*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "4. Grundrissschema des Vorprojektes für einen Neubau der Schweiz. Landesbibliothek in Bern",
+   "reference_number": "706.121-31",
+   "date": {
+    "from": "1914-01-01",
+    "to": "1924-12-31",
+    "expressed": "1914.01.01-1924.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32491001",
+     "number": "2022/200",
+     "title": "2022/00200 Schweizerische Nationalbibliothek (Bern) (1894-1993)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "map / plan",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct archival file from the central archive of the Swiss National Library, documenting a planning document.",
+  "resume": "This document is a basic outline schema for a proposed new building of the Swiss National Library in Bern, covering the period from 1 January 1914 to 31 December 1924. It is part of the central archive holdings of the Swiss National Library (1894-1993) within the Swiss Federal Archives. The record contains no personal data or sensitive information."
+ },
+ "metadata": {
+  "title": "4. Grundrissschema des Vorprojektes für einen Neubau der Schweiz. Landesbibliothek in Bern",
+  "title_normalized": "4. Grundrissschema des Vorprojektes für einen Neubau der Schweiz. Landesbibliothek in Bern",
+  "title_en": "Basic outline schema for a preliminary project of a new building of the Swiss National Library in Bern",
+  "creator": "Schweizerische Landesbibliothek (1894-1993)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1914-01-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "1914-01-01/1924-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss National Library",
+   "building plans",
+   "library architecture"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Landesbibliothek (1894-2006)",
+  "fonds_reference": "E10481*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Schweizerische Landesbibliothek (1894-2006)",
+   "Schweizerische Landesbibliothek: Zentrale Ablage (1894-1993)",
+   "Lokale, Material, Publikationen, Sonderdienstzweige",
+   "Gebäude und Einrichtungen",
+   "Raumfrage, Platzmangel / Umzug Geistiges Eigentum",
+   "Idee von einem Neubau der Schweizerischen Landesbibliothek: Projekte Kirchenfeldquartier - Pläne Format 1/8 WF"
+  ],
+  "reference_code": "E3130A#2022/200#119#4*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32657026",
+  "accession_numbers": [
+   "2022/200"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Schweizerische Landesbibliothek (1894-1993)",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): title: 'Schweizerische Landesbibliothek in Bern'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: '1914.01.01-1924.12.31'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: '1914.01.01-1924.12.31'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Schweizerische Landesbibliothek in Bern'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned in the record."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1914-01-01",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "The basic outline schema for the new Swiss National Library building project was created.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/200 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E3130A#2022/200#119#4*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4739,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

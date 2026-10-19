@@ -1,0 +1,73 @@
+{
+ "id": "4962413",
+ "uri": "https://culture.ld.admin.ch/ais/4962413",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4962413",
+ "title": "Anstand mit der Druckerei Stämpfli & Cie, Bern, betr. das Werk von Dr. von Rott \"Histoire de la représentation diplomatique de la France auprès des cantons suisses",
+ "reference_code": "E4110A#1000/1820#798*",
+ "reference_number": "F.03",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1935-01-01",
+  "to": "1935-12-31",
+  "expressed": "1935-1935"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/12771",
+   "number": "1000/1820",
+   "title": "1000/01820 Bundesverwaltung (Bern) (1935)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4936209",
+   "title": "Bundeskanzlei",
+   "level": "Serie",
+   "reference_code": "E4110A#F.03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3812262",
+   "title": "Gutachten und Mitberichte",
+   "level": "Serie",
+   "reference_code": "E4110A#F"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5517",
+   "title": "Eidgenössische Justizabteilung: Zentrale Ablage (1916-1963)",
+   "level": "Sub-file",
+   "reference_code": "E4110A*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5515",
+   "title": "Eidgenössische Justizabteilung (1902-1979)",
+   "level": "Stock",
+   "reference_code": "E10352*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

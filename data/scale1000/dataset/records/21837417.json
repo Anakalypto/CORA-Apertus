@@ -1,0 +1,319 @@
+{
+ "id": "21837417",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21837417",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21837417",
+  "reference_code": "J2.225#2000/20#493#10*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), White Turf in St. Moritz, 04.02.2001",
+   "old_reference_code": "Original Signatur: TSSFDRS 2310009\nSignatur Bundesarchiv: J2.225#2000/20#4922*",
+   "scope_and_content": "Inhaltsangabe: CH St. Moritz, GR: White Turf - Internationales Pferderennen auf zugefrorenem St. Moritzer See\nSequenzbeschrieb: CH St. Moritz, GR: Pferderennen-Ausschnitt auf zugefrorenem See / Impressionen Zuschauer in Pelzmänteln, beim Cupli-Trinken / Statement Hans Peter Danuser (°Kur-D) / Impressionen Ski-Jöring / Statement Aldo Leoni (°Direktorium °CS)",
+   "author": "AutorIn: Häberlin, Christophe\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Müller, Heinrich J.",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 28.01.2001-11.02.2001",
+   "form": "Video",
+   "format": "Dauer: 00:01:46\nFarbe: Farbaufnahmen\nStartposition: 00.56.28",
+   "thema": "Personen: Danuser, Hanspeter;Leoni, Aldo\nSachdeskriptor: Pferderennen;Prominenz",
+   "date": {
+    "from": "2001-02-04",
+    "to": null,
+    "expressed": "2001.02.04"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16886",
+     "number": "2000/20",
+     "title": "2000/00020 Schweizer Fernsehen DRS (Z�rich) (1999-2002)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news broadcast created at the time of the events.",
+  "resume": "A television news segment from Tagesschau (TS) covering the White Turf horse race on the frozen St. Moritzer See in St. Moritz, featuring statements from Hans Peter Danuser and Aldo Leoni."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), White Turf in St. Moritz, 04.02.2001",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), White Turf in St. Moritz, 04.02.2001",
+  "title_en": "Tagesschau Main Edition: White Turf in St. Moritz, February 4, 2001",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2001-02-04",
+  "date_updated": null,
+  "date_archived": "2000",
+  "content_date": "2001-02-04",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Pferderennen",
+   "Prominenz",
+   "St. Moritz"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2001",
+   "Tagesschau SFDRS 04.02.2001"
+  ],
+  "reference_code": "J2.225#2000/20#493#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21837417",
+  "accession_numbers": [
+   "2000/20"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hanspeter Danuser",
+    "display_name": "Hanspeter Danuser",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Aldo Leoni",
+    "display_name": "Aldo Leoni",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "St. Moritz",
+    "as_written": "St. Moritz",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.4978958,
+    "lon": 9.8392428,
+    "gazetteer": "https://www.openstreetmap.org/relation/1684175",
+    "model_lat": 46.0,
+    "model_lon": 9.1
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1999-2002)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Häberlin, Christophe\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Danuser, Hanspeter;Leoni, Aldo; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2001.02.04",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1999-2002)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Häberlin, Christophe\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2001.02.04"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Danuser, Hanspeter;Leoni, Aldo"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2001-02-04",
+   "place": "St. Moritz",
+   "lat": 46.4978958,
+   "lon": 9.8392428,
+   "description": "Broadcast of Tagesschau segment covering White Turf horse race on frozen lake.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2000",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2000/20 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2000/20#493#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5373,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

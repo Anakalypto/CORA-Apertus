@@ -1,0 +1,70 @@
+{
+ "id": "22433991",
+ "uri": "https://culture.ld.admin.ch/ais/22433991",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22433991",
+ "title": "Mercato delle pecore ; Il Regionale, 04.10.1977",
+ "reference_code": "J2.247#2000/21#633#1*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: REGIOTSI 8.64\nSignatur Bundesarchiv: J2.247#2000/21#674*",
+ "alternate_reference": null,
+ "scope_and_content": "Genre: Attualità regionale\nInhaltsangabe: CH > MESOCCO, GR - Il tradizionale mercato delle pecore ha raccolto circa 700 capi di bestiame",
+ "author": "Produktionsgesellschaft: TSI",
+ "publisher": "HerausgeberIn: TSI",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Mesocco",
+ "form": "Video",
+ "format": "Dauer: 00:01:02\nFarbe: Colore\nStartposition: 00:02.28",
+ "thema": "Sachdeskriptor: Fiere agricole; Allevamento del bestiame; Mammiferi ovini pecore",
+ "country": null,
+ "date": {
+  "from": "1977-10-04",
+  "to": null,
+  "expressed": "1977.10.04"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16915",
+   "number": "2000/21",
+   "title": "2000/00021 Radiotelevisione Svizzera di lingua italiana (Lugano) (1958-1984)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22433990",
+   "title": "Il Regionale 04.10.1977",
+   "level": "Dossier",
+   "reference_code": "J2.247#2000/21#633*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22431906",
+   "title": "Il Regionale 1977",
+   "level": "Serie",
+   "reference_code": "J2.247#1.1977"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22431886",
+   "title": "Il Regionale 1958 1984",
+   "level": "Serie",
+   "reference_code": "J2.247#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4238",
+   "title": "Radiotelevisione svizzera di lingua italiana (1931-)",
+   "level": "Stock",
+   "reference_code": "J2.247*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

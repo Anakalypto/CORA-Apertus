@@ -1,0 +1,309 @@
+{
+ "id": "32464503",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32464503",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32464503",
+  "reference_code": "E1401#2019/239#13#24*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2012.0471: Parlamentarische Initiative Gilli Yvonne. Erneute Verlängerung der kantonalen Zulassung von Arzneimitteln / Initiative parlementaire Gilli Yvonne. Médicaments. Proroger une nouvelle fois les autorisations cantonales",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Lombardi, Filippo;",
+   "form": "Digital",
+   "date": {
+    "from": "2013-06-21",
+    "to": null,
+    "expressed": "2013.06.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31656928",
+     "number": "2019/239",
+     "title": "2019/00239 Parlamentsdienste: Amtliches Bulletin (Bern) (2013)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "This document is a parliamentary initiative debate recording from the Swiss Council of States (Ständerat) during the summer session 2013, focusing on the renewal of cantonal drug approvals, with speaker Filippo Lombardi participating in the discussion."
+ },
+ "metadata": {
+  "title": "2012.0471: Parlamentarische Initiative Gilli Yvonne. Erneute Verlängerung der kantonalen Zulassung von Arzneimitteln / Initiative parlementaire Gilli Yvonne. Médicaments. Proroger une nouvelle fois les autorisations cantonales",
+  "title_normalized": "Parlamentarische Initiative Gilli Yvonne. Erneute Verlängerung der kantonalen Zulassung von Arzneimitteln / Initiative parlementaire Gilli Yvonne. Médicaments. Proroger une nouvelle fois les autorisations cantonales",
+  "title_en": "Parliamentary Initiative Gilli Yvonne. Renewal of Cantonal Drug Approvals / Parliamentary Initiative Gilli Yvonne. Medicines. Proroging Cantonal Authorizations Once More",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2013-06-21",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2013-06-21",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary initiative",
+   "drug approvals",
+   "cantonal regulations"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2011 bis Herbstsession 2015",
+   "Sommersession 2013",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2019/239#13#24*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32464503",
+  "accession_numbers": [
+   "2019/239"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Filippo Lombardi",
+    "display_name": "Filippo Lombardi",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q353273",
+     "label": "Filippo Lombardi",
+     "description": "Swiss politician (1956-)",
+     "url": "https://www.wikidata.org/wiki/Q353273"
+    },
+    "life_date_check": {
+     "born": 1956,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.95,
+    "model_lon": 8.35
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: 'Parlamentarische Initiative Gilli Yvonne. Erneute Verlängerung der kantonalen Zulassung von Arzneimitteln / Initiative parlementaire Gilli Yvonne. Médicaments. Proroger une nouvelle fois les autorisations cantonales'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Filippo Lombardi']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2013.06.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: 'Parlamentarische Initiative Gilli Yvonne. Erneute Verlängerung der kantonalen Zulassung von Arzneimitteln / Initiative parlementaire Gilli Yvonne. Médicaments. Proroger une nouvelle fois les autorisations cantonales'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2013.06.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Filippo Lombardi']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/239 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2019/239#13#24*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4852,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

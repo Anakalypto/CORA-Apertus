@@ -1,0 +1,89 @@
+{
+ "id": "3512167",
+ "uri": "https://culture.ld.admin.ch/ais/3512167",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512167",
+ "title": "2000.0020: Zolltarifarische Massnahmen 1999/II / Tarif des douanes. Mesures 1999/II",
+ "reference_code": "E1401#2006/241#2#2*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Sprecher/Sprecherinnen: Frick, Bruno; Schmid, Carlo",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2000-06-06",
+  "to": null,
+  "expressed": "2000.06.06"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3344591",
+   "number": "2006/241",
+   "title": "2006/00241 Parlamentsdienste (Bern) (2000)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3445989",
+   "title": "2. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1401#2006/241#2*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090708",
+   "title": "Sommersession 2000",
+   "level": "Serie",
+   "reference_code": "E1401#1.4-46-03"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090706",
+   "title": "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "level": "Serie",
+   "reference_code": "E1401#1.4-46"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992538",
+   "title": "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "level": "Serie",
+   "reference_code": "E1401#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992534",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1401#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6851",
+   "title": "Ständerat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1401*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6848",
+   "title": "Ständerat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10827*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "other"
+}

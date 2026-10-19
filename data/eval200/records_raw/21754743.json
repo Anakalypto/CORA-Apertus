@@ -1,0 +1,71 @@
+{
+ "id": "21754743",
+ "uri": "https://culture.ld.admin.ch/ais/21754743",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21754743",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS Spätausgabe), 20.06.1969",
+ "reference_code": "J2.225#1996/68#4049#6*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 69/171/06A;Rolle 816\nSignatur Bundesarchiv: J2.225#1996/68#48298*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: CH Bern, BE: Rosenschau in der Orangerie der Stadtgärtnerei",
+ "author": "Produktion: SRG",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 13.06.1969-27.06.1969",
+ "form": "Video",
+ "format": "Dauer: 0.45\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U;16 mm\nStartposition: 10.11.35\nTräger: Betacam-Digital",
+ "thema": "Sachdeskriptor: Ausstellung;Pflanze",
+ "country": null,
+ "date": {
+  "from": "1969-06-20",
+  "to": null,
+  "expressed": "1969.06.20"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21754729",
+   "title": "Tagesschau SFDRS 20.06.1969",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#4049*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690378",
+   "title": "Tagesschau SFDRS 1969",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1969"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Document",
+ "stratum": "audiovisual"
+}

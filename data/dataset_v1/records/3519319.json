@@ -1,0 +1,320 @@
+{
+ "id": "3519319",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3519319",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519319",
+  "reference_code": "E1301#2006/273#9#24*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2005.0407: Parlamentarische Initiative Zisyadis Josef. Gats. Obligatorisches Referendum / Initiative parlementaire Zisyadis Josef. Référendum obligatoire pour l'AGCS",
+   "scope_and_content": "Sprecher/Sprecherinnen: Darbellay, Christophe; Rennwald, Jean-Claude; Schlüer, Ulrich; Zisyadis, Josef",
+   "date": {
+    "from": "2006-06-19",
+    "to": null,
+    "expressed": "2006.06.19"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3348388",
+     "number": "2006/273",
+     "title": "2006/00273 Parlamentsdienste (Bern) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "Recorded live during the parliamentary session by the official services of the Swiss Federal Assembly.",
+  "resume": "This document is a sound recording of a debate in the Swiss National Council during the 2006 summer session concerning a parliamentary initiative by Josef Zisyadis on making the General Agreement on Trade in Services (GATS) subject to mandatory referendum. It captures speeches by four National Council members discussing the initiative."
+ },
+ "metadata": {
+  "title": "2005.0407: Parlamentarische Initiative Zisyadis Josef. Gats. Obligatorisches Referendum / Initiative parlementaire Zisyadis Josef. Référendum obligatoire pour l'AGCS",
+  "title_normalized": "2005.0407: Parlamentarische Initiative Zisyadis Josef. Gats. Obligatorisches Referendum / Initiative parlementaire Zisyadis Josef. Référendum obligatoire pour l'AGCS",
+  "title_en": "Parliamentary Initiative Zisyadis Josef. Mandatory Referendum on GATS",
+  "creator": "Parlamentsdienste (Bern)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2006-06-19",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-06-19",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "GATS",
+   "parliamentary initiative",
+   "referendum",
+   "Swiss National Council"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "Sommersession 2006",
+   "9. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2006/273#9#24*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3519319",
+  "accession_numbers": [
+   "2006/273"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Darbellay, Christophe",
+    "display_name": "Christophe Darbellay",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q115891",
+     "label": "Christophe Darbellay",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q115891"
+    }
+   },
+   {
+    "name": "Rennwald, Jean-Claude",
+    "display_name": "Jean-Claude Rennwald",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q120733",
+     "label": "Jean-Claude Rennwald",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120733"
+    }
+   },
+   {
+    "name": "Schlüer, Ulrich",
+    "display_name": "Ulrich Schlüer",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q116454",
+     "label": "Ulrich Schlüer",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116454"
+    }
+   },
+   {
+    "name": "Zisyadis, Josef",
+    "display_name": "Josef Zisyadis",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q116906",
+     "label": "Josef Zisyadis",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116906"
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Sprecher/Sprecherinnen: Darbellay, Christophe; Rennwald, Jean-Claude; Schlüer, Ulrich; Zisyadis, Josef; named organizations or places (apertus): Parlamentsdienste (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '2006.06.19'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '2006.06.19'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sprecher/Sprecherinnen: Darbellay, Christophe; Rennwald, Jean-Claude; Schlüer, Ulrich; Zisyadis, Josef"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Parlamentsdienste (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and an organization but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2006-06-19",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Sound recording made during the Swiss National Council session.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/273 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2006/273#9#24*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4124,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

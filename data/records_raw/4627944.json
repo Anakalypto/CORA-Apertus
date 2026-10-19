@@ -1,0 +1,73 @@
+{
+ "id": "4627944",
+ "uri": "https://culture.ld.admin.ch/ais/4627944",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/4627944",
+ "title": "Articles de presse publiés en Suisse sur l'Etat de résidence",
+ "reference_code": "E2200.212#611.5",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1966-01-01",
+  "to": "1996-12-31",
+  "expressed": "1966-1996"
+ },
+ "accessions": [],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4627937",
+   "title": "Presse en Suisse",
+   "level": "Serie",
+   "reference_code": "E2200.212#611"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4627934",
+   "title": "Presse",
+   "level": "Serie",
+   "reference_code": "E2200.212#61"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4627932",
+   "title": "Presse, Radio, Télévision, Culture, Science, Enseignement et Sport",
+   "level": "Serie",
+   "reference_code": "E2200.212#6"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6390",
+   "title": "Schweizerische Vertretung, Mailand: Zentrale Ablage (1966 - )",
+   "level": "Sub-file",
+   "reference_code": "E2200.212*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6389",
+   "title": "Schweizerische Vertretung, Mailand (1798-)",
+   "level": "Stock",
+   "reference_code": "E10632*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Serie",
+ "stratum": "secondary_press",
+ "expected_source_level": "secondary",
+ "pre_1940": false
+}

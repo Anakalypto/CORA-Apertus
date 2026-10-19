@@ -1,0 +1,70 @@
+{
+ "id": "29657971",
+ "uri": "https://culture.ld.admin.ch/ais/29657971",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657971",
+ "title": "Bundes-Budget 76",
+ "reference_code": "J2.225#2006/364#287#1*",
+ "reference_number": null,
+ "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#207*",
+ "alternate_reference": null,
+ "scope_and_content": "Sequenzbeschrieb: CH <Bern, BE: PK BR Georges-André Chevallaz\nZusammenfassung: CH <Bern, BE: PK BR Georges-André Chevallaz zu Bundes-Budget 1976",
+ "author": "Produktionsgesellschaft: DRS",
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Video",
+ "format": "Dauer: 00:01:36\nFarbe: FA\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.04.21\nTräger: Betacam-Digital",
+ "thema": "Personen: Chevallaz, Georges André\nSachdeskriptor: Bundesfinanzen",
+ "country": null,
+ "date": {
+  "from": "1975-11-02",
+  "to": null,
+  "expressed": "1975.11.02"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+   "number": "2006/364",
+   "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29657970",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 02.11.1975",
+   "level": "Dossier",
+   "reference_code": "J2.225#2006/364#287*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29656366",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 1975",
+   "level": "Serie",
+   "reference_code": "J2.225#10.1975"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29656360",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "level": "Serie",
+   "reference_code": "J2.225#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

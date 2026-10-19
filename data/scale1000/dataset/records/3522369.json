@@ -1,0 +1,409 @@
+{
+ "id": "3522369",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3522369",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522369",
+  "reference_code": "E1301#1987/195#13#2*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage",
+   "scope_and_content": "Sprecher/Sprecherinnen: Aliesch, Peter; Bircher, Silvio; Fierz, Lukas; Giger, Titus; Giudici, Luciano; Grassi, Mario; Rebeaud, Laurent; Schärli, Hans; Schlumpf, Leon; Steinegger, Franz",
+   "date": {
+    "from": "1987-10-09",
+    "to": null,
+    "expressed": "1987.10.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383423",
+     "number": "1987/195",
+     "title": "1987/00195 Parlamentsdienste (Bern) (1987)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary record of an urgent interpellation by Luciano Giudici concerning the promotion of rail freight to relieve road heavy traffic, held during the National Council session on 9 October 1987. The record includes a list of speakers and is part of the Swiss Federal Archives' collection of National Council debate protocols. It is an audio recording of the debate."
+ },
+ "metadata": {
+  "title": "87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage",
+  "title_normalized": "87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage",
+  "title_en": "Urgent Interpellation by Luciano Giudici on the Promotion of Rail Freight to Relieve Road Heavy Traffic",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1987-10-09",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1987",
+  "content_date": "1987-10-09",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "rail freight",
+   "road traffic",
+   "heavy goods vehicles",
+   "transport policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1983 bis Herbstsession 1987",
+   "Herbstsession 1987",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1987/195#13#2*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522369",
+  "accession_numbers": [
+   "1987/195"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Luciano Giudici",
+    "display_name": "Luciano Giudici",
+    "role": "interpellator",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Peter Aliesch",
+    "display_name": "Peter Aliesch",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Silvio Bircher",
+    "display_name": "Silvio Bircher",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1287750",
+     "label": "Silvio Bircher",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1287750"
+    },
+    "life_date_check": {
+     "born": 1945,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Lukas Fierz",
+    "display_name": "Lukas Fierz",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q23017410",
+     "label": "Lukas Fierz",
+     "description": "Swiss physician and politician",
+     "url": "https://www.wikidata.org/wiki/Q23017410"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Titus Giger",
+    "display_name": "Titus Giger",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q1397521",
+     "label": "Titus Giger",
+     "description": "Swiss politician (1932-2021)",
+     "url": "https://www.wikidata.org/wiki/Q1397521"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": 2021,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Mario Grassi",
+    "display_name": "Mario Grassi",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q99305408",
+     "label": "Mario Grassi",
+     "description": "Swiss politician (1929-2001)",
+     "url": "https://www.wikidata.org/wiki/Q99305408"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2001,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Laurent Rebeaud",
+    "display_name": "Laurent Rebeaud",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q3219475",
+     "label": "Laurent Rebeaud",
+     "description": "Swiss politician and journalist (1947-2015)",
+     "url": "https://www.wikidata.org/wiki/Q3219475"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2015,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Schärli",
+    "display_name": "Hans Schärli",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q16980198",
+     "label": "Hans Schärli",
+     "description": "Swiss politician (1925-2014)",
+     "url": "https://www.wikidata.org/wiki/Q16980198"
+    },
+    "life_date_check": {
+     "born": 1925,
+     "died": 2014,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Leon Schlumpf",
+    "display_name": "Leon Schlumpf",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Franz Steinegger",
+    "display_name": "Franz Steinegger",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q121299",
+     "label": "Franz Steinegger",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121299"
+    },
+    "life_date_check": {
+     "born": 1943,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: [ \"Peter Aliesch\", \"Silvio Bircher\", \"Lukas Fierz\", \"Titus Giger\", \"Luciano Giudici\", \"Mario Grassi\", \"Laurent Rebeaud\", \"Hans Schärli\", \"Leon Schlumpf\", \"Franz Steinegger\" ]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1987.10.09",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"87.553: Dringliche Interpellation Giudici. Förderung des Huckepackverkehrs zur Entlastung des Strassenschwerverkehrs / Interpellation urgente Giudici. Trafic des poids lourds et ferroutage\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1987.10.09"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [ \"Peter Aliesch\", \"Silvio Bircher\", \"Lukas Fierz\", \"Titus Giger\", \"Luciano Giudici\", \"Mario Grassi\", \"Laurent Rebeaud\", \"Hans Schärli\", \"Leon Schlumpf\", \"Franz Steinegger\" ]"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1987",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1987/195 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1987/195#13#2*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5218,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,342 @@
+{
+ "id": "22392286",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22392286",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22392286",
+  "reference_code": "J2.225#2009/142#264#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Rundschau (RS), 05.03.1982 ; Jerry Rawlings",
+   "old_reference_code": "Original Signatur: RS2SFDRS 9505075\nSignatur Bundesarchiv: J2.225#2009/142#154*",
+   "scope_and_content": "Inhaltsangabe: Ghana Accra: Porträt Jerry Rawlings 2 Jahre nach Putsch gegen die Regierung von Fred °Akuffo / Bekämpfung von Korruption und Inflation\nProduktionstyp: Bearbeitete Fremdproduktion",
+   "author": "AutorIn: Dammann, Erich (BEAR)\nProduktionsgesellschaft: BBC",
+   "publisher": "HerausgeberIn: BBC",
+   "coverage": "Zeitliche Abdeckung: 04.03.1982-06.03.1982",
+   "form": "Video",
+   "format": "Audiotyp: Mono\nDauer: 00.15.32\nFarbe: Farbe\nFormat oder Mass: 4:3 Vollbild\nStartposition: 10:20:32\nTräger: Beta Digital",
+   "thema": "Personen: Damoy, Vincent (Pater); Akuffo, Fred; Rawlings, Jerry (Präsident Ghana)\nSachdeskriptor: /POLITIK./UMSTURZ/PUTSCH",
+   "date": {
+    "from": "1982-03-05",
+    "to": null,
+    "expressed": "1982.03.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/5297963",
+     "number": "2009/142",
+     "title": "2009/00142 Schweizer Fernsehen DRS (Z�rich) (1976-1988)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production created by BBC for broadcast, containing original footage and editorial work.",
+  "resume": "A video news report from Rundschau (RS) dated 5 March 1982 featuring a portrait of Jerry Rawlings two years after his coup against Fred Akuffo, covering Ghana's efforts to combat corruption and inflation."
+ },
+ "metadata": {
+  "title": "Rundschau (RS), 05.03.1982 ; Jerry Rawlings",
+  "title_normalized": "Rundschau (RS), 05.03.1982 ; Jerry Rawlings",
+  "title_en": "Rundschau (RS), 05.03.1982 - Jerry Rawlings",
+  "creator": "BBC",
+  "publisher": "BBC",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1982-03-05",
+  "date_updated": null,
+  "date_archived": "2009",
+  "content_date": "1982-03-05",
+  "languages": [
+   "de",
+   "en"
+  ],
+  "subjects": [
+   "Ghana",
+   "politics",
+   "coup d'état",
+   "corruption"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Rundschau 1976-1988 SFDRS",
+   "Rundschau 1982",
+   "Rundschau 05.03.1982"
+  ],
+  "reference_code": "J2.225#2009/142#264#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22392286",
+  "accession_numbers": [
+   "2009/142"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Jerry Rawlings",
+    "display_name": "Jerry Rawlings",
+    "role": "President Ghana",
+    "wikidata": {
+     "qid": "Q51002",
+     "label": "Jerry Rawlings",
+     "description": "fourth President of the Republic of Ghana (1947-2020)",
+     "url": "https://www.wikidata.org/wiki/Q51002"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": 2020,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fred Akuffo",
+    "display_name": "Fred Akuffo",
+    "role": "former President Ghana",
+    "wikidata": {
+     "qid": "Q718234",
+     "label": "Fred Akuffo",
+     "description": "soldier, politician, former Chief of Defence Staff and head of state of Ghana (1937-1979)",
+     "url": "https://www.wikidata.org/wiki/Q718234"
+    },
+    "life_date_check": {
+     "born": 1937,
+     "died": 1979,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Damoy, Vincent (Pater)",
+    "display_name": "Vincent (Pater) Damoy",
+    "role": "mentioned",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "BBC",
+    "role": "production company",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Accra",
+    "as_written": "Accra",
+    "role": "depicted",
+    "country": "GH",
+    "lat": 5.5571096,
+    "lon": -0.2012376,
+    "gazetteer": "https://www.openstreetmap.org/relation/12803764",
+    "model_lat": 5.56,
+    "model_lon": 0.44
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1976-1988)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): scope_and_content: Inhaltsangabe: Ghana Accra: Porträt Jerry Rawlings",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Dammann, Erich (BEAR)\nProduktionsgesellsc",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Thema: Personen: Damoy, Vincent (Pater); Akuffo, Fred; Rawlings, Jerry (Präsident Ghana); named organizations or places (apertus): Thema: Personen: Damoy, Vincent (Pater); Akuffo, Fred; Rawlings, Jerry (Präsident Ghana)\nSachdeskriptor: /POLITIK./UMSTURZ/PUTSCH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1982.03.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1976-1988)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "scope_and_content: Inhaltsangabe: Ghana Accra: Porträt Jerry Rawlings"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Dammann, Erich (BEAR)\nProduktionsgesellsc"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1982.03.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Thema: Personen: Damoy, Vincent (Pater); Akuffo, Fred; Rawlings, Jerry (Präsident Ghana)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Thema: Personen: Damoy, Vincent (Pater); Akuffo, Fred; Rawlings, Jerry (Präsident Ghana)\nSachdeskriptor: /POLITIK./UMSTURZ/PUTSCH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1982-03-05",
+   "place": "Accra",
+   "lat": 5.5571096,
+   "lon": -0.2012376,
+   "description": "Video news report broadcast featuring Jerry Rawlings.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2009",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2009/142 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2009/142#264#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch",
+   "geo_conflict_over_50km"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5264,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

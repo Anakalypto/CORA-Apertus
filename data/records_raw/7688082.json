@@ -1,0 +1,67 @@
+{
+ "id": "7688082",
+ "uri": "https://culture.ld.admin.ch/ais/7688082",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/7688082",
+ "title": "Register zu den Beschlüssen [bedingt verwendbar]",
+ "reference_code": "B0#1000/1483#275h-275i*",
+ "reference_number": "A.5",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1798-01-01",
+  "to": null,
+  "expressed": "1798"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7088",
+   "number": "1000/1483",
+   "title": "1000/01483 Bundesverwaltung (Bern) (1712-1857)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618392",
+   "title": "Register und Verzeichnisse",
+   "level": "Serie",
+   "reference_code": "B0#A.5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/7618385",
+   "title": "Das Archiv der helvetischen Legislative (Parlamentsarchiv)",
+   "level": "Serie",
+   "reference_code": "B0#A"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3560",
+   "title": "Zentralarchiv der Helvetischen Republik (1798-1803)",
+   "level": "Stock",
+   "reference_code": "B0*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/35",
+   "title": "Archiv der Helvetik (1798-1803)",
+   "level": "Main Department",
+   "reference_code": "B*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

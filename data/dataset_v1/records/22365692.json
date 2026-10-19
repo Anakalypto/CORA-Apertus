@@ -1,0 +1,323 @@
+{
+ "id": "22365692",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22365692",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365692",
+  "reference_code": "J2.225#2007/135#72#27*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Milchpreis",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504194\nSignatur Bundesarchiv: J2.225#2007/135#72*",
+   "scope_and_content": "Inhaltsangabe: Schweiz o.O.: Treffen der Milchproduzentenvertreter aus Deutschland, Österreich und der Schweiz / Hoffen auf höhere Milchpreise wegen steigender Nachfrage nach Käse, Glacé und Joghurt auf dem asiatischen Markt\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: China o.O.: Strassenszenen (Archiv)  Schweiz o.O.: Statement Albert Rösti / ZS Milchproduktion (Kühe, Melken)",
+   "author": "AutorIn: Kozelka, Michaela: AUT\nProduktion: SF",
+   "involved": "Moderation: Stauber, Katja",
+   "form": "Video",
+   "format": "Dauer: 00.01.11\nStartposition: 00:49:21\nTotal Spieldauer: 00.20.02\nTräger: Beta IMX",
+   "thema": "Personen: Rösti, Albert: Direktor Milchproduzentenverband\nSachdeskriptor: /LANDWIRTSCHAFT./MILCH;/LANDWIRTSCHAFT./MILCH/KÄSE;/WIRTSCHAFT./PREIS",
+   "date": {
+    "from": "2007-06-11",
+    "to": null,
+    "expressed": "2007.06.11"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced by Swiss public broadcaster SF as a news report at the time of the events.",
+  "resume": "This is a 2007 Swiss TV news report from Tagesschau SFDRS featuring Albert Rösti, director of the Swiss milk producers' association, discussing rising milk prices. It includes footage of a meeting of dairy representatives from Germany, Austria, and Switzerland and street scenes in China. The report highlights growing demand for cheese, ice cream, and yogurt in Asia."
+ },
+ "metadata": {
+  "title": "Milchpreis",
+  "title_normalized": "Milchpreis",
+  "title_en": "Milk Price",
+  "creator": "SF",
+  "publisher": "Schweizer Fernsehen DRS",
+  "commissioner": null,
+  "date_created": "2007-06-11",
+  "date_published": "2007-06-11",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-11",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "dairy industry",
+   "milk prices",
+   "Swiss agriculture",
+   "global food markets"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 11.06.2007"
+  ],
+  "reference_code": "J2.225#2007/135#72#27*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365692",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Albert Rösti",
+    "display_name": "Albert Rösti",
+    "role": "Director of the Swiss milk producers' association",
+    "wikidata": {
+     "qid": "Q119388",
+     "label": "Albert Rösti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119388"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Schweizer Fernsehen DRS",
+    "role": "Producer and publisher",
+    "wikidata": {
+     "qid": "Q116401",
+     "label": "Schweizer Fernsehen",
+     "description": "former television station in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q116401"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Schweiz",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "China",
+    "as_written": "China",
+    "role": "depicted",
+    "country": "CN",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Kozelka, Michaela: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Rösti, Albert; named organizations or places (apertus): Milchproduzentenverband",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2007.06.11; free text places (apertus): Schweiz o.O.: … China o.O.: …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Kozelka, Michaela: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2007.06.11"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz o.O.: … China o.O.: …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Rösti, Albert"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Milchproduzentenverband"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person Albert Rösti and organization Milchproduzentenverband; no sensitive categories detected."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-06-11",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Production of a Tagesschau news segment on milk prices and dairy industry.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#72#27*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4573,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

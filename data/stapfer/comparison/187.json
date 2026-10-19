@@ -1,0 +1,58 @@
+{
+ "id": 187,
+ "signature": "AEF H 437.11, 029-032",
+ "reference": {
+  "place": "La Rougève",
+  "canton_1799": "Fribourg",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Jean Maillard",
+  "teacher_age": 60,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 33,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": null,
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Rogève",
+  "canton_1799": "Canton de fribourg",
+  "school_type": "niedere Schule",
+  "confession": "katholisch",
+  "teacher_name": "jean Maillard",
+  "teacher_age": 60,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 33,
+  "pupils_winter": 15,
+  "pupils_summer": 15,
+  "author_name": null,
+  "date_written": null
+ },
+ "evidence": {
+  "place_as_written": "ala Rogeve",
+  "canton_1799": "du Canton de fribourg",
+  "school_type": null,
+  "confession": "de la Paroisse de Saint Martin @ de L'agence de Sem Sales",
+  "teacher_name": "jean Maillard",
+  "teacher_age": "||[Seite 3] 60 ans",
+  "teacher_since": "depuis 33 ans",
+  "pupils_winter": "15",
+  "pupils_summer": "15"
+ },
+ "result": {
+  "place": "match",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "extra",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "both_empty",
+  "date_written": "both_empty"
+ },
+ "seconds": 6.34
+}

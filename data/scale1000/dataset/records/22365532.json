@@ -1,0 +1,333 @@
+{
+ "id": "22365532",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22365532",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365532",
+  "reference_code": "J2.225#2007/135#70#67*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Unwetter in Huttwil und Eriswil",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504192\nSignatur Bundesarchiv: J2.225#2007/135#70*",
+   "scope_and_content": "Inhaltsangabe: Schweiz, Huttwil, Eriswil, BE: Heftige Gewitter und Überschwemmungen / ein Mann und eine Frau ertrinken im Fluss Langeten und eine Frau stirbt in überflutetem Haus\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz Eriswil, BE: Ruhig fliessender Fluss Langeten  / Haus an Fluss Langeten  / Statement Markus Straumann / Aufräumarbeiten bei Häusern, die von Fluss Langeten halb mitgerissen wurden / zerstörte Autos Huttwil, BE: Flussbett mit Unrat / Statement Marcel Lanz / Aufräumteam Unrat aus zerstörten Häusern in Mulde werfend  / Statement Fritz Hiltbrunner",
+   "author": "AutorIn: Kolbe, Christian: AUT\nProduktion: SF",
+   "involved": "Moderation: Stauber, Katja",
+   "form": "Video",
+   "format": "Dauer: 00.01.49\nStartposition: 00:24:21\nTotal Spieldauer: 00.20.41\nTräger: Beta IMX",
+   "thema": "Personen: Hiltbrunner, Fritz: Augenzeuge\nSachdeskriptor: /SENSATION./NATURKATASTROPHE",
+   "date": {
+    "from": "2007-06-09",
+    "to": null,
+    "expressed": "2007.06.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production created by SF for news coverage of the events.",
+  "resume": "A video news report by Schweizer Fernsehen DRS (SF) documenting severe thunderstorms and flooding in Huttwil and Eriswil, Bern, on 9 June 2007, including interviews with witnesses and footage of cleanup efforts."
+ },
+ "metadata": {
+  "title": "Unwetter in Huttwil und Eriswil",
+  "title_normalized": "Unwetter in Huttwil und Eriswil",
+  "title_en": "Storms in Huttwil and Eriswil",
+  "creator": "SF",
+  "publisher": "Swiss Federal Archives (BAR/AFS)",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2007-06-09",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-09",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "flooding",
+   "thunderstorms",
+   "natural disaster"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 09.06.2007"
+  ],
+  "reference_code": "J2.225#2007/135#70#67*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365532",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Fritz Hiltbrunner",
+    "display_name": "Fritz Hiltbrunner",
+    "role": "eyewitness",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival holder",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Huttwil",
+    "as_written": "Huttwil",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.1147419,
+    "lon": 7.8455436,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682485",
+    "model_lat": null,
+    "model_lon": null
+   },
+   {
+    "name": "Eriswil",
+    "as_written": "Eriswil",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.0776383,
+    "lon": 7.8501785,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682429",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Kolbe, Christian: AUT\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Hiltbrunner, Fritz; named organizations or places (apertus): Huttwil, Eriswil, BE",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (rule): 2007.06.09; free text places (apertus): Huttwil, Eriswil, BE",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Kolbe, Christian: AUT\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2007.06.09"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Huttwil, Eriswil, BE"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hiltbrunner, Fritz"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Huttwil, Eriswil, BE"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Huttwil",
+   "lat": 47.1147419,
+   "lon": 7.8455436,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Eriswil",
+   "lat": 47.0776383,
+   "lon": 7.8501785,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "2007-06-09",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Video news report broadcast by SF covering natural disaster.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#70#67*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5303,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

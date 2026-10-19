@@ -1,0 +1,57 @@
+{
+ "id": 69,
+ "signature": "BAR B0 1000/1483, Nr. 1471, fol. 5-6v",
+ "reference": {
+  "place": "Oberwil",
+  "canton_1799": "Zürich",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Hans Jakob Leimbacher",
+  "teacher_age": 24,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 4,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Hs Jacob Leimbacher",
+  "date_written": "1799-02-14"
+ },
+ "apertus": {
+  "place": "Oberweil",
+  "canton_1799": "Zürich",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Jacob Leimbacher",
+  "teacher_age": 25,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 1795,
+  "pupils_winter": 65,
+  "pupils_summer": 42,
+  "author_name": "Hs Jacob Leimbacher",
+  "date_written": "1799-02-14"
+ },
+ "evidence": {
+  "place_as_written": "Der Namme des ortes ist ¦ Oberweil. ¦¦",
+  "teacher_name": "er Heißt Hs Jacob Leimbacher.",
+  "teacher_age": "Gebohren Anno. 1775. gehet also im 25ten Jahr.",
+  "teacher_marital_status": "Er hat ein weib und ein Kind,",
+  "teacher_since": "ist Schullehrer sinth Anno 1795.",
+  "pupils_winter": "||[Seite 2] Schulkinder sind an der Zahl.? 65.",
+  "pupils_summer": "Knaben.? 20. und Töchteren 22:",
+  "date_written": "den 14isten ¦ February. ¦¦ 1799."
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "mismatch",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "mismatch",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 11.05
+}

@@ -15,17 +15,20 @@ import urllib.parse
 import urllib.request
 
 from .classify import BAR_HOLDER
+from . import store
 
 COUNTRY_NAMES = {"switzerland", "schweiz", "suisse", "svizzera", "ch"}
 
 
 class Cache:
+    """Lookup cache (geocoder, Wikidata, Wikipedia): one file per key in enrich_cache/ (see store.py)."""
+
     def __init__(self, path):
         self.path = path
-        self.data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        self.data = store.EntryDict(path)
 
     def save(self):
-        self.path.write_text(json.dumps(self.data.copy(), ensure_ascii=False, indent=1), encoding="utf-8")
+        pass  # every entry is written when it is set
 
 
 _NOMINATIM = threading.Lock()  # one request at a time across worker threads
@@ -258,7 +261,7 @@ def build_story(row: dict, rec: dict, places: list[dict]) -> list[dict]:
 def run(cfg):
     data_dir = cfg["paths"]["data_dir"]
     rows = [json.loads(l) for l in (data_dir / "classified.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
-    recs = {r["id"]: r for r in json.loads((data_dir / "records_raw.json").read_text(encoding="utf-8"))}
+    recs = {r["id"]: r for r in store.read_entries(data_dir / "records_raw.json")}
     cache = Cache(data_dir / "enrich_cache.json")
     until = os.environ.get("CORA_GEOCODE_UNTIL") or cfg["enrich"].get("geocode_until")
     if until:

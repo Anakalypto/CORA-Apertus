@@ -1,0 +1,278 @@
+{
+ "id": "3460127",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3460127",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460127",
+  "reference_code": "E2#1000/44#1834*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen [1486-1835]",
+   "reference_number": "B.133.6.1",
+   "scope_and_content": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen Münstertal gegen Tirol 1486-1835 erstellt 1837.\\Schätzung der auf streitigem Grenzgebiet bei Müstair und Taufers gelegenen Felder, 1852. Anfrage betr. österreichischer militärischer Personen an der Landesgrenze, 1859",
+   "form": "Mikroform",
+   "date": {
+    "from": "1837-01-01",
+    "to": "1859-12-31",
+    "expressed": "1837-1859"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/7515",
+     "number": "1000/44",
+     "title": "1000/00044 Bundesverwaltung (Bern) (1848-1951)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "register / index",
+  "medium": "text",
+  "source_level": "tertiary",
+  "source_level_rationale": "points to other records: This is a finding aid (Aktenverzeichnis) created in 1837 to describe and locate other records related to Swiss-Austrian border disputes.",
+  "resume": "This finding aid indexes and extracts from Swiss-Austrian border documents covering the period 1486–1835, with additional material from 1852 and 1859 concerning disputed fields in the Münstertal and military personnel at the border. It is an archival inventory compiled in 1837."
+ },
+ "metadata": {
+  "title": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen [1486-1835]",
+  "title_normalized": "Aktenverzeichnis, Protokoll- und Aktenauszüge über die Grenzen [1486-1835]",
+  "title_en": "Index, protocol and document excerpts on the borders [1486-1835]",
+  "creator": null,
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1837-01-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1837/1859",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss-Austrian border",
+   "Münstertal",
+   "Taufers",
+   "border disputes",
+   "land survey",
+   "military personnel"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Auswärtige Angelegenheiten 1848-1895",
+  "fonds_reference": "E2*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Auswärtige Angelegenheiten 1848-1895",
+   "Beziehungen mit dem Ausland",
+   "Allgemeine internationale Verhältnisse",
+   "Gebietshoheit der Schweiz",
+   "Festsetzung, Berichtigung & Unterhalt der Landesgrenze",
+   "Österreich",
+   "Graubünden gegen Österreich [jetzt auch Italien]"
+  ],
+  "reference_code": "E2#1000/44#1834*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3460127",
+  "accession_numbers": [
+   "1000/44"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): named places (Münstertal, Tirol, Müstair, Taufers) and organization (Bundesverwaltung)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "free text places (apertus): places only in free text (Münstertal, Tirol, Müstair, Taufers)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in free text (Münstertal, Tirol, Müstair, Taufers)"
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "named places (Münstertal, Tirol, Müstair, Taufers) and organization (Bundesverwaltung)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable private individuals are named; the record concerns administrative and territorial matters."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1837-01-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compiled index of border documents created in 1837.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/44 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E2#1000/44#1834*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4765,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "tertiary_index",
+ "evidence_source_level": "tertiary"
+}

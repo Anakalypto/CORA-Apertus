@@ -1,0 +1,473 @@
+{
+ "id": "32501724",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32501724",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32501724",
+  "reference_code": "E1401#2022/202#5#3*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Baumann, Isidor; Comte, Raphaël; Dittli, Josef; Fetz, Anita; Fournier, Jean-René; Hêche, Claude; Hösli, Werner; Kuprecht, Alex; Minder, Thomas; Parmelin, Guy;, Autor: Sprecher/Sprecherinnen:  Savary, Géraldine; Zanetti, Roberto;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-03-07",
+    "to": null,
+    "expressed": "2016.03.07"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32491003",
+     "number": "2022/202",
+     "title": "2022/00202 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a live session of the Swiss Council of States, created at the time of the debate.",
+  "resume": "This digital parliamentary record documents a debate on the 2015 defence programme during the Spring Session 2016 of the Swiss Council of States, listing the speakers and their contributions."
+ },
+ "metadata": {
+  "title": "2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015",
+  "title_normalized": "2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015",
+  "title_en": "Defence Programme 2015 / Programme d'armement 2015",
+  "creator": "Council of States (Ständerat)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "2016-03-07",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "defence programme",
+   "Swiss Council of States",
+   "2015 budget"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2016",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2022/202#5#3*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32501724",
+  "accession_numbers": [
+   "2022/202"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Isidor Baumann",
+    "display_name": "Isidor Baumann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q119445",
+     "label": "Isidor Baumann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q119445"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Raphaël Comte",
+    "display_name": "Raphaël Comte",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118343",
+     "label": "Raphaël Comte",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118343"
+    },
+    "life_date_check": {
+     "born": 1979,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Josef Dittli",
+    "display_name": "Josef Dittli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1310215",
+     "label": "Josef Dittli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1310215"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Anita Fetz",
+    "display_name": "Anita Fetz",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118321",
+     "label": "Anita Fetz",
+     "description": "Swiss politician and historian, born 1957",
+     "url": "https://www.wikidata.org/wiki/Q118321"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Jean-René Fournier",
+    "display_name": "Jean-René Fournier",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118387",
+     "label": "Jean-René Fournier",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118387"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Claude Hêche",
+    "display_name": "Claude Hêche",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118306",
+     "label": "Claude Hêche",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118306"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Werner Hösli",
+    "display_name": "Werner Hösli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q17305567",
+     "label": "Werner Hösli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q17305567"
+    },
+    "life_date_check": {
+     "born": 1961,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Alex Kuprecht",
+    "display_name": "Alex Kuprecht",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118349",
+     "label": "Alex Kuprecht",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118349"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Thomas Minder",
+    "display_name": "Thomas Minder",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120077",
+     "label": "Thomas Minder",
+     "description": "Swiss politician and businessman",
+     "url": "https://www.wikidata.org/wiki/Q120077"
+    },
+    "life_date_check": {
+     "born": 1960,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Guy Parmelin",
+    "display_name": "Guy Parmelin",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121160",
+     "label": "Guy Parmelin",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121160"
+    },
+    "life_date_check": {
+     "born": 1959,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Géraldine Savary",
+    "display_name": "Géraldine Savary",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117230",
+     "label": "Géraldine Savary",
+     "description": "Swiss politician and journalist",
+     "url": "https://www.wikidata.org/wiki/Q117230"
+    },
+    "life_date_check": {
+     "born": 1968,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Roberto Zanetti",
+    "display_name": "Roberto Zanetti",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118337",
+     "label": "Roberto Zanetti",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118337"
+    },
+    "life_date_check": {
+     "born": 1954,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: ['Isidor Baumann', 'Raphaël Comte', ...]; named organizations or places (apertus): hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2016.03.07",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2015.0017: Rüstungsprogramm 2015 / Programme d'armement 2015\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2016.03.07"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Isidor Baumann', 'Raphaël Comte', ...]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down: 'Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)...'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal or police proceedings, intelligence files, an asylum case, religion, sexual life or political opinions."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/202 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2022/202#5#3*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5132,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,279 @@
+{
+ "id": "456231",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/456231",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/456231",
+  "reference_code": "J1.97#2003/146#1514*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Geleitwort für die Festschrift zur Eröffnung von Teilstrecken der Simplonsstrasse N9, September 1975.",
+   "date": {
+    "from": "1975-09-01",
+    "to": "1975-09-30",
+    "expressed": "1975.09.01 (ca.)-1975.09.30 (ca.)"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/398039",
+     "number": "2003/146",
+     "title": "2003/00146 H�rlimann  Hans (Zug) (keine Angabe)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "speech",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "created in the course of the activity it documents: This unit is a contemporary administrative document (a foreword for a festschrift) created during the event it describes.",
+  "resume": "This record is a speech delivered as a foreword for a commemorative publication celebrating the opening of sections of the Simplon Road (N9) in September 1975. It contains remarks prepared for a festschrift marking the road construction milestone. The document is a written speech rather than a recording of the spoken event."
+ },
+ "metadata": {
+  "title": "Geleitwort für die Festschrift zur Eröffnung von Teilstrecken der Simplonsstrasse N9, September 1975.",
+  "title_normalized": "Geleitwort für die Festschrift zur Eröffnung von Teilstrecken der Simplonsstrasse N9, September 1975.",
+  "title_en": "Foreword for the commemorative publication on the opening of sections of the Simplon Road N9, September 1975.",
+  "creator": "Hans Hürlimann",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1975-09",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "1975-09-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "road infrastructure",
+   "Simplon Road (N9)",
+   "commemorative publication",
+   "transportation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Hürlimann Hans (1918-1994)",
+  "fonds_reference": "J1.97*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Hürlimann Hans (1918-1994)",
+   "Bundesratszeit (1974-1982)",
+   "Geleitworte und Beiträge für Zeitungen und Zeitschriften"
+  ],
+  "reference_code": "J1.97#2003/146#1514*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/456231",
+  "accession_numbers": [
+   "2003/146"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Hans Hürlimann",
+    "display_name": "Hans Hürlimann",
+    "role": "author of the foreword",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): title contains 'GenÃ¨ve'",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): accessions.number.title: 'Hürlimann Hans (1918-1994)'; named organizations or places (apertus): hierarchy_top_down includes 'Schweizerischen Bundesarchivs' and 'Simplonsstrasse N9'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date.expressed: '1975.09.01 (ca.)-1975.09.30 (ca.)'; free text places (apertus): places only in title ('Simplonsstrasse N9') and hierarchy (none)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "title contains 'GenÃ¨ve'"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: '1975.09.01 (ca.)-1975.09.30 (ca.)'"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "places only in title ('Simplonsstrasse N9') and hierarchy (none)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions.number.title: 'Hürlimann Hans (1918-1994)'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes 'Schweizerischen Bundesarchivs' and 'Simplonsstrasse N9'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Named person is Hans Hürlimann, a public figure (former Swiss Federal Councillor), so no personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1975-09",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Speech written as a foreword for a festschrift marking the opening of Simplon Road sections.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/146 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J1.97#2003/146#1514*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4514,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_history",
+ "evidence_source_level": "secondary"
+}

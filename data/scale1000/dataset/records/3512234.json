@@ -1,0 +1,350 @@
+{
+ "id": "3512234",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3512234",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512234",
+  "reference_code": "E1401#2006/241#12#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2000.0029: Grenzüberschreitende Luftverunreinigung. Übereinkommen betreffend Schwermetalle / Pollution atmosphérique transfrontière. Convention relative aux métaux lourds",
+   "scope_and_content": "Sprecher/Sprecherinnen: Büttiker, Rolf; Forster-Vannini, Erika; Leuenberger, Moritz; Schmid, Carlo",
+   "date": {
+    "from": "2000-06-22",
+    "to": null,
+    "expressed": "2000.06.22"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3344591",
+     "number": "2006/241",
+     "title": "2006/00241 Parlamentsdienste (Bern) (2000)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a parliamentary debate, created at the time of the event by the Council of States.",
+  "resume": "The document is a parliamentary record from the Swiss Council of States (Ständerat) capturing a debate on transboundary air pollution and heavy metals conventions held on 22 June 2000. It includes statements by Rolf Büttiker, Erika Forster-Vannini, Moritz Leuenberger, and Carlo Schmid. The record is part of the Swiss Federal Archives' holdings of the Council's meeting protocols."
+ },
+ "metadata": {
+  "title": "2000.0029: Grenzüberschreitende Luftverunreinigung. Übereinkommen betreffend Schwermetalle / Pollution atmosphérique transfrontière. Convention relative aux métaux lourds",
+  "title_normalized": "Grenzüberschreitende Luftverunreinigung. Übereinkommen betreffend Schwermetalle / Pollution atmosphérique transfrontière. Convention relative aux métaux lourds",
+  "title_en": "Transboundary Air Pollution. Convention on Heavy Metals",
+  "creator": "Ständerat (Council of States)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2000-06-22",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2000-06-22",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "air pollution",
+   "heavy metals",
+   "environmental agreements",
+   "Swiss legislation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Ständerat (1848-)",
+  "fonds_reference": "E10827*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Ständerat (1848-)",
+   "Ständerat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "Legislaturperiode: Wintersession 1999 bis Herbstsession 2003",
+   "Sommersession 2000",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1401#2006/241#12#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3512234",
+  "accession_numbers": [
+   "2006/241"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rolf Büttiker",
+    "display_name": "Rolf Büttiker",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q120893",
+     "label": "Rolf Büttiker",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120893"
+    },
+    "life_date_check": {
+     "born": 1950,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Erika Forster-Vannini",
+    "display_name": "Erika Forster-Vannini",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q116433",
+     "label": "Erika Forster-Vannini",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q116433"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Moritz Leuenberger",
+    "display_name": "Moritz Leuenberger",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Carlo Schmid",
+    "display_name": "Carlo Schmid",
+    "role": "speaker in debate",
+    "wikidata": {
+     "qid": "Q67511",
+     "label": "Carlo Schmid",
+     "description": "German academic and politician of the social-democratic SPD (1896-1979)",
+     "url": "https://www.wikidata.org/wiki/Q67511"
+    },
+    "life_date_check": {
+     "born": 1896,
+     "died": 1979,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Ständerat (Council of States)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q609037",
+     "label": "Council of States of Switzerland",
+     "description": "upper house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q609037"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.9,
+    "model_lon": 8.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Rolf Büttiker', 'Erika Forster-Vannini', 'Moritz Leuenberger', 'Carlo Schmid']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2000.06.22",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2000.06.22"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Rolf Büttiker', 'Erika Forster-Vannini', 'Moritz Leuenberger', 'Carlo Schmid']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/241 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1401#2006/241#12#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4906,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

@@ -1,0 +1,295 @@
+{
+ "id": "30702600",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30702600",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30702600",
+  "reference_code": "E8100F#2016/63#5#10*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "AlpTransit Auflageprojekte 1996 Begleitbrief zu: Lötschberg-Basistunnel Nord und Süd Überarbeitetes Sicherheitskonzept",
+   "scope_and_content": "Brief / Fax / E-mail",
+   "involved": "Herausgeber: Bern-Lötschberg-Simplonbahn AlpTransit AG, Verfasser: Bern-Lötschberg-Simplonbahn, F. Kilchenmann / N. Brunner",
+   "date": {
+    "from": "1997-10-01",
+    "to": null,
+    "expressed": "1997.10.01"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "correspondence",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the project organization as an official communication regarding safety documentation for a major infrastructure project.",
+  "resume": "This document is a letter from the Bern-Lötschberg-Simplonbahn AlpTransit AG dated October 1, 1997, accompanying an updated safety concept for the Lötschberg Base Tunnel North and South projects. It serves as internal correspondence regarding the AlpTransit infrastructure project. The letter is part of the Federal Office of Transport's administrative files."
+ },
+ "metadata": {
+  "title": "AlpTransit Auflageprojekte 1996 Begleitbrief zu: Lötschberg-Basistunnel Nord und Süd Überarbeitetes Sicherheitskonzept",
+  "title_normalized": "AlpTransit Auflageprojekte 1996 Begleitbrief zu: Lötschberg-Basistunnel Nord und Süd Überarbeitetes Sicherheitskonzept",
+  "title_en": "AlpTransit tender projects 1996 accompanying letter to: Lötschberg Base Tunnel North and South revised safety concept",
+  "creator": "Bern-Lötschberg-Simplonbahn AlpTransit AG",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1997-10-01",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "1997-10-01",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "AlpTransit",
+   "Lötschberg Base Tunnel",
+   "railway infrastructure",
+   "safety concept",
+   "transport policy"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 5)"
+  ],
+  "reference_code": "E8100F#2016/63#5#10*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30702600",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "F. Kilchenmann",
+    "display_name": "F. Kilchenmann",
+    "role": "Author",
+    "wikidata": null
+   },
+   {
+    "name": "N. Brunner",
+    "display_name": "N. Brunner",
+    "role": "Author",
+    "wikidata": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bern-Lötschberg-Simplonbahn AlpTransit AG",
+    "role": "Creator",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): 16/00063 Bundesamt f�r Verkehr (Bern) (19",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved: \"F. Kilchenmann / N. Brunner\"; named organizations or places (apertus): involved: \"Bern-Lötschberg-Simplonbahn AlpTransit AG\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date expressed: \"1997.10.01\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "16/00063 Bundesamt f�r Verkehr (Bern) (19"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date expressed: \"1997.10.01\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: \"F. Kilchenmann / N. Brunner\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: \"Bern-Lötschberg-Simplonbahn AlpTransit AG\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named persons and organizations but no sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1997-10-01",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Letter drafted by Bern-Lötschberg-Simplonbahn AlpTransit AG as an accompanying document to the revised safety concept for the Lötschberg Base Tunnel projects.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#5#10*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4178,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

@@ -1,0 +1,381 @@
+{
+ "id": "30931127",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30931127",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30931127",
+  "reference_code": "E1301#2017/38#2#6*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2010.0424: Parlamentarische Initiative Fraktion der Schweizerischen Volkspartei. Behandlungspriorität für Vorstösse zur Einsetzung einer PUK / Initiative parlementaire groupe de l'Union démocratique du Centre. Interventions demandant l'institution d'une CEP. Traitement prioritaire",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Fluri, Kurt; Rutschmann, Hans; Stöckli, Hans; Wobmann, Walter;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-09-13",
+    "to": null,
+    "expressed": "2011.09.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30930986",
+     "number": "2017/38",
+     "title": "2017/00038 Parlamentsdienste (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary record of a debate in the Swiss National Council concerning the priority treatment of motions related to the establishment of a PUK/CEP, captured as a video recording of the proceedings during the autumn session of 2011. The record lists four speakers who participated in the debate and is part of the National Council's meeting protocols series. It is a primary source created during the legislative session."
+ },
+ "metadata": {
+  "title": "2010.0424: Parlamentarische Initiative Fraktion der Schweizerischen Volkspartei. Behandlungspriorität für Vorstösse zur Einsetzung einer PUK / Initiative parlementaire groupe de l'Union démocratique du Centre. Interventions demandant l'institution d'une CEP. Traitement prioritaire",
+  "title_normalized": "2010.0424: Parlamentarische Initiative Fraktion der Schweizerischen Volkspartei. Behandlungspriorität für Vorstösse zur Einsetzung einer PUK / Initiative parlementaire groupe de l'Union démocratique du Centre. Interventions demandant l'institution d'une CEP. Traitement prioritaire",
+  "title_en": "Parliamentary Initiative of the Swiss People's Party Faction: Treatment Priority for Motions Concerning the Establishment of a PUK / Parliamentary Initiative of the Democratic Union of the Centre Group: Interventions Requesting the Institution of a CEP. Priority Treatment",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-09-13",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2017",
+  "content_date": "2011-09-13",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "parliamentary procedure",
+   "PUK",
+   "CEP",
+   "Swiss People's Party",
+   "Democratic Union of the Centre"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "Herbstsession 2011",
+   "2. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2017/38#2#6*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30931127",
+  "accession_numbers": [
+   "2017/38"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Kurt Fluri",
+    "display_name": "Kurt Fluri",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q121470",
+     "label": "Kurt Fluri",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q121470"
+    },
+    "life_date_check": {
+     "born": 1955,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Rutschmann",
+    "display_name": "Hans Rutschmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117131",
+     "label": "Hans Rutschmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117131"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hans Stöckli",
+    "display_name": "Hans Stöckli",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122852",
+     "label": "Hans Stöckli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q122852"
+    },
+    "life_date_check": {
+     "born": 1952,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Walter Wobmann",
+    "display_name": "Walter Wobmann",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q118126",
+     "label": "Walter Wobmann",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q118126"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss People's Party (Schweizerische Volkspartei)",
+    "role": "faction",
+    "wikidata": null
+   },
+   {
+    "name": "Democratic Union of the Centre (Union démocratique du Centre)",
+    "role": "faction",
+    "wikidata": null
+   },
+   {
+    "name": "National Council (Nationalrat)",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house of the Swiss Federal Assembly",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Switzerland",
+    "role": "created",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 46.95,
+    "model_lon": 8.35
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): The title contains both German and French text.",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate contains Kurt Fluri, Hans Rutschmann, Hans Stöckli, Walter Wobmann; named organizations or places (apertus): Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.09.13",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "The title contains both German and French text."
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.09.13"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate contains Kurt Fluri, Hans Rutschmann, Hans Stöckli, Walter Wobmann"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Archive: Gesamtbestand des Schweizerischen Bundesarchivs (1798-)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2011-09-13",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Parliamentary debate recorded during the autumn session of the National Council.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2017",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2017/38 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2017/38#2#6*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5080,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

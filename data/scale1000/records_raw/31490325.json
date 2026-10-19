@@ -1,0 +1,76 @@
+{
+ "id": "31490325",
+ "uri": "https://culture.ld.admin.ch/ais/31490325",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31490325",
+ "title": "703.92 Miniatursender mit eingebautem Mikrophon (38x25x16mm, Gewicht 18 gr)",
+ "reference_code": "E4800.7#1995/20#212#165*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1967-01-01",
+  "to": null,
+  "expressed": "1967"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/13345",
+   "number": "1995/20",
+   "title": "1995/00020 Bundesanwaltschaft (Bern) (1888-1995)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31489911",
+   "title": "Dia-Serie der Bundespolizei zu Schulungszwecken, unter anderem für Schweizerisches Polizeiinstitut (SPIN) Neuenburg",
+   "level": "Dossier",
+   "reference_code": "E4800.7#1995/20#212*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/31489908",
+   "title": "Dia- und Fotosammlung",
+   "level": "Serie",
+   "reference_code": "E4800.7#15"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3664738",
+   "title": "Handakten Florian",
+   "level": "Serie",
+   "reference_code": "E4800.7#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4685",
+   "title": "Bundesanwaltschaft: Handakten Adrian Florian, Adjunkt (1931-2000)",
+   "level": "Sub-file",
+   "reference_code": "E4800.7*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4681",
+   "title": "Bundesanwaltschaft (1889-)",
+   "level": "Stock",
+   "reference_code": "E10105*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

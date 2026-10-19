@@ -1,0 +1,88 @@
+{
+ "id": "3511725",
+ "uri": "https://culture.ld.admin.ch/ais/3511725",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3511725",
+ "title": "2004.0080: Entlastungsprogramm 2004 / Programme d'allègement budgétaire 2004",
+ "reference_code": "E1401#2005/235#10#1*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "Sprecher/Sprecherinnen: Brändli, Christoffel; Frick, Bruno",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2005-06-14",
+  "to": null,
+  "expressed": "2005.06.14"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/2072274",
+   "number": "2005/235",
+   "title": "2005/00235 Parlamentsdienste (Bern) (2005)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3445930",
+   "title": "10. Verhandlungstag",
+   "level": "Dossier",
+   "reference_code": "E1401#2005/235#10*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090730",
+   "title": "Sommersession 2005",
+   "level": "Serie",
+   "reference_code": "E1401#1.4-47-08"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4090723",
+   "title": "Legislaturperiode: Wintersession 2003 bis Herbstsession 2007",
+   "level": "Serie",
+   "reference_code": "E1401#1.4-47"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992538",
+   "title": "Tonbandaufzeichnungen der Verhandlungen des Ständerats",
+   "level": "Serie",
+   "reference_code": "E1401#1.4"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3992534",
+   "title": "Verhandlungsprotokolle",
+   "level": "Serie",
+   "reference_code": "E1401#1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6851",
+   "title": "Ständerat: Verhandlungsprotokolle (1848-)",
+   "level": "Sub-file",
+   "reference_code": "E1401*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6848",
+   "title": "Ständerat (1848-)",
+   "level": "Stock",
+   "reference_code": "E10827*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "other"
+}

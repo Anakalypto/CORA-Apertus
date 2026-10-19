@@ -1,0 +1,299 @@
+{
+ "id": "31659653",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/31659653",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659653",
+  "reference_code": "E1301#2019/248#13#178*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "20174230: Interpellation Mazzone Lisa. Verwandtenrecherche mittels DNA im Rahmen von Strafverfahren. Wird der Bundesrat darauf verzichten? / Interpellation Mazzone Lisa. Recherches familiales d'ADN dans le cadre d'enquêtes pénales. Le Conseil fédéral entend-il y renoncer?",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen:",
+   "form": "Digital",
+   "date": {
+    "from": "2018-03-16",
+    "to": null,
+    "expressed": "2018.03.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/31658867",
+     "number": "2019/248",
+     "title": "2019/00248 Parlamentsdienste: Amtliches Bulletin (Bern) (2018)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss Federal Assembly as an official record of parliamentary proceedings.",
+  "resume": "This is a parliamentary interpellation submitted by National Councillor Lisa Mazzone on March 16, 2018, questioning whether the Swiss Federal Council intends to abandon the use of DNA familial searches in criminal investigations. It is part of the official protocol of the National Council's spring session of 2018."
+ },
+ "metadata": {
+  "title": "20174230: Interpellation Mazzone Lisa. Verwandtenrecherche mittels DNA im Rahmen von Strafverfahren. Wird der Bundesrat darauf verzichten? / Interpellation Mazzone Lisa. Recherches familiales d'ADN dans le cadre d'enquêtes pénales. Le Conseil fédéral entend-il y renoncer?",
+  "title_normalized": "20174230: Interpellation Mazzone Lisa. Verwandtenrecherche mittels DNA im Rahmen von Strafverfahren. Wird der Bundesrat darauf verzichten? / Interpellation Mazzone Lisa. Recherches familiales d'ADN dans le cadre d'enquêtes pénales. Le Conseil fédéral entend-il y renoncer?",
+  "title_en": "Interpellation Mazzone Lisa. Will the Federal Council abandon the use of DNA familial searches in criminal investigations?",
+  "creator": "Swiss Federal Assembly (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2018-03-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2019",
+  "content_date": "2018-03-16",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "DNA familial searches",
+   "criminal investigations",
+   "Swiss Federal Council",
+   "parliamentary procedure"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Frühjahrssession 2018",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2019/248#13#178*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/31659653",
+  "accession_numbers": [
+   "2019/248"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Lisa Mazzone",
+    "display_name": "Lisa Mazzone",
+    "role": "Interpellant",
+    "wikidata": {
+     "qid": "Q21152666",
+     "label": "Lisa Mazzone",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21152666"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Assembly",
+    "role": "Creator",
+    "wikidata": {
+     "qid": "Q684719",
+     "label": "Federal Assembly of Switzerland",
+     "description": "legislative body (parliament) of the Swiss Confederation",
+     "url": "https://www.wikidata.org/wiki/Q684719"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Title contains 'Mazzone Lisa'; named organizations or places (apertus): Hierarchy includes 'Nationalrat' and 'Parlamentsdienste'",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): date.expressed: '2018.03.16'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": true,
+   "priority": "high",
+   "reason": "sensitive categories (apertus): Title mentions DNA searches in criminal proceedings",
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date.expressed: '2018.03.16'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains 'Mazzone Lisa'"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Hierarchy includes 'Nationalrat' and 'Parlamentsdienste'"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title mentions DNA searches in criminal proceedings"
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "medium",
+  "private_individuals": false,
+  "sensitive_categories": true,
+  "note": "Contains personal data of Lisa Mazzone and references criminal justice procedures involving DNA"
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2018-03-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Interpellation submitted by Lisa Mazzone to the Swiss Federal Council",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2019",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2019/248 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2019/248#13#178*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4168,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

@@ -1,0 +1,365 @@
+{
+ "id": "22365853",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22365853",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365853",
+  "reference_code": "J2.225#2007/135#74#1*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Franktionsausflug FDP",
+   "old_reference_code": "Original Signatur: TSSFDRSII 2504196\nSignatur Bundesarchiv: J2.225#2007/135#74*",
+   "scope_and_content": "Inhaltsangabe: Schweiz Heiden, AR: FDP-Fraktions-Ausflug (Schulreise) / Gespräche am Rande über die Ablehnung der BVG-Renten Revision im Ständerat\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz Heiden, AR: FDP-Fraktion auf Feldweg / Statement Fulvio Pelli / Ankunft Pascal Couchepin / Besuch in Geschirr-Fabrik / Statement Felix Gutzwiller",
+   "author": "AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF",
+   "involved": "Moderation: Stauber, Katja",
+   "form": "Video",
+   "format": "Dauer: 00.01.47\nStartposition: 00:44:56\nTotal Spieldauer: 00.22.28\nTräger: Beta IMX",
+   "thema": "Personen: Gutzwiller, Felix: Fraktionschef FDP\nSachdeskriptor: /POLITIK./PARTEI;/SOZIALES./ALTERSVORSORGE/ZWEITE SÄULE",
+   "date": {
+    "from": "2007-06-13",
+    "to": null,
+    "expressed": "2007.06.13"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3495971",
+     "number": "2007/135",
+     "title": "2007/00135 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "Produced contemporaneously by Swiss public broadcaster SFDRS as part of a news broadcast.",
+  "resume": "This is a 22-second video clip from the Swiss public broadcaster SFDRS, documenting an FDP parliamentary group excursion in Heiden, Appenzell Ausserrhoden, on June 13, 2007. It includes statements by party members Felix Gutzwiller, Pascal Couchepin, and Fulvio Pelli, filmed during a visit to a tableware factory. The footage touches on political discussions regarding the rejection of the second pillar pension reform in the Council of States."
+ },
+ "metadata": {
+  "title": "Franktionsausflug FDP",
+  "title_normalized": "Franktionsausflug FDP",
+  "title_en": "FDP parliamentary group excursion",
+  "creator": "SF",
+  "publisher": "SFDRS",
+  "commissioner": null,
+  "date_created": "2007-06-13",
+  "date_published": "2007-06-13",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2007-06-13",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Swiss politics",
+   "FDP party",
+   "pension reform",
+   "political excursion"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 13.06.2007"
+  ],
+  "reference_code": "J2.225#2007/135#74#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22365853",
+  "accession_numbers": [
+   "2007/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Gutzwiller, Felix",
+    "display_name": "Felix Gutzwiller",
+    "role": "FDP parliamentary group leader",
+    "wikidata": {
+     "qid": "Q117099",
+     "label": "Felix Gutzwiller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q117099"
+    }
+   },
+   {
+    "name": "Couchepin, Pascal",
+    "display_name": "Pascal Couchepin",
+    "role": "Politician",
+    "wikidata": null
+   },
+   {
+    "name": "Pelli, Fulvio",
+    "display_name": "Fulvio Pelli",
+    "role": "Politician",
+    "wikidata": {
+     "qid": "Q115877",
+     "label": "Fulvio Pelli",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q115877"
+    }
+   },
+   {
+    "name": "Trütsch, Hanspeter",
+    "display_name": "Hanspeter Trütsch",
+    "role": "Author",
+    "wikidata": null
+   },
+   {
+    "name": "Stauber, Katja",
+    "display_name": "Katja Stauber",
+    "role": "Moderation",
+    "wikidata": {
+     "qid": "Q1384116",
+     "label": "Katja Stauber",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1384116"
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "FDP",
+    "role": "Political party",
+    "wikidata": {
+     "qid": "Q13124",
+     "label": "Free Democratic Party",
+     "description": "German political party",
+     "url": "https://www.wikidata.org/wiki/Q13124"
+    }
+   },
+   {
+    "name": "SFDRS",
+    "role": "Publisher/Broadcaster",
+    "wikidata": {
+     "qid": "Q116401",
+     "label": "Schweizer Fernsehen",
+     "description": "former television station in Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q116401"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Heiden",
+    "as_written": "Schweiz Heiden, AR",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.4421715,
+    "lon": 9.532089,
+    "gazetteer": "https://www.openstreetmap.org/relation/1683892",
+    "model_lat": 47.4,
+    "model_lon": 9.5
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi; uppercase or abbreviated title (apertus): \"Franktionsausflug FDP\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): \"Inhaltsangabe: … Sequenzbeschrieb: …\"",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (apertus): \"author\": \"AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): \"thema\": \"Personen: Gutzwiller, Felix: Fraktionschef FDP\"; named organizations or places (apertus): \"hierarchy_top_down\": [\"Schweizer Fernsehen DRS (Zürich)\"]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): \"expressed\": \"2007.06.13\"; free text places (apertus): \"scope_and_content\": \"Schweiz Heiden, AR:\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2007)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "\"Franktionsausflug FDP\""
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"Inhaltsangabe: … Sequenzbeschrieb: …\""
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"author\": \"AutorIn: Trütsch, Hanspeter: AUT\nProduktion: SF\""
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "\"expressed\": \"2007.06.13\""
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "\"scope_and_content\": \"Schweiz Heiden, AR:\""
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "\"thema\": \"Personen: Gutzwiller, Felix: Fraktionschef FDP\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "\"hierarchy_top_down\": [\"Schweizer Fernsehen DRS (Zürich)\"]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "low",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains names of public figures and political topics without personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2007-06-13",
+   "place": "Heiden, Appenzell Ausserrhoden",
+   "lat": 47.4421715,
+   "lon": 9.532089,
+   "description": "Video footage captured during FDP parliamentary group excursion and factory visit.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2007-06-13",
+   "place": "Heiden",
+   "lat": 47.4421715,
+   "lon": 9.532089,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/135#74#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4677,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "audiovisual"
+}

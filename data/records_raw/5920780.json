@@ -1,0 +1,91 @@
+{
+ "id": "5920780",
+ "uri": "https://culture.ld.admin.ch/ais/5920780",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/5920780",
+ "title": "Register zum Protokoll über den Auslauf des JPD für 1850",
+ "reference_code": "E21#1000/131#72b*",
+ "reference_number": "11.2.1.1.1.1",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1850-01-01",
+  "to": null,
+  "expressed": "1850"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/7779",
+   "number": "1000/131",
+   "title": "1000/00131 Bundesverwaltung (Bern) (1713-1975)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5911284",
+   "title": "Registraturbehelfe und Missivenbücher des JPD",
+   "level": "Serie",
+   "reference_code": "E21#11.2.1.1.1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5911238",
+   "title": "Allgemeines",
+   "level": "Serie",
+   "reference_code": "E21#11.2.1.1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5911064",
+   "title": "Aufstände in verschiedenen europäischen Ländern von 1848-1859",
+   "level": "Serie",
+   "reference_code": "E21#11.2.1.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910998",
+   "title": "Politische Flüchtlinge 1848-1881",
+   "level": "Serie",
+   "reference_code": "E21#11.2.1"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910921",
+   "title": "Flüchtlingswesen",
+   "level": "Serie",
+   "reference_code": "E21#11.2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/5910873",
+   "title": "Asylrecht, Flüchtlingswesen, Internierte",
+   "level": "Serie",
+   "reference_code": "E21#11"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3577",
+   "title": "Polizeiwesen",
+   "level": "Stock",
+   "reference_code": "E21*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": true
+}

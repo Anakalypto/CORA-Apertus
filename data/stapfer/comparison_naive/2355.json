@@ -1,0 +1,57 @@
+{
+ "id": 2355,
+ "signature": "BAR B0 1000/1483, Nr. 1461, fol. 59-60",
+ "reference": {
+  "place": "Bärschwil",
+  "canton_1799": "Solothurn",
+  "school_type": "Niedere Schule",
+  "confession": "Katholisch",
+  "teacher_name": "Urs Joseph Meyer",
+  "teacher_age": 36,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 13,
+  "pupils_winter": 48,
+  "pupils_summer": null,
+  "author_name": "Urs Joseph Meyer",
+  "date_written": "1799-02-20"
+ },
+ "apertus": {
+  "place": "Berschwil",
+  "canton_1799": "Solothurn",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Urs Joseph Meyer",
+  "teacher_age": 36,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 13,
+  "pupils_winter": 48,
+  "pupils_summer": 0,
+  "author_name": "Urs Joseph Meyer Schulm:",
+  "date_written": "1799-02-20"
+ },
+ "evidence": {
+  "place_as_written": "Berschwil",
+  "canton_1799": "$ Canton $$ Solothurn",
+  "teacher_name": "Urs Joseph Meyer",
+  "teacher_age": "36 Jahr",
+  "teacher_marital_status": "Familie und ein Kind",
+  "teacher_since": "13 Jahr",
+  "pupils_winter": "Knaben 23. @ Mägdchen 25. @@ 48 Kinder",
+  "pupils_summer": "Jm Somer ist keine Schule gehalten worden @ weil obschon es zu Wieder holten mahlen von @ Pfarrer ist verkündet worden Niemand @ erschienen ist."
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "match",
+  "pupils_summer": "both_empty",
+  "author_name": "match",
+  "date_written": "match"
+ },
+ "seconds": 9.64
+}

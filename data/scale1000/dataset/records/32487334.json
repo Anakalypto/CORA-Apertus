@@ -1,0 +1,315 @@
+{
+ "id": "32487334",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/32487334",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32487334",
+  "reference_code": "E1301#2022/124#12#8*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2014.3785: Motion Tschäppät Alexander. Eidgenössische Kommission für Alters- und Generationenfragen / Motion Tschäppät Alexander. Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Berset, Alain; Tschäppät, Alexander;",
+   "form": "Digital",
+   "date": {
+    "from": "2016-09-29",
+    "to": null,
+    "expressed": "2016.09.29"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/32487030",
+     "number": "2022/124",
+     "title": "2022/00124 Parlamentsdienste: Amtliches Bulletin (Bern) (2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "mixed",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim transcript of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This is a digital parliamentary record of a motion debated by Alexander Tschäppät and Alain Berset during the National Council session on 29 September 2016, documenting the discussion on matters related to ageing and intergenerational issues."
+ },
+ "metadata": {
+  "title": "2014.3785: Motion Tschäppät Alexander. Eidgenössische Kommission für Alters- und Generationenfragen / Motion Tschäppät Alexander. Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations",
+  "title_normalized": "2014.3785: Motion Tschäppät Alexander. Eidgenössische Kommission für Alters- und Generationenfragen / Motion Tschäppät Alexander. Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations",
+  "title_en": "Motion Tschäppät Alexander. Federal Commission for Age and Intergenerational Issues / Motion Tschäppät Alexander. Federal Commission for Age and Intergenerational Issues",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2016-09-29",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2022",
+  "content_date": "2016-09-29",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "ageing",
+   "intergenerational relations",
+   "parliamentary debate"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 2015 bis Herbstsession 2019",
+   "Herbstsession 2016",
+   "12. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2022/124#12#8*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32487334",
+  "accession_numbers": [
+   "2022/124"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Alain Berset",
+    "display_name": "Alain Berset",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Alexander Tschäppät",
+    "display_name": "Alexander Tschäppät",
+    "role": "speaker in debate",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Eidgenössische Kommission für Alters- und Generationenfragen",
+    "role": "subject of motion",
+    "wikidata": null
+   },
+   {
+    "name": "Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations",
+    "role": "subject of motion",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Bern",
+    "as_written": "Bern",
+    "role": "created",
+    "country": "CH",
+    "lat": 46.9484742,
+    "lon": 7.4521749,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682378",
+    "model_lat": 46.948,
+    "model_lon": 7.447
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"2014.3785: Motion Tschäppät Alexander. Eidgenössische Kommission für Alters- und Generationenfragen / Motion Tschäppät Alexander. Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Alain Berset\", \"Alexander Tschäppät\"]; named organizations or places (apertus): title: \"Eidgenössische Kommission für Alters- und Generationenfragen\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2016.09.29",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"2014.3785: Motion Tschäppät Alexander. Eidgenössische Kommission für Alters- und Generationenfragen / Motion Tschäppät Alexander. Commission fédérale pour les questions liées au vieillissement et aux relations entre les générations\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2016.09.29"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Alain Berset\", \"Alexander Tschäppät\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Eidgenössische Kommission für Alters- und Generationenfragen\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2016-09-29",
+   "place": "Bern",
+   "lat": 46.9484742,
+   "lon": 7.4521749,
+   "description": "Parliamentary debate recorded during National Council session",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2022",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2022/124 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2022/124#12#8*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4946,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

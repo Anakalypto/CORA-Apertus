@@ -1,0 +1,281 @@
+{
+ "id": "1106754",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/1106754",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1106754",
+  "reference_code": "J2.258-03#2003/375#17120*",
+  "level": "Dossier",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Articles de presse. 14 - 17 décembre 1998",
+   "reference_number": "23.13.03",
+   "date": {
+    "from": "1998-12-14",
+    "to": "1998-12-17",
+    "expressed": "1998.12.14-1998.12.17"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/565941",
+     "number": "2003/375",
+     "title": "2003/00375 Verein schweizerische Landesausstellung (Neuenburg) (1993-2004)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "press article",
+  "medium": "text",
+  "source_level": "secondary",
+  "source_level_rationale": "press material (convention: secondary): This unit is a straightforward collection of contemporary press articles related to the Swiss National Exhibition.",
+  "resume": "This document is a compilation of press articles covering the period from December 14 to December 17, 1998. It contains clippings or summaries of news coverage related to Expo.02, the Swiss National Exhibition held in 2002. The record itself is an archival file created by the marketing and communications department of the Expo.02 organizing association."
+ },
+ "metadata": {
+  "title": "Articles de presse. 14 - 17 décembre 1998",
+  "title_normalized": "Articles de presse. 14 - 17 décembre 1998",
+  "title_en": "Press articles. December 14 - 17, 1998",
+  "creator": "Verein schweizerische Landesausstellung (Neuenburg)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1998-12-14/1998-12-17",
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "1998-12-14/1998-12-17",
+  "languages": [
+   "fr"
+  ],
+  "subjects": [
+   "Expo.02",
+   "Swiss National Exhibition",
+   "press coverage",
+   "media monitoring"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizerische Landesausstellung, Biel, Neuchâtel, Yverdon-les-Bains und Murten 2002 (Expo.02)",
+  "fonds_reference": "J2.258*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizerische Landesausstellung, Biel, Neuchâtel, Yverdon-les-Bains und Murten 2002 (Expo.02)",
+   "Verein schweizerische Landesausstellung, Neuenburg: Zentrale Ablage (1995-2003)",
+   "Direktionen",
+   "Direktion Marketing und Kommunikation (DMC) / Direktion Marketing (DM)",
+   "Medien und Information",
+   "Personal"
+  ],
+  "reference_code": "J2.258-03#2003/375#17120*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1106754",
+  "accession_numbers": [
+   "2003/375"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Verein schweizerische Landesausstellung (Neuenburg)",
+    "role": "Creator of the compiled file",
+    "wikidata": null
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): hierarchy_top_down includes \"Verein schweizerische Landesausstellung\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: \"1998.12.14-1998.12.17\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: \"1998.12.14-1998.12.17\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "hierarchy_top_down includes \"Verein schweizerische Landesausstellung\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable personal data or sensitive topics involving named individuals are present."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1998-12-14/1998-12-17",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Compilation of press articles covering Expo.02 media coverage during the specified week.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/375 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.258-03#2003/375#17120*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.85,
+  "tokens": 4799,
+  "processed_at": "2026-10-19T03:42:28+00:00"
+ },
+ "stratum": "secondary_press",
+ "evidence_source_level": "secondary"
+}

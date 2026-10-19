@@ -1,0 +1,70 @@
+{
+ "id": "29657327",
+ "uri": "https://culture.ld.admin.ch/ais/29657327",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29657327",
+ "title": "Solothurner Filmtage",
+ "reference_code": "J2.225#2006/364#146#4*",
+ "reference_number": null,
+ "old_reference_code": "Signatur Bundesarchiv: J2.225#2006/364#1034*",
+ "alternate_reference": null,
+ "scope_and_content": "Sequenzbeschrieb: CH <Solothurn, SO: Besucher in Kino / Rede Stephan Portmann vor Zuhörern / Statement Pierre Lachat (Kritiker) / Statement Kurt Gloor (Regisseur)\nZusammenfassung: CH <Solothurn, SO: Filmtage Hearing zu Subventionsfragen",
+ "author": "Produktionsgesellschaft: DRS",
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Video",
+ "format": "Dauer: 00:03:56\nFarbe: SW\nFormat Arbeitskopie: Sicherheitskopie\nStartposition: 01.26.42\nTräger: Betacam-Digital",
+ "thema": "Personen: Portmann, Stephan;Lachat, Pierre;Gloor, Kurt\nSachdeskriptor: Film",
+ "country": null,
+ "date": {
+  "from": "1973-02-04",
+  "to": null,
+  "expressed": "1973.02.04"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/3376889",
+   "number": "2006/364",
+   "title": "2006/00364 Schweizer Fernsehen DRS (Z�rich) (1970-1978)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29657323",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 04.02.1973",
+   "level": "Dossier",
+   "reference_code": "J2.225#2006/364#146*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29656364",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 1973",
+   "level": "Serie",
+   "reference_code": "J2.225#10.1973"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29656360",
+   "title": "Panorama der Woche - Tél-Hebdo - Telerama 1970-1979",
+   "level": "Serie",
+   "reference_code": "J2.225#10"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

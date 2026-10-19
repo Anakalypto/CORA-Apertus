@@ -1,0 +1,287 @@
+{
+ "id": "3526205",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3526205",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3526205",
+  "reference_code": "E1301#1992/305#13#118*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "92.057-34: EWR. Anpassung des Bundesrechts (Eurolex). Bundesgesetz über die Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung. Aenderung / EEE. Adaptation du droit fédéral (Eurolex). Loi fédérale sur les prestations complémentaires à l'assurance-vieillesse, survivants et invalidité. Modification",
+   "date": {
+    "from": "1992-10-09",
+    "to": null,
+    "expressed": "1992.10.09"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383467",
+     "number": "1992/305",
+     "title": "1992/00305 Parlamentsdienste (Bern) (1992)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "Created contemporaneously by the Swiss National Council as an official record of parliamentary proceedings.",
+  "resume": "This document is the official protocol of the Swiss National Council session on October 9, 1992, concerning the amendment of the Federal Law on Supplementary Benefits to Old-Age, Survivors' and Invalidity Insurance as part of the Eurolex adaptation process. It records parliamentary debate and voting on the legislative change required for Switzerland's alignment with the European Economic Area. The record is a verbatim transcript of the National Council proceedings."
+ },
+ "metadata": {
+  "title": "92.057-34: EWR. Anpassung des Bundesrechts (Eurolex). Bundesgesetz über die Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung. Aenderung / EEE. Adaptation du droit fédéral (Eurolex). Loi fédérale sur les prestations complémentaires à l'assurance-vieillesse, survivants et invalidité. Modification",
+  "title_normalized": "92.057-34: EWR. Anpassung des Bundesrechts (Eurolex). Bundesgesetz über die Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung. Aenderung / EEE. Adaptation du droit fédéral (Eurolex). Loi fédérale sur les prestations complémentaires à l'assurance-vieillesse, survivants et invalidité. Modification",
+  "title_en": "92.057-34: EEA. Adaptation of Federal Law (Eurolex). Federal Act on Supplementary Benefits to Old-Age, Survivors' and Invalidity Insurance. Amendment",
+  "creator": "Swiss National Council",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1992-10-09",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1992",
+  "content_date": "1992-10-09",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "Swiss federal legislation",
+   "Eurolex",
+   "Supplementary benefits",
+   "Old-age insurance",
+   "Survivors' benefits",
+   "Invalidity insurance"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1991 bis Herbstsession 1995",
+   "Herbstsession 1992",
+   "13. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1992/305#13#118*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3526205",
+  "accession_numbers": [
+   "1992/305"
+  ]
+ },
+ "entities": {
+  "persons": [],
+  "organizations": [
+   {
+    "name": "Swiss National Council",
+    "role": "creator",
+    "wikidata": {
+     "qid": "Q676078",
+     "label": "National Council of Switzerland",
+     "description": "lower house",
+     "url": "https://www.wikidata.org/wiki/Q676078"
+    }
+   }
+  ],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): Title contains German and French text",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named organizations or places (apertus): Nationalrat, Parlamentsdienste (Bern)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): Date expressed as '1992.10.09'",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Title contains German and French text"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Date expressed as '1992.10.09'"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Nationalrat, Parlamentsdienste (Bern)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": false,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No personal data or sensitive categories identified in the metadata."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1992-10-09",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Official protocol of the Swiss National Council session recording parliamentary debate on Eurolex-related amendments to the supplementary benefits law.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1992",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1992/305 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1992/305#13#118*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.95,
+  "tokens": 4154,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "other"
+}

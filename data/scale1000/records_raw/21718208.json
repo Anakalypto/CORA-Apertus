@@ -1,0 +1,70 @@
+{
+ "id": "21718208",
+ "uri": "https://culture.ld.admin.ch/ais/21718208",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21718208",
+ "title": "Tagesschau - Téléjournal - Telegiornale (TS), 11.11.1963",
+ "reference_code": "J2.225#1996/68#2070#1*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: TSSRG 63/268/04; Rolle 369\nSignatur Bundesarchiv: J2.225#1996/68#28696*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: BRD Bonn: Besuch US-Unterstaatssekretär George Ball\nSequenzbeschrieb: BRD Bonn: Ankunft und Begrüssung George Ball / Ball im Gespräch mit Politikern",
+ "author": "Produktion: Agenturen",
+ "publisher": "HerausgeberIn: SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 04.11.1963-18.11.1963",
+ "form": "Video",
+ "format": "Dauer: 0.42\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.13.56\nTräger: Betacam-Digital",
+ "thema": "Personen: Ball, George\nSachdeskriptor: Internationale Beziehungen",
+ "country": null,
+ "date": {
+  "from": "1963-11-11",
+  "to": null,
+  "expressed": "1963.11.11"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+   "number": "1996/68",
+   "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21718207",
+   "title": "Tagesschau SFDRS 11.11.1963",
+   "level": "Dossier",
+   "reference_code": "J2.225#1996/68#2070*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690372",
+   "title": "Tagesschau SFDRS 1963",
+   "level": "Serie",
+   "reference_code": "J2.225#5.1963"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/21690360",
+   "title": "Tagesschau 1957-1989 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

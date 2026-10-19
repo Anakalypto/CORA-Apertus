@@ -1,0 +1,345 @@
+{
+ "id": "21907134",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21907134",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21907134",
+  "reference_code": "J2.225#2003/309#170#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS): Zuversicht bei GC trotz Spielerschwund, 20.06.2003",
+   "old_reference_code": "Original Signatur: TSSFDRS 2500989\nSignatur Bundesarchiv: J2.225#2003/309#2172*",
+   "scope_and_content": "Inhaltsangabe: USA New York: Duplex Jens Korte",
+   "author": "Produktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Aebischer, Matthias",
+   "coverage": "Geografische Abdeckung: Nordamerika (USA, Kanada) ohne Hawaï\nZeitliche Abdeckung: 13.06.2003-27.06.2003",
+   "form": "Video",
+   "format": "Dauer: 00:01:39\nFarbe: Farbaufnahmen\nStartposition: 00.32.46",
+   "thema": "Personen: Korte, Jens",
+   "date": {
+    "from": "2003-06-20",
+    "to": null,
+    "expressed": "2003.06.20"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/492840",
+     "number": "2003/309",
+     "title": "2003/00309 Schweizer Fernsehen DRS (Z�rich) (2003)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news program produced and published by SRG SSR idée suisse, making it a primary source of contemporary news content.",
+  "resume": "This is a video news report from Tagesschau Hauptausgabe (TS) dated 20 June 2003, covering topics related to GC and player shortages in the USA and Canada during the period 13–27 June 2003. The segment features presenter Matthias Aebischer and includes an interview with Jens Korte. The content is produced by DRS and published by SRG SSR idée suisse."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS): Zuversicht bei GC trotz Spielerschwund, 20.06.2003",
+  "title_normalized": "Tagesschau Hauptausgabe (TS): Zuversicht bei GC trotz Spielerschwund, 20.06.2003",
+  "title_en": "Tagesschau Hauptausgabe (TS): Confidence in GC Despite Player Shortage, 20 June 2003",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "2003-06-20",
+  "date_updated": null,
+  "date_archived": "2003",
+  "content_date": "2003-06-20",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "GC",
+   "player shortage",
+   "USA",
+   "Canada"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2003",
+   "Tagesschau SFDRS 20.06.2003"
+  ],
+  "reference_code": "J2.225#2003/309#170#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21907134",
+  "accession_numbers": [
+   "2003/309"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Matthias Aebischer",
+    "display_name": "Matthias Aebischer",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q119144",
+     "label": "Matthias Aebischer",
+     "description": "Swiss journalist and politician",
+     "url": "https://www.wikidata.org/wiki/Q119144"
+    },
+    "life_date_check": {
+     "born": 1967,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Korte, Jens",
+    "display_name": "Jens Korte",
+    "role": "interviewee",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "DRS",
+    "role": "production",
+    "wikidata": null
+   },
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "USA",
+    "as_written": "Nordamerika (USA, Kanada) ohne Hawa�",
+    "role": "depicted",
+    "country": "US",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 37.0,
+    "model_lon": -96.0
+   },
+   {
+    "name": "Canada",
+    "as_written": "Kanada",
+    "role": "depicted",
+    "country": "CA",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 56.0,
+    "model_lon": -106.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (rule): coverage: Geografische Abdeckung: Nordamerika (USA, Kanada) ",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 00:01:39\nFarbe: Farbaufnahmen\nStartposition",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): involved: [{\"name\": \"Matthias Aebischer\", \"role\": \"presenter\"}]; named organizations or places (apertus): publisher: [{\"name\": \"SRG SSR idée suisse\", \"role\": \"publisher\"}]",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2003.06.20",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (2003)\"}], \"hi"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "coverage: Geografische Abdeckung: Nordamerika (USA, Kanada) "
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 00:01:39\nFarbe: Farbaufnahmen\nStartposition"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2003.06.20"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "involved: [{\"name\": \"Matthias Aebischer\", \"role\": \"presenter\"}]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "publisher: [{\"name\": \"SRG SSR idée suisse\", \"role\": \"publisher\"}]"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2003-06-20",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau Hauptausgabe (TS) segment covering GC and player shortage.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2003",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2003/309 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2003/309#170#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5238,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

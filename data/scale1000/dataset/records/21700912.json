@@ -1,0 +1,384 @@
+{
+ "id": "21700912",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21700912",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21700912",
+  "reference_code": "J2.225#1996/68#885#1*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau - Téléjournal - Telegiornale (TS), 21.12.1959",
+   "old_reference_code": "Original Signatur: TSSRG 59/302/02; Rolle 149\nSignatur Bundesarchiv: J2.225#1996/68#18681*",
+   "scope_and_content": "Inhaltsangabe: Frankreich Paris: Abschluss der westlichen Gipfelkonferenzüber Ost-West-Beziehungen, Abrüstung und Deutschland-Problem\nSequenzbeschrieb: Frankreich Paris: Ankunft AM Maurice Couve de Murville, AMChristian Herter, BK Konrad Adenauer, PM Harold Macmillan und AM Selwyn Lloyd vor Elyséepalast / Ankunft P Dwight Eisenhower mit Helikopter, Abflug im Flugzeug",
+   "author": "Produktion: Agenturen",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 14.12.1959-28.12.1959",
+   "form": "Video",
+   "format": "Dauer: 3.50\nFarbe: Schwarzweissaufnahmen\nOriginalformat: V-U; 16 mm\nStartposition: 10.37.13\nTräger: Betacam-Digital",
+   "thema": "Personen: Couve de Murville, Maurice; Herter, Christian; Adenauer, Konrad; Macmillan, Harold; Lloyd, Selwyn; Eisenhower, Dwight\nSachdeskriptor: Aussenpolitik",
+   "date": {
+    "from": "1959-12-21",
+    "to": null,
+    "expressed": "1959.12.21"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video footage of a news broadcast created at the time of the events.",
+  "resume": "A television news report covering the Western summit conference in Paris on 21 December 1959, showing the arrival of political leaders at the Élysée Palace and the departure of President Eisenhower."
+ },
+ "metadata": {
+  "title": "Tagesschau - Téléjournal - Telegiornale (TS), 21.12.1959",
+  "title_normalized": "Tagesschau - Téléjournal - Telegiornale (TS), 21.12.1959",
+  "title_en": "Tagesschau - Téléjournal - Telegiornale (TS), 21 December 1959",
+  "creator": "Agenturen",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1959-12-21",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1959-12-21",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "politics",
+   "summit meetings",
+   "Cold War"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1959",
+   "Tagesschau SFDRS 21.12.1959"
+  ],
+  "reference_code": "J2.225#1996/68#885#1*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21700912",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Couve de Murville, Maurice",
+    "display_name": "Maurice Couve de Murville",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q312034",
+     "label": "Maurice Couve de Murville",
+     "description": "81st Prime Minister of France (1907-1999)",
+     "url": "https://www.wikidata.org/wiki/Q312034"
+    },
+    "life_date_check": {
+     "born": 1907,
+     "died": 1999,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Herter, Christian",
+    "display_name": "Christian Herter",
+    "role": "depicted",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Adenauer, Konrad",
+    "display_name": "Konrad Adenauer",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q2492",
+     "label": "Konrad Adenauer",
+     "description": "German politician, Chancellor of West Germany (1949–1963), Zentrum and CDU",
+     "url": "https://www.wikidata.org/wiki/Q2492"
+    },
+    "life_date_check": {
+     "born": 1876,
+     "died": 1967,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Macmillan, Harold",
+    "display_name": "Harold Macmillan",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q128985",
+     "label": "Harold Macmillan",
+     "description": "Prime Minister of the United Kingdom from 1957 to 1963",
+     "url": "https://www.wikidata.org/wiki/Q128985"
+    },
+    "life_date_check": {
+     "born": 1894,
+     "died": 1986,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Lloyd, Selwyn",
+    "display_name": "Selwyn Lloyd",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q333080",
+     "label": "Selwyn Lloyd",
+     "description": "politician (1904-1978)",
+     "url": "https://www.wikidata.org/wiki/Q333080"
+    },
+    "life_date_check": {
+     "born": 1904,
+     "died": 1978,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eisenhower, Dwight",
+    "display_name": "Dwight Eisenhower",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q9916",
+     "label": "Dwight D. Eisenhower",
+     "description": "president of the United States from 1953 to 1961 (1890–1969)",
+     "url": "https://www.wikidata.org/wiki/Q9916"
+    },
+    "life_date_check": {
+     "born": 1890,
+     "died": 1969,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": [
+   {
+    "name": "Paris",
+    "as_written": "Frankreich Paris",
+    "role": "depicted",
+    "country": "FR",
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "gazetteer": "https://www.openstreetmap.org/relation/71525",
+    "model_lat": 48.8566,
+    "model_lon": 2.3522
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): zer Fernsehen DRS (Z�rich) (1957-1989)\"}]",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): format: Dauer: 3.50\nFarbe: Schwarzweissaufnahmen\nOriginalf",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Couve de Murville, Maurice; Herter, Christian; Adenauer, Konrad; Macmillan, Harold; Lloyd, Selwyn; Eisenhower, Dwight; named organizations or places (apertus): Geografische Abdeckung: Westeuropa ohne Skandinavien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1959.12.21",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "zer Fernsehen DRS (Z�rich) (1957-1989)\"}]"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "format: Dauer: 3.50\nFarbe: Schwarzweissaufnahmen\nOriginalf"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1959.12.21"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Couve de Murville, Maurice; Herter, Christian; Adenauer, Konrad; Macmillan, Harold; Lloyd, Selwyn; Eisenhower, Dwight"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Westeuropa ohne Skandinavien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "1959-12-21",
+   "place": "Paris",
+   "lat": 48.8534951,
+   "lon": 2.3483915,
+   "description": "News report covering Western summit conference.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#885#1*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5387,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

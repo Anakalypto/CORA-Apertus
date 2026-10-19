@@ -1,0 +1,428 @@
+{
+ "id": "3522887",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3522887",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522887",
+  "reference_code": "E1301#1988/226#5#40*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "88.415: Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays",
+   "scope_and_content": "Sprecher/Sprecherinnen: Bär, Rosmarie; Bremi, Ulrich; Caccia, Fulvio; Jaeger, Franz; Jeanneret, François; Mauch, Ursula; Ogi, Adolf; Rychen, Albrecht; Schüle, Kurt; Segmüller, Eva",
+   "date": {
+    "from": "1988-09-26",
+    "to": null,
+    "expressed": "1988.09.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3383430",
+     "number": "1988/226",
+     "title": "1988/00226 Parlamentsdienste (Bern) (1988)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "sound",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a verbatim protocol of a National Council debate, created at the time of the event by the Council.",
+  "resume": "This document is a parliamentary postulate concerning the energy supply of Switzerland, recorded during a session of the National Council in autumn 1988. It lists multiple speakers who participated in the debate and is part of the Swiss Federal Archives' holdings of National Council meeting protocols."
+ },
+ "metadata": {
+  "title": "88.415: Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays",
+  "title_normalized": "Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays",
+  "title_en": "Postulate of the Social Democratic Group. Electricity Supply of Switzerland / Postulate of the Socialist Group. Energy Supply of the Country",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1988-09-26",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "1988",
+  "content_date": "1988-09-26",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "energy policy",
+   "electricity supply",
+   "Swiss parliament"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Tonaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Wintersession 1987 bis Herbstsession 1991",
+   "Herbstsession 1988",
+   "5. Verhandlungstag"
+  ],
+  "reference_code": "E1301#1988/226#5#40*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3522887",
+  "accession_numbers": [
+   "1988/226"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Rosmarie Bär",
+    "display_name": "Rosmarie Bär",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2167523",
+     "label": "Rosmarie Bär",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q2167523"
+    },
+    "life_date_check": {
+     "born": 1947,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ulrich Bremi",
+    "display_name": "Ulrich Bremi",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q2475610",
+     "label": "Ulrich Bremi",
+     "description": "Swiss politician (1929-2021)",
+     "url": "https://www.wikidata.org/wiki/Q2475610"
+    },
+    "life_date_check": {
+     "born": 1929,
+     "died": 2021,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fulvio Caccia",
+    "display_name": "Fulvio Caccia",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120703",
+     "label": "Fulvio Caccia",
+     "description": "Swiss poet, politician and writer",
+     "url": "https://www.wikidata.org/wiki/Q120703"
+    },
+    "life_date_check": {
+     "born": 1942,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Franz Jaeger",
+    "display_name": "Franz Jaeger",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q122033",
+     "label": "Franz Jaeger",
+     "description": "Swiss politician and economist",
+     "url": "https://www.wikidata.org/wiki/Q122033"
+    },
+    "life_date_check": {
+     "born": 1941,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "François Jeanneret",
+    "display_name": "François Jeanneret",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q120671",
+     "label": "François Jeanneret",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q120671"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ursula Mauch",
+    "display_name": "Ursula Mauch",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q21509161",
+     "label": "Ursula Mauch",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q21509161"
+    },
+    "life_date_check": {
+     "born": 1935,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Adolf Ogi",
+    "display_name": "Adolf Ogi",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Albrecht Rychen",
+    "display_name": "Albrecht Rychen",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1651893",
+     "label": "Albrecht Rychen",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1651893"
+    },
+    "life_date_check": {
+     "born": 1948,
+     "died": 2025,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Schüle",
+    "display_name": "Kurt Schüle",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q131671410",
+     "label": "Kurt Schüle",
+     "description": "Schaffhausen politician (1944-2022)",
+     "url": "https://www.wikidata.org/wiki/Q131671410"
+    },
+    "life_date_check": {
+     "born": 1944,
+     "died": 2022,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Eva Segmüller",
+    "display_name": "Eva Segmüller",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q1379484",
+     "label": "Eva Segmüller",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q1379484"
+    },
+    "life_date_check": {
+     "born": 1932,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "uppercase or abbreviated title (apertus): title: \"88.415: Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays\"",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: \"Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays\"",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): speakers_in_debate: [\"Rosmarie Bär\", \"Ulrich Bremi\", \"Fulvio Caccia\", \"Franz Jaeger\", \"François Jeanneret\", \"Ursula Mauch\", \"Adolf Ogi\", \"Albrecht Rychen\", \"Kurt Schüle\", \"Eva Segmüller\"]; named organizations or places (apertus): title: \"Stromversorgung der Schweiz\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1988.09.26",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": true,
+   "apertus": true,
+   "rule": false,
+   "evidence": "title: \"88.415: Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays\""
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Postulat der sozialdemokratischen Fraktion. Stromversorgung der Schweiz / Postulat du groupe socialiste. Approvisionnement énergétique du pays\""
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1988.09.26"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: [\"Rosmarie Bär\", \"Ulrich Bremi\", \"Fulvio Caccia\", \"Franz Jaeger\", \"François Jeanneret\", \"Ursula Mauch\", \"Adolf Ogi\", \"Albrecht Rychen\", \"Kurt Schüle\", \"Eva Segmüller\"]"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: \"Stromversorgung der Schweiz\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, intelligence, asylum, religion, sexual life or political opinion data."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "1988",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1988/226 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#1988/226#5#40*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 1.0,
+  "tokens": 5152,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

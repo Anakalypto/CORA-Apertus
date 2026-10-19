@@ -1,0 +1,342 @@
+{
+ "id": "29672714",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29672714",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29672714",
+  "reference_code": "J2.225#2008/121#26#59*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "SPD-Parteitag",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504536\nSignatur Bundesarchiv: J2.225#2008/121#31*",
+   "scope_and_content": "Inhaltsangabe: Deutschland <Hamburg: Parteitag der SPD / Kontroverse um künftige Ausrichtung der Partei\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Deutschland <Hamburg: Ankunft und Fototermin Kurt Beck (neutrale Personensequenz) / Statement Kurt Beck / Rede Kurt Beck / Statement Andrea Nahles / Applaus für Kurt Beck / Statement Michael Sommer / Blumen und Applaus für Kurt Beck",
+   "author": "AutorIn: Vogel, Thomas (SPIB)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:39\nPosition Anfang: 00:51:49",
+   "thema": "Personen: Nahles, Andrea (Stellvertretende Parteivorsitzende SPD)\nSachdeskriptor: /POLITIK./PARTEI",
+   "date": {
+    "from": "2007-10-26",
+    "to": null,
+    "expressed": "2007.10.26"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production of a live event.",
+  "resume": "A video recording of the SPD party congress in Hamburg, showing Kurt Beck, Andrea Nahles, and Michael Sommer delivering statements amid applause."
+ },
+ "metadata": {
+  "title": "SPD-Parteitag",
+  "title_normalized": "SPD-Parteitag",
+  "title_en": "SPD Party Congress",
+  "creator": "SF",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2007-10-26",
+  "date_published": "2007-10-26",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-10-26",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "politics",
+   "party",
+   "SPD"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 26.10.2007"
+  ],
+  "reference_code": "J2.225#2008/121#26#59*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29672714",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Andrea Nahles",
+    "display_name": "Andrea Nahles",
+    "role": "speaker",
+    "wikidata": {
+     "qid": "Q62810",
+     "label": "Andrea Nahles",
+     "description": "German politician",
+     "url": "https://www.wikidata.org/wiki/Q62810"
+    },
+    "life_date_check": {
+     "born": 1970,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Kurt Beck",
+    "display_name": "Kurt Beck",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Michael Sommer",
+    "display_name": "Michael Sommer",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Thomas (SPIB) Vogel",
+    "display_name": "Thomas (SPIB) Vogel",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SPD",
+    "role": "subject",
+    "wikidata": null
+   },
+   {
+    "name": "Swiss Federal Archives",
+    "role": "archival holding",
+    "wikidata": {
+     "qid": "Q679141",
+     "label": "Swiss Federal Archives",
+     "description": "national archives of Switzerland, based in Bern",
+     "url": "https://www.wikidata.org/wiki/Q679141"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Hamburg",
+    "as_written": "Hamburg",
+    "role": "depicted",
+    "country": "DE",
+    "lat": 53.5501721,
+    "lon": 10.0013165,
+    "gazetteer": "https://www.openstreetmap.org/relation/62782",
+    "model_lat": 53.55,
+    "model_lon": 9.99
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2008/121#31*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Vogel, Thomas (SPIB)\nProduktionsgesellsch",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Nahles, Andrea (Stellvertretende Parteivorsitzende SPD); named organizations or places (apertus): Personen: Nahles, Andrea (Stellvertretende Parteivorsitzende SPD)\nSachdeskriptor: /POLITIK./PARTEI",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): date: expressed: 2007.10.26; free text places (apertus): Sequenzbeschrieb: Deutschland <Hamburg: Ankunft und Fototermin Kurt Beck (neutrale Personensequenz)",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2008/121#31*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Vogel, Thomas (SPIB)\nProduktionsgesellsch"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "date: expressed: 2007.10.26"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Deutschland <Hamburg: Ankunft und Fototermin Kurt Beck (neutrale Personensequenz)"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Nahles, Andrea (Stellvertretende Parteivorsitzende SPD)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Nahles, Andrea (Stellvertretende Parteivorsitzende SPD)\nSachdeskriptor: /POLITIK./PARTEI"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-10-26",
+   "place": "Hamburg",
+   "lat": 53.5501721,
+   "lon": 10.0013165,
+   "description": "Video recording of SPD party congress statements.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#26#59*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5128,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

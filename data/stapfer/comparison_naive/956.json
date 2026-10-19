@@ -1,0 +1,57 @@
+{
+ "id": 956,
+ "signature": "BAR B0 1000/1483, Nr. 1429, fol. 226-227v",
+ "reference": {
+  "place": "Walliswil bei Wangen",
+  "canton_1799": "Bern",
+  "school_type": "Niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johannes Pfister",
+  "teacher_age": 42,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 12,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Johannes Pfister",
+  "date_written": "1799-02-27"
+ },
+ "apertus": {
+  "place": "Hatswil",
+  "canton_1799": "Bern",
+  "school_type": null,
+  "confession": null,
+  "teacher_name": "Johannes Pfister",
+  "teacher_age": 42,
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": 12,
+  "pupils_winter": 71,
+  "pupils_summer": 0,
+  "author_name": "Wallisweil Kirch Gemeind Wangen",
+  "date_written": "1799-03-17"
+ },
+ "evidence": {
+  "place_as_written": "Wallisweil",
+  "canton_1799": "Bern",
+  "teacher_name": "Johannes Pfister",
+  "teacher_age": "42 Jahr",
+  "teacher_marital_status": "verheiratet",
+  "teacher_since": "12 Jahr",
+  "pupils_winter": "Knaben 36. @ Mägdlein 35.",
+  "pupils_summer": "nichts"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "missed",
+  "confession": "missed",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "match",
+  "teacher_since": "match",
+  "pupils_winter": "extra",
+  "pupils_summer": "both_empty",
+  "author_name": "mismatch",
+  "date_written": "mismatch"
+ },
+ "seconds": 10.08
+}

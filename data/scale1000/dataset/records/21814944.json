@@ -1,0 +1,373 @@
+{
+ "id": "21814944",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/21814944",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21814944",
+  "reference_code": "J2.225#1996/68#10296#5*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau (TS), 02.09.1986",
+   "old_reference_code": "Original Signatur: TSSRG E86/1448\nSignatur Bundesarchiv: J2.225#1996/68#12578*",
+   "scope_and_content": "Inhaltsangabe: Iran, Irak: Vorrücken der iranischen Truppen, Golfkrieg\nSequenzbeschrieb: Irak Arbil: Gefecht auf See / LA Panzer / Soldaten-Leichen; Iran Teheran: Rede Ayatollah Khomeiny; Irak o.O.: P Saddam Hussein an der Front / Helikopter / Luftangriffe",
+   "author": "AutorIn: Antoniazzi, Antonio\nProduktion: DRS",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "coverage": "Geografische Abdeckung: Naher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien\nZeitliche Abdeckung: 26.08.1986-09.09.1986",
+   "form": "Video",
+   "format": "Dauer: 1.09\nFarbe: Farbaufnahmen\nOriginalformat: U-Matic\nStartposition: 00.00.55\nTräger: Betacam-SP",
+   "thema": "Personen: Khomeiny, Ayatollah; Hussein, Saddam\nSachdeskriptor: Internationaler Konflikt",
+   "date": {
+    "from": "1986-09-02",
+    "to": null,
+    "expressed": "1986.09.02"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/16884",
+     "number": "1996/68",
+     "title": "1996/00068 Schweizer Fernsehen DRS (Z�rich) (1957-1989)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast recording of a news program created at the time of the events.",
+  "resume": "This is a video news report from Tagesschau (TS) dated 2 September 1986, covering the Iran-Iraq conflict during the Gulf War with footage of military engagements, speeches by Ayatollah Khomeini and Saddam Hussein, and aerial attacks."
+ },
+ "metadata": {
+  "title": "Tagesschau (TS), 02.09.1986",
+  "title_normalized": "Tagesschau (TS), 02.09.1986",
+  "title_en": "Tagesschau (TS), 02.09.1986",
+  "creator": "DRS",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": null,
+  "date_published": "1986-09-02",
+  "date_updated": null,
+  "date_archived": "1996",
+  "content_date": "1986-09-02",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Iran-Iraq conflict",
+   "Ayatollah Khomeini",
+   "Saddam Hussein"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1957-1989 SFDRS",
+   "Tagesschau SFDRS 1986",
+   "Tagesschau SFDRS 02.09.1986"
+  ],
+  "reference_code": "J2.225#1996/68#10296#5*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/21814944",
+  "accession_numbers": [
+   "1996/68"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Khomeiny, Ayatollah",
+    "display_name": "Ayatollah Khomeiny",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q38823",
+     "label": "Ruhollah Khomeini",
+     "description": "Supreme Leader of Iran from 1979 to 1989",
+     "url": "https://www.wikidata.org/wiki/Q38823"
+    },
+    "life_date_check": {
+     "born": 1902,
+     "died": 1989,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Hussein, Saddam",
+    "display_name": "Saddam Hussein",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q1316",
+     "label": "Saddam Hussein",
+     "description": "Iraqi politician and revolutionary, president of Iraq from 1979 to 2003",
+     "url": "https://www.wikidata.org/wiki/Q1316"
+    },
+    "life_date_check": {
+     "born": 1937,
+     "died": 2006,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   },
+   {
+    "name": "DRS",
+    "role": "creator",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Teheran",
+    "as_written": "Teheran",
+    "role": "depicted",
+    "country": "IR",
+    "lat": 35.6892523,
+    "lon": 51.3896004,
+    "gazetteer": "https://www.openstreetmap.org/relation/6663864",
+    "model_lat": 35.7,
+    "model_lon": 51.4
+   },
+   {
+    "name": "Arbil",
+    "as_written": "Irak Arbil",
+    "role": "depicted",
+    "country": "IR",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 36.3,
+    "model_lon": 44.2
+   },
+   {
+    "name": "Irak",
+    "as_written": "Irak",
+    "role": "depicted",
+    "country": "IR",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": 33.0,
+    "model_lon": 44.0
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#1996/68#12578*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Antoniazzi, Antonio\nProduktion: DRS",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Khomeiny, Ayatollah; Hussein, Saddam; named organizations or places (apertus): Geografische Abdeckung: Naher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 1986.09.02",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#1996/68#12578*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Antoniazzi, Antonio\nProduktion: DRS"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "1986.09.02"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Khomeiny, Ayatollah; Hussein, Saddam"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Geografische Abdeckung: Naher Osten und arabische Länder, inkl. Israel, Iran, Saudiarabien"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": null,
+   "place": "Teheran",
+   "lat": 35.6892523,
+   "lon": 51.3896004,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "publication",
+   "date": "1986-09-02",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau (TS) news report covering Iran-Iraq conflict.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "1996",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1996/68 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#1996/68#10296#5*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5427,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

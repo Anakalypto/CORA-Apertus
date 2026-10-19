@@ -1,0 +1,328 @@
+{
+ "id": "29659770",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29659770",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29659770",
+  "reference_code": "J2.225#2007/61#18#15*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Fussballer des Jahres 2006",
+   "old_reference_code": "Original Signatur: BPSFDRS 2503869\nSignatur Bundesarchiv: J2.225#2007/1#18*",
+   "scope_and_content": "Inhaltsangabe: Schweiz <Zürich, ZH: Fussball / Vor der Wahl des Fussballers des Jahres 2006\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: o.O.: ZS nominierte Fussballer (Fabio Cannavaro, Ronaldinho, Zinédine Zidane)\nSchweiz <Zürich, ZH: PK Ronaldinho und Fabio Cannavaro / Statement Fabio Cannavaro",
+   "author": "AutorIn: Meier, Gregor (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:01:44\nPosition Anfang: 01:25:21",
+   "thema": "Personen: Ronaldinho, (Fussballer)\nSachdeskriptor: /SENSATION./AUSZEICHNUNG;/SPORT./BALLSPORT/FUSSBALL",
+   "date": {
+    "from": "2006-12-18",
+    "to": null,
+    "expressed": "2006.12.18"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3418308",
+     "number": "2007/61",
+     "title": "2007/00061 Schweizer Fernsehen DRS (Z�rich) (2006-2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video production from the news program Tagesschau, created at the time of the events.",
+  "resume": "A short video segment from the Swiss television news program Tagesschau dated 18 December 2006, featuring statements by football players Fabio Cannavaro and Ronaldinho regarding the selection of the Footballer of the Year 2006."
+ },
+ "metadata": {
+  "title": "Fussballer des Jahres 2006",
+  "title_normalized": "Fussballer des Jahres 2006",
+  "title_en": "Footballer of the Year 2006",
+  "creator": "SF",
+  "publisher": "Swiss Federal Archives (BAR/AFS)",
+  "commissioner": null,
+  "date_created": "2006-12-18",
+  "date_published": "2006-12-18",
+  "date_updated": null,
+  "date_archived": "2007",
+  "content_date": "2006-12-18",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "football",
+   "award",
+   "sport"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 18.12.2006"
+  ],
+  "reference_code": "J2.225#2007/61#18#15*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29659770",
+  "accession_numbers": [
+   "2007/61"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Ronaldinho",
+    "display_name": "Ronaldinho",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q39444",
+     "label": "Ronaldinho",
+     "description": "Brazilian associaton fooball player (born 1980)",
+     "url": "https://www.wikidata.org/wiki/Q39444"
+    },
+    "life_date_check": {
+     "born": 1980,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Fabio Cannavaro",
+    "display_name": "Fabio Cannavaro",
+    "role": "depicted",
+    "wikidata": {
+     "qid": "Q102027",
+     "label": "Fabio Cannavaro",
+     "description": "Italian association football player and manager",
+     "url": "https://www.wikidata.org/wiki/Q102027"
+    },
+    "life_date_check": {
+     "born": 1973,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Swiss Federal Archives (BAR/AFS)",
+    "role": "archival institution",
+    "wikidata": null
+   }
+  ],
+  "places": [
+   {
+    "name": "Zürich",
+    "as_written": "Zürich, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 47.3744489,
+    "lon": 8.5410422,
+    "gazetteer": "https://www.openstreetmap.org/relation/1682248",
+    "model_lat": 47.3769,
+    "model_lon": 8.5417
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2007/1#18*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Meier, Gregor (AUT)\nProduktionsgesellscha",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Ronaldinho, (Fussballer); named organizations or places (apertus): Schweiz <Zürich, ZH",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2006.12.18; free text places (apertus): Schweiz <Zürich, ZH: Fussball / Vor der Wahl des Fussballers des Jahres 2006",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2007/1#18*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Meier, Gregor (AUT)\nProduktionsgesellscha"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2006.12.18"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <Zürich, ZH: Fussball / Vor der Wahl des Fussballers des Jahres 2006"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Ronaldinho, (Fussballer)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Schweiz <Zürich, ZH"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is personally concerned by sensitive categories."
+ },
+ "story": [
+  {
+   "event": "depicted",
+   "date": "2006-12-18",
+   "place": "Zürich",
+   "lat": 47.3744489,
+   "lon": 8.5410422,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2007",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2007/61 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2007/61#18#15*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5148,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

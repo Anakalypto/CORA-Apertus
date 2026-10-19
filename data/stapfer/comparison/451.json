@@ -1,0 +1,57 @@
+{
+ "id": 451,
+ "signature": "BAR B0 1000/1483, Nr. 1458, fol. 237-237v",
+ "reference": {
+  "place": "St. Gallen",
+  "canton_1799": "Säntis",
+  "school_type": "Vermengte Schule/niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Johan Conrad Baumgartner",
+  "teacher_age": 62,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 40,
+  "pupils_winter": null,
+  "pupils_summer": null,
+  "author_name": "Joh. Conrad Baumgartner",
+  "date_written": null
+ },
+ "apertus": {
+  "place": "Linsebüel",
+  "canton_1799": "Säntis",
+  "school_type": "Vermengte Schule/niedere Schule",
+  "confession": "Reformiert",
+  "teacher_name": "Joh. Conrad Baumgartner",
+  "teacher_age": 62,
+  "teacher_marital_status": "keine Angabe",
+  "teacher_since": 10,
+  "pupils_winter": 44,
+  "pupils_summer": 44,
+  "author_name": "Joh. Conrad Baumgartner",
+  "date_written": "1799-01-01"
+ },
+ "evidence": {
+  "canton_1799": "€ $ Canton. $$ €€ Säntis.",
+  "school_type": "€ in 2 Claßen abgetheilt. @@ 44. Schüler von ungleichem alter",
+  "confession": "Reformiert",
+  "teacher_name": "€€ Joh. Conrad Baumgartner.",
+  "teacher_age": "€€ 62 Jahr",
+  "teacher_since": "@ an der Stelle seit 1789 Pfarrer in Linsebüel und Lehrer @ der 2.ten Claß, sit 1794. $ Rector $$",
+  "pupils_winter": "€€ in 2 Claßen abgetheilt. @@ 44. Schüler",
+  "pupils_summer": "€€ in 2 Claßen abgetheilt. @@ 44. Schüler"
+ },
+ "result": {
+  "place": "mismatch",
+  "canton_1799": "match",
+  "school_type": "match",
+  "confession": "match",
+  "teacher_name": "match",
+  "teacher_age": "match",
+  "teacher_marital_status": "both_empty",
+  "teacher_since": "mismatch",
+  "pupils_winter": "extra",
+  "pupils_summer": "extra",
+  "author_name": "match",
+  "date_written": "extra"
+ },
+ "seconds": 10.4
+}

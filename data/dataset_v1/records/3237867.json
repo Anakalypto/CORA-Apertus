@@ -1,0 +1,285 @@
+{
+ "id": "3237867",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/3237867",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3237867",
+  "reference_code": "E27#1000/721#14095#1260*",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Stellung von schweren Haubitzen während des Manövers",
+   "scope_and_content": "Haubitzen  Artillerie / Division 1 + 2",
+   "author": "Fotograf: Buchter",
+   "form": "Fotografie",
+   "format": "Negativ; Glasplatte; Silberbromid; 13x18cm",
+   "date": {
+    "from": "1914-01-01",
+    "to": "1918-12-31",
+    "expressed": "1914.01.01-1918.12.31"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/11947",
+     "number": "1000/721",
+     "title": "1000/00721 Bundesverwaltung (Bern) (1600-1960)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "photograph",
+  "medium": "still image",
+  "source_level": "primary",
+  "source_level_rationale": "The photograph was taken by a military photographer at the time of the events, serving as direct visual documentation of the army's activities.",
+  "resume": "This is a photographic negative from the Swiss Federal Archives documenting heavy howitzer deployment during the army maneuvers of the First World War period. The image captures artillery units of the 1st and 2nd Divisions in action. It is part of the Swiss military's photographic record of the wartime mobilization."
+ },
+ "metadata": {
+  "title": "Stellung von schweren Haubitzen während des Manövers",
+  "title_normalized": "Stellung von schweren Haubitzen während des Manövers",
+  "title_en": "Position of heavy howitzers during the maneuvers",
+  "creator": "Buchter",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "1914-01-01/1918-12-31",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": null,
+  "content_date": "1914-01-01/1918-12-31",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "World War I",
+   "Swiss Army",
+   "Artillery",
+   "Military maneuvers",
+   "Photography"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Landesverteidigung (1848-1950)",
+  "fonds_reference": "E27*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Landesverteidigung (1848-1950)",
+   "Stabsdienste, Dienstzweige, Hilfsdienste. Einsatz der Armee",
+   "Massnahmen bei aussenpolitischen Spannungen, Grenzbesetzungen, Aktivdienste",
+   "Aktivdienst 1914-1918",
+   "Aktivdienstberichte, Aktivdiensterinnerungen",
+   "Aktivdiensterinnerungen, Fotosammlungen, Tagebücher",
+   "Fotosammlungen über den Aktivdienst",
+   "Bildarchiv der geografisch-archivistischen Sektion des Armeestabes [Aktivdienst und Kriegsgeschehen]",
+   "Negativplatten und digitale Abzüge 13 x 18 cm; Nr. 15 - 5758; Sch. 1 - 261"
+  ],
+  "reference_code": "E27#1000/721#14095#1260*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3237867",
+  "accession_numbers": [
+   "1000/721"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Buchter",
+    "display_name": "Buchter",
+    "role": "Photographer",
+    "wikidata": null
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): author: \"Fotograf: Buchter\"; named organizations or places (apertus): accessions[0].title: \"1000/00721 Bundesverwaltung (Bern) (1600-1960)\"",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (apertus): expressed: \"1914.01.01-1918.12.31\"",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: \"1914.01.01-1918.12.31\""
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "author: \"Fotograf: Buchter\""
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "accessions[0].title: \"1000/00721 Bundesverwaltung (Bern) (1600-1960)\""
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "Contains named person 'Buchter' and organization 'Bundesverwaltung (Bern)', no sensitive categories detected."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "1914-01-01/1918-12-31",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Photographic negative taken by Buchter documenting heavy howitzer positions during Swiss army maneuvers of the First World War period.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": null,
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 1000/721 into the Swiss Federal Archives (legacy holdings, year not recorded)",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E27#1000/721#14095#1260*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v1",
+   "audit": "v2"
+  },
+  "model": "apertus-v1-5-70b",
+  "audit_model": "apertus-v1-5-70b",
+  "confidence": 0.9,
+  "tokens": 4401,
+  "processed_at": "2026-10-18T21:53:52+00:00"
+ },
+ "stratum": "still_image"
+}

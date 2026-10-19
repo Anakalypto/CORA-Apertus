@@ -1,0 +1,310 @@
+{
+ "id": "30676649",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30676649",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30676649",
+  "reference_code": "E1301#2014/135#4#7*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "2010.3669: Postulat SGK-NR. Verschreibung von Arzneimitteln durch Spitäler / Postulat CSSS-CN. Prescription de médicaments par les hôpitaux",
+   "scope_and_content": "Autor: Sprecher/Sprecherinnen: Burkhalter, Didier; Cassis, Ignazio; Humbel, Ruth;",
+   "form": "Digital",
+   "date": {
+    "from": "2011-03-03",
+    "to": null,
+    "expressed": "2011.03.03"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/29730093",
+     "number": "2014/135",
+     "title": "2014/00135 Parlamentsdienste (Bern) (2011)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "parliamentary record",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct video recording of a parliamentary debate, created at the time of the events by the National Council.",
+  "resume": "This document is a parliamentary postulate concerning the prescription of medicines by hospitals, recorded during a session of the National Council in spring 2011. It includes statements by three members: Didier Burkhalter, Ignazio Cassis, and Ruth Humbel. The item is a video recording of the debate."
+ },
+ "metadata": {
+  "title": "2010.3669: Postulat SGK-NR. Verschreibung von Arzneimitteln durch Spitäler / Postulat CSSS-CN. Prescription de médicaments par les hôpitaux",
+  "title_normalized": "2010.3669: Postulat SGK-NR. Verschreibung von Arzneimitteln durch Spitäler / Postulat CSSS-CN. Prescription de médicaments par les hôpitaux",
+  "title_en": "Postulate SGK-NR: Prescription of Medicines by Hospitals / Postulate CSSS-CN: Prescription of Medicines by Hospitals",
+  "creator": "Nationalrat (National Council)",
+  "publisher": null,
+  "commissioner": null,
+  "date_created": "2011-03-03",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2014",
+  "content_date": "2011-03-03",
+  "languages": [
+   "de",
+   "fr"
+  ],
+  "subjects": [
+   "healthcare",
+   "hospital policy",
+   "medical prescription"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Nationalrat (1848-)",
+  "fonds_reference": "E10426*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Nationalrat (1848-)",
+   "Nationalrat: Verhandlungsprotokolle (1848-)",
+   "Verhandlungsprotokolle",
+   "Videoaufzeichnungen der Verhandlungen des Nationalrats",
+   "Legislaturperiode: Frühjahrsession 2009 bis Herbstsession 2011",
+   "Frühjahrssession 2011",
+   "4. Verhandlungstag"
+  ],
+  "reference_code": "E1301#2014/135#4#7*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30676649",
+  "accession_numbers": [
+   "2014/135"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Didier Burkhalter",
+    "display_name": "Didier Burkhalter",
+    "role": "speaker_in_debate",
+    "wikidata": null,
+    "life_date_check": null
+   },
+   {
+    "name": "Ignazio Cassis",
+    "display_name": "Ignazio Cassis",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q117254",
+     "label": "Ignazio Cassis",
+     "description": "99th President of the Swiss Confederation",
+     "url": "https://www.wikidata.org/wiki/Q117254"
+    },
+    "life_date_check": {
+     "born": 1961,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   },
+   {
+    "name": "Ruth Humbel",
+    "display_name": "Ruth Humbel",
+    "role": "speaker_in_debate",
+    "wikidata": {
+     "qid": "Q275490",
+     "label": "Ruth Humbel",
+     "description": "Swiss politician",
+     "url": "https://www.wikidata.org/wiki/Q275490"
+    },
+    "life_date_check": {
+     "born": 1957,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [],
+  "places": []
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "multilingual (apertus): title: '2010.3669: Postulat SGK-NR. Verschreibung von Arzneimitteln durch Spitäler / Postulat CSSS-CN. Prescription de médicaments par les hôpitaux'",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "low",
+   "reason": "named persons (apertus): speakers_in_debate: ['Didier Burkhalter', 'Ignazio Cassis', 'Ruth Humbel']",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2011.03.03",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "title: '2010.3669: Postulat SGK-NR. Verschreibung von Arzneimitteln durch Spitäler / Postulat CSSS-CN. Prescription de médicaments par les hôpitaux'"
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2011.03.03"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "speakers_in_debate: ['Didier Burkhalter', 'Ignazio Cassis', 'Ruth Humbel']"
+  },
+  "named_organizations_or_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion topics."
+ },
+ "story": [
+  {
+   "event": "accession",
+   "date": "2014",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2014/135 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E1301#2014/135#4#7*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4843,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

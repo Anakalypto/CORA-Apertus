@@ -1,0 +1,310 @@
+{
+ "id": "29674204",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/29674204",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674204",
+  "reference_code": "J2.225#2008/121#50#29*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "CO2-Denkschrift",
+   "old_reference_code": "Original Signatur: BPSFDRS 2504588\nSignatur Bundesarchiv: J2.225#2008/121#50*",
+   "scope_and_content": "Inhaltsangabe: Schweiz: Die Akademien der Wissenschaften fordern eine Abkehr von fossilen Energien und halten Emissionsgutschriften im Hinblick auf die CO2-Abgabe per 20080101 als unnötig\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <o.O.: René Dändliker Denkschrift an Walter Steinmann übergebend / Statement René Dändliker / René Dändliker neben Schüssel mit aufsteigendem Trockeneis (Symbolbild Treibhausgas)",
+   "author": "AutorIn: Gubser, Alexandra (AUT)\nProduktionsgesellschaft: SF",
+   "form": "Video",
+   "format": "Dauer: 00:00:46\nPosition Anfang: 01:46:01",
+   "thema": "Personen: Dändliker, René (Akademie der Wissenschaften)\nSachdeskriptor: /ENERGIE./ENERGIE/ENERGIESPAREN",
+   "date": {
+    "from": "2007-11-19",
+    "to": null,
+    "expressed": "2007.11.19"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+     "number": "2008/121",
+     "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct production (Eigenproduktion UE) of the Swiss television news program Tagesschau, capturing a live statement by René Dändliker.",
+  "resume": "The document is a short video segment from a Swiss television news report dated 19 November 2007, featuring René Dändliker of the Swiss Academy of Sciences discussing the need to move away from fossil fuels and questioning the relevance of emissions credits in the context of a CO2 levy."
+ },
+ "metadata": {
+  "title": "CO2-Denkschrift",
+  "title_normalized": "CO2-Denkschrift",
+  "title_en": "CO2 Thought Paper",
+  "creator": "SF",
+  "publisher": "Swiss Federal Archives (BAR/AFS)",
+  "commissioner": null,
+  "date_created": "2007-11-19",
+  "date_published": "2007-11-19",
+  "date_updated": null,
+  "date_archived": "2008",
+  "content_date": "2007-11-19",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "CO2",
+   "energy policy",
+   "energy conservation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau ab 2007 SFDRS",
+   "Tagesschau SFDRS 2007",
+   "Tagesschau SFDRS 19.11.2007"
+  ],
+  "reference_code": "J2.225#2008/121#50#29*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29674204",
+  "accession_numbers": [
+   "2008/121"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "René Dändliker",
+    "display_name": "René Dändliker",
+    "role": "speaker",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Academy of Sciences",
+    "role": "represented",
+    "wikidata": {
+     "qid": "Q414147",
+     "label": "academy of sciences",
+     "description": "national academy or another learned society dedicated to sciences",
+     "url": "https://www.wikidata.org/wiki/Q414147"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Switzerland",
+    "as_written": "Schweiz",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): Signatur Bundesarchiv: J2.225#2008/121#50*",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Gubser, Alexandra (AUT)\nProduktionsgesell",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Personen: Dändliker, René (Akademie der Wissenschaften); named organizations or places (apertus): Personen: Dändliker, René (Akademie der Wissenschaften)",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "nonstandard dates (apertus): expressed: 2007.11.19; free text places (apertus): Sequenzbeschrieb: Schweiz <o.O.: René Dändliker …",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Signatur Bundesarchiv: J2.225#2008/121#50*"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Gubser, Alexandra (AUT)\nProduktionsgesell"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "expressed: 2007.11.19"
+  },
+  "free_text_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Sequenzbeschrieb: Schweiz <o.O.: René Dändliker …"
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Dändliker, René (Akademie der Wissenschaften)"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Personen: Dändliker, René (Akademie der Wissenschaften)"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by health, criminal, police, asylum, religion, sexual life or political opinion topics."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2007-11-19",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Video segment aired as part of Tagesschau news report.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2008",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2008/121 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2008/121#50#29*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "ungrounded_entities"
+  ],
+  "ungrounded": [
+   "organization:Academy of Sciences"
+  ]
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5177,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

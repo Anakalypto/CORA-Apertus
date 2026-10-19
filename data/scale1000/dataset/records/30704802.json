@@ -1,0 +1,316 @@
+{
+ "id": "30704802",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/30704802",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704802",
+  "reference_code": "E8100F#2016/63#41#20*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Bahntechnik und Inbetriebssetzung Gotthard-Basislinie Gotthard-Basistunnel, Fachkoordination Sicherheit 02/14",
+   "scope_and_content": "Protokoll / Aktennotiz",
+   "involved": "Herausgeber: Bundesamt für Verkehr, Verfasser: Baumann",
+   "date": {
+    "from": "2014-04-16",
+    "to": null,
+    "expressed": "2014.04.16"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/30623258",
+     "number": "2016/63",
+     "title": "2016/00063 Bundesamt f�r Verkehr (Bern) (1990-2016)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "minutes / protocol",
+  "medium": "text",
+  "source_level": "primary",
+  "source_level_rationale": "The document is a protocol/note created by an author (Baumann) and published by the Federal Office of Transport, directly related to the events.",
+  "resume": "This is a protocol or note (Protokoll / Aktennotiz) concerning the coordination of safety for the Gotthard Base Tunnel infrastructure project, created by Baumann and published by the Federal Office of Transport on 16 April 2014."
+ },
+ "metadata": {
+  "title": "Bahntechnik und Inbetriebssetzung Gotthard-Basislinie Gotthard-Basistunnel, Fachkoordination Sicherheit 02/14",
+  "title_normalized": "Bahntechnik und Inbetriebssetzung Gotthard-Basislinie Gotthard-Basistunnel, Fachkoordination Sicherheit 02/14",
+  "title_en": "Railway Technology and Commissioning of the Gotthard Base Tunnel, Safety Coordination 02/14",
+  "creator": "Baumann",
+  "publisher": "Bundesamt für Verkehr",
+  "commissioner": null,
+  "date_created": "2014-04-16",
+  "date_published": null,
+  "date_updated": null,
+  "date_archived": "2016",
+  "content_date": "2014-04-16",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Gotthard Base Tunnel",
+   "railway infrastructure",
+   "safety coordination"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Bundesamt für Verkehr (1979-)",
+  "fonds_reference": "E10099*",
+  "path": [
+   "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "Bundesamt für Verkehr (1979-)",
+   "Bundesamt für Verkehr: Zentrale Ablage (2006-2013)",
+   "Bewilligungen Infrastruktur",
+   "Steuerung Grossprojekte",
+   "AlpTransit",
+   "Allgemeines",
+   "Projektorganisation Sicherheitsbericht AlpTransit, PO SiB-AT (Teil 41)"
+  ],
+  "reference_code": "E8100F#2016/63#41#20*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/30704802",
+  "accession_numbers": [
+   "2016/63"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Baumann",
+    "display_name": "Baumann",
+    "role": "author",
+    "wikidata": null,
+    "life_date_check": null
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Bundesamt für Verkehr",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q1005512",
+     "label": "Federal Office of Transport",
+     "description": "Swiss federal office",
+     "url": "https://www.wikidata.org/wiki/Q1005512"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Gotthard Base Tunnel",
+    "as_written": "Gotthard-Basislinie Gotthard-Basistunnel",
+    "role": "depicted",
+    "country": "CH",
+    "lat": 46.6808969,
+    "lon": 8.7653265,
+    "gazetteer": "https://www.openstreetmap.org/way/199664200",
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (rule): 16/00063 Bundesamt f�r Verkehr (Bern) (19",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Baumann; named organizations or places (apertus): Bundesamt für Verkehr",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2014.04.16",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "16/00063 Bundesamt f�r Verkehr (Bern) (19"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "packed_role_fields": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2014.04.16"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Baumann"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Bundesamt für Verkehr"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "creation",
+   "date": "2014-04-16",
+   "place": null,
+   "lat": null,
+   "lon": null,
+   "description": "Document created as a protocol/note on safety coordination for Gotthard Base Tunnel.",
+   "source": "apertus"
+  },
+  {
+   "event": "depicted",
+   "date": "2014-04-16",
+   "place": "Gotthard Base Tunnel",
+   "lat": 46.6808969,
+   "lon": 8.7653265,
+   "description": "Depicted place",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2016",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2016/63 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at E8100F#2016/63#41#20*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [
+   "date_archived_mismatch"
+  ],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 4758,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "other",
+ "evidence_source_level": null
+}

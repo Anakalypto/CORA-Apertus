@@ -1,0 +1,319 @@
+{
+ "id": "22343609",
+ "source": {
+  "uri": "https://culture.ld.admin.ch/ais/22343609",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22343609",
+  "reference_code": "J2.225#2006/165#64#23*",
+  "level": "Document",
+  "dataset": "Archive database of the Swiss Federal Archives (opendata.swiss)",
+  "original": {
+   "title": "Tagesschau Hauptausgabe (TS), 05.03.2006 ; Störung SBB wegen Schneefällen",
+   "old_reference_code": "Original Signatur: TSSFDRS 2503169\nSignatur Bundesarchiv: J2.225#2006/165#854*",
+   "scope_and_content": "Inhaltsangabe: CH: Trotz misslichen Wetterverhältnissen und ergiebigen Schneefällen praktisch pannenfreier SBB-Betrieb Kempthal, ZH: Stromausfall, Passagiere eines ICN-Zugs wurden mit Bussen befördert\nSequenzbeschrieb: CH o.O.: LA Flug sich kreuzender Doppelstock- und ICN-Zug (Schnee) Kempthal, ZH: LA Flug Passagiere auf Perron neben stehendem ICN-Zug",
+   "author": "AutorIn: Stephani, Kathrin\nProduktion: SF",
+   "publisher": "HerausgeberIn: SRG SSR idée suisse",
+   "involved": "Moderation: Stauber, Katja",
+   "coverage": "Geografische Abdeckung: Westeuropa ohne Skandinavien\nZeitliche Abdeckung: 05.03.2006-06.03.2006",
+   "form": "Video",
+   "format": "Dauer: 00:00:31\nFarbe: Farbaufnahmen\nStartposition: 01.21.17\nTräger: MPEG IMX",
+   "thema": "Sachdeskriptor: Wetter;SBB",
+   "date": {
+    "from": "2006-03-05",
+    "to": null,
+    "expressed": "2006.03.05"
+   },
+   "accessions": [
+    {
+     "uri": "https://culture.ld.admin.ch/ais/Event/3324677",
+     "number": "2006/165",
+     "title": "2006/00165 Schweizer Fernsehen DRS (Z�rich) (2006)"
+    }
+   ]
+  }
+ },
+ "classification": {
+  "document_type": "TV news report",
+  "medium": "moving image",
+  "source_level": "primary",
+  "source_level_rationale": "The record is a direct broadcast of a news programme created at the time of the events by the broadcaster.",
+  "resume": "This is a 31-second colour video news report from Tagesschau (SFDRS) dated 5 March 2006, covering Swiss Federal Railways (SBB) operations disrupted by heavy snowfall, including a power outage at Kempthal, ZH, and the use of buses to transport passengers."
+ },
+ "metadata": {
+  "title": "Tagesschau Hauptausgabe (TS), 05.03.2006 ; Störung SBB wegen Schneefällen",
+  "title_normalized": "Tagesschau Hauptausgabe (TS), 05.03.2006 ; Störung SBB wegen Schneefällen",
+  "title_en": "Tagesschau Main Edition (TS), 05.03.2006: SBB Disruption Due to Snowfall",
+  "creator": "SRG SSR idée suisse",
+  "publisher": "SRG SSR idée suisse",
+  "commissioner": null,
+  "date_created": "2006-03-05",
+  "date_published": "2006-03-05",
+  "date_updated": null,
+  "date_archived": "2006",
+  "content_date": "2006-03-05",
+  "languages": [
+   "de"
+  ],
+  "subjects": [
+   "Weather",
+   "SBB",
+   "Transportation"
+  ]
+ },
+ "archival_location": {
+  "holder": "Swiss Federal Archives (Schweizerisches Bundesarchiv)",
+  "fonds": "Schweizer Fernsehen DRS (1953-)",
+  "fonds_reference": "J2.225*",
+  "path": [
+   "Depositen und Schenkungen ab 1798",
+   "Schweizer Fernsehen DRS (1953-)",
+   "Tagesschau 1999-2006 SFDRS",
+   "Tagesschau SFDRS 2006",
+   "Tagesschau SFDRS 05.03.2006"
+  ],
+  "reference_code": "J2.225#2006/165#64#23*",
+  "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22343609",
+  "accession_numbers": [
+   "2006/165"
+  ]
+ },
+ "entities": {
+  "persons": [
+   {
+    "name": "Katja Stauber",
+    "display_name": "Katja Stauber",
+    "role": "presenter",
+    "wikidata": {
+     "qid": "Q1384116",
+     "label": "Katja Stauber",
+     "description": "Swiss television presenter and journalist",
+     "url": "https://www.wikidata.org/wiki/Q1384116"
+    },
+    "life_date_check": {
+     "born": 1962,
+     "died": null,
+     "verdict": "ok",
+     "reason": null
+    }
+   }
+  ],
+  "organizations": [
+   {
+    "name": "SRG SSR idée suisse",
+    "role": "publisher",
+    "wikidata": {
+     "qid": "Q651410",
+     "label": "Swiss Broadcasting Corporation",
+     "description": "public broadcasting group of Switzerland",
+     "url": "https://www.wikidata.org/wiki/Q651410"
+    }
+   }
+  ],
+  "places": [
+   {
+    "name": "Kempthal, ZH",
+    "as_written": "Kempthal, ZH",
+    "role": "depicted",
+    "country": "CH",
+    "lat": null,
+    "lon": null,
+    "gazetteer": null,
+    "model_lat": null,
+    "model_lon": null
+   }
+  ]
+ },
+ "preprocessing": {
+  "transcription_normalization": {
+   "needed": true,
+   "priority": "high",
+   "reason": "encoding damage (apertus): GenÃ¨ve",
+   "based_on": [
+    "encoding_damage",
+    "uppercase_or_abbreviated_title"
+   ]
+  },
+  "structure_extraction": {
+   "needed": true,
+   "priority": "low",
+   "reason": "labelled subfields (apertus): Inhaltsangabe: … Sequenzbeschrieb: …",
+   "based_on": [
+    "labelled_subfields"
+   ]
+  },
+  "schema_harmonization": {
+   "needed": true,
+   "priority": "low",
+   "reason": "packed role fields (rule): author: AutorIn: Stephani, Kathrin\nProduktion: SF",
+   "based_on": [
+    "packed_role_fields",
+    "multilingual"
+   ]
+  },
+  "linked_data_entity_linking": {
+   "needed": true,
+   "priority": "medium",
+   "reason": "named persons (apertus): Katja Stauber; named organizations or places (apertus): SBB",
+   "based_on": [
+    "named_persons",
+    "named_organizations_or_places"
+   ]
+  },
+  "date_geolocation_parsing": {
+   "needed": true,
+   "priority": "low",
+   "reason": "nonstandard dates (rule): 2006.03.05",
+   "based_on": [
+    "nonstandard_dates",
+    "free_text_places"
+   ]
+  },
+  "anonymization_verification": {
+   "needed": false,
+   "priority": "low",
+   "reason": null,
+   "based_on": [
+    "private_individuals",
+    "sensitive_categories"
+   ]
+  }
+ },
+ "audit_checks": {
+  "encoding_damage": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "GenÃ¨ve"
+  },
+  "uppercase_or_abbreviated_title": {
+   "answer": false,
+   "apertus": false,
+   "rule": false,
+   "evidence": null
+  },
+  "labelled_subfields": {
+   "answer": true,
+   "apertus": true,
+   "rule": true,
+   "evidence": "Inhaltsangabe: … Sequenzbeschrieb: …"
+  },
+  "packed_role_fields": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "author: AutorIn: Stephani, Kathrin\nProduktion: SF"
+  },
+  "multilingual": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "nonstandard_dates": {
+   "answer": true,
+   "apertus": false,
+   "rule": true,
+   "evidence": "2006.03.05"
+  },
+  "free_text_places": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "named_persons": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "Katja Stauber"
+  },
+  "named_organizations_or_places": {
+   "answer": true,
+   "apertus": true,
+   "rule": null,
+   "evidence": "SBB"
+  },
+  "private_individuals": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  },
+  "sensitive_categories": {
+   "answer": false,
+   "apertus": false,
+   "rule": null,
+   "evidence": null
+  }
+ },
+ "personal_data": {
+  "contains_personal_data": true,
+  "sensitivity": "none",
+  "private_individuals": false,
+  "sensitive_categories": false,
+  "note": "No identifiable person is concerned by sensitive personal data."
+ },
+ "story": [
+  {
+   "event": "publication",
+   "date": "2006-03-05",
+   "place": "Switzerland",
+   "lat": null,
+   "lon": null,
+   "description": "Broadcast of Tagesschau news report covering SBB snow disruption.",
+   "source": "apertus"
+  },
+  {
+   "event": "accession",
+   "date": "2006",
+   "place": "Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Accession 2006/165 into the Swiss Federal Archives",
+   "source": "record"
+  },
+  {
+   "event": "holding",
+   "date": null,
+   "place": "Archivstrasse 24, 3003 Bern",
+   "lat": 46.94198,
+   "lon": 7.44291,
+   "description": "Kept at J2.225#2006/165#64#23*",
+   "source": "record"
+  }
+ ],
+ "provenance": {
+  "source.*": "record",
+  "archival_location": "derived",
+  "metadata.date_archived": "derived",
+  "metadata.content_date": "derived",
+  "metadata.title": "record",
+  "classification.*": "apertus",
+  "metadata.*": "apertus",
+  "entities.*.name/role": "apertus",
+  "entities.places.lat/lon": "gazetteer",
+  "entities.*.wikidata": "wikidata",
+  "preprocessing": "apertus (audit checks) + rule",
+  "story": "apertus + derived"
+ },
+ "qc": {
+  "ok": true,
+  "structural_errors": [],
+  "critical": [],
+  "warnings": [],
+  "ungrounded": []
+ },
+ "processing": {
+  "pipeline": "cora-0.1.0",
+  "prompts": {
+   "classify": "v2",
+   "audit": "v3"
+  },
+  "model": "apertus-v1-5-8b",
+  "audit_model": "apertus-v1-5-8b",
+  "confidence": 0.95,
+  "tokens": 5349,
+  "processed_at": "2026-10-18T23:47:46+00:00"
+ },
+ "stratum": "audiovisual",
+ "evidence_source_level": null
+}

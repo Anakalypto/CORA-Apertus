@@ -1,0 +1,70 @@
+{
+ "id": "29671852",
+ "uri": "https://culture.ld.admin.ch/ais/29671852",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/29671852",
+ "title": "Miss Schweiz-Wahl 2007",
+ "reference_code": "J2.225#2008/121#13#9*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: BPSFDRS 2504523\nSignatur Bundesarchiv: J2.225#2008/121#18*",
+ "alternate_reference": null,
+ "scope_and_content": "Inhaltsangabe: Schweiz <TVZH: Amanda Ammann wird an der Miss Schweiz-Wahl 2007 zur Miss Schweiz gekürt\nProduktionstyp: Eigenproduktion UE\nSequenzbeschrieb: Schweiz <TVZH: Lachende Amanda Ammann wird zur Miss Schweiz gekrönt / Finale mit Amanda Ammann, Sabrina Knechtli und Claudia Wambululu",
+ "author": "AutorIn: Inhauser, Florian\nProduktionsgesellschaft: SF",
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": "Video",
+ "format": "Dauer: 00:01:24\nPosition Anfang: 00:59:09",
+ "thema": "Personen: Wambululu, Claudia\nSachdeskriptor: /SENSATION./AUSZEICHNUNG/MISSWAHL",
+ "country": null,
+ "date": {
+  "from": "2007-10-13",
+  "to": null,
+  "expressed": "2007.10.13"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/4095991",
+   "number": "2008/121",
+   "title": "2008/00121 Schweizer Fernsehen DRS (Z�rich) (2007)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/29671843",
+   "title": "Tagesschau SFDRS 13.10.2007",
+   "level": "Dossier",
+   "reference_code": "J2.225#2008/121#13*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22358855",
+   "title": "Tagesschau SFDRS 2007",
+   "level": "Serie",
+   "reference_code": "J2.225#7.2007"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22358853",
+   "title": "Tagesschau ab 2007 SFDRS",
+   "level": "Serie",
+   "reference_code": "J2.225#7"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4217",
+   "title": "Schweizer Fernsehen DRS (1953-)",
+   "level": "Stock",
+   "reference_code": "J2.225*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

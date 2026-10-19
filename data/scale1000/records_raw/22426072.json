@@ -1,0 +1,70 @@
+{
+ "id": "22426072",
+ "uri": "https://culture.ld.admin.ch/ais/22426072",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/22426072",
+ "title": "U2. CARNAVAL A DELEMONT ; Journal Romand, 10.02.1986",
+ "reference_code": "J2.240#2002/139#901#3*",
+ "reference_number": null,
+ "old_reference_code": "Original Signatur: JRTSR LM012259\nSignatur Bundesarchiv: J2.240#2002/139#4575*",
+ "alternate_reference": null,
+ "scope_and_content": "Sequenzbeschrieb: Delemont: Defile. Gugenmusik. Clown. Chars. Fanfare.",
+ "author": null,
+ "publisher": "HerausgeberIn: Télévision suisse romande (TSR), SRG SSR idée suisse",
+ "involved": null,
+ "coverage": "Geografische Abdeckung: SUISSE\nZeitliche Abdeckung: 03.02.1986-17.02.1986",
+ "form": "Video",
+ "format": "Dauer: 00:01.12\nFarbe: couleur\nFormat Arbeitskopie: Betacam digital; Beta SP\nStartposition: 00:04.35",
+ "thema": "Sachdeskriptor: fanfare",
+ "country": null,
+ "date": {
+  "from": "1986-02-10",
+  "to": null,
+  "expressed": "1986.02.10"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/349053",
+   "number": "2002/139",
+   "title": "2002/00139 T�l�vision Suisse Romande TSR (Gen�ve  8) (1981-1986)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22426069",
+   "title": "Journal romand TSR 10.02.1986",
+   "level": "Dossier",
+   "reference_code": "J2.240#2002/139#901*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417592",
+   "title": "Journal romand TSR 1986",
+   "level": "Serie",
+   "reference_code": "J2.240#2.1986"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/22417586",
+   "title": "Journal romand 1981-1986 TSR",
+   "level": "Serie",
+   "reference_code": "J2.240#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4231",
+   "title": "Télévision Suisse Romande (1954-)",
+   "level": "Stock",
+   "reference_code": "J2.240*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "stratum": "audiovisual"
+}

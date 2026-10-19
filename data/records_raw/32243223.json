@@ -1,0 +1,67 @@
+{
+ "id": "32243223",
+ "uri": "https://culture.ld.admin.ch/ais/32243223",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32243223",
+ "title": "Château de Vincennes Paris, Geschichte des Schweiz. Generalstabes, Instruction... pour le cas d'intervention de l'armée en suisse, Service Historique de l'Armée de Terre",
+ "reference_code": "J1.188#2004/461#21*",
+ "reference_number": null,
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": null,
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "1936-01-01",
+  "to": "1938-12-31",
+  "expressed": "1936-1938"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/1141864",
+   "number": "2004/461",
+   "title": "2004/00461 Generalstab (Bern) (1906-1940)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/32243202",
+   "title": "Quellenstudie zur Geschichte des Generalstabes in ausser schweizerischen Archiven",
+   "level": "Serie",
+   "reference_code": "J1.188#23"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3832987",
+   "title": "Militärgeschichte",
+   "level": "Serie",
+   "reference_code": "J1.188#2"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/3985",
+   "title": "Rapold Hans (1920-2018)",
+   "level": "Stock",
+   "reference_code": "J1.188*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/33",
+   "title": "Depositen und Schenkungen ab 1798",
+   "level": "Main Department",
+   "reference_code": "J*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "secondary_history",
+ "expected_source_level": "secondary",
+ "pre_1940": true
+}

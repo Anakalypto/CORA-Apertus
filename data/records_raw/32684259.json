@@ -1,0 +1,85 @@
+{
+ "id": "32684259",
+ "uri": "https://culture.ld.admin.ch/ais/32684259",
+ "portal_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/32684259",
+ "title": "Findmittel E5749 Territorialzone 9",
+ "reference_code": "E3120C#2014/269#1122*",
+ "reference_number": "516.9",
+ "old_reference_code": null,
+ "alternate_reference": null,
+ "scope_and_content": "enthält folgende Ablieferung: 1999/380",
+ "author": null,
+ "publisher": null,
+ "involved": null,
+ "coverage": null,
+ "form": null,
+ "format": null,
+ "thema": null,
+ "country": null,
+ "date": {
+  "from": "2005-01-01",
+  "to": null,
+  "expressed": "2005"
+ },
+ "accessions": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/Event/30291142",
+   "number": "2014/269",
+   "title": "2014/00269 Schweizerisches Bundesarchiv (Bern) (1894-2014)"
+  }
+ ],
+ "hierarchy": [
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4412379",
+   "title": "Ausgeschiedene Find- und Findhilfsmittel",
+   "level": "Serie",
+   "reference_code": "E3120C#516.9"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4027301",
+   "title": "Detailfindmittel",
+   "level": "Serie",
+   "reference_code": "E3120C#516"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4027300",
+   "title": "Erschliessung",
+   "level": "Serie",
+   "reference_code": "E3120C#51"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/4027299",
+   "title": "Bewertung, Erschliessung",
+   "level": "Serie",
+   "reference_code": "E3120C#5"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6765",
+   "title": "Schweizerisches Bundesarchiv: Zentrale Ablage (1996-2007)",
+   "level": "Sub-file",
+   "reference_code": "E3120C*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/6764",
+   "title": "Schweizerisches Bundesarchiv (1979-)",
+   "level": "Stock",
+   "reference_code": "E10796*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/28",
+   "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+   "level": "Main Department",
+   "reference_code": "E*"
+  },
+  {
+   "uri": "https://culture.ld.admin.ch/ais/1",
+   "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+   "level": "Archive",
+   "reference_code": "CH-BAR#Unterlagen*"
+  }
+ ],
+ "level": "Dossier",
+ "stratum": "tertiary_index",
+ "expected_source_level": "tertiary",
+ "pre_1940": false
+}
