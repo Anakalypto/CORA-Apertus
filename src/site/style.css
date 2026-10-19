@@ -91,6 +91,21 @@ h3 { font-size: 17px; margin: 18px 0 8px; }
 .facets li a:hover { background: var(--paper-2); text-decoration: none; }
 .facets li a.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .facets li a span:last-child { color: var(--ink-3); font-variant-numeric: tabular-nums; }
+/* Filter flags: tri-state boxes (off / include ✓ / exclude −) in collapsible groups */
+.facets .fhelp { margin: 4px 0 2px; }
+.fgroup { border-top: 1px solid var(--line); padding: 6px 0; }
+.fgroup > summary { cursor: pointer; font-family: var(--sans); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 6px 0; }
+.fgroup .fcount { background: var(--accent); color: #fff; border-radius: 8px; padding: 0 6px; font-size: 11px; letter-spacing: 0; margin-left: 4px; }
+.fmore > summary { cursor: pointer; font-size: 13px; color: var(--ink-3); padding: 3px 6px; }
+.facets li a.flag { justify-content: flex-start; align-items: center; }
+.facets li a.flag span:nth-child(2) { flex: 1; }
+.flag .box { flex: none; width: 15px; height: 15px; border: 1.5px solid var(--ink-3); border-radius: 3px; display: grid; place-items: center;
+             font-style: normal; font-size: 11px; font-weight: 700; line-height: 1; background: #fff; }
+.facets li a.flag.inc { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.flag.inc .box { background: var(--accent); border-color: var(--accent); color: #fff; }
+.facets li a.flag.exc { color: var(--ink-3); text-decoration: line-through; }
+.flag.exc .box { background: var(--ink-3); border-color: var(--ink-3); color: #fff; }
+.chip.exc { text-decoration: line-through; }
 .resbar { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--ink); padding-bottom: 8px; gap: 12px; flex-wrap: wrap; }
 .resbar select { padding: 4px 6px; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }

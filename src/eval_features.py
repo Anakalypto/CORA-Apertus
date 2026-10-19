@@ -12,7 +12,7 @@ model; --force redoes them). Reference data, strongest first:
   audit       deterministic rule detectors for the 5 mechanical checks (exact for those checks)
   qa          question set with the record that answers it, and questions the sample cannot answer
   parsing     see src/eval_models.py (automatic checks on 200 new records)
-  imagination, more   model-independent citation/support checks of narrative.py and more.py
+  more        model-independent citation/support checks of more.py
   topic, consultations   agreement between the two models (no reference available)
 """
 import argparse
@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from cora import classify, config, narrative  # noqa: E402
+from cora import classify, config  # noqa: E402
 from cora.apertus import Apertus  # noqa: E402
 
 MODELS = ("apertus-v1-5-70b", "apertus-v1-5-8b")
@@ -278,28 +278,6 @@ def f_qa():
                 "questions where retrieval offered that record. A refusal of an unanswerable question is either the retrieval gate or the model.")
 
 
-# ---------------------------------------------------------------- 5. Imagination (trust card)
-def f_imagination(n: int = 100):
-    cards = [json.loads(l) for l in (DATA / "dataset" / "trust_cards.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
-    items = [{"id": c["id"], "card": c} for c in cards if c["imagination"].get("sentences")][:n]
-
-    def one(m, x):
-        im, err, s = timed(lambda: narrative.imagine({"id": x["id"]}, x["card"]["evidence"], x["card"]["context"], client(m, 0.3, 1200)))
-        return {"id": x["id"], "error": err, "seconds": s, "sentences": (im or {}).get("sentences", [])}
-
-    outs = run_models("imagination", items, one)
-    metrics = {}
-    for m, os_ in outs.items():
-        ss = [s for o in os_ for s in o["sentences"]]
-        cited = [s for s in ss if not s["inferred"]]
-        metrics[m] = common(os_) | {"sentences_per_text": round(len(ss) / len(os_), 1), "unsourced_sentences_pct": pct(sum(s["inferred"] for s in ss), len(ss)),
-                                    "weakly_supported_pct": pct(sum(s["weakly_supported"] for s in cited), len(cited)),
-                                    "mean_support_pct": round(100 * statistics.mean(s["support"] for s in cited), 1) if cited else None}
-    return save("imagination", outs, metrics, "Trust-card Imagination band, generated fresh by both models from the same evidence/context items. "
-                "Checks are model-independent (narrative.imagine): unsourced = no valid footnote; support = share of the sentence's content "
-                "words found in the cited items; weakly supported = cited but support < 0.2.")
-
-
 # ---------------------------------------------------------------- 6. See more
 def _eval_cfg(m: str) -> dict:
     """A config whose data_dir is a per-model scratch dir, so the features' own caches never mix models or touch data/."""
@@ -451,7 +429,7 @@ def f_whatif(n: int = 40):
                 "compared with the real Swissvotes recommendation. Baseline: each party repeats its most frequent related-vote recommendation.")
 
 
-FEATURES = {"stapfer": f_stapfer, "level": f_level, "audit": f_audit, "qa": f_qa, "imagination": f_imagination,
+FEATURES = {"stapfer": f_stapfer, "level": f_level, "audit": f_audit, "qa": f_qa,
             "more": f_more, "topic": f_topic, "consultations": f_consultations, "whatif": f_whatif}
 
 

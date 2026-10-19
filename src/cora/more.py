@@ -13,14 +13,34 @@ import urllib.parse
 
 from .enrich import Cache, _get, life_dates
 from .narrative import evidence, fetch_context
+from .qa import tokens
 
 SYSTEM = """You explain ONE record of the Swiss Federal Archives to a curious reader, in 2 to 3 short paragraphs.
+The reader has ALREADY READ the text marked "Already shown": never restate it. Add only what it does not say.
 Use only the numbered sources: [E#] the record itself, [R#] other records of the archive, [W#] Wikipedia, [D#] Wikidata or the gazetteer.
-Paragraph 1: what the document is and what it shows or says [E#]. Paragraph 2: who and what it concerns, using the
-Wikipedia [W#] and Wikidata [D#] sources. Paragraph 3: how it relates to other records of the archive [R#] and its wider
-historical context. 2-4 sentences per paragraph. Every sentence lists the sources it relies on.
-If you add something no source supports, give that sentence no sources. Do not speculate about private persons.
-Answer in English. Return one JSON object."""
+Paragraph 1: details of the document [E#] that the text already shown leaves out (content, scenes, form, people
+appearing); do not open by saying again what the document is. Paragraph 2: who and what it concerns, using the
+Wikipedia [W#] and Wikidata [D#] sources. Paragraph 3: how it relates to other records of the archive [R#]; only
+records that really concern the same subject, otherwise leave the paragraph empty. 1-3 sentences per paragraph.
+Every sentence lists the sources it relies on. If you add something no source supports, give that sentence no sources.
+Do not speculate about private persons. Answer in English. Return one JSON object."""
+VERSION = 2  # cached explanations of an older version are regenerated
+
+
+def shown_text(r: dict, cfg) -> str:
+    """What the record page already shows above 'See more': the résumé and the subject's Wikipedia extract."""
+    parts = [r["classification"].get("resume") or ""]
+    topic = cfg["paths"]["data_dir"] / "topic_cache" / f"{r['id']}.json"
+    if topic.exists():
+        wp = json.loads(topic.read_text(encoding="utf-8")).get("wikipedia") or {}
+        parts.append(wp.get("extract") or "")
+    return " ".join(p for p in parts if p)
+
+
+def repeats(text: str, shown: set[str]) -> bool:
+    """True when most of a sentence's content words already appear in what the page shows."""
+    words = [w for w in tokens(text) if len(w) > 3]
+    return bool(words) and sum(w in shown for w in words) / len(words) >= 0.6
 
 
 def wikipedia_summary(url: str, cache: Cache, cfg) -> dict | None:
@@ -87,30 +107,37 @@ def explain(r: dict, index, cfg, ap) -> dict:
     cache_dir.mkdir(exist_ok=True)
     path = cache_dir / f"{r['id']}.json"
     if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        if cached.get("version") == VERSION:
+            return cached
     cache = Cache(cfg["paths"]["data_dir"] / "enrich_cache.json")
     src = sources(r, index, cache, cfg)
     cache.save()
+    shown = shown_text(r, cfg)
+    shown_words = set(tokens(shown))
     sent = {"text": "<sentence>", "sources": ["<E#|R#|W#|D#>"]}
     # Separate keys per paragraph: with a list of {"sentences": …} objects the model tends to repeat keys in one object.
-    schema = {"paragraph_1_the_document": [sent, sent, sent],
+    schema = {"paragraph_1_details_not_already_shown": [sent, sent, sent],
               "paragraph_2_who_and_what_wikipedia_wikidata": [sent, sent, sent],
               "paragraph_3_related_records_and_context": [sent, sent]}
-    user = ("Sources:\n" + "\n".join(f"[{s['ref']}] {s['text'][:900]}" for s in src) + "\n\nReturn:\n" + json.dumps(schema))
+    user = (f"Already shown (do not repeat):\n{shown or '(nothing)'}\n\n" + "Sources:\n" + "\n".join(f"[{s['ref']}] {s['text'][:900]}" for s in src) + "\n\nReturn:\n" + json.dumps(schema))
     raw, meta = ap.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}])
     allowed = {s["ref"] for s in src}
-    paras = []
+    paras, dropped = [], 0
     for key in sorted(k for k in raw if k.startswith("paragraph")):
         sents = []
         for s in raw[key] if isinstance(raw[key], list) else []:
             if isinstance(s, dict) and str(s.get("text", "")).strip():
+                if repeats(s["text"], shown_words):
+                    dropped += 1
+                    continue
                 refs = [str(x).strip("[] ") for x in s.get("sources") or []]
                 ok = [x for x in refs if x in allowed]
                 sents.append({"text": s["text"].strip(), "sources": ok, "inferred": not ok})
         if sents:
             paras.append(sents)
     used = {x for p in paras for s in p for x in s["sources"]}
-    out = {"id": r["id"], "generated": True, "model": meta.get("model"), "seconds": round(meta["seconds"], 1),
+    out = {"id": r["id"], "version": VERSION, "generated": True, "model": meta.get("model"), "repeats_dropped": dropped, "seconds": round(meta["seconds"], 1),
            "paragraphs": paras, "sources": [s for s in src if s["ref"] in used],
            "offered": {k: sum(1 for s in src if s["kind"] == k) for k in "ERWD"},
            "inferred_sentences": sum(s["inferred"] for p in paras for s in p)}

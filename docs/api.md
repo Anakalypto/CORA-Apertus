@@ -4,7 +4,7 @@ Start the server with `python src/run.py serve`. Interactive OpenAPI documentati
 
 | Method | Path | Purpose |
 |---|---|---|
-| GET | `/api/records?q=&document_type=&source_level=&medium=&decade=&fonds=&language=&preprocessing=&qc=&sort=&page=&size=` | Full-text search with facets (counts returned for every facet) |
+| GET | `/api/records?q=&document_type=&source_level=&medium=&decade=&fonds=&language=&preprocessing=&qc=&sample=&flags=&sort=&page=&size=` | Full-text search with filter flags (counts returned for every facet). Repeat a parameter to combine values (OR; AND for `flags` and `preprocessing`), prefix a value with `!` to exclude it, e.g. `?flags=on_map&flags=names_persons&source_level=!primary`. Flags: `on_map`, `story_map`, `names_persons`, `wikidata_links`, `personal_data`, `has_cover` |
 | GET | `/api/records/{id}` | Full AI-ready record: original fields, classification, metadata, archival location, entities, preprocessing, personal data, story, provenance, QC |
 | GET | `/api/map` | Every located story event of every record (overview map) |
 | GET | `/api/stats` | Collection statistics, facet counts, QC summary, sample population |

@@ -91,36 +91,122 @@ function eventIcon(ev, rec, n) {
   return el;
 }
 
-// Base maps: swisstopo vector tiles (vectortiles.geo.admin.ch), or OpenStreetMap raster tiles.
-const BASEMAPS = {
-  "swisstopo light base map": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json",
-  "swisstopo base map": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json",
-  "OpenStreetMap": {
-    version: 8,
-    sources: { osm: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"], tileSize: 256, maxzoom: 19, attribution: "© OpenStreetMap contributors" } },
-    layers: [{ id: "osm", type: "raster", source: "osm" }],
-  },
+// Base maps. The swisstopo vector tiles (vectortiles.geo.admin.ch) only carry detailed data for Switzerland and
+// Liechtenstein, so the swisstopo options are composites: OpenStreetMap underneath everywhere, swisstopo on top inside
+// its coverage (assets/swisstopo_coverage.json) and swisstopo features lying entirely outside it dropped.
+const OSM_STYLE = {
+  version: 8,
+  sources: { osm: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"], tileSize: 256, maxzoom: 19, attribution: "© OpenStreetMap contributors" } },
+  layers: [{ id: "osm", type: "raster", source: "osm" }],
 };
+const BASEMAPS = {
+  "swisstopo light + OSM abroad": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json",
+  "swisstopo + OSM abroad": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json",
+  "OpenStreetMap": OSM_STYLE,
+};
+let COVERAGE = null;
+const STYLE_CACHE = {};
+
+// Legacy filter syntax (["==", "class", "lake"], ["!in", …]) cannot be combined with expressions such as `within`;
+// convert it the way the style specification does. Expression filters are returned unchanged.
+function isExpressionFilter(f) {
+  if (f === true || f === false) return true;
+  if (!Array.isArray(f) || !f.length) return false;
+  switch (f[0]) {
+    case "has": return f.length >= 2 && f[1] !== "$id" && f[1] !== "$type";
+    case "in": return f.length >= 3 && (typeof f[1] !== "string" || Array.isArray(f[2]));
+    case "!in": case "!has": case "none": return false;
+    case "==": case "!=": case ">": case ">=": case "<": case "<=": return f.length !== 3 || Array.isArray(f[1]) || Array.isArray(f[2]);
+    case "any": case "all": return f.slice(1).every((x) => typeof x === "boolean" || isExpressionFilter(x));
+    default: return true;
+  }
+}
+function legacyToExpression(f) {
+  const [op, k, ...v] = f;
+  const geomTypes = (vals) => ["literal", vals.flatMap((t) => [t, "Multi" + t])];  // legacy $type also matches Multi*
+  const get = (key) => (key === "$type" ? ["geometry-type"] : key === "$id" ? ["id"] : ["get", key]);
+  switch (op) {
+    case "all": case "any": return [op, ...f.slice(1).map(legacyToExpression)];
+    case "none": return ["!", ["any", ...f.slice(1).map(legacyToExpression)]];
+    case "has": return k === "$id" ? ["!=", ["id"], null] : ["has", k];
+    case "!has": return ["!", legacyToExpression(["has", k])];
+    case "in": return ["in", get(k), k === "$type" ? geomTypes(v) : ["literal", v]];
+    case "!in": return ["!", legacyToExpression(["in", k, ...v])];
+    case "==": return k === "$type" ? ["in", ["geometry-type"], geomTypes(v)] : ["==", get(k), v[0]];
+    case "!=": return ["!", legacyToExpression(["==", k, v[0]])];
+    default:  // < <= > >=: legacy only compares values of the same type
+      return ["all", ["==", ["typeof", get(k)], typeof v[0]], [op, get(k), v[0]]];
+  }
+}
+
+// Relief: the vector relief tiles shade far beyond the border with large polygons that cannot be cut client-side;
+// the swisstopo raster hillshades cover Switzerland and Liechtenstein only and are transparent elsewhere.
+const RELIEF_RASTER = {
+  light: { layer: "ch.swisstopo.leichte-basiskarte_reliefschattierung", opacity: 0.3 },
+  color: { layer: "ch.swisstopo.swissalti3d-reliefschattierung", opacity: 0.4 },
+};
+async function swissHybrid(url) {
+  COVERAGE ||= await fetch("assets/swisstopo_coverage.json").then((r) => r.json());
+  const style = await fetch(url).then((r) => r.json());
+  // Keep only features touching the coverage (coarse outline, ~1 km buffer); `distance` handles points, lines and
+  // polygons (`within` ignores polygons).
+  const keep = ["<=", ["distance", COVERAGE.filter], 0];
+  const relief = RELIEF_RASTER[url.includes("lightbasemap") ? "light" : "color"];
+  const reliefSources = new Set(Object.keys(style.sources).filter((k) => style.sources[k].url?.includes("relief")));
+  const layers = [];
+  for (const l of style.layers) {
+    if (l.type === "background") {  // swisstopo's ground colour, painted inside its coverage only
+      layers.push({ id: "swisstopo-ground", type: "fill", source: "swisstopo-coverage", paint: { "fill-color": l.paint?.["background-color"] || "#fcfcfc" } });
+      continue;
+    }
+    if (reliefSources.has(l.source)) {  // replaced by the raster hillshade, drawn where the first relief layer was
+      if (!layers.some((x) => x.id === "swisstopo-relief")) layers.push({ id: "swisstopo-relief", type: "raster", source: "swisstopo-relief", paint: { "raster-opacity": relief.opacity } });
+      continue;
+    }
+    const own = l.filter == null ? null : isExpressionFilter(l.filter) ? l.filter : legacyToExpression(l.filter);
+    layers.push({ ...l, filter: own ? ["all", own, keep] : keep });
+  }
+  const { center, zoom, bearing, pitch, ...rest } = style;  // keep the map's own view on a base-map switch
+  const sources = Object.fromEntries(Object.entries(style.sources).filter(([k]) => !reliefSources.has(k)));
+  return { ...rest,
+    sources: { ...OSM_STYLE.sources, ...sources,
+      "swisstopo-coverage": { type: "geojson", data: COVERAGE.inside },
+      "swisstopo-relief": { type: "raster", tileSize: 256, maxzoom: 17, bounds: [5.9, 45.8, 10.5, 47.85], attribution: "© swisstopo",
+        tiles: [`https://wmts.geo.admin.ch/1.0.0/${relief.layer}/default/current/3857/{z}/{x}/{y}.png`] } },
+    layers: [...OSM_STYLE.layers, ...layers] };
+}
+
+function loadBase(name) {
+  const b = BASEMAPS[name];
+  return typeof b === "string" ? (STYLE_CACHE[name] ||= swissHybrid(b)) : Promise.resolve(b);
+}
+
+function setBase(map, name) {
+  loadBase(name).then((s) => map.setStyle(s, { diff: false }))
+    .catch((err) => { console.warn("swisstopo base map unavailable, using OpenStreetMap", err); map.setStyle(OSM_STYLE, { diff: false }); });
+}
 
 class BaseSwitch {
   onAdd(map) {
     this.el = document.createElement("div");
     this.el.className = "maplibregl-ctrl maplibregl-ctrl-group basemap-switch";
     this.el.innerHTML = `<select title="Base map">${Object.keys(BASEMAPS).map((k) => `<option>${k}</option>`).join("")}</select>`;
-    this.el.firstChild.onchange = (e) => map.setStyle(BASEMAPS[e.target.value], { diff: false });
+    this.el.firstChild.onchange = (e) => setBase(map, e.target.value);
     return this.el;
   }
   onRemove() { this.el.remove(); }
 }
 
 // Overlays (sources/layers) must be re-added after every base-map switch: pass them as onStyle.
+// The map opens on OpenStreetMap and switches to the swisstopo composite as soon as it is built.
 function baseMap(el, onStyle, opts = {}) {
-  const map = new maplibregl.Map({ container: el, style: Object.values(BASEMAPS)[0], scrollZoom: false, dragRotate: false, pitchWithRotate: false,
+  const map = new maplibregl.Map({ container: el, style: OSM_STYLE, scrollZoom: false, dragRotate: false, pitchWithRotate: false,
     attributionControl: { compact: true }, ...opts });
   map.touchZoomRotate.disableRotation();
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
   map.addControl(new BaseSwitch(), "top-left");
   if (onStyle) map.on("style.load", () => onStyle(map));
+  setBase(map, Object.keys(BASEMAPS)[0]);
   return map;
 }
 
@@ -194,7 +280,9 @@ async function home() {
 }
 
 /* ---------------- Search ---------------- */
-const FACET_TITLES = { document_type: "Document type", source_level: "Source level", medium: "Medium", decade: "Period", fonds: "Fonds", language: "Language", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group" };
+const FACET_TITLES = { flags: "Flags", document_type: "Document type", source_level: "Source level", medium: "Medium", decade: "Period", fonds: "Fonds", language: "Language", preprocessing: "Preprocessing needed", qc: "Quality check", sample: "Sample group" };
+const FLAG_LABEL = { on_map: "Located on the map", story_map: "Has a story map", names_persons: "Names persons", wikidata_links: "Linked to Wikidata", personal_data: "Contains personal data", has_cover: "Has a cover image" };
+const facetLabel = (k, v) => (k === "preprocessing" ? PREP_LABEL[v] : k === "flags" ? FLAG_LABEL[v] : null) || v;
 
 async function search(params) {
   setNav("search");
@@ -202,20 +290,43 @@ async function search(params) {
   params.set("size", "20");
   const res = await api("/api/records?" + params.toString());
   const page = +(params.get("page") || 1);
-  const link = (k, v) => { const p = new URLSearchParams(params); p.delete("page"); p.delete("size"); if (v === null || p.get(k) === v) p.delete(k); else p.set(k, v); return "#/search?" + p.toString(); };
+  // Filter flags: each value cycles off -> include -> exclude ("!value"); groups AND-ed, values OR-ed (AND in flags/preprocessing).
+  const state = (k, v) => { const vs = params.getAll(k); return vs.includes(v) ? "inc" : vs.includes("!" + v) ? "exc" : "off"; };
+  const link = (k, v, to) => {
+    const p = new URLSearchParams(params); p.delete("page"); p.delete("size");
+    const rest = p.getAll(k).filter((x) => x !== v && x !== "!" + v); p.delete(k);
+    rest.forEach((x) => p.append(k, x));
+    if (to === "inc") p.append(k, v); else if (to === "exc") p.append(k, "!" + v);
+    return "#/search?" + p.toString();
+  };
+  const clearAll = () => { const p = new URLSearchParams(params); Object.keys(FACET_TITLES).forEach((k) => p.delete(k)); p.delete("page"); p.delete("size"); return "#/search?" + p; };
   const active = [...params.entries()].filter(([k]) => FACET_TITLES[k]);
-  const facetHtml = Object.entries(res.facets).map(([k, vals]) => !vals.length ? "" : `
-      <h3>${FACET_TITLES[k]}</h3><ul>${vals.slice(0, 12).map(([v, n]) => `<li><a class="${params.get(k) === String(v) ? "on" : ""}" href="${link(k, String(v))}"><span>${esc(k === "preprocessing" ? PREP_LABEL[v] || v : v)}</span><span>${n}</span></a></li>`).join("")}</ul>`).join("");
+  const NEXT = { off: "inc", inc: "exc", exc: "off" };
+  const TIP = { off: "Click to include", inc: "Included · click to exclude", exc: "Excluded · click to clear" };
+  const facetHtml = Object.keys(FACET_TITLES).map((k) => {
+    const vals = (res.facets[k] || []).map(([v, n]) => [String(v), n]);
+    params.getAll(k).map((x) => x.replace(/^!/, "")).forEach((v) => { if (!vals.some(([w]) => w === v)) vals.push([v, 0]); });  // keep ticked flags visible at 0
+    if (!vals.length) return "";
+    const on = vals.filter(([v]) => state(k, v) !== "off").length;
+    const row = ([v, n]) => { const st = state(k, v); return `<li><a class="flag ${st}" href="${link(k, v, NEXT[st])}" title="${TIP[st]}" role="checkbox" aria-checked="${st === "inc" ? "true" : st === "exc" ? "mixed" : "false"}">
+        <i class="box">${st === "inc" ? "✓" : st === "exc" ? "−" : ""}</i><span>${esc(facetLabel(k, v))}</span><span>${n}</span></a></li>`; };
+    const shown = vals.filter(([v], i) => i < 8 || state(k, v) !== "off");
+    const more = vals.filter(([v], i) => i >= 8 && state(k, v) === "off");
+    return `<details class="fgroup" ${on || k === "flags" || k === "document_type" || k === "source_level" ? "open" : ""}><summary>${FACET_TITLES[k]}${on ? ` <b class="fcount">${on}</b>` : ""}</summary>
+      <ul>${shown.map(row).join("")}</ul>${more.length ? `<details class="fmore"><summary>${more.length} more</summary><ul>${more.map(row).join("")}</ul></details>` : ""}</details>`;
+  }).join("");
   const pages = Math.ceil(res.total / 20);
   app.innerHTML = `
     <div class="layout">
-      <aside class="facets"><details class="refine" ${matchMedia("(max-width: 860px)").matches ? "" : "open"}><summary><h2>Refine${active.length ? ` <span class="muted small">(${active.length} active)</span>` : ""}</h2></summary>${facetHtml}</details></aside>
+      <aside class="facets"><details class="refine" ${matchMedia("(max-width: 860px)").matches ? "" : "open"}><summary><h2>Refine${active.length ? ` <span class="muted small">(${active.length} active)</span>` : ""}</h2></summary>
+        <p class="small muted fhelp">Click a flag to include it (✓), again to exclude it (−), a third time to clear. Groups combine with AND; within a group, ticked values combine with OR, except Flags and Preprocessing, where a record must have all of them.${active.length ? ` <a href="${clearAll()}">Clear all</a>` : ""}</p>
+        ${facetHtml}</details></aside>
       <section>
         <div class="resbar">
           <div><b>${res.total}</b> result${res.total === 1 ? "" : "s"}${params.get("q") ? ` for “${esc(params.get("q"))}”` : ""}</div>
           <label class="small">Sort <select id="sort">${["relevance", "date", "title"].map((s) => `<option ${params.get("sort") === s ? "selected" : ""}>${s}</option>`).join("")}</select></label>
         </div>
-        ${active.length ? `<div class="chips">${active.map(([k, v]) => `<a class="chip x" href="${link(k, null)}">${FACET_TITLES[k]}: ${esc(v)} ${icon("x")}</a>`).join("")}</div>` : ""}
+        ${active.length ? `<div class="chips">${active.map(([k, v]) => { const exc = v.startsWith("!"), w = exc ? v.slice(1) : v; return `<a class="chip x ${exc ? "exc" : ""}" href="${link(k, w, "off")}">${FACET_TITLES[k]}: ${exc ? "not " : ""}${esc(facetLabel(k, w))} ${icon("x")}</a>`; }).join("")}</div>` : ""}
         ${res.results.map((r) => `
           <article class="result">
             <a href="#/record/${r.id}">${cover(r)}</a>
@@ -346,7 +457,6 @@ function trustCard(r) {
   const ctx = t.context.length ? t.context.map((c) => `<li id="ref-${c.ref}"><span class="fn">${c.ref}</span> <b>${esc(c.name)}</b> — ${esc(c.description || "")}
       ${c.wikidata ? ` · <a href="${c.wikidata}" target="_blank" rel="noopener">Wikidata</a>` : ""}${c.wikipedia ? ` · <a href="${c.wikipedia}" target="_blank" rel="noopener">Wikipedia</a>` : ""}${c.hls ? ` · <a href="${c.hls}" target="_blank" rel="noopener">HLS</a>` : ""}${c.osm ? ` · <a href="${c.osm}" target="_blank" rel="noopener">OpenStreetMap</a>` : ""}
       <span class="tier">${esc(c.tier)}</span></li>`).join("") : `<li class="muted">No linked reference works.</li>`;
-  const im = (t.imagination?.sentences || []).map((x) => `<span class="${x.inferred ? "inferred" : x.weakly_supported ? "weak" : ""}">${esc(x.text)}${x.refs.map((f) => `<a class="fnref" href="#ref-${f}" onclick="document.getElementById('ref-${f}')?.scrollIntoView({behavior:'smooth',block:'center'});return false;">${f}</a>`).join("")}${x.inferred ? ` <span class="badge qc-bad">inferred</span>` : x.weakly_supported ? ` <span class="badge" title="Few of its words occur in the cited items (support ${x.support})">weakly supported</span>` : ""}</span>`).join(" ");
   return `<div class="badges trust-badges">
       <span class="badge lvl-${r.classification.source_level}">${esc(r.classification.source_level)} source</span>
       <span class="badge">confidence ${conf != null ? conf : "–"}</span>
@@ -356,9 +466,6 @@ function trustCard(r) {
       <table class="dl">${ev}</table>
       <p class="small"><a href="${r.source.portal_url}" target="_blank" rel="noopener">Open in the archive's online search ↗</a></p></section>
     <section class="band band-context"><h3>Context <small>reference works · secondary / tertiary</small></h3><ul class="ctx">${ctx}</ul></section>
-    <section class="band band-imagination"><h3>Imagination <small>generated by Apertus · every sentence footnoted</small></h3>
-      <p class="narr">${im || '<span class="muted">No narrative.</span>'}</p>
-      <p class="small muted">Footnotes E# point to evidence, C# to context. Sentences without a footnote are marked inferred; “weakly supported” means few of the sentence's words occur in the items it cites (an automatic check, weaker across languages).</p></section>
     ${edits.length ? `<details class="small"><summary>Edit log (${edits.length})</summary><table class="t"><tr><th>Field</th><th>Original</th><th>New</th><th>By</th><th>Why</th></tr>${edits.map((e) => `<tr><td>${esc(e.field)}</td><td>${esc(JSON.stringify(e.original))}</td><td>${esc(JSON.stringify(e.new))}</td><td>${esc(e.actor)}</td><td>${esc(e.reason)}</td></tr>`).join("")}</table></details>` : ""}`;
 }
 
@@ -455,7 +562,6 @@ async function topicPanel(r) {
         <b>${esc(wp.title)}</b>${wp.description ? ` <span class="muted small">· ${esc(wp.description)}</span>` : ""}
         <p>${esc(wp.extract || "")}</p><a href="${esc(wp.url)}" target="_blank" rel="noopener">Read the Wikipedia article ↗</a></div></div>`
       : `<p class="small muted">No Wikipedia article matched this subject.</p>`}
-    ${t.note ? `<p class="small muted">${esc(t.note)} ${pv("apertus")}</p>` : ""}
     <button class="more-btn" id="topicbtn">See more about it ▾</button>
     <div id="topicmore" hidden>
       <h4>Primary sources about it</h4>
@@ -540,7 +646,7 @@ async function mapPage() {
       if (map.getSource("docs")) setHist(map);
     }
     const note = y < zr.years[0] ? `earliest available (${zr.years[0]}); no national map exists for ${y}` : n === y ? `the map of ${n}` : `the nearest earlier map, ${n}`;
-    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: today's base map (swisstopo vector tiles or OpenStreetMap, switch at top left).`;
+    $("#baselab").innerHTML = `Base map in Switzerland: <b>swisstopo “Journey through time”</b> (ch.swisstopo.zeitreihen), ${note}. Outside Switzerland: OpenStreetMap (today's swisstopo map or plain OpenStreetMap for the rest, switch at top left).`;
     $("#countlab").textContent = `${vis.length} located events from ${new Set(vis.map(({ p }) => p.id)).size} documents ${cum ? `dated up to ${y}` : `dated ${y - 5}–${y + 5}`} (${points.filter((p) => !p.year).length} undated not shown).`;
   };
   $("#year").oninput = update;

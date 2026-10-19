@@ -93,6 +93,14 @@ FACETS = {
     "preprocessing": lambda r: [k for k, v in (r.get("preprocessing") or {}).items() if v["needed"]],
     "qc": lambda r: "passed" if r["qc"].get("ok") else "issues",
     "sample": lambda r: r.get("stratum") or "unknown",
+    "flags": lambda r: [f for f, on in (
+        ("on_map", any(p.get("lat") is not None for p in r["entities"]["places"])),
+        ("story_map", any(e.get("lat") is not None and e.get("event") not in ("holding", "accession") for e in r.get("story") or [])),
+        ("names_persons", bool(r["entities"]["persons"])),
+        ("wikidata_links", any(e.get("wikidata") for e in r["entities"]["persons"] + r["entities"]["organizations"])),
+        ("personal_data", (r.get("personal_data") or {}).get("contains_personal_data")),
+        ("has_cover", bool(r.get("cover"))),
+    ) if on],
 }
 
 
@@ -110,41 +118,51 @@ def _summary(r: dict) -> dict:
             "n_places": sum(1 for p in r["entities"]["places"] if p.get("lat") is not None), "cover": r.get("cover")}
 
 
-def _matches(r: dict, filters: dict) -> bool:
-    for k, v in filters.items():
-        if not v:
+ALL_OF = {"flags", "preprocessing"}  # a record can carry several of these at once: ticked values must all apply
+
+
+def _matches(r: dict, filters: dict, skip: str | None = None) -> bool:
+    """Each filter is a list of flags: plain values are OR-ed within a facet (AND-ed in ALL_OF facets),
+    "!value" excludes; facets are AND-ed."""
+    for k, vs in filters.items():
+        if not vs or k == skip:
             continue
         val = FACETS[k](r)
-        if isinstance(val, list) and v not in val or not isinstance(val, list) and val != v:
+        have = {str(x) for x in (val if isinstance(val, list) else [val])}
+        inc = {v for v in vs if not v.startswith("!")}
+        exc = {v[1:] for v in vs if v.startswith("!")}
+        if inc and not (inc <= have if k in ALL_OF else have & inc) or have & exc:
             return False
     return True
 
 
-@app.get("/api/records", summary="Search records (full text + facets)")
-def search(q: str = "", document_type: str = "", source_level: str = "", medium: str = "", decade: str = "",
-           fonds: str = "", language: str = "", preprocessing: str = "", qc: str = "", sample: str = "",
+@app.get("/api/records", summary="Search records (full text + filter flags; repeat a parameter to OR values, prefix '!' to exclude)")
+def search(q: str = "", document_type: list[str] = Query([]), source_level: list[str] = Query([]), medium: list[str] = Query([]),
+           decade: list[str] = Query([]), fonds: list[str] = Query([]), language: list[str] = Query([]),
+           preprocessing: list[str] = Query([]), qc: list[str] = Query([]), sample: list[str] = Query([]), flags: list[str] = Query([]),
            sort: str = Query("relevance", enum=["relevance", "date", "title"]), page: int = 1, size: int = 20):
-    filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade,
-                   fonds=fonds, language=language, preprocessing=preprocessing, qc=qc, sample=sample)
+    filters = dict(document_type=document_type, source_level=source_level, medium=medium, decade=decade, fonds=fonds,
+                   language=language, preprocessing=preprocessing, qc=qc, sample=sample, flags=flags)
+    # direct calls get the Query defaults; "document_type=" (empty) means no filter, as before
+    filters = {k: [x for x in v if x and x != "!"] if isinstance(v, list) else [] for k, v in filters.items()}
     terms = _fold(q).split()
-    hits = []
-    for r in RECORDS.values():
-        if terms and not all(t in r["_text"] for t in terms):
-            continue
-        if _matches(r, filters):
-            hits.append((sum(r["_text"].count(t) for t in terms), r))
+    found = [r for r in RECORDS.values() if not terms or all(t in r["_text"] for t in terms)]
+    hits = [(sum(r["_text"].count(t) for t in terms), r) for r in found if _matches(r, filters)]
     if sort == "date":
         hits.sort(key=lambda h: h[1]["metadata"].get("content_date") or "9999")
     elif sort == "title":
         hits.sort(key=lambda h: _fold(h[1]["metadata"]["title"]))
     else:
         hits.sort(key=lambda h: -h[0])
+    # Counts per OR facet ignore that facet's own flags, so every value shows how many results ticking it would add;
+    # in ALL_OF facets ticking narrows, so their counts are taken within the current results.
     facets = {k: Counter() for k in FACETS}
-    for _, r in hits:
-        for k, f in FACETS.items():
-            v = f(r)
-            for x in (v if isinstance(v, list) else [v]):
-                facets[k][x] += 1
+    for k, f in FACETS.items():
+        for r in found:
+            if _matches(r, filters, skip=None if k in ALL_OF else k):
+                v = f(r)
+                for x in (v if isinstance(v, list) else [v]):
+                    facets[k][x] += 1
     start = (max(1, page) - 1) * size
     return {"total": len(hits), "page": page, "size": size,
             "results": [_summary(r) for _, r in hits[start:start + size]],

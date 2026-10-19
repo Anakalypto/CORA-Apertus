@@ -38,7 +38,7 @@ python src/run.py all                             # rebuild everything from scra
 | Demonstration notebook | `notebooks/demo.ipynb` |
 | Verification against the Bern Stapfer-Enquête datafication | `docs/stapfer_verification.md`, `python src/run.py stapfer` |
 | Ask the archive (cited Q&A) and read-only MCP server | `/api/ask`, `src/mcp_server.py`, `docs/api.md` |
-| Trust card (Evidence / Context / Imagination) | record pages, `python src/run.py narrative` |
+| Trust card (Evidence / Context) | record pages, `python src/run.py narrative` |
 | Map time slider on swisstopo historical maps | *Map* page |
 | Federal consultations 1960–1991 with procedure chains | *Consultations* page, `python src/run.py consultations` |
 | Parliament since 1848 and every federal vote: party-cue estimate, related votes and "what if voted in year Y" (Apertus), e.g. women's suffrage 1971 vs 1959 | *Parliament & votes* page, `/api/votes` |

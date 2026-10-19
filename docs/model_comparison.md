@@ -25,7 +25,7 @@ Results: `data/eval200/model_comparison.json` (parsing) and `data/model_eval/<fe
 | **Audit, judgement checks** (persons, places, sensitivity) | none | — | — | 93–99 % agreement |
 | **Ask the archive**, 24 questions | known answer record | 100 % right record cited | 100 % right record cited | equal ⁴ |
 | | unanswerable questions refused | 8 / 8 | 8 / 8 in substance, 1 flag missing | equal ⁴ |
-| **Imagination** (trust card), 100 records | citation/support checks | 0 % unsourced, 22 % weak | 0 % unsourced, 24 % weak | equal |
+| **Imagination** (trust card, since removed), 100 records | citation/support checks | 0 % unsourced, 22 % weak | 0 % unsourced, 24 % weak | equal |
 | **What-if** party positions, 40 real votes (backtest) | real recommendations | 65.0 % | 61.4 % | **both below the naive baseline (71.7 %)** ⁵ |
 | **See more**, 30 records | citation check | 44 % unsourced | 53 % unsourced | 70B better; both high |
 | **Consultations tagging**, 100 procedures | none (agreement 74 %) | 3 off-list topics | 18 off-list topics | 70B better; rule-fixable ⁶ |
@@ -52,7 +52,7 @@ Results: `data/eval200/model_comparison.json` (parsing) and `data/model_eval/<fe
 
 ## What this means for deployment
 
-- **8B is enough** for the core parsing pass, the trust-card imagination and Ask the archive. These are the features a reader uses on every record, and 8B is 2–3× faster on all of them.
+- **8B is enough** for the core parsing pass and Ask the archive. These are the features a reader uses on every record, and 8B is 2–3× faster on all of them.
 - **70B is still worth it** for:
   - the source-level pass, where 8B misses most secondary sources;
   - long, messy transcriptions like the Stapfer sheets.
