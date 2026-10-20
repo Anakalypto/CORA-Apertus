@@ -126,10 +126,11 @@ async function loadCatalog(attempt = 0) {
 }
 
 function languageSwitch() {
-  const host = document.querySelector(".mainnav");
+  const host = document.querySelector(".topbar-tools") || document.querySelector(".mainnav");
   if (!host || host.querySelector(".lang-switch")) return;
-  // a menu of the main navigation like the others (app.js opens it), at the end of the row; each language is
-  // named in its own language, so the menu is never translated (.lang-switch is in KEEP)
+  // a menu like those of the main navigation (app.js opens it): at the end of the navigation row on wide screens,
+  // next to the menu button on small ones (style.css); each language is named in its own language, so the menu is
+  // never translated (.lang-switch is in KEEP)
   const box = document.createElement("div");
   box.className = "navmenu lang-switch";
   box.innerHTML = `<button type="button" class="navmenu-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language: ${LANG_NAMES[LANG]}">
@@ -144,7 +145,7 @@ function languageSwitch() {
     try { localStorage.setItem("cora.lang", a.dataset.lang); } catch { /* not remembered */ }
     location.reload();
   });
-  host.appendChild(box);
+  host.prepend(box);  // before the menu button
 }
 
 document.addEventListener("DOMContentLoaded", languageSwitch);

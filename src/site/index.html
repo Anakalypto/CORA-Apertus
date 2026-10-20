@@ -18,7 +18,12 @@
       <img class="brand-logo" src="assets/brand/coras-emblem-dark.png" alt="" width="84" height="48">
       <span class="brand-text"><b translate="no" aria-label="CORAS">COR<span class="brand-a">A</span>S</b><small translate="no">Collective Origins, Remembrance &amp; Archives of the Swiss</small></span>
     </a>
-    <nav class="mainnav">
+    <!-- language menu (i18n.js) and, on small screens, the menu button; placed by the header grid in style.css -->
+    <div class="topbar-tools">
+      <button type="button" class="navtoggle" aria-expanded="false" aria-controls="mainnav" aria-label="Menu">
+        <span class="navtoggle-bars" aria-hidden="true"></span><span class="navtoggle-label">Menu</span></button>
+    </div>
+    <nav class="mainnav" id="mainnav">
       <a href="#/search" data-nav="search">Browse</a>
       <a href="#/ask" data-nav="ask">Ask the archive</a>
       <a href="#/consultations" data-nav="consultations">Consultations</a>
@@ -38,7 +43,6 @@
           <a href="/docs" target="_blank" rel="noopener" role="menuitem">API</a>
         </div>
       </div>
-      <!-- the language menu (i18n.js) is added here, at the end of the row -->
     </nav>
   </div>
   <div class="searchband">

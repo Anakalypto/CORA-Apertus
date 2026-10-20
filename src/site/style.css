@@ -28,9 +28,14 @@ a:hover { text-decoration: underline; }
 
 /* Header */
 .topbar { background: var(--band); color: #fff; }
-/* two fixed rows: the brand, then the whole navigation with the language menu at its end */
-.topbar-inner { display: flex; flex-direction: column; align-items: stretch; gap: 8px; padding-top: 10px; padding-bottom: 6px; position: relative; }
-.brand { align-self: flex-start; }
+/* Header grid. Wide screens: the brand, then one row with the navigation and the language menu at its end.
+   Small screens (<= 900px): the brand with the language menu and a menu button; the navigation opens as a panel. */
+.topbar-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "brand brand" "nav tools";
+  align-items: center; column-gap: 12px; row-gap: 8px; padding-top: 10px; padding-bottom: 6px; }
+.brand { grid-area: brand; justify-self: start; min-width: 0; }
+.mainnav { grid-area: nav; }
+.topbar-tools { grid-area: tools; display: flex; align-items: center; gap: 4px; }
+.navtoggle { display: none; }
 .brand { display: flex; align-items: center; gap: 10px; color: #fff; }
 .brand:hover { text-decoration: none; }
 .brand-mark { width: 38px; height: 38px; display: grid; place-items: center; background: var(--accent); font: 700 22px var(--serif); }
@@ -42,7 +47,7 @@ a:hover { text-decoration: underline; }
 .brand-text small { color: #bdbdbd; font-size: 12px; }
 .footer-brand .brand-logo { height: 34px; }
 .footer-brand b { font: 800 20px var(--sans); letter-spacing: .08em; }
-.mainnav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; margin: 0 -12px; }
+.mainnav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; margin-left: -12px; min-width: 0; }
 .mainnav a { color: #e6e6e6; padding: 6px 12px; border-radius: 2px; font-size: 14px; }
 .mainnav a:hover, .mainnav a.active { background: #2b2b2b; color: #fff; text-decoration: none; }
 .navmenu { display: flex; flex: none; }
@@ -569,12 +574,6 @@ table.votes tr.on td { background: var(--accent-soft, #fbeaea); }
 /* Phones and small tablets */
 @media (max-width: 860px) {
   .topbar-inner { gap: 8px; }
-  .mainnav { flex-wrap: nowrap; overflow-x: auto; width: 100%; margin: 0 -16px; padding: 0 16px; width: calc(100% + 32px);
-             scrollbar-width: none; -webkit-overflow-scrolling: touch; }
-  .mainnav::-webkit-scrollbar { display: none; }
-  .mainnav a { white-space: nowrap; flex: none; }
-  /* the nav row scrolls sideways here: the language menu moves up to the brand row, so it is always in view */
-  .mainnav .lang-switch { position: absolute; top: 14px; right: 16px; margin: 0; }
   .searchband { padding: 8px 0; }
   .searchform button { padding: 0 16px; }
   main { padding: 16px 16px 40px; }
@@ -846,11 +845,53 @@ body.fit-page .inq-board { position: static; align-self: stretch; min-height: 0;
 }
 
 /* Language switch (i18n.js) */
-.mainnav .lang-switch { margin-left: auto; }
 .lang-switch .navmenu-btn { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.lang-list a { display: block; color: #e6e6e6; padding: 8px 12px; border-radius: 2px; font-size: 14px; white-space: nowrap; }
+.lang-list a:hover { background: #2b2b2b; color: #fff; text-decoration: none; }
 .lang-globe { font-size: 14px; line-height: 1; }
 .lang-list { min-width: 180px; }
-.mainnav .lang-list a { display: flex; gap: 10px; align-items: baseline; }
-.mainnav .lang-list a b { width: 24px; font: 600 12px var(--sans); color: #9a9a9a; }
-.mainnav .lang-list a.on { background: #2b2b2b; color: #fff; }
-.mainnav .lang-list a.on b { color: var(--accent); }
+.topbar .lang-list a { display: flex; gap: 10px; align-items: baseline; }
+.topbar .lang-list a b { width: 24px; font: 600 12px var(--sans); color: #9a9a9a; }
+.topbar .lang-list a.on { background: #2b2b2b; color: #fff; }
+.topbar .lang-list a.on b { color: var(--accent); }
+
+/* Medium screens: tighter items so the navigation and the language menu keep to one row */
+@media (max-width: 1080px) and (min-width: 901px) {
+  .mainnav a, .navmenu-btn { padding: 6px 8px; font-size: 13.5px; }
+  .mainnav { margin-left: -8px; }
+}
+/* Small screens: brand row with the language menu and a menu button; the navigation is a panel that opens below it */
+@media (max-width: 900px) {
+  .topbar-inner { grid-template-areas: "brand tools" "nav nav"; row-gap: 0; padding-bottom: 10px; }
+  .brand-logo { height: 38px; }
+  .brand-text b { font-size: 21px; }
+  .navtoggle { display: inline-flex; align-items: center; gap: 8px; background: none; border: 1px solid #444; color: #eee;
+    border-radius: 3px; padding: 6px 10px; font: 600 13px var(--sans); cursor: pointer; }
+  .navtoggle:hover, .topbar.nav-open .navtoggle { border-color: #888; color: #fff; background: #2b2b2b; }
+  .navtoggle-bars, .navtoggle-bars::before, .navtoggle-bars::after { display: block; width: 16px; height: 2px; background: currentColor;
+    border-radius: 1px; transition: transform .2s, opacity .2s; }
+  .navtoggle-bars { position: relative; }
+  .navtoggle-bars::before, .navtoggle-bars::after { content: ""; position: absolute; left: 0; }
+  .navtoggle-bars::before { top: -5px; } .navtoggle-bars::after { top: 5px; }
+  .topbar.nav-open .navtoggle-bars { background: transparent; }
+  .topbar.nav-open .navtoggle-bars::before { transform: translateY(5px) rotate(45deg); }
+  .topbar.nav-open .navtoggle-bars::after { transform: translateY(-5px) rotate(-45deg); }
+
+  .mainnav { display: none; flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 0; margin: 10px 0 0;
+    padding-top: 6px; border-top: 1px solid #333; max-height: calc(100dvh - 140px); overflow-y: auto; }
+  .topbar.nav-open .mainnav { display: flex; }
+  .mainnav a { padding: 11px 6px; font-size: 15px; border-radius: 0; }
+  /* the drop-downs of the navigation become labelled groups inside the panel */
+  .mainnav .navmenu { flex-direction: column; border-top: 1px solid #2a2a2a; margin-top: 4px; padding-top: 6px; }
+  .mainnav .navmenu-btn { pointer-events: none; text-align: left; padding: 6px 6px 2px; font: 600 11px var(--sans);
+    text-transform: uppercase; letter-spacing: .08em; color: #8f8f8f; background: none !important; }
+  .mainnav .navmenu-btn .caret { display: none; }
+  .mainnav .navmenu-list { position: static; visibility: visible; opacity: 1; transform: none; min-width: 0; padding: 0;
+    background: none; border: 0; box-shadow: none; }
+  .mainnav .navmenu-list a { padding: 10px 6px 10px 18px; }
+}
+@media (max-width: 420px) {
+  .navtoggle-label { display: none; }
+  .brand-logo { height: 34px; }
+  .brand-text b { font-size: 19px; }
+}

@@ -268,7 +268,17 @@ document.addEventListener("click", (e) => {
   btn.setAttribute("aria-expanded", "true");
   list.querySelector("a")?.focus({ preventScroll: true });
 });
-document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeNavMenus(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeNavMenus(); setNavPanel(false); } });
+
+/* Small screens: the menu button opens the navigation as a panel under the brand row (style.css, <= 900px). */
+function setNavPanel(open) {
+  const bar = $(".topbar"), btn = $(".navtoggle");
+  if (!bar || !btn) return;
+  bar.classList.toggle("nav-open", open);
+  btn.setAttribute("aria-expanded", String(open));
+}
+$(".navtoggle")?.addEventListener("click", () => setNavPanel(!$(".topbar").classList.contains("nav-open")));
+document.addEventListener("click", (e) => { if (!e.target.closest(".topbar")) setNavPanel(false); });
 addEventListener("scroll", closeNavMenus, { passive: true });
 addEventListener("resize", closeNavMenus);
 
@@ -1553,6 +1563,7 @@ async function route() {
   const parts = path.split("/").filter(Boolean);
   document.body.classList.remove("fit-page");
   document.body.classList.toggle("browse", parts[0] === "search");
+  setNavPanel(false);
   measureHeader();
   app.innerHTML = `<p class="muted"><span class="spinner"></span> Loading…</p>`;
   try {
