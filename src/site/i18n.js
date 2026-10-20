@@ -126,18 +126,24 @@ async function loadCatalog(attempt = 0) {
 }
 
 function languageSwitch() {
-  const host = document.querySelector(".topbar-inner");
+  const host = document.querySelector(".mainnav");
   if (!host || host.querySelector(".lang-switch")) return;
-  // one drop-down for every language: each name is written in its own language, so it is never translated
-  const box = document.createElement("label");
-  box.className = "lang-switch";
-  box.innerHTML = `<span class="lang-globe" aria-hidden="true">🌐</span><select aria-label="Language">${Object.entries(LANGS).map(([k, v]) =>
-    `<option value="${k}" lang="${k}"${k === LANG ? " selected" : ""}>${v} · ${LANG_NAMES[k]}</option>`).join("")}</select>`;
-  box.querySelector("select").onchange = (e) => {
-    if (e.target.value === LANG) return;
-    try { localStorage.setItem("cora.lang", e.target.value); } catch { /* not remembered */ }
+  // a menu of the main navigation like the others (app.js opens it), at the end of the row; each language is
+  // named in its own language, so the menu is never translated (.lang-switch is in KEEP)
+  const box = document.createElement("div");
+  box.className = "navmenu lang-switch";
+  box.innerHTML = `<button type="button" class="navmenu-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language: ${LANG_NAMES[LANG]}">
+      <span class="lang-globe" aria-hidden="true">🌐</span> ${LANGS[LANG]} <span class="caret" aria-hidden="true">▾</span></button>
+    <div class="navmenu-list lang-list" role="menu">${Object.entries(LANGS).map(([k, v]) =>
+      `<a href="#" role="menuitemradio" data-lang="${k}" lang="${k}" aria-checked="${k === LANG}" class="${k === LANG ? "on" : ""}"><b>${v}</b> ${LANG_NAMES[k]}</a>`).join("")}</div>`;
+  box.querySelector(".lang-list").addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-lang]");
+    if (!a) return;
+    e.preventDefault();
+    if (a.dataset.lang === LANG) return;
+    try { localStorage.setItem("cora.lang", a.dataset.lang); } catch { /* not remembered */ }
     location.reload();
-  };
+  });
   host.appendChild(box);
 }
 
