@@ -273,41 +273,61 @@ addEventListener("scroll", closeNavMenus, { passive: true });
 addEventListener("resize", closeNavMenus);
 
 /* ---------------- Home ---------------- */
+// The ways into CORAS: each one a different layer of the same history (documents, years, institutions, laws, families).
+const WAYS = [
+  ["#/history", "layers", "A year in context", "Pick a year: its key events, and every record of the archive that refers to them."],
+  ["#/parliament", "landmark", "Parliament & votes", "The National Council, Council of States and Federal Council seat by seat since 1848, and every federal vote."],
+  ["#/consultations", "scale", "Consultations 1960–1991", "What became of 569 federal proposals: adopted, accepted or rejected by the people."],
+  ["#/oral", "book", "Oral tradition", "Start from a family name and a place of origin, and see the world of your ancestors from the 1799 school survey on."],
+  ["#/search", "map", "Browse the records", "Search the documents and place them on swisstopo's historical maps, from 1914 glass plates to television news."],
+  ["#/ask", "pen", "Ask the archive", "Ask a question in your language; Apertus answers from the records and cites every claim."],
+];
+
 async function home() {
   setNav("");
-  const s = await api("/api/stats");
-  const q = s.qc || {};
+  const [s, cons, votes] = await Promise.all([api("/api/stats"), (CONS ? Promise.resolve(CONS) : api("/api/consultations")).catch(() => null),
+    (VOTES ? Promise.resolve(VOTES) : api("/api/votes")).catch(() => null)]);
+  if (cons) CONS = cons;
+  if (votes) VOTES = votes;
   const all = (await api("/api/records?size=100&sort=date")).results;
   const byType = {};
   all.forEach((r) => (byType[r.document_type] ||= []).push(r));
   const featured = [];
-  for (let i = 0; featured.length < 8 && i < 8; i++) Object.values(byType).forEach((g) => g[i] && featured.length < 8 && featured.push(g[i]));
-  const pop = s.population || {};
+  for (let i = 0; featured.length < 6 && i < 8; i++) Object.values(byType).forEach((g) => g[i] && featured.length < 6 && featured.push(g[i]));
+  const nVotes = votes && votes.votes ? votes.votes.length : null;
   app.innerHTML = `
-    <section class="hero">
-      <div>
-        <h1>${s.records} sources of the Swiss Federal Archives, read by Apertus</h1>
-        <p>Every record was drawn at random from the item-level documents of the <em>Archive database of the Swiss Federal Archives</em>
-        (opendata.swiss). Apertus v1.5, Switzerland's open language model, wrote a résumé of each, typed it as a primary,
-        secondary or tertiary source, completed its metadata, assessed the preprocessing it needs and traced its story on a map.
-        Each value shows where it came from: <span class="pv pv-record">record</span><span class="pv pv-derived">derived</span><span class="pv pv-apertus">apertus</span><span class="pv pv-gazetteer">gazetteer</span><span class="pv pv-wikidata">wikidata</span></p>
-        <p class="small muted">A stratified random sample (seed 42) of 100 item-level documents from ${(pop.all_records || 263123).toLocaleString("en")}
-        (40 audiovisual · 30 still images · 30 other), plus 200 textual dossiers chosen as secondary (60 press, 40 studies) and tertiary (100 registers, indexes) sources,
-        85 % of them from before 1940.</p>
-      </div>
-      <div class="stats">
-        <div class="stat"><b>${s.records}</b><span>documents classified</span></div>
-        <div class="stat"><b>${q.processed_ok_pct ?? "–"}%</b><span>processed without error</span></div>
-        <div class="stat"><b>${q.entity_grounding_strict_pct ?? "–"}%</b><span>named entities literally in the source (${q.entity_grounding_pct ?? "–"}% incl. translations)</span></div>
-        <div class="stat"><b>${q.structural_error_pct ?? "–"}%</b><span>structural errors</span></div>
+    <section class="home-hero">
+      <img class="home-logo" src="assets/brand/coras-logo.webp" alt="CORAS: Collective Origins, Remembrance &amp; Archives of the Swiss" width="1254" height="1254">
+      <div class="home-intro">
+        <h1>Swiss history, told by its archives</h1>
+        <p class="lede">CORAS opens the Swiss Federal Archives to everyone who wants to understand Swiss history and political history.
+          A document never stands alone here: it sits among the events, debates, laws, votes, places and people of its time,
+          layered on one map and one timeline, so history reads as the meeting of many stories.</p>
+        <div class="home-ctas"><a class="btn-primary" href="#/ask">Ask the archive</a><a class="btn-secondary" href="#/history">Explore a year</a><a class="btn-secondary" href="#/search">Browse the records</a></div>
+        <p class="small muted">Read and linked by Apertus, the open Swiss language model. Every sentence it writes cites its sources; what it cannot source is marked as inferred.</p>
       </div>
     </section>
-    <h2>Browse by document type</h2>
-    <div class="tiles">${s.facets.document_type.map(([k, n]) => `<a class="tile" href="#/search?document_type=${encodeURIComponent(k)}"><b>${icon(TYPE_ICON[k] || "file")} ${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
-    <h2>By fonds</h2>
-    <div class="tiles">${s.facets.fonds.slice(0, 8).map(([k, n]) => `<a class="tile" href="#/search?fonds=${encodeURIComponent(k)}"><b>${esc(k)}</b><span>${n} document${n > 1 ? "s" : ""}</span></a>`).join("")}</div>
-    <h2>A few documents</h2>
-    <div class="grid-cards">${featured.map((r) => `<a class="card" href="#/record/${r.id}">${cover(r)}<div class="t">${esc((LANG === "en" && r.title_en) || r.title)}</div><div class="small muted">${fmtDate(r.date)}</div></a>`).join("")}</div>`;
+    <h2>Ways into Swiss history</h2>
+    <div class="ways">${WAYS.map(([href, ic, title, text]) => `<a class="way" href="${href}"><span class="way-ic" aria-hidden="true">${icon(ic)}</span>
+      <b>${esc(title)}</b><span>${esc(text)}</span><span class="way-go" aria-hidden="true">→</span></a>`).join("")}</div>
+    <div class="home-figures">
+      <div><b>${s.records}</b><span>archive records read by Apertus</span></div>
+      <div><b>${cons ? cons.length : "569"}</b><span>federal consultations with their outcome</span></div>
+      <div><b>${nVotes ?? "–"}</b><span>federal votes since 1848</span></div>
+      <div><b>1799</b><span>school survey (Stapfer-Enquête) as a starting point for local history</span></div>
+    </div>
+    <h2>Built to be trusted</h2>
+    <div class="trust3">
+      <section><h3>Cited, never invented</h3><p>Every generated sentence names the record, act, vote or article it relies on. Primary, secondary and tertiary
+        sources are told apart, and each value shows where it came from. The method and its error rates are published on the <a href="#/quality">quality page</a>.</p></section>
+      <section><h3>Swiss and sovereign</h3><p>Apertus, run on Swiss infrastructure (CSCS); maps by swisstopo; photographs from the ETH Library; laws from Fedlex;
+        records of the Federal Archives through LINDAS. CORAS runs on-premise or on a Swiss cloud, and can be set up to run without an internet connection.</p></section>
+      <section><h3>Open by design</h3><p>Built only on open data: opendata.swiss, parlament.ch, Swissvotes (University of Bern), the Federal Statistical Office, Wikidata.
+        No proprietary AI model, no scraping. The code is open source under the Apache 2.0 licence: <a href="https://github.com/Anakalypto/CORA-Apertus" target="_blank" rel="noopener">GitHub ↗</a>.</p></section>
+    </div>
+    <h2>From the archive</h2>
+    <div class="grid-cards">${featured.map((r) => `<a class="card" href="#/record/${r.id}">${cover(r)}<div class="t">${esc((LANG === "en" && r.title_en) || r.title)}</div><div class="small muted">${fmtDate(r.date)}</div></a>`).join("")}</div>
+    <p><a href="#/search">See all ${s.records} records →</a></p>`;
 }
 
 /* ---------------- Search: Gallica-style bar, filter flags and sort next to the search field ---------------- */
@@ -1111,7 +1131,7 @@ async function askPage(params) {
     $("#casetab").textContent = `Case file Nº ${c.turns.length ? caseNumber(c) : "— new —"}${c.turns.length ? ` · opened ${openedOn(c)} · ${c.turns.length} inquir${c.turns.length === 1 ? "y" : "ies"}` : ""}`;
     $("#caselabel").textContent = c.turns.length ? "Next line of inquiry" : "Line of inquiry";
     ta.placeholder = c.turns.length ? "Follow up: ask about a person, a place, the context…" : "e.g. What do the records show about Swiss football abroad?";
-    $("#casefoot").textContent = c.turns.length ? "Follow-ups use the whole case so far" : `Opened ${openedOn(c)} · Investigator: you · Holdings: the classified records of CORA and Wikipedia`;
+    $("#casefoot").textContent = c.turns.length ? "Follow-ups use the whole case so far" : `Opened ${openedOn(c)} · Investigator: you · Holdings: the classified records of CORAS and Wikipedia`;
     thread.innerHTML = c.turns.map((t, i) => deskReport(t, i + 1, c)).join("");
     const last = c.turns.at(-1)?.response;
     const leads = last?.follow_ups?.length ? last.follow_ups : c.turns.length ? [] : starters;
@@ -1258,7 +1278,7 @@ async function consultationsPage(params) {
     </article>`;
   };
   app.innerHTML = `<h1>Federal consultations 1960–1991</h1>
-    <p class="muted">${rows.length} consultation procedures of the Federal Chancellery (opendata.swiss). For each one, CORA shows what became of it: the popular vote it led to (Swissvotes)
+    <p class="muted">${rows.length} consultation procedures of the Federal Chancellery (opendata.swiss). For each one, CORAS shows what became of it: the popular vote it led to (Swissvotes)
       or the act published in the Official Compilation of federal law (Fedlex). Topics, entities and every match are checked by Apertus ${pv("apertus")}.</p>
     <details class="small muted cons-how"><summary>How the outcome is determined</summary>
       <p>Candidates are proposed by title overlap: for votes within 15 years of the consultation, for acts within 12 years and of the same kind
