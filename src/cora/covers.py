@@ -88,7 +88,8 @@ def candidates(rec: dict, ua: str, cache: Path) -> list[dict]:
     return found
 
 
-def pick(rec: dict, ua: str, cache: Path) -> dict | None:
+def pick(rec: dict, ua: str, cache: Path, used: set = frozenset()) -> dict | None:
+    """The best period photo for one record; `used` holds files already given to other records (each cover is used once)."""
     year = record_year(rec)
     if year is None or year + MAX_GAP < 1839:  # no photograph can be of its time
         return None
@@ -97,7 +98,7 @@ def pick(rec: dict, ua: str, cache: Path) -> dict | None:
     best = None
     for c in cands:
         x = info.get(c["title"])
-        if not x:
+        if not x or c["title"][5:] in used:
             continue
         meta = x["ii"].get("extmetadata") or {}
         lic = _plain((meta.get("LicenseShortName") or {}).get("value"))
@@ -105,9 +106,12 @@ def pick(rec: dict, ua: str, cache: Path) -> dict | None:
             continue
         eth = "ETH-Bibliothek" in c["title"] or "ETH-Bibliothek" in _plain((meta.get("Credit") or {}).get("value")) \
             or "ETH-Bibliothek" in _plain((meta.get("Artist") or {}).get("value"))
-        if not c["place"]:  # found by a subject: the file itself must name it (full-text hits can be anything)
-            about = (c["title"] + " " + _plain((meta.get("ImageDescription") or {}).get("value"))).lower()
-            if c["label"].lower() not in about:
+        if not c["place"]:  # found by a subject: only a named subject ("AlpTransit", "World War I"), never a genre or
+            # topic word ("administration", "obituaries") or a bare date, and the file's own title must name it;
+            # descriptions and full-text hits match far too loosely (a Brighton beach for "Hiroshima")
+            if not re.match(r"[A-ZÄÖÜ]", c["label"]) or re.fullmatch(r"[\d\s\-–]+|\d+(st|nd|rd|th) century", c["label"]):
+                continue
+            if not re.search(rf"(?<![\w]){re.escape(c['label'])}(?![\w])", c["title"], re.I):  # whole words: not "GATS" in "4Gats"
                 continue
         py = _photo_year(meta, c["title"], eth)
         if py is None or not year <= py <= year + MAX_GAP:  # same time or shortly after, never before
@@ -136,7 +140,7 @@ def run(cfg):
     covers = {}
     for i, r in enumerate(recs, 1):
         try:
-            c = pick(r, ua, cache)
+            c = pick(r, ua, cache, {v['file'] for v in covers.values()})
         except Exception as e:  # one failing look-up must not stop the run; the record keeps the typed cover
             print(f"  {r['id']}: {e}")
             c = None

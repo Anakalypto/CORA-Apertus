@@ -62,3 +62,6 @@ data/batch10k/
 # Consultation outcomes: Fedlex download (python src/run.py outcomes refetches it) and on-demand context
 data/consultations/fedlex_acts.json
 data/consultations/context_cache/
+
+# Commons look-ups of the cover stage (covers.py; ~200 MB, rebuilt by python src/run.py covers)
+data/covers_cache/
